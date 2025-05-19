@@ -4,3 +4,4 @@ db/awesomer.sqlite3
 config/master.key
 log/*.log
 storage/*.sqlite3
+.env.*local
