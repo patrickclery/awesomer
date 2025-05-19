@@ -34,10 +34,17 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem "rubocop-rails"
+  gem "rubocop-performance"
+  gem "rubocop-rspec"
+  gem "rubocop-factory_bot"
+  gem "rubocop-obsession"
+  gem "rubocop-rake"
+  gem "sevencop"
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem 'annotaterb', github: 'drwl/annotaterb'
+  gem "annotaterb", github: "drwl/annotaterb"
 end

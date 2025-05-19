@@ -6,3 +6,110 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 # # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
 # Layout/SpaceInsideArrayLiteralBrackets:
 #   Enabled: false
+
+plugins:
+  - rubocop-obsession
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - sevencop
+
+Layout/ClassStructure:
+  AutoCorrect: true
+  Categories:
+    association:
+      - has_many
+      - has_one
+    attribute_macros:
+      - attr_accessor
+      - attr_reader
+      - attr_writer
+    macros:
+      - validates
+      - validate
+    module_inclusion:
+      - include
+      - prepend
+      - extend
+  Enabled:     true
+  Severity:    warning
+  ExpectedOrder:
+    - module_inclusion
+    - constants
+    - association
+    - public_attribute_macros
+    - public_delegate
+    - macros
+    - public_class_methods
+    - initializer
+    - public_methods
+    - protected_attribute_macros
+    - protected_methods
+    - constants
+    - private_attribute_macros
+    - private_delegate
+    - private_methods
+
+Layout/ExtraSpacing:
+  Enabled: true
+  ForceEqualSignAlignment: false
+  AllowForAlignment: true
+Layout/HashAlignment:
+  EnforcedHashRocketStyle:
+    - key
+  EnforcedColonStyle:
+    - key
+Layout/MultilineHashKeyLineBreaks: { Enabled: true, AutoCorrect: false}
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: always
+
+Sevencop/MethodDefinitionArgumentsMultiline:     { Enabled: false }
+Sevencop/MethodDefinitionInIncluded:             { Enabled: true }
+Sevencop/MethodDefinitionKeywordArgumentOrdered: { Enabled: true }
+Sevencop/MethodDefinitionOrdered:                { Enabled: false }
+Sevencop/RSpecDescribeHttpEndpoint:              { Enabled: true }
+Sevencop/RSpecEmptyLineAfterLet:                 { Enabled: false }
+Sevencop/RSpecExamplesInSameGroup:               { Enabled: true }
+Sevencop/RSpecMatcherConsistentParentheses:      { Enabled: true }
+Sevencop/RSpecMemoizedHelperBlockDelimiter:      { Enabled: false }
+Sevencop/RSpecRailsStatusCodeCheckBySubject:     { Enabled: true }
+
+Sevencop/HashElementOrdered:
+  Enabled: true
+  Safe: false
+  Exclude:
+    - config/routes.rb
+
+Obsession/MethodOrder:                { Enabled: true, Severity: warning }
+Obsession/Rails/ServiceName:          { Enabled: false }
+Obsession/Rails/ServicePerformMethod: { Enabled: false }
+RSpec/AlignLeftLetBrace:              { Enabled: false}
+RSpec/AlignRightLetBrace:             { Enabled: false}
+RSpec/AnyInstance:                    { Enabled: true, Severity: warning }
+RSpec/AroundBlock:                    { Enabled: true}
+RSpec/ContextWording:                 { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/EmptyLineAfterFinalLet:         { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/EmptyLineAfterHook:             { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/EmptyLineAfterSubject:          { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/ExampleLength:                  { Enabled: false}
+RSpec/ExampleWording:                 { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/ExpectChange:                   { Enabled: false}
+RSpec/ExpectInHook:                   { Enabled: false }
+RSpec/ImplicitSubject:                { Enabled: false}
+RSpec/IndexedLet:                     { Enabled: false}
+RSpec/LeadingSubject:                 { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/LetBeforeExamples:              { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/LetSetup:                       { Enabled: false}
+RSpec/MatchArray:                     { Enabled: false}
+RSpec/MessageSpies:                   { Enabled: false}
+RSpec/MetadataStyle:                  { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/MultipleExpectations:           { Enabled: false}
+RSpec/MultipleMemoizedHelpers:        { Enabled: false}
+RSpec/NamedSubject:                   { Enabled: false}
+RSpec/NestedGroups:                   { Enabled: false}
+RSpec/PendingWithoutReason:           { Enabled: true, Severity: warning , AutoCorrect: false}
+RSpec/ReceiveCounts:                  { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/ScatteredLet:                   { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/SortMetadata:                   { Enabled: true, AutoCorrect: true, Severity: warning }
+RSpec/StubbedMock:                    { Enabled: false}
