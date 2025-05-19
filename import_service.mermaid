@@ -1,0 +1,17 @@
+sequenceDiagram
+  participant Caller
+  participant ImportRepo
+  participant FetchReadme
+  participant ParseReadme
+  participant PersistList
+  participant ExportList
+
+  Caller->>ImportRepo: call(repo_name)
+  ImportRepo->>FetchReadme: fetch README.md
+  FetchReadme->>ImportRepo: path to tmp/cagefigter__awesome-piracy.md
+  ImportRepo->>ParseReadme: parse README file
+  ParseReadme->>ImportRepo: JSON
+  ImportRepo->>PersistList: persist(JSON)
+  ImportRepo->>ExportList: export(JSON)
+  ExportList->>ImportRepo: path to static/md/by-stars/cagefigter__awesome-piracy.md
+  ImportRepo->>Caller: result (persisted + exported) 
