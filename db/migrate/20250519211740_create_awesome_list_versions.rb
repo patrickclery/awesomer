@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateAwesomeListVersions < ActiveRecord::Migration[8.0]
   def change
     create_table :awesome_list_versions do |t|

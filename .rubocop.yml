@@ -14,6 +14,8 @@ plugins:
   - rubocop-rspec
   - sevencop
 
+Style/FrozenStringLiteralComment:
+  Enabled: true
 Layout/ClassStructure:
   AutoCorrect: true
   Categories:
@@ -82,6 +84,7 @@ Sevencop/HashElementOrdered:
     - config/routes.rb
 
 Obsession/MethodOrder:                { Enabled: true, Severity: warning }
+Obsession/Rails/MigrationBelongsTo:   { Enabled: true, Severity: warning, AutoCorrect: true, Safe: true }
 Obsession/Rails/ServiceName:          { Enabled: false }
 Obsession/Rails/ServicePerformMethod: { Enabled: false }
 RSpec/AlignLeftLetBrace:              { Enabled: false}
