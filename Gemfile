@@ -69,8 +69,8 @@ gem "octokit"
 
 gem "dry-monads", "~> 1.8"
 
-gem 'neatjson'
+gem "neatjson"
 
-gem 'to_bool'
+gem "to_bool"
 
-gem 'faraday-retry'
+gem "faraday-retry"
