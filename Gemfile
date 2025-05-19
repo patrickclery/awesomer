@@ -64,3 +64,7 @@ group :test do
   gem "faker"
   gem "super_diff"
 end
+
+gem "octokit"
+
+gem "dry-monads", "~> 1.8"
