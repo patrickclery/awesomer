@@ -6,6 +6,8 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 # # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
 # Layout/SpaceInsideArrayLiteralBrackets:
 #   Enabled: false
+AllCops:
+  NewCops: enable
 
 plugins:
   - rubocop-obsession
@@ -84,7 +86,7 @@ Sevencop/HashElementOrdered:
     - config/routes.rb
 
 Obsession/MethodOrder:                { Enabled: true, Severity: warning }
-Obsession/Rails/MigrationBelongsTo:   { Enabled: true, Severity: warning, AutoCorrect: true, Safe: true }
+Obsession/Rails/MigrationBelongsTo:   { Enabled: true, Severity: warning, AutoCorrect: true }
 Obsession/Rails/ServiceName:          { Enabled: false }
 Obsession/Rails/ServicePerformMethod: { Enabled: false }
 RSpec/AlignLeftLetBrace:              { Enabled: false}
