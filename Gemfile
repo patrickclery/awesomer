@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -34,10 +36,31 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem "rubocop-rails"
+  gem "rubocop-performance"
+  gem "rubocop-rspec"
+  gem "rubocop-factory_bot"
+  gem "rubocop-obsession"
+  gem "rubocop-rake"
+  gem "sevencop"
+
+  gem "rspec-rails"
+  gem "factory_bot_rails"
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem 'annotaterb', github: 'drwl/annotaterb'
+  gem "annotaterb", github: "drwl/annotaterb"
+end
+
+gem "dry-auto_inject"
+gem "dry-container"
+
+group :test do
+  gem "webmock"
+  gem "simplecov", require: false
+  gem "vcr"
+  gem "faker"
+  gem "super_diff"
 end
