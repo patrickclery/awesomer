@@ -1,0 +1,41 @@
+erDiagram
+  AwesomeList {
+    string id PK
+    string name
+    string description
+    string github_repo
+    datetime created_at
+    datetime updated_at
+  }
+  AwesomeListVersion {
+    string id PK
+    string awesome_list_id FK
+    integer stars
+    integer commits_past_year
+    datetime last_commit_at
+    integer repo_count
+    integer category_count
+    datetime created_at
+    datetime updated_at
+  }
+  Category {
+    string id PK
+    string awesome_list_version_id FK
+    string parent_id FK
+    string name
+    integer repo_count
+    datetime created_at
+    datetime updated_at
+  }
+  RepoStats {
+    string id PK
+    string awesome_list_version_id FK
+    integer stars
+    integer commits_past_year
+    datetime last_commit_at
+  }
+
+  AwesomeList ||--o{ AwesomeListVersion : has
+  AwesomeListVersion ||--o{ RepoStats : has
+  AwesomeListVersion ||--o{ Category : has
+  Category ||--o{ Category : parent 
