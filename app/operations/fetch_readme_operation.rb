@@ -4,6 +4,7 @@ require "net/http"
 require "uri"
 require "json"
 require "base64"
+require "time" # Ensure Time is available for parsing
 
 class FetchReadmeOperation
   include Dry::Monads[:result, :do]
@@ -14,10 +15,25 @@ class FetchReadmeOperation
   def call(repo_identifier:)
     owner, repo_name = yield parse_repo_identifier(repo_identifier)
 
-    readme_data = yield fetch_readme_from_github(owner:, repo_name:)
-    decoded_content = yield decode_readme_content(content: readme_data["content"], encoding: readme_data["encoding"])
+    # Fetch general repo data first for description and default branch (if needed for README path)
+    repo_data = yield fetch_repo_data(owner:, repo_name:)
+    repo_main_description = repo_data["description"]
+    # default_branch = repo_data['default_branch'] # Could be used if README path needs branch
 
-    Success(decoded_content)
+    readme_api_response = yield fetch_readme_from_github(owner:, repo_name:)
+    readme_filename = readme_api_response["name"]
+    decoded_content = yield decode_readme_content(content: readme_api_response["content"], encoding: readme_api_response["encoding"])
+
+    readme_last_commit_date = yield fetch_readme_last_commit_date(owner:, readme_path: readme_filename, repo_name:)
+
+    Success({
+      content: decoded_content,
+      last_commit_at: readme_last_commit_date,
+      name: readme_filename,
+      owner:,
+      repo: repo_name,
+      repo_description: repo_main_description
+    })
   end
 
   private
@@ -31,6 +47,29 @@ class FetchReadmeOperation
     else
       Failure("Invalid GitHub repository identifier: #{identifier}. Expected 'owner/repo' or full URL.")
     end
+  end
+
+  def fetch_repo_data(owner:, repo_name:)
+    uri = URI.parse("#{GITHUB_API_BASE_URL}/#{owner}/#{repo_name}")
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = (uri.scheme == "https")
+
+    request = Net::HTTP::Get.new(uri.request_uri)
+    request["User-Agent"] = "AwesomeListDetailsFetcher/1.0"
+    request["Accept"] = "application/vnd.github.v3+json"
+    # Add Authorization header if GITHUB_TOKEN is available for higher rate limits
+    # request['Authorization'] = "token #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
+
+    response = http.request(request)
+
+    case response
+    when Net::HTTPSuccess
+      Success(JSON.parse(response.body))
+    else
+      Failure("Failed to fetch repo data for #{owner}/#{repo_name}: #{response.code} #{response.message}")
+    end
+  rescue StandardError => e
+    Failure("Error fetching repo data for #{owner}/#{repo_name}: #{e.message}")
   end
 
   def fetch_readme_from_github(owner:, repo_name:)
@@ -77,5 +116,37 @@ class FetchReadmeOperation
     Success(decoded_string)
   rescue ArgumentError => e # For invalid base64
     Failure("Failed to decode base64 content for README: #{e.message}")
+  end
+
+  def fetch_readme_last_commit_date(owner:, readme_path:, repo_name:)
+    return Success(nil) if readme_path.blank? # No path, no commit date
+    uri = URI.parse("#{GITHUB_API_BASE_URL}/#{owner}/#{repo_name}/commits?path=#{CGI.escape(readme_path)}&page=1&per_page=1")
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = (uri.scheme == "https")
+
+    request = Net::HTTP::Get.new(uri.request_uri)
+    request["User-Agent"] = "AwesomeListReadmeFetcher/1.0"
+    request["Accept"] = "application/vnd.github.v3+json"
+    # Add Authorization header if GITHUB_TOKEN is available for higher rate limits
+    # request['Authorization'] = "token #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
+
+    response = http.request(request)
+
+    case response
+    when Net::HTTPSuccess
+      commits_data = JSON.parse(response.body)
+      if commits_data.is_a?(Array) && commits_data.first && commits_data.first.dig("commit", "committer", "date")
+        Success(Time.parse(commits_data.first["commit"]["committer"]["date"]))
+      else
+        Success(nil) # No commit data found for the README path
+      end
+    else
+      # Don't make this a hard failure for the whole operation, just return nil for commit date
+      puts "WARN: Could not fetch last commit date for README '#{readme_path}' in #{owner}/#{repo_name}: #{response.code}"
+      Success(nil)
+    end
+  rescue StandardError => e # Catch broader errors, return nil for commit date
+    puts "WARN: Error fetching last commit date for README '#{readme_path}' in #{owner}/#{repo_name}: #{e.message}"
+    Success(nil)
   end
 end

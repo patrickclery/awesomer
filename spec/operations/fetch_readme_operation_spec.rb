@@ -2,50 +2,53 @@
 
 require 'rails_helper'
 
-RSpec.describe FetchReadmeOperation, :vcr do # Apply VCR to all examples
+RSpec.describe FetchReadmeOperation, :vcr do
   include Dry::Monads[:result]
-
   subject(:operation) { described_class.new }
 
-  context 'with a valid repo_identifier (owner/repo)' do
-    # Using a known public repo that is unlikely to disappear or change its README drastically
-    let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
+  # Using Polycarbohydrate/awesome-tor as the primary test target for VCR
+  let(:repo_identifier_owner_repo) { 'Polycarbohydrate/awesome-tor' }
+  let(:repo_identifier_url) { 'https://github.com/Polycarbohydrate/awesome-tor' }
+  let(:cassette_name_awesome_tor) { 'github/polycarbohydrate_awesome-tor_details' } # Single cassette for all data for this repo
 
-    it 'fetches and decodes the README content successfully' do
-      VCR.use_cassette('github/polycarbohydrate_awesome-tor') do
-        result = operation.call(repo_identifier:)
+  shared_examples 'a successful README fetch' do |identifier_type|
+    let(:current_repo_identifier) { identifier_type == :owner_repo ? repo_identifier_owner_repo : repo_identifier_url }
+    it 'fetches readme, commit date, description, and repo details successfully' do
+      VCR.use_cassette(cassette_name_awesome_tor, record: :once) do # record: :once to capture all calls first time
+        result = operation.call(repo_identifier: current_repo_identifier)
         expect(result).to be_success
-        expect(result.value!).to be_a(String)
-        expect(result.value!.downcase).to include("awesome-tor")
+
+        data = result.value!
+        expect(data).to be_a(Hash)
+        expect(data[:content]).to be_a(String).and(include("awesome-tor"))
+        expect(data[:name]).to match(/README/i) # README.md, README.rst etc.
+        expect(data[:owner].downcase).to eq('polycarbohydrate')
+        expect(data[:repo].downcase).to eq('awesome-tor')
+        expect(data[:repo_description]).to be_a(String) # Or be_nil if repo has no description
+        # Last commit date can be Time or nil if not found/error
+        expect(data[:last_commit_at]).to (be_a(Time).or be_nil), \
+          "Expected last_commit_at to be a Time or nil, got: #{data[:last_commit_at].class} (#{data[:last_commit_at]})"
       end
     end
+  end
+
+  context 'with a valid repo_identifier (owner/repo)' do
+    it_behaves_like 'a successful README fetch', :owner_repo
   end
 
   context 'with a valid GitHub URL' do
-    let(:repo_identifier) { 'https://github.com/Polycarbohydrate/awesome-tor' }
-
-    it 'fetches and decodes the README content successfully' do
-      VCR.use_cassette('github/polycarbohydrate_awesome-tor') do
-        result = operation.call(repo_identifier:)
-        expect(result).to be_success
-        expect(result.value!).to be_a(String)
-        expect(result.value!.downcase).to include("awesome-tor")
-      end
-    end
+    it_behaves_like 'a successful README fetch', :url
   end
 
-  context 'with a repository that has no README' do
-    # Note: Finding a repo guaranteed to *never* have a README is tricky.
-    # This test might become fragile or need a dedicated test repo.
-    # For now, we'll use a less common repo or a non-existent one for the cassette.
-    # The GitHub API returns 404 if a README isn't found at the default path.
-    let(:repo_identifier) { 'empty-owner/empty-repo-for-readme-test' } # This repo should not exist
+  context 'with a repository that has no README or does not exist' do
+    let(:repo_identifier) { 'empty-owner/empty-repo-that-does-not-exist' }
 
-    it 'returns a Failure' do
-      VCR.use_cassette('github/empty-owner_empty-repo-for-readme-test') do
+    it 'returns a Failure (likely from repo_data or readme fetch)' do
+      VCR.use_cassette('github/empty-owner_empty-repo-for-readme-test_details') do
         result = operation.call(repo_identifier:)
         expect(result).to be_failure
-        expect(result.failure).to eq("README not found for repository: empty-owner/empty-repo-for-readme-test")
+        # Error could be from fetch_repo_data or fetch_readme_from_github
+        expect(result.failure).to match(/Failed to fetch repo data|README not found/)
       end
     end
   end
@@ -54,55 +57,42 @@ RSpec.describe FetchReadmeOperation, :vcr do # Apply VCR to all examples
     let(:repo_identifier) { 'invalid_repo_id' }
 
     it 'returns a Failure' do
-      # No VCR needed as it fails before API call
       result = operation.call(repo_identifier:)
       expect(result).to be_failure
       expect(result.failure).to eq("Invalid GitHub repository identifier: #{repo_identifier}. Expected 'owner/repo' or full URL.")
     end
   end
 
-  # Removed VCR for this context to directly mock Net::HTTP
-  context 'when GitHub API returns an error (e.g., server error)' do
+  context 'when GitHub API for repo data returns an error' do
     let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
-    let(:http_double) { instance_double(Net::HTTP) }
-    let(:error_response) do
-      instance_double(Net::HTTPInternalServerError,
-                      body: "{\"message\": \"Server Error\"}",
-                      code: "500",
-                      message: "Internal Server Error")
-    end
 
     before do
-      allow(Net::HTTP).to receive(:new).and_return(http_double)
-      allow(http_double).to receive(:use_ssl=)
-      allow(http_double).to receive(:request).and_return(error_response)
+      # Mock failure specifically for the fetch_repo_data call
+      allow(operation).to receive(:fetch_repo_data).with(owner: 'Polycarbohydrate', repo_name: 'awesome-tor')
+        .and_return(Failure("Simulated API error fetching repo data"))
     end
 
-    it 'returns a Failure with the API error' do
+    it 'returns the specific Failure' do
       result = operation.call(repo_identifier:)
       expect(result).to be_failure
-      expect(result.failure).to match(%r{GitHub API request for README failed for Polycarbohydrate/awesome-tor: 500 Internal Server Error})
+      expect(result.failure).to eq("Simulated API error fetching repo data")
     end
   end
 
-  context 'when network error occurs' do
+  context 'when fetching README last commit date returns nil (graceful failure)' do
     let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
 
     before do
-      allow_any_instance_of(Net::HTTP).to receive(:request).and_raise(SocketError.new("Failed to open TCP connection"))
+      # Mock other calls to succeed
+      # Mock this specific method to return Success(nil) as it does on error
+      allow(operation).to receive_messages(decode_readme_content: Success("decoded content"), fetch_readme_from_github: Success({'content' => Base64.encode64("content"), 'encoding' => 'base64', 'name' => 'README.md'}), fetch_readme_last_commit_date: Success(nil), fetch_repo_data: Success({'description' => 'Test Desc'}), parse_repo_identifier: Success([ "Polycarbohydrate", "awesome-tor" ]))
     end
 
-    it 'returns a Failure' do
-      # VCR might not be ideal here as we are testing a low-level network error simulation.
-      # If VCR is on, it might try to play back a cassette. We want to force the SocketError.
-      # Forcing VCR off for this specific example might be an option, or ensure WebMock raises.
-      # WebMock.disable_net_connect!(allow_localhost: true) is usually active with VCR.
-
-      # This will run without VCR recording if `allow_http_connections_when_no_cassette = false` (default VCR)
-      # and no cassette matches. The mock will take effect.
+    it 'succeeds overall but last_commit_at is nil' do
       result = operation.call(repo_identifier:)
-      expect(result).to be_failure
-      expect(result.failure).to include("Network error while fetching README for Polycarbohydrate/awesome-tor: Failed to open TCP connection")
+      expect(result).to be_success
+      expect(result.value![:last_commit_at]).to be_nil
+      expect(result.value![:content]).to eq("decoded content")
     end
   end
 end
