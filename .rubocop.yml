@@ -1,11 +1,234 @@
 # Omakase Ruby styling for Rails
 inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 
-# Overwrite or add rules to create your own house style
-#
-# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
-# Layout/SpaceInsideArrayLiteralBrackets:
-#   Enabled: false
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
+
+Layout/FirstArrayElementIndentation:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+  Exclude:
+    - "app/activities/rules/shift_validation/shift_rest_time_rule.rb"
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
+Style/AccessorGrouping:
+  Enabled: false
+
+Style/BisectedAttrAccessor:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/RedundantAssignment:
+  Enabled: true
+
+Style/RedundantFetchBlock:
+  Enabled: true
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: true
+
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: false
+
+Rails/AfterCommitOverride:
+  Enabled: false
+
+Rails/FindById:
+  Enabled: false
+
+Rails/Inquiry:
+  Enabled: true
+
+Rails/MailerName:
+  Enabled: true
+
+Rails/MatchRoute:
+  Enabled: true
+
+Rails/NegateInclude:
+  Enabled: true
+
+Rails/Pluck:
+  Enabled: true
+
+Rails/PluckInWhere:
+  Enabled: false
+
+Rails/RenderInline:
+  Enabled: true
+
+Rails/RenderPlainText:
+  Enabled: true
+
+Rails/ShortI18n:
+  Enabled: true
+
+Rails/SquishedSQLHeredocs:
+  Enabled: true
+
+Rails/WhereExists:
+  Enabled: false
+
+Rails/WhereNot:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  Exclude:
+    - "bin/*"
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: true
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: true
+  Exclude:
+    - "bin/*"
+    - "config/initializers/carrierwave.rb"
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Layout/EmptyLines:
+  Enabled: true
+
+Rails/FilePath:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Exclude:
+    - "app/controllers/gruf/grpc/**/*.rb"
+
+Naming/VariableNumber:
+  CheckSymbols: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/SoleNestedConditional:
+  Enabled: false
+
+Style/CombinableLoops:
+  Enabled: false
+
+Rails/BulkChangeTable:
+  Enabled: false
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Performance/AncestorsInclude:
+  Enabled: true
+
+Performance/BigDecimalWithNumericArgument:
+  Enabled: true
+
+Performance/CollectionLiteralInLoop:
+  Enabled: true
+
+Performance/ConcurrentMonotonicTime:
+  Enabled: true
+
+Performance/ConstantRegexp:
+  Enabled: true
+
+Performance/MapCompact:
+  Enabled: true
+
+Performance/MapMethodChain:
+  Enabled: true
+
+Performance/MethodObjectAsBlock:
+  Enabled: true
+
+Performance/RedundantEqualityComparisonBlock:
+  Enabled: true
+
+Performance/RedundantSortBlock:
+  Enabled: true
+
+Performance/RedundantSplitRegexpArgument:
+  Enabled: true
+
+Performance/RedundantStringChars:
+  Enabled: true
+
+Performance/ReverseFirst:
+  Enabled: true
+
+Performance/SortReverse:
+  Enabled: true
+
+Performance/Squeeze:
+  Enabled: true
+
+Performance/StringBytesize:
+  Enabled: true
+
+Performance/StringIdentifierArgument:
+  Enabled: true
+
+Performance/StringInclude:
+  Enabled: true
+
+Performance/Sum:
+  Enabled: true
+
+Performance/RedundantBlockCall:
+  Enabled: false
+
 AllCops:
   NewCops: enable
 
@@ -16,8 +239,6 @@ plugins:
   - rubocop-rspec
   - sevencop
 
-Style/FrozenStringLiteralComment:
-  Enabled: true
 Layout/ClassStructure:
   AutoCorrect: true
   Categories:
@@ -64,8 +285,10 @@ Layout/HashAlignment:
   EnforcedColonStyle:
     - key
 Layout/MultilineHashKeyLineBreaks: { Enabled: true, AutoCorrect: false}
-
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
 Style/HashSyntax:
+  Enabled: true
   EnforcedShorthandSyntax: always
 
 Sevencop/MethodDefinitionArgumentsMultiline:     { Enabled: false }

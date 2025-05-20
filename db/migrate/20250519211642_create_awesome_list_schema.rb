@@ -21,7 +21,7 @@ class CreateAwesomeListSchema < ActiveRecord::Migration[8.0]
 
     create_table :categories do |t|
       t.belongs_to :awesome_list_version, foreign_key: true, null: false
-      t.belongs_to :parent, foreign_key: { to_table: :categories }
+      t.belongs_to :parent, foreign_key: {to_table: :categories}
       t.string :name, null: false
       t.integer :repo_count
       t.timestamps

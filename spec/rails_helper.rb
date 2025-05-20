@@ -3,6 +3,8 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
+Rails.application.eager_load!
+# Rails.application.eager_load!
 require 'rspec/rails'
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?

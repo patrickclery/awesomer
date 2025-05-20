@@ -7,7 +7,12 @@ RSpec.describe Operations::FetchReadme, type: :operation do
   include Test::Support::VCR
 
   let(:repo_name) { 'awesome-selfhosted/awesome-selfhosted' }
-  let(:expected_path) { "tmp/awesome-selfhosted__awesome-selfhosted.md" }
+  let(:expected_path) { "tmp/md/awesome-selfhosted__awesome-selfhosted.md" }
+
+  after do
+    # Delete the temporary file after the test
+    File.delete(expected_path) if File.exist?(expected_path)
+  end
 
   it 'fetches the README from GitHub and saves it to tmp, using VCR', :decode_content do
     vcr('github', 'fetch_readme_awesome_selfhosted') do
