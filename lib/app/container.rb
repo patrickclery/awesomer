@@ -9,5 +9,6 @@ module App
     extend Dry::Container::Mixin
 
     register("parse_markdown_operation") { ParseMarkdownOperation.new }
+    register("sync_git_stats_operation") { SyncGitStatsOperation.new }
   end
 end

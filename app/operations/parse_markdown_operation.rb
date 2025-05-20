@@ -16,9 +16,7 @@ class ParseMarkdownOperation
   # ## Category 2
   # - Item 2.1
 
-  # Regex to capture typical Markdown link and optional description
-  # Format: - [Name](URL) - Description
-  # Or:     - [Name](URL)
+  HEADER_REGEX = /^(#+)\s+(.+)$/ # Match one or more hashes, then space, then title
   LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/
   GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
 
@@ -35,7 +33,8 @@ class ParseMarkdownOperation
       stripped_line = line.strip
       next if stripped_line.empty?
 
-      if stripped_line.start_with?("## ")
+      header_match = HEADER_REGEX.match(stripped_line)
+      if header_match && header_match[1].length.between?(2, 6) # Check if hashes are between 2 and 6
         if current_category_data
           categories << Structs::Category.new(
             custom_order: current_category_data[:custom_order],
@@ -43,15 +42,15 @@ class ParseMarkdownOperation
             repos: current_items
           )
         end
-        category_name = stripped_line.sub("## ", "").strip
+        category_name = header_match[2].strip # Group 2 is the category name text
         current_category_data = {custom_order: category_order_counter, name: category_name}
         current_items = []
         category_order_counter += 1
-      elsif current_category_data && (match = LINK_ITEM_REGEX.match(stripped_line))
+      elsif current_category_data && (link_match = LINK_ITEM_REGEX.match(stripped_line))
         item_id_counter += 1
-        item_name = match[:name].strip
-        item_url = match[:url].strip
-        # item_description = match[:description]&.strip # Description not used by CategoryItem
+        item_name = link_match[:name].strip
+        item_url = link_match[:url].strip
+        # item_description = link_match[:description]&.strip # Description not used by CategoryItem
 
         item_data = {
           id: item_id_counter,
