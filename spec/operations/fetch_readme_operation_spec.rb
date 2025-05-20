@@ -40,15 +40,14 @@ RSpec.describe FetchReadmeOperation, :vcr do
     it_behaves_like 'a successful README fetch for awesome-tor', :url
   end
 
-  context 'with a repository that has no README or does not exist' do
-    let(:repo_identifier) { 'empty-owner/empty-repo-that-does-not-exist' }
+  context 'with a non-existent repository' do
+    let(:repo_identifier) { 'nonexistent-owner/nonexistent-repo-for-test' }
 
-    it 'returns a Failure' do
-      VCR.use_cassette('github/octokit_empty-owner_empty-repo-not-found', record: :new_episodes) do # New cassette name
+    it 'returns a Failure (from repo_data fetch)' do
+      VCR.use_cassette('github/octokit_nonexistent-owner_nonexistent-repo', record: :new_episodes) do
         result = operation.call(repo_identifier:)
         expect(result).to be_failure
-        # Octokit might raise NotFound for repository first, or for readme.
-        expect(result.failure).to match(/Repository not found|README not found for repository/)
+        expect(result.failure).to eq("Repository not found: nonexistent-owner/nonexistent-repo-for-test")
       end
     end
   end
@@ -63,58 +62,54 @@ RSpec.describe FetchReadmeOperation, :vcr do
     end
   end
 
-  context 'when GitHub API returns a 404 for repo data (mocked at HTTP level for Octokit)' do
-    let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
-
-    it 'returns a Failure indicating repository not found' do
-      # This test requires a cassette that records a 404 for the initial repo data fetch.
-      # Or, to test Octokit's error handling without a specific cassette for this rare state:
-      # allow_any_instance_of(Octokit::Client).to receive(:repository).and_raise(Octokit::NotFound)
-      # For VCR based test:
-      VCR.use_cassette('github/octokit_polycarbohydrate_awesome-tor_repo_not_found', record: :once) do
-        result = operation.call(repo_identifier:)
-        expect(result).to be_failure
-        expect(result.failure).to eq("Repository not found: Polycarbohydrate/awesome-tor")
-      end
-    end
-  end
-
-  context 'when GitHub API returns a 404 for README content' do
-    let(:repo_identifier) { 'jekyll/jekyll-test-readme-does-not-exist' } # A repo that exists but give it a path that won't have a README
-
-    # Or use a repo you control where README can be temporarily removed for recording.
-    it 'returns a Failure indicating README not found' do
-      # This cassette should record the repo data fetch successfully, but the README fetch as 404.
-      VCR.use_cassette('github/octokit_jekyll_no_readme_content', record: :once) do
-        result = operation.call(repo_identifier:)
-        expect(result).to be_failure
-        expect(result.failure).to eq("README not found for repository: jekyll/jekyll-test-readme-does-not-exist")
-      end
-    end
-  end
-
-  # Test for network errors (SocketError) - this is hard to test reliably with VCR for Octokit
-  # as Octokit uses Faraday, which has its own adapter system.
-  # Mocking Faraday adapter or using WebMock to block requests would be more appropriate here.
-  context 'when a network error occurs (e.g., SocketError)', :skip_vcr_for_network_error_test do
-    let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
+  context 'when Octokit client cannot find the repository data (Octokit::NotFound)' do
+    let(:repo_identifier) { 'polycarbohydrate/private-repo-test' }
+    let(:octokit_client_double) { instance_double(Octokit::Client) }
 
     before do
-      # This will mock Faraday's underlying adapter to simulate a network issue
-      # This requires knowledge of Octokit's Faraday setup.
-      # A simpler way for some Faraday versions/adapters:
-      # allow_any_instance_of(Faraday::Connection).to receive(:get).and_raise(Faraday::ConnectionFailed.new("test connection failed"))
-      # More generically, if Octokit allows passing a custom adapter for testing:
-      # For now, let's assume a high-level Octokit client error that might wrap a network issue.
-      # This test is difficult to make robust without deeper Faraday mocking or specific VCR hooks for network failures.
-      # We can test the operation's rescue Octokit::Error for a generic API error instead.
-      allow_any_instance_of(Octokit::Client).to receive(:repository).and_raise(Octokit::Error.new("Simulated network or client error"))
+      allow(Octokit::Client).to receive(:new).and_return(octokit_client_double)
+      allow(octokit_client_double).to receive(:repository).with(repo_identifier).and_raise(Octokit::NotFound)
+    end
+
+    it 'returns a Failure indicating repository not found' do
+      result = operation.call(repo_identifier:)
+      expect(result).to be_failure
+      expect(result.failure).to eq("Repository not found: #{repo_identifier}")
+    end
+  end
+
+  context 'when Octokit client cannot find README for an existing repository (Octokit::NotFound)' do
+    let(:repo_identifier) { 'octokit/octokit.rb' }
+    let(:octokit_client_double) { instance_double(Octokit::Client) }
+    let(:mock_repo_data) { double('Octokit::Resource', description: "An awesome list.") }
+
+    before do
+      allow(Octokit::Client).to receive(:new).and_return(octokit_client_double)
+      allow(octokit_client_double).to receive(:repository).with(repo_identifier).and_return(mock_repo_data)
+      allow(octokit_client_double).to receive(:readme).with(repo_identifier).and_raise(Octokit::NotFound)
+    end
+
+    it 'returns a Failure indicating README not found' do
+      result = operation.call(repo_identifier:)
+      expect(result).to be_failure
+      expect(result.failure).to eq("README not found for repository: #{repo_identifier}")
+    end
+  end
+
+  context 'when a network error occurs (simulated via StandardError)' do
+    let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
+    let(:octokit_client_double) { instance_double(Octokit::Client) }
+
+    before do
+      allow(Octokit::Client).to receive(:new).and_return(octokit_client_double)
+      allow(octokit_client_double).to receive(:repository).with("Polycarbohydrate/awesome-tor")
+        .and_raise(StandardError.new("Simulated low-level network problem"))
     end
 
     it 'returns a Failure' do
       result = operation.call(repo_identifier:)
       expect(result).to be_failure
-      expect(result.failure).to include("GitHub API error fetching repo data for Polycarbohydrate/awesome-tor: Simulated network or client error")
+      expect(result.failure).to include("Unexpected error fetching repo data for Polycarbohydrate/awesome-tor: Simulated low-level network problem")
     end
   end
 end

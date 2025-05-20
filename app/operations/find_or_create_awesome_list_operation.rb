@@ -18,15 +18,13 @@ class FindOrCreateAwesomeListOperation
     aw_list.name = repo_name # Use repo name for the list name
     aw_list.description = repo_description
     aw_list.last_commit_at = readme_last_commit_at
-    
-    if yield save_record(aw_list, repo_shortname)
-      Success(aw_list)
+
+    save_result = save_record(aw_list, repo_shortname)
+
+    if save_result.success?
+      Success(save_result.value!)
     else
-      # This else block might not be reached if save_record returns a Failure that propagates
-      # However, if save_record returned Success(false), this structure would be different.
-      # Given save_record returns Success(model) or Failure(message), yield handles it.
-      # This line is effectively unreachable if save_record is monadic and yield is used.
-      Failure("Upsert failed due to unhandled save_record outcome") # Should not happen
+      save_result
     end
   end
 
@@ -42,4 +40,6 @@ class FindOrCreateAwesomeListOperation
   rescue ActiveRecord::ActiveRecordError => e
     Failure("Database error saving AwesomeList for #{repo_shortname_for_error_msg}: #{e.message}")
   rescue StandardError => e
- 
+    Failure("Unexpected error saving AwesomeList for #{repo_shortname_for_error_msg}: #{e.message}")
+  end
+end

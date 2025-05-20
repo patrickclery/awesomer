@@ -58,8 +58,10 @@ class FetchReadmeOperation
     Success(repo_details) # repo_details is an Octokit::Resource (Sawyer::Resource)
   rescue Octokit::NotFound
     Failure("Repository not found: #{repo_full_name}")
-  rescue Octokit::Error => e
+  rescue Octokit::Error => e # Catches Octokit-specific API errors
     Failure("GitHub API error fetching repo data for #{repo_full_name}: #{e.message}")
+  rescue StandardError => e # Catch other unexpected errors during this step
+    Failure("Unexpected error fetching repo data for #{repo_full_name}: #{e.message}")
   end
 
   def fetch_readme_content_from_github(client, repo_full_name)
@@ -74,6 +76,8 @@ class FetchReadmeOperation
     Failure("GitHub API error fetching README for #{repo_full_name}: #{e.message}")
   rescue ArgumentError => e # For Base64 decoding issues if content is not base64
     Failure("Failed to decode base64 content for README of #{repo_full_name}: #{e.message}")
+  rescue StandardError => e # Catch other unexpected errors
+    Failure("Unexpected error fetching README content for #{repo_full_name}: #{e.message}")
   end
 
   # decode_readme_content method is now integrated or handled by Octokit/above method
@@ -82,11 +86,10 @@ class FetchReadmeOperation
     return Success(nil) if readme_path.blank?
     commits = client.commits(repo_full_name, page: 1, path: readme_path, per_page: 1)
     if commits.is_a?(Array) && commits.first
-      # Ensure navigation through Sawyer::Resource which might not support .dig well
       commit_info = commits.first.commit
       committer_info = commit_info&.committer
-      date_string = committer_info&.date
-      Success(date_string ? Time.parse(date_string) : nil)
+      date_obj = committer_info&.date
+      Success(date_obj)
     else
       Success(nil) # No commit data found for the README path
     end
@@ -96,7 +99,7 @@ class FetchReadmeOperation
   rescue Octokit::Error => e
     puts "WARN: GitHub API error fetching last commit date for README '#{readme_path}' in #{repo_full_name}: #{e.message}"
     Success(nil)
-  rescue StandardError => e # Catch other errors, return nil for commit date
+  rescue StandardError => e
     puts "WARN: Error parsing last commit date for README '#{readme_path}' in #{repo_full_name}: #{e.message}"
     Success(nil)
   end

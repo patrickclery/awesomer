@@ -223,37 +223,42 @@ RSpec.describe ProcessAwesomeListService do
 
     before do
       @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
+      @original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME if defined?(ProcessCategoryService::OUTPUT_FILENAME)
       stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
+      # For this integration test, let ProcessCategoryService use its default OUTPUT_FILENAME
+      # but if a custom one was needed for the test, it would be stubbed here too.
       FileUtils.mkdir_p(tmp_integration_output_dir)
     end
 
     after do
+      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup disabled by user request
       puts "Skipping cleanup of #{tmp_integration_output_dir} to inspect files."
+      # Restore constants if they were defined and if stub_const didn't (though it should)
+      ProcessCategoryService.const_set(:TARGET_DIR, @original_pcs_target_dir) if @original_pcs_target_dir && defined?(ProcessCategoryService::TARGET_DIR)
+      ProcessCategoryService.const_set(:OUTPUT_FILENAME, @original_pcs_output_filename) if @original_pcs_output_filename && defined?(ProcessCategoryService::OUTPUT_FILENAME)
     end
 
     it 'successfully processes the repository, upserts AwesomeList, and generates markdown files' do
-      VCR.use_cassette('github/polycarbohydrate_awesome-tor_process_all', record: :once) do
+      # This single cassette will now store all interactions for processing this repo.
+      # Using `record: :new_episodes` allows it to add new interactions if the README changes
+      # and new repositories are linked, or if existing ones have new API endpoints hit.
+      vcr('github', 'polycarbohydrate_awesome-tor', record: :new_episodes) do
         result = integration_service_call
 
         expect(result).to be_success, "Service call failed: #{result.failure}"
 
-        temp_record = AwesomeList.find_by(github_repo: 'polycarbohydrate/awesome-tor')
-        puts "DEBUG: Record found immediately after service call: #{temp_record.inspect}"
-        if temp_record
-          puts "DEBUG: Temp record attributes: #{temp_record.attributes.inspect}"
-          puts "DEBUG: Temp record last_commit_at: #{temp_record.last_commit_at}"
-        end
+        created_file_path = result.value! # Expecting a single file path now
+        expect(created_file_path).to eq(tmp_integration_output_dir.join(ProcessCategoryService::OUTPUT_FILENAME))
+        expect(File.exist?(created_file_path)).to be(true)
 
-        created_files = result.value!
-        expect(created_files).not_to be_empty
-        expect(Dir.glob(tmp_integration_output_dir.join("*.md")).count).to be > 0
-        puts "Integration test created files in #{tmp_integration_output_dir}: #{created_files.join(', ')}"
+        puts "Integration test created file: #{created_file_path}"
 
-        aw_list_record = AwesomeList.find_by(github_repo: 'polycarbohydrate/awesome-tor')
+        # Verify AwesomeList record was updated
+        aw_list_record = AwesomeList.find_by(github_repo: 'Polycarbohydrate/awesome-tor')
         expect(aw_list_record).not_to be_nil
         expect(aw_list_record.name).to eq('awesome-tor')
         expect(aw_list_record.last_commit_at).to be_a(Time)
-        expect(aw_list_record.description).not_to be_empty if aw_list_record.description
+        expect(aw_list_record.description).not_to be_empty if aw_list_record.description.present?
       end
     end
   end
