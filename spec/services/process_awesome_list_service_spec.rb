@@ -185,29 +185,31 @@ RSpec.describe ProcessAwesomeListService do
 
     let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
     let(:tmp_integration_output_dir) { Rails.root.join('tmp', 'test_process_awesome_list_integration_output') }
-    let(:service_instance_integration) { described_class.new(repo_identifier:) }
+    let(:service_instance_integration) { described_class.new(repo_identifier: repo_identifier) }
 
-    before do
+    before(:each) do
       @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
       stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
       FileUtils.mkdir_p(tmp_integration_output_dir)
     end
 
-    after do
-      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup disabled
+    after(:each) do
+      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup disabled by user request
       puts "Skipping cleanup of #{tmp_integration_output_dir} to inspect files."
-      # RSpec's stub_const should restore the original constant.
     end
 
     it 'successfully processes the repository and generates markdown files' do
-      VCR.use_cassette('github/polycarbohydrate_awesome_tor', record: :once) do # Cassette name updated for clarity
+      # This single cassette will now store all interactions for processing this repo:
+      # 1. Fetching its README.
+      # 2. Fetching stats for all GitHub links found within that README.
+      vcr('github', 'polycarbohydrate_awesome-tor_e2e_processing', record: :once) do # Updated dir and name
         result = integration_service_call
 
         expect(result).to be_success, "Service call failed: #{result.failure}"
-
+        
         created_files = result.value!
         expect(created_files).not_to be_empty
-
+        
         expect(Dir.glob(tmp_integration_output_dir.join("*.md")).count).to be > 0
         puts "Integration test created files in #{tmp_integration_output_dir}: #{created_files.join(', ')}"
       end

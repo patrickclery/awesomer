@@ -55,9 +55,12 @@ RSpec.describe ProcessCategoryService do
       expect(result.value!).to eq(expected_output_filepath)
     end
 
-    it 'creates a single markdown file with aggregated content from all categories in order' do
-      sorted_test_categories = test_categories.sort_by(&:custom_order)
-      call_result = described_class.new.call(categories: sorted_test_categories)
+    it 'creates a single markdown file with aggregated content from all categories in order, with items sorted by stars' do
+      # ProcessCategoryService receives categories already sorted by custom_order from ProcessAwesomeListService.
+      # For this unit test, we simulate this by sorting the input to the service call.
+      sorted_test_categories_by_custom_order = test_categories.sort_by(&:custom_order)
+
+      call_result = described_class.new.call(categories: sorted_test_categories_by_custom_order)
       expect(call_result).to be_success
       output_file_path = call_result.value!
       expect(File.exist?(output_file_path)).to be(true)
@@ -68,14 +71,14 @@ RSpec.describe ProcessCategoryService do
 
         | Name | Description | Stars | Last Commit |
         |------|-------------|-------|-------------|
-        | [Data Util](http://example.com/datautil) | Utility for data | 50 | 2024-01-10 |
+        | [Data Util](http://example.com/datautil) | Utility for data | 50 | #{ (time_now - 5.days).strftime('%Y-%m-%d')} |
 
         ## Dev Tools
 
         | Name | Description | Stars | Last Commit |
         |------|-------------|-------|-------------|
-        | [Awesome Tool 1](http://example.com/tool1) | The first tool | 100 | 2024-01-15 |
-        | [Super Lib 2](http://example.com/lib2) | The second lib<br>with multi-line desc | 250 | 2024-01-14 |
+        | [Super Lib 2](http://example.com/lib2) | The second lib<br>with multi-line desc | 250 | #{ (time_now - 1.day).strftime('%Y-%m-%d')} |
+        | [Awesome Tool 1](http://example.com/tool1) | The first tool | 100 | #{time_now.strftime('%Y-%m-%d')} |
         | [Alpha Project](http://example.com/alpha) |  | N/A | N/A |
 
         ## Empty Category

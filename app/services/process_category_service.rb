@@ -27,8 +27,20 @@ class ProcessCategoryService
       overall_content << "| Name | Description | Stars | Last Commit |"
       overall_content << "|------|-------------|-------|-------------|"
 
-      if category.repos.any?
-        category.repos.each do |item|
+      # Sort items by stars (descending, nil stars last)
+      sorted_items = category.repos.sort do |a, b|
+        stars_a = a.stars.to_i # Treat nil as 0 for comparison
+        stars_b = b.stars.to_i # Treat nil as 0 for comparison
+        if stars_a == stars_b
+          # Secondary sort by name (ascending) if stars are equal
+          a.name.downcase <=> b.name.downcase
+        else
+          stars_b <=> stars_a # Descending for stars
+        end
+      end
+
+      if sorted_items.any?
+        sorted_items.each do |item|
           name_md = "[#{item.name}](#{item.url})"
           description_md = item.description.to_s.gsub("\n", "<br>")
           stars_md = item.stars.nil? ? "N/A" : item.stars.to_s

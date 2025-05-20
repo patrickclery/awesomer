@@ -12,7 +12,7 @@ RSpec.describe FetchReadmeOperation, :vcr do # Apply VCR to all examples
     let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
 
     it 'fetches and decodes the README content successfully' do
-      VCR.use_cassette('github/polycarbohydrate_awesome_tor') do
+      VCR.use_cassette('github/polycarbohydrate_awesome-tor') do
         result = operation.call(repo_identifier:)
         expect(result).to be_success
         expect(result.value!).to be_a(String)
@@ -25,7 +25,7 @@ RSpec.describe FetchReadmeOperation, :vcr do # Apply VCR to all examples
     let(:repo_identifier) { 'https://github.com/Polycarbohydrate/awesome-tor' }
 
     it 'fetches and decodes the README content successfully' do
-      VCR.use_cassette('github/polycarbohydrate_awesome_tor') do
+      VCR.use_cassette('github/polycarbohydrate_awesome-tor') do
         result = operation.call(repo_identifier:)
         expect(result).to be_success
         expect(result.value!).to be_a(String)
@@ -42,7 +42,7 @@ RSpec.describe FetchReadmeOperation, :vcr do # Apply VCR to all examples
     let(:repo_identifier) { 'empty-owner/empty-repo-for-readme-test' } # This repo should not exist
 
     it 'returns a Failure' do
-      VCR.use_cassette('github/no_readme_repo') do
+      VCR.use_cassette('github/empty-owner_empty-repo-for-readme-test') do
         result = operation.call(repo_identifier:)
         expect(result).to be_failure
         expect(result.failure).to eq("README not found for repository: empty-owner/empty-repo-for-readme-test")

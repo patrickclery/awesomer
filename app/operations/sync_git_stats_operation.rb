@@ -14,36 +14,48 @@ class SyncGitStatsOperation
 
   def call(categories:)
     updated_categories = categories.map do |category|
+      # puts "Processing category in SyncGitStats: #{category.name}" # DEBUG
       updated_items = category.repos.map do |item|
         match = GITHUB_REPO_REGEX.match(item.url)
         if match
           owner = match[:owner]
           repo_name = match[:repo]
+          # puts "  Attempting to fetch stats for: #{owner}/#{repo_name}" # DEBUG
 
-          # Fetch stats directly using a private method
-          stats_result = yield fetch_repo_stats(owner:, repo_name:)
+          stats_fetch_monad = fetch_repo_stats(owner:, repo_name:)
 
-          # Update item with new stats. item.new creates a new instance.
-          item.new(
-            last_commit_at: stats_result[:last_commit_at],
-            stars: stats_result[:stars]
-            # commits_past_year is not updated by this operation
-          )
+          if stats_fetch_monad.success?
+            stats_data = stats_fetch_monad.value!
+            # puts "    Stats fetch SUCCESS for #{owner}/#{repo_name}: #{stats_data.inspect}" # DEBUG
+            current_item_attrs = item.to_h # Get all current attributes
+            new_attrs = current_item_attrs.merge(
+              last_commit_at: stats_data[:last_commit_at],
+              stars: stats_data[:stars]
+            )
+            updated_item = Structs::CategoryItem.new(new_attrs) # Create new item with merged attributes
+            # puts "    Original item: #{item.name}, stars: #{item.stars}, last_commit: #{item.last_commit_at}" # DEBUG
+            # puts "    New/Updated item: #{updated_item.name}, stars: #{updated_item.stars}, last_commit: #{updated_item.last_commit_at}" # DEBUG
+            updated_item
+          else
+            # If fetching stats failed for this item, log it and return the original item
+            puts "    WARN (SyncGitStatsOperation): Failed to fetch stats for #{owner}/#{repo_name}: #{stats_fetch_monad.failure}"
+            item
+          end
         else
-          item # Not a GitHub repo or URL didn't match, return item as is
+          item
         end
       end
-      # Create a new category with the (potentially) updated items
-      category.new(repos: updated_items)
+      # Create a new category instance with the (potentially) updated items
+      # This ensures immutability and reflects changes if any item was updated.
+      Structs::Category.new(category.to_h.merge(repos: updated_items))
     end
-
     Success(updated_categories)
-  # Let `do` notation handle Failures from `yield fetch_repo_stats`
-  # Catch specific errors that might occur within this operation's direct logic, if any.
-  rescue Dry::Struct::Error => e # For example, if category.new or item.new had issues
+  rescue Dry::Struct::Error => e
+    # This catches errors from Structs::Category.new or Structs::CategoryItem.new if attributes are wrong
     Failure("SyncGitStatsOperation failed due to Struct error: #{e.message}")
-    # fetch_repo_stats returns Failure on error, which `yield` will propagate.
-    # No broad StandardError rescue needed here if fetch_repo_stats is robust.
+    # No longer relying on `yield` to propagate failures from fetch_repo_stats up to the main `call` method's `do` block.
+    # fetch_repo_stats handles its own errors and returns Failure, which is checked above.
+    # Other unexpected errors in the mapping logic itself would raise normally.
   end
 
   private
@@ -54,13 +66,14 @@ class SyncGitStatsOperation
     http.use_ssl = (uri.scheme == "https")
 
     request = Net::HTTP::Get.new(uri.request_uri)
-    request["User-Agent"] = "AwesomeListStatsFetcher/1.0" # GitHub API requires User-Agent
+    request["User-Agent"] = "AwesomeListStatsFetcher/1.0"
     request["Accept"] = "application/vnd.github.v3+json"
 
     response = http.request(request)
+    # puts "    Raw API response for #{owner}/#{repo_name}: #{response.code} - body: #{response.body.truncate(150)}" # DEBUG VCR
 
     case response
-    when Net::HTTPSuccess # 2xx
+    when Net::HTTPSuccess
       begin
         data = JSON.parse(response.body)
         stars = data["stargazers_count"]
@@ -69,17 +82,17 @@ class SyncGitStatsOperation
         Success({last_commit_at:, stars:})
       rescue JSON::ParserError => e
         Failure("Failed to parse JSON response from GitHub API for #{owner}/#{repo_name}: #{e.message}")
-      rescue StandardError => e # Catch other errors during data extraction e.g. Time.parse
+      rescue StandardError => e
         Failure("Error processing GitHub API data for #{owner}/#{repo_name}: #{e.message}")
       end
-    when Net::HTTPNotFound # 404
+    when Net::HTTPNotFound
       Failure("GitHub repository not found: #{owner}/#{repo_name}")
-    else # Other errors (403, 500, etc.)
+    else
       Failure("GitHub API request failed for #{owner}/#{repo_name}: #{response.code} #{response.message} - #{response.body.truncate(100)}")
     end
-  rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout => e # Network errors
+  rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout => e
     Failure("Network error while fetching stats for #{owner}/#{repo_name}: #{e.message}")
-  rescue StandardError => e # Catch-all for other unexpected errors in this method
+  rescue StandardError => e
     Failure("Unexpected error in fetch_repo_stats for #{owner}/#{repo_name}: #{e.message}")
   end
 end
