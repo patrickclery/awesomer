@@ -3,6 +3,7 @@
 require "fileutils"
 
 class ProcessCategoryService
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
   TARGET_DIR = Rails.root.join("static", "md")

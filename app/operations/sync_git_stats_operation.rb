@@ -6,6 +6,7 @@ require "json"
 require "time"
 
 class SyncGitStatsOperation
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
   # Regex to capture GitHub owner and repo from URL

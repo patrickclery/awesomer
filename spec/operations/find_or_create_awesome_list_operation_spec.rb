@@ -76,11 +76,11 @@ RSpec.describe FindOrCreateAwesomeListOperation do
 
   context 'when AwesomeList save fails (e.g., validation error)' do
     let(:aw_list_instance) { AwesomeList.new } # Create an instance to stub
+
     before do
       allow(AwesomeList).to receive(:find_or_initialize_by).with(github_repo: repo_shortname).and_return(aw_list_instance)
-      allow(aw_list_instance).to receive(:save).and_return(false)
-      errors_double = instance_double(ActiveModel::Errors, full_messages: ["Validation failed"])
-      allow(aw_list_instance).to receive(:errors).and_return(errors_double)
+      errors_double = instance_double(ActiveModel::Errors, full_messages: [ "Validation failed" ])
+      allow(aw_list_instance).to receive_messages(errors: errors_double, save: false)
     end
 
     it 'returns a Failure with error messages' do
@@ -92,6 +92,7 @@ RSpec.describe FindOrCreateAwesomeListOperation do
 
   context 'when a database error occurs during save' do
     let(:aw_list_instance) { AwesomeList.new } # Create an instance to stub
+
     before do
       allow(AwesomeList).to receive(:find_or_initialize_by).with(github_repo: repo_shortname).and_return(aw_list_instance)
       allow(aw_list_instance).to receive(:save).and_raise(ActiveRecord::StatementInvalid.new("DB down"))

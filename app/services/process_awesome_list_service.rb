@@ -3,6 +3,7 @@
 require "fileutils" # For FileUtils.mkdir_p
 
 class ProcessAwesomeListService
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
   include App::Import[
     :fetch_readme_operation,

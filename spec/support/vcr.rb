@@ -35,7 +35,7 @@ module Test
       extend ActiveSupport::Concern
       include ActiveSupport::Testing::TimeHelpers
 
-      VCR_ALLOWED_KEYS = %i[erb match match_requests_on record].freeze
+      VCR_ALLOWED_KEYS = %i[erb match match_requests_on record record_on_error allow_playback_repeats].freeze
 
         public def vcr_time_travel?
           ENV['VCR_TIME_TRAVEL'].to_bool
@@ -49,23 +49,12 @@ module Test
           ENV['VCR_RECORD_ON_ERROR'].to_bool
         end
 
-        # These options will override everything if specified in .env.test.local
-        public def vcr_options_overrides
-          options = {}
-          if ENV['VCR_MATCH_REQUESTS_ON'].present?
-            options[:match_requests_on] = ENV['VCR_MATCH_REQUESTS_ON'].split.map(&:to_sym)
-          end
-          options[:record]        ||= vcr_record_mode
-          options[:record_on_error] = ENV['VCR_RECORD_ON_ERROR'].to_sym if ENV['VCR_RECORD_ON_ERROR'].present?
-          options
-        end
-
-        # Default options for VCR
-        public def vcr_options
+        # Default options for VCR (can be overridden by ENV vars or direct call)
+        public def vcr_base_options
           {
             match_requests_on: %i[method uri],
-            record:            :none,
-            record_on_error:   true
+            record:            ENV['CI'] ? :none : :once,
+            record_on_error:   false
           }
         end
 
@@ -75,23 +64,35 @@ module Test
         public def vcr(directory, name, **additional_options, &block)
           return yield unless ::VCR.turned_on?
 
-          # Get the current test name
           filename = sanitize_filename(name)
 
+          # Start with base VCR options for this helper
+          options = vcr_base_options.dup
+
+          # Apply ENV VAR Overrides if they are set, these have high precedence
+          if ENV['VCR_MATCH_REQUESTS_ON'].present?
+            options[:match_requests_on] = ENV['VCR_MATCH_REQUESTS_ON'].split.map(&:to_sym)
+          end
+          if ENV['VCR_RECORD_MODE'].present?
+            options[:record] = ENV['VCR_RECORD_MODE'].to_sym
+          end
+          if ENV['VCR_RECORD_ON_ERROR'].present?
+            # Ensure ENV var is converted to boolean if it's a string 'true'/'false'
+            options[:record_on_error] = ENV['VCR_RECORD_ON_ERROR'].to_s.downcase == 'true'
+          end
+
+          # Then, merge options passed directly to the vcr() call, these take precedence over ENV for this call
+          # Ensure :match is converted to :match_requests_on for convenience
           if additional_options[:match].present?
-            additional_options[:match_requests_on] = additional_options[:match]
+            options[:match_requests_on] = additional_options[:match]
             additional_options.delete(:match)
           end
-          options = vcr_options
-            .merge(additional_options.slice(*VCR_ALLOWED_KEYS))
-            .merge(vcr_options_overrides)
+          options.merge!(additional_options.slice(*VCR_ALLOWED_KEYS))
 
-          # Freeze the time so that the originally_recorded_at is the same
           time_travel = additional_options.key?(:time_travel) ? additional_options[:time_travel] : vcr_time_travel?
 
           full_path_to_file = "#{directory}/#{filename}"
           ::VCR.use_cassette(full_path_to_file, **options) do |cassette|
-            # Only freeze the time if we are recording
             if time_travel && (!cassette.recording? && cassette.record_mode != :all)
               travel_to(cassette.originally_recorded_at || Time.current, &block)
             else
