@@ -30,7 +30,8 @@ RSpec.describe ProcessAwesomeListService do
   let(:parse_markdown_op_double) { instance_double(ParseMarkdownOperation) }
   let(:sync_git_stats_op_double) { instance_double(SyncGitStatsOperation) }
   let(:process_category_op_double) { instance_double(ProcessCategoryService) }
-  let(:awesome_list_double) { instance_double(AwesomeList, errors: double(full_messages: []), last_commit_at: sample_readme_last_commit_at, save: true) }
+  let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: ["Save failed"]) }
+  let(:awesome_list_double) { instance_double(AwesomeList, save: true, errors: errors_double, last_commit_at: sample_readme_last_commit_at) }
 
   let(:parsed_categories) do
     [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
@@ -108,9 +109,11 @@ RSpec.describe ProcessAwesomeListService do
 
   context 'when AwesomeList save fails' do
     before do
+      allow(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content)
+        .and_return(Success(parsed_categories))
+
       allow(awesome_list_double).to receive(:save).and_return(false)
-      allow(awesome_list_double).to receive_message_chain(:errors, :full_messages).and_return([ "Save failed" ])
-      allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
     end
 
     it 'returns a Failure' do
@@ -214,28 +217,27 @@ RSpec.describe ProcessAwesomeListService do
     end
   end
 
-  context 'integration test with a real repository and VCR', :vcr do
+  context 'when running as an integration test with a real repository and VCR', :vcr do
     subject(:integration_service_call) { service_instance_integration.call }
 
     let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
     let(:tmp_integration_output_dir) { Rails.root.join('tmp', 'test_process_awesome_list_integration_output') }
-    let(:service_instance_integration) { described_class.new(repo_identifier:) }
+    let(:service_instance_integration) { described_class.new(repo_identifier: repo_identifier) }
 
-    before do
-      @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
-      @original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME if defined?(ProcessCategoryService::OUTPUT_FILENAME)
+    before(:each) do
+      # No need to save original constants, stub_const handles reset
       stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
-      # For this integration test, let ProcessCategoryService use its default OUTPUT_FILENAME
-      # but if a custom one was needed for the test, it would be stubbed here too.
+      # If OUTPUT_FILENAME needed to be stubbed for this context:
+      # original_filename = ProcessCategoryService::OUTPUT_FILENAME if defined?(ProcessCategoryService::OUTPUT_FILENAME)
+      # stub_const("ProcessCategoryService::OUTPUT_FILENAME", "custom_integration_output.md")
+      # @original_pcs_output_filename = original_filename # if manual restoration was needed
       FileUtils.mkdir_p(tmp_integration_output_dir)
     end
 
-    after do
-      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup disabled by user request
+    after(:each) do
+      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup disabled
       puts "Skipping cleanup of #{tmp_integration_output_dir} to inspect files."
-      # Restore constants if they were defined and if stub_const didn't (though it should)
-      ProcessCategoryService.const_set(:TARGET_DIR, @original_pcs_target_dir) if @original_pcs_target_dir && defined?(ProcessCategoryService::TARGET_DIR)
-      ProcessCategoryService.const_set(:OUTPUT_FILENAME, @original_pcs_output_filename) if @original_pcs_output_filename && defined?(ProcessCategoryService::OUTPUT_FILENAME)
+      # RSpec's stub_const automatically restores original values, no manual const_set needed.
     end
 
     it 'successfully processes the repository, upserts AwesomeList, and generates markdown files' do

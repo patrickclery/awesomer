@@ -9,6 +9,7 @@ require "time"
 require "octokit"  # Added
 
 class FetchReadmeOperation
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
   GITHUB_REPO_REGEX = %r{https?://(?:www\.)?github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
