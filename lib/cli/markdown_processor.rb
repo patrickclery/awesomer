@@ -37,13 +37,15 @@ end
 
 module Cli
   class MarkdownProcessor < Thor
-    desc "process_repo REPO_IDENTIFIER", "Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, and saves output to tmp/md/"
-    method_option :output_dir, default: "tmp/md", desc: "Directory to save markdown files", type: :string
+    desc "process_repo REPO_IDENTIFIER", "Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, and saves a single aggregated output file to specified directory (default: tmp/md/)"
+    method_option :output_dir, default: "tmp/md", desc: "Directory to save the markdown file", type: :string
+    method_option :output_filename, default: ProcessCategoryService::OUTPUT_FILENAME, desc: "Filename for the processed markdown output", type: :string
     def process_repo(repo_identifier)
       puts "Starting repository processing for '#{repo_identifier}' via Thor..."
 
-      # Use output_dir from options, ensure it's an absolute path
       custom_output_dir = Rails.root.join(options[:output_dir])
+      # The actual filename will be determined by ProcessCategoryService::OUTPUT_FILENAME,
+      # but it will be placed in custom_output_dir due to TARGET_DIR override.
 
       begin
         FileUtils.mkdir_p(custom_output_dir)
@@ -57,17 +59,22 @@ module Cli
         exit 1
       end
 
-      original_process_category_target_dir = ProcessCategoryService::TARGET_DIR
+      original_pcs_target_dir = ProcessCategoryService::TARGET_DIR
+      original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME # Save original filename
+
       begin
         ProcessCategoryService.const_set(:TARGET_DIR, custom_output_dir)
-        puts "Temporarily set ProcessCategoryService output to: #{custom_output_dir}"
+        # If you want the Thor task to control the filename too:
+        ProcessCategoryService.const_set(:OUTPUT_FILENAME, options[:output_filename])
+        puts "Temporarily set ProcessCategoryService output to: #{custom_output_dir.join(options[:output_filename])}"
 
         awesome_list_service = ProcessAwesomeListService.new(repo_identifier:)
         result = awesome_list_service.call
 
         if result.success?
-          say("Successfully processed repository '#{repo_identifier}'. Output files:", :green)
-          result.value!.each { |file_path| puts "- #{file_path}" }
+          # Result.value! is now a single file path
+          say("Successfully processed repository '#{repo_identifier}'. Output file:", :green)
+          puts "- #{result.value!}"
         else
           say("ERROR: Failed to process repository '#{repo_identifier}': #{result.failure}", :red)
         end
@@ -75,28 +82,19 @@ module Cli
       rescue StandardError => e
         say("ERROR: An unexpected error occurred: #{e.message}\n#{e.backtrace.first(5).join("\n")}", :red)
       ensure
-        ProcessCategoryService.const_set(:TARGET_DIR, original_process_category_target_dir)
-        puts "Restored original TARGET_DIR for ProcessCategoryService."
+        ProcessCategoryService.const_set(:TARGET_DIR, original_pcs_target_dir)
+        ProcessCategoryService.const_set(:OUTPUT_FILENAME, original_pcs_output_filename) # Restore filename
+        puts "Restored original TARGET_DIR and OUTPUT_FILENAME for ProcessCategoryService."
       end
 
       puts "Repository processing finished."
     end
 
-    desc "process_snippet", "Processes awesome_self_hosted_snippet.md (via process_repo polycarbohydrate/awesome-tor) and saves output to tmp/md/"
+    desc "process_snippet", "Processes a predefined repo (e.g. Polycarbohydrate/awesome-tor) and saves output to tmp/md_snippet_test/"
     def process_snippet
-      # This now calls the main command with a default repo that contains similar content
-      # or a repo that serves as a test case for awesome_self_hosted_snippet content.
-      # Replace 'polycarbohydrate/awesome-tor' with an actual repo name or URL if needed for this snippet.
-      # Or, this command could be removed if direct repo processing is the only goal now.
-      # For this example, let's assume we have a test repo for the snippet, or use the actual snippet location for parsing if needed.
-      # For now, it uses the fixture's content by calling the process_repo command with a placeholder repo.
-      # This is not ideal as process_repo now expects to fetch.
-      # A better way would be for process_repo to optionally accept local file path.
-      # Given the change, process_snippet is now less direct.
-      # I'll make it call process_repo with the hardcoded snippet's equivalent repo identifier for demonstration.
-      # This is a simplification; a real CLI might have different commands for local files vs. remote repos.
       say("Process_snippet command is now a shortcut to process a predefined repo for testing.", :yellow)
-      invoke(:process_repo, [ "octokit/octokit.rb" ], output_dir: "tmp/md_snippet_test") # Example repo
+      # Using a different output directory and potentially filename for this specific command
+      invoke(:process_repo, [ "Polycarbohydrate/awesome-tor" ], output_dir: "tmp/md_snippet_test", output_filename: "awesome_tor_snippet_processed.md")
     end
   end
 end

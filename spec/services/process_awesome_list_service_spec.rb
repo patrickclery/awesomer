@@ -188,25 +188,19 @@ RSpec.describe ProcessAwesomeListService do
     let(:service_instance_integration) { described_class.new(repo_identifier:) }
 
     before do
-      # Save original constant value if it exists, for explicit restoration if needed,
-      # though RSpec's stub_const should handle reset.
       @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
-
       stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
       FileUtils.mkdir_p(tmp_integration_output_dir)
     end
 
     after do
-      FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir)
+      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup disabled
+      puts "Skipping cleanup of #{tmp_integration_output_dir} to inspect files."
       # RSpec's stub_const should restore the original constant.
-      # If manual reset was ever needed (e.g. if not using stub_const):
-      # if @original_pcs_target_dir && defined?(ProcessCategoryService::TARGET_DIR)
-      #   ProcessCategoryService.const_set(:TARGET_DIR, @original_pcs_target_dir)
-      # end
     end
 
     it 'successfully processes the repository and generates markdown files' do
-      VCR.use_cassette('github/polycarbohydrate_awesome_tor', record: :once) do
+      VCR.use_cassette('github/polycarbohydrate_awesome_tor', record: :once) do # Cassette name updated for clarity
         result = integration_service_call
 
         expect(result).to be_success, "Service call failed: #{result.failure}"
@@ -215,7 +209,7 @@ RSpec.describe ProcessAwesomeListService do
         expect(created_files).not_to be_empty
 
         expect(Dir.glob(tmp_integration_output_dir.join("*.md")).count).to be > 0
-        puts "Integration test created files: #{created_files.join(', ')}"
+        puts "Integration test created files in #{tmp_integration_output_dir}: #{created_files.join(', ')}"
       end
     end
   end
