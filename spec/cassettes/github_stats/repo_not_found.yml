@@ -19,7 +19,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Tue, 20 May 2025 14:23:12 GMT
+      - Tue, 20 May 2025 14:31:57 GMT
       Content-Type:
       - application/json; charset=utf-8
       X-Github-Media-Type:
@@ -52,19 +52,24 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '51'
+      - '48'
       X-Ratelimit-Reset:
-      - '1747754592'
+      - '1747755116'
       X-Ratelimit-Resource:
       - core
       X-Ratelimit-Used:
-      - '9'
+      - '12'
       Content-Length:
       - '118'
       X-Github-Request-Id:
-      - F7A7:3505EE:247BA2F:492382B:682C9050
+      - FAEC:324A54:E17187:1C353CC:682C925D
     body:
-      encoding: ASCII-8BIT
-      string: '{"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/repos#get-a-repository","status":"404"}'
-  recorded_at: Tue, 20 May 2025 14:23:12 GMT
+      encoding: UTF-8
+      string: |-
+        {
+          "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+          "message": "Not Found",
+          "status": "404"
+        }
+  recorded_at: Tue, 20 May 2025 14:31:57 GMT
 recorded_with: VCR 6.3.1
