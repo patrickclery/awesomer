@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'net/http'
-require 'uri'
-require 'json'
-require 'time'
+require "net/http"
+require "uri"
+require "json"
+require "time"
 
 class SyncGitStatsOperation
   include Dry::Monads[:result, :do]
@@ -21,12 +21,12 @@ class SyncGitStatsOperation
           repo_name = match[:repo]
 
           # Fetch stats directly using a private method
-          stats_result = yield fetch_repo_stats(owner: owner, repo_name: repo_name)
-          
+          stats_result = yield fetch_repo_stats(owner:, repo_name:)
+
           # Update item with new stats. item.new creates a new instance.
           item.new(
-            stars: stats_result[:stars],
-            last_commit_at: stats_result[:last_commit_at]
+            last_commit_at: stats_result[:last_commit_at],
+            stars: stats_result[:stars]
             # commits_past_year is not updated by this operation
           )
         else
@@ -42,8 +42,8 @@ class SyncGitStatsOperation
   # Catch specific errors that might occur within this operation's direct logic, if any.
   rescue Dry::Struct::Error => e # For example, if category.new or item.new had issues
     Failure("SyncGitStatsOperation failed due to Struct error: #{e.message}")
-  # fetch_repo_stats returns Failure on error, which `yield` will propagate.
-  # No broad StandardError rescue needed here if fetch_repo_stats is robust.
+    # fetch_repo_stats returns Failure on error, which `yield` will propagate.
+    # No broad StandardError rescue needed here if fetch_repo_stats is robust.
   end
 
   private
@@ -51,11 +51,11 @@ class SyncGitStatsOperation
   def fetch_repo_stats(owner:, repo_name:)
     uri = URI.parse("#{GITHUB_API_BASE_URL}/#{owner}/#{repo_name}")
     http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = (uri.scheme == 'https')
+    http.use_ssl = (uri.scheme == "https")
 
     request = Net::HTTP::Get.new(uri.request_uri)
-    request['User-Agent'] = 'AwesomeListStatsFetcher/1.0' # GitHub API requires User-Agent
-    request['Accept'] = 'application/vnd.github.v3+json'
+    request["User-Agent"] = "AwesomeListStatsFetcher/1.0" # GitHub API requires User-Agent
+    request["Accept"] = "application/vnd.github.v3+json"
 
     response = http.request(request)
 
@@ -63,10 +63,10 @@ class SyncGitStatsOperation
     when Net::HTTPSuccess # 2xx
       begin
         data = JSON.parse(response.body)
-        stars = data['stargazers_count']
-        pushed_at_string = data['pushed_at']
+        stars = data["stargazers_count"]
+        pushed_at_string = data["pushed_at"]
         last_commit_at = pushed_at_string ? Time.parse(pushed_at_string) : nil
-        Success({ stars: stars, last_commit_at: last_commit_at })
+        Success({last_commit_at:, stars:})
       rescue JSON::ParserError => e
         Failure("Failed to parse JSON response from GitHub API for #{owner}/#{repo_name}: #{e.message}")
       rescue StandardError => e # Catch other errors during data extraction e.g. Time.parse
@@ -82,4 +82,4 @@ class SyncGitStatsOperation
   rescue StandardError => e # Catch-all for other unexpected errors in this method
     Failure("Unexpected error in fetch_repo_stats for #{owner}/#{repo_name}: #{e.message}")
   end
-end 
+end

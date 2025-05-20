@@ -2,9 +2,9 @@
 
 require 'rails_helper'
 # VCR is usually required in spec_helper or rails_helper
-# require 'vcr' 
+# require 'vcr'
 
-# Note: Structs::Category, Structs::CategoryItem, and ParseMarkdownOperation 
+# Note: Structs::Category, Structs::CategoryItem, and ParseMarkdownOperation
 # are expected to be available via Rails eager loading.
 
 # Custom VCR helper will be used from support files (loaded by rails_helper)
@@ -17,9 +17,9 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
   let(:markdown_content) { File.read(Rails.root.join('spec/fixtures/awesome_self_hosted_snippet.md')) }
   let!(:initial_categories) do # Use let! to ensure ParseMarkdownOperation runs before mocks might be needed
-    parse_result = ParseMarkdownOperation.new.call(markdown_content: markdown_content)
+    parse_result = ParseMarkdownOperation.new.call(markdown_content:)
     # Allow parsing to fail if fixture is bad, but this spec focuses on SyncGitStatsOperation
-    parse_result.success? ? parse_result.value! : [] 
+    parse_result.success? ? parse_result.value! : []
   end
 
   # Removed stats_fetcher_mock and App::Container.stub
@@ -60,9 +60,9 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
     it 'updates stars and last_commit_at for GitHub items' do
       skip("Davis item not found in fixture") unless davis_item_original
       skip("Xandikos item not found in fixture") unless xandikos_item_original
-      
+
       updated_categories = nil
-      vcr('github_stats', 'successful_fetch') do 
+      vcr('github_stats', 'successful_fetch') do
         updated_categories = operation_call.value!
       end
 
@@ -78,7 +78,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
     it 'creates new CategoryItem instances for updated items' do
       skip("Davis item not found in fixture") unless davis_item_original
-      vcr('github_stats', 'successful_fetch_for_instance_check') do 
+      vcr('github_stats', 'successful_fetch_for_instance_check') do
         updated_categories = operation_call.value!
         updated_davis_item = updated_categories.first.repos.find { |item| item.id == davis_item_original.id }
         expect(updated_davis_item).not_to be(davis_item_original)
@@ -89,16 +89,16 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
     it 'keeps non-GitHub items unchanged' do
       original_non_gh_item = initial_categories.first.repos.find { |item| item.url == 'https://sabre.io/baikal/' }
       skip("Non-GitHub item Baikal not found in fixture") unless original_non_gh_item
-      
-      vcr('github_stats', 'non_github_item_check') do 
+
+      vcr('github_stats', 'non_github_item_check') do
         updated_categories = operation_call.value!
         updated_non_gh_item = updated_categories.first.repos.find { |item| item.id == original_non_gh_item.id }
-        
-        expect(updated_non_gh_item.stars).to be_nil 
-        expect(updated_non_gh_item.last_commit_at).to be_nil 
+
+        expect(updated_non_gh_item.stars).to be_nil
+        expect(updated_non_gh_item.last_commit_at).to be_nil
         expect(updated_non_gh_item.name).to eq(original_non_gh_item.name)
         expect(updated_non_gh_item.url).to eq(original_non_gh_item.url)
-        expect(updated_non_gh_item).to be(original_non_gh_item) 
+        expect(updated_non_gh_item).to be(original_non_gh_item)
       end
     end
 
@@ -115,20 +115,20 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
     # For this test, we want to ensure fetch_repo_stats returns a Failure
     # VCR will record the 404 response from GitHub for a non-existent repo.
     # We modify one of the URLs in `initial_categories` or create a specific category for this.
+    subject(:operation_call_with_bad_repo) { described_class.new.call(categories: categories_with_bad_repo) }
+
     let(:categories_with_bad_repo) do
       # Create a new category list with one item pointing to a non-existent GitHub repo
       bad_item = Structs::CategoryItem.new(id: 999, name: "NonExistent", url: "https://github.com/nonexistent-owner/nonexistent-repo")
       original_category = initial_categories.first
       # Ensure original_category is not nil before trying to access its attributes
       if original_category
-        [original_category.new(repos: [bad_item] + original_category.repos)]
+        [ original_category.new(repos: [ bad_item ] + original_category.repos) ]
       else
         # Fallback if initial_categories was empty or malformed from parsing, create a dummy
-        [Structs::Category.new(name: "Test Cat", custom_order: 0, repos: [bad_item])]
+        [ Structs::Category.new(custom_order: 0, name: "Test Cat", repos: [ bad_item ]) ]
       end
     end
-
-    subject(:operation_call_with_bad_repo) { described_class.new.call(categories: categories_with_bad_repo) }
 
     it 'returns a Failure result' do
       vcr('github_stats', 'repo_not_found') do
@@ -146,6 +146,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
   context 'when input categories array is empty' do
     let(:initial_categories) { [] }
+
     it 'returns Success with an empty array' do
       # No VCR needed as no API calls will be made
       expect(operation_call).to be_success
@@ -154,13 +155,14 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
   end
 
   context 'when a category has no repos' do
-    let(:initial_categories) { [Structs::Category.new(name: "Empty Cat", custom_order: 0, repos: [])] }
+    let(:initial_categories) { [ Structs::Category.new(custom_order: 0, name: "Empty Cat", repos: []) ] }
+
     it 'returns Success with the category unchanged' do
       # No VCR needed
       expect(operation_call).to be_success
       updated_category = operation_call.value!.first
-      expect(updated_category.name).to eq "Empty Cat"
+      expect(updated_category.name).to eq("Empty Cat")
       expect(updated_category.repos).to be_empty
     end
   end
-end 
+end
