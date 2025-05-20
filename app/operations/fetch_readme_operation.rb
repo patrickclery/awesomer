@@ -1,30 +1,34 @@
 # frozen_string_literal: true
 
-require "net/http"
-require "uri"
-require "json"
-require "base64"
-require "time" # Ensure Time is available for parsing
+# Ensure octokit gem is in Gemfile and bundled
+# require 'net/http' # No longer needed
+# require 'uri'      # No longer needed
+require "json"     # Potentially needed if Octokit response needs manual parsing for some edge cases, usually not.
+require "base64"   # Still needed for explicit decoding if Octokit provides raw base64 content.
+require "time"
+require "octokit"  # Added
 
 class FetchReadmeOperation
   include Dry::Monads[:result, :do]
 
   GITHUB_REPO_REGEX = %r{https?://(?:www\.)?github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
-  GITHUB_API_BASE_URL = "https://api.github.com/repos"
+  # GITHUB_API_BASE_URL not directly used with Octokit client in this way
 
   def call(repo_identifier:)
     owner, repo_name = yield parse_repo_identifier(repo_identifier)
+    repo_full_name = "#{owner}/#{repo_name}"
 
-    # Fetch general repo data first for description and default branch (if needed for README path)
-    repo_data = yield fetch_repo_data(owner:, repo_name:)
-    repo_main_description = repo_data["description"]
-    # default_branch = repo_data['default_branch'] # Could be used if README path needs branch
+    client = Octokit::Client.new(access_token: ENV["GITHUB_API_KEY"])
 
-    readme_api_response = yield fetch_readme_from_github(owner:, repo_name:)
-    readme_filename = readme_api_response["name"]
-    decoded_content = yield decode_readme_content(content: readme_api_response["content"], encoding: readme_api_response["encoding"])
+    repo_data_result = yield fetch_repo_data(client, repo_full_name)
+    repo_main_description = repo_data_result.description
 
-    readme_last_commit_date = yield fetch_readme_last_commit_date(owner:, readme_path: readme_filename, repo_name:)
+    readme_details_hash = yield fetch_readme_content_from_github(client, repo_full_name)
+    readme_filename = readme_details_hash[:name]
+    decoded_content = readme_details_hash[:content]
+    # encoding = readme_details_hash[:encoding] # Available if needed
+
+    readme_last_commit_date = yield fetch_readme_last_commit_date(client, repo_full_name, readme_filename)
 
     Success({
       content: decoded_content,
@@ -49,104 +53,51 @@ class FetchReadmeOperation
     end
   end
 
-  def fetch_repo_data(owner:, repo_name:)
-    uri = URI.parse("#{GITHUB_API_BASE_URL}/#{owner}/#{repo_name}")
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = (uri.scheme == "https")
-
-    request = Net::HTTP::Get.new(uri.request_uri)
-    request["User-Agent"] = "AwesomeListDetailsFetcher/1.0"
-    request["Accept"] = "application/vnd.github.v3+json"
-    # Add Authorization header if GITHUB_TOKEN is available for higher rate limits
-    # request['Authorization'] = "token #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
-
-    response = http.request(request)
-
-    case response
-    when Net::HTTPSuccess
-      Success(JSON.parse(response.body))
-    else
-      Failure("Failed to fetch repo data for #{owner}/#{repo_name}: #{response.code} #{response.message}")
-    end
-  rescue StandardError => e
-    Failure("Error fetching repo data for #{owner}/#{repo_name}: #{e.message}")
+  def fetch_repo_data(client, repo_full_name)
+    repo_details = client.repository(repo_full_name)
+    Success(repo_details) # repo_details is an Octokit::Resource (Sawyer::Resource)
+  rescue Octokit::NotFound
+    Failure("Repository not found: #{repo_full_name}")
+  rescue Octokit::Error => e
+    Failure("GitHub API error fetching repo data for #{repo_full_name}: #{e.message}")
   end
 
-  def fetch_readme_from_github(owner:, repo_name:)
-    uri = URI.parse("#{GITHUB_API_BASE_URL}/#{owner}/#{repo_name}/readme")
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = (uri.scheme == "https")
+  def fetch_readme_content_from_github(client, repo_full_name)
+    readme_info = client.readme(repo_full_name) # This gets Sawyer::Resource with .content as base64
+    content_decoded = Base64.decode64(readme_info.content).force_encoding("UTF-8")
+    return Failure("Decoded README content is not valid UTF-8 for #{repo_full_name}") unless content_decoded.valid_encoding?
 
-    request = Net::HTTP::Get.new(uri.request_uri)
-    request["User-Agent"] = "AwesomeListReadmeFetcher/1.0"
-    request["Accept"] = "application/vnd.github.v3+json"
-    # Add Authorization header if GITHUB_TOKEN is available for higher rate limits
-    # request['Authorization'] = "token #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
-
-    response = http.request(request)
-
-    case response
-    when Net::HTTPSuccess
-      Success(JSON.parse(response.body))
-    when Net::HTTPNotFound
-      Failure("README not found for repository: #{owner}/#{repo_name}")
-    else
-      Failure("GitHub API request for README failed for #{owner}/#{repo_name}: #{response.code} #{response.message} - #{response.body.truncate(100)}")
-    end
-  rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout => e
-    Failure("Network error while fetching README for #{owner}/#{repo_name}: #{e.message}")
-  rescue JSON::ParserError => e
-    Failure("Failed to parse JSON response for README from GitHub API for #{owner}/#{repo_name}: #{e.message}")
-  rescue StandardError => e
-    Failure("Unexpected error fetching README for #{owner}/#{repo_name}: #{e.message}")
+    Success({content: content_decoded, encoding: readme_info.encoding, name: readme_info.name})
+  rescue Octokit::NotFound
+    Failure("README not found for repository: #{repo_full_name}")
+  rescue Octokit::Error => e
+    Failure("GitHub API error fetching README for #{repo_full_name}: #{e.message}")
+  rescue ArgumentError => e # For Base64 decoding issues if content is not base64
+    Failure("Failed to decode base64 content for README of #{repo_full_name}: #{e.message}")
   end
 
-  def decode_readme_content(content:, encoding:)
-    return Failure("README content is missing from API response") unless content
-    return Failure("Unsupported README encoding: #{encoding}") unless encoding == "base64"
+  # decode_readme_content method is now integrated or handled by Octokit/above method
 
-    decoded_string = Base64.decode64(content)
-    # Assume the decoded content from GitHub is UTF-8. Force encoding and check validity.
-    decoded_string.force_encoding("UTF-8")
-    unless decoded_string.valid_encoding?
-      # If it's not valid UTF-8, it might be another encoding, or corrupted.
-      # For now, we fail. A more robust solution might try to detect/convert known encodings.
-      return Failure("Decoded README content is not valid UTF-8")
-    end
-    Success(decoded_string)
-  rescue ArgumentError => e # For invalid base64
-    Failure("Failed to decode base64 content for README: #{e.message}")
-  end
-
-  def fetch_readme_last_commit_date(owner:, readme_path:, repo_name:)
-    return Success(nil) if readme_path.blank? # No path, no commit date
-    uri = URI.parse("#{GITHUB_API_BASE_URL}/#{owner}/#{repo_name}/commits?path=#{CGI.escape(readme_path)}&page=1&per_page=1")
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = (uri.scheme == "https")
-
-    request = Net::HTTP::Get.new(uri.request_uri)
-    request["User-Agent"] = "AwesomeListReadmeFetcher/1.0"
-    request["Accept"] = "application/vnd.github.v3+json"
-    # Add Authorization header if GITHUB_TOKEN is available for higher rate limits
-    # request['Authorization'] = "token #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
-
-    response = http.request(request)
-
-    case response
-    when Net::HTTPSuccess
-      commits_data = JSON.parse(response.body)
-      if commits_data.is_a?(Array) && commits_data.first && commits_data.first.dig("commit", "committer", "date")
-        Success(Time.parse(commits_data.first["commit"]["committer"]["date"]))
-      else
-        Success(nil) # No commit data found for the README path
-      end
+  def fetch_readme_last_commit_date(client, repo_full_name, readme_path)
+    return Success(nil) if readme_path.blank?
+    commits = client.commits(repo_full_name, page: 1, path: readme_path, per_page: 1)
+    if commits.is_a?(Array) && commits.first
+      # Ensure navigation through Sawyer::Resource which might not support .dig well
+      commit_info = commits.first.commit
+      committer_info = commit_info&.committer
+      date_string = committer_info&.date
+      Success(date_string ? Time.parse(date_string) : nil)
     else
-      # Don't make this a hard failure for the whole operation, just return nil for commit date
-      puts "WARN: Could not fetch last commit date for README '#{readme_path}' in #{owner}/#{repo_name}: #{response.code}"
-      Success(nil)
+      Success(nil) # No commit data found for the README path
     end
-  rescue StandardError => e # Catch broader errors, return nil for commit date
-    puts "WARN: Error fetching last commit date for README '#{readme_path}' in #{owner}/#{repo_name}: #{e.message}"
+  rescue Octokit::NotFound # If path doesn't exist or repo is empty, commits might 404
+    puts "WARN: Could not fetch last commit date for README '#{readme_path}' in #{repo_full_name} (path not found or no commits)."
+    Success(nil)
+  rescue Octokit::Error => e
+    puts "WARN: GitHub API error fetching last commit date for README '#{readme_path}' in #{repo_full_name}: #{e.message}"
+    Success(nil)
+  rescue StandardError => e # Catch other errors, return nil for commit date
+    puts "WARN: Error parsing last commit date for README '#{readme_path}' in #{repo_full_name}: #{e.message}"
     Success(nil)
   end
 end
