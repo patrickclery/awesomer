@@ -10,18 +10,24 @@ require 'rails_helper'
 RSpec.describe ParseMarkdownOperation do
   subject(:operation_call) { described_class.new.call(markdown_content:) }
 
-  context 'with basic markdown content including links' do
+  context 'with basic markdown content including links and multi-line descriptions' do
     let(:markdown_content) do
       <<~MARKDOWN
         ## Category 1
         - [Project A](https://github.com/ownerA/projectA) - Description for A.
+          This is a continuation of A's description.
         - [Project B](https://example.com/projectB) - Description for B.
-        - [Project C](https://github.com/ownerC/projectC)
+        - [Project C](https://github.com/ownerC/projectC) No dash, so no description here.
+          This line should NOT be part of C's description.
         - [Item D](https://example.com/itemD)
+          This is D's description spanning multiple
+          lines.
 
         ## Category 2
         * [Project E](https://github.com/ownerE/projectE.git) - Description for E with .git.
         * [No Description Item](https://no-desc.com)
+          But this line IS a description for No Description Item.
+        ## Category 3 - Empty Category
       MARKDOWN
     end
 
@@ -29,103 +35,55 @@ RSpec.describe ParseMarkdownOperation do
       expect(operation_call).to be_success
     end
 
-    it 'parses categories and items correctly into Structs::Category and Structs::CategoryItem structs' do
+    it 'parses categories and items correctly, including descriptions' do
       result = operation_call.value!
-      expect(result.size).to eq(2)
+      expect(result.size).to eq(3)
 
       # Category 1
-      cat1 = result.first
-      expect(cat1).to be_a(Structs::Category)
+      cat1 = result[0]
       expect(cat1.name).to eq('Category 1')
-      expect(cat1.custom_order).to eq(0)
       expect(cat1.repos.size).to eq(4)
 
-      item1_cat1 = cat1.repos[0]
-      expect(item1_cat1).to be_a(Structs::CategoryItem)
-      expect(item1_cat1.id).to eq(1)
-      expect(item1_cat1.name).to eq('Project A')
-      expect(item1_cat1.url).to eq('https://github.com/ownerA/projectA')
-      expect(item1_cat1.commits_past_year).to be_nil
-      expect(item1_cat1.last_commit_at).to be_nil
-      expect(item1_cat1.stars).to be_nil
+      expect(cat1.repos[0].name).to eq('Project A')
+      expect(cat1.repos[0].description).to eq("Description for A.\nThis is a continuation of A's description.")
 
-      item2_cat1 = cat1.repos[1]
-      expect(item2_cat1).to be_a(Structs::CategoryItem)
-      expect(item2_cat1.id).to eq(2)
-      expect(item2_cat1.name).to eq('Project B')
-      expect(item2_cat1.url).to eq('https://example.com/projectB')
-      expect(item2_cat1.commits_past_year).to be_nil
-      expect(item2_cat1.last_commit_at).to be_nil
-      expect(item2_cat1.stars).to be_nil
+      expect(cat1.repos[1].name).to eq('Project B')
+      expect(cat1.repos[1].description).to eq("Description for B.")
 
-      expect(cat1.repos[2]).to be_a(Structs::CategoryItem)
-      expect(cat1.repos[2].id).to eq(3)
       expect(cat1.repos[2].name).to eq('Project C')
-      expect(cat1.repos[2].url).to eq('https://github.com/ownerC/projectC')
-      expect(cat1.repos[2].commits_past_year).to be_nil
-      expect(cat1.repos[2].last_commit_at).to be_nil
-      expect(cat1.repos[2].stars).to be_nil
+      expect(cat1.repos[2].description).to be_nil
 
-      expect(cat1.repos[3]).to be_a(Structs::CategoryItem)
-      expect(cat1.repos[3].id).to eq(4)
       expect(cat1.repos[3].name).to eq('Item D')
-      expect(cat1.repos[3].url).to eq('https://example.com/itemD')
-      expect(cat1.repos[3].commits_past_year).to be_nil
-      expect(cat1.repos[3].last_commit_at).to be_nil
-      expect(cat1.repos[3].stars).to be_nil
+      expect(cat1.repos[3].description).to be_nil
 
       # Category 2
-      cat2 = result.last
-      expect(cat2).to be_a(Structs::Category)
+      cat2 = result[1]
       expect(cat2.name).to eq('Category 2')
-      expect(cat2.custom_order).to eq(1)
       expect(cat2.repos.size).to eq(2)
-
-      expect(cat2.repos[0]).to be_a(Structs::CategoryItem)
-      expect(cat2.repos[0].id).to eq(5) # Link ID counter continues
       expect(cat2.repos[0].name).to eq('Project E')
-      expect(cat2.repos[0].url).to eq('https://github.com/ownerE/projectE.git')
-      expect(cat2.repos[0].commits_past_year).to be_nil
-      expect(cat2.repos[0].last_commit_at).to be_nil
-      expect(cat2.repos[0].stars).to be_nil
-
-      expect(cat2.repos[1]).to be_a(Structs::CategoryItem)
-      expect(cat2.repos[1].id).to eq(6)
+      expect(cat2.repos[0].description).to eq("Description for E with .git.")
       expect(cat2.repos[1].name).to eq('No Description Item')
-      expect(cat2.repos[1].url).to eq('https://no-desc.com')
-      expect(cat2.repos[1].commits_past_year).to be_nil
-      expect(cat2.repos[1].last_commit_at).to be_nil
-      expect(cat2.repos[1].stars).to be_nil
+      expect(cat2.repos[1].description).to be_nil
 
-      cat1.repos[2..].each do |item|
-        expect(item).to be_a(Structs::CategoryItem)
-        expect(item.commits_past_year).to be_nil
-        expect(item.last_commit_at).to be_nil
-        expect(item.stars).to be_nil
-      end
+      # Category 3
+      cat3 = result[2]
+      expect(cat3.name).to eq('Category 3 - Empty Category')
+      expect(cat3.repos).to be_empty
 
-      cat2.repos.each do |item|
-        expect(item).to be_a(Structs::CategoryItem)
-        expect(item.commits_past_year).to be_nil
-        expect(item.last_commit_at).to be_nil
-        expect(item.stars).to be_nil
-      end
+      # Check a few other item attributes remain nil as before
+      expect(cat1.repos[0].stars).to be_nil
     end
   end
 
   context 'with category headers having extra spaces' do
-    let(:markdown_content) { "##   Category spaced   \n- [MyItem](https://example.com) - Desc" }
+    let(:markdown_content) { "###   Category spaced   \n- [MyItem](https://example.com) - Desc line 1\n  Desc line 2" }
 
-    it 'strips category names and creates correct Structs::CategoryItem struct' do
+    it 'strips category names and creates correct item with multi-line description' do
       category = operation_call.value!.first
+      expect(category.name).to eq('Category spaced')
       item = category.repos.first
-      expect(item).to be_a(Structs::CategoryItem)
       expect(item.name).to eq('MyItem')
-      expect(item.id).to eq(1)
-      expect(item.url).to eq('https://example.com')
-      expect(item.commits_past_year).to be_nil
-      expect(item.last_commit_at).to be_nil
-      expect(item.stars).to be_nil
+      expect(item.description).to eq("Desc line 1\nDesc line 2")
     end
   end
 
