@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 May 2025 16:33:38 GMT
+      - Tue, 20 May 2025 16:42:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
@@ -60,17 +60,17 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '13'
+      - '41'
       X-Ratelimit-Reset:
-      - '1747759006'
+      - '1747762559'
       X-Ratelimit-Resource:
       - core
       X-Ratelimit-Used:
-      - '47'
+      - '19'
       Transfer-Encoding:
       - chunked
       X-Github-Request-Id:
-      - D4E9:F54F4:2FCBDAA:5FA0731:682CAEE2
+      - D821:2DCAEE:1FF231:3FC2E6:682CB105
     body:
       encoding: UTF-8
       string: |-
@@ -92,5 +92,3282 @@ http_interactions:
           "type": "file",
           "url": "https://api.github.com/repos/Polycarbohydrate/awesome-tor/contents/README.md?ref=main"
         }
-  recorded_at: Tue, 20 May 2025 16:33:38 GMT
+  recorded_at: Tue, 20 May 2025 16:42:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/nusenu/ansible-relayor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"ae0749e791eec15f9cd8d1ccbea62d0e4304481e1a28b2e3920085df9e3c79e9"
+      Last-Modified:
+      - Mon, 12 May 2025 10:10:16 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '40'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '20'
+      Content-Length:
+      - '5385'
+      X-Github-Request-Id:
+      - D822:2E1B0E:210F33:41FE45:682CB105
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/nusenu/ansible-relayor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/nusenu/ansible-relayor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/nusenu/ansible-relayor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/nusenu/ansible-relayor/branches{/branch}",
+          "clone_url": "https://github.com/nusenu/ansible-relayor.git",
+          "collaborators_url": "https://api.github.com/repos/nusenu/ansible-relayor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/nusenu/ansible-relayor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/nusenu/ansible-relayor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/nusenu/ansible-relayor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/nusenu/ansible-relayor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/nusenu/ansible-relayor/contributors",
+          "created_at": "2015-02-27T18:37:21Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/nusenu/ansible-relayor/deployments",
+          "description": "An Ansible Role for Tor Relay Operators",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/nusenu/ansible-relayor/downloads",
+          "events_url": "https://api.github.com/repos/nusenu/ansible-relayor/events",
+          "fork": false,
+          "forks": 42,
+          "forks_count": 42,
+          "forks_url": "https://api.github.com/repos/nusenu/ansible-relayor/forks",
+          "full_name": "nusenu/ansible-relayor",
+          "git_commits_url": "https://api.github.com/repos/nusenu/ansible-relayor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/nusenu/ansible-relayor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/nusenu/ansible-relayor/git/tags{/sha}",
+          "git_url": "git://github.com/nusenu/ansible-relayor.git",
+          "has_discussions": true,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/nusenu/ansible-relayor/hooks",
+          "html_url": "https://github.com/nusenu/ansible-relayor",
+          "id": 31433462,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/nusenu/ansible-relayor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/nusenu/ansible-relayor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/nusenu/ansible-relayor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/nusenu/ansible-relayor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/nusenu/ansible-relayor/labels{/name}",
+          "language": "HTML",
+          "languages_url": "https://api.github.com/repos/nusenu/ansible-relayor/languages",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+          },
+          "merges_url": "https://api.github.com/repos/nusenu/ansible-relayor/merges",
+          "milestones_url": "https://api.github.com/repos/nusenu/ansible-relayor/milestones{/number}",
+          "mirror_url": null,
+          "name": "ansible-relayor",
+          "network_count": 42,
+          "node_id": "MDEwOlJlcG9zaXRvcnkzMTQzMzQ2Mg==",
+          "notifications_url": "https://api.github.com/repos/nusenu/ansible-relayor/notifications{?since,all,participating}",
+          "open_issues": 9,
+          "open_issues_count": 9,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11165848?v=4",
+            "events_url": "https://api.github.com/users/nusenu/events{/privacy}",
+            "followers_url": "https://api.github.com/users/nusenu/followers",
+            "following_url": "https://api.github.com/users/nusenu/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nusenu/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/nusenu",
+            "id": 11165848,
+            "login": "nusenu",
+            "node_id": "MDQ6VXNlcjExMTY1ODQ4",
+            "organizations_url": "https://api.github.com/users/nusenu/orgs",
+            "received_events_url": "https://api.github.com/users/nusenu/received_events",
+            "repos_url": "https://api.github.com/users/nusenu/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/nusenu/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nusenu/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/nusenu",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/nusenu/ansible-relayor/pulls{/number}",
+          "pushed_at": "2025-04-28T23:11:38Z",
+          "releases_url": "https://api.github.com/repos/nusenu/ansible-relayor/releases{/id}",
+          "size": 623,
+          "ssh_url": "git@github.com:nusenu/ansible-relayor.git",
+          "stargazers_count": 249,
+          "stargazers_url": "https://api.github.com/repos/nusenu/ansible-relayor/stargazers",
+          "statuses_url": "https://api.github.com/repos/nusenu/ansible-relayor/statuses/{sha}",
+          "subscribers_count": 16,
+          "subscribers_url": "https://api.github.com/repos/nusenu/ansible-relayor/subscribers",
+          "subscription_url": "https://api.github.com/repos/nusenu/ansible-relayor/subscription",
+          "svn_url": "https://github.com/nusenu/ansible-relayor",
+          "tags_url": "https://api.github.com/repos/nusenu/ansible-relayor/tags",
+          "teams_url": "https://api.github.com/repos/nusenu/ansible-relayor/teams",
+          "temp_clone_token": null,
+          "topics": ["ansible","ansible-role","tor","tor-network","tor-relay-operator"],
+          "trees_url": "https://api.github.com/repos/nusenu/ansible-relayor/git/trees{/sha}",
+          "updated_at": "2025-05-12T10:10:16Z",
+          "url": "https://api.github.com/repos/nusenu/ansible-relayor",
+          "visibility": "public",
+          "watchers": 249,
+          "watchers_count": 249,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/cretz/bine
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"5cb085517cac1036e6c69528f11d76627abcb571f56307de9706a7eafbefd64e"
+      Last-Modified:
+      - Tue, 13 May 2025 15:51:31 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '21'
+      Content-Length:
+      - '4783'
+      X-Github-Request-Id:
+      - D823:33A444:1F6250:3EB63C:682CB105
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/cretz/bine/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/cretz/bine/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/cretz/bine/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/cretz/bine/branches{/branch}",
+          "clone_url": "https://github.com/cretz/bine.git",
+          "collaborators_url": "https://api.github.com/repos/cretz/bine/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/cretz/bine/comments{/number}",
+          "commits_url": "https://api.github.com/repos/cretz/bine/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/cretz/bine/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/cretz/bine/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/cretz/bine/contributors",
+          "created_at": "2018-05-10T14:49:46Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/cretz/bine/deployments",
+          "description": "Go library for accessing and embedding Tor clients and servers",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/cretz/bine/downloads",
+          "events_url": "https://api.github.com/repos/cretz/bine/events",
+          "fork": false,
+          "forks": 74,
+          "forks_count": 74,
+          "forks_url": "https://api.github.com/repos/cretz/bine/forks",
+          "full_name": "cretz/bine",
+          "git_commits_url": "https://api.github.com/repos/cretz/bine/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/cretz/bine/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/cretz/bine/git/tags{/sha}",
+          "git_url": "git://github.com/cretz/bine.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": false,
+          "has_wiki": false,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/cretz/bine/hooks",
+          "html_url": "https://github.com/cretz/bine",
+          "id": 132914667,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/cretz/bine/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/cretz/bine/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/cretz/bine/issues{/number}",
+          "keys_url": "https://api.github.com/repos/cretz/bine/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/cretz/bine/labels{/name}",
+          "language": "Go",
+          "languages_url": "https://api.github.com/repos/cretz/bine/languages",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+          },
+          "merges_url": "https://api.github.com/repos/cretz/bine/merges",
+          "milestones_url": "https://api.github.com/repos/cretz/bine/milestones{/number}",
+          "mirror_url": null,
+          "name": "bine",
+          "network_count": 74,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMzI5MTQ2Njc=",
+          "notifications_url": "https://api.github.com/repos/cretz/bine/notifications{?since,all,participating}",
+          "open_issues": 25,
+          "open_issues_count": 25,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/206396?v=4",
+            "events_url": "https://api.github.com/users/cretz/events{/privacy}",
+            "followers_url": "https://api.github.com/users/cretz/followers",
+            "following_url": "https://api.github.com/users/cretz/following{/other_user}",
+            "gists_url": "https://api.github.com/users/cretz/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/cretz",
+            "id": 206396,
+            "login": "cretz",
+            "node_id": "MDQ6VXNlcjIwNjM5Ng==",
+            "organizations_url": "https://api.github.com/users/cretz/orgs",
+            "received_events_url": "https://api.github.com/users/cretz/received_events",
+            "repos_url": "https://api.github.com/users/cretz/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/cretz/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/cretz/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/cretz",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/cretz/bine/pulls{/number}",
+          "pushed_at": "2023-07-28T08:24:22Z",
+          "releases_url": "https://api.github.com/repos/cretz/bine/releases{/id}",
+          "size": 2141,
+          "ssh_url": "git@github.com:cretz/bine.git",
+          "stargazers_count": 781,
+          "stargazers_url": "https://api.github.com/repos/cretz/bine/stargazers",
+          "statuses_url": "https://api.github.com/repos/cretz/bine/statuses/{sha}",
+          "subscribers_count": 17,
+          "subscribers_url": "https://api.github.com/repos/cretz/bine/subscribers",
+          "subscription_url": "https://api.github.com/repos/cretz/bine/subscription",
+          "svn_url": "https://github.com/cretz/bine",
+          "tags_url": "https://api.github.com/repos/cretz/bine/tags",
+          "teams_url": "https://api.github.com/repos/cretz/bine/teams",
+          "temp_clone_token": null,
+          "topics": ["go","tor"],
+          "trees_url": "https://api.github.com/repos/cretz/bine/git/trees{/sha}",
+          "updated_at": "2025-05-13T15:51:31Z",
+          "url": "https://api.github.com/repos/cretz/bine",
+          "visibility": "public",
+          "watchers": 781,
+          "watchers_count": 781,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:45 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/DNSCrypt/dnscrypt-proxy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"9a2ce99114247c81ad627f2b3f0ea9a8608729ea34aec5776c93e4001d2bb6d2"
+      Last-Modified:
+      - Tue, 20 May 2025 16:28:24 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '22'
+      Content-Length:
+      - '6607'
+      X-Github-Request-Id:
+      - D824:2E1B0E:21105E:4200C1:682CB105
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/branches{/branch}",
+          "clone_url": "https://github.com/DNSCrypt/dnscrypt-proxy.git",
+          "collaborators_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/comments{/number}",
+          "commits_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/contributors",
+          "created_at": "2018-01-08T23:21:21Z",
+          "custom_properties": {},
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/deployments",
+          "description": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/downloads",
+          "events_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/events",
+          "fork": false,
+          "forks": 1048,
+          "forks_count": 1048,
+          "forks_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/forks",
+          "full_name": "DNSCrypt/dnscrypt-proxy",
+          "git_commits_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/git/tags{/sha}",
+          "git_url": "git://github.com/DNSCrypt/dnscrypt-proxy.git",
+          "has_discussions": true,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": false,
+          "has_wiki": true,
+          "homepage": "https://dnscrypt.info",
+          "hooks_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/hooks",
+          "html_url": "https://github.com/DNSCrypt/dnscrypt-proxy",
+          "id": 116739828,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/issues{/number}",
+          "keys_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/labels{/name}",
+          "language": "Go",
+          "languages_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/languages",
+          "license": {
+            "key": "isc",
+            "name": "ISC License",
+            "node_id": "MDc6TGljZW5zZTEw",
+            "spdx_id": "ISC",
+            "url": "https://api.github.com/licenses/isc"
+          },
+          "merges_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/merges",
+          "milestones_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/milestones{/number}",
+          "mirror_url": null,
+          "name": "dnscrypt-proxy",
+          "network_count": 1048,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMTY3Mzk4Mjg=",
+          "notifications_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/notifications{?since,all,participating}",
+          "open_issues": 7,
+          "open_issues_count": 7,
+          "organization": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/34526273?v=4",
+            "events_url": "https://api.github.com/users/DNSCrypt/events{/privacy}",
+            "followers_url": "https://api.github.com/users/DNSCrypt/followers",
+            "following_url": "https://api.github.com/users/DNSCrypt/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DNSCrypt/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/DNSCrypt",
+            "id": 34526273,
+            "login": "DNSCrypt",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjM0NTI2Mjcz",
+            "organizations_url": "https://api.github.com/users/DNSCrypt/orgs",
+            "received_events_url": "https://api.github.com/users/DNSCrypt/received_events",
+            "repos_url": "https://api.github.com/users/DNSCrypt/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/DNSCrypt/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DNSCrypt/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/DNSCrypt",
+            "user_view_type": "public"
+          },
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/34526273?v=4",
+            "events_url": "https://api.github.com/users/DNSCrypt/events{/privacy}",
+            "followers_url": "https://api.github.com/users/DNSCrypt/followers",
+            "following_url": "https://api.github.com/users/DNSCrypt/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DNSCrypt/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/DNSCrypt",
+            "id": 34526273,
+            "login": "DNSCrypt",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjM0NTI2Mjcz",
+            "organizations_url": "https://api.github.com/users/DNSCrypt/orgs",
+            "received_events_url": "https://api.github.com/users/DNSCrypt/received_events",
+            "repos_url": "https://api.github.com/users/DNSCrypt/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/DNSCrypt/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DNSCrypt/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/DNSCrypt",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/pulls{/number}",
+          "pushed_at": "2025-05-20T16:30:00Z",
+          "releases_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/releases{/id}",
+          "size": 28940,
+          "ssh_url": "git@github.com:DNSCrypt/dnscrypt-proxy.git",
+          "stargazers_count": 12037,
+          "stargazers_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/stargazers",
+          "statuses_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/statuses/{sha}",
+          "subscribers_count": 320,
+          "subscribers_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/subscribers",
+          "subscription_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/subscription",
+          "svn_url": "https://github.com/DNSCrypt/dnscrypt-proxy",
+          "tags_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/tags",
+          "teams_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/teams",
+          "temp_clone_token": null,
+          "topics": [
+            "anonymized",
+            "anonymized-dns",
+            "dns",
+            "dns-over-https",
+            "dnscrypt",
+            "dnscrypt-proxy",
+            "dnscrypt-proxy2",
+            "doh",
+            "oblivious-dns-over-https",
+            "oblivious-doh",
+            "odoh",
+            "proxy"
+          ],
+          "trees_url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy/git/trees{/sha}",
+          "updated_at": "2025-05-20T16:28:24Z",
+          "url": "https://api.github.com/repos/DNSCrypt/dnscrypt-proxy",
+          "visibility": "public",
+          "watchers": 12037,
+          "watchers_count": 12037,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/skizap/dos-over-tor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"d187b0e4ffa08de439976659b2e303e930c32afd0a7788ee19659e700bf3fa99"
+      Last-Modified:
+      - Sat, 12 Apr 2025 14:23:15 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '37'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '23'
+      Content-Length:
+      - '5060'
+      X-Github-Request-Id:
+      - D825:3F7FB7:2151F1:42838C:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/skizap/dos-over-tor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/skizap/dos-over-tor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/skizap/dos-over-tor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/skizap/dos-over-tor/branches{/branch}",
+          "clone_url": "https://github.com/skizap/dos-over-tor.git",
+          "collaborators_url": "https://api.github.com/repos/skizap/dos-over-tor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/skizap/dos-over-tor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/skizap/dos-over-tor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/skizap/dos-over-tor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/skizap/dos-over-tor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/skizap/dos-over-tor/contributors",
+          "created_at": "2018-07-26T07:05:37Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/skizap/dos-over-tor/deployments",
+          "description": "Proof of concept denial of service over TOR stress test tool",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/skizap/dos-over-tor/downloads",
+          "events_url": "https://api.github.com/repos/skizap/dos-over-tor/events",
+          "fork": false,
+          "forks": 13,
+          "forks_count": 13,
+          "forks_url": "https://api.github.com/repos/skizap/dos-over-tor/forks",
+          "full_name": "skizap/dos-over-tor",
+          "git_commits_url": "https://api.github.com/repos/skizap/dos-over-tor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/skizap/dos-over-tor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/skizap/dos-over-tor/git/tags{/sha}",
+          "git_url": "git://github.com/skizap/dos-over-tor.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": false,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": null,
+          "hooks_url": "https://api.github.com/repos/skizap/dos-over-tor/hooks",
+          "html_url": "https://github.com/skizap/dos-over-tor",
+          "id": 142402445,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/skizap/dos-over-tor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/skizap/dos-over-tor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/skizap/dos-over-tor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/skizap/dos-over-tor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/skizap/dos-over-tor/labels{/name}",
+          "language": "Python",
+          "languages_url": "https://api.github.com/repos/skizap/dos-over-tor/languages",
+          "license": null,
+          "merges_url": "https://api.github.com/repos/skizap/dos-over-tor/merges",
+          "milestones_url": "https://api.github.com/repos/skizap/dos-over-tor/milestones{/number}",
+          "mirror_url": null,
+          "name": "dos-over-tor",
+          "network_count": 13,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxNDI0MDI0NDU=",
+          "notifications_url": "https://api.github.com/repos/skizap/dos-over-tor/notifications{?since,all,participating}",
+          "open_issues": 0,
+          "open_issues_count": 0,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/38334829?v=4",
+            "events_url": "https://api.github.com/users/skizap/events{/privacy}",
+            "followers_url": "https://api.github.com/users/skizap/followers",
+            "following_url": "https://api.github.com/users/skizap/following{/other_user}",
+            "gists_url": "https://api.github.com/users/skizap/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/skizap",
+            "id": 38334829,
+            "login": "skizap",
+            "node_id": "MDQ6VXNlcjM4MzM0ODI5",
+            "organizations_url": "https://api.github.com/users/skizap/orgs",
+            "received_events_url": "https://api.github.com/users/skizap/received_events",
+            "repos_url": "https://api.github.com/users/skizap/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/skizap/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/skizap/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/skizap",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/skizap/dos-over-tor/pulls{/number}",
+          "pushed_at": "2018-07-21T01:44:41Z",
+          "releases_url": "https://api.github.com/repos/skizap/dos-over-tor/releases{/id}",
+          "size": 96,
+          "ssh_url": "git@github.com:skizap/dos-over-tor.git",
+          "stargazers_count": 41,
+          "stargazers_url": "https://api.github.com/repos/skizap/dos-over-tor/stargazers",
+          "statuses_url": "https://api.github.com/repos/skizap/dos-over-tor/statuses/{sha}",
+          "subscribers_count": 0,
+          "subscribers_url": "https://api.github.com/repos/skizap/dos-over-tor/subscribers",
+          "subscription_url": "https://api.github.com/repos/skizap/dos-over-tor/subscription",
+          "svn_url": "https://github.com/skizap/dos-over-tor",
+          "tags_url": "https://api.github.com/repos/skizap/dos-over-tor/tags",
+          "teams_url": "https://api.github.com/repos/skizap/dos-over-tor/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/skizap/dos-over-tor/git/trees{/sha}",
+          "updated_at": "2025-04-12T14:23:15Z",
+          "url": "https://api.github.com/repos/skizap/dos-over-tor",
+          "visibility": "public",
+          "watchers": 41,
+          "watchers_count": 41,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/alecmuffett/eotk
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"46eece2052d5f8bcfdefdfcc06cd85c8d1ab4b77d7b42fa2bcc76bac2db63819"
+      Last-Modified:
+      - Thu, 24 Apr 2025 16:27:31 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '36'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '24'
+      Content-Length:
+      - '5100'
+      X-Github-Request-Id:
+      - D826:3EF412:25BD0F:4B5711:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/alecmuffett/eotk/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/alecmuffett/eotk/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/alecmuffett/eotk/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/alecmuffett/eotk/branches{/branch}",
+          "clone_url": "https://github.com/alecmuffett/eotk.git",
+          "collaborators_url": "https://api.github.com/repos/alecmuffett/eotk/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/alecmuffett/eotk/comments{/number}",
+          "commits_url": "https://api.github.com/repos/alecmuffett/eotk/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/alecmuffett/eotk/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/alecmuffett/eotk/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/alecmuffett/eotk/contributors",
+          "created_at": "2017-02-01T08:19:04Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/alecmuffett/eotk/deployments",
+          "description": "Enterprise Onion Toolkit",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/alecmuffett/eotk/downloads",
+          "events_url": "https://api.github.com/repos/alecmuffett/eotk/events",
+          "fork": false,
+          "forks": 104,
+          "forks_count": 104,
+          "forks_url": "https://api.github.com/repos/alecmuffett/eotk/forks",
+          "full_name": "alecmuffett/eotk",
+          "git_commits_url": "https://api.github.com/repos/alecmuffett/eotk/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/alecmuffett/eotk/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/alecmuffett/eotk/git/tags{/sha}",
+          "git_url": "git://github.com/alecmuffett/eotk.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": null,
+          "hooks_url": "https://api.github.com/repos/alecmuffett/eotk/hooks",
+          "html_url": "https://github.com/alecmuffett/eotk",
+          "id": 80601058,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/alecmuffett/eotk/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/alecmuffett/eotk/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/alecmuffett/eotk/issues{/number}",
+          "keys_url": "https://api.github.com/repos/alecmuffett/eotk/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/alecmuffett/eotk/labels{/name}",
+          "language": "Awk",
+          "languages_url": "https://api.github.com/repos/alecmuffett/eotk/languages",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+          },
+          "merges_url": "https://api.github.com/repos/alecmuffett/eotk/merges",
+          "milestones_url": "https://api.github.com/repos/alecmuffett/eotk/milestones{/number}",
+          "mirror_url": null,
+          "name": "eotk",
+          "network_count": 104,
+          "node_id": "MDEwOlJlcG9zaXRvcnk4MDYwMTA1OA==",
+          "notifications_url": "https://api.github.com/repos/alecmuffett/eotk/notifications{?since,all,participating}",
+          "open_issues": 20,
+          "open_issues_count": 20,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/798224?v=4",
+            "events_url": "https://api.github.com/users/alecmuffett/events{/privacy}",
+            "followers_url": "https://api.github.com/users/alecmuffett/followers",
+            "following_url": "https://api.github.com/users/alecmuffett/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alecmuffett/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/alecmuffett",
+            "id": 798224,
+            "login": "alecmuffett",
+            "node_id": "MDQ6VXNlcjc5ODIyNA==",
+            "organizations_url": "https://api.github.com/users/alecmuffett/orgs",
+            "received_events_url": "https://api.github.com/users/alecmuffett/received_events",
+            "repos_url": "https://api.github.com/users/alecmuffett/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/alecmuffett/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alecmuffett/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/alecmuffett",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/alecmuffett/eotk/pulls{/number}",
+          "pushed_at": "2024-02-09T02:12:54Z",
+          "releases_url": "https://api.github.com/repos/alecmuffett/eotk/releases{/id}",
+          "size": 4466,
+          "ssh_url": "git@github.com:alecmuffett/eotk.git",
+          "stargazers_count": 784,
+          "stargazers_url": "https://api.github.com/repos/alecmuffett/eotk/stargazers",
+          "statuses_url": "https://api.github.com/repos/alecmuffett/eotk/statuses/{sha}",
+          "subscribers_count": 47,
+          "subscribers_url": "https://api.github.com/repos/alecmuffett/eotk/subscribers",
+          "subscription_url": "https://api.github.com/repos/alecmuffett/eotk/subscription",
+          "svn_url": "https://github.com/alecmuffett/eotk",
+          "tags_url": "https://api.github.com/repos/alecmuffett/eotk/tags",
+          "teams_url": "https://api.github.com/repos/alecmuffett/eotk/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/alecmuffett/eotk/git/trees{/sha}",
+          "updated_at": "2025-04-24T16:27:31Z",
+          "url": "https://api.github.com/repos/alecmuffett/eotk",
+          "visibility": "public",
+          "watchers": 784,
+          "watchers_count": 784,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/GaloisInc/haskell-tor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"52b2c3cbc80153fbbbe1dd7ab54a128fe4588a6be93cf60d7dcd6c7e87e99eb0"
+      Last-Modified:
+      - Thu, 12 Dec 2024 23:28:50 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '35'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '25'
+      Content-Length:
+      - '6370'
+      X-Github-Request-Id:
+      - D827:17ED5D:22F379:45CADC:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/GaloisInc/haskell-tor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/GaloisInc/haskell-tor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/GaloisInc/haskell-tor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/GaloisInc/haskell-tor/branches{/branch}",
+          "clone_url": "https://github.com/GaloisInc/haskell-tor.git",
+          "collaborators_url": "https://api.github.com/repos/GaloisInc/haskell-tor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/GaloisInc/haskell-tor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/GaloisInc/haskell-tor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/GaloisInc/haskell-tor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/GaloisInc/haskell-tor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/GaloisInc/haskell-tor/contributors",
+          "created_at": "2015-11-17T06:07:28Z",
+          "custom_properties": {},
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/GaloisInc/haskell-tor/deployments",
+          "description": "A Haskell implementation of the Tor protocol.",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/GaloisInc/haskell-tor/downloads",
+          "events_url": "https://api.github.com/repos/GaloisInc/haskell-tor/events",
+          "fork": false,
+          "forks": 18,
+          "forks_count": 18,
+          "forks_url": "https://api.github.com/repos/GaloisInc/haskell-tor/forks",
+          "full_name": "GaloisInc/haskell-tor",
+          "git_commits_url": "https://api.github.com/repos/GaloisInc/haskell-tor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/GaloisInc/haskell-tor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/GaloisInc/haskell-tor/git/tags{/sha}",
+          "git_url": "git://github.com/GaloisInc/haskell-tor.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": null,
+          "hooks_url": "https://api.github.com/repos/GaloisInc/haskell-tor/hooks",
+          "html_url": "https://github.com/GaloisInc/haskell-tor",
+          "id": 46326802,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/GaloisInc/haskell-tor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/GaloisInc/haskell-tor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/GaloisInc/haskell-tor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/GaloisInc/haskell-tor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/GaloisInc/haskell-tor/labels{/name}",
+          "language": "Haskell",
+          "languages_url": "https://api.github.com/repos/GaloisInc/haskell-tor/languages",
+          "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+            "node_id": "MDc6TGljZW5zZTU=",
+            "spdx_id": "BSD-3-Clause",
+            "url": "https://api.github.com/licenses/bsd-3-clause"
+          },
+          "merges_url": "https://api.github.com/repos/GaloisInc/haskell-tor/merges",
+          "milestones_url": "https://api.github.com/repos/GaloisInc/haskell-tor/milestones{/number}",
+          "mirror_url": null,
+          "name": "haskell-tor",
+          "network_count": 18,
+          "node_id": "MDEwOlJlcG9zaXRvcnk0NjMyNjgwMg==",
+          "notifications_url": "https://api.github.com/repos/GaloisInc/haskell-tor/notifications{?since,all,participating}",
+          "open_issues": 25,
+          "open_issues_count": 25,
+          "organization": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1584774?v=4",
+            "events_url": "https://api.github.com/users/GaloisInc/events{/privacy}",
+            "followers_url": "https://api.github.com/users/GaloisInc/followers",
+            "following_url": "https://api.github.com/users/GaloisInc/following{/other_user}",
+            "gists_url": "https://api.github.com/users/GaloisInc/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/GaloisInc",
+            "id": 1584774,
+            "login": "GaloisInc",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODQ3NzQ=",
+            "organizations_url": "https://api.github.com/users/GaloisInc/orgs",
+            "received_events_url": "https://api.github.com/users/GaloisInc/received_events",
+            "repos_url": "https://api.github.com/users/GaloisInc/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/GaloisInc/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/GaloisInc/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/GaloisInc",
+            "user_view_type": "public"
+          },
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1584774?v=4",
+            "events_url": "https://api.github.com/users/GaloisInc/events{/privacy}",
+            "followers_url": "https://api.github.com/users/GaloisInc/followers",
+            "following_url": "https://api.github.com/users/GaloisInc/following{/other_user}",
+            "gists_url": "https://api.github.com/users/GaloisInc/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/GaloisInc",
+            "id": 1584774,
+            "login": "GaloisInc",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODQ3NzQ=",
+            "organizations_url": "https://api.github.com/users/GaloisInc/orgs",
+            "received_events_url": "https://api.github.com/users/GaloisInc/received_events",
+            "repos_url": "https://api.github.com/users/GaloisInc/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/GaloisInc/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/GaloisInc/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/GaloisInc",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/GaloisInc/haskell-tor/pulls{/number}",
+          "pushed_at": "2017-11-03T23:50:56Z",
+          "releases_url": "https://api.github.com/repos/GaloisInc/haskell-tor/releases{/id}",
+          "size": 891,
+          "ssh_url": "git@github.com:GaloisInc/haskell-tor.git",
+          "stargazers_count": 273,
+          "stargazers_url": "https://api.github.com/repos/GaloisInc/haskell-tor/stargazers",
+          "statuses_url": "https://api.github.com/repos/GaloisInc/haskell-tor/statuses/{sha}",
+          "subscribers_count": 26,
+          "subscribers_url": "https://api.github.com/repos/GaloisInc/haskell-tor/subscribers",
+          "subscription_url": "https://api.github.com/repos/GaloisInc/haskell-tor/subscription",
+          "svn_url": "https://github.com/GaloisInc/haskell-tor",
+          "tags_url": "https://api.github.com/repos/GaloisInc/haskell-tor/tags",
+          "teams_url": "https://api.github.com/repos/GaloisInc/haskell-tor/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/GaloisInc/haskell-tor/git/trees{/sha}",
+          "updated_at": "2024-12-12T23:28:50Z",
+          "url": "https://api.github.com/repos/GaloisInc/haskell-tor",
+          "visibility": "public",
+          "watchers": 273,
+          "watchers_count": 273,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/brainfucksec/kalitorify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"24116cc465b5ceeac70df4fb20da69ead436e1f058a46aefbadc314d2a03ada4"
+      Last-Modified:
+      - Mon, 19 May 2025 09:34:00 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '34'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '26'
+      Content-Length:
+      - '5545'
+      X-Github-Request-Id:
+      - D828:DE97B:211EB3:423F30:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/brainfucksec/kalitorify/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/brainfucksec/kalitorify/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/brainfucksec/kalitorify/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/brainfucksec/kalitorify/branches{/branch}",
+          "clone_url": "https://github.com/brainfucksec/kalitorify.git",
+          "collaborators_url": "https://api.github.com/repos/brainfucksec/kalitorify/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/brainfucksec/kalitorify/comments{/number}",
+          "commits_url": "https://api.github.com/repos/brainfucksec/kalitorify/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/brainfucksec/kalitorify/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/brainfucksec/kalitorify/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/brainfucksec/kalitorify/contributors",
+          "created_at": "2016-02-03T20:42:46Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/brainfucksec/kalitorify/deployments",
+          "description": "Transparent proxy through Tor for Kali Linux OS",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/brainfucksec/kalitorify/downloads",
+          "events_url": "https://api.github.com/repos/brainfucksec/kalitorify/events",
+          "fork": false,
+          "forks": 236,
+          "forks_count": 236,
+          "forks_url": "https://api.github.com/repos/brainfucksec/kalitorify/forks",
+          "full_name": "brainfucksec/kalitorify",
+          "git_commits_url": "https://api.github.com/repos/brainfucksec/kalitorify/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/brainfucksec/kalitorify/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/brainfucksec/kalitorify/git/tags{/sha}",
+          "git_url": "git://github.com/brainfucksec/kalitorify.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/brainfucksec/kalitorify/hooks",
+          "html_url": "https://github.com/brainfucksec/kalitorify",
+          "id": 51029186,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/brainfucksec/kalitorify/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/brainfucksec/kalitorify/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/brainfucksec/kalitorify/issues{/number}",
+          "keys_url": "https://api.github.com/repos/brainfucksec/kalitorify/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/brainfucksec/kalitorify/labels{/name}",
+          "language": "Shell",
+          "languages_url": "https://api.github.com/repos/brainfucksec/kalitorify/languages",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+          },
+          "merges_url": "https://api.github.com/repos/brainfucksec/kalitorify/merges",
+          "milestones_url": "https://api.github.com/repos/brainfucksec/kalitorify/milestones{/number}",
+          "mirror_url": null,
+          "name": "kalitorify",
+          "network_count": 236,
+          "node_id": "MDEwOlJlcG9zaXRvcnk1MTAyOTE4Ng==",
+          "notifications_url": "https://api.github.com/repos/brainfucksec/kalitorify/notifications{?since,all,participating}",
+          "open_issues": 1,
+          "open_issues_count": 1,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17049160?v=4",
+            "events_url": "https://api.github.com/users/brainfucksec/events{/privacy}",
+            "followers_url": "https://api.github.com/users/brainfucksec/followers",
+            "following_url": "https://api.github.com/users/brainfucksec/following{/other_user}",
+            "gists_url": "https://api.github.com/users/brainfucksec/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/brainfucksec",
+            "id": 17049160,
+            "login": "brainfucksec",
+            "node_id": "MDQ6VXNlcjE3MDQ5MTYw",
+            "organizations_url": "https://api.github.com/users/brainfucksec/orgs",
+            "received_events_url": "https://api.github.com/users/brainfucksec/received_events",
+            "repos_url": "https://api.github.com/users/brainfucksec/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/brainfucksec/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/brainfucksec/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/brainfucksec",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/brainfucksec/kalitorify/pulls{/number}",
+          "pushed_at": "2024-04-18T07:11:44Z",
+          "releases_url": "https://api.github.com/repos/brainfucksec/kalitorify/releases{/id}",
+          "size": 313,
+          "ssh_url": "git@github.com:brainfucksec/kalitorify.git",
+          "stargazers_count": 1121,
+          "stargazers_url": "https://api.github.com/repos/brainfucksec/kalitorify/stargazers",
+          "statuses_url": "https://api.github.com/repos/brainfucksec/kalitorify/statuses/{sha}",
+          "subscribers_count": 46,
+          "subscribers_url": "https://api.github.com/repos/brainfucksec/kalitorify/subscribers",
+          "subscription_url": "https://api.github.com/repos/brainfucksec/kalitorify/subscription",
+          "svn_url": "https://github.com/brainfucksec/kalitorify",
+          "tags_url": "https://api.github.com/repos/brainfucksec/kalitorify/tags",
+          "teams_url": "https://api.github.com/repos/brainfucksec/kalitorify/teams",
+          "temp_clone_token": null,
+          "topics": [
+            "bash-script",
+            "iptables",
+            "kali-linux",
+            "kalitorify",
+            "security",
+            "tor",
+            "tor-proxy",
+            "transparent-proxy"
+          ],
+          "trees_url": "https://api.github.com/repos/brainfucksec/kalitorify/git/trees{/sha}",
+          "updated_at": "2025-05-19T09:34:00Z",
+          "url": "https://api.github.com/repos/brainfucksec/kalitorify",
+          "visibility": "public",
+          "watchers": 1121,
+          "watchers_count": 1121,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/trimstray/multitor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"4dcd8bb9f88fae28b743ddec3fd6cc47d3f60cdac6cd2a90702bdf189279c5b7"
+      Last-Modified:
+      - Sat, 17 May 2025 16:17:26 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '33'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '27'
+      Content-Length:
+      - '5422'
+      X-Github-Request-Id:
+      - D82A:22DD5:15F961:2BE5D2:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/trimstray/multitor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/trimstray/multitor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/trimstray/multitor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/trimstray/multitor/branches{/branch}",
+          "clone_url": "https://github.com/trimstray/multitor.git",
+          "collaborators_url": "https://api.github.com/repos/trimstray/multitor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/trimstray/multitor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/trimstray/multitor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/trimstray/multitor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/trimstray/multitor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/trimstray/multitor/contributors",
+          "created_at": "2018-01-11T23:56:06Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/trimstray/multitor/deployments",
+          "description": "Create multiple TOR instances with a load-balancing.",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/trimstray/multitor/downloads",
+          "events_url": "https://api.github.com/repos/trimstray/multitor/events",
+          "fork": false,
+          "forks": 178,
+          "forks_count": 178,
+          "forks_url": "https://api.github.com/repos/trimstray/multitor/forks",
+          "full_name": "trimstray/multitor",
+          "git_commits_url": "https://api.github.com/repos/trimstray/multitor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/trimstray/multitor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/trimstray/multitor/git/tags{/sha}",
+          "git_url": "git://github.com/trimstray/multitor.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": false,
+          "has_wiki": true,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/trimstray/multitor/hooks",
+          "html_url": "https://github.com/trimstray/multitor",
+          "id": 117168174,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/trimstray/multitor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/trimstray/multitor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/trimstray/multitor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/trimstray/multitor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/trimstray/multitor/labels{/name}",
+          "language": "Shell",
+          "languages_url": "https://api.github.com/repos/trimstray/multitor/languages",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+          },
+          "merges_url": "https://api.github.com/repos/trimstray/multitor/merges",
+          "milestones_url": "https://api.github.com/repos/trimstray/multitor/milestones{/number}",
+          "mirror_url": null,
+          "name": "multitor",
+          "network_count": 178,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMTcxNjgxNzQ=",
+          "notifications_url": "https://api.github.com/repos/trimstray/multitor/notifications{?since,all,participating}",
+          "open_issues": 22,
+          "open_issues_count": 22,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/31127917?v=4",
+            "events_url": "https://api.github.com/users/trimstray/events{/privacy}",
+            "followers_url": "https://api.github.com/users/trimstray/followers",
+            "following_url": "https://api.github.com/users/trimstray/following{/other_user}",
+            "gists_url": "https://api.github.com/users/trimstray/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/trimstray",
+            "id": 31127917,
+            "login": "trimstray",
+            "node_id": "MDQ6VXNlcjMxMTI3OTE3",
+            "organizations_url": "https://api.github.com/users/trimstray/orgs",
+            "received_events_url": "https://api.github.com/users/trimstray/received_events",
+            "repos_url": "https://api.github.com/users/trimstray/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/trimstray/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/trimstray/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/trimstray",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/trimstray/multitor/pulls{/number}",
+          "pushed_at": "2024-11-19T14:06:47Z",
+          "releases_url": "https://api.github.com/repos/trimstray/multitor/releases{/id}",
+          "size": 796,
+          "ssh_url": "git@github.com:trimstray/multitor.git",
+          "stargazers_count": 1095,
+          "stargazers_url": "https://api.github.com/repos/trimstray/multitor/stargazers",
+          "statuses_url": "https://api.github.com/repos/trimstray/multitor/statuses/{sha}",
+          "subscribers_count": 43,
+          "subscribers_url": "https://api.github.com/repos/trimstray/multitor/subscribers",
+          "subscription_url": "https://api.github.com/repos/trimstray/multitor/subscription",
+          "svn_url": "https://github.com/trimstray/multitor",
+          "tags_url": "https://api.github.com/repos/trimstray/multitor/tags",
+          "teams_url": "https://api.github.com/repos/trimstray/multitor/teams",
+          "temp_clone_token": null,
+          "topics": [
+            "balance",
+            "circuit",
+            "communication",
+            "haproxy",
+            "http-proxy",
+            "identity",
+            "instances",
+            "load-balancer",
+            "multi-tor",
+            "multitor",
+            "onion",
+            "polipo",
+            "privoxy",
+            "proxy",
+            "socket",
+            "socks-proxy",
+            "tor",
+            "tor-network",
+            "tor-proxy",
+            "traffic"
+          ],
+          "trees_url": "https://api.github.com/repos/trimstray/multitor/git/trees{/sha}",
+          "updated_at": "2025-05-17T16:17:26Z",
+          "url": "https://api.github.com/repos/trimstray/multitor",
+          "visibility": "public",
+          "watchers": 1095,
+          "watchers_count": 1095,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/wbenny/mini-tor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"0ae17fff37835abae25bca4673f7966d6dba2974a398ccaad72cb1fe47de2d72"
+      Last-Modified:
+      - Tue, 06 May 2025 00:40:30 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '32'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '28'
+      Content-Length:
+      - '5017'
+      X-Github-Request-Id:
+      - D82B:17ED5D:22F517:45CE0F:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/wbenny/mini-tor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/wbenny/mini-tor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/wbenny/mini-tor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/wbenny/mini-tor/branches{/branch}",
+          "clone_url": "https://github.com/wbenny/mini-tor.git",
+          "collaborators_url": "https://api.github.com/repos/wbenny/mini-tor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/wbenny/mini-tor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/wbenny/mini-tor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/wbenny/mini-tor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/wbenny/mini-tor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/wbenny/mini-tor/contributors",
+          "created_at": "2016-07-20T09:49:24Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/wbenny/mini-tor/deployments",
+          "description": "proof-of-concept implementation of tor protocol using Microsoft CNG/CryptoAPI",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/wbenny/mini-tor/downloads",
+          "events_url": "https://api.github.com/repos/wbenny/mini-tor/events",
+          "fork": false,
+          "forks": 89,
+          "forks_count": 89,
+          "forks_url": "https://api.github.com/repos/wbenny/mini-tor/forks",
+          "full_name": "wbenny/mini-tor",
+          "git_commits_url": "https://api.github.com/repos/wbenny/mini-tor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/wbenny/mini-tor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/wbenny/mini-tor/git/tags{/sha}",
+          "git_url": "git://github.com/wbenny/mini-tor.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/wbenny/mini-tor/hooks",
+          "html_url": "https://github.com/wbenny/mini-tor",
+          "id": 63770202,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/wbenny/mini-tor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/wbenny/mini-tor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/wbenny/mini-tor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/wbenny/mini-tor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/wbenny/mini-tor/labels{/name}",
+          "language": "C++",
+          "languages_url": "https://api.github.com/repos/wbenny/mini-tor/languages",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+          },
+          "merges_url": "https://api.github.com/repos/wbenny/mini-tor/merges",
+          "milestones_url": "https://api.github.com/repos/wbenny/mini-tor/milestones{/number}",
+          "mirror_url": null,
+          "name": "mini-tor",
+          "network_count": 89,
+          "node_id": "MDEwOlJlcG9zaXRvcnk2Mzc3MDIwMg==",
+          "notifications_url": "https://api.github.com/repos/wbenny/mini-tor/notifications{?since,all,participating}",
+          "open_issues": 6,
+          "open_issues_count": 6,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/4465216?v=4",
+            "events_url": "https://api.github.com/users/wbenny/events{/privacy}",
+            "followers_url": "https://api.github.com/users/wbenny/followers",
+            "following_url": "https://api.github.com/users/wbenny/following{/other_user}",
+            "gists_url": "https://api.github.com/users/wbenny/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/wbenny",
+            "id": 4465216,
+            "login": "wbenny",
+            "node_id": "MDQ6VXNlcjQ0NjUyMTY=",
+            "organizations_url": "https://api.github.com/users/wbenny/orgs",
+            "received_events_url": "https://api.github.com/users/wbenny/received_events",
+            "repos_url": "https://api.github.com/users/wbenny/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/wbenny/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/wbenny/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/wbenny",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/wbenny/mini-tor/pulls{/number}",
+          "pushed_at": "2019-04-09T16:44:16Z",
+          "releases_url": "https://api.github.com/repos/wbenny/mini-tor/releases{/id}",
+          "size": 1064,
+          "ssh_url": "git@github.com:wbenny/mini-tor.git",
+          "stargazers_count": 401,
+          "stargazers_url": "https://api.github.com/repos/wbenny/mini-tor/stargazers",
+          "statuses_url": "https://api.github.com/repos/wbenny/mini-tor/statuses/{sha}",
+          "subscribers_count": 31,
+          "subscribers_url": "https://api.github.com/repos/wbenny/mini-tor/subscribers",
+          "subscription_url": "https://api.github.com/repos/wbenny/mini-tor/subscription",
+          "svn_url": "https://github.com/wbenny/mini-tor",
+          "tags_url": "https://api.github.com/repos/wbenny/mini-tor/tags",
+          "teams_url": "https://api.github.com/repos/wbenny/mini-tor/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/wbenny/mini-tor/git/trees{/sha}",
+          "updated_at": "2025-05-06T00:40:30Z",
+          "url": "https://api.github.com/repos/wbenny/mini-tor",
+          "visibility": "public",
+          "watchers": 401,
+          "watchers_count": 401,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/Ayms/node-Tor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"eef64c29b2f647ca0362db7dad3d71d828281d57e798bca1fca9f387bc7e278c"
+      Last-Modified:
+      - Thu, 08 May 2025 08:36:55 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '31'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '29'
+      Content-Length:
+      - '4800'
+      X-Github-Request-Id:
+      - D82C:10071C:201EA5:401643:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/Ayms/node-Tor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/Ayms/node-Tor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/Ayms/node-Tor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/Ayms/node-Tor/branches{/branch}",
+          "clone_url": "https://github.com/Ayms/node-Tor.git",
+          "collaborators_url": "https://api.github.com/repos/Ayms/node-Tor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/Ayms/node-Tor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/Ayms/node-Tor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/Ayms/node-Tor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/Ayms/node-Tor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/Ayms/node-Tor/contributors",
+          "created_at": "2012-08-22T20:29:17Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/Ayms/node-Tor/deployments",
+          "description": "Javascript implementation of the Tor (or Tor like) anonymizer project (The Onion Router)",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/Ayms/node-Tor/downloads",
+          "events_url": "https://api.github.com/repos/Ayms/node-Tor/events",
+          "fork": false,
+          "forks": 88,
+          "forks_count": 88,
+          "forks_url": "https://api.github.com/repos/Ayms/node-Tor/forks",
+          "full_name": "Ayms/node-Tor",
+          "git_commits_url": "https://api.github.com/repos/Ayms/node-Tor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Ayms/node-Tor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Ayms/node-Tor/git/tags{/sha}",
+          "git_url": "git://github.com/Ayms/node-Tor.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": false,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/Ayms/node-Tor/hooks",
+          "html_url": "https://github.com/Ayms/node-Tor",
+          "id": 5514899,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/Ayms/node-Tor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/Ayms/node-Tor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/Ayms/node-Tor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/Ayms/node-Tor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/Ayms/node-Tor/labels{/name}",
+          "language": "JavaScript",
+          "languages_url": "https://api.github.com/repos/Ayms/node-Tor/languages",
+          "license": null,
+          "merges_url": "https://api.github.com/repos/Ayms/node-Tor/merges",
+          "milestones_url": "https://api.github.com/repos/Ayms/node-Tor/milestones{/number}",
+          "mirror_url": null,
+          "name": "node-Tor",
+          "network_count": 88,
+          "node_id": "MDEwOlJlcG9zaXRvcnk1NTE0ODk5",
+          "notifications_url": "https://api.github.com/repos/Ayms/node-Tor/notifications{?since,all,participating}",
+          "open_issues": 2,
+          "open_issues_count": 2,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/759202?v=4",
+            "events_url": "https://api.github.com/users/Ayms/events{/privacy}",
+            "followers_url": "https://api.github.com/users/Ayms/followers",
+            "following_url": "https://api.github.com/users/Ayms/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ayms/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/Ayms",
+            "id": 759202,
+            "login": "Ayms",
+            "node_id": "MDQ6VXNlcjc1OTIwMg==",
+            "organizations_url": "https://api.github.com/users/Ayms/orgs",
+            "received_events_url": "https://api.github.com/users/Ayms/received_events",
+            "repos_url": "https://api.github.com/users/Ayms/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/Ayms/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ayms/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/Ayms",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/Ayms/node-Tor/pulls{/number}",
+          "pushed_at": "2022-08-29T20:09:15Z",
+          "releases_url": "https://api.github.com/repos/Ayms/node-Tor/releases{/id}",
+          "size": 7099,
+          "ssh_url": "git@github.com:Ayms/node-Tor.git",
+          "stargazers_count": 714,
+          "stargazers_url": "https://api.github.com/repos/Ayms/node-Tor/stargazers",
+          "statuses_url": "https://api.github.com/repos/Ayms/node-Tor/statuses/{sha}",
+          "subscribers_count": 52,
+          "subscribers_url": "https://api.github.com/repos/Ayms/node-Tor/subscribers",
+          "subscription_url": "https://api.github.com/repos/Ayms/node-Tor/subscription",
+          "svn_url": "https://github.com/Ayms/node-Tor",
+          "tags_url": "https://api.github.com/repos/Ayms/node-Tor/tags",
+          "teams_url": "https://api.github.com/repos/Ayms/node-Tor/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/Ayms/node-Tor/git/trees{/sha}",
+          "updated_at": "2025-05-08T08:36:55Z",
+          "url": "https://api.github.com/repos/Ayms/node-Tor",
+          "visibility": "public",
+          "watchers": 714,
+          "watchers_count": 714,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:46 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"4b0ca5b03ce4509441adcd35e10f18750ccf3c2394538b1897ee5b9a2e699ace"
+      Last-Modified:
+      - Thu, 24 Apr 2025 23:43:50 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '30'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '30'
+      Content-Length:
+      - '6163'
+      X-Github-Request-Id:
+      - D82D:22DD5:15FAC6:2BE8C7:682CB106
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/branches{/branch}",
+          "clone_url": "https://github.com/atorrescogollo/offensive-tor-toolkit.git",
+          "collaborators_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/comments{/number}",
+          "commits_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/contributors",
+          "created_at": "2020-08-10T18:10:49Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/deployments",
+          "description": "Bind/Reverse Shells, SOCKS, etc over Tor in Golang",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/downloads",
+          "events_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/events",
+          "fork": false,
+          "forks": 9,
+          "forks_count": 9,
+          "forks_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/forks",
+          "full_name": "atorrescogollo/offensive-tor-toolkit",
+          "git_commits_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/git/tags{/sha}",
+          "git_url": "git://github.com/atorrescogollo/offensive-tor-toolkit.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "https://atorrescogollo.gitbook.io/offensive-tor-toolkit/",
+          "hooks_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/hooks",
+          "html_url": "https://github.com/atorrescogollo/offensive-tor-toolkit",
+          "id": 286546993,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/issues{/number}",
+          "keys_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/labels{/name}",
+          "language": "Go",
+          "languages_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/languages",
+          "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "node_id": "MDc6TGljZW5zZTk=",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0"
+          },
+          "merges_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/merges",
+          "milestones_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/milestones{/number}",
+          "mirror_url": null,
+          "name": "offensive-tor-toolkit",
+          "network_count": 9,
+          "node_id": "MDEwOlJlcG9zaXRvcnkyODY1NDY5OTM=",
+          "notifications_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/notifications{?since,all,participating}",
+          "open_issues": 1,
+          "open_issues_count": 1,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/29432139?v=4",
+            "events_url": "https://api.github.com/users/atorrescogollo/events{/privacy}",
+            "followers_url": "https://api.github.com/users/atorrescogollo/followers",
+            "following_url": "https://api.github.com/users/atorrescogollo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/atorrescogollo/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/atorrescogollo",
+            "id": 29432139,
+            "login": "atorrescogollo",
+            "node_id": "MDQ6VXNlcjI5NDMyMTM5",
+            "organizations_url": "https://api.github.com/users/atorrescogollo/orgs",
+            "received_events_url": "https://api.github.com/users/atorrescogollo/received_events",
+            "repos_url": "https://api.github.com/users/atorrescogollo/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/atorrescogollo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/atorrescogollo/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/atorrescogollo",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/pulls{/number}",
+          "pushed_at": "2021-07-03T00:59:16Z",
+          "releases_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/releases{/id}",
+          "size": 339,
+          "ssh_url": "git@github.com:atorrescogollo/offensive-tor-toolkit.git",
+          "stargazers_count": 61,
+          "stargazers_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/stargazers",
+          "statuses_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/statuses/{sha}",
+          "subscribers_count": 3,
+          "subscribers_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/subscribers",
+          "subscription_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/subscription",
+          "svn_url": "https://github.com/atorrescogollo/offensive-tor-toolkit",
+          "tags_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/tags",
+          "teams_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/teams",
+          "temp_clone_token": null,
+          "topics": [
+            "bind-shell",
+            "ethical-hacking",
+            "hidden-services",
+            "reverse-shell",
+            "socks5",
+            "tor"
+          ],
+          "trees_url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit/git/trees{/sha}",
+          "updated_at": "2025-04-24T23:43:50Z",
+          "url": "https://api.github.com/repos/atorrescogollo/offensive-tor-toolkit",
+          "visibility": "public",
+          "watchers": 61,
+          "watchers_count": 61,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/Whonix/onion-grater
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"beec5b54667f7c334bb8e34db1fbf0f5ec6ab7121eae1aff05851dea1e79f2aa"
+      Last-Modified:
+      - Wed, 07 May 2025 06:44:31 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '29'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '31'
+      Content-Length:
+      - '6052'
+      X-Github-Request-Id:
+      - D82E:1F7866:239400:46FA63:682CB107
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/Whonix/onion-grater/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/Whonix/onion-grater/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/Whonix/onion-grater/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/Whonix/onion-grater/branches{/branch}",
+          "clone_url": "https://github.com/Whonix/onion-grater.git",
+          "collaborators_url": "https://api.github.com/repos/Whonix/onion-grater/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/Whonix/onion-grater/comments{/number}",
+          "commits_url": "https://api.github.com/repos/Whonix/onion-grater/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/Whonix/onion-grater/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/Whonix/onion-grater/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/Whonix/onion-grater/contributors",
+          "created_at": "2022-05-19T21:51:37Z",
+          "custom_properties": {},
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/Whonix/onion-grater/deployments",
+          "description": null,
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/Whonix/onion-grater/downloads",
+          "events_url": "https://api.github.com/repos/Whonix/onion-grater/events",
+          "fork": false,
+          "forks": 5,
+          "forks_count": 5,
+          "forks_url": "https://api.github.com/repos/Whonix/onion-grater/forks",
+          "full_name": "Whonix/onion-grater",
+          "git_commits_url": "https://api.github.com/repos/Whonix/onion-grater/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Whonix/onion-grater/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Whonix/onion-grater/git/tags{/sha}",
+          "git_url": "git://github.com/Whonix/onion-grater.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "https://www.whonix.org/wiki/Imprint",
+          "hooks_url": "https://api.github.com/repos/Whonix/onion-grater/hooks",
+          "html_url": "https://github.com/Whonix/onion-grater",
+          "id": 494239632,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/Whonix/onion-grater/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/Whonix/onion-grater/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/Whonix/onion-grater/issues{/number}",
+          "keys_url": "https://api.github.com/repos/Whonix/onion-grater/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/Whonix/onion-grater/labels{/name}",
+          "language": "Python",
+          "languages_url": "https://api.github.com/repos/Whonix/onion-grater/languages",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "node_id": "MDc6TGljZW5zZTA=",
+            "spdx_id": "NOASSERTION",
+            "url": null
+          },
+          "merges_url": "https://api.github.com/repos/Whonix/onion-grater/merges",
+          "milestones_url": "https://api.github.com/repos/Whonix/onion-grater/milestones{/number}",
+          "mirror_url": null,
+          "name": "onion-grater",
+          "network_count": 5,
+          "node_id": "R_kgDOHXV_kA",
+          "notifications_url": "https://api.github.com/repos/Whonix/onion-grater/notifications{?since,all,participating}",
+          "open_issues": 2,
+          "open_issues_count": 2,
+          "organization": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/103259105?v=4",
+            "events_url": "https://api.github.com/users/Whonix/events{/privacy}",
+            "followers_url": "https://api.github.com/users/Whonix/followers",
+            "following_url": "https://api.github.com/users/Whonix/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Whonix/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/Whonix",
+            "id": 103259105,
+            "login": "Whonix",
+            "node_id": "O_kgDOBieb4Q",
+            "organizations_url": "https://api.github.com/users/Whonix/orgs",
+            "received_events_url": "https://api.github.com/users/Whonix/received_events",
+            "repos_url": "https://api.github.com/users/Whonix/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/Whonix/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Whonix/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/Whonix",
+            "user_view_type": "public"
+          },
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/103259105?v=4",
+            "events_url": "https://api.github.com/users/Whonix/events{/privacy}",
+            "followers_url": "https://api.github.com/users/Whonix/followers",
+            "following_url": "https://api.github.com/users/Whonix/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Whonix/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/Whonix",
+            "id": 103259105,
+            "login": "Whonix",
+            "node_id": "O_kgDOBieb4Q",
+            "organizations_url": "https://api.github.com/users/Whonix/orgs",
+            "received_events_url": "https://api.github.com/users/Whonix/received_events",
+            "repos_url": "https://api.github.com/users/Whonix/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/Whonix/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Whonix/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/Whonix",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/Whonix/onion-grater/pulls{/number}",
+          "pushed_at": "2025-05-07T06:44:27Z",
+          "releases_url": "https://api.github.com/repos/Whonix/onion-grater/releases{/id}",
+          "size": 1399,
+          "ssh_url": "git@github.com:Whonix/onion-grater.git",
+          "stargazers_count": 7,
+          "stargazers_url": "https://api.github.com/repos/Whonix/onion-grater/stargazers",
+          "statuses_url": "https://api.github.com/repos/Whonix/onion-grater/statuses/{sha}",
+          "subscribers_count": 3,
+          "subscribers_url": "https://api.github.com/repos/Whonix/onion-grater/subscribers",
+          "subscription_url": "https://api.github.com/repos/Whonix/onion-grater/subscription",
+          "svn_url": "https://github.com/Whonix/onion-grater",
+          "tags_url": "https://api.github.com/repos/Whonix/onion-grater/tags",
+          "teams_url": "https://api.github.com/repos/Whonix/onion-grater/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/Whonix/onion-grater/git/trees{/sha}",
+          "updated_at": "2025-05-07T06:44:31Z",
+          "url": "https://api.github.com/repos/Whonix/onion-grater",
+          "visibility": "public",
+          "watchers": 7,
+          "watchers_count": 7,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/dunglas/php-torcontrol
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"aa38e0bd02e57ce19cff4dcb4d9ef3d7b9aeae39c896ba3ebb7efdc0b3d491bb"
+      Last-Modified:
+      - Mon, 23 Sep 2024 13:36:03 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '28'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '32'
+      Content-Length:
+      - '5358'
+      X-Github-Request-Id:
+      - D82F:17ED5D:22F722:45D237:682CB107
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/dunglas/php-torcontrol/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/dunglas/php-torcontrol/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/dunglas/php-torcontrol/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/dunglas/php-torcontrol/branches{/branch}",
+          "clone_url": "https://github.com/dunglas/php-torcontrol.git",
+          "collaborators_url": "https://api.github.com/repos/dunglas/php-torcontrol/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/dunglas/php-torcontrol/comments{/number}",
+          "commits_url": "https://api.github.com/repos/dunglas/php-torcontrol/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/dunglas/php-torcontrol/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/dunglas/php-torcontrol/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/dunglas/php-torcontrol/contributors",
+          "created_at": "2013-02-23T22:04:44Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/dunglas/php-torcontrol/deployments",
+          "description": "PHP TorControl, a library to control TOR",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/dunglas/php-torcontrol/downloads",
+          "events_url": "https://api.github.com/repos/dunglas/php-torcontrol/events",
+          "fork": false,
+          "forks": 19,
+          "forks_count": 19,
+          "forks_url": "https://api.github.com/repos/dunglas/php-torcontrol/forks",
+          "full_name": "dunglas/php-torcontrol",
+          "git_commits_url": "https://api.github.com/repos/dunglas/php-torcontrol/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/dunglas/php-torcontrol/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/dunglas/php-torcontrol/git/tags{/sha}",
+          "git_url": "git://github.com/dunglas/php-torcontrol.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "http://dunglas.fr/2013/02/php-torcontrol-a-library-to-control-tor/",
+          "hooks_url": "https://api.github.com/repos/dunglas/php-torcontrol/hooks",
+          "html_url": "https://github.com/dunglas/php-torcontrol",
+          "id": 8382630,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/dunglas/php-torcontrol/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/dunglas/php-torcontrol/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/dunglas/php-torcontrol/issues{/number}",
+          "keys_url": "https://api.github.com/repos/dunglas/php-torcontrol/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/dunglas/php-torcontrol/labels{/name}",
+          "language": "PHP",
+          "languages_url": "https://api.github.com/repos/dunglas/php-torcontrol/languages",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+          },
+          "merges_url": "https://api.github.com/repos/dunglas/php-torcontrol/merges",
+          "milestones_url": "https://api.github.com/repos/dunglas/php-torcontrol/milestones{/number}",
+          "mirror_url": null,
+          "name": "php-torcontrol",
+          "network_count": 19,
+          "node_id": "MDEwOlJlcG9zaXRvcnk4MzgyNjMw",
+          "notifications_url": "https://api.github.com/repos/dunglas/php-torcontrol/notifications{?since,all,participating}",
+          "open_issues": 1,
+          "open_issues_count": 1,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/57224?v=4",
+            "events_url": "https://api.github.com/users/dunglas/events{/privacy}",
+            "followers_url": "https://api.github.com/users/dunglas/followers",
+            "following_url": "https://api.github.com/users/dunglas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dunglas/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/dunglas",
+            "id": 57224,
+            "login": "dunglas",
+            "node_id": "MDQ6VXNlcjU3MjI0",
+            "organizations_url": "https://api.github.com/users/dunglas/orgs",
+            "received_events_url": "https://api.github.com/users/dunglas/received_events",
+            "repos_url": "https://api.github.com/users/dunglas/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/dunglas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dunglas/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/dunglas",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/dunglas/php-torcontrol/pulls{/number}",
+          "pushed_at": "2018-08-09T13:01:50Z",
+          "releases_url": "https://api.github.com/repos/dunglas/php-torcontrol/releases{/id}",
+          "size": 396,
+          "ssh_url": "git@github.com:dunglas/php-torcontrol.git",
+          "stargazers_count": 88,
+          "stargazers_url": "https://api.github.com/repos/dunglas/php-torcontrol/stargazers",
+          "statuses_url": "https://api.github.com/repos/dunglas/php-torcontrol/statuses/{sha}",
+          "subscribers_count": 9,
+          "subscribers_url": "https://api.github.com/repos/dunglas/php-torcontrol/subscribers",
+          "subscription_url": "https://api.github.com/repos/dunglas/php-torcontrol/subscription",
+          "svn_url": "https://github.com/dunglas/php-torcontrol",
+          "tags_url": "https://api.github.com/repos/dunglas/php-torcontrol/tags",
+          "teams_url": "https://api.github.com/repos/dunglas/php-torcontrol/teams",
+          "temp_clone_token": null,
+          "topics": ["php","tor"],
+          "trees_url": "https://api.github.com/repos/dunglas/php-torcontrol/git/trees{/sha}",
+          "updated_at": "2024-09-23T13:36:03Z",
+          "url": "https://api.github.com/repos/dunglas/php-torcontrol",
+          "visibility": "public",
+          "watchers": 88,
+          "watchers_count": 88,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/mattes/rotating-proxy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"be1549af3cfc5b4e34602a885903d664099978e9df1b6a24d058ba64121b2d89"
+      Last-Modified:
+      - Tue, 20 May 2025 15:08:35 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '27'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '33'
+      Content-Length:
+      - '5348'
+      X-Github-Request-Id:
+      - D830:10071C:2020C0:401A81:682CB107
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/mattes/rotating-proxy/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/mattes/rotating-proxy/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/mattes/rotating-proxy/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/mattes/rotating-proxy/branches{/branch}",
+          "clone_url": "https://github.com/mattes/rotating-proxy.git",
+          "collaborators_url": "https://api.github.com/repos/mattes/rotating-proxy/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/mattes/rotating-proxy/comments{/number}",
+          "commits_url": "https://api.github.com/repos/mattes/rotating-proxy/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/mattes/rotating-proxy/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/mattes/rotating-proxy/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/mattes/rotating-proxy/contributors",
+          "created_at": "2014-04-11T23:23:34Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/mattes/rotating-proxy/deployments",
+          "description": "Rotating TOR proxy with Docker",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/mattes/rotating-proxy/downloads",
+          "events_url": "https://api.github.com/repos/mattes/rotating-proxy/events",
+          "fork": false,
+          "forks": 257,
+          "forks_count": 257,
+          "forks_url": "https://api.github.com/repos/mattes/rotating-proxy/forks",
+          "full_name": "mattes/rotating-proxy",
+          "git_commits_url": "https://api.github.com/repos/mattes/rotating-proxy/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/mattes/rotating-proxy/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/mattes/rotating-proxy/git/tags{/sha}",
+          "git_url": "git://github.com/mattes/rotating-proxy.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": false,
+          "has_wiki": false,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/mattes/rotating-proxy/hooks",
+          "html_url": "https://github.com/mattes/rotating-proxy",
+          "id": 18691569,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/mattes/rotating-proxy/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/mattes/rotating-proxy/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/mattes/rotating-proxy/issues{/number}",
+          "keys_url": "https://api.github.com/repos/mattes/rotating-proxy/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/mattes/rotating-proxy/labels{/name}",
+          "language": "Ruby",
+          "languages_url": "https://api.github.com/repos/mattes/rotating-proxy/languages",
+          "license": {
+            "key": "unlicense",
+            "name": "The Unlicense",
+            "node_id": "MDc6TGljZW5zZTE1",
+            "spdx_id": "Unlicense",
+            "url": "https://api.github.com/licenses/unlicense"
+          },
+          "merges_url": "https://api.github.com/repos/mattes/rotating-proxy/merges",
+          "milestones_url": "https://api.github.com/repos/mattes/rotating-proxy/milestones{/number}",
+          "mirror_url": null,
+          "name": "rotating-proxy",
+          "network_count": 257,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxODY5MTU2OQ==",
+          "notifications_url": "https://api.github.com/repos/mattes/rotating-proxy/notifications{?since,all,participating}",
+          "open_issues": 24,
+          "open_issues_count": 24,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1240531?v=4",
+            "events_url": "https://api.github.com/users/mattes/events{/privacy}",
+            "followers_url": "https://api.github.com/users/mattes/followers",
+            "following_url": "https://api.github.com/users/mattes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mattes/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/mattes",
+            "id": 1240531,
+            "login": "mattes",
+            "node_id": "MDQ6VXNlcjEyNDA1MzE=",
+            "organizations_url": "https://api.github.com/users/mattes/orgs",
+            "received_events_url": "https://api.github.com/users/mattes/received_events",
+            "repos_url": "https://api.github.com/users/mattes/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/mattes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mattes/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/mattes",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/mattes/rotating-proxy/pulls{/number}",
+          "pushed_at": "2024-04-25T07:50:11Z",
+          "releases_url": "https://api.github.com/repos/mattes/rotating-proxy/releases{/id}",
+          "size": 30,
+          "ssh_url": "git@github.com:mattes/rotating-proxy.git",
+          "stargazers_count": 1174,
+          "stargazers_url": "https://api.github.com/repos/mattes/rotating-proxy/stargazers",
+          "statuses_url": "https://api.github.com/repos/mattes/rotating-proxy/statuses/{sha}",
+          "subscribers_count": 44,
+          "subscribers_url": "https://api.github.com/repos/mattes/rotating-proxy/subscribers",
+          "subscription_url": "https://api.github.com/repos/mattes/rotating-proxy/subscription",
+          "svn_url": "https://github.com/mattes/rotating-proxy",
+          "tags_url": "https://api.github.com/repos/mattes/rotating-proxy/tags",
+          "teams_url": "https://api.github.com/repos/mattes/rotating-proxy/teams",
+          "temp_clone_token": null,
+          "topics": [
+            "docker",
+            "haproxy",
+            "http-proxy",
+            "polipo",
+            "proxy",
+            "rotating-proxy",
+            "socks-proxy",
+            "tor"
+          ],
+          "trees_url": "https://api.github.com/repos/mattes/rotating-proxy/git/trees{/sha}",
+          "updated_at": "2025-05-20T15:08:35Z",
+          "url": "https://api.github.com/repos/mattes/rotating-proxy",
+          "visibility": "public",
+          "watchers": 1174,
+          "watchers_count": 1174,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/glamrock/stormy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"d98c418694cc10898116bc96b8d83a01c3db7a7befe825a4234d885fc5303c92"
+      Last-Modified:
+      - Fri, 07 Mar 2025 06:58:40 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '26'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '34'
+      Content-Length:
+      - '5027'
+      X-Github-Request-Id:
+      - D832:1621E:1EA7EF:3D3FD2:682CB107
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/glamrock/Stormy/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/glamrock/Stormy/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/glamrock/Stormy/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/glamrock/Stormy/branches{/branch}",
+          "clone_url": "https://github.com/glamrock/Stormy.git",
+          "collaborators_url": "https://api.github.com/repos/glamrock/Stormy/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/glamrock/Stormy/comments{/number}",
+          "commits_url": "https://api.github.com/repos/glamrock/Stormy/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/glamrock/Stormy/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/glamrock/Stormy/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/glamrock/Stormy/contributors",
+          "created_at": "2014-02-21T11:54:36Z",
+          "default_branch": "master",
+          "deployments_url": "https://api.github.com/repos/glamrock/Stormy/deployments",
+          "description": "Easy creation of Tor Hidden Services",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/glamrock/Stormy/downloads",
+          "events_url": "https://api.github.com/repos/glamrock/Stormy/events",
+          "fork": false,
+          "forks": 10,
+          "forks_count": 10,
+          "forks_url": "https://api.github.com/repos/glamrock/Stormy/forks",
+          "full_name": "glamrock/Stormy",
+          "git_commits_url": "https://api.github.com/repos/glamrock/Stormy/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/glamrock/Stormy/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/glamrock/Stormy/git/tags{/sha}",
+          "git_url": "git://github.com/glamrock/Stormy.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": true,
+          "has_wiki": true,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/glamrock/Stormy/hooks",
+          "html_url": "https://github.com/glamrock/Stormy",
+          "id": 17054949,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/glamrock/Stormy/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/glamrock/Stormy/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/glamrock/Stormy/issues{/number}",
+          "keys_url": "https://api.github.com/repos/glamrock/Stormy/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/glamrock/Stormy/labels{/name}",
+          "language": "Python",
+          "languages_url": "https://api.github.com/repos/glamrock/Stormy/languages",
+          "license": {
+            "key": "gpl-2.0",
+            "name": "GNU General Public License v2.0",
+            "node_id": "MDc6TGljZW5zZTg=",
+            "spdx_id": "GPL-2.0",
+            "url": "https://api.github.com/licenses/gpl-2.0"
+          },
+          "merges_url": "https://api.github.com/repos/glamrock/Stormy/merges",
+          "milestones_url": "https://api.github.com/repos/glamrock/Stormy/milestones{/number}",
+          "mirror_url": null,
+          "name": "Stormy",
+          "network_count": 10,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxNzA1NDk0OQ==",
+          "notifications_url": "https://api.github.com/repos/glamrock/Stormy/notifications{?since,all,participating}",
+          "open_issues": 5,
+          "open_issues_count": 5,
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/452041?v=4",
+            "events_url": "https://api.github.com/users/glamrock/events{/privacy}",
+            "followers_url": "https://api.github.com/users/glamrock/followers",
+            "following_url": "https://api.github.com/users/glamrock/following{/other_user}",
+            "gists_url": "https://api.github.com/users/glamrock/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/glamrock",
+            "id": 452041,
+            "login": "glamrock",
+            "node_id": "MDQ6VXNlcjQ1MjA0MQ==",
+            "organizations_url": "https://api.github.com/users/glamrock/orgs",
+            "received_events_url": "https://api.github.com/users/glamrock/received_events",
+            "repos_url": "https://api.github.com/users/glamrock/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/glamrock/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/glamrock/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/glamrock",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/glamrock/Stormy/pulls{/number}",
+          "pushed_at": "2015-06-03T17:29:57Z",
+          "releases_url": "https://api.github.com/repos/glamrock/Stormy/releases{/id}",
+          "size": 1735,
+          "ssh_url": "git@github.com:glamrock/Stormy.git",
+          "stargazers_count": 40,
+          "stargazers_url": "https://api.github.com/repos/glamrock/Stormy/stargazers",
+          "statuses_url": "https://api.github.com/repos/glamrock/Stormy/statuses/{sha}",
+          "subscribers_count": 6,
+          "subscribers_url": "https://api.github.com/repos/glamrock/Stormy/subscribers",
+          "subscription_url": "https://api.github.com/repos/glamrock/Stormy/subscription",
+          "svn_url": "https://github.com/glamrock/Stormy",
+          "tags_url": "https://api.github.com/repos/glamrock/Stormy/tags",
+          "teams_url": "https://api.github.com/repos/glamrock/Stormy/teams",
+          "temp_clone_token": null,
+          "topics": [],
+          "trees_url": "https://api.github.com/repos/glamrock/Stormy/git/trees{/sha}",
+          "updated_at": "2025-03-07T06:58:40Z",
+          "url": "https://api.github.com/repos/glamrock/Stormy",
+          "visibility": "public",
+          "watchers": 40,
+          "watchers_count": 40,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/tor-actions/setup-tor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"224ab5d191a2f02005b38186cb2b368bbb47c77bc8fa648c1e3036a7348117d9"
+      Last-Modified:
+      - Sun, 13 Apr 2025 18:27:52 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '25'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '35'
+      Content-Length:
+      - '11970'
+      X-Github-Request-Id:
+      - D833:10071C:2021F1:401D0A:682CB107
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "allow_forking": true,
+          "archive_url": "https://api.github.com/repos/tor-actions/setup-tor/{archive_format}{/ref}",
+          "archived": false,
+          "assignees_url": "https://api.github.com/repos/tor-actions/setup-tor/assignees{/user}",
+          "blobs_url": "https://api.github.com/repos/tor-actions/setup-tor/git/blobs{/sha}",
+          "branches_url": "https://api.github.com/repos/tor-actions/setup-tor/branches{/branch}",
+          "clone_url": "https://github.com/tor-actions/setup-tor.git",
+          "collaborators_url": "https://api.github.com/repos/tor-actions/setup-tor/collaborators{/collaborator}",
+          "comments_url": "https://api.github.com/repos/tor-actions/setup-tor/comments{/number}",
+          "commits_url": "https://api.github.com/repos/tor-actions/setup-tor/commits{/sha}",
+          "compare_url": "https://api.github.com/repos/tor-actions/setup-tor/compare/{base}...{head}",
+          "contents_url": "https://api.github.com/repos/tor-actions/setup-tor/contents/{+path}",
+          "contributors_url": "https://api.github.com/repos/tor-actions/setup-tor/contributors",
+          "created_at": "2021-04-27T05:25:59Z",
+          "custom_properties": {},
+          "default_branch": "main",
+          "deployments_url": "https://api.github.com/repos/tor-actions/setup-tor/deployments",
+          "description": "Set up your GitHub Actions workflow with a specific version of Tor",
+          "disabled": false,
+          "downloads_url": "https://api.github.com/repos/tor-actions/setup-tor/downloads",
+          "events_url": "https://api.github.com/repos/tor-actions/setup-tor/events",
+          "fork": false,
+          "forks": 6,
+          "forks_count": 6,
+          "forks_url": "https://api.github.com/repos/tor-actions/setup-tor/forks",
+          "full_name": "tor-actions/setup-tor",
+          "git_commits_url": "https://api.github.com/repos/tor-actions/setup-tor/git/commits{/sha}",
+          "git_refs_url": "https://api.github.com/repos/tor-actions/setup-tor/git/refs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/tor-actions/setup-tor/git/tags{/sha}",
+          "git_url": "git://github.com/tor-actions/setup-tor.git",
+          "has_discussions": false,
+          "has_downloads": true,
+          "has_issues": true,
+          "has_pages": false,
+          "has_projects": false,
+          "has_wiki": false,
+          "homepage": "",
+          "hooks_url": "https://api.github.com/repos/tor-actions/setup-tor/hooks",
+          "html_url": "https://github.com/tor-actions/setup-tor",
+          "id": 361990812,
+          "is_template": false,
+          "issue_comment_url": "https://api.github.com/repos/tor-actions/setup-tor/issues/comments{/number}",
+          "issue_events_url": "https://api.github.com/repos/tor-actions/setup-tor/issues/events{/number}",
+          "issues_url": "https://api.github.com/repos/tor-actions/setup-tor/issues{/number}",
+          "keys_url": "https://api.github.com/repos/tor-actions/setup-tor/keys{/key_id}",
+          "labels_url": "https://api.github.com/repos/tor-actions/setup-tor/labels{/name}",
+          "language": "TypeScript",
+          "languages_url": "https://api.github.com/repos/tor-actions/setup-tor/languages",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "node_id": "MDc6TGljZW5zZTEz",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit"
+          },
+          "merges_url": "https://api.github.com/repos/tor-actions/setup-tor/merges",
+          "milestones_url": "https://api.github.com/repos/tor-actions/setup-tor/milestones{/number}",
+          "mirror_url": null,
+          "name": "setup-tor",
+          "network_count": 6,
+          "node_id": "MDEwOlJlcG9zaXRvcnkzNjE5OTA4MTI=",
+          "notifications_url": "https://api.github.com/repos/tor-actions/setup-tor/notifications{?since,all,participating}",
+          "open_issues": 6,
+          "open_issues_count": 6,
+          "organization": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/82302145?v=4",
+            "events_url": "https://api.github.com/users/tor-actions/events{/privacy}",
+            "followers_url": "https://api.github.com/users/tor-actions/followers",
+            "following_url": "https://api.github.com/users/tor-actions/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tor-actions/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/tor-actions",
+            "id": 82302145,
+            "login": "tor-actions",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjgyMzAyMTQ1",
+            "organizations_url": "https://api.github.com/users/tor-actions/orgs",
+            "received_events_url": "https://api.github.com/users/tor-actions/received_events",
+            "repos_url": "https://api.github.com/users/tor-actions/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/tor-actions/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tor-actions/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/tor-actions",
+            "user_view_type": "public"
+          },
+          "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/82302145?v=4",
+            "events_url": "https://api.github.com/users/tor-actions/events{/privacy}",
+            "followers_url": "https://api.github.com/users/tor-actions/followers",
+            "following_url": "https://api.github.com/users/tor-actions/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tor-actions/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/tor-actions",
+            "id": 82302145,
+            "login": "tor-actions",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjgyMzAyMTQ1",
+            "organizations_url": "https://api.github.com/users/tor-actions/orgs",
+            "received_events_url": "https://api.github.com/users/tor-actions/received_events",
+            "repos_url": "https://api.github.com/users/tor-actions/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/tor-actions/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tor-actions/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/tor-actions",
+            "user_view_type": "public"
+          },
+          "private": false,
+          "pulls_url": "https://api.github.com/repos/tor-actions/setup-tor/pulls{/number}",
+          "pushed_at": "2024-07-29T03:16:48Z",
+          "releases_url": "https://api.github.com/repos/tor-actions/setup-tor/releases{/id}",
+          "size": 461,
+          "ssh_url": "git@github.com:tor-actions/setup-tor.git",
+          "stargazers_count": 10,
+          "stargazers_url": "https://api.github.com/repos/tor-actions/setup-tor/stargazers",
+          "statuses_url": "https://api.github.com/repos/tor-actions/setup-tor/statuses/{sha}",
+          "subscribers_count": 1,
+          "subscribers_url": "https://api.github.com/repos/tor-actions/setup-tor/subscribers",
+          "subscription_url": "https://api.github.com/repos/tor-actions/setup-tor/subscription",
+          "svn_url": "https://github.com/tor-actions/setup-tor",
+          "tags_url": "https://api.github.com/repos/tor-actions/setup-tor/tags",
+          "teams_url": "https://api.github.com/repos/tor-actions/setup-tor/teams",
+          "temp_clone_token": null,
+          "template_repository": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/actions/typescript-action/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/actions/typescript-action/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/actions/typescript-action/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/actions/typescript-action/branches{/branch}",
+            "clone_url": "https://github.com/actions/typescript-action.git",
+            "collaborators_url": "https://api.github.com/repos/actions/typescript-action/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/actions/typescript-action/comments{/number}",
+            "commits_url": "https://api.github.com/repos/actions/typescript-action/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/actions/typescript-action/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/actions/typescript-action/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/actions/typescript-action/contributors",
+            "created_at": "2019-06-24T18:28:35Z",
+            "default_branch": "main",
+            "deployments_url": "https://api.github.com/repos/actions/typescript-action/deployments",
+            "description": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/actions/typescript-action/downloads",
+            "events_url": "https://api.github.com/repos/actions/typescript-action/events",
+            "fork": false,
+            "forks": 523,
+            "forks_count": 523,
+            "forks_url": "https://api.github.com/repos/actions/typescript-action/forks",
+            "full_name": "actions/typescript-action",
+            "git_commits_url": "https://api.github.com/repos/actions/typescript-action/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/actions/typescript-action/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/actions/typescript-action/git/tags{/sha}",
+            "git_url": "git://github.com/actions/typescript-action.git",
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": false,
+            "homepage": "https://github.com/actions",
+            "hooks_url": "https://api.github.com/repos/actions/typescript-action/hooks",
+            "html_url": "https://github.com/actions/typescript-action",
+            "id": 193558319,
+            "is_template": true,
+            "issue_comment_url": "https://api.github.com/repos/actions/typescript-action/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/actions/typescript-action/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/actions/typescript-action/issues{/number}",
+            "keys_url": "https://api.github.com/repos/actions/typescript-action/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/actions/typescript-action/labels{/name}",
+            "language": "TypeScript",
+            "languages_url": "https://api.github.com/repos/actions/typescript-action/languages",
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "node_id": "MDc6TGljZW5zZTEz",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit"
+            },
+            "merges_url": "https://api.github.com/repos/actions/typescript-action/merges",
+            "milestones_url": "https://api.github.com/repos/actions/typescript-action/milestones{/number}",
+            "mirror_url": null,
+            "name": "typescript-action",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxOTM1NTgzMTk=",
+            "notifications_url": "https://api.github.com/repos/actions/typescript-action/notifications{?since,all,participating}",
+            "open_issues": 5,
+            "open_issues_count": 5,
+            "owner": {
+              "avatar_url": "https://avatars.githubusercontent.com/u/44036562?v=4",
+              "events_url": "https://api.github.com/users/actions/events{/privacy}",
+              "followers_url": "https://api.github.com/users/actions/followers",
+              "following_url": "https://api.github.com/users/actions/following{/other_user}",
+              "gists_url": "https://api.github.com/users/actions/gists{/gist_id}",
+              "gravatar_id": "",
+              "html_url": "https://github.com/actions",
+              "id": 44036562,
+              "login": "actions",
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ0MDM2NTYy",
+              "organizations_url": "https://api.github.com/users/actions/orgs",
+              "received_events_url": "https://api.github.com/users/actions/received_events",
+              "repos_url": "https://api.github.com/users/actions/repos",
+              "site_admin": false,
+              "starred_url": "https://api.github.com/users/actions/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/actions/subscriptions",
+              "type": "Organization",
+              "url": "https://api.github.com/users/actions",
+              "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/actions/typescript-action/pulls{/number}",
+            "pushed_at": "2025-05-19T03:20:47Z",
+            "releases_url": "https://api.github.com/repos/actions/typescript-action/releases{/id}",
+            "size": 6318,
+            "ssh_url": "git@github.com:actions/typescript-action.git",
+            "stargazers_count": 2215,
+            "stargazers_url": "https://api.github.com/repos/actions/typescript-action/stargazers",
+            "statuses_url": "https://api.github.com/repos/actions/typescript-action/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/actions/typescript-action/subscribers",
+            "subscription_url": "https://api.github.com/repos/actions/typescript-action/subscription",
+            "svn_url": "https://github.com/actions/typescript-action",
+            "tags_url": "https://api.github.com/repos/actions/typescript-action/tags",
+            "teams_url": "https://api.github.com/repos/actions/typescript-action/teams",
+            "temp_clone_token": null,
+            "topics": ["github-actions","template","typescript"],
+            "trees_url": "https://api.github.com/repos/actions/typescript-action/git/trees{/sha}",
+            "updated_at": "2025-05-19T17:56:35Z",
+            "url": "https://api.github.com/repos/actions/typescript-action",
+            "visibility": "public",
+            "watchers": 2215,
+            "watchers_count": 2215,
+            "web_commit_signoff_required": false
+          },
+          "topics": ["actions","github-actions","setup","tor"],
+          "trees_url": "https://api.github.com/repos/tor-actions/setup-tor/git/trees{/sha}",
+          "updated_at": "2025-04-13T18:27:52Z",
+          "url": "https://api.github.com/repos/tor-actions/setup-tor",
+          "visibility": "public",
+          "watchers": 10,
+          "watchers_count": 10,
+          "web_commit_signoff_required": false
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/basil00/TorWall
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 20 May 2025 16:42:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '197'
+      Location:
+      - https://api.github.com/repositories/11129009
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Vary:
+      - Accept-Encoding, Accept, X-Requested-With
+      Server:
+      - github.com
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '24'
+      X-Ratelimit-Reset:
+      - '1747762559'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '36'
+      X-Github-Request-Id:
+      - D834:10E777:20480D:407BED:682CB107
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "documentation_url": "https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects",
+          "message": "Moved Permanently",
+          "url": "https://api.github.com/repositories/11129009"
+        }
+  recorded_at: Tue, 20 May 2025 16:42:47 GMT
 recorded_with: VCR 6.3.1
