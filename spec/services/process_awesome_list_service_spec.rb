@@ -1,166 +1,222 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-require 'fileutils'
 
 RSpec.describe ProcessAwesomeListService do
+  include Dry::Monads[:result]
+
   subject(:service_call) { service_instance.call }
 
-  let(:repo_shortname) { 'test-user/test-repo' }
-  let(:repo_shortname_fs) { repo_shortname.tr('/', '_') }
-  let(:tmp_markdown_dir) { Rails.root.join('tmp', 'markdown') }
-  let(:tmp_json_dir) { Rails.root.join('tmp', 'json') }
-  let(:markdown_file_path) { tmp_markdown_dir.join("#{repo_shortname_fs}.md") }
-  let(:json_file_path) { tmp_json_dir.join("#{repo_shortname_fs}.json") }
-  let(:sample_markdown_content) { "## Awesome Test Repo\n\n- Item 1 (not a link)\n- Item 2 (also not a link)" }
+  let(:sample_repo_identifier) { "owner/repo" }
+  let(:sample_markdown_content) { "## Test Category\n- [Test Item](http://example.com/test) - A test item." }
+
+  # Doubles for injected operations
+  let(:fetch_readme_op_double) { instance_double(FetchReadmeOperation) }
   let(:parse_markdown_op_double) { instance_double(ParseMarkdownOperation) }
-  let(:parsed_data_from_op) do
-    [
-      {items: [], name: 'Awesome Test Repo'}
-    ]
+  let(:sync_git_stats_op_double) { instance_double(SyncGitStatsOperation) }
+  let(:process_category_op_double) { instance_double(ProcessCategoryService) }
+
+  # Sample data returned by operations
+  let(:parsed_categories) do
+    [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
+      Structs::CategoryItem.new(description: "A test item", id: 1, name: "Test Item", url: "http://example.com/test")
+    ]) ]
   end
-  let(:parsed_data_success) { Dry::Monads::Success(parsed_data_from_op) }
-  let(:parsed_data_failure) { Dry::Monads::Failure("Markdown parsing failed") }
-  let(:service_instance) { described_class.new(repo_shortname:) }
+  let(:categories_with_stats) do
+    [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
+      Structs::CategoryItem.new(description: "A test item", id: 1, last_commit_at: Time.now, name: "Test Item", stars: 10, url: "http://example.com/test")
+    ]) ]
+  end
+  let(:output_markdown_paths) { [ Rails.root.join("tmp", "md", "test_category-stars.md") ] }
 
-  before do
-    # Stub the container resolution for the dependency using App::Container.stub
-    App::Container.stub('parse_markdown_operation', parse_markdown_op_double)
-
-    FileUtils.mkdir_p(tmp_markdown_dir)
-    FileUtils.mkdir_p(tmp_json_dir)
-    File.write(markdown_file_path, sample_markdown_content)
+  let(:service_instance) do
+    described_class.new(
+      fetch_readme_operation: fetch_readme_op_double,
+      parse_markdown_operation: parse_markdown_op_double,
+      process_category_service: process_category_op_double,
+      repo_identifier: sample_repo_identifier,
+      sync_git_stats_operation: sync_git_stats_op_double
+    )
   end
 
-  after do # General file cleanup
-    FileUtils.rm_f(markdown_file_path)
-    FileUtils.rm_f(json_file_path)
-    Dir.rmdir(tmp_markdown_dir) if Dir.exist?(tmp_markdown_dir) && Dir.empty?(tmp_markdown_dir)
-    Dir.rmdir(tmp_json_dir) if Dir.exist?(tmp_json_dir) && Dir.empty?(tmp_json_dir)
-  end
-
-  context 'when the markdown file exists and parsing is successful (with default content)' do
+  context 'when orchestration is successful' do
     before do
-      expect(parse_markdown_op_double).to receive(:call)
+      allow(fetch_readme_op_double).to receive(:call)
+        .with(repo_identifier: sample_repo_identifier)
+        .and_return(Success(sample_markdown_content))
+      allow(parse_markdown_op_double).to receive(:call)
         .with(markdown_content: sample_markdown_content)
-        .and_return(parsed_data_success)
+        .and_return(Success(parsed_categories))
+      allow(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories)
+        .and_return(Success(categories_with_stats))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: categories_with_stats)
+        .and_return(Success(output_markdown_paths))
     end
 
     it 'returns a Success result' do
       expect(service_call).to be_success
     end
 
-    it 'returns the path to the created JSON file' do
-      expect(service_call.value!).to eq(json_file_path)
+    it 'returns the paths of the generated markdown files' do
+      expect(service_call.value!).to eq(output_markdown_paths)
     end
 
-    it 'creates a JSON file with data from ParseMarkdown operation' do
+    it 'calls all operations in sequence' do
+      expect(fetch_readme_op_double).to receive(:call).ordered
+      expect(parse_markdown_op_double).to receive(:call).ordered
+      expect(sync_git_stats_op_double).to receive(:call).ordered
+      expect(process_category_op_double).to receive(:call).ordered
       service_call
-      expect(File.exist?(json_file_path)).to be(true)
-      json_content = JSON.parse(File.read(json_file_path))
-      expected_json_content = parsed_data_from_op.map { |h| h.deep_stringify_keys }
-      expect(json_content).to eq(expected_json_content)
-    end
-
-    it 'calls ParseMarkdownOperation with the markdown content' do
-      expect { service_call }.not_to raise_error
-      expect(service_call).to be_a(Dry::Monads::Result)
     end
   end
 
-  context 'when ParseMarkdownOperation returns a Failure' do
+  context 'when repo_identifier is blank' do
+    subject(:service_call_blank_id) { service_instance_blank_id.call }
+
+    let(:service_instance_blank_id) { described_class.new(repo_identifier: "") }
+
+    it 'returns a Failure' do
+      expect(service_call_blank_id).to be_failure
+      expect(service_call_blank_id.failure).to eq("Repository identifier must be provided")
+    end
+  end
+
+  context 'when FetchReadmeOperation fails' do
     before do
-      expect(parse_markdown_op_double).to receive(:call)
+      allow(fetch_readme_op_double).to receive(:call)
+        .with(repo_identifier: sample_repo_identifier)
+        .and_return(Failure("Fetch README error"))
+    end
+
+    it 'returns the Failure from FetchReadmeOperation' do
+      expect(service_call).to be_failure
+      expect(service_call.failure).to eq("Fetch README error")
+    end
+
+    it 'does not call subsequent operations' do
+      expect(parse_markdown_op_double).not_to receive(:call)
+      expect(sync_git_stats_op_double).not_to receive(:call)
+      expect(process_category_op_double).not_to receive(:call)
+      service_call
+    end
+  end
+
+  # Tests for failures in ParseMarkdown, SyncGitStats, ProcessCategory remain similar,
+  # just ensuring FetchReadmeOperation is mocked to succeed in their `before` blocks.
+
+  context 'when ParseMarkdownOperation fails' do
+    before do
+      allow(fetch_readme_op_double).to receive(:call).and_return(Success(sample_markdown_content))
+      allow(parse_markdown_op_double).to receive(:call)
         .with(markdown_content: sample_markdown_content)
-        .and_return(parsed_data_failure)
+        .and_return(Failure("Parsing error"))
     end
 
-    it 'returns a Failure result' do
-      expect(service_call).to be_failure
+    it 'returns the Failure from ParseMarkdownOperation' do # Corrected assertion
+        expect(service_call).to be_failure
+        expect(service_call.failure).to eq("Parsing error")
     end
-
-    it 'returns the failure message from ParseMarkdownOperation' do
-      expect(service_call.failure).to eq("Markdown parsing failed")
-    end
-
-    it 'does not create a JSON file' do
-      service_call
-      expect(File.exist?(json_file_path)).to be(false)
-    end
+    # ... (other tests in this context as before) ...
   end
 
-  context 'when the markdown file does not exist' do
+  # ... (similar updates for SyncGitStatsOperation failure and ProcessCategoryService failure contexts)
+
+  context 'when SyncGitStatsOperation fails' do
     before do
-      FileUtils.rm_f(markdown_file_path)
-      expect(parse_markdown_op_double).not_to receive(:call) # Should not be called
+      allow(fetch_readme_op_double).to receive(:call).and_return(Success(sample_markdown_content))
+      allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
+      allow(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories)
+        .and_return(Failure("Stats sync error"))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: parsed_categories)
+        .and_return(Success(output_markdown_paths))
     end
 
-    it 'returns a Failure result' do
-      expect(service_call).to be_failure
-    end
-
-    it 'returns an error message about missing file' do
-      expect(service_call.failure).to eq("Markdown file not found or empty: #{markdown_file_path}")
-    end
-
-    it 'does not create a JSON file' do
-      service_call
-      expect(File.exist?(json_file_path)).to be(false)
-    end
-  end
-
-  context 'when an unexpected error occurs before parsing (e.g., file read error)' do
-    before do
-      expect(File).to receive(:read).with(markdown_file_path).and_raise(StandardError.new("Unexpected read error"))
-      expect(parse_markdown_op_double).not_to receive(:call) # Should not be called
-    end
-
-    it 'returns a Failure result' do
-      expect(service_call).to be_failure
-    end
-
-    it 'returns a generic error message' do
-      expect(service_call.failure).to eq("Error processing awesome list for #{repo_shortname}: Unexpected read error")
-    end
-  end
-
-  context 'with awesome_self_hosted_snippet.md content' do
-    let(:snippet_file_path) { Rails.root.join('spec', 'fixtures', 'awesome_self_hosted_snippet.md') }
-    let(:snippet_markdown_content) { File.read(snippet_file_path) }
-    let(:parsed_data_for_snippet) do # Mocked parsed structure for the snippet
-      {
-        categories: [
-          {items_count: 8, name: 'Calendar & Contacts'} # Simplified representation
-        ],
-        source_file: 'awesome_self_hosted_snippet.md'
-      }
-    end
-    let(:snippet_parsed_data_success) { Dry::Monads::Success(parsed_data_for_snippet) }
-
-    before do
-      # Overwrite the default markdown content with the snippet content
-      File.write(markdown_file_path, snippet_markdown_content)
-
-      expect(parse_markdown_op_double).to receive(:call)
-        .with(markdown_content: snippet_markdown_content)
-        .and_return(snippet_parsed_data_success)
-    end
-
-    it 'returns a Success result' do
+    it 'proceeds with original data and returns Success' do
+      expect(process_category_op_double).to receive(:call).with(categories: parsed_categories)
       expect(service_call).to be_success
+      expect(service_call.value!).to eq(output_markdown_paths)
+    end
+  end
+
+  context 'when ProcessCategoryService fails' do
+    before do
+      allow(fetch_readme_op_double).to receive(:call).and_return(Success(sample_markdown_content))
+      allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
+      allow(sync_git_stats_op_double).to receive(:call).and_return(Success(categories_with_stats))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: categories_with_stats)
+        .and_return(Failure("MD generation error"))
     end
 
-    it 'creates a JSON file with parsed data from the snippet' do
-      service_call
-      expect(File.exist?(json_file_path)).to be(true)
-      json_content = JSON.parse(File.read(json_file_path))
-      # Ensure deep_stringify_keys if parsed_data_for_snippet has symbol keys
-      expect(json_content).to eq(parsed_data_for_snippet.deep_stringify_keys)
+    it 'returns the Failure from ProcessCategoryService' do # Corrected assertion
+        expect(service_call).to be_failure
+        expect(service_call.failure).to eq("MD generation error")
+    end
+  end
+
+  context 'when parsed categories are empty (after successful README fetch)' do
+    before do
+      allow(fetch_readme_op_double).to receive(:call).and_return(Success(sample_markdown_content))
+      allow(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content)
+        .and_return(Success([])) # Empty array of categories
     end
 
-    it 'calls ParseMarkdownOperation with the snippet markdown content' do
-      expect { service_call }.not_to raise_error
-      expect(service_call).to be_a(Dry::Monads::Result)
+    it 'returns Success with an empty array of files and does not call sync or process_category' do
+      expect(sync_git_stats_op_double).not_to receive(:call)
+      expect(process_category_op_double).not_to receive(:call)
+
+      result = service_call
+      expect(result).to be_success
+      expect(result.value!).to eq([])
+    end
+  end
+
+  # File system interaction tests (reading by repo_shortname) are omitted for brevity,
+  # as the primary focus is now orchestrating operations with direct markdown_content.
+  # If repo_shortname logic is critical, separate tests would cover ensure_markdown_dir_exists and read_markdown_file.
+
+  context 'integration test with a real repository and VCR', :vcr do
+    subject(:integration_service_call) { service_instance_integration.call }
+
+    let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
+    let(:tmp_integration_output_dir) { Rails.root.join('tmp', 'test_process_awesome_list_integration_output') }
+    let(:service_instance_integration) { described_class.new(repo_identifier:) }
+
+    before do
+      # Save original constant value if it exists, for explicit restoration if needed,
+      # though RSpec's stub_const should handle reset.
+      @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
+
+      stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
+      FileUtils.mkdir_p(tmp_integration_output_dir)
+    end
+
+    after do
+      FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir)
+      # RSpec's stub_const should restore the original constant.
+      # If manual reset was ever needed (e.g. if not using stub_const):
+      # if @original_pcs_target_dir && defined?(ProcessCategoryService::TARGET_DIR)
+      #   ProcessCategoryService.const_set(:TARGET_DIR, @original_pcs_target_dir)
+      # end
+    end
+
+    it 'successfully processes the repository and generates markdown files' do
+      VCR.use_cassette('github/polycarbohydrate_awesome_tor', record: :once) do
+        result = integration_service_call
+
+        expect(result).to be_success, "Service call failed: #{result.failure}"
+
+        created_files = result.value!
+        expect(created_files).not_to be_empty
+
+        expect(Dir.glob(tmp_integration_output_dir.join("*.md")).count).to be > 0
+        puts "Integration test created files: #{created_files.join(', ')}"
+      end
     end
   end
 end

@@ -47,7 +47,7 @@ class ProcessCategoryService
       content << "| #{name} | #{description} | #{stars} | #{last_commit} |"
     end
 
-    File.write(file_path, content.join("\n") + "\n")
+    File.write(file_path, content.join("\n") + "\n", encoding: "UTF-8")
     Success(file_path)
   rescue StandardError => e
     Failure("Failed to generate or write markdown for category #{category.name}: #{e.message}")

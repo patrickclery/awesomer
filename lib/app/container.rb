@@ -11,5 +11,6 @@ module App
     register("parse_markdown_operation") { ParseMarkdownOperation.new }
     register("sync_git_stats_operation") { SyncGitStatsOperation.new }
     register("process_category_service") { ProcessCategoryService.new }
+    register("fetch_readme_operation") { FetchReadmeOperation.new }
   end
 end

@@ -4,52 +4,40 @@ require "fileutils" # For FileUtils.mkdir_p
 
 class ProcessAwesomeListService
   include Dry::Monads[:result, :do]
-  include App::Import[:parse_markdown_operation]
+  include App::Import[
+    :fetch_readme_operation,
+    :parse_markdown_operation,
+    :process_category_service,
+    :sync_git_stats_operation
+  ]
 
-  def initialize(repo_shortname:, **options)
-    @repo_shortname = repo_shortname
-    @parse_markdown_operation = options[:parse_markdown_operation] # Removed assignment
+  def initialize(repo_identifier:, **deps)
+    @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container["fetch_readme_operation"]
+    @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container["parse_markdown_operation"]
+    @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container["sync_git_stats_operation"]
+    @process_category_service = deps[:process_category_service] || App::Container["process_category_service"]
 
-    @repo_shortname_fs = @repo_shortname.tr("/", "_")
-    @markdown_dir = Rails.root.join("tmp", "markdown")
-    @json_dir = Rails.root.join("tmp", "json")
-    @markdown_file_path = @markdown_dir.join("#{@repo_shortname_fs}.md")
-    @json_file_path = @json_dir.join("#{@repo_shortname_fs}.json")
+    @repo_identifier = repo_identifier
   end
 
   def call
-    ensure_directories_exist
-    markdown_content = read_markdown_file
-    return Failure("Markdown file not found or empty: #{@markdown_file_path}") if markdown_content.blank?
+    return Failure("Repository identifier must be provided") if @repo_identifier.blank?
 
-    # Use the method provided by App::Import
-    parsed_data_result = parse_markdown_operation.call(markdown_content:)
-    return parsed_data_result if parsed_data_result.failure?
+    markdown_content = yield fetch_readme_operation.call(repo_identifier: @repo_identifier)
 
-    data_to_save = parsed_data_result.value!
+    categories_from_parse = yield parse_markdown_operation.call(markdown_content:)
+    return Success([]) if categories_from_parse.empty?
 
-    save_json_file(data_to_save)
-
-    Success(@json_file_path)
-  rescue StandardError => e
-    Failure("Error processing awesome list for #{@repo_shortname}: #{e.message}")
-  end
-
-  private
-
-  def ensure_directories_exist
-    FileUtils.mkdir_p(@markdown_dir)
-    FileUtils.mkdir_p(@json_dir)
-  end
-
-  def read_markdown_file
-    return nil unless File.exist?(@markdown_file_path)
-    File.read(@markdown_file_path)
-  end
-
-  def save_json_file(data)
-    File.open(@json_file_path, "w") do |file|
-      file.write(JSON.pretty_generate(data))
+    sync_result = sync_git_stats_operation.call(categories: categories_from_parse)
+    categories_to_process_md = if sync_result.success?
+                                 sync_result.value!
+    else
+                                 puts "WARN (ProcessAwesomeListService): Failed to sync GitHub stats: #{sync_result.failure}. Proceeding with original parsed data."
+                                 categories_from_parse
     end
+
+    final_markdown_files_result = yield process_category_service.call(categories: categories_to_process_md)
+
+    Success(final_markdown_files_result)
   end
 end
