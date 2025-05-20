@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+require "dry-struct"
+require_relative "category_item" # This should now correctly resolve to ./category_item.rb
+
+module Types
+  include Dry.Types()
+end
+
+module Structs
+  class Category < Dry::Struct
+    attribute :name, Types::String
+    attribute :repos, Types::Array.of(Structs::CategoryItem)
+    attribute :custom_order, Types::Integer
+  end
+end

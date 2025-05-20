@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# require_relative "../structs/category"
+# require_relative "../structs/category_item"
+
 class ParseMarkdownOperation
   include Dry::Monads[:result, :do]
 
@@ -22,82 +25,60 @@ class ParseMarkdownOperation
   def call(markdown_content:)
     return Success([]) if markdown_content.blank?
 
-    parsed_structure = []
-    current_category = nil
-    accumulated_line = nil # For handling multi-line items
+    categories = []
+    current_category_data = nil
+    current_items = []
+    item_id_counter = 0
+    category_order_counter = 0
 
-    markdown_content.lines.each do |line|
+    markdown_content.lines.each_with_index do |line, index|
       stripped_line = line.strip
-      next if stripped_line.empty? && accumulated_line.nil? # Skip empty lines unless accumulating
+      next if stripped_line.empty?
 
       if stripped_line.start_with?("## ")
-        process_accumulated_line(current_category, accumulated_line) if accumulated_line
-        accumulated_line = nil
+        if current_category_data
+          categories << Structs::Category.new(
+            custom_order: current_category_data[:custom_order],
+            name: current_category_data[:name],
+            repos: current_items
+          )
+        end
         category_name = stripped_line.sub("## ", "").strip
-        current_category = {items: [], name: category_name}
-        parsed_structure << current_category
-      elsif current_category && (match = LINK_ITEM_REGEX.match(stripped_line))
-        process_accumulated_line(current_category, accumulated_line) if accumulated_line
-        accumulated_line = nil # Reset for new item
+        current_category_data = {custom_order: category_order_counter, name: category_name}
+        current_items = []
+        category_order_counter += 1
+      elsif current_category_data && (match = LINK_ITEM_REGEX.match(stripped_line))
+        item_id_counter += 1
+        item_name = match[:name].strip
+        item_url = match[:url].strip
+        # item_description = match[:description]&.strip # Description not used by CategoryItem
 
         item_data = {
-          description: match[:description]&.strip,
-          name: match[:name].strip
+          id: item_id_counter,
+          name: item_name,
+          url: item_url
         }
-
-        url = match[:url].strip
-        if (gh_match = GITHUB_REPO_REGEX.match(url))
-          item_data[:repo_abbreviation] = "#{gh_match[:owner]}/#{gh_match[:repo]}"
-        else
-          item_data[:url] = url
-        end
-        current_category[:items] << item_data
-      elsif current_category && stripped_line.match?(/^\s*[-*]\s*/) # A new list item that doesn't match LINK_ITEM_REGEX
-        # Handle plain list items that are not in the [Name](URL) format if necessary,
-        # or treat them as part of a multi-line description of a previous complex item.
-        # For now, if it looks like a new item but doesn't match the link format, we might ignore or handle differently.
-        # Let's assume for now that valid items we care about follow the LINK_ITEM_REGEX.
-        # If an accumulated_line exists, process it first.
-        process_accumulated_line(current_category, accumulated_line) if accumulated_line
-        accumulated_line = stripped_line # Start accumulating this new, non-matching item line
-      elsif current_category && !current_category[:items].empty?
-        # This line is not a new category header, not a recognized link item, and not a new simple list item.
-        # It could be a continuation of the previous item's description or a new simple list item's continuation.
-        if accumulated_line # If we were already accumulating a simple list item
-          accumulated_line += "\n" + line.strip # Note: line.strip, not stripped_line, to preserve internal spacing if any
-        elsif !current_category[:items].last[:description].nil? && !line.match?(/^#/) # Append to last item's description
-          # Only append if it doesn't look like a new distinct list item or header
-          unless line.match?(/^\s*[-*]\s*/)
-             current_category[:items].last[:description] += "\n" + line.strip
-          end
-        elsif line.match?(/^\s*[^#-*]/) # Line doesn't start with typical markdown markers, assume continuation
-          # This is a tricky part - trying to append to the last item if it seems like a continuation
-          # For now, let's simplify and assume description continuations are caught above or are part of LINK_ITEM_REGEX processing.
-          # A more robust parser would handle this better.
-        end
-      elsif current_category # Current category exists, but line doesn't match any other pattern - potentially part of multi-line for a simple item
-        accumulated_line = (accumulated_line.to_s + "\n" + stripped_line).strip
+        current_items << Structs::CategoryItem.new(item_data)
+      elsif current_category_data && !current_items.empty? && !line.match?(/^#/) && !line.match?(/^\s*[-*]\s*/)
+        # This part attempts to append to the description of the *last parsed item if Link had a description*
+        # Since Link struct does not have a description, and the logic was to append to a hash,
+        # this part might need reconsideration or removal if descriptions are not handled by Link structs.
+        # For now, this won't do anything as current_items.last is a Link struct, not a hash with :description.
       end
     end
-    process_accumulated_line(current_category, accumulated_line) if accumulated_line # Process any remaining accumulated line
 
-    Success(parsed_structure)
+    if current_category_data # Add the last processed category
+      categories << Structs::Category.new(
+        custom_order: current_category_data[:custom_order],
+        name: current_category_data[:name],
+        repos: current_items
+      )
+    end
+
+    Success(categories)
+  rescue Dry::Struct::Error => e # Catch specific struct errors for better diagnostics
+    Failure("Failed to parse markdown (Struct error): #{e.message}")
   rescue StandardError => e
-    Failure("Failed to parse markdown: #{e.message}")
-  end
-
-  private
-
-  def process_accumulated_line(current_category, accumulated_line)
-    nil if accumulated_line.nil? || current_category.nil?
-    # This is for lines that started with a list marker but didn't match LINK_ITEM_REGEX.
-    # We treat them as plain text items for now, without complex parsing.
-    # The requirement is for items with repo_abbreviation/url, name, description.
-    # Simple text lines won't fit this well unless we try to infer.
-    # For now, this processing might just add them as a simple string or a basic hash.
-    # Given the new requirements, these simple lines might need a different structure or be ignored.
-    # Let's assume they are ignored for now if they don't become part of a complex item's description.
-    # The old logic was: current_category[:items].last << "\n#{line}" if current_category[:items].last.is_a?(String)
-    # This is now handled by appending to :description if it exists.
+    Failure("Failed to parse markdown (Standard error): #{e.message}")
   end
 end
