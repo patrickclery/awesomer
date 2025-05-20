@@ -15,56 +15,61 @@ http_interactions:
       - AwesomeListStatsFetcher/1.0
   response:
     status:
-      code: 403
-      message: rate limit exceeded
+      code: 404
+      message: Not Found
     headers:
       Date:
-      - Tue, 20 May 2025 16:57:08 GMT
-      Server:
-      - Varnish
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains; preload
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - deny
-      X-Xss-Protection:
-      - 1; mode=block
-      Content-Security-Policy:
-      - default-src 'none'; style-src 'unsafe-inline'
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Expose-Headers:
-      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
-        X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes,
-        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
-        Sunset
+      - Tue, 20 May 2025 14:31:57 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Referrer-Policy:
-      - origin-when-cross-origin, strict-origin-when-cross-origin
       X-Github-Media-Type:
       - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Vary:
+      - Accept-Encoding, Accept, X-Requested-With
+      Server:
+      - github.com
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '0'
+      - '48'
       X-Ratelimit-Reset:
-      - '1747762559'
+      - '1747755116'
       X-Ratelimit-Resource:
       - core
       X-Ratelimit-Used:
-      - '60'
+      - '12'
       Content-Length:
-      - '278'
+      - '118'
       X-Github-Request-Id:
-      - DC48:E0EC0:2294A9:45041C:682CB464
+      - FAEC:324A54:E17187:1C353CC:682C925D
     body:
       encoding: UTF-8
       string: |-
         {
-          "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting",
-          "message": "API rate limit exceeded for 70.49.94.125. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)"
+          "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+          "message": "Not Found",
+          "status": "404"
         }
-  recorded_at: Tue, 20 May 2025 16:57:08 GMT
+  recorded_at: Tue, 20 May 2025 14:31:57 GMT
 recorded_with: VCR 6.3.1
