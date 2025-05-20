@@ -8,7 +8,7 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.allow_http_connections_when_no_cassette = false
   config.ignore_localhost                        = true
-  config.ignore_host 'chromedriver.storage.googleapis.com'
+  config.filter_sensitive_data('[GITHUB_API_KEY]') { ENV['GITHUB_API_KEY'] }
   config.cassette_library_dir                    = File.expand_path('../cassettes', __dir__)
   config.default_cassette_options                = {
     match_requests_on: %i[method uri body],
@@ -33,6 +33,7 @@ module Test
   module Support
     module VCR
       extend ActiveSupport::Concern
+      include ActiveSupport::Testing::TimeHelpers
 
       VCR_ALLOWED_KEYS = %i[erb match match_requests_on record].freeze
 

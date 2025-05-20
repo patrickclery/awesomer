@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
-require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
+require 'rails/test_help'
 require 'rspec/rails'
-require_relative 'vcr_helper'
-require 'vcr'
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 # Uncomment the line below in case you have `--require rails_helper` in the `.rspec` file
@@ -14,6 +12,7 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 # return unless Rails.env.test?
 require 'json'
 require 'base64'
+require 'active_support/testing/time_helpers'
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
@@ -40,13 +39,6 @@ begin
   ActiveRecord::Migration.maintain_test_schema!
 rescue ActiveRecord::PendingMigrationError => e
   abort e.to_s.strip
-end
-
-VCR.configure do |config|
-  config.cassette_library_dir = 'spec/cassettes'
-  config.hook_into :webmock
-  config.filter_sensitive_data('[GITHUB_API_KEY]') { ENV['GITHUB_API_KEY'] }
-  config.allow_http_connections_when_no_cassette = false
 end
 
 RSpec.configure do |config|
@@ -84,4 +76,6 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  config.include ActiveSupport::Testing::TimeHelpers
 end
