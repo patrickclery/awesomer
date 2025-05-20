@@ -74,3 +74,5 @@ gem "neatjson"
 gem "to_bool"
 
 gem "faraday-retry"
+
+gem "maxitest"
