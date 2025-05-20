@@ -1,0 +1,156 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/tchapi/davis
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 14:23:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"86ccccd0ff8a4ec1ca539c3919ef2d0001bc87d05a2d3e31b2f00f069842be11"
+      Last-Modified:
+      - Mon, 19 May 2025 04:59:45 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '59'
+      X-Ratelimit-Reset:
+      - '1747754592'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '1'
+      Content-Length:
+      - '5041'
+      X-Github-Request-Id:
+      - F79E:2FB035:276590B:4ECBB50:682C9050
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MjE4MjY2ODAzLCJub2RlX2lkIjoiTURFd09sSmxjRzl6YVhSdmNua3lNVGd5TmpZNE1ETT0iLCJuYW1lIjoiZGF2aXMiLCJmdWxsX25hbWUiOiJ0Y2hhcGkvZGF2aXMiLCJwcml2YXRlIjpmYWxzZSwib3duZXIiOnsibG9naW4iOiJ0Y2hhcGkiLCJpZCI6MTk0NDAwNywibm9kZV9pZCI6Ik1EUTZWWE5sY2pFNU5EUXdNRGM9IiwiYXZhdGFyX3VybCI6Imh0dHBzOi8vYXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xOTQ0MDA3P3Y9NCIsImdyYXZhdGFyX2lkIjoiIiwidXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy90Y2hhcGkiLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS90Y2hhcGkiLCJmb2xsb3dlcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy90Y2hhcGkvZm9sbG93ZXJzIiwiZm9sbG93aW5nX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvdGNoYXBpL2ZvbGxvd2luZ3svb3RoZXJfdXNlcn0iLCJnaXN0c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL3RjaGFwaS9naXN0c3svZ2lzdF9pZH0iLCJzdGFycmVkX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvdGNoYXBpL3N0YXJyZWR7L293bmVyfXsvcmVwb30iLCJzdWJzY3JpcHRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvdGNoYXBpL3N1YnNjcmlwdGlvbnMiLCJvcmdhbml6YXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvdGNoYXBpL29yZ3MiLCJyZXBvc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL3RjaGFwaS9yZXBvcyIsImV2ZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL3RjaGFwaS9ldmVudHN7L3ByaXZhY3l9IiwicmVjZWl2ZWRfZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvdGNoYXBpL3JlY2VpdmVkX2V2ZW50cyIsInR5cGUiOiJVc2VyIiwidXNlcl92aWV3X3R5cGUiOiJwdWJsaWMiLCJzaXRlX2FkbWluIjpmYWxzZX0sImh0bWxfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL3RjaGFwaS9kYXZpcyIsImRlc2NyaXB0aW9uIjoi8J+XkyBBIHNpbXBsZSwgZnVsbHkgdHJhbnNsYXRhYmxlIGFkbWluIGludGVyZmFjZSBmb3Igc2FicmUvZGF2IGJhc2VkIG9uIFN5bWZvbnkgNSBhbmQgQm9vdHN0cmFwIDUsIGluaXRpYWxseSBpbnNwaXJlZCBieSBCYcOva2FsLiIsImZvcmsiOmZhbHNlLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcyIsImZvcmtzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2ZvcmtzIiwia2V5c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9rZXlzey9rZXlfaWR9IiwiY29sbGFib3JhdG9yc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9jb2xsYWJvcmF0b3Jzey9jb2xsYWJvcmF0b3J9IiwidGVhbXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvdGVhbXMiLCJob29rc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9ob29rcyIsImlzc3VlX2V2ZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9pc3N1ZXMvZXZlbnRzey9udW1iZXJ9IiwiZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2V2ZW50cyIsImFzc2lnbmVlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9hc3NpZ25lZXN7L3VzZXJ9IiwiYnJhbmNoZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvYnJhbmNoZXN7L2JyYW5jaH0iLCJ0YWdzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL3RhZ3MiLCJibG9ic191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9naXQvYmxvYnN7L3NoYX0iLCJnaXRfdGFnc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9naXQvdGFnc3svc2hhfSIsImdpdF9yZWZzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2dpdC9yZWZzey9zaGF9IiwidHJlZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvZ2l0L3RyZWVzey9zaGF9Iiwic3RhdHVzZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvc3RhdHVzZXMve3NoYX0iLCJsYW5ndWFnZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvbGFuZ3VhZ2VzIiwic3RhcmdhemVyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9zdGFyZ2F6ZXJzIiwiY29udHJpYnV0b3JzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2NvbnRyaWJ1dG9ycyIsInN1YnNjcmliZXJzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL3N1YnNjcmliZXJzIiwic3Vic2NyaXB0aW9uX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL3N1YnNjcmlwdGlvbiIsImNvbW1pdHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvY29tbWl0c3svc2hhfSIsImdpdF9jb21taXRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2dpdC9jb21taXRzey9zaGF9IiwiY29tbWVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvY29tbWVudHN7L251bWJlcn0iLCJpc3N1ZV9jb21tZW50X3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2lzc3Vlcy9jb21tZW50c3svbnVtYmVyfSIsImNvbnRlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2NvbnRlbnRzL3srcGF0aH0iLCJjb21wYXJlX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2NvbXBhcmUve2Jhc2V9Li4ue2hlYWR9IiwibWVyZ2VzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL21lcmdlcyIsImFyY2hpdmVfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMve2FyY2hpdmVfZm9ybWF0fXsvcmVmfSIsImRvd25sb2Fkc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9kb3dubG9hZHMiLCJpc3N1ZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvaXNzdWVzey9udW1iZXJ9IiwicHVsbHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvcHVsbHN7L251bWJlcn0iLCJtaWxlc3RvbmVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL21pbGVzdG9uZXN7L251bWJlcn0iLCJub3RpZmljYXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL25vdGlmaWNhdGlvbnN7P3NpbmNlLGFsbCxwYXJ0aWNpcGF0aW5nfSIsImxhYmVsc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3RjaGFwaS9kYXZpcy9sYWJlbHN7L25hbWV9IiwicmVsZWFzZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy90Y2hhcGkvZGF2aXMvcmVsZWFzZXN7L2lkfSIsImRlcGxveW1lbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvdGNoYXBpL2RhdmlzL2RlcGxveW1lbnRzIiwiY3JlYXRlZF9hdCI6IjIwMTktMTAtMjlUMTE6MDE6MTFaIiwidXBkYXRlZF9hdCI6IjIwMjUtMDUtMTlUMDQ6NTk6NDVaIiwicHVzaGVkX2F0IjoiMjAyNS0wNS0xM1QyMTozMjo1MloiLCJnaXRfdXJsIjoiZ2l0Oi8vZ2l0aHViLmNvbS90Y2hhcGkvZGF2aXMuZ2l0Iiwic3NoX3VybCI6ImdpdEBnaXRodWIuY29tOnRjaGFwaS9kYXZpcy5naXQiLCJjbG9uZV91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vdGNoYXBpL2RhdmlzLmdpdCIsInN2bl91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vdGNoYXBpL2RhdmlzIiwiaG9tZXBhZ2UiOiJodHRwczovL2dpdGh1Yi5jb20vdXNlcnMvdGNoYXBpL3Byb2plY3RzLzEvdmlld3MvMSIsInNpemUiOjc1OTEsInN0YXJnYXplcnNfY291bnQiOjQ3Miwid2F0Y2hlcnNfY291bnQiOjQ3MiwibGFuZ3VhZ2UiOiJQSFAiLCJoYXNfaXNzdWVzIjp0cnVlLCJoYXNfcHJvamVjdHMiOnRydWUsImhhc19kb3dubG9hZHMiOnRydWUsImhhc193aWtpIjpmYWxzZSwiaGFzX3BhZ2VzIjpmYWxzZSwiaGFzX2Rpc2N1c3Npb25zIjpmYWxzZSwiZm9ya3NfY291bnQiOjI1LCJtaXJyb3JfdXJsIjpudWxsLCJhcmNoaXZlZCI6ZmFsc2UsImRpc2FibGVkIjpmYWxzZSwib3Blbl9pc3N1ZXNfY291bnQiOjE0LCJsaWNlbnNlIjp7ImtleSI6Im1pdCIsIm5hbWUiOiJNSVQgTGljZW5zZSIsInNwZHhfaWQiOiJNSVQiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL2xpY2Vuc2VzL21pdCIsIm5vZGVfaWQiOiJNRGM2VEdsalpXNXpaVEV6In0sImFsbG93X2ZvcmtpbmciOnRydWUsImlzX3RlbXBsYXRlIjpmYWxzZSwid2ViX2NvbW1pdF9zaWdub2ZmX3JlcXVpcmVkIjpmYWxzZSwidG9waWNzIjpbImJvb3RzdHJhcDUiLCJjYWxkYXYiLCJjYXJkZGF2Iiwic3ltZm9ueTUiLCJ3ZWJkYXYiXSwidmlzaWJpbGl0eSI6InB1YmxpYyIsImZvcmtzIjoyNSwib3Blbl9pc3N1ZXMiOjE0LCJ3YXRjaGVycyI6NDcyLCJkZWZhdWx0X2JyYW5jaCI6Im1haW4iLCJ0ZW1wX2Nsb25lX3Rva2VuIjpudWxsLCJuZXR3b3JrX2NvdW50IjoyNSwic3Vic2NyaWJlcnNfY291bnQiOjE0fQ==
+  recorded_at: Tue, 20 May 2025 14:23:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/jelmer/xandikos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - AwesomeListStatsFetcher/1.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 20 May 2025 14:23:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept,Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"282dce1fbb9476e0a9644ce974e5a5c79541290f95da97b297a1ccb2a2cb1614"
+      Last-Modified:
+      - Sun, 18 May 2025 22:44:58 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      Server:
+      - github.com
+      Accept-Ranges:
+      - bytes
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '58'
+      X-Ratelimit-Reset:
+      - '1747754592'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '2'
+      Content-Length:
+      - '5084'
+      X-Github-Request-Id:
+      - F79F:1798EF:252DDAD:4A6A736:682C9050
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":81122889,"node_id":"MDEwOlJlcG9zaXRvcnk4MTEyMjg4OQ==","name":"xandikos","full_name":"jelmer/xandikos","private":false,"owner":{"login":"jelmer","id":49032,"node_id":"MDQ6VXNlcjQ5MDMy","avatar_url":"https://avatars.githubusercontent.com/u/49032?v=4","gravatar_id":"","url":"https://api.github.com/users/jelmer","html_url":"https://github.com/jelmer","followers_url":"https://api.github.com/users/jelmer/followers","following_url":"https://api.github.com/users/jelmer/following{/other_user}","gists_url":"https://api.github.com/users/jelmer/gists{/gist_id}","starred_url":"https://api.github.com/users/jelmer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jelmer/subscriptions","organizations_url":"https://api.github.com/users/jelmer/orgs","repos_url":"https://api.github.com/users/jelmer/repos","events_url":"https://api.github.com/users/jelmer/events{/privacy}","received_events_url":"https://api.github.com/users/jelmer/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/jelmer/xandikos","description":"A
+        CalDAV/CardDAV server backed by Git","fork":false,"url":"https://api.github.com/repos/jelmer/xandikos","forks_url":"https://api.github.com/repos/jelmer/xandikos/forks","keys_url":"https://api.github.com/repos/jelmer/xandikos/keys{/key_id}","collaborators_url":"https://api.github.com/repos/jelmer/xandikos/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/jelmer/xandikos/teams","hooks_url":"https://api.github.com/repos/jelmer/xandikos/hooks","issue_events_url":"https://api.github.com/repos/jelmer/xandikos/issues/events{/number}","events_url":"https://api.github.com/repos/jelmer/xandikos/events","assignees_url":"https://api.github.com/repos/jelmer/xandikos/assignees{/user}","branches_url":"https://api.github.com/repos/jelmer/xandikos/branches{/branch}","tags_url":"https://api.github.com/repos/jelmer/xandikos/tags","blobs_url":"https://api.github.com/repos/jelmer/xandikos/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/jelmer/xandikos/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/jelmer/xandikos/git/refs{/sha}","trees_url":"https://api.github.com/repos/jelmer/xandikos/git/trees{/sha}","statuses_url":"https://api.github.com/repos/jelmer/xandikos/statuses/{sha}","languages_url":"https://api.github.com/repos/jelmer/xandikos/languages","stargazers_url":"https://api.github.com/repos/jelmer/xandikos/stargazers","contributors_url":"https://api.github.com/repos/jelmer/xandikos/contributors","subscribers_url":"https://api.github.com/repos/jelmer/xandikos/subscribers","subscription_url":"https://api.github.com/repos/jelmer/xandikos/subscription","commits_url":"https://api.github.com/repos/jelmer/xandikos/commits{/sha}","git_commits_url":"https://api.github.com/repos/jelmer/xandikos/git/commits{/sha}","comments_url":"https://api.github.com/repos/jelmer/xandikos/comments{/number}","issue_comment_url":"https://api.github.com/repos/jelmer/xandikos/issues/comments{/number}","contents_url":"https://api.github.com/repos/jelmer/xandikos/contents/{+path}","compare_url":"https://api.github.com/repos/jelmer/xandikos/compare/{base}...{head}","merges_url":"https://api.github.com/repos/jelmer/xandikos/merges","archive_url":"https://api.github.com/repos/jelmer/xandikos/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/jelmer/xandikos/downloads","issues_url":"https://api.github.com/repos/jelmer/xandikos/issues{/number}","pulls_url":"https://api.github.com/repos/jelmer/xandikos/pulls{/number}","milestones_url":"https://api.github.com/repos/jelmer/xandikos/milestones{/number}","notifications_url":"https://api.github.com/repos/jelmer/xandikos/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/jelmer/xandikos/labels{/name}","releases_url":"https://api.github.com/repos/jelmer/xandikos/releases{/id}","deployments_url":"https://api.github.com/repos/jelmer/xandikos/deployments","created_at":"2017-02-06T19:22:26Z","updated_at":"2025-05-18T22:44:58Z","pushed_at":"2025-05-19T03:49:12Z","git_url":"git://github.com/jelmer/xandikos.git","ssh_url":"git@github.com:jelmer/xandikos.git","clone_url":"https://github.com/jelmer/xandikos.git","svn_url":"https://github.com/jelmer/xandikos","homepage":"https://www.xandikos.org/","size":4552,"stargazers_count":488,"watchers_count":488,"language":"Python","has_issues":true,"has_projects":false,"has_downloads":true,"has_wiki":false,"has_pages":false,"has_discussions":true,"forks_count":43,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":67,"license":{"key":"gpl-3.0","name":"GNU
+        General Public License v3.0","spdx_id":"GPL-3.0","url":"https://api.github.com/licenses/gpl-3.0","node_id":"MDc6TGljZW5zZTk="},"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":["caldav","carddav","dulwich","git","python","webdav"],"visibility":"public","forks":43,"open_issues":67,"watchers":488,"default_branch":"master","temp_clone_token":null,"network_count":43,"subscribers_count":15}'
+  recorded_at: Tue, 20 May 2025 14:23:12 GMT
+recorded_with: VCR 6.3.1
