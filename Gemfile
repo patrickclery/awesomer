@@ -56,6 +56,7 @@ end
 
 gem "dry-auto_inject"
 gem "dry-container"
+gem "dry-struct"
 
 group :test do
   gem "webmock"
