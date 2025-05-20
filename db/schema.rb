@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_05_19_211642) do
+ActiveRecord::Schema[8.0].define(version: 2025_05_20_171057) do
   create_table "awesome_list_versions", force: :cascade do |t|
     t.integer "awesome_list_id", null: false
     t.integer "stars"
@@ -29,6 +29,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_19_211642) do
     t.string "github_repo", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "last_commit_at"
   end
 
   create_table "categories", force: :cascade do |t|

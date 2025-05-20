@@ -18,7 +18,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
   let(:markdown_content) { File.read(Rails.root.join('spec/fixtures/awesome_self_hosted_snippet.md')) }
   let!(:initial_categories) do # Use let! to ensure ParseMarkdownOperation runs before mocks might be needed
-    parse_result = ParseMarkdownOperation.new.call(markdown_content: markdown_content)
+    parse_result = ParseMarkdownOperation.new.call(markdown_content:)
     # Allow parsing to fail if fixture is bad, but this spec focuses on SyncGitStatsOperation
     parse_result.success? ? parse_result.value! : []
   end
@@ -135,7 +135,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
     it 'returns a Success result, and the specific item has no stats' do
       # This cassette will record the 404 for the bad item and potentially success for the other.
-      vcr('github', 'nonexistent-owner_nonexistent-repo_stats_and_others', record: :once) do 
+      vcr('github', 'nonexistent-owner_nonexistent-repo_stats_and_others', record: :once) do
         result = operation_call_with_bad_repo
         expect(result).to be_success
         processed_categories = result.value!
