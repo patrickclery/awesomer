@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class FindOrCreateAwesomeListOperation
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
   # Input: fetched_repo_data (hash with :owner, :repo, :repo_description, :last_commit_at (for README))

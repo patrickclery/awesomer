@@ -4,6 +4,7 @@
 # require_relative "../structs/category_item"
 
 class ParseMarkdownOperation
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
   # A very basic Markdown parser focusing on H2 headers and lists.
