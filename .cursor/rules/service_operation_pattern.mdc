@@ -1,0 +1,47 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Service and Operation Pattern
+
+This project utilizes a pattern of Services orchestrating one or more Operations to perform business logic. Operations encapsulate specific tasks and often interact with external APIs or internal data processing, while Services define higher-level workflows.
+
+### Key Characteristics
+
+1.  **Monadic Results**: Both Services and Operations typically return `Dry::Monads::Result` objects (`Success` or `Failure`). This allows for clear, functional error handling and composition.
+    - Example: `Success(data)` or `Failure("Error message")`.
+    - The `do` notation (`include Dry::Monads[:result, :do]`) is often used within `call` methods to chain monadic calls with `yield`.
+
+2.  **Dependency Injection via `App::Import`**: Operations and Services should declare their dependencies (other operations or services) using `App::Import` for easy stubbing in tests and resolution from the `App::Container`.
+    - Syntax: `include App::Import[my_operation: "operations.my_operation_key"]`
+    - Dependencies are resolved from `App::Container` (defined in `[lib/app/container.rb](mdc:lib/app/container.rb)`) or can be injected directly during instantiation for testing.
+
+3.  **Single Public `call` Method**: The primary entry point for both Operations and Services is a public `call` method.
+
+4.  **Clear Responsibilities**:
+    -   **Operations** ([app/operations/](mdc:app/operations)) focus on a single, well-defined task. For example:
+        -   `[FetchReadmeOperation](mdc:app/operations/fetch_readme_operation.rb)`: Fetches and processes README data from GitHub.
+        -   `[ParseMarkdownOperation](mdc:app/operations/parse_markdown_operation.rb)`: Parses markdown content into structured data.
+        -   `[SyncGitStatsOperation](mdc:app/operations/sync_git_stats_operation.rb)`: Fetches repository statistics (stars, commits).
+        -   `[FindOrCreateAwesomeListOperation](mdc:app/operations/find_or_create_awesome_list_operation.rb)`: Handles database upsert for `AwesomeList` records.
+    -   **Services** ([app/services/](mdc:app/services)) orchestrate calls to one or more operations to fulfill a larger use case. For example:
+        -   `[ProcessAwesomeListService](mdc:app/services/process_awesome_list_service.rb)`: Orchestrates fetching a README, parsing it, syncing stats for its items, saving list metadata, and then processing categories into final markdown output (using `[ProcessCategoryService](mdc:app/services/process_category_service.rb)`).
+        -   `[ProcessCategoryService](mdc:app/services/process_category_service.rb)`: Takes structured category data and generates formatted markdown output files.
+
+5.  **Immutability with Structs**: Data structures, especially those passed between operations or representing parsed content, often use `Dry::Struct` (defined under `[app/structs/structs/](mdc:app/structs/structs)`). Operations that modify data within these structs (e.g., adding stats to an item) should return *new instances* of the structs (e.g., `item.new(stars: new_stars)`).
+
+### Testing
+
+-   **Operation Specs**: Test an operation in isolation. If it involves external HTTP calls, use VCR (via the custom `vcr()` helper in `[spec/support/vcr.rb](mdc:spec/support/vcr.rb)`) to record and replay these interactions. Avoid mocking internal parts of the operation; test its input and output (`Success`/`Failure` result).
+-   **Service Specs**: Test the orchestration logic. Mock the operations that the service depends on (which are injected via `App::Import`). Verify that the service calls these operations in the correct sequence and with the correct data, and that it correctly handles their `Success` or `Failure` responses.
+
+### Example Flow (`ProcessAwesomeListService`)
+
+1.  Input: `repo_identifier` (e.g., 'owner/repo').
+2.  `FetchReadmeOperation` -> `Success(readme_data_hash)` (includes content, repo desc, readme commit date).
+3.  `FindOrCreateAwesomeListOperation` (using `readme_data_hash`) -> `Success(awesome_list_model)`.
+4.  `ParseMarkdownOperation` (using `readme_data_hash[:content]`) -> `Success(parsed_categories_array)`.
+5.  `SyncGitStatsOperation` (using `parsed_categories_array`) -> `Success(categories_with_stats_array)` (some items may have stats, others not, if individual fetches failed).
+6.  `ProcessCategoryService` (using `categories_with_stats_array`) -> `Success(output_markdown_file_paths_array)`.
+7.  `ProcessAwesomeListService` returns the final `Success` or a `Failure` from any step.

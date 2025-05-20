@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Thor CLI Task: Markdown Processing
+
+The main entry point for processing awesome lists from the command line is the Thor CLI script defined in `[lib/cli/markdown_processor.rb](mdc:lib/cli/markdown_processor.rb)`.
+
+### Functionality
+- It defines a `Cli::MarkdownProcessor` class inheriting from `Thor`.
+- The primary command is `process_repo REPO_IDENTIFIER`.
+  - It accepts a `REPO_IDENTIFIER` argument (e.g., `"owner/repo"` or a full GitHub URL).
+  - It has options for `--output-dir` (default: `tmp/md/`) and `--output-filename` (default: `processed_awesome_list.md` from `ProcessCategoryService`).
+- This command orchestrates the end-to-end processing of an awesome list:
+  1.  It instantiates and calls `[ProcessAwesomeListService](mdc:app/services/process_awesome_list_service.rb)` with the `repo_identifier`.
+  2.  Before calling the service, it temporarily overrides `ProcessCategoryService::TARGET_DIR` and `ProcessCategoryService::OUTPUT_FILENAME` using `const_set` to control the output location and name based on command-line options. These constants are restored in an `ensure` block.
+  3.  It prints status messages and the path(s) to the generated markdown file(s) or error messages.
+
+### Environment Loading
+- The script attempts to load the Rails environment via `require_relative "../../config/environment"` to ensure Rails components (models, services, operations, `Rails.root`) are available.
+- It includes fallback `require_relative` statements for key application files if the full Rails environment fails to load (e.g., when running the script directly without `bundle exec rails runner`). This fallback is a best-effort and might not cover all dependencies for complex environments.
+
+### Invocation
+- To run directly (if the execution guard `if __FILE__ == $PROGRAM_NAME` is present at the end of the file):
+  ```bash
+  bundle exec ruby lib/cli/markdown_processor.rb process_repo owner/repo_name --output-dir tmp/custom_output
+  ```
+- A more robust way in a Rails application is often via a binstub (e.g., `bin/cli`) that loads the environment and then calls `Cli::MarkdownProcessor.start(ARGV)`.
+- It also includes a `process_snippet` command as a shortcut that invokes `process_repo` with a predefined repository, useful for quick testing or demonstration.
+
+### Output
+- The final processed markdown file (a single aggregated file per awesome list) is saved to the directory specified by `--output-dir` (default `tmp/md/`) with the filename specified by `--output-filename`.
+- The script does not delete these output files automatically.
