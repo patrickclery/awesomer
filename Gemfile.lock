@@ -176,8 +176,6 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
-    maxitest (6.0.0)
-      minitest (>= 5.20.0, < 5.26.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
     minitest (5.25.5)
@@ -452,7 +450,6 @@ DEPENDENCIES
   faker
   faraday-retry
   kamal
-  maxitest
   neatjson
   octokit
   propshaft
