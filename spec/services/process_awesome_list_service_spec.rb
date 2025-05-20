@@ -6,7 +6,6 @@ require 'fileutils'
 RSpec.describe ProcessAwesomeListService do
   subject(:service_call) { service_instance.call }
 
-  let(:service_call) { described_class.new(repo_shortname:).call }
   let(:repo_shortname) { 'test-user/test-repo' }
   let(:repo_shortname_fs) { repo_shortname.tr('/', '_') }
   let(:tmp_markdown_dir) { Rails.root.join('tmp', 'markdown') }
@@ -64,7 +63,8 @@ RSpec.describe ProcessAwesomeListService do
     end
 
     it 'calls ParseMarkdownOperation with the markdown content' do
-      service_call
+      expect { service_call }.not_to raise_error
+      expect(service_call).to be_a(Dry::Monads::Result)
     end
   end
 
@@ -159,7 +159,8 @@ RSpec.describe ProcessAwesomeListService do
     end
 
     it 'calls ParseMarkdownOperation with the snippet markdown content' do
-      service_call # Mock expectation is set in the before block
+      expect { service_call }.not_to raise_error
+      expect(service_call).to be_a(Dry::Monads::Result)
     end
   end
 end

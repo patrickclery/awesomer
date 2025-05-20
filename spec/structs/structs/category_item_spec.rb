@@ -1,0 +1,63 @@
+# frozen_string_literal: true
+
+require 'rails_helper' # Or spec_helper, assuming it sets up the environment
+
+# Note: Structs::CategoryItem is expected to be available via Rails eager loading.
+# Dry::Struct and Dry::Monads should also be available.
+
+RSpec.describe Structs::CategoryItem do
+  # Copied from the nested describe block in category_spec.rb
+  let(:time_now) { Time.now }
+  let(:valid_attributes) { {id: 1, name: 'Item', url: 'https://example.com'} }
+
+  example 'initializes with required attributes only' do
+    item = described_class.new(valid_attributes)
+    expect(item.id).to eq(1)
+    expect(item.name).to eq('Item')
+    expect(item.url).to eq('https://example.com')
+    expect(item.commits_past_year).to be_nil
+    expect(item.last_commit_at).to be_nil
+    expect(item.stars).to be_nil
+  end
+
+  example 'initializes with all attributes' do
+    item = described_class.new(valid_attributes.merge(commits_past_year: 50, last_commit_at: time_now, stars: 200))
+    expect(item.id).to eq(1)
+    expect(item.name).to eq('Item')
+    expect(item.url).to eq('https://example.com')
+    expect(item.commits_past_year).to eq(50)
+    expect(item.last_commit_at).to be_within(1.second).of(time_now)
+    expect(item.stars).to eq(200)
+  end
+
+  example 'raises error with invalid id type' do
+    expect {
+      described_class.new(valid_attributes.merge(id: 'one'))
+    }.to raise_error(Dry::Struct::Error)
+  end
+
+  example 'raises error with missing required attributes (e.g., name)' do
+    expect {
+      # Using described_class here is correct as it refers to Structs::CategoryItem
+      described_class.new(id: 1, url: 'https://example.com')
+    }.to raise_error(Dry::Struct::Error, /:name is missing/)
+  end
+
+  example 'raises error with invalid commits_past_year type' do
+    expect {
+      described_class.new(valid_attributes.merge(commits_past_year: 'many'))
+    }.to raise_error(Dry::Struct::Error)
+  end
+
+  example 'raises error with invalid last_commit_at type' do
+    expect {
+      described_class.new(valid_attributes.merge(last_commit_at: 'yesterday'))
+    }.to raise_error(Dry::Struct::Error)
+  end
+
+  example 'raises error with invalid stars type' do
+    expect {
+      described_class.new(valid_attributes.merge(stars: 'lots'))
+    }.to raise_error(Dry::Struct::Error)
+  end
+end
