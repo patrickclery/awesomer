@@ -23,6 +23,6 @@
 #  parent_id        (parent_id => categories.id)
 #
 class Category < ApplicationRecord
-  belongs_to :awesome_list_version
+  belongs_to :awesome_list
   belongs_to :parent
 end
