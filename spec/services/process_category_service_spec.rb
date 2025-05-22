@@ -40,7 +40,7 @@ name: "Data Util", stars: 50, url: "http://example.com/datautil")
   let(:test_categories) {
  [ category2, category1, category3_empty ] } # Intentionally unsorted by custom_order, service receives them sorted
 
-  before(:all) do
+  before do
     # Store original constants to restore them after tests
     @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
     if defined?(ProcessCategoryService::OUTPUT_FILENAME)
@@ -53,7 +53,7 @@ name: "Data Util", stars: 50, url: "http://example.com/datautil")
     FileUtils.mkdir_p(tmp_target_dir)
   end
 
-  after(:all) do
+  after do
     FileUtils.rm_rf(tmp_target_dir) if Dir.exist?(tmp_target_dir)
     # RSpec's stub_const should restore the original constants.
     # Manual restoration would look like (but usually not needed with stub_const):
@@ -68,7 +68,10 @@ name: "Data Util", stars: 50, url: "http://example.com/datautil")
       expect(result.value!).to eq(expected_output_filepath)
     end
 
-    it 'creates a single markdown file with aggregated content from all categories in order, with items sorted by stars' do
+    example(
+      'creates a single markdown file with aggregated content from all categories in order, ' \
+      'with items sorted by stars'
+    ) do
       # ProcessCategoryService receives categories already sorted by custom_order from ProcessAwesomeListService.
       # For this unit test, we simulate this by sorting the input to the service call.
       sorted_test_categories_by_custom_order = test_categories.sort_by(&:custom_order)
