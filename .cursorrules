@@ -1,0 +1,9 @@
+# Spec Rules
+
+### Running Specs
+- Run associated spec file after any code changes
+- Verify fixes by re-running specs after making changes to fix failures
+
+### Best Practices
+- Use `example` blocks instead of `it` blocks
+- Confirm commits after successful test runs
