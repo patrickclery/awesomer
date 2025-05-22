@@ -52,18 +52,6 @@ RSpec.describe FetchReadmeOperation, :vcr do
     end
   end
 
-  context 'with an existing repository that has no README' do
-    let(:repo_identifier_no_readme) { 'facebook/react-empty-readme-test' }
-
-    xit 'returns a Failure indicating README not found because finding a reliable public test case is difficult' do
-      vcr('github', 'facebook_react-empty-readme-test_no_readme', record: :new_episodes) do
-        result = operation.call(repo_identifier: repo_identifier_no_readme)
-        expect(result).to be_failure
-        expect(result.failure).to eq("README not found for repository: #{repo_identifier_no_readme}")
-      end
-    end
-  end
-
   context 'with an invalid repo_identifier format' do
     let(:repo_identifier) { 'invalid_repo_id' }
 
