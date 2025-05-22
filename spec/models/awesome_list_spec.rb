@@ -21,7 +21,10 @@ RSpec.describe AwesomeList, type: :model do
     it { is_expected.to have_db_column(:name).of_type(:string).with_options(null: false) }
     it { is_expected.to have_db_column(:description).of_type(:text) }
     it { is_expected.to have_db_column(:last_commit_at).of_type(:datetime) } # For README last commit
-    it { is_expected.to have_db_column(:skip_external_links).of_type(:boolean).with_options(default: true, null: false) }
+
+    it {
+ is_expected.to have_db_column(:skip_external_links).of_type(:boolean).with_options(default: true, null: false) }
+
     it { is_expected.to have_db_column(:created_at).of_type(:datetime).with_options(null: false) }
     it { is_expected.to have_db_column(:updated_at).of_type(:datetime).with_options(null: false) }
   end

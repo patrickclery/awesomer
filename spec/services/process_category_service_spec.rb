@@ -16,17 +16,25 @@ RSpec.describe ProcessCategoryService do
   let(:expected_output_filename) { "processed_awesome_list.md" } # Matches ProcessCategoryService::OUTPUT_FILENAME
   let(:expected_output_filepath) { tmp_target_dir.join(expected_output_filename) }
 
-  let(:item1_cat1) { Structs::CategoryItem.new(description: "The first tool", id: 1, last_commit_at: time_now, name: "Awesome Tool 1", stars: 100, url: "http://example.com/tool1") }
-  let(:item2_cat1) { Structs::CategoryItem.new(description: "The second lib\nwith multi-line desc", id: 2, last_commit_at: time_now - 1.day, name: "Super Lib 2", stars: 250, url: "http://example.com/lib2") }
+  let(:item1_cat1) {
+ Structs::CategoryItem.new(description: "The first tool", id: 1, last_commit_at: time_now, name: "Awesome Tool 1",
+stars: 100, url: "http://example.com/tool1") }
+  let(:item2_cat1) {
+ Structs::CategoryItem.new(description: "The second lib\nwith multi-line desc", id: 2,
+last_commit_at: time_now - 1.day, name: "Super Lib 2", stars: 250, url: "http://example.com/lib2") }
   let(:item3_cat1_no_stats) { Structs::CategoryItem.new(description: nil, id: 3, name: "Alpha Project", url: "http://example.com/alpha") }
 
-  let(:category1) { Structs::Category.new(custom_order: 1, name: "Dev Tools", repos: [ item1_cat1, item2_cat1, item3_cat1_no_stats ]) }
+  let(:category1) {
+ Structs::Category.new(custom_order: 1, name: "Dev Tools", repos: [ item1_cat1, item2_cat1, item3_cat1_no_stats ]) }
 
-  let(:item1_cat2) { Structs::CategoryItem.new(description: "Utility for data", id: 10, last_commit_at: time_now - 5.days, name: "Data Util", stars: 50, url: "http://example.com/datautil") }
+  let(:item1_cat2) {
+ Structs::CategoryItem.new(description: "Utility for data", id: 10, last_commit_at: time_now - 5.days,
+name: "Data Util", stars: 50, url: "http://example.com/datautil") }
   let(:category2) { Structs::Category.new(custom_order: 0, name: "Data Science!", repos: [ item1_cat2 ]) }
   let(:category3_empty) { Structs::Category.new(custom_order: 2, name: "Empty Category", repos: []) }
 
-  let(:test_categories) { [ category2, category1, category3_empty ] } # Intentionally unsorted by custom_order, service receives them sorted
+  let(:test_categories) {
+ [ category2, category1, category3_empty ] } # Intentionally unsorted by custom_order, service receives them sorted
 
   before do
     # Save original constant values if they exist, for explicit restoration if needed,

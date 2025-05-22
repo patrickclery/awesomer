@@ -37,9 +37,11 @@ end
 
 module Cli
   class MarkdownProcessor < Thor
-    desc "process_repo REPO_IDENTIFIER", "Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, and saves a single aggregated output file to specified directory (default: tmp/md/)"
+    desc "process_repo REPO_IDENTIFIER",
+"Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, and saves a single aggregated output file to specified directory (default: tmp/md/)"
     method_option :output_dir, default: "tmp/md", desc: "Directory to save the markdown file", type: :string
-    method_option :output_filename, default: ProcessCategoryService::OUTPUT_FILENAME, desc: "Filename for the processed markdown output", type: :string
+    method_option :output_filename, default: ProcessCategoryService::OUTPUT_FILENAME,
+desc: "Filename for the processed markdown output", type: :string
     def process_repo(repo_identifier)
       puts "Starting repository processing for '#{repo_identifier}' via Thor..."
 
@@ -90,11 +92,13 @@ module Cli
       puts "Repository processing finished."
     end
 
-    desc "process_snippet", "Processes a predefined repo (e.g. Polycarbohydrate/awesome-tor) and saves output to tmp/md_snippet_test/"
+    desc "process_snippet",
+"Processes a predefined repo (e.g. Polycarbohydrate/awesome-tor) and saves output to tmp/md_snippet_test/"
     def process_snippet
       say("Process_snippet command is now a shortcut to process a predefined repo for testing.", :yellow)
       # Using a different output directory and potentially filename for this specific command
-      invoke(:process_repo, [ "Polycarbohydrate/awesome-tor" ], output_dir: "tmp/md_snippet_test", output_filename: "awesome_tor_snippet_processed.md")
+      invoke(:process_repo, [ "Polycarbohydrate/awesome-tor" ], output_dir: "tmp/md_snippet_test",
+output_filename: "awesome_tor_snippet_processed.md")
     end
   end
 end

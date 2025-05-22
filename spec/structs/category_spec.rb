@@ -6,7 +6,9 @@
 
 RSpec.describe Structs::Category do
   let(:time_now) { Time.now }
-  let(:item1) { Structs::CategoryItem.new(commits_past_year: 10, id: 1, last_commit_at: time_now, name: 'Item One', stars: 100, url: 'https://example.com/one') }
+  let(:item1) {
+ Structs::CategoryItem.new(commits_past_year: 10, id: 1, last_commit_at: time_now, name: 'Item One', stars: 100,
+url: 'https://example.com/one') }
   let(:item2) { Structs::CategoryItem.new(id: 2, name: 'Item Two', url: 'https://example.com/two') }
 
   example 'initializes with valid attributes' do

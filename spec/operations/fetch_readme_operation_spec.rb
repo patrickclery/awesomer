@@ -15,7 +15,8 @@ RSpec.describe FetchReadmeOperation, :vcr do
   let(:cassette_name_for_awesome_tor) { 'polycarbohydrate_awesome-tor' }
 
   shared_examples 'a successful README fetch for awesome-tor' do |identifier_type|
-    let(:current_repo_identifier) { identifier_type == :owner_repo ? repo_polycarbohydrate_awesome_tor : url_polycarbohydrate_awesome_tor }
+    let(:current_repo_identifier) {
+ identifier_type == :owner_repo ? repo_polycarbohydrate_awesome_tor : url_polycarbohydrate_awesome_tor }
 
     it 'fetches readme, commit date, description, and repo details successfully' do
       vcr('github', cassette_name_for_awesome_tor, record: :new_episodes) do

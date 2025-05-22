@@ -28,7 +28,8 @@ RSpec.describe ProcessAwesomeListService do
 
   let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: [ "Save failed" ]) }
   let(:awesome_list_model_double) {
-    instance_double(AwesomeList, description: sample_repo_description, errors: errors_double, github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: sample_readme_last_commit_at, name: sample_repo_name, save: true, skip_external_links: true)
+    instance_double(AwesomeList, description: sample_repo_description, errors: errors_double,
+github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: sample_readme_last_commit_at, name: sample_repo_name, save: true, skip_external_links: true)
   }
 
   let(:parsed_categories) do
@@ -108,7 +109,8 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when FetchReadmeOperation fails' do
-    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: sample_repo_identifier) }
+    let(:service_instance) {
+ described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: sample_repo_identifier) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call)
@@ -154,7 +156,9 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when ParseMarkdownOperation fails' do
-    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, repo_identifier: sample_repo_identifier) }
+    let(:service_instance) {
+ described_class.new(fetch_readme_operation: fetch_readme_op_double,
+find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, repo_identifier: sample_repo_identifier) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -172,7 +176,9 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when SyncGitStatsOperation fails' do
-    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
+    let(:service_instance) {
+ described_class.new(fetch_readme_operation: fetch_readme_op_double,
+find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -191,7 +197,9 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when ProcessCategoryService fails' do
-    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
+    let(:service_instance) {
+ described_class.new(fetch_readme_operation: fetch_readme_op_double,
+find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -209,7 +217,9 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when parsed categories are empty (after successful README fetch & DB upsert)' do
-    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
+    let(:service_instance) {
+ described_class.new(fetch_readme_operation: fetch_readme_op_double,
+find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
