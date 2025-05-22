@@ -38,7 +38,8 @@ end
 module Cli
   class MarkdownProcessor < Thor
     desc "process_repo REPO_IDENTIFIER",
-"Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, and saves a single aggregated output file to specified directory (default: tmp/md/)"
+         "Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, " \
+         "and saves a single aggregated output file to specified directory (default: tmp/md/)"
     method_option :output_dir, default: "tmp/md", desc: "Directory to save the markdown file", type: :string
     method_option :output_filename, default: ProcessCategoryService::OUTPUT_FILENAME,
 desc: "Filename for the processed markdown output", type: :string

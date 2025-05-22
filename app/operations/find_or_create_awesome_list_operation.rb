@@ -34,10 +34,12 @@ class FindOrCreateAwesomeListOperation
 
   def save_record(record, repo_shortname_for_error_msg)
     if record.save
-      puts "Upserted AwesomeList record for: #{repo_shortname_for_error_msg}, ID: #{record.id}, Last Commit: #{record.last_commit_at}" # DEBUG with ID
+      puts "Upserted AwesomeList record for: #{repo_shortname_for_error_msg}, " \
+           "ID: #{record.id}, Last Commit: #{record.last_commit_at}"
       Success(record)
     else
-      Failure("Failed to save AwesomeList record for #{repo_shortname_for_error_msg}: #{record.errors.full_messages.join(', ')}")
+      error_messages = record.errors.full_messages.join(", ")
+      Failure("Failed to save AwesomeList for #{repo_shortname_for_error_msg}: #{error_messages}")
     end
   rescue ActiveRecord::ActiveRecordError => e
     Failure("Database error saving AwesomeList for #{repo_shortname_for_error_msg}: #{e.message}")

@@ -73,9 +73,11 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
       # These expectations will likely fail until cassettes are recorded and values are updated.
       expect(updated_davis_item.stars).to eq(expected_davis_stars) # Or use be_a(Integer)
-      expect(updated_davis_item.last_commit_at).to be_within(1.second).of(expected_davis_last_commit_at) # Or use be_a(Time)
+      expect(updated_davis_item.last_commit_at)
+        .to be_within(1.second).of(expected_davis_last_commit_at) # Or use be_a(Time)
       expect(updated_xandikos_item.stars).to eq(expected_xandikos_stars) # Or use be_a(Integer)
-      expect(updated_xandikos_item.last_commit_at).to be_within(1.second).of(expected_xandikos_last_commit_at) # Or use be_a(Time)
+      expect(updated_xandikos_item.last_commit_at)
+        .to be_within(1.second).of(expected_xandikos_last_commit_at) # Or use be_a(Time)
     end
 
     it 'creates new CategoryItem instances for updated items' do

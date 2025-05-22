@@ -68,8 +68,9 @@ class FetchReadmeOperation
   def fetch_readme_content_from_github(client, repo_full_name)
     readme_info = client.readme(repo_full_name) # This gets Sawyer::Resource with .content as base64
     content_decoded = Base64.decode64(readme_info.content).force_encoding("UTF-8")
-    return Failure("Decoded README content is not valid UTF-8 for #{repo_full_name}") unless content_decoded.valid_encoding?
-
+    unless content_decoded.valid_encoding?
+      return Failure("Decoded README for #{repo_full_name} not valid UTF-8")
+    end
     Success({content: content_decoded, encoding: readme_info.encoding, name: readme_info.name})
   rescue Octokit::NotFound
     Failure("README not found for repository: #{repo_full_name}")
@@ -94,11 +95,15 @@ class FetchReadmeOperation
     else
       Success(nil) # No commit data found for the README path
     end
-  rescue Octokit::NotFound # If path doesn't exist or repo is empty, commits might 404
-    puts "WARN: Could not fetch last commit date for README '#{readme_path}' in #{repo_full_name} (path not found or no commits)."
+  rescue Octokit::NotFound
+    msg = "WARN: Could not fetch last commit date for README '#{readme_path}' in " \
+          "#{repo_full_name} (path not found or no commits)."
+    puts msg
     Success(nil)
   rescue Octokit::Error => e
-    puts "WARN: GitHub API error fetching last commit date for README '#{readme_path}' in #{repo_full_name}: #{e.message}"
+    msg = "WARN: GitHub API error fetching last commit date for README '#{readme_path}' in " \
+          "#{repo_full_name}: #{e.message}"
+    puts msg
     Success(nil)
   rescue StandardError => e
     puts "WARN: Error parsing last commit date for README '#{readme_path}' in #{repo_full_name}: #{e.message}"
