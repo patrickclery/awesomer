@@ -1,0 +1,7 @@
+lists:
+  - name: "Example Awesome List"
+    description: "A brief description of this awesome list."
+    uri: "https://github.com/owner/example-awesome-list"
+  - name: "Another Example List"
+    description: "Description for the second list."
+    uri: "https://github.com/another-owner/another-list"

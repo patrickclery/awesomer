@@ -11,6 +11,14 @@ Things you may want to cover:
 
 * Configuration
 
+  The application uses a `config/repos.yml` file to define which Awesome Lists to process. You should create this file by copying the example template:
+
+  ```bash
+  cp config/repos.example.yml config/repos.yml
+  ```
+
+  Then, edit `config/repos.yml` to specify the repositories you want to track.
+
 * Database creation
 
 * Database initialization
