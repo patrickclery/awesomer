@@ -6,6 +6,17 @@ require_relative '../config/environment'
 Rails.application.eager_load!
 # Rails.application.eager_load!
 require 'rspec/rails'
+
+# Add Shoulda Matchers configuration
+require 'shoulda/matchers'
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
+end
+# End Shoulda Matchers configuration
+
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 # Uncomment the line below in case you have `--require rails_helper` in the `.rspec` file

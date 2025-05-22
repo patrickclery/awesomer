@@ -64,6 +64,7 @@ group :test do
   gem "vcr"
   gem "faker"
   gem "super_diff"
+  gem "shoulda-matchers"
 end
 
 gem "octokit"
