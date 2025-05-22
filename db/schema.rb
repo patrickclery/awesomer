@@ -10,19 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_05_20_171057) do
-  create_table "awesome_list_versions", force: :cascade do |t|
-    t.integer "awesome_list_id", null: false
-    t.integer "stars"
-    t.integer "commits_past_year"
-    t.datetime "last_commit_at"
-    t.integer "repo_count"
-    t.integer "category_count"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["awesome_list_id"], name: "index_awesome_list_versions_on_awesome_list_id"
-  end
-
+ActiveRecord::Schema[8.0].define(version: 2025_05_22_025435) do
   create_table "awesome_lists", force: :cascade do |t|
     t.string "name", null: false
     t.text "description"
@@ -53,7 +41,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_20_171057) do
     t.index ["awesome_list_version_id"], name: "index_repo_stats_on_awesome_list_version_id"
   end
 
-  add_foreign_key "awesome_list_versions", "awesome_lists"
   add_foreign_key "categories", "awesome_list_versions"
   add_foreign_key "categories", "categories", column: "parent_id"
   add_foreign_key "repo_stats", "awesome_list_versions"
