@@ -27,28 +27,33 @@ class SyncGitStatsOperation
 
           if stats_fetch_monad.success?
             stats_data = stats_fetch_monad.value!
-            # puts "    Stats fetch SUCCESS for #{owner}/#{repo_name}: #{stats_data.inspect}" # DEBUG
+            puts "    Stats fetch SUCCESS for #{owner}/#{repo_name}: #{stats_data.inspect}" # UNCOMMENTED DEBUG
             current_item_attrs = item.to_h # Get all current attributes
             new_attrs = current_item_attrs.merge(
               last_commit_at: stats_data[:last_commit_at],
               stars: stats_data[:stars]
             )
             updated_item = Structs::CategoryItem.new(new_attrs) # Create new item with merged attributes
-            # puts "    Original item: #{item.name}, stars: #{item.stars}, last_commit: #{item.last_commit_at}" # DEBUG
-            # puts "    New/Updated item: #{updated_item.name}, stars: #{updated_item.stars}, last_commit: #{updated_item.last_commit_at}" # DEBUG
+            puts "    Original item: #{item.name}, stars: #{item.stars}, " \
+                 "last_commit: #{item.last_commit_at}" # UNCOMMENTED DEBUG
+            puts "    New/Updated item: #{updated_item.name}, stars: #{updated_item.stars}, " \
+                 "last_commit: #{updated_item.last_commit_at}" # UNCOMMENTED DEBUG
             updated_item
           else
-            # If fetching stats failed for this item, log it and return the original item
-            puts "    WARN (SyncGitStatsOperation): Failed to fetch stats for #{owner}/#{repo_name}: #{stats_fetch_monad.failure}"
+            puts "    WARN (SyncGitStatsOperation): Failed to fetch stats for " \
+                 "#{owner}/#{repo_name}: #{stats_fetch_monad.failure}"
             item
           end
         else
           item
         end
       end
-      # Create a new category instance with the (potentially) updated items
-      # This ensures immutability and reflects changes if any item was updated.
-      Structs::Category.new(category.to_h.merge(repos: updated_items))
+      # Explicitly create new Category with new items and original attributes
+      Structs::Category.new(
+        custom_order: category.custom_order,
+        name: category.name,
+        repos: updated_items
+      )
     end
     Success(updated_categories)
   rescue Dry::Struct::Error => e
@@ -69,6 +74,9 @@ class SyncGitStatsOperation
     request = Net::HTTP::Get.new(uri.request_uri)
     request["User-Agent"] = "AwesomeListStatsFetcher/1.0"
     request["Accept"] = "application/vnd.github.v3+json"
+    if ENV["GITHUB_API_KEY"]
+      request["Authorization"] = "token #{ENV['GITHUB_API_KEY']}"
+    end
 
     response = http.request(request)
     # puts "    Raw API response for #{owner}/#{repo_name}: #{response.code} - body: #{response.body.truncate(150)}" # DEBUG VCR
@@ -89,7 +97,9 @@ class SyncGitStatsOperation
     when Net::HTTPNotFound
       Failure("GitHub repository not found: #{owner}/#{repo_name}")
     else
-      Failure("GitHub API request failed for #{owner}/#{repo_name}: #{response.code} #{response.message} - #{response.body.truncate(100)}")
+      error_body = response.body.truncate(80) # Adjusted truncation for line length
+      Failure("GitHub API req failed for #{owner}/#{repo_name}: #{response.code} " \
+              "#{response.message} - #{error_body}")
     end
   rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout => e
     Failure("Network error while fetching stats for #{owner}/#{repo_name}: #{e.message}")
