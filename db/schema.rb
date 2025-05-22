@@ -21,27 +21,27 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_22_025435) do
   end
 
   create_table "categories", force: :cascade do |t|
-    t.integer "awesome_list_version_id", null: false
+    t.integer "awesome_list_id", null: false
     t.integer "parent_id"
     t.string "name", null: false
     t.integer "repo_count"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["awesome_list_version_id"], name: "index_categories_on_awesome_list_version_id"
+    t.index ["awesome_list_id"], name: "index_categories_on_awesome_list_id"
     t.index ["parent_id"], name: "index_categories_on_parent_id"
   end
 
   create_table "repo_stats", force: :cascade do |t|
-    t.integer "awesome_list_version_id", null: false
+    t.integer "awesome_list_id", null: false
     t.integer "stars"
     t.integer "commits_past_year"
     t.datetime "last_commit_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["awesome_list_version_id"], name: "index_repo_stats_on_awesome_list_version_id"
+    t.index ["awesome_list_id"], name: "index_repo_stats_on_awesome_list_id"
   end
 
-  add_foreign_key "categories", "awesome_list_versions"
+  add_foreign_key "categories", "awesome_lists"
   add_foreign_key "categories", "categories", column: "parent_id"
-  add_foreign_key "repo_stats", "awesome_list_versions"
+  add_foreign_key "repo_stats", "awesome_lists"
 end

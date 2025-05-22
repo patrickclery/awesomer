@@ -21,5 +21,5 @@
 #  awesome_list_version_id  (awesome_list_version_id => awesome_list_versions.id)
 #
 class RepoStat < ApplicationRecord
-  belongs_to :awesome_list_version
+  belongs_to :awesome_list
 end
