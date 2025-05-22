@@ -225,16 +225,17 @@ RSpec.describe ProcessAwesomeListService do
     let(:service_instance_integration) { described_class.new(repo_identifier:) }
 
     before do
-      @original_pcs_target_dir = ProcessCategoryService::TARGET_DIR if defined?(ProcessCategoryService::TARGET_DIR)
-      @original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME if defined?(ProcessCategoryService::OUTPUT_FILENAME)
+      # No need to save original constants here; stub_const handles reset.
       stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
+      # If OUTPUT_FILENAME needed to be stubbed for this context, do it here.
+      # e.g., stub_const("ProcessCategoryService::OUTPUT_FILENAME", "custom_integration_output.md")
       FileUtils.mkdir_p(tmp_integration_output_dir)
     end
 
     after do
+      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup still disabled by user request
       puts "Skipping cleanup of #{tmp_integration_output_dir} to inspect files."
-      ProcessCategoryService.const_set(:TARGET_DIR, @original_pcs_target_dir) if @original_pcs_target_dir && defined?(ProcessCategoryService::TARGET_DIR)
-      ProcessCategoryService.const_set(:OUTPUT_FILENAME, @original_pcs_output_filename) if @original_pcs_output_filename && defined?(ProcessCategoryService::OUTPUT_FILENAME)
+      # RSpec's stub_const automatically restores original constant values. No manual `const_set` needed.
     end
 
     it 'successfully processes the repository, upserts AwesomeList, and generates markdown files' do
