@@ -37,7 +37,7 @@ RSpec.describe ParseMarkdownOperation do
 
     it 'parses categories and items correctly, including descriptions' do
       result = operation_call.value!
-      expect(result.size).to eq(3)
+      expect(result.size).to eq(2)
 
       # Category 1
       cat1 = result[0]
@@ -65,10 +65,7 @@ RSpec.describe ParseMarkdownOperation do
       expect(cat2.repos[1].name).to eq('No Description Item')
       expect(cat2.repos[1].description).to be_nil
 
-      # Category 3
-      cat3 = result[2]
-      expect(cat3.name).to eq('Category 3 - Empty Category')
-      expect(cat3.repos).to be_empty
+      # No cat3 expected
 
       # Check a few other item attributes remain nil as before
       expect(cat1.repos[0].stars).to be_nil
@@ -130,15 +127,9 @@ RSpec.describe ParseMarkdownOperation do
 
     it 'parses correctly, Structs::CategoryItem struct has nil for new fields' do
       result = operation_call.value!
-      expect(result.size).to eq(2)
+      expect(result.size).to eq(1)
 
-      empty_cat = result.first
-      expect(empty_cat.name).to eq('Empty Category')
-      expect(empty_cat.custom_order).to eq(0)
-      expect(empty_cat.repos).to be_empty
-
-      cat_with_item = result.last
-      expect(cat_with_item).to be_a(Structs::Category)
+      cat_with_item = result.first
       expect(cat_with_item.name).to eq('Category With Item')
       expect(cat_with_item.custom_order).to eq(1)
       expect(cat_with_item.repos.size).to eq(1)
@@ -204,6 +195,67 @@ RSpec.describe ParseMarkdownOperation do
 
     it 'includes the error message in the failure' do
       expect(operation_call.failure).to eq('Failed to parse markdown (Standard error): Simulated processing error')
+    end
+  end
+
+  context 'with skip_external_links option' do
+    let(:markdown_with_mixed_links) do
+      <<~MARKDOWN
+        ## Mixed Links Category
+        - [GitHub Project](https://github.com/user/project) - A GitHub link.
+        - [External Link](http://example.com/external) - An external link.
+        - [Another GitHub](https://github.com/user/another) - Another GitHub link.
+        - [HTTP Site](http://othersite.com) - Another external link.
+
+        ## Only External Links Category
+        - [External Site A](http://externalsite.com/a)
+        - [External Site B](http://externalsite.com/b)
+
+        ## Only GitHub Links Category
+        - [GH Only 1](https://github.com/gh/only1)
+        - [GH Only 2](https://github.com/gh/only2)
+
+        ## Empty Items Category Initially
+        - No actual links here
+      MARKDOWN
+    end
+
+    context 'when skip_external_links is true (default or explicit)' do
+      it 'omits categories that only contain non-GitHub links (or become empty after skipping)' do
+        result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
+        categories = result.value!
+        expect(categories.size).to eq(2)
+        expect(categories.map(&:name)).to match_array([ "Mixed Links Category", "Only GitHub Links Category" ])
+        expect(categories.find { |c| c.name == "Only External Links Category" }).to be_nil
+        expect(categories.find { |c| c.name == "Empty Items Category Initially" }).to be_nil
+      end
+
+      it 'skips non-GitHub links' do
+        result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
+        categories = result.value!
+        mixed_cat = categories.find { |c| c.name == "Mixed Links Category" }
+        expect(mixed_cat.repos.map(&:name)).to eq([ "GitHub Project", "Another GitHub" ])
+      end
+
+      it 'includes categories that only contain GitHub links' do
+        result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
+        categories = result.value!
+        gh_only_cat = categories.find { |c| c.name == "Only GitHub Links Category" }
+        expect(gh_only_cat).not_to be_nil
+        expect(gh_only_cat.repos.map(&:name)).to eq([ "GH Only 1", "GH Only 2" ])
+      end
+    end
+
+    context 'when skip_external_links is false' do
+      it 'includes all links (GitHub and external)' do
+        result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: false)
+        categories = result.value!
+        mixed_cat = categories.find { |c| c.name == "Mixed Links Category" }
+        expect(mixed_cat.repos.map(&:name)).to eq([ "GitHub Project", "External Link", "Another GitHub", "HTTP Site" ])
+        external_only_cat = categories.find { |c| c.name == "Only External Links Category" }
+        expect(external_only_cat).not_to be_nil
+        expect(external_only_cat.repos.map(&:name)).to eq([ "External Site A", "External Site B" ])
+      end
     end
   end
 end

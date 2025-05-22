@@ -21,86 +21,82 @@ class ParseMarkdownOperation
   LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/ # Description is capture group 3
   GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
 
-  def call(markdown_content:)
+  # Added skip_external_links parameter, defaulting to false (process all links by default)
+  # If true, only GitHub links will be processed. Non-GitHub links will be skipped.
+  # Categories with no processable items (after skipping) will also be skipped.
+  def call(markdown_content:, skip_external_links: false)
     return Success([]) if markdown_content.blank?
 
-    categories = []
-    current_category_data = nil
-    current_items = []
+    categories_result = []
+    current_category_name = nil
+    current_category_order = -1
+    current_items_buffer = []
     item_id_counter = 0
-    category_order_counter = 0
-    # To handle multi-line descriptions for LINK_ITEM_REGEX items
-    last_link_item_data = nil
 
-    markdown_content.lines.each_with_index do |line, index|
+    # Temp storage for the item currently being built (attributes hash)
+    building_item_attrs = nil
+
+    flush_building_item_to_current_items = lambda do
+      if building_item_attrs
+        is_github_link = GITHUB_REPO_REGEX.match?(building_item_attrs[:url])
+        unless skip_external_links && !is_github_link
+          current_items_buffer << Structs::CategoryItem.new(building_item_attrs.slice(:id, :name, :url, :description))
+        end
+        building_item_attrs = nil
+      end
+    end
+
+    finalize_current_category = lambda do
+      flush_building_item_to_current_items.call # Ensure last item of category is flushed
+      if current_category_name && current_items_buffer.any?
+        categories_result << Structs::Category.new(
+          custom_order: current_category_order,
+          name: current_category_name,
+          repos: current_items_buffer
+        )
+      end
+      current_items_buffer = []
+      current_category_name = nil # Mark as no active category
+    end
+
+    markdown_content.lines.each do |line|
       stripped_line = line.strip
       next if stripped_line.empty?
 
       header_match = HEADER_REGEX.match(stripped_line)
-      if header_match && header_match[1].length.between?(2, 6) # Check if hashes are between 2 and 6
-        # Finalize the last item's description if one was being accumulated
-        if last_link_item_data && !current_items.empty? && current_items.last.respond_to?(:new)
-          current_items[-1] = current_items.last.new(description: last_link_item_data[:description].strip) if last_link_item_data[:description]
-        end
-        last_link_item_data = nil # Reset for new category
-
-        if current_category_data
-          categories << Structs::Category.new(
-            custom_order: current_category_data[:custom_order],
-            name: current_category_data[:name],
-            repos: current_items
-          )
-        end
-        category_name = header_match[2].strip # Group 2 is the category name text
-        current_category_data = {custom_order: category_order_counter, name: category_name}
-        current_items = []
-        category_order_counter += 1
-      elsif current_category_data && (link_match = LINK_ITEM_REGEX.match(stripped_line))
-        # Finalize the previous item's description before starting a new one
-        if last_link_item_data && !current_items.empty? && current_items.last.respond_to?(:new)
-          current_items[-1] = current_items.last.new(description: last_link_item_data[:description].strip) if last_link_item_data[:description]
-        end
+      if header_match && header_match[1].length.between?(2, 6)
+        finalize_current_category.call # Finalize previous category before starting new one
+        current_category_name = header_match[2].strip
+        current_category_order += 1
+      elsif current_category_name && (link_match = LINK_ITEM_REGEX.match(stripped_line))
+        flush_building_item_to_current_items.call # Finalize previous item before starting new one
 
         item_id_counter += 1
-        item_name = link_match[:name].strip
-        item_url = link_match[:url].strip
-        # Capture the initial description part from the regex
-        item_description = link_match[:description]&.strip
-
-        last_link_item_data = {
-          description: item_description,
+        building_item_attrs = {
+          description: link_match[:description]&.strip,
           id: item_id_counter,
-          name: item_name,
-          url: item_url # Start with description from the first line
+          name: link_match[:name].strip,
+          url: link_match[:url].strip
         }
-        # Create the item, description might be appended to later
-        current_items << Structs::CategoryItem.new(last_link_item_data.slice(:id, :name, :url, :description))
-      elsif last_link_item_data && !last_link_item_data[:description].nil? && current_category_data && !stripped_line.start_with?("* ", "- ", "+ ") && !HEADER_REGEX.match(stripped_line)
-        # This line is a continuation of the previous link item's description, only if a description was started on the first line
-        last_link_item_data[:description] = "#{last_link_item_data[:description]}\n#{stripped_line}".strip
-      else
-        # If it's not a header, not a link item, and not a continuation, finalize previous item
-        if last_link_item_data && !current_items.empty? && current_items.last.respond_to?(:new)
-          current_items[-1] = current_items.last.new(description: last_link_item_data[:description].strip) if last_link_item_data[:description]
+      elsif building_item_attrs && current_category_name && # If we are building an item
+            !stripped_line.start_with?("- ", "* ", "+ ") && # And it's not a new list marker
+            !HEADER_REGEX.match(stripped_line) # And it's not a new header
+        # This line is a continuation of the current building_item_attrs' description
+        if building_item_attrs[:description].nil?
+          building_item_attrs[:description] = stripped_line
+        else
+          building_item_attrs[:description] += "\n" + stripped_line
         end
-        last_link_item_data = nil # Reset as this line is not part of the previous link item
+      else
+        # Not a header, not a new link item, not a continuation of a link item's description
+        # This means any `building_item_attrs` should be flushed if it exists.
+        flush_building_item_to_current_items.call
       end
     end
 
-    # Finalize the very last item's description after loop
-    if last_link_item_data && !current_items.empty? && current_items.last.respond_to?(:new)
-      current_items[-1] = current_items.last.new(description: last_link_item_data[:description].strip) if last_link_item_data[:description]
-    end
+    finalize_current_category.call # Finalize the last category after loop
 
-    if current_category_data # Add the last processed category
-      categories << Structs::Category.new(
-        custom_order: current_category_data[:custom_order],
-        name: current_category_data[:name],
-        repos: current_items
-      )
-    end
-
-    Success(categories)
+    Success(categories_result)
   rescue Dry::Struct::Error => e # Catch specific struct errors for better diagnostics
     Failure("Failed to parse markdown (Struct error): #{e.message}")
   rescue StandardError => e

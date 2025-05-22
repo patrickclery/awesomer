@@ -14,4 +14,7 @@
 #  updated_at          :datetime         not null
 #
 class AwesomeList < ApplicationRecord
+  validates :github_repo, presence: true, uniqueness: {case_sensitive: false}
+  validates :name, presence: true
+  # validates :skip_external_links, inclusion: { in: [true, false] } # Not strictly needed for boolean with DB constraint
 end

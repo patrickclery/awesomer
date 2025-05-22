@@ -25,19 +25,23 @@ class ProcessAwesomeListService
   def call
     return Failure("Repository identifier must be provided") if @repo_identifier.blank?
 
-    # 1. Fetch README content and metadata
     fetched_data = yield fetch_readme_operation.call(repo_identifier: @repo_identifier)
 
-    # 2. Upsert AwesomeList record using the new operation
-    # The aw_list variable itself might not be used further in this service if only DB state matters.
-    _aw_list_record = yield find_or_create_awesome_list_operation.call(fetched_repo_data: fetched_data)
+    # Determine the repo_shortname for finding/creating the AwesomeList record
+    repo_shortname = "#{fetched_data[:owner]}/#{fetched_data[:repo]}"
+    aw_list_record = yield find_or_create_awesome_list_operation.call(fetched_repo_data: fetched_data)
 
-    # 3. Parse Markdown
+    # Pass the skip_external_links flag from the AwesomeList record to the parser
+    skip_links_flag = aw_list_record.skip_external_links
+    # puts "DEBUG: Processing with skip_external_links: #{skip_links_flag}" # Optional debug
+
     markdown_content = fetched_data[:content]
-    categories_from_parse = yield parse_markdown_operation.call(markdown_content:)
+    categories_from_parse = yield parse_markdown_operation.call(
+      markdown_content:,
+      skip_external_links: skip_links_flag
+    )
     return Success([]) if categories_from_parse.empty?
 
-    # 4. Sync GitHub Stats for items in categories
     sync_result = sync_git_stats_operation.call(categories: categories_from_parse)
     categories_to_process_md = if sync_result.success?
                                  sync_result.value!
@@ -46,7 +50,6 @@ class ProcessAwesomeListService
                                  categories_from_parse
     end
 
-    # 5. Process categories to generate final markdown files
     final_markdown_files_result = yield process_category_service.call(categories: categories_to_process_md)
 
     Success(final_markdown_files_result)

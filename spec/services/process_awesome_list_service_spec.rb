@@ -28,7 +28,7 @@ RSpec.describe ProcessAwesomeListService do
 
   let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: [ "Save failed" ]) }
   let(:awesome_list_model_double) {
-    instance_double(AwesomeList, description: sample_repo_description, errors: errors_double, github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: sample_readme_last_commit_at, name: sample_repo_name, save: true)
+    instance_double(AwesomeList, description: sample_repo_description, errors: errors_double, github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: sample_readme_last_commit_at, name: sample_repo_name, save: true, skip_external_links: true)
   }
 
   let(:parsed_categories) do
@@ -60,7 +60,9 @@ RSpec.describe ProcessAwesomeListService do
     before do
       allow(fetch_readme_op_double).to receive(:call).with(repo_identifier: sample_repo_identifier).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).with(fetched_repo_data: fetch_readme_success_data).and_return(Success(awesome_list_model_double))
-      allow(parse_markdown_op_double).to receive(:call).with(markdown_content: sample_markdown_content).and_return(Success(parsed_categories))
+      allow(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content, skip_external_links: awesome_list_model_double.skip_external_links)
+        .and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call).with(categories: parsed_categories).and_return(Success(categories_with_stats))
       allow(process_category_op_double).to receive(:call).with(categories: categories_with_stats).and_return(Success(output_markdown_paths))
     end
@@ -84,6 +86,12 @@ RSpec.describe ProcessAwesomeListService do
 
     it 'calls FindOrCreateAwesomeListOperation with fetched_data' do
       expect(find_or_create_aw_list_op_double).to receive(:call).with(fetched_repo_data: fetch_readme_success_data)
+      service_instance.call
+    end
+
+    it 'calls ParseMarkdownOperation with the skip_external_links flag from AwesomeList' do
+      expect(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content, skip_external_links: true)
       service_instance.call
     end
   end
@@ -151,7 +159,9 @@ RSpec.describe ProcessAwesomeListService do
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
-      allow(parse_markdown_op_double).to receive(:call).with(markdown_content: sample_markdown_content).and_return(Failure("Parsing error"))
+      allow(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content, skip_external_links: awesome_list_model_double.skip_external_links)
+        .and_return(Failure("Parsing error"))
     end
 
     it 'returns the Failure' do
@@ -204,7 +214,9 @@ RSpec.describe ProcessAwesomeListService do
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
-      allow(parse_markdown_op_double).to receive(:call).with(markdown_content: sample_markdown_content).and_return(Success([]))
+      allow(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content, skip_external_links: awesome_list_model_double.skip_external_links)
+        .and_return(Success([]))
     end
 
     it 'returns Success with an empty array of files and does not call sync or process_category' do
@@ -239,6 +251,13 @@ RSpec.describe ProcessAwesomeListService do
     end
 
     it 'successfully processes the repository, upserts AwesomeList, and generates markdown files' do
+      # Ensure AwesomeList record for Polycarbohydrate/awesome-tor exists or is created with a known
+      # value for skip_external_links if the output is sensitive to it.
+      # For example, ensure it's true if you expect only GitHub links in the final output tables.
+      # AwesomeList.find_or_create_by(github_repo: 'Polycarbohydrate/awesome-tor') do |al|
+      #   al.name = 'awesome-tor'
+      #   al.skip_external_links = true # Explicitly set for test if needed
+      # end
       vcr('github', 'polycarbohydrate_awesome-tor', record: :new_episodes) do
         initial_count = AwesomeList.count
         result = integration_service_call
