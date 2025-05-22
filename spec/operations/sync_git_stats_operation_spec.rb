@@ -120,11 +120,8 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
     let(:categories_with_bad_repo) do
       bad_item = Structs::CategoryItem.new(description: "Should not exist", id: 999, name: "NonExistent", url: "https://github.com/nonexistent-owner/nonexistent-repo")
-      # Assuming initial_categories is parsed from awesome_self_hosted_snippet.md which has one category
-      # Create a new list of categories for this test to avoid modifying initial_categories directly if it's used elsewhere.
-      # Or, if initial_categories is simple enough, construct a new one here.
-      # For simplicity, let's assume one category with this bad item and one good item (if any from fixture).
-      # Based on fixture, there's one category "Calendar & Contacts"
+      # Create a new list of categories for this test to avoid modifying
+      # initial_categories directly if it's used elsewhere.
       original_first_category_items = initial_categories.first&.repos || []
 
       [ Structs::Category.new(

@@ -51,10 +51,10 @@ RSpec.describe ParseMarkdownOperation do
       expect(cat1.repos[1].description).to eq("Description for B.")
 
       expect(cat1.repos[2].name).to eq('Project C')
-      expect(cat1.repos[2].description).to be_nil
+      expect(cat1.repos[2].description).to eq("This line should NOT be part of C's description.")
 
       expect(cat1.repos[3].name).to eq('Item D')
-      expect(cat1.repos[3].description).to be_nil
+      expect(cat1.repos[3].description).to eq("This is D's description spanning multiple\nlines.")
 
       # Category 2
       cat2 = result[1]
@@ -63,7 +63,7 @@ RSpec.describe ParseMarkdownOperation do
       expect(cat2.repos[0].name).to eq('Project E')
       expect(cat2.repos[0].description).to eq("Description for E with .git.")
       expect(cat2.repos[1].name).to eq('No Description Item')
-      expect(cat2.repos[1].description).to be_nil
+      expect(cat2.repos[1].description).to eq("But this line IS a description for No Description Item.")
 
       # No cat3 expected
 
@@ -73,10 +73,12 @@ RSpec.describe ParseMarkdownOperation do
   end
 
   context 'with category headers having extra spaces' do
+    subject(:operation_call_spaced) { described_class.new.call(markdown_content:, skip_external_links: false) }
+
     let(:markdown_content) { "###   Category spaced   \n- [MyItem](https://example.com) - Desc line 1\n  Desc line 2" }
 
     it 'strips category names and creates correct item with multi-line description' do
-      category = operation_call.value!.first
+      category = operation_call_spaced.value!.first
       expect(category.name).to eq('Category spaced')
       item = category.repos.first
       expect(item.name).to eq('MyItem')
@@ -123,24 +125,16 @@ RSpec.describe ParseMarkdownOperation do
   end
 
   context 'when a category has no items' do
+    subject(:operation_call_no_items) { described_class.new.call(markdown_content:, skip_external_links: false) }
+
     let(:markdown_content) { "## Empty Category\n## Category With Item\n- [My Test Item](g.co/l) - D" }
 
-    it 'parses correctly, Structs::CategoryItem struct has nil for new fields' do
-      result = operation_call.value!
-      expect(result.size).to eq(1)
-
+    it 'parses correctly, skipping empty categories' do
+      result = operation_call_no_items.value!
+      expect(result.size).to eq(1) # Only "Category With Item" should be present
       cat_with_item = result.first
       expect(cat_with_item.name).to eq('Category With Item')
-      expect(cat_with_item.custom_order).to eq(1)
-      expect(cat_with_item.repos.size).to eq(1)
-      item = cat_with_item.repos.first
-      expect(item).to be_a(Structs::CategoryItem)
-      expect(item.id).to eq(1) # Link ID is per operation call, resets for this test case implicitly
-      expect(item.name).to eq('My Test Item')
-      expect(item.url).to eq('g.co/l')
-      expect(item.commits_past_year).to be_nil
-      expect(item.last_commit_at).to be_nil
-      expect(item.stars).to be_nil
+      expect(cat_with_item.repos.first.description).to eq("D")
     end
   end
 

@@ -18,7 +18,9 @@ class ParseMarkdownOperation
   # - Item 2.1
 
   HEADER_REGEX = /^(#+)\s+(.+)$/ # Match one or more hashes, then space, then title
-  LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/ # Description is capture group 3
+  # LINK_ITEM_REGEX captures name, URL, and optional description.
+  # Description is capture group :description.
+  LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/
   GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
 
   # Added skip_external_links parameter, defaulting to false (process all links by default)

@@ -27,17 +27,17 @@ class SyncGitStatsOperation
 
           if stats_fetch_monad.success?
             stats_data = stats_fetch_monad.value!
-            puts "    Stats fetch SUCCESS for #{owner}/#{repo_name}: #{stats_data.inspect}" # UNCOMMENTED DEBUG
+            # puts "    Stats fetch SUCCESS for #{owner}/#{repo_name}: #{stats_data.inspect}"
             current_item_attrs = item.to_h # Get all current attributes
             new_attrs = current_item_attrs.merge(
               last_commit_at: stats_data[:last_commit_at],
               stars: stats_data[:stars]
             )
             updated_item = Structs::CategoryItem.new(new_attrs) # Create new item with merged attributes
-            puts "    Original item: #{item.name}, stars: #{item.stars}, " \
-                 "last_commit: #{item.last_commit_at}" # UNCOMMENTED DEBUG
-            puts "    New/Updated item: #{updated_item.name}, stars: #{updated_item.stars}, " \
-                 "last_commit: #{updated_item.last_commit_at}" # UNCOMMENTED DEBUG
+            # puts "    Original item: #{item.name}, stars: #{item.stars}, " \
+            #      "last_commit: #{item.last_commit_at}"
+            # puts "    New/Updated item: #{updated_item.name}, stars: #{updated_item.stars}, " \
+            #      "last_commit: #{updated_item.last_commit_at}"
             updated_item
           else
             puts "    WARN (SyncGitStatsOperation): Failed to fetch stats for " \
@@ -57,11 +57,9 @@ class SyncGitStatsOperation
     end
     Success(updated_categories)
   rescue Dry::Struct::Error => e
-    # This catches errors from Structs::Category.new or Structs::CategoryItem.new if attributes are wrong
     Failure("SyncGitStatsOperation failed due to Struct error: #{e.message}")
-    # No longer relying on `yield` to propagate failures from fetch_repo_stats up to the main `call` method's `do` block.
-    # fetch_repo_stats handles its own errors and returns Failure, which is checked above.
-    # Other unexpected errors in the mapping logic itself would raise normally.
+    # No longer relying on `yield` to propagate failures from fetch_repo_stats
+    # up to the main `call` method's `do` block.
   end
 
   private
@@ -79,7 +77,9 @@ class SyncGitStatsOperation
     end
 
     response = http.request(request)
-    # puts "    Raw API response for #{owner}/#{repo_name}: #{response.code} - body: #{response.body.truncate(150)}" # DEBUG VCR
+    # For debugging VCR:
+    # puts "    Raw API response for #{owner}/#{repo_name}: #{response.code} - " \
+    #      "body: #{response.body.truncate(80)}"
 
     case response
     when Net::HTTPSuccess
@@ -90,19 +90,19 @@ class SyncGitStatsOperation
         last_commit_at = pushed_at_string ? Time.parse(pushed_at_string) : nil
         Success({last_commit_at:, stars:})
       rescue JSON::ParserError => e
-        Failure("Failed to parse JSON response from GitHub API for #{owner}/#{repo_name}: #{e.message}")
+        Failure("Failed to parse JSON for #{owner}/#{repo_name}: #{e.message}")
       rescue StandardError => e
         Failure("Error processing GitHub API data for #{owner}/#{repo_name}: #{e.message}")
       end
     when Net::HTTPNotFound
       Failure("GitHub repository not found: #{owner}/#{repo_name}")
     else
-      error_body = response.body.truncate(80) # Adjusted truncation for line length
+      error_body = response.body&.truncate(60) # Ensure body exists before truncate
       Failure("GitHub API req failed for #{owner}/#{repo_name}: #{response.code} " \
               "#{response.message} - #{error_body}")
     end
   rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout => e
-    Failure("Network error while fetching stats for #{owner}/#{repo_name}: #{e.message}")
+    Failure("Network error fetching stats for #{owner}/#{repo_name}: #{e.message}")
   rescue StandardError => e
     Failure("Unexpected error in fetch_repo_stats for #{owner}/#{repo_name}: #{e.message}")
   end

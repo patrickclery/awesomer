@@ -18,7 +18,7 @@ class ProcessAwesomeListService
     @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container["parse_markdown_operation"]
     @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container["sync_git_stats_operation"]
     @process_category_service = deps[:process_category_service] || App::Container["process_category_service"]
-    @find_or_create_awesome_list_operation = 
+    @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
     @repo_identifier = repo_identifier
   end
@@ -46,11 +46,11 @@ class ProcessAwesomeListService
     sync_result = sync_git_stats_operation.call(categories: categories_from_parse)
     categories_to_process_md = if sync_result.success?
                                  sync_result.value!
-                               else
+    else
                                  puts "WARN (ProcessAwesomeListService): Failed to sync GitHub stats for items: " \
                                       "#{sync_result.failure}. Proceeding with original parsed data."
                                  categories_from_parse
-                               end
+    end
 
     final_markdown_files_result = yield process_category_service.call(categories: categories_to_process_md)
 

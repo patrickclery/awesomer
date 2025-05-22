@@ -16,7 +16,12 @@ RSpec.describe ProcessAwesomeListService do
 
   let(:fetch_readme_success_data) do
     {
-      content: sample_markdown_content, last_commit_at: sample_readme_last_commit_at, name: sample_readme_filename, owner: sample_repo_owner, repo: sample_repo_name, repo_description: sample_repo_description
+      content: sample_markdown_content,
+      last_commit_at: sample_readme_last_commit_at,
+      name: sample_readme_filename,
+      owner: sample_repo_owner,
+      repo: sample_repo_name,
+      repo_description: sample_repo_description
     }
   end
 
@@ -27,19 +32,30 @@ RSpec.describe ProcessAwesomeListService do
   let(:find_or_create_aw_list_op_double) { instance_double(FindOrCreateAwesomeListOperation) }
 
   let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: [ "Save failed" ]) }
-  let(:awesome_list_model_double) {
-    instance_double(AwesomeList, description: sample_repo_description, errors: errors_double,
-github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: sample_readme_last_commit_at, name: sample_repo_name, save: true, skip_external_links: true)
-  }
+  let(:awesome_list_model_double) do
+    instance_double(AwesomeList,
+                    description: sample_repo_description,
+                    errors: errors_double,
+                    github_repo: "#{sample_repo_owner}/#{sample_repo_name}",
+                    id: 1,
+                    last_commit_at: sample_readme_last_commit_at,
+                    name: sample_repo_name,
+                    save: true,
+                    skip_external_links: true)
+  end
 
   let(:parsed_categories) do
     [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
-      Structs::CategoryItem.new(description: "A test item", id: 1, name: "Test Item", url: "http://example.com/test")
+      Structs::CategoryItem.new(
+        description: "A test item", id: 1, name: "Test Item", url: "http://example.com/test"
+      )
     ]) ]
   end
   let(:categories_with_stats) do
     [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
-      Structs::CategoryItem.new(description: "A test item", id: 1, last_commit_at: Time.now, name: "Test Item", stars: 10, url: "http://example.com/test")
+      Structs::CategoryItem.new(
+        description: "A test item", id: 1, last_commit_at: Time.now, name: "Test Item", stars: 10, url: "http://example.com/test"
+      )
     ]) ]
   end
   let(:output_markdown_paths) { [ Rails.root.join("tmp", "md", "test_category-stars.md") ] }
@@ -59,13 +75,22 @@ github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: 
     end
 
     before do
-      allow(fetch_readme_op_double).to receive(:call).with(repo_identifier: sample_repo_identifier).and_return(Success(fetch_readme_success_data))
-      allow(find_or_create_aw_list_op_double).to receive(:call).with(fetched_repo_data: fetch_readme_success_data).and_return(Success(awesome_list_model_double))
+      allow(fetch_readme_op_double).to receive(:call)
+        .with(repo_identifier: sample_repo_identifier)
+        .and_return(Success(fetch_readme_success_data))
+      allow(find_or_create_aw_list_op_double).to receive(:call)
+        .with(fetched_repo_data: fetch_readme_success_data)
+        .and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call)
-        .with(markdown_content: sample_markdown_content, skip_external_links: awesome_list_model_double.skip_external_links)
+        .with(markdown_content: sample_markdown_content,
+              skip_external_links: awesome_list_model_double.skip_external_links)
         .and_return(Success(parsed_categories))
-      allow(sync_git_stats_op_double).to receive(:call).with(categories: parsed_categories).and_return(Success(categories_with_stats))
-      allow(process_category_op_double).to receive(:call).with(categories: categories_with_stats).and_return(Success(output_markdown_paths))
+      allow(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories)
+        .and_return(Success(categories_with_stats))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: categories_with_stats)
+        .and_return(Success(output_markdown_paths))
     end
 
     it 'returns a Success result' do
@@ -134,13 +159,22 @@ github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: 
   context 'when FindOrCreateAwesomeListOperation fails' do
     let(:service_instance) do
       described_class.new(
-        fetch_readme_operation: fetch_readme_op_double, find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double
+        fetch_readme_operation: fetch_readme_op_double,
+        find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
+        parse_markdown_operation: parse_markdown_op_double,
+        process_category_service: process_category_op_double,
+        repo_identifier: sample_repo_identifier,
+        sync_git_stats_operation: sync_git_stats_op_double
       )
     end
 
     before do
-      allow(fetch_readme_op_double).to receive(:call).with(repo_identifier: sample_repo_identifier).and_return(Success(fetch_readme_success_data))
-      allow(find_or_create_aw_list_op_double).to receive(:call).with(fetched_repo_data: fetch_readme_success_data).and_return(Failure("DB save error"))
+      allow(fetch_readme_op_double).to receive(:call)
+        .with(repo_identifier: sample_repo_identifier)
+        .and_return(Success(fetch_readme_success_data))
+      allow(find_or_create_aw_list_op_double).to receive(:call)
+        .with(fetched_repo_data: fetch_readme_success_data)
+        .and_return(Failure("DB save error"))
     end
 
     it 'returns the Failure' do # Renamed for clarity
@@ -157,14 +191,19 @@ github_repo: "#{sample_repo_owner}/#{sample_repo_name}", id: 1, last_commit_at: 
 
   context 'when ParseMarkdownOperation fails' do
     let(:service_instance) {
- described_class.new(fetch_readme_operation: fetch_readme_op_double,
-find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, repo_identifier: sample_repo_identifier) }
+      described_class.new(
+        fetch_readme_operation: fetch_readme_op_double,
+        find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
+        parse_markdown_operation: parse_markdown_op_double,
+        repo_identifier: sample_repo_identifier
+      ) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call)
-        .with(markdown_content: sample_markdown_content, skip_external_links: awesome_list_model_double.skip_external_links)
+        .with(markdown_content: sample_markdown_content,
+              skip_external_links: awesome_list_model_double.skip_external_links)
         .and_return(Failure("Parsing error"))
     end
 
@@ -177,15 +216,23 @@ find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_m
 
   context 'when SyncGitStatsOperation fails' do
     let(:service_instance) {
- described_class.new(fetch_readme_operation: fetch_readme_op_double,
-find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
+      described_class.new(
+        fetch_readme_operation: fetch_readme_op_double,
+        find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
+        parse_markdown_operation: parse_markdown_op_double,
+        process_category_service: process_category_op_double,
+        repo_identifier: sample_repo_identifier,
+        sync_git_stats_operation: sync_git_stats_op_double
+      ) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
-      allow(sync_git_stats_op_double).to receive(:call).with(categories: parsed_categories).and_return(Failure("Stats sync error"))
-      allow(process_category_op_double).to receive(:call).with(categories: parsed_categories).and_return(Success(output_markdown_paths))
+      allow(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories).and_return(Failure("Stats sync error"))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: parsed_categories).and_return(Success(output_markdown_paths))
     end
 
     it 'proceeds with original data and returns Success' do
@@ -198,15 +245,22 @@ find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_m
 
   context 'when ProcessCategoryService fails' do
     let(:service_instance) {
- described_class.new(fetch_readme_operation: fetch_readme_op_double,
-find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
+      described_class.new(
+        fetch_readme_operation: fetch_readme_op_double,
+        find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
+        parse_markdown_operation: parse_markdown_op_double,
+        process_category_service: process_category_op_double,
+        repo_identifier: sample_repo_identifier,
+        sync_git_stats_operation: sync_git_stats_op_double
+      ) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call).and_return(Success(categories_with_stats))
-      allow(process_category_op_double).to receive(:call).with(categories: categories_with_stats).and_return(Failure("MD generation error"))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: categories_with_stats).and_return(Failure("MD generation error"))
     end
 
     it 'returns the Failure' do
@@ -218,14 +272,21 @@ find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_m
 
   context 'when parsed categories are empty (after successful README fetch & DB upsert)' do
     let(:service_instance) {
- described_class.new(fetch_readme_operation: fetch_readme_op_double,
-find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_markdown_operation: parse_markdown_op_double, process_category_service: process_category_op_double, repo_identifier: sample_repo_identifier, sync_git_stats_operation: sync_git_stats_op_double) }
+      described_class.new(
+        fetch_readme_operation: fetch_readme_op_double,
+        find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
+        parse_markdown_operation: parse_markdown_op_double,
+        process_category_service: process_category_op_double,
+        repo_identifier: sample_repo_identifier,
+        sync_git_stats_operation: sync_git_stats_op_double
+      ) }
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call)
-        .with(markdown_content: sample_markdown_content, skip_external_links: awesome_list_model_double.skip_external_links)
+        .with(markdown_content: sample_markdown_content,
+              skip_external_links: awesome_list_model_double.skip_external_links)
         .and_return(Success([]))
     end
 
@@ -255,7 +316,8 @@ find_or_create_awesome_list_operation: find_or_create_aw_list_op_double, parse_m
     end
 
     after do
-      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir) # Cleanup still disabled by user request
+      # FileUtils.rm_rf(tmp_integration_output_dir) if Dir.exist?(tmp_integration_output_dir)
+      # Cleanup still disabled by user request
       puts "Skipping cleanup of #{tmp_integration_output_dir} to inspect files."
       # RSpec's stub_const automatically restores original constant values. No manual `const_set` needed.
     end

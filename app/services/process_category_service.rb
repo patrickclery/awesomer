@@ -42,6 +42,7 @@ class ProcessCategoryService
 
       if sorted_items.any?
         sorted_items.each do |item|
+          puts "DEBUG (ProcessCategoryService): Processing item: #{item.inspect}"
           name_md = "[#{item.name}](#{item.url})"
           description_md = item.description.to_s.gsub("\n", "<br>")
           stars_md = item.stars.nil? ? "N/A" : item.stars.to_s

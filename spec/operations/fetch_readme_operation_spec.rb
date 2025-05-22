@@ -59,7 +59,9 @@ RSpec.describe FetchReadmeOperation, :vcr do
     it 'returns a Failure (no VCR needed as it fails before API call)' do
       result = operation.call(repo_identifier:)
       expect(result).to be_failure
-      expect(result.failure).to eq("Invalid GitHub repository identifier: #{repo_identifier}. Expected 'owner/repo' or full URL.")
+      expected_message = "Invalid GitHub repository identifier: #{repo_identifier}. " \
+                         "Expected 'owner/repo' or full URL."
+      expect(result.failure).to eq(expected_message)
     end
   end
 
@@ -67,7 +69,10 @@ RSpec.describe FetchReadmeOperation, :vcr do
     let(:repo_identifier_no_readme) { 'facebook/react-empty-readme-test' } # Hypothetical
 
     it 'returns a Failure indicating README not found' do
-      pending "Finding a reliable public test case for a repo that exists but consistently has no README is difficult. This test requires a VCR cassette ('github/facebook_react-empty-readme-test_no_readme') with a 404 for the README after a successful repo fetch."
+      pending "Finding a reliable public test case for a repo that exists but consistently has no README " \
+              "is difficult. This test requires a VCR cassette " \
+              "('github/facebook_react-empty-readme-test_no_readme') " \
+              "with a 404 for the README after a successful repo fetch."
       # The following lines will not be executed due to pending above.
       vcr('github', 'facebook_react-empty-readme-test_no_readme', record: :new_episodes) do
         result = operation.call(repo_identifier: repo_identifier_no_readme)
