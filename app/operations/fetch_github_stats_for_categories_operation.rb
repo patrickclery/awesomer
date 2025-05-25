@@ -22,7 +22,7 @@ class FetchGithubStatsForCategoriesOperation
     end
 
     if sync
-      # Synchronous processing - fetch stats immediately
+      # Synchronous processing - fetch stats immediately with rate limiting
       updated_categories = fetch_stats_synchronously(category_structs)
       Success(updated_categories)
     else
@@ -35,13 +35,24 @@ class FetchGithubStatsForCategoriesOperation
   private
 
   def fetch_stats_synchronously(category_structs)
-    Rails.logger.info "FetchGithubStatsForCategoriesOperation: Fetching stats synchronously"
+    Rails.logger.info "FetchGithubStatsForCategoriesOperation: Fetching stats synchronously with rate limiting"
+
+    # Initialize rate limiter for synchronous mode
+    rate_limiter = GithubRateLimiterService.new
 
     category_structs.map do |category|
       updated_repos = category.repos.map do |repo_item|
         if github_repo_match = extract_github_repo(repo_item.url)
           owner, repo_name = github_repo_match
-          stats = fetch_repo_stats_directly(owner, repo_name)
+
+          # Check rate limit before making request
+          unless rate_limiter.can_make_request?
+            wait_time = rate_limiter.time_until_reset
+            Rails.logger.warn "Rate limit reached in synchronous mode. Waiting #{wait_time} seconds..."
+            sleep(wait_time) if wait_time > 0
+          end
+
+          stats = fetch_repo_stats_directly(owner, repo_name, rate_limiter)
 
           if stats
             # Create new CategoryItem with updated stats
@@ -77,7 +88,7 @@ class FetchGithubStatsForCategoriesOperation
     [ match[:owner], match[:repo] ]
   end
 
-  def fetch_repo_stats_directly(owner, repo_name)
+  def fetch_repo_stats_directly(owner, repo_name, rate_limiter = nil)
     # Check cache first
     cache_key = "github_stats:#{owner}:#{repo_name}"
     cached_stats = Rails.cache.read(cache_key)
@@ -101,17 +112,51 @@ class FetchGithubStatsForCategoriesOperation
     # Cache the result
     Rails.cache.write(cache_key, stats, expires_in: 1.day)
 
+    # Record the API request for rate limiting (if rate_limiter provided)
+    rate_limiter&.record_request(success: true)
+
+    # Record in database for monitoring
+    record_api_request(owner:, repo_name:, status: 200)
+
     Rails.logger.info "Fetched stats for #{owner}/#{repo_name}: #{stats[:stars]} stars"
     stats
   rescue Octokit::NotFound
     Rails.logger.warn "Repository not found: #{owner}/#{repo_name}"
+    rate_limiter&.record_request(success: false)
+    record_api_request(owner:, repo_name:, status: 404)
+    nil
+  rescue Octokit::TooManyRequests => e
+    Rails.logger.error "Rate limited by GitHub API for #{owner}/#{repo_name}"
+    rate_limiter&.record_request(success: false)
+    record_api_request(owner:, repo_name:, status: 429)
+
+    # Extract retry-after header if available
+    retry_after = e.response_headers&.dig("retry-after")&.to_i || 3600
+    Rails.logger.warn "Sleeping for #{retry_after} seconds due to GitHub rate limit"
+    sleep(retry_after)
     nil
   rescue Octokit::Error => e
     Rails.logger.error "GitHub API error for #{owner}/#{repo_name}: #{e.message}"
+    rate_limiter&.record_request(success: false)
+    record_api_request(owner:, repo_name:, status: e.response_status || 500)
     nil
   rescue StandardError => e
     Rails.logger.error "Unexpected error fetching stats for #{owner}/#{repo_name}: #{e.message}"
+    rate_limiter&.record_request(success: false)
+    record_api_request(owner:, repo_name:, status: 500)
     nil
+  end
+
+  def record_api_request(owner:, repo_name:, status:)
+    GithubApiRequest.create!(
+      endpoint: "/repos/#{owner}/#{repo_name}",
+      owner:,
+      repo: repo_name,
+      requested_at: Time.current,
+      response_status: status
+    )
+  rescue StandardError => e
+    Rails.logger.error "Failed to record API request: #{e.message}"
   end
 
   def queue_github_stats_jobs(category_structs)
