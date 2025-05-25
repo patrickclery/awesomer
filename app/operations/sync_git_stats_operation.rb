@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class SyncGitStatsOperation
-  include Dry::Monads[:result, :do]
+# noinspection RubyResolve
+include Dry::Monads[:result, :do]
 
   def call(categories:)
     Rails.logger.info "SyncGitStatsOperation: Queueing background jobs for GitHub stats"

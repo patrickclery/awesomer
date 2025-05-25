@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class GenerateMarkdownJob < ApplicationJob
-  include Dry::Monads[:result, :do]
+# noinspection RubyResolve
+include Dry::Monads[:result, :do]
 
   queue_as :markdown_processing
 

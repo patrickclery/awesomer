@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class FetchGithubStatsJob < ApplicationJob
+  # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
   queue_as :github_stats
