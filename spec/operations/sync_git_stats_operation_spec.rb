@@ -38,137 +38,88 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
     initial_categories.first.repos.find { |item| item.url == 'https://github.com/jelmer/xandikos' }
   end
 
-  context 'when stats are fetched successfully' do
-    # IMPORTANT: The expected values below will need to be updated after the first VCR recording
-    # to match the actual data returned by the GitHub API for these repositories.
-    let(:expected_davis_stars) { 472 } # Updated from placeholder 100
-    let(:expected_davis_last_commit_at) { Time.parse('2025-05-13T21:32:52Z') } # Updated from placeholder
-    let(:expected_xandikos_stars) { 488 } # Value from web search - USER SHOULD VERIFY AGAINST CASSETTE
-    let(:expected_xandikos_last_commit_at) { Time.parse('2025-05-19T03:49:12Z') } # Updated from VCR run
+  describe '#call' do
+    context 'when categories are provided' do
+      before do
+        allow(ProcessMarkdownWithStatsJob).to receive(:perform_later)
+      end
 
-    # This cassette will record/play stats for items from awesome_self_hosted_snippet.md
-    let(:stats_cassette_name) { 'awesome_self_hosted_snippet_stats' }
-
-    it 'returns a Success result' do
-      # Ensure items are found before running the test that depends on them
-      skip("Davis item not found in fixture") unless davis_item_original
-      skip("Xandikos item not found in fixture") unless xandikos_item_original
-      # Use custom vcr helper
-      vcr('github', stats_cassette_name, record: :once) do
+      it 'returns a Success result' do
         expect(operation_call).to be_success
       end
-    end
 
-    it 'updates stars and last_commit_at for GitHub items' do
-      skip("Davis item not found in fixture") unless davis_item_original
-      skip("Xandikos item not found in fixture") unless xandikos_item_original
+      it 'returns the original categories unchanged' do
+        result = operation_call.value!
+        expect(result).to eq(initial_categories)
 
-      updated_categories = nil
-      vcr('github', stats_cassette_name, record: :once) do
-        updated_categories = operation_call.value!
+        # Verify that the original objects are returned (not modified)
+        if davis_item_original
+          returned_davis_item = result.first.repos.find { |item| item.url == 'https://github.com/tchapi/davis' }
+          expect(returned_davis_item).to be(davis_item_original)
+          expect(returned_davis_item.stars).to be_nil # No stats yet
+        end
       end
 
-      updated_davis_item = updated_categories.first.repos.find { |item| item.id == davis_item_original.id }
-      updated_xandikos_item = updated_categories.first.repos.find { |item| item.id == xandikos_item_original.id }
+      it 'queues a ProcessMarkdownWithStatsJob with serialized categories' do
+        expect(ProcessMarkdownWithStatsJob).to receive(:perform_later) do |args|
+          expect(args[:categories]).to be_an(Array)
+          expect(args[:categories].first).to be_a(Hash)
+          expect(args[:categories].first[:name]).to eq(initial_categories.first.name)
+        end
 
-      # These expectations will likely fail until cassettes are recorded and values are updated.
-      expect(updated_davis_item.stars).to eq(expected_davis_stars) # Or use be_a(Integer)
-      expect(updated_davis_item.last_commit_at)
-        .to be_within(1.second).of(expected_davis_last_commit_at) # Or use be_a(Time)
-      expect(updated_xandikos_item.stars).to eq(expected_xandikos_stars) # Or use be_a(Integer)
-      expect(updated_xandikos_item.last_commit_at)
-        .to be_within(1.second).of(expected_xandikos_last_commit_at) # Or use be_a(Time)
-    end
+        operation_call
+      end
 
-    it 'creates new CategoryItem instances for updated items' do
-      skip("Davis item not found in fixture") unless davis_item_original
-      vcr('github', stats_cassette_name, record: :once) do
-        updated_categories = operation_call.value!
-        updated_davis_item = updated_categories.first.repos.find { |item| item.id == davis_item_original.id }
-        expect(updated_davis_item).not_to be(davis_item_original)
-        expect(updated_davis_item.object_id).not_to eq(davis_item_original.object_id)
+      it 'logs the appropriate messages' do
+        expect(Rails.logger).to receive(:info).with(/Queueing background jobs for GitHub stats/)
+        expect(Rails.logger).to receive(:info).with(/Background job queued successfully/)
+
+        operation_call
       end
     end
 
-    it 'keeps non-GitHub items unchanged' do
-      original_non_gh_item = initial_categories.first.repos.find { |item| item.url == 'https://sabre.io/baikal/' }
-      skip("Non-GitHub item Baikal not found in fixture") unless original_non_gh_item
+    context 'when categories array is empty' do
+      let(:initial_categories) { [] }
 
-      vcr('github', stats_cassette_name, record: :once) do
-        updated_categories = operation_call.value!
-        updated_non_gh_item = updated_categories.first.repos.find { |item| item.id == original_non_gh_item.id }
+      before do
+        allow(ProcessMarkdownWithStatsJob).to receive(:perform_later)
+      end
 
-        expect(updated_non_gh_item.stars).to be_nil
-        expect(updated_non_gh_item.last_commit_at).to be_nil
-        expect(updated_non_gh_item.name).to eq(original_non_gh_item.name)
-        expect(updated_non_gh_item.url).to eq(original_non_gh_item.url)
-        expect(updated_non_gh_item).to be(original_non_gh_item)
+      it 'returns Success with an empty array' do
+        expect(operation_call).to be_success
+        expect(operation_call.value!).to eq([])
+      end
+
+      it 'still queues the background job' do
+        expect(ProcessMarkdownWithStatsJob).to receive(:perform_later).with(categories: [])
+        operation_call
       end
     end
 
-    it 'creates new Category instances if their items were updated' do
-      skip("Test requires at least one category in fixture") if initial_categories.empty?
-      vcr('github', stats_cassette_name, record: :once) do
-        updated_categories = operation_call.value!
-        expect(updated_categories.first).not_to be(initial_categories.first)
+    context 'when a category has no repos' do
+      let(:initial_categories) { [ Structs::Category.new(custom_order: 0, name: "Empty Cat", repos: []) ] }
+
+      before do
+        allow(ProcessMarkdownWithStatsJob).to receive(:perform_later)
       end
-    end
-  end
 
-  context 'when GitHub API returns an error for a repo (e.g., 404 Not Found)' do
-    subject(:operation_call_with_bad_repo) { described_class.new.call(categories: categories_with_bad_repo) }
-
-    let(:categories_with_bad_repo) do
-      bad_item = Structs::CategoryItem.new(description: "Should not exist", id: 999, name: "NonExistent", url: "https://github.com/nonexistent-owner/nonexistent-repo")
-      # Create a new list of categories for this test to avoid modifying
-      # initial_categories directly if it's used elsewhere.
-      original_first_category_items = initial_categories.first&.repos || []
-
-      [ Structs::Category.new(
-          custom_order: initial_categories.first&.custom_order || 0,
-          name: initial_categories.first&.name || "Test Category with Bad Link",
-          repos: [ bad_item ] + original_first_category_items.take(1) # Add bad_item and maybe one good item
-        )
-      ]
-    end
-
-    it 'returns a Success result, and the specific item has no stats' do
-      # This cassette will record the 404 for the bad item and potentially success for the other.
-      vcr('github', 'nonexistent-owner_nonexistent-repo_stats_and_others', record: :once) do
-        result = operation_call_with_bad_repo
-        expect(result).to be_success
-        processed_categories = result.value!
-        target_category = processed_categories.first
-        bad_item_processed = target_category.repos.find { |item| item.name == "NonExistent" }
-        expect(bad_item_processed).not_to be_nil
-        expect(bad_item_processed.stars).to be_nil
-        expect(bad_item_processed.last_commit_at).to be_nil
+      it 'returns Success with the category unchanged' do
+        expect(operation_call).to be_success
+        updated_category = operation_call.value!.first
+        expect(updated_category.name).to eq("Empty Cat")
+        expect(updated_category.repos).to be_empty
       end
     end
 
-    # The old test for .failure is no longer valid as the operation succeeds overall.
-    # it 'returns an error message indicating the repo was not found' do ... end
-  end
+    context 'when an error occurs' do
+      before do
+        allow(ProcessMarkdownWithStatsJob).to receive(:perform_later).and_raise(StandardError.new("Job queue error"))
+      end
 
-  context 'when input categories array is empty' do
-    let(:initial_categories) { [] }
-
-    it 'returns Success with an empty array' do
-      # No VCR needed as no API calls will be made
-      expect(operation_call).to be_success
-      expect(operation_call.value!).to eq([])
-    end
-  end
-
-  context 'when a category has no repos' do
-    let(:initial_categories) { [ Structs::Category.new(custom_order: 0, name: "Empty Cat", repos: []) ] }
-
-    it 'returns Success with the category unchanged' do
-      # No VCR needed
-      expect(operation_call).to be_success
-      updated_category = operation_call.value!.first
-      expect(updated_category.name).to eq("Empty Cat")
-      expect(updated_category.repos).to be_empty
+      it 'returns a Failure result' do
+        expect(operation_call).to be_failure
+        expect(operation_call.failure).to include("SyncGitStatsOperation failed: Job queue error")
+      end
     end
   end
 end

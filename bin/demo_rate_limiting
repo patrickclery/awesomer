@@ -1,0 +1,76 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "../config/environment"
+
+puts "🚀 Github API Rate Limiting Demo"
+puts "=" * 50
+
+# Initialize the rate limiter
+rate_limiter = GithubRateLimiterService.new
+
+puts "📊 Current rate limit status:"
+puts "  Requests remaining: #{rate_limiter.requests_remaining}"
+puts "  Can make request: #{rate_limiter.can_make_request?}"
+puts "  Time until reset: #{rate_limiter.time_until_reset} seconds"
+
+puts "\n🔄 Simulating API requests..."
+
+# Simulate some API requests
+5.times do |i|
+  if rate_limiter.can_make_request?
+    puts "  ✅ Request #{i + 1}: Allowed"
+    rate_limiter.record_request(success: true)
+    puts "     Remaining: #{rate_limiter.requests_remaining}"
+  else
+    puts "  ❌ Request #{i + 1}: Rate limited"
+    puts "     Wait time: #{rate_limiter.time_until_reset} seconds"
+  end
+end
+
+puts "\n📋 Recent API requests from database:"
+recent_requests = GithubApiRequest.recent(1).limit(5).order(requested_at: :desc)
+if recent_requests.any?
+  recent_requests.each do |request|
+    puts "  #{request.requested_at.strftime('%H:%M:%S')} - #{request.endpoint} (#{request.response_status})"
+  end
+else
+  puts "  No recent requests found"
+end
+
+puts "\n🎯 Testing background job queueing..."
+
+# Create some test categories
+test_categories = [
+  Structs::Category.new(
+    custom_order: 1,
+    name: "Test Category",
+    repos: [
+      Structs::CategoryItem.new(
+        id: 1,
+        name: "Test Repo",
+        url: "https://github.com/rails/rails",
+        description: "A web-application framework"
+      )
+    ]
+  )
+]
+
+# Test the operation
+operation = SyncGitStatsOperation.new
+result = operation.call(categories: test_categories)
+
+if result.success?
+  puts "  ✅ SyncGitStatsOperation succeeded"
+  puts "  📤 Background jobs queued for processing"
+else
+  puts "  ❌ SyncGitStatsOperation failed: #{result.failure}"
+end
+
+puts "\n📈 Queue status:"
+puts "  Total jobs: #{SolidQueue::Job.count}"
+puts "  Ready jobs: #{SolidQueue::ReadyExecution.count}"
+puts "  Failed jobs: #{SolidQueue::FailedExecution.count}"
+
+puts "\n🎉 Demo completed!"
+puts "💡 To process the queued jobs, run: bin/jobs"

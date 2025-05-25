@@ -68,6 +68,7 @@ group :test do
 end
 
 gem "octokit"
+gem "redis", "~> 5.0"
 
 gem "dry-monads", "~> 1.8"
 

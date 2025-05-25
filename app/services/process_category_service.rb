@@ -9,8 +9,15 @@ class ProcessCategoryService
   TARGET_DIR = Rails.root.join("static", "md")
   OUTPUT_FILENAME = "processed_awesome_list.md" # Default filename for the single output file
 
-  def call(categories:)
+  def call(categories:, async: false)
     yield ensure_target_directory_exists
+
+    # If async is true, queue the background job instead of processing immediately
+    if async
+      Rails.logger.info "ProcessCategoryService: Queueing asynchronous processing"
+      ProcessMarkdownWithStatsJob.perform_later(categories:)
+      return Success("Background processing queued")
+    end
 
     # Categories are expected to be pre-sorted by custom_order by the calling service
     # If not, sort them here: sorted_categories = categories.sort_by(&:custom_order)

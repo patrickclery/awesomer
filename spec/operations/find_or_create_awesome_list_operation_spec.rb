@@ -88,7 +88,7 @@ RSpec.describe FindOrCreateAwesomeListOperation do
     it 'returns a Failure with error messages' do
       result = operation.call(fetched_repo_data: fetched_data)
       expect(result).to be_failure
-      expect(result.failure).to eq("Failed to save AwesomeList record for #{repo_shortname}: Validation failed")
+      expect(result.failure).to eq("Failed to save AwesomeList for #{repo_shortname}: Validation failed")
     end
   end
 
