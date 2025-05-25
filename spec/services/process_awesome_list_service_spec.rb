@@ -331,8 +331,7 @@ repo_identifier: sample_repo_identifier)
       #   al.name = 'awesome-tor'
       #   al.skip_external_links = true # Explicitly set for test if needed
       # end
-      vcr('github', 'polycarbohydrate_awesome-tor', record: :new_episodes) do
-        initial_count = AwesomeList.count
+      vcr('github', 'polycarbohydrate_awesome-tor-e2e-processing', record: :none) do
         result = integration_service_call
         expect(result).to be_success, "Service call failed: #{result.failure}"
         expect(AwesomeList.where(github_repo: 'Polycarbohydrate/awesome-tor').count).to eq(1)
