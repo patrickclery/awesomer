@@ -22,6 +22,8 @@ class ParseMarkdownOperation
   # Description is capture group :description.
   LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/
   GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
+  # Regex to find "Source Code" links in descriptions
+  SOURCE_CODE_LINK_REGEX = /\[Source Code\]\(([^)]+)\)/i
 
   # Added skip_external_links parameter, defaulting to false (process all links by default)
   # If true, only GitHub links will be processed. Non-GitHub links will be skipped.
@@ -40,9 +42,14 @@ class ParseMarkdownOperation
 
     flush_building_item_to_current_items = lambda do
       if building_item_attrs
-        is_github_link = GITHUB_REPO_REGEX.match?(building_item_attrs[:url])
+        # Check if there's a "Source Code" link in the description and use that URL instead
+        final_url = extract_source_code_url(building_item_attrs[:description]) || building_item_attrs[:url]
+
+        is_github_link = GITHUB_REPO_REGEX.match?(final_url)
         unless skip_external_links && !is_github_link
-          current_items_buffer << Structs::CategoryItem.new(building_item_attrs.slice(:id, :name, :url, :description))
+          current_items_buffer << Structs::CategoryItem.new(
+            building_item_attrs.slice(:id, :name, :description).merge(url: final_url)
+          )
         end
         building_item_attrs = nil
       end
@@ -103,5 +110,16 @@ class ParseMarkdownOperation
     Failure("Failed to parse markdown (Struct error): #{e.message}")
   rescue StandardError => e
     Failure("Failed to parse markdown (Standard error): #{e.message}")
+  end
+
+  private
+
+  # Extract the URL from a "Source Code" link in the description
+  # Returns nil if no Source Code link is found
+  def extract_source_code_url(description)
+    return nil if description.nil?
+
+    match = SOURCE_CODE_LINK_REGEX.match(description)
+    match&.[](1)&.strip
   end
 end

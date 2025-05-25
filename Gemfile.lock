@@ -105,6 +105,9 @@ GEM
     diff-lcs (1.6.2)
     docile (1.4.1)
     dotenv (3.1.8)
+    dotenv-rails (3.1.8)
+      dotenv (= 3.1.8)
+      railties (>= 6.1)
     drb (2.2.1)
     dry-auto_inject (1.1.0)
       dry-core (~> 1.1)
@@ -468,6 +471,7 @@ DEPENDENCIES
   annotaterb!
   brakeman
   debug
+  dotenv-rails
   dry-auto_inject
   dry-container
   dry-monads (~> 1.8)

@@ -252,4 +252,55 @@ RSpec.describe ParseMarkdownOperation do
       end
     end
   end
+
+  context 'with Source Code links in descriptions' do
+    let(:markdown_content) do
+      <<~MARKDOWN
+        ## Applications
+        - [Aptabase](https://aptabase.com/) - Privacy first and simple analytics for mobile and desktop apps. ([Source Code](https://github.com/aptabase/aptabase)) `AGPL-3.0` `Docker`
+        - [Regular Project](https://example.com/regular) - A regular project without source code link.
+        - [Multiple Links](https://main-site.com/) - Has multiple links ([Demo](https://demo.com)) ([Source Code](https://github.com/user/repo)) ([Docs](https://docs.com))
+        - [Case Insensitive](https://site.com/) - Testing case insensitive matching ([source code](https://github.com/case/test))
+      MARKDOWN
+    end
+
+    it 'uses the Source Code URL instead of the main URL when available' do
+      result = operation_call.value!
+      expect(result.size).to eq(1)
+
+      category = result.first
+      expect(category.name).to eq('Applications')
+      expect(category.repos.size).to eq(4)
+
+      # First item should use the Source Code URL
+      aptabase = category.repos[0]
+      expect(aptabase.name).to eq('Aptabase')
+      expect(aptabase.url).to eq('https://github.com/aptabase/aptabase')
+      expect(aptabase.description).to include('Privacy first and simple analytics')
+
+      # Second item has no Source Code link, should use original URL
+      regular = category.repos[1]
+      expect(regular.name).to eq('Regular Project')
+      expect(regular.url).to eq('https://example.com/regular')
+
+      # Third item should use the Source Code URL despite multiple links
+      multiple = category.repos[2]
+      expect(multiple.name).to eq('Multiple Links')
+      expect(multiple.url).to eq('https://github.com/user/repo')
+
+      # Fourth item tests case insensitive matching
+      case_test = category.repos[3]
+      expect(case_test.name).to eq('Case Insensitive')
+      expect(case_test.url).to eq('https://github.com/case/test')
+    end
+
+    it 'preserves the original description including the Source Code link' do
+      result = operation_call.value!
+      aptabase = result.first.repos.first
+
+      expect(aptabase.description).to include('([Source Code](https://github.com/aptabase/aptabase))')
+      expect(aptabase.description).to include('Privacy first and simple analytics')
+      expect(aptabase.description).to include('`AGPL-3.0` `Docker`')
+    end
+  end
 end
