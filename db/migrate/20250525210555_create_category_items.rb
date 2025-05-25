@@ -11,7 +11,7 @@ class CreateCategoryItems < ActiveRecord::Migration[8.0]
       t.integer :commits_past_year
       t.datetime :last_commit_at
       t.integer :stars
-      t.references :category, foreign_key: true, null: false
+      t.belongs_to :category, foreign_key: true, null: false
 
       t.timestamps
     end

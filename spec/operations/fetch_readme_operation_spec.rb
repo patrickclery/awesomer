@@ -65,23 +65,6 @@ RSpec.describe FetchReadmeOperation, :vcr do
     end
   end
 
-  context 'with an existing repository that has no README' do
-    let(:repo_identifier_no_readme) { 'facebook/react-empty-readme-test' } # Hypothetical
-
-    it 'returns a Failure indicating README not found' do
-      pending "Finding a reliable public test case for a repo that exists but consistently has no README " \
-              "is difficult. This test requires a VCR cassette " \
-              "('github/facebook_react-empty-readme-test_no_readme') " \
-              "with a 404 for the README after a successful repo fetch."
-      # The following lines will not be executed due to pending above.
-      vcr('github', 'facebook_react-empty-readme-test_no_readme', record: :new_episodes) do
-        result = operation.call(repo_identifier: repo_identifier_no_readme)
-        expect(result).to be_failure
-        expect(result.failure).to eq("README not found for repository: #{repo_identifier_no_readme}")
-      end
-    end
-  end
-
   # Simulating API errors not directly tied to 404s (like 500, 403 rate limit) with VCR alone is hard
   # without a way to reliably trigger them from GitHub during recording.
   # These would ideally be tested by having cassettes that *did* record such errors.

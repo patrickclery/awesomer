@@ -2,7 +2,8 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Parse and Persist Categories Integration' do
+# rubocop:disable RSpec/DescribeClass
+RSpec.describe "Parse and Persist Categories Integration", type: :integration do
   let(:awesome_list) { AwesomeList.create!(github_repo: 'test/repo', name: 'Test List') }
 
   let(:markdown_content) do
@@ -66,7 +67,7 @@ RSpec.describe 'Parse and Persist Categories Integration' do
     expect(vscode.demo_url).to be_nil
   end
 
-  example 'demonstrates backward compatibility with url method' do
+  example 'demonstrates proper URL field separation' do
     parse_result = ParseMarkdownOperation.new.call(markdown_content:)
     persist_result = PersistParsedCategoriesOperation.new.call(
       awesome_list:,
@@ -75,11 +76,9 @@ RSpec.describe 'Parse and Persist Categories Integration' do
 
     aptabase = CategoryItem.find_by(name: 'Aptabase')
 
-    # The url method should return primary_url for backward compatibility
-    expect(aptabase.url).to eq(aptabase.primary_url)
-    expect(aptabase.url).to eq('https://aptabase.com/')
-
-    # But we can also access the GitHub repo separately
+    # Primary URL and GitHub repo should be separate fields
+    expect(aptabase.primary_url).to eq('https://aptabase.com/')
+    expect(aptabase.github_repo).to eq('aptabase/aptabase')
     expect(aptabase.repo_identifier).to eq('aptabase/aptabase')
   end
 
