@@ -1,0 +1,114 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+## GitHub API Rate Limiting
+
+This project implements a comprehensive GitHub API rate limiting solution using Redis and solid_queue to ensure compliance with GitHub's API limits while maintaining performance.
+
+### Core Components
+
+1. **Rate Limiter Service**: `[GithubRateLimiterService](mdc:app/services/github_rate_limiter_service.rb)` manages API request quotas using Redis sorted sets with sliding window algorithm.
+   - Conservative limit: 4,000 requests/hour (vs GitHub's 5,000 limit)
+   - Tracks requests in Redis with automatic cleanup
+   - Fail-open behavior if Redis is unavailable
+
+2. **API Request Tracking**: `[GithubApiRequest](mdc:app/models/github_api_request.rb)` model logs all GitHub API interactions for monitoring and debugging.
+   - Tracks endpoint, response status, rate limit headers
+   - Stores request/response timestamps for analysis
+
+3. **Background Jobs**: Asynchronous processing to handle rate limits gracefully
+   - `[FetchGithubStatsJob](mdc:app/jobs/fetch_github_stats_job.rb)`: Individual repository stats fetching
+   - `[ProcessMarkdownWithStatsJob](mdc:app/jobs/process_markdown_with_stats_job.rb)`: Orchestration job
+   - `[GenerateMarkdownJob](mdc:app/jobs/generate_markdown_job.rb)`: Final markdown generation
+
+### Rate Limiting Strategy
+
+**Primary Rate Limit**: 5,000 requests/hour for authenticated users
+- Implementation uses 4,000 requests/hour for safety margin
+- Sliding window algorithm with Redis sorted sets
+- Automatic request cleanup after 1-hour window
+
+**Secondary Rate Limits**: Handled with intelligent retry logic
+- 429 errors trigger exponential backoff
+- Network errors have separate retry strategy
+- 404 errors are not retried (permanent failures)
+
+### Caching Strategy
+
+1. **Repository Stats**: 1-day cache to minimize API calls
+   - Key format: `github_stats:owner/repo`
+   - Stores stars, forks, last_commit data
+
+2. **Coordination Cache**: 1-hour cache for job coordination
+   - Prevents duplicate processing of same repository
+   - Key format: `processing:owner/repo`
+
+### Job Flow Architecture
+
+```
+SyncGitStatsOperation
+    ↓ (queues job)
+ProcessMarkdownWithStatsJob
+    ↓ (queues multiple jobs)
+FetchGithubStatsJob (parallel execution)
+    ↓ (all complete)
+GenerateMarkdownJob
+```
+
+### Configuration
+
+**Redis Configuration**: `[config/initializers/redis.rb](mdc:config/initializers/redis.rb)`
+- Separate Redis instance for rate limiting
+- Fallback to in-memory if Redis unavailable
+
+**Queue Configuration**: `[config/queue.yml](mdc:config/queue.yml)`
+- Dedicated queues: `github_stats`, `markdown_processing`, `default`
+- Worker allocation based on job types
+
+**Solid Queue**: `[config/initializers/solid_queue.rb](mdc:config/initializers/solid_queue.rb)`
+- Background job processing with database persistence
+- Retry policies for different error types
+
+### Error Handling
+
+1. **Rate Limit Exceeded (429)**: Exponential backoff with jitter
+2. **Not Found (404)**: No retry, mark as failed gracefully
+3. **Network Errors**: Limited retries with backoff
+4. **Redis Unavailable**: Fail-open, allow requests through
+
+### Testing Patterns
+
+**Rate Limiter Tests**: Mock Redis interactions, test sliding window logic
+**Job Tests**: Use `perform_now` for synchronous testing, mock external dependencies
+**Integration Tests**: Use VCR cassettes for GitHub API interactions
+
+### Usage Examples
+
+**Synchronous Processing** (for small lists):
+```ruby
+result = SyncGitStatsOperation.new.call(categories, async: false)
+```
+
+**Asynchronous Processing** (for large lists):
+```ruby
+result = SyncGitStatsOperation.new.call(categories, async: true)
+# Returns immediately, processing continues in background
+```
+
+**Rate Limit Checking**:
+```ruby
+if GithubRateLimiterService.new.can_make_request?
+  # Proceed with API call
+else
+  # Queue for later or handle rate limit
+end
+```
+
+### Monitoring
+
+- All API requests logged to `github_api_requests` table
+- Redis metrics available for rate limit monitoring
+- Job status tracking via solid_queue dashboard
+- Rate limit headers preserved for analysis
