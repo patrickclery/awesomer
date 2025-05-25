@@ -9,21 +9,24 @@ class ProcessCategoryService
   TARGET_DIR = Rails.root.join("static", "md")
   OUTPUT_FILENAME = "processed_awesome_list.md" # Default filename for the single output file
 
-  def call(categories:, async: false)
+  def call(categories:, async: false, repo_identifier: nil)
     yield ensure_target_directory_exists
 
     # If async is true, queue the background job instead of processing immediately
     if async
       Rails.logger.info "ProcessCategoryService: Queueing asynchronous processing"
-      ProcessMarkdownWithStatsJob.perform_later(categories:)
+      ProcessMarkdownWithStatsJob.perform_later(categories:, repo_identifier:)
       return Success("Background processing queued")
     end
 
-    # Categories are expected to be pre-sorted by custom_order by the calling service
-    # If not, sort them here: sorted_categories = categories.sort_by(&:custom_order)
-    # For this refactor, assuming ProcessAwesomeListService sends them sorted.
+    # Generate filename based on repo_identifier if provided
+    filename = if repo_identifier
+                 generate_filename_from_repo(repo_identifier)
+    else
+                 OUTPUT_FILENAME
+    end
 
-    file_path = TARGET_DIR.join(OUTPUT_FILENAME)
+    file_path = TARGET_DIR.join(filename)
     overall_content = []
 
     categories.each do |category|
@@ -78,6 +81,22 @@ class ProcessCategoryService
     Success(true)
   rescue StandardError => e
     Failure("Failed to create target directory #{TARGET_DIR}: #{e.message}")
+  end
+
+  def generate_filename_from_repo(repo_identifier)
+    # Extract repo name from various formats:
+    # - "owner/repo" -> "owner__repo.md"
+    # - "https://github.com/owner/repo" -> "owner__repo.md"
+    # - "https://github.com/owner/repo.git" -> "owner__repo.md"
+
+    # Remove protocol and domain if it's a URL
+    clean_identifier = repo_identifier.gsub(%r{^https?://github\.com/}, "")
+
+    # Remove .git suffix if present
+    clean_identifier = clean_identifier.gsub(/\.git$/, "")
+
+    # Replace "/" with "__" and add .md extension
+    "#{clean_identifier.gsub('/', '__')}.md"
   end
 
   # sanitize_filename might not be needed if OUTPUT_FILENAME is fixed,

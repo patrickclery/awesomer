@@ -43,7 +43,10 @@ class ProcessAwesomeListService
     )
     return Success([]) if categories_from_parse.empty?
 
-    sync_result = sync_git_stats_operation.call(categories: categories_from_parse)
+    sync_result = sync_git_stats_operation.call(
+      categories: categories_from_parse,
+      repo_identifier: @repo_identifier
+    )
     categories_to_process_md = if sync_result.success?
                                  sync_result.value!
     else
@@ -52,7 +55,10 @@ class ProcessAwesomeListService
                                  categories_from_parse
     end
 
-    final_markdown_files_result = yield process_category_service.call(categories: categories_to_process_md)
+    final_markdown_files_result = yield process_category_service.call(
+      categories: categories_to_process_md,
+      repo_identifier: @repo_identifier
+    )
 
     Success(final_markdown_files_result)
     # ActiveRecord::ActiveRecordError is now handled within FindOrCreateAwesomeListOperation

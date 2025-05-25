@@ -6,7 +6,7 @@ include Dry::Monads[:result, :do]
 
   queue_as :markdown_processing
 
-  def perform(categories:, output_options: {})
+  def perform(categories:, output_options: {}, repo_identifier: nil)
     Rails.logger.info "Starting markdown processing with stats for #{categories.size} categories"
 
     # Convert hash data back to structs if needed
@@ -46,7 +46,7 @@ include Dry::Monads[:result, :do]
     # Schedule the markdown generation job to run after a delay
     # This gives time for the stats jobs to complete
     estimated_completion_time = calculate_completion_time(total_repos)
-    GenerateMarkdownJob.perform_in(estimated_completion_time, categories:, output_options:)
+    GenerateMarkdownJob.perform_in(estimated_completion_time, categories:, output_options:, repo_identifier:)
 
     Rails.logger.info "Scheduled markdown generation in #{estimated_completion_time} seconds"
   end

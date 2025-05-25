@@ -141,4 +141,33 @@ name: "Data Util", stars: 50, url: "http://example.com/datautil")
       expect(result.failure).to include("Failed to write processed awesome list to #{expected_output_filepath}")
     end
   end
+
+  context 'when repo_identifier is provided' do
+    let(:repo_identifier) { 'awesome-selfhosted/awesome-selfhosted' }
+    let(:expected_filename) { 'awesome-selfhosted__awesome-selfhosted.md' }
+    let(:expected_filepath_with_repo) { tmp_target_dir.join(expected_filename) }
+
+    it 'generates filename based on repository identifier' do
+      result = described_class.new.call(categories: test_categories, repo_identifier:)
+      expect(result).to be_success
+      expect(result.value!).to eq(expected_filepath_with_repo)
+      expect(File.exist?(expected_filepath_with_repo)).to be(true)
+    end
+
+    context 'with different repository identifier formats' do
+      [
+        [ 'owner/repo', 'owner__repo.md' ],
+        [ 'https://github.com/owner/repo', 'owner__repo.md' ],
+        [ 'https://github.com/owner/repo.git', 'owner__repo.md' ],
+        [ 'awesome-selfhosted/awesome-selfhosted', 'awesome-selfhosted__awesome-selfhosted.md' ],
+        [ 'user-name/project-name', 'user-name__project-name.md' ]
+      ].each do |input, expected_output|
+        it "converts '#{input}' to '#{expected_output}'" do
+          service = described_class.new
+          result = service.send(:generate_filename_from_repo, input)
+          expect(result).to eq(expected_output)
+        end
+      end
+    end
+  end
 end

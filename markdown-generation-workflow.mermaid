@@ -1,0 +1,64 @@
+sequenceDiagram
+    participant CLI as markdown_processor.rb
+    participant Service as ProcessAwesomeListService
+    participant FetchOp as FetchReadmeOperation
+    participant ParseOp as ParseMarkdownOperation
+    participant SyncOp as SyncGitStatsOperation
+    participant Queue as Background Job Queue
+    participant ProcessJob as ProcessMarkdownWithStatsJob
+    participant FetchJob as FetchGithubStatsJob
+    participant GenerateJob as GenerateMarkdownJob
+    participant CategoryService as ProcessCategoryService
+    participant DB as Database
+
+    Note over CLI, DB: Main Processing Flow (Synchronous)
+    
+    CLI->>Service: call(repo_identifier)
+    Service->>FetchOp: fetch README from GitHub
+    FetchOp-->>Service: README content + metadata
+    
+    Service->>ParseOp: parse markdown content
+    ParseOp-->>Service: structured categories array
+    
+    Service->>SyncOp: sync_git_stats(categories)
+    
+    Note over SyncOp, Queue: Background Job Queuing
+    SyncOp->>Queue: ProcessMarkdownWithStatsJob.perform_later
+    SyncOp-->>Service: Success(original_categories)
+    
+    Service->>CategoryService: process categories (without stats)
+    CategoryService-->>Service: markdown file path
+    Service-->>CLI: Success(file_path)
+    
+    Note over CLI: CLI exits - main flow complete
+    
+    Note over Queue, DB: Background Processing (Asynchronous)
+    
+    Queue->>ProcessJob: execute background job
+    ProcessJob->>DB: save categories to database
+    
+    loop For each repository in categories
+        ProcessJob->>Queue: FetchGithubStatsJob.perform_later(repo_url)
+    end
+    
+    ProcessJob->>Queue: GenerateMarkdownJob.perform_later(delay: 5.minutes)
+    
+    par Background Stats Fetching
+        Queue->>FetchJob: fetch stats for repo 1
+        FetchJob->>DB: cache stats in database
+        and
+        Queue->>FetchJob: fetch stats for repo 2  
+        FetchJob->>DB: cache stats in database
+        and
+        Queue->>FetchJob: fetch stats for repo N
+        FetchJob->>DB: cache stats in database
+    end
+    
+    Note over GenerateJob: Waits for delay period
+    Queue->>GenerateJob: execute after delay
+    GenerateJob->>DB: fetch categories with cached stats
+    GenerateJob->>CategoryService: process categories (with stats)
+    CategoryService->>DB: read cached GitHub stats
+    CategoryService-->>GenerateJob: final markdown file path
+    
+    Note over CLI, DB: Final markdown file generated with GitHub stats 

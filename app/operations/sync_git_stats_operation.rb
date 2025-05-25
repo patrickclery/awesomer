@@ -4,14 +4,17 @@ class SyncGitStatsOperation
 # noinspection RubyResolve
 include Dry::Monads[:result, :do]
 
-  def call(categories:)
+  def call(categories:, repo_identifier: nil)
     Rails.logger.info "SyncGitStatsOperation: Queueing background jobs for GitHub stats"
 
     # Convert categories to serializable format for background job
     serializable_categories = categories.map(&:to_h)
 
     # Queue the markdown processing job which will handle all GitHub API calls
-    ProcessMarkdownWithStatsJob.perform_later(categories: serializable_categories)
+    ProcessMarkdownWithStatsJob.perform_later(
+      categories: serializable_categories,
+      repo_identifier:
+    )
 
     Rails.logger.info "SyncGitStatsOperation: Background job queued successfully"
 

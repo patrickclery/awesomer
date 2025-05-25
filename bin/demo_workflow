@@ -1,0 +1,113 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Demo script to show the markdown generation workflow in action
+
+require_relative "../config/environment"
+
+puts "🚀 Markdown Generation Workflow Demo"
+puts "=" * 50
+
+# Step 1: CLI invocation simulation
+puts "\n1️⃣  CLI Invocation (markdown_processor.rb)"
+puts "   Processing repository: Polycarbohydrate/awesome-tor"
+
+# Step 2: ProcessAwesomeListService orchestration
+puts "\n2️⃣  ProcessAwesomeListService orchestration"
+puts "   ✅ Fetching README from GitHub"
+puts "   ✅ Parsing markdown content"
+puts "   ✅ Queueing background jobs for GitHub stats"
+puts "   ✅ Generating initial markdown (without stats)"
+
+# Simulate the service call
+service = ProcessAwesomeListService.new(repo_identifier: "Polycarbohydrate/awesome-tor")
+result = service.call
+
+if result.success?
+  puts "   ✅ Main processing completed successfully"
+  puts "   📄 Initial markdown file: #{result.value!}"
+else
+  puts "   ❌ Main processing failed: #{result.failure}"
+  exit 1
+end
+
+# Step 3: Background job status
+puts "\n3️⃣  Background Job Status"
+
+# Check pending jobs using correct SolidQueue API
+total_jobs = SolidQueue::Job.count
+ready_jobs = SolidQueue::ReadyExecution.count
+failed_jobs = SolidQueue::FailedExecution.count
+scheduled_jobs = SolidQueue::ScheduledExecution.count
+
+puts "   📊 Total jobs: #{total_jobs}"
+puts "   📊 Ready jobs: #{ready_jobs}"
+puts "   📊 Scheduled jobs: #{scheduled_jobs}"
+puts "   📊 Failed jobs: #{failed_jobs}"
+
+if ready_jobs > 0 || scheduled_jobs > 0
+  puts "   ⏳ Background jobs are queued and will process GitHub API calls"
+  puts "   ⏳ Final markdown with stats will be generated after completion"
+else
+  puts "   ✅ No pending jobs (may have completed already)"
+end
+
+# Step 4: Rate limiting status
+puts "\n4️⃣  Rate Limiting Status"
+rate_limiter = GithubRateLimiterService.new
+
+begin
+  can_make_request = rate_limiter.can_make_request?
+  remaining = rate_limiter.requests_remaining
+  
+  puts "   🔒 Can make GitHub API request: #{can_make_request}"
+  puts "   📈 Remaining requests: #{remaining}/4000"
+rescue => e
+  puts "   ⚠️  Rate limiter unavailable (Redis): #{e.message}"
+end
+
+# Step 5: Recent API requests
+puts "\n5️⃣  Recent GitHub API Activity"
+recent_requests = GithubApiRequest.recent(1.hour).limit(5)
+
+if recent_requests.any?
+  puts "   📋 Recent API requests:"
+  recent_requests.each do |req|
+    status_emoji = req.response_status == 200 ? "✅" : "❌"
+    puts "     #{status_emoji} #{req.endpoint} (#{req.response_status}) - #{req.requested_at.strftime('%H:%M:%S')}"
+  end
+else
+  puts "   📭 No recent API requests in the last hour"
+end
+
+# Step 6: Cache status
+puts "\n6️⃣  Cache Status"
+cache_keys = []
+
+# Sample some cache keys to check
+sample_repos = ["Polycarbohydrate/awesome-tor", "octocat/Hello-World"]
+sample_repos.each do |repo|
+  cache_key = "github_stats:#{repo.gsub('/', ':')}"
+  if Rails.cache.exist?(cache_key)
+    cache_keys << cache_key
+  end
+end
+
+if cache_keys.any?
+  puts "   💾 Found #{cache_keys.size} cached repository stats"
+  cache_keys.each { |key| puts "     📦 #{key}" }
+else
+  puts "   📭 No cached repository stats found"
+end
+
+# Step 7: Workflow summary
+puts "\n7️⃣  Workflow Summary"
+puts "   🔄 Main Flow: CLI → Service → Operations → Initial Markdown ✅"
+puts "   🔄 Background Flow: Jobs → GitHub API → Stats Cache → Final Markdown ⏳"
+puts "   🛡️  Rate Limiting: Active and monitoring API usage"
+puts "   💾 Caching: Reducing API calls by reusing stats"
+
+puts "\n" + "=" * 50
+puts "✨ Demo completed! Check the generated markdown file above."
+puts "🔍 Monitor background jobs with: bin/jobs"
+puts "📊 Check job status with: rails console → SolidQueue::ReadyExecution.count" 

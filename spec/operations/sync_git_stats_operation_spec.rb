@@ -65,6 +65,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
           expect(args[:categories]).to be_an(Array)
           expect(args[:categories].first).to be_a(Hash)
           expect(args[:categories].first[:name]).to eq(initial_categories.first.name)
+          expect(args[:repo_identifier]).to be_nil # No repo_identifier passed in this test
         end
 
         operation_call
@@ -75,6 +76,23 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
         expect(Rails.logger).to receive(:info).with(/Background job queued successfully/)
 
         operation_call
+      end
+
+      context 'when repo_identifier is provided' do
+        subject(:operation_call_with_repo) {
+          described_class.new.call(categories: initial_categories, repo_identifier:)
+        }
+
+        let(:repo_identifier) { 'awesome-selfhosted/awesome-selfhosted' }
+
+        it 'passes repo_identifier to the background job' do
+          expect(ProcessMarkdownWithStatsJob).to receive(:perform_later) do |args|
+            expect(args[:categories]).to be_an(Array)
+            expect(args[:repo_identifier]).to eq(repo_identifier)
+          end
+
+          operation_call_with_repo
+        end
       end
     end
 
@@ -91,7 +109,10 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
       end
 
       it 'still queues the background job' do
-        expect(ProcessMarkdownWithStatsJob).to receive(:perform_later).with(categories: [])
+        expect(ProcessMarkdownWithStatsJob).to receive(:perform_later).with(
+          categories: [],
+          repo_identifier: nil
+        )
         operation_call
       end
     end

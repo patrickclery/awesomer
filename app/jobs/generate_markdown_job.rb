@@ -6,7 +6,7 @@ include Dry::Monads[:result, :do]
 
   queue_as :markdown_processing
 
-  def perform(categories:, output_options: {})
+  def perform(categories:, output_options: {}, repo_identifier: nil)
     Rails.logger.info "Generating markdown with collected stats"
 
     # Convert hash data back to structs if needed
@@ -54,7 +54,10 @@ include Dry::Monads[:result, :do]
     end
 
     # Generate the markdown using ProcessCategoryService
-    result = yield ProcessCategoryService.new.call(categories: updated_categories)
+    result = yield ProcessCategoryService.new.call(
+      categories: updated_categories,
+      repo_identifier:
+    )
 
     Rails.logger.info "Successfully generated markdown file: #{result}"
 

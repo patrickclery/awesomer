@@ -86,10 +86,10 @@ RSpec.describe ProcessAwesomeListService do
               skip_external_links: awesome_list_model_double.skip_external_links)
         .and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call)
-        .with(categories: parsed_categories)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
         .and_return(Success(categories_with_stats))
       allow(process_category_op_double).to receive(:call)
-        .with(categories: categories_with_stats)
+        .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier)
         .and_return(Success(output_markdown_paths))
     end
 
@@ -230,13 +230,14 @@ RSpec.describe ProcessAwesomeListService do
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call)
-        .with(categories: parsed_categories).and_return(Failure("Stats sync error"))
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier).and_return(Failure("Stats sync error"))
       allow(process_category_op_double).to receive(:call)
-        .with(categories: parsed_categories).and_return(Success(output_markdown_paths))
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier).and_return(Success(output_markdown_paths))
     end
 
     it 'proceeds with original data and returns Success' do
-      expect(process_category_op_double).to receive(:call).with(categories: parsed_categories)
+      expect(process_category_op_double).to receive(:call).with(categories: parsed_categories,
+repo_identifier: sample_repo_identifier)
       result = service_instance.call
       expect(result).to be_success
       expect(result.value!).to eq(output_markdown_paths)
@@ -260,7 +261,7 @@ RSpec.describe ProcessAwesomeListService do
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call).and_return(Success(categories_with_stats))
       allow(process_category_op_double).to receive(:call)
-        .with(categories: categories_with_stats).and_return(Failure("MD generation error"))
+        .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier).and_return(Failure("MD generation error"))
     end
 
     it 'returns the Failure' do
