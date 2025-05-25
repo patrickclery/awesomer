@@ -13,7 +13,7 @@ class ProcessAwesomeListService
     :find_or_create_awesome_list_operation
   ]
 
-  def initialize(repo_identifier:, **deps)
+  def initialize(repo_identifier:, sync: false, **deps)
     @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container["fetch_readme_operation"]
     @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container["parse_markdown_operation"]
     @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container["sync_git_stats_operation"]
@@ -21,6 +21,7 @@ class ProcessAwesomeListService
     @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
     @repo_identifier = repo_identifier
+    @sync = sync
   end
 
   def call
@@ -45,7 +46,8 @@ class ProcessAwesomeListService
 
     sync_result = sync_git_stats_operation.call(
       categories: categories_from_parse,
-      repo_identifier: @repo_identifier
+      repo_identifier: @repo_identifier,
+      sync: @sync
     )
     categories_to_process_md = if sync_result.success?
                                  sync_result.value!

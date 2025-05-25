@@ -4,7 +4,12 @@ class SyncGitStatsOperation
 # noinspection RubyResolve
 include Dry::Monads[:result, :do]
 
-  def call(categories:, repo_identifier: nil)
+  def call(categories:, repo_identifier: nil, sync: false)
+    if sync
+      Rails.logger.info "SyncGitStatsOperation: Running synchronously for testing"
+      return FetchGithubStatsForCategoriesOperation.new.call(categories:, sync: true)
+    end
+
     Rails.logger.info "SyncGitStatsOperation: Queueing background jobs for GitHub stats"
 
     # Convert categories to serializable format for background job

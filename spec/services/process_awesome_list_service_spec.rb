@@ -86,7 +86,7 @@ RSpec.describe ProcessAwesomeListService do
               skip_external_links: awesome_list_model_double.skip_external_links)
         .and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call)
-        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
         .and_return(Success(categories_with_stats))
       allow(process_category_op_double).to receive(:call)
         .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier)
@@ -230,7 +230,7 @@ RSpec.describe ProcessAwesomeListService do
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call)
-        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
         .and_return(Failure("Stats sync error"))
       allow(process_category_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
@@ -309,7 +309,8 @@ repo_identifier: sample_repo_identifier)
     let(:repo_identifier) { 'Polycarbohydrate/awesome-tor' }
     let(:tmp_integration_output_dir) { Rails.root.join('tmp', 'test_process_awesome_list_integration_output') }
     # For integration test, service instance is created without injected doubles, using real operations from container
-    let(:service_instance_integration) { described_class.new(repo_identifier:) }
+    # Use sync: true to fetch GitHub stats synchronously for testing
+    let(:service_instance_integration) { described_class.new(repo_identifier:, sync: true) }
 
     before do
       # No need to save original constants here; stub_const handles reset.

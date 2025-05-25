@@ -9,37 +9,18 @@ include Dry::Monads[:result, :do]
   def perform(categories:, output_options: {}, repo_identifier: nil)
     Rails.logger.info "Starting markdown processing with stats for #{categories.size} categories"
 
-    # Convert hash data back to structs if needed
-    category_structs = categories.map do |category_data|
-      if category_data.is_a?(Hash)
-        repos = category_data[:repos].map { |repo_data| Structs::CategoryItem.new(repo_data) }
-        Structs::Category.new(
-          custom_order: category_data[:custom_order],
-          name: category_data[:name],
-          repos:
-        )
-      else
-        category_data # Already a struct
-      end
+    # Use the shared operation to queue individual GitHub stats jobs
+    result = FetchGithubStatsForCategoriesOperation.new.call(categories:, sync: false)
+
+    unless result.success?
+      Rails.logger.error "Failed to queue GitHub stats jobs: #{result.failure}"
+      return
     end
 
-    # Queue individual GitHub stats jobs for each repository
-    total_repos = 0
-    category_structs.each do |category|
-      category.repos.each do |repo_item|
-        if github_repo_match = extract_github_repo(repo_item.url)
-          owner, repo_name = github_repo_match
+    category_structs = result.value!
 
-          # Queue the GitHub stats job with category item data
-          FetchGithubStatsJob.perform_later(
-            category_item_data: repo_item.to_h,
-            owner:,
-            repo_name:
-          )
-          total_repos += 1
-        end
-      end
-    end
+    # Count total repos for scheduling
+    total_repos = category_structs.sum { |category| category.repos.count { |repo| extract_github_repo(repo.url) } }
 
     Rails.logger.info "Queued #{total_repos} GitHub stats jobs"
 
