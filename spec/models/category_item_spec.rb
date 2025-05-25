@@ -1,5 +1,30 @@
 # frozen_string_literal: true
 
+# == Schema Information
+#
+# Table name: category_items
+#
+#  id                :integer          not null, primary key
+#  commits_past_year :integer
+#  demo_url          :string
+#  description       :text
+#  github_repo       :string
+#  last_commit_at    :datetime
+#  name              :string
+#  primary_url       :string
+#  stars             :integer
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#  category_id       :integer          not null
+#
+# Indexes
+#
+#  index_category_items_on_category_id  (category_id)
+#
+# Foreign Keys
+#
+#  category_id  (category_id => categories.id)
+#
 require 'rails_helper'
 
 RSpec.describe CategoryItem do

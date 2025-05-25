@@ -1,5 +1,18 @@
 # frozen_string_literal: true
 
+# == Schema Information
+#
+# Table name: github_api_requests
+#
+#  id              :integer          not null, primary key
+#  endpoint        :string
+#  owner           :string
+#  repo            :string
+#  requested_at    :datetime
+#  response_status :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
 class GithubApiRequest < ApplicationRecord
   validates :endpoint, presence: true
   validates :requested_at, presence: true
