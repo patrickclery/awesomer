@@ -230,9 +230,11 @@ RSpec.describe ProcessAwesomeListService do
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call)
-        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier).and_return(Failure("Stats sync error"))
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
+        .and_return(Failure("Stats sync error"))
       allow(process_category_op_double).to receive(:call)
-        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier).and_return(Success(output_markdown_paths))
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
+        .and_return(Success(output_markdown_paths))
     end
 
     it 'proceeds with original data and returns Success' do
@@ -261,7 +263,8 @@ repo_identifier: sample_repo_identifier)
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call).and_return(Success(categories_with_stats))
       allow(process_category_op_double).to receive(:call)
-        .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier).and_return(Failure("MD generation error"))
+        .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier)
+        .and_return(Failure("MD generation error"))
     end
 
     it 'returns the Failure' do
