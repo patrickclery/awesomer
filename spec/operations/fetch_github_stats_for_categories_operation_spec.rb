@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
+require 'ostruct'
 
 RSpec.describe FetchGithubStatsForCategoriesOperation do
   include Dry::Monads[:result]
@@ -70,9 +71,10 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
     context 'when sync is true (synchronous mode)' do
       let(:mock_client) { instance_double(Octokit::Client) }
       let(:mock_repo_data) do
-        repo_data = instance_double("MockRepoData")
-        allow(repo_data).to receive_messages(pushed_at: Time.parse("2024-01-15T10:30:00Z"), stargazers_count: 42)
-        repo_data
+        OpenStruct.new(
+          pushed_at: Time.parse("2024-01-15T10:30:00Z"),
+          stargazers_count: 42
+        )
       end
 
       before do
