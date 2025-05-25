@@ -344,3 +344,4 @@ RSpec/ReceiveCounts:                  { Enabled: true, AutoCorrect: true, Severi
 RSpec/ScatteredLet:                   { Enabled: true, AutoCorrect: true, Severity: warning }
 RSpec/SortMetadata:                   { Enabled: true, AutoCorrect: true, Severity: warning }
 RSpec/StubbedMock:                    { Enabled: false}
+RSpec/VerifiedDoubles:                { Enabled: true, AutoCorrect: true, Severity: warning }
