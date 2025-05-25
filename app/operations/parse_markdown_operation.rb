@@ -24,6 +24,8 @@ class ParseMarkdownOperation
   GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
   # Regex to find "Source Code" links in descriptions
   SOURCE_CODE_LINK_REGEX = /\[Source Code\]\(([^)]+)\)/i
+  # Regex to find "Demo" links in descriptions
+  DEMO_LINK_REGEX = /\[Demo\]\(([^)]+)\)/i
 
   # Added skip_external_links parameter, defaulting to false (process all links by default)
   # If true, only GitHub links will be processed. Non-GitHub links will be skipped.
@@ -42,14 +44,34 @@ class ParseMarkdownOperation
 
     flush_building_item_to_current_items = lambda do
       if building_item_attrs
-        # Check if there's a "Source Code" link in the description and use that URL instead
-        final_url = extract_source_code_url(building_item_attrs[:description]) || building_item_attrs[:url]
+        # Extract different URL types from the description
+        source_code_url = extract_source_code_url(building_item_attrs[:description])
+        demo_url = extract_demo_url(building_item_attrs[:description])
 
-        is_github_link = GITHUB_REPO_REGEX.match?(final_url)
-        unless skip_external_links && !is_github_link
-          current_items_buffer << Structs::CategoryItem.new(
-            building_item_attrs.slice(:id, :name, :description).merge(url: final_url)
-          )
+        # Determine URLs based on the new schema
+        primary_url = building_item_attrs[:url]
+        github_repo = nil
+
+        # If we have a source code URL, extract the repo identifier
+        if source_code_url && GITHUB_REPO_REGEX.match?(source_code_url)
+          github_match = GITHUB_REPO_REGEX.match(source_code_url)
+          github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
+        elsif GITHUB_REPO_REGEX.match?(primary_url)
+          # If primary URL is GitHub, extract repo from it
+          github_match = GITHUB_REPO_REGEX.match(primary_url)
+          github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
+        end
+
+        # Skip external links if requested and no GitHub repo found
+        unless skip_external_links && github_repo.nil?
+          current_items_buffer << {
+            demo_url:,
+            description: building_item_attrs[:description],
+            github_repo:,
+            id: building_item_attrs[:id],
+            name: building_item_attrs[:name],
+            primary_url:
+          }
         end
         building_item_attrs = nil
       end
@@ -58,11 +80,11 @@ class ParseMarkdownOperation
     finalize_current_category = lambda do
       flush_building_item_to_current_items.call # Ensure last item of category is flushed
       if current_category_name && current_items_buffer.any?
-        categories_result << Structs::Category.new(
+        categories_result << {
           custom_order: current_category_order,
-          name: current_category_name,
-          repos: current_items_buffer
-        )
+          items: current_items_buffer,
+          name: current_category_name
+        }
       end
       current_items_buffer = []
       current_category_name = nil # Mark as no active category
@@ -106,10 +128,8 @@ class ParseMarkdownOperation
     finalize_current_category.call # Finalize the last category after loop
 
     Success(categories_result)
-  rescue Dry::Struct::Error => e # Catch specific struct errors for better diagnostics
-    Failure("Failed to parse markdown (Struct error): #{e.message}")
   rescue StandardError => e
-    Failure("Failed to parse markdown (Standard error): #{e.message}")
+    Failure("Failed to parse markdown: #{e.message}")
   end
 
   private
@@ -120,6 +140,15 @@ class ParseMarkdownOperation
     return nil if description.nil?
 
     match = SOURCE_CODE_LINK_REGEX.match(description)
+    match&.[](1)&.strip
+  end
+
+  # Extract the URL from a "Demo" link in the description
+  # Returns nil if no Demo link is found
+  def extract_demo_url(description)
+    return nil if description.nil?
+
+    match = DEMO_LINK_REGEX.match(description)
     match&.[](1)&.strip
   end
 end

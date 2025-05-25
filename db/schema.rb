@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_05_25_182625) do
+ActiveRecord::Schema[8.0].define(version: 2025_05_25_210555) do
   create_table "awesome_lists", force: :cascade do |t|
     t.string "name", null: false
     t.text "description"
@@ -30,6 +30,21 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_25_182625) do
     t.datetime "updated_at", null: false
     t.index ["awesome_list_id"], name: "index_categories_on_awesome_list_id"
     t.index ["parent_id"], name: "index_categories_on_parent_id"
+  end
+
+  create_table "category_items", force: :cascade do |t|
+    t.string "name"
+    t.string "github_repo"
+    t.string "demo_url"
+    t.string "primary_url"
+    t.text "description"
+    t.integer "commits_past_year"
+    t.datetime "last_commit_at"
+    t.integer "stars"
+    t.integer "category_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_category_items_on_category_id"
   end
 
   create_table "github_api_requests", force: :cascade do |t|
@@ -175,6 +190,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_25_182625) do
 
   add_foreign_key "categories", "awesome_lists"
   add_foreign_key "categories", "categories", column: "parent_id"
+  add_foreign_key "category_items", "categories"
   add_foreign_key "repo_stats", "awesome_lists"
   add_foreign_key "solid_queue_blocked_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_claimed_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade

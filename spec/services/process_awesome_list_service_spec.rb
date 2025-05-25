@@ -45,16 +45,16 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   let(:parsed_categories) do
-    [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
+    [ Structs::Category.new(custom_order: 0, id: 1, name: "Test Category", repos: [
       Structs::CategoryItem.new(
-        description: "A test item", id: 1, name: "Test Item", url: "http://example.com/test"
+        description: "A test item", id: 1, name: "Test Item", primary_url: "http://example.com/test"
       )
     ]) ]
   end
   let(:categories_with_stats) do
-    [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
+    [ Structs::Category.new(custom_order: 0, id: 1, name: "Test Category", repos: [
       Structs::CategoryItem.new(
-        description: "A test item", id: 1, last_commit_at: Time.now, name: "Test Item", stars: 10, url: "http://example.com/test"
+        description: "A test item", id: 1, last_commit_at: Time.now, name: "Test Item", primary_url: "http://example.com/test", stars: 10
       )
     ]) ]
   end

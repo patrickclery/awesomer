@@ -33,18 +33,25 @@ class ProcessCategoryService
       # Add a separator before a new category, but not for the very first one.
       overall_content << "" if overall_content.any? # Results in a blank line after join
 
-      overall_content << "## #{category.name}"
+      # Handle both struct and hash formats
+      category_name = category.respond_to?(:name) ? category.name : category[:name]
+      category_items = category.respond_to?(:repos) ? category.repos : category[:items]
+
+      overall_content << "## #{category_name}"
       overall_content << ""
       overall_content << "| Name | Description | Stars | Last Commit |"
       overall_content << "|------|-------------|-------|-------------|"
 
       # Sort items by stars (descending, nil stars last)
-      sorted_items = category.repos.sort do |a, b|
-        stars_a = a.stars.to_i # Treat nil as 0 for comparison
-        stars_b = b.stars.to_i # Treat nil as 0 for comparison
+      sorted_items = category_items.sort do |a, b|
+        # Handle both struct and hash formats for stars
+        stars_a = (a.respond_to?(:stars) ? a.stars : a[:stars]).to_i
+        stars_b = (b.respond_to?(:stars) ? b.stars : b[:stars]).to_i
         if stars_a == stars_b
           # Secondary sort by name (ascending) if stars are equal
-          a.name.downcase <=> b.name.downcase
+          name_a = a.respond_to?(:name) ? a.name : a[:name]
+          name_b = b.respond_to?(:name) ? b.name : b[:name]
+          name_a.downcase <=> name_b.downcase
         else
           stars_b <=> stars_a # Descending for stars
         end
@@ -53,10 +60,18 @@ class ProcessCategoryService
       if sorted_items.any?
         sorted_items.each do |item|
           puts "DEBUG (ProcessCategoryService): Processing item: #{item.inspect}"
-          name_md = "[#{item.name}](#{item.url})"
-          description_md = item.description.to_s.gsub("\n", "<br>")
-          stars_md = item.stars.nil? ? "N/A" : item.stars.to_s
-          last_commit_md = item.last_commit_at.nil? ? "N/A" : item.last_commit_at.strftime("%Y-%m-%d")
+
+          # Handle both struct and hash formats for item attributes
+          item_name = item.respond_to?(:name) ? item.name : item[:name]
+          item_url = item.respond_to?(:primary_url) ? item.primary_url : item[:primary_url]
+          item_description = item.respond_to?(:description) ? item.description : item[:description]
+          item_stars = item.respond_to?(:stars) ? item.stars : item[:stars]
+          item_last_commit = item.respond_to?(:last_commit_at) ? item.last_commit_at : item[:last_commit_at]
+
+          name_md = "[#{item_name}](#{item_url})"
+          description_md = item_description.to_s.gsub("\n", "<br>")
+          stars_md = item_stars.nil? ? "N/A" : item_stars.to_s
+          last_commit_md = item_last_commit.nil? ? "N/A" : item_last_commit.strftime("%Y-%m-%d")
           overall_content << "| #{name_md} | #{description_md} | #{stars_md} | #{last_commit_md} |"
         end
       else

@@ -8,15 +8,16 @@ require 'rails_helper' # Or spec_helper, assuming it sets up the environment
 RSpec.describe Structs::CategoryItem do
   # Copied from the nested describe block in category_spec.rb
   let(:time_now) { Time.now }
-  let(:valid_attributes) { {id: 1, name: 'Item', url: 'https://example.com'} }
+  let(:valid_attributes) { {name: 'Item', primary_url: 'https://example.com'} }
   let(:attributes_with_description) { valid_attributes.merge(description: "Test description") }
 
   example 'initializes with required attributes only' do
     item = described_class.new(valid_attributes)
-    expect(item.id).to eq(1)
     expect(item.name).to eq('Item')
-    expect(item.url).to eq('https://example.com')
+    expect(item.primary_url).to eq('https://example.com')
     expect(item.description).to be_nil
+    expect(item.github_repo).to be_nil
+    expect(item.demo_url).to be_nil
     expect(item.commits_past_year).to be_nil
     expect(item.last_commit_at).to be_nil
     expect(item.stars).to be_nil
@@ -24,34 +25,34 @@ RSpec.describe Structs::CategoryItem do
 
   example 'initializes with description' do
     item = described_class.new(attributes_with_description)
-    expect(item.id).to eq(1)
     expect(item.name).to eq('Item')
-    expect(item.url).to eq('https://example.com')
+    expect(item.primary_url).to eq('https://example.com')
     expect(item.description).to eq("Test description")
   end
 
   example 'initializes with all attributes including description' do
-    all_attrs = attributes_with_description.merge(commits_past_year: 50, last_commit_at: time_now, stars: 200)
+    all_attrs = attributes_with_description.merge(
+      commits_past_year: 50,
+      demo_url: 'https://demo.example.com',
+      github_repo: 'owner/repo',
+      last_commit_at: time_now,
+      stars: 200
+    )
     item = described_class.new(all_attrs)
-    expect(item.id).to eq(1)
     expect(item.name).to eq('Item')
-    expect(item.url).to eq('https://example.com')
+    expect(item.primary_url).to eq('https://example.com')
     expect(item.description).to eq("Test description")
+    expect(item.github_repo).to eq('owner/repo')
+    expect(item.demo_url).to eq('https://demo.example.com')
     expect(item.commits_past_year).to eq(50)
     expect(item.last_commit_at).to be_within(1.second).of(time_now)
     expect(item.stars).to eq(200)
   end
 
-  example 'raises error with invalid id type' do
-    expect {
-      described_class.new(valid_attributes.merge(id: 'one'))
-    }.to raise_error(Dry::Struct::Error)
-  end
-
   example 'raises error with missing required attributes (e.g., name)' do
     expect {
       # Using described_class here is correct as it refers to Structs::CategoryItem
-      described_class.new(id: 1, url: 'https://example.com')
+      described_class.new(primary_url: 'https://example.com')
     }.to raise_error(Dry::Struct::Error, /:name is missing/)
   end
 

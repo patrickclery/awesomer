@@ -18,24 +18,25 @@ RSpec.describe ProcessCategoryService do
 
   let(:item1_cat1) {
     Structs::CategoryItem.new(description: "The first tool", id: 1, last_commit_at: time_now, name: "Awesome Tool 1",
-stars: 100, url: "http://example.com/tool1")
+primary_url: "http://example.com/tool1", stars: 100)
   }
   let(:item2_cat1) {
     Structs::CategoryItem.new(description: "The second lib\nwith multi-line desc", id: 2,
-last_commit_at: time_now - 1.day, name: "Super Lib 2", stars: 250, url: "http://example.com/lib2")
+last_commit_at: time_now - 1.day, name: "Super Lib 2", primary_url: "http://example.com/lib2", stars: 250)
   }
   let(:item3_cat1_no_stats) {
-    Structs::CategoryItem.new(description: nil, id: 3, name: "Alpha Project", url: "http://example.com/alpha")
+    Structs::CategoryItem.new(description: nil, id: 3, name: "Alpha Project", primary_url: "http://example.com/alpha")
   }
   let(:category1) {
-    Structs::Category.new(custom_order: 1, name: "Dev Tools", repos: [ item1_cat1, item2_cat1, item3_cat1_no_stats ])
+    Structs::Category.new(custom_order: 1, id: 1, name: "Dev Tools",
+repos: [ item1_cat1, item2_cat1, item3_cat1_no_stats ])
   }
   let(:item1_cat2) {
     Structs::CategoryItem.new(description: "Utility for data", id: 10, last_commit_at: time_now - 5.days,
-name: "Data Util", stars: 50, url: "http://example.com/datautil")
+name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
   }
-  let(:category2) { Structs::Category.new(custom_order: 0, name: "Data Science!", repos: [ item1_cat2 ]) }
-  let(:category3_empty) { Structs::Category.new(custom_order: 2, name: "Empty Category", repos: []) }
+  let(:category2) { Structs::Category.new(custom_order: 0, id: 2, name: "Data Science!", repos: [ item1_cat2 ]) }
+  let(:category3_empty) { Structs::Category.new(custom_order: 2, id: 3, name: "Empty Category", repos: []) }
 
   let(:test_categories) {
  [ category2, category1, category3_empty ] } # Intentionally unsorted by custom_order, service receives them sorted

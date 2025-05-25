@@ -8,18 +8,16 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
   let(:github_repo_item) do
     Structs::CategoryItem.new(
       description: "A test repository",
-      id: 1,
       name: "Test Repo",
-      url: "https://github.com/owner/repo"
+      primary_url: "https://github.com/owner/repo"
     )
   end
 
   let(:non_github_repo_item) do
     Structs::CategoryItem.new(
       description: "An external tool",
-      id: 2,
       name: "External Tool",
-      url: "https://example.com/tool"
+      primary_url: "https://example.com/tool"
     )
   end
 
@@ -177,9 +175,8 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
           repos: [
             {
               description: "A test repository",
-              id: 1,
               name: "Test Repo",
-              url: "https://github.com/owner/repo"
+              primary_url: "https://github.com/owner/repo"
             }
           ]
         }

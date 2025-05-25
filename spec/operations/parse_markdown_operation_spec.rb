@@ -41,34 +41,37 @@ RSpec.describe ParseMarkdownOperation do
 
       # Category 1
       cat1 = result[0]
-      expect(cat1.name).to eq('Category 1')
-      expect(cat1.repos.size).to eq(4)
+      expect(cat1[:name]).to eq('Category 1')
+      expect(cat1[:items].size).to eq(4)
 
-      expect(cat1.repos[0].name).to eq('Project A')
-      expect(cat1.repos[0].description).to eq("Description for A.\nThis is a continuation of A's description.")
+      expect(cat1[:items][0][:name]).to eq('Project A')
+      expect(cat1[:items][0][:description]).to eq("Description for A.\nThis is a continuation of A's description.")
+      expect(cat1[:items][0][:github_repo]).to eq('ownerA/projectA')
+      expect(cat1[:items][0][:primary_url]).to eq('https://github.com/ownerA/projectA')
 
-      expect(cat1.repos[1].name).to eq('Project B')
-      expect(cat1.repos[1].description).to eq("Description for B.")
+      expect(cat1[:items][1][:name]).to eq('Project B')
+      expect(cat1[:items][1][:description]).to eq("Description for B.")
+      expect(cat1[:items][1][:github_repo]).to be_nil
+      expect(cat1[:items][1][:primary_url]).to eq('https://example.com/projectB')
 
-      expect(cat1.repos[2].name).to eq('Project C')
-      expect(cat1.repos[2].description).to eq("This line should NOT be part of C's description.")
+      expect(cat1[:items][2][:name]).to eq('Project C')
+      expect(cat1[:items][2][:description]).to eq("This line should NOT be part of C's description.")
+      expect(cat1[:items][2][:github_repo]).to eq('ownerC/projectC')
 
-      expect(cat1.repos[3].name).to eq('Item D')
-      expect(cat1.repos[3].description).to eq("This is D's description spanning multiple\nlines.")
+      expect(cat1[:items][3][:name]).to eq('Item D')
+      expect(cat1[:items][3][:description]).to eq("This is D's description spanning multiple\nlines.")
 
       # Category 2
       cat2 = result[1]
-      expect(cat2.name).to eq('Category 2')
-      expect(cat2.repos.size).to eq(2)
-      expect(cat2.repos[0].name).to eq('Project E')
-      expect(cat2.repos[0].description).to eq("Description for E with .git.")
-      expect(cat2.repos[1].name).to eq('No Description Item')
-      expect(cat2.repos[1].description).to eq("But this line IS a description for No Description Item.")
+      expect(cat2[:name]).to eq('Category 2')
+      expect(cat2[:items].size).to eq(2)
+      expect(cat2[:items][0][:name]).to eq('Project E')
+      expect(cat2[:items][0][:description]).to eq("Description for E with .git.")
+      expect(cat2[:items][0][:github_repo]).to eq('ownerE/projectE')
+      expect(cat2[:items][1][:name]).to eq('No Description Item')
+      expect(cat2[:items][1][:description]).to eq("But this line IS a description for No Description Item.")
 
       # No cat3 expected
-
-      # Check a few other item attributes remain nil as before
-      expect(cat1.repos[0].stars).to be_nil
     end
   end
 
@@ -79,10 +82,10 @@ RSpec.describe ParseMarkdownOperation do
 
     it 'strips category names and creates correct item with multi-line description' do
       category = operation_call_spaced.value!.first
-      expect(category.name).to eq('Category spaced')
-      item = category.repos.first
-      expect(item.name).to eq('MyItem')
-      expect(item.description).to eq("Desc line 1\nDesc line 2")
+      expect(category[:name]).to eq('Category spaced')
+      item = category[:items].first
+      expect(item[:name]).to eq('MyItem')
+      expect(item[:description]).to eq("Desc line 1\nDesc line 2")
     end
   end
 
@@ -98,29 +101,25 @@ RSpec.describe ParseMarkdownOperation do
       MARKDOWN
     end
 
-    it 'only includes valid Structs::CategoryItem structs' do
+    it 'only includes valid category items' do
       category = operation_call.value!.first
-      expect(category).to be_a(Structs::Category)
-      expect(category.name).to eq('Mixed Items')
-      expect(category.repos.size).to eq(2)
+      expect(category).to be_a(Hash)
+      expect(category[:name]).to eq('Mixed Items')
+      expect(category[:items].size).to eq(2)
 
-      item1 = category.repos[0]
-      expect(item1).to be_a(Structs::CategoryItem)
-      expect(item1.id).to eq(1)
-      expect(item1.name).to eq('Valid Item')
-      expect(item1.url).to eq('https://github.com/foo/bar')
-      expect(item1.commits_past_year).to be_nil
-      expect(item1.last_commit_at).to be_nil
-      expect(item1.stars).to be_nil
+      item1 = category[:items][0]
+      expect(item1).to be_a(Hash)
+      expect(item1[:id]).to eq(1)
+      expect(item1[:name]).to eq('Valid Item')
+      expect(item1[:primary_url]).to eq('https://github.com/foo/bar')
+      expect(item1[:github_repo]).to eq('foo/bar')
 
-      item2 = category.repos[1]
-      expect(item2).to be_a(Structs::CategoryItem)
-      expect(item2.id).to eq(2)
-      expect(item2.name).to eq('Almost Item')
-      expect(item2.url).to eq('https://almost.com')
-      expect(item2.commits_past_year).to be_nil
-      expect(item2.last_commit_at).to be_nil
-      expect(item2.stars).to be_nil
+      item2 = category[:items][1]
+      expect(item2).to be_a(Hash)
+      expect(item2[:id]).to eq(2)
+      expect(item2[:name]).to eq('Almost Item')
+      expect(item2[:primary_url]).to eq('https://almost.com')
+      expect(item2[:github_repo]).to be_nil
     end
   end
 
@@ -133,8 +132,8 @@ RSpec.describe ParseMarkdownOperation do
       result = operation_call_no_items.value!
       expect(result.size).to eq(1) # Only "Category With Item" should be present
       cat_with_item = result.first
-      expect(cat_with_item.name).to eq('Category With Item')
-      expect(cat_with_item.repos.first.description).to eq("D")
+      expect(cat_with_item[:name]).to eq('Category With Item')
+      expect(cat_with_item[:items].first[:description]).to eq("D")
     end
   end
 
@@ -145,18 +144,16 @@ RSpec.describe ParseMarkdownOperation do
       result = operation_call.value!
       expect(result.size).to eq(1)
       category = result.first
-      expect(category).to be_a(Structs::Category)
-      expect(category.name).to eq('Category 1')
-      expect(category.custom_order).to eq(0)
-      expect(category.repos.size).to eq(1)
-      item = category.repos.first
-      expect(item).to be_a(Structs::CategoryItem)
-      expect(item.id).to eq(1)
-      expect(item.name).to eq('Item 1.1')
-      expect(item.url).to eq('https://github.com/cat/one')
-      expect(item.commits_past_year).to be_nil
-      expect(item.last_commit_at).to be_nil
-      expect(item.stars).to be_nil
+      expect(category).to be_a(Hash)
+      expect(category[:name]).to eq('Category 1')
+      expect(category[:custom_order]).to eq(0)
+      expect(category[:items].size).to eq(1)
+      item = category[:items].first
+      expect(item).to be_a(Hash)
+      expect(item[:id]).to eq(1)
+      expect(item[:name]).to eq('Item 1.1')
+      expect(item[:primary_url]).to eq('https://github.com/cat/one')
+      expect(item[:github_repo]).to eq('cat/one')
     end
   end
 
@@ -188,7 +185,7 @@ RSpec.describe ParseMarkdownOperation do
     end
 
     it 'includes the error message in the failure' do
-      expect(operation_call.failure).to eq('Failed to parse markdown (Standard error): Simulated processing error')
+      expect(operation_call.failure).to eq('Failed to parse markdown: Simulated processing error')
     end
   end
 
@@ -219,24 +216,24 @@ RSpec.describe ParseMarkdownOperation do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
         categories = result.value!
         expect(categories.size).to eq(2)
-        expect(categories.map(&:name)).to match_array([ "Mixed Links Category", "Only GitHub Links Category" ])
-        expect(categories.find { |c| c.name == "Only External Links Category" }).to be_nil
-        expect(categories.find { |c| c.name == "Empty Items Category Initially" }).to be_nil
+        expect(categories.map { |c| c[:name] }).to match_array([ "Mixed Links Category", "Only GitHub Links Category" ])
+        expect(categories.find { |c| c[:name] == "Only External Links Category" }).to be_nil
+        expect(categories.find { |c| c[:name] == "Empty Items Category Initially" }).to be_nil
       end
 
       it 'skips non-GitHub links' do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
         categories = result.value!
-        mixed_cat = categories.find { |c| c.name == "Mixed Links Category" }
-        expect(mixed_cat.repos.map(&:name)).to eq([ "GitHub Project", "Another GitHub" ])
+        mixed_cat = categories.find { |c| c[:name] == "Mixed Links Category" }
+        expect(mixed_cat[:items].map { |item| item[:name] }).to eq([ "GitHub Project", "Another GitHub" ])
       end
 
       it 'includes categories that only contain GitHub links' do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
         categories = result.value!
-        gh_only_cat = categories.find { |c| c.name == "Only GitHub Links Category" }
+        gh_only_cat = categories.find { |c| c[:name] == "Only GitHub Links Category" }
         expect(gh_only_cat).not_to be_nil
-        expect(gh_only_cat.repos.map(&:name)).to eq([ "GH Only 1", "GH Only 2" ])
+        expect(gh_only_cat[:items].map { |item| item[:name] }).to eq([ "GH Only 1", "GH Only 2" ])
       end
     end
 
@@ -244,11 +241,12 @@ RSpec.describe ParseMarkdownOperation do
       it 'includes all links (GitHub and external)' do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: false)
         categories = result.value!
-        mixed_cat = categories.find { |c| c.name == "Mixed Links Category" }
-        expect(mixed_cat.repos.map(&:name)).to eq([ "GitHub Project", "External Link", "Another GitHub", "HTTP Site" ])
-        external_only_cat = categories.find { |c| c.name == "Only External Links Category" }
+        mixed_cat = categories.find { |c| c[:name] == "Mixed Links Category" }
+        expect(mixed_cat[:items].map { |item|
+ item[:name] }).to eq([ "GitHub Project", "External Link", "Another GitHub", "HTTP Site" ])
+        external_only_cat = categories.find { |c| c[:name] == "Only External Links Category" }
         expect(external_only_cat).not_to be_nil
-        expect(external_only_cat.repos.map(&:name)).to eq([ "External Site A", "External Site B" ])
+        expect(external_only_cat[:items].map { |item| item[:name] }).to eq([ "External Site A", "External Site B" ])
       end
     end
   end
@@ -264,43 +262,48 @@ RSpec.describe ParseMarkdownOperation do
       MARKDOWN
     end
 
-    it 'uses the Source Code URL instead of the main URL when available' do
+        it 'extracts different URL types correctly' do
       result = operation_call.value!
       expect(result.size).to eq(1)
 
       category = result.first
-      expect(category.name).to eq('Applications')
-      expect(category.repos.size).to eq(4)
+      expect(category[:name]).to eq('Applications')
+      expect(category[:items].size).to eq(4)
 
-      # First item should use the Source Code URL
-      aptabase = category.repos[0]
-      expect(aptabase.name).to eq('Aptabase')
-      expect(aptabase.url).to eq('https://github.com/aptabase/aptabase')
-      expect(aptabase.description).to include('Privacy first and simple analytics')
+      # First item should extract GitHub repo from Source Code link
+      aptabase = category[:items][0]
+      expect(aptabase[:name]).to eq('Aptabase')
+      expect(aptabase[:primary_url]).to eq('https://aptabase.com/')
+      expect(aptabase[:github_repo]).to eq('aptabase/aptabase')
+      expect(aptabase[:description]).to include('Privacy first and simple analytics')
 
-      # Second item has no Source Code link, should use original URL
-      regular = category.repos[1]
-      expect(regular.name).to eq('Regular Project')
-      expect(regular.url).to eq('https://example.com/regular')
+      # Second item has no Source Code link, should have no GitHub repo
+      regular = category[:items][1]
+      expect(regular[:name]).to eq('Regular Project')
+      expect(regular[:primary_url]).to eq('https://example.com/regular')
+      expect(regular[:github_repo]).to be_nil
 
-      # Third item should use the Source Code URL despite multiple links
-      multiple = category.repos[2]
-      expect(multiple.name).to eq('Multiple Links')
-      expect(multiple.url).to eq('https://github.com/user/repo')
+      # Third item should extract GitHub repo from Source Code link and demo URL
+      multiple = category[:items][2]
+      expect(multiple[:name]).to eq('Multiple Links')
+      expect(multiple[:primary_url]).to eq('https://main-site.com/')
+      expect(multiple[:github_repo]).to eq('user/repo')
+      expect(multiple[:demo_url]).to eq('https://demo.com')
 
       # Fourth item tests case insensitive matching
-      case_test = category.repos[3]
-      expect(case_test.name).to eq('Case Insensitive')
-      expect(case_test.url).to eq('https://github.com/case/test')
+      case_test = category[:items][3]
+      expect(case_test[:name]).to eq('Case Insensitive')
+      expect(case_test[:primary_url]).to eq('https://site.com/')
+      expect(case_test[:github_repo]).to eq('case/test')
     end
 
-    it 'preserves the original description including the Source Code link' do
+        it 'preserves the original description including the Source Code link' do
       result = operation_call.value!
-      aptabase = result.first.repos.first
+      aptabase = result.first[:items].first
 
-      expect(aptabase.description).to include('([Source Code](https://github.com/aptabase/aptabase))')
-      expect(aptabase.description).to include('Privacy first and simple analytics')
-      expect(aptabase.description).to include('`AGPL-3.0` `Docker`')
+      expect(aptabase[:description]).to include('([Source Code](https://github.com/aptabase/aptabase))')
+      expect(aptabase[:description]).to include('Privacy first and simple analytics')
+      expect(aptabase[:description]).to include('`AGPL-3.0` `Docker`')
     end
   end
 end

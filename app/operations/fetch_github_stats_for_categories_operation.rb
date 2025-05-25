@@ -42,7 +42,7 @@ class FetchGithubStatsForCategoriesOperation
 
     category_structs.map do |category|
       updated_repos = category.repos.map do |repo_item|
-        if github_repo_match = extract_github_repo(repo_item.url)
+        if github_repo_match = extract_github_repo(repo_item.primary_url)
           owner, repo_name = github_repo_match
 
           # Check rate limit before making request
@@ -163,7 +163,7 @@ class FetchGithubStatsForCategoriesOperation
     total_repos = 0
     category_structs.each do |category|
       category.repos.each do |repo_item|
-        if github_repo_match = extract_github_repo(repo_item.url)
+        if github_repo_match = extract_github_repo(repo_item.primary_url)
           owner, repo_name = github_repo_match
 
           # Queue the GitHub stats job with category item data

@@ -12,8 +12,8 @@ include Dry::Monads[:result, :do]
 
     Rails.logger.info "SyncGitStatsOperation: Queueing background jobs for GitHub stats"
 
-    # Convert categories to serializable format for background job
-    serializable_categories = categories.map(&:to_h)
+    # Categories are already in hash format from ParseMarkdownOperation
+    serializable_categories = categories
 
     # Queue the markdown processing job which will handle all GitHub API calls
     ProcessMarkdownWithStatsJob.perform_later(

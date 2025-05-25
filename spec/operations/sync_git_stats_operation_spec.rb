@@ -30,12 +30,12 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
   # Xandikos: https://github.com/jelmer/xandikos
   let(:davis_item_original) do
     # Ensure initial_categories is not empty and has a first element
-    return nil if initial_categories.empty? || initial_categories.first.repos.empty?
-    initial_categories.first.repos.find { |item| item.url == 'https://github.com/tchapi/davis' }
+    return nil if initial_categories.empty? || initial_categories.first[:items].empty?
+    initial_categories.first[:items].find { |item| item[:primary_url] == 'https://github.com/tchapi/davis' }
   end
   let(:xandikos_item_original) do
-    return nil if initial_categories.empty? || initial_categories.first.repos.empty?
-    initial_categories.first.repos.find { |item| item.url == 'https://github.com/jelmer/xandikos' }
+    return nil if initial_categories.empty? || initial_categories.first[:items].empty?
+    initial_categories.first[:items].find { |item| item[:primary_url] == 'https://github.com/jelmer/xandikos' }
   end
 
   describe '#call' do
@@ -54,9 +54,9 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
 
         # Verify that the original objects are returned (not modified)
         if davis_item_original
-          returned_davis_item = result.first.repos.find { |item| item.url == 'https://github.com/tchapi/davis' }
+          returned_davis_item = result.first[:items].find { |item| item[:primary_url] == 'https://github.com/tchapi/davis' }
           expect(returned_davis_item).to be(davis_item_original)
-          expect(returned_davis_item.stars).to be_nil # No stats yet
+          expect(returned_davis_item[:stars]).to be_nil # No stats yet
         end
       end
 
@@ -64,7 +64,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
         expect(ProcessMarkdownWithStatsJob).to receive(:perform_later) do |args|
           expect(args[:categories]).to be_an(Array)
           expect(args[:categories].first).to be_a(Hash)
-          expect(args[:categories].first[:name]).to eq(initial_categories.first.name)
+          expect(args[:categories].first[:name]).to eq(initial_categories.first[:name])
           expect(args[:repo_identifier]).to be_nil # No repo_identifier passed in this test
         end
 
@@ -109,16 +109,16 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
       end
 
       it 'still queues the background job' do
-        expect(ProcessMarkdownWithStatsJob).to receive(:perform_later).with(
-          categories: [],
-          repo_identifier: nil
-        )
+        expect(ProcessMarkdownWithStatsJob).to receive(:perform_later) do |args|
+          expect(args[:categories]).to eq([])
+          expect(args[:repo_identifier]).to be_nil
+        end
         operation_call
       end
     end
 
-    context 'when a category has no repos' do
-      let(:initial_categories) { [ Structs::Category.new(custom_order: 0, name: "Empty Cat", repos: []) ] }
+    context 'when a category has no items' do
+      let(:initial_categories) { [ {custom_order: 0, items: [], name: "Empty Cat"} ] }
 
       before do
         allow(ProcessMarkdownWithStatsJob).to receive(:perform_later)
@@ -127,8 +127,8 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
       it 'returns Success with the category unchanged' do
         expect(operation_call).to be_success
         updated_category = operation_call.value!.first
-        expect(updated_category.name).to eq("Empty Cat")
-        expect(updated_category.repos).to be_empty
+        expect(updated_category[:name]).to eq("Empty Cat")
+        expect(updated_category[:items]).to be_empty
       end
     end
 
