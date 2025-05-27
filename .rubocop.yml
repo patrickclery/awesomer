@@ -287,12 +287,12 @@ Layout/HashAlignment:
     - key
   EnforcedColonStyle:
     - key
-Layout/MultilineHashKeyLineBreaks: { Enabled: true, AutoCorrect: false}
-Layout/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-Style/HashSyntax:
-  Enabled: true
-  EnforcedShorthandSyntax: always
+Layout/MultilineHashKeyLineBreaks:   { Enabled: true, AutoCorrect: false }
+Layout/SpaceInsideHashLiteralBraces: { EnforcedStyle: no_space }
+
+Style/HashSyntax:  { Enabled: true, EnforcedShorthandSyntax: always }
+Style/SymbolArray: { Enabled: true, EnforcedStyle: percent }
+Style/WordArray:   { Enabled: true, EnforcedStyle: percent }
 
 Sevencop/MethodDefinitionArgumentsMultiline:     { Enabled: false }
 Sevencop/MethodDefinitionInIncluded:             { Enabled: true }
