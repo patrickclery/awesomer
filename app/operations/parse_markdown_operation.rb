@@ -21,7 +21,7 @@ class ParseMarkdownOperation
   # LINK_ITEM_REGEX captures name, URL, and optional description.
   # Description is capture group :description.
   LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/
-  GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
+  GITHUB_REPO_REGEX = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/#]+?)(?:/|\.git|#|$)}
   # Regex to find "Source Code" links in descriptions
   SOURCE_CODE_LINK_REGEX = /\[Source Code\]\(([^)]+)\)/i
   # Regex to find "Demo" links in descriptions

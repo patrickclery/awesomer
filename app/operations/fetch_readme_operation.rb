@@ -12,7 +12,7 @@ class FetchReadmeOperation
   # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
-  GITHUB_REPO_REGEX = %r{https?://(?:www\.)?github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
+  GITHUB_REPO_REGEX = %r{https?://(?:www\.)?github\.com/(?<owner>[^/]+)/(?<repo>[^/#]+?)(?:/|\.git|#|$)}
   # GITHUB_API_BASE_URL not directly used with Octokit client in this way
 
   def call(repo_identifier:)

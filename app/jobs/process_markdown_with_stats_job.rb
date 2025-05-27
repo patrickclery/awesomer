@@ -36,7 +36,7 @@ include Dry::Monads[:result, :do]
 
   def extract_github_repo(url)
     # Regex to capture GitHub owner and repo from URL
-    github_repo_regex = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/]+?)(?:/|\.git|$)}
+    github_repo_regex = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/#]+?)(?:/|\.git|#|$)}
     match = github_repo_regex.match(url)
     return nil unless match
 
