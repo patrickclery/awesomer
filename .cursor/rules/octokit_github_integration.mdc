@@ -3,3 +3,266 @@ description:
 globs:
 alwaysApply: false
 ---
+## Octokit GitHub Integration
+
+This project uses the Octokit gem for GitHub API interactions, providing a robust and well-maintained interface to GitHub's REST API with built-in rate limiting awareness.
+
+### Configuration
+
+**Octokit Setup**: Configured in operations and jobs that interact with GitHub
+```ruby
+client = Octokit::Client.new(access_token: ENV['GITHUB_API_KEY'])
+client.auto_paginate = true
+```
+
+**Authentication**: Uses Personal Access Token
+- Environment variable: `GITHUB_API_KEY`
+- Required for higher rate limits (5,000 vs 60 requests/hour)
+- Token should have minimal required permissions
+
+### API Patterns
+
+**Repository Information**: `[FetchReadmeOperation](mdc:app/operations/fetch_readme_operation.rb)`
+```ruby
+# Fetch repository details
+repo_data = client.repository(repo_identifier)
+
+# Get README content
+readme = client.readme(repo_identifier, accept: 'application/vnd.github.raw')
+
+# Get commit history for README
+commits = client.commits(repo_identifier, path: 'README.md', per_page: 1)
+```
+
+**Repository Statistics**: `[FetchGithubStatsJob](mdc:app/jobs/fetch_github_stats_job.rb)`
+```ruby
+# Get basic repository stats
+repo = client.repository(repo_identifier)
+stats = {
+  stars: repo.stargazers_count,
+  forks: repo.forks_count,
+  last_commit: repo.pushed_at
+}
+```
+
+### Error Handling
+
+**Rate Limiting (429 Errors)**:
+```ruby
+begin
+  result = client.repository(repo_identifier)
+rescue Octokit::TooManyRequests => e
+  # Extract retry-after header
+  retry_after = e.response_headers['retry-after']&.to_i || 60
+  
+  # Exponential backoff with jitter
+  sleep_time = [retry_after, 300].min + rand(30)
+  sleep(sleep_time)
+  retry
+end
+```
+
+**Not Found (404 Errors)**:
+```ruby
+begin
+  repo = client.repository(repo_identifier)
+rescue Octokit::NotFound
+  # Repository doesn't exist or is private
+  return { error: 'Repository not found', status: 404 }
+end
+```
+
+**Network and Other Errors**:
+```ruby
+begin
+  repo = client.repository(repo_identifier)
+rescue Octokit::Error => e
+  Rails.logger.error "GitHub API error: #{e.message}"
+  return { error: e.message, status: e.response_status }
+rescue StandardError => e
+  Rails.logger.error "Unexpected error: #{e.message}"
+  return { error: 'Network error', status: 500 }
+end
+```
+
+### Rate Limit Management
+
+**Rate Limit Checking**: Octokit provides rate limit information
+```ruby
+# Check current rate limit status
+rate_limit = client.rate_limit
+remaining = rate_limit.remaining
+reset_time = rate_limit.resets_at
+
+# Log rate limit status
+Rails.logger.info "GitHub API: #{remaining} requests remaining, resets at #{reset_time}"
+```
+
+**Integration with Custom Rate Limiter**:
+```ruby
+# Check custom rate limiter before API call
+unless GithubRateLimiterService.new.can_make_request?
+  return { error: 'Rate limit exceeded', status: 429 }
+end
+
+# Make API call
+result = client.repository(repo_identifier)
+
+# Record request in custom tracking
+GithubRateLimiterService.new.record_request
+```
+
+### Response Processing
+
+**Repository Data Extraction**:
+```ruby
+def extract_repo_data(repo)
+  {
+    name: repo.name,
+    full_name: repo.full_name,
+    description: repo.description,
+    stars: repo.stargazers_count,
+    forks: repo.forks_count,
+    language: repo.language,
+    created_at: repo.created_at,
+    updated_at: repo.updated_at,
+    pushed_at: repo.pushed_at,
+    homepage: repo.homepage,
+    topics: repo.topics
+  }
+end
+```
+
+**README Content Processing**:
+```ruby
+# Octokit returns Base64 encoded content for files
+def decode_readme_content(readme_response)
+  if readme_response.encoding == 'base64'
+    Base64.decode64(readme_response.content)
+  else
+    readme_response.content
+  end
+end
+```
+
+### URL Parsing and Normalization
+
+**GitHub URL Handling**: Convert various GitHub URL formats to API identifiers
+```ruby
+def normalize_github_url(url)
+  # Handle various GitHub URL formats:
+  # https://github.com/owner/repo
+  # https://github.com/owner/repo.git
+  # git@github.com:owner/repo.git
+  # owner/repo
+  
+  case url
+  when %r{github\.com[:/]([^/]+)/([^/]+?)(?:\.git)?/?$}
+    "#{$1}/#{$2}"
+  when %r{^([^/]+)/([^/]+)$}
+    url
+  else
+    raise ArgumentError, "Invalid GitHub URL: #{url}"
+  end
+end
+```
+
+### Testing with VCR
+
+**Cassette Recording**: Use VCR for consistent testing
+```ruby
+# In specs
+vcr('github', 'repository_fetch') do
+  result = FetchReadmeOperation.new.call('owner/repo')
+end
+```
+
+**Cassette Organization**: Store GitHub cassettes in `spec/cassettes/github/`
+- Named by repository: `owner_repo.yml`
+- Include operation context: `owner_repo_stats.yml`
+- Group related operations: `awesome_list_processing.yml`
+
+### Performance Optimizations
+
+**Auto-pagination**: Enabled by default for large result sets
+```ruby
+client.auto_paginate = true
+# Automatically handles pagination for large responses
+commits = client.commits(repo_identifier) # Gets all commits
+```
+
+**Conditional Requests**: Use ETags for caching
+```ruby
+# Store ETag from previous request
+last_etag = cache.get("#{repo_identifier}:etag")
+
+# Make conditional request
+begin
+  repo = client.repository(repo_identifier, headers: { 'If-None-Match' => last_etag })
+  # Update cache with new data
+rescue Octokit::NotModified
+  # Use cached data, no API quota consumed
+  return cached_data
+end
+```
+
+### Monitoring and Logging
+
+**API Request Logging**: Track all GitHub API interactions
+```ruby
+# Log before API call
+Rails.logger.info "GitHub API: Fetching #{repo_identifier}"
+
+# Log after API call with rate limit info
+rate_limit = client.rate_limit
+Rails.logger.info "GitHub API: #{rate_limit.remaining}/#{rate_limit.limit} remaining"
+```
+
+**Database Tracking**: Store API requests in `[GithubApiRequest](mdc:app/models/github_api_request.rb)`
+```ruby
+GithubApiRequest.create!(
+  endpoint: "repos/#{repo_identifier}",
+  response_status: 200,
+  rate_limit_remaining: rate_limit.remaining,
+  rate_limit_reset_at: rate_limit.resets_at,
+  requested_at: Time.current
+)
+```
+
+### Best Practices
+
+1. **Always Handle Rate Limits**: Implement retry logic for 429 errors
+2. **Use Authentication**: Provides higher rate limits and access to private repos
+3. **Cache Responses**: Minimize API calls with appropriate caching
+4. **Log API Usage**: Track rate limit consumption and errors
+5. **Normalize URLs**: Handle various GitHub URL formats consistently
+6. **Test with VCR**: Record real API responses for reliable testing
+7. **Handle 404s Gracefully**: Not all repositories are accessible
+8. **Monitor Rate Limits**: Track usage to avoid hitting limits
+
+### Common Patterns
+
+**Repository Existence Check**:
+```ruby
+def repository_exists?(repo_identifier)
+  client.repository(repo_identifier)
+  true
+rescue Octokit::NotFound
+  false
+end
+```
+
+**Batch Processing**: For multiple repositories
+```ruby
+def fetch_multiple_repos(repo_identifiers)
+  repo_identifiers.map do |identifier|
+    next unless GithubRateLimiterService.new.can_make_request?
+    
+    begin
+      client.repository(identifier)
+    rescue Octokit::NotFound
+      nil # Skip missing repositories
+    end
+  end.compact
+end
+```

@@ -3,3 +3,199 @@ description:
 globs:
 alwaysApply: false
 ---
+## Redis Caching Patterns
+
+This project uses Redis for multiple caching strategies to optimize performance and manage external API interactions effectively.
+
+### Redis Configuration
+
+**Setup**: `[config/initializers/redis.rb](mdc:config/initializers/redis.rb)`
+- Separate Redis instance for caching and rate limiting
+- Fallback to in-memory storage if Redis unavailable
+- Connection pooling for concurrent access
+
+**Environment Variables**:
+- `REDIS_URL`: Primary Redis connection string
+- Defaults to `redis://localhost:6379/0` for development
+
+### Caching Strategies
+
+1. **Repository Stats Caching** (1-day TTL)
+   - **Purpose**: Minimize GitHub API calls for repository statistics
+   - **Key Format**: `github_stats:owner/repo`
+   - **Data**: JSON with stars, forks, last_commit information
+   - **Usage**: `[FetchGithubStatsJob](mdc:app/jobs/fetch_github_stats_job.rb)` checks cache before API call
+
+2. **Job Coordination Caching** (1-hour TTL)
+   - **Purpose**: Coordinate background job completion
+   - **Key Format**: `processing:owner/repo` or `process_#{key}:completed`
+   - **Data**: Processing state, completion counters
+   - **Usage**: Prevent duplicate processing, track job progress
+
+3. **Rate Limiting State** (1-hour sliding window)
+   - **Purpose**: Track GitHub API request quotas
+   - **Key Format**: `github_rate_limit:requests`
+   - **Data**: Sorted set with request timestamps
+   - **Usage**: `[GithubRateLimiterService](mdc:app/services/github_rate_limiter_service.rb)` enforces limits
+
+### Cache Key Patterns
+
+**Hierarchical Naming**:
+```ruby
+# Repository-specific data
+"github_stats:#{owner}/#{repo}"
+"processing:#{owner}/#{repo}"
+
+# Global rate limiting
+"github_rate_limit:requests"
+
+# Job coordination
+"process_#{coordination_key}:completed"
+"process_#{coordination_key}:total"
+```
+
+**Normalization**: Repository identifiers are normalized
+- Convert URLs to `owner/repo` format
+- Handle case sensitivity consistently
+- Remove protocol and domain from GitHub URLs
+
+### Cache Operations
+
+**Read-Through Pattern**:
+```ruby
+def fetch_with_cache(key, ttl = 1.day)
+  cached = Redis.current.get(key)
+  return JSON.parse(cached) if cached
+
+  data = yield # Fetch from source
+  Redis.current.setex(key, ttl, data.to_json)
+  data
+rescue Redis::BaseError
+  yield # Fallback to source if Redis fails
+end
+```
+
+**Write-Behind Pattern**: For coordination data
+```ruby
+# Update cache asynchronously
+Redis.current.incr("#{key}:completed")
+Redis.current.expire("#{key}:completed", 1.hour)
+```
+
+**Cache Invalidation**: Explicit expiration
+```ruby
+# Clear specific cache
+Redis.current.del("github_stats:#{owner}/#{repo}")
+
+# Clear pattern-based keys
+Redis.current.scan_each(match: "process_#{key}:*") do |cache_key|
+  Redis.current.del(cache_key)
+end
+```
+
+### Error Handling
+
+**Redis Unavailable**: Fail-open strategy
+```ruby
+begin
+  # Try Redis operation
+  Redis.current.get(key)
+rescue Redis::BaseError => e
+  Rails.logger.warn "Redis unavailable: #{e.message}"
+  # Continue without cache
+  nil
+end
+```
+
+**Partial Cache Failures**: Graceful degradation
+- Rate limiting allows requests if Redis fails
+- Job coordination falls back to database polling
+- Stats fetching proceeds without cache
+
+### Performance Optimizations
+
+**Connection Pooling**: Configured in Redis initializer
+- Pool size matches expected concurrency
+- Timeout settings for high-load scenarios
+
+**Serialization**: JSON for complex data structures
+- Consistent serialization format
+- Handles nested objects and arrays
+- Preserves data types where possible
+
+**Memory Management**: TTL on all cached data
+- Automatic cleanup of expired keys
+- Prevents memory leaks from abandoned jobs
+- Balances cache hit rate with memory usage
+
+### Monitoring and Debugging
+
+**Cache Metrics**: Available through Redis commands
+```ruby
+# Check cache hit rates
+Redis.current.info("stats")
+
+# Monitor memory usage
+Redis.current.info("memory")
+
+# List active keys by pattern
+Redis.current.scan_each(match: "github_stats:*")
+```
+
+**Logging**: Cache operations are logged
+- Cache hits/misses in job logs
+- Redis connection issues in application logs
+- Performance metrics for cache operations
+
+### Testing Patterns
+
+**Cache Isolation**: Each test gets clean cache state
+```ruby
+# In test setup
+Redis.current.flushdb if Rails.env.test?
+```
+
+**Cache Mocking**: For unit tests
+```ruby
+# Mock Redis operations
+allow(Redis.current).to receive(:get).and_return(cached_data)
+allow(Redis.current).to receive(:setex)
+```
+
+**Integration Testing**: Test cache behavior
+```ruby
+# Verify cache is populated
+expect(Redis.current.get("github_stats:owner/repo")).to be_present
+
+# Test cache expiration
+travel 25.hours do
+  expect(Redis.current.get("github_stats:owner/repo")).to be_nil
+end
+```
+
+### Best Practices
+
+1. **Always Set TTL**: Prevent memory leaks
+2. **Handle Redis Failures**: Fail-open for availability
+3. **Normalize Keys**: Consistent key formats
+4. **Monitor Memory**: Track cache size and hit rates
+5. **Test Cache Logic**: Verify cache behavior in specs
+6. **Use Appropriate TTL**: Balance freshness vs performance
+
+### Cache Warming
+
+**Proactive Caching**: For frequently accessed data
+```ruby
+# Pre-populate cache for known repositories
+popular_repos.each do |repo|
+  FetchGithubStatsJob.perform_later(repo, "cache_warming")
+end
+```
+
+**Background Refresh**: Update cache before expiration
+```ruby
+# Refresh cache in background when 80% of TTL elapsed
+if cache_age > (ttl * 0.8)
+  RefreshCacheJob.perform_later(cache_key)
+end
+```
