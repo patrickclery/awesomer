@@ -46,7 +46,7 @@ RSpec.describe FetchGithubStatsJob, type: :job do
         expect(Rails.cache).to receive(:write).with(
           "github_stats:#{owner}:#{repo_name}",
           {last_commit_at: Time.parse('2023-01-01T12:00:00Z'), stars: 1000},
-          expires_in: 1.day
+          expires_in: 1.month
         )
         expect(rate_limiter).to receive(:record_request).with(success: true)
 

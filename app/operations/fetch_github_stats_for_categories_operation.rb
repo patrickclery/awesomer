@@ -53,8 +53,10 @@ class FetchGithubStatsForCategoriesOperation
           # Check rate limit before making request
           unless rate_limiter.can_make_request?
             wait_time = rate_limiter.time_until_reset
-            Rails.logger.warn "Rate limit reached in synchronous mode. Waiting #{wait_time} seconds..."
-            sleep(wait_time) if wait_time > 0
+            Rails.logger.warn "Rate limit reached in synchronous mode. Skipping #{owner}/#{repo_name} " \
+                               "(would wait #{wait_time} seconds)"
+            # Don't sleep in synchronous mode - just skip this repo
+            next repo_item
           end
 
           stats = fetch_repo_stats_directly(owner, repo_name, rate_limiter)
@@ -114,8 +116,8 @@ class FetchGithubStatsForCategoriesOperation
       stars: repo_data.stargazers_count
     }
 
-    # Cache the result
-    Rails.cache.write(cache_key, stats, expires_in: 1.day)
+    # Only cache successful responses (200 status)
+    Rails.cache.write(cache_key, stats, expires_in: 1.month)
 
     # Record the API request for rate limiting (if rate_limiter provided)
     rate_limiter&.record_request(success: true)
@@ -135,10 +137,9 @@ class FetchGithubStatsForCategoriesOperation
     rate_limiter&.record_request(success: false)
     record_api_request(owner:, repo_name:, status: 429)
 
-    # Extract retry-after header if available
-    retry_after = e.response_headers&.dig("retry-after")&.to_i || 3600
-    Rails.logger.warn "Sleeping for #{retry_after} seconds due to GitHub rate limit"
-    sleep(retry_after)
+    # Don't cache rate limit errors and don't sleep in synchronous mode
+    # The rate limiter should handle this at a higher level
+    Rails.logger.warn "Rate limit hit for #{owner}/#{repo_name}, skipping"
     nil
   rescue Octokit::Error => e
     Rails.logger.error "GitHub API error for #{owner}/#{repo_name}: #{e.message}"

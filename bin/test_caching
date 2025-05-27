@@ -79,7 +79,7 @@ if final_cached_data
   puts "  ✅ Cache now contains:"
   puts "    📊 Stars: #{final_cached_data[:stars]}"
   puts "    📅 Last commit: #{final_cached_data[:last_commit_at]}"
-  puts "    🕒 Cache expires in: ~24 hours"
+  puts "    🕒 Cache expires in: ~1 month"
 else
   puts "  ❌ No cache data found"
 end
@@ -91,7 +91,7 @@ puts "  ✅ Can make request: #{rate_limiter.can_make_request?}"
 
 puts "\n✨ Caching Test Complete!"
 puts "\n💡 Key Benefits:"
-puts "  • 1-day cache expiration reduces API calls by ~90%"
+  puts "  • 1-month cache expiration reduces API calls by ~99%"
 puts "  • Cache key format: github_stats:owner:repo_name"
 puts "  • Works in both sync and async modes"
 puts "  • Respects GitHub rate limits (4000/hour conservative)" 

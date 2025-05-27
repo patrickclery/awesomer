@@ -20,7 +20,7 @@ class FetchGithubStatsJob < ApplicationJob
       return
     end
 
-    # Check cache first (1 day expiration)
+    # Check cache first (1 month expiration)
     cache_key = "github_stats:#{owner}:#{repo_name}"
     cached_stats = Rails.cache.read(cache_key)
 
@@ -37,8 +37,8 @@ class FetchGithubStatsJob < ApplicationJob
     @rate_limiter.record_request(success: true)
     record_api_request(owner:, repo_name:, status: 200)
 
-    # Cache the result for 1 day
-    Rails.cache.write(cache_key, stats_result, expires_in: 1.day)
+    # Cache the result for 1 month
+    Rails.cache.write(cache_key, stats_result, expires_in: 1.month)
 
     # Update the category item with new stats
     update_category_item_with_stats(category_item_data, stats_result)

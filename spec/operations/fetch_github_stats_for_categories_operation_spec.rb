@@ -82,6 +82,15 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
         allow(mock_client).to receive(:auto_paginate=)
         allow(Rails.cache).to receive(:read).and_return(nil)
         allow(Rails.cache).to receive(:write)
+
+        # Mock the rate limiter
+        rate_limiter = instance_double(GithubRateLimiterService)
+        allow(GithubRateLimiterService).to receive(:new).and_return(rate_limiter)
+        allow(rate_limiter).to receive(:record_request)
+        allow(rate_limiter).to receive_messages(can_make_request?: true, time_until_reset: 0)
+
+        # Mock the database recording
+        allow(GithubApiRequest).to receive(:create!)
       end
 
       it 'fetches stats synchronously and returns updated categories' do
