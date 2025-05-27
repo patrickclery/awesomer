@@ -68,7 +68,7 @@ class ParseMarkdownOperation
         unless skip_external_links && github_repo.nil?
           current_items_buffer << {
             demo_url:,
-            description: building_item_attrs[:description],
+            description: strip_html_tags(building_item_attrs[:description]),
             github_repo:,
             id: building_item_attrs[:id],
             name: building_item_attrs[:name],
@@ -152,5 +152,17 @@ class ParseMarkdownOperation
 
     match = DEMO_LINK_REGEX.match(description)
     match&.[](1)&.strip
+  end
+
+  # Strip HTML tags from description text using Rails' built-in helper
+  # Returns nil if description is nil, otherwise returns cleaned text
+  def strip_html_tags(description)
+    return nil if description.nil?
+
+    # Use Rails' built-in strip_tags helper which is more robust than regex
+    cleaned = ActionView::Base.full_sanitizer.sanitize(description)
+
+    # Clean up extra whitespace but preserve intentional line breaks
+    cleaned&.gsub(/[ \t]+/, " ")&.gsub(/\n\s*\n/, "\n")&.strip
   end
 end
