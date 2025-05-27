@@ -1,6 +1,24 @@
 version: '3.8'
 
 services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: awesomer_postgres
+    environment:
+      POSTGRES_DB: awesomer_development
+      POSTGRES_USER: awesomer
+      POSTGRES_PASSWORD: awesomer_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U awesomer -d awesomer_development"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
   redis:
     image: redis:7-alpine
     container_name: awesomer_redis
@@ -17,5 +35,7 @@ services:
       retries: 3
 
 volumes:
+  postgres_data:
+    driver: local
   redis_data:
     driver: local 
