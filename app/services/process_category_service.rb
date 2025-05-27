@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "fileutils"
+require "terminal-table"
 
 class ProcessCategoryService
   # noinspection RubyResolve
@@ -39,8 +40,6 @@ class ProcessCategoryService
 
       overall_content << "## #{category_name}"
       overall_content << ""
-      overall_content << "| Name | Description | Stars | Last Commit |"
-      overall_content << "|------|-------------|-------|-------------|"
 
       # Sort items by stars (descending, nil stars last)
       sorted_items = category_items.sort do |a, b|
@@ -58,7 +57,8 @@ class ProcessCategoryService
       end
 
       if sorted_items.any?
-        sorted_items.each do |item|
+        # Prepare table data
+        table_rows = sorted_items.map do |item|
           puts "DEBUG (ProcessCategoryService): Processing item: #{item.inspect}"
 
           # Handle both struct and hash formats for item attributes
@@ -72,10 +72,27 @@ class ProcessCategoryService
           description_md = item_description.to_s.gsub("\n", "<br>")
           stars_md = item_stars.nil? ? "N/A" : item_stars.to_s
           last_commit_md = item_last_commit.nil? ? "N/A" : item_last_commit.strftime("%Y-%m-%d")
-          overall_content << "| #{name_md} | #{description_md} | #{stars_md} | #{last_commit_md} |"
+
+          [ name_md, description_md, stars_md, last_commit_md ]
         end
+
+        # Create table using terminal-table in markdown mode
+        table = Terminal::Table.new do |t|
+          t.headings = [ "Name", "Description", "Stars", "Last Commit" ]
+          table_rows.each { |row| t.add_row(row) }
+          t.style = {border: :markdown}
+        end
+
+        overall_content << table.to_s
       else
-        overall_content << "| *No items in this category.* | | | |" # Placeholder for empty categories
+        # Create empty table for categories with no items
+        table = Terminal::Table.new do |t|
+          t.headings = [ "Name", "Description", "Stars", "Last Commit" ]
+          t.add_row([ "*No items in this category.*", "", "", "" ])
+          t.style = {border: :markdown}
+        end
+
+        overall_content << table.to_s
       end
     end
 

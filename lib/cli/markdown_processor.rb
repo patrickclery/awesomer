@@ -2,6 +2,23 @@
 
 require "thor"
 require "fileutils"
+
+# Load dotenv first to ensure environment variables are available
+begin
+  require "dotenv"
+  # Load .env files in order of precedence
+  Dotenv.load(
+    File.expand_path("../../.env.development.local", __dir__),
+    File.expand_path("../../.env.local", __dir__),
+    File.expand_path("../../.env.development", __dir__),
+    File.expand_path("../../.env", __dir__)
+  )
+rescue LoadError
+  puts "WARN: dotenv gem not available. Environment variables from .env files will not be loaded."
+rescue StandardError => e
+  puts "WARN: Could not load .env files: #{e.message}"
+end
+
 # Attempt to load Rails environment for Rails.root and autoloading
 # This might need to be adjusted based on how the Thor CLI is invoked (standalone vs. within Rails runner)
 begin

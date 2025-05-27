@@ -5,12 +5,17 @@ class FetchGithubStatsForCategoriesOperation
   include Dry::Monads[:result, :do]
 
   def call(categories:, sync: false)
-    Rails.logger.info "FetchGithubStatsForCategoriesOperation: Processing #{categories.size} categories (sync: #{sync})"
+    Rails.logger.info "FetchGithubStatsForCategoriesOperation: Processing #{categories&.size || 0} categories " \
+                      "(sync: #{sync})"
+
+    return Failure("Categories is nil") if categories.nil?
 
     # Convert hash data back to structs if needed
     category_structs = categories.map do |category_data|
       if category_data.is_a?(Hash)
-        repos = category_data[:repos].map { |repo_data| Structs::CategoryItem.new(repo_data) }
+        # ParseMarkdownOperation returns :items, but structs use :repos
+        items_data = category_data[:items] || category_data[:repos] || []
+        repos = items_data.map { |repo_data| Structs::CategoryItem.new(repo_data) }
         Structs::Category.new(
           custom_order: category_data[:custom_order],
           name: category_data[:name],

@@ -86,23 +86,23 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
       expected_content_order = <<~MARKDOWN.strip_heredoc
         ## Data Science!
 
-        | Name | Description | Stars | Last Commit |
-        |------|-------------|-------|-------------|
-        | [Data Util](http://example.com/datautil) | Utility for data | 50 | #{ (time_now - 5.days).strftime('%Y-%m-%d')} |
+        | Name                                     | Description      | Stars | Last Commit |
+        |------------------------------------------|------------------|-------|-------------|
+        | [Data Util](http://example.com/datautil) | Utility for data | 50    | #{ (time_now - 5.days).strftime('%Y-%m-%d')}  |
 
         ## Dev Tools
 
-        | Name | Description | Stars | Last Commit |
-        |------|-------------|-------|-------------|
-        | [Super Lib 2](http://example.com/lib2) | The second lib<br>with multi-line desc | 250 | #{ (time_now - 1.day).strftime('%Y-%m-%d')} |
-        | [Awesome Tool 1](http://example.com/tool1) | The first tool | 100 | #{time_now.strftime('%Y-%m-%d')} |
-        | [Alpha Project](http://example.com/alpha) |  | N/A | N/A |
+        | Name                                       | Description                            | Stars | Last Commit |
+        |--------------------------------------------|----------------------------------------|-------|-------------|
+        | [Super Lib 2](http://example.com/lib2)     | The second lib<br>with multi-line desc | 250   | #{ (time_now - 1.day).strftime('%Y-%m-%d')}  |
+        | [Awesome Tool 1](http://example.com/tool1) | The first tool                         | 100   | #{time_now.strftime('%Y-%m-%d')}  |
+        | [Alpha Project](http://example.com/alpha)  |                                        | N/A   | N/A         |
 
         ## Empty Category
 
-        | Name | Description | Stars | Last Commit |
-        |------|-------------|-------|-------------|
-        | *No items in this category.* | | | |
+        | Name                         | Description | Stars | Last Commit |
+        |------------------------------|-------------|-------|-------------|
+        | *No items in this category.* |             |       |             |
       MARKDOWN
       expected_final_content = expected_content_order.strip + "\n"
 

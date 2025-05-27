@@ -4,7 +4,7 @@ class SyncGitStatsOperation
 # noinspection RubyResolve
 include Dry::Monads[:result, :do]
 
-  def call(categories:, repo_identifier: nil, sync: false)
+    def call(categories:, repo_identifier: nil, sync: false)
     if sync
       Rails.logger.info "SyncGitStatsOperation: Running synchronously for testing"
       return FetchGithubStatsForCategoriesOperation.new.call(categories:, sync: true)
@@ -27,6 +27,8 @@ include Dry::Monads[:result, :do]
     # The actual stats will be fetched asynchronously
     Success(categories)
   rescue StandardError => e
+    Rails.logger.error "SyncGitStatsOperation error: #{e.class}: #{e.message}"
+    Rails.logger.error "Backtrace: #{e.backtrace.first(5).join("\n")}"
     Failure("SyncGitStatsOperation failed: #{e.message}")
   end
 end
