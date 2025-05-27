@@ -423,6 +423,8 @@ GEM
       attr_extras (>= 6.2.4)
       diff-lcs
       patience_diff
+    terminal-table (4.0.0)
+      unicode-display_width (>= 1.1.1, < 4)
     thor (1.3.2)
     thruster (0.1.13)
     thruster (0.1.13-aarch64-linux)
@@ -501,6 +503,7 @@ DEPENDENCIES
   solid_queue
   sqlite3 (>= 2.1)
   super_diff
+  terminal-table
   thruster
   to_bool
   tzinfo-data
