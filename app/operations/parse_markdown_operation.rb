@@ -57,9 +57,11 @@ class ParseMarkdownOperation
           github_match = GITHUB_REPO_REGEX.match(source_code_url)
           github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
         elsif GITHUB_REPO_REGEX.match?(primary_url)
-          # If primary URL is GitHub, extract repo from it
+          # If primary URL is GitHub, extract repo from it and clean the URL
           github_match = GITHUB_REPO_REGEX.match(primary_url)
           github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
+          # Clean the primary_url to remove fragments like #readme
+          primary_url = "https://github.com/#{github_repo}"
         end
 
         # Skip external links if requested and no GitHub repo found
