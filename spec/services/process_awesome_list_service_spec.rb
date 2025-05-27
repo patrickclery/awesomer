@@ -128,6 +128,84 @@ RSpec.describe ProcessAwesomeListService do
     end
   end
 
+  context 'when running in async mode (sync: false)' do
+    let(:service_instance) do
+      described_class.new(
+        fetch_readme_operation: fetch_readme_op_double,
+        find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
+        parse_markdown_operation: parse_markdown_op_double,
+        process_category_service: process_category_op_double,
+        repo_identifier: sample_repo_identifier,
+        sync: false, # Explicitly async mode
+        sync_git_stats_operation: sync_git_stats_op_double
+      )
+    end
+
+    before do
+      allow(fetch_readme_op_double).to receive(:call)
+        .with(repo_identifier: sample_repo_identifier)
+        .and_return(Success(fetch_readme_success_data))
+      allow(find_or_create_aw_list_op_double).to receive(:call)
+        .with(fetched_repo_data: fetch_readme_success_data)
+        .and_return(Success(awesome_list_model_double))
+      allow(parse_markdown_op_double).to receive(:call)
+        .with(markdown_content: sample_markdown_content,
+              skip_external_links: awesome_list_model_double.skip_external_links)
+        .and_return(Success(parsed_categories))
+      allow(process_category_op_double).to receive(:call)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
+        .and_return(Success(output_markdown_paths))
+    end
+
+    it 'queues background jobs via SyncGitStatsOperation' do
+      # Mock SyncGitStatsOperation to verify it's called with sync: false
+      expect(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
+        .and_return(Success(parsed_categories)) # Returns original categories for async mode
+
+      result = service_instance.call
+      expect(result).to be_success
+    end
+
+    it 'returns immediately with original categories (without stats)' do
+      # Mock SyncGitStatsOperation to return original categories (async behavior)
+      allow(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
+        .and_return(Success(parsed_categories)) # Original categories without stats
+
+      result = service_instance.call
+
+      expect(result).to be_success
+      expect(result.value!).to eq(output_markdown_paths)
+    end
+
+    it 'processes categories without stats when SyncGitStatsOperation returns original data' do
+      # Mock async behavior where SyncGitStatsOperation returns original categories
+      allow(sync_git_stats_op_double).to receive(:call)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
+        .and_return(Success(parsed_categories))
+
+      # Verify ProcessCategoryService receives original categories (without stats)
+      expect(process_category_op_double).to receive(:call)
+        .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
+        .and_return(Success(output_markdown_paths))
+
+      result = service_instance.call
+      expect(result).to be_success
+    end
+
+    it 'calls SyncGitStatsOperation with correct async parameters' do
+      expect(sync_git_stats_op_double).to receive(:call) do |args|
+        expect(args[:categories]).to eq(parsed_categories)
+        expect(args[:repo_identifier]).to eq(sample_repo_identifier)
+        expect(args[:sync]).to be(false) # Verify async mode
+        Success(parsed_categories)
+      end
+
+      service_instance.call
+    end
+  end
+
   context 'when repo_identifier is blank' do
     let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: "") }
 
