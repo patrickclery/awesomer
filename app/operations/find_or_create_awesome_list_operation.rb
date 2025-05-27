@@ -14,7 +14,7 @@ class FindOrCreateAwesomeListOperation
     return Failure("Owner or repo name missing from fetched data") if owner.blank? || repo_name.blank?
 
     repo_shortname = "#{owner}/#{repo_name}"
-    puts "DEBUG FOCALO: repo_shortname for find_or_initialize_by: '#{repo_shortname}'" # DEBUG
+    Rails.logger.debug "FindOrCreateAwesomeListOperation: repo_shortname for find_or_initialize_by: '#{repo_shortname}'"
 
     aw_list = AwesomeList.find_or_initialize_by(github_repo: repo_shortname)
     aw_list.name = repo_name # Use repo name for the list name
@@ -34,8 +34,8 @@ class FindOrCreateAwesomeListOperation
 
   def save_record(record, repo_shortname_for_error_msg)
     if record.save
-      puts "Upserted AwesomeList record for: #{repo_shortname_for_error_msg}, " \
-           "ID: #{record.id}, Last Commit: #{record.last_commit_at}"
+      Rails.logger.info "Upserted AwesomeList record for: #{repo_shortname_for_error_msg}, " \
+                        "ID: #{record.id}, Last Commit: #{record.last_commit_at}"
       Success(record)
     else
       error_messages = record.errors.full_messages.join(", ")

@@ -168,7 +168,8 @@ class FetchGithubStatsForCategoriesOperation
     total_repos = 0
     category_structs.each do |category|
       category.repos.each do |repo_item|
-        if github_repo_match = extract_github_repo(repo_item.primary_url)
+        github_repo_match = extract_github_repo(repo_item.primary_url)
+        if github_repo_match.present?
           owner, repo_name = github_repo_match
 
           # Queue the GitHub stats job with category item data

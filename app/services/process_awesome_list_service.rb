@@ -52,8 +52,9 @@ class ProcessAwesomeListService
     categories_to_process_md = if sync_result.success?
                                  sync_result.value!
     else
-                                 puts "WARN (ProcessAwesomeListService): Failed to sync GitHub stats for items: " \
-                                      "#{sync_result.failure}. Proceeding with original parsed data."
+                                 Rails.logger.warn "ProcessAwesomeListService: Failed to sync GitHub stats for " \
+                                                    "items: #{sync_result.failure}. Proceeding with original " \
+                                                    "parsed data."
                                  categories_from_parse
     end
 

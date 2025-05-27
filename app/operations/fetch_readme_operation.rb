@@ -96,19 +96,16 @@ class FetchReadmeOperation
       Success(nil)
     end
   rescue Octokit::NotFound
-    msg = "WARN: Could not fetch last commit for README '#{readme_path}' in " \
-          "#{repo_full_name} (path not found/no commits)."
-    puts msg
+    Rails.logger.warn "Could not fetch last commit for README '#{readme_path}' in " \
+                       "#{repo_full_name} (path not found/no commits)."
     Success(nil)
   rescue Octokit::Error => e
-    msg = "WARN: GitHub API error fetching README commit for '#{readme_path}' in " \
-          "#{repo_full_name}: #{e.message}"
-    puts msg
+    Rails.logger.warn "GitHub API error fetching README commit for '#{readme_path}' in " \
+                       "#{repo_full_name}: #{e.message}"
     Success(nil)
   rescue StandardError => e
-    msg = "WARN: Error parsing last commit date for README '#{readme_path}' in " \
-          "#{repo_full_name}: #{e.message}"
-    puts msg
+    Rails.logger.warn "Error parsing last commit date for README '#{readme_path}' in " \
+                       "#{repo_full_name}: #{e.message}"
     Success(nil)
   end
 end

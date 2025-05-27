@@ -59,7 +59,7 @@ class ProcessCategoryService
       if sorted_items.any?
         # Prepare table data
         table_rows = sorted_items.map do |item|
-          puts "DEBUG (ProcessCategoryService): Processing item: #{item.inspect}"
+          Rails.logger.debug "ProcessCategoryService: Processing item: #{item.inspect}"
 
           # Handle both struct and hash formats for item attributes
           item_name = item.respond_to?(:name) ? item.name : item[:name]
