@@ -196,9 +196,11 @@ type: :boolean
       original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME # Save original filename
 
       begin
-        ProcessCategoryService.const_set(:TARGET_DIR, custom_output_dir)
-        # If you want the Thor task to control the filename too:
-        ProcessCategoryService.const_set(:OUTPUT_FILENAME, options[:output_filename])
+        silence_warnings do
+          ProcessCategoryService.const_set(:TARGET_DIR, custom_output_dir)
+          # If you want the Thor task to control the filename too:
+          ProcessCategoryService.const_set(:OUTPUT_FILENAME, options[:output_filename])
+        end
         puts "Temporarily set ProcessCategoryService output to: #{custom_output_dir.join(options[:output_filename])}"
 
         awesome_list_service = ProcessAwesomeListService.new(repo_identifier:, sync: sync_mode)
@@ -221,8 +223,10 @@ type: :boolean
       rescue StandardError => e
         say("ERROR: An unexpected error occurred: #{e.message}\n#{e.backtrace.first(5).join("\n")}", :red)
       ensure
-        ProcessCategoryService.const_set(:TARGET_DIR, original_pcs_target_dir)
-        ProcessCategoryService.const_set(:OUTPUT_FILENAME, original_pcs_output_filename) # Restore filename
+        silence_warnings do
+          ProcessCategoryService.const_set(:TARGET_DIR, original_pcs_target_dir)
+          ProcessCategoryService.const_set(:OUTPUT_FILENAME, original_pcs_output_filename) # Restore filename
+        end
         puts "Restored original TARGET_DIR and OUTPUT_FILENAME for ProcessCategoryService."
       end
 
@@ -257,8 +261,10 @@ type: :boolean
         sanitized_name = repo_identifier.gsub("/", "_").gsub(/[^\w\-_.]/, "")
         output_filename = "#{sanitized_name}_processed.md"
 
-        ProcessCategoryService.const_set(:TARGET_DIR, output_dir)
-        ProcessCategoryService.const_set(:OUTPUT_FILENAME, output_filename)
+        silence_warnings do
+          ProcessCategoryService.const_set(:TARGET_DIR, output_dir)
+          ProcessCategoryService.const_set(:OUTPUT_FILENAME, output_filename)
+        end
 
         awesome_list_service = ProcessAwesomeListService.new(repo_identifier:, sync: sync_mode)
         result = awesome_list_service.call
@@ -272,8 +278,10 @@ type: :boolean
       rescue StandardError => e
         Failure("Exception: #{e.message}")
       ensure
-        ProcessCategoryService.const_set(:TARGET_DIR, original_pcs_target_dir)
-        ProcessCategoryService.const_set(:OUTPUT_FILENAME, original_pcs_output_filename)
+        silence_warnings do
+          ProcessCategoryService.const_set(:TARGET_DIR, original_pcs_target_dir)
+          ProcessCategoryService.const_set(:OUTPUT_FILENAME, original_pcs_output_filename)
+        end
       end
     end
   end
