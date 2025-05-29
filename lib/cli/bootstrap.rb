@@ -50,9 +50,12 @@ module Cli
          "Fetches the main awesome list, extracts all GitHub repository links, " \
          "and creates AwesomeList records for each repository."
     method_option :dry_run, default: false, desc: "Show what would be bootstrapped without actually creating records",
-type: :boolean
+                  type: :boolean
     method_option :limit, desc: "Limit the number of repositories to process (for testing)", type: :numeric
     method_option :verbose, default: false, desc: "Enable verbose logging", type: :boolean
+    method_option :fetch, default: false,
+                  desc: "Fetch fresh data from GitHub instead of using local bootstrap.md",
+                  type: :boolean
     def awesome_lists
       puts "🚀 Bootstrap Awesome Lists"
       puts "=" * 50
@@ -77,15 +80,30 @@ type: :boolean
         puts
       end
 
-      begin
-        bootstrap_service = BootstrapAwesomeListsService.new
+      source_info = if options[:fetch]
+                      "📡 Fetching fresh data from sindresorhus/awesome repository..."
+      else
+                      "📁 Using local bootstrap.md file..."
+      end
+      puts source_info
 
-        puts "📡 Fetching sindresorhus/awesome repository..."
+      begin
+        bootstrap_service = BootstrapAwesomeListsService.new(fetch_from_github: options[:fetch])
 
         if options[:dry_run]
-          # For dry run, we'll still fetch the main repo to show what would be processed
-          fetch_operation = FetchReadmeOperation.new
-          awesome_readme = fetch_operation.call(repo_identifier: "sindresorhus/awesome")
+          # For dry run, we'll still get the content to show what would be processed
+          if options[:fetch]
+            fetch_operation = FetchReadmeOperation.new
+            awesome_readme = fetch_operation.call(repo_identifier: "sindresorhus/awesome")
+          else
+            bootstrap_file_path = Rails.root.join("static", "bootstrap.md")
+            unless File.exist?(bootstrap_file_path)
+              say("ERROR: Local bootstrap.md file not found. Use --fetch to download it.", :red)
+              exit 1
+            end
+            content = File.read(bootstrap_file_path)
+            awesome_readme = Dry::Monads::Success({content:})
+          end
 
           if awesome_readme.success?
             extract_operation = ExtractAwesomeListsOperation.new
@@ -95,7 +113,8 @@ type: :boolean
               total_repos = repo_links.value!.size
               limited_repos = options[:limit] ? repo_links.value!.first(options[:limit]) : repo_links.value!
 
-              puts "📋 Would process #{limited_repos.size} repositories#{options[:limit] ? " (limited from #{total_repos})" : ""}:"
+              limit_info = options[:limit] ? " (limited from #{total_repos})" : ""
+              puts "📋 Would process #{limited_repos.size} repositories#{limit_info}:"
               puts
 
               limited_repos.each_with_index do |repo, index|

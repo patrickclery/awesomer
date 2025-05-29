@@ -12,6 +12,7 @@ RSpec.describe BootstrapAwesomeListsService do
   let(:service) do
     described_class.new(
       extract_awesome_lists_operation: extract_awesome_lists_op_double,
+      fetch_from_github: true, # Default to fetching from GitHub for tests
       fetch_readme_operation: fetch_readme_op_double,
       find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double
     )
@@ -74,12 +75,15 @@ RSpec.describe BootstrapAwesomeListsService do
   end
 
   describe '#call' do
-    context 'when bootstrap completes successfully' do
+    context 'when bootstrap completes successfully with GitHub fetch' do
       before do
         # Mock fetching sindresorhus/awesome
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
+
+        # Mock File.write for saving local file
+        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
 
         # Mock extracting repository links
         allow(extract_awesome_lists_op_double).to receive(:call)
@@ -119,13 +123,96 @@ RSpec.describe BootstrapAwesomeListsService do
 
       example 'calls operations in correct sequence' do
         expect(fetch_readme_op_double).to receive(:call).with(repo_identifier: 'sindresorhus/awesome').ordered
-        expect(extract_awesome_lists_op_double).to receive(:call).with(markdown_content: sindresorhus_readme_data[:content]).ordered
+        expect(extract_awesome_lists_op_double).to receive(:call)
+          .with(markdown_content: sindresorhus_readme_data[:content]).ordered
         expect(fetch_readme_op_double).to receive(:call).with(repo_identifier: 'sindresorhus/awesome-nodejs').ordered
-        expect(find_or_create_awesome_list_op_double).to receive(:call).with(fetched_repo_data: nodejs_readme_data).ordered
+        expect(find_or_create_awesome_list_op_double).to receive(:call)
+          .with(fetched_repo_data: nodejs_readme_data).ordered
         expect(fetch_readme_op_double).to receive(:call).with(repo_identifier: 'vinta/awesome-python').ordered
-        expect(find_or_create_awesome_list_op_double).to receive(:call).with(fetched_repo_data: python_readme_data).ordered
+        expect(find_or_create_awesome_list_op_double).to receive(:call)
+          .with(fetched_repo_data: python_readme_data).ordered
 
         service.call
+      end
+    end
+
+    context 'when using local file mode' do
+      let(:service) do
+        described_class.new(
+          extract_awesome_lists_operation: extract_awesome_lists_op_double,
+          fetch_from_github: false,
+          fetch_readme_operation: fetch_readme_op_double,
+          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double
+        )
+      end
+
+      let(:bootstrap_file_path) { Rails.root.join("static", "bootstrap.md") }
+
+      before do
+        # Mock local file existence and content
+        allow(File).to receive(:exist?).with(bootstrap_file_path).and_return(true)
+        allow(File).to receive(:read).with(bootstrap_file_path).and_return(sindresorhus_readme_data[:content])
+        allow(File).to receive(:mtime).with(bootstrap_file_path).and_return(Time.current)
+
+        # Mock extracting repository links
+        allow(extract_awesome_lists_op_double).to receive(:call)
+          .with(markdown_content: sindresorhus_readme_data[:content])
+          .and_return(Success(extracted_repo_links))
+
+        # Mock fetching individual repository data
+        allow(fetch_readme_op_double).to receive(:call)
+          .with(repo_identifier: 'sindresorhus/awesome-nodejs')
+          .and_return(Success(nodejs_readme_data))
+
+        allow(fetch_readme_op_double).to receive(:call)
+          .with(repo_identifier: 'vinta/awesome-python')
+          .and_return(Success(python_readme_data))
+
+        # Mock creating AwesomeList records
+        allow(find_or_create_awesome_list_op_double).to receive(:call)
+          .with(fetched_repo_data: nodejs_readme_data)
+          .and_return(Success(nodejs_awesome_list))
+
+        allow(find_or_create_awesome_list_op_double).to receive(:call)
+          .with(fetched_repo_data: python_readme_data)
+          .and_return(Success(python_awesome_list))
+      end
+
+      example 'uses local file and returns success' do
+        result = service.call
+        expect(result).to be_success
+
+        summary = result.value!
+        expect(summary[:successful_count]).to eq(2)
+        expect(summary[:failed_count]).to eq(0)
+        expect(summary[:total_processed]).to eq(2)
+      end
+
+      example 'does not fetch from GitHub' do
+        expect(fetch_readme_op_double).not_to receive(:call).with(repo_identifier: 'sindresorhus/awesome')
+        service.call
+      end
+    end
+
+    context 'when local file does not exist' do
+      let(:service) do
+        described_class.new(
+          extract_awesome_lists_operation: extract_awesome_lists_op_double,
+          fetch_from_github: false,
+          fetch_readme_operation: fetch_readme_op_double,
+          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double
+        )
+      end
+
+      before do
+        allow(File).to receive(:exist?).with(Rails.root.join("static", "bootstrap.md")).and_return(false)
+      end
+
+      example 'returns failure with helpful message' do
+        result = service.call
+        expect(result).to be_failure
+        expect(result.failure).to include("Local bootstrap.md file not found")
+        expect(result.failure).to include("Use --fetch to download it")
       end
     end
 
@@ -151,6 +238,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
+        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
 
         allow(extract_awesome_lists_op_double).to receive(:call)
           .with(markdown_content: sindresorhus_readme_data[:content])
@@ -172,6 +260,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
+        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
 
         allow(extract_awesome_lists_op_double).to receive(:call)
           .with(markdown_content: sindresorhus_readme_data[:content])
@@ -212,6 +301,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
+        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
 
         allow(extract_awesome_lists_op_double).to receive(:call)
           .with(markdown_content: sindresorhus_readme_data[:content])
