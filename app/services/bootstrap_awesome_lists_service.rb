@@ -10,12 +10,13 @@ class BootstrapAwesomeListsService
   SINDRESORHUS_AWESOME_REPO = "sindresorhus/awesome"
   BOOTSTRAP_FILE_PATH = Rails.root.join("static", "bootstrap.md")
 
-  def initialize(fetch_from_github: false, **deps)
+  def initialize(fetch_from_github: false, limit: nil, **deps)
     @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container["fetch_readme_operation"]
     @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
     @extract_awesome_lists_operation = deps[:extract_awesome_lists_operation] || ExtractAwesomeListsOperation.new
     @fetch_from_github = fetch_from_github
+    @limit = limit
   end
 
   def call
@@ -27,7 +28,14 @@ class BootstrapAwesomeListsService
 
     # Step 2: Extract all repository links from the README
     repo_links = yield @extract_awesome_lists_operation.call(markdown_content: awesome_readme[:content])
-    Rails.logger.info "BootstrapAwesomeListsService: Found #{repo_links.size} repositories to bootstrap"
+
+    # Apply limit if specified
+    if @limit && @limit > 0
+      repo_links = repo_links.first(@limit)
+      Rails.logger.info "BootstrapAwesomeListsService: Limited to first #{@limit} repositories"
+    end
+
+    Rails.logger.info "BootstrapAwesomeListsService: Processing #{repo_links.size} repositories"
 
     # Step 3: Process each repository to create AwesomeList records
     successful_records = []

@@ -55,7 +55,22 @@ class FetchReadmeOperation
   end
 
   def fetch_repo_data(client, repo_full_name)
+    # Check cache first
+    cache_key = "github_repo_data:#{repo_full_name}"
+    cached_repo_data = Rails.cache.read(cache_key)
+
+    if cached_repo_data
+      Rails.logger.info "Using cached repo data for #{repo_full_name}"
+      return Success(cached_repo_data)
+    end
+
+    # Make API call
+    Rails.logger.info "Fetching fresh repo data for #{repo_full_name}"
     repo_details = client.repository(repo_full_name)
+
+    # Cache successful response
+    Rails.cache.write(cache_key, repo_details, expires_in: 1.hour)
+
     Success(repo_details) # repo_details is an Octokit::Resource (Sawyer::Resource)
   rescue Octokit::NotFound
     Failure("Repository not found: #{repo_full_name}")
@@ -66,12 +81,29 @@ class FetchReadmeOperation
   end
 
   def fetch_readme_content_from_github(client, repo_full_name)
+    # Check cache first
+    cache_key = "github_readme_content:#{repo_full_name}"
+    cached_readme = Rails.cache.read(cache_key)
+
+    if cached_readme
+      Rails.logger.info "Using cached README content for #{repo_full_name}"
+      return Success(cached_readme)
+    end
+
+    # Make API call
+    Rails.logger.info "Fetching fresh README content for #{repo_full_name}"
     readme_info = client.readme(repo_full_name)
     content_decoded = Base64.decode64(readme_info.content).force_encoding("UTF-8")
     unless content_decoded.valid_encoding?
       return Failure("README for #{repo_full_name} not valid UTF-8")
     end
-    Success({content: content_decoded, encoding: readme_info.encoding, name: readme_info.name})
+
+    readme_data = {content: content_decoded, encoding: readme_info.encoding, name: readme_info.name}
+
+    # Cache successful response
+    Rails.cache.write(cache_key, readme_data, expires_in: 1.hour)
+
+    Success(readme_data)
   rescue Octokit::NotFound
     Failure("README not found for repository: #{repo_full_name}")
   rescue Octokit::Error => e
@@ -86,15 +118,32 @@ class FetchReadmeOperation
 
   def fetch_readme_last_commit_date(client, repo_full_name, readme_path)
     return Success(nil) if readme_path.blank?
-    commits = client.commits(repo_full_name, page: 1, path: readme_path, per_page: 1)
-    if commits.is_a?(Array) && commits.first
-      commit_info = commits.first.commit
-      committer_info = commit_info&.committer
-      date_obj = committer_info&.date
-      Success(date_obj)
-    else
-      Success(nil)
+
+    # Check cache first
+    cache_key = "github_readme_commit:#{repo_full_name}:#{readme_path}"
+    cached_commit_date = Rails.cache.read(cache_key)
+
+    if cached_commit_date
+      Rails.logger.info "Using cached README commit date for #{repo_full_name}/#{readme_path}"
+      return Success(cached_commit_date)
     end
+
+    # Make API call
+    Rails.logger.info "Fetching fresh README commit date for #{repo_full_name}/#{readme_path}"
+    commits = client.commits(repo_full_name, page: 1, path: readme_path, per_page: 1)
+
+    commit_date = if commits.is_a?(Array) && commits.first
+                    commit_info = commits.first.commit
+                    committer_info = commit_info&.committer
+                    committer_info&.date
+    else
+                    nil
+    end
+
+    # Cache successful response (including nil results)
+    Rails.cache.write(cache_key, commit_date, expires_in: 1.hour)
+
+    Success(commit_date)
   rescue Octokit::NotFound
     Rails.logger.warn "Could not fetch last commit for README '#{readme_path}' in " \
                        "#{repo_full_name} (path not found/no commits)."

@@ -88,7 +88,10 @@ module Cli
       puts source_info
 
       begin
-        bootstrap_service = BootstrapAwesomeListsService.new(fetch_from_github: options[:fetch])
+        bootstrap_service = BootstrapAwesomeListsService.new(
+          fetch_from_github: options[:fetch],
+          limit: options[:limit]
+        )
 
         if options[:dry_run]
           # For dry run, we'll still get the content to show what would be processed

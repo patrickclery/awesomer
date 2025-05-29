@@ -14,7 +14,8 @@ RSpec.describe BootstrapAwesomeListsService do
       extract_awesome_lists_operation: extract_awesome_lists_op_double,
       fetch_from_github: true, # Default to fetching from GitHub for tests
       fetch_readme_operation: fetch_readme_op_double,
-      find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double
+      find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double,
+      limit: nil # No limit for most tests
     )
   end
 
@@ -142,7 +143,8 @@ RSpec.describe BootstrapAwesomeListsService do
           extract_awesome_lists_operation: extract_awesome_lists_op_double,
           fetch_from_github: false,
           fetch_readme_operation: fetch_readme_op_double,
-          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double
+          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double,
+          limit: nil
         )
       end
 
@@ -200,7 +202,8 @@ RSpec.describe BootstrapAwesomeListsService do
           extract_awesome_lists_operation: extract_awesome_lists_op_double,
           fetch_from_github: false,
           fetch_readme_operation: fetch_readme_op_double,
-          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double
+          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double,
+          limit: nil
         )
       end
 
@@ -293,6 +296,60 @@ RSpec.describe BootstrapAwesomeListsService do
         expect(summary[:failed_repos].size).to eq(1)
         expect(summary[:failed_repos].first[:repo]).to eq('vinta/awesome-python')
         expect(summary[:failed_repos].first[:error]).to include('Repository not found')
+      end
+    end
+
+    context 'when limit is specified' do
+      let(:service) do
+        described_class.new(
+          extract_awesome_lists_operation: extract_awesome_lists_op_double,
+          fetch_from_github: true,
+          fetch_readme_operation: fetch_readme_op_double,
+          find_or_create_awesome_list_operation: find_or_create_awesome_list_op_double,
+          limit: 1 # Limit to 1 repository
+        )
+      end
+
+      before do
+        # Mock fetching sindresorhus/awesome
+        allow(fetch_readme_op_double).to receive(:call)
+          .with(repo_identifier: 'sindresorhus/awesome')
+          .and_return(Success(sindresorhus_readme_data))
+        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
+
+        # Mock extracting repository links
+        allow(extract_awesome_lists_op_double).to receive(:call)
+          .with(markdown_content: sindresorhus_readme_data[:content])
+          .and_return(Success(extracted_repo_links))
+
+        # Mock fetching only the first repository
+        allow(fetch_readme_op_double).to receive(:call)
+          .with(repo_identifier: 'sindresorhus/awesome-nodejs')
+          .and_return(Success(nodejs_readme_data))
+
+        # Mock creating AwesomeList record for first repo only
+        allow(find_or_create_awesome_list_op_double).to receive(:call)
+          .with(fetched_repo_data: nodejs_readme_data)
+          .and_return(Success(nodejs_awesome_list))
+      end
+
+      example 'processes only the limited number of repositories' do
+        result = service.call
+        expect(result).to be_success
+
+        summary = result.value!
+        expect(summary[:successful_count]).to eq(1)
+        expect(summary[:failed_count]).to eq(0)
+        expect(summary[:total_processed]).to eq(1) # Should be limited to 1
+        expect(summary[:successful_records]).to contain_exactly(nodejs_awesome_list)
+      end
+
+      example 'does not call operations for repositories beyond the limit' do
+        # Should not fetch the second repository
+        expect(fetch_readme_op_double).not_to receive(:call).with(repo_identifier: 'vinta/awesome-python')
+        expect(find_or_create_awesome_list_op_double).not_to receive(:call).with(fetched_repo_data: python_readme_data)
+
+        service.call
       end
     end
 
