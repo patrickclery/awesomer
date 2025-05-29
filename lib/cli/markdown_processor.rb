@@ -2,6 +2,7 @@
 
 require "thor"
 require "fileutils"
+require "dry/monads"
 
 # Load dotenv first to ensure environment variables are available
 begin
@@ -54,6 +55,114 @@ end
 
 module Cli
   class MarkdownProcessor < Thor
+    include Dry::Monads[:result]
+
+    desc "sync", "Process all awesome lists from the database"
+    method_option :dry_run, default: false, desc: "Show what would be processed without actually processing",
+                  type: :boolean
+    method_option :limit, desc: "Limit the number of awesome lists to process", type: :numeric
+    method_option :output_dir, default: "tmp/batch_sync", desc: "Base directory for all processed files",
+                  type: :string
+    method_option :sync, default: false, desc: "Run in synchronous mode to fetch GitHub stats immediately",
+                  type: :boolean
+    def sync
+      unless defined?(AwesomeList)
+        say("ERROR: AwesomeList model not loaded. Cannot proceed.", :red)
+        exit 1
+      end
+
+      # Query awesome lists from database
+      awesome_lists = AwesomeList.order(:created_at)
+      awesome_lists = awesome_lists.limit(options[:limit]) if options[:limit]
+
+      total_count = awesome_lists.count
+      sync_mode = options[:sync]
+      mode_text = sync_mode ? "synchronous" : "asynchronous"
+
+      say("🔄 Sync: Processing #{total_count} awesome lists in #{mode_text} mode", :green)
+
+      if options[:dry_run]
+        say("🔍 DRY RUN: Would process the following awesome lists:", :yellow)
+        awesome_lists.each_with_index do |awesome_list, index|
+          puts "  #{index + 1}. #{awesome_list.github_repo} (#{awesome_list.name})"
+        end
+        puts
+        say("Total: #{total_count} awesome lists would be processed", :yellow)
+        return
+      end
+
+      # Create base output directory
+      base_output_dir = Rails.root.join(options[:output_dir])
+      begin
+        FileUtils.mkdir_p(base_output_dir)
+      rescue StandardError => e
+        say("ERROR: Could not create base output directory #{base_output_dir}: #{e.message}", :red)
+        exit 1
+      end
+
+      # Process each awesome list
+      successful_count = 0
+      failed_count = 0
+      failed_repos = []
+
+      awesome_lists.each_with_index do |awesome_list, index|
+        repo_identifier = awesome_list.github_repo
+        progress = "[#{index + 1}/#{total_count}]"
+
+        puts "#{progress} Processing #{repo_identifier}..."
+
+        begin
+          # Create subdirectory for this repo (sanitize repo name for filesystem)
+          sanitized_name = repo_identifier.gsub("/", "_").gsub(/[^\w\-_.]/, "")
+          repo_output_dir = base_output_dir.join(sanitized_name)
+          FileUtils.mkdir_p(repo_output_dir)
+
+          # Process this awesome list
+          result = process_single_awesome_list(
+            output_dir: repo_output_dir,
+            repo_identifier:,
+            sync_mode:
+          )
+
+          if result.success?
+            puts "  ✅ Success: #{result.value!}"
+            successful_count += 1
+          else
+            puts "  ❌ Failed: #{result.failure}"
+            failed_count += 1
+            failed_repos << {error: result.failure, repo: repo_identifier}
+          end
+
+        rescue StandardError => e
+          puts "  💥 Exception: #{e.message}"
+          failed_count += 1
+          failed_repos << {error: "Exception: #{e.message}", repo: repo_identifier}
+        end
+
+        # Add a small delay to be respectful to external APIs
+        sleep(0.1) unless sync_mode
+      end
+
+      # Summary
+      puts
+      say("🎉 Sync completed!", :green)
+      puts "📊 Summary:"
+      puts "   • Total processed: #{total_count}"
+      puts "   • Successful: #{successful_count}"
+      puts "   • Failed: #{failed_count}"
+
+      if failed_repos.any?
+        puts
+        say("❌ Failed repositories:", :red)
+        failed_repos.each do |failure|
+          puts "   • #{failure[:repo]}: #{failure[:error]}"
+        end
+      end
+
+      puts
+      puts "📁 Output directory: #{base_output_dir}"
+    end
+
     desc "process_repo REPO_IDENTIFIER",
          "Processes a GitHub repo (e.g., 'owner/repo' or URL), fetches README, stats, " \
          "and saves a single aggregated output file to specified directory (default: tmp/md/)"
@@ -131,6 +240,41 @@ type: :boolean
              output_dir: "tmp/md_snippet_test",
              output_filename: "awesome_tor_snippet_processed.md",
              sync: options[:sync])
+    end
+
+    private
+
+    def process_single_awesome_list(output_dir:, repo_identifier:, sync_mode:)
+      unless defined?(ProcessAwesomeListService) && defined?(ProcessCategoryService)
+        return Failure("ProcessAwesomeListService or ProcessCategoryService not loaded")
+      end
+
+      original_pcs_target_dir = ProcessCategoryService::TARGET_DIR
+      original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME
+
+      begin
+        # Set unique output filename based on repo identifier
+        sanitized_name = repo_identifier.gsub("/", "_").gsub(/[^\w\-_.]/, "")
+        output_filename = "#{sanitized_name}_processed.md"
+
+        ProcessCategoryService.const_set(:TARGET_DIR, output_dir)
+        ProcessCategoryService.const_set(:OUTPUT_FILENAME, output_filename)
+
+        awesome_list_service = ProcessAwesomeListService.new(repo_identifier:, sync: sync_mode)
+        result = awesome_list_service.call
+
+        if result.success?
+          Success(result.value!)
+        else
+          Failure(result.failure)
+        end
+
+      rescue StandardError => e
+        Failure("Exception: #{e.message}")
+      ensure
+        ProcessCategoryService.const_set(:TARGET_DIR, original_pcs_target_dir)
+        ProcessCategoryService.const_set(:OUTPUT_FILENAME, original_pcs_output_filename)
+      end
     end
   end
 end
