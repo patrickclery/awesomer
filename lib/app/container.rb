@@ -13,5 +13,7 @@ module App
     register("process_category_service") { ProcessCategoryService.new }
     register("fetch_readme_operation") { FetchReadmeOperation.new }
     register("find_or_create_awesome_list_operation") { FindOrCreateAwesomeListOperation.new }
+    register("extract_awesome_lists_operation") { ExtractAwesomeListsOperation.new }
+    register("bootstrap_awesome_lists_service") { BootstrapAwesomeListsService.new }
   end
 end

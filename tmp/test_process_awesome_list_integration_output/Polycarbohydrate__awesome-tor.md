@@ -58,9 +58,9 @@
 
 ## Public reception, Impact, News, and Legislation
 
-| Name                                                                 | Description                                                  | Stars | Last Commit |
-|----------------------------------------------------------------------|--------------------------------------------------------------|-------|-------------|
-| [Anarcho-Tech NYC Wiki](https://github.com/AnarchoTechNYC/meta/wiki) | Wiki that explains how to stay private and anonymous online. | 504   | 2023-03-10  |
+| Name                                                            | Description                                                  | Stars | Last Commit |
+|-----------------------------------------------------------------|--------------------------------------------------------------|-------|-------------|
+| [Anarcho-Tech NYC Wiki](https://github.com/AnarchoTechNYC/meta) | Wiki that explains how to stay private and anonymous online. | 504   | 2023-03-10  |
 
 ## Whistleblowing
 
