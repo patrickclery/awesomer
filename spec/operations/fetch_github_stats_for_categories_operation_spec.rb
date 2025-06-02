@@ -129,7 +129,7 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
         expect(updated_repo.last_commit_at).to eq(Time.parse("2024-01-10T10:00:00Z"))
       end
 
-      it 'handles repository not found errors gracefully' do
+      it 'filters out repositories that are not found (404)' do
         allow(mock_client).to receive(:repository)
           .with("owner/repo")
           .and_raise(Octokit::NotFound)
@@ -138,43 +138,45 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
 
         expect(result).to be_success
         updated_categories = result.value!
-        updated_repo = updated_categories.first.repos.first
 
-        # Should keep original repo without stats
-        expect(updated_repo.stars).to be_nil
-        expect(updated_repo.last_commit_at).to be_nil
+        # The GitHub repo should be filtered out, only non-GitHub repo should remain
+        expect(updated_categories.first.repos.size).to eq(1)
+        remaining_repo = updated_categories.first.repos.first
+        expect(remaining_repo.name).to eq("External Tool")
+        expect(remaining_repo.primary_url).to eq("https://example.com/tool")
       end
 
-             it 'handles GitHub API errors gracefully' do
-         allow(mock_client).to receive(:repository)
-           .with("owner/repo")
-           .and_raise(Octokit::Error, "API Error")
+      it 'filters out repositories with GitHub API errors' do
+        allow(mock_client).to receive(:repository)
+          .with("owner/repo")
+          .and_raise(Octokit::Error, "API Error")
 
-         result = operation.call(categories:, sync: true)
+        result = operation.call(categories:, sync: true)
 
-         expect(result).to be_success
-         updated_categories = result.value!
-         updated_repo = updated_categories.first.repos.first
+        expect(result).to be_success
+        updated_categories = result.value!
 
-         # Should keep original repo without stats
-         expect(updated_repo.stars).to be_nil
-         expect(updated_repo.last_commit_at).to be_nil
-       end
+        # The GitHub repo should be filtered out, only non-GitHub repo should remain
+        expect(updated_categories.first.repos.size).to eq(1)
+        remaining_repo = updated_categories.first.repos.first
+        expect(remaining_repo.name).to eq("External Tool")
+        expect(remaining_repo.primary_url).to eq("https://example.com/tool")
+      end
 
-             it 'preserves non-GitHub repositories unchanged' do
-         # Mock the GitHub API call for the GitHub repo
-         allow(mock_client).to receive(:repository)
-           .with("owner/repo")
-           .and_return(mock_repo_data)
+      it 'preserves non-GitHub repositories unchanged' do
+        # Mock the GitHub API call for the GitHub repo
+        allow(mock_client).to receive(:repository)
+          .with("owner/repo")
+          .and_return(mock_repo_data)
 
-         result = operation.call(categories:, sync: true)
+        result = operation.call(categories:, sync: true)
 
-         expect(result).to be_success
-         updated_categories = result.value!
-         non_github_repo = updated_categories.first.repos.last
+        expect(result).to be_success
+        updated_categories = result.value!
+        non_github_repo = updated_categories.first.repos.last
 
-         expect(non_github_repo).to eq(non_github_repo_item)
-       end
+        expect(non_github_repo).to eq(non_github_repo_item)
+      end
     end
 
     context 'when categories contain hash data (from background jobs)' do

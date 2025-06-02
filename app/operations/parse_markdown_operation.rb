@@ -48,31 +48,44 @@ class ParseMarkdownOperation
         source_code_url = extract_source_code_url(building_item_attrs[:description])
         demo_url = extract_demo_url(building_item_attrs[:description])
 
-        # Determine URLs based on the new schema
-        primary_url = building_item_attrs[:url]
+        # Determine URLs based on the new schema - prioritize GitHub URLs
+        original_primary_url = building_item_attrs[:url]
         github_repo = nil
+        final_primary_url = original_primary_url
 
-        # If we have a source code URL, extract the repo identifier
+        # Check if primary URL is GitHub
+        primary_url_is_github = GITHUB_REPO_REGEX.match?(original_primary_url)
+
+        # If we have a GitHub source code URL, prioritize it over external primary URL
         if source_code_url && GITHUB_REPO_REGEX.match?(source_code_url)
           github_match = GITHUB_REPO_REGEX.match(source_code_url)
           github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
-        elsif GITHUB_REPO_REGEX.match?(primary_url)
+          # Use GitHub URL as primary URL instead of external website
+          final_primary_url = "https://github.com/#{github_repo}"
+        elsif primary_url_is_github
           # If primary URL is GitHub, extract repo from it and clean the URL
-          github_match = GITHUB_REPO_REGEX.match(primary_url)
+          github_match = GITHUB_REPO_REGEX.match(original_primary_url)
           github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
           # Clean the primary_url to remove fragments like #readme
-          primary_url = "https://github.com/#{github_repo}"
+          final_primary_url = "https://github.com/#{github_repo}"
         end
 
-        # Skip external links if requested and no GitHub repo found
-        unless skip_external_links && github_repo.nil?
+        # When skip_external_links is true, only include items that have GitHub repos
+        # When skip_external_links is false, include all items
+        should_include_item = if skip_external_links
+                                !github_repo.nil?
+        else
+                                true
+        end
+
+        if should_include_item
           current_items_buffer << {
             demo_url:,
             description: strip_html_tags(building_item_attrs[:description]),
             github_repo:,
             id: building_item_attrs[:id],
             name: building_item_attrs[:name],
-            primary_url:
+            primary_url: final_primary_url
           }
         end
         building_item_attrs = nil
@@ -154,13 +167,24 @@ class ParseMarkdownOperation
     match&.[](1)&.strip
   end
 
-  # Strip HTML tags from description text using Rails' built-in helper
+  # Strip HTML tags and remove all markdown links from description text
   # Returns nil if description is nil, otherwise returns cleaned text
   def strip_html_tags(description)
     return nil if description.nil?
 
     # Use Rails' built-in strip_tags helper which is more robust than regex
     cleaned = ActionView::Base.full_sanitizer.sanitize(description)
+
+    # Remove all markdown links [text](url) from descriptions
+    # This removes any links since we already extract important URLs to dedicated fields
+    cleaned = cleaned&.gsub(/\[[^\]]*\]\([^)]+\)/, "")
+
+    # Remove any remaining empty parenthetical groups like "(, )" or "()"
+    cleaned = cleaned&.gsub(/\(\s*[,\s]*\s*\)/, "")
+
+    # Clean up extra commas and spaces that might be left behind
+    cleaned = cleaned&.gsub(/\s*,\s*,\s*/, ", ") # Multiple commas
+    cleaned = cleaned&.gsub(/^\s*,\s*|\s*,\s*$/, "") # Leading/trailing commas
 
     # Clean up extra whitespace but preserve intentional line breaks
     cleaned&.gsub(/[ \t]+/, " ")&.gsub(/\n\s*\n/, "\n")&.strip

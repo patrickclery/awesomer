@@ -46,7 +46,7 @@ class FetchGithubStatsForCategoriesOperation
     rate_limiter = GithubRateLimiterService.new
 
     category_structs.map do |category|
-      updated_repos = category.repos.map do |repo_item|
+      updated_repos = category.repos.filter_map do |repo_item|
         if github_repo_match = extract_github_repo(repo_item.primary_url)
           owner, repo_name = github_repo_match
 
@@ -56,28 +56,30 @@ class FetchGithubStatsForCategoriesOperation
             Rails.logger.warn "Rate limit reached in synchronous mode. Skipping #{owner}/#{repo_name} " \
                                "(would wait #{wait_time} seconds)"
             # Don't sleep in synchronous mode - just skip this repo
-            next repo_item
+            next nil # This will be filtered out by filter_map
           end
 
-          stats = fetch_repo_stats_directly(owner, repo_name, rate_limiter)
+          stats_result = fetch_repo_stats_directly(owner, repo_name, rate_limiter)
 
-          if stats
+          if stats_result
             # Create new CategoryItem with updated stats
             current_attrs = repo_item.to_h
             new_attrs = current_attrs.merge(
-              last_commit_at: stats[:last_commit_at],
-              stars: stats[:stars]
+              last_commit_at: stats_result[:last_commit_at],
+              stars: stats_result[:stars]
             )
             Structs::CategoryItem.new(new_attrs)
           else
-            repo_item # Keep original if stats fetch failed
+            # Skip items where GitHub stats fetch failed (404, etc.)
+            Rails.logger.info "Skipping #{owner}/#{repo_name} due to failed stats fetch (likely 404)"
+            next nil # This will be filtered out by filter_map
           end
         else
           repo_item # Keep original if not a GitHub repo
         end
       end
 
-      # Create new Category with updated repos
+      # Create new Category with updated repos (404s filtered out)
       Structs::Category.new(
         custom_order: category.custom_order,
         name: category.name,
