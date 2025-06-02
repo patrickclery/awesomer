@@ -1,7 +1,7 @@
 ---
-description:
-globs:
-alwaysApply: false
+description: 
+globs: 
+alwaysApply: true
 ---
 ## Octokit GitHub Integration
 
@@ -157,7 +157,7 @@ def normalize_github_url(url)
   # owner/repo
   
   case url
-  when %r{github\.com[:/]([^/]+)/([^/]+?)(?:\.git)?/?$}
+  when %r{github\.com[:/](mdc:[^/]+)/([^/]+?)(?:\.git)?/?$}
     "#{$1}/#{$2}"
   when %r{^([^/]+)/([^/]+)$}
     url
