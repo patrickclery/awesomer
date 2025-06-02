@@ -30,7 +30,13 @@ class ProcessCategoryService
     file_path = TARGET_DIR.join(filename)
     overall_content = []
 
-    categories.each do |category|
+    # Filter out categories with no items before processing
+    categories_with_items = categories.filter do |category|
+      category_items = category.respond_to?(:repos) ? category.repos : category[:items]
+      category_items.any?
+    end
+
+    categories_with_items.each do |category|
       # Add a separator before a new category, but not for the very first one.
       overall_content << "" if overall_content.any? # Results in a blank line after join
 
@@ -56,44 +62,33 @@ class ProcessCategoryService
         end
       end
 
-      if sorted_items.any?
-        # Prepare table data
-        table_rows = sorted_items.map do |item|
-          Rails.logger.debug "ProcessCategoryService: Processing item: #{item.inspect}"
+      # Prepare table data (we know sorted_items has items since we filtered above)
+      table_rows = sorted_items.map do |item|
+        Rails.logger.debug "ProcessCategoryService: Processing item: #{item.inspect}"
 
-          # Handle both struct and hash formats for item attributes
-          item_name = item.respond_to?(:name) ? item.name : item[:name]
-          item_url = item.respond_to?(:primary_url) ? item.primary_url : item[:primary_url]
-          item_description = item.respond_to?(:description) ? item.description : item[:description]
-          item_stars = item.respond_to?(:stars) ? item.stars : item[:stars]
-          item_last_commit = item.respond_to?(:last_commit_at) ? item.last_commit_at : item[:last_commit_at]
+        # Handle both struct and hash formats for item attributes
+        item_name = item.respond_to?(:name) ? item.name : item[:name]
+        item_url = item.respond_to?(:primary_url) ? item.primary_url : item[:primary_url]
+        item_description = item.respond_to?(:description) ? item.description : item[:description]
+        item_stars = item.respond_to?(:stars) ? item.stars : item[:stars]
+        item_last_commit = item.respond_to?(:last_commit_at) ? item.last_commit_at : item[:last_commit_at]
 
-          name_md = "[#{item_name}](#{item_url})"
-          description_md = item_description.to_s.gsub("\n", "<br>")
-          stars_md = item_stars.nil? ? "N/A" : item_stars.to_s
-          last_commit_md = item_last_commit.nil? ? "N/A" : item_last_commit.strftime("%Y-%m-%d")
+        name_md = "[#{item_name}](#{item_url})"
+        description_md = item_description.to_s.gsub("\n", "<br>")
+        stars_md = item_stars.nil? ? "N/A" : item_stars.to_s
+        last_commit_md = item_last_commit.nil? ? "N/A" : item_last_commit.strftime("%Y-%m-%d")
 
-          [ name_md, description_md, stars_md, last_commit_md ]
-        end
-
-        # Create table using terminal-table in markdown mode
-        table = Terminal::Table.new do |t|
-          t.headings = [ "Name", "Description", "Stars", "Last Commit" ]
-          table_rows.each { |row| t.add_row(row) }
-          t.style = {border: :markdown}
-        end
-
-        overall_content << table.to_s
-      else
-        # Create empty table for categories with no items
-        table = Terminal::Table.new do |t|
-          t.headings = [ "Name", "Description", "Stars", "Last Commit" ]
-          t.add_row([ "*No items in this category.*", "", "", "" ])
-          t.style = {border: :markdown}
-        end
-
-        overall_content << table.to_s
+        [ name_md, description_md, stars_md, last_commit_md ]
       end
+
+      # Create table using terminal-table in markdown mode
+      table = Terminal::Table.new do |t|
+        t.headings = [ "Name", "Description", "Stars", "Last Commit" ]
+        table_rows.each { |row| t.add_row(row) }
+        t.style = {border: :markdown}
+      end
+
+      overall_content << table.to_s
     end
 
     begin

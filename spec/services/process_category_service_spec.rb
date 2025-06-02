@@ -71,7 +71,7 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
 
     example(
       'creates a single markdown file with aggregated content from all categories in order, ' \
-      'with items sorted by stars'
+      'with items sorted by stars, filtering out empty categories'
     ) do
       # ProcessCategoryService receives categories already sorted by custom_order from ProcessAwesomeListService.
       # For this unit test, we simulate this by sorting the input to the service call.
@@ -97,12 +97,6 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
         | [Super Lib 2](http://example.com/lib2)     | The second lib<br>with multi-line desc | 250   | #{ (time_now - 1.day).strftime('%Y-%m-%d')}  |
         | [Awesome Tool 1](http://example.com/tool1) | The first tool                         | 100   | #{time_now.strftime('%Y-%m-%d')}  |
         | [Alpha Project](http://example.com/alpha)  |                                        | N/A   | N/A         |
-
-        ## Empty Category
-
-        | Name                         | Description | Stars | Last Commit |
-        |------------------------------|-------------|-------|-------------|
-        | *No items in this category.* |             |       |             |
       MARKDOWN
       expected_final_content = expected_content_order.strip + "\n"
 
