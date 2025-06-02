@@ -117,9 +117,9 @@ class ProcessCategoryService
 
   def generate_filename_from_repo(repo_identifier)
     # Extract repo name from various formats:
-    # - "owner/repo" -> "owner__repo.md"
-    # - "https://github.com/owner/repo" -> "owner__repo.md"
-    # - "https://github.com/owner/repo.git" -> "owner__repo.md"
+    # - "owner/repo" -> "repo.md"
+    # - "https://github.com/owner/repo" -> "repo.md"
+    # - "https://github.com/owner/repo.git" -> "repo.md"
 
     # Remove protocol and domain if it's a URL
     clean_identifier = repo_identifier.gsub(%r{^https?://github\.com/}, "")
@@ -127,8 +127,11 @@ class ProcessCategoryService
     # Remove .git suffix if present
     clean_identifier = clean_identifier.gsub(/\.git$/, "")
 
-    # Replace "/" with "__" and add .md extension
-    "#{clean_identifier.gsub('/', '__')}.md"
+    # Extract only the repository name (part after the "/")
+    repo_name = clean_identifier.split("/").last
+
+    # Add .md extension
+    "#{repo_name}.md"
   end
 
   # sanitize_filename might not be needed if OUTPUT_FILENAME is fixed,

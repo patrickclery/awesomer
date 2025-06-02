@@ -145,7 +145,7 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
 
   context 'when repo_identifier is provided' do
     let(:repo_identifier) { 'awesome-selfhosted/awesome-selfhosted' }
-    let(:expected_filename) { 'awesome-selfhosted__awesome-selfhosted.md' }
+    let(:expected_filename) { 'awesome-selfhosted.md' }
     let(:expected_filepath_with_repo) { tmp_target_dir.join(expected_filename) }
 
     it 'generates filename based on repository identifier' do
@@ -157,11 +157,11 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
 
     context 'with different repository identifier formats' do
       [
-        [ 'owner/repo', 'owner__repo.md' ],
-        [ 'https://github.com/owner/repo', 'owner__repo.md' ],
-        [ 'https://github.com/owner/repo.git', 'owner__repo.md' ],
-        [ 'awesome-selfhosted/awesome-selfhosted', 'awesome-selfhosted__awesome-selfhosted.md' ],
-        [ 'user-name/project-name', 'user-name__project-name.md' ]
+        [ 'owner/repo', 'repo.md' ],
+        [ 'https://github.com/owner/repo', 'repo.md' ],
+        [ 'https://github.com/owner/repo.git', 'repo.md' ],
+        [ 'awesome-selfhosted/awesome-selfhosted', 'awesome-selfhosted.md' ],
+        [ 'user-name/project-name', 'project-name.md' ]
       ].each do |input, expected_output|
         it "converts '#{input}' to '#{expected_output}'" do
           service = described_class.new
