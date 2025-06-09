@@ -57,6 +57,32 @@ module Cli
   class MarkdownProcessor < Thor
     include Dry::Monads[:result]
 
+    no_commands do
+      # Helper method to get GitHub's actual rate limit reset time
+      def get_github_rate_limit_info
+        return nil unless defined?(Octokit)
+
+        begin
+          client = Octokit::Client.new(access_token: ENV["GITHUB_API_KEY"])
+          rate_limit = client.rate_limit
+          {
+            remaining: rate_limit.remaining,
+            resets_at: Time.at(rate_limit.resets_at),
+            resets_in: rate_limit.resets_in
+          }
+        rescue => e
+          Rails.logger.error "Failed to get GitHub rate limit info: #{e.message}"
+          nil
+        end
+      end
+
+      # Helper method to check if we're rate limited by GitHub's API
+      def github_rate_limited?
+        info = get_github_rate_limit_info
+        info && info[:remaining] <= 0
+      end
+    end
+
     desc "sync", "Process all awesome lists from the database"
     method_option :dry_run, default: false, desc: "Show what would be processed without actually processing",
                   type: :boolean
@@ -65,7 +91,8 @@ module Cli
                   type: :string
     method_option :sync, default: false, desc: "Run in synchronous mode to fetch GitHub stats immediately",
                   type: :boolean
-    method_option :wait_and_retry, default: false, desc: "Automatically wait for rate limit resets and continue processing",
+    method_option :wait_and_retry, default: false,
+                  desc: "Automatically wait for rate limit resets and continue processing",
                   type: :boolean
     method_option :incomplete_only, default: false, desc: "Only process lists that are not completed",
                   type: :boolean
@@ -84,19 +111,11 @@ module Cli
         (error_message.include?("403") && error_message.downcase.include?("api"))
       end
 
-      # Initialize rate limiter for both sync and async modes
-      rate_limiter = nil
-      unless defined?(GithubRateLimiterService)
-        say("ERROR: GithubRateLimiterService not loaded. Cannot proceed.", :red)
-        exit 1
-      end
-      rate_limiter = GithubRateLimiterService.new
-
       # Handle status reset if requested
       if options[:reset_status]
         puts "🔄 Resetting all awesome list statuses to pending..."
-        reset_count = AwesomeList.where.not(state: :pending).count
-        AwesomeList.where.not(state: :pending).find_each(&:reset_for_reprocessing!)
+        reset_count = AwesomeList.where.not(state: "pending").count
+        AwesomeList.where.not(state: "pending").find_each(&:reset_for_reprocessing!)
         puts "✅ Reset #{reset_count} awesome lists to pending status"
         puts
       end
@@ -119,34 +138,18 @@ module Cli
         puts "Status breakdown:"
         status_counts = awesome_lists.group(:state).count
         status_counts.each do |status, count|
-          # status is an integer from the enum, convert to state name
-          state_name = case status
-                       when 0 then 'pending'
-                       when 1 then 'in_progress'
-                       when 2 then 'completed'
-                       when 3 then 'failed'
-                       else status.to_s
-                       end
-          puts "  #{state_name.capitalize}: #{count}"
+          puts "  #{status.to_s.capitalize}: #{count}"
         end
         puts
         awesome_lists.each_with_index do |awesome_list, index|
-          # awesome_list.state is an integer from the enum, convert to state name
-          state_name = case awesome_list.state
-                       when 0 then 'pending'
-                       when 1 then 'in_progress'
-                       when 2 then 'completed'
-                       when 3 then 'failed'
-                       else awesome_list.state.to_s
-                       end
-          status_emoji = case state_name
-                         when 'pending' then '⏳'
-                         when 'in_progress' then '🔄'
-                         when 'completed' then '✅'
-                         when 'failed' then '❌'
-                         else '❓'
-                         end
-          puts "[#{index + 1}/#{total_count}] #{status_emoji} #{awesome_list.github_repo} (#{state_name})"
+          status_emoji = case awesome_list.state
+          when "pending" then "\u23F3"
+          when "in_progress" then "\u{1F504}"
+          when "completed" then "\u2705"
+          when "failed" then "\u274C"
+          else "\u2753"
+          end
+          puts "[#{index + 1}/#{total_count}] #{status_emoji} #{awesome_list.github_repo} (#{awesome_list.state})"
         end
         return
       end
@@ -164,167 +167,189 @@ module Cli
       failed_repos = []
       processed_count = 0
 
-      while processed_count < total_count
-        # Get next repository to process
-        awesome_list = awesome_lists.offset(processed_count).first
-        break unless awesome_list
-
+      awesome_lists.each_with_index do |awesome_list, index|
         repo_identifier = awesome_list.github_repo
-        progress = "[#{processed_count + 1}/#{total_count}]"
+        progress = "[#{index + 1}/#{total_count}]"
 
-        puts "#{progress} Processing #{repo_identifier}..."
+        # Retry logic for the current repository (infinite retries for rate limits)
+        retry_count = 0
 
-        # Check rate limit before processing each awesome list (both sync and async modes)
-        unless rate_limiter.can_make_request?
-          wait_time = rate_limiter.time_until_reset
-          reset_time = Time.at(Time.current.to_i + wait_time)
+        loop do
+          puts "#{progress} Processing #{repo_identifier}#{retry_count > 0 ? " (retry #{retry_count})" : ""}..."
 
-          puts "⚠️  GitHub API rate limit reached!"
-          puts "   • Processed: #{processed_count}/#{total_count} repositories"
-          puts "   • Remaining: #{total_count - processed_count} repositories"
-          puts "   • Rate limit resets in: #{wait_time} seconds (#{reset_time})"
-          puts "   • Remaining requests: #{rate_limiter.requests_remaining}"
-          puts
+          # Check GitHub's actual rate limit before processing
+          if github_rate_limited?
+            github_info = get_github_rate_limit_info
+            reset_time_utc = github_info[:resets_at]
+            wait_time = github_info[:resets_in]
 
-          if options[:wait_and_retry]
-            puts "⏳ Waiting for rate limit to reset..."
-            puts "   • Will resume at: #{reset_time}"
-            puts "   • Press Ctrl+C to stop and resume manually later"
+            puts "⚠️  GitHub API rate limit reached!"
+            puts "   • Processed: #{index}/#{total_count} repositories"
+            puts "   • Remaining: #{total_count - index} repositories"
+            puts "   • Rate limit resets in: #{wait_time} seconds"
+            puts "   • Will resume at: #{reset_time_utc.in_time_zone}"
+            puts "   • Remaining requests: #{github_info[:remaining]}"
             puts
 
-            # Wait until the exact reset time (plus a small buffer)
-            current_time = Time.current
-            if reset_time > current_time
-              sleep_duration = (reset_time - current_time) + 10 # 10 second buffer
-              puts "   • Sleeping for #{sleep_duration.round} seconds..."
-              sleep(sleep_duration)
+            if options[:wait_and_retry]
+              puts "⏳ Waiting for rate limit to reset..."
+              puts "   • Will resume at: #{reset_time_utc.in_time_zone}"
+              puts "   • Press Ctrl+C to stop and resume manually later"
+              puts
+
+              # Wait until the exact reset time (plus a small buffer) using GitHub's time
+              current_time_utc = Time.current
+              if reset_time_utc > current_time_utc
+                sleep_duration = (reset_time_utc - current_time_utc) + 10 # 10 second buffer
+                puts "   • Sleeping for #{sleep_duration.round} seconds..."
+                puts "   • Current time: #{current_time_utc.in_time_zone}"
+                puts "   • Reset time: #{reset_time_utc.in_time_zone}"
+                sleep(sleep_duration)
+              end
+
+              puts "🔄 Rate limit reset! Resuming processing..."
+              puts
+
+              # Continue with current repository (rate limit should be reset)
+              next
+            else
+              puts "🛑 Stopping sync to respect rate limits."
+              puts "💡 To resume processing later:"
+              puts "   1. Wait until #{reset_time_utc.in_time_zone}"
+              resume_limit = total_count - index
+              sync_flag = options[:sync] ? "--sync" : ""
+              puts "   2. Run: bundle exec ruby lib/cli/markdown_processor.rb sync " \
+                   "--limit #{resume_limit} #{sync_flag}".strip
+              puts "   Or for async processing: bundle exec ruby lib/cli/markdown_processor.rb sync " \
+                   "--limit #{resume_limit}"
+              puts "   Or for automatic retry: bundle exec ruby lib/cli/markdown_processor.rb sync " \
+                   "--limit #{resume_limit} #{sync_flag} --wait-and-retry".strip
+              puts
+
+              puts "⚠️  Sync stopped due to rate limiting!"
+              puts "📊 Summary:"
+              puts "   • Total to process: #{total_count}"
+              puts "   • Successful: #{successful_count}"
+              puts "   • Failed: #{failed_count}"
+              puts "   • Skipped (rate limited): #{total_count - index}"
+              puts
+              puts "📁 Output directory: #{File.expand_path(output_dir)}"
+
+              return
             end
-
-            puts "🔄 Rate limit reset! Resuming processing..."
-            puts
-
-            # Refresh rate limiter and continue with current repository
-            rate_limiter = GithubRateLimiterService.new
-            next # Retry the current repository
-          else
-            puts "🛑 Stopping sync to respect rate limits."
-            puts "💡 To resume processing later:"
-            puts "   1. Wait until #{reset_time}"
-            resume_limit = total_count - processed_count
-            puts "   2. Run: bundle exec ruby lib/cli/markdown_processor.rb sync --limit #{resume_limit} #{'--sync' if options[:sync]}"
-            puts "   Or for async processing: bundle exec ruby lib/cli/markdown_processor.rb sync --limit #{resume_limit}"
-            puts "   Or for automatic retry: bundle exec ruby lib/cli/markdown_processor.rb sync --limit #{resume_limit} #{'--sync' if options[:sync]} --wait-and-retry"
-            puts
-
-            puts "⚠️  Sync stopped due to rate limiting!"
-            puts "📊 Summary:"
-            puts "   • Total to process: #{total_count}"
-            puts "   • Successful: #{successful_count}"
-            puts "   • Failed: #{failed_count}"
-            puts "   • Skipped (rate limited): #{total_count - processed_count}"
-            puts
-            puts "📁 Output directory: #{File.expand_path(output_dir)}"
-
-            return
           end
-        end
 
-        # Double-check rate limit right before API call
-        unless rate_limiter.can_make_request?
-          puts "⚠️  Rate limit hit between checks, waiting..."
-          if options[:wait_and_retry]
-            wait_time = rate_limiter.time_until_reset
-            reset_time = Time.at(Time.current.to_i + wait_time)
-            current_time = Time.current
-            if reset_time > current_time
-              sleep_duration = (reset_time - current_time) + 10
-              puts "   • Sleeping until #{reset_time} (#{sleep_duration.round} seconds)..."
-              sleep(sleep_duration)
+          # Double-check rate limit right before API call
+          if github_rate_limited?
+            puts "⚠️  Rate limit hit between checks, waiting..."
+            if options[:wait_and_retry]
+              github_info = get_github_rate_limit_info
+              reset_time_utc = github_info[:resets_at]
+              current_time_utc = Time.current
+              if reset_time_utc > current_time_utc
+                sleep_duration = (reset_time_utc - current_time_utc) + 10
+                puts "   • Sleeping until #{reset_time_utc.in_time_zone} (#{sleep_duration.round} seconds)..."
+                sleep(sleep_duration)
+              end
+              next # Continue to retry this repository
+            else
+              puts "❌ Stopping due to rate limit"
+              return
             end
-            rate_limiter = GithubRateLimiterService.new
-            next
-          else
-            puts "❌ Stopping due to rate limit"
-            return
           end
-        end
 
-        # Process the repository
-        begin
-          result = ProcessAwesomeListService.new(repo_identifier:, sync: options[:sync]).call
+          # Process the repository
+          begin
+            result = ProcessAwesomeListService.new(repo_identifier:, sync: options[:sync]).call
 
-          if result.success?
-            successful_count += 1
-            puts "✅ Successfully processed #{repo_identifier}"
-          else
-            # Check if failure is due to rate limiting
-            error_message = result.failure.to_s
+            if result.success?
+              successful_count += 1
+              puts "✅ Successfully processed #{repo_identifier}"
+              break # Success - exit the retry loop and move to next repo
+            else
+              # Check if failure is due to rate limiting
+              error_message = result.failure.to_s
+              if rate_limit_error.call(error_message)
+                puts "⚠️  Rate limit error detected in service operation"
+                if options[:wait_and_retry]
+                  puts "⏳ Waiting for rate limit to reset..."
+                  github_info = get_github_rate_limit_info
+                  if github_info
+                    reset_time_utc = github_info[:resets_at]
+                    puts "   • Will resume at: #{reset_time_utc.in_time_zone}"
+                    current_time_utc = Time.current
+                    if reset_time_utc > current_time_utc
+                      sleep_duration = (reset_time_utc - current_time_utc) + 10
+                      puts "   • Sleeping for #{sleep_duration.round} seconds..."
+                      sleep(sleep_duration)
+                    end
+                  else
+                    # Fallback to a reasonable wait time if we can't get rate limit info
+                    puts "   • Using fallback wait time of 60 minutes..."
+                    sleep(3600) # 1 hour
+                  end
+                  puts "🔄 Rate limit reset! Retrying #{repo_identifier}..."
+                  retry_count += 1
+                  next # Retry this repository indefinitely
+                else
+                  # Mark as failed due to rate limiting
+                  awesome_list.fail_processing! rescue nil
+                  failed_count += 1
+                  failed_repos << repo_identifier
+                  puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
+                  break # Exit retry loop and move to next repo
+                end
+              else
+                # Mark as failed due to other errors
+                awesome_list.fail_processing! rescue nil
+                failed_count += 1
+                failed_repos << repo_identifier
+                puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
+                break # Exit retry loop and move to next repo
+              end
+            end
+          rescue => e
+            error_message = e.message
             if rate_limit_error.call(error_message)
-              puts "⚠️  Rate limit error detected in service operation"
+              puts "⚠️  Rate limit error detected in exception"
               if options[:wait_and_retry]
                 puts "⏳ Waiting for rate limit to reset..."
-                wait_time = rate_limiter.time_until_reset
-                reset_time = Time.at(Time.current.to_i + wait_time)
-                puts "   • Will resume at: #{reset_time}"
-                current_time = Time.current
-                if reset_time > current_time
-                  sleep_duration = (reset_time - current_time) + 10
-                  puts "   • Sleeping for #{sleep_duration.round} seconds..."
-                  sleep(sleep_duration)
+                github_info = get_github_rate_limit_info
+                if github_info
+                  reset_time_utc = github_info[:resets_at]
+                  puts "   • Will resume at: #{reset_time_utc.in_time_zone}"
+                  current_time_utc = Time.current
+                  if reset_time_utc > current_time_utc
+                    sleep_duration = (reset_time_utc - current_time_utc) + 10
+                    puts "   • Sleeping for #{sleep_duration.round} seconds..."
+                    sleep(sleep_duration)
+                  end
+                else
+                  # Fallback to a reasonable wait time if we can't get rate limit info
+                  puts "   • Using fallback wait time of 60 minutes..."
+                  sleep(3600) # 1 hour
                 end
                 puts "🔄 Rate limit reset! Retrying #{repo_identifier}..."
-                rate_limiter = GithubRateLimiterService.new
-                next # Retry the current repository without incrementing processed_count
+                retry_count += 1
+                next # Retry this repository indefinitely
               else
                 # Mark as failed due to rate limiting
                 awesome_list.fail_processing! rescue nil
                 failed_count += 1
                 failed_repos << repo_identifier
-                puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
+                puts "❌ Error processing #{repo_identifier}: #{e.message}"
+                break # Exit retry loop and move to next repo
               end
             else
               # Mark as failed due to other errors
               awesome_list.fail_processing! rescue nil
               failed_count += 1
               failed_repos << repo_identifier
-              puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
-            end
-          end
-        rescue => e
-          error_message = e.message
-          if rate_limit_error.call(error_message)
-            puts "⚠️  Rate limit error detected in exception"
-            if options[:wait_and_retry]
-              puts "⏳ Waiting for rate limit to reset..."
-              wait_time = rate_limiter.time_until_reset
-              reset_time = Time.at(Time.current.to_i + wait_time)
-              puts "   • Will resume at: #{reset_time}"
-              current_time = Time.current
-              if reset_time > current_time
-                sleep_duration = (reset_time - current_time) + 10
-                puts "   • Sleeping for #{sleep_duration.round} seconds..."
-                sleep(sleep_duration)
-              end
-              puts "🔄 Rate limit reset! Retrying #{repo_identifier}..."
-              rate_limiter = GithubRateLimiterService.new
-              next # Retry the current repository without incrementing processed_count
-            else
-              # Mark as failed due to rate limiting
-              awesome_list.fail_processing! rescue nil
-              failed_count += 1
-              failed_repos << repo_identifier
               puts "❌ Error processing #{repo_identifier}: #{e.message}"
+              break # Exit retry loop and move to next repo
             end
-          else
-            # Mark as failed due to other errors
-            awesome_list.fail_processing! rescue nil
-            failed_count += 1
-            failed_repos << repo_identifier
-            puts "❌ Error processing #{repo_identifier}: #{e.message}"
           end
         end
-
-        processed_count += 1
 
         # Add a small delay between repositories to be respectful
         sleep(0.5) if options[:sync]

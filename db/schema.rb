@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_09_052246) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_09_054327) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -22,9 +22,9 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_09_052246) do
     t.datetime "updated_at", null: false
     t.datetime "last_commit_at"
     t.boolean "skip_external_links", default: true, null: false
-    t.integer "state", default: 0, null: false
     t.datetime "processing_started_at"
     t.datetime "processing_completed_at"
+    t.string "state", default: "pending", null: false
     t.index ["state"], name: "index_awesome_lists_on_state"
   end
 

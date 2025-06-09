@@ -29,7 +29,7 @@ class AwesomeList < ApplicationRecord
   has_many :categories, dependent: :destroy
 
   # AASM state machine for processing status
-  aasm column: :state, enum: true do
+  aasm column: :state do
     state :pending, initial: true
     state :in_progress
     state :completed
@@ -71,9 +71,9 @@ class AwesomeList < ApplicationRecord
   end
 
   # Scopes for filtering
-  scope :incomplete, -> { where.not(state: :completed) }
-  scope :failed_or_incomplete, -> { where(state: %i[pending in_progress failed]) }
+  scope :incomplete, -> { where.not(state: "completed") }
+  scope :failed_or_incomplete, -> { where(state: %w[pending in_progress failed]) }
   scope :processing_timeout, ->(timeout = 1.hour.ago) {
-    where(processing_started_at: ...timeout, state: :in_progress)
+    where(processing_started_at: ...timeout, state: "in_progress")
   }
 end
