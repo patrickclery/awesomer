@@ -4,7 +4,7 @@ development:
       batch_size: 500
   workers:
     - queues: "github_stats"
-      threads: 2
+      threads: 1
       processes: 1
       polling_interval: 1
     - queues: "markdown_processing"
@@ -12,7 +12,7 @@ development:
       processes: 1
       polling_interval: 5
     - queues: "default"
-      threads: 3
+      threads: 1
       processes: <%= ENV.fetch("JOB_CONCURRENCY", 1) %>
       polling_interval: 0.1
 
@@ -22,7 +22,7 @@ test:
       batch_size: 500
   workers:
     - queues: "github_stats"
-      threads: 2
+      threads: 1
       processes: 1
       polling_interval: 1
     - queues: "markdown_processing"
@@ -30,7 +30,7 @@ test:
       processes: 1
       polling_interval: 5
     - queues: "default"
-      threads: 3
+      threads: 1
       processes: <%= ENV.fetch("JOB_CONCURRENCY", 1) %>
       polling_interval: 0.1
 
@@ -40,14 +40,14 @@ production:
       batch_size: 500
   workers:
     - queues: "github_stats"
-      threads: 2
-      processes: 1
+      threads: 1
+      processes: 2
       polling_interval: 1
     - queues: "markdown_processing"
       threads: 1
       processes: 1
       polling_interval: 5
     - queues: "default"
-      threads: 3
-      processes: <%= ENV.fetch("JOB_CONCURRENCY", 1) %>
+      threads: 1
+      processes: <%= ENV.fetch("JOB_CONCURRENCY", 2) %>
       polling_interval: 0.1
