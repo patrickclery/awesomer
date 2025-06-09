@@ -1,4 +1,4 @@
-default: &default
+development:
   dispatchers:
     - polling_interval: 1
       batch_size: 500
@@ -16,11 +16,38 @@ default: &default
       processes: <%= ENV.fetch("JOB_CONCURRENCY", 1) %>
       polling_interval: 0.1
 
-development:
-  <<: *default
-
 test:
-  <<: *default
+  dispatchers:
+    - polling_interval: 1
+      batch_size: 500
+  workers:
+    - queues: "github_stats"
+      threads: 2
+      processes: 1
+      polling_interval: 1
+    - queues: "markdown_processing"
+      threads: 1
+      processes: 1
+      polling_interval: 5
+    - queues: "default"
+      threads: 3
+      processes: <%= ENV.fetch("JOB_CONCURRENCY", 1) %>
+      polling_interval: 0.1
 
 production:
-  <<: *default
+  dispatchers:
+    - polling_interval: 1
+      batch_size: 500
+  workers:
+    - queues: "github_stats"
+      threads: 2
+      processes: 1
+      polling_interval: 1
+    - queues: "markdown_processing"
+      threads: 1
+      processes: 1
+      polling_interval: 5
+    - queues: "default"
+      threads: 3
+      processes: <%= ENV.fetch("JOB_CONCURRENCY", 1) %>
+      polling_interval: 0.1
