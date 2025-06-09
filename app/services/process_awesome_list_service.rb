@@ -33,37 +33,49 @@ class ProcessAwesomeListService
     repo_shortname = "#{fetched_data[:owner]}/#{fetched_data[:repo]}"
     aw_list_record = yield find_or_create_awesome_list_operation.call(fetched_repo_data: fetched_data)
 
-    # Pass the skip_external_links flag from the AwesomeList record to the parser
-    skip_links_flag = aw_list_record.skip_external_links
-    # puts "DEBUG: Processing with skip_external_links: #{skip_links_flag}" # Optional debug
+    # Mark as started processing
+    aw_list_record.start_processing!
 
-    markdown_content = fetched_data[:content]
-    categories_from_parse = yield parse_markdown_operation.call(
-      markdown_content:,
-      skip_external_links: skip_links_flag
-    )
-    return Success([]) if categories_from_parse.empty?
+    begin
+      # Pass the skip_external_links flag from the AwesomeList record to the parser
+      skip_links_flag = aw_list_record.skip_external_links
+      # puts "DEBUG: Processing with skip_external_links: #{skip_links_flag}" # Optional debug
 
-    sync_result = sync_git_stats_operation.call(
-      categories: categories_from_parse,
-      repo_identifier: @repo_identifier,
-      sync: @sync
-    )
-    categories_to_process_md = if sync_result.success?
-                                 sync_result.value!
-    else
-                                 Rails.logger.warn "ProcessAwesomeListService: Failed to sync GitHub stats for " \
-                                                    "items: #{sync_result.failure}. Proceeding with original " \
-                                                    "parsed data."
-                                 categories_from_parse
+      markdown_content = fetched_data[:content]
+      categories_from_parse = yield parse_markdown_operation.call(
+        markdown_content:,
+        skip_external_links: skip_links_flag
+      )
+      return Success([]) if categories_from_parse.empty?
+
+      sync_result = sync_git_stats_operation.call(
+        categories: categories_from_parse,
+        repo_identifier: @repo_identifier,
+        sync: @sync
+      )
+      categories_to_process_md = if sync_result.success?
+                                   sync_result.value!
+      else
+                                   Rails.logger.warn "ProcessAwesomeListService: Failed to sync GitHub stats for " \
+                                                      "items: #{sync_result.failure}. Proceeding with original " \
+                                                      "parsed data."
+                                   categories_from_parse
+      end
+
+      final_markdown_files_result = yield process_category_service.call(
+        categories: categories_to_process_md,
+        repo_identifier: @repo_identifier
+      )
+
+      # Mark as completed successfully
+      aw_list_record.complete_processing!
+
+      Success(final_markdown_files_result)
+    rescue => e
+      # Mark as failed if any error occurs
+      aw_list_record.fail_processing!
+      raise e
     end
-
-    final_markdown_files_result = yield process_category_service.call(
-      categories: categories_to_process_md,
-      repo_identifier: @repo_identifier
-    )
-
-    Success(final_markdown_files_result)
     # ActiveRecord::ActiveRecordError is now handled within FindOrCreateAwesomeListOperation
     # and will be propagated as a Failure by the yield above if it occurs.
   end
