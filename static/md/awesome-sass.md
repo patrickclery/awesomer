@@ -40,10 +40,10 @@
 
 ## Animation
 
-| Name                                                        | Description                                                                        | Stars | Last Commit |
-|-------------------------------------------------------------|------------------------------------------------------------------------------------|-------|-------------|
-| [Animate.scss](https://github.com/geoffgraham/animate.scss) | Port of Dan Eden's [Animate.css](https://daneden.github.io/animate.css/) for SASS. | 659   | 2025-03-21  |
-| [Sass Burger](https://github.com/jorenvanhee/sass-burger)   | Sass mixin for creating animated hamburger icon.                                   | 649   | 2021-09-29  |
+| Name                                                        | Description                                      | Stars | Last Commit |
+|-------------------------------------------------------------|--------------------------------------------------|-------|-------------|
+| [Animate.scss](https://github.com/geoffgraham/animate.scss) | Port of Dan Eden's for SASS.                     | 659   | 2025-03-21  |
+| [Sass Burger](https://github.com/jorenvanhee/sass-burger)   | Sass mixin for creating animated hamburger icon. | 649   | 2021-09-29  |
 
 ## Miscellaneous
 
@@ -57,7 +57,7 @@
 | [Sass flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) | Set of mixins for those who want to mess around with flexbox using the native support of current browsers.                          | 1121  | 2018-01-16  |
 | [Angled Edges](https://github.com/josephfusco/angled-edges)           | Sass mixin for creating angled edges on sections by dynamically encoding SVGs.                                                      | 960   | 2019-01-04  |
 | [Scut](https://github.com/davidtheclark/scut)                         | Collection of Sass utilities to ease and improve the implementations of common style-code patterns.                                 | 764   | 2022-02-07  |
-| [Sassdash](https://github.com/davidkpiano/sassdash)                   | The Sass implementation of lodash ([API documentation](http://davidkpiano.github.io/sassdash)).                                     | 391   | 2023-07-21  |
+| [Sassdash](https://github.com/davidkpiano/sassdash)                   | The Sass implementation of lodash .                                                                                                 | 391   | 2023-07-21  |
 | [Sass Deprecate](https://github.com/salesforce-ux/sass-deprecate)     | Sass mixin that helps managing code deprecation.                                                                                    | 272   | 2021-10-12  |
 | [Buttono](https://github.com/hsnaydd/buttono)                         | A flexible Sass mixin for creating BEM-style buttons.                                                                               | 90    | 2025-03-10  |
 
@@ -84,7 +84,7 @@
 | [libsass](https://github.com/sass/libsass)                                           | C/C++ implementation of a Sass compiler.                                                                                                                                             | 4348  | 2024-01-27  |
 | [dart-sass](https://github.com/sass/dart-sass)                                       | Dart implementation of Sass.                                                                                                                                                         | 4083  | 2025-05-26  |
 | [sass-loader](https://github.com/jtangelder/sass-loader)                             | Sass loader for webpack.                                                                                                                                                             | 3906  | 2025-05-19  |
-| [scss-lint](https://github.com/brigade/scss-lint)                                    | Configurable tool for writing clean and consistent SCSS. [(deprecated)](https://github.com/brigade/scss-lint#notice-consider-other-tools-before-adopting-scss-lint)                  | 3665  | 2024-01-16  |
+| [scss-lint](https://github.com/brigade/scss-lint)                                    | Configurable tool for writing clean and consistent SCSS.                                                                                                                             | 3665  | 2024-01-16  |
 | [sass-rails](https://github.com/rails/sass-rails)                                    | Ruby on Rails stylesheet engine for Sass.                                                                                                                                            | 865   | 2020-10-01  |
 | [libsass-python](https://github.com/dahlia/libsass-python)                           | Binding of libsass for Python.                                                                                                                                                       | 569   | 2025-05-28  |
 | [node-sass-magic-importer](https://github.com/maoberlehner/node-sass-magic-importer) | Custom node-sass importer for selector specific imports, node importing, module importing, globbing support and importing files only once.                                           | 294   | 2023-10-16  |

@@ -8,11 +8,11 @@
 | [n98-magerun2](https://github.com/netz98/n98-magerun2)                                                                        | The CLI Swiss Army Knife for Magento 2.                                                                                                     | 901   | 2025-05-26  |
 | [Pestle](https://github.com/astorm/pestle)                                                                                    | Code Generation Tool by Alan Storm.                                                                                                         | 532   | 2023-04-19  |
 | [PhpStorm Magento2 Extension](https://github.com/magento/magento2-phpstorm-plugin)                                            | Official PhpStorm Magento2<br>Extension.                                                                                                    | 450   | 2025-05-17  |
-| [Warden](https://github.com/wardenenv/warden)                                                                                 | A CLI utility for working with docker-compose environments<br>by [David Alger](https://davidalger.com/)                                     | 445   | 2025-05-23  |
-| [Mage Chrome Toolbar](https://github.com/magespecialist/mage-chrome-toolbar)                                                  | A MUST-HAVE Chrome Extension for<br>Magento 2 by [MageSpecialist](https://github.com/magespecialist).                                       | 337   | 2024-04-22  |
+| [Warden](https://github.com/wardenenv/warden)                                                                                 | A CLI utility for working with docker-compose environments<br>by                                                                            | 445   | 2025-05-23  |
+| [Mage Chrome Toolbar](https://github.com/magespecialist/mage-chrome-toolbar)                                                  | A MUST-HAVE Chrome Extension for<br>Magento 2 by .                                                                                          | 337   | 2024-04-22  |
 | [AmpersandHQ/ampersand-magento2-upgrade-patch-helper](https://github.com/AmpersandHQ/ampersand-magento2-upgrade-patch-helper) | Helper script to aid upgrading magento 2 websites by detecting overrides.                                                                   | 335   | 2024-11-11  |
 | [Magento 2 Url Data Integrity Checker](https://github.com/baldwin-agency/magento2-module-url-data-integrity-checker)          | Magento 2 module which can find potential url related problems in your catalog data                                                         | 266   | 2025-04-09  |
-| [Masquerade](https://github.com/elgentos/masquerade)                                                                          | Faker-driven, configuration-based, platform-agnostic,<br>locale-compatible data faker tool                                                  | 235   | 2023-10-19  |
+| [Masquerade](https://github.com/elgentos/masquerade)                                                                          | Faker-driven, configuration-based, platform-agnostic<br>locale-compatible data faker tool                                                   | 235   | 2023-10-19  |
 | [MageSpecialist DevTools for Magento 2](https://github.com/magespecialist/m2-MSP_DevTools)                                    |                                                                                                                                             | 224   | 2024-06-20  |
 | [Tango](https://github.com/roma-glushko/tango)                                                                                | CLI for analyzing access logs                                                                                                               | 111   | 2023-02-19  |
 | [Subodha Magento2 Gulp Integration](https://github.com/subodha/magento-2-gulp)                                                | Magento 2 Gulp Integration                                                                                                                  | 76    | 2021-05-10  |
@@ -50,7 +50,7 @@
 
 | Name                                                                         | Description                                                                               | Stars | Last Commit |
 |------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------|-------------|
-| [Deployer Magento2 Recipe](https://github.com/deployphp/deployer)            | Magento2<br>deployment recipe for [deployer](https://deployer.org/).                      | 10851 | 2025-05-15  |
+| [Deployer Magento2 Recipe](https://github.com/deployphp/deployer)            | Magento2<br>deployment recipe for .                                                       | 10851 | 2025-05-15  |
 | [Magento 2 Deployer Plus](https://github.com/jalogut/magento2-deployer-plus) | Tool based on deployer.org to perform<br>zero downtime deployments of Magento 2 projects. | 202   | 2022-10-03  |
 | [Github Actions for Magento2](https://github.com/extdn/github-actions-m2)    | GitHub Actions for Magento 2 Extensions                                                   | 140   | 2025-05-24  |
 
@@ -94,11 +94,11 @@
 
 ## Marketing
 
-| Name                                                                         | Description                                                       | Stars | Last Commit |
-|------------------------------------------------------------------------------|-------------------------------------------------------------------|-------|-------------|
-| [Google Tag Manager](https://github.com/magepal/magento2-google-tag-manager) | Google Tag Manager (GTM) with Data<br>Layer for Magento2.         | 258   | 2025-04-16  |
-| [MagePlaza Seo](https://github.com/mageplaza/magento-2-seo-extension)        | Well documented multi purpose SEO Extension.                      | 136   | 2025-05-23  |
-| [Magento 2 PDF](https://github.com/staempfli/magento2-module-pdf)            | PDF Generator based<br>on [wkhtmltopdf](http://wkhtmltopdf.org/). | 58    | 2020-09-16  |
+| Name                                                                         | Description                                               | Stars | Last Commit |
+|------------------------------------------------------------------------------|-----------------------------------------------------------|-------|-------------|
+| [Google Tag Manager](https://github.com/magepal/magento2-google-tag-manager) | Google Tag Manager (GTM) with Data<br>Layer for Magento2. | 258   | 2025-04-16  |
+| [MagePlaza Seo](https://github.com/mageplaza/magento-2-seo-extension)        | Well documented multi purpose SEO Extension.              | 136   | 2025-05-23  |
+| [Magento 2 PDF](https://github.com/staempfli/magento2-module-pdf)            | PDF Generator based<br>on .                               | 58    | 2020-09-16  |
 
 ## Adminhtml / Backend
 
@@ -115,11 +115,11 @@
 | [Checkout Tester](https://github.com/yireo/Yireo_CheckoutTester2)                                   | Extension to quickly test Checkout changes.                                                                                                                                                    | 84    | 2024-10-24  |
 | [Preview Checkout Success Page](https://github.com/magepal/magento2-preview-checkout-success-page)  | quickly and<br>easily preview and test your order confirmation page, without the need to placing a new order each time.                                                                        | 79    | 2025-04-16  |
 | [Guest to Customer](https://github.com/magepal/magento2-guest-to-customer)                          | Quickly and easily convert existing guest<br>checkout customers to registered customers.                                                                                                       | 68    | 2025-04-16  |
-| [shkoliar/magento-grid-colors](https://github.com/shkoliar/magento-grid-colors)                     | Magento 2 Grid Colors module for<br>colorizing admin grids. Supports saving of states with the help of grid's bookmarks.<br>by [Dmitry Shkoliar](https://shkoliar.com/)                        | 63    | 2021-10-05  |
-| [extdn/extension-dashboard-m2](https://github.com/extdn/extension-dashboard-m2)                     | A Magento 2 dashboard to display<br>installed extensions. by [Magento Extension Developers Network](https://extdn.org/)                                                                        | 39    | 2022-03-23  |
+| [shkoliar/magento-grid-colors](https://github.com/shkoliar/magento-grid-colors)                     | Magento 2 Grid Colors module for<br>colorizing admin grids. Supports saving of states with the help of grid's bookmarks.<br>by                                                                 | 63    | 2021-10-05  |
+| [extdn/extension-dashboard-m2](https://github.com/extdn/extension-dashboard-m2)                     | A Magento 2 dashboard to display<br>installed extensions. by                                                                                                                                   | 39    | 2022-03-23  |
 | [PageNotFound](https://github.com/experius/Magento-2-Module-PageNotFound)                           | Saves upcoming 404 in your Database with<br>the possibility to created a redirect.                                                                                                             | 37    | 2025-05-14  |
 | [Reset UI Bookmarks](https://github.com/magenizr/Magenizr_ResetUiBookmarks)                         | Reset UI Bookmarks allows admin users to<br>reset their own UI bookmarks such as state of filters, column positions and applied sorting ( e.g Sales &gt; Orders ).                             | 37    | 2024-07-17  |
-| [Reset Customer Password](https://github.com/Vinai/module-customer-password-command)                | Set a customer password with<br>bin/magento by [Vinai Kopp](https://github.com/Vinai/).                                                                                                        | 27    | 2022-06-15  |
+| [Reset Customer Password](https://github.com/Vinai/module-customer-password-command)                | Set a customer password with<br>bin/magento by .                                                                                                                                               | 27    | 2022-06-15  |
 | [Product Links Navigator](https://github.com/elninotech/ElNino_ProductLinksNavigator)               | Enhances admin product-to-product navigation. Adds direct frontend/backend links to products in grids and modals, and "Parent Products" tab.                                                   | 17    | 2025-02-27  |
 | [hivecommerce/magento2-content-fuzzyfyr](https://github.com/hivecommerce/magento2-content-fuzzyfyr) | The Content<br>Fuzzyfyr module for Magento2 replaces real content with dummy content. This is for development purposes, e.g. save<br>time to prepare test data and matching GDPR restrictions. | 14    | 2024-09-02  |
 
@@ -166,8 +166,8 @@
 
 ## Other Magento 2 related Awesome Lists
 
-| Name                                                        | Description                                                                                          | Stars | Last Commit |
-|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Awesome PHP](https://github.com/ziadoz/awesome-php)        | A curated List of Awesome PHP Resources.                                                             | 31604 | 2025-05-12  |
-| [Mageres](https://github.com/aleron75/mageres)              | Alessandro Ronchi's List of resources for Magento 1 and Magento 2.                                   | 995   | 2025-05-26  |
-| [Awesome Magento](https://github.com/sunel/awesome-magento) | An Awesome Magento List with mixed M1 and M2 Content<br>by [sunel](https://github.com/sunel).<br>--- | 89    | 2021-07-06  |
+| Name                                                        | Description                                                         | Stars | Last Commit |
+|-------------------------------------------------------------|---------------------------------------------------------------------|-------|-------------|
+| [Awesome PHP](https://github.com/ziadoz/awesome-php)        | A curated List of Awesome PHP Resources.                            | 31604 | 2025-05-12  |
+| [Mageres](https://github.com/aleron75/mageres)              | Alessandro Ronchi's List of resources for Magento 1 and Magento 2.  | 995   | 2025-05-26  |
+| [Awesome Magento](https://github.com/sunel/awesome-magento) | An Awesome Magento List with mixed M1 and M2 Content<br>by .<br>--- | 89    | 2021-07-06  |

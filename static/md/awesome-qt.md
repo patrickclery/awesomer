@@ -9,9 +9,9 @@
 
 ## Bindings in Other Languages
 
-| Name                                                                    | Description                                                                                                                                                                                                                                                  | Stars | Last Commit |
-|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Mono/.NET languages (via QtSharp)](https://github.com/ddobrev/QtSharp) | See these [these](https://www.ics.com/blog/using-qt-alternative-programming-languages-part-1) [three](https://www.ics.com/blog/using-qt-alternative-programming-languages-part-2) [articles](https://wiki.qt.io/Category:LanguageBindings) if you want more. | 579   | 2019-06-26  |
+| Name                                                                    | Description                 | Stars | Last Commit |
+|-------------------------------------------------------------------------|-----------------------------|-------|-------------|
+| [Mono/.NET languages (via QtSharp)](https://github.com/ddobrev/QtSharp) | See these if you want more. | 579   | 2019-06-26  |
 
 ## Integrations
 
@@ -45,9 +45,9 @@
 
 ## Software Repositories
 
-| Name                                         | Description                                                                                                                                                                                                                                      | Stars | Last Commit |
-|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [QtPods](https://github.com/qt-pods/qt-pods) | Another Qt-centric package manager. If you want to see the offerings without using QtPods, the full list is available [here](https://github.com/qt-pods/qt-pods-master/blob/master/pods.json), and can be added to by submitting a pull request. | 61    | 2019-11-15  |
+| Name                                         | Description                                                                                                                                                               | Stars | Last Commit |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [QtPods](https://github.com/qt-pods/qt-pods) | Another Qt-centric package manager. If you want to see the offerings without using QtPods, the full list is available , and can be added to by submitting a pull request. | 61    | 2019-11-15  |
 
 ## Other Relevant Awesome Lists
 

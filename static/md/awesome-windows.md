@@ -6,18 +6,18 @@
 
 ## Browsers
 
-| Name                                                                           | Description                                                                              | Stars | Last Commit |
-|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------|-------------|
-| [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) | Removes Google integration and tracking. ![Open-Source Software](/assets/opensource.svg) | 22580 | 2025-05-28  |
+| Name                                                                           | Description                                | Stars | Last Commit |
+|--------------------------------------------------------------------------------|--------------------------------------------|-------|-------------|
+| [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) | Removes Google integration and tracking. ! | 22580 | 2025-05-28  |
 
 ## Command Line Tools
 
-| Name                                                 | Description                                                                                                                                        | Stars  | Last Commit |
-|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp)           | A feature-rich command-line audio/video downloader. ![Open-Source Software](/assets/opensource.svg)                                                | 113501 | 2025-05-28  |
-| [Scoop](https://github.com/lukesampson/scoop)        | Command-line installer for Windows. ![Open-Source Software](/assets/opensource.svg)                                                                | 22368  | 2025-05-26  |
-| [gallery-dl](https://github.com/mikf/gallery-dl)     | Command-line program to download image galleries and collections from several image hosting sites. ![Open-Source Software](/assets/opensource.svg) | 13710  | 2025-05-27  |
-| [btop4win](https://github.com/aristocratos/btop4win) | Windows port of the famous btop resource monitor. ![Open-Source Software](/assets/opensource.svg)                                                  | 1097   | 2022-10-06  |
+| Name                                                 | Description                                                                                          | Stars  | Last Commit |
+|------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------|-------------|
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp)           | A feature-rich command-line audio/video downloader. !                                                | 113501 | 2025-05-28  |
+| [Scoop](https://github.com/lukesampson/scoop)        | Command-line installer for Windows. !                                                                | 22368  | 2025-05-26  |
+| [gallery-dl](https://github.com/mikf/gallery-dl)     | Command-line program to download image galleries and collections from several image hosting sites. ! | 13710  | 2025-05-27  |
+| [btop4win](https://github.com/aristocratos/btop4win) | Windows port of the famous btop resource monitor. !                                                  | 1097   | 2022-10-06  |
 
 ## Communication
 
@@ -29,9 +29,9 @@
 
 | Name                                                            | Description                                                                                                                                     | Stars | Last Commit |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) | Makes taskbar transparent. ![Open-Source Software](/assets/opensource.svg)                                                                      | 17157 | 2025-04-23  |
-| [OpenShell](https://github.com/Open-Shell/Open-Shell-Menu)      | Restores traditional Start Menu interface. ![Open-Source Software](/assets/opensource.svg)                                                      | 7737  | 2025-05-25  |
-| [YASB](https://github.com/amnweb/yasb)                          | Creates customizable status bars. ![Open-Source Software](/assets/opensource.svg)                                                               | 1838  | 2025-05-29  |
+| [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) | Makes taskbar transparent. !                                                                                                                    | 17157 | 2025-04-23  |
+| [OpenShell](https://github.com/Open-Shell/Open-Shell-Menu)      | Restores traditional Start Menu interface. !                                                                                                    | 7737  | 2025-05-25  |
+| [YASB](https://github.com/amnweb/yasb)                          | Creates customizable status bars. !                                                                                                             | 1838  | 2025-05-29  |
 | [Sucrose Wallpaper Engine](https://github.com/Taiizor/Sucrose)  | A live wallpaper app, a free and opensource alternative to Wallpaper Engine. [![Open-Source Software][oss]](https://github.com/Taiizor/Sucrose) | 768   | 2025-05-14  |
 
 ## Databases Clients
@@ -48,16 +48,16 @@
 
 ## Game Stores
 
-| Name                                                | Description                                                                                          | Stars | Last Commit |
-|-----------------------------------------------------|------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Awesome Games](https://github.com/leereilly/games) | List of games hosted on GitHub.                                                                      | 23523 | 2024-04-19  |
-| [Gale](https://github.com/Kesomannen/gale)          | Modern and lightweight mod manager for Thunderstore. ![Open-Source Software](/assets/opensource.svg) | 281   | 2025-05-28  |
+| Name                                                | Description                                            | Stars | Last Commit |
+|-----------------------------------------------------|--------------------------------------------------------|-------|-------------|
+| [Awesome Games](https://github.com/leereilly/games) | List of games hosted on GitHub.                        | 23523 | 2024-04-19  |
+| [Gale](https://github.com/Kesomannen/gale)          | Modern and lightweight mod manager for Thunderstore. ! | 281   | 2025-05-28  |
 
 ## Graphics
 
-| Name                                            | Description                                                                                                        | Stars | Last Commit |
-|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Oculante](https://github.com/woelper/oculante) | Lightweight, fast and simple image viewer written in rust. ![Open-Source Software](/assets/opensource.svg) ![star] | 1259  | 2025-05-27  |
+| Name                                            | Description                                                          | Stars | Last Commit |
+|-------------------------------------------------|----------------------------------------------------------------------|-------|-------------|
+| [Oculante](https://github.com/woelper/oculante) | Lightweight, fast and simple image viewer written in rust. ! ![star] | 1259  | 2025-05-27  |
 
 ## Password Managers
 
@@ -69,9 +69,9 @@
 
 | Name                                                 | Description                                                                                                                   | Stars | Last Commit |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [STranslate](https://github.com/ZGGSONG/STranslate)  | A ready-to-go translation ocr tool developed with WPF ![Open-Source Software](/assets/opensource.svg) ![star]                 | 3697  | 2025-05-27  |
+| [STranslate](https://github.com/ZGGSONG/STranslate)  | A ready-to-go translation ocr tool developed with WPF ! ![star]                                                               | 3697  | 2025-05-27  |
 | [Saga Reader](https://github.com/sopaco/saga-reader) | A Blazing-Fast and Extremely-Lightweight Internet Reader driven by AI.Supports fetching of search engine information and RSS. | 133   | 2025-05-25  |
-| [Kaas](https://github.com/0xfrankz/Kaas)             | Privacy-focused LLM client for multiple AI services. ![Open-Source Software](/assets/opensource.svg)                          | 81    | 2025-04-03  |
+| [Kaas](https://github.com/0xfrankz/Kaas)             | Privacy-focused LLM client for multiple AI services. !                                                                        | 81    | 2025-04-03  |
 
 ## Proxy and VPN Tools
 
@@ -88,9 +88,9 @@
 
 ## Screen Capture
 
-| Name                                                | Description                                                                          | Stars | Last Commit |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------|-------|-------------|
-| [Greenshot](https://github.com/greenshot/greenshot) | Screenshot capture and editing tool. ![Open-Source Software](/assets/opensource.svg) | 4264  | 2025-05-26  |
+| Name                                                | Description                            | Stars | Last Commit |
+|-----------------------------------------------------|----------------------------------------|-------|-------------|
+| [Greenshot](https://github.com/greenshot/greenshot) | Screenshot capture and editing tool. ! | 4264  | 2025-05-26  |
 
 ## Screenshot
 
@@ -100,25 +100,25 @@
 
 ## System Utilities
 
-| Name                                             | Description                                                                                                                  | Stars  | Last Commit |
-|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------|-------------|
-| [scrcpy](https://github.com/Genymobile/scrcpy)   | Easily mirror and control your Android devices on computers via USB or WiFi. ![Open-Source Software](/assets/opensource.svg) | 122815 | 2025-05-22  |
-| [neohtop](https://github.com/Abdenasser/neohtop) | Modern system monitor built with Svelte and Rust. ![Open-Source Software](/assets/opensource.svg) ![star]                    | 6390   | 2025-02-26  |
-| [LightBulb](https://github.com/Tyrrrz/LightBulb) | Adaptive screen brightness utility.                                                                                          | 2425   | 2025-05-22  |
+| Name                                             | Description                                                                    | Stars  | Last Commit |
+|--------------------------------------------------|--------------------------------------------------------------------------------|--------|-------------|
+| [scrcpy](https://github.com/Genymobile/scrcpy)   | Easily mirror and control your Android devices on computers via USB or WiFi. ! | 122815 | 2025-05-22  |
+| [neohtop](https://github.com/Abdenasser/neohtop) | Modern system monitor built with Svelte and Rust. ! ![star]                    | 6390   | 2025-02-26  |
+| [LightBulb](https://github.com/Tyrrrz/LightBulb) | Adaptive screen brightness utility.                                            | 2425   | 2025-05-22  |
 
 ## Terminal
 
-| Name                                                        | Description                                                                                        | Stars | Last Commit |
-|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------|-------------|
-| [Alacritty](https://github.com/jwilm/alacritty)             | Cross-platform, GPU-accelerated terminal emulator. ![Open-Source Software](/assets/opensource.svg) | 58968 | 2025-05-28  |
-| [FluentTerminal](https://github.com/felixse/FluentTerminal) | UWP-based modern terminal emulator.                                                                | 9426  | 2024-08-30  |
-| [ConEmu](https://github.com/Maximus5/ConEmu)                | Customizable terminal with tabs, splits, and quake-style dropdown.                                 | 8821  | 2025-04-07  |
+| Name                                                        | Description                                                        | Stars | Last Commit |
+|-------------------------------------------------------------|--------------------------------------------------------------------|-------|-------------|
+| [Alacritty](https://github.com/jwilm/alacritty)             | Cross-platform, GPU-accelerated terminal emulator. !               | 58968 | 2025-05-28  |
+| [FluentTerminal](https://github.com/felixse/FluentTerminal) | UWP-based modern terminal emulator.                                | 9426  | 2024-08-30  |
+| [ConEmu](https://github.com/Maximus5/ConEmu)                | Customizable terminal with tabs, splits, and quake-style dropdown. | 8821  | 2025-04-07  |
 
 ## Version Control
 
-| Name                                                 | Description                                                                                           | Stars | Last Commit |
-|------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------|-------------|
-| [GitLight](https://github.com/colinlienard/gitlight) | Open-source GitHub &amp; GitLab notifications client. ![Open-Source Software](/assets/opensource.svg) | 810   | 2024-12-26  |
+| Name                                                 | Description                                             | Stars | Last Commit |
+|------------------------------------------------------|---------------------------------------------------------|-------|-------------|
+| [GitLight](https://github.com/colinlienard/gitlight) | Open-source GitHub &amp; GitLab notifications client. ! | 810   | 2024-12-26  |
 
 ## Window Management
 

@@ -46,10 +46,10 @@
 
 ## The big two automation libraries
 
-| Name                                                   | Description                                                                                                                                                                                    | Stars | Last Commit |
-|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Puppeteer](https://github.com/GoogleChrome/puppeteer) | Node.js offering a high-level API to control headless Chrome over the DevTools Protocol. See also [awesome-puppeteer](https://github.com/transitive-bullshit/awesome-puppeteer).               | 90764 | 2025-05-28  |
-| [Playwright](https://github.com/microsoft/playwright)  | Library to automate Chromium, Firefox and WebKit with a single API. Available for Node.js, Python, .Net, Java. See also [awesome-playwright](https://github.com/mxschmitt/awesome-playwright). | 72976 | 2025-05-28  |
+| Name                                                   | Description                                                                                                               | Stars | Last Commit |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Puppeteer](https://github.com/GoogleChrome/puppeteer) | Node.js offering a high-level API to control headless Chrome over the DevTools Protocol. See also .                       | 90764 | 2025-05-28  |
+| [Playwright](https://github.com/microsoft/playwright)  | Library to automate Chromium, Firefox and WebKit with a single API. Available for Node.js, Python, .Net, Java. See also . | 72976 | 2025-05-28  |
 
 ## Browser Adapters
 
@@ -59,10 +59,10 @@
 
 ## Android
 
-| Name                                                            | Description                                                                                         | Stars | Last Commit |
-|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-------|-------------|
-| [Facebook Stetho](https://github.com/facebook/stetho)           | Native Android debugging with Chrome DevTools.                                                      | 12697 | 2024-10-26  |
-| [j2v8-debugger](https://github.com/AlexTrotsenko/j2v8-debugger) | Debugging JavaScript running in [J2V8](https://github.com/eclipsesource/J2V8) with Chrome DevTools. | 92    | 2025-02-04  |
+| Name                                                            | Description                                           | Stars | Last Commit |
+|-----------------------------------------------------------------|-------------------------------------------------------|-------|-------------|
+| [Facebook Stetho](https://github.com/facebook/stetho)           | Native Android debugging with Chrome DevTools.        | 12697 | 2024-10-26  |
+| [j2v8-debugger](https://github.com/AlexTrotsenko/j2v8-debugger) | Debugging JavaScript running in with Chrome DevTools. | 92    | 2025-02-04  |
 
 ## ClojureScript
 

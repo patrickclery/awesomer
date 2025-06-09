@@ -28,14 +28,14 @@
 
 ## Other Awesome Lists
 
-| Name                                                                     | Description                      | Stars  | Last Commit |
-|--------------------------------------------------------------------------|----------------------------------|--------|-------------|
-| [awesome](https://github.com/sindresorhus/awesome)                       |                                  | 362648 | 2025-05-19  |
-| [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)   |                                  | 32595  | 2024-06-02  |
-| [lists](https://github.com/jnv/lists)                                    | [[Back to Top](#awesome-autoit)] | 10368  | 2025-05-20  |
-| [awesome-awesome](https://github.com/emijrp/awesome-awesome)             |                                  | 2952   | 2024-07-31  |
-| [awesome-awesomes](https://github.com/fleveque/awesome-awesomes)         |                                  | 598    | 2023-11-13  |
-| [awesome-awesome](https://github.com/erichs/awesome-awesome)             |                                  | 280    | 2023-11-13  |
-| [awesome-all](https://github.com/bradoyler/awesome-all)                  |                                  | 220    | 2024-10-16  |
-| [awesome-collection](https://github.com/flyhigher139/awesome-collection) |                                  | 125    | 2017-04-18  |
-| [awesome-awesome](https://github.com/oyvindrobertsen/awesome-awesome)    |                                  | 116    | 2021-02-27  |
+| Name                                                                     | Description | Stars  | Last Commit |
+|--------------------------------------------------------------------------|-------------|--------|-------------|
+| [awesome](https://github.com/sindresorhus/awesome)                       |             | 362648 | 2025-05-19  |
+| [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)   |             | 32595  | 2024-06-02  |
+| [lists](https://github.com/jnv/lists)                                    | ]           | 10368  | 2025-05-20  |
+| [awesome-awesome](https://github.com/emijrp/awesome-awesome)             |             | 2952   | 2024-07-31  |
+| [awesome-awesomes](https://github.com/fleveque/awesome-awesomes)         |             | 598    | 2023-11-13  |
+| [awesome-awesome](https://github.com/erichs/awesome-awesome)             |             | 280    | 2023-11-13  |
+| [awesome-all](https://github.com/bradoyler/awesome-all)                  |             | 220    | 2024-10-16  |
+| [awesome-collection](https://github.com/flyhigher139/awesome-collection) |             | 125    | 2017-04-18  |
+| [awesome-awesome](https://github.com/oyvindrobertsen/awesome-awesome)    |             | 116    | 2021-02-27  |

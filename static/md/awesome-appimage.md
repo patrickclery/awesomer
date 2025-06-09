@@ -146,6 +146,7 @@
 | [appimage-bash](https://github.com/valicm/appimage-bash)                         | GitHub Action for creating AppImage releases from binaries inside `.tar.gz` archives.                                                                         | 6     | 2025-01-16  |
 | [Elements](https://github.com/s-zeid/elements)                                   | Tool to generate single-file, runc-based AppImages using a minimal (~3 MB compressed) Alpine Linux rootfs.                                                    | 6     | 2020-06-21  |
 | [Package-to-appimage](https://github.com/CausaPrincipalis71/package-to-appimage) | Tool for converting `.deb` and `.rpm` packages into AppImage format by using Docker.                                                                          | 4     | 2022-11-02  |
+| [GMAppImager](https://github.com/samuelvenable/GMAppImager)                      | Graphically Converts GameMaker Studio 2 games to AppImage bundles.                                                                                            | 0     | 2025-06-01  |
 
 ## QC tools
 

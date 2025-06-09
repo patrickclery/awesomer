@@ -84,5 +84,5 @@
 | [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam)                   | Skin to make Steam look more like a native GNOME app.                                            | 1327  | 2025-03-18  |
 | [Thunderbird GNOME Theme](https://github.com/rafaelmardojai/thunderbird-gnome-theme) | Integrate Thunderbird into GNOME-based desktop using Adwaita.                                    | 323   | 2024-11-26  |
 | [Adwaita theme for VS Code](https://github.com/piousdeer/vscode-adwaita)             | Dark and light themes for VS Code based on GNOME's look and GNOME Builder's syntax highlighting. | 164   | 2024-08-04  |
-| [Obsidian Adwaita Theme](https://github.com/birneee/obsidian-adwaita-theme)          | [Obsidian](https://obsidian.md) theme in the style of GNOME Adwaita.                             | 124   | 2025-02-21  |
+| [Obsidian Adwaita Theme](https://github.com/birneee/obsidian-adwaita-theme)          | theme in the style of GNOME Adwaita.                                                             | 124   | 2025-02-21  |
 | [Discord GNOME Theme](https://github.com/ricewind012/discord-gnome-theme)            | A GNOME theme for Discord, following the Adwaita style &amp; GNOME Human Interface Guidelines.   | 51    | 2025-05-28  |
