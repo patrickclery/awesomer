@@ -6,7 +6,6 @@ log/*
 tmp/*
 storage/*.sqlite3*
 .env.*local
-/.cursor/rules/awesome-cursor.mdc
 # Ignore all .keep files
 */**/.keep
 # Ignore local repos configuration file
