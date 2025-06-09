@@ -11,6 +11,7 @@
 | [PAF](https://github.com/ClusterLabs/PAF)                         | PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync.                                        | 348   | 2024-06-13  |
 | [SkyTools](https://github.com/pgq/skytools-legacy)                | Replication tools, including PgQ, a queuing system, and Londiste, a replication system a bit simpler to manage than Slony.             | 246   | 2017-06-28  |
 | [pglookout](https://github.com/aiven/pglookout)                   | Replication monitoring and failover daemon.                                                                                            | 183   | 2025-01-17  |
+| [pgrwl](https://github.com/hashmap-kz/pgrwl)                      | Stream write-ahead logs (WAL) from a PostgreSQL server in real time. A drop-in, container-friendly alternative to pg_receivewal.       | 11    | 2025-06-06  |
 
 ## Backups
 
@@ -23,6 +24,7 @@
 | [pg\_probackup](https://github.com/postgrespro/pg_probackup)     |                                                                                                                                                                                                                                                                                                                                                                                                                   | 739   | 2024-10-10  |
 | [pg\_back](https://github.com/orgrim/pg_back)                    | pg\_back is a simple backup script                                                                                                                                                                                                                                                                                                                                                                                | 552   | 2025-05-10  |
 | [OmniPITR](https://github.com/omniti-labs/omnipitr)              | Advanced WAL File Management Tools for PostgreSQL.                                                                                                                                                                                                                                                                                                                                                                | 180   | 2019-06-25  |
+| [pg-backups-to-s3](https://github.com/Saicheg/pg-backups-to-s3)  | Docker-first solution on top of pg_dump with support for environment-based configuration for scheduled PostgreSQL backups with optional compression, GPG encryption, webhooks, automatic upload to Amazon S3.                                                                                                                                                                                                     | 6     | 2025-05-30  |
 | [pgbackup-sidecar](https://github.com/Musab520/pgbackup-sidecar) | `pgbackup-sidecar` is a lightweight Docker sidecar container designed to automate regular backups of a PostgreSQL database using `pg_dump`, `cron`, and bash scripts while also sending output to a webhook.                                                                                                                                                                                                      | 4     | 2024-11-08  |
 
 ## GUI
@@ -194,3 +196,9 @@
 | [pg-utils](https://github.com/dataegret/pg-utils)                    | Useful DBA tools by Data Egret          | 1129  | 2025-01-09  |
 | [postgresDBSamples](https://github.com/morenoh149/postgresDBSamples) | A collection of sample postgres schemas | 527   | 2023-09-20  |
 | [pagila](https://github.com/xzilla/pagila)                           | Pagila, Postgres Sample Database        | 62    | 2025-06-01  |
+
+## Blogs
+
+| Name                                                                                       | Description | Stars | Last Commit |
+|--------------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [Digoal's PostgreSQL and Technical blog(Chinese Language)](https://github.com/digoal/blog) |             | 8249  | 2025-06-09  |

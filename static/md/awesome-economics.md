@@ -1,0 +1,12 @@
+## Projects
+
+| Name                                                              | Description                                                                                                                                               | Stars | Last Commit |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [fecon235](https://github.com/rsvp/fecon235)                      | Computational tools for financial economics, Python code base and tutorials using Jupyter notebooks, includes data retrieval, graphics, and optimization. | 1223  | 2023-01-20  |
+| [pyeconomics](https://github.com/davidrpugh/pyeconomics)          | Computational economics in Python.                                                                                                                        | 213   | 2014-01-16  |
+| [quantecon_nyu_2016](https://github.com/jstac/quantecon_nyu_2016) | Topics in Computational Economics                                                                                                                         | 134   | 2016-05-08  |
+| [macro_puzzles](https://github.com/gboehl/macro_puzzles)          | A list of puzzles in macroeconomics.                                                                                                                      | 111   | 2021-08-16  |
+| [econpizza](https://github.com/gboehl/econpizza)                  | Toolbox to solve and simulate nonlinear models with heterogeneous agents.                                                                                 | 90    | 2025-05-26  |
+| [pydsge](https://github.com/gboehl/pydsge)                        | Tools to solve, filter, and estimate DSGE models with occasionally binding constraints.                                                                   | 59    | 2025-05-15  |
+| [economics-book](https://github.com/philschatz/economics-book)    | Economics Textbook (Openstax).                                                                                                                            | 38    | 2018-07-05  |
+| [zice-2014](https://github.com/davidrpugh/zice-2014)              | Course materials for Zurich Initiative for Computational Economics (ZICE) 2014.                                                                           | 32    | 2014-02-05  |

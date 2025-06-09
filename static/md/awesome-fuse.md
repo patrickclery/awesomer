@@ -1,0 +1,45 @@
+## Applications
+
+| Name                                                | Description                                              | Stars | Last Commit |
+|-----------------------------------------------------|----------------------------------------------------------|-------|-------------|
+| [FuseCloud](https://github.com/fusetools/FuseCloud) | A SoundCloud® player that uses the free SoundCloud API . | 78    | 2018-02-15  |
+
+## Development
+
+| Name                                                  | Description                                                    | Stars | Last Commit |
+|-------------------------------------------------------|----------------------------------------------------------------|-------|-------------|
+| [Samples](https://github.com/fusetools/fuse-samples)  | Samples demonstrating the use of various Fuse and FuseJS APIs. | 182   | 2021-04-08  |
+| [Tour De Fuse](https://github.com/englekk/TourDeFuse) | The sample for introducing functions of the Fuse.              | 10    | 2017-03-24  |
+
+## Open Source
+
+| Name                                                                                  | Description                                                                     | Stars | Last Commit |
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|-------|-------------|
+| [Fuse Samples](https://github.com/fusetools/fuse-samples)                             | A collection of smaller examples using the various features of Fuse and FuseJS. | 182   | 2021-04-08  |
+| [11t](https://github.com/jeroensmeets/mastodon-app)                                   | 11t is an iOS and Android app for connecting to Mastodon                        | 96    | 2022-04-26  |
+| [Firebase](https://github.com/fuse-compound/Fuse.Firebase)                            | Firebase bindings for Fuse.                                                     | 58    | 2019-10-09  |
+| [500px Gallery Demo](https://github.com/jveres/D500px)                                | Nifty gallery demo app using 500px API.                                         | 44    | 2016-07-23  |
+| [Hikr](https://github.com/fusetools/hikr)                                             | An example app case to accompany .                                              | 43    | 2018-03-09  |
+| [Fuse PM](https://github.com/bolav/fusepm)                                            | A Fusetools package manager.                                                    | 33    | 2017-03-28  |
+| [Haxe](https://github.com/elsassph/fusetools-haxe)                                    | Haxe compiler for Fuse tools.                                                   | 31    | 2015-10-19  |
+| [Fuse Tags with Firebase](https://github.com/LuisRodriguezLD/Fuse-Tags-with-Firebase) | Simple Tags app. Adds and retrieves tags from Firebase.                         | 14    | 2016-06-27  |
+| [Motion](https://github.com/AlexGustafsson/fuse-motion)                               | iOS accelerometer, gyroscope, magnetometer readings and more for Fuse.          | 14    | 2017-07-10  |
+| [UnityAds Sample](https://github.com/englekk/Fusetools_UnityAdsSample)                | Simple example of integration UnityAds with Fuse.                               | 9     | 2016-11-10  |
+| [Fuse Pokedex](https://github.com/franzsilva/FusePokeDex)                             | A Pokedex created using Fuse.                                                   | 6     | 2017-10-25  |
+| [Syncano](https://github.com/Syncano/syncano-fuse-example)                            | Simple example of integration Syncano with Fuse.                                | 5     | 2016-07-13  |
+| [fuse.QrScanner](https://github.com/glenfordwilliams/fuse.QrScanner)                  | A small library for scanning QrCode.                                            | 3     | 2017-02-16  |
+| [Fuse Input Validation](https://github.com/mokko-lab/fuse-input-validation)           | Reusable and highly functional input validation methods in Fuse components      | 1     | 2017-01-24  |
+| [Fuse Review](https://github.com/LuisRodriguezLD/Fuse-RequestReview)                  | Get reviews from your users without making them leave the app.                  | 1     | 2018-02-06  |
+| [Fuse Taptic-Feedback](https://github.com/LuisRodriguezLD/Fuse-TapticFeedback)        | Get access to the iPhone 7's taptic engine.                                     | 1     | 2017-10-18  |
+| [FormulaFuse](https://github.com/sanderdan/FormulaFuse)                               | Formula 1 Fuse application.                                                     | 0     | 2016-09-13  |
+
+## Plugins
+
+| Name                                                              | Description                                                   | Stars | Last Commit |
+|-------------------------------------------------------------------|---------------------------------------------------------------|-------|-------------|
+| [Visual Studio Code](https://github.com/Hazealign/vscode-fuse)    | Fuse Helper for Visual Studio Code.                           | 40    | 2015-10-18  |
+| [Atom](https://github.com/fusetools/Fuse.AtomPlugin)              | Atom Editor plugin for Fuse.                                  | 30    | 2017-11-29  |
+| [Sublime](https://github.com/fusetools/Fuse.SublimePlugin)        | Sublime Text 3 plugin for Fuse.                               | 23    | 2018-11-20  |
+| [Bash Completion](https://github.com/fusetools/UnoBashCompletion) | Simple bash completion script for UNO.                        | 6     | 2016-07-29  |
+| [Emacs](https://github.com/kristianhasselknippe/fuse-mode)        | Emacs plugin for Fuse.                                        | 6     | 2017-11-15  |
+| [Fuse-Log](https://github.com/bstrr/vscode-fuse-log)              | Get Fuse log messages into Visual Studio Code's output panel. | 2     | 2017-02-02  |

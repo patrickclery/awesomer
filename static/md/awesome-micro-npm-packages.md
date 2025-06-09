@@ -1,0 +1,224 @@
+## Articles
+
+| Name                                                                       | Description | Stars | Last Commit |
+|----------------------------------------------------------------------------|-------------|-------|-------------|
+| [Module best practices](https://github.com/mattdesl/module-best-practices) |             | 1551  | 2018-03-30  |
+| [One-line node modules](https://github.com/sindresorhus/ama)               |             | 142   | 2021-01-24  |
+
+## Array
+
+| Name                                                                          | Description                                                                                                                                              | Stars | Last Commit |
+|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) | Efficiently remove an element from an unordered array without doing a splice.                                                                            | 118   | 2022-01-05  |
+| [fast-cartesian](https://github.com/ehmicky/fast-cartesian)                   | Fast cartesian product.                                                                                                                                  | 71    | 2025-06-03  |
+| [group-array](https://github.com/doowb/group-array)                           | Group array of objects into lists.                                                                                                                       | 63    | 2023-10-12  |
+| [arr-flatten](https://github.com/jonschlinkert/arr-flatten)                   | Recursively flatten an array or arrays.                                                                                                                  | 59    | 2021-12-30  |
+| [arr-diff](https://github.com/jonschlinkert/arr-diff)                         | Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons. | 47    | 2022-01-04  |
+| [filled-array](https://github.com/sindresorhus/filled-array)                  | Returns an array filled with the specified input                                                                                                         | 42    | 2022-07-08  |
+| [array-last](https://github.com/jonschlinkert/array-last)                     | Return the last element in an array.                                                                                                                     | 35    | 2021-12-27  |
+| [array-range](https://github.com/mattdesl/array-range)                        | Creates a new array with given range.                                                                                                                    | 25    | 2022-01-04  |
+| [dedupe](https://github.com/seriousManual/dedupe)                             | Remove duplicates from an array.                                                                                                                         | 24    | 2024-05-02  |
+| [is-sorted](https://github.com/dcousens/is-sorted)                            | A small module to check if an Array is sorted.                                                                                                           | 23    | 2024-01-24  |
+| [in-array](https://github.com/jonschlinkert/in-array)                         | Return true if any of passed values exists in array - faster than using indexOf.                                                                         | 16    | 2016-03-27  |
+| [array.chunk](https://github.com/zhiyelee/array.chunk)                        | Split array/TypedArray to chunks of given size.                                                                                                          | 12    | 2022-01-11  |
+| [array-first](https://github.com/jonschlinkert/array-first)                   | Get the first element or first n elements of an array.                                                                                                   | 11    | 2021-02-13  |
+| [array-swap](https://github.com/michaelzoidl/swap-array)                      | Swap position of two items in an array.                                                                                                                  | 7     | 2022-01-06  |
+| [mirrarray](https://github.com/johnwquarles/mirrarray)                        | Creates a keymirror object from an array of valid keys.                                                                                                  | 5     | 2022-01-08  |
+| [map-array](https://github.com/parro-it/map-array)                            | Map object keys and values into an array.                                                                                                                | 4     | 2020-06-03  |
+
+## String
+
+| Name                                                                         | Description                                                                                                 | Stars | Last Commit |
+|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [node-slug](https://github.com/dodo/node-slug)                               | slugifies even utf-8 chars.                                                                                 | 1073  | 2019-04-05  |
+| [striptags](https://github.com/ericnorris/striptags)                         | An implementation of PHP's strip_tags in Node.js.                                                           | 493   | 2022-10-04  |
+| [strip-ansi](https://github.com/chalk/strip-ansi)                            | Strip ANSI escape codes.                                                                                    | 415   | 2025-01-19  |
+| [decamelize](https://github.com/sindresorhus/decamelize)                     | Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow. | 239   | 2022-10-30  |
+| [pad-left](https://github.com/jonschlinkert/pad-left)                        | Left pad a string with zeros or a specified string.                                                         | 44    | 2022-01-17  |
+| [to-camel-case](https://github.com/ianstormtaylor/to-camel-case)             | Convert a string to a camel case.                                                                           | 35    | 2016-09-20  |
+| [slice.js](https://github.com/hustcc/slice.js)                               | Javascript library to enhance String.substring / Array.slice with python slice style.                       | 34    | 2018-03-10  |
+| [to-snake-case](https://github.com/ianstormtaylor/to-snake-case)             | Convert a string to a snake case.                                                                           | 26    | 2018-09-21  |
+| [to-title-case](https://github.com/ianstormtaylor/to-title-case)             | Convert a string to a title case.                                                                           | 18    | 2016-01-21  |
+| [to-no-case](https://github.com/ianstormtaylor/to-no-case)                   | Remove an existing case from a string.                                                                      | 16    | 2016-10-26  |
+| [to-capital-case](https://github.com/ianstormtaylor/to-capital-case)         | Convert a string to a capital case.                                                                         | 11    | 2018-08-07  |
+| [to-sentence-case](https://github.com/ianstormtaylor/to-sentence-case)       | Convert a string to a sentence case.                                                                        | 6     | 2016-01-21  |
+| [to-space-case](https://github.com/ianstormtaylor/to-space-case)             | Convert a string to a space case.                                                                           | 6     | 2016-01-21  |
+| [to-dot-case](https://github.com/ianstormtaylor/to-dot-case)                 | Convert a string to a dot case.                                                                             | 5     | 2021-02-07  |
+| [to-constant-case](https://github.com/ianstormtaylor/to-constant-case)       | Convert a string to a constant case.                                                                        | 4     | 2016-01-21  |
+| [to-pascal-case](https://github.com/ianstormtaylor/to-pascal-case)           | Convert a string to a pascal case.                                                                          | 3     | 2016-01-21  |
+| [pluralize](https://github.com/DaniAkash/pluralizer)                         | A very tiny library to pluralize words                                                                      | 2     | 2021-03-27  |
+| [parse-next-json-value](https://github.com/ErikOnBike/parse-next-json-value) | Parse next JSON value from string allowing extraneous characters after value.                               | 1     | 2019-11-02  |
+| [rtrim](https://github.com/sergejmueller/rtrim)                              | Strip whitespace - or other characters - from the end of a string.                                          | 0     | 2020-11-25  |
+
+## Date & Time
+
+| Name                                                                        | Description                                                                                         | Stars | Last Commit |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-------|-------------|
+| [timeago.js](https://github.com/hustcc/timeago.js)                          | A tiny(~1.7kb) library used to format date with `*** time ago` statement.                           | 5374  | 2024-07-24  |
+| [fecha](https://github.com/taylorhakes/fecha)                               | Javascript Date formatting and parsing.                                                             | 2072  | 2023-01-05  |
+| [pretty-ms](https://github.com/sindresorhus/pretty-ms)                      | Convert milliseconds to a human readable string: 1337000000 → 15d 11h 23m 20s.                      | 1162  | 2024-11-15  |
+| [twas](https://github.com/vutran/twas)                                      | Generate a relative time string (Example: "3 seconds ago")                                          | 250   | 2023-02-08  |
+| [time-stamp](https://github.com/jonschlinkert/time-stamp)                   | Get a formatted timestamp.                                                                          | 112   | 2020-11-24  |
+| [hirestime](https://github.com/seriousManual/hirestime)                     | A wrapper around the built-in high resolution timer which simplifies the calculation of timestamps. | 17    | 2025-02-22  |
+| [akamai-time-reference](https://github.com/jucrouzet/akamai-time-reference) | Get reference time using Akamai's time reference service.                                           | 3     | 2019-01-08  |
+| [count-days-in-month](https://github.com/shinnn/count-days-in-month)        | Get the number of days in a given month.                                                            | 1     | 2016-07-27  |
+| [periods](https://github.com/timruffles/periods)                            | Defined time-periods constants for Javascript, in milliseconds.                                     | 1     | 2015-01-21  |
+
+## Object
+
+| Name                                                                  | Description                                                                                                              | Stars | Last Commit |
+|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [deep-object-diff](https://github.com/mattphillips/deep-object-diff)  | Deep diff two JavaScript Objects while preserving the data structure. Including nested structures of Arrays and Objects. | 1105  | 2024-03-04  |
+| [deep-equal](https://github.com/substack/node-deep-equal)             | Node's assert.deepEqual algorithm as a standalone module.                                                                | 792   | 2024-01-30  |
+| [stringify-object](https://github.com/yeoman/stringify-object)        | Stringify an object/array like JSON.stringify just without all the double-quotes.                                        | 314   | 2024-12-07  |
+| [get-value](https://github.com/jonschlinkert/get-value)               | Use property paths (a.b.c) to get a nested value from an object.                                                         | 287   | 2025-02-05  |
+| [set-value](https://github.com/jonschlinkert/set-value)               | Create nested values and any intermediaries dot notation (`'a.b.c'`) paths.                                              | 278   | 2023-02-08  |
+| [deep-assign](https://github.com/sindresorhus/deep-assign)            | Recursive Object.assign.                                                                                                 | 247   | 2021-01-23  |
+| [map-obj](https://github.com/sindresorhus/map-obj)                    | Map object keys and values into a new object.                                                                            | 213   | 2025-06-01  |
+| [filter-obj](https://github.com/sindresorhus/filter-obj)              | Filter object keys and values into a new object.                                                                         | 101   | 2024-05-27  |
+| [sorted-object](https://github.com/domenic/sorted-object)             | Returns a copy of an object with its keys sorted.                                                                        | 35    | 2020-11-06  |
+| [has-value](https://github.com/jonschlinkert/has-value)               | Returns true if a value exists, false if empty. Works with deeply nested values using dot notation (`'a.b.c'`) paths.    | 26    | 2018-03-03  |
+| [object-values](https://github.com/sindresorhus/object-values)        | Get the values of an object.                                                                                             | 26    | 2023-06-21  |
+| [flatten-obj](https://github.com/watson/flatten-obj)                  | Converts an object literal with deeply nested nodes to a simple key/value object.                                        | 21    | 2017-07-27  |
+| [is-empty-object](https://github.com/gummesson/is-empty-object)       | Check if an object is empty.                                                                                             | 11    | 2018-05-24  |
+| [just-pluck](https://github.com/jarofghosts/just-pluck)               | Pluck without the madness.                                                                                               | 11    | 2016-01-23  |
+| [static-props](https://github.com/fibo/static-props)                  | Defines static object attributes using `Object.defineProperties`                                                         | 4     | 2019-05-10  |
+| [zipmap](https://github.com/landau/zipmap)                            | Returns a map with the keys mapped to the corresponding vals. zipmap also accepts a single value of objects or pairs.    | 4     | 2023-12-15  |
+| [flatkeys](https://github.com/ricardobeat/flatkeys)                   | Flatten object key hierarchies into a list of strings using a custom separator.                                          | 3     | 2013-07-11  |
+| [has-own-property](https://github.com/LinusU/has-own-property)        | Check if an object has a local property.                                                                                 | 3     | 2021-07-24  |
+| [merge-objects](https://github.com/shevaroller/node-merge-objects)    | Deep-merge two objects. Arrays that are values of the same object key get concatenated.                                  | 2     | 2015-09-16  |
+| [object-pairs](https://github.com/eush77/object-pairs)                | Turn an object into list of [key, value] pairs for mapping, iterating or other purposes.                                 | 2     | 2015-05-25  |
+| [has-key-deep](https://github.com/ryanaghdam/has-key-deep)            | Deep-search objects for keys. Keys can be searched by providing an array of keys, or using a dot-notiation.              | 1     | 2019-10-18  |
+| [missing-deep-keys](https://github.com/vladgolubev/missing-deep-keys) | Returns an array of keys from first object that are missing in second.                                                   | 0     | 2020-02-19  |
+
+## Function
+
+| Name                                                             | Description                                                                                                                | Stars | Last Commit |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [mem](https://github.com/sindresorhus/mem)                       | An optimization technique used to speed up consecutive function calls by caching the result of calls with identical input. | 1119  | 2025-02-19  |
+| [throttle-debounce](https://github.com/niksy/throttle-debounce)  | Throttle/debounce your functions.                                                                                          | 1040  | 2024-06-24  |
+| [curry](https://github.com/dominictarr/curry)                    | A curry function without anything too clever.                                                                              | 316   | 2019-10-08  |
+| [once](https://github.com/isaacs/once)                           | Run a function exactly one time.                                                                                           | 222   | 2023-10-10  |
+| [compose-function](https://github.com/stoeffel/compose-function) | Compose a new function from smaller functions `f(g(x))`.                                                                   | 56    | 2019-11-07  |
+| [compose-tiny](https://github.com/hipstersmoothie/compose-tiny)  | A very tiny and fast compose function.                                                                                     | 46    | 2022-12-08  |
+| [deep-bind](https://github.com/jonschlinkert/deep-bind)          | Bind a context to all functions in an object, including deeply nested functions.                                           | 9     | 2019-07-11  |
+
+## Math
+
+| Name                                                    | Description                                                                                                       | Stars | Last Commit |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [is-odd](https://github.com/jonschlinkert/is-odd)       | A good way to tell if a number is odd or not (avoids type issues). Uses `is-number` under the hood.               | 342   | 2019-04-18  |
+| [is-number](https://github.com/jonschlinkert/is-number) | Returns `true` if the value is a number.                                                                          | 276   | 2022-09-15  |
+| [is-even](https://github.com/jonschlinkert/is-even)     | A good way to tell if a number is even or not (avoids type issues). Uses `is-odd` and `is-number` under the hood. | 236   | 2018-04-06  |
+| [easy-math.js](https://github.com/kingzez/easy-math.js) | A tiny easy math library including addition, multiplication, subtraction, and division.                           | 7     | 2020-08-10  |
+| [my-prime](https://github.com/jinnatul/my-prime)        | A good way to tell if a number is prime or not.                                                                   | 2     | 2022-05-09  |
+| [fun-gcd](https://github.com/zubayerhimel/fun-gcd)      | A tiny math library to get gcd of two numbers using Euclidean algorithm                                           | 1     | 2020-10-03  |
+
+## Stream
+
+| Name                                                                        | Description                                                                                           | Stars | Last Commit |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------|-------------|
+| [JSONStream](https://github.com/dominictarr/JSONStream)                     | streaming JSON.parse and stringify                                                                    | 1930  | 2018-10-14  |
+| [through2](https://github.com/rvagg/through2)                               | Tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise.                      | 1900  | 2022-11-22  |
+| [pump](https://github.com/mafintosh/pump)                                   | pipe streams together and close all of them if one of them closes.                                    | 912   | 2024-09-11  |
+| [concat-stream](https://github.com/maxogden/concat-stream)                  | writable stream that concatenates strings or data and calls a callback with the result.               | 578   | 2021-06-23  |
+| [split](https://github.com/dominictarr/split)                               | Break up a stream and reassemble it so that each line is a chunk.                                     | 345   | 2019-07-02  |
+| [is-stream](https://github.com/sindresorhus/is-stream)                      | Check if something is a Node.js stream.                                                               | 112   | 2024-10-28  |
+| [syncthrough](https://github.com/mcollina/syncthrough)                      | Transform your data as it pass by, synchronously.                                                     | 105   | 2025-04-30  |
+| [through2-map](https://github.com/brycebaril/through2-map)                  | A through2 to create an Array.prototype.map analog for streams.                                       | 70    | 2024-04-22  |
+| [through2-filter](https://github.com/brycebaril/through2-filter)            | A through2 to create an Array.prototype.filter analog for streams.                                    | 35    | 2024-04-22  |
+| [stream-spigot](https://github.com/brycebaril/node-stream-spigot)           | A readable stream generator, useful for testing or converting simple functions into Readable streams. | 15    | 2017-03-28  |
+| [through2-map-promise](https://github.com/RangerMauve/through2-map-promise) | A small promise-based wrapper for through2.                                                           | 3     | 2017-10-25  |
+
+## Promise
+
+| Name                                                              | Description                                              | Stars | Last Commit |
+|-------------------------------------------------------------------|----------------------------------------------------------|-------|-------------|
+| [pify](https://github.com/sindresorhus/pify)                      | Promisify a callback-style function.                     | 1507  | 2022-09-12  |
+| [is-promise](https://github.com/then/is-promise)                  | Test whether an object looks like a promises-a+ promise. | 280   | 2023-04-29  |
+| [sleep-promise](https://github.com/brummelte/sleep-promise)       | Resolves a promise after a specified delay.              | 87    | 2025-06-07  |
+| [promise-all-props](https://github.com/Siilwyn/promise-all-props) | Like `Promise.all` but for object properties.            | 9     | 2023-10-17  |
+
+## Data Structure
+
+| Name                                              | Description                                             | Stars | Last Commit |
+|---------------------------------------------------|---------------------------------------------------------|-------|-------------|
+| [quetie](https://github.com/TomerAberbach/quetie) | Just the cutest and tiniest queue/deque implementation! | 113   | 2024-10-15  |
+
+## File System
+
+| Name                                                            | Description                                                                            | Stars | Last Commit |
+|-----------------------------------------------------------------|----------------------------------------------------------------------------------------|-------|-------------|
+| [rimraf](https://github.com/isaacs/rimraf)                      | A deep deletion module for node (like rm -rf).                                         | 5768  | 2024-07-31  |
+| [tmp](https://github.com/raszi/node-tmp)                        | Temporary file and directory creator for node.js.                                      | 752   | 2025-04-07  |
+| [file-size](https://github.com/Nijikokun/file-size)             | Lightweight filesize to human-readable / proportions w/o dependencies.                 | 233   | 2020-01-22  |
+| [fs-promise](https://github.com/kevinbeaty/fs-promise)          | Node fs methods as Promise/A+ (optional fs-extra, graceful-fs).                        | 170   | 2017-06-12  |
+| [du](https://github.com/rvagg/node-du)                          | A simple JavaScript implementation of du -sb.                                          | 28    | 2023-02-13  |
+| [read-git-user](https://github.com/RocktimSaikia/read-git-user) | Reads the username and email from `.gitconfig` :wrench: and returns it as json object. | 3     | 2024-07-31  |
+
+## Browser
+
+| Name                                                                   | Description                                                                       | Stars | Last Commit |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-------|-------------|
+| [delegate](https://github.com/zenorocha/delegate)                      | Lightweight event delegation.                                                     | 184   | 2022-12-06  |
+| [copee](https://github.com/styfle/copee)                               | Copy text from browser to clipboard...natively!                                   | 149   | 2025-06-02  |
+| [image-promise](https://github.com/bfred-it/image-promise)             | Load one or more ``s in a Promise.                                                | 147   | 2025-02-01  |
+| [document-ready](https://github.com/bendrucker/document-ready)         | Document ready listener for modern browsers.                                      | 59    | 2022-04-21  |
+| [get-media-size](https://github.com/bfred-it/get-media-size)           | Get the original size of any `img`/`video`/`svg`/`canvas` tags or canvas context. | 12    | 2019-07-24  |
+| [dom-element-value](https://github.com/crysalead-js/dom-element-value) | DOM element value getter/setter.                                                  | 6     | 2016-12-29  |
+
+## Semver
+
+| Name                                                                         | Description                                                        | Stars | Last Commit |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------|-------|-------------|
+| [semver](https://github.com/npm/node-semver)                                 | The semantic version parser used by npm.                           | 5257  | 2025-05-12  |
+| [semver-max](https://github.com/eush77/semver-max)                           | Find maximum (or minimum) version according to semver.             | 3     | 2015-07-20  |
+| [semver-first-satisfied](https://github.com/parro-it/semver-first-satisfied) | Find minimum in an array of version that satisfies a semver range. | 2     | 2016-01-29  |
+
+## CLI
+
+| Name                                                   | Description                                                           | Stars | Last Commit |
+|--------------------------------------------------------|-----------------------------------------------------------------------|-------|-------------|
+| [glob](https://github.com/isaacs/node-glob)            | Glob functionality for node.js.                                       | 8613  | 2025-04-23  |
+| [png-to-ico](https://github.com/steambap/png-to-ico)   | Convert png to windows ico format.                                    | 169   | 2025-01-01  |
+| [abbrev](https://github.com/isaacs/abbrev-js)          | Calculate the set of unique abbreviations for a given set of strings. | 166   | 2025-05-01  |
+| [username](https://github.com/sindresorhus/username)   | Get the username of the current user.                                 | 143   | 2023-11-14  |
+| [help-version](https://github.com/eush77/help-version) | Easily handle --help and --version arguments in your CLI application  | 5     | 2016-06-16  |
+
+## Module management
+
+| Name                                                            | Description                                                                                                               | Stars | Last Commit |
+|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [pkg-conf](https://github.com/sindresorhus/pkg-conf)            | Get namespaced config from the closest package.json.                                                                      | 121   | 2023-11-05  |
+| [normalize-pkg](https://github.com/jonschlinkert/normalize-pkg) | Normalize values in package.json to improve compatibility, programmatic readability and usefulness with third party libs. | 18    | 2020-03-02  |
+
+## Generators
+
+| Name                                                        | Description                                          | Stars | Last Commit |
+|-------------------------------------------------------------|------------------------------------------------------|-------|-------------|
+| [is-generator](https://github.com/blakeembrey/is-generator) | Check whether a given value is a generator function. | 15    | 2023-12-07  |
+
+## Other
+
+| Name                                                                | Description                                                                                                     | Stars | Last Commit |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [nanoid](https://github.com/ai/nanoid)                              | A tiny (130 bytes), secure, URL-friendly, unique string ID generator for JavaScript                             | 25704 | 2025-04-30  |
+| [uuid](https://github.com/kelektiv/node-uuid)                       | Generate RFC-compliant UUIDs in JavaScript.                                                                     | 14955 | 2025-05-07  |
+| [node-mime](https://github.com/broofa/node-mime)                    | Comprehensive MIME type mapping API based on mime-db module.                                                    | 2280  | 2025-04-03  |
+| [is-fqdn](https://github.com/parro-it/is-fqdn)                      | Check if a string represent a fully qualified domain name.                                                      | 21    | 2022-11-10  |
+| [shurley](https://github.com/BrunoBernardino/shurley)               | Parses URLs from user input (with potential typos in protocols, bad copy+paste, etc.) and returns a proper URL. | 8     | 2025-02-02  |
+| [mime-type-check](https://github.com/RocktimSaikia/mime-type-check) | Get the MIME type of a file by its extension.                                                                   | 5     | 2020-10-17  |
+| [not-defined](https://github.com/fibo/not-defined)                  | Checks if foo is not defined, i.e. undefined, null, an empty string, array or object.                           | 5     | 2024-05-26  |
+
+## Tools
+
+| Name                                                                      | Description                                                       | Stars | Last Commit |
+|---------------------------------------------------------------------------|-------------------------------------------------------------------|-------|-------------|
+| [npm-deprecated-check](https://github.com/KID-joker/npm-deprecated-check) | Check for deprecated packages and recommend alternative packages. | 36    | 2025-05-24  |
+
+## Related lists
+
+| Name                                                             | Description                                                  | Stars | Last Commit |
+|------------------------------------------------------------------|--------------------------------------------------------------|-------|-------------|
+| [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) | A curated list of delightful Node.js packages and resources. | 61187 | 2025-05-19  |
+| [awesome-npm](https://github.com/sindresorhus/awesome-npm)       | Awesome npm resources and tips.                              | 4569  | 2025-03-05  |

@@ -1,0 +1,111 @@
+## Transpilers
+
+| Name                                                                                          | Description                                                                                                           | Stars | Last Commit |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Babel](https://github.com/babel/babel)                                                       | Turn ES6+ code into vanilla ES5 with no runtime                                                                       | 43595 | 2025-05-28  |
+| [Traceur compiler](https://github.com/google/traceur-compiler)                                | ES6 features &gt; ES5. Includes classes, generators, promises, destructuring patterns, default parameters &amp; more. | 8173  | 2024-12-10  |
+| [Lebab](https://github.com/mohebifar/lebab)                                                   | Transformations for ES5 code to ES6 (approximates)                                                                    | 5638  | 2025-05-25  |
+| [babelify](https://github.com/babel/babelify)                                                 | Babel transpiler wrapped as a transform                                                                               | 1677  | 2021-08-06  |
+| [es6ify](https://github.com/thlorenz/es6ify)                                                  | Traceur compiler wrapped as a v2 transform                                                                            | 593   | 2017-06-12  |
+| [Some Sweet.js macros](https://github.com/jlongster/es6-macros)                               |                                                                                                                       | 238   | 2014-07-04  |
+| [regexpu](https://github.com/mathiasbynens/regexpu)                                           |                                                                                                                       | 234   | 2024-09-18  |
+| [es6-transpiler](https://github.com/termi/es6-transpiler)                                     | ES6 &gt; ES5. Includes classes, destructuring, default parameters, spread                                             | 216   | 2015-07-19  |
+| [defs](https://github.com/olov/defs)                                                          | ES6 block-scoped const and let variables to ES3 vars                                                                  | 115   | 2019-11-06  |
+| [es6_module_transpiler-rails](https://github.com/DavyJonesLocker/es6_module_transpiler-rails) | ES6 Modules in the Rails Asset Pipeline                                                                               | 87    | 2014-12-09  |
+
+## Grunt Tasks
+
+| Name                                                           | Description                                          | Stars | Last Commit |
+|----------------------------------------------------------------|------------------------------------------------------|-------|-------------|
+| [grunt-microlib](https://github.com/thomasboyt/grunt-microlib) | tools for libs using ES6 module transpiler (sample ) | 27    | 2013-07-19  |
+| [grunt-defs](https://github.com/EE/grunt-defs)                 | ES6 block scoped const and let variables, to ES3     | 5     | 2017-08-16  |
+
+## Browser plugins
+
+| Name                                                                  | Description                                                                         | Stars | Last Commit |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------|-------------|
+| [Scratch JS](https://github.com/richgilbank/Scratch-JS)               | A Chrome/Opera DevTools extension to run ES6 on a page with either Babel or Traceur | 349   | 2022-08-06  |
+| [generator-typescript](https://github.com/mrkev/generator-typescript) | Yeoman generator for TypeScript apps                                                | 19    | 2017-05-03  |
+
+## Mocha plugins
+
+| Name                                                      | Description                                                             | Stars | Last Commit |
+|-----------------------------------------------------------|-------------------------------------------------------------------------|-------|-------------|
+| [Mocha Traceur](https://github.com/domenic/mocha-traceur) | A simple plugin for Mocha to pass JS files through the Traceur compiler | 14    | 2017-05-19  |
+
+## Module Loaders
+
+| Name                                                         | Description                                                           | Stars | Last Commit |
+|--------------------------------------------------------------|-----------------------------------------------------------------------|-------|-------------|
+| [Babel Module Loader](https://github.com/babel/babel-loader) |                                                                       | 4853  | 2025-02-27  |
+| [js-loaders](https://github.com/jorendorff/js-loaders)       | Mozilla's spec-compliant loader prototype                             | 54    | 2014-02-28  |
+| [beck.js](https://github.com/unscriptable/beck)              | toolkit for ES6 Module Loader pipelines, shim for legacy environments | 5     | 2013-12-17  |
+
+## Boilerplates
+
+| Name                                                                                | Description                                                                                                                                                                                                  | Stars | Last Commit |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [es6-jspm-gulp-boilerplate](https://github.com/alexweber/es6-jspm-gulp-boilerplate) | Tooling to allow the community to use es6 now via babel in conjunction jspm, with source maps, concatenation, minification, compression, and unit testing in real browsers using es6.                        | 136   | 2016-08-11  |
+| [es6-boilerplate](https://github.com/davidjnelson/es6-boilerplate)                  | Tooling to allow the community to use es6 now via traceur in conjunction with amd and browser global modules, with source maps, concatenation, minification, compression, and unit testing in real browsers. | 88    | 2018-02-06  |
+
+## Code generation
+
+| Name                                                                                            | Description                       | Stars | Last Commit |
+|-------------------------------------------------------------------------------------------------|-----------------------------------|-------|-------------|
+| [Loom generators with ES6 ember modules](https://github.com/ryanflorence/loom-generators-ember) |                                   | 15    | 2013-11-30  |
+| [generator-es6-babel](https://github.com/HenriqueLimas/generator-es6-babel)                     | Yeoman generator for Babel apps   | 10    | 2015-09-05  |
+| [generator-node-esnext](https://github.com/briandipalma/generator-node-esnext)                  | Yeoman generator for Traceur apps | 5     | 2014-11-18  |
+| [generator-gulp-babelify](https://github.com/HenriqueLimas/generator-gulp-babelify)             | Yeoman generator for , and        | 3     | 2015-12-11  |
+
+## Polyfills
+
+| Name                                                                                            | Description                                                                                                                                               | Stars | Last Commit |
+|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [core-js](https://github.com/zloirock/core-js)                                                  | Modular and compact polyfills for ES6 including Symbols, Map, Set, Iterators, Promises, setImmediate, Array generics, etc. The standard library used by . | 25034 | 2025-06-03  |
+| [es6-promise](https://github.com/jakearchibald/es6-promise)                                     | polyfill for Promises matching the ES6 API                                                                                                                | 7292  | 2022-11-14  |
+| [es6-shim](https://github.com/paulmillr/es6-shim)                                               | almost all new ES6 methods — from Map, Set, String, Array, Object, Object.is and more.                                                                    | 3115  | 2024-12-30  |
+| [ES6 shim](https://github.com/inexorabletash/polyfill)                                          |                                                                                                                                                           | 1358  | 2021-08-13  |
+| [`Object.assign`](https://github.com/sindresorhus/object-assign)                                |                                                                                                                                                           | 919   | 2023-11-05  |
+| [harmony-reflect](https://github.com/tvcutsem/harmony-reflect)                                  | ES6 (contains the )                                                                                                                                       | 482   | 2024-01-15  |
+| [ES6 Symbol polyfill](https://github.com/medikoo/es6-symbol)                                    |                                                                                                                                                           | 180   | 2024-03-01  |
+| [`String.prototype.startsWith`](https://github.com/mathiasbynens/String.prototype.startsWith)   |                                                                                                                                                           | 143   | 2024-09-27  |
+| [`String.prototype.includes`](https://github.com/mathiasbynens/String.prototype.includes)       |                                                                                                                                                           | 69    | 2024-10-15  |
+| [`Array.from`](https://github.com/mathiasbynens/Array.from)                                     |                                                                                                                                                           | 67    | 2024-03-23  |
+| [`String.fromCodePoint`](https://github.com/mathiasbynens/String.fromCodePoint)                 |                                                                                                                                                           | 62    | 2024-02-06  |
+| [`String.prototype.at`](https://github.com/mathiasbynens/String.prototype.at)                   |                                                                                                                                                           | 55    | 2020-11-19  |
+| [`String.prototype.codePointAt`](https://github.com/mathiasbynens/String.prototype.codePointAt) |                                                                                                                                                           | 55    | 2024-10-17  |
+| [`Array.prototype.find`](https://github.com/paulmillr/Array.prototype.find)                     |                                                                                                                                                           | 38    | 2024-03-19  |
+| [`String.prototype.endsWith`](https://github.com/mathiasbynens/String.prototype.endsWith)       |                                                                                                                                                           | 36    | 2024-03-20  |
+| [`Array.prototype.findIndex`](https://github.com/paulmillr/Array.prototype.findIndex)           |                                                                                                                                                           | 28    | 2024-12-17  |
+| [`String.prototype.repeat`](https://github.com/mathiasbynens/String.prototype.repeat)           |                                                                                                                                                           | 27    | 2021-01-16  |
+| [ES6 Map Shim](https://github.com/eriwen/es6-map-shim)                                          | destructive shim that follows the latest specification as closely as possible.                                                                            | 23    | 2014-10-12  |
+| [`Number.isFinite`](https://github.com/sindresorhus/is-finite)                                  |                                                                                                                                                           | 19    | 2021-04-07  |
+| [`Array.of`](https://github.com/mathiasbynens/Array.of)                                         |                                                                                                                                                           | 16    | 2024-09-05  |
+| [`Math.sign`](https://github.com/sindresorhus/math-sign)                                        |                                                                                                                                                           | 10    | 2021-04-07  |
+| [`RegExp.prototype.match`](https://github.com/mathiasbynens/RegExp.prototype.match)             |                                                                                                                                                           | 10    | 2014-07-20  |
+| [`Function.create`](https://github.com/walling/Function.create.js)                              |                                                                                                                                                           | 7     | 2013-02-17  |
+| [`RegExp.prototype.search`](https://github.com/mathiasbynens/RegExp.prototype.search)           |                                                                                                                                                           | 5     | 2014-07-20  |
+| [ES6 Map, Set, WeakMap](https://github.com/EliSnow/Blitz-Collections)                           |                                                                                                                                                           | 5     | 2015-11-09  |
+
+## Parsers
+
+| Name                                                           | Description                                                                           | Stars | Last Commit |
+|----------------------------------------------------------------|---------------------------------------------------------------------------------------|-------|-------------|
+| [Acorn](https://github.com/ternjs/acorn)                       | A small, fast, JavaScript-based JavaScript parser with ES6 support, parses to format. | 10950 | 2025-06-02  |
+| [Traceur compiler](https://github.com/google/traceur-compiler) |                                                                                       | 8173  | 2024-12-10  |
+| [esparse](https://github.com/zenparsing/esparse)               | ES6 parser written in ES6.                                                            | 115   | 2018-09-21  |
+
+## Other
+
+| Name                                                                       | Description                                                                                                                                                                         | Stars | Last Commit |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Recast](https://github.com/benjamn/recast)                                | Esprima-based JavaScript syntax tree transformer, conservative pretty-printer, and automatic source map generator. Used by several of the transpilers listed above, including and . | 5125  | 2025-03-03  |
+| [Isparta](https://github.com/douglasduteil/isparta)                        |                                                                                                                                                                                     | 645   | 2019-12-31  |
+| [Paws on ES6](https://github.com/hemanth/paws-on-es6)                      | Minimalist examples of ES6 functionalities.                                                                                                                                         | 331   | 2017-04-03  |
+| [ES.next showcase](https://github.com/sindresorhus/esnext-showcase)        | real-world usage examples of ES6 features                                                                                                                                           | 298   | 2017-04-16  |
+| [let-er](https://github.com/getify/let-er)                                 | transpiles (not accepted into ES6) into either ES3 or ES6                                                                                                                           | 192   | 2014-10-28  |
+| [es-dependency-graph](https://github.com/yahoo/es-dependency-graph)        |                                                                                                                                                                                     | 29    | 2019-02-08  |
+| [ES6 Lab setup](https://github.com/hemanth/es6-lab-setup)                  | A simple setup for transpiling ES6 to ES5 using `Babel` or `traceur` with `gulp` and `jasmine` support.                                                                             | 27    | 2024-05-17  |
+| [looper](https://github.com/wycats/looper)                                 | static analysis tools for ES6                                                                                                                                                       | 16    | 2013-10-06  |
+| [es6-import-validate](https://github.com/sproutsocial/es6-import-validate) |                                                                                                                                                                                     | 6     | 2014-05-16  |
+| [es6-translate](https://github.com/calvinmetcalf/es6-translate)            | Uses the ES6 loader hooks to load (node flavored) commonjs packages in ES6.                                                                                                         | 5     | 2018-08-29  |

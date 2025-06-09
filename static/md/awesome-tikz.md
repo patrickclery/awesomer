@@ -1,0 +1,24 @@
+## PGF/TikZ
+
+| Name                                           | Description                              | Stars | Last Commit |
+|------------------------------------------------|------------------------------------------|-------|-------------|
+| [SourceForge](https://github.com/pgf-tikz/pgf) | Code, releases, support and bug reports. | 1229  | 2025-04-11  |
+
+## PGFPlots
+
+| Name                                                                        | Description                                                                                                                                                                        | Stars | Last Commit |
+|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)              | Latex code for making neural networks diagrams                                                                                                                                     | 23490 | 2023-08-21  |
+| [quiver](https://github.com/varkor/quiver)                                  | A commutative diagram editor that exports to tikz-cd.                                                                                                                              | 3264  | 2025-05-27  |
+| [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz)               | Convert matplotlib figure and spits out a TikZ/PGFplots figure.                                                                                                                    | 2507  | 2024-08-16  |
+| [awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)  | Drawing Bayesian networks, graphical models, and technical frameworks in LaTeX.                                                                                                    | 1753  | 2025-05-26  |
+| [MartinThoma/LaTeX-examples](https://github.com/MartinThoma/LaTeX-examples) | Contains about 350 TikZ examples from Martin. Thoma.                                                                                                                               | 1643  | 2024-10-19  |
+| [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz)                   | Converts MATLAB®/Octave figures to TikZ/pgfplots figures.                                                                                                                          | 1622  | 2023-10-23  |
+| [PetarV-/TikZ](https://github.com/PetarV-/TikZ)                             | A collection of publication-ready PGF/TikZ figures by Petar Veličković.                                                                                                            | 1334  | 2023-05-05  |
+| [walmes/Tikz](https://github.com/walmes/Tikz)                               | Collection of TikZ art from Prof. Walmes M. Zeviani, contains about 200 TikZ figures, most of which were done to teach statistics.                                                 | 459   | 2025-03-22  |
+| [sane_tikz](https://github.com/negrinho/sane_tikz)                          | Create TikZ figures with Python.                                                                                                                                                   | 409   | 2020-11-18  |
+| [ktikz](https://github.com/fhackenberger/ktikz)                             | Provides a nice user interface for making pictures using TikZ.                                                                                                                     | 372   | 2024-07-10  |
+| [tikz-network](https://github.com/hackl/tikz-network)                       | A tool to visualize complex networks in LaTeX.                                                                                                                                     | 338   | 2021-01-18  |
+| [LatexDiagrams](https://github.com/FriendlyUser/LatexDiagrams)              | This repo contains many diagrams generated for academic usage, including Algorithms-Data Structures, Artificial Intelligence, BlogDiagrams, DSP, Engineering Software Design, etc. | 198   | 2024-09-03  |
+| [itikz](https://github.com/jbn/itikz)                                       | Cell and line magic for PGF/TikZ-to-SVG rendering in Jupyter notebooks.                                                                                                            | 62    | 2024-04-18  |
+| [alemelis/tikz_drawings](https://github.com/alemelis/tikz_drawings)         | Source codes for illustration made in TikZ by Alessandro Melis for various publications.                                                                                           | 55    | 2018-10-04  |
