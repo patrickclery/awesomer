@@ -2,7 +2,8 @@
 db/awesomer.sqlite3
 # Ignore master key for decrypting credentials and more.
 config/master.key
-log/*.log
+log/*
+tmp/*
 storage/*.sqlite3*
 .env.*local
 /.cursor/rules/awesome-cursor.mdc
