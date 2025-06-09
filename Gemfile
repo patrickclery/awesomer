@@ -82,3 +82,8 @@ gem "to_bool"
 gem "faraday-retry"
 
 gem "terminal-table"
+
+# State machine for status tracking
+gem "aasm"
+
+# Background job processing

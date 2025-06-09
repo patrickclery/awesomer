@@ -4,13 +4,13 @@
 #
 # Table name: categories
 #
-#  id              :integer          not null, primary key
+#  id              :bigint           not null, primary key
 #  name            :string           not null
 #  repo_count      :integer
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  awesome_list_id :integer          not null
-#  parent_id       :integer
+#  awesome_list_id :integer          not null, indexed
+#  parent_id       :integer          indexed
 #
 # Indexes
 #
@@ -19,8 +19,8 @@
 #
 # Foreign Keys
 #
-#  awesome_list_id  (awesome_list_id => awesome_lists.id)
-#  parent_id        (parent_id => categories.id)
+#  fk_rails_...  (awesome_list_id => awesome_lists.id)
+#  fk_rails_...  (parent_id => categories.id)
 #
 class Category < ApplicationRecord
   belongs_to :awesome_list

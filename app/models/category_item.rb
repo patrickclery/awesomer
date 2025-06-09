@@ -4,7 +4,7 @@
 #
 # Table name: category_items
 #
-#  id                :integer          not null, primary key
+#  id                :bigint           not null, primary key
 #  commits_past_year :integer
 #  demo_url          :string
 #  description       :text
@@ -15,7 +15,7 @@
 #  stars             :integer
 #  created_at        :datetime         not null
 #  updated_at        :datetime         not null
-#  category_id       :integer          not null
+#  category_id       :integer          not null, indexed
 #
 # Indexes
 #
@@ -23,7 +23,7 @@
 #
 # Foreign Keys
 #
-#  category_id  (category_id => categories.id)
+#  fk_rails_...  (category_id => categories.id)
 #
 class CategoryItem < ApplicationRecord
   belongs_to :category

@@ -4,13 +4,13 @@
 #
 # Table name: repo_stats
 #
-#  id                :integer          not null, primary key
+#  id                :bigint           not null, primary key
 #  commits_past_year :integer
 #  last_commit_at    :datetime
 #  stars             :integer
 #  created_at        :datetime         not null
 #  updated_at        :datetime         not null
-#  awesome_list_id   :integer          not null
+#  awesome_list_id   :integer          not null, indexed
 #
 # Indexes
 #
@@ -18,7 +18,7 @@
 #
 # Foreign Keys
 #
-#  awesome_list_id  (awesome_list_id => awesome_lists.id)
+#  fk_rails_...  (awesome_list_id => awesome_lists.id)
 #
 class RepoStat < ApplicationRecord
   belongs_to :awesome_list

@@ -4,7 +4,7 @@
 #
 # Table name: github_api_requests
 #
-#  id              :integer          not null, primary key
+#  id              :bigint           not null, primary key
 #  endpoint        :string
 #  owner           :string
 #  repo            :string
