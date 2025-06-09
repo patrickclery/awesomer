@@ -79,15 +79,16 @@ RSpec.describe FetchGithubStatsJob, type: :job do
         allow(rate_limiter).to receive_messages(can_make_request?: false, time_until_reset: 300)
       end
 
-      it 'retries the job after waiting' do
+      it 'raises TooManyRequests exception to trigger retry_on' do
         job = described_class.new
-        expect(job).to receive(:retry_job).with(wait: 300.seconds)
 
-        job.perform(
-          category_item_data:,
-          owner:,
-          repo_name:
-        )
+        expect {
+          job.perform(
+            category_item_data:,
+            owner:,
+            repo_name:
+          )
+        }.to raise_error(Octokit::TooManyRequests)
       end
     end
 
@@ -150,19 +151,25 @@ RSpec.describe FetchGithubStatsJob, type: :job do
 
       before do
         allow(rate_limiter).to receive(:can_make_request?).and_return(true)
+        allow(rate_limiter).to receive(:record_request)
         allow(Rails.cache).to receive(:read).and_return(nil)
         allow(octokit_client).to receive(:repository).and_raise(rate_limit_error)
       end
 
-      it 'retries after the specified time' do
+      it 'records the error and re-raises for retry_on handling' do
         job = described_class.new
-        expect(job).to receive(:retry_job).with(wait: 3600.seconds)
-
-        job.perform(
-          category_item_data:,
-          owner:,
-          repo_name:
-        )
+        
+        expect {
+          job.perform(
+            category_item_data:,
+            owner:,
+            repo_name:
+          )
+        }.to raise_error(Octokit::TooManyRequests)
+        
+        # Verify the error was recorded
+        request = GithubApiRequest.last
+        expect(request.response_status).to eq(429)
       end
     end
   end

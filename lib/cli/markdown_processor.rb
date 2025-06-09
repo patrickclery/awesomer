@@ -100,16 +100,50 @@ module Cli
         exit 1
       end
 
+      # Initialize rate limiter for sync mode
+      rate_limiter = nil
+      if sync_mode
+        unless defined?(GithubRateLimiterService)
+          say("ERROR: GithubRateLimiterService not loaded. Cannot proceed with sync mode.", :red)
+          exit 1
+        end
+        rate_limiter = GithubRateLimiterService.new
+      end
+
       # Process each awesome list
       successful_count = 0
       failed_count = 0
       failed_repos = []
+      rate_limited_count = 0
 
       awesome_lists.each_with_index do |awesome_list, index|
         repo_identifier = awesome_list.github_repo
         progress = "[#{index + 1}/#{total_count}]"
 
         puts "#{progress} Processing #{repo_identifier}..."
+
+        # Check rate limit before processing each awesome list in sync mode
+        if sync_mode && rate_limiter
+          unless rate_limiter.can_make_request?
+            wait_time = rate_limiter.time_until_reset
+            remaining_repos = total_count - index
+            
+            say("⚠️  GitHub API rate limit reached!", :yellow)
+            puts "   • Processed: #{index}/#{total_count} repositories"
+            puts "   • Remaining: #{remaining_repos} repositories"
+            puts "   • Rate limit resets in: #{wait_time} seconds (#{Time.at(Time.current.to_i + wait_time)})"
+            puts "   • Remaining requests: #{rate_limiter.requests_remaining}"
+            puts ""
+            say("🛑 Stopping sync to respect rate limits.", :red)
+            puts "💡 To resume processing later:"
+            puts "   1. Wait until #{Time.at(Time.current.to_i + wait_time)}"
+            puts "   2. Run: bundle exec ruby lib/cli/markdown_processor.rb sync --limit #{remaining_repos} --sync"
+            puts "   Or for async processing: bundle exec ruby lib/cli/markdown_processor.rb sync --limit #{remaining_repos}"
+            
+            rate_limited_count = remaining_repos
+            break
+          end
+        end
 
         begin
           # Create subdirectory for this repo (sanitize repo name for filesystem)
@@ -145,11 +179,20 @@ module Cli
 
       # Summary
       puts
-      say("🎉 Sync completed!", :green)
+      if rate_limited_count > 0
+        say("⚠️  Sync stopped due to rate limiting!", :yellow)
+      else
+        say("🎉 Sync completed!", :green)
+      end
+      
       puts "📊 Summary:"
-      puts "   • Total processed: #{total_count}"
+      puts "   • Total to process: #{total_count}"
       puts "   • Successful: #{successful_count}"
       puts "   • Failed: #{failed_count}"
+      
+      if rate_limited_count > 0
+        puts "   • Skipped (rate limited): #{rate_limited_count}"
+      end
 
       if failed_repos.any?
         puts

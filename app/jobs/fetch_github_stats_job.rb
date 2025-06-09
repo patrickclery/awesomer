@@ -7,7 +7,8 @@ class FetchGithubStatsJob < ApplicationJob
   queue_as :github_stats
 
   # Retry with exponential backoff for rate limit errors
-  retry_on StandardError, attempts: 5, wait: :exponentially_longer
+  retry_on Octokit::TooManyRequests, wait: :exponentially_longer, attempts: 5
+  retry_on StandardError, wait: :exponentially_longer, attempts: 3
 
   def perform(category_item_data:, owner:, repo_name:)
     @rate_limiter = GithubRateLimiterService.new
@@ -16,8 +17,7 @@ class FetchGithubStatsJob < ApplicationJob
     unless @rate_limiter.can_make_request?
       wait_time = @rate_limiter.time_until_reset
       Rails.logger.info "Rate limit reached, retrying in #{wait_time} seconds"
-      retry_job(wait: wait_time.seconds)
-      return
+      raise Octokit::TooManyRequests.new # Let retry_on handle the wait
     end
 
     # Check cache first (1 month expiration)
@@ -48,15 +48,15 @@ class FetchGithubStatsJob < ApplicationJob
   rescue Octokit::TooManyRequests => e
     Rails.logger.warn "Rate limited by GitHub API for #{owner}/#{repo_name}"
     record_api_request(owner:, repo_name:, status: 429)
-
-    # Extract retry-after header if available
-    retry_after = e.response_headers&.dig("retry-after")&.to_i || 3600
-    retry_job(wait: retry_after.seconds)
+    
+    # Re-raise to trigger retry_on mechanism
+    raise e
 
   rescue Octokit::NotFound
     Rails.logger.warn "Repository not found: #{owner}/#{repo_name}"
     record_api_request(owner:, repo_name:, status: 404)
     @rate_limiter&.record_request(success: false)
+    # Don't retry 404s - they're permanent failures
 
   rescue Octokit::Error => e
     Rails.logger.error "GitHub API error for #{owner}/#{repo_name}: #{e.message}"
