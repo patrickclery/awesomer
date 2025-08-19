@@ -108,10 +108,10 @@ class FetchGithubStatsForCategoriesOperation
     repo_data = client.repository("#{owner}/#{repo_name}")
 
     stats = {
-      last_commit_at: repo_data.pushed_at ? Time.parse(repo_data.pushed_at.to_s) : nil,
-      stars: repo_data.stargazers_count,
       forks: repo_data.forks_count,
-      issues: repo_data.open_issues_count
+      issues: repo_data.open_issues_count,
+      last_commit_at: repo_data.pushed_at ? Time.parse(repo_data.pushed_at.to_s) : nil,
+      stars: repo_data.stargazers_count
     }
 
     # Only cache successful responses (200 status)
@@ -162,7 +162,6 @@ class FetchGithubStatsForCategoriesOperation
   rescue StandardError => e
     Rails.logger.error "Failed to record API request: #{e.message}"
   end
-
 
   def queue_github_stats_jobs(category_structs)
     total_repos = 0

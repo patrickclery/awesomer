@@ -5,27 +5,27 @@ class StandardAwesomeListAdapter < BaseParserAdapter
   # ## Category Name
   # - [Item Name](https://url) - Description
   # - [Another Item](https://url) - Another description
-  
+
   HEADER_REGEX = /^(#+)\s+(.+)$/
   LINK_ITEM_REGEX = /^\s*[-*]\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*-\s*(?<description>.+))?/
-  
+
   def matches?(content)
     return false if content.blank?
-    
+
     # Check for standard awesome list indicators:
     # 1. Has markdown headers (##)
     has_headers = content.match?(/^##\s+.+$/m)
-    
+
     # 2. Has list items with links in standard format
     has_standard_links = content.match?(/^\s*[-*]\s*\[.+?\]\(.+?\)/m)
-    
+
     # 3. Has a reasonable number of both
     header_count = content.scan(/^##\s+.+$/).size
     link_count = content.scan(/^\s*[-*]\s*\[.+?\]\(.+?\)/).size
-    
+
     has_headers && has_standard_links && header_count >= 2 && link_count >= 5
   end
-  
+
   def priority
     10 # Default priority for standard format
   end
@@ -45,28 +45,28 @@ class StandardAwesomeListAdapter < BaseParserAdapter
       if building_item_attrs
         source_code_url = extract_source_code_url(building_item_attrs[:description])
         demo_url = extract_demo_url(building_item_attrs[:description])
-        
+
         github_url = building_item_attrs[:github_repo] ? "https://github.com/#{building_item_attrs[:github_repo]}" : nil
         primary_url = github_url || building_item_attrs[:url]
-        
+
         # Skip external links if requested
         if skip_external_links && !github_url
           building_item_attrs = nil
           return
         end
-        
+
         # Clean the description
         cleaned_description = clean_description(building_item_attrs[:description])
-        
+
         current_items_buffer << {
-          demo_url: demo_url,
+          demo_url:,
           description: cleaned_description,
           github_repo: building_item_attrs[:github_repo],
           id: item_id_counter,
           name: building_item_attrs[:name],
-          primary_url: primary_url
+          primary_url:
         }
-        
+
         item_id_counter += 1
         building_item_attrs = nil
       end
@@ -89,12 +89,12 @@ class StandardAwesomeListAdapter < BaseParserAdapter
       if match = HEADER_REGEX.match(line)
         level = match[1].length
         title = match[2].strip
-        
+
         # Only process H2 headers as categories
         if level == 2
           # Skip certain headers that aren't categories
           next if title.match?(/^(Contents?|Table of Contents?|Contributing|License|Acknowledgments?|Credits?)$/i)
-          
+
           flush_building_item_to_current_items.call
           flush_current_category_to_result.call
           current_category_name = title
@@ -102,28 +102,28 @@ class StandardAwesomeListAdapter < BaseParserAdapter
       # Check for list items with links
       elsif current_category_name && (match = LINK_ITEM_REGEX.match(line))
         flush_building_item_to_current_items.call
-        
+
         name = match[:name].strip
         url = match[:url].strip
         description = match[:description]&.strip
-        
+
         # Extract GitHub repo if present
         github_repo = extract_github_repo(url)
-        
+
         building_item_attrs = {
-          name: name,
-          url: url,
-          description: description,
-          github_repo: github_repo
+          description:,
+          github_repo:,
+          name:,
+          url:
         }
       # Handle continuation lines for descriptions
-      elsif building_item_attrs && line.strip.present? && !line.start_with?('#')
+      elsif building_item_attrs && line.strip.present? && !line.start_with?("#")
         # Append to description if the line doesn't start a new list item
         unless line.match?(/^\s*[-*]/)
           building_item_attrs[:description] = [
             building_item_attrs[:description],
             line.strip
-          ].compact.join(' ')
+          ].compact.join(" ")
         end
       end
     end

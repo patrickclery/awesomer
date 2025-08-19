@@ -31,7 +31,7 @@ class BaseParserAdapter
 
   def extract_github_repo(url)
     return nil unless url
-    
+
     github_repo_regex = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/#?]+?)(?:/|\.git|#|\?|$)}
     match = github_repo_regex.match(url)
     return nil unless match
@@ -41,7 +41,7 @@ class BaseParserAdapter
 
   def extract_source_code_url(description)
     return nil unless description
-    
+
     source_code_link_regex = /\[Source Code\]\(([^)]+)\)/i
     match = source_code_link_regex.match(description)
     match ? match[1] : nil
@@ -49,7 +49,7 @@ class BaseParserAdapter
 
   def extract_demo_url(description)
     return nil unless description
-    
+
     demo_link_regex = /\[Demo\]\(([^)]+)\)/i
     match = demo_link_regex.match(description)
     match ? match[1] : nil
@@ -57,11 +57,11 @@ class BaseParserAdapter
 
   def clean_description(description)
     return nil unless description
-    
+
     # Remove source code and demo links from description
     cleaned = description.dup
-    cleaned.gsub!(/\[Source Code\]\([^)]+\)/i, '')
-    cleaned.gsub!(/\[Demo\]\([^)]+\)/i, '')
+    cleaned.gsub!(/\[Source Code\]\([^)]+\)/i, "")
+    cleaned.gsub!(/\[Demo\]\([^)]+\)/i, "")
     cleaned.strip!
     cleaned.empty? ? nil : cleaned
   end

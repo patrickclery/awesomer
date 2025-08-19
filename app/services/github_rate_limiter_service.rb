@@ -8,7 +8,7 @@ class GithubRateLimiterService
   RATE_LIMIT_WINDOW = 3600 # 1 hour in seconds
   RATE_LIMIT_COUNT = 4000  # Max requests per hour
   REDIS_KEY_PREFIX = "github_rate_limit"
-  MIN_DELAY_BETWEEN_REQUESTS = 0.9  # Minimum seconds between requests (1.1 req/sec max)
+  MIN_DELAY_BETWEEN_REQUESTS = 0.9 # Minimum seconds between requests (1.1 req/sec max)
 
   def initialize(redis_client: REDIS_RATE_LIMIT)
     @redis = redis_client
@@ -91,7 +91,7 @@ class GithubRateLimiterService
         sleep(wait_time)
       end
     end
-    
+
     # Always add a minimum delay to avoid bursting
     sleep(MIN_DELAY_BETWEEN_REQUESTS)
   end

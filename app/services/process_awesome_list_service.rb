@@ -21,7 +21,7 @@ class ProcessAwesomeListService
     @process_category_service = deps[:process_category_service] || App::Container["process_category_service"]
     @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
-    @persist_parsed_categories_operation = 
+    @persist_parsed_categories_operation =
       deps[:persist_parsed_categories_operation] || App::Container["persist_parsed_categories_operation"]
     @repo_identifier = repo_identifier
     @sync = sync
@@ -70,7 +70,7 @@ class ProcessAwesomeListService
         awesome_list: aw_list_record,
         parsed_categories: categories_to_process_md
       )
-      
+
       if persist_result.failure?
         Rails.logger.error "Failed to persist categories: #{persist_result.failure}"
       end

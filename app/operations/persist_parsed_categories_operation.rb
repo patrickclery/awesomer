@@ -14,8 +14,12 @@ class PersistParsedCategoriesOperation
     parsed_categories.each do |category_data|
       # Handle both hash and struct formats
       category_name = category_data.respond_to?(:name) ? category_data.name : category_data[:name]
-      category_items = category_data.respond_to?(:repos) ? category_data.repos : (category_data[:items] || category_data[:repos])
-      
+      category_items = if category_data.respond_to?(:repos)
+                         category_data.repos
+      else
+                         category_data[:items] || category_data[:repos]
+      end
+
       # Create the category
       category = Category.create!(
         awesome_list:,
@@ -30,15 +34,15 @@ class PersistParsedCategoriesOperation
         else
           item_data
         end
-        
+
         category.category_items.create!(
           demo_url: item_attrs[:demo_url],
           description: item_attrs[:description],
           github_repo: item_attrs[:github_repo],
+          last_commit_at: item_attrs[:last_commit_at],
           name: item_attrs[:name],
           primary_url: item_attrs[:primary_url],
-          stars: item_attrs[:stars],
-          last_commit_at: item_attrs[:last_commit_at]
+          stars: item_attrs[:stars]
         )
       end
 

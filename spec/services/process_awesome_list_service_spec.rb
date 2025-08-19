@@ -34,17 +34,17 @@ RSpec.describe ProcessAwesomeListService do
   let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: [ "Save failed" ]) }
   let(:awesome_list_model_double) do
     instance_double(AwesomeList,
+                    complete_processing!: true,
                     description: sample_repo_description,
                     errors: errors_double,
+                    fail_processing!: true,
                     github_repo: "#{sample_repo_owner}/#{sample_repo_name}",
                     id: 1,
                     last_commit_at: sample_readme_last_commit_at,
                     name: sample_repo_name,
                     save: true,
                     skip_external_links: true,
-                    start_processing!: true,
-                    complete_processing!: true,
-                    fail_processing!: true)
+                    start_processing!: true)
   end
 
   let(:parsed_categories) do
