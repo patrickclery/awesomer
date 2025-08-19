@@ -15,5 +15,6 @@ module App
     register("find_or_create_awesome_list_operation") { FindOrCreateAwesomeListOperation.new }
     register("extract_awesome_lists_operation") { ExtractAwesomeListsOperation.new }
     register("bootstrap_awesome_lists_service") { BootstrapAwesomeListsService.new }
+    register("persist_parsed_categories_operation") { PersistParsedCategoriesOperation.new }
   end
 end

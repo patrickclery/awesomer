@@ -20,33 +20,37 @@ This command will:
    ```
 
 2. **Monitor Output**: Watch for rate limiting errors such as:
-  - "API rate limit exceeded"
-  - "429 Too Many Requests"
-  - "Secondary rate limit"
-  - Faraday::TooManyRequestsError
-  - Octokit::TooManyRequests
+
+- "API rate limit exceeded"
+- "429 Too Many Requests"
+- "Secondary rate limit"
+- Faraday::TooManyRequestsError
+- Octokit::TooManyRequests
 
 3. **Identify Issues**: When rate limiting occurs, analyze:
-  - Which operation triggered the limit
-  - Current rate limiting implementation in `app/services/github_rate_limiter_service.rb`
-  - Retry logic in operations that make GitHub API calls
-  - Batch processing delays
+
+- Which operation triggered the limit
+- Current rate limiting implementation in `app/services/github_rate_limiter_service.rb`
+- Retry logic in operations that make GitHub API calls
+- Batch processing delays
 
 4. **Fix Implementation**: Make improvements such as:
-  - Increase delays between API calls
-  - Implement exponential backoff
-  - Add better rate limit checking before requests
-  - Implement request queuing
-  - Add caching for frequently accessed data
-  - Batch requests more efficiently
-  - Use conditional requests with ETags where possible
+
+- Increase delays between API calls
+- Implement exponential backoff
+- Add better rate limit checking before requests
+- Implement request queuing
+- Add caching for frequently accessed data
+- Batch requests more efficiently
+- Use conditional requests with ETags where possible
 
 5. **Test Fix**: After making changes:
-  - Run the specs to ensure nothing is broken:
-    ```bash
-    bundle exec rspec spec/services/github_rate_limiter_service_spec.rb
-    bundle exec rspec spec/operations/sync_git_stats_operation_spec.rb
-    ```
+
+- Run the specs to ensure nothing is broken:
+  ```bash
+  bundle exec rspec spec/services/github_rate_limiter_service_spec.rb
+  bundle exec rspec spec/operations/sync_git_stats_operation_spec.rb
+  ```
 
 6. **Retry Process**: Run the bootstrap command again and monitor for issues
 
@@ -68,7 +72,11 @@ The command is successful when:
 - No rate limiting errors occur
 - All items have their GitHub stats synced
 - The `awesome_lists` table shows all records in 'completed' state
-- **No empty star counts**: Verify that repository statistics are actually populated by checking that items aren't full of empty/zero star counts (which would indicate the sync didn't actually update the data)
+- **No empty star counts**: Verify that repository statistics are actually populated by checking that items aren't full
+  of empty/zero star counts (which would indicate the sync didn't actually update the data)
+- **Generated markdown files show actual stats**: The files in `static/md/` must show real star counts and last commit
+  dates, NOT "N/A" for all items. While some individual items might legitimately be N/A (deleted repos), it should be
+  rare. If ALL items in a file show "N/A", the sync didn't work properly
 
 ## Monitoring Progress
 
@@ -78,13 +86,20 @@ Check progress with:
 AwesomeList.group(:state).count
 AwesomeList.where(state: 'failed').pluck(:github_repo, :updated_at)
 
-# Check for empty star counts to ensure updates actually worked
-CategoryItem.joins(:repo_stat).where(repo_stats: { stars_count: 0 }).count
-CategoryItem.joins(:repo_stat).where(repo_stats: { stars_count: nil }).count
-CategoryItem.left_joins(:repo_stat).where(repo_stats: { id: nil }).count
+# Check for empty star counts in database to ensure updates actually worked
+CategoryItem.where(stars: nil).count
+CategoryItem.where(stars: 0).count
 
 # Get a sample of star counts to verify they're populated
-RepoStat.pluck(:stars_count).sample(20)
+CategoryItem.where.not(stars: nil).pluck(:name, :stars).sample(10)
+
+# Check generated markdown files for N/A values
+Dir.glob("static/md/*.md").each do |file|
+  content = File.read(file)
+  na_count = content.scan(/\| N\/A\s+\|/).count
+  total_rows = content.scan(/^\|[^-]/).count
+  puts "#{File.basename(file)}: #{na_count}/#{total_rows} N/A values"
+end
 ```
 
 ## Verification Loop
@@ -93,4 +108,9 @@ After each run, check that stats are actually being updated:
 
 1. **Count empty stats**: If many items still have zero or null star counts, the sync may not be working properly
 2. **Sample verification**: Check a random sample of repositories to ensure they have realistic star counts
-3. **Keep iterating**: Continue checking and fixing until all repository items have proper statistics populated
+3. **Check markdown files**: Open files in `static/md/` and verify they show actual star counts and dates (not all "
+   N/A")
+4. **Keep iterating**: Continue checking and fixing until:
+  - Repository items have proper statistics populated in the database
+  - Generated markdown files show real stats (stars and dates) instead of "N/A"
+  - The vast majority of items have legitimate data (while a few N/A entries for deleted repos are acceptable)

@@ -10,7 +10,8 @@ class ProcessAwesomeListService
     :parse_markdown_operation,
     :sync_git_stats_operation,
     :process_category_service,
-    :find_or_create_awesome_list_operation
+    :find_or_create_awesome_list_operation,
+    :persist_parsed_categories_operation
   ]
 
   def initialize(repo_identifier:, sync: false, **deps)
@@ -20,6 +21,8 @@ class ProcessAwesomeListService
     @process_category_service = deps[:process_category_service] || App::Container["process_category_service"]
     @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
+    @persist_parsed_categories_operation = 
+      deps[:persist_parsed_categories_operation] || App::Container["persist_parsed_categories_operation"]
     @repo_identifier = repo_identifier
     @sync = sync
   end
@@ -60,6 +63,16 @@ class ProcessAwesomeListService
                                                       "items: #{sync_result.failure}. Proceeding with original " \
                                                       "parsed data."
                                    categories_from_parse
+      end
+
+      # Persist categories to database
+      persist_result = @persist_parsed_categories_operation.call(
+        awesome_list: aw_list_record,
+        parsed_categories: categories_to_process_md
+      )
+      
+      if persist_result.failure?
+        Rails.logger.error "Failed to persist categories: #{persist_result.failure}"
       end
 
       final_markdown_files_result = yield process_category_service.call(

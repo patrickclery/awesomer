@@ -50,14 +50,8 @@ class FetchGithubStatsForCategoriesOperation
         if github_repo_match = extract_github_repo(repo_item.primary_url)
           owner, repo_name = github_repo_match
 
-          # Check rate limit before making request
-          unless rate_limiter.can_make_request?
-            wait_time = rate_limiter.time_until_reset
-            Rails.logger.warn "Rate limit reached in synchronous mode. Skipping #{owner}/#{repo_name} " \
-                               "(would wait #{wait_time} seconds)"
-            # Don't sleep in synchronous mode - just skip this repo
-            next nil # This will be filtered out by filter_map
-          end
+          # Wait if rate limit is reached, then proceed
+          rate_limiter.wait_if_needed
 
           stats_result = fetch_repo_stats_directly(owner, repo_name, rate_limiter)
 
@@ -115,7 +109,9 @@ class FetchGithubStatsForCategoriesOperation
 
     stats = {
       last_commit_at: repo_data.pushed_at ? Time.parse(repo_data.pushed_at.to_s) : nil,
-      stars: repo_data.stargazers_count
+      stars: repo_data.stargazers_count,
+      forks: repo_data.forks_count,
+      issues: repo_data.open_issues_count
     }
 
     # Only cache successful responses (200 status)
@@ -166,6 +162,7 @@ class FetchGithubStatsForCategoriesOperation
   rescue StandardError => e
     Rails.logger.error "Failed to record API request: #{e.message}"
   end
+
 
   def queue_github_stats_jobs(category_structs)
     total_repos = 0
