@@ -19,7 +19,26 @@ This command will:
    bundle exec rails runner "BootstrapAwesomeListsService.new.call"
    ```
 
-2. **Monitor Output**: Watch for rate limiting errors such as:
+   **Important**: The bootstrap service only creates AwesomeList records but does NOT fetch GitHub stats. You must
+   process each repository individually with sync mode to get stats.
+
+2. **Process with Stats**: For each awesome list that needs GitHub stats, run with sync mode:
+   ```bash
+   # Process a specific repo with immediate GitHub stats fetching
+   bundle exec rails runner "ProcessAwesomeListService.new(repo_identifier: 'hesreallyhim/awesome-claude-code', sync: true).call"
+   
+   # Process all pending repositories with stats (will take time due to rate limiting)
+   bundle exec rails runner "
+   AwesomeList.where(state: 'pending').find_each do |list|
+     puts \"Processing #{list.github_repo}...\"
+     service = ProcessAwesomeListService.new(repo_identifier: list.github_repo, sync: true)
+     result = service.call
+     puts result.success? ? '✅ Success' : '❌ Failed: ' + result.failure.to_s
+   end
+   "
+   ```
+
+3. **Monitor Output**: Watch for rate limiting errors such as:
 
 - "API rate limit exceeded"
 - "429 Too Many Requests"
@@ -27,14 +46,14 @@ This command will:
 - Faraday::TooManyRequestsError
 - Octokit::TooManyRequests
 
-3. **Identify Issues**: When rate limiting occurs, analyze:
+4. **Identify Issues**: When rate limiting occurs, analyze:
 
 - Which operation triggered the limit
 - Current rate limiting implementation in `app/services/github_rate_limiter_service.rb`
 - Retry logic in operations that make GitHub API calls
 - Batch processing delays
 
-4. **Fix Implementation**: Make improvements such as:
+5. **Fix Implementation**: Make improvements such as:
 
 - Increase delays between API calls
 - Implement exponential backoff
@@ -44,7 +63,7 @@ This command will:
 - Batch requests more efficiently
 - Use conditional requests with ETags where possible
 
-5. **Test Fix**: After making changes:
+6. **Test Fix**: After making changes:
 
 - Run the specs to ensure nothing is broken:
   ```bash
@@ -52,9 +71,9 @@ This command will:
   bundle exec rspec spec/operations/sync_git_stats_operation_spec.rb
   ```
 
-6. **Retry Process**: Run the bootstrap command again and monitor for issues
+7. **Retry Process**: Run the bootstrap command again and monitor for issues
 
-7. **Iterate**: Continue the loop until all awesome lists are successfully processed without rate limiting
+8. **Iterate**: Continue the loop until all awesome lists are successfully processed without rate limiting
 
 ## Key Files to Review/Modify
 
@@ -111,6 +130,7 @@ After each run, check that stats are actually being updated:
 3. **Check markdown files**: Open files in `static/md/` and verify they show actual star counts and dates (not all "
    N/A")
 4. **Keep iterating**: Continue checking and fixing until:
-  - Repository items have proper statistics populated in the database
-  - Generated markdown files show real stats (stars and dates) instead of "N/A"
-  - The vast majority of items have legitimate data (while a few N/A entries for deleted repos are acceptable)
+
+- Repository items have proper statistics populated in the database
+- Generated markdown files show real stats (stars and dates) instead of "N/A"
+- The vast majority of items have legitimate data (while a few N/A entries for deleted repos are acceptable)
