@@ -11,3 +11,4 @@ storage/*.sqlite3*
 # Ignore local repos configuration file
 config/repos.yml
 /CLAUDE.local.md
+/vendor/
