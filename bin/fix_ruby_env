@@ -1,14 +1,18 @@
 #!/bin/bash
-# Reset rbenv environment for project
-export RBENV_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-unset GEM_HOME GEM_PATH RBENV_GEMSET_ALREADY
+# Set up rbenv with gemsets for RubyMine compatibility
 
-# Read gemset from .rbenv-gemsets file if it exists
-if [ -f "$RBENV_DIR/.rbenv-gemsets" ]; then
-    export RBENV_GEMSETS=$(cat "$RBENV_DIR/.rbenv-gemsets")
-    echo "✓ Environment reset with gemset: $RBENV_GEMSETS"
-else
-    echo "✓ Environment reset (no .rbenv-gemsets file found)"
-fi
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
+# Clear any contaminating variables
+unset GEM_HOME GEM_PATH RBENV_GEMSETS RBENV_GEMSET_ALREADY
+
+# Change to project directory so rbenv reads .ruby-version and .rbenv-gemsets/.ruby-gemset
+cd "$PROJECT_ROOT"
+
+# Initialize rbenv (will load gemset plugin if available)
 eval "$(rbenv init -)"
+
+echo "✓ rbenv environment for awesomer project"
+echo "  - Ruby version: $(ruby --version)"
+echo "  - Gemset: $(rbenv gemset active 2>/dev/null || echo 'none')"
+echo "  - Gem location: $(gem env gemdir)"
