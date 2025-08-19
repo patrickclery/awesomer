@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+- @.claude/commands/fix-rate-limiting.md
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Common Commands
