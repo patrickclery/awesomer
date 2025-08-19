@@ -83,10 +83,28 @@ class FetchGithubStatsForCategoriesOperation
   end
 
   def extract_github_repo(url)
-    # Regex to capture GitHub owner and repo from URL
-    github_repo_regex = %r{https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/#]+?)(?:/|\.git|#|$)}
-    match = github_repo_regex.match(url)
+    # Only extract repo info if URL points to repository root, not files/directories
+    return nil unless url
+
+    # Pattern for repository root URLs:
+    # - https://github.com/owner/repo
+    # - https://github.com/owner/repo/
+    # - https://github.com/owner/repo.git
+    # - https://github.com/owner/repo#readme
+    #
+    # Should NOT match:
+    # - https://github.com/owner/repo/tree/branch/path
+    # - https://github.com/owner/repo/blob/branch/file.md
+    # - https://github.com/owner/repo/releases
+    # - https://github.com/owner/repo/issues
+
+    repo_root_regex = %r{^https?://github\.com/(?<owner>[^/]+)/(?<repo>[^/#]+?)(?:\.git|#[^/]*|/?$)}
+    match = repo_root_regex.match(url)
     return nil unless match
+
+    # Additional check: ensure the URL doesn't contain paths that indicate it's not a repo root
+    path_indicators = %r{/(tree|blob|releases|issues|pull|wiki|actions|projects|security|pulse|graphs|settings|commit|commits|branches|tags|compare|network|insights)/}
+    return nil if path_indicators.match(url)
 
     [ match[:owner], match[:repo] ]
   end
