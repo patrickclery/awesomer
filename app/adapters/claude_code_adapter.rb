@@ -1,0 +1,155 @@
+# frozen_string_literal: true
+
+class ClaudeCodeAdapter < BaseParserAdapter
+  # Claude Code awesome list format:
+  # ## Category Name
+  # 
+  # [`Project Name`](https://github.com/user/repo) &nbsp; by &nbsp; [author](profile) &nbsp;&nbsp;⚖️&nbsp;&nbsp;License
+  # Description on the next line
+  
+  HEADER_REGEX = /^##\s+(.+)$/
+  # Match the claude-code specific format with backticks and metadata
+  ITEM_REGEX = /^\[`([^`]+)`\]\(([^)]+)\)\s*(?:&nbsp;.*?by\s*&nbsp;\s*\[([^\]]+)\]\([^)]+\))?\s*(?:&nbsp;&nbsp;.*?&nbsp;&nbsp;(.+?))?$/
+  # Also match simpler format without backticks
+  SIMPLE_ITEM_REGEX = /^\[([^\]]+)\]\(([^)]+)\)\s*(?:&nbsp;.*?by\s*&nbsp;\s*\[([^\]]+)\]\([^)]+\))?\s*(?:&nbsp;&nbsp;.*?&nbsp;&nbsp;(.+?))?$/
+  
+  def matches?(content)
+    return false if content.blank?
+    
+    # Check for claude-code specific patterns:
+    # 1. Has the backtick format [`name`](url)
+    has_backtick_format = content.match?(/\[`[^`]+`\]\([^)]+\)/)
+    
+    # 2. Has the &nbsp; separators typical of this format
+    has_nbsp_separators = content.include?('&nbsp;')
+    
+    # 3. Has "by" attribution pattern
+    has_by_pattern = content.match?(/&nbsp;\s*by\s*&nbsp;/i)
+    
+    # If it strongly matches claude-code patterns
+    if has_backtick_format && has_nbsp_separators
+      return true
+    end
+    
+    # Also check for the specific repo
+    content.include?('awesome-claude-code') || 
+      (has_nbsp_separators && has_by_pattern)
+  end
+  
+  def priority
+    20 # Higher priority when detected, as it's more specific
+  end
+
+  def parse(content, skip_external_links: false)
+    return Success([]) if content.blank?
+
+    categories_result = []
+    current_category = nil
+    current_items = []
+    building_item = nil
+    lines = content.lines
+
+    flush_item = lambda do
+      if building_item && building_item[:name]
+        # Skip external links if requested
+        if !skip_external_links || building_item[:github_repo]
+          current_items << building_item
+        end
+        building_item = nil
+      end
+    end
+
+    flush_category = lambda do
+      if current_category && current_items.any?
+        categories_result << {
+          name: current_category,
+          items: current_items.dup,
+          custom_order: categories_result.size
+        }
+      end
+      current_items.clear
+    end
+
+    lines.each_with_index do |line, index|
+      stripped = line.strip
+      
+      # Check for headers (categories)
+      if match = HEADER_REGEX.match(line)
+        title = match[1].strip
+        
+        # Skip meta headers
+        next if title.match?(/^(This Week|Contents?|Contributing|Announcements?|Table of Contents?)/i)
+        
+        # Remove emoji and clean up
+        title = title.gsub(/[🧠🧰📊🪝🔪🌻✨]/, '').strip
+        
+        flush_item.call
+        flush_category.call
+        current_category = title
+        
+      # Check for item in claude-code format
+      elsif current_category && (match = ITEM_REGEX.match(stripped) || SIMPLE_ITEM_REGEX.match(stripped))
+        flush_item.call
+        
+        name = match[1].strip
+        url = match[2].strip
+        author = match[3]&.strip
+        license = match[4]&.strip
+        
+        github_repo = extract_github_repo(url)
+        
+        building_item = {
+          name: name,
+          primary_url: url,
+          github_repo: github_repo,
+          description: nil,
+          demo_url: nil
+        }
+        
+        # Add author and license to description if present
+        metadata = []
+        metadata << "by #{author}" if author
+        metadata << license if license
+        building_item[:description] = metadata.join(' - ') if metadata.any?
+        
+      # Check if next line is a description (for multi-line format)
+      elsif building_item && stripped.present? && !stripped.start_with?('[') && !stripped.start_with?('#') && !stripped.start_with?('>')
+        # This is likely a description line
+        if building_item[:description]
+          building_item[:description] += " #{stripped}"
+        else
+          building_item[:description] = stripped
+        end
+        
+      # Handle standalone links that might be items
+      elsif current_category && stripped.match?(/^\[.+\]\(.+\)/)
+        # Try to parse as a simple link
+        if match = /^\[([^\]]+)\]\(([^)]+)\)(.*)/.match(stripped)
+          flush_item.call
+          
+          name = match[1].strip
+          url = match[2].strip
+          rest = match[3].strip
+          
+          github_repo = extract_github_repo(url)
+          
+          building_item = {
+            name: name,
+            primary_url: url,
+            github_repo: github_repo,
+            description: rest.empty? ? nil : rest.gsub(/^\s*-\s*/, ''),
+            demo_url: nil
+          }
+        end
+      end
+    end
+
+    # Flush any remaining data
+    flush_item.call
+    flush_category.call
+
+    Success(categories_result)
+  rescue StandardError => e
+    Failure("Failed to parse claude-code format: #{e.message}")
+  end
+end
