@@ -56,12 +56,15 @@ class ParseMarkdownOperation
         # Check if primary URL is GitHub
         primary_url_is_github = GITHUB_REPO_REGEX.match?(original_primary_url)
 
-        # If we have a GitHub source code URL, prioritize it over external primary URL
+        # Extract GitHub repo from source code URL if present
         if source_code_url && GITHUB_REPO_REGEX.match?(source_code_url)
           github_match = GITHUB_REPO_REGEX.match(source_code_url)
           github_repo = "#{github_match[:owner]}/#{github_match[:repo]}"
-          # Use GitHub URL as primary URL instead of external website
-          final_primary_url = "https://github.com/#{github_repo}"
+          # When skip_external_links is true, use GitHub URL as primary
+          # Otherwise, keep the original primary URL
+          if skip_external_links
+            final_primary_url = "https://github.com/#{github_repo}"
+          end
         elsif primary_url_is_github
           # If primary URL is GitHub, extract repo from it and clean the URL
           github_match = GITHUB_REPO_REGEX.match(original_primary_url)
@@ -167,7 +170,7 @@ class ParseMarkdownOperation
     match&.[](1)&.strip
   end
 
-  # Strip HTML tags and remove all markdown links from description text
+  # Strip HTML tags from description text
   # Returns nil if description is nil, otherwise returns cleaned text
   def strip_html_tags(description)
     return nil if description.nil?
@@ -175,9 +178,8 @@ class ParseMarkdownOperation
     # Use Rails' built-in strip_tags helper which is more robust than regex
     cleaned = ActionView::Base.full_sanitizer.sanitize(description)
 
-    # Remove all markdown links [text](url) from descriptions
-    # This removes any links since we already extract important URLs to dedicated fields
-    cleaned = cleaned&.gsub(/\[[^\]]*\]\([^)]+\)/, "")
+    # Don't remove markdown links - keep them in the description
+    # cleaned = cleaned&.gsub(/\[[^\]]*\]\([^)]+\)/, "")
 
     # Remove any remaining empty parenthetical groups like "(, )" or "()"
     cleaned = cleaned&.gsub(/\(\s*[,\s]*\s*\)/, "")

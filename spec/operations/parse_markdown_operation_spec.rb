@@ -298,10 +298,10 @@ RSpec.describe ParseMarkdownOperation do
       expect(category[:name]).to eq('Applications')
       expect(category[:items].size).to eq(4)
 
-      # First item should use GitHub URL as primary when Source Code link is available
+      # First item should keep original URL as primary, but extract GitHub repo from Source Code link
       aptabase = category[:items][0]
       expect(aptabase[:name]).to eq('Aptabase')
-      expect(aptabase[:primary_url]).to eq('https://github.com/aptabase/aptabase')
+      expect(aptabase[:primary_url]).to eq('https://aptabase.com/')
       expect(aptabase[:github_repo]).to eq('aptabase/aptabase')
       expect(aptabase[:description]).to include('Privacy first and simple analytics')
 
@@ -311,40 +311,40 @@ RSpec.describe ParseMarkdownOperation do
       expect(regular[:primary_url]).to eq('https://example.com/regular')
       expect(regular[:github_repo]).to be_nil
 
-      # Third item should use GitHub URL as primary when Source Code link is available
+      # Third item should keep original URL as primary, but extract GitHub repo from Source Code link
       multiple = category[:items][2]
       expect(multiple[:name]).to eq('Multiple Links')
-      expect(multiple[:primary_url]).to eq('https://github.com/user/repo')
+      expect(multiple[:primary_url]).to eq('https://main-site.com/')
       expect(multiple[:github_repo]).to eq('user/repo')
       expect(multiple[:demo_url]).to eq('https://demo.com')
 
       # Fourth item tests case insensitive matching
       case_test = category[:items][3]
       expect(case_test[:name]).to eq('Case Insensitive')
-      expect(case_test[:primary_url]).to eq('https://github.com/case/test')
+      expect(case_test[:primary_url]).to eq('https://site.com/')
       expect(case_test[:github_repo]).to eq('case/test')
     end
 
-    it 'removes Source Code and Demo links from descriptions' do
+    it 'keeps Source Code and Demo links in descriptions' do
       result = operation_call.value!
       aptabase = result.first[:items].first
 
-      # Source Code link should be removed from description
-      expect(aptabase[:description]).not_to include('([Source Code](https://github.com/aptabase/aptabase))')
-      # But core description and metadata should remain
+      # Source Code link should be kept in description
+      expect(aptabase[:description]).to include('([Source Code](https://github.com/aptabase/aptabase))')
+      # Core description and metadata should also remain
       expect(aptabase[:description]).to include('Privacy first and simple analytics')
       expect(aptabase[:description]).to include('`AGPL-3.0` `Docker`')
 
-      # Test multiple links removal
+      # Test multiple links are kept
       multiple = result.first[:items][2]
-      expect(multiple[:description]).not_to include('([Demo](https://demo.com))')
-      expect(multiple[:description]).not_to include('([Source Code](https://github.com/user/repo))')
-      expect(multiple[:description]).not_to include('([Docs](https://docs.com))')
+      expect(multiple[:description]).to include('([Demo](https://demo.com))')
+      expect(multiple[:description]).to include('([Source Code](https://github.com/user/repo))')
+      expect(multiple[:description]).to include('([Docs](https://docs.com))')
       expect(multiple[:description]).to include('Has multiple links')
 
-      # Test case insensitive removal
+      # Test case insensitive links are kept
       case_test = result.first[:items][3]
-      expect(case_test[:description]).not_to include('([source code](https://github.com/case/test))')
+      expect(case_test[:description]).to include('([source code](https://github.com/case/test))')
       expect(case_test[:description]).to include('Testing case insensitive matching')
     end
   end

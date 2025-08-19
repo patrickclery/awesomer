@@ -41,7 +41,10 @@ RSpec.describe ProcessAwesomeListService do
                     last_commit_at: sample_readme_last_commit_at,
                     name: sample_repo_name,
                     save: true,
-                    skip_external_links: true)
+                    skip_external_links: true,
+                    start_processing!: true,
+                    complete_processing!: true,
+                    fail_processing!: true)
   end
 
   let(:parsed_categories) do
