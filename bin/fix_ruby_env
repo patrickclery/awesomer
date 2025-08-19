@@ -1,0 +1,14 @@
+#!/bin/bash
+# Reset rbenv environment for project
+export RBENV_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+unset GEM_HOME GEM_PATH RBENV_GEMSET_ALREADY
+
+# Read gemset from .rbenv-gemsets file if it exists
+if [ -f "$RBENV_DIR/.rbenv-gemsets" ]; then
+    export RBENV_GEMSETS=$(cat "$RBENV_DIR/.rbenv-gemsets")
+    echo "✓ Environment reset with gemset: $RBENV_GEMSETS"
+else
+    echo "✓ Environment reset (no .rbenv-gemsets file found)"
+fi
+
+eval "$(rbenv init -)"
