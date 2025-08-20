@@ -53,20 +53,29 @@ class FetchGithubStatsForCategoriesOperation
           # Wait if rate limit is reached, then proceed
           rate_limiter.wait_if_needed
 
-          stats_result = fetch_repo_stats_directly(owner, repo_name, rate_limiter)
+          begin
+            # Wrap in timeout to prevent hanging
+            require "timeout"
+            stats_result = Timeout.timeout(30) do
+              fetch_repo_stats_directly(owner, repo_name, rate_limiter)
+            end
 
-          if stats_result
-            # Create new CategoryItem with updated stats
-            current_attrs = repo_item.to_h
-            new_attrs = current_attrs.merge(
-              last_commit_at: stats_result[:last_commit_at],
-              stars: stats_result[:stars]
-            )
-            Structs::CategoryItem.new(new_attrs)
-          else
-            # Skip items where GitHub stats fetch failed (404, etc.)
-            Rails.logger.info "Skipping #{owner}/#{repo_name} due to failed stats fetch (likely 404)"
-            next nil # This will be filtered out by filter_map
+            if stats_result
+              # Create new CategoryItem with updated stats
+              current_attrs = repo_item.to_h
+              new_attrs = current_attrs.merge(
+                last_commit_at: stats_result[:last_commit_at],
+                stars: stats_result[:stars]
+              )
+              Structs::CategoryItem.new(new_attrs)
+            else
+              # Skip items where GitHub stats fetch failed (404, etc.)
+              Rails.logger.info "Skipping #{owner}/#{repo_name} due to failed stats fetch (likely 404)"
+              next nil # This will be filtered out by filter_map
+            end
+          rescue Timeout::Error => e
+            Rails.logger.warn "Timeout fetching stats for #{owner}/#{repo_name}, skipping"
+            repo_item # Keep original on timeout
           end
         else
           repo_item # Keep original if not a GitHub repo
@@ -103,7 +112,8 @@ class FetchGithubStatsForCategoriesOperation
     return nil unless match
 
     # Additional check: ensure the URL doesn't contain paths that indicate it's not a repo root
-    path_indicators = %r{/(tree|blob|releases|issues|pull|wiki|actions|projects|security|pulse|graphs|settings|commit|commits|branches|tags|compare|network|insights)/}
+    path_indicators = %r{/(tree|blob|releases|issues|pull|wiki|actions|projects|security|pulse|graphs|settings|
+                          commit|commits|branches|tags|compare|network|insights)/}x
     return nil if path_indicators.match(url)
 
     [ match[:owner], match[:repo] ]
@@ -119,9 +129,21 @@ class FetchGithubStatsForCategoriesOperation
       return cached_stats
     end
 
-    # Make direct API call
-    client = Octokit::Client.new(access_token: ENV["GITHUB_API_KEY"])
-    client.auto_paginate = false
+    # Make direct API call with timeout configuration
+    client = if defined?(OctokitHelper)
+               OctokitHelper.client_with_timeout(timeout: 20)
+    else
+               Octokit::Client.new(
+                 access_token: ENV["GITHUB_API_KEY"],
+                 auto_paginate: false,
+                 connection_options: {
+                   request: {
+                     open_timeout: 5,
+                     timeout: 20
+                   }
+                 }
+               )
+    end
 
     repo_data = client.repository("#{owner}/#{repo_name}")
 

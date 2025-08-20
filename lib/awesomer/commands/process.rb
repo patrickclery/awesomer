@@ -167,34 +167,44 @@ module Awesomer
             end
 
             begin
-              result = ProcessAwesomeListService.new(repo_identifier:, sync: options[:sync]).call
+              # Add timeout to prevent indefinite hanging
+              require "timeout"
+              Timeout.timeout(60) do
+                result = ProcessAwesomeListService.new(repo_identifier:, sync: options[:sync]).call
 
-              if result.success?
-                successful_count += 1
-                puts "✅ Successfully processed #{repo_identifier}"
-                break
-              else
-                error_message = result.failure.to_s
-                if rate_limit_error.call(error_message)
-                  puts "⚠️  Rate limit error detected"
-                  if options[:wait_and_retry]
-                    puts "⏳ Waiting for rate limit to reset..."
-                    github_info = get_github_rate_limit_info
-                    if github_info
-                      reset_time_utc = github_info[:resets_at]
-                      current_time_utc = Time.current
-                      if reset_time_utc > current_time_utc
-                        sleep_duration = (reset_time_utc - current_time_utc) + 10
-                        puts "   • Sleeping for #{sleep_duration.round} seconds..."
-                        sleep(sleep_duration)
+                if result.success?
+                  successful_count += 1
+                  puts "✅ Successfully processed #{repo_identifier}"
+                  break
+                else
+                  error_message = result.failure.to_s
+                  if rate_limit_error.call(error_message)
+                    puts "⚠️  Rate limit error detected"
+                    if options[:wait_and_retry]
+                      puts "⏳ Waiting for rate limit to reset..."
+                      github_info = get_github_rate_limit_info
+                      if github_info
+                        reset_time_utc = github_info[:resets_at]
+                        current_time_utc = Time.current
+                        if reset_time_utc > current_time_utc
+                          sleep_duration = (reset_time_utc - current_time_utc) + 10
+                          puts "   • Sleeping for #{sleep_duration.round} seconds..."
+                          sleep(sleep_duration)
+                        end
+                      else
+                        puts "   • Using fallback wait time of 60 minutes..."
+                        sleep(3600)
                       end
+                      puts "🔄 Rate limit reset! Retrying #{repo_identifier}..."
+                      retry_count += 1
+                      next
                     else
-                      puts "   • Using fallback wait time of 60 minutes..."
-                      sleep(3600)
+                      awesome_list.fail_processing! rescue nil
+                      failed_count += 1
+                      failed_repos << repo_identifier
+                      puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
+                      break
                     end
-                    puts "🔄 Rate limit reset! Retrying #{repo_identifier}..."
-                    retry_count += 1
-                    next
                   else
                     awesome_list.fail_processing! rescue nil
                     failed_count += 1
@@ -202,14 +212,14 @@ module Awesomer
                     puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
                     break
                   end
-                else
-                  awesome_list.fail_processing! rescue nil
-                  failed_count += 1
-                  failed_repos << repo_identifier
-                  puts "❌ Failed to process #{repo_identifier}: #{result.failure}"
-                  break
                 end
               end
+            rescue Timeout::Error => e
+              puts "⏱️  Timeout after 60s - skipping #{repo_identifier}"
+              awesome_list.update(state: "pending") if awesome_list.state == "in_progress"
+              failed_count += 1
+              failed_repos << repo_identifier
+              break
             rescue => e
               error_message = e.message
               if rate_limit_error.call(error_message)

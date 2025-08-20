@@ -2,11 +2,19 @@
 # frozen_string_literal: true
 
 require_relative "../config/environment"
+require "timeout"
 
 class SyncAllAwesomeLists
+  MAX_PROCESSING_TIME = 60 # Maximum seconds per repository
+  MAX_RETRIES = 3
+
   def run
     puts "🚀 Starting sync of all awesome lists with GitHub stats..."
+    puts "⏱️  With timeout protection (#{MAX_PROCESSING_TIME}s per repo)"
     puts "=" * 60
+
+    # Reset any stuck in_progress items from previous runs
+    reset_stuck_items
 
     total_pending = AwesomeList.pending.count
     total_all = AwesomeList.count
@@ -26,13 +34,15 @@ class SyncAllAwesomeLists
 
     puts "Processing #{total_pending} pending repositories..."
     puts "This will fetch GitHub stats for each repository."
-    puts "Note: This may take a while due to GitHub API rate limits."
+    puts "Note: Each repo has a #{MAX_PROCESSING_TIME}s timeout to prevent stalling."
     puts
 
     success_count = 0
     failed_count = 0
+    timeout_count = 0
     rate_limit_count = 0
     processed = 0
+    consecutive_failures = 0
 
     AwesomeList.pending.find_each.with_index do |list, index|
       processed += 1
@@ -41,28 +51,41 @@ class SyncAllAwesomeLists
       puts "#{progress} Processing #{list.github_repo}..."
 
       begin
-        service = ProcessAwesomeListService.new(
-          repo_identifier: list.github_repo,
-          sync: true
-        )
-        result = service.call
+        # Wrap processing in timeout to prevent indefinite hanging
+        Timeout.timeout(MAX_PROCESSING_TIME) do
+          service = ProcessAwesomeListService.new(
+            repo_identifier: list.github_repo,
+            sync: true
+          )
+          result = service.call
 
-        if result.success?
-          success_count += 1
-          puts "  ✅ Success - Generated markdown with stats"
-        else
-          error_msg = result.failure.to_s
-          if error_msg.downcase.include?("rate limit")
-            rate_limit_count += 1
-            puts "  ⚠️  Rate limited - will retry later"
-            # Don't mark as failed, leave as pending for retry
+          if result.success?
+            success_count += 1
+            consecutive_failures = 0
+            puts "  ✅ Success - Generated markdown with stats"
           else
-            failed_count += 1
-            puts "  ❌ Failed: #{error_msg[0..100]}..."
+            error_msg = result.failure.to_s
+            if error_msg.downcase.include?("rate limit")
+              rate_limit_count += 1
+              consecutive_failures += 1
+              puts "  ⚠️  Rate limited - will retry later"
+              # Don't mark as failed, leave as pending for retry
+            else
+              failed_count += 1
+              consecutive_failures += 1
+              puts "  ❌ Failed: #{error_msg[0..100]}..."
+            end
           end
         end
+      rescue Timeout::Error => e
+        timeout_count += 1
+        consecutive_failures += 1
+        puts "  ⏱️  Timeout after #{MAX_PROCESSING_TIME}s - marking as pending for retry"
+        # Reset to pending if it got stuck in progress
+        list.update(state: "pending") if list.state == "in_progress"
       rescue => e
         failed_count += 1
+        consecutive_failures += 1
         puts "  ❌ Error: #{e.message[0..100]}..."
       end
 
@@ -76,8 +99,17 @@ class SyncAllAwesomeLists
         puts "  • Processed: #{processed}/#{total_pending}"
         puts "  • Successful: #{success_count}"
         puts "  • Failed: #{failed_count}"
+        puts "  • Timeouts: #{timeout_count}"
         puts "  • Rate Limited: #{rate_limit_count}"
         puts
+      end
+
+      # Stop if too many consecutive failures (likely a systemic issue)
+      if consecutive_failures >= 10
+        puts
+        puts "⚠️  Too many consecutive failures. Stopping to prevent waste."
+        puts "   You may want to check your API key or network connection."
+        break
       end
 
       # Check for rate limiting
@@ -124,6 +156,16 @@ class SyncAllAwesomeLists
         stats_percentage = ((total_rows - na_count).to_f / total_rows * 100).round(1)
         puts "  • Sample stats coverage: #{stats_percentage}% have GitHub stats"
       end
+    end
+  end
+
+  private
+
+  def reset_stuck_items
+    stuck_count = AwesomeList.in_progress.count
+    if stuck_count > 0
+      puts "🔄 Resetting #{stuck_count} stuck in_progress items..."
+      AwesomeList.in_progress.update_all(state: "pending", updated_at: Time.current)
     end
   end
 end

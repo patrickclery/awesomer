@@ -50,7 +50,8 @@ class BaseParserAdapter
     return nil unless match
 
     # Additional check: ensure the URL doesn't contain paths that indicate it's not a repo root
-    path_indicators = %r{/(tree|blob|releases|issues|pull|wiki|actions|projects|security|pulse|graphs|settings|commit|commits|branches|tags|compare|network|insights)/}
+    path_indicators = %r{/(tree|blob|releases|issues|pull|wiki|actions|projects|security|pulse|graphs|settings|
+                          commit|commits|branches|tags|compare|network|insights)/}x
     return nil if path_indicators.match(url)
 
     "#{match[:owner]}/#{match[:repo]}"

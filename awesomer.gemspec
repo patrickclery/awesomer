@@ -9,7 +9,8 @@ Gem::Specification.new do |spec|
   spec.email = [ "your.email@example.com" ]
 
   spec.summary = "CLI utility for processing GitHub Awesome Lists"
-  spec.description = "A command-line tool for fetching, parsing, and processing GitHub Awesome Lists repositories with statistics"
+  spec.description = "A command-line tool for fetching, parsing, and processing GitHub Awesome Lists " \
+                     "repositories with statistics"
   spec.homepage = "https://github.com/yourusername/awesomer"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"

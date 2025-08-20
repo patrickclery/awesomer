@@ -19,7 +19,20 @@ class FetchReadmeOperation
     owner, repo_name = yield parse_repo_identifier(repo_identifier)
     repo_full_name = "#{owner}/#{repo_name}"
 
-    client = Octokit::Client.new(access_token: ENV["GITHUB_API_KEY"])
+    # Use the helper with timeout configuration if available
+    client = if defined?(OctokitHelper)
+               OctokitHelper.client_with_timeout(timeout: 30)
+    else
+               Octokit::Client.new(
+                 access_token: ENV["GITHUB_API_KEY"],
+                 connection_options: {
+                   request: {
+                     open_timeout: 10,
+                     timeout: 30
+                   }
+                 }
+               )
+    end
 
     repo_data_result = yield fetch_repo_data(client, repo_full_name)
     repo_main_description = repo_data_result.description
