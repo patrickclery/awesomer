@@ -21,4 +21,4 @@
 
 | Name                                                                                | Description | Stars | Last Commit |
 |-------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Word2Vec vectors for Wikipedia Spanish Articles](https://github.com/idio/wiki2vec) |             | 600   | 2018-01-11  |
+| [Word2Vec vectors for Wikipedia Spanish Articles](https://github.com/idio/wiki2vec) |             | 601   | 2018-01-11  |

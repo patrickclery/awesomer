@@ -1,62 +1,39 @@
-## [Wonderland Clojure Katas](https://github.com/gigasquid/wonderland-clojure-katas)
-
-| Name                                                                           | Description | Stars | Last Commit |
-|--------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Alphabet Cipher](https://github.com/gigasquid/wonderland-clojure-katas)       |             | 872   | 2023-10-28  |
-| [Card game War](https://github.com/gigasquid/wonderland-clojure-katas)         |             | 872   | 2023-10-28  |
-| [Doublets](https://github.com/gigasquid/wonderland-clojure-katas)              |             | 872   | 2023-10-28  |
-| [Fox Goose Bag of Corn](https://github.com/gigasquid/wonderland-clojure-katas) |             | 872   | 2023-10-28  |
-| [Magic Square](https://github.com/gigasquid/wonderland-clojure-katas)          |             | 872   | 2023-10-28  |
-| [Tiny Maze](https://github.com/gigasquid/wonderland-clojure-katas)             |             | 872   | 2023-10-28  |
-| [Wonderland Number](https://github.com/gigasquid/wonderland-clojure-katas)     |             | 872   | 2023-10-28  |
-
-## [SensioLabs PoleDev Katas](https://github.com/devdrops/Katas)
-
-| Name                                                                                             | Description | Stars | Last Commit |
-|--------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Kata 1: (Form) DataTransformer](https://github.com/devdrops/Katas)                              |             | 1     | 2015-10-23  |
-| [Kata 2: (EventDispatcher) Event Listener / Event Dispatcher](https://github.com/devdrops/Katas) |             | 1     | 2015-10-23  |
-| [Kata 3: (Form) Inherit data / Virtual Form](https://github.com/devdrops/Katas)                  |             | 1     | 2015-10-23  |
-| [Kata 4: (Form) File Upload](https://github.com/devdrops/Katas)                                  |             | 1     | 2015-10-23  |
-| [Kata 5: (Translation) Manage translations](https://github.com/devdrops/Katas)                   |             | 1     | 2015-10-23  |
-
 ## [Gaurav Arora's TDD Katas Collection](https://github.com/garora/TDD-Katas)
 
 | Name                                                          | Description | Stars | Last Commit |
 |---------------------------------------------------------------|-------------|-------|-------------|
-| [Game of Life](https://github.com/garora/TDD-Katas)           |             | 731   | 2022-09-30  |
-| [Harry Potter](https://github.com/garora/TDD-Katas)           |             | 731   | 2022-09-30  |
-| [LCD Digits](https://github.com/garora/TDD-Katas)             |             | 731   | 2022-09-30  |
-| [Leap Year](https://github.com/garora/TDD-Katas)              |             | 731   | 2022-09-30  |
-| [Mine Fields](https://github.com/garora/TDD-Katas)            |             | 731   | 2022-09-30  |
-| [Poker Hands](https://github.com/garora/TDD-Katas)            |             | 731   | 2022-09-30  |
-| [Recently Used List](https://github.com/garora/TDD-Katas)     |             | 731   | 2022-09-30  |
-| [Reversi](https://github.com/garora/TDD-Katas)                |             | 731   | 2022-09-30  |
-| [String Calculator Kata](https://github.com/garora/TDD-Katas) |             | 731   | 2022-09-30  |
-| [String Sum Kata](https://github.com/garora/TDD-Katas)        |             | 731   | 2022-09-30  |
-| [The Bowling Game Kata](https://github.com/garora/TDD-Katas)  |             | 731   | 2022-09-30  |
-| [The FizzBuzz Kata](https://github.com/garora/TDD-Katas)      |             | 731   | 2022-09-30  |
-| [The OddEven Kata](https://github.com/garora/TDD-Katas)       |             | 731   | 2022-09-30  |
-| [The PrimeFactor Kata](https://github.com/garora/TDD-Katas)   |             | 731   | 2022-09-30  |
-| [Yehtzee](https://github.com/garora/TDD-Katas)                |             | 731   | 2022-09-30  |
+| [Game of Life](https://github.com/garora/TDD-Katas)           |             | 732   | 2022-09-30  |
+| [Harry Potter](https://github.com/garora/TDD-Katas)           |             | 732   | 2022-09-30  |
+| [LCD Digits](https://github.com/garora/TDD-Katas)             |             | 732   | 2022-09-30  |
+| [Leap Year](https://github.com/garora/TDD-Katas)              |             | 732   | 2022-09-30  |
+| [Mine Fields](https://github.com/garora/TDD-Katas)            |             | 732   | 2022-09-30  |
+| [Poker Hands](https://github.com/garora/TDD-Katas)            |             | 732   | 2022-09-30  |
+| [Recently Used List](https://github.com/garora/TDD-Katas)     |             | 732   | 2022-09-30  |
+| [Reversi](https://github.com/garora/TDD-Katas)                |             | 732   | 2022-09-30  |
+| [String Calculator Kata](https://github.com/garora/TDD-Katas) |             | 732   | 2022-09-30  |
+| [String Sum Kata](https://github.com/garora/TDD-Katas)        |             | 732   | 2022-09-30  |
+| [The Bowling Game Kata](https://github.com/garora/TDD-Katas)  |             | 732   | 2022-09-30  |
+| [The FizzBuzz Kata](https://github.com/garora/TDD-Katas)      |             | 732   | 2022-09-30  |
+| [The OddEven Kata](https://github.com/garora/TDD-Katas)       |             | 732   | 2022-09-30  |
+| [The PrimeFactor Kata](https://github.com/garora/TDD-Katas)   |             | 732   | 2022-09-30  |
+| [Yehtzee](https://github.com/garora/TDD-Katas)                |             | 732   | 2022-09-30  |
 
 ## Others
 
 | Name                                                                                                              | Description | Stars | Last Commit |
 |-------------------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [The Quantum Katas](https://github.com/Microsoft/QuantumKatas)                                                    |             | 4700  | 2024-08-21  |
-| [Gilded Rose - Many languages](https://github.com/emilybache/GildedRose-Refactoring-Kata)                         |             | 3996  | 2025-06-04  |
-| [Git katas](https://github.com/praqma-training/gitkatas)                                                          |             | 1474  | 2024-11-04  |
-| [Tennis Refactoring Kata](https://github.com/emilybache/Tennis-Refactoring-Kata)                                  |             | 768   | 2025-06-04  |
-| [RPG Game kata](https://github.com/ardalis/kata-catalog)                                                          |             | 754   | 2024-02-14  |
-| [Gilded Rose Original - C#](https://github.com/NotMyself/GildedRose)                                              |             | 408   | 2024-07-03  |
-| [Racing Car Katas](https://github.com/emilybache/Racing-Car-Katas)                                                |             | 312   | 2025-05-22  |
-| [Docker Katas](https://github.com/eficode-academy/docker-katas)                                                   |             | 259   | 2025-05-20  |
-| [Parrot Refactoring Kata](https://github.com/emilybache/Parrot-Refactoring-Kata)                                  |             | 129   | 2025-06-06  |
+| [The Quantum Katas](https://github.com/Microsoft/QuantumKatas)                                                    |             | 4747  | 2024-08-21  |
+| [Gilded Rose - Many languages](https://github.com/emilybache/GildedRose-Refactoring-Kata)                         |             | 4051  | 2025-08-15  |
+| [Git katas](https://github.com/praqma-training/gitkatas)                                                          |             | 1522  | 2024-11-04  |
+| [Tennis Refactoring Kata](https://github.com/emilybache/Tennis-Refactoring-Kata)                                  |             | 781   | 2025-06-22  |
+| [Gilded Rose Original - C#](https://github.com/NotMyself/GildedRose)                                              |             | 409   | 2024-07-03  |
+| [Racing Car Katas](https://github.com/emilybache/Racing-Car-Katas)                                                |             | 313   | 2025-05-22  |
+| [Docker Katas](https://github.com/eficode-academy/docker-katas)                                                   |             | 266   | 2025-05-20  |
+| [Parrot Refactoring Kata](https://github.com/emilybache/Parrot-Refactoring-Kata)                                  |             | 132   | 2025-06-06  |
 | [Train Reservation kata](https://github.com/emilybache/KataTrainReservation)                                      |             | 114   | 2024-03-07  |
 | [incremental_katas](https://github.com/Gianfrancoalongi/incremental_katas)                                        |             | 61    | 2023-09-06  |
 | [Refactoring Golf Kata](https://github.com/daviddenton/refactoring-golf)                                          |             | 56    | 2024-05-06  |
-| [Functional Structures Refactoring Kata](https://github.com/matteobaglini/functional-structures-refactoring-kata) |             | 33    | 2021-05-12  |
+| [Functional Structures Refactoring Kata](https://github.com/matteobaglini/functional-structures-refactoring-kata) |             | 34    | 2021-05-12  |
 | [Social Networking Kata](https://github.com/sandromancuso/social_networking_kata)                                 |             | 32    | 2017-09-12  |
 | [Tell don't ask kata](https://github.com/gabrieletondi/tell-dont-ask-kata)                                        |             | 32    | 2023-11-02  |
 | [.Net Code Katas](https://github.com/AlanBarber/CodeKatas)                                                        |             | 22    | 2022-11-03  |

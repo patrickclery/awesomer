@@ -4,7 +4,7 @@
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [DAML for Corda](https://github.com/chainstack/awesome-corda)    | DAML smart contracts for Corda.                                                                                                  | 73    | 2021-08-10  |
 | [Cordage](https://github.com/LayerXcom/cordage)                  | Provide modules that make the interoperability possible between Corda and other blockchains without further trusted third party. | 53    | 2023-09-27  |
-| [Cordentity](https://github.com/hyperledger-labs/cordentity)     | Integrate capabilities into Corda.                                                                                               | 31    | 2022-04-13  |
+| [Cordentity](https://github.com/hyperledger-labs/cordentity)     | Integrate [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) capabilities into Corda.                     | 31    | 2022-04-13  |
 | [Codaptor](https://github.com/180Protocol/codaptor)              | Create REST API for any CorDapp running on a Corda node automatically.                                                           | 14    | 2022-07-28  |
 | [PyCorda](https://github.com/chainhaus/pycorda)                  | Access node and vault data for analytics using pandas DataFrames.                                                                | 13    | 2020-11-25  |
 | [VS Code Corda extension](https://github.com/corda/vscode-corda) | VS Code tools for developing CorDapps on the Corda platform.                                                                     | 10    | 2024-01-09  |

@@ -2,7 +2,7 @@
 
 | Name                                          | Description                             | Stars | Last Commit |
 |-----------------------------------------------|-----------------------------------------|-------|-------------|
-| [glslify](https://github.com/stackgl/glslify) | npm modules compiled into WebGL shaders | 2247  | 2022-06-29  |
+| [glslify](https://github.com/stackgl/glslify) | npm modules compiled into WebGL shaders | 2253  | 2022-06-29  |
 
 ## sound
 
@@ -15,12 +15,12 @@
 
 | Name                                            | Description                               | Stars | Last Commit |
 |-------------------------------------------------|-------------------------------------------|-------|-------------|
-| [cash](https://github.com/dthree/cash)          | Cross-platform Linux commands in pure ES6 | 7762  | 2020-01-14  |
-| [vantage.js](https://github.com/dthree/vantage) | CLI + SSH + REPL for Node                 | 3433  | 2021-08-27  |
+| [cash](https://github.com/dthree/cash)          | Cross-platform Linux commands in pure ES6 | 7768  | 2020-01-14  |
+| [vantage.js](https://github.com/dthree/vantage) | CLI + SSH + REPL for Node                 | 3432  | 2021-08-27  |
 
 ## virtual machines
 
 | Name                                             | Description                                            | Stars | Last Commit |
 |--------------------------------------------------|--------------------------------------------------------|-------|-------------|
-| [doppio](https://github.com/plasma-umass/doppio) | actively updated jvm in node.js, written in TypeScript | 2178  | 2022-12-06  |
-| [jsemu](https://github.com/fcambus/jsemu)        | A list of emulators written in the JavaScript          | 1819  | 2024-12-30  |
+| [doppio](https://github.com/plasma-umass/doppio) | actively updated jvm in node.js, written in TypeScript | 2182  | 2022-12-06  |
+| [jsemu](https://github.com/fcambus/jsemu)        | A list of emulators written in the JavaScript          | 1826  | 2024-12-30  |

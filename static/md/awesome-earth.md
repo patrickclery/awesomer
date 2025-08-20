@@ -8,4 +8,4 @@
 
 | Name                                                                                    | Description                                                                 | Stars | Last Commit |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------|-------------|
-| [awesome-sustainability-jobs](https://github.com/pogopaule/awesome-sustainability-jobs) | A curated, open source list of developer jobs in the sustainability sector. | 490   | 2025-05-17  |
+| [awesome-sustainability-jobs](https://github.com/pogopaule/awesome-sustainability-jobs) | A curated, open source list of developer jobs in the sustainability sector. | 493   | 2025-05-17  |

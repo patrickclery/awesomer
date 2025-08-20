@@ -1,80 +1,58 @@
-## Related to machine learning
-
-| Name                                                                                                      | Description | Stars | Last Commit |
-|-----------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [`daviddao/awful-ai`](https://github.com/daviddao/awful-ai)                                               |             | 7062  | 2025-02-20  |
-| [`humanetech-community/awesome-humane-tech`](https://github.com/humanetech-community/awesome-humane-tech) |             | 3051  | 2022-11-13  |
-
-## Code against climate change
-
-| Name                                                                                                    | Description                            | Stars | Last Commit |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------|-------|-------------|
-| [`protontypes/open-sustainable-technology`](https://github.com/protontypes/open-sustainable-technology) | ----<br>](#dive-into-machine-learning) | 2255  | 2025-05-21  |
-| [`philsturgeon/awesome-earth`](https://github.com/philsturgeon/awesome-earth)                           |                                        | 1374  | 2025-04-23  |
-| [`ProjectDrawdown/solutions`](https://github.com/ProjectDrawdown/solutions)                             |                                        | 227   | 2022-10-10  |
-| [`daviddao/code-against-climate-change`](https://github.com/daviddao/code-against-climate-change)       |                                        | 200   | 2024-04-25  |
-
-## Cloud-based options
+## Tools you'll need
 
 | Name                                                                                                           | Description | Stars | Last Commit |
 |----------------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [markusschanta/awesome-jupyter, "Hosted Notebook Solutions"](https://github.com/markusschanta/awesome-jupyter) |             | 4260  | 2025-06-08  |
-| [ml-tooling/best-of-jupyter, "Notebook Environments"](https://github.com/ml-tooling/best-of-jupyter)           |             | 1075  | 2025-06-05  |
+| [markusschanta/awesome-jupyter, "Hosted Notebook Solutions"](https://github.com/markusschanta/awesome-jupyter) |             | 4348  | 2025-08-19  |
+| [ml-tooling/best-of-jupyter, "Notebook Environments"](https://github.com/ml-tooling/best-of-jupyter)           |             | 1120  | 2025-08-14  |
 
 ## Explore another notebook
 
-| Name                                                                                                                           | Description                                          | Stars | Last Commit |
-|--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|-------|-------------|
-| [trekhleb/homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning)                                    | Find more great Jupyter Notebooks when you're ready: | 23504 | 2024-11-12  |
-| [Dr. Randal Olson's Example Machine Learning notebook](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects) |                                                      | 6319  | 2023-06-21  |
-| [trekhleb/machine-learning-experiments](https://github.com/trekhleb/machine-learning-experiments)                              |                                                      | 1711  | 2024-11-12  |
+| Name                                                                                              | Description                                                                                               | Stars | Last Commit |
+|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------|-------------|
+| [trekhleb/homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning)       | Find more great Jupyter Notebooks when you're ready: Pick one of the courses below and start on your way. | 23654 | 2024-11-12  |
+| [trekhleb/machine-learning-experiments](https://github.com/trekhleb/machine-learning-experiments) |                                                                                                           | 1743  | 2024-11-12  |
 
 ## Other courses
 
-| Name                                                                                                | Description | Stars | Last Commit |
-|-----------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [`microsoft/Data-Science-For-Beginners`](https://github.com/microsoft/Data-Science-For-Beginners)   |             | 29655 | 2025-05-29  |
-| [`ossu/data-science`](https://github.com/ossu/data-science)                                         |             | 19863 | 2025-05-13  |
-| [Stanford CS229: Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)    |             | 18222 | 2020-05-20  |
-| [`ujjwalkarn/Machine-Learning-Tutorials`](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) |             | 16243 | 2024-06-12  |
+| Name                                                                                                | Description                                                                                                                        | Stars | Last Commit |
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [`microsoft/Data-Science-For-Beginners`](https://github.com/microsoft/Data-Science-For-Beginners)   | <details> <summary>More free online courses I've seen recommended. (Machine Learning, Data Science, and related topics.)</summary> | 30391 | 2025-08-07  |
+| [`ossu/data-science`](https://github.com/ossu/data-science)                                         |                                                                                                                                    | 20143 | 2025-05-13  |
+| [Stanford CS229: Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)    |                                                                                                                                    | 18395 | 2020-05-20  |
+| [`ujjwalkarn/Machine-Learning-Tutorials`](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) | </details>                                                                                                                         | 16589 | 2024-06-12  |
 
-## Some communities to know about!
+## Getting Help: Questions, Answers, Chats
 
 | Name                                                                                            | Description | Stars | Last Commit |
 |-------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [`ossu/data-science` has a Discord server and newsletter](https://github.com/ossu/data-science) |             | 19863 | 2025-05-13  |
+| [`ossu/data-science` has a Discord server and newsletter](https://github.com/ossu/data-science) |             | 20143 | 2025-05-13  |
 
 ## Supplement: Troubleshooting
 
-| Name                                                       | Description                                                                                                                                                                                                           | Stars | Last Commit |
-|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log) | There are many more tools than that, but those might get you started, or might be<br>especially useful while you're learning. Beyond learning, troubleshooting is more than just<br>logs or debuggers, of course... . | 216   | 2021-06-26  |
+| Name                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Stars | Last Commit |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [`pandas-log`](https://github.com/eyaltrabelsi/pandas-log) | There are many more tools than that, but those might get you started, or might be especially useful while you're learning. Beyond learning, troubleshooting is more than just logs or debuggers, of course... [there's also some MLOps links, later in this guide](#production-deployment-mlops). "Machine learning systems automatically learn programs from data." Pedro Domingos, in ["A Few Useful Things to Know about Machine Learning."](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) The programs you generate will require maintenance. Like any way of creating programs faster, you can rack up [technical debt](https://en.wikipedia.org/wiki/Technical_debt). Here is the abstract of [Machine Learning: The High-Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/): > Machine learning offers a fantastically powerful toolkit for building complex systems quickly. This paper argues that it is dangerous to think of these quick wins as coming for free. Using the framework of technical debt, we note that it is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning. The goal of this paper is highlight several machine learning specific risk factors and design patterns to be avoided or refactored where possible. These include boundary erosion, entanglement, hidden feedback loops, undeclared consumers, data dependencies, changes in the external world, and a variety of system-level anti-patterns. If you're reading this guide, you should read that paper. You can also [listen to a podcast episode interviewing one of the authors of this paper](https://softwareengineeringdaily.com/2015/11/17/machine-learning-and-technical-debt-with-d-sculley/). | 216   | 2021-06-26  |
 
 ## Deep Learning
 
 | Name                                                                                                                                | Description | Stars | Last Commit |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [`labmlai/annotated_deep_learning_paper_implementations`](https://github.com/labmlai/annotated_deep_learning_paper_implementations) |             | 60933 | 2024-08-24  |
-| [`fastai/fastbook`](https://github.com/fastai/fastbook)                                                                             |             | 23163 | 2024-08-16  |
-| [`explosion/thinc`](https://github.com/explosion/thinc)                                                                             |             | 2852  | 2025-04-04  |
+| [`labmlai/annotated_deep_learning_paper_implementations`](https://github.com/labmlai/annotated_deep_learning_paper_implementations) |             | 62626 | 2025-08-12  |
+| [`fastai/fastbook`](https://github.com/fastai/fastbook)                                                                             |             | 23600 | 2024-08-16  |
+| [`explosion/thinc`](https://github.com/explosion/thinc)                                                                             |             | 2869  | 2025-07-11  |
 
 ## More Data Science materials
 
-| Name                                                      | Description | Stars | Last Commit |
-|-----------------------------------------------------------|-------------|-------|-------------|
-| [`r0f1/datascience`](https://github.com/r0f1/datascience) |             | 4394  | 2025-06-05  |
-
-## Aside: Bayesian Statistics and Machine Learning
-
-| Name                                                                                       | Description | Stars | Last Commit |
-|--------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python) | ----        | 2503  | 2017-04-29  |
+| Name                                                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Stars | Last Commit |
+|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [`r0f1/datascience`](https://github.com/r0f1/datascience)                                  | From [the "Bayesian Machine Learning" overview on Metacademy](https://metacademy.org/roadmaps/rgrosse/bayesian_machine_learning): > ... Bayesian ideas have had a big impact in machine learning in the past 20 years or so because of the flexibility they provide in building structured models of real world phenomena. Algorithmic advances and increasing computational resources have made it possible to fit rich, highly structured models which were previously considered intractable. <details> <summary>Here are some awesome resources for learning Bayesian methods.</summary> | 4476  | 2025-08-10  |
+| [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python) | </details> [(↑ Back to top)](#dive-into-machine-learning)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 2505  | 2017-04-29  |
 
 ## More ways to "Dive into Machine Learning"
 
 | Name                                                                                                                     | Description | Stars | Last Commit |
 |--------------------------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [`microsoft/ML-For-Beginners`](https://github.com/microsoft/ML-For-Beginners)                                            |             | 72632 | 2025-06-07  |
-| [`josephmisiti/awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning)                      |             | 68222 | 2025-05-26  |
-| [Machine Learning for Software Engineers, by Nam Vu](https://github.com/ZuzooVn/machine-learning-for-software-engineers) |             | 28479 | 2024-06-11  |
-| [`ujjwalkarn/Machine-Learning-Tutorials`](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)                      |             | 16243 | 2024-06-12  |
+| [`microsoft/ML-For-Beginners`](https://github.com/microsoft/ML-For-Beginners)                                            |             | 76704 | 2025-08-07  |
+| [`josephmisiti/awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning)                      |             | 69372 | 2025-08-13  |
+| [Machine Learning for Software Engineers, by Nam Vu](https://github.com/ZuzooVn/machine-learning-for-software-engineers) |             | 28572 | 2024-06-11  |
+| [`ujjwalkarn/Machine-Learning-Tutorials`](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)                      |             | 16589 | 2024-06-12  |

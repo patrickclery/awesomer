@@ -14,27 +14,27 @@
 
 | Name                                    | Description            | Stars | Last Commit |
 |-----------------------------------------|------------------------|-------|-------------|
-| [elvis](https://github.com/inaka/elvis) | Erlang Style Reviewer. | 428   | 2025-05-08  |
+| [elvis](https://github.com/inaka/elvis) | Erlang Style Reviewer. | 429   | 2025-07-21  |
 
 ## Web Frameworks
 
-| Name                                                      | Description                                                               | Stars | Last Commit |
-|-----------------------------------------------------------|---------------------------------------------------------------------------|-------|-------------|
-| [cowboy](https://github.com/ninenines/cowboy)             | A simple HTTP server.                                                     | 7390  | 2025-06-06  |
-| [MochiWeb](https://github.com/mochi/mochiweb)             | An Erlang library for building lightweight HTTP servers.                  | 1881  | 2024-03-21  |
-| [ChicagoBoss](https://github.com/ChicagoBoss/ChicagoBoss) | A server framework inspired by Rails and written in Erlang.               | 1861  | 2022-01-10  |
-| [N2O](https://github.com/synrc/n2o)                       | WebSocket Application Server.                                             | 1343  | 2025-02-09  |
-| [Nitrogen](https://github.com/nitrogen/nitrogen)          | Framework to build web applications (including front-end) in pure Erlang. | 964   | 2025-04-16  |
-| [Zotonic](https://github.com/zotonic/zotonic)             | High speed, real-time web framework and content management system.        | 833   | 2025-06-06  |
-| [Axiom](https://github.com/tsujigiri/axiom)               | A micro-framework, inspired by Ruby's .                                   | 267   | 2023-02-16  |
-| [Giallo](https://github.com/kivra/giallo)                 | A small and flexible web framework on top of .                            | 66    | 2013-08-01  |
+| Name                                                      | Description                                                                                 | Stars | Last Commit |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------------------|-------|-------------|
+| [cowboy](https://github.com/ninenines/cowboy)             | A simple HTTP server.                                                                       | 7421  | 2025-06-25  |
+| [MochiWeb](https://github.com/mochi/mochiweb)             | An Erlang library for building lightweight HTTP servers.                                    | 1879  | 2024-03-21  |
+| [ChicagoBoss](https://github.com/ChicagoBoss/ChicagoBoss) | A server framework inspired by Rails and written in Erlang.                                 | 1861  | 2022-01-10  |
+| [N2O](https://github.com/synrc/n2o)                       | WebSocket Application Server.                                                               | 1340  | 2025-08-03  |
+| [Nitrogen](https://github.com/nitrogen/nitrogen)          | Framework to build web applications (including front-end) in pure Erlang.                   | 965   | 2025-06-19  |
+| [Zotonic](https://github.com/zotonic/zotonic)             | High speed, real-time web framework and content management system.                          | 839   | 2025-08-19  |
+| [Axiom](https://github.com/tsujigiri/axiom)               | A micro-framework, inspired by Ruby's [Sinatra](https://github.com/sinatra/sinatra).        | 267   | 2023-02-16  |
+| [Giallo](https://github.com/kivra/giallo)                 | A small and flexible web framework on top of [Cowboy](https://github.com/ninenines/cowboy). | 66    | 2013-08-01  |
 
 ## Web Framework Components
 
 | Name                                                                           | Description                                                                                                                       | Stars | Last Commit |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [simple_bridge](https://github.com/nitrogen/simple_bridge)                     | An abstraction layer providing a unified interface to popular Erlang web servers (Cowboy, Inets, Mochiweb, Webmachine, and Yaws). | 113   | 2024-09-06  |
-| [cb_admin](https://github.com/ChicagoBoss/cb_admin)                            | An admin interface for Chicago Boss.                                                                                              | 66    | 2016-06-10  |
+| [cb_admin](https://github.com/ChicagoBoss/cb_admin)                            | An admin interface for Chicago Boss.                                                                                              | 65    | 2016-06-10  |
 | [giallo_session](https://github.com/kivra/giallo_session)                      | A session management library for the Giallo web framework.                                                                        | 9     | 2014-01-15  |
 | [cb_websocket_controller](https://github.com/dkuhlman/cb_websocket_controller) | A template for implementing a Websocket controller for ChicagoBoss.                                                               | 8     | 2013-01-24  |
 
@@ -42,25 +42,25 @@
 
 | Name                                               | Description                                                       | Stars | Last Commit |
 |----------------------------------------------------|-------------------------------------------------------------------|-------|-------------|
-| [hackney](https://github.com/benoitc/hackney)      | Simple HTTP client in Erlang.                                     | 1352  | 2025-05-27  |
-| [gun](https://github.com/ninenines/gun)            | Erlang HTTP client with support for HTTP/1.1, SPDY and Websocket. | 914   | 2025-04-11  |
-| [ibrowse](https://github.com/cmullaparthi/ibrowse) | Erlang HTTP client.                                               | 516   | 2022-10-27  |
+| [hackney](https://github.com/benoitc/hackney)      | Simple HTTP client in Erlang.                                     | 1359  | 2025-07-29  |
+| [gun](https://github.com/ninenines/gun)            | Erlang HTTP client with support for HTTP/1.1, SPDY and Websocket. | 916   | 2025-04-11  |
+| [ibrowse](https://github.com/cmullaparthi/ibrowse) | Erlang HTTP client.                                               | 517   | 2022-10-27  |
 | [bullet](https://github.com/ninenines/bullet)      | Simple, reliable, efficient streaming for Cowboy.                 | 302   | 2018-12-11  |
-| [shotgun](https://github.com/inaka/shotgun)        | For the times you need more than just a gun.                      | 168   | 2025-05-24  |
+| [shotgun](https://github.com/inaka/shotgun)        | For the times you need more than just a gun.                      | 170   | 2025-08-08  |
 | [lhttpc](https://github.com/esl/lhttpc)            | A lightweight HTTP/1.1 client implemented in Erlang.              | 127   | 2022-03-29  |
 
 ## Testing
 
 | Name                                          | Description                                                   | Stars | Last Commit |
 |-----------------------------------------------|---------------------------------------------------------------|-------|-------------|
-| [PropEr](https://github.com/manopapad/proper) | A QuickCheck-inspired property-based testing tool for Erlang. | 893   | 2025-05-05  |
+| [PropEr](https://github.com/manopapad/proper) | A QuickCheck-inspired property-based testing tool for Erlang. | 897   | 2025-08-12  |
 | [tracerl](https://github.com/esl/tracerl)     | Dynamic tracing tests and utilities for Erlang/OTP            | 17    | 2014-07-31  |
 
 ## Logging
 
 | Name                                                                 | Description                         | Stars | Last Commit |
 |----------------------------------------------------------------------|-------------------------------------|-------|-------------|
-| [logplex](https://github.com/heroku/logplex)                         | Heroku log router.                  | 980   | 2022-02-14  |
+| [logplex](https://github.com/heroku/logplex)                         | Heroku log router.                  | 979   | 2022-02-14  |
 | [lager](https://github.com/basho/lager)                              | A logging framework for Erlang/OTP. | 41    | 2017-04-07  |
 | [lager_amqp_backend](https://github.com/jbrisbin/lager_amqp_backend) | AMQP RabbitMQ Lager backend.        | 34    | 2012-04-13  |
 | [lager_loggly](https://github.com/kivra/lager_loggly)                | Loggly backend for lager.           | 16    | 2016-10-26  |
@@ -72,11 +72,11 @@
 
 | Name                                              | Description                                                                                                                   | Stars | Last Commit |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [folsom](https://github.com/boundary/folsom)      | An Erlang based metrics system inspired by Coda Hale's .                                                                      | 584   | 2018-11-07  |
-| [Exometer](https://github.com/Feuerlabs/exometer) | An Erlang instrumentation package.                                                                                            | 526   | 2019-06-14  |
+| [folsom](https://github.com/boundary/folsom)      | An Erlang based metrics system inspired by Coda Hale's [metrics](https://github.com/codahale/metrics).                        | 586   | 2018-11-07  |
+| [Exometer](https://github.com/Feuerlabs/exometer) | An Erlang instrumentation package.                                                                                            | 528   | 2019-06-14  |
 | [eper](https://github.com/massemanet/eper)        | A loose collection of Erlang Performance related tools.                                                                       | 437   | 2018-07-06  |
 | [entop](https://github.com/mazenharake/entop)     | A top-like Erlang node monitoring tool.                                                                                       | 266   | 2019-05-29  |
-| [vmstats](https://github.com/ferd/vmstats)        | Tiny Erlang app that works in conjunction with statsderl in order to generate information on the Erlang VM for graphite logs. | 253   | 2020-12-31  |
+| [vmstats](https://github.com/ferd/vmstats)        | Tiny Erlang app that works in conjunction with statsderl in order to generate information on the Erlang VM for graphite logs. | 252   | 2020-12-31  |
 | [statsderl](https://github.com/lpgauth/statsderl) | A statsd Erlang client.                                                                                                       | 101   | 2023-03-30  |
 
 ## Deployment
@@ -97,15 +97,15 @@
 |------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [eflame](https://github.com/proger/eflame)           | A Flame Graph profiler for Erlang.                                                                                                                              | 427   | 2023-12-13  |
 | [Concuerror](https://github.com/parapluu/Concuerror) | Concuerror is a systematic testing tool for concurrent Erlang programs.                                                                                         | 339   | 2025-04-22  |
-| [geas](https://github.com/crownedgrouse/geas)        | Geas is a tool that will detect the runnable official Erlang release window for your project, including its dependencies and provides many useful informations. | 111   | 2025-02-02  |
+| [geas](https://github.com/crownedgrouse/geas)        | Geas is a tool that will detect the runnable official Erlang release window for your project, including its dependencies and provides many useful informations. | 111   | 2025-06-15  |
 
 ## Build Tools
 
-| Name                                      | Description                                                                                              | Stars | Last Commit |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------|-------|-------------|
-| [rebar3](https://github.com/rebar/rebar3) | A build tool for Erlang which can manage Erlang packages from . See more at                              | 1736  | 2025-05-30  |
-| [rebar](https://github.com/rebar/rebar)   | Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases. | 933   | 2018-02-01  |
-| [sync](https://github.com/rustyio/sync)   | On-the-fly recompiling for Erlang.                                                                       | 756   | 2023-11-10  |
+| Name                                      | Description                                                                                                                                | Stars | Last Commit |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [rebar3](https://github.com/rebar/rebar3) | A build tool for Erlang which can manage Erlang packages from [Hex.pm](https://hex.pm/). See more at [rebar3.org](https://www.rebar3.org/) | 1755  | 2025-08-02  |
+| [rebar](https://github.com/rebar/rebar)   | Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases.                                   | 933   | 2018-02-01  |
+| [sync](https://github.com/rustyio/sync)   | On-the-fly recompiling for Erlang.                                                                                                         | 757   | 2025-06-30  |
 
 ## Geolocation
 
@@ -119,13 +119,13 @@
 
 | Name                               | Description                                                                                               | Stars | Last Commit |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------|-------|-------------|
-| [tx](https://github.com/kvakvs/tx) | An HTML Erlang term viewer, starts own webserver and displays any term you give it from your Erlang node. | 81    | 2014-10-08  |
+| [tx](https://github.com/kvakvs/tx) | An HTML Erlang term viewer, starts own webserver and displays any term you give it from your Erlang node. | 82    | 2014-10-08  |
 
 ## Actors
 
 | Name                                          | Description                         | Stars | Last Commit |
 |-----------------------------------------------|-------------------------------------|-------|-------------|
-| [poolboy](https://github.com/devinus/poolboy) | A hunky Erlang worker pool factory. | 1569  | 2023-04-18  |
+| [poolboy](https://github.com/devinus/poolboy) | A hunky Erlang worker pool factory. | 1577  | 2023-04-18  |
 
 ## Date and Time
 
@@ -138,9 +138,9 @@
 
 | Name                                                           | Description                                          | Stars | Last Commit |
 |----------------------------------------------------------------|------------------------------------------------------|-------|-------------|
-| [epgsql](https://github.com/epgsql/epgsql)                     | PostgreSQL Driver for Erlang.                        | 428   | 2025-06-06  |
-| [mysql-otp](https://github.com/mysql-otp/mysql-otp)            | MySQL/OTP – MySQL driver for Erlang/OTP.             | 372   | 2025-06-04  |
-| [boss_db](https://github.com/ErlyORM/boss_db)                  | A sharded, caching, pooling, evented ORM for Erlang. | 276   | 2024-01-05  |
+| [epgsql](https://github.com/epgsql/epgsql)                     | PostgreSQL Driver for Erlang.                        | 429   | 2025-06-06  |
+| [mysql-otp](https://github.com/mysql-otp/mysql-otp)            | MySQL/OTP – MySQL driver for Erlang/OTP.             | 372   | 2025-06-10  |
+| [boss_db](https://github.com/ErlyORM/boss_db)                  | A sharded, caching, pooling, evented ORM for Erlang. | 277   | 2024-01-05  |
 | [pgsql_migration](https://github.com/artemeff/pgsql_migration) |                                                      | 19    | 2023-01-20  |
 
 ## Queue
@@ -156,15 +156,15 @@
 
 | Name                                      | Description                   | Stars | Last Commit |
 |-------------------------------------------|-------------------------------|-------|-------------|
-| [oauth2](https://github.com/kivra/oauth2) | Erlang Oauth2 implementation. | 219   | 2024-12-12  |
+| [oauth2](https://github.com/kivra/oauth2) | Erlang Oauth2 implementation. | 219   | 2025-08-12  |
 
 ## Text and Numbers
 
 | Name                                             | Description                                                           | Stars | Last Commit |
 |--------------------------------------------------|-----------------------------------------------------------------------|-------|-------------|
-| [jiffy](https://github.com/davisp/jiffy)         | JSON NIFs for Erlang.                                                 | 872   | 2024-06-08  |
-| [jsx](https://github.com/talentdeficit/jsx)      | An erlang application for consuming, producing and manipulating json. | 699   | 2024-06-26  |
-| [eql](https://github.com/artemeff/eql)           | Erlang with SQL or not.                                               | 116   | 2024-01-02  |
+| [jiffy](https://github.com/davisp/jiffy)         | JSON NIFs for Erlang.                                                 | 874   | 2024-06-08  |
+| [jsx](https://github.com/talentdeficit/jsx)      | An erlang application for consuming, producing and manipulating json. | 697   | 2024-06-26  |
+| [eql](https://github.com/artemeff/eql)           | Erlang with SQL or not.                                               | 117   | 2024-01-02  |
 | [rec2json](https://github.com/lordnull/rec2json) | Generate JSON encoder/decoder from record specs.                      | 46    | 2024-07-02  |
 | [qsp](https://github.com/artemeff/qsp)           | Enhanced query string parser for Erlang.                              | 19    | 2016-10-30  |
 | [miffy](https://github.com/expelledboy/miffy)    | Jiffy wrapper which returns pretty maps.                              | 3     | 2018-09-24  |
@@ -180,7 +180,7 @@
 
 | Name                                      | Description               | Stars | Last Commit |
 |-------------------------------------------|---------------------------|-------|-------------|
-| [cache](https://github.com/fogfish/cache) | In-memory Segmented Cache | 137   | 2022-03-23  |
+| [cache](https://github.com/fogfish/cache) | In-memory Segmented Cache | 138   | 2022-03-23  |
 
 ## Third Party APIs
 
@@ -194,7 +194,7 @@
 
 | Name                                                      | Description                                                                                                  | Stars | Last Commit |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [ranch](https://github.com/ninenines/ranch)               | Socket acceptor pool for TCP protocols.                                                                      | 1205  | 2025-02-17  |
+| [ranch](https://github.com/ninenines/ranch)               | Socket acceptor pool for TCP protocols.                                                                      | 1212  | 2025-07-28  |
 | [gen_rpc](https://github.com/priestjim/gen_rpc)           | A scalable RPC library for Erlang-VM based languages.                                                        | 228   | 2020-11-26  |
 | [barrel_tcp](https://github.com/benoitc-attic/barrel_tcp) | barrel_tcp is a generic TCP acceptor pool with low latency in Erlang.                                        | 83    | 2015-07-28  |
 | [gossiperl](https://github.com/gossiperl/gossiperl)       | Language agnostic gossip middleware and message bus written in Erlang.                                       | 46    | 2021-09-30  |
@@ -211,20 +211,14 @@
 
 | Name                                             | Description                                                       | Stars | Last Commit |
 |--------------------------------------------------|-------------------------------------------------------------------|-------|-------------|
-| [riak_dt](https://github.com/basho/riak_dt)      | Erlang library of state based CRDTs.                              | 352   | 2023-03-14  |
-| [statebox](https://github.com/mochi/statebox)    | Erlang state "monad" with merge/conflict-resolution capabilities. | 253   | 2015-02-03  |
-| [datum](https://github.com/fogfish/datum)        | A pure functional and generic programming for Erlang              | 125   | 2023-08-06  |
+| [riak_dt](https://github.com/basho/riak_dt)      | Erlang library of state based CRDTs.                              | 355   | 2023-03-14  |
+| [statebox](https://github.com/mochi/statebox)    | Erlang state "monad" with merge/conflict-resolution capabilities. | 252   | 2015-02-03  |
+| [datum](https://github.com/fogfish/datum)        | A pure functional and generic programming for Erlang              | 125   | 2025-07-07  |
 | [erlando](https://github.com/travelping/erlando) | A set of syntax extensions like currying and monads for Erlang.   | 1     | 2024-02-20  |
 
 ## Miscellaneous
 
-| Name                                                     | Description                                                                                        | Stars | Last Commit |
-|----------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------|-------------|
-| [erlang-history](https://github.com/ferd/erlang-history) | Hacks to add shell history to Erlang's shell.                                                      | 494   | 2018-03-02  |
-| [erld](https://github.com/ShoreTel-Inc/erld)             | erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon. | 191   | 2016-05-16  |
-
-## Websites
-
-| Name                                                         | Description                                                  | Stars | Last Commit |
-|--------------------------------------------------------------|--------------------------------------------------------------|-------|-------------|
-| [Erlang Bookmarks](https://github.com/0xAX/erlang-bookmarks) | All about erlang programming language [powerd by community]. | 1159  | 2021-07-31  |
+| Name                                                     | Description                                                                                                                                                                                                             | Stars | Last Commit |
+|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [erlang-history](https://github.com/ferd/erlang-history) | Hacks to add shell history to Erlang's shell.                                                                                                                                                                           | 494   | 2018-03-02  |
+| [erld](https://github.com/ShoreTel-Inc/erld)             | erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon. Various resources, such as books, websites and articles, for improving your Erlang development skills and knowledge. | 191   | 2016-05-16  |

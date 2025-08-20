@@ -1,9 +1,3 @@
-## Must Reads
-
-| Name                                                                      | Description                    | Stars | Last Commit |
-|---------------------------------------------------------------------------|--------------------------------|-------|-------------|
-| [Service Workers Explained](https://github.com/slightlyoff/ServiceWorker) | Service workers explained by . | 3635  | 2025-05-30  |
-
 ## Learning Resources
 
 | Name                                                                     | Description                                                                 | Stars | Last Commit |
@@ -14,15 +8,15 @@
 
 | Name                                                       | Description                                                                              | Stars | Last Commit |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------|-------|-------------|
-| [sw-precache](https://github.com/GoogleChrome/sw-precache) | Generates a service worker to cache your local App Shell resources.                      | 5214  | 2019-06-09  |
-| [sw-toolbox](https://github.com/GoogleChrome/sw-toolbox)   | A collection of simple helpers to simplify implementing common runtime caching patterns. | 3601  | 2019-10-01  |
+| [sw-precache](https://github.com/GoogleChrome/sw-precache) | Generates a service worker to cache your local App Shell resources.                      | 5211  | 2019-06-09  |
+| [sw-toolbox](https://github.com/GoogleChrome/sw-toolbox)   | A collection of simple helpers to simplify implementing common runtime caching patterns. | 3597  | 2019-10-01  |
 
 ## Related Technologies
 
 | Name                                                                           | Description | Stars | Last Commit |
 |--------------------------------------------------------------------------------|-------------|-------|-------------|
-| [App Install Banners](https://github.com/TalAter/awesome-progressive-web-apps) |             | 1562  | 2021-01-13  |
-| [Background Sync](https://github.com/TalAter/awesome-progressive-web-apps)     |             | 1562  | 2021-01-13  |
-| [CacheStorage API](https://github.com/TalAter/awesome-progressive-web-apps)    |             | 1562  | 2021-01-13  |
-| [IndexedDB](https://github.com/TalAter/awesome-progressive-web-apps)           |             | 1562  | 2021-01-13  |
-| [Push Notifications](https://github.com/TalAter/awesome-progressive-web-apps)  |             | 1562  | 2021-01-13  |
+| [App Install Banners](https://github.com/TalAter/awesome-progressive-web-apps) |             | 1566  | 2021-01-13  |
+| [Background Sync](https://github.com/TalAter/awesome-progressive-web-apps)     |             | 1566  | 2021-01-13  |
+| [CacheStorage API](https://github.com/TalAter/awesome-progressive-web-apps)    |             | 1566  | 2021-01-13  |
+| [IndexedDB](https://github.com/TalAter/awesome-progressive-web-apps)           |             | 1566  | 2021-01-13  |
+| [Push Notifications](https://github.com/TalAter/awesome-progressive-web-apps)  |             | 1566  | 2021-01-13  |

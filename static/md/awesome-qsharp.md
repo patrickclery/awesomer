@@ -2,21 +2,21 @@
 
 | Name                                                                                          | Description | Stars | Last Commit |
 |-----------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Q# samples](https://github.com/Microsoft/Quantum)                                            |             | 3953  | 2024-01-12  |
-| [Q# libraries](https://github.com/Microsoft/QuantumLibraries)                                 |             | 552   | 2024-02-07  |
-| [Q# libraries for the Quantum Development Kit](https://github.com/microsoft/QuantumLibraries) |             | 552   | 2024-02-07  |
-| [Quantum Computing Libraries for noncommercial use](https://github.com/Microsoft/Quantum-NC)  |             | 204   | 2024-02-07  |
+| [Q# samples](https://github.com/Microsoft/Quantum)                                            |             | 3978  | 2024-01-12  |
+| [Q# libraries](https://github.com/Microsoft/QuantumLibraries)                                 |             | 557   | 2024-02-07  |
+| [Q# libraries for the Quantum Development Kit](https://github.com/microsoft/QuantumLibraries) |             | 557   | 2024-02-07  |
+| [Quantum Computing Libraries for noncommercial use](https://github.com/Microsoft/Quantum-NC)  |             | 205   | 2024-02-07  |
 
 ## Tutorials
 
 | Name                                                                                   | Description                                                                                                                                  | Stars | Last Commit |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Quantum Katas](https://github.com/Microsoft/QuantumKatas)                             | Programming exercises for learning Q# and quantum computing.                                                                                 | 4700  | 2024-08-21  |
-| [Quantum Perceptron](https://github.com/Microsoft/MLADS2018-QuantumML)                 | Materials for self-paced "Introduction to Quantum Machine Learning" workshop presented at MLADS 2018.                                        | 54    | 2020-12-01  |
-| [Deutsch-Jozsa Algorithm](https://github.com/Microsoft/GHC18-IntroToQuantumComputing)  | Materials for self-paced "Introduction to Quantum Computing" workshop presented at Grace Hopper Celebration 2018 and Hopper x1 Seattle 2019. | 35    | 2019-12-17  |
-| [Quantum Classification](https://github.com/microsoft/MLADS2020-QuantumClassification) | Materials for self-paced "Introduction to Quantum Classification" lab presented at MLADS 2020.                                               | 20    | 2020-12-03  |
+| [Quantum Katas](https://github.com/Microsoft/QuantumKatas)                             | Programming exercises for learning Q# and quantum computing.                                                                                 | 4747  | 2024-08-21  |
+| [Quantum Perceptron](https://github.com/Microsoft/MLADS2018-QuantumML)                 | Materials for self-paced "Introduction to Quantum Machine Learning" workshop presented at MLADS 2018.                                        | 53    | 2020-12-01  |
+| [Deutsch-Jozsa Algorithm](https://github.com/Microsoft/GHC18-IntroToQuantumComputing)  | Materials for self-paced "Introduction to Quantum Computing" workshop presented at Grace Hopper Celebration 2018 and Hopper x1 Seattle 2019. | 36    | 2019-12-17  |
+| [Quantum Classification](https://github.com/microsoft/MLADS2020-QuantumClassification) | Materials for self-paced "Introduction to Quantum Classification" lab presented at MLADS 2020.                                               | 19    | 2020-12-03  |
 
-## Participants' solutions
+## Coding Contests and Solutions
 
 | Name                                                                                                                                   | Description | Stars | Last Commit |
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------|-------|-------------|

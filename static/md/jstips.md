@@ -1,4 +1,4 @@
-## Let’s keep in touch
+## Support the community
 
 | Name                                                     | Description | Stars | Last Commit |
 |----------------------------------------------------------|-------------|-------|-------------|

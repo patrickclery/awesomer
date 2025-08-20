@@ -2,17 +2,17 @@
 
 | Name                                                       | Description | Stars | Last Commit |
 |------------------------------------------------------------|-------------|-------|-------------|
-| [this repo](https://github.com/kennethreitz/awesome-coins) |             | 3964  | 2023-07-20  |
+| [this repo](https://github.com/kennethreitz/awesome-coins) |             | 4007  | 2023-07-20  |
 
 ## ☤ Reading Material
 
 | Name                                                                             | Description | Stars | Last Commit |
 |----------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)                  |             | 24359 | 2024-12-26  |
-| [Overview of Cryptocurrencies](https://github.com/kilimchoi/cryptocurrency)      |             | 405   | 2018-06-20  |
+| [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)                  |             | 24608 | 2024-12-26  |
+| [Overview of Cryptocurrencies](https://github.com/kilimchoi/cryptocurrency)      |             | 408   | 2018-06-20  |
 | [Blockchain for humans](https://github.com/anderson-joyle/blockchain-for-humans) |             | 16    | 2017-12-31  |
 
-## Hosted Coin Wallets
+## ☤ Coin Wallets
 
 | Name                                                                | Description | Stars | Last Commit |
 |---------------------------------------------------------------------|-------------|-------|-------------|
@@ -28,5 +28,5 @@
 
 | Name                                                           | Description                         | Stars | Last Commit |
 |----------------------------------------------------------------|-------------------------------------|-------|-------------|
-| [Blockchain demo](https://github.com/anders94/blockchain-demo) |                                     | 5493  | 2024-12-16  |
-| [Bit](https://github.com/ofek/bit)                             | to be made in only 3 lines of code. | 1292  | 2024-06-28  |
+| [Blockchain demo](https://github.com/anders94/blockchain-demo) |                                     | 5542  | 2025-08-12  |
+| [Bit](https://github.com/ofek/bit)                             | to be made in only 3 lines of code. | 1300  | 2024-06-28  |

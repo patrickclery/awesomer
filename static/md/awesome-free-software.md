@@ -1,54 +1,25 @@
-## Command Line Tools
+## Software
 
-| Name                                                                   | Description                                                                                                   | Stars | Last Commit |
-|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Clipboard](https://github.com/Slackadays/Clipboard)                   | Cut, copy, and paste anything, anywhere, all from the command line.                                           | 5244  | 2025-06-05  |
-| [Logdissect](https://github.com/dogoncouch/logdissect)                 | CLI utility and Python API for analyzing log files and other data.                                            | 150   | 2024-08-07  |
-| [SimpleLocalize](https://github.com/simplelocalize/simplelocalize-cli) | Open source tool for managing i18n keys in software projects.                                                 | 65    | 2025-04-12  |
-| [Localizely](https://github.com/localizely/localizely-cli)             | Open source tool that helps you sync localization files between your source code and the Localizely platform. | 5     | 2025-04-23  |
+| Name                                                                               | Description                                                                                                                                                                                                                                                                               | Stars  | Last Commit |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------|
+| [VS Code](https://github.com/microsoft/vscode)                                     | A source-code editor made by Microsoft ([MIT](https://github.com/microsoft/vscode/blob/main/LICENSE.txt))                                                                                                                                                                                 | 175912 | 2025-08-20  |
+| [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community) | Java/Android IDE with the goal of maximizing developer productivity. ([Apache License 2.0](https://github.com/JetBrains/intellij-community/blob/master/LICENSE.txt))                                                                                                                      | 18674  | 2025-08-20  |
+| [Espanso](https://github.com/federico-terzi/espanso)                               | A cross-playform text expander ([GNU GPLv3](https://github.com/federico-terzi/espanso/blob/master/LICENSE))                                                                                                                                                                               | 11990  | 2025-08-19  |
+| [Clipboard](https://github.com/Slackadays/Clipboard)                               | Cut, copy, and paste anything, anywhere, all from the command line. ([GNU GPLv3](https://github.com/Slackadays/Clipboard/blob/main/LICENSE))                                                                                                                                              | 5369   | 2025-06-11  |
+| [WinSCP](https://github.com/winscp/winscp)                                         | SFTP and FTP client for Windows ([GNU GPLv3](https://github.com/winscp/winscp/blob/master/license.txt))                                                                                                                                                                                   | 3182   | 2025-08-19  |
+| [Kit CLI](https://github.com/jozu-ai/kitops)                                       | Open source MLOps tool that allows you to create, manage, run, and deploy ModelKits using Kitfiles. From packaging new models to deploying existing ones, Kit CLI lets you streamline workflows effortlessly. ([Apache License 2.0](https://github.com/jozu-ai/kitops/blob/main/LICENSE)) | 1151   | 2025-08-19  |
+| [Open Office](https://github.com/apache/openoffice)                                | Provides a full featured office productivity suite based on open standards. ([Apache License 2.0](https://github.com/apache/openoffice/blob/trunk/LICENSE))                                                                                                                               | 1059   | 2025-08-19  |
+| [Mikochi](https://github.com/zer0tonin/Mikochi)                                    | A web interface for browsing remote folders, managing files (uploading, deleting, renaming, downloading), and streaming directly to VLC/mpv. ([MIT](https://github.com/zer0tonin/Mikochi/blob/main/LICENSE))                                                                              | 326    | 2025-07-09  |
+| [Logdissect](https://github.com/dogoncouch/logdissect)                             | CLI utility and Python API for analyzing log files and other data. ([MIT](https://github.com/dogoncouch/logdissect/blob/master/LICENSE))                                                                                                                                                  | 154    | 2024-08-07  |
+| [Grayscale Mode](https://github.com/rkbhochalya/grayscale-mode)                    | An open source macOS app that lets you quickly toggle grayscale filter right from your menu bar or using a keyboard shortcut (⌥⌘G). ([MIT](https://github.com/rkbhochalya/grayscale-mode/blob/master/LICENSE))                                                                            | 100    | 2021-09-01  |
+| [SimpleLocalize](https://github.com/simplelocalize/simplelocalize-cli)             | Open source tool for managing i18n keys in software projects.                                                                                                                                                                                                                             | 68     | 2025-08-11  |
+| [IP2Trace](https://github.com/ip2location/ip2location-traceroute)                  | A traceroute tools that displaying geolocation information using IP2Location database. ([MIT](https://github.com/ip2location/ip2location-traceroute/blob/master/LICENSE))                                                                                                                 | 24     | 2025-06-24  |
+| [Localizely](https://github.com/localizely/localizely-cli)                         | Open source tool that helps you sync localization files between your source code and the Localizely platform. ([MIT](https://github.com/localizely/localizely-cli/blob/main/LICENSE))                                                                                                     | 5      | 2025-04-23  |
 
-## File Management
-
-| Name                                            | Description                                                                                                                                  | Stars | Last Commit |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [WinSCP](https://github.com/winscp/winscp)      | SFTP and FTP client for Windows                                                                                                              | 3085  | 2025-06-06  |
-| [Mikochi](https://github.com/zer0tonin/Mikochi) | A web interface for browsing remote folders, managing files (uploading, deleting, renaming, downloading), and streaming directly to VLC/mpv. | 314   | 2025-04-21  |
-
-## IDEs
-
-| Name                                                                               | Description                                                          | Stars | Last Commit |
-|------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------|-------------|
-| [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community) | Java/Android IDE with the goal of maximizing developer productivity. | 18062 | 2025-06-09  |
-
-## Office
-
-| Name                                                | Description                                                                 | Stars | Last Commit |
-|-----------------------------------------------------|-----------------------------------------------------------------------------|-------|-------------|
-| [Open Office](https://github.com/apache/openoffice) | Provides a full featured office productivity suite based on open standards. | 1036  | 2025-06-08  |
-
-## Other
-
-| Name                                                              | Description                                                                            | Stars | Last Commit |
-|-------------------------------------------------------------------|----------------------------------------------------------------------------------------|-------|-------------|
-| [IP2Trace](https://github.com/ip2location/ip2location-traceroute) | A traceroute tools that displaying geolocation information using IP2Location database. | 24    | 2024-01-03  |
-
-## Text Editors
-
-| Name                                           | Description                            | Stars  | Last Commit |
-|------------------------------------------------|----------------------------------------|--------|-------------|
-| [VS Code](https://github.com/microsoft/vscode) | A source-code editor made by Microsoft | 173308 | 2025-06-09  |
-
-## Utilities
-
-| Name                                                            | Description                                                                                                                         | Stars | Last Commit |
-|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Espanso](https://github.com/federico-terzi/espanso)            | A cross-playform text expander                                                                                                      | 11549 | 2025-06-04  |
-| [Grayscale Mode](https://github.com/rkbhochalya/grayscale-mode) | An open source macOS app that lets you quickly toggle grayscale filter right from your menu bar or using a keyboard shortcut (⌥⌘G). | 99    | 2021-09-01  |
-
-## Other Lists
+## Resources
 
 | Name                                                                         | Description                                                                      | Stars  | Last Commit |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------|--------|-------------|
-| [Awesome Self-Hosted](https://github.com/Kickball/awesome-selfhosted)        | List of FLOSS network services and web applications which can be hosted locally. | 231657 | 2025-06-08  |
-| [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin)               | List of free software sysadmin tools.                                            | 29335  | 2025-05-12  |
-| [Awesome Humane Tech](https://github.com/engagingspaces/awesome-humane-tech) | List of projects focusing on ethics, transparency, and privacy.                  | 3052   | 2022-11-13  |
+| [Awesome Self-Hosted](https://github.com/Kickball/awesome-selfhosted)        | List of FLOSS network services and web applications which can be hosted locally. | 242770 | 2025-08-17  |
+| [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin)               | List of free software sysadmin tools.                                            | 30637  | 2025-07-27  |
+| [Awesome Humane Tech](https://github.com/engagingspaces/awesome-humane-tech) | List of projects focusing on ethics, transparency, and privacy.                  | 3064   | 2022-11-13  |

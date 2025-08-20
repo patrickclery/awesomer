@@ -1,51 +1,39 @@
-## Resources
-
-| Name                                                      | Description | Stars | Last Commit |
-|-----------------------------------------------------------|-------------|-------|-------------|
-| [GitHub Discussions](https://github.com/pest-parser/pest) |             | 4963  | 2025-06-09  |
-
 ## Projects
 
-| Name                                                                    | Description                                                                                                                                 | Stars | Last Commit |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Vector](https://github.com/timberio/vector)                            | A high-performance observability data pipeline.                                                                                             | 19670 | 2025-06-05  |
-| [pest_meta](https://github.com/pest-parser/pest)                        | The pest itself is bootstrapped using pest.                                                                                                 | 4963  | 2025-06-09  |
-| [Melody](https://github.com/yoav-lavi/melody)                           | Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable.                             | 4681  | 2024-11-24  |
-| [tera](https://github.com/Keats/tera)                                   | A template engine for Rust based on Jinja2/Django.                                                                                          | 3856  | 2025-03-18  |
-| [insta](https://github.com/mitsuhiko/insta)                             | A snapshot testing library for rust.                                                                                                        | 2503  | 2025-05-16  |
-| [ZoKrates](https://github.com/ZoKrates/ZoKrates)                        | A toolbox for zkSNARKs on Ethereum.                                                                                                         | 1870  | 2024-08-01  |
-| [jql](https://github.com/yamafaktory/jql)                               | A JSON Query Language CLI tool.                                                                                                             | 1594  | 2025-05-02  |
-| [AutoCorrect](https://github.com/huacnlee/autocorrect)                  | A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK (Chinese, Japanese, Korean). | 1410  | 2025-04-26  |
-| [handlebars-rust](https://github.com/sunng87/handlebars-rust)           | Rust templating with Handlebars.                                                                                                            | 1378  | 2025-06-06  |
-| [comrak](https://github.com/kivikakk/comrak)                            | CommonMark + GFM compatible Markdown parser and renderer.                                                                                   | 1335  | 2025-06-01  |
-| [cicada](https://github.com/mitnk/cicada)                               | An old-school bash-like Unix shell written in Rust.                                                                                         | 996   | 2025-04-19  |
-| [rs_pbrt](https://github.com/wahn/rs_pbrt)                              | Rust crate to implement a counterpart to the PBRT book's (3rd edition) C++ code.                                                            | 823   | 2024-01-29  |
-| [json5-rs](https://github.com/callum-oakley/json5-rs)                   | A Rust JSON5 serializer and deserializer which speaks Serde.                                                                                | 198   | 2023-10-26  |
-| [qubit](https://github.com/abhimanyu003/qubit)                          | A handy calculator, based on Rust and WebAssembly.                                                                                          | 89    | 2022-01-17  |
-| [Keadex Mina](https://github.com/keadex/keadex)                         | Open Source, serverless IDE to code with C4-PlantUML and organize at a scale C4 model diagrams.                                             | 69    | 2025-06-08  |
-| [elastic-rs](https://github.com/cch123/elastic-rs)                      | Convert bool expressions to Elasticsearch DSL in Rust.                                                                                      | 51    | 2023-07-21  |
-| [hexdino](https://github.com/Luz/hexdino)                               | A hex editor with vim like keybindings written in Rust.                                                                                     | 33    | 2024-11-02  |
-| [mt940](https://github.com/svenstaro/mt940-rs)                          | A MT940 parser in Rust.                                                                                                                     | 25    | 2025-04-02  |
-| [caith](https://github.com/Geobert/caith)                               | A dice roller crate.                                                                                                                        | 24    | 2025-03-10  |
-| [stache](https://github.com/dgraham/stache)                             | A Mustache template compiler.                                                                                                               | 21    | 2020-08-31  |
-| [rouler](https://github.com/jarcane/rouler)                             | An easy to use dice rolling library for Rust.                                                                                               | 18    | 2022-01-27  |
-| [py_literal](https://github.com/jturner314/py_literal)                  | Rust crate for parsing/formatting Python literals.                                                                                          | 17    | 2021-04-07  |
-| [AshPaper](https://github.com/shnewto/ashpaper)                         | Rust Inpterpreter for Esopo language AshPaper conceived by William Hicks.                                                                   | 14    | 2023-03-20  |
-| [yaml-peg](https://github.com/aofdev/yaml-peg)                          | PEG parser for YAML written in Rust.                                                                                                        | 10    | 2021-08-30  |
-| [PTA-Parser](https://github.com/AltaModaTech/pta-parser)                | A Plain Text Accounting parser built in Rust for, and other PTA formats.                                                                    | 1     | 2024-06-10  |
-| [Liquid Grammar](https://github.com/rust-utilities/liquid-grammar-pest) | Generate `Pairs` and/or `Rules` for Liquid (hash-tags _not-sponsored_ or _affiliated_) for use in consuming crates                          | 0     | 2024-06-24  |
+| Name                                                                    | Description                                                                                                                                                              | Stars | Last Commit |
+|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Vector](https://github.com/timberio/vector)                            | A high-performance observability data pipeline.                                                                                                                          | 20145 | 2025-08-20  |
+| [Melody](https://github.com/yoav-lavi/melody)                           | Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable.                                                          | 4699  | 2024-11-24  |
+| [tera](https://github.com/Keats/tera)                                   | A template engine for Rust based on Jinja2/Django.                                                                                                                       | 3941  | 2025-03-18  |
+| [insta](https://github.com/mitsuhiko/insta)                             | A snapshot testing library for rust.                                                                                                                                     | 2556  | 2025-08-06  |
+| [ZoKrates](https://github.com/ZoKrates/ZoKrates)                        | A toolbox for zkSNARKs on Ethereum.                                                                                                                                      | 1875  | 2024-08-01  |
+| [jql](https://github.com/yamafaktory/jql)                               | A JSON Query Language CLI tool.                                                                                                                                          | 1618  | 2025-06-24  |
+| [AutoCorrect](https://github.com/huacnlee/autocorrect)                  | A linter and formatter to help you to improve copywriting, correct spaces, words, and punctuations between CJK (Chinese, Japanese, Korean).                              | 1450  | 2025-08-13  |
+| [handlebars-rust](https://github.com/sunng87/handlebars-rust)           | Rust templating with Handlebars.                                                                                                                                         | 1407  | 2025-07-29  |
+| [comrak](https://github.com/kivikakk/comrak)                            | CommonMark + GFM compatible Markdown parser and renderer.                                                                                                                | 1390  | 2025-08-17  |
+| [cicada](https://github.com/mitnk/cicada)                               | An old-school bash-like Unix shell written in Rust.                                                                                                                      | 995   | 2025-08-14  |
+| [rs_pbrt](https://github.com/wahn/rs_pbrt)                              | Rust crate to implement a counterpart to the PBRT book's (3rd edition) C++ code.                                                                                         | 825   | 2024-01-29  |
+| [json5-rs](https://github.com/callum-oakley/json5-rs)                   | A Rust JSON5 serializer and deserializer which speaks Serde.                                                                                                             | 201   | 2023-10-26  |
+| [qubit](https://github.com/abhimanyu003/qubit)                          | A handy calculator, based on Rust and WebAssembly.                                                                                                                       | 89    | 2022-01-17  |
+| [Keadex Mina](https://github.com/keadex/keadex)                         | Open Source, serverless IDE to code with C4-PlantUML and organize at a scale C4 model diagrams.                                                                          | 88    | 2025-08-19  |
+| [elastic-rs](https://github.com/cch123/elastic-rs)                      | Convert bool expressions to Elasticsearch DSL in Rust.                                                                                                                   | 52    | 2023-07-21  |
+| [hexdino](https://github.com/Luz/hexdino)                               | A hex editor with vim like keybindings written in Rust.                                                                                                                  | 34    | 2024-11-02  |
+| [caith](https://github.com/Geobert/caith)                               | A dice roller crate.                                                                                                                                                     | 25    | 2025-03-10  |
+| [mt940](https://github.com/svenstaro/mt940-rs)                          | A MT940 parser in Rust.                                                                                                                                                  | 25    | 2025-08-01  |
+| [stache](https://github.com/dgraham/stache)                             | A Mustache template compiler.                                                                                                                                            | 21    | 2020-08-31  |
+| [rouler](https://github.com/jarcane/rouler)                             | An easy to use dice rolling library for Rust.                                                                                                                            | 18    | 2022-01-27  |
+| [py_literal](https://github.com/jturner314/py_literal)                  | Rust crate for parsing/formatting Python literals.                                                                                                                       | 17    | 2021-04-07  |
+| [AshPaper](https://github.com/shnewto/ashpaper)                         | Rust Inpterpreter for Esopo language AshPaper conceived by William Hicks.                                                                                                | 14    | 2023-03-20  |
+| [yaml-peg](https://github.com/aofdev/yaml-peg)                          | PEG parser for YAML written in Rust.                                                                                                                                     | 10    | 2021-08-30  |
+| [PTA-Parser](https://github.com/AltaModaTech/pta-parser)                | A Plain Text Accounting parser built in Rust for [Beancount](https://github.com/beancount/beancount), [Ledger](https://github.com/ledger/ledger), and other PTA formats. | 1     | 2024-06-10  |
+| [Liquid Grammar](https://github.com/rust-utilities/liquid-grammar-pest) | Generate `Pairs` and/or `Rules` for [Shopify](https://shopify.github.io/liquid/) Liquid (hash-tags _not-sponsored_ or _affiliated_) for use in consuming crates          | 0     | 2024-06-24  |
 
-## IDE Support
+## Tooling
 
-| Name                                                            | Description                                             | Stars | Last Commit |
-|-----------------------------------------------------------------|---------------------------------------------------------|-------|-------------|
-| [pest IDE tools](https://github.com/pest-parser/pest-ide-tools) | A main repository with LSP server and VSCode extension. | 55    | 2024-09-09  |
-| [pest.vim](https://github.com/pest-parser/pest.vim)             |                                                         | 37    | 2024-04-25  |
-| [pest-fmt](https://github.com/pest-parser/pest-fmt)             | It can help to format<br>pest grammars.                 | 26    | 2024-04-08  |
-| [pest web debugger](https://github.com/tomtau/pest-web-debug)   | Try it .                                                | 3     | 2023-06-23  |
-
-## Boilerplate reduction and testing
-
-| Name                                           | Description                                                                                  | Stars | Last Commit |
-|------------------------------------------------|----------------------------------------------------------------------------------------------|-------|-------------|
-| [pest-ast](https://github.com/pest-parser/ast) | It can help to reduce boilerplate when converting pest parse trees to abstract syntax trees. | 89    | 2025-01-26  |
+| Name                                                            | Description                                                                                  | Stars | Last Commit |
+|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------|-------------|
+| [pest-ast](https://github.com/pest-parser/ast)                  | It can help to reduce boilerplate when converting pest parse trees to abstract syntax trees. | 90    | 2025-08-04  |
+| [pest IDE tools](https://github.com/pest-parser/pest-ide-tools) | A main repository with LSP server and VSCode extension.                                      | 56    | 2024-09-09  |
+| [pest.vim](https://github.com/pest-parser/pest.vim)             |                                                                                              | 38    | 2024-04-25  |
+| [pest-fmt](https://github.com/pest-parser/pest-fmt)             | It can help to format pest grammars.                                                         | 26    | 2024-04-08  |
+| [pest web debugger](https://github.com/tomtau/pest-web-debug)   | Try it [online](https://tomtau.github.io/pest-web-debug/).                                   | 3     | 2023-06-23  |

@@ -2,13 +2,7 @@
 
 | Name                                           | Description            | Stars | Last Commit |
 |------------------------------------------------|------------------------|-------|-------------|
-| [Repository](https://github.com/master-co/css) | Master CSS repository. | 1899  | 2025-05-19  |
-
-## IDE Extensions
-
-| Name                                                            | Description                                                              | Stars | Last Commit |
-|-----------------------------------------------------------------|--------------------------------------------------------------------------|-------|-------------|
-| [Master CSS Language Service](https://github.com/master-co/css) | Provides code-completion and syntax highlighting for Visual Studio Code. | 1899  | 2025-05-19  |
+| [Repository](https://github.com/master-co/css) | Master CSS repository. | 1937  | 2025-06-26  |
 
 ## Tools
 
@@ -20,12 +14,4 @@
 
 | Name                                                                            | Description                                                        | Stars | Last Commit |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------|-------|-------------|
-| [@master/keyframes.css](https://github.com/master-co/css)                       | Simple and useful CSS keyframes.                                   | 1899  | 2025-05-19  |
-| [@master/normal.css](https://github.com/master-co/css)                          | Normalize browser's styles.                                        | 1899  | 2025-05-19  |
-| [@master/style-element.react](https://github.com/master-co/style-element.react) | Quickly create styled React elements with conditional class names. | 37    | 2025-05-31  |
-
-## Community
-
-| Name                                            | Description                   | Stars | Last Commit |
-|-------------------------------------------------|-------------------------------|-------|-------------|
-| [Discussions](https://github.com/master-co/css) | Official place to discussion. | 1899  | 2025-05-19  |
+| [@master/style-element.react](https://github.com/master-co/style-element.react) | Quickly create styled React elements with conditional class names. | 38    | 2025-05-31  |

@@ -2,15 +2,15 @@
 
 | Name                                                             | Description | Stars | Last Commit |
 |------------------------------------------------------------------|-------------|-------|-------------|
-| [GitHub Repo](https://github.com/ionic-team/ionic-framework)     |             | 51745 | 2025-05-30  |
-| [Ionic Native](https://github.com/driftyco/ionic-native)         |             | 2430  | 2025-06-08  |
-| [Awesome Capacitor](https://github.com/riderx/awesome-capacitor) |             | 535   | 2025-05-23  |
+| [GitHub Repo](https://github.com/ionic-team/ionic-framework)     |             | 51994 | 2025-08-19  |
+| [Ionic Native](https://github.com/driftyco/ionic-native)         |             | 2440  | 2025-08-19  |
+| [Awesome Capacitor](https://github.com/riderx/awesome-capacitor) |             | 556   | 2025-08-18  |
 
 ## i18n & l10n
 
 | Name                                                | Description                                                  | Stars | Last Commit |
 |-----------------------------------------------------|--------------------------------------------------------------|-------|-------------|
-| [attranslate](https://github.com/fkirc/attranslate) | Semi-automated translation of JSON and other resource files. | 345   | 2025-05-05  |
+| [attranslate](https://github.com/fkirc/attranslate) | Semi-automated translation of JSON and other resource files. | 344   | 2025-05-05  |
 
 ## Tools
 
@@ -22,136 +22,76 @@
 
 | Name                                                                                | Description | Stars | Last Commit |
 |-------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Ionic 2 Advanced Components](https://github.com/yannbf/ionic2-components)          |             | 1679  | 2020-09-27  |
+| [Ionic 2 Advanced Components](https://github.com/yannbf/ionic2-components)          |             | 1674  | 2020-09-27  |
 | [Ionic 2](https://github.com/marcoturi/ionic2-boilerplate)                          |             | 320   | 2022-12-07  |
 | [Ionic Boilerplate](https://github.com/marcoturi/ionic-boilerplate)                 |             | 320   | 2022-12-07  |
-| [OCR Scan App](https://github.com/matiastucci/ionic-ocr-example)                    |             | 265   | 2016-12-21  |
-| [Cordova File Transfer](https://github.com/dsgriffin/ionic-2-file-transfer-example) |             | 111   | 2024-12-29  |
-| [NFC Demo](https://github.com/RedFroggy/ionic2-nfc-app)                             |             | 65    | 2017-01-02  |
+| [OCR Scan App](https://github.com/matiastucci/ionic-ocr-example)                    |             | 263   | 2016-12-21  |
+| [Cordova File Transfer](https://github.com/dsgriffin/ionic-2-file-transfer-example) |             | 110   | 2024-12-29  |
+| [NFC Demo](https://github.com/RedFroggy/ionic2-nfc-app)                             |             | 64    | 2017-01-02  |
 | [Update your App](https://github.com/NextFaze/ionic-manup)                          |             | 52    | 2020-09-04  |
 | [Fullscreen Content](https://github.com/sebaferreras/Ionic2-FullscreenContent)      |             | 21    | 2018-08-04  |
 | [Card Layout](https://github.com/joshuamorony/ionic2-card-layout)                   |             | 20    | 2017-06-19  |
 
-## Libraries
+## Components
 
-| Name                                                               | Description                          | Stars | Last Commit |
-|--------------------------------------------------------------------|--------------------------------------|-------|-------------|
-| [Capacitor Tailwind](https://github.com/Cap-go/tailwind-capacitor) | A Tailwind CSS plugin for Capacitor. | 15    | 2025-06-03  |
-
-## Animations
-
-| Name                                                            | Description | Stars | Last Commit |
-|-----------------------------------------------------------------|-------------|-------|-------------|
-| [Lottie Animation](https://github.com/chenqingspring/ng-lottie) |             | 338   | 2022-12-07  |
-| [Lottie Animation](https://github.com/fivethree-team/lottie)    |             | 12    | 2020-07-10  |
-
-## UI Library
-
-| Name                                                                                 | Description | Stars | Last Commit |
-|--------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Ionic 4 UI Component Library](https://github.com/fivethree-team/ionic-4-components) |             | 226   | 2021-05-27  |
-
-## Menu, Tabs
-
-| Name                                                                               | Description | Stars | Last Commit |
-|------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Multi Level Sidemenu](https://github.com/sebaferreras/Ionic2-MultiLevelSideMenu)  |             | 135   | 2018-10-12  |
-| [Scrollabel Tabs](https://github.com/SinoThomas/Ionic2-ScrollableTabs)             |             | 73    | 2017-04-26  |
-| [Circular Tabs](https://github.com/SinoThomas/Ionic2-CircularTabs)                 |             | 42    | 2017-11-28  |
-| [Fab Toolbar](https://github.com/ekhmoi/fab-toolbar)                               |             | 31    | 2023-07-18  |
-| [Drop down Title](https://github.com/Mohd-PH/ionic-drop-down-title)                |             | 2     | 2017-09-12  |
-| [Popover Sidemenu](https://github.com/philipbrack/ionic2-menu-alternative-popover) |             | 2     | 2016-10-30  |
-
-## Form / Input
-
-| Name                                                                                 | Description | Stars | Last Commit |
-|--------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Dynamic Forms](https://github.com/udos86/ng2-dynamic-forms)                         |             | 1315  | 2024-02-06  |
-| [Selectable](https://github.com/eakoriakin/ionic-selectable)                         |             | 556   | 2024-11-08  |
-| [Form Generator based on JSON](https://github.com/makinacorpus/angular2-schema-form) |             | 481   | 2024-11-21  |
-| [Autocomplete](https://github.com/kadoshms/ionic2-autocomplete)                      |             | 148   | 2023-10-10  |
-| [Masks](https://github.com/amarkes/br-mask)                                          |             | 117   | 2023-06-09  |
-| [Sidemenu tabs](https://github.com/seanmavley/ionic2-sidemenu-tabs)                  |             | 47    | 2017-01-27  |
-| [Form Builder](https://github.com/rohitg7/ionic2-form-builder)                       |             | 4     | 2016-11-28  |
-
-## Input - Date/Calendar
-
-| Name                                                                                      | Description | Stars | Last Commit |
-|-------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Inputfield Mask](https://github.com/text-mask/text-mask)                                 |             | 8252  | 2025-05-26  |
-| [Calendar](https://github.com/mattlewis92/angular-calendar)                               |             | 2769  | 2024-08-21  |
-| [Datepicker (selectable range dates calendar)](https://github.com/HsuanXyz/ion2-calendar) |             | 554   | 2022-12-08  |
-| [Calendar](https://github.com/twinssbc/Ionic2-Calendar)                                   |             | 390   | 2024-12-29  |
-| [Rating](https://github.com/andrucz/ionic2-rating)                                        |             | 177   | 2022-12-06  |
-| [Calendar - Fullcalendar](https://github.com/nekken/ng2-fullcalendar)                     |             | 95    | 2018-05-26  |
-| [Datepicker](https://github.com/misha130/datepicker-ionic2)                               |             | 74    | 2022-12-07  |
-| [Calendar](https://github.com/alexandretok/easy-ionic2-calendar)                          |             | 16    | 2017-10-12  |
-| [Datepicker](https://github.com/rajeshwarpatlolla/ionic2-datepicker)                      |             | 14    | 2019-11-02  |
-| [Calendar](https://github.com/redpandatronicsuk/ionic2calendar)                           |             | 3     | 2017-09-22  |
-
-## Lists/Table
-
-| Name                                                                         | Description | Stars | Last Commit |
-|------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Flexible and Light Table](https://github.com/swimlane/ngx-datatable)        |             | 4649  | 2025-05-06  |
-| [Smart table (sorting, filtering)](https://github.com/akveo/ng2-smart-table) |             | 1632  | 2024-08-12  |
-| [Sortable/Filter Tables](https://github.com/valor-software/ng2-table)        |             | 553   | 2022-10-26  |
-
-## Images
-
-| Name                                                              | Description               | Stars | Last Commit |
-|-------------------------------------------------------------------|---------------------------|-------|-------------|
-| [Lazy Load](https://github.com/tjoskar/ng2-lazyload-image)        |                           | 762   | 2023-03-04  |
-| [Image Loader](https://github.com/zyramedia/ionic-image-loader)   |                           | 434   | 2022-12-02  |
-| [Image Viewer](https://github.com/Riron/ionic-img-viewer)         |                           | 281   | 2023-10-10  |
-| [Signatur](https://github.com/wulfsolter/angular2-signaturepad)   | Works perfect with Ionic. | 175   | 2022-04-12  |
-| [Gallery Modal](https://github.com/nikini/ionic-gallery-modal)    |                           | 163   | 2019-02-06  |
-| [Image Fallback](https://github.com/VadimDez/ng2-img-fallback)    |                           | 82    | 2024-05-20  |
-| [Image Zoom](https://github.com/brtnshrdr/angular2-image-zoom)    |                           | 22    | 2018-10-03  |
-| [Facebook Gallery](https://github.com/skyfloyd/ionic2-fb-gallery) |                           | 4     | 2016-12-15  |
-
-## Charts/Diagram
-
-| Name                                                                        | Description | Stars | Last Commit |
-|-----------------------------------------------------------------------------|-------------|-------|-------------|
-| [Charts](https://github.com/valor-software/ng2-charts)                      |             | 2381  | 2025-01-06  |
-| [D3 Service](https://github.com/tomwanzek/d3-ng2-service)                   |             | 206   | 2020-03-26  |
-| [D3 Line/Bar/Pie Charts](https://github.com/datencia/d3js-angular2-example) |             | 200   | 2023-03-02  |
-
-## Video/Audio
-
-| Name                                                              | Description | Stars | Last Commit |
-|-------------------------------------------------------------------|-------------|-------|-------------|
-| [Simple Audioplayer](https://github.com/arielfaur/ionic-audio)    |             | 322   | 2018-03-12  |
-| [Video Editor](https://github.com/rossmartin/video-editor-ionic2) |             | 71    | 2016-05-26  |
-
-## Keyboards
-
-| Name                                                                | Description | Stars | Last Commit |
-|---------------------------------------------------------------------|-------------|-------|-------------|
-| [Digit Keyboard](https://github.com/skol-pro/ion-digit-keyboard-v2) |             | 93    | 2023-10-10  |
-
-## Dialog
-
-| Name                                                                      | Description | Stars | Last Commit |
-|---------------------------------------------------------------------------|-------------|-------|-------------|
-| [Dialogbox with Counter](https://github.com/HsuanXyz/ionic2-extend-alert) |             | 9     | 2017-03-02  |
-
-## Frames
-
-| Name                                                                               | Description | Stars | Last Commit |
-|------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [ng Lightning (for Salesforce Apps)](https://github.com/ng-lightning/ng-lightning) |             | 919   | 2024-07-03  |
+| Name                                                                                      | Description                          | Stars | Last Commit |
+|-------------------------------------------------------------------------------------------|--------------------------------------|-------|-------------|
+| [Inputfield Mask](https://github.com/text-mask/text-mask)                                 |                                      | 8245  | 2025-05-26  |
+| [Flexible and Light Table](https://github.com/swimlane/ngx-datatable)                     |                                      | 4660  | 2025-06-30  |
+| [Calendar](https://github.com/mattlewis92/angular-calendar)                               |                                      | 2776  | 2024-08-21  |
+| [Charts](https://github.com/valor-software/ng2-charts)                                    |                                      | 2382  | 2025-01-06  |
+| [Smart table (sorting, filtering)](https://github.com/akveo/ng2-smart-table)              |                                      | 1629  | 2024-08-12  |
+| [Dynamic Forms](https://github.com/udos86/ng2-dynamic-forms)                              |                                      | 1312  | 2024-02-06  |
+| [ng Lightning (for Salesforce Apps)](https://github.com/ng-lightning/ng-lightning)        |                                      | 919   | 2024-07-03  |
+| [Lazy Load](https://github.com/tjoskar/ng2-lazyload-image)                                |                                      | 760   | 2023-03-04  |
+| [Datepicker (selectable range dates calendar)](https://github.com/HsuanXyz/ion2-calendar) |                                      | 555   | 2022-12-08  |
+| [Selectable](https://github.com/eakoriakin/ionic-selectable)                              |                                      | 555   | 2024-11-08  |
+| [Sortable/Filter Tables](https://github.com/valor-software/ng2-table)                     |                                      | 551   | 2022-10-26  |
+| [Form Generator based on JSON](https://github.com/makinacorpus/angular2-schema-form)      |                                      | 481   | 2025-06-30  |
+| [Image Loader](https://github.com/zyramedia/ionic-image-loader)                           |                                      | 434   | 2022-12-02  |
+| [Calendar](https://github.com/twinssbc/Ionic2-Calendar)                                   |                                      | 391   | 2025-07-27  |
+| [Lottie Animation](https://github.com/chenqingspring/ng-lottie)                           |                                      | 338   | 2022-12-07  |
+| [Simple Audioplayer](https://github.com/arielfaur/ionic-audio)                            |                                      | 320   | 2018-03-12  |
+| [Image Viewer](https://github.com/Riron/ionic-img-viewer)                                 |                                      | 280   | 2023-10-10  |
+| [Ionic 4 UI Component Library](https://github.com/fivethree-team/ionic-4-components)      |                                      | 224   | 2021-05-27  |
+| [D3 Service](https://github.com/tomwanzek/d3-ng2-service)                                 |                                      | 206   | 2020-03-26  |
+| [D3 Line/Bar/Pie Charts](https://github.com/datencia/d3js-angular2-example)               |                                      | 200   | 2023-03-02  |
+| [Rating](https://github.com/andrucz/ionic2-rating)                                        |                                      | 177   | 2022-12-06  |
+| [Signatur](https://github.com/wulfsolter/angular2-signaturepad)                           | Works perfect with Ionic.            | 175   | 2022-04-12  |
+| [Gallery Modal](https://github.com/nikini/ionic-gallery-modal)                            |                                      | 164   | 2019-02-06  |
+| [Autocomplete](https://github.com/kadoshms/ionic2-autocomplete)                           |                                      | 148   | 2023-10-10  |
+| [Multi Level Sidemenu](https://github.com/sebaferreras/Ionic2-MultiLevelSideMenu)         |                                      | 136   | 2018-10-12  |
+| [Masks](https://github.com/amarkes/br-mask)                                               |                                      | 117   | 2023-06-09  |
+| [Calendar - Fullcalendar](https://github.com/nekken/ng2-fullcalendar)                     |                                      | 95    | 2018-05-26  |
+| [Digit Keyboard](https://github.com/skol-pro/ion-digit-keyboard-v2)                       |                                      | 92    | 2023-10-10  |
+| [Image Fallback](https://github.com/VadimDez/ng2-img-fallback)                            |                                      | 83    | 2024-05-20  |
+| [Datepicker](https://github.com/misha130/datepicker-ionic2)                               |                                      | 74    | 2022-12-07  |
+| [Scrollabel Tabs](https://github.com/SinoThomas/Ionic2-ScrollableTabs)                    |                                      | 73    | 2017-04-26  |
+| [Video Editor](https://github.com/rossmartin/video-editor-ionic2)                         |                                      | 71    | 2016-05-26  |
+| [Sidemenu tabs](https://github.com/seanmavley/ionic2-sidemenu-tabs)                       |                                      | 47    | 2017-01-27  |
+| [Circular Tabs](https://github.com/SinoThomas/Ionic2-CircularTabs)                        |                                      | 43    | 2017-11-28  |
+| [Fab Toolbar](https://github.com/ekhmoi/fab-toolbar)                                      |                                      | 31    | 2023-07-18  |
+| [Image Zoom](https://github.com/brtnshrdr/angular2-image-zoom)                            |                                      | 22    | 2018-10-03  |
+| [Calendar](https://github.com/alexandretok/easy-ionic2-calendar)                          |                                      | 16    | 2017-10-12  |
+| [Capacitor Tailwind](https://github.com/Cap-go/tailwind-capacitor)                        | A Tailwind CSS plugin for Capacitor. | 16    | 2025-08-19  |
+| [Datepicker](https://github.com/rajeshwarpatlolla/ionic2-datepicker)                      |                                      | 14    | 2019-11-02  |
+| [Lottie Animation](https://github.com/fivethree-team/lottie)                              |                                      | 12    | 2020-07-10  |
+| [Dialogbox with Counter](https://github.com/HsuanXyz/ionic2-extend-alert)                 |                                      | 10    | 2017-03-02  |
+| [Facebook Gallery](https://github.com/skyfloyd/ionic2-fb-gallery)                         |                                      | 4     | 2016-12-15  |
+| [Form Builder](https://github.com/rohitg7/ionic2-form-builder)                            |                                      | 4     | 2016-11-28  |
+| [Calendar](https://github.com/redpandatronicsuk/ionic2calendar)                           |                                      | 3     | 2017-09-22  |
+| [Drop down Title](https://github.com/Mohd-PH/ionic-drop-down-title)                       |                                      | 2     | 2017-09-12  |
+| [Popover Sidemenu](https://github.com/philipbrack/ionic2-menu-alternative-popover)        |                                      | 2     | 2016-10-30  |
 
 ## Open Source Projects
 
 | Name                                                                                                    | Description | Stars | Last Commit |
 |---------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Ionic Conference App](https://github.com/driftyco/ionic-conference-app)                                |             | 3603  | 2025-06-06  |
+| [Ionic Conference App](https://github.com/driftyco/ionic-conference-app)                                |             | 3606  | 2025-08-18  |
 | [IonicRealty](https://github.com/ccoenraets/ionic2-realty)                                              |             | 256   | 2016-11-15  |
 | [Ionic Weather app](https://github.com/aggarwalankush/ionic2-mosum)                                     |             | 246   | 2021-07-09  |
 | [Ionic 5 Social Network Starter](https://github.com/thenaim/ion-tk-social-network)                      |             | 166   | 2023-01-07  |
-| [Ionic Push Notification](https://github.com/aggarwalankush/ionic2-push-base)                           |             | 163   | 2017-06-30  |
+| [Ionic Push Notification](https://github.com/aggarwalankush/ionic2-push-base)                           |             | 161   | 2017-06-30  |
 | [Ionic Reddit Reader](https://github.com/smartapant/ionic2-reddit-reader)                               |             | 125   | 2017-12-11  |
 | [Ionic 5 WhatsApp clone](https://github.com/thenaim/ionic-whatsapp-clone)                               |             | 62    | 2020-11-20  |
 | [Playing music in Ionic 4](https://github.com/enappd/ionic-4-music)                                     |             | 47    | 2019-10-29  |

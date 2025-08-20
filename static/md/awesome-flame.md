@@ -1,62 +1,34 @@
-## Other Articles & Tutorials
+## Articles & Tutorials
 
-| Name                                                                         | Description                     | Stars | Last Commit |
-|------------------------------------------------------------------------------|---------------------------------|-------|-------------|
-| [Flutter Web and Flame](https://github.com/AseemWangoo/experiments_with_web) | Hands on with Flame for web. By | 137   | 2021-07-10  |
-
-## Examples
-
-| Name                                                       | Description                                                                    | Stars | Last Commit |
-|------------------------------------------------------------|--------------------------------------------------------------------------------|-------|-------------|
-| [Maze generator](https://github.com/Dannark/FlameExamples) | List of algorithm examples to solve problems like Maze generation and more. By | 18    | 2020-09-11  |
+| Name                                                                         | Description                                                                                                                     | Stars | Last Commit |
+|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Flutter Web and Flame](https://github.com/AseemWangoo/experiments_with_web) | Hands on with Flame for web. By [Aseem Wangoo](https://flatteredwithflutter.com/how-to-create-game-in-flutter-web-using-flame/) | 137   | 2021-07-10  |
+| [Maze generator](https://github.com/Dannark/FlameExamples)                   | List of algorithm examples to solve problems like Maze generation and more. By [Dannark](https://github.com/Dannark/)           | 19    | 2020-09-11  |
 
 ## Plugins & Libraries
 
-| Name                                                                 | Description                                            | Stars | Last Commit |
-|----------------------------------------------------------------------|--------------------------------------------------------|-------|-------------|
-| [First-Party Plugins](https://github.com/flame-engine/flame)         | First-party plugins included in Flame's monorepo.      | 9965  | 2025-05-30  |
-| [bonfire](https://github.com/RafaelBarbosatec/bonfire)               | RPG maker. By                                          | 1351  | 2025-05-07  |
-| [leap](https://github.com/kurtome/leap)                              | An opinionated toolkit for creating 2D platformers. By | 49    | 2025-05-05  |
-| [flame_texturepacker](https://github.com/Brixto/flame_texturepacker) | Import spritesheets from TexturePacker. By             | 23    | 2024-01-21  |
+| Name                                                                 | Description                                                                                  | Stars | Last Commit |
+|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------|-------------|
+| [bonfire](https://github.com/RafaelBarbosatec/bonfire)               | RPG maker. By [rafaelbarbosatec](https://github.com/RafaelBarbosatec)                        | 1381  | 2025-06-10  |
+| [leap](https://github.com/kurtome/leap)                              | An opinionated toolkit for creating 2D platformers. By [kurtome](https://github.com/kurtome) | 49    | 2025-05-05  |
+| [flame_texturepacker](https://github.com/Brixto/flame_texturepacker) | Import spritesheets from TexturePacker. By [Brixto](https://github.com/Brixto)               | 24    | 2024-01-21  |
 
-## Casual
+## Projects
 
-| Name                                                                               | Description                                                                                                                                                                | Stars | Last Commit |
-|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Ghost Rigger](https://github.com/Float-like-a-dash-Sting-like-a-dart/GhostRigger) | A cyberpunk inspired puzzle game, build for Flutter Hackathon Hack20. By and                                                                                               | 251   | 2020-07-10  |
-| [New Super Jumper](https://github.com/Yayo-Arellano/flutter_games_compilation)     | A doodle jump clone made with Flame and Forge2D. By [Yayocode][2].                                                                                                         | 163   | 2025-02-22  |
-| [Spacescape](https://github.com/ufrshubham/spacescape)                             | A 2D top-down space shooter made using Flutter and Flame engine. Get it on . By [DevKage][1].                                                                              | 125   | 2025-04-17  |
-| [Snaake!](https://github.com/lucasnlm/snaake-flutter)                              | A simple casual snake game. By                                                                                                                                             | 82    | 2020-10-10  |
-| [Bob Box](https://github.com/fireslime/bounce_box)                                 | A simple casual game that you can play with one finger. Tap to stop, avoid obstacles! By                                                                                   | 43    | 2020-02-04  |
-| [Ant Squash](https://github.com/sourabhgupta811/Ant-Squash)                        | A simple casual bug squashing game that you can play with one finger. Tap to kill, stop ants from eating the sweet! By                                                     | 21    | 2024-02-16  |
-| [Color Mixer](https://github.com/androideen/color_mixer_flame)                     | A color mixer game built with Flame 1.0.0-rc8. Tap 2 colors to mix them and help player pass obstacles.                                                                    | 14    | 2021-04-09  |
-| [Sober Driver](https://github.com/maurovanetti/guidi-tu)                           | An app with 10 mini games to designate a sober driver for a night out. Get it on , . By .                                                                                  | 7     | 2024-11-08  |
-| [Antimine - Minesweeper](https://github.com/lucasnlm/antimine-flutter)             | Antimine is a minesweeper-like puzzle game. The objective is to flag the spaces with mines to make the field a safer place without exploding any of them. Get it on . By . | 6     | 2025-03-16  |
-| [Flappy Dash](https://github.com/RutvikPanchal246/FlappyDash)                      | Gives classic flappy bird game play experience. Get it on . By                                                                                                             | 5     | 2024-09-15  |
-
-## Endless Runner
-
-| Name                                               | Description                                                                                                              | Stars | Last Commit |
-|----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Dino Run](https://github.com/ufrshubham/dino_run) | A 2D infinite side scroller mobile game made in Flutter using Flame engine. Get it on . By [DevKage][1].                 | 241   | 2025-04-17  |
-| [BGUG](https://github.com/fireslime/bgug)          | Break Guns Using Gems is a fast paced side-scrolling platformer with innovative controls and and a gun-related twist. By | 97    | 2020-07-27  |
-
-## Platformer
-
-| Name                                                                       | Description                                               | Stars | Last Commit |
-|----------------------------------------------------------------------------|-----------------------------------------------------------|-------|-------------|
-| [Flutters](https://github.com/ecklf/flutters)                              | A mixture of Flappy Bird and Doodle Jump. By              | 243   | 2022-03-11  |
-| [Simple Platformer](https://github.com/ufrshubham/flame_simple_platformer) | A 2D platformer made using Flame engine. By [DevKage][1]. | 58    | 2025-04-17  |
-
-## RPG
-
-| Name                                                                     | Description    | Stars | Last Commit |
-|--------------------------------------------------------------------------|----------------|-------|-------------|
-| [Darkness Dungeon](https://github.com/RafaelBarbosatec/darkness_dungeon) | Simple RPG. By | 425   | 2025-01-12  |
-
-## Non-English Content
-
-| Name                                                                     | Description | Stars | Last Commit |
-|--------------------------------------------------------------------------|-------------|-------|-------------|
-| [Mandarin Chinese (中文)](https://github.com/flame-engine/awesome-flame) |             | 1184  | 2025-05-18  |
-| [Spanish (Español)](https://github.com/flame-engine/awesome-flame)       |             | 1184  | 2025-05-18  |
+| Name                                                                               | Description                                                                                                                                                                                                                                                                                      | Stars | Last Commit |
+|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Darkness Dungeon](https://github.com/RafaelBarbosatec/darkness_dungeon)           | Simple RPG. By [rafaelbarbosatec](http://rafaelbarbosatec.github.io/) <!--lint ignore double-link--> <!--lint ignore double-link--> <!--lint ignore double-link--> <!--lint ignore double-link-->                                                                                                | 438   | 2025-01-12  |
+| [Ghost Rigger](https://github.com/Float-like-a-dash-Sting-like-a-dart/GhostRigger) | A cyberpunk inspired puzzle game, build for Flutter Hackathon Hack20. By [b099l3](https://github.com/b099l3) and [ernestoyaquello](https://github.com/ernestoyaquello)                                                                                                                           | 255   | 2020-07-10  |
+| [Dino Run](https://github.com/ufrshubham/dino_run)                                 | A 2D infinite side scroller mobile game made in Flutter using Flame engine. Get it on [Play Store](https://play.google.com/store/apps/details?id=com.nobs.dino_run). By [DevKage][1].                                                                                                            | 247   | 2025-07-04  |
+| [Flutters](https://github.com/ecklf/flutters)                                      | A mixture of Flappy Bird and Doodle Jump. By [ecklf](https://github.com/ecklf)                                                                                                                                                                                                                   | 243   | 2022-03-11  |
+| [Spacescape](https://github.com/ufrshubham/spacescape)                             | A 2D top-down space shooter made using Flutter and Flame engine. Get it on [Play Store](https://play.google.com/store/apps/details?id=com.nobs.spacescape). By [DevKage][1].                                                                                                                     | 128   | 2025-07-04  |
+| [BGUG](https://github.com/fireslime/bgug)                                          | Break Guns Using Gems is a fast paced side-scrolling platformer with innovative controls and and a gun-related twist. By [FireSlime](https://fireslime.xyz)                                                                                                                                      | 97    | 2020-07-27  |
+| [Snaake!](https://github.com/lucasnlm/snaake-flutter)                              | A simple casual snake game. By [lucasnlm](https://github.com/lucasnlm)                                                                                                                                                                                                                           | 82    | 2020-10-10  |
+| [Simple Platformer](https://github.com/ufrshubham/flame_simple_platformer)         | A 2D platformer made using Flame engine. By [DevKage][1].                                                                                                                                                                                                                                        | 60    | 2025-07-04  |
+| [Bob Box](https://github.com/fireslime/bounce_box)                                 | A simple casual game that you can play with one finger. Tap to stop, avoid obstacles! By [FireSlime](https://fireslime.xyz)                                                                                                                                                                      | 43    | 2020-02-04  |
+| [Ant Squash](https://github.com/sourabhgupta811/Ant-Squash)                        | A simple casual bug squashing game that you can play with one finger. Tap to kill, stop ants from eating the sweet! By [Sourabh Gupta](https://www.linkedin.com/in/sourabhgupta811/)                                                                                                             | 22    | 2024-02-16  |
+| [Square Shooter](https://github.com/namzug16/squareshooter_flame)                  | A simple 2D top-down shooter for the web. Play solo vs AI or sit back and let the AI battle its own. By [Namzug](https://namzug.dev/). <!--lint ignore double-link-->                                                                                                                            | 22    | 2025-07-08  |
+| [Color Mixer](https://github.com/androideen/color_mixer_flame)                     | A color mixer game built with Flame 1.0.0-rc8. Tap 2 colors to mix them and help player pass obstacles.                                                                                                                                                                                          | 14    | 2021-04-09  |
+| [Antimine - Minesweeper](https://github.com/lucasnlm/antimine-flutter)             | Antimine is a minesweeper-like puzzle game. The objective is to flag the spaces with mines to make the field a safer place without exploding any of them. Get it on [Google Play](https://play.google.com/store/apps/details?id=com.logical.minato). By [lucasnlm](https://github.com/lucasnlm). | 8     | 2025-03-16  |
+| [Sober Driver](https://github.com/maurovanetti/guidi-tu)                           | An app with 10 mini games to designate a sober driver for a night out. Get it on [Google Play](https://play.google.com/store/apps/details?id=net.coopalice.guiditu), [App Store](https://apps.apple.com/it/app/guidi-tu/id6476491805). By [Mauro Vanetti](https://maurovanetti.info/).           | 7     | 2025-08-05  |
+| [Flappy Dash](https://github.com/RutvikPanchal246/FlappyDash)                      | Gives classic flappy bird game play experience. Get it on [Play Store](https://play.google.com/store/apps/details?id=games.pocket.flappydash.flappy_dash). By [Rutvik Panchal](https://twitter.com/rutvikpanchal_x)                                                                              | 5     | 2024-09-15  |

@@ -1,150 +1,58 @@
-## Language Bindings
+## Packages
 
-| Name                                                                            | Description | Stars | Last Commit |
-|---------------------------------------------------------------------------------|-------------|-------|-------------|
-| [.NET for Apache Spark](https://github.com/dotnet/spark)                        |             | 2063  | 2025-05-13  |
-| [sparklyr](https://github.com/rstudio/sparklyr)                                 |             | 963   | 2025-03-18  |
-| [Kotlin for Apache Spark](https://github.com/Kotlin/kotlin-spark-api)           |             | 473   | 2024-06-20  |
-| [sparkle](https://github.com/tweag/sparkle)                                     |             | 448   | 2023-02-01  |
-| [spark-connect-go](https://github.com/apache/spark-connect-go)                  |             | 218   | 2025-05-26  |
-| [spark-connect-rs](https://github.com/sjrusso8/spark-connect-rs)                |             | 109   | 2025-04-25  |
-| [spark-connect-csharp](https://github.com/mdrakiburrahman/spark-connect-csharp) |             | 2     | 2024-04-23  |
+| Name                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                               | Stars | Last Commit |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [BigDL](https://github.com/intel-analytics/BigDL)                                  |                                                                                                                                                                                                                                                                                                                                                                                           | 8235  | 2025-08-20  |
+| [Delta Lake](https://github.com/delta-io/delta)                                    |                                                                                                                                                                                                                                                                                                                                                                                           | 8218  | 2025-08-19  |
+| [Apache Iceberg](https://github.com/apache/iceberg)                                |                                                                                                                                                                                                                                                                                                                                                                                           | 7850  | 2025-08-19  |
+| [Apache Hudi](https://github.com/apache/hudi)                                      |                                                                                                                                                                                                                                                                                                                                                                                           | 5915  | 2025-08-20  |
+| [Microsoft ML for Apache Spark](https://github.com/Azure/mmlspark)                 |                                                                                                                                                                                                                                                                                                                                                                                           | 5161  | 2025-08-14  |
+| [spark-nlp](https://github.com/JohnSnowLabs/spark-nlp)                             |                                                                                                                                                                                                                                                                                                                                                                                           | 4027  | 2025-08-19  |
+| [deequ](https://github.com/awslabs/deequ)                                          |                                                                                                                                                                                                                                                                                                                                                                                           | 3488  | 2025-08-19  |
+| [Koalas](https://github.com/databricks/koalas)                                     |                                                                                                                                                                                                                                                                                                                                                                                           | 3364  | 2024-03-20  |
+| [spark-jobserver](https://github.com/spark-jobserver/spark-jobserver)              |                                                                                                                                                                                                                                                                                                                                                                                           | 2844  | 2025-07-08  |
+| [Apache Kyuubi](https://github.com/apache/kyuubi)                                  |                                                                                                                                                                                                                                                                                                                                                                                           | 2232  | 2025-08-15  |
+| [Apache Sedona](https://github.com/apache/incubator-sedona)                        |                                                                                                                                                                                                                                                                                                                                                                                           | 2106  | 2025-08-20  |
+| [.NET for Apache Spark](https://github.com/dotnet/spark)                           |                                                                                                                                                                                                                                                                                                                                                                                           | 2075  | 2025-07-04  |
+| [Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector) |                                                                                                                                                                                                                                                                                                                                                                                           | 1947  | 2025-04-29  |
+| [spark-testing-base](https://github.com/holdenk/spark-testing-base)                |                                                                                                                                                                                                                                                                                                                                                                                           | 1539  | 2025-08-04  |
+| [MLeap](https://github.com/combust/mleap)                                          |                                                                                                                                                                                                                                                                                                                                                                                           | 1520  | 2024-11-27  |
+| [Optimus](https://github.com/ironmussa/Optimus)                                    |                                                                                                                                                                                                                                                                                                                                                                                           | 1516  | 2024-12-02  |
+| [sparkmagic](https://github.com/jupyter-incubator/sparkmagic)                      |                                                                                                                                                                                                                                                                                                                                                                                           | 1358  | 2025-07-07  |
+| [GraphFrames](https://github.com/graphframes/graphframes)                          |                                                                                                                                                                                                                                                                                                                                                                                           | 1071  | 2025-08-20  |
+| [ADAM](https://github.com/bigdatagenomics/adam)                                    |                                                                                                                                                                                                                                                                                                                                                                                           | 1031  | 2025-07-12  |
+| [Cromwell](https://github.com/broadinstitute/cromwell)                             |                                                                                                                                                                                                                                                                                                                                                                                           | 1030  | 2025-08-19  |
+| [Hail](https://github.com/hail-is/hail)                                            |                                                                                                                                                                                                                                                                                                                                                                                           | 1025  | 2025-08-19  |
+| [Sparkling Water](https://github.com/h2oai/sparkling-water)                        |                                                                                                                                                                                                                                                                                                                                                                                           | 975   | 2025-08-20  |
+| [sparklyr](https://github.com/rstudio/sparklyr)                                    |                                                                                                                                                                                                                                                                                                                                                                                           | 966   | 2025-08-14  |
+| [Livy](https://github.com/apache/incubator-livy)                                   |                                                                                                                                                                                                                                                                                                                                                                                           | 922   | 2025-08-12  |
+| [python-deequ](https://github.com/awslabs/python-deequ)                            |                                                                                                                                                                                                                                                                                                                                                                                           | 789   | 2025-04-01  |
+| [spark-daria](https://github.com/mrpowers-io/spark-daria)                          |                                                                                                                                                                                                                                                                                                                                                                                           | 762   | 2025-07-07  |
+| [Apache Toree](https://github.com/apache/incubator-toree)                          |                                                                                                                                                                                                                                                                                                                                                                                           | 745   | 2025-05-06  |
+| [Mongo-Spark](https://github.com/mongodb/mongo-spark)                              |                                                                                                                                                                                                                                                                                                                                                                                           | 725   | 2025-06-30  |
+| [chispa](https://github.com/MrPowers/chispa)                                       |                                                                                                                                                                                                                                                                                                                                                                                           | 713   | 2025-07-31  |
+| [quinn](https://github.com/mrpowers-io/quinn)                                      |                                                                                                                                                                                                                                                                                                                                                                                           | 674   | 2025-03-06  |
+| [Flintrock](https://github.com/nchammas/flintrock)                                 |                                                                                                                                                                                                                                                                                                                                                                                           | 647   | 2024-12-13  |
+| [Spark XML](https://github.com/databricks/spark-xml)                               |                                                                                                                                                                                                                                                                                                                                                                                           | 511   | 2024-08-11  |
+| [Kotlin for Apache Spark](https://github.com/Kotlin/kotlin-spark-api)              |                                                                                                                                                                                                                                                                                                                                                                                           | 476   | 2024-06-20  |
+| [spark-fast-tests](https://github.com/mrpowers-io/spark-fast-tests)                |                                                                                                                                                                                                                                                                                                                                                                                           | 450   | 2025-08-08  |
+| [sparkle](https://github.com/tweag/sparkle)                                        |                                                                                                                                                                                                                                                                                                                                                                                           | 449   | 2025-07-30  |
+| [Data Mechanics Delight](https://github.com/datamechanics/delight)                 |                                                                                                                                                                                                                                                                                                                                                                                           | 344   | 2024-05-31  |
+| [neo4j-spark-connector](https://github.com/neo4j-contrib/neo4j-spark-connector)    |                                                                                                                                                                                                                                                                                                                                                                                           | 314   | 2025-08-18  |
+| [Joblib Apache Spark Backend](https://github.com/joblib/joblib-spark)              | SparkSQL has [serveral built-in Data Sources](https://spark.apache.org/docs/latest/sql-data-sources-load-save-functions.html#manually-specifying-options) for files. These include `csv`, `json`, `parquet`, `orc`, and `avro`. It also supports JDBC databases as well as Apache Hive. Additional data sources can be added by including the packages listed below, or writing your own. | 249   | 2025-04-07  |
+| [spark-connect-go](https://github.com/apache/spark-connect-go)                     |                                                                                                                                                                                                                                                                                                                                                                                           | 226   | 2025-08-18  |
+| [Archives Unleashed Toolkit](https://github.com/archivesunleashed/aut)             |                                                                                                                                                                                                                                                                                                                                                                                           | 145   | 2024-02-27  |
+| [spark-connect-rs](https://github.com/sjrusso8/spark-connect-rs)                   |                                                                                                                                                                                                                                                                                                                                                                                           | 111   | 2025-06-10  |
+| [JPMML-Spark](https://github.com/jpmml/jpmml-spark)                                |                                                                                                                                                                                                                                                                                                                                                                                           | 95    | 2022-04-02  |
+| [sparkly](https://github.com/Tubular/sparkly)                                      |                                                                                                                                                                                                                                                                                                                                                                                           | 62    | 2023-06-26  |
+| [itachi](https://github.com/yaooqinn/itachi)                                       |                                                                                                                                                                                                                                                                                                                                                                                           | 60    | 2023-09-04  |
+| [spark-connect-csharp](https://github.com/mdrakiburrahman/spark-connect-csharp)    |                                                                                                                                                                                                                                                                                                                                                                                           | 2     | 2024-04-23  |
 
-## Notebooks and IDEs
+## Resources
 
-| Name                                                          | Description | Stars | Last Commit |
-|---------------------------------------------------------------|-------------|-------|-------------|
-| [sparkmagic](https://github.com/jupyter-incubator/sparkmagic) |             | 1355  | 2025-05-28  |
-
-## General Purpose Libraries
-
-| Name                                                                  | Description | Stars | Last Commit |
-|-----------------------------------------------------------------------|-------------|-------|-------------|
-| [spark-daria](https://github.com/mrpowers-io/spark-daria)             |             | 760   | 2024-10-24  |
-| [quinn](https://github.com/mrpowers-io/quinn)                         |             | 672   | 2025-03-06  |
-| [Joblib Apache Spark Backend](https://github.com/joblib/joblib-spark) |             | 247   | 2025-04-07  |
-| [Apache DataFu](https://github.com/apache/datafu)                     |             | 120   | 2025-05-20  |
-| [itachi](https://github.com/yaooqinn/itachi)                          |             | 59    | 2023-09-04  |
-
-## SQL Data Sources
-
-| Name                                                                               | Description | Stars | Last Commit |
-|------------------------------------------------------------------------------------|-------------|-------|-------------|
-| [Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector) |             | 1947  | 2025-04-29  |
-| [Mongo-Spark](https://github.com/mongodb/mongo-spark)                              |             | 721   | 2025-05-07  |
-| [Spark XML](https://github.com/databricks/spark-xml)                               |             | 510   | 2024-08-11  |
-
-## Storage
-
-| Name                                                | Description | Stars | Last Commit |
-|-----------------------------------------------------|-------------|-------|-------------|
-| [Delta Lake](https://github.com/delta-io/delta)     |             | 8063  | 2025-06-06  |
-| [Apache Iceberg](https://github.com/apache/iceberg) |             | 7548  | 2025-06-08  |
-| [Apache Hudi](https://github.com/apache/hudi)       |             | 5824  | 2025-06-07  |
-
-## Bioinformatics
-
-| Name                                            | Description | Stars | Last Commit |
-|-------------------------------------------------|-------------|-------|-------------|
-| [ADAM](https://github.com/bigdatagenomics/adam) |             | 1025  | 2025-05-06  |
-| [Hail](https://github.com/hail-is/hail)         |             | 1005  | 2025-06-06  |
-
-## GIS
-
-| Name                                                        | Description | Stars | Last Commit |
-|-------------------------------------------------------------|-------------|-------|-------------|
-| [Apache Sedona](https://github.com/apache/incubator-sedona) |             | 2067  | 2025-06-08  |
-
-## Graph Processing
-
-| Name                                                                            | Description | Stars | Last Commit |
-|---------------------------------------------------------------------------------|-------------|-------|-------------|
-| [GraphFrames](https://github.com/graphframes/graphframes)                       |             | 1058  | 2025-05-30  |
-| [neo4j-spark-connector](https://github.com/neo4j-contrib/neo4j-spark-connector) |             | 313   | 2025-06-05  |
-
-## Machine Learning Extension
-
-| Name                                                               | Description | Stars | Last Commit |
-|--------------------------------------------------------------------|-------------|-------|-------------|
-| [BigDL](https://github.com/intel-analytics/BigDL)                  |             | 7989  | 2025-06-09  |
-| [Microsoft ML for Apache Spark](https://github.com/Azure/mmlspark) |             | 5137  | 2025-06-05  |
-| [MLeap](https://github.com/combust/mleap)                          |             | 1516  | 2024-11-27  |
-| [Sparkling Water](https://github.com/h2oai/sparkling-water)        |             | 974   | 2024-11-19  |
-| [JPMML-Spark](https://github.com/jpmml/jpmml-spark)                |             | 94    | 2022-04-02  |
-
-## Middleware
-
-| Name                                                                  | Description | Stars | Last Commit |
-|-----------------------------------------------------------------------|-------------|-------|-------------|
-| [spark-jobserver](https://github.com/spark-jobserver/spark-jobserver) |             | 2838  | 2025-04-29  |
-| [Apache Kyuubi](https://github.com/apache/kyuubi)                     |             | 2198  | 2025-05-29  |
-| [Livy](https://github.com/apache/incubator-livy)                      |             | 913   | 2025-05-20  |
-| [Apache Toree](https://github.com/apache/incubator-toree)             |             | 744   | 2025-05-06  |
-
-## Monitoring
-
-| Name                                                               | Description | Stars | Last Commit |
-|--------------------------------------------------------------------|-------------|-------|-------------|
-| [Data Mechanics Delight](https://github.com/datamechanics/delight) |             | 344   | 2024-05-31  |
-
-## Utilities
-
-| Name                                               | Description | Stars | Last Commit |
-|----------------------------------------------------|-------------|-------|-------------|
-| [Optimus](https://github.com/ironmussa/Optimus)    |             | 1512  | 2024-12-02  |
-| [Flintrock](https://github.com/nchammas/flintrock) |             | 642   | 2024-12-13  |
-| [sparkly](https://github.com/Tubular/sparkly)      |             | 62    | 2023-06-26  |
-
-## Natural Language Processing
-
-| Name                                                   | Description | Stars | Last Commit |
-|--------------------------------------------------------|-------------|-------|-------------|
-| [spark-nlp](https://github.com/JohnSnowLabs/spark-nlp) |             | 3992  | 2025-06-06  |
-
-## Interfaces
-
-| Name                                           | Description | Stars | Last Commit |
-|------------------------------------------------|-------------|-------|-------------|
-| [Koalas](https://github.com/databricks/koalas) |             | 3359  | 2024-03-20  |
-
-## Data quality
-
-| Name                                                    | Description | Stars | Last Commit |
-|---------------------------------------------------------|-------------|-------|-------------|
-| [deequ](https://github.com/awslabs/deequ)               |             | 3427  | 2025-04-23  |
-| [python-deequ](https://github.com/awslabs/python-deequ) |             | 772   | 2025-04-01  |
-
-## Testing
-
-| Name                                                                | Description | Stars | Last Commit |
-|---------------------------------------------------------------------|-------------|-------|-------------|
-| [spark-testing-base](https://github.com/holdenk/spark-testing-base) |             | 1534  | 2025-01-14  |
-| [chispa](https://github.com/MrPowers/chispa)                        |             | 697   | 2025-04-14  |
-| [spark-fast-tests](https://github.com/mrpowers-io/spark-fast-tests) |             | 447   | 2025-06-01  |
-
-## Web Archives
-
-| Name                                                                   | Description | Stars | Last Commit |
-|------------------------------------------------------------------------|-------------|-------|-------------|
-| [Archives Unleashed Toolkit](https://github.com/archivesunleashed/aut) |             | 144   | 2024-02-27  |
-
-## Workflow Management
-
-| Name                                                   | Description | Stars | Last Commit |
-|--------------------------------------------------------|-------------|-------|-------------|
-| [Cromwell](https://github.com/broadinstitute/cromwell) |             | 1019  | 2025-06-04  |
-
-## Projects Using Spark
-
-| Name                                               | Description                                                                                                          | Stars | Last Commit |
-|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Oryx 2](https://github.com/OryxProject/oryx)      | platform built on Apache Spark and with specialization for real-time large scale machine learning.                   | 1782  | 2021-08-16  |
-| [Photon ML](https://github.com/linkedin/photon-ml) | A machine learning library supporting classical Generalized Mixed Model and Generalized Additive Mixed Effect Model. | 795   | 2021-08-30  |
-| [Crossdata](https://github.com/Stratio/Crossdata)  | Data integration platform with extended DataSource API and multi-user environment.                                   | 169   | 2019-11-20  |
-
-## Docker Images
-
-| Name                                                                               | Description                                     | Stars | Last Commit |
-|------------------------------------------------------------------------------------|-------------------------------------------------|-------|-------------|
-| [jupyter/docker-stacks/pyspark-notebook](https://github.com/jupyter/docker-stacks) | PySpark with Jupyter Notebook and Mesos client. | 8231  | 2025-06-03  |
-| [sequenceiq/docker-spark](https://github.com/sequenceiq/docker-spark)              | Yarn images from .                              | 764   | 2021-03-11  |
+| Name                                                                  | Description                                                                                                                                                                                        | Stars | Last Commit |
+|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Oryx 2](https://github.com/OryxProject/oryx)                         | [Lambda architecture](http://lambda-architecture.net/) platform built on Apache Spark and [Apache Kafka](http://kafka.apache.org/) with specialization for real-time large scale machine learning. | 1785  | 2021-08-16  |
+| [Photon ML](https://github.com/linkedin/photon-ml)                    | A machine learning library supporting classical Generalized Mixed Model and Generalized Additive Mixed Effect Model.                                                                               | 794   | 2021-08-30  |
+| [sequenceiq/docker-spark](https://github.com/sequenceiq/docker-spark) | Yarn images from [SequenceIQ](http://www.sequenceiq.com/).                                                                                                                                         | 763   | 2021-03-11  |
+| [Crossdata](https://github.com/Stratio/Crossdata)                     | Data integration platform with extended DataSource API and multi-user environment.                                                                                                                 | 169   | 2019-11-20  |
