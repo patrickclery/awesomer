@@ -56,6 +56,15 @@ class ProcessAwesomeListService
         repo_identifier: @repo_identifier,
         sync: @sync
       )
+
+      # Only proceed if sync succeeds when sync mode is enabled
+      if @sync && sync_result.failure?
+        Rails.logger.error "ProcessAwesomeListService: Failed to sync GitHub stats in sync mode: #{sync_result.failure}"
+        # Mark as failed since we couldn't get the required GitHub stats
+        aw_list_record.fail_processing!
+        return Failure("GitHub stats sync failed: #{sync_result.failure}")
+      end
+
       categories_to_process_md = if sync_result.success?
                                    sync_result.value!
       else

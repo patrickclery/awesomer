@@ -69,16 +69,34 @@ class FetchGithubStatsForCategoriesOperation
               )
               Structs::CategoryItem.new(new_attrs)
             else
-              # Skip items where GitHub stats fetch failed (404, etc.)
-              Rails.logger.info "Skipping #{owner}/#{repo_name} due to failed stats fetch (likely 404)"
-              next nil # This will be filtered out by filter_map
+              # For failed stats fetch, set default values instead of skipping
+              Rails.logger.warn "Failed to fetch stats for #{owner}/#{repo_name}, using defaults"
+              current_attrs = repo_item.to_h
+              default_attrs = current_attrs.merge(
+                last_commit_at: nil,
+                stars: 0 # Default to 0 stars instead of nil
+              )
+              Structs::CategoryItem.new(default_attrs)
             end
           rescue Timeout::Error => e
-            Rails.logger.warn "Timeout fetching stats for #{owner}/#{repo_name}, skipping"
-            repo_item # Keep original on timeout
+            Rails.logger.warn "Timeout fetching stats for #{owner}/#{repo_name}, using defaults"
+            # Set default values for timeout case
+            current_attrs = repo_item.to_h
+            default_attrs = current_attrs.merge(
+              last_commit_at: nil,
+              stars: 0 # Default to 0 stars instead of nil
+            )
+            Structs::CategoryItem.new(default_attrs)
           end
         else
-          repo_item # Keep original if not a GitHub repo
+          # For non-GitHub repos, ensure they have default star count
+          current_attrs = repo_item.to_h
+          if current_attrs[:stars].nil?
+            default_attrs = current_attrs.merge(stars: 0)
+            Structs::CategoryItem.new(default_attrs)
+          else
+            repo_item # Keep original if it already has stars
+          end
         end
       end
 

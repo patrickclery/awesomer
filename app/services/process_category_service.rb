@@ -75,7 +75,8 @@ class ProcessCategoryService
 
         name_md = "[#{item_name}](#{item_url})"
         description_md = item_description.to_s.gsub("\n", "<br>")
-        stars_md = item_stars.nil? ? "N/A" : item_stars.to_s
+        # Ensure stars are always integers, never N/A - use 0 as default for GitHub repos
+        stars_md = item_stars.nil? ? "0" : item_stars.to_s
         last_commit_md = item_last_commit.nil? ? "N/A" : item_last_commit.strftime("%Y-%m-%d")
 
         [ name_md, description_md, stars_md, last_commit_md ]

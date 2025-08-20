@@ -38,7 +38,7 @@ require_relative "commands/bootstrap"
 require_relative "commands/process"
 
 module Awesomer
-  class CLI < Thor
+  class Cli < Thor
     def self.exit_on_failure?
       true
     end

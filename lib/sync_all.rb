@@ -4,7 +4,7 @@
 require_relative "../config/environment"
 require "timeout"
 
-class SyncAllAwesomeLists
+class SyncAll
   MAX_PROCESSING_TIME = 60 # Maximum seconds per repository
   MAX_RETRIES = 3
 
@@ -172,5 +172,5 @@ end
 
 # Run if called directly
 if __FILE__ == $0
-  SyncAllAwesomeLists.new.run
+  SyncAll.new.run
 end
