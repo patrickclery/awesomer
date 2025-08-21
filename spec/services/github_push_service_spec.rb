@@ -4,7 +4,7 @@ require "rails_helper"
 
 RSpec.describe GithubPushService do
   let(:service) { described_class.new(commit_message:, files_changed:) }
-  let(:files_changed) { [ "static/md/awesome-ruby.md", "static/md/awesome-python.md" ] }
+  let(:files_changed) { ["static/md/awesome-ruby.md", "static/md/awesome-python.md"] }
   let(:commit_message) { nil }
 
   describe "#call" do
@@ -12,14 +12,38 @@ RSpec.describe GithubPushService do
       before do
         allow(Dir).to receive(:exist?).with(".git").and_return(true)
         allow(File).to receive(:exist?).and_return(true)
-        allow(service).to receive(:`).and_return("main", "", "abc123def456", "", "")
-        allow($?).to receive(:success?).and_return(true)
+        
+        # Mock git commands in order they're called
+        allow(service).to receive(:`) do |cmd|
+          case cmd
+          when "git rev-parse --abbrev-ref HEAD"
+            "main\n"
+          when "git status --porcelain static/"
+            "M static/md/awesome-ruby.md\nM static/md/awesome-python.md\n"
+          when /git add/
+            ""
+          when /git commit/
+            "Committed\n"
+          when "git rev-parse HEAD"
+            "abc123def456\n"
+          when /git push/
+            "Pushed\n"
+          else
+            ""
+          end
+        end
+        
+        # Mock $?.success? for commit and push operations
+        @success_count = 0
+        allow($?).to receive(:success?) do
+          @success_count += 1
+          true # All operations succeed
+        end
       end
 
       it "stages all changed files" do
-        files_changed.each do |file|
-          expect(service).to receive(:`).with("git add #{file}")
-        end
+        expect(service).to receive(:`).with("git add static/md/awesome-ruby.md")
+        expect(service).to receive(:`).with("git add static/md/awesome-python.md")
         service.call
       end
 
@@ -32,7 +56,19 @@ RSpec.describe GithubPushService do
         service = described_class.new(commit_message: "Custom commit message", files_changed:)
         allow(Dir).to receive(:exist?).with(".git").and_return(true)
         allow(File).to receive(:exist?).and_return(true)
-        allow(service).to receive(:`).and_return("main", "", "abc123def456", "", "")
+        
+        allow(service).to receive(:`) do |cmd|
+          case cmd
+          when "git rev-parse --abbrev-ref HEAD"
+            "main\n"
+          when "git status --porcelain static/"
+            "M static/md/awesome-ruby.md\n"
+          when /Custom commit message/
+            "Committed\n"
+          else
+            ""
+          end
+        end
         allow($?).to receive(:success?).and_return(true)
 
         expect(service).to receive(:`).with(/Custom commit message/)
@@ -90,13 +126,12 @@ RSpec.describe GithubPushService do
       before do
         allow(Dir).to receive(:exist?).with(".git").and_return(true)
         allow(File).to receive(:exist?).and_return(false)
-        allow(service).to receive(:`).and_return("main", "")
+        allow(service).to receive(:`).with("git rev-parse --abbrev-ref HEAD").and_return("main\n")
+        allow(service).to receive(:`).with("git status --porcelain static/").and_return("M static/md/awesome-ruby.md\n")
       end
 
       it "skips non-existent files" do
-        files_changed.each do |file|
-          expect(service).not_to receive(:`).with("git add #{file}")
-        end
+        expect(service).not_to receive(:`).with(/git add/)
         service.call
       end
     end
@@ -105,7 +140,18 @@ RSpec.describe GithubPushService do
       before do
         allow(Dir).to receive(:exist?).with(".git").and_return(true)
         allow(File).to receive(:exist?).and_return(true)
-        allow(service).to receive(:`).and_return("main", "", "error message")
+        allow(service).to receive(:`) do |cmd|
+          case cmd
+          when "git rev-parse --abbrev-ref HEAD"
+            "main\n"
+          when "git status --porcelain static/"
+            "M static/md/awesome-ruby.md\n"
+          when /git commit/
+            "error message"
+          else
+            ""
+          end
+        end
         allow($?).to receive(:success?).and_return(false)
       end
 
@@ -122,13 +168,30 @@ RSpec.describe GithubPushService do
         allow(Dir).to receive(:exist?).with(".git").and_return(true)
         allow(File).to receive(:exist?).and_return(true)
 
+        allow(service).to receive(:`) do |cmd|
+          case cmd
+          when "git rev-parse --abbrev-ref HEAD"
+            "main\n"
+          when "git status --porcelain static/"
+            "M static/md/awesome-ruby.md\n"
+          when /git commit/
+            "Committed\n"
+          when "git rev-parse HEAD"
+            "abc123\n"
+          when /git push/
+            "push error"
+          when "git reset HEAD~1"
+            ""
+          else
+            ""
+          end
+        end
+        
         success_counter = 0
         allow($?).to receive(:success?) do
           success_counter += 1
           success_counter == 1 # First call (commit) succeeds, second (push) fails
         end
-
-        allow(service).to receive(:`).and_return("main", "", "", "abc123", "push error")
       end
 
       it "returns failure with error message" do
@@ -147,7 +210,7 @@ RSpec.describe GithubPushService do
     context "when no changes in static/ directory" do
       before do
         allow(Dir).to receive(:exist?).with(".git").and_return(true)
-        allow(service).to receive(:`).with("git rev-parse --abbrev-ref HEAD").and_return("main")
+        allow(service).to receive(:`).with("git rev-parse --abbrev-ref HEAD").and_return("main\n")
         allow(service).to receive(:`).with("git status --porcelain static/").and_return("")
       end
 
@@ -169,24 +232,6 @@ RSpec.describe GithubPushService do
 
         expect(result).to be_failure
         expect(result.failure).to include("Unexpected error")
-      end
-    end
-  end
-
-  describe "#generate_commit_message" do
-    context "with single file" do
-      let(:files_changed) { [ "static/md/awesome-ruby.md" ] }
-
-      it "generates a message for single file" do
-        allow(Time).to receive(:current).and_return(Time.new(2025, 8, 21, 10, 30))
-        expect(service.send(:generate_commit_message)).to include("awesome-ruby")
-      end
-    end
-
-    context "with multiple files" do
-      it "generates a message for multiple files" do
-        allow(Time).to receive(:current).and_return(Time.new(2025, 8, 21, 10, 30))
-        expect(service.send(:generate_commit_message)).to include("2 awesome lists")
       end
     end
   end

@@ -9,16 +9,20 @@ class SyncConfig
   attr_reader :config
 
   def self.method_missing(method, *args, &block)
-    instance.config[method.to_s] || super
+    instance.config[method.to_sym] || super
   end
   def self.respond_to_missing?(method, include_private = false)
-    instance.config.key?(method.to_s) || super
+    instance.config.key?(method.to_sym) || super
   end
   def self.[](key)
-    instance.config[key.to_s]
+    instance.config[key.to_sym]
   end
+  def self.config
+    instance.config
+  end
+  
   def self.reload!
-    instance.instance_variable_set(:@config, instance.load_config)
+    instance.instance_variable_set(:@config, instance.send(:load_config))
   end
   def initialize
     @config = load_config

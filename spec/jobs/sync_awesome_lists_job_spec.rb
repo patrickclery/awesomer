@@ -3,6 +3,8 @@
 require "rails_helper"
 
 RSpec.describe SyncAwesomeListsJob, type: :job do
+  include Dry::Monads[:result]
+  
   describe "#perform" do
     let(:awesome_list) { create(:awesome_list, last_synced_at: 2.days.ago, state: "completed") }
     let(:category) { create(:category, awesome_list:) }
@@ -21,17 +23,21 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
     let(:process_category_result) { Success(Pathname.new("static/md/awesome-test.md")) }
     let(:github_push_result) { Success(commit_sha: "abc123", files_count: 1, pushed_at: Time.current) }
 
+    let(:delta_sync_service) { instance_double(DeltaSyncService, call: delta_sync_result) }
+    let(:process_category_service) { instance_double(ProcessCategoryService, call: process_category_result) }
+    let(:github_push_service) { instance_double(GithubPushService, call: github_push_result) }
+
     before do
-      allow_any_instance_of(DeltaSyncService).to receive(:call).and_return(delta_sync_result)
-      allow_any_instance_of(ProcessCategoryService).to receive(:call).and_return(process_category_result)
-      allow_any_instance_of(GithubPushService).to receive(:call).and_return(github_push_result)
+      allow(DeltaSyncService).to receive(:new).and_return(delta_sync_service)
+      allow(ProcessCategoryService).to receive(:new).and_return(process_category_service)
+      allow(GithubPushService).to receive(:new).and_return(github_push_service)
     end
 
     context "without force flag" do
       it "only syncs lists that need syncing" do
         recent_list = create(:awesome_list, last_synced_at: 1.hour.ago, state: "completed")
 
-        expect(DeltaSyncService).to receive(:new).with(awesome_list:).and_call_original
+        expect(DeltaSyncService).to receive(:new).with(awesome_list:).and_return(delta_sync_service)
         expect(DeltaSyncService).not_to receive(:new).with(awesome_list: recent_list)
 
         described_class.new.perform
@@ -42,8 +48,8 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
       it "syncs all completed lists" do
         recent_list = create(:awesome_list, last_synced_at: 1.hour.ago, state: "completed")
 
-        expect(DeltaSyncService).to receive(:new).with(awesome_list:).and_call_original
-        expect(DeltaSyncService).to receive(:new).with(awesome_list: recent_list).and_call_original
+        expect(DeltaSyncService).to receive(:new).with(awesome_list:).and_return(delta_sync_service)
+        expect(DeltaSyncService).to receive(:new).with(awesome_list: recent_list).and_return(delta_sync_service)
 
         described_class.new.perform(force: true)
       end
@@ -51,7 +57,7 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
 
     context "when items are updated" do
       it "regenerates the markdown file" do
-        expect_any_instance_of(ProcessCategoryService).to receive(:call).with(
+        expect(process_category_service).to receive(:call).with(
           categories: [
             {
               items: [
@@ -73,7 +79,7 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
       end
 
       it "pushes changes to GitHub" do
-        expect_any_instance_of(GithubPushService).to receive(:call)
+        expect(github_push_service).to receive(:call)
         described_class.new.perform
       end
 
@@ -95,12 +101,12 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
       let(:delta_sync_result) { Success(items_checked: 1, items_updated: 0) }
 
       it "does not regenerate markdown files" do
-        expect_any_instance_of(ProcessCategoryService).not_to receive(:call)
+        expect(process_category_service).not_to receive(:call)
         described_class.new.perform
       end
 
       it "does not push to GitHub" do
-        expect_any_instance_of(GithubPushService).not_to receive(:call)
+        expect(github_push_service).not_to receive(:call)
         described_class.new.perform
       end
 
@@ -120,14 +126,14 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
 
       it "continues processing other lists" do
         another_list = create(:awesome_list, last_synced_at: 2.days.ago, state: "completed")
-
-        allow_any_instance_of(DeltaSyncService).to receive(:call).and_return(
-          delta_sync_result,
-          Success(items_checked: 1, items_updated: 1)
-        )
+        
+        delta_sync_service2 = instance_double(DeltaSyncService, call: Success(items_checked: 1, items_updated: 1))
+        
+        allow(DeltaSyncService).to receive(:new).with(awesome_list:).and_return(delta_sync_service)
+        allow(DeltaSyncService).to receive(:new).with(awesome_list: another_list).and_return(delta_sync_service2)
 
         expect(Rails.logger).to receive(:error).once
-        expect_any_instance_of(ProcessCategoryService).to receive(:call).once
+        expect(process_category_service).to receive(:call).once
 
         described_class.new.perform
       end
@@ -142,7 +148,7 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
       end
 
       it "does not push to GitHub" do
-        expect_any_instance_of(GithubPushService).not_to receive(:call)
+        expect(github_push_service).not_to receive(:call)
         described_class.new.perform
       end
     end
@@ -171,12 +177,12 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
       end
 
       it "processes all lists that need syncing" do
-        expect(DeltaSyncService).to receive(:new).twice.and_call_original
+        expect(DeltaSyncService).to receive(:new).twice.and_return(delta_sync_service)
         described_class.new.perform
       end
 
       it "batches all file updates in a single push" do
-        expect_any_instance_of(GithubPushService).to receive(:call).once
+        expect(github_push_service).to receive(:call).once
         described_class.new.perform
       end
 
@@ -212,7 +218,7 @@ RSpec.describe SyncAwesomeListsJob, type: :job do
       end
 
       it "includes all categories in markdown generation" do
-        expect_any_instance_of(ProcessCategoryService).to receive(:call).with(
+        expect(process_category_service).to receive(:call).with(
           hash_including(
             categories: array_including(
               hash_including(name: category.name),

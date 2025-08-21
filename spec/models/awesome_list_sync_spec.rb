@@ -3,8 +3,13 @@
 require "rails_helper"
 
 RSpec.describe AwesomeList, "sync methods" do
-  describe "sync associations" do
-    it { is_expected.to have_many(:sync_logs).dependent(:destroy) }
+  describe "associations" do
+    it "has many sync_logs with dependent destroy" do
+      association = described_class.reflect_on_association(:sync_logs)
+      expect(association).not_to be_nil
+      expect(association.macro).to eq(:has_many)
+      expect(association.options[:dependent]).to eq(:destroy)
+    end
   end
 
   describe ".needs_sync scope" do
