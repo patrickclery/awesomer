@@ -42,6 +42,7 @@ class ParserAdapterRegistry
     # Register in reverse priority order (will be sorted)
     register(StandardAwesomeListAdapter)
     register(ClaudeCodeAdapter)
+    register(H3AwesomeListAdapter)
     # Future adapters can be added here
   end
 
