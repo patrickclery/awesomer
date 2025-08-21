@@ -62,8 +62,23 @@ class ProcessCategoryService
         end
       end
 
-      # Prepare table data (we know sorted_items has items since we filtered above)
-      table_rows = sorted_items.map do |item|
+      # Filter out items without stats (GitHub repos that failed to fetch)
+      # Only include items that have stars data OR are not GitHub repos
+      items_with_stats = sorted_items.filter do |item|
+        item_url = item.respond_to?(:primary_url) ? item.primary_url : item[:primary_url]
+        item_stars = item.respond_to?(:stars) ? item.stars : item[:stars]
+        
+        # Include if:
+        # 1. Has star data (not nil)
+        # 2. OR is not a GitHub repo (keep non-GitHub items)
+        !item_url&.include?('github.com') || !item_stars.nil?
+      end
+      
+      # Skip this category entirely if no valid items remain
+      next if items_with_stats.empty?
+
+      # Prepare table data
+      table_rows = items_with_stats.map do |item|
         Rails.logger.debug "ProcessCategoryService: Processing item: #{item.inspect}"
 
         # Handle both struct and hash formats for item attributes
@@ -75,9 +90,13 @@ class ProcessCategoryService
 
         name_md = "[#{item_name}](#{item_url})"
         description_md = item_description.to_s.gsub("\n", "<br>")
-        # Ensure stars are always integers, never N/A - use 0 as default for GitHub repos
-        stars_md = item_stars.nil? ? "0" : item_stars.to_s
-        last_commit_md = item_last_commit.nil? ? "N/A" : item_last_commit.strftime("%Y-%m-%d")
+        # For non-GitHub items, don't show stars column
+        stars_md = if item_url&.include?('github.com')
+                     item_stars.to_s
+                   else
+                     "—"
+                   end
+        last_commit_md = item_last_commit.nil? ? "—" : item_last_commit.strftime("%Y-%m-%d")
 
         [ name_md, description_md, stars_md, last_commit_md ]
       end

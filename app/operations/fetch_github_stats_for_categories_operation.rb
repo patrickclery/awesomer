@@ -44,6 +44,8 @@ class FetchGithubStatsForCategoriesOperation
 
     # Initialize rate limiter for synchronous mode
     rate_limiter = GithubRateLimiterService.new
+    consecutive_failures = 0
+    max_consecutive_failures = 5
 
     category_structs.map do |category|
       updated_repos = category.repos.filter_map do |repo_item|
@@ -61,6 +63,9 @@ class FetchGithubStatsForCategoriesOperation
             end
 
             if stats_result
+              # Reset failure counter on success
+              consecutive_failures = 0
+              
               # Create new CategoryItem with updated stats
               current_attrs = repo_item.to_h
               new_attrs = current_attrs.merge(
@@ -69,38 +74,41 @@ class FetchGithubStatsForCategoriesOperation
               )
               Structs::CategoryItem.new(new_attrs)
             else
-              # For failed stats fetch, set default values instead of skipping
-              Rails.logger.warn "Failed to fetch stats for #{owner}/#{repo_name}, using defaults"
-              current_attrs = repo_item.to_h
-              default_attrs = current_attrs.merge(
-                last_commit_at: nil,
-                stars: 0 # Default to 0 stars instead of nil
-              )
-              Structs::CategoryItem.new(default_attrs)
+              # Track consecutive failures
+              consecutive_failures += 1
+              
+              # If we're hitting too many failures, likely rate limited
+              if consecutive_failures >= max_consecutive_failures
+                Rails.logger.warn "Too many consecutive failures (#{consecutive_failures}), likely rate limited. Sleeping..."
+                sleep_time = [60 * (2 ** (consecutive_failures - max_consecutive_failures)), 300].min
+                sleep(sleep_time)
+              end
+              
+              # Skip items we can't fetch stats for (don't create N/A entries)
+              Rails.logger.warn "Skipping #{owner}/#{repo_name} - couldn't fetch stats"
+              nil # filter_map will remove this
             end
           rescue Timeout::Error => e
-            Rails.logger.warn "Timeout fetching stats for #{owner}/#{repo_name}, using defaults"
-            # Set default values for timeout case
-            current_attrs = repo_item.to_h
-            default_attrs = current_attrs.merge(
-              last_commit_at: nil,
-              stars: 0 # Default to 0 stars instead of nil
-            )
-            Structs::CategoryItem.new(default_attrs)
+            consecutive_failures += 1
+            Rails.logger.warn "Timeout fetching stats for #{owner}/#{repo_name}, skipping"
+            
+            # Sleep if hitting too many failures
+            if consecutive_failures >= max_consecutive_failures
+              sleep_time = [60 * (2 ** (consecutive_failures - max_consecutive_failures)), 300].min
+              Rails.logger.warn "Too many timeouts, sleeping for #{sleep_time} seconds"
+              sleep(sleep_time)
+            end
+            
+            nil # Skip this item
           end
         else
-          # For non-GitHub repos, ensure they have default star count
-          current_attrs = repo_item.to_h
-          if current_attrs[:stars].nil?
-            default_attrs = current_attrs.merge(stars: 0)
-            Structs::CategoryItem.new(default_attrs)
-          else
-            repo_item # Keep original if it already has stars
-          end
+          # For non-GitHub repos, skip them (don't include in output)
+          Rails.logger.debug "Skipping non-GitHub item: #{repo_item.primary_url}"
+          nil
         end
       end
 
-      # Create new Category with updated repos (404s filtered out)
+      # Create new Category with updated repos (failed items filtered out)
       Structs::Category.new(
         custom_order: category.custom_order,
         name: category.name,
