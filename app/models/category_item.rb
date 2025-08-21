@@ -36,6 +36,21 @@ class CategoryItem < ApplicationRecord
     github_repo
   end
 
+  # Delta tracking methods
+  def star_delta
+    return 0 if stars.nil? || previous_stars.nil?
+    stars - previous_stars
+  end
+
+  def needs_update?(threshold = 10)
+    return true if previous_stars.nil? && stars.present?
+    star_delta.abs >= threshold
+  end
+
+  def update_previous_stars!
+    update_column(:previous_stars, stars)
+  end
+
   private
 
   def validate_at_least_one_url_present

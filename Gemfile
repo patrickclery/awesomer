@@ -91,3 +91,6 @@ gem "terminal-table"
 gem "aasm"
 
 # Background job processing
+
+# Cron job scheduling
+gem "whenever", require: false

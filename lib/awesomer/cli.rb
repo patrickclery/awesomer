@@ -36,6 +36,7 @@ end
 # Load CLI commands
 require_relative "commands/bootstrap"
 require_relative "commands/process"
+require_relative "commands/worker"
 
 module Awesomer
   class Cli < Thor
@@ -53,6 +54,9 @@ module Awesomer
 
     desc "process SUBCOMMAND", "Process awesome lists and generate markdown"
     subcommand "process", Commands::Process
+
+    desc "worker SUBCOMMAND", "Manage sync worker for automated updates"
+    subcommand "worker", Commands::Worker
 
     desc "status", "Show current status of AwesomeList records in the database"
     def status

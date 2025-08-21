@@ -27,6 +27,8 @@ class AwesomeList < ApplicationRecord
   validates :name, presence: true
 
   has_many :categories, dependent: :destroy
+  has_many :sync_logs, dependent: :destroy
+  has_many :category_items, through: :categories
 
   # AASM state machine for processing status
   aasm column: :state do
@@ -76,4 +78,14 @@ class AwesomeList < ApplicationRecord
   scope :processing_timeout, ->(timeout = 1.hour.ago) {
     where(processing_started_at: ...timeout, state: "in_progress")
   }
+  scope :needs_sync, -> { where(last_synced_at: nil).or(where(last_synced_at: ..1.day.ago)) }
+  scope :with_sync_threshold, -> { where.not(sync_threshold: nil) }
+
+  def needs_sync?
+    last_synced_at.nil? || last_synced_at < 1.day.ago
+  end
+
+  def sync_threshold_value
+    sync_threshold || 10
+  end
 end

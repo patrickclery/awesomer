@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_09_054327) do
+ActiveRecord::Schema[8.0].define(version: 2025_08_21_145734) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -25,6 +25,10 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_09_054327) do
     t.datetime "processing_started_at"
     t.datetime "processing_completed_at"
     t.string "state", default: "pending", null: false
+    t.datetime "last_synced_at"
+    t.datetime "last_pushed_at"
+    t.integer "sync_threshold", default: 10
+    t.index ["last_synced_at"], name: "index_awesome_lists_on_last_synced_at"
     t.index ["state"], name: "index_awesome_lists_on_state"
   end
 
@@ -51,7 +55,9 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_09_054327) do
     t.integer "category_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "previous_stars"
     t.index ["category_id"], name: "index_category_items_on_category_id"
+    t.index ["stars", "previous_stars"], name: "index_category_items_on_stars_and_previous_stars"
   end
 
   create_table "github_api_requests", force: :cascade do |t|
@@ -206,6 +212,20 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_09_054327) do
     t.index ["key"], name: "index_solid_queue_semaphores_on_key", unique: true
   end
 
+  create_table "sync_logs", force: :cascade do |t|
+    t.bigint "awesome_list_id", null: false
+    t.datetime "started_at", null: false
+    t.datetime "completed_at"
+    t.integer "items_checked", default: 0
+    t.integer "items_updated", default: 0
+    t.string "status", null: false
+    t.text "error_message"
+    t.string "git_commit_sha"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["awesome_list_id"], name: "index_sync_logs_on_awesome_list_id"
+  end
+
   add_foreign_key "categories", "awesome_lists"
   add_foreign_key "categories", "categories", column: "parent_id"
   add_foreign_key "category_items", "categories"
@@ -216,4 +236,5 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_09_054327) do
   add_foreign_key "solid_queue_ready_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_recurring_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_scheduled_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
+  add_foreign_key "sync_logs", "awesome_lists"
 end

@@ -1,0 +1,81 @@
+# Sync configuration for awesome lists worker
+default: &default
+  # Schedule for automatic syncing (cron format)
+  schedule: "0 2 * * *"  # Daily at 2 AM UTC
+  
+  # Default star delta threshold for triggering updates
+  default_threshold: 10
+  
+  # Number of lists to process in each batch
+  batch_size: 50
+  
+  # Maximum time for processing a single list (seconds)
+  timeout: 3600
+  
+  # GitHub configuration
+  github:
+    # Commit message template
+    # Available variables: %{date}, %{count}, %{lists}
+    commit_message: "📊 Auto-sync: Update awesome lists [%{date}]"
+    
+    # Branch to push changes to
+    branch: main
+    
+    # Whether to automatically push changes
+    auto_push: true
+  
+  # Logging configuration
+  logging:
+    # Log level (debug, info, warn, error)
+    level: info
+    
+    # Log file location
+    file: log/sync.log
+    
+    # Maximum log file size before rotation
+    max_size: 100 # MB
+    
+    # Number of old log files to keep
+    keep: 10
+  
+  # Rate limiting
+  rate_limiting:
+    # Delay between GitHub API requests (seconds)
+    request_delay: 1
+    
+    # Maximum requests per hour
+    max_requests_per_hour: 5000
+    
+    # Wait time when rate limited (seconds)
+    rate_limit_wait: 3600
+
+development:
+  <<: *default
+  github:
+    commit_message: "📊 [DEV] Auto-sync: Update awesome lists [%{date}]"
+    branch: main
+    auto_push: false # Don't auto-push in development
+  logging:
+    level: debug
+
+test:
+  <<: *default
+  default_threshold: 5
+  batch_size: 10
+  github:
+    auto_push: false
+  logging:
+    level: debug
+    file: log/test_sync.log
+
+production:
+  <<: *default
+  github:
+    commit_message: "📊 Auto-sync: Update awesome lists [%{date}]"
+    branch: main
+    auto_push: true
+  logging:
+    level: info
+    file: log/sync.log
+    max_size: 500 # MB
+    keep: 30
