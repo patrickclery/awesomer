@@ -88,4 +88,12 @@ class AwesomeList < ApplicationRecord
   def sync_threshold_value
     sync_threshold || 10
   end
+
+  def last_successful_sync
+    sync_logs.completed.recent.first
+  end
+
+  def sync_in_progress?
+    sync_logs.where(status: "started").exists?
+  end
 end

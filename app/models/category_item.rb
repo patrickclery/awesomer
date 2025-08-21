@@ -31,6 +31,13 @@ class CategoryItem < ApplicationRecord
   validates :name, presence: true
   validate :validate_at_least_one_url_present
 
+  # Scopes
+  scope :needing_update, ->(threshold = 10) {
+    where.not(stars: nil).where(
+      "previous_stars IS NULL OR ABS(stars - previous_stars) >= ?", threshold
+    )
+  }
+
   # Extract repository identifier from GitHub URL
   def repo_identifier
     github_repo
