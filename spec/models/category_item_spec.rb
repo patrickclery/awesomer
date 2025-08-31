@@ -41,7 +41,7 @@ RSpec.describe CategoryItem do
     example 'requires at least one of github_repo or primary_url to be present' do
       item = described_class.new(category:, name: 'Test Item')
       expect(item).not_to be_valid
-      expect(item.errors[:base]).to include("At least one of GitHub repo or primary URL must be present")
+      expect(item.errors[:base]).to include('At least one of GitHub repo or primary URL must be present')
     end
 
     example 'is valid with only primary_url' do

@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+pkg/
+*.gem
+cache/
+
+# Test files
+.rspec_status
+
+# Git
+.git/
+
+# IDE
+.idea/
+.vscode/
+
+# Local configs
+.lefthook-local/

@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 # rubocop:disable RSpec/DescribeClass
-RSpec.describe "Parse and Persist Categories Integration", type: :integration do
+RSpec.describe 'Parse and Persist Categories Integration', type: :integration do
   let(:awesome_list) { AwesomeList.create!(github_repo: 'test/repo', name: 'Test List') }
 
   let(:markdown_content) do
@@ -69,7 +69,7 @@ RSpec.describe "Parse and Persist Categories Integration", type: :integration do
 
   example 'demonstrates proper URL field separation' do
     parse_result = ParseMarkdownOperation.new.call(markdown_content:)
-    persist_result = PersistParsedCategoriesOperation.new.call(
+    PersistParsedCategoriesOperation.new.call(
       awesome_list:,
       parsed_categories: parse_result.value!
     )

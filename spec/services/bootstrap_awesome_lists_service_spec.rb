@@ -84,7 +84,7 @@ RSpec.describe BootstrapAwesomeListsService do
           .and_return(Success(sindresorhus_readme_data))
 
         # Mock File.write for saving local file
-        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
+        allow(File).to receive(:write).with(Rails.root.join('static', 'bootstrap.md'), anything)
 
         # Mock extracting repository links
         allow(extract_awesome_lists_op_double).to receive(:call)
@@ -148,7 +148,7 @@ RSpec.describe BootstrapAwesomeListsService do
         )
       end
 
-      let(:bootstrap_file_path) { Rails.root.join("static", "bootstrap.md") }
+      let(:bootstrap_file_path) { Rails.root.join('static', 'bootstrap.md') }
 
       before do
         # Mock local file existence and content
@@ -208,14 +208,14 @@ RSpec.describe BootstrapAwesomeListsService do
       end
 
       before do
-        allow(File).to receive(:exist?).with(Rails.root.join("static", "bootstrap.md")).and_return(false)
+        allow(File).to receive(:exist?).with(Rails.root.join('static', 'bootstrap.md')).and_return(false)
       end
 
       example 'returns failure with helpful message' do
         result = service.call
         expect(result).to be_failure
-        expect(result.failure).to include("Local bootstrap.md file not found")
-        expect(result.failure).to include("Use --fetch to download it")
+        expect(result.failure).to include('Local bootstrap.md file not found')
+        expect(result.failure).to include('Use --fetch to download it')
       end
     end
 
@@ -241,7 +241,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
-        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
+        allow(File).to receive(:write).with(Rails.root.join('static', 'bootstrap.md'), anything)
 
         allow(extract_awesome_lists_op_double).to receive(:call)
           .with(markdown_content: sindresorhus_readme_data[:content])
@@ -263,7 +263,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
-        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
+        allow(File).to receive(:write).with(Rails.root.join('static', 'bootstrap.md'), anything)
 
         allow(extract_awesome_lists_op_double).to receive(:call)
           .with(markdown_content: sindresorhus_readme_data[:content])
@@ -315,7 +315,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
-        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
+        allow(File).to receive(:write).with(Rails.root.join('static', 'bootstrap.md'), anything)
 
         # Mock extracting repository links
         allow(extract_awesome_lists_op_double).to receive(:call)
@@ -358,7 +358,7 @@ RSpec.describe BootstrapAwesomeListsService do
         allow(fetch_readme_op_double).to receive(:call)
           .with(repo_identifier: 'sindresorhus/awesome')
           .and_return(Success(sindresorhus_readme_data))
-        allow(File).to receive(:write).with(Rails.root.join("static", "bootstrap.md"), anything)
+        allow(File).to receive(:write).with(Rails.root.join('static', 'bootstrap.md'), anything)
 
         allow(extract_awesome_lists_op_double).to receive(:call)
           .with(markdown_content: sindresorhus_readme_data[:content])

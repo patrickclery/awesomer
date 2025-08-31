@@ -32,9 +32,9 @@ class CategoryItem < ApplicationRecord
   validate :validate_at_least_one_url_present
 
   # Scopes
-  scope :needing_update, ->(threshold = 10) {
+  scope :needing_update, lambda { |threshold = 10|
     where.not(stars: nil).where(
-      "previous_stars IS NULL OR ABS(stars - previous_stars) >= ?", threshold
+      'previous_stars IS NULL OR ABS(stars - previous_stars) >= ?', threshold
     )
   }
 
@@ -46,11 +46,13 @@ class CategoryItem < ApplicationRecord
   # Delta tracking methods
   def star_delta
     return 0 if stars.nil? || previous_stars.nil?
+
     stars - previous_stars
   end
 
   def needs_update?(threshold = 10)
     return true if previous_stars.nil? && stars.present?
+
     star_delta.abs >= threshold
   end
 
@@ -61,8 +63,8 @@ class CategoryItem < ApplicationRecord
   private
 
   def validate_at_least_one_url_present
-    if github_repo.blank? && primary_url.blank?
-      errors.add(:base, "At least one of GitHub repo or primary URL must be present")
-    end
+    return unless github_repo.blank? && primary_url.blank?
+
+    errors.add(:base, 'At least one of GitHub repo or primary URL must be present')
   end
 end

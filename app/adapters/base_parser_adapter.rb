@@ -7,7 +7,7 @@ class BaseParserAdapter
   # @param content [String] The README content to check
   # @return [Boolean] true if this adapter can parse the content
   def matches?(content)
-    raise NotImplementedError, "Subclasses must implement matches?"
+    raise NotImplementedError, 'Subclasses must implement matches?'
   end
 
   # Parse the README content into categories and items
@@ -15,7 +15,7 @@ class BaseParserAdapter
   # @param skip_external_links [Boolean] Whether to skip non-GitHub links
   # @return [Dry::Monads::Result] Success with array of category hashes or Failure
   def parse(content, skip_external_links: false)
-    raise NotImplementedError, "Subclasses must implement parse"
+    raise NotImplementedError, 'Subclasses must implement parse'
   end
 
   # Priority for this adapter (higher number = higher priority)
@@ -78,8 +78,8 @@ class BaseParserAdapter
 
     # Remove source code and demo links from description
     cleaned = description.dup
-    cleaned.gsub!(/\[Source Code\]\([^)]+\)/i, "")
-    cleaned.gsub!(/\[Demo\]\([^)]+\)/i, "")
+    cleaned.gsub!(/\[Source Code\]\([^)]+\)/i, '')
+    cleaned.gsub!(/\[Demo\]\([^)]+\)/i, '')
     cleaned.strip!
     cleaned.empty? ? nil : cleaned
   end

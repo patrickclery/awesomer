@@ -7,9 +7,7 @@
 Rails.application.configure do
   config.after_initialize do
     # Silence SolidCache model operations by setting a null logger
-    if defined?(SolidCache::Entry)
-      SolidCache::Entry.logger = ActiveSupport::Logger.new(IO::NULL)
-    end
+    SolidCache::Entry.logger = ActiveSupport::Logger.new(IO::NULL) if defined?(SolidCache::Entry)
 
     # Alternative: Use ActiveSupport's LogSubscriber silencing
     if defined?(ActiveRecord::LogSubscriber)
@@ -19,8 +17,8 @@ Rails.application.configure do
 
         def sql(event)
           payload = event.payload
-          return if payload[:name]&.include?("SolidCache") ||
-                   payload[:sql]&.include?("solid_cache_entries")
+          return if payload[:name]&.include?('SolidCache') ||
+                    payload[:sql]&.include?('solid_cache_entries')
 
           original_sql(event)
         end

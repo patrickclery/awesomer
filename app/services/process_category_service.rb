@@ -1,31 +1,31 @@
 # frozen_string_literal: true
 
-require "fileutils"
-require "terminal-table"
+require 'fileutils'
+require 'terminal-table'
 
 class ProcessCategoryService
   # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
-  TARGET_DIR = Rails.root.join("static", "md")
-  OUTPUT_FILENAME = "processed_awesome_list.md" # Default filename for the single output file
+  TARGET_DIR = Rails.root.join('static', 'md')
+  OUTPUT_FILENAME = 'processed_awesome_list.md' # Default filename for the single output file
 
-  def call(categories:, async: false, repo_identifier: nil)
+  def perform(categories:, async: false, repo_identifier: nil)
     yield ensure_target_directory_exists
 
     # If async is true, queue the background job instead of processing immediately
     if async
-      Rails.logger.info "ProcessCategoryService: Queueing asynchronous processing"
+      Rails.logger.info 'ProcessCategoryService: Queueing asynchronous processing'
       ProcessMarkdownWithStatsJob.perform_later(categories:, repo_identifier:)
-      return Success("Background processing queued")
+      return Success('Background processing queued')
     end
 
     # Generate filename based on repo_identifier if provided
     filename = if repo_identifier
                  generate_filename_from_repo(repo_identifier)
-    else
+               else
                  OUTPUT_FILENAME
-    end
+               end
 
     file_path = TARGET_DIR.join(filename)
     overall_content = []
@@ -38,14 +38,14 @@ class ProcessCategoryService
 
     categories_with_items.each do |category|
       # Add a separator before a new category, but not for the very first one.
-      overall_content << "" if overall_content.any? # Results in a blank line after join
+      overall_content << '' if overall_content.any? # Results in a blank line after join
 
       # Handle both struct and hash formats
       category_name = category.respond_to?(:name) ? category.name : category[:name]
       category_items = category.respond_to?(:repos) ? category.repos : category[:items]
 
       overall_content << "## #{category_name}"
-      overall_content << ""
+      overall_content << ''
 
       # Sort items by stars (descending, nil stars last)
       sorted_items = category_items.sort do |a, b|
@@ -67,13 +67,13 @@ class ProcessCategoryService
       items_with_stats = sorted_items.filter do |item|
         item_url = item.respond_to?(:primary_url) ? item.primary_url : item[:primary_url]
         item_stars = item.respond_to?(:stars) ? item.stars : item[:stars]
-        
+
         # Include if:
         # 1. Has star data (not nil)
         # 2. OR is not a GitHub repo (keep non-GitHub items)
         !item_url&.include?('github.com') || !item_stars.nil?
       end
-      
+
       # Skip this category entirely if no valid items remain
       next if items_with_stats.empty?
 
@@ -89,21 +89,21 @@ class ProcessCategoryService
         item_last_commit = item.respond_to?(:last_commit_at) ? item.last_commit_at : item[:last_commit_at]
 
         name_md = "[#{item_name}](#{item_url})"
-        description_md = item_description.to_s.gsub("\n", "<br>")
+        description_md = item_description.to_s.gsub("\n", '<br>')
         # For non-GitHub items, don't show stars column
         stars_md = if item_url&.include?('github.com')
                      item_stars.to_s
                    else
-                     "—"
+                     '—'
                    end
-        last_commit_md = item_last_commit.nil? ? "—" : item_last_commit.strftime("%Y-%m-%d")
+        last_commit_md = item_last_commit.nil? ? '—' : item_last_commit.strftime('%Y-%m-%d')
 
-        [ name_md, description_md, stars_md, last_commit_md ]
+        [name_md, description_md, stars_md, last_commit_md]
       end
 
       # Create table using terminal-table in markdown mode
       table = Terminal::Table.new do |t|
-        t.headings = [ "Name", "Description", "Stars", "Last Commit" ]
+        t.headings = ['Name', 'Description', 'Stars', 'Last Commit']
         table_rows.each { |row| t.add_row(row) }
         t.style = {border: :markdown}
       end
@@ -113,8 +113,8 @@ class ProcessCategoryService
 
     begin
       # Add a final newline to the file if content exists
-      file_content_string = overall_content.any? ? overall_content.join("\n") + "\n" : ""
-      File.write(file_path, file_content_string, encoding: "UTF-8")
+      file_content_string = overall_content.any? ? "#{overall_content.join("\n")}\n" : ''
+      File.write(file_path, file_content_string, encoding: 'UTF-8')
       Success(file_path) # Return the path to the single created file
     rescue StandardError => e
       Failure("Failed to write processed awesome list to #{file_path}: #{e.message}")
@@ -137,13 +137,13 @@ class ProcessCategoryService
     # - "https://github.com/owner/repo.git" -> "repo.md"
 
     # Remove protocol and domain if it's a URL
-    clean_identifier = repo_identifier.gsub(%r{^https?://github\.com/}, "")
+    clean_identifier = repo_identifier.gsub(%r{^https?://github\.com/}, '')
 
     # Remove .git suffix if present
-    clean_identifier = clean_identifier.gsub(/\.git$/, "")
+    clean_identifier = clean_identifier.gsub(/\.git$/, '')
 
     # Extract only the repository name (part after the "/")
-    repo_name = clean_identifier.split("/").last
+    repo_name = clean_identifier.split('/').last
 
     # Add .md extension
     "#{repo_name}.md"

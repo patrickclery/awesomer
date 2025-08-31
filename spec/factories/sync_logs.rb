@@ -7,28 +7,28 @@ FactoryBot.define do
     completed_at { 1.minute.from_now }
     items_checked { 100 }
     items_updated { 10 }
-    status { "completed" }
+    status { 'completed' }
     error_message { nil }
     git_commit_sha { nil }
 
     trait :completed do
-      status { "completed" }
+      status { 'completed' }
       completed_at { 1.minute.from_now }
     end
 
     trait :failed do
-      status { "failed" }
+      status { 'failed' }
       completed_at { 1.minute.from_now }
-      error_message { "Something went wrong" }
+      error_message { 'Something went wrong' }
     end
 
     trait :started do
-      status { "started" }
+      status { 'started' }
       completed_at { nil }
     end
 
     trait :with_commit do
-      git_commit_sha { "abc123def456" }
+      git_commit_sha { 'abc123def456' }
     end
   end
 end

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require "dry-struct"
-require_relative "category_item" # This should now correctly resolve to ./category_item.rb
+require 'dry-struct'
+require_relative 'category_item' # This should now correctly resolve to ./category_item.rb
 
 module Types
   include Dry.Types()

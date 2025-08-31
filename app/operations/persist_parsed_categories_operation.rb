@@ -16,9 +16,9 @@ class PersistParsedCategoriesOperation
       category_name = category_data.respond_to?(:name) ? category_data.name : category_data[:name]
       category_items = if category_data.respond_to?(:repos)
                          category_data.repos
-      else
+                       else
                          category_data[:items] || category_data[:repos]
-      end
+                       end
 
       # Create the category
       category = Category.create!(
@@ -30,10 +30,10 @@ class PersistParsedCategoriesOperation
       category_items.each do |item_data|
         # Handle both hash and struct formats for items
         item_attrs = if item_data.respond_to?(:to_h)
-          item_data.to_h
-        else
-          item_data
-        end
+                       item_data.to_h
+                     else
+                       item_data
+                     end
 
         category.category_items.create!(
           demo_url: item_attrs[:demo_url],

@@ -12,9 +12,9 @@ class SyncAwesomeListsJob < ApplicationJob
     # Find lists that need syncing
     lists_to_sync = if force
                       AwesomeList.completed
-    else
+                    else
                       AwesomeList.completed.needs_sync
-    end
+                    end
 
     Rails.logger.info "Found #{lists_to_sync.count} lists to sync"
 
@@ -86,7 +86,7 @@ class SyncAwesomeListsJob < ApplicationJob
         Rails.logger.error "Failed to push to GitHub: #{push_result.failure}"
       end
     else
-      Rails.logger.info "No files were updated, skipping GitHub push"
+      Rails.logger.info 'No files were updated, skipping GitHub push'
     end
 
     Rails.logger.info "SyncAwesomeListsJob completed: #{total_items_updated} items updated across #{files_updated.count} files"

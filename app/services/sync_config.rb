@@ -1,29 +1,33 @@
 # frozen_string_literal: true
 
-require "yaml"
-require "erb"
+require 'yaml'
+require 'erb'
 
 class SyncConfig
   include Singleton
 
   attr_reader :config
 
-  def self.method_missing(method, *args, &block)
+  def self.method_missing(method, *args, &)
     instance.config[method.to_sym] || super
   end
+
   def self.respond_to_missing?(method, include_private = false)
     instance.config.key?(method.to_sym) || super
   end
+
   def self.[](key)
     instance.config[key.to_sym]
   end
+
   def self.config
     instance.config
   end
-  
+
   def self.reload!
     instance.instance_variable_set(:@config, instance.send(:load_config))
   end
+
   def initialize
     @config = load_config
   end
@@ -31,7 +35,7 @@ class SyncConfig
   protected
 
   def load_config
-    config_file = Rails.root.join("config", "sync.yml")
+    config_file = Rails.root.join('config', 'sync.yml')
 
     unless File.exist?(config_file)
       Rails.logger.warn "Sync config file not found: #{config_file}"
@@ -41,9 +45,9 @@ class SyncConfig
     erb = ERB.new(File.read(config_file))
     yaml = YAML.safe_load(erb.result, aliases: true)
 
-    env_config = yaml[Rails.env] || yaml["default"] || {}
+    env_config = yaml[Rails.env] || yaml['default'] || {}
     deep_symbolize_keys(env_config)
-  rescue => e
+  rescue StandardError => e
     Rails.logger.error "Failed to load sync config: #{e.message}"
     default_config
   end
@@ -54,13 +58,13 @@ class SyncConfig
       default_threshold: 10,
       github: {
         auto_push: false,
-        branch: "main",
-        commit_message: "📊 Auto-sync: Update awesome lists [%{date}]"
+        branch: 'main',
+        commit_message: '📊 Auto-sync: Update awesome lists [%<date>s]'
       },
       logging: {
-        file: "log/sync.log",
+        file: 'log/sync.log',
         keep: 10,
-        level: "info",
+        level: 'info',
         max_size: 100
       },
       rate_limiting: {
@@ -68,7 +72,7 @@ class SyncConfig
         rate_limit_wait: 3600,
         request_delay: 1
       },
-      schedule: "0 2 * * *",
+      schedule: '0 2 * * *',
       timeout: 3600
     }
   end

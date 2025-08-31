@@ -73,10 +73,10 @@ class AwesomeList < ApplicationRecord
   end
 
   # Scopes for filtering
-  scope :incomplete, -> { where.not(state: "completed") }
+  scope :incomplete, -> { where.not(state: 'completed') }
   scope :failed_or_incomplete, -> { where(state: %w[pending in_progress failed]) }
-  scope :processing_timeout, ->(timeout = 1.hour.ago) {
-    where(processing_started_at: ...timeout, state: "in_progress")
+  scope :processing_timeout, lambda { |timeout = 1.hour.ago|
+    where(processing_started_at: ...timeout, state: 'in_progress')
   }
   scope :needs_sync, -> { where(last_synced_at: nil).or(where(last_synced_at: ..1.day.ago)) }
   scope :with_sync_threshold, -> { where.not(sync_threshold: nil) }
@@ -94,6 +94,6 @@ class AwesomeList < ApplicationRecord
   end
 
   def sync_in_progress?
-    sync_logs.where(status: "started").exists?
+    sync_logs.where(status: 'started').exists?
   end
 end

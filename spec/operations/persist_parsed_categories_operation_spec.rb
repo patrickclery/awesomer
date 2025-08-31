@@ -3,8 +3,9 @@
 require 'rails_helper'
 
 RSpec.describe PersistParsedCategoriesOperation do
-  subject(:operation_call) {
- described_class.new.call(awesome_list:, parsed_categories:) }
+  subject(:operation_call) do
+    described_class.new.call(awesome_list:, parsed_categories:)
+  end
 
   let(:awesome_list) { AwesomeList.create!(github_repo: 'test/repo', name: 'Test List') }
 

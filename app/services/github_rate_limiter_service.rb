@@ -7,7 +7,7 @@ class GithubRateLimiterService
   # We'll be conservative and use 4000 requests per hour (1.1 requests per second)
   RATE_LIMIT_WINDOW = 3600 # 1 hour in seconds
   RATE_LIMIT_COUNT = 4000  # Max requests per hour
-  REDIS_KEY_PREFIX = "github_rate_limit"
+  REDIS_KEY_PREFIX = 'github_rate_limit'
   MIN_DELAY_BETWEEN_REQUESTS = 0.9 # Minimum seconds between requests (1.1 req/sec max)
 
   def initialize(redis_client: REDIS_RATE_LIMIT)
@@ -57,7 +57,7 @@ class GithubRateLimiterService
     # Count current requests in the window
     current_count = @redis.zcard(redis_key)
 
-    [ RATE_LIMIT_COUNT - current_count, 0 ].max
+    [RATE_LIMIT_COUNT - current_count, 0].max
   rescue Redis::BaseError => e
     Rails.logger.error "Redis error in GithubRateLimiterService: #{e.message}"
     RATE_LIMIT_COUNT # If Redis is down, assume we have full capacity
@@ -65,7 +65,6 @@ class GithubRateLimiterService
 
   def time_until_reset
     current_time = Time.current.to_i
-    window_start = current_time - RATE_LIMIT_WINDOW
 
     # Get the oldest request in the current window
     oldest_request = @redis.zrange(redis_key, 0, 0, with_scores: true).first
@@ -73,7 +72,7 @@ class GithubRateLimiterService
     if oldest_request
       oldest_timestamp = oldest_request[1].to_i
       time_until_oldest_expires = (oldest_timestamp + RATE_LIMIT_WINDOW) - current_time
-      [ time_until_oldest_expires, 0 ].max
+      [time_until_oldest_expires, 0].max
     else
       0 # No requests in window, can make request immediately
     end

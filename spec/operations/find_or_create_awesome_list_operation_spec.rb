@@ -7,10 +7,10 @@ RSpec.describe FindOrCreateAwesomeListOperation do
 
   subject(:operation) { described_class.new }
 
-  let(:owner) { "test-owner" }
-  let(:repo_name) { "test-repo" }
+  let(:owner) { 'test-owner' }
+  let(:repo_name) { 'test-repo' }
   let(:repo_shortname) { "#{owner}/#{repo_name}" }
-  let(:repo_description) { "A test awesome list." }
+  let(:repo_description) { 'A test awesome list.' }
   let(:readme_commit_date) { Time.zone.parse('2024-01-10T10:00:00Z') }
   let(:fetched_data) do
     {
@@ -43,10 +43,10 @@ RSpec.describe FindOrCreateAwesomeListOperation do
   context 'when AwesomeList already exists' do
     let!(:existing_list) do
       AwesomeList.create!(
-        description: "Old Description",
+        description: 'Old Description',
         github_repo: repo_shortname,
         last_commit_at: readme_commit_date - 1.day,
-        name: "Old Name"
+        name: 'Old Name'
       )
     end
 
@@ -70,7 +70,7 @@ RSpec.describe FindOrCreateAwesomeListOperation do
     it 'returns a Failure' do
       result = operation.call(fetched_repo_data: incomplete_data)
       expect(result).to be_failure
-      expect(result.failure).to eq("Owner or repo name missing from fetched data")
+      expect(result.failure).to eq('Owner or repo name missing from fetched data')
     end
   end
 
@@ -81,7 +81,7 @@ RSpec.describe FindOrCreateAwesomeListOperation do
       allow(AwesomeList).to receive(:find_or_initialize_by)
         .with(github_repo: repo_shortname)
         .and_return(aw_list_instance)
-      errors_double = instance_double(ActiveModel::Errors, full_messages: [ "Validation failed" ])
+      errors_double = instance_double(ActiveModel::Errors, full_messages: ['Validation failed'])
       allow(aw_list_instance).to receive_messages(errors: errors_double, save: false)
     end
 
@@ -99,7 +99,7 @@ RSpec.describe FindOrCreateAwesomeListOperation do
       allow(AwesomeList).to receive(:find_or_initialize_by)
         .with(github_repo: repo_shortname)
         .and_return(aw_list_instance)
-      allow(aw_list_instance).to receive(:save).and_raise(ActiveRecord::StatementInvalid.new("DB down"))
+      allow(aw_list_instance).to receive(:save).and_raise(ActiveRecord::StatementInvalid.new('DB down'))
     end
 
     it 'returns a Failure with the DB error message' do

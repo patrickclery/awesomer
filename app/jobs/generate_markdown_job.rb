@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 class GenerateMarkdownJob < ApplicationJob
-# noinspection RubyResolve
-include Dry::Monads[:result, :do]
+  # noinspection RubyResolve
+  include Dry::Monads[:result, :do]
 
   queue_as :markdown_processing
 
   def perform(categories:, output_options: {}, repo_identifier: nil)
-    Rails.logger.info "Generating markdown with collected stats"
+    Rails.logger.info 'Generating markdown with collected stats'
 
     # Convert hash data back to structs if needed
     category_structs = categories.map do |category_data|
@@ -76,6 +76,6 @@ include Dry::Monads[:result, :do]
         Rails.cache.delete(update_key)
       end
     end
-    Rails.logger.info "Cleaned up cache entries"
+    Rails.logger.info 'Cleaned up cache entries'
   end
 end

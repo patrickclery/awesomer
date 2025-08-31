@@ -10,7 +10,7 @@ class ParserAdapterRegistry
 
   # Register a new adapter
   def register(adapter_class)
-    @adapters << adapter_class.new unless @adapters.any? { |a| a.class == adapter_class }
+    @adapters << adapter_class.new unless @adapters.any? { |a| a.instance_of?(adapter_class) }
     @adapters.sort_by!(&:priority).reverse!
   end
 

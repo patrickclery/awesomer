@@ -4,7 +4,7 @@ class ExtractAwesomeListsOperation
   include Dry::Monads[:result, :do]
 
   def call(markdown_content:)
-    return Failure("Markdown content is required") if markdown_content.nil?
+    return Failure('Markdown content is required') if markdown_content.nil?
     return Success([]) if markdown_content.blank?
 
     # Extract GitHub repository links from markdown
@@ -26,14 +26,14 @@ class ExtractAwesomeListsOperation
 
     content.scan(github_link_regex) do |link_text, owner, repo_name|
       # Clean up repo name - remove any trailing characters
-      clean_repo = repo_name.gsub(/[.#].*$/, "") # Remove .git, #anchor, etc.
+      clean_repo = repo_name.gsub(/[.#].*$/, '') # Remove .git, #anchor, etc.
 
       repo_identifier = "#{owner}/#{clean_repo}"
 
       # Skip duplicates and invalid patterns
       next if repo_links.include?(repo_identifier)
       next if owner.blank? || clean_repo.blank?
-      next if owner.include?(".") # Skip URLs that aren't repo links
+      next if owner.include?('.') # Skip URLs that aren't repo links
 
       Rails.logger.debug "ExtractAwesomeListsOperation: Found repo link: #{repo_identifier} (#{link_text})"
       repo_links << repo_identifier
@@ -43,12 +43,12 @@ class ExtractAwesomeListsOperation
     plain_github_regex = %r{https://github\.com/([^/\s]+)/([^/\s\#)]+)/?}
 
     content.scan(plain_github_regex) do |owner, repo_name|
-      clean_repo = repo_name.gsub(/[.#].*$/, "")
+      clean_repo = repo_name.gsub(/[.#].*$/, '')
       repo_identifier = "#{owner}/#{clean_repo}"
 
       next if repo_links.include?(repo_identifier)
       next if owner.blank? || clean_repo.blank?
-      next if owner.include?(".")
+      next if owner.include?('.')
 
       Rails.logger.debug "ExtractAwesomeListsOperation: Found plain repo link: #{repo_identifier}"
       repo_links << repo_identifier

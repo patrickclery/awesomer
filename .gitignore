@@ -12,3 +12,4 @@ storage/*.sqlite3*
 config/repos.yml
 /CLAUDE.local.md
 /vendor/
+node_modules/

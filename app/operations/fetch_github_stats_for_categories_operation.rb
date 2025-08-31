@@ -8,7 +8,7 @@ class FetchGithubStatsForCategoriesOperation
     Rails.logger.info "FetchGithubStatsForCategoriesOperation: Processing #{categories&.size || 0} categories " \
                       "(sync: #{sync})"
 
-    return Failure("Categories is nil") if categories.nil?
+    return Failure('Categories is nil') if categories.nil?
 
     # Convert hash data back to structs if needed
     category_structs = categories.map do |category_data|
@@ -40,7 +40,7 @@ class FetchGithubStatsForCategoriesOperation
   private
 
   def fetch_stats_synchronously(category_structs)
-    Rails.logger.info "FetchGithubStatsForCategoriesOperation: Fetching stats synchronously with rate limiting"
+    Rails.logger.info 'FetchGithubStatsForCategoriesOperation: Fetching stats synchronously with rate limiting'
 
     # Initialize rate limiter for synchronous mode
     rate_limiter = GithubRateLimiterService.new
@@ -49,7 +49,7 @@ class FetchGithubStatsForCategoriesOperation
 
     category_structs.map do |category|
       updated_repos = category.repos.filter_map do |repo_item|
-        if github_repo_match = extract_github_repo(repo_item.primary_url)
+        if (github_repo_match = extract_github_repo(repo_item.primary_url))
           owner, repo_name = github_repo_match
 
           # Wait if rate limit is reached, then proceed
@@ -57,7 +57,7 @@ class FetchGithubStatsForCategoriesOperation
 
           begin
             # Wrap in timeout to prevent hanging
-            require "timeout"
+            require 'timeout'
             stats_result = Timeout.timeout(30) do
               fetch_repo_stats_directly(owner, repo_name, rate_limiter)
             end
@@ -65,7 +65,7 @@ class FetchGithubStatsForCategoriesOperation
             if stats_result
               # Reset failure counter on success
               consecutive_failures = 0
-              
+
               # Create new CategoryItem with updated stats
               current_attrs = repo_item.to_h
               new_attrs = current_attrs.merge(
@@ -76,29 +76,29 @@ class FetchGithubStatsForCategoriesOperation
             else
               # Track consecutive failures
               consecutive_failures += 1
-              
+
               # If we're hitting too many failures, likely rate limited
               if consecutive_failures >= max_consecutive_failures
                 Rails.logger.warn "Too many consecutive failures (#{consecutive_failures}), likely rate limited. Sleeping..."
-                sleep_time = [60 * (2 ** (consecutive_failures - max_consecutive_failures)), 300].min
+                sleep_time = [60 * (2**(consecutive_failures - max_consecutive_failures)), 300].min
                 sleep(sleep_time)
               end
-              
+
               # Skip items we can't fetch stats for (don't create N/A entries)
               Rails.logger.warn "Skipping #{owner}/#{repo_name} - couldn't fetch stats"
               nil # filter_map will remove this
             end
-          rescue Timeout::Error => e
+          rescue Timeout::Error
             consecutive_failures += 1
             Rails.logger.warn "Timeout fetching stats for #{owner}/#{repo_name}, skipping"
-            
+
             # Sleep if hitting too many failures
             if consecutive_failures >= max_consecutive_failures
-              sleep_time = [60 * (2 ** (consecutive_failures - max_consecutive_failures)), 300].min
+              sleep_time = [60 * (2**(consecutive_failures - max_consecutive_failures)), 300].min
               Rails.logger.warn "Too many timeouts, sleeping for #{sleep_time} seconds"
               sleep(sleep_time)
             end
-            
+
             nil # Skip this item
           end
         else
@@ -142,7 +142,7 @@ class FetchGithubStatsForCategoriesOperation
                           commit|commits|branches|tags|compare|network|insights)/}x
     return nil if path_indicators.match(url)
 
-    [ match[:owner], match[:repo] ]
+    [match[:owner], match[:repo]]
   end
 
   def fetch_repo_stats_directly(owner, repo_name, rate_limiter = nil)
@@ -158,9 +158,9 @@ class FetchGithubStatsForCategoriesOperation
     # Make direct API call with timeout configuration
     client = if defined?(OctokitHelper)
                OctokitHelper.client_with_timeout(timeout: 20)
-    else
+             else
                Octokit::Client.new(
-                 access_token: ENV["GITHUB_API_KEY"],
+                 access_token: ENV.fetch('GITHUB_API_KEY', nil),
                  auto_paginate: false,
                  connection_options: {
                    request: {
@@ -169,7 +169,7 @@ class FetchGithubStatsForCategoriesOperation
                    }
                  }
                )
-    end
+             end
 
     repo_data = client.repository("#{owner}/#{repo_name}")
 
@@ -196,7 +196,7 @@ class FetchGithubStatsForCategoriesOperation
     rate_limiter&.record_request(success: false)
     record_api_request(owner:, repo_name:, status: 404)
     nil
-  rescue Octokit::TooManyRequests => e
+  rescue Octokit::TooManyRequests
     Rails.logger.error "Rate limited by GitHub API for #{owner}/#{repo_name}"
     rate_limiter&.record_request(success: false)
     record_api_request(owner:, repo_name:, status: 429)
@@ -234,17 +234,17 @@ class FetchGithubStatsForCategoriesOperation
     category_structs.each do |category|
       category.repos.each do |repo_item|
         github_repo_match = extract_github_repo(repo_item.primary_url)
-        if github_repo_match.present?
-          owner, repo_name = github_repo_match
+        next unless github_repo_match.present?
 
-          # Queue the GitHub stats job with category item data
-          FetchGithubStatsJob.perform_later(
-            category_item_data: repo_item.to_h,
-            owner:,
-            repo_name:
-          )
-          total_repos += 1
-        end
+        owner, repo_name = github_repo_match
+
+        # Queue the GitHub stats job with category item data
+        FetchGithubStatsJob.perform_later(
+          category_item_data: repo_item.to_h,
+          owner:,
+          repo_name:
+        )
+        total_repos += 1
       end
     end
 

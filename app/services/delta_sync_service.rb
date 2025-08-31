@@ -8,7 +8,7 @@ class DeltaSyncService
     @threshold = threshold || awesome_list.sync_threshold_value
   end
 
-  def call
+  def perform
     Rails.logger.info "DeltaSyncService: Starting delta sync for #{@awesome_list.github_repo}"
 
     sync_log = create_sync_log
@@ -67,7 +67,7 @@ class DeltaSyncService
           Failure("Sync failed: #{result.failure}")
         end
       else
-        Rails.logger.info "DeltaSyncService: No items need updating"
+        Rails.logger.info 'DeltaSyncService: No items need updating'
 
         sync_log.update!(
           completed_at: Time.current,
@@ -81,8 +81,7 @@ class DeltaSyncService
 
         Success({items_checked:, items_updated: 0})
       end
-
-    rescue => e
+    rescue StandardError => e
       Rails.logger.error "DeltaSyncService error: #{e.message}"
       Rails.logger.error e.backtrace.first(5).join("\n")
 
@@ -112,41 +111,39 @@ class DeltaSyncService
     rate_limiter = GithubRateLimiterService.new if defined?(GithubRateLimiterService)
 
     items.each do |item|
-      begin
-        # Extract owner and repo from github_repo
-        if item.github_repo.match?(%r{^[^/]+/[^/]+$})
-          owner, repo_name = item.github_repo.split("/")
+      # Extract owner and repo from github_repo
+      if item.github_repo.match?(%r{^[^/]+/[^/]+$})
+        item.github_repo.split('/')
 
-          # Wait if rate limited
-          rate_limiter&.wait_if_needed
+        # Wait if rate limited
+        rate_limiter&.wait_if_needed
 
-          # Fetch updated stats from GitHub
-          client = Octokit::Client.new(
-            access_token: ENV["GITHUB_API_KEY"],
-            auto_paginate: false
-          )
+        # Fetch updated stats from GitHub
+        client = Octokit::Client.new(
+          access_token: ENV.fetch('GITHUB_API_KEY', nil),
+          auto_paginate: false
+        )
 
-          repo_data = client.repository(item.github_repo)
+        repo_data = client.repository(item.github_repo)
 
-          # Update item with new stats
-          item.update!(
-            last_commit_at: repo_data.pushed_at,
-            stars: repo_data.stargazers_count
-          )
+        # Update item with new stats
+        item.update!(
+          last_commit_at: repo_data.pushed_at,
+          stars: repo_data.stargazers_count
+        )
 
-          updated_count += 1
-          Rails.logger.info "Updated #{item.name}: #{repo_data.stargazers_count} stars"
+        updated_count += 1
+        Rails.logger.info "Updated #{item.name}: #{repo_data.stargazers_count} stars"
 
-        end
-      rescue Octokit::NotFound
-        Rails.logger.warn "Repository not found: #{item.github_repo}"
-      rescue Octokit::TooManyRequests
-        Rails.logger.warn "Rate limited, waiting..."
-        sleep(60)
-        retry
-      rescue => e
-        Rails.logger.error "Error updating #{item.name}: #{e.message}"
       end
+    rescue Octokit::NotFound
+      Rails.logger.warn "Repository not found: #{item.github_repo}"
+    rescue Octokit::TooManyRequests
+      Rails.logger.warn 'Rate limited, waiting...'
+      sleep(60)
+      retry
+    rescue StandardError => e
+      Rails.logger.error "Error updating #{item.name}: #{e.message}"
     end
 
     Success(updated_count)

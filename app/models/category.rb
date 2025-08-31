@@ -24,6 +24,6 @@
 #
 class Category < ApplicationRecord
   belongs_to :awesome_list
-  belongs_to :parent, class_name: "Category", optional: true
+  belongs_to :parent, class_name: 'Category', optional: true
   has_many :category_items, dependent: :destroy
 end

@@ -4,9 +4,9 @@ FactoryBot.define do
   factory :category_item do
     association :category
     sequence(:name) { |n| "Item #{n}" }
-    description { "A useful tool or library" }
-    primary_url { "https://github.com/owner/repo" }
-    github_repo { "owner/repo" }
+    description { 'A useful tool or library' }
+    primary_url { 'https://github.com/owner/repo' }
+    github_repo { 'owner/repo' }
     demo_url { nil }
     stars { nil }
     commits_past_year { nil }

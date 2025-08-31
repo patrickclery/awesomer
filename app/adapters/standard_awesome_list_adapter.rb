@@ -43,7 +43,7 @@ class StandardAwesomeListAdapter < BaseParserAdapter
 
     flush_building_item_to_current_items = lambda do
       if building_item_attrs
-        source_code_url = extract_source_code_url(building_item_attrs[:description])
+        extract_source_code_url(building_item_attrs[:description])
         demo_url = extract_demo_url(building_item_attrs[:description])
 
         github_url = building_item_attrs[:github_repo] ? "https://github.com/#{building_item_attrs[:github_repo]}" : nil
@@ -86,7 +86,7 @@ class StandardAwesomeListAdapter < BaseParserAdapter
 
     content.lines.each do |line|
       # Check for headers
-      if match = HEADER_REGEX.match(line)
+      if (match = HEADER_REGEX.match(line))
         level = match[1].length
         title = match[2].strip
 
@@ -117,13 +117,13 @@ class StandardAwesomeListAdapter < BaseParserAdapter
           url:
         }
       # Handle continuation lines for descriptions
-      elsif building_item_attrs && line.strip.present? && !line.start_with?("#")
+      elsif building_item_attrs && line.strip.present? && !line.start_with?('#')
         # Append to description if the line doesn't start a new list item
         unless line.match?(/^\s*[-*]/)
           building_item_attrs[:description] = [
             building_item_attrs[:description],
             line.strip
-          ].compact.join(" ")
+          ].compact.join(' ')
         end
       end
     end

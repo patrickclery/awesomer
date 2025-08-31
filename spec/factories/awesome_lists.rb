@@ -4,26 +4,26 @@ FactoryBot.define do
   factory :awesome_list do
     sequence(:name) { |n| "Awesome List #{n}" }
     sequence(:github_repo) { |n| "sindresorhus/awesome-#{n}" }
-    description { "A curated list of awesome things" }
-    state { "completed" }
+    description { 'A curated list of awesome things' }
+    state { 'completed' }
     last_synced_at { nil }
     last_pushed_at { nil }
     sync_threshold { nil }
 
     trait :pending do
-      state { "pending" }
+      state { 'pending' }
     end
 
     trait :in_progress do
-      state { "in_progress" }
+      state { 'in_progress' }
     end
 
     trait :completed do
-      state { "completed" }
+      state { 'completed' }
     end
 
     trait :failed do
-      state { "failed" }
+      state { 'failed' }
     end
 
     trait :synced do

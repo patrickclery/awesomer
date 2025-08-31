@@ -3,7 +3,7 @@
 require 'rails_helper'
 require 'fileutils'
 
-# Note: Structs::Category, Structs::CategoryItem, ParseMarkdownOperation
+# NOTE: Structs::Category, Structs::CategoryItem, ParseMarkdownOperation
 # are expected to be available via Rails eager loading.
 
 RSpec.describe ProcessCategoryService do
@@ -16,30 +16,32 @@ RSpec.describe ProcessCategoryService do
   let(:expected_output_filename) { ProcessCategoryService::OUTPUT_FILENAME } # Use constant
   let(:expected_output_filepath) { tmp_target_dir.join(expected_output_filename) }
 
-  let(:item1_cat1) {
-    Structs::CategoryItem.new(description: "The first tool", id: 1, last_commit_at: time_now, name: "Awesome Tool 1",
-primary_url: "http://example.com/tool1", stars: 100)
-  }
-  let(:item2_cat1) {
+  let(:item1_cat1) do
+    Structs::CategoryItem.new(description: 'The first tool', id: 1, last_commit_at: time_now, name: 'Awesome Tool 1',
+                              primary_url: 'http://example.com/tool1', stars: 100)
+  end
+  let(:item2_cat1) do
     Structs::CategoryItem.new(description: "The second lib\nwith multi-line desc", id: 2,
-last_commit_at: time_now - 1.day, name: "Super Lib 2", primary_url: "http://example.com/lib2", stars: 250)
-  }
-  let(:item3_cat1_no_stats) {
-    Structs::CategoryItem.new(description: nil, id: 3, name: "Alpha Project", primary_url: "http://example.com/alpha")
-  }
-  let(:category1) {
-    Structs::Category.new(custom_order: 1, id: 1, name: "Dev Tools",
-repos: [ item1_cat1, item2_cat1, item3_cat1_no_stats ])
-  }
-  let(:item1_cat2) {
-    Structs::CategoryItem.new(description: "Utility for data", id: 10, last_commit_at: time_now - 5.days,
-name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
-  }
-  let(:category2) { Structs::Category.new(custom_order: 0, id: 2, name: "Data Science!", repos: [ item1_cat2 ]) }
-  let(:category3_empty) { Structs::Category.new(custom_order: 2, id: 3, name: "Empty Category", repos: []) }
+                              last_commit_at: time_now - 1.day, name: 'Super Lib 2', primary_url: 'http://example.com/lib2', stars: 250)
+  end
+  let(:item3_cat1_no_stats) do
+    Structs::CategoryItem.new(description: nil, id: 3, name: 'Alpha Project', primary_url: 'http://example.com/alpha')
+  end
+  let(:category1) do
+    Structs::Category.new(custom_order: 1, id: 1, name: 'Dev Tools',
+                          repos: [item1_cat1, item2_cat1, item3_cat1_no_stats])
+  end
+  let(:item1_cat2) do
+    Structs::CategoryItem.new(description: 'Utility for data', id: 10, last_commit_at: time_now - 5.days,
+                              name: 'Data Util', primary_url: 'http://example.com/datautil', stars: 50)
+  end
+  let(:category2) { Structs::Category.new(custom_order: 0, id: 2, name: 'Data Science!', repos: [item1_cat2]) }
+  let(:category3_empty) { Structs::Category.new(custom_order: 2, id: 3, name: 'Empty Category', repos: []) }
 
-  let(:test_categories) {
- [ category2, category1, category3_empty ] } # Intentionally unsorted by custom_order, service receives them sorted
+  # Intentionally unsorted by custom_order, service receives them sorted
+  let(:test_categories) do
+    [category2, category1, category3_empty]
+  end
 
   before do
     # Store original constants to restore them after tests
@@ -48,14 +50,14 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
       @original_pcs_output_filename = ProcessCategoryService::OUTPUT_FILENAME
     end
 
-    stub_const("ProcessCategoryService::TARGET_DIR", tmp_target_dir)
+    stub_const('ProcessCategoryService::TARGET_DIR', tmp_target_dir)
     # For this spec, we test with the default OUTPUT_FILENAME. If a test needed to change it:
     # stub_const("ProcessCategoryService::OUTPUT_FILENAME", "custom_name.md")
     FileUtils.mkdir_p(tmp_target_dir)
   end
 
   after do
-    FileUtils.rm_rf(tmp_target_dir) if Dir.exist?(tmp_target_dir)
+    FileUtils.rm_rf(tmp_target_dir)
     # RSpec's stub_const should restore the original constants.
     # Manual restoration would look like (but usually not needed with stub_const):
     # ProcessCategoryService.const_set(:TARGET_DIR, @original_pcs_target_dir) if @original_pcs_target_dir
@@ -88,17 +90,17 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
 
         | Name                                     | Description      | Stars | Last Commit |
         |------------------------------------------|------------------|-------|-------------|
-        | [Data Util](http://example.com/datautil) | Utility for data | 50    | #{ (time_now - 5.days).strftime('%Y-%m-%d')}  |
+        | [Data Util](http://example.com/datautil) | Utility for data | 50    | #{(time_now - 5.days).strftime('%Y-%m-%d')}  |
 
         ## Dev Tools
 
         | Name                                       | Description                            | Stars | Last Commit |
         |--------------------------------------------|----------------------------------------|-------|-------------|
-        | [Super Lib 2](http://example.com/lib2)     | The second lib<br>with multi-line desc | 250   | #{ (time_now - 1.day).strftime('%Y-%m-%d')}  |
+        | [Super Lib 2](http://example.com/lib2)     | The second lib<br>with multi-line desc | 250   | #{(time_now - 1.day).strftime('%Y-%m-%d')}  |
         | [Awesome Tool 1](http://example.com/tool1) | The first tool                         | 100   | #{time_now.strftime('%Y-%m-%d')}  |
         | [Alpha Project](http://example.com/alpha)  |                                        | N/A   | N/A         |
       MARKDOWN
-      expected_final_content = expected_content_order.strip + "\n"
+      expected_final_content = "#{expected_content_order.strip}\n"
 
       expect(content.strip.gsub(/\r\n?/, "\n")).to eq(expected_final_content.strip.gsub(/\r\n?/, "\n"))
     end
@@ -106,13 +108,13 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
     it 'handles an empty categories array' do
       result = described_class.new.call(categories: [])
       expect(result).to be_success
-      expect(File.read(result.value!).strip).to eq("")
+      expect(File.read(result.value!).strip).to eq('')
     end
   end
 
   context 'when directory creation fails' do
     before do
-      allow(FileUtils).to receive(:mkdir_p).with(tmp_target_dir).and_raise(Errno::EACCES.new("Permission denied"))
+      allow(FileUtils).to receive(:mkdir_p).with(tmp_target_dir).and_raise(Errno::EACCES.new('Permission denied'))
     end
 
     it 'returns a Failure result' do
@@ -125,7 +127,7 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
   context 'when file writing fails' do
     before do
       allow(FileUtils).to receive(:mkdir_p).with(tmp_target_dir).and_call_original
-      allow(File).to receive(:write).with(expected_output_filepath, any_args).and_raise(IOError.new("Disk full"))
+      allow(File).to receive(:write).with(expected_output_filepath, any_args).and_raise(IOError.new('Disk full'))
     end
 
     it 'returns a Failure result' do
@@ -151,11 +153,11 @@ name: "Data Util", primary_url: "http://example.com/datautil", stars: 50)
 
     context 'with different repository identifier formats' do
       [
-        [ 'owner/repo', 'repo.md' ],
-        [ 'https://github.com/owner/repo', 'repo.md' ],
-        [ 'https://github.com/owner/repo.git', 'repo.md' ],
-        [ 'awesome-selfhosted/awesome-selfhosted', 'awesome-selfhosted.md' ],
-        [ 'user-name/project-name', 'project-name.md' ]
+        ['owner/repo', 'repo.md'],
+        ['https://github.com/owner/repo', 'repo.md'],
+        ['https://github.com/owner/repo.git', 'repo.md'],
+        ['awesome-selfhosted/awesome-selfhosted', 'awesome-selfhosted.md'],
+        ['user-name/project-name', 'project-name.md']
       ].each do |input, expected_output|
         it "converts '#{input}' to '#{expected_output}'" do
           service = described_class.new

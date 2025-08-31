@@ -30,14 +30,15 @@ RSpec.describe AwesomeList, type: :model do
     it { is_expected.to have_db_column(:last_commit_at).of_type(:datetime) } # For README last commit
 
     it {
- is_expected.to have_db_column(:skip_external_links).of_type(:boolean).with_options(default: true, null: false) }
+      is_expected.to have_db_column(:skip_external_links).of_type(:boolean).with_options(default: true, null: false)
+    }
 
     it { is_expected.to have_db_column(:created_at).of_type(:datetime).with_options(null: false) }
     it { is_expected.to have_db_column(:updated_at).of_type(:datetime).with_options(null: false) }
   end
 
   describe 'validations' do
-    subject { described_class.new(github_repo: "owner/repo", name: "repo") }
+    subject { described_class.new(github_repo: 'owner/repo', name: 'repo') }
 
     it { is_expected.to validate_presence_of(:github_repo) }
     it { is_expected.to validate_uniqueness_of(:github_repo).case_insensitive }

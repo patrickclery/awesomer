@@ -5,10 +5,10 @@ class SyncLog < ApplicationRecord
 
   # Status constants
   STATUSES = {
-    completed: "completed",
-    failed: "failed",
-    partial: "partial",
-    started: "started"
+    completed: 'completed',
+    failed: 'failed',
+    partial: 'partial',
+    started: 'started'
   }.freeze
 
   validates :status, inclusion: {in: STATUSES.values}
@@ -20,6 +20,7 @@ class SyncLog < ApplicationRecord
 
   def duration
     return nil unless started_at && completed_at
+
     completed_at - started_at
   end
 

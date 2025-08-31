@@ -11,7 +11,7 @@ class FindOrCreateAwesomeListOperation
     repo_description = fetched_repo_data[:repo_description]
     readme_last_commit_at = fetched_repo_data[:last_commit_at]
 
-    return Failure("Owner or repo name missing from fetched data") if owner.blank? || repo_name.blank?
+    return Failure('Owner or repo name missing from fetched data') if owner.blank? || repo_name.blank?
 
     repo_shortname = "#{owner}/#{repo_name}"
     Rails.logger.debug "FindOrCreateAwesomeListOperation: repo_shortname for find_or_initialize_by: '#{repo_shortname}'"
@@ -38,7 +38,7 @@ class FindOrCreateAwesomeListOperation
                         "ID: #{record.id}, Last Commit: #{record.last_commit_at}"
       Success(record)
     else
-      error_messages = record.errors.full_messages.join(", ")
+      error_messages = record.errors.full_messages.join(', ')
       Failure("Failed to save AwesomeList for #{repo_shortname_for_error_msg}: #{error_messages}")
     end
   rescue ActiveRecord::ActiveRecordError => e

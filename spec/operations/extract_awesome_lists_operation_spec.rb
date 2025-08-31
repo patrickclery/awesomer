@@ -59,7 +59,7 @@ RSpec.describe ExtractAwesomeListsOperation do
         expect(result).to be_success
 
         repo_links = result.value!
-        expect(repo_links).to eq([ 'sindresorhus/awesome-nodejs' ])
+        expect(repo_links).to eq(['sindresorhus/awesome-nodejs'])
         expect(repo_links.size).to eq(1)
       end
     end
@@ -108,7 +108,7 @@ RSpec.describe ExtractAwesomeListsOperation do
         expect(result).to be_success
 
         repo_links = result.value!
-        expect(repo_links).to eq([ 'sindresorhus/awesome-nodejs' ])
+        expect(repo_links).to eq(['sindresorhus/awesome-nodejs'])
       end
     end
 
@@ -128,7 +128,7 @@ RSpec.describe ExtractAwesomeListsOperation do
       example 'returns failure' do
         result = operation.call(markdown_content:)
         expect(result).to be_failure
-        expect(result.failure).to eq("Markdown content is required")
+        expect(result.failure).to eq('Markdown content is required')
       end
     end
 

@@ -7,24 +7,24 @@ class BootstrapAwesomeListsService
     :find_or_create_awesome_list_operation
   ]
 
-  SINDRESORHUS_AWESOME_REPO = "sindresorhus/awesome"
-  BOOTSTRAP_FILE_PATH = Rails.root.join("static", "bootstrap.md")
+  SINDRESORHUS_AWESOME_REPO = 'sindresorhus/awesome'
+  BOOTSTRAP_FILE_PATH = Rails.root.join('static', 'bootstrap.md')
 
   def initialize(fetch_from_github: false, limit: nil, **deps)
-    @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container["fetch_readme_operation"]
+    @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container['fetch_readme_operation']
     @find_or_create_awesome_list_operation =
-      deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
+      deps[:find_or_create_awesome_list_operation] || App::Container['find_or_create_awesome_list_operation']
     @extract_awesome_lists_operation = deps[:extract_awesome_lists_operation] || ExtractAwesomeListsOperation.new
     @fetch_from_github = fetch_from_github
     @limit = limit
   end
 
-  def call
-    Rails.logger.info "BootstrapAwesomeListsService: Starting bootstrap of awesome lists"
+  def perform
+    Rails.logger.info 'BootstrapAwesomeListsService: Starting bootstrap of awesome lists'
 
     # Step 1: Get the sindresorhus/awesome README content
     awesome_readme = yield get_awesome_readme_content
-    Rails.logger.info "BootstrapAwesomeListsService: Retrieved sindresorhus/awesome README"
+    Rails.logger.info 'BootstrapAwesomeListsService: Retrieved sindresorhus/awesome README'
 
     # Step 2: Extract all repository links from the README
     repo_links = yield @extract_awesome_lists_operation.call(markdown_content: awesome_readme[:content])
@@ -71,7 +71,7 @@ class BootstrapAwesomeListsService
       sleep(0.1) if index < repo_links.size - 1
     end
 
-    Rails.logger.info "BootstrapAwesomeListsService: Completed bootstrap. " \
+    Rails.logger.info 'BootstrapAwesomeListsService: Completed bootstrap. ' \
                       "Success: #{successful_records.size}, Failed: #{failed_repos.size}"
 
     if failed_repos.any?
@@ -92,17 +92,17 @@ class BootstrapAwesomeListsService
   def get_awesome_readme_content
     if @fetch_from_github
       # Fetch from GitHub and update local file
-      Rails.logger.info "BootstrapAwesomeListsService: Fetching from GitHub"
+      Rails.logger.info 'BootstrapAwesomeListsService: Fetching from GitHub'
       awesome_readme = yield fetch_readme_operation.call(repo_identifier: SINDRESORHUS_AWESOME_REPO)
 
       # Save to local file for future use
       File.write(BOOTSTRAP_FILE_PATH, awesome_readme[:content])
-      Rails.logger.info "BootstrapAwesomeListsService: Updated local bootstrap.md file"
+      Rails.logger.info 'BootstrapAwesomeListsService: Updated local bootstrap.md file'
 
       Success(awesome_readme)
     else
       # Use local file
-      Rails.logger.info "BootstrapAwesomeListsService: Using local bootstrap.md file"
+      Rails.logger.info 'BootstrapAwesomeListsService: Using local bootstrap.md file'
 
       unless File.exist?(BOOTSTRAP_FILE_PATH)
         return Failure("Local bootstrap.md file not found at #{BOOTSTRAP_FILE_PATH}. Use --fetch to download it.")
@@ -112,10 +112,10 @@ class BootstrapAwesomeListsService
       Success({
         content:,
         last_commit_at: File.mtime(BOOTSTRAP_FILE_PATH),
-        name: "bootstrap.md",
-        owner: "sindresorhus",
-        repo: "awesome",
-        repo_description: "Awesome lists about all kinds of interesting topics (local file)"
+        name: 'bootstrap.md',
+        owner: 'sindresorhus',
+        repo: 'awesome',
+        repo_description: 'Awesome lists about all kinds of interesting topics (local file)'
       })
     end
   end

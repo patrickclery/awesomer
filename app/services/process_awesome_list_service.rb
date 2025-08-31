@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "fileutils" # For FileUtils.mkdir_p
+require 'fileutils' # For FileUtils.mkdir_p
 
 class ProcessAwesomeListService
   # noinspection RubyResolve
@@ -15,25 +15,24 @@ class ProcessAwesomeListService
   ]
 
   def initialize(repo_identifier:, sync: false, **deps)
-    @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container["fetch_readme_operation"]
-    @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container["parse_markdown_operation"]
-    @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container["sync_git_stats_operation"]
-    @process_category_service = deps[:process_category_service] || App::Container["process_category_service"]
+    @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container['fetch_readme_operation']
+    @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container['parse_markdown_operation']
+    @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container['sync_git_stats_operation']
+    @process_category_service = deps[:process_category_service] || App::Container['process_category_service']
     @find_or_create_awesome_list_operation =
-      deps[:find_or_create_awesome_list_operation] || App::Container["find_or_create_awesome_list_operation"]
+      deps[:find_or_create_awesome_list_operation] || App::Container['find_or_create_awesome_list_operation']
     @persist_parsed_categories_operation =
-      deps[:persist_parsed_categories_operation] || App::Container["persist_parsed_categories_operation"]
+      deps[:persist_parsed_categories_operation] || App::Container['persist_parsed_categories_operation']
     @repo_identifier = repo_identifier
     @sync = sync
   end
 
-  def call
-    return Failure("Repository identifier must be provided") if @repo_identifier.blank?
+  def perform
+    return Failure('Repository identifier must be provided') if @repo_identifier.blank?
 
     fetched_data = yield fetch_readme_operation.call(repo_identifier: @repo_identifier)
 
     # Determine the repo_shortname for finding/creating the AwesomeList record
-    repo_shortname = "#{fetched_data[:owner]}/#{fetched_data[:repo]}"
     aw_list_record = yield find_or_create_awesome_list_operation.call(fetched_repo_data: fetched_data)
 
     # Mark as started processing
@@ -67,12 +66,12 @@ class ProcessAwesomeListService
 
       categories_to_process_md = if sync_result.success?
                                    sync_result.value!
-      else
-                                   Rails.logger.warn "ProcessAwesomeListService: Failed to sync GitHub stats for " \
-                                                      "items: #{sync_result.failure}. Proceeding with original " \
-                                                      "parsed data."
+                                 else
+                                   Rails.logger.warn 'ProcessAwesomeListService: Failed to sync GitHub stats for ' \
+                                                     "items: #{sync_result.failure}. Proceeding with original " \
+                                                     'parsed data.'
                                    categories_from_parse
-      end
+                                 end
 
       # Persist categories to database
       persist_result = @persist_parsed_categories_operation.call(
@@ -80,9 +79,7 @@ class ProcessAwesomeListService
         parsed_categories: categories_to_process_md
       )
 
-      if persist_result.failure?
-        Rails.logger.error "Failed to persist categories: #{persist_result.failure}"
-      end
+      Rails.logger.error "Failed to persist categories: #{persist_result.failure}" if persist_result.failure?
 
       final_markdown_files_result = yield process_category_service.call(
         categories: categories_to_process_md,
@@ -93,7 +90,7 @@ class ProcessAwesomeListService
       aw_list_record.complete_processing!
 
       Success(final_markdown_files_result)
-    rescue => e
+    rescue StandardError => e
       # Mark as failed if any error occurs
       aw_list_record.fail_processing!
       raise e

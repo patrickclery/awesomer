@@ -15,14 +15,14 @@ class H3AwesomeListAdapter < BaseParserAdapter
     # Check for H3 headers and asterisk-based list items
     has_h3_headers = content.match?(/^###\s+.+$/m)
     has_asterisk_links = content.match?(/^\s*\*\s*\[.+?\]\(.+?\)/m)
-    
+
     # Check counts
     h3_count = content.scan(/^###\s+.+$/).size
     link_count = content.scan(/^\s*\*\s*\[.+?\]\(.+?\)/).size
-    
+
     # This adapter matches if there are H3 headers and no H2 headers for categories
     h2_category_count = content.scan(/^##\s+(?!License|Contributing|Table of Contents|Contents|Acknowledgments|Credits).+$/).size
-    
+
     has_h3_headers && has_asterisk_links && h3_count >= 1 && link_count >= 5 && h2_category_count == 0
   end
 
@@ -43,7 +43,7 @@ class H3AwesomeListAdapter < BaseParserAdapter
 
     flush_building_item_to_current_items = lambda do
       if building_item_attrs
-        source_code_url = extract_source_code_url(building_item_attrs[:description])
+        extract_source_code_url(building_item_attrs[:description])
         demo_url = extract_demo_url(building_item_attrs[:description])
 
         github_url = building_item_attrs[:github_repo] ? "https://github.com/#{building_item_attrs[:github_repo]}" : nil
@@ -86,14 +86,16 @@ class H3AwesomeListAdapter < BaseParserAdapter
 
     content.lines.each do |line|
       # Check for headers
-      if match = HEADER_REGEX.match(line)
+      if (match = HEADER_REGEX.match(line))
         level = match[1].length
         title = match[2].strip
 
         # Process H3 headers as categories (not H2)
         if level == 3
           # Skip certain headers that aren't categories
-          next if title.match?(/^(Contents?|Table of Contents?|Contributing|License|Acknowledgments?|Credits?|Related Lists?)$/i)
+          if title.match?(/^(Contents?|Table of Contents?|Contributing|License|Acknowledgments?|Credits?|Related Lists?)$/i)
+            next
+          end
 
           flush_building_item_to_current_items.call
           flush_current_category_to_result.call
@@ -117,13 +119,13 @@ class H3AwesomeListAdapter < BaseParserAdapter
           url:
         }
       # Handle continuation lines for descriptions
-      elsif building_item_attrs && line.strip.present? && !line.start_with?("#")
+      elsif building_item_attrs && line.strip.present? && !line.start_with?('#')
         # Append to description if the line doesn't start a new list item
         unless line.match?(/^\s*[-*]/)
           building_item_attrs[:description] = [
             building_item_attrs[:description],
             line.strip
-          ].compact.join(" ")
+          ].compact.join(' ')
         end
       end
     end

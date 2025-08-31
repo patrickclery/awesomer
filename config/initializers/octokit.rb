@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-require "octokit"
-require "faraday"
-require "faraday/retry"
+require 'octokit'
+require 'faraday'
+require 'faraday/retry'
 
 # Configure Octokit with timeouts and retry logic
 Octokit.configure do |c|
-  c.access_token = ENV["GITHUB_API_KEY"]
+  c.access_token = ENV.fetch('GITHUB_API_KEY', nil)
   c.auto_paginate = false # Handle pagination manually to avoid hanging
 
   # Set up connection with timeout and retry middleware
@@ -24,13 +24,13 @@ Octokit.configure do |c|
       interval: 1,
       interval_randomness: 0.5,
       max: 3,
-      retry_statuses: [ 429, 500, 502, 503, 504 ]
+      retry_statuses: [429, 500, 502, 503, 504]
     }
 
     # Add retry block for handling rate limits
     retry_options[:retry_block] = proc do |env, _options, retries, exception|
       if exception.is_a?(Octokit::TooManyRequests)
-        wait_time = (env[:response_headers] || {})["retry-after"].to_i
+        wait_time = (env[:response_headers] || {})['retry-after'].to_i
         wait_time = 60 if wait_time.zero?
         Rails.logger.warn "GitHub rate limit hit, waiting #{wait_time} seconds..." if defined?(Rails)
         sleep(wait_time)
@@ -58,7 +58,7 @@ end
 module OctokitHelper
   def self.client_with_timeout(timeout: 30)
     Octokit::Client.new(
-      access_token: ENV["GITHUB_API_KEY"],
+      access_token: ENV.fetch('GITHUB_API_KEY', nil),
       auto_paginate: false,
       connection_options: {
         request: {

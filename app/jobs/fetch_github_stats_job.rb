@@ -17,7 +17,7 @@ class FetchGithubStatsJob < ApplicationJob
     unless @rate_limiter.can_make_request?
       wait_time = @rate_limiter.time_until_reset
       Rails.logger.info "Rate limit reached, retrying in #{wait_time} seconds"
-      raise Octokit::TooManyRequests.new # Let retry_on handle the wait
+      raise Octokit::TooManyRequests # Let retry_on handle the wait
     end
 
     # Check cache first (1 month expiration)
@@ -44,26 +44,22 @@ class FetchGithubStatsJob < ApplicationJob
     update_category_item_with_stats(category_item_data, stats_result)
 
     Rails.logger.info "Successfully fetched and cached stats for #{owner}/#{repo_name}"
-
   rescue Octokit::TooManyRequests => e
     Rails.logger.warn "Rate limited by GitHub API for #{owner}/#{repo_name}"
     record_api_request(owner:, repo_name:, status: 429)
 
     # Re-raise to trigger retry_on mechanism
     raise e
-
   rescue Octokit::NotFound
     Rails.logger.warn "Repository not found: #{owner}/#{repo_name}"
     record_api_request(owner:, repo_name:, status: 404)
     @rate_limiter&.record_request(success: false)
     # Don't retry 404s - they're permanent failures
-
   rescue Octokit::Error => e
     Rails.logger.error "GitHub API error for #{owner}/#{repo_name}: #{e.message}"
     record_api_request(owner:, repo_name:, status: e.response_status || 500)
     @rate_limiter&.record_request(success: false)
     raise e # Re-raise to trigger retry logic
-
   rescue StandardError => e
     Rails.logger.error "Unexpected error fetching stats for #{owner}/#{repo_name}: #{e.message}"
     record_api_request(owner:, repo_name:, status: 500)
@@ -86,7 +82,7 @@ class FetchGithubStatsJob < ApplicationJob
   end
 
   def fetch_repo_stats_with_octokit(owner:, repo_name:)
-    client = Octokit::Client.new(access_token: ENV["GITHUB_API_KEY"])
+    client = Octokit::Client.new(access_token: ENV.fetch('GITHUB_API_KEY', nil))
     client.auto_paginate = false # Disable auto-pagination for better control
 
     repo_data = client.repository("#{owner}/#{repo_name}")

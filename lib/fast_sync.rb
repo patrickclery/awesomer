@@ -1,24 +1,24 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../config/environment"
-require "concurrent"
+require_relative '../config/environment'
+require 'concurrent'
 
 class FastSync
   def run
-    puts "🚀 Fast Sync - Processing remaining awesome lists"
-    puts "=" * 60
+    puts '🚀 Fast Sync - Processing remaining awesome lists'
+    puts '=' * 60
 
     pending = AwesomeList.pending.to_a
     total = pending.count
 
     if total == 0
-      puts "✅ All repositories have been processed!"
+      puts '✅ All repositories have been processed!'
       return
     end
 
     puts "📊 Found #{total} pending repositories"
-    puts "⚡ Processing in batches with concurrency..."
+    puts '⚡ Processing in batches with concurrency...'
     puts
 
     completed = Concurrent::AtomicFixnum.new(0)
@@ -31,37 +31,32 @@ class FastSync
 
       # Use thread pool for concurrent processing
       pool = Concurrent::FixedThreadPool.new(3)
-      promises = []
+      promises = batch.map do |list|
+        Concurrent::Promise.execute(executor: pool) do
+          service = ProcessAwesomeListService.new(
+            repo_identifier: list.github_repo,
+            sync: true
+          )
+          result = service.call
 
-      batch.each do |list|
-        promises << Concurrent::Promise.execute(executor: pool) do
-          begin
-            service = ProcessAwesomeListService.new(
-              repo_identifier: list.github_repo,
-              sync: true
-            )
-            result = service.call
-
-            if result.success?
-              completed.increment
-              puts "  ✅ #{list.github_repo}"
-              true
+          if result.success?
+            completed.increment
+            puts "  ✅ #{list.github_repo}"
+            true
+          else
+            if result.failure.to_s.downcase.include?('rate limit')
+              # Don't count rate limits as failures
+              puts "  ⚠️  #{list.github_repo} - rate limited"
             else
-              if result.failure.to_s.downcase.include?("rate limit")
-                # Don't count rate limits as failures
-                puts "  ⚠️  #{list.github_repo} - rate limited"
-                false
-              else
-                failed.increment
-                puts "  ❌ #{list.github_repo} - #{result.failure.to_s[0..50]}"
-                false
-              end
+              failed.increment
+              puts "  ❌ #{list.github_repo} - #{result.failure.to_s[0..50]}"
             end
-          rescue => e
-            failed.increment
-            puts "  ❌ #{list.github_repo} - Error: #{e.message[0..50]}"
             false
           end
+        rescue StandardError => e
+          failed.increment
+          puts "  ❌ #{list.github_repo} - Error: #{e.message[0..50]}"
+          false
         end
       end
 
@@ -72,7 +67,7 @@ class FastSync
 
       # Check for rate limiting
       if promises.count { |p| p.value == false } > batch_size / 2
-        puts "⚠️  Many failures in batch, likely rate limited. Waiting 60 seconds..."
+        puts '⚠️  Many failures in batch, likely rate limited. Waiting 60 seconds...'
         sleep 60
       else
         # Small delay between batches
@@ -83,10 +78,10 @@ class FastSync
       puts
     end
 
-    puts "=" * 60
-    puts "✅ Fast Sync Complete!"
+    puts '=' * 60
+    puts '✅ Fast Sync Complete!'
     puts
-    puts "📊 Final Results:"
+    puts '📊 Final Results:'
     puts "  • Processed: #{total}"
     puts "  • Successful: #{completed.value}"
     puts "  • Failed: #{failed.value}"
@@ -94,16 +89,14 @@ class FastSync
     # Show database status
     states = AwesomeList.group(:state).count
     puts
-    puts "📈 Database Status:"
+    puts '📈 Database Status:'
     states.each { |k, v| puts "  • #{k.capitalize}: #{v}" }
 
     # Check files
-    files = Dir.glob("static/md/*.md")
+    files = Dir.glob('static/md/*.md')
     puts
     puts "📁 Generated Files: #{files.count}"
   end
 end
 
-if __FILE__ == $0
-  FastSync.new.run
-end
+FastSync.new.run if __FILE__ == $PROGRAM_NAME

@@ -15,20 +15,21 @@ RSpec.describe FetchReadmeOperation, :vcr do
   let(:cassette_name_for_awesome_tor) { 'polycarbohydrate_awesome-tor' }
 
   shared_examples 'a successful README fetch for awesome-tor' do |identifier_type|
-    let(:current_repo_identifier) {
- identifier_type == :owner_repo ? repo_polycarbohydrate_awesome_tor : url_polycarbohydrate_awesome_tor }
+    let(:current_repo_identifier) do
+      identifier_type == :owner_repo ? repo_polycarbohydrate_awesome_tor : url_polycarbohydrate_awesome_tor
+    end
 
     it 'fetches readme, commit date, description, and repo details successfully' do
       vcr('github', cassette_name_for_awesome_tor, record: :new_episodes) do
         result = operation.call(repo_identifier: current_repo_identifier)
         expect(result).to be_success
         data = result.value!
-        expect(data[:content].downcase).to include("awesome-tor")
+        expect(data[:content].downcase).to include('awesome-tor')
         expect(data[:name]).to match(/README\.md/i)
         expect(data[:owner].downcase).to eq('polycarbohydrate')
         expect(data[:repo].downcase).to eq('awesome-tor')
         expect(data[:repo_description]).to be_a(String).or(be_nil)
-        expect(data[:last_commit_at]).to (be_a(Time).or be_nil)
+        expect(data[:last_commit_at]).to(be_a(Time).or(be_nil))
       end
     end
   end

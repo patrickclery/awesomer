@@ -1,30 +1,30 @@
 # frozen_string_literal: true
 
-require "thor"
+require 'thor'
 
 module Awesomer
   module Commands
     class Bootstrap < Thor
-      desc "lists", "Bootstrap all awesome lists from sindresorhus/awesome repository"
-      method_option :dry_run, default: false, desc: "Show what would be bootstrapped without actually creating records",
-                    type: :boolean
-      method_option :limit, desc: "Limit the number of repositories to process (for testing)", type: :numeric
-      method_option :verbose, default: false, desc: "Enable verbose logging", type: :boolean
+      desc 'lists', 'Bootstrap all awesome lists from sindresorhus/awesome repository'
+      method_option :dry_run, default: false, desc: 'Show what would be bootstrapped without actually creating records',
+                              type: :boolean
+      method_option :limit, desc: 'Limit the number of repositories to process (for testing)', type: :numeric
+      method_option :verbose, default: false, desc: 'Enable verbose logging', type: :boolean
       method_option :fetch, default: false,
-                    desc: "Fetch fresh data from GitHub instead of using local bootstrap.md",
-                    type: :boolean
+                            desc: 'Fetch fresh data from GitHub instead of using local bootstrap.md',
+                            type: :boolean
       def lists
-        puts "🚀 Bootstrap Awesome Lists"
-        puts "=" * 50
+        puts '🚀 Bootstrap Awesome Lists'
+        puts '=' * 50
 
-        unless ENV["GITHUB_API_KEY"]
-          say("ERROR: GITHUB_API_KEY environment variable is required for API access.", :red)
-          say("Please set your GitHub Personal Access Token in .env.development.local", :yellow)
+        unless ENV['GITHUB_API_KEY']
+          say('ERROR: GITHUB_API_KEY environment variable is required for API access.', :red)
+          say('Please set your GitHub Personal Access Token in .env.development.local', :yellow)
           exit 1
         end
 
         unless defined?(BootstrapAwesomeListsService)
-          say("ERROR: BootstrapAwesomeListsService not loaded. Cannot proceed.", :red)
+          say('ERROR: BootstrapAwesomeListsService not loaded. Cannot proceed.', :red)
           exit 1
         end
 
@@ -33,15 +33,15 @@ module Awesomer
         end
 
         if options[:dry_run]
-          puts "🧪 DRY RUN MODE - No records will be created"
+          puts '🧪 DRY RUN MODE - No records will be created'
           puts
         end
 
         source_info = if options[:fetch]
-                        "📡 Fetching fresh data from sindresorhus/awesome repository..."
-        else
-                        "📁 Using local bootstrap.md file..."
-        end
+                        '📡 Fetching fresh data from sindresorhus/awesome repository...'
+                      else
+                        '📁 Using local bootstrap.md file...'
+                      end
         puts source_info
 
         begin
@@ -53,11 +53,11 @@ module Awesomer
           if options[:dry_run]
             if options[:fetch]
               fetch_operation = FetchReadmeOperation.new
-              awesome_readme = fetch_operation.call(repo_identifier: "sindresorhus/awesome")
+              awesome_readme = fetch_operation.call(repo_identifier: 'sindresorhus/awesome')
             else
-              bootstrap_file_path = Rails.root.join("static", "bootstrap.md")
+              bootstrap_file_path = Rails.root.join('static', 'bootstrap.md')
               unless File.exist?(bootstrap_file_path)
-                say("ERROR: Local bootstrap.md file not found. Use --fetch to download it.", :red)
+                say('ERROR: Local bootstrap.md file not found. Use --fetch to download it.', :red)
                 exit 1
               end
               content = File.read(bootstrap_file_path)
@@ -72,7 +72,7 @@ module Awesomer
                 total_repos = repo_links.value!.size
                 limited_repos = options[:limit] ? repo_links.value!.first(options[:limit]) : repo_links.value!
 
-                limit_info = options[:limit] ? " (limited from #{total_repos})" : ""
+                limit_info = options[:limit] ? " (limited from #{total_repos})" : ''
                 puts "📋 Would process #{limited_repos.size} repositories#{limit_info}:"
                 puts
 
@@ -81,7 +81,7 @@ module Awesomer
                 end
 
                 puts
-                puts "✅ Dry run completed. Use --no-dry-run to actually bootstrap the repositories."
+                puts '✅ Dry run completed. Use --no-dry-run to actually bootstrap the repositories.'
               else
                 say("ERROR: Failed to extract repository links: #{repo_links.failure}", :red)
               end
@@ -95,22 +95,22 @@ module Awesomer
               data = result.value!
 
               puts
-              puts "✅ Bootstrap completed successfully!"
-              puts "📊 Summary:"
+              puts '✅ Bootstrap completed successfully!'
+              puts '📊 Summary:'
               puts "   • Total repositories found: #{data[:total_processed]}"
               puts "   • Successfully created/updated: #{data[:successful_count]}"
               puts "   • Failed: #{data[:failed_count]}"
 
               if data[:failed_count] > 0
                 puts
-                puts "❌ Failed repositories:"
+                puts '❌ Failed repositories:'
                 data[:failed_repos].each do |failed|
                   puts "   • #{failed[:repo]}: #{failed[:error]}"
                 end
               end
 
               puts
-              puts "🎉 All done! AwesomeList records are now available in the database."
+              puts '🎉 All done! AwesomeList records are now available in the database.'
             else
               say("ERROR: Bootstrap failed: #{result.failure}", :red)
               exit 1

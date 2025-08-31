@@ -8,29 +8,29 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
 
   let(:github_repo_item) do
     Structs::CategoryItem.new(
-      description: "A test repository",
-      name: "Test Repo",
-      primary_url: "https://github.com/owner/repo"
+      description: 'A test repository',
+      name: 'Test Repo',
+      primary_url: 'https://github.com/owner/repo'
     )
   end
 
   let(:non_github_repo_item) do
     Structs::CategoryItem.new(
-      description: "An external tool",
-      name: "External Tool",
-      primary_url: "https://example.com/tool"
+      description: 'An external tool',
+      name: 'External Tool',
+      primary_url: 'https://example.com/tool'
     )
   end
 
   let(:test_category) do
     Structs::Category.new(
       custom_order: 0,
-      name: "Test Category",
-      repos: [ github_repo_item, non_github_repo_item ]
+      name: 'Test Category',
+      repos: [github_repo_item, non_github_repo_item]
     )
   end
 
-  let(:categories) { [ test_category ] }
+  let(:categories) { [test_category] }
   let(:operation) { described_class.new }
 
   describe '#call' do
@@ -47,8 +47,8 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
       it 'queues FetchGithubStatsJob for GitHub repositories only' do
         expect(FetchGithubStatsJob).to receive(:perform_later).with(
           category_item_data: github_repo_item.to_h,
-          owner: "owner",
-          repo_name: "repo"
+          owner: 'owner',
+          repo_name: 'repo'
         )
 
         operation.call(categories:, sync: false)
@@ -57,13 +57,13 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
       it 'does not queue jobs for non-GitHub repositories' do
         non_github_category = Structs::Category.new(
           custom_order: 0,
-          name: "External Category",
-          repos: [ non_github_repo_item ]
+          name: 'External Category',
+          repos: [non_github_repo_item]
         )
 
         expect(FetchGithubStatsJob).not_to receive(:perform_later)
 
-        result = operation.call(categories: [ non_github_category ], sync: false)
+        result = operation.call(categories: [non_github_category], sync: false)
         expect(result).to be_success
       end
     end
@@ -72,7 +72,7 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
       let(:mock_client) { instance_double(Octokit::Client) }
       let(:mock_repo_data) do
         OpenStruct.new(
-          pushed_at: Time.parse("2024-01-15T10:30:00Z"),
+          pushed_at: Time.parse('2024-01-15T10:30:00Z'),
           stargazers_count: 42
         )
       end
@@ -95,7 +95,7 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
 
       it 'fetches stats synchronously and returns updated categories' do
         allow(mock_client).to receive(:repository)
-          .with("owner/repo")
+          .with('owner/repo')
           .and_return(mock_repo_data)
 
         result = operation.call(categories:, sync: true)
@@ -105,16 +105,16 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
         updated_repo = updated_categories.first.repos.first
 
         expect(updated_repo.stars).to eq(42)
-        expect(updated_repo.last_commit_at).to eq(Time.parse("2024-01-15T10:30:00Z"))
+        expect(updated_repo.last_commit_at).to eq(Time.parse('2024-01-15T10:30:00Z'))
       end
 
       it 'uses cached data when available' do
         cached_stats = {
-          last_commit_at: Time.parse("2024-01-10T10:00:00Z"),
+          last_commit_at: Time.parse('2024-01-10T10:00:00Z'),
           stars: 100
         }
         allow(Rails.cache).to receive(:read)
-          .with("github_stats:owner:repo")
+          .with('github_stats:owner:repo')
           .and_return(cached_stats)
 
         expect(mock_client).not_to receive(:repository)
@@ -126,12 +126,12 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
         updated_repo = updated_categories.first.repos.first
 
         expect(updated_repo.stars).to eq(100)
-        expect(updated_repo.last_commit_at).to eq(Time.parse("2024-01-10T10:00:00Z"))
+        expect(updated_repo.last_commit_at).to eq(Time.parse('2024-01-10T10:00:00Z'))
       end
 
       it 'filters out repositories that are not found (404)' do
         allow(mock_client).to receive(:repository)
-          .with("owner/repo")
+          .with('owner/repo')
           .and_raise(Octokit::NotFound)
 
         result = operation.call(categories:, sync: true)
@@ -142,14 +142,14 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
         # The GitHub repo should be filtered out, only non-GitHub repo should remain
         expect(updated_categories.first.repos.size).to eq(1)
         remaining_repo = updated_categories.first.repos.first
-        expect(remaining_repo.name).to eq("External Tool")
-        expect(remaining_repo.primary_url).to eq("https://example.com/tool")
+        expect(remaining_repo.name).to eq('External Tool')
+        expect(remaining_repo.primary_url).to eq('https://example.com/tool')
       end
 
       it 'filters out repositories with GitHub API errors' do
         allow(mock_client).to receive(:repository)
-          .with("owner/repo")
-          .and_raise(Octokit::Error, "API Error")
+          .with('owner/repo')
+          .and_raise(Octokit::Error, 'API Error')
 
         result = operation.call(categories:, sync: true)
 
@@ -159,14 +159,14 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
         # The GitHub repo should be filtered out, only non-GitHub repo should remain
         expect(updated_categories.first.repos.size).to eq(1)
         remaining_repo = updated_categories.first.repos.first
-        expect(remaining_repo.name).to eq("External Tool")
-        expect(remaining_repo.primary_url).to eq("https://example.com/tool")
+        expect(remaining_repo.name).to eq('External Tool')
+        expect(remaining_repo.primary_url).to eq('https://example.com/tool')
       end
 
       it 'preserves non-GitHub repositories unchanged' do
         # Mock the GitHub API call for the GitHub repo
         allow(mock_client).to receive(:repository)
-          .with("owner/repo")
+          .with('owner/repo')
           .and_return(mock_repo_data)
 
         result = operation.call(categories:, sync: true)
@@ -183,12 +183,12 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
       let(:category_hash) do
         {
           custom_order: 0,
-          name: "Test Category",
+          name: 'Test Category',
           repos: [
             {
-              description: "A test repository",
-              name: "Test Repo",
-              primary_url: "https://github.com/owner/repo"
+              description: 'A test repository',
+              name: 'Test Repo',
+              primary_url: 'https://github.com/owner/repo'
             }
           ]
         }
@@ -197,7 +197,7 @@ RSpec.describe FetchGithubStatsForCategoriesOperation do
       it 'converts hash data back to structs' do
         expect(FetchGithubStatsJob).to receive(:perform_later).once
 
-        result = operation.call(categories: [ category_hash ], sync: false)
+        result = operation.call(categories: [category_hash], sync: false)
 
         expect(result).to be_success
         categories_result = result.value!

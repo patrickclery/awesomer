@@ -6,12 +6,12 @@ RSpec.describe ProcessAwesomeListService do
   include Dry::Monads[:result]
 
   # Common `let` definitions for data and doubles, available to all contexts
-  let(:sample_repo_identifier) { "owner/repo" }
-  let(:sample_repo_owner) { "owner" }
-  let(:sample_repo_name) { "repo" }
-  let(:sample_repo_description) { "A great repo" }
+  let(:sample_repo_identifier) { 'owner/repo' }
+  let(:sample_repo_owner) { 'owner' }
+  let(:sample_repo_name) { 'repo' }
+  let(:sample_repo_description) { 'A great repo' }
   let(:sample_readme_last_commit_at) { Time.zone.parse('2024-01-01T12:00:00Z') }
-  let(:sample_readme_filename) { "README.md" }
+  let(:sample_readme_filename) { 'README.md' }
   let(:sample_markdown_content) { "## Test Category\n- [Test Item](http://example.com/test) - A test item." }
 
   let(:fetch_readme_success_data) do
@@ -31,7 +31,7 @@ RSpec.describe ProcessAwesomeListService do
   let(:process_category_op_double) { instance_double(ProcessCategoryService) }
   let(:find_or_create_aw_list_op_double) { instance_double(FindOrCreateAwesomeListOperation) }
 
-  let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: [ "Save failed" ]) }
+  let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: ['Save failed']) }
   let(:awesome_list_model_double) do
     instance_double(AwesomeList,
                     complete_processing!: true,
@@ -48,26 +48,26 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   let(:parsed_categories) do
-    [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
+    [Structs::Category.new(custom_order: 0, name: 'Test Category', repos: [
       Structs::CategoryItem.new(
-        description: "A test item",
-        name: "Test Item",
-        primary_url: "http://example.com/test"
+        description: 'A test item',
+        name: 'Test Item',
+        primary_url: 'http://example.com/test'
       )
-    ]) ]
+    ])]
   end
   let(:categories_with_stats) do
-    [ Structs::Category.new(custom_order: 0, name: "Test Category", repos: [
+    [Structs::Category.new(custom_order: 0, name: 'Test Category', repos: [
       Structs::CategoryItem.new(
-        description: "A test item",
+        description: 'A test item',
         last_commit_at: Time.now,
-        name: "Test Item",
-        primary_url: "http://example.com/test",
+        name: 'Test Item',
+        primary_url: 'http://example.com/test',
         stars: 10
       )
-    ]) ]
+    ])]
   end
-  let(:output_markdown_paths) { [ Rails.root.join("tmp", "md", "test_category-stars.md") ] }
+  let(:output_markdown_paths) { [Rails.root.join('tmp', 'md', 'test_category-stars.md')] }
 
   # No top-level `service_instance` or `subject` for unit tests to ensure context-specific setup.
 
@@ -210,30 +210,31 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when repo_identifier is blank' do
-    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: "") }
+    let(:service_instance) { described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: '') }
 
     it 'returns a Failure' do
       expect(fetch_readme_op_double).not_to receive(:call)
       result = service_instance.call
       expect(result).to be_failure
-      expect(result.failure).to eq("Repository identifier must be provided")
+      expect(result.failure).to eq('Repository identifier must be provided')
     end
   end
 
   context 'when FetchReadmeOperation fails' do
-    let(:service_instance) {
- described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: sample_repo_identifier) }
+    let(:service_instance) do
+      described_class.new(fetch_readme_operation: fetch_readme_op_double, repo_identifier: sample_repo_identifier)
+    end
 
     before do
       allow(fetch_readme_op_double).to receive(:call)
         .with(repo_identifier: sample_repo_identifier)
-        .and_return(Failure("Fetch README error"))
+        .and_return(Failure('Fetch README error'))
     end
 
     it 'returns the Failure from FetchReadmeOperation' do
       result = service_instance.call
       expect(result).to be_failure
-      expect(result.failure).to eq("Fetch README error")
+      expect(result.failure).to eq('Fetch README error')
     end
 
     it 'does not call subsequent operations' do
@@ -261,13 +262,13 @@ RSpec.describe ProcessAwesomeListService do
         .and_return(Success(fetch_readme_success_data))
       allow(find_or_create_aw_list_op_double).to receive(:call)
         .with(fetched_repo_data: fetch_readme_success_data)
-        .and_return(Failure("DB save error"))
+        .and_return(Failure('DB save error'))
     end
 
     it 'returns the Failure' do # Renamed for clarity
       result = service_instance.call
       expect(result).to be_failure
-      expect(result.failure).to eq("DB save error")
+      expect(result.failure).to eq('DB save error')
     end
 
     it 'does not call operations after it' do # Renamed
@@ -277,13 +278,14 @@ RSpec.describe ProcessAwesomeListService do
   end
 
   context 'when ParseMarkdownOperation fails' do
-    let(:service_instance) {
+    let(:service_instance) do
       described_class.new(
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
         parse_markdown_operation: parse_markdown_op_double,
         repo_identifier: sample_repo_identifier
-      ) }
+      )
+    end
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -291,18 +293,18 @@ RSpec.describe ProcessAwesomeListService do
       allow(parse_markdown_op_double).to receive(:call)
         .with(markdown_content: sample_markdown_content,
               skip_external_links: awesome_list_model_double.skip_external_links)
-        .and_return(Failure("Parsing error"))
+        .and_return(Failure('Parsing error'))
     end
 
     it 'returns the Failure' do
-        result = service_instance.call
-        expect(result).to be_failure
-        expect(result.failure).to eq("Parsing error")
+      result = service_instance.call
+      expect(result).to be_failure
+      expect(result.failure).to eq('Parsing error')
     end
   end
 
   context 'when SyncGitStatsOperation fails' do
-    let(:service_instance) {
+    let(:service_instance) do
       described_class.new(
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
@@ -310,7 +312,8 @@ RSpec.describe ProcessAwesomeListService do
         process_category_service: process_category_op_double,
         repo_identifier: sample_repo_identifier,
         sync_git_stats_operation: sync_git_stats_op_double
-      ) }
+      )
+    end
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -318,7 +321,7 @@ RSpec.describe ProcessAwesomeListService do
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
-        .and_return(Failure("Stats sync error"))
+        .and_return(Failure('Stats sync error'))
       allow(process_category_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
         .and_return(Success(output_markdown_paths))
@@ -326,7 +329,7 @@ RSpec.describe ProcessAwesomeListService do
 
     it 'proceeds with original data and returns Success' do
       expect(process_category_op_double).to receive(:call).with(categories: parsed_categories,
-repo_identifier: sample_repo_identifier)
+                                                                repo_identifier: sample_repo_identifier)
       result = service_instance.call
       expect(result).to be_success
       expect(result.value!).to eq(output_markdown_paths)
@@ -334,7 +337,7 @@ repo_identifier: sample_repo_identifier)
   end
 
   context 'when ProcessCategoryService fails' do
-    let(:service_instance) {
+    let(:service_instance) do
       described_class.new(
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
@@ -342,7 +345,8 @@ repo_identifier: sample_repo_identifier)
         process_category_service: process_category_op_double,
         repo_identifier: sample_repo_identifier,
         sync_git_stats_operation: sync_git_stats_op_double
-      ) }
+      )
+    end
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -351,18 +355,18 @@ repo_identifier: sample_repo_identifier)
       allow(sync_git_stats_op_double).to receive(:call).and_return(Success(categories_with_stats))
       allow(process_category_op_double).to receive(:call)
         .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier)
-        .and_return(Failure("MD generation error"))
+        .and_return(Failure('MD generation error'))
     end
 
     it 'returns the Failure' do
-        result = service_instance.call
-        expect(result).to be_failure
-        expect(result.failure).to eq("MD generation error")
+      result = service_instance.call
+      expect(result).to be_failure
+      expect(result.failure).to eq('MD generation error')
     end
   end
 
   context 'when parsed categories are empty (after successful README fetch & DB upsert)' do
-    let(:service_instance) {
+    let(:service_instance) do
       described_class.new(
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
@@ -370,7 +374,8 @@ repo_identifier: sample_repo_identifier)
         process_category_service: process_category_op_double,
         repo_identifier: sample_repo_identifier,
         sync_git_stats_operation: sync_git_stats_op_double
-      ) }
+      )
+    end
 
     before do
       allow(fetch_readme_op_double).to receive(:call).and_return(Success(fetch_readme_success_data))
@@ -401,7 +406,7 @@ repo_identifier: sample_repo_identifier)
 
     before do
       # No need to save original constants here; stub_const handles reset.
-      stub_const("ProcessCategoryService::TARGET_DIR", tmp_integration_output_dir)
+      stub_const('ProcessCategoryService::TARGET_DIR', tmp_integration_output_dir)
       # If OUTPUT_FILENAME needed to be stubbed for this context, do it here.
       # e.g., stub_const("ProcessCategoryService::OUTPUT_FILENAME", "custom_integration_output.md")
       FileUtils.mkdir_p(tmp_integration_output_dir)

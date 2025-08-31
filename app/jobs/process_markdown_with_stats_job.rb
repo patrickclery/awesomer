@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 class ProcessMarkdownWithStatsJob < ApplicationJob
-# noinspection RubyResolve
-include Dry::Monads[:result, :do]
+  # noinspection RubyResolve
+  include Dry::Monads[:result, :do]
 
   queue_as :markdown_processing
 
@@ -40,14 +40,14 @@ include Dry::Monads[:result, :do]
     match = github_repo_regex.match(url)
     return nil unless match
 
-    [ match[:owner], match[:repo] ]
+    [match[:owner], match[:repo]]
   end
 
   def calculate_completion_time(repo_count)
     # Conservative estimate: assume we can process 1 repo per second due to rate limiting
     # Add buffer time for retries and processing
     base_time = repo_count * 1.5 # 1.5 seconds per repo
-    buffer_time = [ repo_count * 0.5, 300 ].min # Additional buffer, max 5 minutes
+    buffer_time = [repo_count * 0.5, 300].min # Additional buffer, max 5 minutes
 
     (base_time + buffer_time).to_i
   end

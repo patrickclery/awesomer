@@ -23,18 +23,16 @@ class ClaudeCodeAdapter < BaseParserAdapter
     has_backtick_format = content.match?(/\[`[^`]+`\]\([^)]+\)/)
 
     # 2. Has the &nbsp; separators typical of this format
-    has_nbsp_separators = content.include?("&nbsp;")
+    has_nbsp_separators = content.include?('&nbsp;')
 
     # 3. Has "by" attribution pattern
     has_by_pattern = content.match?(/&nbsp;\s*by\s*&nbsp;/i)
 
     # If it strongly matches claude-code patterns
-    if has_backtick_format && has_nbsp_separators
-      return true
-    end
+    return true if has_backtick_format && has_nbsp_separators
 
     # Also check for the specific repo
-    content.include?("awesome-claude-code") ||
+    content.include?('awesome-claude-code') ||
       (has_nbsp_separators && has_by_pattern)
   end
 
@@ -54,9 +52,7 @@ class ClaudeCodeAdapter < BaseParserAdapter
     flush_item = lambda do
       if building_item && building_item[:name]
         # Skip external links if requested
-        if !skip_external_links || building_item[:github_repo]
-          current_items << building_item
-        end
+        current_items << building_item if !skip_external_links || building_item[:github_repo]
         building_item = nil
       end
     end
@@ -72,18 +68,18 @@ class ClaudeCodeAdapter < BaseParserAdapter
       current_items.clear
     end
 
-    lines.each_with_index do |line, index|
+    lines.each_with_index do |line, _index|
       stripped = line.strip
 
       # Check for headers (categories)
-      if match = HEADER_REGEX.match(line)
+      if (match = HEADER_REGEX.match(line))
         title = match[1].strip
 
         # Skip meta headers
         next if title.match?(/^(This Week|Contents?|Contributing|Announcements?|Table of Contents?)/i)
 
         # Remove emoji and clean up
-        title = title.gsub(/[🧠🧰📊🪝🔪🌻✨]/, "").strip
+        title = title.gsub(/[🧠🧰📊🪝🔪🌻✨]/, '').strip
 
         flush_item.call
         flush_category.call
@@ -112,11 +108,11 @@ class ClaudeCodeAdapter < BaseParserAdapter
         metadata = []
         metadata << "by #{author}" if author
         metadata << license if license
-        building_item[:description] = metadata.join(" - ") if metadata.any?
+        building_item[:description] = metadata.join(' - ') if metadata.any?
 
       # Check if next line is a description (for multi-line format)
-      elsif building_item && stripped.present? && !stripped.start_with?("[") &&
-            !stripped.start_with?("#") && !stripped.start_with?(">")
+      elsif building_item && stripped.present? && !stripped.start_with?('[') &&
+            !stripped.start_with?('#') && !stripped.start_with?('>')
         # This is likely a description line
         if building_item[:description]
           building_item[:description] += " #{stripped}"
@@ -127,7 +123,7 @@ class ClaudeCodeAdapter < BaseParserAdapter
       # Handle standalone links that might be items
       elsif current_category && stripped.match?(/^\[.+\]\(.+\)/)
         # Try to parse as a simple link
-        if match = /^\[([^\]]+)\]\(([^)]+)\)(.*)/.match(stripped)
+        if (match = /^\[([^\]]+)\]\(([^)]+)\)(.*)/.match(stripped))
           flush_item.call
 
           name = match[1].strip
@@ -138,7 +134,7 @@ class ClaudeCodeAdapter < BaseParserAdapter
 
           building_item = {
             demo_url: nil,
-            description: rest.empty? ? nil : rest.gsub(/^\s*-\s*/, ""),
+            description: rest.empty? ? nil : rest.gsub(/^\s*-\s*/, ''),
             github_repo:,
             name:,
             primary_url: url

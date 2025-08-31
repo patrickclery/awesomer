@@ -25,7 +25,6 @@ RSpec.describe FetchGithubStatsJob, type: :job do
   describe '#perform' do
     context 'when rate limit allows request' do
       let(:repo_data) do
-        # rubocop:disable RSpec/VerifiedDoubles
         double(
           pushed_at: Time.parse('2023-01-01T12:00:00Z'),
           stargazers_count: 1000
@@ -58,13 +57,13 @@ RSpec.describe FetchGithubStatsJob, type: :job do
       end
 
       it 'creates a GithubApiRequest record' do
-        expect {
+        expect do
           described_class.new.perform(
             category_item_data:,
             owner:,
             repo_name:
           )
-        }.to change(GithubApiRequest, :count).by(1)
+        end.to change(GithubApiRequest, :count).by(1)
 
         request = GithubApiRequest.last
         expect(request.endpoint).to eq("/repos/#{owner}/#{repo_name}")
@@ -82,13 +81,13 @@ RSpec.describe FetchGithubStatsJob, type: :job do
       it 'raises TooManyRequests exception to trigger retry_on' do
         job = described_class.new
 
-        expect {
+        expect do
           job.perform(
             category_item_data:,
             owner:,
             repo_name:
           )
-        }.to raise_error(Octokit::TooManyRequests)
+        end.to raise_error(Octokit::TooManyRequests)
       end
     end
 
@@ -129,13 +128,13 @@ RSpec.describe FetchGithubStatsJob, type: :job do
         expect(rate_limiter).to receive(:record_request).with(success: false)
         expect(Rails.logger).to receive(:warn).with(/Repository not found/)
 
-        expect {
+        expect do
           described_class.new.perform(
             category_item_data:,
             owner:,
             repo_name:
           )
-        }.to change(GithubApiRequest, :count).by(1)
+        end.to change(GithubApiRequest, :count).by(1)
 
         request = GithubApiRequest.last
         expect(request.response_status).to eq(404)
@@ -159,13 +158,13 @@ RSpec.describe FetchGithubStatsJob, type: :job do
       it 'records the error and re-raises for retry_on handling' do
         job = described_class.new
 
-        expect {
+        expect do
           job.perform(
             category_item_data:,
             owner:,
             repo_name:
           )
-        }.to raise_error(Octokit::TooManyRequests)
+        end.to raise_error(Octokit::TooManyRequests)
 
         # Verify the error was recorded
         request = GithubApiRequest.last

@@ -1,0 +1,14 @@
+{
+  "name": "awesomer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Rails application for processing and analyzing GitHub Awesome Lists",
+  "scripts": {
+    "format": "prettier --write '**/*.{md,yml,yaml,json}'",
+    "format:check": "prettier --check '**/*.{md,yml,yaml,json}'"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "markdown-table-prettify": "^3.7.0"
+  }
+}

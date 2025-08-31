@@ -31,6 +31,6 @@ class GithubApiRequest < ApplicationRecord
     return 0 unless oldest_in_window
 
     window_end = oldest_in_window.requested_at + window_hours.hours
-    [ (window_end - Time.current).to_i, 0 ].max
+    [(window_end - Time.current).to_i, 0].max
   end
 end

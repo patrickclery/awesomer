@@ -4,7 +4,7 @@ require 'rails_helper'
 # require_relative '../../app/structs/category' # Rely on eager_load!
 # require_relative '../../app/structs/category_item' # Rely on eager_load!
 
-# Note: When referring to Category or CategoryItem in assertions (e.g. be_a(Category)),
+# NOTE: When referring to Category or CategoryItem in assertions (e.g. be_a(Category)),
 # it will resolve to Structs::Category or Structs::CategoryItem due to how they are defined and loaded.
 
 RSpec.describe ParseMarkdownOperation do
@@ -50,7 +50,7 @@ RSpec.describe ParseMarkdownOperation do
       expect(cat1[:items][0][:primary_url]).to eq('https://github.com/ownerA/projectA')
 
       expect(cat1[:items][1][:name]).to eq('Project B')
-      expect(cat1[:items][1][:description]).to eq("Description for B.")
+      expect(cat1[:items][1][:description]).to eq('Description for B.')
       expect(cat1[:items][1][:github_repo]).to be_nil
       expect(cat1[:items][1][:primary_url]).to eq('https://example.com/projectB')
 
@@ -66,10 +66,10 @@ RSpec.describe ParseMarkdownOperation do
       expect(cat2[:name]).to eq('Category 2')
       expect(cat2[:items].size).to eq(2)
       expect(cat2[:items][0][:name]).to eq('Project E')
-      expect(cat2[:items][0][:description]).to eq("Description for E with .git.")
+      expect(cat2[:items][0][:description]).to eq('Description for E with .git.')
       expect(cat2[:items][0][:github_repo]).to eq('ownerE/projectE')
       expect(cat2[:items][1][:name]).to eq('No Description Item')
-      expect(cat2[:items][1][:description]).to eq("But this line IS a description for No Description Item.")
+      expect(cat2[:items][1][:description]).to eq('But this line IS a description for No Description Item.')
 
       # No cat3 expected
     end
@@ -133,7 +133,7 @@ RSpec.describe ParseMarkdownOperation do
       expect(result.size).to eq(1) # Only "Category With Item" should be present
       cat_with_item = result.first
       expect(cat_with_item[:name]).to eq('Category With Item')
-      expect(cat_with_item[:items].first[:description]).to eq("D")
+      expect(cat_with_item[:items].first[:description]).to eq('D')
     end
   end
 
@@ -158,7 +158,7 @@ RSpec.describe ParseMarkdownOperation do
   end
 
   context 'when markdown content is blank or nil' do
-    [ nil, '', '   ' ].each do |content|
+    [nil, '', '   '].each do |content|
       context "with content: #{content.inspect}" do
         let(:markdown_content) { content }
 
@@ -177,7 +177,7 @@ RSpec.describe ParseMarkdownOperation do
 
     before do
       allow(failing_markdown_content).to receive(:blank?).and_return(false)
-      allow(failing_markdown_content).to receive(:lines).and_raise(StandardError.new("Simulated processing error"))
+      allow(failing_markdown_content).to receive(:lines).and_raise(StandardError.new('Simulated processing error'))
     end
 
     it 'returns a Failure result' do
@@ -216,24 +216,24 @@ RSpec.describe ParseMarkdownOperation do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
         categories = result.value!
         expect(categories.size).to eq(2)
-        expect(categories.map { |c| c[:name] }).to match_array([ "Mixed Links Category", "Only GitHub Links Category" ])
-        expect(categories.find { |c| c[:name] == "Only External Links Category" }).to be_nil
-        expect(categories.find { |c| c[:name] == "Empty Items Category Initially" }).to be_nil
+        expect(categories.map { |c| c[:name] }).to match_array(['Mixed Links Category', 'Only GitHub Links Category'])
+        expect(categories.find { |c| c[:name] == 'Only External Links Category' }).to be_nil
+        expect(categories.find { |c| c[:name] == 'Empty Items Category Initially' }).to be_nil
       end
 
       it 'skips non-GitHub links' do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
         categories = result.value!
-        mixed_cat = categories.find { |c| c[:name] == "Mixed Links Category" }
-        expect(mixed_cat[:items].map { |item| item[:name] }).to eq([ "GitHub Project", "Another GitHub" ])
+        mixed_cat = categories.find { |c| c[:name] == 'Mixed Links Category' }
+        expect(mixed_cat[:items].map { |item| item[:name] }).to eq(['GitHub Project', 'Another GitHub'])
       end
 
       it 'includes categories that only contain GitHub links' do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: true)
         categories = result.value!
-        gh_only_cat = categories.find { |c| c[:name] == "Only GitHub Links Category" }
+        gh_only_cat = categories.find { |c| c[:name] == 'Only GitHub Links Category' }
         expect(gh_only_cat).not_to be_nil
-        expect(gh_only_cat[:items].map { |item| item[:name] }).to eq([ "GH Only 1", "GH Only 2" ])
+        expect(gh_only_cat[:items].map { |item| item[:name] }).to eq(['GH Only 1', 'GH Only 2'])
       end
 
       it 'includes items with GitHub Source Code links and uses GitHub URL as primary' do
@@ -269,12 +269,13 @@ RSpec.describe ParseMarkdownOperation do
       it 'includes all links (GitHub and external)' do
         result = described_class.new.call(markdown_content: markdown_with_mixed_links, skip_external_links: false)
         categories = result.value!
-        mixed_cat = categories.find { |c| c[:name] == "Mixed Links Category" }
-        expect(mixed_cat[:items].map { |item|
- item[:name] }).to eq([ "GitHub Project", "External Link", "Another GitHub", "HTTP Site" ])
-        external_only_cat = categories.find { |c| c[:name] == "Only External Links Category" }
+        mixed_cat = categories.find { |c| c[:name] == 'Mixed Links Category' }
+        expect(mixed_cat[:items].map do |item|
+          item[:name]
+        end).to eq(['GitHub Project', 'External Link', 'Another GitHub', 'HTTP Site'])
+        external_only_cat = categories.find { |c| c[:name] == 'Only External Links Category' }
         expect(external_only_cat).not_to be_nil
-        expect(external_only_cat[:items].map { |item| item[:name] }).to eq([ "External Site A", "External Site B" ])
+        expect(external_only_cat[:items].map { |item| item[:name] }).to eq(['External Site A', 'External Site B'])
       end
     end
   end

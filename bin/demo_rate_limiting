@@ -1,15 +1,15 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../config/environment"
+require_relative '../config/environment'
 
-puts "🚀 Github API Rate Limiting Demo"
-puts "=" * 50
+puts '🚀 Github API Rate Limiting Demo'
+puts '=' * 50
 
 # Initialize the rate limiter
 rate_limiter = GithubRateLimiterService.new
 
-puts "📊 Current rate limit status:"
+puts '📊 Current rate limit status:'
 puts "  Requests remaining: #{rate_limiter.requests_remaining}"
 puts "  Can make request: #{rate_limiter.can_make_request?}"
 puts "  Time until reset: #{rate_limiter.time_until_reset} seconds"
@@ -35,7 +35,7 @@ if recent_requests.any?
     puts "  #{request.requested_at.strftime('%H:%M:%S')} - #{request.endpoint} (#{request.response_status})"
   end
 else
-  puts "  No recent requests found"
+  puts '  No recent requests found'
 end
 
 puts "\n🎯 Testing background job queueing..."
@@ -44,13 +44,13 @@ puts "\n🎯 Testing background job queueing..."
 test_categories = [
   Structs::Category.new(
     custom_order: 1,
-    name: "Test Category",
+    name: 'Test Category',
     repos: [
       Structs::CategoryItem.new(
+        description: 'A web-application framework',
         id: 1,
-        name: "Test Repo",
-        url: "https://github.com/rails/rails",
-        description: "A web-application framework"
+        name: 'Test Repo',
+        url: 'https://github.com/rails/rails'
       )
     ]
   )
@@ -61,8 +61,8 @@ operation = SyncGitStatsOperation.new
 result = operation.call(categories: test_categories)
 
 if result.success?
-  puts "  ✅ SyncGitStatsOperation succeeded"
-  puts "  📤 Background jobs queued for processing"
+  puts '  ✅ SyncGitStatsOperation succeeded'
+  puts '  📤 Background jobs queued for processing'
 else
   puts "  ❌ SyncGitStatsOperation failed: #{result.failure}"
 end
@@ -73,4 +73,4 @@ puts "  Ready jobs: #{SolidQueue::ReadyExecution.count}"
 puts "  Failed jobs: #{SolidQueue::FailedExecution.count}"
 
 puts "\n🎉 Demo completed!"
-puts "💡 To process the queued jobs, run: bin/jobs"
+puts '💡 To process the queued jobs, run: bin/jobs'

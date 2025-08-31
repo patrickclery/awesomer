@@ -3,10 +3,10 @@
 # Ensure octokit gem is in Gemfile and bundled
 # require 'net/http' # No longer needed
 # require 'uri'      # No longer needed
-require "json"     # Potentially needed if Octokit response needs manual parsing for some edge cases, usually not.
-require "base64"   # Still needed for explicit decoding if Octokit provides raw base64 content.
-require "time"
-require "octokit"  # Added
+require 'json'     # Potentially needed if Octokit response needs manual parsing for some edge cases, usually not.
+require 'base64'   # Still needed for explicit decoding if Octokit provides raw base64 content.
+require 'time'
+require 'octokit'  # Added
 
 class FetchReadmeOperation
   # noinspection RubyResolve
@@ -22,9 +22,9 @@ class FetchReadmeOperation
     # Use the helper with timeout configuration if available
     client = if defined?(OctokitHelper)
                OctokitHelper.client_with_timeout(timeout: 30)
-    else
+             else
                Octokit::Client.new(
-                 access_token: ENV["GITHUB_API_KEY"],
+                 access_token: ENV.fetch('GITHUB_API_KEY', nil),
                  connection_options: {
                    request: {
                      open_timeout: 10,
@@ -32,7 +32,7 @@ class FetchReadmeOperation
                    }
                  }
                )
-    end
+             end
 
     repo_data_result = yield fetch_repo_data(client, repo_full_name)
     repo_main_description = repo_data_result.description
@@ -59,9 +59,9 @@ class FetchReadmeOperation
   def parse_repo_identifier(identifier)
     match = GITHUB_REPO_REGEX.match(identifier)
     if match
-      Success([ match[:owner], match[:repo] ])
-    elsif identifier.count("/") == 1
-      Success(identifier.split("/", 2))
+      Success([match[:owner], match[:repo]])
+    elsif identifier.count('/') == 1
+      Success(identifier.split('/', 2))
     else
       Failure("Invalid GitHub repository identifier: #{identifier}. Expected 'owner/repo' or full URL.")
     end
@@ -106,10 +106,8 @@ class FetchReadmeOperation
     # Make API call
     Rails.logger.info "Fetching fresh README content for #{repo_full_name}"
     readme_info = client.readme(repo_full_name)
-    content_decoded = Base64.decode64(readme_info.content).force_encoding("UTF-8")
-    unless content_decoded.valid_encoding?
-      return Failure("README for #{repo_full_name} not valid UTF-8")
-    end
+    content_decoded = Base64.decode64(readme_info.content).force_encoding('UTF-8')
+    return Failure("README for #{repo_full_name} not valid UTF-8") unless content_decoded.valid_encoding?
 
     readme_data = {content: content_decoded, encoding: readme_info.encoding, name: readme_info.name}
 
@@ -149,9 +147,7 @@ class FetchReadmeOperation
                     commit_info = commits.first.commit
                     committer_info = commit_info&.committer
                     committer_info&.date
-    else
-                    nil
-    end
+                  end
 
     # Cache successful response (including nil results)
     Rails.cache.write(cache_key, commit_date, expires_in: 1.hour)
@@ -159,15 +155,15 @@ class FetchReadmeOperation
     Success(commit_date)
   rescue Octokit::NotFound
     Rails.logger.warn "Could not fetch last commit for README '#{readme_path}' in " \
-                       "#{repo_full_name} (path not found/no commits)."
+                      "#{repo_full_name} (path not found/no commits)."
     Success(nil)
   rescue Octokit::Error => e
     Rails.logger.warn "GitHub API error fetching README commit for '#{readme_path}' in " \
-                       "#{repo_full_name}: #{e.message}"
+                      "#{repo_full_name}: #{e.message}"
     Success(nil)
   rescue StandardError => e
     Rails.logger.warn "Error parsing last commit date for README '#{readme_path}' in " \
-                       "#{repo_full_name}: #{e.message}"
+                      "#{repo_full_name}: #{e.message}"
     Success(nil)
   end
 end

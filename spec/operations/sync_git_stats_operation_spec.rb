@@ -4,7 +4,7 @@ require 'rails_helper'
 # VCR is usually required in spec_helper or rails_helper
 # require 'vcr'
 
-# Note: Structs::Category, Structs::CategoryItem, and ParseMarkdownOperation
+# NOTE: Structs::Category, Structs::CategoryItem, and ParseMarkdownOperation
 # are expected to be available via Rails eager loading.
 
 # Custom VCR helper will be used from support files (loaded by rails_helper)
@@ -31,10 +31,12 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
   let(:davis_item_original) do
     # Ensure initial_categories is not empty and has a first element
     return nil if initial_categories.empty? || initial_categories.first[:items].empty?
+
     initial_categories.first[:items].find { |item| item[:primary_url] == 'https://github.com/tchapi/davis' }
   end
   let(:xandikos_item_original) do
     return nil if initial_categories.empty? || initial_categories.first[:items].empty?
+
     initial_categories.first[:items].find { |item| item[:primary_url] == 'https://github.com/jelmer/xandikos' }
   end
 
@@ -79,9 +81,9 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
       end
 
       context 'when repo_identifier is provided' do
-        subject(:operation_call_with_repo) {
+        subject(:operation_call_with_repo) do
           described_class.new.call(categories: initial_categories, repo_identifier:)
-        }
+        end
 
         let(:repo_identifier) { 'awesome-selfhosted/awesome-selfhosted' }
 
@@ -118,7 +120,7 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
     end
 
     context 'when a category has no items' do
-      let(:initial_categories) { [ {custom_order: 0, items: [], name: "Empty Cat"} ] }
+      let(:initial_categories) { [{custom_order: 0, items: [], name: 'Empty Cat'}] }
 
       before do
         allow(ProcessMarkdownWithStatsJob).to receive(:perform_later)
@@ -127,19 +129,19 @@ RSpec.describe SyncGitStatsOperation, :vcr do # Apply VCR to all examples in thi
       it 'returns Success with the category unchanged' do
         expect(operation_call).to be_success
         updated_category = operation_call.value!.first
-        expect(updated_category[:name]).to eq("Empty Cat")
+        expect(updated_category[:name]).to eq('Empty Cat')
         expect(updated_category[:items]).to be_empty
       end
     end
 
     context 'when an error occurs' do
       before do
-        allow(ProcessMarkdownWithStatsJob).to receive(:perform_later).and_raise(StandardError.new("Job queue error"))
+        allow(ProcessMarkdownWithStatsJob).to receive(:perform_later).and_raise(StandardError.new('Job queue error'))
       end
 
       it 'returns a Failure result' do
         expect(operation_call).to be_failure
-        expect(operation_call.failure).to include("SyncGitStatsOperation failed: Job queue error")
+        expect(operation_call.failure).to include('SyncGitStatsOperation failed: Job queue error')
       end
     end
   end

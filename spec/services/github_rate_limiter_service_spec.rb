@@ -99,7 +99,7 @@ RSpec.describe GithubRateLimiterService do
 
       before do
         allow(redis_client).to receive(:zrange)
-          .and_return([ [ "request_id", oldest_timestamp ] ])
+          .and_return([['request_id', oldest_timestamp]])
       end
 
       it 'returns time until oldest request expires' do

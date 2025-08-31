@@ -1,21 +1,21 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../config/environment"
+require_relative '../config/environment'
 
-puts "🔍 GitHub API Rate Limit Status"
-puts "=" * 40
+puts '🔍 GitHub API Rate Limit Status'
+puts '=' * 40
 
 # Check GitHub's actual rate limit
 begin
-  client = Octokit::Client.new(access_token: ENV["GITHUB_API_KEY"])
+  client = Octokit::Client.new(access_token: ENV.fetch('GITHUB_API_KEY', nil))
   rate_limit = client.rate_limit
-  
+
   puts "\n📊 GitHub API Rate Limit (Official):"
   puts "  Remaining: #{rate_limit.remaining}/#{rate_limit.limit}"
   puts "  Resets at: #{Time.at(rate_limit.resets_at)}"
   puts "  Time until reset: #{rate_limit.resets_in} seconds"
-  
+
   if rate_limit.remaining == 0
     puts "  🚨 RATE LIMITED! Wait #{rate_limit.resets_in} seconds"
   elsif rate_limit.remaining < 100
@@ -23,8 +23,7 @@ begin
   else
     puts "  ✅ OK: #{rate_limit.remaining} requests available"
   end
-  
-rescue => e
+rescue StandardError => e
   puts "  ❌ Error checking GitHub rate limit: #{e.message}"
 end
 
@@ -35,7 +34,7 @@ begin
   puts "  Remaining: #{rate_limiter.requests_remaining}/4000"
   puts "  Can make request: #{rate_limiter.can_make_request?}"
   puts "  Time until reset: #{rate_limiter.time_until_reset} seconds"
-rescue => e
+rescue StandardError => e
   puts "  ❌ Error checking internal rate limiter: #{e.message}"
 end
 
@@ -46,14 +45,14 @@ begin
   if recent_requests.any?
     recent_requests.each do |req|
       status_emoji = case req.response_status
-                    when 200 then "✅"
-                    when 404 then "❓"
-                    when 429 then "🚨"
-                    else "⚠️"
-                    end
+                     when 200 then '✅'
+                     when 404 then '❓'
+                     when 429 then '🚨'
+                     else '⚠️'
+                     end
       puts "  #{status_emoji} #{req.requested_at.strftime('%H:%M:%S')} - #{req.endpoint} (#{req.response_status})"
     end
-    
+
     total_recent = GithubApiRequest.recent(1.hour).count
     successful_recent = GithubApiRequest.recent(1.hour).where(response_status: 200).count
     puts "\n  📈 Summary (last hour):"
@@ -61,14 +60,14 @@ begin
     puts "    Successful: #{successful_recent}"
     puts "    Success rate: #{(successful_recent.to_f / total_recent * 100).round(1)}%" if total_recent > 0
   else
-    puts "  No recent requests found"
+    puts '  No recent requests found'
   end
-rescue => e
+rescue StandardError => e
   puts "  ❌ Error checking recent requests: #{e.message}"
 end
 
 puts "\n💡 Tips:"
-puts "  • GitHub limit: 5,000 requests/hour for authenticated users"
-puts "  • Our conservative limit: 4,000 requests/hour"
-puts "  • Use --sync flag carefully with large repositories"
-puts "  • Async mode (default) respects rate limits automatically" 
+puts '  • GitHub limit: 5,000 requests/hour for authenticated users'
+puts '  • Our conservative limit: 4,000 requests/hour'
+puts '  • Use --sync flag carefully with large repositories'
+puts '  • Async mode (default) respects rate limits automatically'

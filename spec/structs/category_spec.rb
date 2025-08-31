@@ -6,7 +6,7 @@
 
 RSpec.describe Structs::Category do
   let(:time_now) { Time.now }
-  let(:item1) {
+  let(:item1) do
     Structs::CategoryItem.new(
       commits_past_year: 10,
       last_commit_at: time_now,
@@ -14,32 +14,32 @@ RSpec.describe Structs::Category do
       primary_url: 'https://example.com/one',
       stars: 100
     )
-  }
+  end
   let(:item2) { Structs::CategoryItem.new(name: 'Item Two', primary_url: 'https://example.com/two') }
 
   example 'initializes with valid attributes' do
-    category = described_class.new(custom_order: 1, name: 'Utilities', repos: [ item1, item2 ])
+    category = described_class.new(custom_order: 1, name: 'Utilities', repos: [item1, item2])
     expect(category.name).to eq('Utilities')
-    expect(category.repos).to match_array([ item1, item2 ])
+    expect(category.repos).to match_array([item1, item2])
     expect(category.custom_order).to eq(1)
   end
 
   example 'raises error with invalid name type' do
-    expect {
-      described_class.new(custom_order: 1, name: 123, repos: [ item1 ])
-    }.to raise_error(Dry::Struct::Error)
+    expect do
+      described_class.new(custom_order: 1, name: 123, repos: [item1])
+    end.to raise_error(Dry::Struct::Error)
   end
 
   example 'raises error with invalid repos type' do
-    expect {
-      described_class.new(custom_order: 1, name: 'Utilities', repos: [ 'not_an_item' ])
-    }.to raise_error(Dry::Struct::Error)
+    expect do
+      described_class.new(custom_order: 1, name: 'Utilities', repos: ['not_an_item'])
+    end.to raise_error(Dry::Struct::Error)
   end
 
   example 'raises error with invalid custom_order type' do
-    expect {
-      described_class.new(custom_order: 'one', name: 'Utilities', repos: [ item1 ])
-    }.to raise_error(Dry::Struct::Error)
+    expect do
+      described_class.new(custom_order: 'one', name: 'Utilities', repos: [item1])
+    end.to raise_error(Dry::Struct::Error)
   end
 
   example 'allows empty repos array' do
