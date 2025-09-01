@@ -155,7 +155,7 @@ RSpec.describe ProcessCategoryService do
       end
     end
 
-    context 'sorting by stars' do
+    context 'when sorting by stars' do
       let(:categories) do
         [
           {
@@ -218,7 +218,7 @@ RSpec.describe ProcessCategoryService do
       end
     end
 
-    context 'markdown formatting' do
+    context 'with markdown formatting' do
       let(:categories) do
         [
           {
@@ -259,7 +259,7 @@ RSpec.describe ProcessCategoryService do
       end
     end
 
-    context 'file generation' do
+    context 'with file generation' do
       it 'creates file in static/md directory' do
         result = service.call(categories: [], repo_identifier: 'owner/test-repo')
 

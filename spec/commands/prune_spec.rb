@@ -125,7 +125,7 @@ RSpec.describe Awesomer::Commands::Prune do
       end
     end
 
-    context 'summary display' do
+    context 'with summary display' do
       let!(:active_repos) { create_list(:awesome_list, 3, archived: false) }
       let!(:archived_repos) { create_list(:awesome_list, 2, archived: true) }
 
