@@ -10,7 +10,7 @@ class ProcessCategoryService
   TARGET_DIR = Rails.root.join('static', 'md')
   OUTPUT_FILENAME = 'processed_awesome_list.md' # Default filename for the single output file
 
-  def perform(categories:, async: false, repo_identifier: nil)
+  def call(categories:, async: false, repo_identifier: nil)
     yield ensure_target_directory_exists
 
     # If async is true, queue the background job instead of processing immediately
