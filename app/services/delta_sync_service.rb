@@ -8,7 +8,7 @@ class DeltaSyncService
     @threshold = threshold || awesome_list.sync_threshold_value
   end
 
-  def perform
+  def call
     Rails.logger.info "DeltaSyncService: Starting delta sync for #{@awesome_list.github_repo}"
 
     sync_log = create_sync_log

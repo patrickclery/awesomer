@@ -85,9 +85,9 @@ module Awesomer
 
         puts
 
-        # Lists needing sync
-        needs_sync_count = AwesomeList.completed.needs_sync.count
-        puts "📝 Lists needing sync: #{needs_sync_count}"
+        # Lists needing sync (excluding archived)
+        needs_sync_count = AwesomeList.active.completed.needs_sync.count
+        puts "📝 Lists needing sync (active only): #{needs_sync_count}"
 
         # Recent sync activity
         recent_syncs = SyncLog.where('started_at > ?', 24.hours.ago).count
@@ -226,10 +226,10 @@ module Awesomer
 
       def should_sync?
         # Check if we should run based on schedule
-        # For now, just check if any lists need syncing
+        # For now, just check if any active (non-archived) lists need syncing
         return false unless defined?(AwesomeList)
 
-        AwesomeList.completed.needs_sync.exists?
+        AwesomeList.active.completed.needs_sync.exists?
       end
 
       def start_foreground

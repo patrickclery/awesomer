@@ -19,7 +19,7 @@ class BootstrapAwesomeListsService
     @limit = limit
   end
 
-  def perform
+  def call
     Rails.logger.info 'BootstrapAwesomeListsService: Starting bootstrap of awesome lists'
 
     # Step 1: Get the sindresorhus/awesome README content

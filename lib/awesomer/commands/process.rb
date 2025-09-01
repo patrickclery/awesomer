@@ -68,11 +68,11 @@ module Awesomer
         end
 
         awesome_lists = if options[:incomplete_only]
-                          puts '🎯 Processing only incomplete awesome lists...'
-                          AwesomeList.incomplete
+                          puts '🎯 Processing only incomplete awesome lists (excluding archived)...'
+                          AwesomeList.active.incomplete
                         else
-                          puts '📋 Processing all awesome lists...'
-                          AwesomeList.all
+                          puts '📋 Processing all active awesome lists (excluding archived)...'
+                          AwesomeList.active
                         end
 
         awesome_lists = awesome_lists.limit(options[:limit]) if options[:limit]

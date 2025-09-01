@@ -9,11 +9,11 @@ class SyncAwesomeListsJob < ApplicationJob
     files_updated = []
     total_items_updated = 0
 
-    # Find lists that need syncing
+    # Find lists that need syncing (excluding archived)
     lists_to_sync = if force
-                      AwesomeList.completed
+                      AwesomeList.active.completed
                     else
-                      AwesomeList.completed.needs_sync
+                      AwesomeList.active.completed.needs_sync
                     end
 
     Rails.logger.info "Found #{lists_to_sync.count} lists to sync"
