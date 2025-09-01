@@ -12,7 +12,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 20_250_821_145_734) do
+ActiveRecord::Schema[8.0].define(version: 20_250_901_050_731) do
   # These are extensions that must be enabled in order to support this database
   enable_extension 'pg_catalog.plpgsql'
 
@@ -30,6 +30,10 @@ ActiveRecord::Schema[8.0].define(version: 20_250_821_145_734) do
     t.datetime 'last_synced_at'
     t.datetime 'last_pushed_at'
     t.integer 'sync_threshold', default: 10
+    t.boolean 'archived', default: false, null: false
+    t.datetime 'archived_at'
+    t.index %w[archived updated_at], name: 'index_awesome_lists_on_archived_and_updated_at'
+    t.index ['archived'], name: 'index_awesome_lists_on_archived'
     t.index ['last_synced_at'], name: 'index_awesome_lists_on_last_synced_at'
     t.index ['state'], name: 'index_awesome_lists_on_state'
   end

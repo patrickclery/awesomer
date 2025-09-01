@@ -37,6 +37,7 @@ end
 require_relative 'commands/bootstrap'
 require_relative 'commands/process'
 require_relative 'commands/worker'
+require_relative 'commands/prune'
 
 module Awesomer
   class Cli < Thor
@@ -58,6 +59,23 @@ module Awesomer
     desc 'worker SUBCOMMAND', 'Manage sync worker for automated updates'
     subcommand 'worker', Commands::Worker
 
+    desc 'prune', 'Archive stale awesome lists'
+    long_desc <<-LONGDESC
+      Archive awesome lists that haven't been updated in the specified timeframe.
+
+      Examples:
+        awesomer prune                    # Archive lists not updated in 365 days
+        awesomer prune --since=180        # Archive lists not updated in 180 days#{'  '}
+        awesomer prune --unarchive        # Also unarchive lists updated recently
+        awesomer prune --dry-run          # Show what would be archived without changes
+    LONGDESC
+    option :since, default: 365, desc: 'Days since last update', type: :numeric
+    option :unarchive, default: false, desc: 'Also unarchive fresh repositories', type: :boolean
+    option :dry_run, default: false, desc: 'Preview changes without applying', type: :boolean
+    def prune
+      Commands::Prune.new.invoke(:execute, [], options)
+    end
+
     desc 'status', 'Show current status of AwesomeList records in the database'
     def status
       puts '📊 AwesomeList Database Status'
@@ -69,11 +87,16 @@ module Awesomer
       end
 
       total_count = AwesomeList.count
+      active_count = AwesomeList.active.count
+      archived_count = AwesomeList.archived.count
+
       puts "Total AwesomeList records: #{total_count}"
+      puts "  Active: #{active_count}"
+      puts "  Archived: #{archived_count}" if archived_count > 0
 
       if total_count > 0
-        state_counts = AwesomeList.group(:state).count
-        puts "\nStatus breakdown:"
+        state_counts = AwesomeList.active.group(:state).count
+        puts "\nStatus breakdown (active only):"
         state_counts.each do |state, count|
           emoji = case state
                   when 'pending' then '⏳'

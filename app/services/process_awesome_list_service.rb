@@ -27,7 +27,7 @@ class ProcessAwesomeListService
     @sync = sync
   end
 
-  def call
+  def perform
     return Failure('Repository identifier must be provided') if @repo_identifier.blank?
 
     fetched_data = yield fetch_readme_operation.call(repo_identifier: @repo_identifier)

@@ -80,6 +80,9 @@ class AwesomeList < ApplicationRecord
   }
   scope :needs_sync, -> { where(last_synced_at: nil).or(where(last_synced_at: ..1.day.ago)) }
   scope :with_sync_threshold, -> { where.not(sync_threshold: nil) }
+  scope :active, -> { where(archived: false) }
+  scope :archived, -> { where(archived: true) }
+  scope :stale, ->(days = 365) { where(updated_at: ..days.days.ago) }
 
   def needs_sync?
     last_synced_at.nil? || last_synced_at < 1.day.ago
@@ -95,5 +98,17 @@ class AwesomeList < ApplicationRecord
 
   def sync_in_progress?
     sync_logs.where(status: 'started').exists?
+  end
+
+  def archive!
+    update!(archived: true, archived_at: Time.current) unless archived?
+  end
+
+  def unarchive!
+    update!(archived: false, archived_at: nil) if archived?
+  end
+
+  def stale?(days = 365)
+    updated_at < days.days.ago
   end
 end
