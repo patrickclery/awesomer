@@ -1,7 +1,7 @@
 ## Modules
 
 | Name                                                                                    | Description | Stars | Last Commit |
-|-----------------------------------------------------------------------------------------|-------------|-------|-------------|
+| --------------------------------------------------------------------------------------- | ----------- | ----- | ----------- |
 | [simple-peer](https://github.com/feross/simple-peer)                                    |             | 7685  | 2024-06-26  |
 | [peerflix](https://github.com/mafintosh/peerflix)                                       |             | 6244  | 2022-06-19  |
 | [peer](https://github.com/peers/peerjs-server)                                          |             | 4601  | 2025-08-21  |
@@ -112,7 +112,7 @@
 ## Libraries
 
 | Name                                                                 | Description | Stars | Last Commit |
-|----------------------------------------------------------------------|-------------|-------|-------------|
+| -------------------------------------------------------------------- | ----------- | ----- | ----------- |
 | [ipfs](https://github.com/ipfs/ipfs)                                 |             | 22932 | 2025-05-01  |
 | [peerjs](https://github.com/peers/peerjs)                            |             | 12988 | 2025-08-21  |
 | [coturn](https://github.com/coturn/coturn)                           |             | 12820 | 2025-08-18  |
@@ -130,7 +130,7 @@
 ## Apps
 
 | Name                                                    | Description | Stars | Last Commit |
-|---------------------------------------------------------|-------------|-------|-------------|
+| ------------------------------------------------------- | ----------- | ----- | ----------- |
 | [patchwork](https://github.com/ssbc/patchwork)          |             | 3575  | 2021-05-12  |
 | [friends](https://github.com/moose-team/friends)        |             | 3169  | 2018-08-29  |
 | [roll-call](https://github.com/mikeal/roll-call)        |             | 1562  | 2017-09-25  |
@@ -143,7 +143,7 @@
 ## Experiments
 
 | Name                                                | Description | Stars | Last Commit |
-|-----------------------------------------------------|-------------|-------|-------------|
+| --------------------------------------------------- | ----------- | ----- | ----------- |
 | [GitTorrent](https://github.com/cjb/GitTorrent)     |             | 4760  | 2020-07-29  |
 | [webrtc-ips](https://github.com/diafygi/webrtc-ips) |             | 3437  | 2023-12-27  |
 | [web2web](https://github.com/elendirx/web2web)      |             | 2247  | 2023-10-10  |
@@ -151,13 +151,13 @@
 ## Workshops
 
 | Name                                                                                | Description | Stars | Last Commit |
-|-------------------------------------------------------------------------------------|-------------|-------|-------------|
+| ----------------------------------------------------------------------------------- | ----------- | ----- | ----------- |
 | [p2p-file-sharing-workshop](https://github.com/mafintosh/p2p-file-sharing-workshop) |             | 88    | 2017-06-03  |
 
 ## Resources
 
 | Name                                           | Description | Stars | Last Commit |
-|------------------------------------------------|-------------|-------|-------------|
+| ---------------------------------------------- | ----------- | ----- | ----------- |
 | [topology](https://github.com/Raynos/topology) |             | 57    | 2013-02-25  |
 | [bitweb](https://github.com/mildred/bitweb)    |             | 30    | 2015-12-04  |
 | [p2pweb](https://github.com/mildred/p2pweb)    |             | 23    | 2014-08-18  |
@@ -165,5 +165,5 @@
 ## Other
 
 | Name                                                   | Description | Stars | Last Commit |
-|--------------------------------------------------------|-------------|-------|-------------|
+| ------------------------------------------------------ | ----------- | ----- | ----------- |
 | [bigchaindb](https://github.com/bigchaindb/bigchaindb) |             | 4040  | 2024-07-04  |
