@@ -213,6 +213,8 @@ Style/SoleNestedConditional:
   Enabled: false
 Style/SymbolArray: { Enabled: true, EnforcedStyle: percent }
 Style/WordArray: { Enabled: true, EnforcedStyle: percent }
+Obsession/Rails/ServicePerformMethod:
+  Enabled: false
 plugins:
   - rubocop-obsession
   - rubocop-performance
