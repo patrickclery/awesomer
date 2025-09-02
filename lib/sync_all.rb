@@ -16,8 +16,8 @@ class SyncAll
     # Reset any stuck in_progress items from previous runs
     reset_stuck_items
 
-    total_pending = AwesomeList.pending.count
-    total_all = AwesomeList.count
+    total_pending = AwesomeList.active.pending.count
+    total_all = AwesomeList.active.count
 
     puts '📊 Current Status:'
     puts "  • Total repositories: #{total_all}"
@@ -44,7 +44,7 @@ class SyncAll
     processed = 0
     consecutive_failures = 0
 
-    AwesomeList.pending.find_each.with_index do |list, _index|
+    AwesomeList.active.pending.find_each.with_index do |list, _index|
       processed += 1
       progress = "[#{processed}/#{total_pending}]"
 

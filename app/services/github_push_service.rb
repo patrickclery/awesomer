@@ -59,8 +59,9 @@ class GithubPushService
         if push_success
           Rails.logger.info 'Successfully pushed to GitHub'
 
-          # Update last_pushed_at for all synced lists
-          AwesomeList.where.not(last_synced_at: nil)
+          # Update last_pushed_at for all active synced lists
+          AwesomeList.active
+                     .where.not(last_synced_at: nil)
                      .where('last_synced_at > last_pushed_at OR last_pushed_at IS NULL')
                      .update_all(last_pushed_at: Time.current)
 

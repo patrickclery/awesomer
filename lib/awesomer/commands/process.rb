@@ -60,10 +60,10 @@ module Awesomer
         end
 
         if options[:reset_status]
-          puts '🔄 Resetting all awesome list statuses to pending...'
-          reset_count = AwesomeList.where.not(state: 'pending').count
-          AwesomeList.where.not(state: 'pending').find_each(&:reset_for_reprocessing!)
-          puts "✅ Reset #{reset_count} awesome lists to pending status"
+          puts '🔄 Resetting all active awesome list statuses to pending...'
+          reset_count = AwesomeList.active.where.not(state: 'pending').count
+          AwesomeList.active.where.not(state: 'pending').find_each(&:reset_for_reprocessing!)
+          puts "✅ Reset #{reset_count} active awesome lists to pending status"
           puts
         end
 

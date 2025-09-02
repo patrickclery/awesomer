@@ -9,7 +9,7 @@ class FastSync
     puts '🚀 Fast Sync - Processing remaining awesome lists'
     puts '=' * 60
 
-    pending = AwesomeList.pending.to_a
+    pending = AwesomeList.active.pending.to_a
     total = pending.count
 
     if total == 0
