@@ -10,13 +10,14 @@ class BootstrapAwesomeListsService
   SINDRESORHUS_AWESOME_REPO = 'sindresorhus/awesome'
   BOOTSTRAP_FILE_PATH = Rails.root.join('static', 'bootstrap.md')
 
-  def initialize(fetch_from_github: false, limit: nil, **deps)
+  def initialize(fetch_from_github: false, limit: nil, resurrect: false, **deps)
     @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container['fetch_readme_operation']
     @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container['find_or_create_awesome_list_operation']
     @extract_awesome_lists_operation = deps[:extract_awesome_lists_operation] || ExtractAwesomeListsOperation.new
     @fetch_from_github = fetch_from_github
     @limit = limit
+    @resurrect = resurrect
   end
 
   def call
@@ -40,9 +41,19 @@ class BootstrapAwesomeListsService
     # Step 3: Process each repository to create AwesomeList records
     successful_records = []
     failed_repos = []
+    skipped_archived = []
+    resurrected_count = 0
 
     repo_links.each_with_index do |repo_identifier, index|
       Rails.logger.info "BootstrapAwesomeListsService: Processing #{index + 1}/#{repo_links.size}: #{repo_identifier}"
+
+      # Check if this repository is archived and skip unless resurrect mode is enabled
+      existing_list = AwesomeList.find_by(github_repo: repo_identifier)
+      if existing_list&.archived? && !@resurrect
+        Rails.logger.info "BootstrapAwesomeListsService: ⏭️  Skipping archived repository: #{repo_identifier}"
+        skipped_archived << repo_identifier
+        next
+      end
 
       # Fetch repository details - handle failure without yield
       repo_data_result = fetch_readme_operation.call(repo_identifier:)
@@ -64,7 +75,16 @@ class BootstrapAwesomeListsService
         next
       end
 
-      successful_records << awesome_list_result.value!
+      awesome_list = awesome_list_result.value!
+      
+      # If resurrect mode is enabled and the list was archived, unarchive it
+      if @resurrect && awesome_list.archived?
+        Rails.logger.info "BootstrapAwesomeListsService: ♻️  Resurrecting archived repository: #{repo_identifier}"
+        awesome_list.unarchive!
+        resurrected_count += 1
+      end
+
+      successful_records << awesome_list
       Rails.logger.info "BootstrapAwesomeListsService: ✅ Created/updated AwesomeList for #{repo_identifier}"
 
       # Add a small delay to be respectful to GitHub API
@@ -72,7 +92,8 @@ class BootstrapAwesomeListsService
     end
 
     Rails.logger.info 'BootstrapAwesomeListsService: Completed bootstrap. ' \
-                      "Success: #{successful_records.size}, Failed: #{failed_repos.size}"
+                      "Success: #{successful_records.size}, Failed: #{failed_repos.size}, " \
+                      "Skipped (archived): #{skipped_archived.size}, Resurrected: #{resurrected_count}"
 
     if failed_repos.any?
       Rails.logger.warn "BootstrapAwesomeListsService: Failed repositories: #{failed_repos.pluck(:repo).join(', ')}"
@@ -83,7 +104,10 @@ class BootstrapAwesomeListsService
       failed_repos:,
       successful_count: successful_records.size,
       successful_records:,
-      total_processed: repo_links.size
+      total_processed: repo_links.size,
+      skipped_archived_count: skipped_archived.size,
+      skipped_archived:,
+      resurrected_count:
     })
   end
 

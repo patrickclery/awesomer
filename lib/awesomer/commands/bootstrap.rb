@@ -13,6 +13,9 @@ module Awesomer
       method_option :fetch, default: false,
                             desc: 'Fetch fresh data from GitHub instead of using local bootstrap.md',
                             type: :boolean
+      method_option :resurrect, default: false,
+                            desc: 'Re-activate archived (deleted) awesome lists if they exist',
+                            type: :boolean
       def lists
         puts '🚀 Bootstrap Awesome Lists'
         puts '=' * 50
@@ -43,11 +46,18 @@ module Awesomer
                         '📁 Using local bootstrap.md file...'
                       end
         puts source_info
+        
+        if options[:resurrect]
+          puts '♻️  RESURRECT MODE - Will re-activate archived lists if found'
+        else
+          puts '🚫 Skipping archived (deleted) lists (use --resurrect to re-activate)'
+        end
 
         begin
           bootstrap_service = BootstrapAwesomeListsService.new(
             fetch_from_github: options[:fetch],
-            limit: options[:limit]
+            limit: options[:limit],
+            resurrect: options[:resurrect]
           )
 
           if options[:dry_run]
@@ -99,7 +109,18 @@ module Awesomer
               puts '📊 Summary:'
               puts "   • Total repositories found: #{data[:total_processed]}"
               puts "   • Successfully created/updated: #{data[:successful_count]}"
+              puts "   • Skipped (archived): #{data[:skipped_archived_count]}" if data[:skipped_archived_count] > 0
+              puts "   • Resurrected: #{data[:resurrected_count]}" if data[:resurrected_count] > 0
               puts "   • Failed: #{data[:failed_count]}"
+
+              if data[:skipped_archived_count] > 0 && !options[:resurrect]
+                puts
+                puts '⏭️  Skipped archived repositories (use --resurrect to re-activate):'
+                data[:skipped_archived].first(5).each do |repo|
+                  puts "   • #{repo}"
+                end
+                puts "   ... and #{data[:skipped_archived_count] - 5} more" if data[:skipped_archived_count] > 5
+              end
 
               if data[:failed_count] > 0
                 puts
