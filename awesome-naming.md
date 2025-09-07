@@ -1,2 +1,0 @@
-## Tools, Applications, Libraries, Frameworks
-

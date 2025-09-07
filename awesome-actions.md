@@ -1,5 +1,0 @@
-## Official Resources
-
-
-## Community Resources
-

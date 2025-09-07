@@ -1,5 +1,0 @@
-## Editor Support
-
-
-## Open Source
-

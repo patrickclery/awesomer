@@ -1,8 +1,0 @@
-## Resources
-
-
-## Tutorials
-
-
-## Other Lists
-

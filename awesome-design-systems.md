@@ -1,5 +1,0 @@
-## Design tokens
-
-
-## Pattern library
-

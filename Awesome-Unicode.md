@@ -1,2 +1,0 @@
-## :collision: Lowercase Transformation Collisions
-

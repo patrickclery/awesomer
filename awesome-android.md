@@ -1,8 +1,0 @@
-## Libraries
-
-
-## Resources
-
-
-## Development Alternatives
-

@@ -1,5 +1,0 @@
-## Software
-
-
-## Other Resources
-

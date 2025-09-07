@@ -1,5 +1,0 @@
-## The TALL Stack
-
-
-## Libraries
-

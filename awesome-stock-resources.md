@@ -1,8 +1,0 @@
-## Vector Graphics
-
-
-## Fonts
-
-
-## Icons
-

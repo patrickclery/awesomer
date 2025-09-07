@@ -1,2 +1,0 @@
-## Prebid Libraries / Tools
-

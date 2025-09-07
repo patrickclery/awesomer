@@ -1,2 +1,0 @@
-## Featured On
-

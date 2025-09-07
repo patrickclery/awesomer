@@ -1,2 +1,0 @@
-## Blockchains for AI algorithms
-

@@ -1,5 +1,0 @@
-## Patterns & Best Practices
-
-
-## Libraries
-

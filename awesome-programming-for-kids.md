@@ -1,2 +1,0 @@
-## Lower Elementary
-

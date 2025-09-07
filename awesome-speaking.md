@@ -1,8 +1,0 @@
-## CFP
-
-
-## Miscellaneous
-
-
-## Websites
-

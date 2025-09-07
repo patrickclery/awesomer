@@ -1,5 +1,0 @@
-## 🏛 Core Resources (Evergreen)
-
-
-## ⚡ Tools
-

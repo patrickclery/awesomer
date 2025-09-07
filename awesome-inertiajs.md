@@ -1,5 +1,0 @@
-## Adapters
-
-
-## Resources
-

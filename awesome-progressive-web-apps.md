@@ -1,5 +1,0 @@
-## Learning Resources
-
-
-## Specific Technologies
-

@@ -1,8 +1,0 @@
-## Hardware
-
-
-## Software
-
-
-## Other Awesomes
-

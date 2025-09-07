@@ -1,5 +1,0 @@
-## Incident Response
-
-
-## Threat Modeling
-
