@@ -27,36 +27,36 @@
 
 ## CSS Working Group
 
-- [W3c/csswg-drafts](https://github.com/w3c/csswg-drafts) - Mirror of CSS WG Editor Draft repository.
 - [W3c/css-houdini-drafts](https://github.com/w3c/css-houdini-drafts) - Mirror of Houdini WG Editor repository.
+- [W3c/csswg-drafts](https://github.com/w3c/csswg-drafts) - Mirror of CSS WG Editor Draft repository.
 
 ## Style Guide Generators :slot_machine:
 
 - [Hologram](https://github.com/trulia/hologram)
 - [mdcss](https://github.com/jonathantneal/mdcss)
+- [Sc5-styleguide](https://github.com/SC5/sc5-styleguide) - <sub>[⇧ back to top](#contents)</sub>
 - [Source](https://github.com/sourcejs/Source)
 - [Styledoc](https://github.com/Joony/styledoc)
 - [Styledocco](https://github.com/jacobrask/styledocco)
 - [Styledown](https://github.com/styledown/styledown)
-- [Sc5-styleguide](https://github.com/SC5/sc5-styleguide) - <sub>[⇧ back to top](#contents)</sub>
 
 ## Reset and Normalize
 
 - [CSS Checker](https://github.com/ruilisi/css-checker) - Find and Reduce Similar & Duplicated CSS Scripts.
 - [MiniReset.css](https://github.com/jgthms/minireset.css) - A tiny modern CSS reset.
-- [Normalize-OpenType](https://github.com/kennethormandy/normalize-opentype.css) - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.
 - [Normalize](https://github.com/necolas/normalize.css) - A set of CSS rules that provide better cross-browser consistency in the default styling of HTML elements.
+- [Normalize-OpenType](https://github.com/kennethormandy/normalize-opentype.css) - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.
 - [Reseter.css](https://github.com/krishdevdb/reseter.css) - A Futuristic CSS Reset/Normalizer. That Redifines Instead Of Preserving.
 - [Sanitize.css](https://github.com/jonathantneal/sanitize.css) - A set of CSS rules that style with today’s best practices out-of-the-box.
 - [Unstyle.css](https://github.com/Martin-Pitt/css-unstyle) - Specialised stylesheet for removing user agent styles, style the web with your baseline. <sub>[⇧ back to top](#contents)</sub>
 
 ## CSS Polyfills
 
+- [Fixed-sticky](https://github.com/filamentgroup/fixed-sticky) - A CSS position:sticky polyfill.
+- [PIE](https://github.com/lojjic/PIE) - Allows Internet Explorer to recognize and render various CSS3 box decoration properties. <sub>[⇧ back to top](#contents)</sub>
 - [Polyfill.js](https://github.com/philipwalton/polyfill) - A library to make creating CSS polyfills much easier.
 - [Prefixfree](https://github.com/LeaVerou/prefixfree) - Break free from CSS prefix hell.
-- [Fixed-sticky](https://github.com/filamentgroup/fixed-sticky) - A CSS position:sticky polyfill.
 - [Selectivizr](https://github.com/keithclark/selectivizr) - A JavaScript utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.
-- [PIE](https://github.com/lojjic/PIE) - Allows Internet Explorer to recognize and render various CSS3 box decoration properties. <sub>[⇧ back to top](#contents)</sub>
 
 ## Code Style Guidelines :book:
 
@@ -92,6 +92,6 @@
 - [JSS](https://github.com/cssinjs/jss)
 - [React-styled](https://github.com/bloodyowl/react-styled)
 - [React-with-styles](https://github.com/airbnb/react-with-styles)
-- [Styled-jsx](https://github.com/zeit/styled-jsx)
 - [Styled-components](https://github.com/styled-components/styled-components)
+- [Styled-jsx](https://github.com/zeit/styled-jsx)
 - [Stylin](https://github.com/sultan99/stylin) - Here is a [CSS in JS techniques comparison](https://github.com/MicheleBertoli/css-in-js) <sub>[⇧ back to top](#contents)</sub>

@@ -16,8 +16,8 @@ A curated list of awesome HTML5 Canvas with examples, related articles and posts
 - [Origami.js](https://github.com/raphamorim/origami.js) - JS Lib to redesign canvas API interface
 - [Paper.js](https://github.com/paperjs/paper.js) - Scriptographer ported to JavaScript and the browser, using HTML5 Canvas.
 - [Proton](https://github.com/a-jie/Proton)
+- [React Canvas](https://github.com/Flipboard/react-canvas) - High performance <canvas> rendering for React components.
 - [Sketch](https://github.com/soulwire/sketch.js) - Cross-Platform JavaScript Creative Coding Framework
 - [Visualize](https://github.com/filamentgroup/jQuery-Visualize)
 - [zDog](https://github.com/metafizzy/zdog) - Flat, round, designer-friendly pseudo-3D engine for canvas & SVG
 - [zrender](https://github.com/ecomfe/zrender) - A lightweight canvas library which providing 2d draw for Apache ECharts (incubating)
-- [React Canvas](https://github.com/Flipboard/react-canvas) - High performance <canvas> rendering for React components.

@@ -5,8 +5,8 @@ A curated list of awesome downloadable SVG/PNG/Font icon projects
 ## Special
 
 - [Flag Kit](https://github.com/madebybowtie/FlagKit) - Beautiful flag icons for usage in apps and on the web.
-- [Mapsicon](https://github.com/djaiss/mapsicon) - A free collection of maps for every country in the world.
 - [IconicFonts](https://github.com/iconicFonts/iconic-fonts) - Over 50 pre-patched fonts featuring 60k icons as glyphs.
+- [Mapsicon](https://github.com/djaiss/mapsicon) - A free collection of maps for every country in the world.
 
 ## Logos
 
@@ -36,12 +36,14 @@ A curated list of awesome downloadable SVG/PNG/Font icon projects
 - [Fluent System Icons](https://github.com/microsoft/fluentui-system-icons) - A collection of familiar, friendly and modern icons from Microsoft.
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome) - The iconic SVG, font, and CSS toolkit. ([Website](https://fontawesome.com))
 - [Heroicons](https://github.com/refactoringui/heroicons) - A set of free high-quality SVG icons for you to use in your web projects. ([Website](https://heroicons.dev))
+- [Iconify Deign](https://github.com/iconify/iconify) - Most popular icon sets in one framework containg over 200,000 open source vector icons. ([Website](https://iconify.design))
 - [IconPark](https://github.com/bytedance/IconPark) - IconPark gives access to more than 1,400 high-quality icons, and introduces an interface for customizing your icons. ([Website](https://iconpark.bytedance.com))
 - [Ion icons](https://github.com/ionic-team/ionicons) - The premium icon font for Ionic Framework and web apps everywhere. ([Website](https://ionicons.com))
 - [Material design icons](https://github.com/google/material-design-icons) - Material Design icons by Google. ([Website](https://fonts.google.com/icons))
 - [Octicons](https://github.com/primer/octicons) - A scalable set of icons handcrafted with <3 by GitHub. ([Website](https://octicons.github.com))
 - [Picon](https://github.com/yne/picon) - Small ligature-based icon font and SVG. ([Website](https://yne.fr/picon))
 - [Radix Icons](https://github.com/radix-ui/icons) - A crisp set of 15×15 icons designed by the WorkOS team. ([Website](https://www.radix-ui.com/icons/))
+- [React Icons](https://github.com/react-icons/react-icons) - Popular icon sets created especially for React projects. ([Website](https://react-icons.github.io/react-icons/))
 - [Remix Icon](https://github.com/Remix-Design/RemixIcon) - Remix Icon is a set of open-source neutral-style system symbols for designers and developers. ([Website](https://remixicon.com))
 - [Super Tiny Icons](https://github.com/edent/SuperTinyIcons) - Miniscule SVG versions of your favourite website and app logos, under 1KB each.
 - [Tabler Icons](https://github.com/tabler/tabler-icons) - A set of over 3200 free MIT-licensed high-quality SVG icons for you to use in your web projects. ([Website](https://tabler-icons.io))
@@ -49,5 +51,3 @@ A curated list of awesome downloadable SVG/PNG/Font icon projects
 - [Unicons](https://github.com/iconscout/unicons) - 1000+ pixel-perfect vector icons and icon font for your next project. ([Website](https://iconscout.com/unicons))
 - [VSCode Icons](https://github.com/microsoft/vscode-icons) - Dark and light versions of the icons used in Visual Studio Code.
 - [Weather icons](https://github.com/erikflowers/weather-icons) - Weather Themed Icons and CSS.
-- [Iconify Deign](https://github.com/iconify/iconify) - Most popular icon sets in one framework containg over 200,000 open source vector icons. ([Website](https://iconify.design))
-- [React Icons](https://github.com/react-icons/react-icons) - Popular icon sets created especially for React projects. ([Website](https://react-icons.github.io/react-icons/))

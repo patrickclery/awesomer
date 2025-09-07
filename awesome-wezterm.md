@@ -48,8 +48,8 @@ Collections of awesome WezTerm plugins.
 - [ChrisGVE/dev.wezterm](https://github.com/ChrisGVE/dev.wezterm) - Location resolver for development and deployment of a plugin.
 - [ChrisGVE/lib.wezterm](https://github.com/ChrisGVE/lib.wezterm) - A library of common utility functions for plugin developers.
 - [ChrisGVE/listeners.wezterm](https://github.com/ChrisGVE/listeners.wezterm) - Enables enhanced event listener capabilities with persistent state management.
-- [zsh-sage/toggle_terminal.wez](https://github.com/zsh-sage/toggle_terminal.wez) - An easy-to-use toggleable terminal window.
 - [quickselect.wezterm](https://github.com/quantonganh/quickselect.wezterm) - Jump to the build error by opening them in Helix.
+- [zsh-sage/toggle_terminal.wez](https://github.com/zsh-sage/toggle_terminal.wez) - An easy-to-use toggleable terminal window.
 
 ## AI
 

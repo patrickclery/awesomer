@@ -27,27 +27,27 @@ An awesome list all about Tor (The Onion Router)
 - [eotk](https://github.com/alecmuffett/eotk) - Tool for deploying HTTP/Onion sites to provide official, onion-networking for popular websites.
 - [haskell-tor](https://github.com/GaloisInc/haskell-tor) - A Haskell implementation of the Tor protocol.
 - [kalitorify](https://github.com/brainfucksec/kalitorify) - Shell script to create a transparent proxy through Tor for Kali Linux OS.
-- [multitor](https://github.com/trimstray/multitor) - Create multiple Tor instances with load balancing.
 - [mini-tor](https://github.com/wbenny/mini-tor) - Smallest application size while accessing internet content and hidden service content.
+- [multitor](https://github.com/trimstray/multitor) - Create multiple Tor instances with load balancing.
 - [node-Tor](https://github.com/Ayms/node-Tor) - JavaScript open-source implementation of the Tor protocol on the server side and browsers.
 - [offensive-tor-toolkit](https://github.com/atorrescogollo/offensive-tor-toolkit) - Bind/Reverse Shells, SOCKS, etc over Tor in Go.
 - [onion-grater](https://github.com/Whonix/onion-grater) - Whitelisting filter for dangerous Tor control protocol commands.
 - [php-torcontrol](https://github.com/dunglas/php-torcontrol) - TorControl is a PHP library to control a Tor server.
 - [rotating-proxy](https://github.com/mattes/rotating-proxy) - Rotating Tor proxy with Docker.
-- [Stormy](https://github.com/glamrock/stormy) - Stormy is a wizard that helps people create Tor Onion Services with just a few clicks.
 - [setup-tor](https://github.com/tor-actions/setup-tor) - Set up your GitHub Actions workflow with a specific version of Tor.
+- [Stormy](https://github.com/glamrock/stormy) - Stormy is a wizard that helps people create Tor Onion Services with just a few clicks.
 - [Tallow](https://github.com/basil00/TorWall) - A program that redirects all outbound traffic from a Windows machine via the Tor anonymity network.
-- [tor_box](https://github.com/CMoncur/tor_box) - An all-inclusive Tor configuration for Raspberry Pi, that serves as a relay and personal Tor network.
-- [Tor_Onion_Proxy](https://github.com/thaliproject/Tor_Onion_Proxy_Library) - Provides a .JAR and an .AAR file for embedding Tor into a Java or Android Program.
 - [tor-browser-selenium](https://github.com/webfp/tor-browser-selenium) - A Python library to automate Tor Browser with Selenium WebDriver.
 - [tor-controller](https://github.com/kragniz/tor-controller) - Run Tor Onion Services on Kubernetes.
 - [tor-relay-bootstrap](https://github.com/coldhakca/tor-relay-bootstrap) - Script to bootstrap a Debian server to be a set-and-forget Tor relay.
 - [Tor.framework](https://github.com/iCepa/Tor.framework) - Tor.framework is the easiest way to embed Tor in your iOS application.
 - [tor.rb](https://github.com/dryruby/tor.rb) - This is a Ruby library for interacting with the Tor anonymity network.
 - [Tor2web](https://github.com/tor2web/Tor2web) - HTTP proxy software that enables access to Tor Hidden Services through common web browsers.
+- [tor_box](https://github.com/CMoncur/tor_box) - An all-inclusive Tor configuration for Raspberry Pi, that serves as a relay and personal Tor network.
+- [Tor_Onion_Proxy](https://github.com/thaliproject/Tor_Onion_Proxy_Library) - Provides a .JAR and an .AAR file for embedding Tor into a Java or Android Program.
 - [TorBot](https://github.com/DedSecInside/TorBot) - Onion site crawler for data collection.
-- [TorChat-Mac](https://github.com/javerous/TorChat-Mac) - macOS native TorChat client.
 - [TorChat](https://github.com/prof7bit/TorChat) - Decentralized anonymous instant messenger on top of Tor Hidden Services.
+- [TorChat-Mac](https://github.com/javerous/TorChat-Mac) - macOS native TorChat client.
 - [torDDoS](https://github.com/r3nt0n/torDDoS) - TorDDos is a Python tool to automatize DDoS attacks on a website from the Tor network.
 - [toriptabkes2](https://github.com/ruped24/toriptables2) - An anonymizer that sets up iptables and Tor to route all traffic through the Tor network.
 - [torps](https://github.com/torps/torps) - The Tor Path Simulator (TorPS) is a tool for efficiently simulating path selection in Tor.

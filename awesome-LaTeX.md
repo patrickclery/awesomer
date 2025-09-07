@@ -4,14 +4,14 @@ Curated list of LaTeX awesomeness
 
 ## Packages
 
-- [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
 - [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Convert your MATLAB plots to PGFPlots/TikZ. ![windows] ![linux] ![mac] ![foss]
+- [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
 - [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Convert your matplotlib plots to PGFPlots/TikZ. ![windows] ![linux] ![mac] ![foss]
 
 ## Bibliography tools
 
-- [Papis](https://github.com/papis/papis) - Extremely customizable, powerful and simple cross-platform (Python) library manager. It has a very complete Command-Line-Interface, several GUIs and scripting capability. ![linux] ![mac] ![foss]
 - [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac] ![windows] ![linux] ![foss]
+- [Papis](https://github.com/papis/papis) - Extremely customizable, powerful and simple cross-platform (Python) library manager. It has a very complete Command-Line-Interface, several GUIs and scripting capability. ![linux] ![mac] ![foss]
 
 ## Tutorials
 
@@ -23,8 +23,8 @@ Curated list of LaTeX awesomeness
 
 ## Templates
 
-- [Ultimate Beamer Theme List](https://github.com/martinbjeldbak/ultimate-beamer-theme-list) - Links to various beamer themes along with PDF previews.
 - [TeXtured](https://github.com/jdujava/TeXtured) - A typographically elegant, clean, and structured LaTeX template (primarily intended for theses).
+- [Ultimate Beamer Theme List](https://github.com/martinbjeldbak/ultimate-beamer-theme-list) - Links to various beamer themes along with PDF previews.
 
 ## Resources
 
@@ -32,13 +32,13 @@ Curated list of LaTeX awesomeness
 
 ## Editors
 
+- [a-nau/latex-devcontainer](https://github.com/a-nau/latex-devcontainer) - Devcontainer setup for easy LaTeX usage without local installation ![foss] Online editors that allow you to edit documents collaboratively.
+- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
+- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
 - [LaTeXing](https://github.com/LaTeXing/LaTeXing) - Free plug-in to edit LaTeX. ![foss]
 - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
-- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
-- [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
 - [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss]
-- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
-- [a-nau/latex-devcontainer](https://github.com/a-nau/latex-devcontainer) - Devcontainer setup for easy LaTeX usage without local installation ![foss] Online editors that allow you to edit documents collaboratively.
+- [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
 - [WebLaTeX](https://github.com/sanjib-sen/weblatex) - Web-based vscode with Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support based on GitHub Codespace and Dev container.
 
 ## Engines
@@ -51,16 +51,16 @@ Curated list of LaTeX awesomeness
 
 ## Docker Images
 
-- [reitzig/texlive-docker](https://github.com/reitzig/texlive-docker) - minimal TeXLive system with package installation possibility
 - [dante-ev/docker-texlive](https://github.com/dante-ev/docker-texlive) - debian-based full TeXLive system with additions with pandoc, perl, and python pre-installed
+- [reitzig/texlive-docker](https://github.com/reitzig/texlive-docker) - minimal TeXLive system with package installation possibility
 
 ## Misc. Tools
 
-- [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
+- [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows] ![linux] ![mac] ![foss]
 
 ## Build Tools
 
-- [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) - GitHub Action to compile LaTeX documents
 - [dante-ev/latex-action](https://github.com/dante-ev/latex-action) - DANTE e.V.'s GitHub action to compile LaTeX documents. Offers a full TeXLive and pre-installed perl and python.
+- [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) - GitHub Action to compile LaTeX documents

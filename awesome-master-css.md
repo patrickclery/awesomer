@@ -12,5 +12,5 @@ Master CSS - A Virtual CSS language with enhanced syntax.
 
 ## Plugins
 
-- [@master/style-element.react](https://github.com/master-co/style-element.react) - Quickly create styled React elements with conditional class names.
 - [@master/literal](https://github.com/master-co/literal) - Conditionally construct class names and strings with template literals.
+- [@master/style-element.react](https://github.com/master-co/style-element.react) - Quickly create styled React elements with conditional class names.

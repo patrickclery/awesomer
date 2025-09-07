@@ -4,10 +4,10 @@
 
 ## Postal Addresses
 
-- [`libaddressinput`](https://github.com/googlei18n/libaddressinput) - Google's common C++ and Java library for parsing, formatting, and validating international postal addresses.
-- [`addressing`](https://github.com/commerceguys/addressing) - A PHP 5.4+ addressing library, powered by Google's dataset.
-- [`postal-address`](https://github.com/scaleway/postal-address) - Python module to parse, normalize and render postal addresses.
 - [`address`](https://github.com/Boostport/address) - Go library to validate and format addresses using Google's dataset.
+- [`addressing`](https://github.com/commerceguys/addressing) - A PHP 5.4+ addressing library, powered by Google's dataset.
+- [`libaddressinput`](https://github.com/googlei18n/libaddressinput) - Google's common C++ and Java library for parsing, formatting, and validating international postal addresses.
+- [`postal-address`](https://github.com/scaleway/postal-address) - Python module to parse, normalize and render postal addresses.
 
 ## Phone Numbers
 
@@ -28,8 +28,8 @@
 ## Internationalization
 
 - [Awesome Unicode](https://github.com/Wisdom/Awesome-Unicode) - A curated list of delightful Unicode tidbits, packages and resources.
-- [i18n Testing Data](https://github.com/patch/i18n-testing) - Compilation of real-word international and diverse name data for unit testing and QA.
 - [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) - A huge corpus of strings which have a high probability of causing issues when used as user-input data. A must have set of practical edge-cases to test your software against.
+- [i18n Testing Data](https://github.com/patch/i18n-testing) - Compilation of real-word international and diverse name data for unit testing and QA.
 
 ## Transportation
 

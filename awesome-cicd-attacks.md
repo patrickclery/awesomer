@@ -4,8 +4,8 @@ Practical resources for offensive CI/CD security research. Curated the best reso
 
 ## Techniques
 
-- [GitLab Secrets](https://github.com/RichardoC/gitlab-secrets) - A tool that can reveal deleted GitLab commits that potentially contain sensitive information and are not accessible via the public Git history.
 - [ActionsTOCTOU (Time Of Check to Time Of Use)](https://github.com/AdnaneKhan/ActionsTOCTOU) - A tool to monitor for an approval event and then quickly replace a file in the PR head with a local file specified as a parameter.
+- [GitLab Secrets](https://github.com/RichardoC/gitlab-secrets) - A tool that can reveal deleted GitLab commits that potentially contain sensitive information and are not accessible via the public Git history.
 - [Living off the pipeline](https://github.com/boostsecurityio/lotp) - Inventory how development tools (typically CLIs), have lesser-known RCE-By-Design features. <!--lint ignore awesome-list-item-->
 - [PR sneaking](https://github.com/mortenson/pr-sneaking) - Methods of sneaking malicious code into GitHub pull requests.
 

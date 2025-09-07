@@ -8,15 +8,15 @@ Tools to prioritize above-the-fold (critical-path) CSS
 
 ## Grunt tasks
 
-- [grunt-penthouse](https://github.com/fatso83/grunt-penthouse)
-- [grunt-critical-css](https://github.com/filamentgroup/grunt-criticalcss)
 - [grunt-critical](https://github.com/bezoerb/grunt-critical)
+- [grunt-critical-css](https://github.com/filamentgroup/grunt-criticalcss)
+- [grunt-penthouse](https://github.com/fatso83/grunt-penthouse)
 
 ## Inline sources (styles, scripts)
 
-- [inline-styles](https://github.com/maxogden/inline-styles) - by Max Ogden, replaces `<link>` tags with inline `<style>` tags + inlines CSS url() calls with data URIs
 - [gulp-inline-source](https://github.com/fmal/gulp-inline-source) - by Filip Malinowski, replaces `<link>` tags with inline `<style>` tags, and replaces `<script src="">` tags with their inline content
 - [inline-critical](https://github.com/bezoerb/inline-critical) - by Ben Zörb, inline critical path CSS and load existing stylesheets with `loadCSS`
+- [inline-styles](https://github.com/maxogden/inline-styles) - by Max Ogden, replaces `<link>` tags with inline `<style>` tags + inlines CSS url() calls with data URIs
 - [isomorphic-style-loader](https://github.com/kriasoft/isomorphic-style-loader)
 
 ## PhantomJS
@@ -38,8 +38,8 @@ Tools to prioritize above-the-fold (critical-path) CSS
 
 ## Async load CSS
 
-- [loadCSS](https://github.com/filamentgroup/loadCSS) - loads CSS asynchronously using JS. [Research](https://gist.github.com/scottjehl/87176715419617ae6994) that led to this is also available.
 - [asyncLoader](https://github.com/n0mad01/asyncLoader) - async script/stylesheet loader
+- [loadCSS](https://github.com/filamentgroup/loadCSS) - loads CSS asynchronously using JS. [Research](https://gist.github.com/scottjehl/87176715419617ae6994) that led to this is also available.
 
 ## Supplementary tools
 
@@ -47,6 +47,6 @@ Tools to prioritize above-the-fold (critical-path) CSS
 
 ## Node modules
 
-- [Penthouse](https://github.com/pocketjoso/penthouse) - by Jonas Ohlsson generates critical-path CSS
 - [Critical](https://github.com/addyosmani/critical) - by Addy Osmani generates & inlines critical-path CSS (uses Penthouse, [Oust](https://github.com/addyosmani/oust) and inline-styles)
 - [CriticalCSS](https://github.com/filamentgroup/criticalcss) - by FilamentGroup finds & outputs critical CSS
+- [Penthouse](https://github.com/pocketjoso/penthouse) - by Jonas Ohlsson generates critical-path CSS

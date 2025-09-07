@@ -12,13 +12,13 @@ A curated list to learning and practicing about algorithm.
 
 ## Miscellaneous
 
-- [Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 - [Awesome Data Science](https://github.com/bulutyazilim/awesome-datascience)
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+- [Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 - [HUST Online Judge System](https://github.com/freefcw/hustoj-neo) - Online Judge is a web application.
 
 ## Interviews
 
+- [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 - [Software Engineering technical interviews](https://github.com/kdn251/interviews)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
-- [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)

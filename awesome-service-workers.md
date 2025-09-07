@@ -16,5 +16,5 @@
 
 ## Libraries and Tools
 
-- [sw-toolbox](https://github.com/GoogleChrome/sw-toolbox) - A collection of simple helpers to simplify implementing common runtime caching patterns.
 - [sw-precache](https://github.com/GoogleChrome/sw-precache) - Generates a service worker to cache your local App Shell resources.
+- [sw-toolbox](https://github.com/GoogleChrome/sw-toolbox) - A collection of simple helpers to simplify implementing common runtime caching patterns.

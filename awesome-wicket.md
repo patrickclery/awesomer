@@ -5,6 +5,8 @@ A curated list of awesome projects powered by Apache Wicket
 ## Libraries
 
 - [JNPM](https://github.com/OrienteerBAP/JNPM) - Java library for JS Node Package Manager(NPM). Provides Wicket resource for transparent obtaining of NPM package and providing required file from it.
+- [WHighCharts](https://github.com/wicketstuff/wiquery-highcharts) - Provides WiQuery bindings for HighCharts.
+- [wicked-charts](https://github.com/thombergs/wicked-charts) - Beautiful and interactive javascript charts for Java-based web applications. [WicketStuff](https://github.com/wicketstuff/core) based libraries
 - [wicket-akka](https://github.com/l0rdn1kk0n/wicket-akka) - Integration of Akka for Wicket.
 - [wicket-autowire](https://github.com/wicket-acc/wicket-autowire) - Makes your life easier by automatic creation of component according to provided annotation.
 - [wicket-bootstrap](https://github.com/l0rdn1kk0n/wicket-bootstrap) - Integration of Bootstrap Toolkit for Wicket.
@@ -23,8 +25,6 @@ A curated list of awesome projects powered by Apache Wicket
 - [wicket-source](https://github.com/42Lines/wicket-source) - Speeds up Wicket development by providing click-through from browser HTML back to the original Wicket components in your source.
 - [wicket-spring-boot](https://github.com/MarcGiffing/wicket-spring-boot) - Makes it easy to create Wicket projects with a minimum of configuration effort by using Sprint Boot.
 - [wicket-webjars](https://github.com/l0rdn1kk0n/wicket-webjars) - Integration of webjars for Wicket.
-- [wicked-charts](https://github.com/thombergs/wicked-charts) - Beautiful and interactive javascript charts for Java-based web applications. [WicketStuff](https://github.com/wicketstuff/core) based libraries
-- [WHighCharts](https://github.com/wicketstuff/wiquery-highcharts) - Provides WiQuery bindings for HighCharts.
 - [WiQuery](https://github.com/wicketstuff/wiquery) - Wicket integration with jQuery and jQuery UI.
 - [WqPlot](https://github.com/wicketstuff/wiquery-jqplot) - Provides WiQuery bindings for JqPlot.
 

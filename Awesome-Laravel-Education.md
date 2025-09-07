@@ -4,15 +4,15 @@ A curated list of resources for learning about the Laravel PHP Framework
 
 ## Open Source Laravel
 
-- [Laravel Framework](https://github.com/laravel/framework)
 - [Laravel Application](https://github.com/laravel/laravel)
-- [Laravel Documentation](https://github.com/laravel/docs)
+- [Laravel Art](https://github.com/laravel/art)
 - [Laravel Cashier](https://github.com/laravel/cashier)
+- [Laravel Documentation](https://github.com/laravel/docs)
 - [Laravel Envoy](https://github.com/laravel/envoy)
+- [Laravel Framework](https://github.com/laravel/framework)
 - [Laravel Homestead](https://github.com/laravel/homestead)
 - [Laravel Homestead Build Scripts](https://github.com/laravel/settler)
 - [Laravel Website](https://github.com/laravel/laravel.com)
-- [Laravel Art](https://github.com/laravel/art)
 
 ## Interview
 
@@ -26,8 +26,8 @@ A curated list of resources for learning about the Laravel PHP Framework
 
 ## Coding Standard
 
-- [PHP Framework Interoperability Group](https://github.com/php-fig/fig-standards)
 - [Code Style Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+- [PHP Framework Interoperability Group](https://github.com/php-fig/fig-standards)
 
 ## Develop Tools
 
@@ -37,6 +37,7 @@ A curated list of resources for learning about the Laravel PHP Framework
 - [DocBlockr](https://github.com/spadgos/sublime-jsdocs) - Simplifies writing DocBlock comments
 - [Emmet](https://github.com/sergeche/emmet-sublime) - Improves HTML & CSS workflow
 - [Laravel Blade Highlighter](https://github.com/Medalink/laravel-blade) - Adds syntax definitions for the Laravel 5 Blade engine
+- [Laravel Plugin for PhpStorm](https://github.com/Haehnchen/idea-php-laravel-plugin)
 - [phpfmt](https://github.com/phpfmt/sublime-phpfmt) - Plugin to format PHP code - supports also PSR1/2
 - [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements) - Enhancements to Sublime Text sidebar
 - [SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel) - Full-featured code intelligence and smart autocomplete engine
@@ -44,7 +45,6 @@ A curated list of resources for learning about the Laravel PHP Framework
 - [SublimeLinter-php](https://github.com/SublimeLinter/SublimeLinter-php) - SublimeLinter plugin for PHP
 - [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass) - Syntax highlighting for both SCSS and Sass
 - [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces) - Highlight trailing spaces and delete them
-- [Laravel Plugin for PhpStorm](https://github.com/Haehnchen/idea-php-laravel-plugin)
 
 ## New to Laravel
 

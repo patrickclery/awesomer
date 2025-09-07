@@ -74,15 +74,16 @@ A curated list of awesome MySQL software, libraries, tools and resources
 - [MySQL Connector/Node.js](https://github.com/mysql/mysql-connector-nodejs) - Official Node.js driver for MySQL.
 - [MySQL Connector/Python](https://github.com/mysql/mysql-connector-python) - a standardized database driver for Python platforms and development.
 - [mysqlclient-python](https://github.com/PyMySQL/mysqlclient) - MySQL database connector for Python.
+- [MyZql](https://github.com/speed2exe/myzql) - MySQL and MariaDB driver in native Zig.
 - [node-mysql](https://github.com/mysqljs/node) - A pure Nodejs Javascript client implementing the MySQL protocol.
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL) - MySQL database connector for Python.
 - [Ruby Mysql2 gem](https://github.com/brianmario/mysql2) - MySQL driver for Ruby and Rails projects.
-- [MyZql](https://github.com/speed2exe/myzql) - MySQL and MariaDB driver in native Zig.
 - [wtx](https://github.com/c410-f3r/wtx) - Client for MySQL/MariaDB/Percona written in Rust
 
 ## Analysis
 
 - [Anemometer](https://github.com/box/Anemometer) - Box SQL slow query monitor.
+- [Dolphie](https://github.com/charles-001/dolphie) - a modern terminal tool for real-time analytics into MySQL/MariaDB & ProxySQL
 - [innodb-ruby](https://github.com/jeremycole/innodb_ruby) - A parser for InnoDB file formats, in Ruby.
 - [innotop](https://github.com/innotop/innotop) - a 'top' clone for MySQL with many features and flexibility.
 - [MySQL Explain Analyzer](https://github.com/Preetam/explain-analyzer) - A web-based analyzer of `EXPLAIN FORMAT=JSON` output, providing comments, scalability analysis and permalinks for saved samples.
@@ -90,7 +91,6 @@ A curated list of awesome MySQL software, libraries, tools and resources
 - [MySQLTuner-perl](https://github.com/major/MySQLTuner-perl) - A script that allows you to review a MySQL installation quickly and make adjustments to increase performance and stability.
 - [Prometheus](https://github.com/prometheus/prometheus)
 - [pstop](https://github.com/sjmudd/ps-top) - a top-like program for MySQL, collecting, aggregating and displaying information from performance_schema.
-- [Dolphie](https://github.com/charles-001/dolphie) - a modern terminal tool for real-time analytics into MySQL/MariaDB & ProxySQL
 
 ## HA
 

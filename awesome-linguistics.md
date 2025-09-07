@@ -4,25 +4,25 @@ A curated list of anything remotely related to linguistics
 
 ## Data sets
 
-- [EuroRomCom Data](https://github.com/kirkins/euroromcom)
 - [DysList (list of dyslexic errors)](https://github.com/Rauschii/DysListGerman)
+- [EuroRomCom Data](https://github.com/kirkins/euroromcom)
 - [OpinionSpam](https://github.com/hdaSprachtechnologie/OpinionSpam)
 
 ## Lists
 
-- [nlp-datasets](https://github.com/niderhoff/nlp-datasets)
-- [NLP-progress](https://github.com/sebastianruder/NLP-progress)
-- [awesome-nlp](https://github.com/keon/awesome-nlp)
 - [Awesome Community-Curated NLP List](https://github.com/alvations/awesome-community-curated-nlp)
+- [awesome Information Retrieval](https://github.com/harpribot/awesome-information-retrieval)
 - [awesome-chinese-nlp](https://github.com/crownpku/Awesome-Chinese-NLP)
 - [awesome-danish](https://github.com/fnielsen/awesome-danish)
 - [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp)
-- [awesome Information Retrieval](https://github.com/harpribot/awesome-information-retrieval)
-- [Indonesian NLP](https://github.com/kmkurn/id-nlp-resource)
-- [Norwegian NLP resources](https://github.com/web64/norwegian-nlp-resources)
-- [German NLP resources](https://github.com/adbar/German-NLP)
+- [awesome-nlp](https://github.com/keon/awesome-nlp)
 - [awesome-nlp-polish](https://github.com/ksopyla/awesome-nlp-polish)
 - [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
+- [German NLP resources](https://github.com/adbar/German-NLP)
+- [Indonesian NLP](https://github.com/kmkurn/id-nlp-resource)
+- [nlp-datasets](https://github.com/niderhoff/nlp-datasets)
+- [NLP-progress](https://github.com/sebastianruder/NLP-progress)
+- [Norwegian NLP resources](https://github.com/web64/norwegian-nlp-resources)
 
 ## Platforms and toolkits
 

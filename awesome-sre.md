@@ -5,8 +5,8 @@ A curated list of Site Reliability and Production Engineering resources.
 ## Post-Mortem
 
 - [A collection of post-mortems](https://github.com/danluu/post-mortems)
-- [Collection of Kubernetes Failure Stories](https://github.com/hjacobs/kubernetes-failure-stories)
 - [A collection of postmortem templates](https://github.com/dastergon/postmortem-templates)
+- [Collection of Kubernetes Failure Stories](https://github.com/hjacobs/kubernetes-failure-stories)
 
 ## Reliability
 
@@ -18,9 +18,9 @@ A curated list of Site Reliability and Production Engineering resources.
 
 ## On-Call
 
-- [The On-Call Handbook](https://github.com/alicegoldfuss/oncall-handbook)
-- [Run Book / Operations Manual template](https://github.com/SkeltonThatcher/run-book-template)
 - [Extended Dreyfus Model for Incident Lifecycles](https://github.com/preed/incident-lifecycle-model)
+- [Run Book / Operations Manual template](https://github.com/SkeltonThatcher/run-book-template)
+- [The On-Call Handbook](https://github.com/alicegoldfuss/oncall-handbook)
 
 ## Culture
 

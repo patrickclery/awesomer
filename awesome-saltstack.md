@@ -4,8 +4,8 @@
 
 ## Code
 
-- [valentin2105/Kubernetes-Saltstack](https://github.com/valentin2105/Kubernetes-Saltstack) - Saltstack recipe to deploy Kubernetes cluster from scratch.
 - [madflojo/masterless-salt-base](https://github.com/madflojo/masterless-salt-base) - Quickly bootstrap a generic(ish) Ubuntu server. One that is ready to host Docker containers.
+- [valentin2105/Kubernetes-Saltstack](https://github.com/valentin2105/Kubernetes-Saltstack) - Saltstack recipe to deploy Kubernetes cluster from scratch.
 
 ## Integrations
 
@@ -21,11 +21,11 @@
 
 ## Tools
 
-- [SaltGUI](https://github.com/erwindon/SaltGUI) - A web interface for managing SaltStack based infrastructure.
-- [Molten](https://github.com/martinhoefling/molten) - Molten is a WebUI for the REST API exposed by Saltstack.
-- [salt-sproxy](https://github.com/mirceaulinic/salt-sproxy) - Salt plugin to automate the management and configuration of devices and applications, without running (Proxy) Minions.
-- [salt-lint](https://github.com/warpnet/salt-lint) - Checks Salt state files (SLS) for practices and behavior that could potentially be improved.
 - [ISalt](https://github.com/mirceaulinic/isalt) - IPython-based command shell for interactive Salt programming.
+- [Molten](https://github.com/martinhoefling/molten) - Molten is a WebUI for the REST API exposed by Saltstack.
+- [salt-lint](https://github.com/warpnet/salt-lint) - Checks Salt state files (SLS) for practices and behavior that could potentially be improved.
+- [salt-sproxy](https://github.com/mirceaulinic/salt-sproxy) - Salt plugin to automate the management and configuration of devices and applications, without running (Proxy) Minions.
+- [SaltGUI](https://github.com/erwindon/SaltGUI) - A web interface for managing SaltStack based infrastructure.
 
 ## Official resources
 

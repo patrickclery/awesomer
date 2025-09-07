@@ -4,14 +4,14 @@ A curated list of awesome programmers and software projects you can support!
 
 ## Open Source Projects
 
-- [PHPUnit](https://github.com/sponsors/sebastianbergmann) - PHPUnit and related projects.
-- [Kitbashery](https://github.com/sponsors/Kitbashery) - 3D kitbashing solution & CC0 model library.
-- [Iced](https://github.com/sponsors/hecrj)
-- [MicroG](https://github.com/sponsors/mar-v-in)
-- [GrapheneOS](https://github.com/sponsors/thestinger) - A privacy and security focused mobile OS with Android app compatibility.
-- [Serenity OS](https://github.com/sponsors/awesomekling)
 - [GitClear](https://github.com/sponsors/gitclear) - Improved Linux support for touchpads.
+- [GrapheneOS](https://github.com/sponsors/thestinger) - A privacy and security focused mobile OS with Android app compatibility.
+- [Iced](https://github.com/sponsors/hecrj)
+- [Kitbashery](https://github.com/sponsors/Kitbashery) - 3D kitbashing solution & CC0 model library.
 - [Martin Povišer](https://github.com/sponsors/povik) - Reverse-engineering and writing Linux drivers for audio hardware on Apple Silicon Macs.
+- [MicroG](https://github.com/sponsors/mar-v-in)
+- [PHPUnit](https://github.com/sponsors/sebastianbergmann) - PHPUnit and related projects.
+- [Serenity OS](https://github.com/sponsors/awesomekling)
 
 ## People Doing Open Source Work
 

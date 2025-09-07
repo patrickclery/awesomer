@@ -7,9 +7,9 @@ A collaborative list of Awesome Bluetooth Low Energy (BLE) resources. Feel free 
 - [bluepy](https://github.com/IanHarvey/bluepy) - A Python interface for Bluetooth LE on Linux.
 - [Bluetooth](https://github.com/PureSwift/Bluetooth) - Bluetooth is a Swift multiplatform package with multiple libraries supporting the Bluetooth SIG specifications.
 - [bumble](https://github.com/google/bumble) - Bumble is a full-featured Bluetooth stack written entirely in Python.
+- [Moddable](https://github.com/Moddable-OpenSource/moddable) - JavaScript libraries and tools for microcontrollers development. Includes BLE functionality.
 - [pygatt](https://github.com/peplin/pygatt) - A Python library for interacting with BLE devices.
 - [SimpleBLE](https://github.com/OpenBluetoothToolbox/SimpleBLE) - The all-in-one C/C++/Python/Rust Bluetooth LE library for MacOS, iOS, Windows, and Linux.
-- [Moddable](https://github.com/Moddable-OpenSource/moddable) - JavaScript libraries and tools for microcontrollers development. Includes BLE functionality.
 
 ## Web
 
@@ -46,14 +46,14 @@ A collaborative list of Awesome Bluetooth Low Energy (BLE) resources. Feel free 
 - [CombineCoreBluetooth](https://github.com/StarryInternet/CombineCoreBluetooth) - CombineCoreBluetooth is a library that bridges Apple's CoreBluetooth framework and Apple's Combine framework.
 - [iOS DFU Library](https://github.com/NordicSemiconductor/IOS-DFU-Library) - DFU application allows to flash new firmware on the DK.
 - [Rx Bluetooth Kit](https://github.com/Polidea/RxBluetoothKit) - RxBluetoothKit is a Bluetooth library that makes interaction with BLE devices much more pleasant using RxSwift.
-- [Swifty Sensors](https://github.com/codeinversion/sensors-swift) - Bluetooth LE Sensor Manager for iOS and macOS.
 - [SpeziBluetooth](https://github.com/StanfordSpezi/SpeziBluetooth) - Connect and communicate with Bluetooth devices using modern programming paradigms.
+- [Swifty Sensors](https://github.com/codeinversion/sensors-swift) - Bluetooth LE Sensor Manager for iOS and macOS.
 
 ## Flutter
 
+- [Flutter BLELib](https://github.com/dotintent/FlutterBleLib) - Bluetooth Low Energy library for Flutter with support for simulating peripherals.
 - [Flutter Blue Plus](https://github.com/boskokg/flutter_blue_plus) - Flutter Blue Plus is a bluetooth plugin for Flutter, a new app SDK to help developers build modern multi-platform apps.
 - [Flutter Reactive BLE](https://github.com/PhilipsHue/flutter_reactive_ble) - Flutter Reactive BLE is a Flutter library that handles BLE operations for multiple devices.
-- [Flutter BLELib](https://github.com/dotintent/FlutterBleLib) - Bluetooth Low Energy library for Flutter with support for simulating peripherals.
 
 ## Framework
 

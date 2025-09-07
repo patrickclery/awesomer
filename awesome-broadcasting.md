@@ -130,8 +130,8 @@ A curated list of amazingly awesome open source resources related to broadcast t
 
 ## Communication
 
-- [Intercom Manager](https://github.com/Eyevinn/intercom-manager)
 - [DYI intercom](https://github.com/matiaspl/intercom) - Hardware + software intercom solution built around Murmur server and headless Mumble clients based on Rasperry Pi.
+- [Intercom Manager](https://github.com/Eyevinn/intercom-manager)
 
 ## Monitoring & Quality Control
 
@@ -139,8 +139,8 @@ A curated list of amazingly awesome open source resources related to broadcast t
 - [Jack Meter](https://github.com/njh/jackmeter) - Text console based DPM (Digital Peak Meter) for JACK.
 - [LTC-tools](https://github.com/x42/ltc-tools) - A collection of tools to handle Linear Timecode (LTC) and convert to MIDI Timecode (MTC).
 - [MXF Inspect](https://github.com/Myriadbits/MXFInspect) - A Windows tool to display the internal structure of an MXF (Material eXchange Format) file.
-- [Pi Audio Monitor](https://github.com/martim01/pam) - Audio Monitoring for Raspberry Pi, supports S/PDIF, AES3, AES67, Livewire and Ravenna.
 - [Photon](https://github.com/Netflix/photon) - Implementation of the SMPTE Interoperable Master Format (IMF) standard.
+- [Pi Audio Monitor](https://github.com/martim01/pam) - Audio Monitoring for Raspberry Pi, supports S/PDIF, AES3, AES67, Livewire and Ravenna.
 - [QCTools](https://github.com/bavc/qctools) - Quality Control tools for video preservation to analyse digitized video files.
 - [Rotter](https://github.com/njh/rotter) - Recording of Transmissions / Audio Logger for JACK.
 - [silan](https://github.com/x42/silan) - Audiofile silence analyzer.
@@ -150,11 +150,11 @@ A curated list of amazingly awesome open source resources related to broadcast t
 
 ## Network & Storage Testing
 
+- [Examples of SMPTE ST 2110 pcap files](https://github.com/NEOAdvancedTechnology/ST2110_pcap_zoo)
 - [Fio](https://github.com/axboe/fio) - Flexible I/O Tester
 - [SMPTE 2110-20 Analyzer](https://github.com/ebu/smpte2110-analyzer) - Analyzer to inspect network packets generated in accordance with SMPTE ST 2110.
 - [Wireshark dissector for TSL UMD protocol V3.1, V4](https://github.com/roddypratt/tslumd-wireshark) - Analyzers for TSL UMD (under-monitor display) protocol V3.1 and V4.
 - [Wireshark dissectors for Video Routers](https://github.com/roddypratt/router_dissectors) - Analyzers for various video router/matrix protocols.
-- [Examples of SMPTE ST 2110 pcap files](https://github.com/NEOAdvancedTechnology/ST2110_pcap_zoo)
 
 ## Distributed Media Processing
 
@@ -178,8 +178,8 @@ A curated list of amazingly awesome open source resources related to broadcast t
 
 ## Subtitling
 
-- [EBU-TT-D W3C XML Schema](https://github.com/ebu/ebu-tt-d-xsd) - Informative EBU-TT-D XML Schema to support the implementation of EBU Tech 3380.
 - [EBU-TT Live Interoperability Toolkit](https://github.com/ebu/ebu-tt-live-toolkit) - Components for generating, testing and distributing [EBU-TT Live](https://tech.ebu.ch/publications/tech3370) subtitles.
+- [EBU-TT-D W3C XML Schema](https://github.com/ebu/ebu-tt-d-xsd) - Informative EBU-TT-D XML Schema to support the implementation of EBU Tech 3380.
 - [GStreamer TTML subtitling package](https://github.com/bbc/gst-ttml-subtitles) - A means for GStreamer pipelines to parse and render EBU-TT-D (TTML) subtitles.
 - [imscJS](https://github.com/sandflow/imscJS) - JavaScript library for rendering IMSC1 Text and Image Profile documents to HTML5.
 - [IRT EBU-TT-D Application Samples](https://github.com/IRT-Open-Source/irt-ebu-tt-d-application-samples) - EBU-TT-D sample files, PNG images and mp4 videos as rendering references.

@@ -35,8 +35,8 @@ A curated list of awesome Scriptable scripts and widgets.
 
 ## Tools
 
-- [bwh-monitor-widget-for-scriptable](https://github.com/f1tz/bwh-monitor-widget-for-scriptable) - BandWagonHost VPS Monitoring Widget. <img src="https://raw.githubusercontent.com/f1tz/bwh-monitor-widget-for-scriptable/main/imgs/widget_preview.jpg" width="400"/>
 - [bamboo-scriptable-widget](https://github.com/Korysam15/bamboo-scriptable-widget) - Status of build plans from Bamboo. <img src="https://raw.githubusercontent.com/Korysam15/bamboo-scriptable-widget/main/docs/img/widget.png" width="200"/>
+- [bwh-monitor-widget-for-scriptable](https://github.com/f1tz/bwh-monitor-widget-for-scriptable) - BandWagonHost VPS Monitoring Widget. <img src="https://raw.githubusercontent.com/f1tz/bwh-monitor-widget-for-scriptable/main/imgs/widget_preview.jpg" width="400"/>
 - [gitlab-stats-for-scribtable](https://github.com/p0fi/gitlab-stats-for-scribtable) - Statistics from GitLab like the number of assigned merge requests. <img src="https://raw.githubusercontent.com/p0fi/gitlab-stats-for-scribtable/main/cover.png" width="800"/>
 - [PurpleAir-AQI-Scriptable-Widget](https://github.com/jasonsnell/PurpleAir-AQI-Scriptable-Widget) - Air Quality from PurpleAir sensor. <img src="https://camo.githubusercontent.com/30832e8a15e65027863fc897d902810c1cbd3160f7c0e0a6ae96d3c37720cdca/68747470733a2f2f736978636f6c6f72732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032312f30382f6e65772d6171692e6a7067" width="400"/>
 - [scriptable-testflight-watcher](https://github.com/FifiTheBulldog/scriptable-testflight-watcher) - Get notifications about new spots in TestFlight betas.
@@ -44,8 +44,8 @@ A curated list of awesome Scriptable scripts and widgets.
 
 ## Finance
 
-- [CryptoDepotWidget](https://github.com/Martlgap/CryptoDepotWidget) - A widget showing your crypto balances. <img src="https://raw.githubusercontent.com/Martlgap/CryptoDepotWidget/main/preview_small.png" height="100"/> <img src="https://raw.githubusercontent.com/Martlgap/CryptoDepotWidget/main/preview_medium.png" height="100"/> <img src="https://raw.githubusercontent.com/Martlgap/CryptoDepotWidget/main/preview_large.png" height="200"/>
 - [btc-usd-course.js](https://github.com/wickenico/btc-usd-course.js) - Shows the current bitcoin course in USD. <img src="https://raw.githubusercontent.com/wickenico/btc-usd-course.js/main/img/bitcoin-usd-course-widget-small.png" height="200"/>
+- [CryptoDepotWidget](https://github.com/Martlgap/CryptoDepotWidget) - A widget showing your crypto balances. <img src="https://raw.githubusercontent.com/Martlgap/CryptoDepotWidget/main/preview_small.png" height="100"/> <img src="https://raw.githubusercontent.com/Martlgap/CryptoDepotWidget/main/preview_medium.png" height="100"/> <img src="https://raw.githubusercontent.com/Martlgap/CryptoDepotWidget/main/preview_large.png" height="200"/>
 - [Tradegate Stock Widget](https://github.com/Chrischi-/tradegate-stock-widget-for-scriptable) - Stocks Widget to show share prices from Tradegate Exchange. <img src="https://user-images.githubusercontent.com/6323217/147655180-c4d3041c-58c1-4108-b001-29e01767025d.png" height="200"/>
 
 ## Sports

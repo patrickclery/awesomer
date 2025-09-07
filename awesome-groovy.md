@@ -18,15 +18,15 @@ A curated list of awesome groovy libraries, frameworks and resources
 ## Build tools, setup and CI
 
 - [GMavenPlus](https://github.com/groovy/GMavenPlus) - A rewrite of GMaven, a Maven plugin for Groovy
-- [skeletal](https://github.com/cbmarcum/skeletal) - A simple project creation tool that uses packaged templates (successor of Lazybones)
-- [Lazybones](https://github.com/pledbrook/lazybones) - A simple project creation tool that uses packaged project templates.
 - [Jenkins job-dsl-plugin](https://github.com/jenkinsci/job-dsl-plugin) - A Groovy DSL for Jenkins Jobs
+- [Lazybones](https://github.com/pledbrook/lazybones) - A simple project creation tool that uses packaged project templates.
+- [skeletal](https://github.com/cbmarcum/skeletal) - A simple project creation tool that uses packaged templates (successor of Lazybones)
 - [travis-groovy](https://github.com/kdabir/travis-groovy) - execute groovy scripts on travis-ci
 
 ## Static Web
 
-- [Grain](https://github.com/sysgears/grain) - Static Web Site Building Framework For Groovy
 - [Gaiden](https://github.com/kobo/gaiden) - Gaiden is a tool that makes it easy to create documentation with Markdown.
+- [Grain](https://github.com/sysgears/grain) - Static Web Site Building Framework For Groovy
 
 ## Scripting Tools
 
@@ -37,17 +37,17 @@ A curated list of awesome groovy libraries, frameworks and resources
 
 ## File System Utilities
 
-- [Groovy-Vfs](https://github.com/ysb33r/groovy-vfs) - A DSL for Groovy on top of Apache VFS2
 - [Directree](https://github.com/kdabir/directree) - A Simple DSL to create Directory Tree with Text Files
+- [Groovy-Vfs](https://github.com/ysb33r/groovy-vfs) - A DSL for Groovy on top of Apache VFS2
 
 ## Database
 
-- [Gmongo](https://github.com/poiati/gmongo) - A Groovy wrapper to the mongodb Java driver
-- [Gstorm](https://github.com/kdabir/gstorm) - A simple ORM for simple databases and CSV files to be used in groovy scripts
-- [Tayra](https://github.com/EqualExperts/Tayra) - Incremental backup tool for MongoDB
-- [Groovy-liquibase](https://github.com/tlberglund/groovy-liquibase) - Yet Another Groovy DSL for Liquibase
 - [Effigy](https://github.com/cjstehno/effigy) - Groovy annotation-driven JDBC row mapping framework (abandoned)
 - [elasticsearch-groovy](https://github.com/elastic/elasticsearch-groovy) - Elasticsearch Groovy client
+- [Gmongo](https://github.com/poiati/gmongo) - A Groovy wrapper to the mongodb Java driver
+- [Groovy-liquibase](https://github.com/tlberglund/groovy-liquibase) - Yet Another Groovy DSL for Liquibase
+- [Gstorm](https://github.com/kdabir/gstorm) - A simple ORM for simple databases and CSV files to be used in groovy scripts
+- [Tayra](https://github.com/EqualExperts/Tayra) - Incremental backup tool for MongoDB
 
 ## Rule Engines
 
@@ -60,11 +60,11 @@ A curated list of awesome groovy libraries, frameworks and resources
 
 ## Web Frameworks
 
-- [Grails](https://github.com/grails/grails) - A powerful web application framework based on the Groovy language
 - [Gaelyk](https://github.com/gaelyk/gaelyk) - A lightweight Groovy toolkit for Google App Engine Java
 - [Glide](https://github.com/kdabir/glide) - Create awesome apps on Google App Engine in a snap
-- [Ratpack](https://github.com/ratpack/ratpack) - A toolkit for JVM web applications
+- [Grails](https://github.com/grails/grails) - A powerful web application framework based on the Groovy language
 - [gServ](https://github.com/javaConductor/gserv) - A Groovy toolkit for creating SPAs and REST based micro-services without the need for a container (Tomcat, JBoss, etc.).
+- [Ratpack](https://github.com/ratpack/ratpack) - A toolkit for JVM web applications
 
 ## Official Resources
 
@@ -72,11 +72,11 @@ A curated list of awesome groovy libraries, frameworks and resources
 
 ## Testing
 
-- [Spock](https://github.com/spockframework/spock) - The Enterprise-ready testing and specification framework.
-- [Geb](https://github.com/geb/geb) - Very Groovy Browser Automation
 - [Betamax](https://github.com/betamaxteam/betamax) - Betamax is a tool for mocking external HTTP resources such as web services and REST APIs in your tests.
-- [HTTP Mock Server](https://github.com/TouK/http-mock-server) - HTTP Mock Server allows to mock HTTP request using groovy closures.
 - [Ersatz Mock Server](https://github.com/cjstehno/ersatz) - A simple and expressive simulated HTTP server for testing client code with configurable responses.
+- [Geb](https://github.com/geb/geb) - Very Groovy Browser Automation
+- [HTTP Mock Server](https://github.com/TouK/http-mock-server) - HTTP Mock Server allows to mock HTTP request using groovy closures.
+- [Spock](https://github.com/spockframework/spock) - The Enterprise-ready testing and specification framework.
 
 ## Code Analysis
 
@@ -84,20 +84,20 @@ A curated list of awesome groovy libraries, frameworks and resources
 
 ## HTTP
 
-- [Http-Builder](https://github.com/jgritman/httpbuilder) - HTTPBuilder is the easiest way to manipulate HTTP-based resources from the JVM
-- [HTTP Builder NG](https://github.com/http-builder-ng/http-builder-ng) - HTTP Builder NG is a modern Groovy DSL for making http requests.
-- [HTTP Builder NG Gradle Plugin](https://github.com/http-builder-ng/gradle-http-plugin) - Gradle plugin providing HTTP Builder NG support in a Gradle build configuration.
 - [AsyncRestClient](https://github.com/eginez/AsyncRestClient) - Combine the power of RESTClient with RxGroovy for async http calls
 - [Groovy-wslite](https://github.com/jwagenleitner/groovy-wslite) - Lightweight SOAP and REST webservice clients for Groovy
+- [HTTP Builder NG](https://github.com/http-builder-ng/http-builder-ng) - HTTP Builder NG is a modern Groovy DSL for making http requests.
+- [HTTP Builder NG Gradle Plugin](https://github.com/http-builder-ng/gradle-http-plugin) - Gradle plugin providing HTTP Builder NG support in a Gradle build configuration.
+- [Http-Builder](https://github.com/jgritman/httpbuilder) - HTTPBuilder is the easiest way to manipulate HTTP-based resources from the JVM
 - [Hyperpoet](https://github.com/tambapps/hyperpoet) - Easy-to-use and customizable HTTP client for Groovy
 
 ## Language Utilities
 
-- [gbench](https://github.com/gperfutils/gbench) - The benchmarking module for Groovy
-- [Functionalgroovy](https://github.com/mperry/functionalgroovy) - Functional programming in Groovy
-- [Groovy-stream](https://github.com/timyates/groovy-stream) - A collection of classes to give a fluent builder for Streams (Lazy Groovy Generators)
 - [Flipside](https://github.com/johnnywey/flipside) - Simple Groovy options library
+- [Functionalgroovy](https://github.com/mperry/functionalgroovy) - Functional programming in Groovy
+- [Fuzzy-CSV](https://github.com/kayr/fuzzy-csv) - Simple lightweight data processing library, useful for shaping/processing your tabular data before its consumed by another service or library.
+- [gbench](https://github.com/gperfutils/gbench) - The benchmarking module for Groovy
+- [gprof](https://github.com/gperfutils/gprof) - The profiling module for Groovy
 - [groovy-common-extensions](https://github.com/timyates/groovy-common-extensions) - Lets you add things commonly useful to the Groovy language via the extension system
 - [groovy-extra-list-behaviour](https://github.com/dnahodil/groovy-extra-list-behaviour) - Adds extra methods to Lists via the extension system
-- [gprof](https://github.com/gperfutils/gprof) - The profiling module for Groovy
-- [Fuzzy-CSV](https://github.com/kayr/fuzzy-csv) - Simple lightweight data processing library, useful for shaping/processing your tabular data before its consumed by another service or library.
+- [Groovy-stream](https://github.com/timyates/groovy-stream) - A collection of classes to give a fluent builder for Streams (Lazy Groovy Generators)

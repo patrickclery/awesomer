@@ -14,17 +14,17 @@
 
 ## Templates
 
-- [Steve's R Markdown Templates](https://github.com/svmiller/svm-r-markdown-templates) - Academic manuscript, memos, Beamer presentation, syllabus and CV.
 - [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - Clean academic pandoc LaTeX template. Markdown](https://github.com/tompollard/phd_thesis_markdown#readme) - Clean organization of files to provide a framework for writing a PhD thesis in mostly Markdown with a little bit of LaTeX, and compiled with Pandoc.
+- [Steve's R Markdown Templates](https://github.com/svmiller/svm-r-markdown-templates) - Academic manuscript, memos, Beamer presentation, syllabus and CV.
 
 ## Word Processors
 
+- [bookdown](https://github.com/rstudio/bookdown) - R package to facilitate writing books and long-form articles, reports with R Markdown :bookmark: :link:.
+- [Markdown Preview Enhanced](https://github.com/shd101wyy/markdown-preview-enhanced) - Pandoc integration and utilities.
 - [Marktext](https://github.com/marktext/marktext) - Markdown text editor.
 - [R Studio](https://github.com/rstudio/rstudio) - IDE for R.
-- [bookdown](https://github.com/rstudio/bookdown) - R package to facilitate writing books and long-form articles, reports with R Markdown :bookmark: :link:.
 - [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc) - Pandoc integration and utilities for Vim.
 - [vim-pandoc-syntax](https://github.com/vim-pandoc/vim-pandoc-syntax) - Pandoc syntax highlighting for Vim.
-- [Markdown Preview Enhanced](https://github.com/shd101wyy/markdown-preview-enhanced) - Pandoc integration and utilities.
 
 ## Converters and Filters
 

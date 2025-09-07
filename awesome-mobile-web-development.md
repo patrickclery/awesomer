@@ -5,8 +5,8 @@
 ## Other Useful Tools and Libraries
 
 - [Eruda](https://github.com/liriliri/eruda) - Console for mobile web browsers.
-- [Interact.js](https://github.com/taye/interact.js) - Drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers.
 - [Fastclick](https://github.com/ftlabs/fastclick) - Removing of 300ms delay in old browsers.
+- [Interact.js](https://github.com/taye/interact.js) - Drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers.
 - [Lozad.js](https://github.com/ApoorvSaxena/lozad.js) - Highly performant, light and configurable lazy loader using IntersectionObserver API
 - [React Dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker React library for the web.
 - [Shiny](https://github.com/rikschennink/shiny) - Shiny reflections for mobile websites.

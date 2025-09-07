@@ -12,25 +12,42 @@
 
 - [asdf](https://github.com/asdf-vm/asdf) - Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
 - [basher](https://github.com/basherpm/basher) - Package manager for shell scripts.
-- [mas](https://github.com/mas-cli/mas) - Mac App Store command line interface.
 - [chromebrew](https://github.com/skycocker/chromebrew) - Package manager for Chrome OS.
+- [mas](https://github.com/mas-cli/mas) - Mac App Store command line interface.
 - [oneget](https://github.com/OneGet/oneget) - PackageManagement (aka OneGet) is a package manager for Windows.
 
 ## Shells
 
-- [Ammonite-Shell](https://github.com/lihaoyi/ammonite) - An object shell with a Scala-like scripting language.
-- [PowerShell](https://github.com/PowerShell/PowerShell) - Automation and configuration tool/framework that is optimized for dealing with structured data.
 - [alf](https://github.com/psyrendust/alf) - Out of this world super fast and configurable framework for zsh.
+- [aliases](https://github.com/sebglazebrook/aliases) - Contextual, dynamic, organized aliases for the bash shell.
+- [Ammonite-Shell](https://github.com/lihaoyi/ammonite) - An object shell with a Scala-like scripting language.
 - [ant-zsh](https://github.com/anthraxx/ant-zsh) - Tiny and lightweight ZSH configuration environment for special customization needs.
 - [antibody](https://github.com/getantibody/antibody) - Faster and simpler antigen written in Golang.
 - [antigen](https://github.com/zsh-users/antigen) - Plugin manager for zsh, inspired by oh-my-zsh and vundle.
+- [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - Informative and fancy Bash prompt for Git users.
+- [bash-it](https://github.com/Bash-it/bash-it) - Collection of community Bash commands and scripts.
+- [bash-powerline](https://github.com/riobard/bash-powerline) - Powerline-style Bash prompt in pure Bash script.
+- [bash-sensible](https://github.com/mrzool/bash-sensible) - Attempt at saner Bash defaults.
+- [bashtrap](https://github.com/barryclark/bashstrap) - Quick way to spruce up OSX terminal.
 - [dotzsh](https://github.com/dotphiles/dotzsh) - Community driven framework for zsh.
+- [Fisher](https://github.com/jorgebucaran/fisher) - Package manager for the fish shell.
+- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Collection of useful extra commands for git
+- [git-prompt](https://github.com/lvv/git-prompt) - Bash prompt with Git, SVN and HG modules.
+- [git-radar](https://github.com/michaeldfallen/git-radar) - Heads up display for git
+- [git-sh](https://github.com/rtomayko/git-sh) - Customized Bash environment suitable for Git work.
+- [gittify](https://github.com/momeni/gittify) - Colorful Bash prompt + customized Git aliases.
+- [hstr](https://github.com/dvorka/hstr) - Bash History Suggest Box.
 - [liquidprompt](https://github.com/nojhan/liquidprompt) - Full-featured & carefully designed adaptive prompt for Bash & Zsh.
+- [liquidprompt](https://github.com/nojhan/liquidprompt) - Full-featured & carefully designed adaptive prompt for Bash & Zsh.
+- [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - The Fishshell Framework.
+- [oh-my-git](https://github.com/arialdomartini/oh-my-git) - Opinionated git prompt for bash and zsh.
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Delightful community-driven framework for managing your zsh configuration.
 - [powerlevel9k](https://github.com/bhilburn/powerlevel9k) - Super flexible awesome powerline ZSH theme.
+- [PowerShell](https://github.com/PowerShell/PowerShell) - Automation and configuration tool/framework that is optimized for dealing with structured data.
 - [prezto](https://github.com/sorin-ionescu/prezto) - Configuration framework for Zsh.
 - [pumice](https://github.com/ryutamaki/pumice) - Lightweight plugin manager for zsh.
 - [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
+- [sexy-bash-prompt](https://github.com/twolfson/sexy-bash-prompt) - Bash prompt with colors, Git statuses, and Git branches.
 - [slimzsh](https://github.com/changs/slimzsh) - Small, usable configuration for ZSH.
 - [zeesh](https://github.com/zeekay/zeesh) - Cross-platform Zsh framework.
 - [zgen](https://github.com/tarjoilija/zgen) - Lightweight and simple plugin manager for ZSH.
@@ -48,23 +65,6 @@
 - [ztanesh](https://github.com/miohtama/ztanesh) - Aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project.
 - [zulu](https://github.com/zulu-zsh/zulu) - Total environment manager for ZSH 5+.
 - [zunit](https://github.com/molovo/zunit) - Powerful unit testing framework for ZSH.
-- [aliases](https://github.com/sebglazebrook/aliases) - Contextual, dynamic, organized aliases for the bash shell.
-- [bash-it](https://github.com/Bash-it/bash-it) - Collection of community Bash commands and scripts.
-- [bash-powerline](https://github.com/riobard/bash-powerline) - Powerline-style Bash prompt in pure Bash script.
-- [bash-sensible](https://github.com/mrzool/bash-sensible) - Attempt at saner Bash defaults.
-- [bashtrap](https://github.com/barryclark/bashstrap) - Quick way to spruce up OSX terminal.
-- [hstr](https://github.com/dvorka/hstr) - Bash History Suggest Box.
-- [liquidprompt](https://github.com/nojhan/liquidprompt) - Full-featured & carefully designed adaptive prompt for Bash & Zsh.
-- [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - Informative and fancy Bash prompt for Git users.
-- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Collection of useful extra commands for git
-- [git-prompt](https://github.com/lvv/git-prompt) - Bash prompt with Git, SVN and HG modules.
-- [git-radar](https://github.com/michaeldfallen/git-radar) - Heads up display for git
-- [git-sh](https://github.com/rtomayko/git-sh) - Customized Bash environment suitable for Git work.
-- [gittify](https://github.com/momeni/gittify) - Colorful Bash prompt + customized Git aliases.
-- [oh-my-git](https://github.com/arialdomartini/oh-my-git) - Opinionated git prompt for bash and zsh.
-- [sexy-bash-prompt](https://github.com/twolfson/sexy-bash-prompt) - Bash prompt with colors, Git statuses, and Git branches.
-- [Fisher](https://github.com/jorgebucaran/fisher) - Package manager for the fish shell.
-- [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - The Fishshell Framework.
 
 ## Other
 

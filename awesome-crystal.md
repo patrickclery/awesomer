@@ -5,12 +5,12 @@
 ## Editor Plugins
 
 - [acmecrystal](https://github.com/ilanpillemer/acmecrystal) - Reformats crystal code in acme
+- [crystal-spacemacs-layer](https://github.com/juanedi/crystal-spacemacs-layer) - Spacemacs contribution layer for Crystal
+- [Crystal.tmbundle](https://github.com/crystal-lang-tools/Crystal.tmbundle) - Crystal syntax highlighting, compile, format command, snippets
 - [geany-crystal](https://github.com/crystal-lang-tools/geany-crystal) - Crystal support for the [Geany editor](https://www.geany.org/)
 - [intellij-crystal-lang](https://github.com/asedunov/intellij-crystal-lang) - Crystal support for the JetBrains IDEs
 - [lite-plugin-crystal](https://github.com/Tamnac/lite-plugin-crystal) - Crystal support for the [Lite-XL](https://lite-xl.com/en/) editor
-- [crystal-spacemacs-layer](https://github.com/juanedi/crystal-spacemacs-layer) - Spacemacs contribution layer for Crystal
 - [sublime-crystal](https://github.com/crystal-lang-tools/sublime-crystal) - Crystal syntax highlighting for sublime Text
-- [Crystal.tmbundle](https://github.com/crystal-lang-tools/Crystal.tmbundle) - Crystal syntax highlighting, compile, format command, snippets
 - [vim-crystal](https://github.com/vim-crystal/vim-crystal) - Vim filetype support for Crystal
 - [vim-slang](https://github.com/elorest/vim-slang) - Vim filetype support for Slang Templating Engine
 - [vscode-crystal-lang](https://github.com/crystal-lang-tools/vscode-crystal-lang) - Formatter, linter and syntax highlighting for `cr` and `ecr` files
@@ -78,17 +78,17 @@
 
 ## Official Documentation Translations
 
+- [ast_helper](https://github.com/bcardiff/crystal-ast-helper) - Helper tool to debug parser and formatter
 - [Crank](https://github.com/arktisklada/crank) - A Procfile-based application manager (like Foreman)
 - [cry](https://github.com/elorest/cry) - Ability to execute crystal code in a fashion similar to Ruby's pry edit
+- [crystal-base](https://github.com/ruivieira/crystal-base) - CentOS base docker image for Crystal development
+- [crystal-dash-docset](https://github.com/Sija/crystal-dash-docset) - [Dash](https://kapeli.com/dash) docset generator
 - [DeBot](https://github.com/jhass/DeBot) - IRC bot written in Crystal
 - [icr](https://github.com/crystal-community/icr) - Interactive console for Crystal (like IRB for Ruby)
 - [Invidious](https://github.com/iv-org/invidious) - Invidious is an alternative front-end to YouTube
 - [mpngin](https://github.com/thewalkingtoast/mpngin) - A URL shortener with simple stats
-- [procodile](https://github.com/crystal-china/procodile) - Run processes in the background (and foreground) on Mac & Linux from a Procfile (for production and/or development environments)
-- [ast_helper](https://github.com/bcardiff/crystal-ast-helper) - Helper tool to debug parser and formatter
-- [crystal-base](https://github.com/ruivieira/crystal-base) - CentOS base docker image for Crystal development
-- [crystal-dash-docset](https://github.com/Sija/crystal-dash-docset) - [Dash](https://kapeli.com/dash) docset generator
 - [port_ruby_to_crystal](https://github.com/crystal-china/port_ruby_to_crystal) - A regex replace ruby script for port ruby code to crystal easier, reduce friction
+- [procodile](https://github.com/crystal-china/procodile) - Run processes in the background (and foreground) on Mac & Linux from a Procfile (for production and/or development environments)
 - [public_suffix](https://github.com/toddsundsted/public_suffix) - A small library designed to make the Public Suffix List (https://publicsuffix.org/) easier to use
 
 ## C bindings

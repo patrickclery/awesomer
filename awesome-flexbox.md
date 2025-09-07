@@ -5,8 +5,8 @@
 ## Featured Projects
 
 - [flex-box](https://github.com/potch/flex-box) - A Custom Element to make the basics of flexbox easier to use.
-- [Flexbugs](https://github.com/philipwalton/flexbugs) - A community-curated list of flexbox issues and cross-browser workarounds for them.
 - [Flexbox layout](https://github.com/google/flexbox-layout) - FlexboxLayout is a library project which brings the similar capabilities of CSS Flexible Box Layout Module to Android.
+- [Flexbugs](https://github.com/philipwalton/flexbugs) - A community-curated list of flexbox issues and cross-browser workarounds for them.
 - [FlexLayout for iOS](https://github.com/lucdion/FlexLayout) - FlexLayout brings flexbox to iOS using Swift. Concise, intuitive & chainable syntax.
 - [grid-styled](https://github.com/jxnblk/grid-styled) - Flexbox based responsive ReactJS grid system built with styled-components
 - [Post Apocalypse Flexbox](https://github.com/afonsopacifer/post-apocalypse-flexbox)
@@ -29,8 +29,8 @@
 
 ## Cross Browser
 
-- [Sass flex mixin](https://github.com/mastastealth/sass-flex-mixin)
-- [Stylus flex mixin](https://github.com/differui/stylus-flex-mixin)
 - [Flexibility](https://github.com/10up/flexibility)
 - [Flexie](https://github.com/doctyper/flexie)
 - [Reflexie](https://github.com/doctyper/reflexie)
+- [Sass flex mixin](https://github.com/mastastealth/sass-flex-mixin)
+- [Stylus flex mixin](https://github.com/differui/stylus-flex-mixin)

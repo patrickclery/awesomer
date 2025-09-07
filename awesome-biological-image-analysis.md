@@ -62,9 +62,9 @@ A curated list of software, tools, pipelines, plugins etc. for image analysis re
 ## Cell migration and particle tracking
 
 - [CellMigration](https://github.com/quantixed/CellMigration) - Analysis of 2D cell migration in Igor.
+- [QuimP](https://github.com/CellDynamics/QuimP) - Software for tracking cellular shape changes and dynamic distributions of fluorescent reporters at the cell membrane.
 - [TrackMate](https://github.com/fiji/TrackMate) - User-friendly interface that allows for performing tracking, data visualization, editing results and track analysis in a convenient way.
 - [TrackMateR](https://github.com/quantixed/TrackMateR) - R package to analyze cell migration and particle tracking experiments using outputs from TrackMate.
-- [QuimP](https://github.com/CellDynamics/QuimP) - Software for tracking cellular shape changes and dynamic distributions of fluorescent reporters at the cell membrane.
 - [Ultrack](https://github.com/royerlab/ultrack) - Versatile cell tracking method for 2D, 3D, and multichannel timelapses, overcoming segmentation challenges in complex tissues.
 - [Usiigaci](https://github.com/oist/usiigaci) - Stain-free cell tracking in phase contrast microscopy enabled by supervised machine learning.
 
@@ -73,8 +73,8 @@ A curated list of software, tools, pipelines, plugins etc. for image analysis re
 - [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) - Open-source software for deep learning-based digital pathology.
 - [HistoClean](https://github.com/HistoCleanQUB/HistoClean) - Tool for the preprocessing and augmentation of images used in deep learning models.
 - [Minerva](https://github.com/labsyspharm/minerva-story) - Image viewer designed specifically to make it easy for non-expert users to interact with complex tissue images.
-- [PathML](https://github.com/Dana-Farber-AIOS/pathml) - An open-source toolkit for computational pathology and machine learning.
 - [PAQUO](https://github.com/bayer-science-for-a-better-life/paquo) - A library for interacting with QuPath from Python.
+- [PathML](https://github.com/Dana-Farber-AIOS/pathml) - An open-source toolkit for computational pathology and machine learning.
 
 ## Microbiology
 
@@ -124,8 +124,8 @@ A curated list of software, tools, pipelines, plugins etc. for image analysis re
 
 - [ASI_MTF](https://github.com/emx77/ASI_MTF) - ImageJ macro to calculate the modulation transfer function (MTF) based on a knife edge (or slanted edge) measurement.
 - [DECODE](https://github.com/TuragaLab/DECODE) - Python and PyTorch based deep learning tool for single molecule localization microscopy.
-- [Empanada](https://github.com/volume-em/empanada) - Panoptic segmentation algorithms for 2D and 3D electron microscopy images.
 - [Em-scalebartools](https://github.com/lukmuk/em-scalebartools) - Fiji/ImageJ macros to quickly add a scale bar to an (electron microscopy) image.
+- [Empanada](https://github.com/volume-em/empanada) - Panoptic segmentation algorithms for 2D and 3D electron microscopy images.
 - [Picasso](https://github.com/jungmannlab/picasso) - A collection of tools for painting super-resolution images.
 - [SMAP](https://github.com/jries/SMAP) - A modular super-resolution microscopy analysis platform for SMLM data.
 - [ThunderSTORM](https://github.com/zitmen/thunderstorm) - A comprehensive ImageJ plugin for SMLM data analysis and super-resolution imaging.
@@ -151,9 +151,9 @@ A curated list of software, tools, pipelines, plugins etc. for image analysis re
 - [DetecDiv](https://github.com/gcharvin/DetecDiv) - Comprehensive set of tools to analyze time microscopy images using deep learning methods.
 - [MIA](https://github.com/mianalysis/mia) - Fiji plugin which provides a modular framework for assembling image and object analysis workflows.
 - [Napari-aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio) - Multiple file format reading directly into napari using pure Python.
+- [Nd2reader](https://github.com/Open-Science-Tools/nd2reader) - A pure-Python package that reads images produced by NIS Elements 4.0+.
 - [NEFI2](https://github.com/05dirnbe/nefi) - Python tool created to extract networks from images.
 - [Neurite](https://github.com/adalca/neurite) - Neural networks toolbox focused on medical image analysis.
-- [Nd2reader](https://github.com/Open-Science-Tools/nd2reader) - A pure-Python package that reads images produced by NIS Elements 4.0+.
 - [OAD](https://github.com/zeiss-microscopy/OAD) - Collection of tools and scripts useful to automate microscopy workflows in ZEN Blue using Python and Open Application Development tools.
 - [Pycytominer](https://github.com/cytomining/pycytominer) - Data processing functions for profiling perturbations.
 - [Pyotf](https://github.com/david-hoffman/pyotf) - A simulation software package for modelling optical transfer functions (OTF)/point spread functions (PSF) of optical microscopes written in Python.

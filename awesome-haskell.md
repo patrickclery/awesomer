@@ -10,8 +10,8 @@ A collection of awesome Haskell links, frameworks, libraries and software. Inspi
 
 ## Tutorials
 
-- [learnhaskell](https://github.com/bitemyapp/learnhaskell) - Haskell Learning (also for non-English speakers).
 - [Awesome Haskell Videos](https://github.com/andys8/awesome-haskell-videos) - Curated list of Haskell talks and tutorials
+- [learnhaskell](https://github.com/bitemyapp/learnhaskell) - Haskell Learning (also for non-English speakers).
 
 ## Data Access
 
@@ -23,8 +23,8 @@ A collection of awesome Haskell links, frameworks, libraries and software. Inspi
 
 ## Web / Frameworks
 
-- [HTTP](https://github.com/haskell/HTTP) - Haskell HTTP package. Supports client-side web programming in Haskell.
 - [hoauth2](https://github.com/freizl/hoauth2) - a lightweight oauth2 haskell binding.
+- [HTTP](https://github.com/haskell/HTTP) - Haskell HTTP package. Supports client-side web programming in Haskell.
 
 ## Languages
 
@@ -32,8 +32,8 @@ A collection of awesome Haskell links, frameworks, libraries and software. Inspi
 
 ## Messaging
 
-- [SimpleX Chat](https://github.com/simplex-chat/simplex-chat) - the first chat platform that is 100% private by design - it has no access to your connection graph!
 - [amqp](https://github.com/hreinhardt/amqp) - client library for AMQP servers (currently only RabbitMQ).
+- [SimpleX Chat](https://github.com/simplex-chat/simplex-chat) - the first chat platform that is 100% private by design - it has no access to your connection graph!
 
 ## Data Science
 
@@ -42,5 +42,5 @@ A collection of awesome Haskell links, frameworks, libraries and software. Inspi
 ## Streaming Processing
 
 - [Conduit](https://github.com/snoyberg/conduit) - a streaming data library. [Resources](http://hackage.haskell.org/packages/#cat:Conduit).
-- [Pipes](https://github.com/Gabriel439/Haskell-Pipes-Library) - is a clean and powerful stream processing library that lets you build and connect reusable streaming components. [Resources](http://hackage.haskell.org/packages/#cat:Pipes).
 - [HStreamDB](https://github.com/hstreamdb/hstream) - The streaming database built for IoT data storage and real-time processing.
+- [Pipes](https://github.com/Gabriel439/Haskell-Pipes-Library) - is a clean and powerful stream processing library that lets you build and connect reusable streaming components. [Resources](http://hackage.haskell.org/packages/#cat:Pipes).

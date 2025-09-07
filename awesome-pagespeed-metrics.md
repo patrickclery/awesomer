@@ -16,5 +16,5 @@
 
 ## Rendering metrics
 
-- [Spec - LCP - W3C](https://github.com/WICG/largest-contentful-paint) - A layout shift occurs any time a visible element changes its position from one frame to the next. CLS measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page.
 - [Spec - Layout Instability API - W3C](https://github.com/WICG/layout-instability) - The Visually Complete is the time from the start of the initial navigation until the **visible (above the fold) part of your page is no longer changing**. (e.g. WPT measures this using a color histogram of the page based on video/screenshots recording).
+- [Spec - LCP - W3C](https://github.com/WICG/largest-contentful-paint) - A layout shift occurs any time a visible element changes its position from one frame to the next. CLS measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page.

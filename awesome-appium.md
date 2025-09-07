@@ -4,9 +4,9 @@ A curated list of delightful Appium resources.
 
 ## Inspectors
 
+- [app-inspector](https://github.com/macacajs/app-inspector) - Macacajs App Inspector.
 - [Appium Desktop](https://github.com/appium/appium-desktop) - Appium Server and Inspector in Desktop GUIs for Mac, Windows, and Linux.
 - [Appium iOS Inspector](https://github.com/mykola-mokhnach/Appium-iOS-Inspector) - The tool for iOS elements location based on the original source of Selendroid Inspector.
-- [app-inspector](https://github.com/macacajs/app-inspector) - Macacajs App Inspector.
 
 ## Test Frameworks
 
@@ -23,19 +23,19 @@ A curated list of delightful Appium resources.
 
 ## Cloud and Docker Solutions
 
+- [Appium Docker File](https://github.com/aluedeke/appium-android) - DockerFile for Appium Android.
+- [Appium Docker File](https://github.com/softsam/docker-appium) - DockerFile for Appium Android.
+- [Appium Docker Images](https://github.com/butomo1989/docker-android) - DockerFile for Appium Android.
 - [Appium Tests in AWS Device Farm](https://github.com/awslabs/aws-device-farm-appium-tests-for-sample-app) - Sample Appium tests runs on AWS Device Farm.
 - [Appium Tests in OpenSTF Device Farm](https://github.com/openstf/stf-appium-example) - Sample Appium tests runs on STF Device Farm.
 - [Official Appium Docker Images](https://github.com/appium/appium-docker-android) - DockerFile for Appium Android Real Devices.
-- [Appium Docker Images](https://github.com/butomo1989/docker-android) - DockerFile for Appium Android.
-- [Appium Docker File](https://github.com/aluedeke/appium-android) - DockerFile for Appium Android.
-- [Appium Docker File](https://github.com/softsam/docker-appium) - DockerFile for Appium Android.
 
 ## Clients
 
-- [Ruby](https://github.com/appium/ruby_lib)
-- [Python](https://github.com/appium/python-client)
+- [C# (.NET)](https://github.com/appium/appium-dotnet-driver)
 - [Java](https://github.com/appium/java-client)
 - [Objective C](https://github.com/appium/selenium-objective-c)
 - [PHP](https://github.com/appium/php-client)
-- [C# (.NET)](https://github.com/appium/appium-dotnet-driver)
+- [Python](https://github.com/appium/python-client)
 - [RobotFramework](https://github.com/jollychang/robotframework-appiumlibrary)
+- [Ruby](https://github.com/appium/ruby_lib)

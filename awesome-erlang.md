@@ -6,8 +6,8 @@ A curated list of awesome Erlang libraries, resources and shiny things.
 
 - [datum](https://github.com/fogfish/datum) - A pure functional and generic programming for Erlang
 - [erlando](https://github.com/travelping/erlando) - A set of syntax extensions like currying and monads for Erlang.
-- [statebox](https://github.com/mochi/statebox) - Erlang state "monad" with merge/conflict-resolution capabilities.
 - [riak_dt](https://github.com/basho/riak_dt) - Erlang library of state based CRDTs.
+- [statebox](https://github.com/mochi/statebox) - Erlang state "monad" with merge/conflict-resolution capabilities.
 
 ## Debugging
 
@@ -32,8 +32,8 @@ A curated list of awesome Erlang libraries, resources and shiny things.
 ## Third Party APIs
 
 - [google-token-erlang](https://github.com/ruel/google-token-erlang) - Google ID token verifier for Erlang.
-- [restc](https://github.com/kivra/restclient) - An Erlang REST client
 - [oauth2c](https://github.com/kivra/oauth2_client) - An Erlang oAuth 2 client (uses restc)
+- [restc](https://github.com/kivra/restclient) - An Erlang REST client
 
 ## Build Tools
 
@@ -59,8 +59,8 @@ A curated list of awesome Erlang libraries, resources and shiny things.
 - [lager_amqp_backend](https://github.com/jbrisbin/lager_amqp_backend) - AMQP RabbitMQ Lager backend.
 - [lager_hipchat](https://github.com/synlay/lager_hipchat) - HipChat backend for lager.
 - [lager_loggly](https://github.com/kivra/lager_loggly) - Loggly backend for lager.
-- [lager_smtp](https://github.com/blinkov/lager_smtp) - SMTP backend for lager.
 - [lager_slack](https://github.com/furmanOFF/lager_slack) - Simple Slack backend for lager.
+- [lager_smtp](https://github.com/blinkov/lager_smtp) - SMTP backend for lager.
 - [logplex](https://github.com/heroku/logplex) - Heroku log router.
 
 ## Monitoring

@@ -35,12 +35,14 @@ A curated list of dotfiles resources.
 - [bashdot](https://github.com/bashdot/bashdot) - Minimalist dotfile management framework written entirely in bash.
 - [chezmoi](https://github.com/twpayne/chezmoi) - Manage your dotfiles securely across multiple machines.
 - [comtrya](https://github.com/comtrya/comtrya) - Configuration management for localhost, written in Rust, for Linux, BSD, macOS, and Windows.
+- [dockutil](https://github.com/kcrawford/dockutil) - Command line tool for managing dock items.
 - [dotbare](https://github.com/kazhala/dotbare) - Manage dotfiles interactively with fzf.
 - [dotbot](https://github.com/anishathalye/dotbot) - Tool that bootstraps your dotfiles.
 - [dotdrop](https://github.com/deadc0de6/dotdrop) - Save your dotfiles once, deploy them everywhere.
 - [Fisher](https://github.com/jorgebucaran/fisher) - A package manager for Fish.
 - [homeshick](https://github.com/andsens/homeshick) - Git dotfile synchronizer written in Bash.
 - [mackup](https://github.com/lra/mackup) - Keep your application settings in sync (macOS/Linux).
+- [mas](https://github.com/mas-cli/mas) - Mac App Store command line interface.
 - [Pearl](https://github.com/pearl-core/pearl) - Package manager that allows to control, sync, share dotfiles as packages automatically activated during shells or editors startup. There is a wide range of packages already available. in the [Official Pearl Hub](https://github.com/pearl-hub) (for Linux and OSX).
 - [rcm](https://github.com/thoughtbot/rcm) - rc file (dotfile) management.
 - [rotz](https://github.com/volllly/rotz) - Fully cross-platform dotfile manager and dev environment bootstrapper written in Rust.
@@ -48,6 +50,4 @@ A curated list of dotfiles resources.
 - [toml-bombadil](https://github.com/oknozor/toml-bombadil) - Templatize and manage your dotfiles.
 - [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) - A shell script which checks your $HOME for unwanted files and directories.
 - [yadm](https://github.com/TheLocehiliosan/yadm) - Tool for managing a collection of files across multiple computers, using a shared Git repository and some additional features.
-- [dockutil](https://github.com/kcrawford/dockutil) - Command line tool for managing dock items.
-- [mas](https://github.com/mas-cli/mas) - Mac App Store command line interface.
 - [zero](https://github.com/zero-sh/zero.sh) - Radically simple personal bootstrapping tool for macOS.

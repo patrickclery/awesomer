@@ -34,11 +34,11 @@ A list of awesome Symfony bundles, utilities and resources.
 ## Queues
 
 - [BernardBundle](https://github.com/bernardphp/BernardBundle) - Bernard is a multi-backend PHP library for creating background jobs for later processing.
+- [Enqueue](https://github.com/php-enqueue/enqueue-dev) - Provides a common way for programs to create, send, read messages. Inspired by Java JMS
 - [HeriJobQueueBundle](https://github.com/heristop/HeriJobQueueBundle) - This Symfony bundle provides the use of Zend Queue from Zend Framework.
 - [LeezyPheanstalkBundle](https://github.com/armetiz/LeezyPheanstalkBundle) - Bundle for Pheanstalk, PHP client for beanstalkd queue.
 - [RabbitMqBundle](https://github.com/videlalvaro/RabbitMqBundle) - RabbitMQ bundle.
 - [RSQueueBundle](https://github.com/mmoreram/RSQueueBundle) - Queues infrastructure based on Redis, with Producer-Consumer and Publisher-Subscriber
-- [Enqueue](https://github.com/php-enqueue/enqueue-dev) - Provides a common way for programs to create, send, read messages. Inspired by Java JMS
 
 ## Ecommerce
 
@@ -105,11 +105,11 @@ A list of awesome Symfony bundles, utilities and resources.
 
 - [AdminCrudBundle](https://github.com/MWSimple/AdminCrudBundle) - AdminCrudBundle - Use SensioGeneratorBundle. Extend controller, add paginator, filter, others.
 - [AdmingeneratorGeneratorBundle](https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle) - Admingenerator for Symfony2, parse generator.yml files to build classes
+- [AdminLTEBundle](https://github.com/kevinpapst/AdminLTEBundle) - Admin theme based on the AdminLTE Template
 - [EasyAdminBundle](https://github.com/javiereguiluz/EasyAdminBundle) - Simple admin generator for Symfony applications
 - [SonataAdminBundle](https://github.com/sonata-project/SonataAdminBundle) - AdminBundle - The missing Symfony2 Admin Generator
-- [AdminLTEBundle](https://github.com/kevinpapst/AdminLTEBundle) - Admin theme based on the AdminLTE Template
-- [Umbrella framework](https://github.com/acantepie/umbrella) - Admin components and theme to create administration backends.
 - [TablerBundle](https://github.com/kevinpapst/TablerBundle) - Admin theme based on the Tabler Template. It ships with many twig helpers (functions, filter, embeds, macros and includes).
+- [Umbrella framework](https://github.com/acantepie/umbrella) - Admin components and theme to create administration backends.
 
 ## Web Services
 
@@ -162,6 +162,7 @@ A list of awesome Symfony bundles, utilities and resources.
 - [AvAlertifyBundle](https://github.com/AppVentus/AvAlertifyBundle) - This bundle allows you to easily harmonize alerts and others notifications.
 - [AviaryBundle](https://github.com/AppVentus/AviaryBundle) - This bundle provides multiple file uploads, based on the BlueImp jQuery file uploader package. It provides also Aviary editing image functionnalities.
 - [AvListBundle](https://github.com/AppVentus/AvListBundle) - Easily make paginate and orderable list in Symfony2.
+- [BabDevPagerfantaBundle](https://github.com/BabDev/BabDevPagerfantaBundle) - Bundle to use Pagerfanta.
 - [BackupManagerBundle](https://github.com/lhpalacio/BackupManagerBundle) - A simple database backup manager for Symfony2 with support for S3, Rackspace, Dropbox, FTP, SFTP.
 - [BazingaFakerBundle](https://github.com/willdurand/BazingaFakerBundle) - Put the awesome Faker library into the Symfony2 DIC and populate your database with fake data.
 - [BazingaGeocoderBundle](https://github.com/geocoder-php/BazingaGeocoderBundle) - Integration of the Geocoder library.
@@ -176,10 +177,10 @@ A list of awesome Symfony bundles, utilities and resources.
 - [CheckBundles](https://github.com/wjzijderveld/CheckBundles) - Checks installed but not activated in AppKernel bundles.
 - [CloudBackupBundle](https://github.com/dizda/CloudBackupBundle) - Be able to backup your database(s) and upload it to the cloud.
 - [ConsoleBundle](https://github.com/CoreSphere/ConsoleBundle) - Commandline interface in browser.
-- [EightPointsGuzzleBundle](https://github.com/8p/EightPointsGuzzleBundle) - Integrates Guzzle 6.x, a PHP HTTP Client, into Symfony 2-4 and provides plugins to extend basic functionality.
 - [CsaGuzzleBundle](https://github.com/csarrazi/CsaGuzzleBundle) - Bundle integrating Guzzle >=4.0 in Symfony.
 - [CsvBundle](https://github.com/EGYG33K/CsvBundle) - An integration for thephpleague/csv into Symfony.
 - [DomainParserBundle](https://github.com/EGYG33K/DomainParserBundle) - Integration of Domain Parser into Symfony.
+- [EightPointsGuzzleBundle](https://github.com/8p/EightPointsGuzzleBundle) - Integrates Guzzle 6.x, a PHP HTTP Client, into Symfony 2-4 and provides plugins to extend basic functionality.
 - [EmbedlyBundle](https://github.com/EmanueleMinotto/EmbedlyBundle) - Bundle for the embed.ly library.
 - [ExcelBundle](https://github.com/liuggio/ExcelBundle) - Excel integration in Symfony2 thanks to https://github.com/PHPOffice/PHPExcel library.
 - [FeatureToggleBundle](https://github.com/marekkalnik/FeatureToggleBundle) - Configure your feature toggling in Symfony2 by adding some simple tags to twig and extending it's configuration.
@@ -229,7 +230,6 @@ A list of awesome Symfony bundles, utilities and resources.
 - [TransmissionBundle](https://github.com/labzone/TransmissionBundle) - Bundle for Transmission API client.
 - [versioning-bundle](https://github.com/shivas/versioning-bundle) - Simple way to version (semantic versioning 2.0.0).
 - [VisithorBundle](https://github.com/Visithor/VisithorBundle) - Symfony Bundle for PHP Package visithor.
-- [BabDevPagerfantaBundle](https://github.com/BabDev/BabDevPagerfantaBundle) - Bundle to use Pagerfanta.
 - [WidopFrameworkExtraBundle](https://github.com/widop/WidopFrameworkExtraBundle) - Adds annotation configuration for Controller classes.
 - [WozbeRedirectBundle](https://github.com/wozbe/WozbeRedirectBundle) - A short bundle to manage many domains.
 

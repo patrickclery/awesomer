@@ -13,16 +13,16 @@ Awesome list of computational biology.
 
 ## Drug Response Prediction
 
-- [drGAT](https://github.com/inoue0426/drGAT)
-- [DGDRP](https://github.com/minwoopak/heteronet)
+- [BioGPT](https://github.com/microsoft/BioGPT) - LLM for Biomedical text generation
+- [ChemBERTa-2](https://github.com/seyonechithrananda/bert-loves-chemistry) - a library for chemical embeddingg and prediction.
 - [DeepAEG](https://github.com/zhejiangzhuque/DeepAEG)
 - [DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose) - A DL Library for Drug Repurposing.
-- [NeoDTI](https://github.com/FangpingWan/NeoDTI) - A library for Drug Target Interaction.
-- [MCPINN](https://github.com/mhlee0903/multi_channels_PINN) - A library for drug discovery using Compound Protein Interaction and Machine Learning.
-- [TransformerCPI](https://github.com/lifanchen-simm/transformerCPI) - A library for Compound Protein Interaction prediction using Transformer.
+- [DGDRP](https://github.com/minwoopak/heteronet)
+- [drGAT](https://github.com/inoue0426/drGAT)
 - [Evolutionary Scale Modeling](https://github.com/facebookresearch/esm) - a library for protein embeddings.
-- [ChemBERTa-2](https://github.com/seyonechithrananda/bert-loves-chemistry) - a library for chemical embeddingg and prediction.
-- [BioGPT](https://github.com/microsoft/BioGPT) - LLM for Biomedical text generation
 - [GeneGPT](https://github.com/ncbi/GeneGPT) - LLM for biomedical information with several API.
 - [GenePT](https://github.com/yiqunchen/GenePT) - foundation LLM for single cell data
+- [MCPINN](https://github.com/mhlee0903/multi_channels_PINN) - A library for drug discovery using Compound Protein Interaction and Machine Learning.
+- [NeoDTI](https://github.com/FangpingWan/NeoDTI) - A library for Drug Target Interaction.
 - [scPRINT](https://github.com/cantinilab/scPRINT) - scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile.
+- [TransformerCPI](https://github.com/lifanchen-simm/transformerCPI) - A library for Compound Protein Interaction prediction using Transformer.

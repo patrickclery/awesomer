@@ -53,8 +53,8 @@ A curated list of CTF frameworks, libraries, resources and softwares
 ## Wargames
 
 - [Gracker](https://github.com/Samuirai/gracker) - Binary challenges having a slow learning curve, and write-ups for each level.
-- [ROP Wargames](https://github.com/xelenonz/game) - ROP Wargames.
 - [Juice Shop CTF](https://github.com/bkimminich/juice-shop-ctf) - Scripts and tools for hosting a CTF on [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) easily.
+- [ROP Wargames](https://github.com/xelenonz/game) - ROP Wargames.
 
 ## Steganography
 
@@ -126,11 +126,11 @@ A curated list of CTF frameworks, libraries, resources and softwares
 - [PinCTF](https://github.com/ChrisTheCoolHut/PinCTF) - A tool which uses intel pin for Side Channel Analysis.
 - [Plasma](https://github.com/joelpx/plasma) - An interactive disassembler for x86/ARM/MIPS which can generate indented pseudo-code with colored syntax.
 - [Pwndbg](https://github.com/pwndbg/pwndbg) - A GDB plugin that provides a suite of utilities to hack around GDB easily.
+- [RABCDAsm](https://github.com/CyberShadow/RABCDAsm) - Collection of utilities including an ActionScript 3 assembler/disassembler.
 - [radare2](https://github.com/radare/radare2) - A portable reversing framework.
 - [Triton](https://github.com/JonathanSalwan/Triton) - Dynamic Binary Analysis (DBA) framework.
 - [Uncompyle](https://github.com/gstarnberger/uncompyle) - Decompile Python 2.7 binaries (.pyc).
 - [Z3](https://github.com/Z3Prover/z3) - A theorem prover from Microsoft Research.
-- [RABCDAsm](https://github.com/CyberShadow/RABCDAsm) - Collection of utilities including an ActionScript 3 assembler/disassembler.
 
 ## Bruteforcers
 

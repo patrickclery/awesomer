@@ -12,5 +12,5 @@ The missing awesome list - collection of awesome IoT and Hybrid Apps frameworks,
 
 ## Hybrid Desktop
 
-- [nw.js](https://github.com/nwjs/nw.js)
 - [Electron](https://github.com/atom/electron)
+- [nw.js](https://github.com/nwjs/nw.js)

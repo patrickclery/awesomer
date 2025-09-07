@@ -7,8 +7,8 @@ A curated list of awesome Slim framework packages and resources.
 - [Slim 4 MVC Skeleton](https://github.com/semhoun/slim-skeleton-mvc) - This is a simple web application skeleton project.
 - [Slim 4 Skeleton](https://github.com/adriansuter/Slim4-Skeleton) - Web application skeleton that uses the PHP-DI, Nyholm PSR7 and Twig.
 - [Slim 4 Skeleton](https://github.com/odan/slim4-skeleton) - This is a skeleton to quickly set up a new Slim 4 application.
-- [Slim Skeleton](https://github.com/slimphp/Slim-Skeleton) - The official Slim Framework 4 Skeleton Application.
 - [Slim 4 Starter](https://github.com/nbayramberdiyev/slim-4-starter) - An opinionated Slim 4 starter template for the small-to-medium PHP applications.
+- [Slim Skeleton](https://github.com/slimphp/Slim-Skeleton) - The official Slim Framework 4 Skeleton Application.
 
 ## Miscellaneous
 
@@ -27,9 +27,9 @@ A curated list of awesome Slim framework packages and resources.
 
 ## Templating
 
-- [Slim Twig View](https://github.com/slimphp/Twig-View) - Slim Framework view helper built on top of the Twig templating component.
-- [Slim Plates](https://github.com/projek-xyz/slim-plates) - Render your Slim application views using Plates template engine.
 - [Slim PHP View](https://github.com/slimphp/PHP-View) - This is a renderer for rendering PHP view scripts into a PSR-7 Response object.
+- [Slim Plates](https://github.com/projek-xyz/slim-plates) - Render your Slim application views using Plates template engine.
+- [Slim Twig View](https://github.com/slimphp/Twig-View) - Slim Framework view helper built on top of the Twig templating component.
 
 ## Middlewares
 

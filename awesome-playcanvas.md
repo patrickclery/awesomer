@@ -12,13 +12,13 @@ A curated list of awesome PlayCanvas assets, resources, and more.
 - [playcanvas-spine](https://github.com/playcanvas/playcanvas-spine) - Spine plugin for PlayCanvas for 2D animations.
 - [playcanvas-tween](https://github.com/playcanvas/playcanvas-tween) - Officially supported tween animation plugin.
 - [playcanvas-vue](https://github.com/isobolewski/playcanvas-vue) - A PlayCanvas integration with Vue.js.
-- [tween.js](https://github.com/tweenjs/tween.js) - Popular JavaScript tweening library that integrates easily with PlayCanvas.
 - [Sublime Completions](https://github.com/playcanvas/sublime-completions) - Sublime Text Autocompletion for the PlayCanvas API.
+- [tween.js](https://github.com/tweenjs/tween.js) - Popular JavaScript tweening library that integrates easily with PlayCanvas.
 
 ## PlayCanvas Products
 
+- [PCUI](https://github.com/playcanvas/pcui) - Open source front-end framework used by the PlayCanvas toolset.
 - [PlayCanvas Engine](https://github.com/playcanvas/engine) - Open source JavaScript graphics application framework.
 - [PlayCanvas React](https://github.com/playcanvas/react) - Open source React wrapper for the PlayCanvas Engine.
 - [PlayCanvas Web Components](https://github.com/playcanvas/web-components) - Open source Web Components wrapper for the PlayCanvas Engine.
 - [Texture Tool](https://github.com/playcanvas/texture-tool) - Open source tool for reprojecting textures.
-- [PCUI](https://github.com/playcanvas/pcui) - Open source front-end framework used by the PlayCanvas toolset.

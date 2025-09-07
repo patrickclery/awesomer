@@ -9,7 +9,7 @@ A curated list of tools, tutorials, examples, and much more, for the awesome gam
 
 ## Addon Development
 
-- [Construct Addon SDK](https://github.com/Scirra/Construct-Addon-SDK) - Scirra's official SDK to develop plugins.
 - [C3IDE2-cli](https://github.com/ConstructFund/c3ide2-cli) - C3IDE succesor framework.
-- [Lost Framework](https://github.com/lostinmind-dev/lost-c3) - Easy making of addons.
+- [Construct Addon SDK](https://github.com/Scirra/Construct-Addon-SDK) - Scirra's official SDK to develop plugins.
 - [Fábio Smuu](https://github.com/FabioSmuu/SDK_PluginC2) - SDK Plugins.
+- [Lost Framework](https://github.com/lostinmind-dev/lost-c3) - Easy making of addons.

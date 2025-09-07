@@ -4,19 +4,19 @@ A curated list of awesome alfred workflows
 
 ## Miscellaneous
 
-- [Emoji picker](https://github.com/devnoname120/alfred-emoji-picker) - Fast emoji input.
 - [Emoj](https://github.com/sindresorhus/alfred-emoj) - Find relevant emoji from text.
+- [Emoji picker](https://github.com/devnoname120/alfred-emoji-picker) - Fast emoji input.
 - [Gitmoji](https://github.com/techouse/alfred-gitmoji) - Search for [Gitmojis](https://gitmoji.dev) easily.
-- [Lorem Ipsum](https://github.com/raarellano/alfred-lorem-ipsum-workflow) - Generate lorem ipsum(...) text from Alfred.
 - [Kaomoji](https://github.com/vinkla/alfred-kaomoji) - Find relevant kaomoji from text.
+- [Lorem Ipsum](https://github.com/raarellano/alfred-lorem-ipsum-workflow) - Generate lorem ipsum(...) text from Alfred.
 - [Moment](https://github.com/perfectworks/alfred-workflow-moment) - Advanced time utility, inspired by [moment.js](https://momentjs.com).
 
 ## Communication
 
-- [MailTo](https://github.com/deanishe/alfred-mailto) - Quickly compose emails to your contacts and contact groups.
 - [Mailsy](https://github.com/BalliAsghar/mailsy-alfred) - Quickly generate a disposable email.
-- [Slack](https://github.com/yannickglt/alfred-slack) - Alfred workflow to interact, and perform various functions with the service Slack.
+- [MailTo](https://github.com/deanishe/alfred-mailto) - Quickly compose emails to your contacts and contact groups.
 - [Mouseless Messenger](https://github.com/stephancasas/alfred-mouseless-messenger)
+- [Slack](https://github.com/yannickglt/alfred-slack) - Alfred workflow to interact, and perform various functions with the service Slack.
 
 ## Helpers
 
@@ -58,13 +58,13 @@ A curated list of awesome alfred workflows
 - [DevDocs](https://github.com/yannickglt/alfred-devdocs) - An Alternative to Dash. Allows you query [devdocs.io](https://devdocs.io/) for documentation.
 - [Fakeum](https://github.com/deanishe/alfred-fakeum) - Generate all kinds of test data.
 - [Font Awesome](https://github.com/ruedap/alfred2-font-awesome-workflow) - Quickly look up font awesome icons and add the desired one to your clipboard.
-- [Github](https://github.com/gharlan/alfred-github-workflow) - GitHub command bar, similiar to the command bar in Github.
 - [Git Repos](https://github.com/deanishe/alfred-repos) - Search and open the Git repos on your system.
+- [Github](https://github.com/gharlan/alfred-github-workflow) - GitHub command bar, similiar to the command bar in Github.
 - [JetBrains](https://github.com/bchatard/alfred-jetbrains) - Open project with one of JetBrains' products.
 - [Laravel Forge](https://github.com/vmitchell85/alforge) - alForge, Open and run commands on Laravel Forge.
 - [mdi](https://github.com/importre/alfred-mdi) - Find [Material Design Icons](https://github.com/google/material-design-icons).
-- [npms](https://github.com/sindresorhus/alfred-npms) - Search for npm packages with [npms.io](https://npms.io).
 - [ng](https://github.com/SamVerschueren/alfred-ng) - Search through the [angular.io](https://angular.io) documentation.
+- [npms](https://github.com/sindresorhus/alfred-npms) - Search for npm packages with [npms.io](https://npms.io).
 - [Package Managers](https://github.com/willfarrell/alfred-pkgman-workflow) - Package Repo Search.
 - [Packagist](https://github.com/vinkla/alfred-packagist) - Search for PHP packages with [Packagist](https://packagist.org).
 - [Source Tree](https://github.com/zhaocai/alfred2-sourcetree-workflow) - List, search, and open Source Tree repositories.

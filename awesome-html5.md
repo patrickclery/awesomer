@@ -9,11 +9,11 @@
 
 ## Game development
 
-- [Pixi.js](https://github.com/pixijs/pixi.js)
-- [Phaser](https://github.com/photonstorm/phaser)
-- [MelonJS](https://github.com/melonjs/melonJS)
-- [Kiwi.js](https://github.com/gamelab/kiwi.js)
-- [Crafty](https://github.com/craftyjs/Crafty)
-- [PhysicsJS](https://github.com/wellcaffeinated/PhysicsJS)
-- [Stage.js](https://github.com/shakiba/stage.js)
 - [Cocos2d](https://github.com/cocos2d/cocos2d-html5)
+- [Crafty](https://github.com/craftyjs/Crafty)
+- [Kiwi.js](https://github.com/gamelab/kiwi.js)
+- [MelonJS](https://github.com/melonjs/melonJS)
+- [Phaser](https://github.com/photonstorm/phaser)
+- [PhysicsJS](https://github.com/wellcaffeinated/PhysicsJS)
+- [Pixi.js](https://github.com/pixijs/pixi.js)
+- [Stage.js](https://github.com/shakiba/stage.js)

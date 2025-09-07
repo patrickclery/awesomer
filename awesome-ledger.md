@@ -8,9 +8,9 @@
 
 ## Tools
 
+- [ledger-autosync](https://github.com/egh/ledger-autosync) - Program to sync Ledger files with bank.
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) - Collection of helper programs.
 - [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) - Web front-end to Ledger data.
-- [ledger-autosync](https://github.com/egh/ledger-autosync) - Program to sync Ledger files with bank.
 
 ## Editors
 

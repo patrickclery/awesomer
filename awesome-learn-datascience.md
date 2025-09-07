@@ -10,5 +10,5 @@
 
 ## Data Science using Python
 
-- [Template folder structure for organizing Data Science projects](https://github.com/drivendata/cookiecutter-data-science)
 - [LightGBM gradient boosting framework](https://github.com/Microsoft/LightGBM) - Successfully used in many Kaggle challenges.
+- [Template folder structure for organizing Data Science projects](https://github.com/drivendata/cookiecutter-data-science)

@@ -8,12 +8,12 @@ A list of awesome free open source software & libraries for photography. Also to
 
 ## Video
 
-- [Natron](https://github.com/MrKepzie/Natron) - A node-based compositor based on the same principles as state-of-the art tools used in film and television post-production.
 - [ButtleOFX](https://github.com/buttleofx/ButtleOFX) - A simple, user-friendly and open source compositing software.
+- [Frei0r](https://github.com/dyne/frei0r) - A large collection of free and portable video plugins.
+- [Natron](https://github.com/MrKepzie/Natron) - A node-based compositor based on the same principles as state-of-the art tools used in film and television post-production.
 - [Shotcut](https://github.com/mltframework/shotcut) - A free, open source, cross-platform video editor.
 - [TuttleOFX](https://github.com/tuttleofx/TuttleOFX) - An image processing framework based on OpenFX plugin format.
 - [Vid.stab](https://github.com/georgmartius/vid.stab) - A video stabilization library which can be plugged-in with Ffmpeg and Transcode.
-- [Frei0r](https://github.com/dyne/frei0r) - A large collection of free and portable video plugins.
 
 ## Camera Firmware Mods
 
@@ -38,23 +38,23 @@ A list of awesome free open source software & libraries for photography. Also to
 
 ## Utilities
 
-- [Timelapse-sony](https://github.com/ThibaudM/timelapse-sony) - Android app for creating timelapse via "Ctrl with Smartphone" mode or connected by NFC.
-- [Remoteyourcam-usb](https://github.com/crazymaik/remoteyourcam-usb) - Control your Canon or Nikon DSLR camera from your Android device through USB.
 - [digiCamControl](https://github.com/dukus/digiCamControl) - DSLR camera remote control open source software.
+- [Remoteyourcam-usb](https://github.com/crazymaik/remoteyourcam-usb) - Control your Canon or Nikon DSLR camera from your Android device through USB.
+- [Timelapse-sony](https://github.com/ThibaudM/timelapse-sony) - Android app for creating timelapse via "Ctrl with Smartphone" mode or connected by NFC.
 
 ## Libraries
 
-- [LibGphoto2](https://github.com/gphoto/libgphoto2) - C APi for Digital camera access and remote control. Java,python,C#, and much more bindings.
-- [OfxCanon](https://github.com/roxlu/ofxCanon) - OpenFrameworks addon for the Canon EDSK.
 - [Edsdk4j](https://github.com/kritzikratzi/edsdk4j) - Canon SDK for Java.
+- [GoPro](https://github.com/joshvillbrandt/goprohero) - A Python library and a CLI that can interface with GoPro HERO3, HERO3+, and HERO4 cameras over http.
 - [GoPro](https://github.com/kschzt/gopro) - API for controlling GoPro Hero 3 Camera from Node.js.
 - [GoPro](https://github.com/DenisCarriere/gopro) - GoPro Hero 4 - Python API.
-- [GoPro](https://github.com/joshvillbrandt/goprohero) - A Python library and a CLI that can interface with GoPro HERO3, HERO3+, and HERO4 cameras over http.
 - [GoPro.Hero](https://github.com/r1pper/GoPro.Hero) - A lightweight c# library to access and control GoPro HERO.
+- [LibGphoto2](https://github.com/gphoto/libgphoto2) - C APi for Digital camera access and remote control. Java,python,C#, and much more bindings.
+- [OfxCanon](https://github.com/roxlu/ofxCanon) - OpenFrameworks addon for the Canon EDSK.
 - [SonyPy](https://github.com/storborg/sonypy) - Python module for Sony Camera Remote API.
 
 ## Photo Organizers
 
-- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - A Android gallery app for viewing photos and videos similar to android stock gallery with support for file copy/move/rename/delete/share.
-- [Leaf Pic](https://github.com/HoraApps/LeafPic) - Material-designed android gallery alternative.
 - [A Photo Manager](https://github.com/k3b/APhotoManager) - Manage local photos on Android: gallery, geotag with photomap, tags, find, sort, view, copy, delete, send,...
+- [Leaf Pic](https://github.com/HoraApps/LeafPic) - Material-designed android gallery alternative.
+- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - A Android gallery app for viewing photos and videos similar to android stock gallery with support for file copy/move/rename/delete/share.

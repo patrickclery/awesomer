@@ -5,16 +5,16 @@
 ## Plugins
 
 - [Content Generator](https://github.com/timuric/Content-generator-sketch-plugin)
-- [RenameIt](https://github.com/rodi01/RenameIt)
-- [Sketch Measure](https://github.com/utom/sketch-measure)
-- [Style Inventory](https://github.com/getflourish/Sketch-Style-Inventory)
 - [Dynamic Button](https://github.com/ddwht/sketch-dynamic-button)
-- [Page Switch](https://github.com/mauehara/sketch-page-switch)
-- [Sketch Flex Layout](https://github.com/hrescak/Sketch-Flex-Layout)
-- [Handy Tools](https://github.com/webpatch/Handy-Tools)
-- [User Flow](https://github.com/abynim/UserFlows)
 - [Efficiency](https://github.com/x-raizor/Efficiency)
+- [Handy Tools](https://github.com/webpatch/Handy-Tools)
+- [Page Switch](https://github.com/mauehara/sketch-page-switch)
+- [RenameIt](https://github.com/rodi01/RenameIt)
+- [Sketch Flex Layout](https://github.com/hrescak/Sketch-Flex-Layout)
+- [Sketch Measure](https://github.com/utom/sketch-measure)
 - [Sketch Plugin Directory](https://github.com/sketchplugins/plugin-directory)
+- [Style Inventory](https://github.com/getflourish/Sketch-Style-Inventory)
+- [User Flow](https://github.com/abynim/UserFlows)
 
 ## Templates & UI Kits
 

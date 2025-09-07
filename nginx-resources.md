@@ -13,10 +13,10 @@ A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine
 
 ## Configuration
 
-- [Nginx HTTP server boilerplate configs](https://github.com/h5bp/server-configs-nginx)
-- [Nginx Boilerplate - Configuration template and a set of handy must-have snippets](https://github.com/nginx-boilerplate/nginx-boilerplate)
 - [Gixy - Nginx configuration static analyzer](https://github.com/yandex/gixy)
+- [Nginx Boilerplate - Configuration template and a set of handy must-have snippets](https://github.com/nginx-boilerplate/nginx-boilerplate)
 - [Nginx common configuration - Universal config and snippets](https://github.com/tldr-devops/nginx-common-configuration)
+- [Nginx HTTP server boilerplate configs](https://github.com/h5bp/server-configs-nginx)
 
 ## Nginx + njs
 

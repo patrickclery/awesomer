@@ -15,8 +15,8 @@ Awesome list about everything related to J2ME. Documentation, academic papers, t
 ## Development
 
 - [Cibyl](https://github.com/SimonKagstrom/cibyl) - Cibyl is an environment to compile and run programs written in C, Objective-C, C++ and possibly Fortran on J2ME phones.
-- [NN JSON](https://github.com/shinovon/NNJSON) - JSON parser for CLDC 1.1.
 - [J2ME Polish](https://github.com/Enough-Software/j2mepolish) - Open source, Ant-based build tool for J2ME that supports building for multiple platforms including Blackberry and Symbian.
+- [NN JSON](https://github.com/shinovon/NNJSON) - JSON parser for CLDC 1.1.
 
 ## Tutorials
 
@@ -29,16 +29,16 @@ Awesome list about everything related to J2ME. Documentation, academic papers, t
 
 ## Reverse Engineering
 
-- [PyLng](https://github.com/CakesTwix/pylng) - HandyGames .lng file parser written in Python.
 - [Fernflower](https://github.com/fesh0r/fernflower) - Analytical Java decompiler by JetBrains.
+- [PyLng](https://github.com/CakesTwix/pylng) - HandyGames .lng file parser written in Python.
 - [Recaf](https://github.com/Col-E/Recaf) - Bytecode editor that supports multiple decompilers.
 - [Vineflower](https://github.com/vineflower/vineflower) - Fork of Fernflower decompiler with improved output quality.
 
 ## Native Software
 
 - [Discord J2ME](https://github.com/gtrxAC/discord-j2me) - Unofficial Discord client for J2ME. Utilizes a proxy server for HTTP and gateway connections.
+- [Gravity Defied CPP](https://github.com/rgimad/gravity_defied_cpp) - C++, SDL2 port of J2ME game of the same name.
 - [Hotpants](https://github.com/baumschubser/hotpants) - HOTP/TOTP client.
 - [Jtube](https://github.com/shinovon/JTube) - YouTube client based on Invidious API.
 - [Telegram Micro](https://github.com/faissaloo/telegram-micro) - Telegram client.
 - [VK4ME](https://github.com/VK4ME/client) - Unofficial client for Russian social network VK for devices supporting CLDC 1.1 and MIDP 2.0.
-- [Gravity Defied CPP](https://github.com/rgimad/gravity_defied_cpp) - C++, SDL2 port of J2ME game of the same name.

@@ -38,14 +38,14 @@ A curated list of awesome Lit resources.
 ## Starter Templates
 
 - [Gracile Starters](https://github.com/gracile-web/starter-projects) - Gracile full-stack starter projects (SSR/SSG).
-- [LitElement JavaScript starter](https://github.com/lit/lit-element-starter-js) - Sample component using LitElement with JavaScript.
-- [LitElement TypeScript starter](https://github.com/lit/lit-element-starter-ts) - Sample component using LitElement with TypeScript.
 - [hello-web-components](https://github.com/fernandopasik/hello-web-components) - Simple starter web component written in TypeScript using Lit.
 - [Lit Sass JavaScript Starter](https://github.com/e111077/lit-sass-js-starter) - Project that has a simple setup for SASS + JS + Lit, using Rollup.
 - [Lit Sass TypeScript Starter](https://github.com/e111077/lit-sass-ts-starter) - Project that has a simple setup for SASS + TS + Lit, using Rollup.
 - [Lit Webpack Starter](https://github.com/andrewlevada/webpack-lit-template) - Starter for multipage apps with Lit and Typescript, using Webpack.
-- [pwa-starter](https://github.com/pwa-builder/pwa-starter) - LitElement edition of the PWABuilder pwa-starter.
+- [LitElement JavaScript starter](https://github.com/lit/lit-element-starter-js) - Sample component using LitElement with JavaScript.
+- [LitElement TypeScript starter](https://github.com/lit/lit-element-starter-ts) - Sample component using LitElement with TypeScript.
 - [pwa-lit-template](https://github.com/IBM/pwa-lit-template) - Build Progressive Web Applications following the modern web standards.
+- [pwa-starter](https://github.com/pwa-builder/pwa-starter) - LitElement edition of the PWABuilder pwa-starter.
 - [Vite Lit Element TS SASS](https://github.com/e111077/vite-lit-element-ts-sass) - Example Vite project using Lit 2, Typescript, and SASS.
 
 ## Standalone Components
@@ -108,7 +108,7 @@ A curated list of awesome Lit resources.
 
 ## Examples
 
+- [Lit 3D Piano](https://github.com/rodydavis/lit-3d-piano) - 3D Piano built with Lit, Three.js and Tone.js.
 - [Lit Native](https://github.com/rodydavis/lit-native) - Reuse Lit web components on native platforms.
 - [Lit Node Editor](https://github.com/rodydavis/lit-node-editor) - Node editor built with canvas API and simple graph data structure.
-- [Lit 3D Piano](https://github.com/rodydavis/lit-3d-piano) - 3D Piano built with Lit, Three.js and Tone.js.
 - [Vite + RxDB + Lit](https://github.com/rodydavis/vite-rxdb-lit) - Minimal example to get RxDB running with Vite.

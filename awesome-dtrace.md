@@ -15,11 +15,11 @@ A curated list of awesome DTrace books, articles, videos, tools and resources.
 
 ## Software
 
-- [node-stackvis](https://github.com/joyent/node-stackvis) - Stack trace visualizer.
+- [FlameGraph](https://github.com/brendangregg/FlameGraph) - Stack trace visualizer.
 - [lua-usdt](https://github.com/chrisa/lua-usdt) - Libusdt bindings for Lua.
+- [mod_usdt](https://github.com/davepacheco/mod_usdt) - "httpd" DTrace provider.
 - [node-dtrace-provider](https://github.com/chrisa/node-dtrace-provider) - Native DTrace probes for Node.js apps.
+- [node-stackvis](https://github.com/joyent/node-stackvis) - Stack trace visualizer.
 - [perl-Devel-DTrace-Provider](https://github.com/chrisa/perl-Devel-DTrace-Provider) - Perl wrapper for libusdt.
 - [python-usdt](https://github.com/nshalman/python-usdt) - Libusdt bindings for Python.
 - [ruby-usdt](https://github.com/kevinykchan/ruby-usdt) - Native DTrace probes for ruby apps.
-- [mod_usdt](https://github.com/davepacheco/mod_usdt) - "httpd" DTrace provider.
-- [FlameGraph](https://github.com/brendangregg/FlameGraph) - Stack trace visualizer.

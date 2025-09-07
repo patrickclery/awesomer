@@ -4,11 +4,15 @@ A curated list of awesome IBM Cloud SDKs, open source repositories, tools, blogs
 
 ## Data & AI
 
+- [android-sdk](https://github.com/watson-developer-cloud/android-sdk) - 🔆 Android SDK to use the IBM Watson services.
 - [assistant-simple](https://github.com/watson-developer-cloud/assistant-simple) - A simple sample application demonstrating the Watson Assistant API.
 - [botkit-middleware](https://github.com/watson-developer-cloud/botkit-middleware) - A middleware to connect Watson Assistant Service to different chat channels using Botkit.
 - [chatbot-watson-android](https://github.com/IBM-Cloud/chatbot-watson-android) - An Android ChatBot powered by Watson Services - Assistant, Speech-to-Text and Text-to-Speech on IBM Cloud.
 - [discovery-nodejs](https://github.com/watson-developer-cloud/discovery-nodejs) - This is the Watson Discovery Service Demo.
+- [dotnet-standard-sdk](https://github.com/watson-developer-cloud/dotnet-standard-sdk) - 🆕🆕🆕 .NET Standard library to access Watson Services.
 - [food-coach](https://github.com/watson-developer-cloud/food-coach) - A simple sample web application demonstrating the integration of Watson Tone Analyzer into Watson Assistant.
+- [go-sdk](https://github.com/watson-developer-cloud/go-sdk) - 🐭 Go SDK for the IBM Watson services.
+- [java-sdk](https://github.com/watson-developer-cloud/java-sdk) - 🥇 Java SDK to use the IBM Watson services.
 - [max-audio-classifier](https://github.com/IBM/MAX-Audio-Classifier) - Identify sounds in short audio clips.
 - [max-audio-embedding-generator](https://github.com/IBM/MAX-Audio-Embedding-Generator) - Generate embedding vectors from audio files.
 - [max-audio-sample-generator](https://github.com/IBM/MAX-Audio-Sample-Generator) - Generate short audio clips of speech commands and lo-fi instrumental samples.
@@ -42,51 +46,40 @@ A curated list of awesome IBM Cloud SDKs, open source repositories, tools, blogs
 - [natural-language-understanding-nodejs](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - 🆕 Demo code for the Natural Language Understanding Service.
 - [node-red-labs](https://github.com/watson-developer-cloud/node-red-labs) - Node-RED labs on the use of the Watson Developer Cloud services.
 - [node-red-node-watson](https://github.com/watson-developer-cloud/node-red-node-watson) - A collection of nodes for the IBM Watson services.
-- [personality-insights-nodejs](https://github.com/watson-developer-cloud/personality-insights-nodejs) - 📊 Sample Nodejs Application for the IBM Watson Personality Insights Service.
-- [personality-insights-python](https://github.com/watson-developer-cloud/personality-insights-python) - Sample Python Application for the IBM Watson Personality Insights Service.
-- [simple-chat-swift](https://github.com/watson-developer-cloud/simple-chat-swift) - 📱 An iOS chat application using cognitive services from the Watson Developer Cloud Swift SDK.
-- [speech-javascript-sdk](https://github.com/watson-developer-cloud/speech-javascript-sdk) - Library for using the IBM Watson Speech to Text and Text to Speech services in web browsers.
-- [speech-to-text-nodejs](https://github.com/watson-developer-cloud/speech-to-text-nodejs) - 🎤 Sample Node.js Application for the IBM Watson Speech to Text Service.
-- [tone-analyzer-nodejs](https://github.com/watson-developer-cloud/tone-analyzer-nodejs) - Sample Node.js Application for the IBM Tone Analyzer Service.
-- [visual-recognition-coreml](https://github.com/watson-developer-cloud/visual-recognition-coreml) - Classify images offline using Watson Visual Recognition and Core ML.
-- [visual-recognition-nodejs](https://github.com/watson-developer-cloud/visual-recognition-nodejs) - 📷 Sample Node.js Application for the IBM Watson Visual Recognition Service.
-- [android-sdk](https://github.com/watson-developer-cloud/android-sdk) - 🔆 Android SDK to use the IBM Watson services.
-- [dotnet-standard-sdk](https://github.com/watson-developer-cloud/dotnet-standard-sdk) - 🆕🆕🆕 .NET Standard library to access Watson Services.
-- [go-sdk](https://github.com/watson-developer-cloud/go-sdk) - 🐭 Go SDK for the IBM Watson services.
-- [java-sdk](https://github.com/watson-developer-cloud/java-sdk) - 🥇 Java SDK to use the IBM Watson services.
 - [node-sdk](https://github.com/watson-developer-cloud/node-sdk) - ☄️ Node.js library to access IBM Watson services.
 - [openwhisk-sdk](https://github.com/watson-developer-cloud/openwhisk-sdk) - 🆕 SDK for using Watson Services on IBM Cloud Functions (based on Apache Openwhisk).
+- [personality-insights-nodejs](https://github.com/watson-developer-cloud/personality-insights-nodejs) - 📊 Sample Nodejs Application for the IBM Watson Personality Insights Service.
+- [personality-insights-python](https://github.com/watson-developer-cloud/personality-insights-python) - Sample Python Application for the IBM Watson Personality Insights Service.
 - [python-sdk](https://github.com/watson-developer-cloud/python-sdk) - 🐍 Client library to use the IBM Watson services in Python and available in pip as watson-developer-cloud.
 - [ruby-sdk](https://github.com/watson-developer-cloud/ruby-sdk) - ♦️ Ruby SDK to use the IBM Watson services.
 - [salesforce-sdk](https://github.com/watson-developer-cloud/salesforce-sdk) - A Salesforce library for communicating with the IBM Watson REST APIs.
+- [simple-chat-swift](https://github.com/watson-developer-cloud/simple-chat-swift) - 📱 An iOS chat application using cognitive services from the Watson Developer Cloud Swift SDK.
+- [speech-javascript-sdk](https://github.com/watson-developer-cloud/speech-javascript-sdk) - Library for using the IBM Watson Speech to Text and Text to Speech services in web browsers.
+- [speech-to-text-nodejs](https://github.com/watson-developer-cloud/speech-to-text-nodejs) - 🎤 Sample Node.js Application for the IBM Watson Speech to Text Service.
 - [swift-sdk](https://github.com/watson-developer-cloud/swift-sdk) - 📱 The Watson Swift SDK enables developers to quickly add Watson Cognitive Computing services to their Swift applications.
+- [tone-analyzer-nodejs](https://github.com/watson-developer-cloud/tone-analyzer-nodejs) - Sample Node.js Application for the IBM Tone Analyzer Service.
 - [unity-sdk](https://github.com/watson-developer-cloud/unity-sdk) - 🎮 Unity SDK to use the IBM Watson services.
+- [visual-recognition-coreml](https://github.com/watson-developer-cloud/visual-recognition-coreml) - Classify images offline using Watson Visual Recognition and Core ML.
+- [visual-recognition-nodejs](https://github.com/watson-developer-cloud/visual-recognition-nodejs) - 📷 Sample Node.js Application for the IBM Watson Visual Recognition Service.
 - [with-watson](https://github.com/victorshinya/with-watson) - iOS App running Visual Recognition default model.
 - [with-watson-custom-model](https://github.com/victorshinya/with-watson-custom-model) - iOS App running Visual Recognition custom model.
 - [your-celebrity-match](https://github.com/watson-developer-cloud/your-celebrity-match) - 🌟 The Celebrity Match application uses the Watson Personality Insights Service and Twitter data to identify celebrities on Twitter whose tweets are conceptually closest to yours.
 
 ## Platform
 
-- [charts](https://github.com/IBM/charts) - The IBM/charts repository provides helm charts for IBM and Third Party middleware.
 - [binary-buildpack](https://github.com/cloudfoundry/binary-buildpack) - Deploy binaries to Cloud Foundry.
-- [dotnet-buildpack](https://github.com/cloudfoundry/dotnet-core-buildpack) - Cloud Foundry buildpack for .NET Core on Linux.
-- [go-buildpack](https://github.com/cloudfoundry/go-buildpack) - Cloud Foundry buildpack for the Go Language.
-- [ibm-websphere-liberty-buildpack](https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack) - IBM WebSphere Application Server Liberty Buildpack.
-- [java-buildpack](https://github.com/cloudfoundry/java-buildpack) - Cloud Foundry buildpack for running Java applications.
-- [nginx-buildpack](https://github.com/cloudfoundry/nginx-buildpack) - Cloud Foundry buildpack that provides NGINX.
-- [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) - Cloud Foundry buildpack for Node.js.
-- [php-buildpack](https://github.com/cloudfoundry/php-buildpack) - A Cloud Foundry Buildpack for PHP.
-- [python-buildpack](https://github.com/cloudfoundry/python-buildpack) - Cloud Foundry buildpack for the Python Language.
-- [r-buildpack](https://github.com/cloudfoundry/r-buildpack) - Cloud Foundry buildpack for R.
-- [ruby-buildpack](https://github.com/cloudfoundry/ruby-buildpack) - Cloud Foundry buildpack for Ruby, Sinatra and Rails.
-- [staticfile-buildpack](https://github.com/cloudfoundry/staticfile-buildpack) - Deploy static HTML/JS/CSS apps to Cloud Foundry.
+- [charts](https://github.com/IBM/charts) - The IBM/charts repository provides helm charts for IBM and Third Party middleware.
 - [cloud-operators](https://github.com/IBM/cloud-operators) - IBM Public Cloud Service Operator.
 - [cloud-pak](https://github.com/IBM/cloud-pak) - IBM Cloud Paks are enterprise-grade containerized software by combining container images with enterprise capabilities for deployment in production use cases with integrations for management and lifecycle operations. Features such as pre-configured deployments based on product expertise, rolling upgrades, rollbacks, security/vulnerability testing.
+- [dotnet-buildpack](https://github.com/cloudfoundry/dotnet-core-buildpack) - Cloud Foundry buildpack for .NET Core on Linux.
 - [generator-swiftserver](https://github.com/IBM-Swift/generator-swiftserver) - Generator for Kitura REST webservice servers.
+- [go-buildpack](https://github.com/cloudfoundry/go-buildpack) - Cloud Foundry buildpack for the Go Language.
 - [go-cloud](https://github.com/victorshinya/go-cloud) - A Golang boilerplate code to benchmark cloud platforms to host a Go applications.
 - [go-website](https://github.com/victorshinya/go-website) - Deploy your website using a Golang server.
 - [ibm-cloud-go](https://github.com/IBM-Cloud/bluemix-go) - Go library for accessing the IBM Cloud API.
+- [ibm-websphere-liberty-buildpack](https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack) - IBM WebSphere Application Server Liberty Buildpack.
 - [insurance-bot](https://github.com/IBM-Cloud/insurance-bot) - A message based insurance experience.
+- [java-buildpack](https://github.com/cloudfoundry/java-buildpack) - Cloud Foundry buildpack for running Java applications.
 - [kitura](https://github.com/IBM-Swift/Kitura) - A Swift web framework and HTTP server.
 - [kitura-couchdb](https://github.com/IBM-Swift/Kitura-CouchDB) - CouchDB adapter for Kitura.
 - [kitura-credentials](https://github.com/IBM-Swift/Kitura-Credentials) - A pluggable framework for validating user credentials in a Swift server using Kitura.
@@ -98,7 +91,14 @@ A curated list of awesome IBM Cloud SDKs, open source repositories, tools, blogs
 - [kitura-starter](https://github.com/IBM-Cloud/Kitura-Starter) - Kitura-based server starter application for the IBM Cloud.
 - [logistics-wizard](https://github.com/IBM-Cloud/logistics-wizard) - The Logistics Wizard is an end-to-end, smart supply chain management solution.
 - [multiple-deployment-options](https://github.com/IBM-Cloud/multiple-deployment-options) - Shows how one service can be deployed to multiple deployment options.
+- [nginx-buildpack](https://github.com/cloudfoundry/nginx-buildpack) - Cloud Foundry buildpack that provides NGINX.
 - [node-mqtt-for-anki-overdrive](https://github.com/IBM-Cloud/node-mqtt-for-anki-overdrive) - Node.js Controller and MQTT API for Anki Overdrive.
+- [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) - Cloud Foundry buildpack for Node.js.
+- [php-buildpack](https://github.com/cloudfoundry/php-buildpack) - A Cloud Foundry Buildpack for PHP.
+- [python-buildpack](https://github.com/cloudfoundry/python-buildpack) - Cloud Foundry buildpack for the Python Language.
+- [r-buildpack](https://github.com/cloudfoundry/r-buildpack) - Cloud Foundry buildpack for R.
+- [ruby-buildpack](https://github.com/cloudfoundry/ruby-buildpack) - Cloud Foundry buildpack for Ruby, Sinatra and Rails.
+- [staticfile-buildpack](https://github.com/cloudfoundry/staticfile-buildpack) - Deploy static HTML/JS/CSS apps to Cloud Foundry.
 - [swift-ubuntu-docker](https://github.com/IBM-Swift/swift-ubuntu-docker) - Docker image packaged with the Swift binaries.
 - [swifty-request](https://github.com/IBM-Swift/SwiftyRequest) - SwiftyRequest is an HTTP networking library built for Swift.
 - [watson-assistant-variables](https://github.com/IBM-Cloud/watson-conversation-variables) - Samples using context variables and (system) entities in IBM Watson Assistant (formerly Conversation) service.
@@ -142,8 +142,8 @@ A curated list of awesome IBM Cloud SDKs, open source repositories, tools, blogs
 ## Command Line Tools
 
 - [Cloud Foundry CLI](https://github.com/cloudfoundry/cli) - The official command line client for Cloud Foundry.
-- [The Kui Framework for Graphical Terminals](https://github.com/IBM/kui) - A hybrid command-line/UI development experience for cloud-native development.
 - [IBM Cloud CLI Release](https://github.com/IBM-Cloud/ibm-cloud-cli-release) - This is the command line client for IBM Cloud.
+- [The Kui Framework for Graphical Terminals](https://github.com/IBM/kui) - A hybrid command-line/UI development experience for cloud-native development.
 
 ## Resources
 

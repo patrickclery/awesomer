@@ -13,9 +13,9 @@ Curated list of awesome Esoteric languages and resources
 
 ## Languages
 
+- [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 - [AlmostBinary](https://github.com/wsdt/AlmostBinary) - Code in binary and run on any platform.
 - [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
-- [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 - [C Flat](https://github.com/NicksterSand/Cflat) - Musical language focused on sound rather than notation with creative freedom in mind.
 - [CellTail](https://github.com/mousetail/celltail) - A 1d celular automata based language, supports a complex pattern matching syntax.
 - [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.

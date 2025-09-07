@@ -4,11 +4,11 @@ An awesome list of TensorFlow Lite models, samples, tutorials, tools and learnin
 
 ## Helpful links
 
-- [Netron](https://github.com/lutzroeder/netron) - A tool for visualizing models.
 - [Adventures in TensorFlow Lite](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite) - A repository showing non-trivial conversion processes and general explorations in TensorFlow Lite.
-- [TFProfiler](https://github.com/iglaweb/TFProfiler) - An Android-based app to profile TensorFlow Lite models and measure its performance on smartphone.
+- [Netron](https://github.com/lutzroeder/netron) - A tool for visualizing models.
 - [TensorFlow Lite Examples - Android](https://github.com/dailystudio/tensorflow-lite-examples-android) - A repository refactors and rewrites all the TensorFlow Lite Android examples which are included in the TensorFlow official website.
 - [Tensorflow-lite-kotlin-samples](https://github.com/SunitRoy2703/Tensorflow-lite-kotlin-samples) - A collection of Tensorflow Lite Android example Apps in Kotlin, to show different kinds of kotlin implementation of the [example apps](https://www.tensorflow.org/lite/examples)
+- [TFProfiler](https://github.com/iglaweb/TFProfiler) - An Android-based app to profile TensorFlow Lite models and measure its performance on smartphone.
 
 ## Ideas and Inspiration
 

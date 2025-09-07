@@ -15,25 +15,25 @@
 
 ## AUR Helpers
 
-- [Auracle](https://github.com/falconindy/auracle)
-- [repoctl](https://github.com/cassava/repoctl)
-- [Aurutils](https://github.com/AladW/aurutils)
-- [PKGBUILDer](https://github.com/Kwpolska/pkgbuilder)
-- [RUA](https://github.com/vn971/rua)
 - [amethyst](https://github.com/crystal-linux/amethyst)
+- [Argon](https://github.com/14mRh4X0r/arch-argon)
+- [aur-out-of-date](https://github.com/simon04/aur-out-of-date) - Determines out-of-date AUR packages w.r.t. upstream version.
+- [aur-talk](https://github.com/GermainZ/aur-talk) - A script to fetch and display AUR package comments.
 - [Aura](https://github.com/fosskers/aura)
+- [Auracle](https://github.com/falconindy/auracle)
+- [aurpublish](https://github.com/eli-schwartz/aurpublish) - PKGBUILD management framework for the Arch User Repository.
+- [Aurutils](https://github.com/AladW/aurutils)
+- [aurvote-utils](https://github.com/jadenPete/aurvote-utils) - A set of utilities for managing AUR votes.
+- [Cylon](https://github.com/gavinlyonsrepo/cylon)
 - [Pacaur](https://github.com/E5ten/pacaur)
+- [package-query](https://github.com/archlinuxfr/package-query) - Tool for querying `libalpm` and the AUR.
 - [Pakku](https://github.com/kitsunyan/pakku)
 - [Paru](https://github.com/Morganamilo/paru)
 - [pikaur](https://github.com/actionless/pikaur)
+- [PKGBUILDer](https://github.com/Kwpolska/pkgbuilder)
+- [pkgoutofdate](https://github.com/anatol/pkgoutofdate) - Checks whether Arch packages are out-of-date.
+- [repoctl](https://github.com/cassava/repoctl)
+- [RUA](https://github.com/vn971/rua)
 - [Trizen](https://github.com/trizen/trizen)
 - [Yay](https://github.com/Jguer/yay)
-- [Argon](https://github.com/14mRh4X0r/arch-argon)
-- [Cylon](https://github.com/gavinlyonsrepo/cylon)
 - [Yup](https://github.com/ericm/yup)
-- [aur-out-of-date](https://github.com/simon04/aur-out-of-date) - Determines out-of-date AUR packages w.r.t. upstream version.
-- [aurpublish](https://github.com/eli-schwartz/aurpublish) - PKGBUILD management framework for the Arch User Repository.
-- [pkgoutofdate](https://github.com/anatol/pkgoutofdate) - Checks whether Arch packages are out-of-date.
-- [aur-talk](https://github.com/GermainZ/aur-talk) - A script to fetch and display AUR package comments.
-- [aurvote-utils](https://github.com/jadenPete/aurvote-utils) - A set of utilities for managing AUR votes.
-- [package-query](https://github.com/archlinuxfr/package-query) - Tool for querying `libalpm` and the AUR.

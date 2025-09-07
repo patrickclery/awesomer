@@ -10,25 +10,25 @@ A curated list of awesome Bluetooth beacon software and tools.
 
 ## Stackoverflow Q&A
 
-- [Cordova iBeacon Plugin](https://github.com/petermetz/cordova-plugin-ibeacon)
-- [iBeacon advertising and scanning in a Titanium module](https://github.com/jbeuckm/TiBeacons)
-- [iBeacon Scanning Utility App for OSX](https://github.com/mlwelles/BeaconScanner)
-- [iBeacon Scanner - Scan for nearby iBeacons regardless of their UUID](https://github.com/liamnichols/iBeaconScanner)
-- [Beacon OSX](https://github.com/mttrb/BeaconOSX) - Mavericks as an iBeacon
-- [Electron Physical Web Scan](https://github.com/dermike/electron-physical-web-scan) - Mac OSX desktop app to scan for Physical Web (Eddystone) bluetooth beacons
-- [Electron Slide Beacon](https://github.com/dermike/electron-slide-beacon) - Share links from your Mac using this app to broadcast them as an Eddystone URL (Physical Web) bluetooth beacon.
-- [BeaconKit](https://github.com/igor-makarov/BeaconKit) - Beacon detection framework ns Swift using CoreBluetooth, supporting Eddystone-UID, Eddystone-URL, AltBeacon, iBeacon.
-- [Python script for scanning and advertising urls over Eddystone-URL](https://github.com/forksociety/PyBeacon)
 - [A node.js BLE (Bluetooth low energy) central module](https://github.com/sandeepmistry/noble)
 - [A node.js module for implementing BLE (Bluetooth low energy) peripherals](https://github.com/sandeepmistry/bleno)
+- [Beacon OSX](https://github.com/mttrb/BeaconOSX) - Mavericks as an iBeacon
+- [BeaconKit](https://github.com/igor-makarov/BeaconKit) - Beacon detection framework ns Swift using CoreBluetooth, supporting Eddystone-UID, Eddystone-URL, AltBeacon, iBeacon.
+- [Cordova iBeacon Plugin](https://github.com/petermetz/cordova-plugin-ibeacon)
+- [Electron Physical Web Scan](https://github.com/dermike/electron-physical-web-scan) - Mac OSX desktop app to scan for Physical Web (Eddystone) bluetooth beacons
+- [Electron Slide Beacon](https://github.com/dermike/electron-slide-beacon) - Share links from your Mac using this app to broadcast them as an Eddystone URL (Physical Web) bluetooth beacon.
+- [iBeacon advertising and scanning in a Titanium module](https://github.com/jbeuckm/TiBeacons)
+- [iBeacon Scanner - Scan for nearby iBeacons regardless of their UUID](https://github.com/liamnichols/iBeaconScanner)
+- [iBeacon Scanning Utility App for OSX](https://github.com/mlwelles/BeaconScanner)
+- [Python script for scanning and advertising urls over Eddystone-URL](https://github.com/forksociety/PyBeacon)
 - [Universal Bluetooth Beacon Library](https://github.com/andijakl/universal-beacon) - open source library and links to apps to talk to Eddystone and iBeacon beacons
 
 ## Swift
 
+- [BeaconKit](https://github.com/igor-makarov/BeaconKit) - Beacon detection framework using CoreBluetooth, supporting Eddystone-UID, Eddystone-URL, AltBeacon.
 - [HiBeacons](https://github.com/nicktoumpelis/HiBeacons)
 - [iOS & OSX Bluetooth library for RxSwift](https://github.com/Polidea/RxBluetoothKit)
 - [JMCiBeaconManager](https://github.com/izotx/JMCBeaconManager) - An iBeacon Manager class that is responsible for detecting beacons nearby.
-- [BeaconKit](https://github.com/igor-makarov/BeaconKit) - Beacon detection framework using CoreBluetooth, supporting Eddystone-UID, Eddystone-URL, AltBeacon.
 
 ## Beacon Scanner Apps
 
@@ -36,11 +36,11 @@ A curated list of awesome Bluetooth beacon software and tools.
 
 ## Beacon Development
 
-- [iBeacon Scanner for Android](https://github.com/inthepocket/ibeacon-scanner-android)
 - [Android beacon library based on AltBeacon.](https://github.com/AltBeacon/android-beacon-library)
 - [BeaconKeeper](https://github.com/m039/beacon-keeper)
 - [BLE SDK for Android](https://github.com/RedBearLab/Android)
 - [Bluetooth LE Library for Android](https://github.com/alt236/Bluetooth-LE-Library---Android)
+- [iBeacon Scanner for Android](https://github.com/inthepocket/ibeacon-scanner-android)
 - [reelyactive-ble-android-sdk](https://github.com/reelyactive/ble-android-sdk)
 
 ## Vendor-driven Beacon Standardization
@@ -62,8 +62,8 @@ A curated list of awesome Bluetooth beacon software and tools.
 ## Objective-C
 
 - [Generic iBeacon Management and Utilities by KinveyLabs](https://github.com/KinveyLabs/KCSIBeacon)
-- [Replicates detecting and broadcasting iBeacons in the background](https://github.com/Instrument/Vicinity)
 - [RABeaconManager](https://github.com/reelyactive/ble-ios-sdk)
+- [Replicates detecting and broadcasting iBeacons in the background](https://github.com/Instrument/Vicinity)
 
 ## Stackoverflow Q&A
 

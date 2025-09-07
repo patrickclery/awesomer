@@ -5,10 +5,10 @@ Just a repo full of BEM resources
 ## Repos, CodePens and Things
 
 - [BEM Constructor](https://github.com/danielguillan/bem-constructor)
-- [WordPress BEM Menu](https://github.com/roikles/Wordpress-Bem-Menu)
 - [BEM Grid](https://github.com/bem-incubator/bem-grid)
-- [Flexible Grid System with BEM](https://github.com/flexiblegs/flexiblegs-bem)
 - [BEM.js](https://github.com/maykinmedia/bem.js)
+- [Flexible Grid System with BEM](https://github.com/flexiblegs/flexiblegs-bem)
+- [WordPress BEM Menu](https://github.com/roikles/Wordpress-Bem-Menu)
 
 ## With Pre-processors
 

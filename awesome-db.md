@@ -14,8 +14,8 @@ A curated list of amazingly awesome database libraries, resources and shiny thin
 - [mapdb](https://github.com/jankotek/MapDB) - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.http://www.mapdb.org
 - [neo4j](https://github.com/neo4j/neo4j) - [Neo4j](http://neo4j.org) is the world’s leading Graph Database.
 - [orientdb](https://github.com/orientechnologies/orientdb) - OrientDB is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs.
-- [voldemort](https://github.com/voldemort/voldemort) - An open source clone of Amazon's Dynamo. [website](http://project-voldemort.com)
 - [Titan](https://github.com/thinkaurelius/titan) - Distributed Graph Database http://titandb.io
+- [voldemort](https://github.com/voldemort/voldemort) - An open source clone of Amazon's Dynamo. [website](http://project-voldemort.com)
 
 ## Research Papers
 
@@ -40,11 +40,10 @@ A curated list of amazingly awesome database libraries, resources and shiny thin
 - [Aerospike](https://github.com/aerospike/aerospike-server) - Aerospike Database Server – flash-optimized, in-memory, nosql database
 - [Alchemy-Database](https://github.com/JakSprats/Alchemy-Database) - AlchemyDB is now Aerospike
 - [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Fast columnar store for analytics with PostgreSQL [website](http://citusdata.github.io/cstore_fdw/)
+- [facebook/mysql-5.6](https://github.com/facebook/mysql-5.6) - Facebook's branch of the Oracle MySQL v5.6 database
 - [memcache](https://github.com/memcached/memcached) - Free & open source, high-performance, distributed memory object caching system
 - [monetdb](https://github.com/snaga/monetdb) - [website](https://www.monetdb.org/)
 - [mongo](https://github.com/mongodb/mongo) - The Mongo Database http://www.mongodb.org/
-- [facebook/mysql-5.6](https://github.com/facebook/mysql-5.6) - Facebook's branch of the Oracle MySQL v5.6 database
-- [twitter/mysql](https://github.com/twitter/mysql) - MySQL fork maintained and used at Twitter https://github.com/twitter/mysql/wiki
 - [postgres](https://github.com/postgres/postgres)
 - [Redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes [website](http://redis.io)
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) - An open-source distributed JSON document database with a pleasant and powerful query language. http://www.rethinkdb.com
@@ -52,6 +51,7 @@ A curated list of amazingly awesome database libraries, resources and shiny thin
 - [ssdb](https://github.com/ideawu/ssdb) - SSDB - A fast NoSQL database, an alternative to Redis http://ssdb.io
 - [tokudb-engine](https://github.com/Tokutek/tokudb-engine) - TokuDB is a high-performance, write optimized, compressing, transactional storage engine for MySQL and MariaDB
 - [TokuMX](https://github.com/Tokutek/mongo) - TokuMX is a high-performance, concurrent, compressing, drop-in replacement engine for MongoDB
+- [twitter/mysql](https://github.com/twitter/mysql) - MySQL fork maintained and used at Twitter https://github.com/twitter/mysql/wiki
 - [VoltDB](https://github.com/VoltDB/voltdb) - VoltDB is a horizontally-scalable, in-memory SQL RDBMS designed for applications that have extremely high read and write throughput requirements.
 
 ## Go-lang

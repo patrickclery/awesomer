@@ -45,9 +45,9 @@ A curated list of roadmaps.
 ## AI / Machine Learning / Data Science
 
 - [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) - Roadmap to becoming an Artificial Intelligence Expert in 2022 [<img src="https://img.shields.io/badge/Roadmap-2022-green.svg">](https://github.com/AMAI-GmbH/AI-Expert-Roadmap).
-- [Deep Learning Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) - Roadmap through seminal deep learning papers [<img src="https://img.shields.io/badge/Roadmap-2022-green.svg">](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap).
-- [Deep Learning Roadmap](https://github.com/instillai/deep-learning-roadmap) - Roadmap to getting started with deep learning [<img src="https://img.shields.io/badge/Roadmap-2020-yellowgreen.svg">](https://github.com/instillai/deep-learning-roadmap).
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap) - Roadmap to becoming a data engineer in 2021 [<img src="https://img.shields.io/badge/Roadmap-2021-green.svg">](https://github.com/datastacktv/data-engineer-roadmap).
 - [Data Science Roadmap](https://github.com/boringPpl/data-science-roadmap) - Roadmap to becoming a data scientist [<img src="https://img.shields.io/badge/Roadmap-2020-yellow.svg">](https://github.com/boringPpl/data-science-roadmap).
 - [Data Scientist Roadmap](https://github.com/MrMimic/data-scientist-roadmap) - Roadmap of tutorials for those interested in data science [<img src="https://img.shields.io/badge/Roadmap-2024-green.svg">](https://github.com/MrMimic/data-scientist-roadmap).
+- [Deep Learning Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) - Roadmap through seminal deep learning papers [<img src="https://img.shields.io/badge/Roadmap-2022-green.svg">](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap).
+- [Deep Learning Roadmap](https://github.com/instillai/deep-learning-roadmap) - Roadmap to getting started with deep learning [<img src="https://img.shields.io/badge/Roadmap-2020-yellowgreen.svg">](https://github.com/instillai/deep-learning-roadmap).
 - [NLP Roadmap](https://github.com/graykode/nlp-roadmap) - Roadmap for Natural Language Processing learning in 2019 [<img src="https://img.shields.io/badge/Roadmap-2019-yellowgreen.svg">](https://github.com/graykode/nlp-roadmap).

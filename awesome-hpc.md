@@ -8,14 +8,14 @@ A collection of Awesome HPC software and tools
 
 ## Monitoring
 
-- [Slurm Exporter](https://github.com/treydock/prometheus-slurm-exporter) - Prometheus exporter for performance metrics from Slurm `GPL-3.0`.
-- [Slurm Exporter](https://github.com/ubccr/slurm-exporter) - Slurm Exporter for Prometheus using Rest API `GPL-3.0`.
-- [Infiniband Exporter](https://github.com/treydock/infiniband_exporter) - The InfiniBand exporter collects counters from InfiniBand switches and HCAs `Apache-2.0`.
 - [Cgroup Exporter](https://github.com/treydock/cgroup_exporter) - Produces metrics from cgroups `Apache-2.0`.
 - [Cgroup Exporter](https://github.com/phpHavok/cgroups_exporter) - A Prometheus exporter for cgroup-level metrics `unknown`.
-- [GPFS Exporter](https://github.com/treydock/gpfs_exporter) - The GPFS exporter collects metrics from the GPFS filesystem `Apache-2.0`.
-- [Lustre Exporter](https://github.com/GSI-HPC/lustre_exporter) - Prometheus exporter for use with the Lustre parallel filesystem `GPL-3.0`.
 - [DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) - NVIDIA GPU metrics exporter for Prometheus leveraging DCGM `Apache-2.0`.
+- [GPFS Exporter](https://github.com/treydock/gpfs_exporter) - The GPFS exporter collects metrics from the GPFS filesystem `Apache-2.0`.
+- [Infiniband Exporter](https://github.com/treydock/infiniband_exporter) - The InfiniBand exporter collects counters from InfiniBand switches and HCAs `Apache-2.0`.
+- [Lustre Exporter](https://github.com/GSI-HPC/lustre_exporter) - Prometheus exporter for use with the Lustre parallel filesystem `GPL-3.0`.
+- [Slurm Exporter](https://github.com/ubccr/slurm-exporter) - Slurm Exporter for Prometheus using Rest API `GPL-3.0`.
+- [Slurm Exporter](https://github.com/treydock/prometheus-slurm-exporter) - Prometheus exporter for performance metrics from Slurm `GPL-3.0`.
 
 ## Benchmarking
 

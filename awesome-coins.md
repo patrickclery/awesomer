@@ -21,6 +21,6 @@
 
 ## ☤ Reading Material
 
-- [Overview of Cryptocurrencies](https://github.com/kilimchoi/cryptocurrency)
-- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
 - [Blockchain for humans](https://github.com/anderson-joyle/blockchain-for-humans)
+- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
+- [Overview of Cryptocurrencies](https://github.com/kilimchoi/cryptocurrency)

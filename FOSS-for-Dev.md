@@ -8,32 +8,32 @@ A hub of Free and open-source software for developers
 
 ## Project management
 
-- [Redmine](https://github.com/redmine/redmine) - a flexible project management web application written using Ruby on Rails
 - [Phabricator](https://github.com/phacility/phabricator) - an open source collection of web applications which help software companies build better software
+- [Redmine](https://github.com/redmine/redmine) - a flexible project management web application written using Ruby on Rails
 
 ## PaaS
 
-- [Preevy](https://github.com/livecycle/preevy) - Provision preview environments for docker compose applications with minimal configuration
 - [OpenShift](https://github.com/openshift/origin) - build, deploy, and manage your applications with Docker and Kubernetes
+- [Preevy](https://github.com/livecycle/preevy) - Provision preview environments for docker compose applications with minimal configuration
 
 ## CI / CD
 
+- [cucumber](https://github.com/cucumber/cucumber) - Simple, human collaboration
 - [Jenkins](https://github.com/jenkinsci/jenkins) - open-source continuous integration server
 - [Travis CI](https://github.com/travis-ci/travis-ci) - Free continuous integration platform for GitHub projects
-- [cucumber](https://github.com/cucumber/cucumber) - Simple, human collaboration
 
 ## IDE
 
 - [Atom](https://github.com/atom/atom) - Opensource,fully-featured,hackable text editor for coding.
-- [Visual Studio Code](https://github.com/Microsoft/vscode) - Fully-featured IDE with thousands of extensions, cross-platform app development (Microsoft extensions available for download for iOS and Android), desktop, web and cloud development, multi-language support (C#, C++, JavaScript, Python, PHP and more)
-- [Coding WebIDE](https://github.com/Coding/WebIDE) - The Coding WebIDE Community Edition project
-- [CodeBox](https://github.com/CodeboxIDE/codebox) - Open source cloud & desktop IDE
 - [Brackets](https://github.com/adobe/brackets) - A modern and open-source code editor for HTML, CSS and JavaScript.
+- [CodeBox](https://github.com/CodeboxIDE/codebox) - Open source cloud & desktop IDE
+- [Coding WebIDE](https://github.com/Coding/WebIDE) - The Coding WebIDE Community Edition project
+- [Visual Studio Code](https://github.com/Microsoft/vscode) - Fully-featured IDE with thousands of extensions, cross-platform app development (Microsoft extensions available for download for iOS and Android), desktop, web and cloud development, multi-language support (C#, C++, JavaScript, Python, PHP and more)
 
 ## Source Code Repos
 
-- [Gogs](https://github.com/gogits/gogs) - A painless self-hosted Git Service
 - [GitLab](https://github.com/gitlabhq/gitlabhq) - Version control for your server
+- [Gogs](https://github.com/gogits/gogs) - A painless self-hosted Git Service
 - [Package Drone](https://github.com/eclipse/packagedrone) - A package manager repository for OSGi, Java and more
 
 ## Documentation
@@ -42,9 +42,9 @@ A hub of Free and open-source software for developers
 
 ## Collaboration Tools
 
+- [lets chat](https://github.com/sdelements/lets-chat) - Self-hosted chat app for small teams
 - [SparkleShare](https://github.com/hbons/SparkleShare) - An Open Source collaboration and sharing tool
 - [ssh chat](https://github.com/shazow/ssh-chat) - Chat over SSH
-- [lets chat](https://github.com/sdelements/lets-chat) - Self-hosted chat app for small teams
 
 ## File Management
 

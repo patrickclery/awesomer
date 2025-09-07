@@ -26,15 +26,15 @@ A curated list of awesome Phalcon libraries and resources
 ## Authentication & OAuth
 
 - [Padlock](https://github.com/tegaphilip/padlock) - A docker-based phalcon authentication server built on top of the PHP OAuth 2.0 Server
-- [phalcon-authmiddleware](https://github.com/SidRoberts/phalcon-authmiddleware) - Add middleware events to the dispatcher. Generic design that's compatible with ACL or a custom auth library.
 - [Phalcon Auth](https://github.com/sinbadxiii/phalcon-auth) - Out-of-the-box authentication component based on guards and providers.
+- [phalcon-authmiddleware](https://github.com/SidRoberts/phalcon-authmiddleware) - Add middleware events to the dispatcher. Generic design that's compatible with ACL or a custom auth library.
 
 ## ORM
 
 - [phalcon-boundmodels](https://github.com/SidRoberts/phalcon-boundmodels) - Automatically get models based on dispatcher parameters within the Phalcon framework
+- [phalcon-redis-model](https://github.com/ienaga/RedisPlugin) - redis based ORM and Easy Criteria (The correspondence of MySQL sharding.)
 - [phalcon-repositories](https://github.com/micheleangioni/phalcon-repositories) - Easy Repository pattern for Phalcon
 - [phalcon-seeder](https://github.com/SidRoberts/phalcon-seeder) - Database seeder component for Phalcon
-- [phalcon-redis-model](https://github.com/ienaga/RedisPlugin) - redis based ORM and Easy Criteria (The correspondence of MySQL sharding.)
 
 ## Provisioning
 
@@ -55,13 +55,13 @@ A curated list of awesome Phalcon libraries and resources
 
 ## CMS & Blogs
 
+- [Element CMF](https://github.com/odvapro/element) - Admin panel for everything  (admin | adminpass)
 - [giada-www](https://github.com/monocasual/giada-www) - Official website of [Giada Loop Machine](https://www.giadamusic.com/)
+- [Hummingbird CMS](https://github.com/mvanvu/hummingbird-cms) - A CMS based on Phalcon 4 with many powerful features
 - [KikCMS](https://github.com/krazzer/kikcms) - CMS built on Phalcon Framework
+- [PhalconCMS](https://github.com/KevinJay/PhalconCMS) - A blog built on Phalcon Framework
 - [Skopy Blog Engine](https://github.com/yuriygr/skopy) - A simple blog engine for those who want to start learning Phalcon
 - [Yona CMS](https://github.com/alexander-torosh/yona-cms) - CMS based on Phalcon Framework with modular structure
-- [PhalconCMS](https://github.com/KevinJay/PhalconCMS) - A blog built on Phalcon Framework
-- [Hummingbird CMS](https://github.com/mvanvu/hummingbird-cms) - A CMS based on Phalcon 4 with many powerful features
-- [Element CMF](https://github.com/odvapro/element) - Admin panel for everything  (admin | adminpass)
 
 ## Application Skeleton
 
@@ -69,11 +69,11 @@ A curated list of awesome Phalcon libraries and resources
 - [Base App](https://github.com/mruz/base-app) - The base application in Phalcon Framework
 - [INVO Application](https://github.com/phalcon/invo) - Sample application for the Phalcon Framework
 - [MVC](https://github.com/phalcon/mvc) - Examples of Phalcon MVC file structures
+- [NovaMOOC](https://github.com/les-enovateurs/phalcon-nova-mooc) - Sample application with API/BackEnd and FrontEnd + Authentication with JWT + Cypress tests with GitHub Actions + Docker compose.
 - [Phalcon Composer](https://github.com/xxtime/phalcon) - Phalcon with Composer support MySql MongoDb Redis, clean + beauty
+- [PhalconTool](https://github.com/corentin-begne/phalconTool) - Alternative to Phalcon devtools with complete frontend stack without any framework but helpers system allowing to automaticaly bind HTML events using Phalcon 5, PHP 8, Apache, MYSQL, SASS, ES6 and jQuery.
 - [Vökuró](https://github.com/phalcon/vokuro) - Sample application for Phalcon Framework (Acl, Auth, Security)
 - [Webird](https://github.com/perchlabs/webird) - Webird was created to merge the latest PHP and Node.js innovations into a single application stack
-- [NovaMOOC](https://github.com/les-enovateurs/phalcon-nova-mooc) - Sample application with API/BackEnd and FrontEnd + Authentication with JWT + Cypress tests with GitHub Actions + Docker compose.
-- [PhalconTool](https://github.com/corentin-begne/phalconTool) - Alternative to Phalcon devtools with complete frontend stack without any framework but helpers system allowing to automaticaly bind HTML events using Phalcon 5, PHP 8, Apache, MYSQL, SASS, ES6 and jQuery.
 
 ## Websites
 
@@ -94,16 +94,16 @@ A curated list of awesome Phalcon libraries and resources
 
 ## Routing
 
-- [Phalcon-autorouter](https://github.com/kahur/Phalcon-autorouter) - Simple way to auto load modules without complicate definition of routes
 - [Phalcon Routing for Yaml](https://github.com/ienaga/PhalconRouter) - Routing can be easily configured with yaml
+- [Phalcon-autorouter](https://github.com/kahur/Phalcon-autorouter) - Simple way to auto load modules without complicate definition of routes
 
 ## Miscellaneous
 
 - [Breadcrumbs](https://github.com/sergeyklay/breadcrumbs) - Powerful and flexible component for building site breadcrumbs in Phalcon 2+.
 - [Incubator](https://github.com/phalcon/incubator) - Repository to publish/share/experiment with new adapters, prototypes or functionality that can potentially be incorporated into the Phalcon Framework
+- [phalcon-data-table](https://github.com/maslo2017/phalcon-data-table) - Allows you to simplify the interaction with the bootstrap-table in the Phalcon
 - [Upgrade Adviser](https://github.com/diplopito/Phalcon-Upgrade-Adviser) - Command line tool to help upgrading Phalcon Applications from 3.4.x to 4.1.3, 3.4.x to 5.1.3, 4.1.3 to 5.1.3.
 - [yarak](https://github.com/zachleigh/yarak) - Laravel inspired Phalcon devtools
-- [phalcon-data-table](https://github.com/maslo2017/phalcon-data-table) - Allows you to simplify the interaction with the bootstrap-table in the Phalcon
 
 ## SEO
 

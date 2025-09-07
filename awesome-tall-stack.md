@@ -16,8 +16,8 @@ A curated list of awesome things related to the TALL stack.
 - [Livewire Datatables](https://github.com/mediconesystems/livewire-datatables) - Package to create tables with sorting, filtering, searching, exporting etc.
 - [Livewire PowerGrid](https://github.com/Power-Components/livewire-powergrid) - ⚡ PowerGrid ⚡ creates modern, powerful and easy to customize Datatables.
 - [TALL Forms](https://github.com/tanthammar/tall-forms) - A dynamic, responsive Laravel Livewire form component with realtime validation, file uploads, array fields, blade form input components and more.
-- [X Blade Components](https://github.com/masterix21/x-blade-components) - Ready-to-use Blade components.
 - [WireUI](https://github.com/wireui/wireui) - A simple, fast and elegant way to add blade components made with alpine.js and tailwind, ready to use, enjoy the ease. Livewire components and Tall Stack components
+- [X Blade Components](https://github.com/masterix21/x-blade-components) - Ready-to-use Blade components.
 
 ## The TALL Stack
 

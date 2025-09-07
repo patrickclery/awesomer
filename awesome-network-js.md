@@ -38,13 +38,13 @@ A :tophat: list of network layer resources written pure JS.
 - [mutex-server](https://github.com/samchon/mutex-server) - Critical section controllers, like mutex and semaphore, in the network level.
 - [network-address](https://github.com/mafintosh/network-address)
 - [network-simulator](https://github.com/substack/network-simulator)
+- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets for Node.js and JavaScript.
 - [rtsp-stream](https://github.com/watson/rtsp-stream) - A transport agnostic RTSP serial multiplexer module for Node.
 - [simple-peer](https://github.com/feross/simple-peer)
 - [simple-websocket](https://github.com/feross/simple-websocket)
 - [torrent-discovery](https://github.com/webtorrent/torrent-discovery)
 - [torrent-stream](https://github.com/mafintosh/torrent-stream)
 - [udp-packet](https://github.com/substack/udp-packet)
-- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets for Node.js and JavaScript.
 
 ## High level
 
