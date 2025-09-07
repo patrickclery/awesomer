@@ -1,7 +1,9 @@
-# Awesomer
+# Awesomer Engine
 
-A powerful Rails application and CLI utility for processing, analyzing, and enhancing GitHub Awesome Lists with
+⚙️ A powerful Rails engine and CLI utility for processing, analyzing, and enhancing GitHub Awesome Lists with
 real-time statistics.
+
+> **Note**: This is the processing engine. The generated awesome lists are published to [patrickclery/awesomer](https://github.com/patrickclery/awesomer).
 
 ## Features
 
@@ -162,6 +164,19 @@ awesomer process repo sindresorhus/awesome --sync
 # Specify output directory
 awesomer process repo sindresorhus/awesome --output-dir tmp/test
 ```
+
+### Publishing
+
+```bash
+# Publish changes to the public awesomer repository
+awesomer publish
+```
+
+This command will:
+1. Check for changes in the `static/awesomer` submodule
+2. Commit changes with a timestamp
+3. Push to the public [awesomer repository](https://github.com/patrickclery/awesomer)
+4. Update the parent repository's submodule reference
 
 ### Status Commands
 

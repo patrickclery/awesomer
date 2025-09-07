@@ -1,5 +1,0 @@
-## Plugins
-
-## Misc
-
-## Related lists

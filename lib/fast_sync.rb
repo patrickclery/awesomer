@@ -93,7 +93,7 @@ class FastSync
     states.each { |k, v| puts "  • #{k.capitalize}: #{v}" }
 
     # Check files
-    files = Dir.glob('static/md/*.md')
+    files = Dir.glob('static/awesomer/*.md')
     puts
     puts "📁 Generated Files: #{files.count}"
   end

@@ -139,11 +139,11 @@ class SyncAll
     puts "  • Failed: #{AwesomeList.failed.count}"
 
     # Check generated files
-    generated_files = Dir.glob('static/md/*.md')
+    generated_files = Dir.glob('static/awesomer/*.md')
     puts
     puts '📁 Generated Files:'
     puts "  • Count: #{generated_files.count}"
-    puts '  • Location: static/md/'
+    puts '  • Location: static/awesomer/'
 
     return unless generated_files.any?
 

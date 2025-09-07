@@ -1,7 +1,0 @@
-## Official
-
-## Education
-
-## Templates
-
-## Plugins

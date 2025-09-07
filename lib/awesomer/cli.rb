@@ -38,6 +38,7 @@ require_relative 'commands/bootstrap'
 require_relative 'commands/process'
 require_relative 'commands/worker'
 require_relative 'commands/prune'
+require_relative 'commands/publish'
 
 module Awesomer
   class Cli < Thor
@@ -74,6 +75,11 @@ module Awesomer
     option :dry_run, default: false, desc: 'Preview changes without applying', type: :boolean
     def prune
       Commands::Prune.new.invoke(:execute, [], options)
+    end
+
+    desc 'publish', 'Publish changes to the public awesomer repository'
+    def publish
+      Awesomer::Commands::Publish.start
     end
 
     desc 'status', 'Show current status of AwesomeList records in the database'

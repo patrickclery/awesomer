@@ -7,7 +7,7 @@ class ProcessCategoryService
   # noinspection RubyResolve
   include Dry::Monads[:result, :do]
 
-  TARGET_DIR = Rails.root.join('static', 'md')
+  TARGET_DIR = Rails.root.join('static', 'awesomer')
   OUTPUT_FILENAME = 'processed_awesome_list.md' # Default filename for the single output file
 
   def call(categories:, async: false, repo_identifier: nil)
