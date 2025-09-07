@@ -34,30 +34,9 @@ class SyncAwesomeListsJob < ApplicationJob
           # Regenerate markdown file if items were updated
           Rails.logger.info "Regenerating markdown for #{awesome_list.github_repo}"
 
-          # Use ProcessCategoryService to regenerate the markdown
-          categories = awesome_list.categories.includes(:category_items)
-
-          # Convert to the format expected by ProcessCategoryService
-          category_data = categories.map do |category|
-            {
-              items: category.category_items.map do |item|
-                {
-                  description: item.description,
-                  last_commit_at: item.last_commit_at,
-                  name: item.name,
-                  primary_url: item.primary_url,
-                  stars: item.stars
-                }
-              end,
-              name: category.name
-            }
-          end
-
-          service = ProcessCategoryService.new
-          markdown_result = service.call(
-            categories: category_data,
-            repo_identifier: awesome_list.github_repo
-          )
+          # Use enhanced processing with awesome_list object
+          service = ProcessCategoryServiceEnhanced.new
+          markdown_result = service.call(awesome_list: awesome_list)
 
           if markdown_result.success?
             file_path = markdown_result.value!

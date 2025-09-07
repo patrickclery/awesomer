@@ -24,10 +24,11 @@ class DeltaSyncService
         # Skip non-GitHub items
         next unless item.github_repo.present?
 
-        # Check if item needs update based on star delta
-        if item.needs_update?(@threshold)
+        # Check if item needs update based on star delta OR if it has no stars yet
+        if item.stars.nil? || item.needs_update?(@threshold)
           items_to_update << item
-          Rails.logger.info "Item #{item.name} needs update: #{item.star_delta} star change"
+          reason = item.stars.nil? ? "no stars yet" : "#{item.star_delta} star change"
+          Rails.logger.info "Item #{item.name} needs update: #{reason}"
         end
       end
 

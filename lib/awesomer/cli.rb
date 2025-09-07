@@ -39,6 +39,7 @@ require_relative 'commands/process'
 require_relative 'commands/worker'
 require_relative 'commands/prune'
 require_relative 'commands/publish'
+require_relative 'commands/cleanup'
 
 module Awesomer
   class Cli < Thor
@@ -80,6 +81,11 @@ module Awesomer
     desc 'publish', 'Publish changes to the public awesomer repository'
     def publish
       Awesomer::Commands::Publish.start
+    end
+
+    desc 'cleanup', 'Clean up empty files and reprocess failed lists'
+    def cleanup
+      Awesomer::Commands::Cleanup.start
     end
 
     desc 'status', 'Show current status of AwesomeList records in the database'
