@@ -408,11 +408,12 @@ A curated list of awesome Go frameworks, libraries and software
 
 ## Artificial Intelligence
 
-- [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
-- [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
-- [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
-- [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
-- [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas
+| Name | Description | Stars | Last Commit |
+|------|-------------|-------|-------------|
+| [langchaingo](https://github.com/tmc/langchaingo) | LangChainGo is a framework for developing applications powered by language models. | 7568 | 2025-09-07 |
+| [LocalAI](https://github.com/mudler/LocalAI) | Open Source OpenAI alternative, self-host AI models. | 35106 | 2025-09-07 |
+| [OllamaFarm](https://github.com/presbrey/ollamafarm) | Manage, load-balance, and failover packs of Ollamas | 85 | 2025-02-01 |
+| [chromem-go](https://github.com/philippgille/chromem-go) | Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. I... | 701 | 2025-08-02 |
 
 ## Messaging
 
@@ -905,10 +906,12 @@ A curated list of awesome Go frameworks, libraries and software
 
 ## Actor Model
 
-- [Ergo](https://github.com/ergo-services/ergo) - An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang.
-- [Goakt](https://github.com/Tochemey/goakt) - Fast and Distributed Actor framework using protocol buffers as message for Golang.
-- [Hollywood](https://github.com/anthdm/hollywood) - Blazingly fast and light-weight Actor engine written in Golang.
-- [ProtoActor](https://github.com/asynkron/protoactor-go) - Proto Actor - Ultra fast distributed actors for Go, C# and Java/Kotlin.
+| Name | Description | Stars | Last Commit |
+|------|-------------|-------|-------------|
+| [Goakt](https://github.com/Tochemey/goakt) | Fast and Distributed Actor framework using protocol buffers as message for Golang. | 278 | 2025-09-07 |
+| [Hollywood](https://github.com/anthdm/hollywood) | Blazingly fast and light-weight Actor engine written in Golang. | 2035 | 2025-07-04 |
+| [ProtoActor](https://github.com/asynkron/protoactor-go) | Proto Actor - Ultra fast distributed actors for Go, C# and Java/Kotlin. | 5315 | 2025-09-01 |
+| [Ergo](https://github.com/ergo-services/ergo) | An actor-based Framework with network transparency for creating event-driven architecture in Gola... | 4109 | 2025-09-05 |
 
 ## Windows
 
@@ -1644,42 +1647,18 @@ A curated list of awesome Go frameworks, libraries and software
 
 ## Authentication and Authorization
 
-- [authboss](https://github.com/volatiletech/authboss) - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.
-- [branca](https://github.com/essentialkaos/branca) - branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+.
-- [casbin](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
-- [cookiestxt](https://github.com/mengzhuo/cookiestxt) - provides a parser of cookies.txt file format.
-- [go-guardian](https://github.com/shaj13/go-guardian) - Go-Guardian is a golang library that provides a simple, clean, and idiomatic way to create powerful modern API and web authentication that supports LDAP, Basic, Bearer token, and Certificate based authentication.
-- [go-jose](https://github.com/go-jose/go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
-- [goiabada](https://github.com/leodip/goiabada) - An open-source authentication and authorization server supporting OAuth2 and OpenID Connect.
-- [gologin](https://github.com/dghubble/gologin) - chainable handlers for login with OAuth1 and OAuth2 authentication providers.
-- [gorbac](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
-- [gosession](https://github.com/Kwynto/gosession) - This is quick session for net/http in GoLang. This package is perhaps the best implementation of the session mechanism, or at least it tries to become one.
-- [goth](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box.
-- [jeff](https://github.com/abraithwaite/jeff) - Simple, flexible, secure, and idiomatic web session management with pluggable backends.
-- [jwt](https://github.com/pascaldekloe/jwt) - Lightweight JSON Web Token (JWT) library.
-- [jwt](https://github.com/cristalhq/jwt) - Safe, simple, and fast JSON Web Tokens for Go.
-- [jwt-auth](https://github.com/adam-hanna/jwt-auth) - JWT middleware for Golang http servers with many configuration options.
-- [jwt-go](https://github.com/golang-jwt/jwt) - A full featured implementation of JSON Web Tokens (JWT). This library supports the parsing and verification as well as the generation and signing of JWTs.
-- [jwx](https://github.com/lestrrat-go/jwx) - Go module implementing various JWx (JWA/JWE/JWK/JWS/JWT, otherwise known as JOSE) technologies
-- [keto](https://github.com/ory/keto) - Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
-- [loginsrv](https://github.com/tarent/loginsrv) - JWT login microservice with pluggable backends such as OAuth2 (Github), htpasswd, osiam.
-- [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine, and App Engine support.
-- [oidc](https://github.com/zitadel/oidc) - Easy to use OpenID Connect client and server library written for Go and certified by the OpenID Foundation
-- [openfga](https://github.com/openfga/openfga) - Implementation of fine-grained authorization based on the "Zanzibar: Google's Consistent, Global Authorization System" paper. Backed by [CNCF](https://www.cncf.io/).
-- [osin](https://github.com/openshift/osin) - Golang OAuth2 server library.
-- [otpgen](https://github.com/grijul/otpgen) - Library to generate TOTP/HOTP codes.
-- [otpgo](https://github.com/jltorresm/otpgo) - Time-Based One-Time Password (TOTP) and HMAC-Based One-Time Password (HOTP) library for Go.
-- [paseto](https://github.com/o1egl/paseto) - Golang implementation of Platform-Agnostic Security Tokens (PASETO).
-- [permissions](https://github.com/xyproto/permissions) - Library for keeping track of users, login states, and permissions. Uses secure cookies and bcrypt.
-- [scope](https://github.com/SonicRoshan/scope) - Easily Manage OAuth2 Scopes In Go.
-- [scs](https://github.com/alexedwards/scs) - Session Manager for HTTP servers.
-- [securecookie](https://github.com/chmike/securecookie) - Efficient secure cookie encoding/decoding.
-- [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
-- [sessions](https://github.com/adam-hanna/sessions) - Dead simple, highly performant, highly customizable sessions service for go http servers.
-- [sessionup](https://github.com/swithek/sessionup) - Simple, yet effective HTTP session management and identification package.
-- [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
-- [spicedb](https://github.com/authzed/spicedb) - A Zanzibar-inspired database that enables fine-grained authorization.
-- [x509proxy](https://github.com/vkuznet/x509proxy) - Library to handle X509 proxy certificates.
+| Name | Description | Stars | Last Commit |
+|------|-------------|-------|-------------|
+| [cookiestxt](https://github.com/mengzhuo/cookiestxt) | provides a parser of cookies.txt file format. | 20 | 2024-03-12 |
+| [go-jose](https://github.com/go-jose/go-jose) | Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, a... | 435 | 2025-08-28 |
+| [goiabada](https://github.com/leodip/goiabada) | An open-source authentication and authorization server supporting OAuth2 and OpenID Connect. | 156 | 2025-09-07 |
+| [gologin](https://github.com/dghubble/gologin) | chainable handlers for login with OAuth1 and OAuth2 authentication providers. | 1920 | 2025-09-07 |
+| [gorbac](https://github.com/mikespook/gorbac) | provides a lightweight role-based access control (RBAC) implementation in Golang. | 1641 | 2025-08-28 |
+| [gosession](https://github.com/Kwynto/gosession) | This is quick session for net/http in GoLang. This package is perhaps the best implementation of ... | 257 | 2024-07-31 |
+| [goth](https://github.com/markbates/goth) | provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers o... | 6208 | 2025-08-22 |
+| [jeff](https://github.com/abraithwaite/jeff) | Simple, flexible, secure, and idiomatic web session management with pluggable backends. | 270 | 2025-01-23 |
+| [branca](https://github.com/essentialkaos/branca) | branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.... | 91 | 2025-09-05 |
+| [go-guardian](https://github.com/shaj13/go-guardian) | Go-Guardian is a golang library that provides a simple, clean, and idiomatic way to create powerf... | 593 | 2024-07-25 |
 
 ## Performance
 
@@ -2371,15 +2350,15 @@ A curated list of awesome Go frameworks, libraries and software
 
 ## Audio and Music
 
-- [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
-- [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
-- [GoAudio](https://github.com/DylanMeeus/GoAudio) - Native Go Audio Processing Library.
-- [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
-- [id3v2](https://github.com/bogem/id3v2) - ID3 decoding and encoding library for Go.
-- [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
-- [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
-- [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
+| Name | Description | Stars | Last Commit |
+|------|-------------|-------|-------------|
+| [flac](https://github.com/mewkiz/flac) | Native Go FLAC encoder/decoder with support for FLAC streams. | 341 | 2025-08-18 |
+| [gaad](https://github.com/Comcast/gaad) | Native Go AAC bitstream parser. | 133 | 2023-01-27 |
+| [GoAudio](https://github.com/DylanMeeus/GoAudio) | Native Go Audio Processing Library. | 380 | 2024-04-23 |
+| [gosamplerate](https://github.com/dh1tw/gosamplerate) | libsamplerate bindings for go. | 36 | 2024-01-28 |
+| [malgo](https://github.com/gen2brain/malgo) | Mini audio library. | 348 | 2024-10-22 |
+| [minimp3](https://github.com/tosone/minimp3) | Lightweight MP3 decoder library. | 132 | 2025-07-09 |
+| [PortAudio](https://github.com/gordonklaus/portaudio) | Go bindings for the PortAudio audio I/O library. | 789 | 2025-02-06 |
 
 ## Resource Embedding
 
