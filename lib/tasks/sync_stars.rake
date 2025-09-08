@@ -11,6 +11,10 @@ namespace :sync do
       .where(stars: nil)
       .where.not(github_repo: [nil, ''])
 
+    # Apply limit if specified
+    limit = ENV['LIMIT']&.to_i
+    items_without_stars = items_without_stars.limit(limit) if limit&.positive?
+
     total = items_without_stars.count
     puts "Found #{total} items without stars"
 
@@ -23,7 +27,7 @@ namespace :sync do
 
       batch.each_with_index do |item, _index|
         # Rate limiting check
-        rate_limiter.check_and_wait!
+        rate_limiter.wait_if_needed
 
         begin
           repo_data = client.repository(item.github_repo)

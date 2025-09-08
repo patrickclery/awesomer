@@ -16,6 +16,9 @@ module Awesomer
       method_option :resurrect, default: false,
                                 desc: 'Re-activate archived (deleted) awesome lists if they exist',
                                 type: :boolean
+      method_option :validate, default: true,
+                               desc: 'Skip lists that fail validation (orphaned, empty, stale)',
+                               type: :boolean
       def lists
         puts '🚀 Bootstrap Awesome Lists'
         puts '=' * 50
@@ -53,11 +56,14 @@ module Awesomer
           puts '🚫 Skipping archived (deleted) lists (use --resurrect to re-activate)'
         end
 
+        puts '✓ VALIDATION MODE - Will skip orphaned, empty, and stale lists' if options[:validate]
+
         begin
           bootstrap_service = BootstrapAwesomeListsService.new(
             fetch_from_github: options[:fetch],
             limit: options[:limit],
-            resurrect: options[:resurrect]
+            resurrect: options[:resurrect],
+            validate: options[:validate]
           )
 
           if options[:dry_run]

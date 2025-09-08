@@ -15,14 +15,14 @@ module Awesomer
 
       desc 'Update all awesome lists with GitHub stats and clean up'
 
-      method_option :force,
-                    default: false,
-                    desc: 'Force update all lists even if recently synced',
-                    type: :boolean
+      class_option :force,
+                   default: false,
+                   desc: 'Force update all lists even if recently synced',
+                   type: :boolean
 
-      method_option :limit,
-                    desc: 'Limit number of lists to process',
-                    type: :numeric
+      class_option :limit,
+                   desc: 'Limit number of lists to process',
+                   type: :numeric
 
       def execute
         say '🚀 Starting comprehensive update...', :cyan

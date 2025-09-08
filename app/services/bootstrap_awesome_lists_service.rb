@@ -10,7 +10,7 @@ class BootstrapAwesomeListsService
   SINDRESORHUS_AWESOME_REPO = 'sindresorhus/awesome'
   BOOTSTRAP_FILE_PATH = Rails.root.join('static', 'bootstrap.md')
 
-  def initialize(fetch_from_github: false, limit: nil, resurrect: false, **deps)
+  def initialize(fetch_from_github: false, limit: nil, resurrect: false, validate: true, **deps)
     @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container['fetch_readme_operation']
     @find_or_create_awesome_list_operation =
       deps[:find_or_create_awesome_list_operation] || App::Container['find_or_create_awesome_list_operation']
@@ -18,6 +18,8 @@ class BootstrapAwesomeListsService
     @fetch_from_github = fetch_from_github
     @limit = limit
     @resurrect = resurrect
+    @validate = validate
+    @validator = ListValidationService.new if validate
   end
 
   def call
@@ -42,6 +44,7 @@ class BootstrapAwesomeListsService
     successful_records = []
     failed_repos = []
     skipped_archived = []
+    skipped_invalid = []
     resurrected_count = 0
 
     repo_links.each_with_index do |repo_identifier, index|
@@ -84,6 +87,15 @@ class BootstrapAwesomeListsService
         resurrected_count += 1
       end
 
+      # Validate the list if validation is enabled
+      if @validate && @validator && !@validator.valid_list?(awesome_list)
+        Rails.logger.info "BootstrapAwesomeListsService: ⏭️  Skipping invalid repository: #{repo_identifier}"
+        skipped_invalid << repo_identifier
+        # Delete the invalid list
+        awesome_list.destroy
+        next
+      end
+
       successful_records << awesome_list
       Rails.logger.info "BootstrapAwesomeListsService: ✅ Created/updated AwesomeList for #{repo_identifier}"
 
@@ -93,7 +105,8 @@ class BootstrapAwesomeListsService
 
     Rails.logger.info 'BootstrapAwesomeListsService: Completed bootstrap. ' \
                       "Success: #{successful_records.size}, Failed: #{failed_repos.size}, " \
-                      "Skipped (archived): #{skipped_archived.size}, Resurrected: #{resurrected_count}"
+                      "Skipped (archived): #{skipped_archived.size}, Skipped (invalid): #{skipped_invalid.size}, " \
+                      "Resurrected: #{resurrected_count}"
 
     if failed_repos.any?
       Rails.logger.warn "BootstrapAwesomeListsService: Failed repositories: #{failed_repos.pluck(:repo).join(', ')}"
@@ -105,6 +118,8 @@ class BootstrapAwesomeListsService
       resurrected_count:,
       skipped_archived:,
       skipped_archived_count: skipped_archived.size,
+      skipped_invalid:,
+      skipped_invalid_count: skipped_invalid.size,
       successful_count: successful_records.size,
       successful_records:,
       total_processed: repo_links.size
