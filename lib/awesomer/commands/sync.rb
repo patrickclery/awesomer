@@ -110,7 +110,7 @@ module Awesomer
           out: Rails.root.join('log', 'sync.log').to_s
         )
 
-        Process.detach(sync_pid)
+        ::Process.detach(sync_pid)
 
         say "  Started sync process (PID: #{sync_pid})", :green
 
