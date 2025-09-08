@@ -2,10 +2,6 @@
 
 an awesome list of decentralized services and technologies
 
-## Other Related Lists
-
-- [Awesome-decentralized-id](https://github.com/infominer33/awesome-decentralized-id) - Resources for creating a Decentralized, Vendor Agnostic, Self Sovereign Identity System for people organizations and things.
-
 ## Protocols and Technologies
 
 | Name                                                        | Description                                                                                                     | Stars | Last Commit |
@@ -15,6 +11,10 @@ an awesome list of decentralized services and technologies
 | [ForgeFed](https://github.com/forgefed/forgefed)            | a decentralized federation protocol provides a server to server API for pull request, forking and subscription. | 1012  | 2025-08-21  |
 | [Earthstar](https://github.com/earthstar-project/earthstar) | An offline-first, distributed, syncable, embedded document database for use in p2p software.                    | 890   | 2025-04-12  |
 | [libdweb](https://github.com/mozilla/libdweb)               | a community effort to implement experimental APIs enabling dweb protocols in Firefox.                           | 442   | 2023-07-06  |
+
+## Other Related Lists
+
+- [Awesome-decentralized-id](https://github.com/infominer33/awesome-decentralized-id) - Resources for creating a Decentralized, Vendor Agnostic, Self Sovereign Identity System for people organizations and things.
 
 ## Applications
 
