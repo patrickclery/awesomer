@@ -26,47 +26,28 @@ module Awesomer
 
       def execute
         say '🚀 Starting comprehensive update...', :cyan
+        say 'Proper sequence: Sync → Prune → Generate Markdown', :yellow
 
-        # Step 1: Clean up archived lists
-        cleanup_archived_lists
-
-        # Step 2: Sync GitHub stats for all items
+        # Step 1: Sync GitHub stats for all items
         sync_github_stats
 
-        # Step 3: Regenerate all markdown files
+        # Step 2: Run pruning to remove invalid lists
+        run_pruning
+
+        # Step 3: Clean up archived lists
+        cleanup_archived_lists
+
+        # Step 4: Regenerate all markdown files
         regenerate_markdown_files
 
-        # Step 4: Clean up empty files
+        # Step 5: Clean up empty files
         cleanup_empty_files
 
-        # Step 5: Show summary
+        # Step 6: Show summary
         show_summary
       end
 
       private
-
-      def cleanup_archived_lists
-        say "\n🗑️  Cleaning up archived lists...", :cyan
-
-        archived = AwesomeList.where(archived: true)
-        archived_count = archived.count
-
-        if archived_count > 0
-          say "  Found #{archived_count} archived lists", :yellow
-
-          archived.each do |list|
-            filename = "#{list.github_repo.split('/').last}.md"
-            file_path = Rails.root.join('static', 'awesomer', filename)
-
-            if File.exist?(file_path)
-              File.delete(file_path)
-              say "  ✗ Deleted #{filename}", :red
-            end
-          end
-        else
-          say '  No archived lists found', :green
-        end
-      end
 
       def sync_github_stats
         say "\n⭐ Syncing GitHub stats...", :cyan
@@ -125,6 +106,47 @@ module Awesomer
 
         say "\n  ✅ Updated #{updated} items with stars", :green
         say "  ❌ Failed: #{failed} items", :red if failed > 0
+      end
+
+      def run_pruning
+        say "\n🗑️  Running pruning to remove invalid lists...", :cyan
+
+        # Run the prune command
+        validator = ListValidationService.new(stale_days: 365)
+        result = validator.prune!(dry_run: false)
+
+        if result.success?
+          stats = result.value!
+          say "  ✅ Pruned #{stats[:total_deleted]} invalid lists", :green
+          say "    Stale: #{stats[:stale].size}", :yellow if stats[:stale].any?
+          say "    No repos: #{stats[:no_repos].size}", :yellow if stats[:no_repos].any?
+          say "    Orphaned: #{stats[:orphaned].size}", :yellow if stats[:orphaned].any?
+        else
+          say "  ❌ Pruning failed: #{result.failure}", :red
+        end
+      end
+
+      def cleanup_archived_lists
+        say "\n🗑️  Cleaning up archived lists...", :cyan
+
+        archived = AwesomeList.where(archived: true)
+        archived_count = archived.count
+
+        if archived_count > 0
+          say "  Found #{archived_count} archived lists", :yellow
+
+          archived.each do |list|
+            filename = "#{list.github_repo.split('/').last}.md"
+            file_path = Rails.root.join('static', 'awesomer', filename)
+
+            if File.exist?(file_path)
+              File.delete(file_path)
+              say "  ✗ Deleted #{filename}", :red
+            end
+          end
+        else
+          say '  No archived lists found', :green
+        end
       end
 
       def regenerate_markdown_files
