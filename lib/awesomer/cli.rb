@@ -40,6 +40,7 @@ require_relative 'commands/worker'
 require_relative 'commands/prune'
 require_relative 'commands/publish'
 require_relative 'commands/cleanup'
+require_relative 'commands/update'
 
 module Awesomer
   class Cli < Thor
