@@ -76,7 +76,7 @@ class BootstrapAwesomeListsService
       end
 
       awesome_list = awesome_list_result.value!
-      
+
       # If resurrect mode is enabled and the list was archived, unarchive it
       if @resurrect && awesome_list.archived?
         Rails.logger.info "BootstrapAwesomeListsService: ♻️  Resurrecting archived repository: #{repo_identifier}"
@@ -102,12 +102,12 @@ class BootstrapAwesomeListsService
     Success({
       failed_count: failed_repos.size,
       failed_repos:,
+      resurrected_count:,
+      skipped_archived:,
+      skipped_archived_count: skipped_archived.size,
       successful_count: successful_records.size,
       successful_records:,
-      total_processed: repo_links.size,
-      skipped_archived_count: skipped_archived.size,
-      skipped_archived:,
-      resurrected_count:
+      total_processed: repo_links.size
     })
   end
 

@@ -106,10 +106,10 @@ class FetchReadmeOperation
     # Make API call
     Rails.logger.info "Fetching fresh README content for #{repo_full_name}"
     readme_info = client.readme(repo_full_name)
-    
+
     # Check if content exists before trying to decode
     return Failure("README content is empty for #{repo_full_name}") if readme_info.content.nil?
-    
+
     content_decoded = Base64.decode64(readme_info.content).force_encoding('UTF-8')
     return Failure("README for #{repo_full_name} not valid UTF-8") unless content_decoded.valid_encoding?
 

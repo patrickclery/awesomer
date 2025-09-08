@@ -4,18 +4,20 @@ require 'rails_helper'
 
 RSpec.describe 'Sync operations with archived filtering' do
   describe SyncAwesomeListsJob do
-    let!(:active_completed) { create(:awesome_list, state: 'completed', archived: false, github_repo: 'user/active') }
-    let!(:archived_completed) { create(:awesome_list, state: 'completed', archived: true, github_repo: 'user/archived') }
+    let!(:active_completed) { create(:awesome_list, archived: false, github_repo: 'user/active', state: 'completed') }
+    let!(:archived_completed) do
+      create(:awesome_list, archived: true, github_repo: 'user/archived', state: 'completed')
+    end
     let!(:active_needs_sync) do
-      list = create(:awesome_list, state: 'completed', archived: false, github_repo: 'user/needs-sync',
-                                   sync_threshold: 10, last_synced_at: 2.days.ago)
-      create(:category_item, category: create(:category, awesome_list: list), stars: 100, previous_stars: 50)
+      list = create(:awesome_list, archived: false, github_repo: 'user/needs-sync', last_synced_at: 2.days.ago,
+                                   state: 'completed', sync_threshold: 10)
+      create(:category_item, category: create(:category, awesome_list: list), previous_stars: 50, stars: 100)
       list
     end
     let!(:archived_needs_sync) do
-      list = create(:awesome_list, state: 'completed', archived: true, github_repo: 'user/archived-needs-sync',
-                                   sync_threshold: 10, last_synced_at: 2.days.ago)
-      create(:category_item, category: create(:category, awesome_list: list), stars: 100, previous_stars: 50)
+      list = create(:awesome_list, archived: true, github_repo: 'user/archived-needs-sync', last_synced_at: 2.days.ago,
+                                   state: 'completed', sync_threshold: 10)
+      create(:category_item, category: create(:category, awesome_list: list), previous_stars: 50, stars: 100)
       list
     end
 
@@ -38,7 +40,7 @@ RSpec.describe 'Sync operations with archived filtering' do
 
       it 'counts only active lists needing sync' do
         allow(DeltaSyncService).to receive(:new).and_return(double(call: Dry::Monads::Success(items_updated: 0)))
-        
+
         # The job actually finds both active lists since they're both completed
         expect(Rails.logger).to receive(:info).with('Found 2 lists to sync')
         described_class.new.perform(force: false)
@@ -62,15 +64,15 @@ RSpec.describe 'Sync operations with archived filtering' do
   end
 
   describe DeltaSyncService do
-    let(:active_list) { create(:awesome_list, state: 'completed', archived: false) }
-    let(:archived_list) { create(:awesome_list, state: 'completed', archived: true) }
+    let(:active_list) { create(:awesome_list, archived: false, state: 'completed') }
+    let(:archived_list) { create(:awesome_list, archived: true, state: 'completed') }
 
     it 'processes items for active lists' do
       service = described_class.new(awesome_list: active_list)
       expect(service).to receive(:create_sync_log).and_return(
         double(update!: true)
       )
-      
+
       result = service.call
       expect(result).to be_success
     end
@@ -81,15 +83,15 @@ RSpec.describe 'Sync operations with archived filtering' do
       expect(service).to receive(:create_sync_log).and_return(
         double(update!: true)
       )
-      
+
       result = service.call
       expect(result).to be_success
     end
   end
 
   describe ProcessAwesomeListService do
-    let!(:active_list) { create(:awesome_list, state: 'pending', archived: false, github_repo: 'user/active-repo') }
-    let!(:archived_list) { create(:awesome_list, state: 'pending', archived: true, github_repo: 'user/archived-repo') }
+    let!(:active_list) { create(:awesome_list, archived: false, github_repo: 'user/active-repo', state: 'pending') }
+    let!(:archived_list) { create(:awesome_list, archived: true, github_repo: 'user/archived-repo', state: 'pending') }
 
     it 'can be called on active lists' do
       # The service itself doesn't filter - just confirming it can be called
@@ -104,8 +106,12 @@ RSpec.describe 'Sync operations with archived filtering' do
   end
 
   describe GithubPushService do
-    let!(:active_synced) { create(:awesome_list, archived: false, last_synced_at: 1.hour.ago, last_pushed_at: 2.hours.ago) }
-    let!(:archived_synced) { create(:awesome_list, archived: true, last_synced_at: 1.hour.ago, last_pushed_at: 2.hours.ago) }
+    let!(:active_synced) do
+      create(:awesome_list, archived: false, last_pushed_at: 2.hours.ago, last_synced_at: 1.hour.ago)
+    end
+    let!(:archived_synced) do
+      create(:awesome_list, archived: true, last_pushed_at: 2.hours.ago, last_synced_at: 1.hour.ago)
+    end
     let!(:active_not_synced) { create(:awesome_list, archived: false, last_synced_at: nil) }
 
     it 'only updates last_pushed_at for active synced lists' do

@@ -36,7 +36,7 @@ class SyncAwesomeListsJob < ApplicationJob
 
           # Use enhanced processing with awesome_list object
           service = ProcessCategoryServiceEnhanced.new
-          markdown_result = service.call(awesome_list: awesome_list)
+          markdown_result = service.call(awesome_list:)
 
           if markdown_result.success?
             file_path = markdown_result.value!

@@ -14,8 +14,8 @@ module Awesomer
                             desc: 'Fetch fresh data from GitHub instead of using local bootstrap.md',
                             type: :boolean
       method_option :resurrect, default: false,
-                            desc: 'Re-activate archived (deleted) awesome lists if they exist',
-                            type: :boolean
+                                desc: 'Re-activate archived (deleted) awesome lists if they exist',
+                                type: :boolean
       def lists
         puts '🚀 Bootstrap Awesome Lists'
         puts '=' * 50
@@ -46,7 +46,7 @@ module Awesomer
                         '📁 Using local bootstrap.md file...'
                       end
         puts source_info
-        
+
         if options[:resurrect]
           puts '♻️  RESURRECT MODE - Will re-activate archived lists if found'
         else

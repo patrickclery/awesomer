@@ -16,20 +16,20 @@ module Awesomer
 
       def check_submodule
         submodule_path = Rails.root.join('static', 'awesomer')
-        
+
         unless Dir.exist?(submodule_path)
           say '❌ Submodule not found at static/awesomer', :red
           say 'Please ensure the submodule is properly initialized.', :yellow
           exit 1
         end
-        
+
         say '✅ Submodule found', :green
       end
 
       def check_for_changes
         Dir.chdir(Rails.root.join('static', 'awesomer')) do
           @has_changes = !`git status --porcelain`.strip.empty?
-          
+
           if @has_changes
             say '📝 Changes detected in submodule:', :yellow
             system('git status --short')
@@ -41,17 +41,17 @@ module Awesomer
 
       def commit_changes
         return unless @has_changes
-        
+
         Dir.chdir(Rails.root.join('static', 'awesomer')) do
           say '📦 Committing changes...', :cyan
-          
+
           # Add all changes
           system('git add .')
-          
+
           # Create commit message with timestamp
           commit_message = "Update awesome lists - #{Time.now.strftime('%Y-%m-%d %H:%M')}"
           success = system("git commit -m '#{commit_message}'")
-          
+
           if success
             say '✅ Changes committed', :green
           else
@@ -63,15 +63,15 @@ module Awesomer
 
       def push_to_remote
         return unless @has_changes
-        
+
         Dir.chdir(Rails.root.join('static', 'awesomer')) do
           say '🚀 Pushing to remote repository...', :cyan
-          
+
           success = system('git push origin main')
-          
+
           if success
             say '✅ Successfully published to https://github.com/patrickclery/awesomer', :green
-            
+
             # Show the commit URL
             commit_sha = `git rev-parse HEAD`.strip
             say "📎 View commit: https://github.com/patrickclery/awesomer/commit/#{commit_sha}", :blue
@@ -85,23 +85,23 @@ module Awesomer
 
       def update_parent_repository
         return unless @has_changes
-        
+
         say '📝 Updating parent repository...', :cyan
-        
+
         # Stage the submodule update in the parent repo
         system('git add static/awesomer')
-        
-        if !`git status --porcelain static/awesomer`.strip.empty?
+
+        if `git status --porcelain static/awesomer`.strip.empty?
+          say 'ℹ️  No submodule reference changes in parent', :blue
+        else
           system("git commit -m 'Update awesomer submodule'")
           say '✅ Parent repository updated', :green
-        else
-          say 'ℹ️  No submodule reference changes in parent', :blue
         end
       end
 
       def summary
         if @has_changes
-          say "\n" + '=' * 50, :green
+          say "\n#{'=' * 50}", :green
           say '✅ Publishing complete!', :green
           say '=' * 50, :green
           say "\nThe awesome lists have been published to:"

@@ -4,35 +4,37 @@ require 'rails_helper'
 
 RSpec.describe 'Sync utilities with archived filtering' do
   describe 'FastSync' do
-    let!(:active_pending) { create(:awesome_list, state: 'pending', archived: false, github_repo: 'user/active') }
-    let!(:archived_pending) { create(:awesome_list, state: 'pending', archived: true, github_repo: 'user/archived') }
-    let!(:active_completed) { create(:awesome_list, state: 'completed', archived: false, github_repo: 'user/completed') }
+    let!(:active_pending) { create(:awesome_list, archived: false, github_repo: 'user/active', state: 'pending') }
+    let!(:archived_pending) { create(:awesome_list, archived: true, github_repo: 'user/archived', state: 'pending') }
+    let!(:active_completed) do
+      create(:awesome_list, archived: false, github_repo: 'user/completed', state: 'completed')
+    end
 
     it 'only processes active pending lists' do
       require_relative '../../lib/fast_sync'
       sync = FastSync.new
-      
+
       # Mock the ProcessAwesomeListService
       expect(ProcessAwesomeListService).to receive(:new).with(
         hash_including(repo_identifier: 'user/active')
       ).and_return(double(call: Dry::Monads::Success(true)))
-      
+
       expect(ProcessAwesomeListService).not_to receive(:new).with(
         hash_including(repo_identifier: 'user/archived')
       )
-      
+
       # Silence output
       allow(sync).to receive(:puts)
-      
+
       # Run the sync
       sync.run
     end
   end
 
   describe 'SyncAll' do
-    let!(:active_pending) { create(:awesome_list, state: 'pending', archived: false, github_repo: 'user/active') }
-    let!(:archived_pending) { create(:awesome_list, state: 'pending', archived: true, github_repo: 'user/archived') }
-    let!(:active_in_progress) { create(:awesome_list, state: 'in_progress', archived: false, updated_at: 2.hours.ago) }
+    let!(:active_pending) { create(:awesome_list, archived: false, github_repo: 'user/active', state: 'pending') }
+    let!(:archived_pending) { create(:awesome_list, archived: true, github_repo: 'user/archived', state: 'pending') }
+    let!(:active_in_progress) { create(:awesome_list, archived: false, state: 'in_progress', updated_at: 2.hours.ago) }
 
     before do
       require_relative '../../lib/sync_all'
@@ -42,16 +44,16 @@ RSpec.describe 'Sync utilities with archived filtering' do
       sync = SyncAll.new
       allow(sync).to receive(:puts)
       allow(sync).to receive(:reset_stuck_items)
-      
+
       # Check that counts are correct
       expect(AwesomeList.active.pending.count).to eq(1)
       expect(AwesomeList.active.count).to eq(2)
-      
+
       # Mock the processing
       allow(ProcessAwesomeListService).to receive(:new).and_return(
         double(call: Dry::Monads::Success(true))
       )
-      
+
       sync.run
     end
 
@@ -59,24 +61,24 @@ RSpec.describe 'Sync utilities with archived filtering' do
       sync = SyncAll.new
       allow(sync).to receive(:puts)
       allow(sync).to receive(:reset_stuck_items)
-      
+
       expect(ProcessAwesomeListService).to receive(:new).with(
         hash_including(repo_identifier: 'user/active')
       ).and_return(double(call: Dry::Monads::Success(true)))
-      
+
       expect(ProcessAwesomeListService).not_to receive(:new).with(
         hash_including(repo_identifier: 'user/archived')
       )
-      
+
       sync.run
     end
   end
 
   describe 'Process command reset' do
-    let!(:active_completed) { create(:awesome_list, state: 'completed', archived: false) }
-    let!(:active_failed) { create(:awesome_list, state: 'failed', archived: false) }
-    let!(:archived_completed) { create(:awesome_list, state: 'completed', archived: true) }
-    let!(:archived_failed) { create(:awesome_list, state: 'failed', archived: true) }
+    let!(:active_completed) { create(:awesome_list, archived: false, state: 'completed') }
+    let!(:active_failed) { create(:awesome_list, archived: false, state: 'failed') }
+    let!(:archived_completed) { create(:awesome_list, archived: true, state: 'completed') }
+    let!(:archived_failed) { create(:awesome_list, archived: true, state: 'failed') }
 
     it 'only resets active lists to pending' do
       # Initially not pending
@@ -91,7 +93,7 @@ RSpec.describe 'Sync utilities with archived filtering' do
       # Active lists should be reset
       expect(active_completed.reload.state).to eq('pending')
       expect(active_failed.reload.state).to eq('pending')
-      
+
       # Archived lists should remain unchanged
       expect(archived_completed.reload.state).to eq('completed')
       expect(archived_failed.reload.state).to eq('failed')
@@ -101,25 +103,26 @@ RSpec.describe 'Sync utilities with archived filtering' do
   describe 'Worker should_sync?' do
     context 'with only archived lists needing sync' do
       let!(:archived_needs_sync) do
-        list = create(:awesome_list, state: 'completed', archived: true, sync_threshold: 10, last_synced_at: 2.days.ago)
-        create(:category_item, category: create(:category, awesome_list: list), stars: 100, previous_stars: 50)
+        list = create(:awesome_list, archived: true, last_synced_at: 2.days.ago, state: 'completed', sync_threshold: 10)
+        create(:category_item, category: create(:category, awesome_list: list), previous_stars: 50, stars: 100)
         list
       end
 
       it 'returns false' do
-        expect(AwesomeList.active.completed.needs_sync.exists?).to be false
+        expect(AwesomeList.active.completed.needs_sync.exists?).to be(false)
       end
     end
 
     context 'with active lists needing sync' do
       let!(:active_needs_sync) do
-        list = create(:awesome_list, state: 'completed', archived: false, sync_threshold: 10, last_synced_at: 2.days.ago)
-        create(:category_item, category: create(:category, awesome_list: list), stars: 100, previous_stars: 50)
+        list = create(:awesome_list, archived: false, last_synced_at: 2.days.ago, state: 'completed',
+                                     sync_threshold: 10)
+        create(:category_item, category: create(:category, awesome_list: list), previous_stars: 50, stars: 100)
         list
       end
 
       it 'returns true' do
-        expect(AwesomeList.active.completed.needs_sync.exists?).to be true
+        expect(AwesomeList.active.completed.needs_sync.exists?).to be(true)
       end
     end
   end
