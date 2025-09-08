@@ -41,6 +41,7 @@ require_relative 'commands/prune'
 require_relative 'commands/publish'
 require_relative 'commands/cleanup'
 require_relative 'commands/update'
+require_relative 'commands/sync'
 
 module Awesomer
   class Cli < Thor
@@ -87,6 +88,32 @@ module Awesomer
     desc 'cleanup', 'Clean up empty files and reprocess failed lists'
     def cleanup
       Awesomer::Commands::Cleanup.start
+    end
+
+    desc 'sync', 'Complete sync with automatic sequence: sync → prune → generate markdown'
+    long_desc <<-LONGDESC
+      Run a complete sync that automatically:
+      1. Syncs all GitHub stats for items
+      2. Runs pruning to remove invalid lists
+      3. Deletes old markdown files
+      4. Generates fresh markdown files
+
+      The command monitors progress with countdown timers and handles the entire
+      sequence automatically. It will restart stalled processes and continue until
+      100% of items have their GitHub stats synced.
+
+      Examples:
+        awesomer sync                       # Run with monitoring and countdown timers
+        awesomer sync --no-monitor          # Run without countdown timers
+        awesomer sync --max-iterations=50   # Limit to 50 monitoring loops
+    LONGDESC
+    def sync
+      Awesomer::Commands::Sync.start
+    end
+
+    desc 'update', 'Update all awesome lists with GitHub stats and clean up'
+    def update
+      Awesomer::Commands::Update.start
     end
 
     desc 'status', 'Show current status of AwesomeList records in the database'
