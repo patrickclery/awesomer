@@ -15,30 +15,30 @@ module Awesomer
 
       desc 'Update all awesome lists with GitHub stats and clean up'
 
-      method_option :force, 
-                    type: :boolean, 
-                    default: false, 
-                    desc: 'Force update all lists even if recently synced'
-      
+      method_option :force,
+                    default: false,
+                    desc: 'Force update all lists even if recently synced',
+                    type: :boolean
+
       method_option :limit,
-                    type: :numeric,
-                    desc: 'Limit number of lists to process'
+                    desc: 'Limit number of lists to process',
+                    type: :numeric
 
       def execute
         say '🚀 Starting comprehensive update...', :cyan
-        
+
         # Step 1: Clean up archived lists
         cleanup_archived_lists
-        
+
         # Step 2: Sync GitHub stats for all items
         sync_github_stats
-        
+
         # Step 3: Regenerate all markdown files
         regenerate_markdown_files
-        
+
         # Step 4: Clean up empty files
         cleanup_empty_files
-        
+
         # Step 5: Show summary
         show_summary
       end
@@ -47,17 +47,17 @@ module Awesomer
 
       def cleanup_archived_lists
         say "\n🗑️  Cleaning up archived lists...", :cyan
-        
+
         archived = AwesomeList.where(archived: true)
         archived_count = archived.count
-        
+
         if archived_count > 0
           say "  Found #{archived_count} archived lists", :yellow
-          
+
           archived.each do |list|
             filename = "#{list.github_repo.split('/').last}.md"
             file_path = Rails.root.join('static', 'awesomer', filename)
-            
+
             if File.exist?(file_path)
               File.delete(file_path)
               say "  ✗ Deleted #{filename}", :red
@@ -70,45 +70,42 @@ module Awesomer
 
       def sync_github_stats
         say "\n⭐ Syncing GitHub stats...", :cyan
-        
+
         client = Octokit::Client.new(access_token: ENV.fetch('GITHUB_API_KEY', nil))
         rate_limiter = GithubRateLimiterService.new
-        
+
         # Get items that need syncing
         items_needing_sync = CategoryItem
           .where(stars: nil)
           .where.not(github_repo: [nil, ''])
-        
-        if options[:limit]
-          items_needing_sync = items_needing_sync.limit(options[:limit])
-        end
-        
+
+        items_needing_sync = items_needing_sync.limit(options[:limit]) if options[:limit]
+
         total = items_needing_sync.count
-        
+
         if total == 0
           say '  All items already have stars!', :green
           return
         end
-        
+
         say "  Found #{total} items needing stars", :yellow
-        
+
         updated = 0
         failed = 0
-        
+
         items_needing_sync.find_each do |item|
           rate_limiter.check_and_wait!
-          
+
           begin
             repo_data = client.repository(item.github_repo)
-            
+
             item.update!(
-              stars: repo_data.stargazers_count,
-              last_commit_at: repo_data.pushed_at
+              last_commit_at: repo_data.pushed_at,
+              stars: repo_data.stargazers_count
             )
-            
+
             updated += 1
             print '.' if updated % 10 == 0
-            
           rescue Octokit::NotFound
             item.update!(stars: 0) # Mark as checked
             failed += 1
@@ -125,24 +122,24 @@ module Awesomer
             failed += 1
           end
         end
-        
+
         say "\n  ✅ Updated #{updated} items with stars", :green
         say "  ❌ Failed: #{failed} items", :red if failed > 0
       end
 
       def regenerate_markdown_files
         say "\n📝 Regenerating markdown files...", :cyan
-        
+
         service = ProcessCategoryServiceEnhanced.new
         count = 0
         deleted = 0
-        
+
         lists = AwesomeList.active.completed
         lists = lists.limit(options[:limit]) if options[:limit]
-        
+
         lists.find_each do |list|
           result = service.call(awesome_list: list)
-          
+
           if result.success?
             if result.value! == :deleted
               deleted += 1
@@ -155,21 +152,21 @@ module Awesomer
             print '!'
           end
         end
-        
+
         say "\n  ✅ Regenerated #{count} files", :green
         say "  🗑️  Deleted #{deleted} empty files", :yellow if deleted > 0
       end
 
       def cleanup_empty_files
         say "\n🧹 Cleaning up empty files...", :cyan
-        
+
         small_files = Dir.glob(Rails.root.join('static', 'awesomer', '*.md')).select do |f|
           File.basename(f) != 'README.md' && File.size(f) < 200
         end
-        
+
         if small_files.any?
           say "  Found #{small_files.count} small/empty files", :yellow
-          
+
           small_files.each do |file|
             File.delete(file)
             say "  ✗ Deleted #{File.basename(file)}", :red
@@ -180,26 +177,26 @@ module Awesomer
       end
 
       def show_summary
-        say "\n" + "="*50, :green
+        say "\n#{'=' * 50}", :green
         say '✅ Update complete!', :green
-        say "="*50, :green
-        
+        say '=' * 50, :green
+
         # Statistics
         total_lists = AwesomeList.active.count
         completed = AwesomeList.active.completed.count
         items_with_stars = CategoryItem.where.not(stars: nil).count
         total_items = CategoryItem.where.not(github_repo: [nil, '']).count
         files = Dir.glob(Rails.root.join('static', 'awesomer', '*.md')).count - 1
-        
+
         say "\n📊 Statistics:"
-        say "  Awesome Lists:"
+        say '  Awesome Lists:'
         say "    • Total: #{total_lists}"
         say "    • Completed: #{completed}"
-        say "  Items:"
+        say '  Items:'
         say "    • Total with GitHub: #{total_items}"
         say "    • With stars: #{items_with_stars}"
         say "    • Coverage: #{(items_with_stars.to_f / total_items * 100).round(1)}%"
-        say "  Files:"
+        say '  Files:'
         say "    • Markdown files: #{files}"
       end
     end
