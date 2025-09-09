@@ -1,0 +1,165 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Background Jobs with Solid Queue
+
+This project uses solid_queue for background job processing, particularly for GitHub API interactions that require rate limiting and asynchronous processing.
+
+### Job Architecture
+
+**Job Inheritance**: All jobs inherit from `ApplicationJob` which includes:
+- Retry policies for different error types
+- Logging and monitoring capabilities
+- Queue assignment based on job type
+
+**Queue Structure**: `[config/queue.yml](mdc:config/queue.yml)`
+- `github_stats`: High-priority GitHub API calls
+- `markdown_processing`: Document generation and processing
+- `default`: General background tasks
+
+### Job Types and Patterns
+
+1. **API Fetching Jobs**: `[FetchGithubStatsJob](mdc:app/jobs/fetch_github_stats_job.rb)`
+   - Single responsibility: fetch stats for one repository
+   - Implements rate limiting via `[GithubRateLimiterService](mdc:app/services/github_rate_limiter_service.rb)`
+   - Handles API errors gracefully (404, 429, network issues)
+   - Caches results to minimize API calls
+
+2. **Orchestration Jobs**: `[ProcessMarkdownWithStatsJob](mdc:app/jobs/process_markdown_with_stats_job.rb)`
+   - Coordinates multiple child jobs
+   - Queues parallel `FetchGithubStatsJob` instances
+   - Waits for completion before triggering next phase
+   - Handles partial failures gracefully
+
+3. **Generation Jobs**: `[GenerateMarkdownJob](mdc:app/jobs/generate_markdown_job.rb)`
+   - Final step in processing pipeline
+   - Aggregates results from multiple API calls
+   - Generates output files using `[ProcessCategoryService](mdc:app/services/process_category_service.rb)`
+
+### Job Coordination Patterns
+
+**Parent-Child Relationships**:
+```ruby
+# Parent job queues children
+categories.each do |category|
+  category.items.each do |item|
+    FetchGithubStatsJob.perform_later(item.repo_url, coordination_key)
+  end
+end
+
+# Children signal completion
+Redis.current.incr("#{coordination_key}:completed")
+
+# Parent checks for completion
+if all_jobs_completed?(coordination_key)
+  GenerateMarkdownJob.perform_later(coordination_key)
+end
+```
+
+**Coordination Keys**: Unique identifiers for job batches
+- Format: `"process_#{repo_identifier}_#{timestamp}"`
+- Used for Redis coordination and result aggregation
+- Automatic cleanup after processing
+
+### Error Handling and Retries
+
+**Retry Policies** (configured in `ApplicationJob`):
+- GitHub API 429 errors: Exponential backoff, max 5 retries
+- Network errors: Linear backoff, max 3 retries
+- 404 errors: No retry (permanent failure)
+- Other errors: Default Rails retry policy
+
+**Graceful Degradation**:
+- Jobs continue processing even if some API calls fail
+- Missing stats are handled gracefully in output generation
+- Partial results are better than no results
+
+### Testing Background Jobs
+
+**Synchronous Testing**: Use `perform_now` for immediate execution
+```ruby
+# In specs
+job = FetchGithubStatsJob.new
+result = job.perform_now(repo_url, coordination_key)
+```
+
+**Asynchronous Testing**: Test job queuing behavior
+```ruby
+expect {
+  ProcessMarkdownWithStatsJob.perform_later(categories, coordination_key)
+}.to have_enqueued_job(ProcessMarkdownWithStatsJob)
+```
+
+**VCR Integration**: Use cassettes for external API calls
+```ruby
+vcr('github', 'repo_stats_job') do
+  FetchGithubStatsJob.perform_now(repo_url, coordination_key)
+end
+```
+
+### Configuration
+
+**Solid Queue Setup**: `[config/initializers/solid_queue.rb](mdc:config/initializers/solid_queue.rb)`
+- Database-backed job storage
+- Worker process configuration
+- Queue priorities and concurrency limits
+
+**Redis Integration**: Jobs use Redis for:
+- Rate limiting coordination
+- Job completion tracking
+- Result caching
+- Cross-job communication
+
+### Monitoring and Debugging
+
+**Job Status**: Solid queue provides built-in job tracking
+- Failed jobs are retained for debugging
+- Retry attempts are logged with timestamps
+- Job arguments and errors are preserved
+
+**Custom Logging**: Jobs log key events
+- API rate limit status
+- Cache hits/misses
+- Processing milestones
+- Error details with context
+
+### Performance Considerations
+
+**Batching**: Large lists are processed in parallel
+- Each repository gets its own job
+- Coordination prevents overwhelming the API
+- Results are aggregated efficiently
+
+**Caching**: Multiple cache layers
+- Repository stats cached for 1 day
+- Coordination state cached for 1 hour
+- Redis fallback for high availability
+
+**Resource Management**:
+- Queue workers allocated by job type
+- Rate limiting prevents API abuse
+- Memory usage optimized for large datasets
+
+### Usage Patterns
+
+**Synchronous Fallback**: For small datasets or testing
+```ruby
+# In SyncGitStatsOperation
+if async && categories.sum { |c| c.items.size } > ASYNC_THRESHOLD
+  # Use background jobs
+else
+  # Process synchronously
+end
+```
+
+**Job Chaining**: Complex workflows
+```ruby
+# Step 1: Process markdown with stats
+ProcessMarkdownWithStatsJob.perform_later(categories, key)
+  # Step 2: Fetch individual stats (parallel)
+  → FetchGithubStatsJob.perform_later (multiple)
+    # Step 3: Generate final output
+    → GenerateMarkdownJob.perform_later(key)
+```
