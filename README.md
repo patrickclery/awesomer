@@ -22,17 +22,6 @@ These lists are automatically generated through a process that:
 4. Generates enhanced markdown files
 5. Publishes updates to this repository
 
-## Contents
-
-This repository contains hundreds of awesome lists covering topics including:
-
-- Programming languages (Python, JavaScript, Ruby, Go, Rust, etc.)
-- Frameworks and libraries
-- DevOps and cloud technologies
-- Data science and machine learning
-- Security and privacy
-- And much more!
-
 ## Updates
 
 This repository is automatically updated daily with:
