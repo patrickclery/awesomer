@@ -25,9 +25,15 @@ module Awesomer
                    desc: 'Maximum monitoring iterations',
                    type: :numeric
 
+      class_option :async,
+                   default: true,
+                   desc: 'Run sync process asynchronously (false for synchronous)',
+                   type: :boolean
+
       def execute
         say '🚀 Starting Complete Sync Process', :cyan
         say 'Sequence: Sync → Prune → Generate Markdown', :yellow
+        say "Mode: #{options[:async] ? 'Asynchronous' : 'Synchronous'}", :yellow
         say '=' * 70, :green
 
         @iteration = 0
@@ -36,60 +42,82 @@ module Awesomer
         @last_synced_count = 0
         @stall_counter = 0
 
-        # Start the sync process in background
-        start_sync_process
+        if options[:async]
+          # Start the sync process in background
+          start_sync_process
 
-        # Monitor loop - continues until sync is complete
-        loop do
-          @iteration += 1
+          # Monitor loop - continues until sync is complete
+          loop do
+            @iteration += 1
 
-          if @iteration > @max_iterations
-            say "\n❌ Maximum iterations (#{@max_iterations}) reached", :red
-            break
+            if @iteration > @max_iterations
+              say "\n❌ Maximum iterations (#{@max_iterations}) reached", :red
+              break
+            end
+
+            say "\n🔄 Monitoring Loop - Iteration #{@iteration}/#{@max_iterations}", :cyan
+            say '━' * 50, :cyan
+
+            status = check_sync_status
+
+            case status[:state]
+            when :complete
+              say "\n✅ Sync complete! All #{status[:total]} items have stars.", :green
+
+              # Automatically run pruning
+              say "\n🗑️  Running pruning phase...", :cyan
+              run_pruning
+
+              # Delete old markdown files
+              say "\n🗑️  Deleting old markdown files...", :cyan
+              delete_old_markdown
+
+              # Generate fresh markdown
+              say "\n📝 Generating fresh markdown files...", :cyan
+              generate_markdown
+
+              say "\n🎉 Complete sync process finished successfully!", :green
+              break
+
+            when :stalled
+              say "\n⚠️  Sync appears stalled! Restarting...", :yellow
+              restart_sync_process
+              @stall_counter = 0
+
+            when :running
+              show_progress(status)
+            end
+
+            # Determine wait time based on progress
+            wait_time = determine_wait_time(status[:percentage])
+
+            # Show countdown timer
+            if options[:monitor]
+              show_countdown(wait_time)
+            else
+              sleep(wait_time)
+            end
           end
+        else
+          # Synchronous processing
+          say "\n📊 Running synchronous sync process...", :cyan
 
-          say "\n🔄 Monitoring Loop - Iteration #{@iteration}/#{@max_iterations}", :cyan
-          say '━' * 50, :cyan
+          # Step 1: Sync GitHub stats
+          sync_github_stats_synchronously
 
-          status = check_sync_status
+          # Step 2: Run pruning
+          say "\n🗑️  Running pruning phase...", :cyan
+          run_pruning
 
-          case status[:state]
-          when :complete
-            say "\n✅ Sync complete! All #{status[:total]} items have stars.", :green
+          # Step 3: Delete old markdown files
+          say "\n🗑️  Deleting old markdown files...", :cyan
+          delete_old_markdown
 
-            # Automatically run pruning
-            say "\n🗑️  Running pruning phase...", :cyan
-            run_pruning
+          # Step 4: Generate fresh markdown
+          say "\n📝 Generating fresh markdown files...", :cyan
+          generate_markdown
 
-            # Delete old markdown files
-            say "\n🗑️  Deleting old markdown files...", :cyan
-            delete_old_markdown
-
-            # Generate fresh markdown
-            say "\n📝 Generating fresh markdown files...", :cyan
-            generate_markdown
-
-            say "\n🎉 Complete sync process finished successfully!", :green
-            break
-
-          when :stalled
-            say "\n⚠️  Sync appears stalled! Restarting...", :yellow
-            restart_sync_process
-            @stall_counter = 0
-
-          when :running
-            show_progress(status)
-          end
-
-          # Determine wait time based on progress
-          wait_time = determine_wait_time(status[:percentage])
-
-          # Show countdown timer
-          if options[:monitor]
-            show_countdown(wait_time)
-          else
-            sleep(wait_time)
-          end
+          say "\n🎉 Complete sync process finished successfully!", :green
         end
 
         show_final_summary
@@ -275,6 +303,114 @@ module Awesomer
         end
 
         print "\r✅ Checking status...                           \n"
+      end
+
+      def sync_github_stats_synchronously
+        client = Octokit::Client.new(access_token: ENV.fetch('GITHUB_API_KEY', nil))
+        rate_limiter = GithubRateLimiterService.new
+
+        # Get all items that need stars
+        items_without_stars = CategoryItem
+          .where(stars: nil)
+          .where.not(github_repo: [nil, ''])
+
+        total = items_without_stars.count
+
+        if total == 0
+          say '  All items already have stars!', :green
+          return
+        end
+
+        say "  Found #{total} items without stars", :yellow
+
+        updated = 0
+        failed = 0
+        batch_size = 100
+
+        # Monitor progress with timer
+        last_update_time = Time.current
+        monitoring_interval = 60 # Check every minute
+
+        items_without_stars.find_in_batches(batch_size:).with_index do |batch, batch_index|
+          say "\n  Processing batch #{batch_index + 1} (#{batch.size} items)...", :cyan
+
+          batch.each_with_index do |item, _index|
+            # Check if we should show monitoring update
+            if Time.current - last_update_time >= monitoring_interval
+              remaining = total - updated - failed
+              percentage = ((updated + failed).to_f / total * 100).round(2)
+              say "\n  📊 Progress check: #{updated + failed}/#{total} (#{percentage}%), #{remaining} remaining", :yellow
+
+              if updated > 0
+                elapsed = Time.current - @start_time
+                rate = updated.to_f / elapsed
+                eta = remaining / rate
+                say "  ⏱️  ETA: #{format_duration(eta)}", :yellow
+              end
+
+              last_update_time = Time.current
+            end
+
+            # Rate limiting check
+            begin
+              rate_limiter.check_and_wait!
+            rescue StandardError
+              say "\n  ⚠️  Rate limit reached, waiting...", :yellow
+              sleep_time = 60
+              say "  Sleeping for #{sleep_time} seconds...", :yellow
+              sleep(sleep_time)
+              retry
+            end
+
+            begin
+              repo_data = client.repository(item.github_repo)
+
+              item.update!(
+                last_commit_at: repo_data.pushed_at,
+                stars: repo_data.stargazers_count
+              )
+
+              updated += 1
+
+              # Progress indicator
+              print '.' if updated % 10 == 0
+
+              say "\n  Progress: #{updated}/#{total} items updated", :green if updated % 100 == 0
+            rescue Octokit::NotFound
+              # Repository doesn't exist or is private
+              item.update!(stars: 0) # Mark as checked with 0 stars
+              failed += 1
+              print 'x'
+            rescue Octokit::TooManyRequests => e
+              say "\n  Rate limit hit! Waiting...", :yellow
+              sleep_time = e.response_headers['x-ratelimit-reset'].to_i - Time.now.to_i + 1
+              sleep_time = [sleep_time, 3600].min # Max 1 hour
+              say "  Sleeping for #{sleep_time} seconds (until #{Time.at(e.response_headers['x-ratelimit-reset'].to_i)})",
+                  :yellow
+
+              # Show countdown for rate limit wait
+              sleep_time.downto(1) do |remaining|
+                if remaining % 60 == 0
+                  minutes = remaining / 60
+                  print "\r  ⏳ Rate limit wait: #{minutes} minutes remaining...     "
+                end
+                sleep(1)
+              end
+              print "\r  ✅ Resuming...                                          \n"
+              retry
+            rescue StandardError => e
+              say "\n  Error with #{item.github_repo}: #{e.message}", :red
+              failed += 1
+            end
+          end
+
+          say "\n  Batch #{batch_index + 1} complete: #{updated} updated, #{failed} failed so far", :cyan
+        end
+
+        say "\n  ✅ Sync complete!", :green
+        say "    Updated: #{updated} items", :green
+        say "    Failed: #{failed} items", :red if failed > 0
+        say "    Total: #{total} items", :cyan
       end
 
       def show_final_summary

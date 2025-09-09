@@ -106,9 +106,16 @@ module Awesomer
         awesomer sync                       # Run with monitoring and countdown timers
         awesomer sync --no-monitor          # Run without countdown timers
         awesomer sync --max-iterations=50   # Limit to 50 monitoring loops
+        awesomer sync --no-async            # Run synchronously (without background process)
     LONGDESC
+    option :monitor, default: true, desc: 'Show progress monitoring', type: :boolean
+    option :max_iterations, default: 100, desc: 'Maximum monitoring iterations', type: :numeric
+    option :async, default: true, desc: 'Run sync asynchronously (false for synchronous)', type: :boolean
     def sync
-      Awesomer::Commands::Sync.start
+      # Create new instance and invoke with options
+      sync_command = Awesomer::Commands::Sync.new
+      sync_command.options = options
+      sync_command.invoke(:execute)
     end
 
     desc 'update', 'Update all awesome lists with GitHub stats and clean up'
