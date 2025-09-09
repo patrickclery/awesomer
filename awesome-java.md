@@ -1,5 +1,0 @@
-## Projects
-
-
-## Resources
-
