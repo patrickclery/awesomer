@@ -104,11 +104,8 @@ class ClaudeCodeAdapter < BaseParserAdapter
           primary_url: url
         }
 
-        # Add author and license to description if present
-        metadata = []
-        metadata << "by #{author}" if author
-        metadata << license if license
-        building_item[:description] = metadata.join(' - ') if metadata.any?
+        # Don't add author and license to description - they're already in the original format
+        # and adding them here creates redundancy in the output
 
       # Check if next line is a description (for multi-line format)
       elsif building_item && stripped.present? && !stripped.start_with?('[') &&
