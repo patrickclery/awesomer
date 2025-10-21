@@ -60,6 +60,12 @@ class CategoryItem < ApplicationRecord
     update_column(:previous_stars, stars)
   end
 
+  # Return the best available description
+  # Prefer GitHub description if present, otherwise fall back to awesome list description
+  def display_description
+    github_description.presence || description
+  end
+
   private
 
   def validate_at_least_one_url_present

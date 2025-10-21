@@ -91,8 +91,8 @@ class ClaudeCodeAdapter < BaseParserAdapter
 
         name = match[1].strip
         url = match[2].strip
-        author = match[3]&.strip
-        license = match[4]&.strip
+        match[3]&.strip
+        match[4]&.strip
 
         github_repo = extract_github_repo(url)
 
@@ -104,8 +104,8 @@ class ClaudeCodeAdapter < BaseParserAdapter
           primary_url: url
         }
 
-        # Don't add author and license to description - they're already in the original format
-        # and adding them here creates redundancy in the output
+      # Don't add author and license to description - they're already in the original format
+      # and adding them here creates redundancy in the output
 
       # Check if next line is a description (for multi-line format)
       elsif building_item && stripped.present? && !stripped.start_with?('[') &&
@@ -120,7 +120,7 @@ class ClaudeCodeAdapter < BaseParserAdapter
         end
 
       # Stop building description when we hit HTML details/summary blocks
-      elsif building_item && (stripped.start_with?('<details') || stripped.start_with?('<summary'))
+      elsif building_item && stripped.start_with?('<details', '<summary')
         # Flush the current item - we've reached the end of the description
         flush_item.call
 

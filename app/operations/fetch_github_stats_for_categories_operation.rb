@@ -69,6 +69,7 @@ class FetchGithubStatsForCategoriesOperation
               # Create new CategoryItem with updated stats
               current_attrs = repo_item.to_h
               new_attrs = current_attrs.merge(
+                github_description: stats_result[:github_description],
                 last_commit_at: stats_result[:last_commit_at],
                 stars: stats_result[:stars]
               )
@@ -175,6 +176,7 @@ class FetchGithubStatsForCategoriesOperation
 
     stats = {
       forks: repo_data.forks_count,
+      github_description: repo_data.description,
       issues: repo_data.open_issues_count,
       last_commit_at: repo_data.pushed_at ? Time.parse(repo_data.pushed_at.to_s) : nil,
       stars: repo_data.stargazers_count

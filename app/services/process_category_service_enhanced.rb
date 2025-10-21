@@ -112,7 +112,7 @@ class ProcessCategoryServiceEnhanced
       # Prepare table data
       table_rows = sorted_items.map do |item|
         name_md = item.primary_url.present? ? "[#{item.name}](#{item.primary_url})" : item.name
-        description_md = item.description.to_s.gsub("\n", '<br>')
+        description_md = item.display_description.to_s.gsub("\n", '<br>')
 
         # Show stars and last commit, or N/A if not available
         stars_md = item.stars.nil? ? 'N/A' : item.stars.to_s
@@ -132,10 +132,11 @@ class ProcessCategoryServiceEnhanced
     else
       # Fallback to simple list if no stats
       sorted_items.each do |item|
+        desc = item.display_description
         content << if item.primary_url.present?
-                     "- [#{item.name}](#{item.primary_url})#{item.description.present? ? " - #{item.description}" : ''}"
+                     "- [#{item.name}](#{item.primary_url})#{desc.present? ? " - #{desc}" : ''}"
                    else
-                     "- #{item.name}#{item.description.present? ? " - #{item.description}" : ''}"
+                     "- #{item.name}#{desc.present? ? " - #{desc}" : ''}"
                    end
       end
     end

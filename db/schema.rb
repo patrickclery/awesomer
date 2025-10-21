@@ -12,7 +12,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 20_250_901_050_731) do
+ActiveRecord::Schema[8.0].define(version: 20_251_021_191_244) do
   # These are extensions that must be enabled in order to support this database
   enable_extension 'pg_catalog.plpgsql'
 
@@ -62,6 +62,7 @@ ActiveRecord::Schema[8.0].define(version: 20_250_901_050_731) do
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
     t.integer 'previous_stars'
+    t.text 'github_description'
     t.index ['category_id'], name: 'index_category_items_on_category_id'
     t.index %w[stars previous_stars], name: 'index_category_items_on_stars_and_previous_stars'
   end
