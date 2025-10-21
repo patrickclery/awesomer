@@ -109,13 +109,20 @@ class ClaudeCodeAdapter < BaseParserAdapter
 
       # Check if next line is a description (for multi-line format)
       elsif building_item && stripped.present? && !stripped.start_with?('[') &&
-            !stripped.start_with?('#') && !stripped.start_with?('>')
-        # This is likely a description line
+            !stripped.start_with?('#') && !stripped.start_with?('>') &&
+            !stripped.start_with?('<details') && !stripped.start_with?('<summary') &&
+            !stripped.start_with?('</details') && !stripped.start_with?('<br')
+        # This is likely a description line (but not HTML tags)
         if building_item[:description]
           building_item[:description] += " #{stripped}"
         else
           building_item[:description] = stripped
         end
+
+      # Stop building description when we hit HTML details/summary blocks
+      elsif building_item && (stripped.start_with?('<details') || stripped.start_with?('<summary'))
+        # Flush the current item - we've reached the end of the description
+        flush_item.call
 
       # Handle standalone links that might be items
       elsif current_category && stripped.match?(/^\[.+\]\(.+\)/)
