@@ -11,7 +11,8 @@ class ProcessCategoryServiceEnhanced
 
   def call(awesome_list:)
     # Skip if no categories with items
-    categories_with_items = awesome_list.categories.joins(:category_items).distinct
+    # Order categories alphabetically by name for consistent ordering
+    categories_with_items = awesome_list.categories.joins(:category_items).distinct.order(:name)
 
     if categories_with_items.empty?
       Rails.logger.info "ProcessCategoryServiceEnhanced: No categories with items for #{awesome_list.github_repo}"

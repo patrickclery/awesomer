@@ -3,8 +3,7 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
-Rails.application.eager_load!
-# Rails.application.eager_load!
+# Rails.application.eager_load! # Disabled due to Zeitwerk issues with lib/ files
 require 'rspec/rails'
 
 # Add Shoulda Matchers configuration
