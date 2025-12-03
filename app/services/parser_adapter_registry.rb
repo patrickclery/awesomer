@@ -43,6 +43,7 @@ class ParserAdapterRegistry
     register(StandardAwesomeListAdapter)
     register(ClaudeCodeAdapter)
     register(H3AwesomeListAdapter)
+    register(SelfhostedAdapter)
     # Future adapters can be added here
   end
 
