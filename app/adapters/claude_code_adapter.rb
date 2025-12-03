@@ -19,21 +19,17 @@ class ClaudeCodeAdapter < BaseParserAdapter
     return false if content.blank?
 
     # Check for claude-code specific patterns:
-    # 1. Has the backtick format [`name`](url)
+    # 1. Has the backtick format [`name`](url) - this is the key differentiator
     has_backtick_format = content.match?(/\[`[^`]+`\]\([^)]+\)/)
 
-    # 2. Has the &nbsp; separators typical of this format
-    has_nbsp_separators = content.include?('&nbsp;')
-
-    # 3. Has "by" attribution pattern
+    # 2. Has "by" attribution pattern with &nbsp;
     has_by_pattern = content.match?(/&nbsp;\s*by\s*&nbsp;/i)
 
-    # If it strongly matches claude-code patterns
-    return true if has_backtick_format && has_nbsp_separators
+    # 3. Check if this IS the awesome-claude-code repo (title at top, not just a link)
+    is_claude_code_repo = content.match?(/^#\s+awesome-claude-code/i)
 
-    # Also check for the specific repo
-    content.include?('awesome-claude-code') ||
-      (has_nbsp_separators && has_by_pattern)
+    # Must have BOTH backtick format AND by pattern, or be the specific repo
+    is_claude_code_repo || (has_backtick_format && has_by_pattern)
   end
 
   def priority
