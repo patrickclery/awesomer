@@ -14,8 +14,9 @@ class SelfhostedAdapter < BaseParserAdapter
     return false if content.blank?
 
     # Check for awesome-selfhosted specific patterns:
-    # 1. Has ## Software as a parent section
+    # 1. MUST have ## Software as a parent section (this is the key differentiator)
     has_software_section = content.match?(/^##\s+Software\s*$/m)
+    return false unless has_software_section
 
     # 2. Has ### Category headers underneath
     has_h3_categories = content.match?(/^###\s+.+$/m)
@@ -23,14 +24,7 @@ class SelfhostedAdapter < BaseParserAdapter
     # 3. Has list items with the specific format including backtick license/language tags
     has_backtick_metadata = content.match?(/`[A-Z]+-[\d.]+`\s*`[A-Za-z]+`/)
 
-    # 4. Has back to top links (unique to selfhosted format)
-    has_back_to_top = content.include?('back to top')
-
-    # Strong match if it has the Software section with H3 categories
-    return true if has_software_section && has_h3_categories
-
-    # Also match if it has the specific metadata format
-    has_h3_categories && (has_backtick_metadata || has_back_to_top)
+    has_h3_categories && has_backtick_metadata
   end
 
   def priority

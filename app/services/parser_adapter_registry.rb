@@ -44,6 +44,7 @@ class ParserAdapterRegistry
     register(ClaudeCodeAdapter)
     register(H3AwesomeListAdapter)
     register(SelfhostedAdapter)
+    register(PiracyAdapter)
     # Future adapters can be added here
   end
 
