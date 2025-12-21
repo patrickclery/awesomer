@@ -1,6 +1,6 @@
 # awesome-claude-code
 
-A curated list of awesome commands, files, and workflows for Claude Code
+[FOR USERS HAVING PERFORMANCE ISSUES: USE README_BACKUP INSTEAD] A curated list of awesome commands, files, and workflows for Claude Code
 
 ## Agent Skills 🤖 [🔝](#awesome-claude-code)
 
