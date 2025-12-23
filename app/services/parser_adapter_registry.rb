@@ -45,6 +45,7 @@ class ParserAdapterRegistry
     register(H3AwesomeListAdapter)
     register(SelfhostedAdapter)
     register(PiracyAdapter)
+    register(McpServersAdapter)
     # Future adapters can be added here
   end
 
