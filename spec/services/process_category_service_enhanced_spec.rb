@@ -28,8 +28,8 @@ RSpec.describe ProcessCategoryServiceEnhanced do
 
         content = File.read(file_path)
 
-        # Extract category headers in order they appear
-        category_headers = content.scan(/^## (.+)$/).flatten
+        # Extract category headers in order they appear (excluding Table of Contents)
+        category_headers = content.scan(/^## (.+)$/).flatten.reject { |h| h == 'Table of Contents' }
 
         expect(category_headers).to eq(['Alpha Category', 'Middle Category', 'Zebra Category'])
       end
@@ -43,7 +43,7 @@ RSpec.describe ProcessCategoryServiceEnhanced do
           expect(result).to be_success
 
           content = File.read(result.value!)
-          category_headers = content.scan(/^## (.+)$/).flatten
+          category_headers = content.scan(/^## (.+)$/).flatten.reject { |h| h == 'Table of Contents' }
           results << category_headers
         end
 

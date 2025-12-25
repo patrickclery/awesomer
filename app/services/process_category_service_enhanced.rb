@@ -76,6 +76,11 @@ class ProcessCategoryServiceEnhanced
       content << ''
     end
 
+    # Add table of contents
+    category_names = categories.map(&:name)
+    toc = TableOfContentsGenerator.generate(category_names)
+    content << toc if toc.present?
+
     # Process each category
     categories.each do |category|
       category_content = generate_category_content(category)
