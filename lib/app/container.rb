@@ -16,5 +16,6 @@ module App
     register('extract_awesome_lists_operation') { ExtractAwesomeListsOperation.new }
     register('bootstrap_awesome_lists_service') { BootstrapAwesomeListsService.new }
     register('persist_parsed_categories_operation') { PersistParsedCategoriesOperation.new }
+    register('queue_star_history_jobs_operation') { QueueStarHistoryJobsOperation.new }
   end
 end

@@ -11,10 +11,11 @@ class ProcessAwesomeListService
     :sync_git_stats_operation,
     :process_category_service,
     :find_or_create_awesome_list_operation,
-    :persist_parsed_categories_operation
+    :persist_parsed_categories_operation,
+    :queue_star_history_jobs_operation
   ]
 
-  def initialize(repo_identifier:, sync: false, **deps)
+  def initialize(repo_identifier:, sync: false, fetch_star_history: true, **deps)
     @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container['fetch_readme_operation']
     @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container['parse_markdown_operation']
     @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container['sync_git_stats_operation']
@@ -23,8 +24,11 @@ class ProcessAwesomeListService
       deps[:find_or_create_awesome_list_operation] || App::Container['find_or_create_awesome_list_operation']
     @persist_parsed_categories_operation =
       deps[:persist_parsed_categories_operation] || App::Container['persist_parsed_categories_operation']
+    @queue_star_history_jobs_operation =
+      deps[:queue_star_history_jobs_operation] || App::Container['queue_star_history_jobs_operation']
     @repo_identifier = repo_identifier
     @sync = sync
+    @fetch_star_history = fetch_star_history
   end
 
   def call
@@ -80,6 +84,14 @@ class ProcessAwesomeListService
       )
 
       Rails.logger.error "Failed to persist categories: #{persist_result.failure}" if persist_result.failure?
+
+      # Queue star history jobs for trending data (async, doesn't block)
+      if @fetch_star_history && persist_result.success?
+        history_result = @queue_star_history_jobs_operation.call(awesome_list: aw_list_record)
+        if history_result.failure?
+          Rails.logger.warn "Failed to queue star history jobs: #{history_result.failure}"
+        end
+      end
 
       final_markdown_files_result = yield process_category_service.call(
         categories: categories_to_process_md,

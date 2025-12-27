@@ -38,6 +38,15 @@ class CategoryItem < ApplicationRecord
     )
   }
 
+  scope :needing_star_history, lambda {
+    where(star_history_fetched_at: nil)
+      .or(where('star_history_fetched_at < ?', 1.week.ago))
+      .where.not(github_repo: [nil, ''])
+  }
+
+  scope :trending, ->(period = :stars_30d) { where.not(period => nil).order(period => :desc) }
+  scope :with_github_repo, -> { where.not(github_repo: [nil, '']) }
+
   # Extract repository identifier from GitHub URL
   def repo_identifier
     github_repo
@@ -64,6 +73,18 @@ class CategoryItem < ApplicationRecord
   # Prefer GitHub description if present, otherwise fall back to awesome list description
   def display_description
     github_description.presence || description
+  end
+
+  # Calculate trending score (stars per day over 30 days)
+  def trending_velocity
+    return nil unless stars_30d.present? && stars_30d.positive?
+
+    (stars_30d.to_f / 30).round(2)
+  end
+
+  # Check if item needs star history refresh
+  def star_history_stale?
+    star_history_fetched_at.nil? || star_history_fetched_at < 1.week.ago
   end
 
   private
