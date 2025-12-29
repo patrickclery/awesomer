@@ -76,6 +76,10 @@ class ProcessCategoryServiceEnhanced
       content << ''
     end
 
+    # Add source link to original repository
+    content << "**Source:** [#{awesome_list.github_repo}](https://github.com/#{awesome_list.github_repo})"
+    content << ''
+
     # Add table of contents
     category_names = categories.map(&:name)
     toc = TableOfContentsGenerator.generate(category_names)

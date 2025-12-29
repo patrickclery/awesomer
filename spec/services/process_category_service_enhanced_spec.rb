@@ -52,5 +52,43 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(results.first).to eq(['Alpha Category', 'Middle Category', 'Zebra Category'])
       end
     end
+
+    context 'source link' do
+      let!(:category) { create(:category, awesome_list: awesome_list, name: 'Test Category') }
+
+      before do
+        create(:category_item, category: category, name: 'Test Item', primary_url: 'https://example.com/test', stars: 100)
+      end
+
+      example 'includes a link to the original GitHub repository' do
+        result = service.call(awesome_list: awesome_list)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        # Should contain a source link to the original repo
+        expect(content).to include('https://github.com/test/awesome-test')
+        expect(content).to match(/Source:.*github\.com\/test\/awesome-test/)
+      end
+
+      example 'places the source link after the title/description and before the table of contents' do
+        awesome_list.update!(name: 'Test List', description: 'A test description')
+
+        result = service.call(awesome_list: awesome_list)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        lines = content.lines.map(&:strip)
+
+        # Find positions
+        title_idx = lines.index { |l| l.start_with?('# ') }
+        source_idx = lines.index { |l| l.include?('Source:') }
+        toc_idx = lines.index { |l| l == '## Table of Contents' }
+
+        expect(title_idx).to be < source_idx
+        expect(source_idx).to be < toc_idx if toc_idx
+      end
+    end
   end
 end
