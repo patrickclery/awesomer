@@ -2,6 +2,20 @@
 
 [FOR USERS HAVING PERFORMANCE ISSUES: USE README_BACKUP INSTEAD] A curated list of awesome commands, files, and workflows for Claude Code
 
+**Source:** [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+
+## Table of Contents
+
+- [Agent Skills 🤖 [🔝](#awesome-claude-code)](#agent-skills--awesome-claude-code)
+- [Alternative Clients 📱 [🔝](#awesome-claude-code)](#alternative-clients--awesome-claude-code)
+- [Hooks  [🔝](#awesome-claude-code)](#hooks--awesome-claude-code)
+- [Official Documentation 🏛️ [🔝](#awesome-claude-code)](#official-documentation--awesome-claude-code)
+- [Output Styles 💬 [🔝](#awesome-claude-code)](#output-styles--awesome-claude-code)
+- [Slash-Commands  [🔝](#awesome-claude-code)](#slash-commands--awesome-claude-code)
+- [Status Lines  [🔝](#awesome-claude-code)](#status-lines--awesome-claude-code)
+- [Tooling  [🔝](#awesome-claude-code)](#tooling--awesome-claude-code)
+- [Workflows & Knowledge Guides  [🔝](#awesome-claude-code)](#workflows--knowledge-guides--awesome-claude-code)
+
 ## Agent Skills 🤖 [🔝](#awesome-claude-code)
 
 | Name                                                                        | Description                                                                                                                                                                | Stars | Last Commit |
