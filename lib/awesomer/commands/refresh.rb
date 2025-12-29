@@ -138,8 +138,13 @@ module Awesomer
         client = Octokit::Client.new(access_token: ENV.fetch('GITHUB_API_KEY', nil))
         rate_limiter = GithubRateLimiterService.new
 
-        items = CategoryItem.where(stars: nil).where.not(github_repo: [nil, ''])
-        items = items.limit(options[:limit] * 100) if options[:limit] # Rough estimate per list
+        # Only sync items from active (non-archived) lists
+        active_list_ids = fetch_lists_to_process.pluck(:id)
+        items = CategoryItem
+          .joins(:category)
+          .where(categories: { awesome_list_id: active_list_ids })
+          .where(stars: nil)
+          .where.not(github_repo: [nil, ''])
         total = items.count
 
         if total == 0
