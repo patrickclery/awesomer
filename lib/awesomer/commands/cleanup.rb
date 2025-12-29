@@ -16,12 +16,18 @@ module Awesomer
       def check_empty_files
         say '🔍 Checking for empty/small files...', :cyan
 
+        # Get active list filenames - never delete these
+        active_filenames = AwesomeList.active.pluck(:github_repo).map do |repo|
+          "#{repo.split('/').last}.md"
+        end
+
         @small_files = Dir.glob(Rails.root.join('static', 'awesomer', '*.md')).select do |f|
-          File.basename(f) != 'README.md' && File.size(f) < 200
+          basename = File.basename(f)
+          basename != 'README.md' && !active_filenames.include?(basename) && File.size(f) < 200
         end
 
         if @small_files.any?
-          say "Found #{@small_files.count} small/empty files", :yellow
+          say "Found #{@small_files.count} small/empty files (excluding #{active_filenames.count} active)", :yellow
         else
           say 'No empty files found', :green
         end
@@ -123,13 +129,20 @@ module Awesomer
       def final_cleanup
         say "\n🧹 Final cleanup...", :cyan
 
-        # Delete any remaining tiny files
+        # Get active list filenames - never delete these
+        active_filenames = AwesomeList.active.pluck(:github_repo).map do |repo|
+          "#{repo.split('/').last}.md"
+        end
+
+        # Delete any remaining tiny files (except active list files)
         Dir.glob(Rails.root.join('static', 'awesomer', '*.md')).each do |file|
-          next if File.basename(file) == 'README.md'
+          basename = File.basename(file)
+          next if basename == 'README.md'
+          next if active_filenames.include?(basename)
 
           if File.size(file) < 100
             File.delete(file)
-            say "  ✗ Deleted tiny file: #{File.basename(file)}", :red
+            say "  ✗ Deleted tiny file: #{basename}", :red
           end
         end
 

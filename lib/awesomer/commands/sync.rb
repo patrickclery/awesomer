@@ -241,9 +241,18 @@ module Awesomer
         existing_files = Dir.glob(File.join(markdown_dir, '*.md'))
                            .reject { |f| File.basename(f) == 'README.md' }
 
-        existing_files.each { |f| File.delete(f) }
+        # Only delete files for archived (inactive) lists - never delete files for active lists
+        active_filenames = AwesomeList.active.pluck(:github_repo).map do |repo|
+          "#{repo.split('/').last}.md"
+        end
 
-        say "  ✅ Deleted #{existing_files.count} old markdown files", :green
+        files_to_delete = existing_files.reject do |f|
+          active_filenames.include?(File.basename(f))
+        end
+
+        files_to_delete.each { |f| File.delete(f) }
+
+        say "  ✅ Deleted #{files_to_delete.count} old markdown files (preserved #{active_filenames.count} active)", :green
       end
 
       def generate_markdown
