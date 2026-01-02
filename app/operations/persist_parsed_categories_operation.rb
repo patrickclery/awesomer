@@ -8,6 +8,18 @@ class PersistParsedCategoriesOperation
 
     categories = []
 
+    # Build a lookup of existing items by github_repo to preserve their stats
+    existing_items_by_repo = {}
+    awesome_list.category_items.where.not(github_repo: [nil, '']).find_each do |item|
+      existing_items_by_repo[item.github_repo] = {
+        stars: item.stars,
+        last_commit_at: item.last_commit_at,
+        stars_30d: item.stars_30d,
+        stars_90d: item.stars_90d,
+        star_history_fetched_at: item.star_history_fetched_at
+      }
+    end
+
     # Clear all existing categories for this awesome list to ensure clean state
     awesome_list.categories.destroy_all
 
@@ -35,14 +47,20 @@ class PersistParsedCategoriesOperation
                        item_data
                      end
 
+        # Preserve existing stats if available
+        existing_stats = existing_items_by_repo[item_attrs[:github_repo]] || {}
+
         category.category_items.create!(
           demo_url: item_attrs[:demo_url],
           description: item_attrs[:description],
           github_repo: item_attrs[:github_repo],
-          last_commit_at: item_attrs[:last_commit_at],
+          last_commit_at: item_attrs[:last_commit_at] || existing_stats[:last_commit_at],
           name: item_attrs[:name],
           primary_url: item_attrs[:primary_url],
-          stars: item_attrs[:stars]
+          stars: item_attrs[:stars] || existing_stats[:stars],
+          stars_30d: existing_stats[:stars_30d],
+          stars_90d: existing_stats[:stars_90d],
+          star_history_fetched_at: existing_stats[:star_history_fetched_at]
         )
       end
 

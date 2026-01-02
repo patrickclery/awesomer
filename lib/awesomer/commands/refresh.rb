@@ -84,28 +84,24 @@ module Awesomer
       def run_sync_refresh
         say "\n📊 Running synchronous refresh...", :cyan
 
-        # Step 1: Sync GitHub stats for items without stars
-        say "\n1️⃣  Syncing GitHub stats...", :cyan
-        sync_github_stats
-
-        # Step 2: Process each awesome list
-        say "\n2️⃣  Processing awesome lists...", :cyan
+        # Step 1: Process each awesome list (fetch README, parse, persist)
+        say "\n1️⃣  Processing awesome lists...", :cyan
         process_all_lists
 
-        # Step 3: Queue star history jobs if enabled
+        # Step 2: Queue star history jobs if enabled
         if options[:star_history]
-          say "\n3️⃣  Queueing star history jobs...", :cyan
+          say "\n2️⃣  Queueing star history jobs...", :cyan
           queue_all_star_history_jobs
         end
 
-        # Step 4: Prune invalid lists if enabled
+        # Step 3: Prune invalid lists if enabled
         if options[:prune]
-          say "\n4️⃣  Pruning invalid lists...", :cyan
+          say "\n3️⃣  Pruning invalid lists...", :cyan
           run_pruning
         end
 
-        # Step 5: Generate markdown files
-        say "\n5️⃣  Generating markdown files...", :cyan
+        # Step 4: Generate markdown files
+        say "\n4️⃣  Generating markdown files...", :cyan
         generate_markdown
       end
 
@@ -198,25 +194,24 @@ module Awesomer
 
         lists.each_with_index do |list, index|
           begin
+            say "  [#{index + 1}/#{total}] Processing #{list.github_repo}...", :cyan
+            $stdout.flush
+
             service = ProcessAwesomeListService.new(
               repo_identifier: list.github_repo,
-              sync: true,
+              sync: false, # Don't sync GitHub stats inline - too slow
               fetch_star_history: false # We'll do this separately
             )
             result = service.call
 
             if result.success?
               @stats[:lists_processed] += 1
-              print '.'
+              say "    ✅ Done", :green
             else
               @stats[:lists_failed] += 1
-              print 'x'
+              say "    ❌ Failed: #{result.failure}", :red
             end
-
-            # Progress update every 10 lists
-            if (index + 1) % 10 == 0
-              say "\n  Progress: #{index + 1}/#{total}", :cyan
-            end
+            $stdout.flush
           rescue StandardError => e
             @stats[:lists_failed] += 1
             say "\n  Error processing #{list.github_repo}: #{e.message}", :red

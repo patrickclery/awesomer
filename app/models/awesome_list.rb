@@ -38,7 +38,7 @@ class AwesomeList < ApplicationRecord
     state :failed
 
     event :start_processing do
-      transitions from: %i[pending failed completed], to: :in_progress
+      transitions from: %i[pending failed completed in_progress], to: :in_progress
       after do
         update_columns(
           processing_completed_at: nil,
