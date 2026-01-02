@@ -1,6 +1,6 @@
 # awesome-claude-code
 
-[FOR USERS HAVING PERFORMANCE ISSUES: USE README_BACKUP INSTEAD] A curated list of awesome commands, files, and workflows for Claude Code
+A curated list of awesome commands, files, and workflows for Claude Code
 
 **Source:** [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
