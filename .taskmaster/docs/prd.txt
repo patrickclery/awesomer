@@ -1,0 +1,240 @@
+# Product Requirements Document: Automate Star Synchronization
+
+## Overview
+
+Containerize the Awesomer application with Docker Compose and enable automated daily synchronization of GitHub star counts, with automatic publishing to GitHub.
+
+The app will run as a self-contained Docker stack with PostgreSQL, Redis, and the Rails application, making deployment and automation portable and reliable.
+
+## Repository Structure
+
+- **awesomer-engine** (private) - Rails application code (this repo)
+- **awesomer** (public) - Production static generated files (markdown lists)
+- **awesomer-test** (private) - Test repository for validating publish workflow
+
+The automation workflow generates markdown files and commits them to the public `awesomer` repo. Testing will use `awesomer-test` before going to production.
+
+## Current State
+
+The Awesomer app already has automation infrastructure built:
+
+### Existing CLI Commands (`bin/awesomer`)
+- `worker start` - Start the sync worker daemon
+- `worker stop` - Stop the sync worker daemon
+- `worker run-once` - Run a single sync cycle
+- `worker status` - Show worker status and last sync info
+- `worker logs` - View sync logs
+- `sync` - Complete sync with automatic sequence
+- `update` - Update all awesome lists with GitHub stats
+- `publish` - Publish changes to public awesomer repo
+- `refresh` - Full refresh: sync stats, reprocess lists
+- `status` - Show current AwesomeList record status
+
+### Current Status (as of audit)
+- Worker: NOT running
+- Last sync: 2025-12-21 (stale)
+- Active lists: 6 (66 archived)
+- Scheduled sync: Daily at 2:00 AM UTC via `whenever` (cron)
+
+## Problem Statement
+
+The automation infrastructure exists but is not running reliably:
+- Worker daemon is stopped and requires manual start
+- App runs locally with local PostgreSQL/Redis dependencies
+- No containerized deployment for portability
+- Cron job may not be installed
+- Last sync was weeks ago
+- Need a reproducible, deployable setup
+
+## Goals
+
+1. Create Docker Compose stack with PostgreSQL, Redis, and Rails app
+2. Containerize the worker daemon for automated syncing
+3. Audit existing CLI commands and ensure they work in containers
+4. Enable scheduled sync via container-based cron or worker
+5. Ensure publish step commits to GitHub successfully
+6. Make deployment portable (run anywhere with Docker)
+
+## Non-Goals
+
+- Building new sync infrastructure (already exists)
+- Real-time star count updates
+- Kubernetes or complex orchestration (Docker Compose only)
+
+**Note**: Synology deployment is a goal, but only after local testing is complete.
+
+## User Stories
+
+### As a maintainer
+- I want star counts to update automatically so I don't have to manually trigger updates
+- I want to see when stars were last updated so I know the data is fresh
+- I want failed syncs to retry automatically so I don't have to monitor constantly
+
+### As a user viewing the awesome list
+- I want to see current star counts so I can gauge repository popularity
+- I want star counts to be consistent across the list so comparisons are fair
+
+## Technical Requirements
+
+### 1. Docker Compose Services
+
+**PostgreSQL**
+- Standard postgres:17 image
+- Persistent volume for data
+- Connect via `DATABASE_URL`
+
+**Redis**
+- Standard redis:7 image
+- Used for rate limiting and caching
+- Connect via `REDIS_URL`
+
+**App (Rails)**
+- Custom Dockerfile based on Ruby 3.x
+- Runs `bin/awesomer` commands
+- Mounts output directory for generated files
+
+**Worker**
+- Same image as app
+- Runs `bin/awesomer worker start` as entrypoint
+- Restarts automatically on failure
+- Healthcheck endpoint for container monitoring
+
+### 2. Environment Variables
+
+```
+DATABASE_URL=postgresql://postgres:postgres@db:5432/awesomer
+REDIS_URL=redis://redis:6379/0
+GITHUB_API_KEY=<token>
+GITHUB_ACCESS_TOKEN=<token>    # For git push to publish repos
+RAILS_ENV=production
+
+# Publishing target (switch between test and production)
+PUBLISH_REPO=patrickclery/awesomer-test    # Testing
+# PUBLISH_REPO=patrickclery/awesomer       # Production
+```
+
+### 3. Volume Mounts
+
+- `./data/postgres` → PostgreSQL data
+- `./output` → Generated markdown files
+- `~/.ssh` or git credentials → For GitHub push
+
+## Database Changes
+
+No database schema changes required. Using existing schema as-is.
+
+The Docker setup will:
+- Run existing migrations on first startup
+- Persist data in mounted volume
+- Use existing 6 active AwesomeList records (no re-bootstrap needed)
+
+**Note**: There is a `bin/awesomer bootstrap awesome_lists` command that can bootstrap from `static/bootstrap.md` (or fetch from sindresorhus/awesome), but this is NOT needed for the automation setup. We only want to sync the current 6 active repos.
+
+## Configuration
+
+### Docker Compose Example
+
+```yaml
+# docker-compose.yml
+services:
+  db:
+    image: postgres:17
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: awesomer
+
+  redis:
+    image: redis:7
+
+  app:
+    build: .
+    depends_on:
+      - db
+      - redis
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/awesomer
+      REDIS_URL: redis://redis:6379/0
+      GITHUB_API_KEY: ${GITHUB_API_KEY}
+    volumes:
+      - ./output:/app/output
+
+  worker:
+    build: .
+    command: bin/awesomer worker start
+    depends_on:
+      - db
+      - redis
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/awesomer
+      REDIS_URL: redis://redis:6379/0
+      GITHUB_API_KEY: ${GITHUB_API_KEY}
+    restart: unless-stopped
+```
+
+## Implementation Phases
+
+### Phase 1: Inventory & Audit
+- Run `bin/awesomer` commands locally to verify current capabilities
+- Document what each command does and confirm it works
+- Identify all environment variables and dependencies
+- Note database and Redis connection requirements
+- Test `worker run-once` and `publish` locally
+
+### Phase 2: Dockerize the Application
+- Create `Dockerfile` for the Rails app
+- Create `docker-compose.yml` with:
+  - PostgreSQL service
+  - Redis service
+  - App service (for running commands)
+  - Worker service (for continuous sync daemon)
+- Configure environment variables via `.env` file
+- Ensure `bin/awesomer` commands work inside container
+
+### Phase 3: Test Publishing Workflow
+- Configure publish to target `awesomer-test` repo first
+- Test full cycle in containers: sync → process → publish
+- Verify commits appear correctly in `awesomer-test`
+- Validate markdown file structure and content
+- Test multiple sync cycles to ensure incremental updates work
+
+### Phase 4: Production Deployment
+- Switch publish target from `awesomer-test` to `awesomer` (public)
+- Configure worker service to run on schedule
+- Document how to run the stack
+- Create startup/shutdown scripts
+- Document environment variables required
+- Test deployment on fresh machine
+
+## Success Metrics
+
+- 95%+ of repositories synced within 24-hour window
+- Zero manual interventions required per week
+- GitHub API rate limit never exceeded
+- Published lists updated daily
+
+## Dependencies (Already in Place)
+
+- `SyncGitStatsOperation` - star fetching
+- `GithubRateLimiterService` - rate limiting
+- `ProcessCategoryService` - markdown generation
+- Solid Queue - background job processing
+- `whenever` gem - cron scheduling
+- GitHub API token (`GITHUB_API_KEY`)
+
+## Project Management
+
+All tasks for this epic will be tracked in **Plane** under the **Awesomer (AWSMR)** project.
+
+- Tasks generated from this PRD will be synced to Plane as issues
+- Progress updates should be reflected in both Task Master and Plane
+- Use the Plane MCP integration to keep issues updated as work progresses
+- Parent epic: "Automate Star Synchronization" (AWSMR-1)
+
+## Decisions
+
+1. **Deployment**: Test on local machine first, then deploy to Synology after everything is working
+2. **Git Authentication**: Use GitHub access token (not SSH keys)
+3. **Scheduling**: Use `worker start` daemon for continuous sync scheduling
+4. **Health Checks**: Yes, implement healthcheck endpoint for worker container monitoring
