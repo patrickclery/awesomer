@@ -49,3 +49,30 @@
 # Ignore Docker-related files
 /.dockerignore
 /Dockerfile*
+/docker-compose*.yml
+
+# Ignore test files
+/spec/
+/coverage/
+
+# Ignore documentation
+/docs/
+*.md
+!README.md
+
+# Ignore IDE and editor files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# Ignore Task Master files
+/.taskmaster/
+
+# Ignore local data directories
+/data/
+/output/
+
+# Ignore Claude/AI config
+/CLAUDE*.md
+/.claude/
