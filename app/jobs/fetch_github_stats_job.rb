@@ -69,9 +69,29 @@ class FetchGithubStatsJob < ApplicationJob
   private
 
   def update_category_item_with_stats(category_item_data, stats)
-    # This would typically update a database record or trigger another job
-    # For now, we'll broadcast the update via Rails cache or a pub/sub system
-    update_key = "category_item_update:#{category_item_data[:id] || category_item_data[:url]}"
+    # Try to find and update the database record
+    github_repo = category_item_data[:github_repo]
+    primary_url = category_item_data[:primary_url]
+
+    # Find by github_repo or primary_url
+    item = if github_repo.present?
+             CategoryItem.find_by(github_repo: github_repo)
+           else
+             CategoryItem.find_by(primary_url: primary_url)
+           end
+
+    if item
+      item.update(
+        stars: stats[:stars],
+        last_commit_at: stats[:last_commit_at]
+      )
+      Rails.logger.info "Updated database record for #{category_item_data[:name]}: #{stats[:stars]} stars"
+    else
+      Rails.logger.warn "CategoryItem not found for #{category_item_data[:name]} (#{github_repo || primary_url})"
+    end
+
+    # Also cache the update for any in-flight operations
+    update_key = "category_item_update:#{category_item_data[:id] || primary_url}"
     Rails.cache.write(update_key, {
       category_item: category_item_data,
       stats:,

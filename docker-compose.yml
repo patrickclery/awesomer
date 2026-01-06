@@ -58,6 +58,7 @@ services:
     # Default: just show status
     command: ["bin/awesomer", "status"]
 
+  # Solid Queue worker for processing background jobs
   worker:
     build: .
     container_name: awesomer_worker
@@ -80,11 +81,11 @@ services:
     volumes:
       - ./output:/app/output
       - ./static/awesomer:/app/static/awesomer
-    command: ["bin/awesomer", "worker", "start"]
+    command: ["bin/jobs", "start"]
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "bin/awesomer", "worker", "status"]
-      interval: 60s
+      test: ["CMD-SHELL", "pgrep -f 'solid_queue' || exit 1"]
+      interval: 30s
       timeout: 10s
       retries: 3
       start_period: 30s
