@@ -30,7 +30,7 @@ module App
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
-    config.autoload_lib(ignore: %w[assets tasks awesomer sync_all.rb])
+    config.autoload_lib(ignore: %w[assets tasks awesomer monitoring sync_all.rb])
     config.eager_load_paths << Rails.root.join('app/operations')
     config.eager_load_paths << Rails.root.join('app/services')
 
