@@ -51,8 +51,9 @@
         "dependencies": [
           "3"
         ],
-        "status": "pending",
-        "subtasks": []
+        "status": "in-progress",
+        "subtasks": [],
+        "updatedAt": "2026-01-06T15:52:39.352Z"
       },
       {
         "id": "5",
@@ -70,7 +71,7 @@
     ],
     "metadata": {
       "version": "1.0.0",
-      "lastModified": "2026-01-05T21:17:11.016Z",
+      "lastModified": "2026-01-06T15:52:39.353Z",
       "taskCount": 5,
       "completedCount": 3,
       "tags": [
