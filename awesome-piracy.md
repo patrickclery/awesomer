@@ -105,7 +105,7 @@ A curated list of awesome warez and piracy links
 | [uBlock Origin](https://github.com/gorhill/uBlock)             | An efficient blocker for Chromium and Firefox. Fast and lean.        | 60723 | 2026-01-01  |
 | [Google Unlocked](https://github.com/Ibit-to/google-unlocked)  | Uncensor google search results.                                      | 2337  | 2023-12-02  |
 | [Anti-Paywall](https://github.com/nextgens/anti-paywall)       | A browser extension that maximizes the chances of bypassing paywalls | 680   | 2019-03-11  |
-| [Universal Bypass](https://github.com/Sainan/Universal-Bypass) | Universal Bypass automatically skips annoying link shorteners.       | N/A   | N/A         |
+| [Universal Bypass](https://github.com/Sainan/Universal-Bypass) | Universal Bypass automatically skips annoying link shorteners.       | 0     | N/A         |
 
 ## Cloud Storage
 
@@ -113,7 +113,7 @@ A curated list of awesome warez and piracy links
 |-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------|-------------|
 | [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse) | FUSE filesystem over Google Drive                                                        | 5842  | 2025-10-26  |
 | [UDS](https://github.com/stewartmcgown/uds)                                 | Unlimited Drive Storage. Store files in Google Docs without counting against your quota. | 4369  | 2021-11-02  |
-| [plexdrive](https://github.com/dweidenfeld/plexdrive)                       | mounts your Google Drive FUSE filesystem (optimized for media playback)                  | N/A   | N/A         |
+| [plexdrive](https://github.com/dweidenfeld/plexdrive)                       | mounts your Google Drive FUSE filesystem (optimized for media playback)                  | 1773  | 2023-02-25  |
 
 ## Comicbooks
 
@@ -133,7 +133,7 @@ A curated list of awesome warez and piracy links
 | Name                                                                        | Description                                                                               | Stars | Last Commit |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------|-------------|
 | [udemy-downloader-gui](https://github.com/FaisalUmair/udemy-downloader-gui) | A cross-platform (Windows, Mac, Linux) desktop application for downloading Udemy Courses. | 6249  | 2024-04-06  |
-| [tpget](https://github.com/0x6a73/tpget)                                    | Tutorialspoint downloader                                                                 | N/A   | N/A         |
+| [tpget](https://github.com/0x6a73/tpget)                                    | Tutorialspoint downloader                                                                 | 0     | N/A         |
 
 ## DC++
 
@@ -145,15 +145,15 @@ A curated list of awesome warez and piracy links
 
 | Name                                                      | Description                                                                                                                                                   | Stars | Last Commit |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [annie](https://github.com/iawia002/annie)                | Fast, simple and clean video downloader                                                                                                                       | 30810 | 2025-12-29  |
 | [ripme](https://github.com/RipMeApp/ripme)                | A album/video downloader with support for over 80 sites                                                                                                       | 4015  | 2025-10-03  |
 | [axel](https://github.com/axel-download-accelerator/axel) | light command line download accelerator                                                                                                                       | 3305  | 2025-02-02  |
 | [get_iplayer](https://github.com/get-iplayer/get_iplayer) | A utility for downloading TV and radio programmes from BBC iPlayer                                                                                            | 2423  | 2025-05-04  |
 | [RapidLeech](https://github.com/Th3-822/rapidleech)       | a free server transfer script for use on various popular upload/download sites such as uploaded.net, Rapidgator.net, and more than 127 others.                | 595   | 2021-10-12  |
+| [rdcli](https://github.com/ston3o/rdcli)                  | The simple way to download and unrestrict DDL files, torrents and magnets using Real-Debrid                                                                   | 144   | 2022-09-30  |
 | [MegaCrypt.js](https://github.com/JohnDeved/megacrypt.js) | MegaCrypt.js lets you share your Mega.nz files without actually having to share any Mega.nz links by encrypting them to create a secure proxy for your files. | 102   | 2023-10-25  |
-| [annie](https://github.com/iawia002/annie)                | Fast, simple and clean video downloader                                                                                                                       | N/A   | N/A         |
-| [megatools](https://github.com/megous/megatools)          | Open-source command-line tools and C library (libmega) for accessing Mega.co.nz cloud storage.                                                                | N/A   | N/A         |
-| [netclix](https://github.com/ston3o/netclix)              | A simple CLI tool to get movie streaming premium links from VodLocker's API                                                                                   | N/A   | N/A         |
-| [rdcli](https://github.com/ston3o/rdcli)                  | The simple way to download and unrestrict DDL files, torrents and magnets using Real-Debrid                                                                   | N/A   | N/A         |
+| [netclix](https://github.com/ston3o/netclix)              | A simple CLI tool to get movie streaming premium links from VodLocker's API                                                                                   | 86    | 2021-03-29  |
+| [megatools](https://github.com/megous/megatools)          | Open-source command-line tools and C library (libmega) for accessing Mega.co.nz cloud storage.                                                                | 0     | N/A         |
 
 ## Dashboards and Homepages
 
@@ -166,11 +166,13 @@ A curated list of awesome warez and piracy links
 | [HTPC-Manager](https://github.com/Hellowlol/HTPC-Manager)   | A fully responsive interface to manage all your favorite software on your Htpc.                                                  | 344   | 2019-02-03  |
 | [Logarr](https://github.com/Monitorr/logarr)                | "Logarr" is a self-hosted, PHP-based, single-page log consolidation tool which formats and displays log files for easy analysis. | 277   | 2020-02-06  |
 | [iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP (predecessor to Organizr)                                                | 125   | 2017-04-17  |
-| [Anonmasky](https://github.com/Anonmasky/anonmasky)         | Anonmasky is a beautiful start page for geeks out there. Clone of weboas.is.                                                     | N/A   | N/A         |
+| [Anonmasky](https://github.com/Anonmasky/anonmasky)         | Anonmasky is a beautiful start page for geeks out there. Clone of weboas.is.                                                     | 0     | N/A         |
 
 ## Decentralised Networks
 
-- [Loki](https://github.com/loki-project/loki-network) - Lokinet is an anonymous, decentralized and IP based overlay network for the internet.
+| Name                                                 | Description                                                                           | Stars | Last Commit |
+|------------------------------------------------------|---------------------------------------------------------------------------------------|-------|-------------|
+| [Loki](https://github.com/loki-project/loki-network) | Lokinet is an anonymous, decentralized and IP based overlay network for the internet. | 2011  | 2025-10-16  |
 
 ## Download Managers
 
@@ -215,7 +217,7 @@ A curated list of awesome warez and piracy links
 | [Steamless](https://github.com/atom0s/Steamless)                             | Steamless is a DRM remover of the SteamStub variants.              | 4392  | 2024-03-30  |
 | [SmartSteamEmu](https://github.com/MAXBURAOT/SmartSteamEmu)                  | Steam emulator                                                     | 421   | 2022-12-09  |
 | [MachineGunnur/GOG-Games](https://github.com/MachineGunnur/GOG-Games)        | A fork of Good Old Downloads' "GOG Games" hosted on Tor            | 34    | 2022-07-08  |
-| [cream-api-autoinstaller](https://github.com/Douile/cream-api-autoinstaller) | A python script to automatically install Cream API for Steam games | N/A   | N/A         |
+| [cream-api-autoinstaller](https://github.com/Douile/cream-api-autoinstaller) | A python script to automatically install Cream API for Steam games | 0     | N/A         |
 
 ## IPTV and DVR
 
@@ -224,8 +226,8 @@ A curated list of awesome warez and piracy links
 | [iptv-org/iptv](https://github.com/iptv-org/iptv)   | Collection of 8000+ publicly available IPTV channels from all over the world                                                                                       | 108223 | 2026-01-02  |
 | [tvheadend](https://github.com/tvheadend/tvheadend) | Tvheadend is a TV streaming server for Linux supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, IPTV, SAT>IP, and other formats through the Unix pipe as input sources. | 3298   | 2026-01-02  |
 | [telly](https://github.com/tellytv/telly)           | IPTV proxy for Plex Live written in Golang                                                                                                                         | 806    | 2023-11-30  |
+| [antennas](https://github.com/TheJF/antennas)       | HDHomeRun emulator for Plex DVR to connect to Tvheadend.                                                                                                           | 370    | 2023-04-24  |
 | [fastocloud](https://github.com/fastogt/fastocloud) | IPTV/Video cloud admin panel for servers                                                                                                                           | 7      | 2025-08-31  |
-| [antennas](https://github.com/TheJF/antennas)       | HDHomeRun emulator for Plex DVR to connect to Tvheadend.                                                                                                           | N/A    | N/A         |
 
 ## IRC
 
@@ -247,7 +249,7 @@ A curated list of awesome warez and piracy links
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [PlexKodiConnect](https://github.com/croneter/PlexKodiConnect)                              | Plex integration in Kodi done right                                                                                | 1317  | 2026-01-01  |
 | [Sparkle](https://github.com/iwannabelikemike/plugin.video.sparkle)                         | Kodi addon for finding acestream links                                                                             | 43    | 2019-08-09  |
-| [Python-GoogleDrive-VideoStream](https://github.com/ddurdle/Python-GoogleDrive-VideoStream) | The purpose of this plugin is to serve content delivered in Google Drive plugin for KODI through any HTML5 client. | N/A   | N/A         |
+| [Python-GoogleDrive-VideoStream](https://github.com/ddurdle/Python-GoogleDrive-VideoStream) | The purpose of this plugin is to serve content delivered in Google Drive plugin for KODI through any HTML5 client. | 0     | N/A         |
 
 ## Manga
 
@@ -264,8 +266,8 @@ A curated list of awesome warez and piracy links
 | [Streama](https://github.com/streamaserver/streama)    | Self-hosted streaming media server.                                                                                                                                                | 9809  | 2026-01-02  |
 | [Gerbera](https://github.com/gerbera/gerbera)          | UPnP Media Server for 2018 (Based on MediaTomb)                                                                                                                                    | 1324  | 2026-01-01  |
 | [OpenPHT](https://github.com/RasPlex/OpenPHT)          | a community-driven fork of Plex Home Theater                                                                                                                                       | 599   | 2022-01-19  |
+| [Myflix](https://github.com/pastapojken/Myflix)        | Myflix tries to be a somewhat simple and lightweight "DIY Netflix", similar to Plex, streama or Emby, for your DIY NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. | 310   | 2022-07-04  |
 | [Viewscreen](https://github.com/viewscreen/viewscreen) | a personal video streaming server                                                                                                                                                  | 229   | 2018-10-02  |
-| [Myflix](https://github.com/pastapojken/Myflix)        | Myflix tries to be a somewhat simple and lightweight "DIY Netflix", similar to Plex, streama or Emby, for your DIY NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. | N/A   | N/A         |
 
 ## Miscellaneous
 
@@ -282,7 +284,7 @@ A curated list of awesome warez and piracy links
 | Name                                               | Description                                                   | Stars | Last Commit |
 |----------------------------------------------------|---------------------------------------------------------------|-------|-------------|
 | [AnYme](https://github.com/zunjae/anYme)           | Unofficial Anime App for MyAnimeList                          | 1148  | 2021-05-27  |
-| [Tachiyomi](https://github.com/inorichi/tachiyomi) | Tachiyomi is a free and open-source manga reader for Android. | N/A   | N/A         |
+| [Tachiyomi](https://github.com/inorichi/tachiyomi) | Tachiyomi is a free and open-source manga reader for Android. | 0     | N/A         |
 
 ## Movie Automation
 
@@ -297,7 +299,7 @@ A curated list of awesome warez and piracy links
 | Name                                                   | Description                                                  | Stars | Last Commit |
 |--------------------------------------------------------|--------------------------------------------------------------|-------|-------------|
 | [gonic](https://github.com/sentriz/gonic)              | Music streaming server / subsonic server API implementation. | 2170  | 2025-12-22  |
-| [LibreSonic](https://github.com/Libresonic/libresonic) | Media streaming software                                     | N/A   | N/A         |
+| [LibreSonic](https://github.com/Libresonic/libresonic) | Media streaming software                                     | 0     | N/A         |
 
 ## Music Automation
 
@@ -309,8 +311,10 @@ A curated list of awesome warez and piracy links
 
 ## Music Downloading
 
-- [irs](https://github.com/kepoorhampond/irs) - A music downloader that understands your metadata needs.
-- [VGMLoader](https://github.com/TheLastZombie/VGMLoader) - Tool for bulk downloading from KHInsider.
+| Name                                                    | Description                                              | Stars | Last Commit |
+|---------------------------------------------------------|----------------------------------------------------------|-------|-------------|
+| [irs](https://github.com/kepoorhampond/irs)             | A music downloader that understands your metadata needs. | 399   | 2022-02-23  |
+| [VGMLoader](https://github.com/TheLastZombie/VGMLoader) | Tool for bulk downloading from KHInsider.                | 0     | N/A         |
 
 ## Open Directories
 
@@ -318,9 +322,9 @@ A curated list of awesome warez and piracy links
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------|-------------|
 | [OpenDirectoryDownloader](https://github.com/KoalaBear84/OpenDirectoryDownloader) | Indexes open directories                                                                              | 1303  | 2025-11-25  |
 | [httpdirfs](https://github.com/fangfufu/httpdirfs)                                | A filesystem which allows you to mount HTTP directory listings                                        | 850   | 2025-12-13  |
+| [FileMasta](https://github.com/HerbL27/FileMasta)                                 | Search servers for video, music, books, software, games, subtitles and much more                      | 665   | 2022-05-11  |
 | [andesite](https://github.com/nektro/andesite)                                    | Easily manage access to your open directory through OAuth2                                            | 79    | 2023-03-13  |
 | [opendirectories-bot](https://github.com/simon987/opendirectories-bot)            | Bot used on /r/opendirectories for analysing the contents of open directories posted on the subreddit | 37    | 2018-04-14  |
-| [FileMasta](https://github.com/HerbL27/FileMasta)                                 | Search servers for video, music, books, software, games, subtitles and much more                      | N/A   | N/A         |
 
 ## Plex
 
@@ -328,7 +332,7 @@ A curated list of awesome warez and piracy links
 |-----------------------------------------------------------------------|-----------------------------------------------|-------|-------------|
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker)           | official Plex docker image                    | 3829  | 2025-12-15  |
 | [linuxserver/docker-plex](https://github.com/linuxserver/docker-plex) | LinuxServer.io Plex Media Server docker image | 1364  | 2025-12-22  |
-| [timhaak/plex](https://github.com/timhaak/docker-plex)                | alternative Plex docker image                 | N/A   | N/A         |
+| [timhaak/plex](https://github.com/timhaak/docker-plex)                | alternative Plex docker image                 | 0     | N/A         |
 
 ## Plex Clients
 
@@ -362,7 +366,7 @@ A curated list of awesome warez and piracy links
 | [FMoviesPlus.bundle](https://github.com/coder-alpha/FMoviesPlus.bundle)        | Plex Media Server plug-in designed for FMovies, G2G, Primewire and more.                                                                                                       | 68    | 2019-05-09  |
 | [TvplexendChannel.bundle](https://github.com/pgaubatz/TvplexendChannel.bundle) | A Tvheadend Channel Plugin for PLEX Media Server                                                                                                                               | 65    | 2020-01-21  |
 | [lmwt-kiss.bundle](https://github.com/Twoure/lmwt-kiss.bundle)                 | creates a new channel within Plex Media Server (PMS) to view content from PrimeWire.                                                                                           | 16    | 2018-03-20  |
-| [PlexTools.bundle](https://github.com/jwdempsey/PlexTools.bundle)              | Downloads subtitles for any videos in your library from OpenSubtitles and modifies them to work with Roku clients, and converts videos to MP4 for direct play                  | N/A   | N/A         |
+| [PlexTools.bundle](https://github.com/jwdempsey/PlexTools.bundle)              | Downloads subtitles for any videos in your library from OpenSubtitles and modifies them to work with Roku clients, and converts videos to MP4 for direct play                  | 0     | N/A         |
 
 ## Plex Requests
 
@@ -414,7 +418,7 @@ A curated list of awesome warez and piracy links
 | Name                                             | Description                                                | Stars | Last Commit |
 |--------------------------------------------------|------------------------------------------------------------|-------|-------------|
 | [WarezBot](https://github.com/enzobes/WarezBot)  | Discord bot for scene releases.                            | 46    | 2022-09-13  |
-| [NSWDBot](https://github.com/HunterKing/NSWDBot) | A discord bot for scraping NSWDB.com for "Scene" releases. | N/A   | N/A         |
+| [NSWDBot](https://github.com/HunterKing/NSWDBot) | A discord bot for scraping NSWDB.com for "Scene" releases. | 0     | N/A         |
 
 ## Premium Link Generators
 
@@ -479,11 +483,11 @@ A curated list of awesome warez and piracy links
 
 | Name                                                       | Description                                                                                                            | Stars | Last Commit |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [subsync](https://github.com/smacke/subsync)               | Automagically synchronize subtitles with the video.                                                                    | 7525  | 2025-11-25  |
 | [autosub](https://github.com/agermanidis/autosub)          | Command-line utility for auto-generating subtitles for any video file using speech recognition                         | 4203  | 2024-03-22  |
 | [Bazarr](https://github.com/morpheus65535/bazarr)          | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. | 3648  | 2026-01-02  |
 | [vlsub](https://github.com/exebetche/vlsub)                | VLC extension to download subtitles from opensubtitles.org                                                             | 1390  | 2023-09-27  |
 | [nzb-subliminal](https://github.com/caronc/nzb-subliminal) | Fetches subtitles for the videos it's provided. It can be easily integrated into NZBGet and SABnzbd too.               | 109   | 2020-08-26  |
-| [subsync](https://github.com/smacke/subsync)               | Automagically synchronize subtitles with the video.                                                                    | N/A   | N/A         |
 
 ## TV Automation
 
@@ -503,28 +507,30 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                                | Description                                                                                                             | Stars | Last Commit |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Popcorn Time](https://github.com/popcorn-official/popcorn-desktop)                 | Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.             | 10473 | 2026-01-19  |
 | [peerflix](https://github.com/mafintosh/peerflix)                                   | Streaming torrent client for node.js                                                                                    | 6260  | 2022-06-19  |
 | [ruTorrent](https://github.com/Novik/ruTorrent)                                     | Yet another web front-end for rTorrent                                                                                  | 2137  | 2025-11-21  |
+| [flood](https://github.com/jfurrow/flood)                                           | A web UI for rTorrent with a Node.js backend and React frontend.                                                        | 1806  | 2021-05-30  |
 | [RapidBay](https://github.com/hauxir/rapidbay)                                      | Rapid bay is a self-hosted video service/torrent client that makes playing videos from torrents easy.                   | 810   | 2026-01-02  |
 | [rtorrent-ps](https://github.com/pyroscope/rtorrent-ps)                             | Extended rTorrent distribution with a fully customizable canvas and colors, other feature additions, and complete docs. | 474   | 2023-07-03  |
 | [pyrocore](https://github.com/pyroscope/pyrocore)                                   | A collection of tools for the BitTorrent protocol and especially the rTorrent client                                    | 303   | 2022-12-28  |
 | [AutoRemovePlus](https://github.com/omaralvarez/deluge-autoremoveplus)              | Auto removing of deluge torrents                                                                                        | 154   | 2024-06-08  |
 | [rutorrent-themes](https://github.com/InAnimaTe/rutorrent-themes)                   | A collection of default and new, original themes for ruTorrent.                                                         | 11    | 2013-07-30  |
 | [rutorrent-all-seeders](https://github.com/AkdM/rutorrent-all-seeders)              | This ruTorrent plugin adds the columns 'All Seeders' to the torrents list.                                              | 3     | 2019-03-11  |
-| [flood](https://github.com/jfurrow/flood)                                           | A web UI for rTorrent with a Node.js backend and React frontend.                                                        | N/A   | N/A         |
-| [Popcorn Time](https://github.com/popcorn-official/popcorn-desktop)                 | Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.             | N/A   | N/A         |
-| [rTorrent Community wiki](https://github.com/rtorrent-community/rtorrent-community) | GitHub wiki for rTorrent                                                                                                | N/A   | N/A         |
+| [rTorrent Community wiki](https://github.com/rtorrent-community/rtorrent-community) | GitHub wiki for rTorrent                                                                                                | 0     | N/A         |
 
 ## Torrenting
 
 | Name                                                 | Description                                                                     | Stars | Last Commit |
 |------------------------------------------------------|---------------------------------------------------------------------------------|-------|-------------|
 | [magnetico](https://github.com/boramalper/magnetico) | Autonomous (self-hosted) BitTorrent DHT search engine suite                     | 3124  | 2022-01-20  |
-| [mktorrent](https://github.com/Rudde/mktorrent)      | mktorrent is a simple command line utility to create BitTorrent metainfo files. | N/A   | N/A         |
+| [mktorrent](https://github.com/Rudde/mktorrent)      | mktorrent is a simple command line utility to create BitTorrent metainfo files. | 538   | 2022-07-10  |
 
 ## Tracker Aggregators
 
-- [rats-search](https://github.com/DEgITx/rats-search) - P2P Bittorrent search engine
+| Name                                                 | Description                  | Stars | Last Commit |
+|------------------------------------------------------|------------------------------|-------|-------------|
+| [rats-search](https://github.com/DEgITx/rats-search) | P2P Bittorrent search engine | 1767  | 2026-01-18  |
 
 ## Tracker Frameworks
 
@@ -533,7 +539,7 @@ A curated list of awesome warez and piracy links
 | [UNIT3D](https://github.com/HDInnovations/UNIT3D)                                  | The Nex-Gen Private Torrent Tracker (Aimed For Movie / TV Use)                                    | 2294  | 2026-01-02  |
 | [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms) | A Curated List Of Torrent Tracker Platforms/Codebases Written In Multiple Coding Languages        | 595   | 2025-05-30  |
 | [meanTorrent](https://github.com/taobataoma/meanTorrent)                           | A BitTorrent Private Tracker CMS with Multilingual, and IRC announce support, Cloudflare support. | 492   | 2020-10-01  |
-| [NexusPHP](https://github.com/ZJUT/NexusPHP)                                       | BitTorrent private tracker scripts written in PHP.                                                | N/A   | N/A         |
+| [NexusPHP](https://github.com/ZJUT/NexusPHP)                                       | BitTorrent private tracker scripts written in PHP.                                                | 412   | 2020-08-12  |
 
 ## Tracker Proxies
 
@@ -580,11 +586,11 @@ A curated list of awesome warez and piracy links
 | Name                                                                        | Description                                                                  | Stars | Last Commit |
 |-----------------------------------------------------------------------------|------------------------------------------------------------------------------|-------|-------------|
 | [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) | an In-depth guide on purging Windows 10 of Microsoft's attempts to track you | 1416  | 2019-07-05  |
-| [Tallow](https://github.com/basil00/TorWall)                                | Tallow is a transparent Tor firewall and proxying solution for Windows.      | N/A   | N/A         |
+| [Tallow](https://github.com/basil00/TorWall)                                | Tallow is a transparent Tor firewall and proxying solution for Windows.      | 552   | 2021-09-11  |
 
 ## autodl-irssi
 
 | Name                                                               | Description                                                                                                                                      | Stars | Last Commit |
 |--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [mreg](https://github.com/Igglybuff/mreg)                          | Generates a "Match releases" expression for your autodl-irssi filter based on dvdsreleasedates.com's "Most Requested DVD Release Dates" section. | 15    | 2018-12-20  |
-| [autodl-curl-sonarr](https://github.com/Zymest/autodl-curl-sonarr) | Script to use as upload-command for autodl-irssi to post to Sonarr                                                                               | N/A   | N/A         |
+| [autodl-curl-sonarr](https://github.com/Zymest/autodl-curl-sonarr) | Script to use as upload-command for autodl-irssi to post to Sonarr                                                                               | 0     | N/A         |

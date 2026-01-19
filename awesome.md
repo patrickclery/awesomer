@@ -43,6 +43,7 @@
 | [Useful `.htaccess` Snippets](https://github.com/phanan/htaccess)    |                                                                                       | 13284 | 2023-03-22  |
 | [Laravel](https://github.com/chiraggude/awesome-laravel)             | PHP framework.                                                                        | 12970 | 2024-07-03  |
 | [FastAPI](https://github.com/mjhea0/awesome-fastapi)                 | Python web app framework.                                                             | 10902 | 2025-10-27  |
+| [Terraform](https://github.com/shuaibiyy/awesome-terraform)          | Tool for building, changing, and versioning infrastructure.                           | 6260  | 2026-01-19  |
 | [Rails](https://github.com/gramantin/awesome-rails)                  | Web app framework for Ruby.                                                           | 3866  | 2025-12-15  |
 | [nginx](https://github.com/fcambus/nginx-resources)                  | Web server.                                                                           | 3720  | 2023-09-14  |
 | [Gems](https://github.com/hothero/awesome-rails-gem)                 | Packages.                                                                             | 2813  | 2024-03-12  |
@@ -50,6 +51,7 @@
 | [Vert.x](https://github.com/vert-x3/vertx-awesome)                   | Toolkit for building reactive apps on the JVM.                                        | 2226  | 2024-12-07  |
 | [Serverless Framework](https://github.com/pmuens/awesome-serverless) | Serverless computing and serverless architectures.                                    | 2149  | 2022-11-23  |
 | [IAM](https://github.com/kdeldycke/awesome-iam)                      | User accounts, authentication and authorization.                                      | 2110  | 2025-11-30  |
+| [CDK](https://github.com/kolomied/awesome-cdk)                       | Open-source software development framework for defining cloud infrastructure in code. | 2102  | 2024-03-12  |
 | [Flask](https://github.com/mjhea0/awesome-flask)                     | Python framework.                                                                     | 1689  | 2025-10-27  |
 | [Symfony](https://github.com/sitepoint-editors/awesome-symfony)      | PHP framework.                                                                        | 1563  | 2023-02-22  |
 | [Vapor](https://github.com/vapor-community/awesome-vapor)            | Server-side development in Swift.                                                     | 1269  | 2023-10-14  |
@@ -69,14 +71,13 @@
 | [Apache Wicket](https://github.com/PhantomYdn/awesome-wicket)        | Java web app framework.                                                               | 86    | 2020-08-16  |
 | [Play1 Framework](https://github.com/PerfectCarl/awesome-play1)      |                                                                                       | 43    | 2016-01-11  |
 | [Slim](https://github.com/nekofar/awesome-slim)                      | PHP framework.                                                                        | 41    | 2026-01-01  |
-| [CDK](https://github.com/kolomied/awesome-cdk)                       | Open-source software development framework for defining cloud infrastructure in code. | N/A   | N/A         |
-| [Terraform](https://github.com/shuaibiyy/awesome-terraform)          | Tool for building, changing, and versioning infrastructure.                           | N/A   | N/A         |
 
 ## Big Data
 
 | Name                                                                        | Description                                                                                                            | Stars | Last Commit |
 |-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [Public Datasets](https://github.com/awesomedata/awesome-public-datasets)   |                                                                                                                        | 71879 | 2025-12-16  |
+| [Big Data](https://github.com/0xnr/awesome-bigdata)                         |                                                                                                                        | 14163 | 2025-11-27  |
 | [Data Engineering](https://github.com/igorbarinov/awesome-data-engineering) |                                                                                                                        | 8136  | 2025-12-29  |
 | [Network Analysis](https://github.com/briatte/awesome-network-analysis)     |                                                                                                                        | 3931  | 2025-07-24  |
 | [Streaming](https://github.com/manuzhang/awesome-streaming)                 |                                                                                                                        | 2931  | 2025-07-24  |
@@ -84,7 +85,6 @@
 | [Hadoop](https://github.com/youngwookim/awesome-hadoop)                     | Framework for distributed storage and processing of very large data sets.                                              | 1113  | 2024-05-07  |
 | [Splunk](https://github.com/sduff/awesome-splunk)                           | Platform for searching, monitoring, and analyzing structured and unstructured machine-generated big data in real time. | 154   | 2020-09-11  |
 | [Qlik](https://github.com/ambster-public/awesome-qlik)                      | Business intelligence platform for data visualization, analytics, and reporting apps.                                  | 72    | 2019-11-15  |
-| [Big Data](https://github.com/0xnr/awesome-bigdata)                         |                                                                                                                        | N/A   | N/A         |
 
 ## Books
 
@@ -95,7 +95,7 @@
 | [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books)           |             | 13167  | 2024-11-09  |
 | [Elixir Books](https://github.com/sger/ElixirBooks)                                 |             | 1469   | 2022-08-14  |
 | [Book Authoring](https://github.com/TalAter/awesome-book-authoring)                 |             | 392    | 2019-12-06  |
-| [R Books](https://github.com/RomanTsegelskyi/rbooks)                                |             | N/A    | N/A         |
+| [R Books](https://github.com/RomanTsegelskyi/rbooks)                                |             | 269    | 2017-11-02  |
 
 ## Business
 
@@ -155,13 +155,14 @@
 | [Conversational AI](https://github.com/jyguyomarch/awesome-conversational-ai)                                  | Build awesome chatbots and digital assistants.                                                                                      | 257    | 2022-01-23  |
 | [XAI](https://github.com/altamiracorp/awesome-xai)                                                             | Providing insight, explanations, and interpretability to machine learning methods.                                                  | 182    | 2021-05-04  |
 | [TensorFlow.js](https://github.com/aaronhma/awesome-tensorflow-js)                                             | WebGL-accelerated machine learning JavaScript library for training and deploying models.                                            | 180    | 2025-07-12  |
-| [Position-Based Quantum Cryptography](https://github.com/Renaller/awesome-position-based-quantum-cryptography) | Theory on quantum cryptography that utilizes special relativistic constraints to achieve quantum-security under certain conditions. | N/A    | N/A         |
+| [Position-Based Quantum Cryptography](https://github.com/Renaller/awesome-position-based-quantum-cryptography) | Theory on quantum cryptography that utilizes special relativistic constraints to achieve quantum-security under certain conditions. | 13     | 2025-08-25  |
 
 ## Content Management Systems
 
 | Name                                                                         | Description                                                                                  | Stars | Last Commit |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------|-------------|
 | [Wagtail](https://github.com/springload/awesome-wagtail)                     | Django CMS focused on flexibility and user experience.                                       | 2157  | 2026-01-02  |
+| [Directus](https://github.com/directus-community/awesome-directus)           | A real-time API and app dashboard for managing SQL database content.                         | 627   | 2024-11-11  |
 | [Craft CMS](https://github.com/craftcms/awesome)                             | Content-first CMS.                                                                           | 545   | 2023-02-01  |
 | [Umbraco](https://github.com/umbraco-community/awesome-umbraco)              |                                                                                              | 217   | 2022-08-11  |
 | [Drupal](https://github.com/nirgn975/awesome-drupal)                         | Extensible PHP-based CMS.                                                                    | 93    | 2022-10-09  |
@@ -171,7 +172,6 @@
 | [Payload](https://github.com/DanailMinchev/awesome-payload)                  | Next.js native and open source headless CMS.                                                 | 67    | 2025-12-25  |
 | [Silverstripe CMS](https://github.com/wernerkrauss/awesome-silverstripe-cms) | PHP MVC framework that serves as a classic or headless CMS.                                  | 54    | 2024-02-22  |
 | [Refinery CMS](https://github.com/refinerycms-contrib/awesome-refinerycms)   | Ruby on Rails CMS.                                                                           | 35    | 2016-04-07  |
-| [Directus](https://github.com/directus-community/awesome-directus)           | A real-time API and app dashboard for managing SQL database content.                         | N/A   | N/A         |
 
 ## Databases
 
@@ -192,10 +192,10 @@
 | [CouchDB](https://github.com/quangv/awesome-couchdb)               | Document-oriented NoSQL database.                                                            | 190   | 2023-05-09  |
 | [TinkerPop](https://github.com/mohataher/awesome-tinkerpop)        | Graph computing framework.                                                                   | 189   | 2021-06-29  |
 | [HBase](https://github.com/rayokota/awesome-hbase)                 | Distributed, scalable, big data store.                                                       | 178   | 2022-06-04  |
+| [RethinkDB](https://github.com/d3viant0ne/awesome-rethinkdb)       |                                                                                              | 117   | 2016-05-09  |
+| [TypeDB](https://github.com/vaticle/typedb-awesome)                | Logical database to organize large and complex networks of data as one body of knowledge.    | 74    | 2025-11-26  |
 | [TDengine](https://github.com/taosdata/awesome-tdengine)           | An open-source time-series database with high-performance, scalability, and SQL support.     | 63    | 2023-03-31  |
 | [Neon](https://github.com/tyaga001/awesome-neon)                   | An open-source alternative to AWS Aurora.                                                    | 22    | 2024-07-29  |
-| [RethinkDB](https://github.com/d3viant0ne/awesome-rethinkdb)       |                                                                                              | N/A   | N/A         |
-| [TypeDB](https://github.com/vaticle/typedb-awesome)                | Logical database to organize large and complex networks of data as one body of knowledge.    | N/A   | N/A         |
 
 ## Decentralized Systems
 
@@ -203,21 +203,21 @@
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------|-------------|
 | [Bitcoin](https://github.com/igorbarinov/awesome-bitcoin)                                 | Bitcoin services and tools for software developers.                                                   | 1302  | 2025-12-22  |
 | [Blockchain AI](https://github.com/steven2358/awesome-blockchain-ai)                      | Blockchain projects for artificial intelligence and machine learning.                                 | 1081  | 2024-03-07  |
+| [Substrate](https://github.com/substrate-developer-hub/awesome-substrate)                 | Framework for writing scalable, upgradeable blockchains in Rust.                                      | 774   | 2024-04-20  |
 | [Non-Financial Blockchain](https://github.com/machinomy/awesome-non-financial-blockchain) | Non-financial blockchain applications.                                                                | 657   | 2020-10-12  |
 | [Cosmos SDK](https://github.com/cosmos/awesome-cosmos)                                    | Modular framework for building app-specific blockchains in Go.                                        | 591   | 2024-11-19  |
 | [Ethereum](https://github.com/ttumiel/Awesome-Ethereum)                                   | Distributed computing platform for smart contract development.                                        | 345   | 2024-07-12  |
 | [Golem](https://github.com/golemfactory/awesome-golem)                                    | Open source peer-to-peer marketplace for computing resources.                                         | 230   | 2024-01-16  |
+| [Algorand](https://github.com/aorumbayev/awesome-algorand)                                | An open-source, proof of stake blockchain and smart contract computing platform.                      | 209   | 2025-10-03  |
 | [Ripple](https://github.com/vhpoet/awesome-ripple)                                        | Open source distributed settlement network.                                                           | 193   | 2021-07-02  |
 | [Stacks](https://github.com/friedger/awesome-stacks-chain)                                | A smart contract platform secured by Bitcoin.                                                         | 117   | 2025-12-19  |
 | [ZeroNet](https://github.com/zolagonano/awesome-zeronet)                                  | A decentralized web-like network of peer-to-peer users.                                               | 105   | 2025-03-06  |
 | [Waves](https://github.com/msmolyakov/awesome-waves)                                      | Open source blockchain platform and development toolset for Web 3.0 apps and decentralized solutions. | 86    | 2020-10-05  |
 | [EOSIO](https://github.com/DanailMinchev/awesome-eosio)                                   | A decentralized operating system supporting industrial-scale apps.                                    | 81    | 2025-02-05  |
 | [Tor](https://github.com/polycarbohydrate/awesome-tor)                                    | A free overlay network for enabling anonymous communication.                                          | 81    | 2025-05-26  |
+| [Corda](https://github.com/chainstack/awesome-corda)                                      | Open source blockchain platform designed for business.                                                | 76    | 2021-08-10  |
 | [ATProto](https://github.com/atblueprints/awesome-atproto)                                | Open, decentralized network for building social apps.                                                 | 50    | 2025-01-04  |
 | [Mastodon](https://github.com/hyperupcall/awesome-mastodon)                               | Open source decentralized microblogging network.                                                      | 49    | 2026-01-01  |
-| [Algorand](https://github.com/aorumbayev/awesome-algorand)                                | An open-source, proof of stake blockchain and smart contract computing platform.                      | N/A   | N/A         |
-| [Corda](https://github.com/chainstack/awesome-corda)                                      | Open source blockchain platform designed for business.                                                | N/A   | N/A         |
-| [Substrate](https://github.com/substrate-developer-hub/awesome-substrate)                 | Framework for writing scalable, upgradeable blockchains in Rust.                                      | N/A   | N/A         |
 
 ## Development Environment
 
@@ -329,6 +329,7 @@
 | [Critical-Path Tools](https://github.com/addyosmani/critical-path-css-tools)                            |                                                                                                          | 1161  | 2022-07-18  |
 | [jQuery](https://github.com/petk/awesome-jquery)                                                        | Easy to use JavaScript library for DOM manipulation.                                                     | 970   | 2026-01-01  |
 | [Preact](https://github.com/preactjs/awesome-preact)                                                    | App framework.                                                                                           | 968   | 2025-11-13  |
+| [Ionic Framework](https://github.com/candelibas/awesome-ionic)                                          |                                                                                                          | 860   | 2026-01-08  |
 | [Motion UI Design](https://github.com/fliptheweb/motion-ui-design)                                      |                                                                                                          | 856   | 2023-08-11  |
 | [Cycle.js](https://github.com/cyclejs-community/awesome-cyclejs)                                        | Functional and reactive JavaScript framework.                                                            | 826   | 2020-12-07  |
 | [Design systems](https://github.com/klaufel/awesome-design-systems)                                     | Collection of reusable components, guided by rules that ensure consistency and speed.                    | 800   | 2024-12-20  |
@@ -338,6 +339,7 @@
 | [Material Design](https://github.com/sachin1092/awesome-material)                                       |                                                                                                          | 642   | 2023-01-19  |
 | [Frontend GIS](https://github.com/joewdavies/awesome-frontend-gis)                                      | Geographic Information Systems (GIS) for web browsers.                                                   | 636   | 2025-12-07  |
 | [BEM](https://github.com/sturobson/BEM-resources)                                                       |                                                                                                          | 494   | 2023-10-14  |
+| [PostCSS](https://github.com/jdrgomes/awesome-postcss)                                                  | CSS tool.                                                                                                | 433   | 2021-06-18  |
 | [Storybook](https://github.com/lauthieb/awesome-storybook)                                              | Development environment for UI components.                                                               | 408   | 2025-06-13  |
 | [Backbone](https://github.com/sadcitizen/awesome-backbone)                                              | App framework.                                                                                           | 406   | 2018-03-20  |
 | [Polymer](https://github.com/Granze/awesome-polymer)                                                    | JavaScript library to develop Web Components.                                                            | 398   | 2018-03-21  |
@@ -354,6 +356,7 @@
 | [Building Blocks for Web Apps](https://github.com/componently-com/awesome-building-blocks-for-web-apps) | Standalone features to be integrated into web apps.                                                      | 184   | 2025-07-29  |
 | [Hydrogen](https://github.com/shopify/awesome-hydrogen)                                                 | Edge-first framework for building Shopify storefronts with React.                                        | 170   | 2023-11-13  |
 | [Marionette.js](https://github.com/sadcitizen/awesome-marionette)                                       | App framework.                                                                                           | 154   | 2017-01-04  |
+| [Progressive Enhancement](https://github.com/jbmoelker/progressive-enhancement-resources)               |                                                                                                          | 143   | 2023-02-17  |
 | [Web Performance Budget](https://github.com/pajaydev/awesome-web-performance-budget)                    | Techniques to ensure certain performance metrics for a website.                                          | 126   | 2024-12-31  |
 | [KnockoutJS](https://github.com/dnbard/awesome-knockout)                                                | JavaScript library.                                                                                      | 104   | 2018-01-09  |
 | [Browserify](https://github.com/browserify/awesome-browserify)                                          | Module bundler.                                                                                          | 95    | 2017-01-04  |
@@ -361,10 +364,7 @@
 | [Less](https://github.com/LucasBassetti/awesome-less)                                                   | CSS preprocessor.                                                                                        | 65    | 2022-08-16  |
 | [MDBootstrap](https://github.com/mdbootstrap/awesome-mdbootstrap)                                       | Templates, layouts, components, and widgets to rapidly build websites.                                   | 57    | 2024-04-11  |
 | [Master CSS](https://github.com/master-co/awesome-master-css)                                           | A virtual CSS language with enhanced syntax.                                                             | 31    | 2022-12-02  |
-| [Ionic Framework](https://github.com/candelibas/awesome-ionic)                                          |                                                                                                          | N/A   | N/A         |
-| [PostCSS](https://github.com/jdrgomes/awesome-postcss)                                                  | CSS tool.                                                                                                | N/A   | N/A         |
-| [Progressive Enhancement](https://github.com/jbmoelker/progressive-enhancement-resources)               |                                                                                                          | N/A   | N/A         |
-| [WebAssembly](https://github.com/idematos/awesome-webassembly)                                          | A portable binary format for running code efficiently across platforms.                                  | N/A   | N/A         |
+| [WebAssembly](https://github.com/idematos/awesome-webassembly)                                          | A portable binary format for running code efficiently across platforms.                                  | 23    | 2025-06-21  |
 
 ## Gaming
 
@@ -376,6 +376,7 @@
 | [Game Boy Development](https://github.com/gbdev/awesome-gbdev)                  |                                                                                                              | 4336  | 2025-12-17  |
 | [LÖVE](https://github.com/love2d-community/awesome-love2d)                      | Game engine.                                                                                                 | 4167  | 2025-12-09  |
 | [Discord Communities](https://github.com/mhxion/awesome-discord-communities)    | Chat with friends and communities.                                                                           | 3324  | 2025-11-18  |
+| [Learn Gamedev](https://github.com/notpresident35/awesome-learn-gamedev)        | The craft of video game creation.                                                                            | 3257  | 2025-11-17  |
 | [PICO-8](https://github.com/pico-8/awesome-PICO-8)                              | Fantasy console.                                                                                             | 2933  | 2025-12-03  |
 | [Open Source Games](https://github.com/michelpereira/awesome-open-source-games) |                                                                                                              | 2428  | 2025-12-05  |
 | [Games of Coding](https://github.com/michelpereira/awesome-games-of-coding)     | Learn a programming language by making games.                                                                | 2049  | 2025-06-03  |
@@ -398,7 +399,6 @@
 | [Construct 2](https://github.com/ConstructCommunity/awesome-construct)          | Game engine.                                                                                                 | 87    | 2025-06-17  |
 | [Roblox](https://github.com/awesome-roblox/awesome-roblox)                      | Immersive platform for hosting millions of diverse experiences.                                              | 44    | 2025-11-29  |
 | [Gideros](https://github.com/stetso/awesome-gideros)                            | Game engine.                                                                                                 | 32    | 2019-10-07  |
-| [Learn Gamedev](https://github.com/notpresident35/awesome-learn-gamedev)        | The craft of video game creation.                                                                            | N/A   | N/A         |
 
 ## Hardware
 
@@ -407,6 +407,7 @@
 | [Electronics](https://github.com/kitspace/awesome-electronics)              | For electronic engineers and hobbyists.                                       | 7041  | 2025-09-25  |
 | [Robotics](https://github.com/Kiloreux/awesome-robotics)                    |                                                                               | 5539  | 2024-09-22  |
 | [Internet of Things](https://github.com/HQarroum/awesome-iot)               |                                                                               | 3781  | 2025-10-15  |
+| [Robotic Tooling](https://github.com/protontypes/awesome-robotic-tooling)   | Free and open tools for professional robotic development.                     | 3708  | 2023-11-20  |
 | [Plotters](https://github.com/beardicus/awesome-plotters)                   | Computer-controlled drawing machines and other visual art robots.             | 1308  | 2025-12-03  |
 | [LIDAR](https://github.com/szenergy/awesome-lidar)                          | Sensor for measuring distances by illuminating the target with laser light.   | 1192  | 2025-06-18  |
 | [Bluetooth Beacons](https://github.com/rabschi/awesome-beacon)              |                                                                               | 944   | 2019-05-03  |
@@ -414,7 +415,6 @@
 | [Flying FPV](https://github.com/Matthias84/awesome-flying-fpv)              | Open hardware and software related to drones / UAVs.                          | 526   | 2025-01-10  |
 | [Electric Guitar Specifications](https://github.com/gitfrage/guitarspecs)   | Checklist for building your own electric guitar.                              | 263   | 2023-06-25  |
 | [ADS-B](https://github.com/rickstaa/awesome-adsb)                           | Technology broadcasting aircraft's identity, position, and data periodically. | 226   | 2025-11-21  |
-| [Robotic Tooling](https://github.com/protontypes/awesome-robotic-tooling)   | Free and open tools for professional robotic development.                     | N/A   | N/A         |
 
 ## Health and Social Science
 
@@ -438,6 +438,7 @@
 
 | Name                                                                                   | Description                                                                                                        | Stars | Last Commit |
 |----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) |                                                                                                                    | 11382 | 2022-06-17  |
 | [YouTubers](https://github.com/JoseDeFreitas/awesome-youtubers)                        | Watch video tutorials from YouTubers that teach you about technology.                                              | 7137  | 2025-11-30  |
 | [Roadmaps](https://github.com/liuchong/awesome-roadmaps)                               | Gives you a clear route to improve your knowledge and skills.                                                      | 6647  | 2025-10-11  |
 | [JavaScript Learning](https://github.com/micromata/awesome-javascript-learning)        |                                                                                                                    | 5689  | 2025-12-01  |
@@ -453,7 +454,6 @@
 | [Tech Videos](https://github.com/lucasviola/awesome-tech-videos)                       |                                                                                                                    | 822   | 2016-12-10  |
 | [Hackathon](https://github.com/dribdat/awesome-hackathon)                              | Running fun and productive hackathons.                                                                             | 213   | 2025-11-07  |
 | [STEAM](https://github.com/RahulBirCodes/awesome-steam)                                | Supplements for specific science, technology, engineering, arts, and math (STEAM) courses across all grade levels. | 190   | 2024-06-19  |
-| [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) |                                                                                                                    | N/A   | N/A         |
 
 ## Media
 
@@ -462,6 +462,7 @@
 | [Stock Resources](https://github.com/neutraltone/awesome-stock-resources)           |                                                                                 | 13856 | 2025-12-04  |
 | [Codeface](https://github.com/chrissimpkins/codeface)                               | Text editor fonts.                                                              | 6409  | 2020-09-19  |
 | [Audio Visualization](https://github.com/willianjusten/awesome-audio-visualization) |                                                                                 | 4924  | 2023-04-05  |
+| [Music](https://github.com/ciconia/awesome-music)                                   |                                                                                 | 2239  | 2025-08-28  |
 | [Open Source Documents](https://github.com/44bits/awesome-opensource-documents)     |                                                                                 | 2146  | 2025-10-29  |
 | [Fonts](https://github.com/brabadu/awesome-fonts)                                   |                                                                                 | 1865  | 2025-11-29  |
 | [Broadcasting](https://github.com/ebu/awesome-broadcasting)                         |                                                                                 | 1649  | 2025-12-09  |
@@ -472,7 +473,6 @@
 | [VLC](https://github.com/mfkl/awesome-vlc)                                          | Cross-platform media player software and streaming server.                      | 243   | 2025-04-28  |
 | [Audiovisual](https://github.com/stingalleman/awesome-audiovisual)                  | Lighting, audio and video in professional environments.                         | 231   | 2024-07-01  |
 | [Audio Over IP](https://github.com/Mo-way/awesome-aoip)                             | Reliably transmit uncompressed, low-latency audio over an IP (layer 3) network. | 87    | 2025-12-02  |
-| [Music](https://github.com/ciconia/awesome-music)                                   |                                                                                 | N/A   | N/A         |
 
 ## Miscellaneous
 
@@ -493,6 +493,8 @@
 | [Domain-Driven Design](https://github.com/heynickc/awesome-ddd)                                               | Software development approach for complex needs by connecting the implementation to an evolving model. | 12028  | 2025-07-04  |
 | [ChatGPT](https://github.com/sindresorhus/awesome-chatgpt)                                                    | Artificial intelligence chatbot developed by OpenAI.                                                   | 6024   | 2025-12-06  |
 | [Jupyter](https://github.com/markusschanta/awesome-jupyter)                                                   | Create and share documents that contain code, equations, visualizations and narrative text.            | 4510   | 2026-01-01  |
+| [Analytics](https://github.com/0xnr/awesome-analytics)                                                        |                                                                                                        | 4232   | 2025-12-08  |
+| [Data Visualization](https://github.com/javierluraschi/awesome-dataviz)                                       |                                                                                                        | 4202   | 2024-01-26  |
 | [Crypto Currency Tools & Algorithms](https://github.com/Zheaoli/awesome-coins)                                | Digital currency where encryption is used to regulate the generation of units and verify transfers.    | 4048   | 2023-07-20  |
 | [REST](https://github.com/marmelab/awesome-rest)                                                              |                                                                                                        | 3825   | 2025-07-29  |
 | [Stacks](https://github.com/stackshareio/awesome-stacks)                                                      | Tech stacks for building different apps and features.                                                  | 3803   | 2024-03-08  |
@@ -503,6 +505,7 @@
 | [Discounts for Student Developers](https://github.com/AchoArnold/discount-for-student-dev)                    |                                                                                                        | 3215   | 2025-06-05  |
 | [Katas](https://github.com/gamontal/awesome-katas)                                                            |                                                                                                        | 3068   | 2025-10-20  |
 | [No-Login Web Apps](https://github.com/aviaryan/awesome-no-login-web-apps)                                    | Web apps that work without login.                                                                      | 3054   | 2024-04-30  |
+| [Userscripts](https://github.com/bvolpato/awesome-userscripts)                                                | Enhance your browsing experience.                                                                      | 3040   | 2026-01-19  |
 | [Software Architecture](https://github.com/simskij/awesome-software-architecture)                             | The discipline of designing and building software.                                                     | 2687   | 2023-08-31  |
 | [Quantified Self](https://github.com/woop/awesome-quantified-self)                                            | Self-tracking through technology.                                                                      | 2628   | 2025-05-29  |
 | [Web Design](https://github.com/nicolesaidy/awesome-web-design)                                               | For digital designers.                                                                                 | 2613   | 2023-10-19  |
@@ -512,6 +515,7 @@
 | [Web Archiving](https://github.com/iipc/awesome-web-archiving)                                                | An effort to preserve the Web for future generations.                                                  | 2427   | 2025-10-31  |
 | [Design and Development Guides](https://github.com/NARKOZ/guides)                                             |                                                                                                        | 2358   | 2025-07-02  |
 | [OpenGL](https://github.com/eug/awesome-opengl)                                                               | Cross-platform API for rendering 2D and 3D graphics.                                                   | 2351   | 2023-08-17  |
+| [MQTT](https://github.com/hobbyquaker/awesome-mqtt)                                                           | "Internet of Things" connectivity protocol.                                                            | 2277   | 2025-12-29  |
 | [Free Software](https://github.com/johnjago/awesome-free-software)                                            | Free as in freedom.                                                                                    | 2178   | 2025-04-29  |
 | [Whisper](https://github.com/sindresorhus/awesome-whisper)                                                    | Open-source AI-powered speech recognition system developed by OpenAI.                                  | 2064   | 2025-11-05  |
 | [Quarto](https://github.com/mcanouil/awesome-quarto)                                                          | Scientific and technical open-source publishing system built on Pandoc.                                | 2022   | 2025-12-08  |
@@ -519,6 +523,7 @@
 | [Ansible](https://github.com/ansible-community/awesome-ansible)                                               | A Python-based, open-source IT configuration management and automation platform.                       | 1766   | 2025-07-10  |
 | [TikZ](https://github.com/xiaohanyu/awesome-tikz)                                                             | Graph drawing packages for TeX/LaTeX/ConTeXt.                                                          | 1714   | 2024-10-05  |
 | [Agriculture](https://github.com/brycejohnston/awesome-agriculture)                                           | Open source technology for farming and gardening.                                                      | 1645   | 2025-10-09  |
+| [Transit](https://github.com/CUTR-at-USF/awesome-transit)                                                     |                                                                                                        | 1643   | 2026-01-05  |
 | [LaTeX](https://github.com/egeerardyn/awesome-LaTeX)                                                          | Typesetting language.                                                                                  | 1570   | 2025-12-18  |
 | [Economics](https://github.com/antontarasenko/awesome-economics)                                              | An economist's starter kit.                                                                            | 1550   | 2023-08-26  |
 | [JSON](https://github.com/burningtree/awesome-json)                                                           | Text based data interchange format.                                                                    | 1507   | 2024-08-11  |
@@ -532,6 +537,7 @@
 | [Naming](https://github.com/gruhn/awesome-naming)                                                             | Naming things in computer science done right.                                                          | 1365   | 2025-11-01  |
 | [Colorful](https://github.com/Siddharth11/Colorful)                                                           | Choose your next color scheme.                                                                         | 1238   | 2025-03-13  |
 | [IRC](https://github.com/davisonio/awesome-irc)                                                               | Open source messaging protocol.                                                                        | 1187   | 2024-06-25  |
+| [Magento 2](https://github.com/DavidLambauer/awesome-magento2)                                                | Open Source eCommerce built with PHP.                                                                  | 1164   | 2025-07-04  |
 | [Open Source Maintainers](https://github.com/nayafia/awesome-maintainers)                                     | The experience of being an open source maintainer.                                                     | 1158   | 2021-08-16  |
 | [Tools for Activism](https://github.com/drewrwilson/toolsforactivism)                                         |                                                                                                        | 1028   | 2022-10-11  |
 | [ChatOps](https://github.com/exAspArk/awesome-chatops)                                                        | Managing technical and business operations through a chat.                                             | 969    | 2021-10-30  |
@@ -593,6 +599,7 @@
 | [Advertising](https://github.com/cenoura/awesome-ads)                                                         | Advertising and programmatic media for websites.                                                       | 151    | 2023-05-20  |
 | [Ledger](https://github.com/sfischer13/awesome-ledger)                                                        | Double-entry accounting on the command-line.                                                           | 151    | 2022-01-21  |
 | [Vorpal](https://github.com/vorpaljs/awesome-vorpal)                                                          | Node.js CLI framework.                                                                                 | 145    | 2020-06-24  |
+| [Permacomputing](https://github.com/idematos/awesome-permacomputing)                                          | Resilient and regenerative computing practices inspired by permaculture.                               | 134    | 2025-07-25  |
 | [QR Code](https://github.com/make-github-pseudonymous-again/awesome-qr-code)                                  | A type of matrix barcode that can be used to store and share a small amount of information.            | 134    | 2024-06-13  |
 | [Answers](https://github.com/stoeffel/awesome-ama-answers)                                                    |                                                                                                        | 130    | 2020-03-17  |
 | [Astrophotography](https://github.com/lunohodov/awesome-astrophotography)                                     | Photography of astronomical objects, celestial events, or areas of the night sky.                      | 118    | 2025-10-17  |
@@ -607,13 +614,6 @@
 | [Geocaching](https://github.com/FoxFil/awesome-geocaching)                                                    | Outdoor treasure-hunting activity that uses GPS-enabled devices.                                       | 31     | 2025-08-27  |
 | [Tech Ethics](https://github.com/sampart/awesome-tech-ethics)                                                 | Mitigating and avoiding the potential negative effects of technology on society.                       | 28     | 2025-11-12  |
 | [inspectIT](https://github.com/inspectit-labs/awesome-inspectit)                                              | Open source Java app performance management tool.                                                      | 25     | 2020-12-06  |
-| [Analytics](https://github.com/0xnr/awesome-analytics)                                                        |                                                                                                        | N/A    | N/A         |
-| [Data Visualization](https://github.com/javierluraschi/awesome-dataviz)                                       |                                                                                                        | N/A    | N/A         |
-| [Magento 2](https://github.com/DavidLambauer/awesome-magento2)                                                | Open Source eCommerce built with PHP.                                                                  | N/A    | N/A         |
-| [MQTT](https://github.com/hobbyquaker/awesome-mqtt)                                                           | "Internet of Things" connectivity protocol.                                                            | N/A    | N/A         |
-| [Permacomputing](https://github.com/idematos/awesome-permacomputing)                                          | Resilient and regenerative computing practices inspired by permaculture.                               | N/A    | N/A         |
-| [Transit](https://github.com/CUTR-at-USF/awesome-transit)                                                     |                                                                                                        | N/A    | N/A         |
-| [Userscripts](https://github.com/bvolpato/awesome-userscripts)                                                | Enhance your browsing experience.                                                                      | N/A    | N/A         |
 
 ## Networking
 
@@ -644,6 +644,7 @@
 | [Amazon Web Services](https://github.com/donnemartin/awesome-aws)                      |                                                                                                                | 13865 | 2024-03-12  |
 | [Android](https://github.com/JStumpp/awesome-android)                                  | Mobile operating system developed by Google.                                                                   | 11860 | 2025-10-27  |
 | [Home Assistant](https://github.com/frenck/awesome-home-assistant)                     | Open source home automation that puts local control and privacy first.                                         | 7242  | 2025-12-19  |
+| [eBPF](https://github.com/zoidbergwill/awesome-ebpf)                                   | Virtual machine that allows you to write more efficient and powerful tracing and monitoring for Linux systems. | 4895  | 2026-01-13  |
 | [Linux](https://github.com/inputsh/awesome-linux)                                      |                                                                                                                | 4828  | 2023-02-04  |
 | [Nix](https://github.com/nix-community/awesome-nix)                                    | Package manager for Linux and other Unix systems that makes package management reliable and reproducible.      | 4722  | 2025-12-12  |
 | [IPFS](https://github.com/ipfs/awesome-ipfs)                                           | P2P hypermedia protocol.                                                                                       | 4531  | 2025-11-13  |
@@ -671,6 +672,7 @@
 | [IoT & Hybrid Apps](https://github.com/weblancaster/awesome-IoT-hybrid)                |                                                                                                                | 588   | 2021-09-01  |
 | [DOS](https://github.com/balintkissdev/awesome-dos)                                    | Operating system for x86-based personal computers that was popular during the 1980s and early 1990s.           | 573   | 2025-08-25  |
 | [Arch-based Projects](https://github.com/PandaFoss/Awesome-Arch)                       | Linux distributions and projects based on Arch Linux.                                                          | 556   | 2024-09-29  |
+| [AppImage](https://github.com/AppImage/awesome-appimage)                               | Package apps in a single file that works on various mainstream Linux distributions.                            | 528   | 2025-12-07  |
 | [PowerToys Run Plugins](https://github.com/hlaueriksson/awesome-powertoys-run-plugins) | Community plugins for the Windows quick launcher.                                                              | 525   | 2025-09-08  |
 | [Node-RED](https://github.com/naimo84/awesome-nodered)                                 | A programming tool for wiring together hardware devices, APIs, and online services.                            | 523   | 2023-02-23  |
 | [Integration](https://github.com/stn1slv/awesome-integration)                          | Linking together different IT systems (components) to functionally cooperate as a whole.                       | 504   | 2026-01-01  |
@@ -679,18 +681,16 @@
 | [DigitalOcean](https://github.com/jonleibowitz/awesome-digitalocean)                   | Cloud computing platform designed for developers.                                                              | 369   | 2021-04-30  |
 | [Fuse](https://github.com/fuse-compound/awesome-fuse)                                  | Mobile development tools.                                                                                      | 353   | 2019-02-25  |
 | [Heroku](https://github.com/ianstormtaylor/awesome-heroku)                             | Cloud platform as a service.                                                                                   | 313   | 2021-07-06  |
+| [ArcGIS Developer](https://github.com/Esri/awesome-arcgis-developer)                   | Mapping and location analysis platform for developers.                                                         | 303   | 2025-10-21  |
 | [Cordova](https://github.com/busterc/awesome-cordova)                                  | JavaScript API for hybrid apps.                                                                                | 302   | 2019-10-25  |
 | [Omarchy](https://github.com/aorumbayev/awesome-omarchy)                               | Opinionated Arch Linux and Hyprland desktop environment from the creator of Ruby on Rails.                     | 217   | 2026-01-02  |
 | [Bluetooth Low Energy](https://github.com/dotintent/awesome-ble)                       | Low-power wireless communication protocol ideal for IoT, wearables, and other battery-powered applications.    | 116   | 2025-05-30  |
 | [Actions on Google](https://github.com/ravirupareliya/awesome-actions-on-google)       | Developer platform for Google Assistant.                                                                       | 104   | 2020-10-31  |
+| [Firebase Genkit](https://github.com/xavidop/awesome-firebase-genkit)                  | An open-source framework for building AI-powered apps and features.                                            | 104   | 2026-01-17  |
 | [IBM Cloud](https://github.com/victorshinya/awesome-ibmcloud)                          | Cloud platform for developers and companies.                                                                   | 103   | 2021-07-05  |
 | [Adafruit IO](https://github.com/adafruit/awesome-adafruitio)                          | Visualize and store data from any device.                                                                      | 80    | 2022-02-20  |
 | [Uno Platform](https://github.com/MartinZikmund/awesome-uno-platform)                  | Open-source .NET UI platform for building cross-platform apps.                                                 | 70    | 2025-05-20  |
 | [Backstage](https://github.com/shano/awesome-backstage)                                | Open-source platform for building Internal Developer Portals that unify tools and workflows.                   | 66    | 2025-12-02  |
-| [AppImage](https://github.com/AppImage/awesome-appimage)                               | Package apps in a single file that works on various mainstream Linux distributions.                            | N/A   | N/A         |
-| [ArcGIS Developer](https://github.com/Esri/awesome-arcgis-developer)                   | Mapping and location analysis platform for developers.                                                         | N/A   | N/A         |
-| [eBPF](https://github.com/zoidbergwill/awesome-ebpf)                                   | Virtual machine that allows you to write more efficient and powerful tracing and monitoring for Linux systems. | N/A   | N/A         |
-| [Firebase Genkit](https://github.com/xavidop/awesome-firebase-genkit)                  | An open-source framework for building AI-powered apps and features.                                            | N/A   | N/A         |
 
 ## Programming Languages
 
@@ -698,6 +698,7 @@
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------|
 | [Python](https://github.com/vinta/awesome-python)                             | General-purpose programming language designed for readability.                                                                                                                                                                                                        | 276468 | 2025-11-20  |
 | [Go](https://github.com/avelino/awesome-go)                                   |                                                                                                                                                                                                                                                                       | 161553 | 2025-12-09  |
+| [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code)        | Code snippets you can understand in 30 seconds.                                                                                                                                                                                                                       | 126384 | 2026-01-15  |
 | [C/C++](https://github.com/fffaraz/awesome-cpp)                               | General-purpose language with a bias toward system programming and embedded, resource-constrained software.                                                                                                                                                           | 68902  | 2025-12-31  |
 | [Rust](https://github.com/rust-unofficial/awesome-rust)                       |                                                                                                                                                                                                                                                                       | 54746  | 2025-12-29  |
 | [Java](https://github.com/akullpp/awesome-java)                               | Popular secure object-oriented language designed for flexibility to "write once, run anywhere".                                                                                                                                                                       | 46524  | 2025-10-25  |
@@ -708,6 +709,7 @@
 | [Must Watch Talks](https://github.com/bolshchikov/js-must-watch)              |                                                                                                                                                                                                                                                                       | 13536  | 2022-01-20  |
 | [Elixir](https://github.com/h4cc/awesome-elixir)                              |                                                                                                                                                                                                                                                                       | 13058  | 2025-10-12  |
 | [Tips](https://github.com/loverajoel/jstips)                                  |                                                                                                                                                                                                                                                                       | 12474  | 2025-04-26  |
+| [Kotlin](https://github.com/KotlinBy/awesome-kotlin)                          |                                                                                                                                                                                                                                                                       | 11335  | 2026-01-19  |
 | [Scala](https://github.com/lauris/awesome-scala)                              |                                                                                                                                                                                                                                                                       | 9183   | 2024-09-20  |
 | [R](https://github.com/qinwf/awesome-R)                                       | Functional programming language and environment for statistical computing and graphics.                                                                                                                                                                               | 6380   | 2025-09-18  |
 | [Functional Programming](https://github.com/stoeffel/awesome-fp-js)           |                                                                                                                                                                                                                                                                       | 6034   | 2025-11-18  |
@@ -757,6 +759,8 @@
 | [Idris](https://github.com/joaomilho/awesome-idris)                           | General purpose pure functional programming language with dependent types influenced by Haskell and ML.                                                                                                                                                               | 407    | 2020-02-20  |
 | [Standard Style](https://github.com/standard/awesome-standard)                | Style guide and linter.                                                                                                                                                                                                                                               | 402    | 2023-09-16  |
 | [Fortran](https://github.com/rabbiabram/awesome-fortran)                      |                                                                                                                                                                                                                                                                       | 400    | 2022-09-18  |
+| [Coq](https://github.com/coq-community/awesome-coq)                           | Formal language and environment for programming and specification which facilitates interactive development of machine-checked proofs.                                                                                                                                | 374    | 2025-11-05  |
+| [Maintenance Modules](https://github.com/maxogden/maintenance-modules)        | For npm packages.                                                                                                                                                                                                                                                     | 357    | 2016-05-19  |
 | [AVA](https://github.com/avajs/awesome-ava)                                   | Test runner.                                                                                                                                                                                                                                                          | 351    | 2022-09-12  |
 | [Observables](https://github.com/sindresorhus/awesome-observables)            |                                                                                                                                                                                                                                                                       | 348    | 2021-10-13  |
 | [RxJava](https://github.com/eleventigers/awesome-rxjava)                      |                                                                                                                                                                                                                                                                       | 301    | 2019-01-09  |
@@ -764,6 +768,7 @@
 | [Scala Native](https://github.com/tindzk/awesome-scala-native)                | Optimizing ahead-of-time compiler for Scala based on LLVM.                                                                                                                                                                                                            | 270    | 2025-06-05  |
 | [ActionScript 3](https://github.com/robinrodricks/awesome-actionscript3)      | Object-oriented language targeting Adobe AIR.                                                                                                                                                                                                                         | 261    | 2022-11-12  |
 | [Learning](https://github.com/GustavBertram/awesome-common-lisp-learning)     |                                                                                                                                                                                                                                                                       | 229    | 2023-10-04  |
+| [Vala](https://github.com/desiderantes/awesome-vala)                          | Programming language designed to take full advantage of the GLib and GNOME ecosystems, while preserving the speed of C code.                                                                                                                                          | 214    | 2025-10-03  |
 | [Q#](https://github.com/ebraminio/awesome-qsharp)                             | Domain-specific programming language used for expressing quantum algorithms.                                                                                                                                                                                          | 177    | 2022-08-11  |
 | [Imba](https://github.com/koolamusic/awesome-imba)                            | Programming language inspired by Ruby and Python and compiles to performant JavaScript.                                                                                                                                                                               | 138    | 2021-10-18  |
 | [Pest](https://github.com/pest-parser/awesome-pest)                           | Parser generator.                                                                                                                                                                                                                                                     | 135    | 2025-10-11  |
@@ -771,11 +776,6 @@
 | [Eta](https://github.com/sfischer13/awesome-eta)                              | Functional programming language for the JVM.                                                                                                                                                                                                                          | 64     | 2021-09-11  |
 | [Ponyfills](https://github.com/Richienb/awesome-ponyfills)                    | Like polyfills but without overriding native APIs.                                                                                                                                                                                                                    | 63     | 2020-10-21  |
 | [Frege](https://github.com/sfischer13/awesome-frege)                          | Haskell for the JVM.                                                                                                                                                                                                                                                  | 31     | 2021-09-11  |
-| [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code)        | Code snippets you can understand in 30 seconds.                                                                                                                                                                                                                       | N/A    | N/A         |
-| [Coq](https://github.com/coq-community/awesome-coq)                           | Formal language and environment for programming and specification which facilitates interactive development of machine-checked proofs.                                                                                                                                | N/A    | N/A         |
-| [Kotlin](https://github.com/KotlinBy/awesome-kotlin)                          |                                                                                                                                                                                                                                                                       | N/A    | N/A         |
-| [Maintenance Modules](https://github.com/maxogden/maintenance-modules)        | For npm packages.                                                                                                                                                                                                                                                     | N/A    | N/A         |
-| [Vala](https://github.com/desiderantes/awesome-vala)                          | Programming language designed to take full advantage of the GLib and GNOME ecosystems, while preserving the speed of C code.                                                                                                                                          | N/A    | N/A         |
 
 ## Related
 
@@ -783,7 +783,7 @@
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------|-------------|
 | [Awesome CLI](https://github.com/umutphp/awesome-cli)                 | A simple command-line tool to dive into Awesome lists.                    | 670   | 2025-10-08  |
 | [StumbleUponAwesome](https://github.com/basharovV/StumbleUponAwesome) | Discover random pages from the Awesome dataset using a browser extension. | 451   | 2024-05-11  |
-| [All Awesome Lists](https://github.com/topics/awesome)                | All the Awesome lists on GitHub.                                          | N/A   | N/A         |
+| [All Awesome Lists](https://github.com/topics/awesome)                | All the Awesome lists on GitHub.                                          | 0     | N/A         |
 
 ## Security
 
@@ -803,21 +803,21 @@
 | [Cyber Security University](https://github.com/brootware/awesome-cyber-security-university)   | Free educational resources that focus on learning by doing.                                                              | 2645  | 2025-08-09  |
 | [Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security)    |                                                                                                                          | 2172  | 2023-10-17  |
 | [Lockpicking](https://github.com/fabacab/awesome-lockpicking)                                 | The art of unlocking a lock by manipulating its components without the key.                                              | 1774  | 2022-06-28  |
+| [DevSecOps](https://github.com/TaptuIT/awesome-devsecops)                                     | Integration of security practices into [DevOps](https://en.wikipedia.org/wiki/DevOps).                                   | 1617  | 2024-08-02  |
+| [Executable Packing](https://github.com/dhondta/awesome-executable-packing)                   | Packing and unpacking executable formats.                                                                                | 1517  | 2026-01-03  |
 | [Hacking Spots](https://github.com/daviddias/awesome-hacking-locations)                       |                                                                                                                          | 1106  | 2025-08-24  |
 | [Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)            | Design, build, and operate detective cybersecurity controls.                                                             | 1104  | 2025-12-19  |
 | [Fuzzing](https://github.com/cpuu/awesome-fuzzing)                                            | Automated software testing technique that involves feeding pseudo-randomly generated input data.                         | 943   | 2023-11-20  |
 | [Annual Security Reports](https://github.com/jacobdjwilson/awesome-annual-security-reports)   | Exploring cybersecurity trends, insights, and challenges.                                                                | 920   | 2026-01-02  |
 | [Password Cracking](https://github.com/n0kovo/awesome-password-cracking)                      | The process of recovering passwords from data that has been stored in or transmitted by a system in scrambled form.      | 831   | 2025-06-06  |
 | [CI/CD Attacks](https://github.com/TupleType/awesome-cicd-attacks)                            | Offensive research of systems and processes related to developing and deploying code.                                    | 563   | 2025-11-02  |
+| [Prompt Injection](https://github.com/FonduAI/awesome-prompt-injection)                       | A type of vulnerability that specifically targets machine learning models.                                               | 396   | 2025-09-14  |
 | [Malware Persistence](https://github.com/Karneades/awesome-malware-persistence)               | Techniques that adversaries use to keep access to systems across restarts.                                               | 267   | 2025-10-03  |
+| [GDPR](https://github.com/bakke92/awesome-gdpr)                                               | Regulation on data protection and privacy for all individuals within EU.                                                 | 244   | 2025-12-29  |
 | [Suricata](https://github.com/satta/awesome-suricata)                                         | Intrusion detection/prevention system and network security monitoring engine.                                            | 213   | 2025-11-21  |
 | [EVM Security](https://github.com/kareniel/awesome-evm-security)                              | Understanding the Ethereum Virtual Machine security ecosystem.                                                           | 189   | 2022-06-06  |
 | [Security Card Games](https://github.com/Karneades/awesome-security-card-games)               | Train your skills and discuss various security topics.                                                                   | 152   | 2025-06-02  |
 | [OpenID Connect](https://github.com/cerberauth/awesome-openid-connect)                        | Identity standard and authentication protocol built on OAuth 2.0 for user identity assertion.                            | 83    | 2025-11-24  |
-| [DevSecOps](https://github.com/TaptuIT/awesome-devsecops)                                     | Integration of security practices into [DevOps](https://en.wikipedia.org/wiki/DevOps).                                   | N/A   | N/A         |
-| [Executable Packing](https://github.com/dhondta/awesome-executable-packing)                   | Packing and unpacking executable formats.                                                                                | N/A   | N/A         |
-| [GDPR](https://github.com/bakke92/awesome-gdpr)                                               | Regulation on data protection and privacy for all individuals within EU.                                                 | N/A   | N/A         |
-| [Prompt Injection](https://github.com/FonduAI/awesome-prompt-injection)                       | A type of vulnerability that specifically targets machine learning models.                                               | N/A   | N/A         |
 
 ## Testing
 
@@ -850,9 +850,9 @@
 | [Recursion Schemes](https://github.com/passy/awesome-recursion-schemes)                     | Traversing nested data structures.                                                                         | 1278   | 2024-04-25  |
 | [VLM Architectures](https://github.com/gokayfem/awesome-vlm-architectures)                  | Vision Language Model architectures.                                                                       | 1131   | 2025-02-24  |
 | [Education](https://github.com/gaerae/awesome-algorithms-education)                         | Learning and practicing.                                                                                   | 860    | 2022-11-15  |
+| [AGI & CoCoSci](https://github.com/YuzheSHI/awesome-agi-cocosci)                            | The reciprocation of Artificial General Intelligence (AGI) and Computational Cognitive Sciences (CoCoSci). | 359    | 2026-01-13  |
 | [Complex Systems](https://github.com/sellisd/awesome-complexity)                            | The scientific field studying systems with multiple interacting parts and emergent properties.             | 243    | 2025-03-20  |
 | [Audit Algorithms](https://github.com/erwanlemerrer/awesome-audit-algorithms)               | Algorithmic audits of algorithms.                                                                          | 110    | 2025-10-24  |
-| [AGI & CoCoSci](https://github.com/YuzheSHI/awesome-agi-cocosci)                            | The reciprocation of Artificial General Intelligence (AGI) and Computational Cognitive Sciences (CoCoSci). | N/A    | N/A         |
 
 ## Work
 
