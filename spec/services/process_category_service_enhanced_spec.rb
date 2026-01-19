@@ -53,6 +53,54 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       end
     end
 
+    context 'when GitHub items have missing stars' do
+      let!(:category) { create(:category, awesome_list: awesome_list, name: 'Test Category') }
+
+      example 'raises MissingStarsError when GitHub items have no stars data' do
+        # Create a GitHub item without stars (simulates failed API fetch)
+        create(:category_item, category: category, name: 'Missing Stars Item',
+               primary_url: 'https://github.com/owner/missing-repo',
+               stars: nil)
+
+        expect {
+          service.call(awesome_list: awesome_list)
+        }.to raise_error(ProcessCategoryServiceEnhanced::MissingStarsError, /Missing star data for GitHub items/)
+      end
+
+      example 'includes names of items missing stars in the error message' do
+        create(:category_item, category: category, name: 'Repo Without Stars',
+               primary_url: 'https://github.com/owner/repo-without-stars',
+               stars: nil)
+        create(:category_item, category: category, name: 'Another Missing',
+               primary_url: 'https://github.com/owner/another-missing',
+               stars: nil)
+
+        expect {
+          service.call(awesome_list: awesome_list)
+        }.to raise_error(ProcessCategoryServiceEnhanced::MissingStarsError) do |error|
+          expect(error.message).to include('Repo Without Stars')
+          expect(error.message).to include('Another Missing')
+        end
+      end
+
+      example 'does not raise error when non-GitHub items have no stars' do
+        # Non-GitHub URLs don't require stars
+        create(:category_item, category: category, name: 'External Site',
+               primary_url: 'https://example.com/tool',
+               stars: nil)
+
+        expect { service.call(awesome_list: awesome_list) }.not_to raise_error
+      end
+
+      example 'does not raise error when all GitHub items have stars' do
+        create(:category_item, category: category, name: 'Item With Stars',
+               primary_url: 'https://github.com/owner/repo',
+               stars: 100)
+
+        expect { service.call(awesome_list: awesome_list) }.not_to raise_error
+      end
+    end
+
     context 'source link' do
       let!(:category) { create(:category, awesome_list: awesome_list, name: 'Test Category') }
 

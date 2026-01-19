@@ -7,9 +7,14 @@ require 'terminal-table'
 class ProcessCategoryServiceEnhanced
   include Dry::Monads[:result, :do]
 
+  # Custom error for missing star data on GitHub items
+  class MissingStarsError < StandardError; end
+
   TARGET_DIR = Rails.root.join('static', 'awesomer')
 
   def call(awesome_list:)
+    # Validate that all GitHub items have star data before generating markdown
+    validate_github_items_have_stars!(awesome_list)
     # Skip if no categories with items
     # Order categories alphabetically by name for consistent ordering
     categories_with_items = awesome_list.categories.joins(:category_items).distinct.order(:name)
@@ -36,6 +41,9 @@ class ProcessCategoryServiceEnhanced
     Rails.logger.info "ProcessCategoryServiceEnhanced: Generated #{file_path}"
 
     Success(file_path)
+  rescue MissingStarsError
+    # Re-raise MissingStarsError - this is a validation error that should propagate
+    raise
   rescue StandardError => e
     Rails.logger.error "ProcessCategoryServiceEnhanced error: #{e.message}"
     Failure("Failed to process categories: #{e.message}")
@@ -157,5 +165,23 @@ class ProcessCategoryServiceEnhanced
 
   def ensure_target_directory_exists
     FileUtils.mkdir_p(TARGET_DIR)
+  end
+
+  def validate_github_items_have_stars!(awesome_list)
+    # Find all GitHub items that are missing star data
+    # Reload to get fresh data from database
+    awesome_list.reload
+
+    # Use the through association and filter for GitHub URLs without stars
+    items_missing_stars = awesome_list.category_items
+                                      .where('primary_url LIKE ?', '%github.com%')
+                                      .where(stars: nil)
+
+    return if items_missing_stars.empty?
+
+    # Build error message with item names
+    item_names = items_missing_stars.pluck(:name).join(', ')
+    raise MissingStarsError, "Missing star data for GitHub items: #{item_names}. " \
+      "Ensure GitHub stats have been fetched before generating markdown."
   end
 end

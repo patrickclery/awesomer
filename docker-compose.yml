@@ -54,7 +54,7 @@ services:
       SECRET_KEY_BASE: ${SECRET_KEY_BASE:-please_generate_a_secure_key}
     volumes:
       - ./output:/app/output
-      - ./static/awesomer:/app/static/awesomer
+      - ./static:/app/static
     # Default: just show status
     command: ["bin/awesomer", "status"]
 
@@ -80,7 +80,7 @@ services:
       SECRET_KEY_BASE: ${SECRET_KEY_BASE:-please_generate_a_secure_key}
     volumes:
       - ./output:/app/output
-      - ./static/awesomer:/app/static/awesomer
+      - ./static:/app/static
     command: ["bin/jobs", "start"]
     restart: unless-stopped
     healthcheck:
