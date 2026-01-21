@@ -144,7 +144,7 @@ module Awesomer
     LONGDESC
     option :async, default: true, desc: 'Run asynchronously using background jobs', type: :boolean
     option :star_history, default: true, desc: 'Fetch star history (trending data)', type: :boolean
-    option :prune, default: true, desc: 'Run pruning to remove invalid lists', type: :boolean
+    option :prune, default: false, desc: 'Run pruning to remove invalid/orphaned lists', type: :boolean
     option :limit, default: nil, desc: 'Limit number of lists to process', type: :numeric
     def refresh
       refresh_command = Awesomer::Commands::Refresh.new

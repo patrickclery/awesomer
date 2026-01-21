@@ -88,20 +88,24 @@ module Awesomer
         say "\n1️⃣  Processing awesome lists...", :cyan
         process_all_lists
 
-        # Step 2: Queue star history jobs if enabled
+        # Step 2: Sync GitHub stats for items without stars
+        say "\n2️⃣  Syncing GitHub stats...", :cyan
+        sync_github_stats
+
+        # Step 3: Queue star history jobs if enabled
         if options[:star_history]
-          say "\n2️⃣  Queueing star history jobs...", :cyan
+          say "\n3️⃣  Queueing star history jobs...", :cyan
           queue_all_star_history_jobs
         end
 
-        # Step 3: Prune invalid lists if enabled
+        # Step 4: Prune invalid lists if enabled
         if options[:prune]
-          say "\n3️⃣  Pruning invalid lists...", :cyan
+          say "\n4️⃣  Pruning invalid lists...", :cyan
           run_pruning
         end
 
-        # Step 4: Generate markdown files
-        say "\n4️⃣  Generating markdown files...", :cyan
+        # Step 5: Generate markdown files
+        say "\n5️⃣  Generating markdown files...", :cyan
         generate_markdown
       end
 
@@ -132,6 +136,7 @@ module Awesomer
 
       def sync_github_stats
         client = Octokit::Client.new(access_token: ENV.fetch('GITHUB_API_KEY', nil))
+        client.auto_paginate = false # Avoid memory issues
         rate_limiter = GithubRateLimiterService.new
 
         # Only sync items from active (non-archived) lists
@@ -159,10 +164,24 @@ module Awesomer
 
             begin
               repo_data = client.repository(item.github_repo)
+
+              # Handle renamed repos - stargazers_count may be nil if redirect wasn't followed
+              if repo_data.stargazers_count.nil?
+                # Try to get the actual repo via the id
+                if repo_data.id
+                  repo_data = client.get("/repositories/#{repo_data.id}")
+                  # Update the github_repo to the new name if it changed
+                  if repo_data.full_name && repo_data.full_name != item.github_repo
+                    item.github_repo = repo_data.full_name
+                  end
+                end
+              end
+
+              stars = repo_data.stargazers_count || 0
               item.update!(
                 github_description: repo_data.description,
                 last_commit_at: repo_data.pushed_at,
-                stars: repo_data.stargazers_count
+                stars: stars
               )
               updated += 1
               print '.' if updated % 10 == 0
@@ -175,7 +194,7 @@ module Awesomer
               sleep([sleep_time, 3600].min)
               retry
             rescue StandardError => e
-              say "\n  Error: #{e.message}", :red
+              say "\n  Error syncing #{item.github_repo}: #{e.message}", :red
               failed += 1
             end
           end
@@ -257,6 +276,7 @@ module Awesomer
         service = ProcessCategoryServiceEnhanced.new
         success_count = 0
         failed_count = 0
+        failed_lists = []
 
         AwesomeList.active.find_each do |list|
           result = service.call(awesome_list: list)
@@ -266,11 +286,22 @@ module Awesomer
           else
             failed_count += 1 unless result.value! == :deleted
           end
+        rescue ProcessCategoryServiceEnhanced::MissingStarsError => e
+          failed_count += 1
+          failed_lists << "#{list.github_repo}: #{e.message.split('.').first}"
+          print 'X'
+        rescue StandardError => e
+          failed_count += 1
+          failed_lists << "#{list.github_repo}: #{e.message}"
+          print 'X'
         end
 
         puts
         say "  ✅ Generated #{success_count} markdown files", :green
-        say "  ❌ Failed: #{failed_count}", :red if failed_count > 0
+        if failed_count > 0
+          say "  ❌ Failed: #{failed_count}", :red
+          failed_lists.each { |msg| say "    - #{msg}", :red }
+        end
       end
 
       def show_final_summary
