@@ -72,6 +72,8 @@
 | [Play1 Framework](https://github.com/PerfectCarl/awesome-play1)      |                                                                                       | 43    | 2016-01-11  |
 | [Slim](https://github.com/nekofar/awesome-slim)                      | PHP framework.                                                                        | 41    | 2026-01-01  |
 
+[Back to Top](#table-of-contents)
+
 ## Big Data
 
 | Name                                                                        | Description                                                                                                            | Stars | Last Commit |
@@ -86,6 +88,8 @@
 | [Splunk](https://github.com/sduff/awesome-splunk)                           | Platform for searching, monitoring, and analyzing structured and unstructured machine-generated big data in real time. | 154   | 2020-09-11  |
 | [Qlik](https://github.com/ambster-public/awesome-qlik)                      | Business intelligence platform for data visualization, analytics, and reporting apps.                                  | 72    | 2019-11-15  |
 
+[Back to Top](#table-of-contents)
+
 ## Books
 
 | Name                                                                                | Description | Stars  | Last Commit |
@@ -96,6 +100,8 @@
 | [Elixir Books](https://github.com/sger/ElixirBooks)                                 |             | 1469   | 2022-08-14  |
 | [Book Authoring](https://github.com/TalAter/awesome-book-authoring)                 |             | 392    | 2019-12-06  |
 | [R Books](https://github.com/RomanTsegelskyi/rbooks)                                |             | 269    | 2017-11-02  |
+
+[Back to Top](#table-of-contents)
 
 ## Business
 
@@ -113,6 +119,8 @@
 | [Wardley Maps](https://github.com/wardley-maps-community/awesome-wardley-maps)                  | Provides high situational awareness to help improve strategic planning and decision making.         | 751   | 2025-11-16  |
 | [Clean Tech](https://github.com/nglgzz/awesome-clean-tech)                                      | Fighting climate change with technology.                                                            | 450   | 2024-01-07  |
 | [Social Enterprise](https://github.com/RayBB/awesome-social-enterprise)                         | Building an organization primarily focused on social impact that is at least partially self-funded. | 119   | 2024-12-23  |
+
+[Back to Top](#table-of-contents)
 
 ## Computer Science
 
@@ -157,6 +165,8 @@
 | [TensorFlow.js](https://github.com/aaronhma/awesome-tensorflow-js)                                             | WebGL-accelerated machine learning JavaScript library for training and deploying models.                                            | 180    | 2025-07-12  |
 | [Position-Based Quantum Cryptography](https://github.com/Renaller/awesome-position-based-quantum-cryptography) | Theory on quantum cryptography that utilizes special relativistic constraints to achieve quantum-security under certain conditions. | 13     | 2025-08-25  |
 
+[Back to Top](#table-of-contents)
+
 ## Content Management Systems
 
 | Name                                                                         | Description                                                                                  | Stars | Last Commit |
@@ -172,6 +182,8 @@
 | [Payload](https://github.com/DanailMinchev/awesome-payload)                  | Next.js native and open source headless CMS.                                                 | 67    | 2025-12-25  |
 | [Silverstripe CMS](https://github.com/wernerkrauss/awesome-silverstripe-cms) | PHP MVC framework that serves as a classic or headless CMS.                                  | 54    | 2024-02-22  |
 | [Refinery CMS](https://github.com/refinerycms-contrib/awesome-refinerycms)   | Ruby on Rails CMS.                                                                           | 35    | 2016-04-07  |
+
+[Back to Top](#table-of-contents)
 
 ## Databases
 
@@ -197,6 +209,8 @@
 | [TDengine](https://github.com/taosdata/awesome-tdengine)           | An open-source time-series database with high-performance, scalability, and SQL support.     | 63    | 2023-03-31  |
 | [Neon](https://github.com/tyaga001/awesome-neon)                   | An open-source alternative to AWS Aurora.                                                    | 22    | 2024-07-29  |
 
+[Back to Top](#table-of-contents)
+
 ## Decentralized Systems
 
 | Name                                                                                      | Description                                                                                           | Stars | Last Commit |
@@ -218,6 +232,8 @@
 | [Corda](https://github.com/chainstack/awesome-corda)                                      | Open source blockchain platform designed for business.                                                | 76    | 2021-08-10  |
 | [ATProto](https://github.com/atblueprints/awesome-atproto)                                | Open, decentralized network for building social apps.                                                 | 50    | 2025-01-04  |
 | [Mastodon](https://github.com/hyperupcall/awesome-mastodon)                               | Open source decentralized microblogging network.                                                      | 49    | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Development Environment
 
@@ -247,6 +263,8 @@
 | [GitHub](https://github.com/phillipadsmith/awesome-github)                                | Hosting service for Git repositories.                                        | 938   | 2024-03-04  |
 | [WezTerm](https://github.com/michaelbrusegard/awesome-wezterm)                            | Powerful cross-platform terminal emulator.                                   | 438   | 2026-01-01  |
 
+[Back to Top](#table-of-contents)
+
 ## Editors
 
 | Name                                                            | Description                                      | Stars | Last Commit |
@@ -258,6 +276,8 @@
 | [Atom](https://github.com/mehcode/awesome-atom)                 | Open-source and hackable text editor.            | 1918  | 2019-01-28  |
 | [Sublime Text](https://github.com/dreikanter/sublime-bookmarks) |                                                  | 1060  | 2024-01-15  |
 
+[Back to Top](#table-of-contents)
+
 ## Entertainment
 
 | Name                                                                  | Description | Stars | Last Commit |
@@ -268,6 +288,8 @@
 | [Podcasts](https://github.com/ayr-ton/awesome-geek-podcasts)          |             | 610   | 2025-06-02  |
 | [IT Quotes](https://github.com/victorlaerte/awesome-it-quotes)        |             | 603   | 2021-01-26  |
 
+[Back to Top](#table-of-contents)
+
 ## Events
 
 | Name                                                                               | Description                                                                            | Stars | Last Commit |
@@ -275,6 +297,8 @@
 | [Creative Tech Events](https://github.com/danvoyce/awesome-creative-tech-events)   | Events around the globe for creative coding, tech, design, music, arts and cool stuff. | 190   | 2023-02-03  |
 | [Events in Italy](https://github.com/ildoc/awesome-italy-events)                   | Tech-related events in Italy.                                                          | 151   | 2022-04-14  |
 | [Events in the Netherlands](https://github.com/awkward/awesome-netherlands-events) | Tech-related events in the Netherlands.                                                | 66    | 2024-05-11  |
+
+[Back to Top](#table-of-contents)
 
 ## Front-End Development
 
@@ -366,6 +390,8 @@
 | [Master CSS](https://github.com/master-co/awesome-master-css)                                           | A virtual CSS language with enhanced syntax.                                                             | 31    | 2022-12-02  |
 | [WebAssembly](https://github.com/idematos/awesome-webassembly)                                          | A portable binary format for running code efficiently across platforms.                                  | 23    | 2025-06-21  |
 
+[Back to Top](#table-of-contents)
+
 ## Gaming
 
 | Name                                                                            | Description                                                                                                  | Stars | Last Commit |
@@ -400,6 +426,8 @@
 | [Roblox](https://github.com/awesome-roblox/awesome-roblox)                      | Immersive platform for hosting millions of diverse experiences.                                              | 44    | 2025-11-29  |
 | [Gideros](https://github.com/stetso/awesome-gideros)                            | Game engine.                                                                                                 | 32    | 2019-10-07  |
 
+[Back to Top](#table-of-contents)
+
 ## Hardware
 
 | Name                                                                        | Description                                                                   | Stars | Last Commit |
@@ -415,6 +443,8 @@
 | [Flying FPV](https://github.com/Matthias84/awesome-flying-fpv)              | Open hardware and software related to drones / UAVs.                          | 526   | 2025-01-10  |
 | [Electric Guitar Specifications](https://github.com/gitfrage/guitarspecs)   | Checklist for building your own electric guitar.                              | 263   | 2023-06-25  |
 | [ADS-B](https://github.com/rickstaa/awesome-adsb)                           | Technology broadcasting aircraft's identity, position, and data periodically. | 226   | 2025-11-21  |
+
+[Back to Top](#table-of-contents)
 
 ## Health and Social Science
 
@@ -433,6 +463,8 @@
 | [Lucid Dreams](https://github.com/IAmCoder/awesome-lucid-dreams)                            | A dream where one becomes aware they are dreaming.                                                      | 114   | 2025-12-18  |
 | [Transgender](https://github.com/cvyl/awesome-transgender)                                  | Someone whose gender identity differs from their assigned birth sex.                                    | 70    | 2025-01-17  |
 | [Neuroimaging](https://github.com/NPACore/awesome-neuroimaging)                             | Software for analyzing brain data from living subjects.                                                 | 31    | 2025-04-09  |
+
+[Back to Top](#table-of-contents)
 
 ## Learn
 
@@ -455,6 +487,8 @@
 | [Hackathon](https://github.com/dribdat/awesome-hackathon)                              | Running fun and productive hackathons.                                                                             | 213   | 2025-11-07  |
 | [STEAM](https://github.com/RahulBirCodes/awesome-steam)                                | Supplements for specific science, technology, engineering, arts, and math (STEAM) courses across all grade levels. | 190   | 2024-06-19  |
 
+[Back to Top](#table-of-contents)
+
 ## Media
 
 | Name                                                                                | Description                                                                     | Stars | Last Commit |
@@ -473,6 +507,8 @@
 | [VLC](https://github.com/mfkl/awesome-vlc)                                          | Cross-platform media player software and streaming server.                      | 243   | 2025-04-28  |
 | [Audiovisual](https://github.com/stingalleman/awesome-audiovisual)                  | Lighting, audio and video in professional environments.                         | 231   | 2024-07-01  |
 | [Audio Over IP](https://github.com/Mo-way/awesome-aoip)                             | Reliably transmit uncompressed, low-latency audio over an IP (layer 3) network. | 87    | 2025-12-02  |
+
+[Back to Top](#table-of-contents)
 
 ## Miscellaneous
 
@@ -615,6 +651,8 @@
 | [Tech Ethics](https://github.com/sampart/awesome-tech-ethics)                                                 | Mitigating and avoiding the potential negative effects of technology on society.                       | 28     | 2025-11-12  |
 | [inspectIT](https://github.com/inspectit-labs/awesome-inspectit)                                              | Open source Java app performance management tool.                                                      | 25     | 2020-12-06  |
 
+[Back to Top](#table-of-contents)
+
 ## Networking
 
 | Name                                                                   | Description                                                                                                | Stars | Last Commit |
@@ -625,6 +663,8 @@
 | [Scapy](https://github.com/secdev/awesome-scapy)                       | Python-based interactive packet manipulation.                                                              | 324   | 2025-06-09  |
 | [SNMP](https://github.com/eozer/awesome-snmp)                          | A protocol for collecting, modifying, and organizing information about managed devices on IP networks.     | 175   | 2025-09-26  |
 | [Cilium](https://github.com/seifrajhi/awesome-cilium)                  | Provides networking and security capabilities for containerized apps, microservices, and virtual machines. | 89    | 2024-10-22  |
+
+[Back to Top](#table-of-contents)
 
 ## Platforms
 
@@ -691,6 +731,8 @@
 | [Adafruit IO](https://github.com/adafruit/awesome-adafruitio)                          | Visualize and store data from any device.                                                                      | 80    | 2022-02-20  |
 | [Uno Platform](https://github.com/MartinZikmund/awesome-uno-platform)                  | Open-source .NET UI platform for building cross-platform apps.                                                 | 70    | 2025-05-20  |
 | [Backstage](https://github.com/shano/awesome-backstage)                                | Open-source platform for building Internal Developer Portals that unify tools and workflows.                   | 66    | 2025-12-02  |
+
+[Back to Top](#table-of-contents)
 
 ## Programming Languages
 
@@ -777,6 +819,8 @@
 | [Ponyfills](https://github.com/Richienb/awesome-ponyfills)                    | Like polyfills but without overriding native APIs.                                                                                                                                                                                                                    | 63     | 2020-10-21  |
 | [Frege](https://github.com/sfischer13/awesome-frege)                          | Haskell for the JVM.                                                                                                                                                                                                                                                  | 31     | 2021-09-11  |
 
+[Back to Top](#table-of-contents)
+
 ## Related
 
 | Name                                                                  | Description                                                               | Stars | Last Commit |
@@ -784,6 +828,8 @@
 | [Awesome CLI](https://github.com/umutphp/awesome-cli)                 | A simple command-line tool to dive into Awesome lists.                    | 670   | 2025-10-08  |
 | [StumbleUponAwesome](https://github.com/basharovV/StumbleUponAwesome) | Discover random pages from the Awesome dataset using a browser extension. | 451   | 2024-05-11  |
 | [All Awesome Lists](https://github.com/topics/awesome)                | All the Awesome lists on GitHub.                                          | 0     | N/A         |
+
+[Back to Top](#table-of-contents)
 
 ## Security
 
@@ -819,6 +865,8 @@
 | [Security Card Games](https://github.com/Karneades/awesome-security-card-games)               | Train your skills and discuss various security topics.                                                                   | 152   | 2025-06-02  |
 | [OpenID Connect](https://github.com/cerberauth/awesome-openid-connect)                        | Identity standard and authentication protocol built on OAuth 2.0 for user identity assertion.                            | 83    | 2025-11-24  |
 
+[Back to Top](#table-of-contents)
+
 ## Testing
 
 | Name                                                                                       | Description                                                                         | Stars | Last Commit |
@@ -834,6 +882,8 @@
 | [Appium](https://github.com/SrinivasanTarget/awesome-appium)                               | Test automation tool for apps.                                                      | 461   | 2021-09-28  |
 | [CodeRabbit](https://github.com/coderabbitai/awesome-coderabbit)                           | AI-powered code review platform.                                                    | 241   | 2025-12-15  |
 | [Gatling](https://github.com/aliesbelik/awesome-gatling)                                   | Open-source load and performance testing framework based on Scala, Akka, and Netty. | 76    | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Theory
 
@@ -854,6 +904,8 @@
 | [Complex Systems](https://github.com/sellisd/awesome-complexity)                            | The scientific field studying systems with multiple interacting parts and emergent properties.             | 243    | 2025-03-20  |
 | [Audit Algorithms](https://github.com/erwanlemerrer/awesome-audit-algorithms)               | Algorithmic audits of algorithms.                                                                          | 110    | 2025-10-24  |
 
+[Back to Top](#table-of-contents)
+
 ## Work
 
 | Name                                                                               | Description                                                                                   | Stars | Last Commit |
@@ -867,3 +919,5 @@
 | [Creative Technology](https://github.com/j0hnm4r5/awesome-creative-technology)     | Businesses & groups that specialize in combining computing, design, art, and user experience. | 565   | 2025-11-21  |
 | [Internships](https://github.com/lodthe/awesome-internships)                       | CV writing guides and companies that hire interns.                                            | 508   | 2024-12-06  |
 | [Communities](https://github.com/filipelinhares/awesome-slack)                     |                                                                                               | 336   | 2023-05-23  |
+
+[Back to Top](#table-of-contents)

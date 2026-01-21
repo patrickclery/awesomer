@@ -1,131 +1,170 @@
 # awesome-claude-code
 
-A curated list of awesome commands, files, and workflows for Claude Code
+A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
 
 **Source:** [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
 ## Table of Contents
 
-- [Agent Skills 🤖 [🔝](#awesome-claude-code)](#agent-skills--awesome-claude-code)
-- [Alternative Clients 📱 [🔝](#awesome-claude-code)](#alternative-clients--awesome-claude-code)
-- [Hooks  [🔝](#awesome-claude-code)](#hooks--awesome-claude-code)
-- [Official Documentation 🏛️ [🔝](#awesome-claude-code)](#official-documentation--awesome-claude-code)
-- [Output Styles 💬 [🔝](#awesome-claude-code)](#output-styles--awesome-claude-code)
-- [Slash-Commands  [🔝](#awesome-claude-code)](#slash-commands--awesome-claude-code)
-- [Status Lines  [🔝](#awesome-claude-code)](#status-lines--awesome-claude-code)
-- [Tooling  [🔝](#awesome-claude-code)](#tooling--awesome-claude-code)
-- [Workflows & Knowledge Guides  [🔝](#awesome-claude-code)](#workflows--knowledge-guides--awesome-claude-code)
+- [Agent Skills 🤖](#agent-skills-)
+- [Alternative Clients 📱](#alternative-clients-)
+- [Hooks 🪝](#hooks-)
+- [Latest Additions](#latest-additions)
+- [Official Documentation 🏛️](#official-documentation-)
+- [Slash-Commands 🔪](#slash-commands-)
+- [Status Lines 📊](#status-lines-)
+- [Tooling 🧰](#tooling-)
+- [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
 
-## Agent Skills 🤖 [🔝](#awesome-claude-code)
+## Agent Skills 🤖
 
-| Name                                                                        | Description                                                                                                                                                                | Stars | Last Commit |
-|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Codex Skill](https://github.com/skills-directory/skill-codex)              | A claude code skill to delegate prompts to codex                                                                                                                           | 323   | 2025-10-28  |
-| [Web Assets Generator Skill](https://github.com/alonw0/web-asset-generator) | Claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. Supports emoji suggestions, validation, and framework auto-integration. | 74    | 2025-11-13  |
+| Name                                                                                      | Description | Stars | Last Commit |
+|-------------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [Superpowers](https://github.com/obra/superpowers)                                        |             | 32164 | 2026-01-20  |
+| [Trail of Bits Security Skills](https://github.com/trailofbits/skills)                    |             | 1689  | 2026-01-21  |
+| [TÂCHES Claude Code Resources](https://github.com/glittercowboy/taches-cc-resources)      |             | 1106  | 2026-01-19  |
+| [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings)                 |             | 365   | 2026-01-14  |
+| [Codex Skill](https://github.com/skills-directory/skill-codex)                            |             | 323   | 2025-10-28  |
+| [Context Engineering Kit](https://github.com/NeoLabHQ/context-engineering-kit)            |             | 302   | 2026-01-16  |
+| [Web Assets Generator Skill](https://github.com/alonw0/web-asset-generator)               | <br>        | 74    | 2025-11-13  |
+| [Claude Mountaineering Skills](https://github.com/dreamiurg/claude-mountaineering-skills) |             | 10    | 2025-11-14  |
 
-## Alternative Clients 📱 [🔝](#awesome-claude-code)
+[Back to Top](#table-of-contents)
 
-| Name                                                | Description                                                                                                                                                                              | Stars | Last Commit |
-|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Claudable](https://github.com/opactorai/Claudable) | Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly. | 3246  | 2025-11-04  |
-| [Omnara](https://github.com/omnara-ai/omnara)       | Omnara (YC S25) - Talk to Your AI Agents from Anywhere!                                                                                                                                  | 2539  | 2025-11-09  |
+## Alternative Clients 📱
 
-## Hooks  [🔝](#awesome-claude-code)
+| Name                                                | Description | Stars | Last Commit |
+|-----------------------------------------------------|-------------|-------|-------------|
+| [Claudable](https://github.com/opactorai/Claudable) |             | 3246  | 2025-11-04  |
+| [Omnara](https://github.com/omnara-ai/omnara)       | <br>        | 2539  | 2025-11-09  |
 
-| Name                                                                                 | Description                                                                                                                                                                                                       | Stars | Last Commit |
-|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [TDD Guard](https://github.com/nizos/tdd-guard)                                      | Automated TDD enforcement for Claude Code                                                                                                                                                                         | 1539  | 2025-11-24  |
-| [claude-hooks](https://github.com/johnlindquist/claude-hooks)                        | A TypeScript-based system for configuring and customizing Claude Code hooks with a powerful and flexible interface.                                                                                               | 236   | 2025-08-08  |
-| [TypeScript Quality Hooks](https://github.com/bartolli/claude-code-typescript-hooks) | Quality check hook for Node.js TypeScript projects with TypeScript compilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for <5ms validation performance during real-time editing. | 142   | 2025-08-26  |
-| [CC Notify](https://github.com/dazuiba/CCNotify)                                     | CCNotify provides desktop notifications for Claude Code, alerting you when Claude needs your input or completes tasks.                                                                                            | 123   | 2025-10-14  |
-| [cchooks](https://github.com/GowayLee/cchooks)                                       | A Python SDK for claude-code hooks                                                                                                                                                                                | 99    | 2025-11-12  |
-| [claude-code-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk)              | A PHP SDK for building Claude Code hooks                                                                                                                                                                          | 56    | 2025-11-24  |
-| [Claudio](https://github.com/ctoth/claudio)                                          | Hook-based audio plugin for Claude Code that plays contextual sounds based on tool usage and events                                                                                                               | 33    | 2025-11-11  |
-| [Britfix](https://github.com/Talieisin/britfix)                                      | Convert American spellings to British English - fix LLM output and documents                                                                                                                                      | 1     | 2025-12-01  |
+[Back to Top](#table-of-contents)
 
-## Official Documentation 🏛️ [🔝](#awesome-claude-code)
+## Hooks 🪝
 
-| Name                                                                      | Description                                                                                                                         | Stars | Last Commit |
-|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API | 10537 | 2025-11-26  |
+| Name                                                                                 | Description | Stars | Last Commit |
+|--------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [TDD Guard](https://github.com/nizos/tdd-guard)                                      |             | 1539  | 2025-11-24  |
+| [claude-hooks](https://github.com/johnlindquist/claude-hooks)                        |             | 236   | 2025-08-08  |
+| [TypeScript Quality Hooks](https://github.com/bartolli/claude-code-typescript-hooks) | <br>        | 142   | 2025-08-26  |
+| [CC Notify](https://github.com/dazuiba/CCNotify)                                     |             | 123   | 2025-10-14  |
+| [cchooks](https://github.com/GowayLee/cchooks)                                       |             | 99    | 2025-11-12  |
+| [claude-code-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk)              |             | 56    | 2025-11-24  |
+| [Claudio](https://github.com/ctoth/claudio)                                          |             | 33    | 2025-11-11  |
+| [Britfix](https://github.com/Talieisin/britfix)                                      |             | 1     | 2025-12-01  |
+| [Claude Code Hook Comms (HCOM)](https://github.com/aannoo/claude-hook-comms)         |             | 0     | N/A         |
 
-## Output Styles 💬 [🔝](#awesome-claude-code)
+[Back to Top](#table-of-contents)
 
-| Name                                                                                                                                           | Description                                                                                                           | Stars | Last Commit |
-|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [ccoutputstyles](https://github.com/viveknair/ccoutputstyles)                                                                                  |  CLI tool and template gallery for customizing Claude Code output styles with pre-built templates                     | 46    | 2025-09-02  |
-| [Awesome Claude Code Output Styles (That I Really Like)](https://github.com/hesreallyhim/awesome-claude-code-output-styles-that-i-really-like) | A curated collection of probably the most awesome feature of Claude Code - Output Styles                              | 14    | 2025-11-21  |
-| [Gen-Alpha Slang](https://github.com/sjnims/gen-alpha-output-style)                                                                            | Claude Code plugin that transforms responses into Gen Alpha/brainrot internet slang. No cap, it hits different fr fr. | 4     | 2025-11-25  |
+## Latest Additions
 
-## Slash-Commands  [🔝](#awesome-claude-code)
+| Name                                                                             | Description | Stars | Last Commit |
+|----------------------------------------------------------------------------------|-------------|-------|-------------|
+| [Trail of Bits Security Skills](https://github.com/trailofbits/skills)           |             | 1689  | 2026-01-21  |
+| [Plannotator](https://github.com/backnotprop/plannotator)                        |             | 1337  | 2026-01-21  |
+| [The Ralph Playbook](https://github.com/ClaytonFarr/ralph-playbook)              |             | 581   | 2026-01-15  |
+| [Ralph Wiggum Marketer](https://github.com/muratcankoylan/ralph-wiggum-marketer) |             | 565   | 2026-01-08  |
 
-| Name                                                                                                        | Description                                                                     | Stars | Last Commit |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|-------|-------------|
-| [/linux-desktop-slash-commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands) | Slash commands for Linux desktop sysadmin with Claude Code (or any other agent) | 13    | 2025-10-31  |
+[Back to Top](#table-of-contents)
 
-## Status Lines  [🔝](#awesome-claude-code)
+## Official Documentation 🏛️
 
-| Name                                                                        | Description                                                                                                                                                                   | Stars | Last Commit |
-|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [ccstatusline](https://github.com/sirmalloc/ccstatusline)                   | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.                                                                     | 2150  | 2025-11-17  |
-| [claude-powerline](https://github.com/Owloops/claude-powerline)             | Beautiful vim-style powerline statusline for Claude Code                                                                                                                      | 475   | 2025-11-30  |
-| [claude-code-statusline](https://github.com/rz1989s/claude-code-statusline) | Transform your Claude Code terminal with atomic precision statusline. Features flexible layouts, real-time cost tracking, MCP monitoring, prayer times, and beautiful themes. | 205   | 2025-11-15  |
-| [claudia-statusline](https://github.com/hagan/claudia-statusline)           | A project around statusline.rs                                                                                                                                                | 14    | 2025-11-29  |
+| Name                                                                      | Description | Stars | Last Commit |
+|---------------------------------------------------------------------------|-------------|-------|-------------|
+| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts) |             | 10537 | 2025-11-26  |
 
-## Tooling  [🔝](#awesome-claude-code)
+[Back to Top](#table-of-contents)
 
-| Name                                                                                      | Description                                                                                                                                                                                                                                                                                                                       | Stars | Last Commit |
-|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Claude Task Master](https://github.com/eyaltoledano/claude-task-master)                  | An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.                                                                                                                                                                                                                                | 24031 | 2025-12-03  |
-| [SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework)                   | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.                                                                                                                                                                                                 | 18717 | 2025-12-03  |
-| [Claude Code Flow](https://github.com/ruvnet/claude-code-flow)                            | This mode serves as a code-first orchestration layer, enabling Claude to write, edit, test, and optimize code autonomously across recursive agent cycles.                                                                                                                                                                         | 12447 | 2026-01-18  |
-| [Claude Code Templates](https://github.com/davila7/claude-code-templates)                 | CLI tool for configuring and monitoring Claude Code                                                                                                                                                                                                                                                                               | 12148 | 2025-12-03  |
-| [CC Usage](https://github.com/ryoppippi/ccusage)                                          | A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.                                                                                                                                                                                                                                                      | 9112  | 2025-12-01  |
-| [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | Real-time Claude Code usage monitor with predictions and warnings                                                                                                                                                                                                                                                                 | 5821  | 2025-09-14  |
-| [Claude Squad](https://github.com/smtg-ai/claude-squad)                                   | Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp.                                                                                                                                                                                                                                             | 5222  | 2025-11-22  |
-| [Happy Coder](https://github.com/slopus/happy)                                            | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured                                                                                                                                                                                                                               | 4590  | 2025-10-04  |
-| [Container Use](https://github.com/dagger/container-use)                                  | Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.                                                                                                                                                                                                    | 3299  | 2025-11-24  |
-| [crystal](https://github.com/stravu/crystal)                                              | Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.                                                                                                                                                                 | 2522  | 2025-11-26  |
-| [claude-code.nvim](https://github.com/greggh/claude-code.nvim)                            | Seamless integration between Claude Code AI assistant and Neovim                                                                                                                                                                                                                                                                  | 1592  | 2025-07-02  |
-| [Claude Swarm](https://github.com/parruda/claude-swarm)                                   | Launch Claude Code session that is connected to a swarm of Claude Code Agents.                                                                                                                                                                                                                                                    | 1569  | 2026-01-16  |
-| [cc-sessions](https://github.com/GWUDCAP/cc-sessions)                                     | an opinionated approach to productive development with Claude Code                                                                                                                                                                                                                                                                | 1394  | 2025-10-17  |
-| [claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el)                      | Claude Code IDE integration for Emacs                                                                                                                                                                                                                                                                                             | 1175  | 2025-09-15  |
-| [ccflare](https://github.com/snipeship/ccflare)                                           | The ultimate CC proxy                                                                                                                                                                                                                                                                                                             | 785   | 2025-08-24  |
-| [Claude Composer](https://github.com/possibilities/claude-composer)                       | A tool that adds small enhancements to Claude Code.                                                                                                                                                                                                                                                                               | 675   | 2025-07-31  |
-| [claude-code.el](https://github.com/stevemolitor/claude-code.el)                          | Claude Code Emacs integration                                                                                                                                                                                                                                                                                                     | 544   | 2025-10-10  |
-| [claude-code-tools](https://github.com/pchalasani/claude-code-tools)                      | Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.                                                                                                                                                                                                                                           | 525   | 2025-12-02  |
-| [Rulesync](https://github.com/dyoshikawa/rulesync)                                        | A Node.js CLI tool that automatically generates configs (rules, ignore files, MCP servers, commands, and subagents) for various AI coding agents. Rulesync can convert configs between Claude Code and other AI agents in both directions.                                                                                        | 504   | 2025-12-03  |
-| [tweakcc](https://github.com/Piebald-AI/tweakcc)                                          | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and add features (context limit customization). Supports both native (binary) and npm installs on all platforms.                   | 492   | 2025-12-03  |
-| [VoiceMode MCP](https://github.com/mbailey/voicemode)                                     | VoiceMode MCP brings natural conversations to Claude Code                                                                                                                                                                                                                                                                         | 475   | 2025-12-02  |
-| [claudekit](https://github.com/carlrannaberg/claudekit)                                   | A toolkit of custom commands, hooks, and utilities for Claude Code                                                                                                                                                                                                                                                                | 447   | 2025-09-28  |
-| [Claude Hub](https://github.com/claude-did-this/claude-hub)                               |   A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly   through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions,    and help developers understand and improve their codebase through simple @mentions. | 297   | 2025-10-27  |
-| [Vibe-Log](https://github.com/vibe-log/vibe-log-cli)                                      | A CLI tool for logging and analyzing Claude Code and Cursor ai-driven coding session.                                                                                                                                                                                                                                             | 244   | 2025-11-29  |
-| [ccexp](https://github.com/nyatinte/ccexp)                                                | interactive terminal interface for discovering, previewing, and managing Claude Code configuration files and slash commands.                                                                                                                                                                                                      | 224   | 2025-11-30  |
-| [The Agentic Startup](https://github.com/rsmdt/the-startup)                               | The Agentic Startup - A collection of Claude Code commands, agents, etc                                                                                                                                                                                                                                                           | 119   | 2025-11-30  |
-| [ContextKit](https://github.com/FlineDev/ContextKit)                                      | Claude Code context engineering & planning system for individual AI development workflows                                                                                                                                                                                                                                         | 116   | 2025-12-03  |
-| [TSK - AI Agent Task Manager and Sandbox](https://github.com/dtormoen/tsk)                | Task manager and sandbox for coding agents                                                                                                                                                                                                                                                                                        | 105   | 2025-12-03  |
-| [cchistory](https://github.com/eckardt/cchistory)                                         | Like the shell history command but for your Claude Code sessions.                                                                                                                                                                                                                                                                 | 80    | 2025-12-01  |
-| [viberank](https://github.com/sculptdotfun/viberank)                                      | claude code leaderboard                                                                                                                                                                                                                                                                                                           | 79    | 2025-10-11  |
-| [cclogviewer](https://github.com/Brads3290/cclogviewer)                                   | Review Claude Code .jsonl files with a nice HTML UI                                                                                                                                                                                                                                                                               | 54    | 2025-08-08  |
-| [Claude Task Runner](https://github.com/grahama1970/claude-task-runner)                   | A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on complex, multi-step projects.                                                                                                 | 52    | 2025-05-13  |
-| [run-claude-docker](https://github.com/icanhasjonas/run-claude-docker)                    | Run claude code in somewhat safe and isolated yolo mode                                                                                                                                                                                                                                                                           | 50    | 2025-08-14  |
-| [recall](https://github.com/zippoxer/recall)                                              | Full-text search and resume for Claude/Codex conversations                                                                                                                                                                                                                                                                        | 49    | 2025-12-03  |
-| [cc-tools](https://github.com/Veraticus/cc-tools)                                         | Claude Code tools                                                                                                                                                                                                                                                                                                                 | 35    | 2025-09-02  |
-| [Claudex](https://github.com/kunwar-shah/claudex)                                         | Claudex - A friendly viewer, Browse and explore your Claude conversations.                                                                                                                                                                                                                                                        | 27    | 2025-11-13  |
-| [stt-mcp-server-linux](https://github.com/marcindulak/stt-mcp-server-linux)               | Local speech-to-text MCP server for Linux (for use with Claude Code)                                                                                                                                                                                                                                                              | 17    | 2025-12-02  |
+## Slash-Commands 🔪
 
-## Workflows & Knowledge Guides  [🔝](#awesome-claude-code)
+| Name                                                                                                        | Description | Stars | Last Commit |
+|-------------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [/linux-desktop-slash-commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands) |             | 13    | 2025-10-31  |
 
-| Name                                                                                                    | Description                                                                                                                                                                                                                                                                                                                       | Stars | Last Commit |
-|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Claude Code Infrastructure Showcase](https://github.com/diet103/claude-code-infrastructure-showcase)   | Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents                                                                                                                                                                                                                                           | 7438  | 2025-10-31  |
-| [Claude Code PM](https://github.com/automazeio/ccpm)                                                    | Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.                                                                                                                                                                                                                     | 5571  | 2025-09-25  |
-| [Simone](https://github.com/Helmi/claude-simone)                                                        | A project management framework for AI-assisted development with Claude Code                                                                                                                                                                                                                                                       | 518   | 2025-08-26  |
-| [Claude Code Documentation Mirror](https://github.com/ericbuess/claude-code-docs)                       | A mirror of the Anthropic &copy; PBC documentation pages for Claude Code, updated every few hours. Can come in handy when trying to stay on top of the ever-expanding feature-set of Dr. Claw D. Code, Ph.D.                                                                                                                      | 479   | 2025-12-03  |
-| [Agentic Workflow Patterns](https://github.com/ThibautMelen/agentic-workflow-patterns)                  | A comprehensive and well-documented collection of agentic patterns from Anthropic docs, with colorful Mermaid diagrams and code examples for each pattern. Covers Subagent Orchestration, Progressive Skills, Parallel Tool Calling, Master-Clone Architecture, Wizard Workflows, and more. Also compatible with other providers. | 139   | 2025-12-08  |
-| [ClaudoPro Directory](https://github.com/JSONbored/claudepro-directory)                                 | Claude Pro Directory is a searchable collection of pre-built configurations, MCP servers, and custom rules designed to enhance Claude AI's performance for specific tasks.                                                                                                                                                        | 135   | 2025-12-03  |
-| [AB Method](https://github.com/ayoubben18/ab-method)                                                    | A revolutionary approach to software development that transforms problems into focused, incremental missions using Claude Code's specialized subagents.                                                                                                                                                                           | 100   | 2025-11-10  |
-| [RIPER Workflow](https://github.com/tony/claude-code-riper-5)                                           | Claude Code (Sub-agent, Custom Commands) for RIPER-5                                                                                                                                                                                                                                                                              | 43    | 2025-10-12  |
-| [Laravel TALL Stack AI Development Starter Kit](https://github.com/tott/laravel-tall-claude-ai-configs) | AI Assisted Laravel TALL stack coding configuration for Claude Code                                                                                                                                                                                                                                                               | 35    | 2025-08-08  |
-| [claude-code-docs](https://github.com/costiash/claude-code-docs)                                        | Comprehensive Claude Code documentation tool, full-text search, and validation. Solves the "information about new feature releases" problem. Built on ericbuess/claude-code-docs.                                                                                                                                                 | 18    | 2025-12-03  |
-| [learn-faster-kit](https://github.com/cheukyin175/learn-faster-kit)                                     | AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking                                                                                                                                                                                   | 7     | 2025-12-01  |
+[Back to Top](#table-of-contents)
+
+## Status Lines 📊
+
+| Name                                                                                | Description | Stars | Last Commit |
+|-------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [ccstatusline](https://github.com/sirmalloc/ccstatusline)                           |             | 2150  | 2025-11-17  |
+| [CCometixLine - Claude Code Statusline](https://github.com/Haleclipse/CCometixLine) |             | 1470  | 2025-12-21  |
+| [claude-powerline](https://github.com/Owloops/claude-powerline)                     |             | 475   | 2025-11-30  |
+| [claude-code-statusline](https://github.com/rz1989s/claude-code-statusline)         |             | 205   | 2025-11-15  |
+| [claudia-statusline](https://github.com/hagan/claudia-statusline)                   | <br>        | 14    | 2025-11-29  |
+
+[Back to Top](#table-of-contents)
+
+## Tooling 🧰
+
+| Name                                                                                      | Description | Stars | Last Commit |
+|-------------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [Claude Task Master](https://github.com/eyaltoledano/claude-task-master)                  |             | 24031 | 2025-12-03  |
+| [SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework)                   |             | 18717 | 2025-12-03  |
+| [Claude Code Flow](https://github.com/ruvnet/claude-code-flow)                            |             | 12447 | 2026-01-18  |
+| [Claude Code Templates](https://github.com/davila7/claude-code-templates)                 |             | 12148 | 2025-12-03  |
+| [CC Usage](https://github.com/ryoppippi/ccusage)                                          |             | 9112  | 2025-12-01  |
+| [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) |             | 5821  | 2025-09-14  |
+| [Claude Squad](https://github.com/smtg-ai/claude-squad)                                   |             | 5222  | 2025-11-22  |
+| [Happy Coder](https://github.com/slopus/happy)                                            |             | 4590  | 2025-10-04  |
+| [Container Use](https://github.com/dagger/container-use)                                  |             | 3299  | 2025-11-24  |
+| [crystal](https://github.com/stravu/crystal)                                              |             | 2522  | 2025-11-26  |
+| [claude-code.nvim](https://github.com/greggh/claude-code.nvim)                            |             | 1592  | 2025-07-02  |
+| [Claude Swarm](https://github.com/parruda/claude-swarm)                                   |             | 1569  | 2026-01-16  |
+| [cc-sessions](https://github.com/GWUDCAP/cc-sessions)                                     |             | 1394  | 2025-10-17  |
+| [claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el)                      |             | 1175  | 2025-09-15  |
+| [Claudix - Claude Code for VSCode](https://github.com/Haleclipse/Claudix)                 |             | 909   | 2025-12-08  |
+| [ccflare](https://github.com/snipeship/ccflare)                                           |             | 785   | 2025-08-24  |
+| [Claude Composer](https://github.com/possibilities/claude-composer)                       |             | 675   | 2025-07-31  |
+| [claude-code.el](https://github.com/stevemolitor/claude-code.el)                          |             | 544   | 2025-10-10  |
+| [claude-code-tools](https://github.com/pchalasani/claude-code-tools)                      |             | 525   | 2025-12-02  |
+| [Rulesync](https://github.com/dyoshikawa/rulesync)                                        |             | 504   | 2025-12-03  |
+| [tweakcc](https://github.com/Piebald-AI/tweakcc)                                          |             | 492   | 2025-12-03  |
+| [VoiceMode MCP](https://github.com/mbailey/voicemode)                                     |             | 475   | 2025-12-02  |
+| [claudekit](https://github.com/carlrannaberg/claudekit)                                   |             | 447   | 2025-09-28  |
+| [Claude Hub](https://github.com/claude-did-this/claude-hub)                               |             | 297   | 2025-10-27  |
+| [Vibe-Log](https://github.com/vibe-log/vibe-log-cli)                                      |             | 244   | 2025-11-29  |
+| [ccexp](https://github.com/nyatinte/ccexp)                                                |             | 224   | 2025-11-30  |
+| [The Agentic Startup](https://github.com/rsmdt/the-startup)                               |             | 119   | 2025-11-30  |
+| [ContextKit](https://github.com/FlineDev/ContextKit)                                      |             | 116   | 2025-12-03  |
+| [TSK - AI Agent Task Manager and Sandbox](https://github.com/dtormoen/tsk)                | <br>        | 105   | 2025-12-03  |
+| [ccflare -> **better-ccflare**](https://github.com/tombii/better-ccflare)                 |             | 84    | 2026-01-21  |
+| [cchistory](https://github.com/eckardt/cchistory)                                         |             | 80    | 2025-12-01  |
+| [viberank](https://github.com/sculptdotfun/viberank)                                      |             | 79    | 2025-10-11  |
+| [cclogviewer](https://github.com/Brads3290/cclogviewer)                                   |             | 54    | 2025-08-08  |
+| [Claude Task Runner](https://github.com/grahama1970/claude-task-runner)                   |             | 52    | 2025-05-13  |
+| [run-claude-docker](https://github.com/icanhasjonas/run-claude-docker)                    |             | 50    | 2025-08-14  |
+| [recall](https://github.com/zippoxer/recall)                                              |             | 49    | 2025-12-03  |
+| [claude-starter-kit](https://github.com/serpro69/claude-starter-kit)                      |             | 41    | 2026-01-05  |
+| [cc-tools](https://github.com/Veraticus/cc-tools)                                         |             | 35    | 2025-09-02  |
+| [Claudex](https://github.com/kunwar-shah/claudex)                                         |             | 27    | 2025-11-13  |
+| [viwo-cli](https://github.com/OverseedAI/viwo)                                            |             | 18    | 2026-01-09  |
+| [stt-mcp-server-linux](https://github.com/marcindulak/stt-mcp-server-linux)               |             | 17    | 2025-12-02  |
+
+[Back to Top](#table-of-contents)
+
+## Workflows & Knowledge Guides 🧠
+
+| Name                                                                                                    | Description | Stars | Last Commit |
+|---------------------------------------------------------------------------------------------------------|-------------|-------|-------------|
+| [Claude Code Infrastructure Showcase](https://github.com/diet103/claude-code-infrastructure-showcase)   |             | 7438  | 2025-10-31  |
+| [Claude Code PM](https://github.com/automazeio/ccpm)                                                    |             | 5571  | 2025-09-25  |
+| [Ralph for Claude Code](https://github.com/frankbria/ralph-claude-code)                                 |             | 4822  | 2026-01-21  |
+| [Claude Code System Prompts](https://github.com/Piebald-AI/claude-code-system-prompts)                  |             | 3260  | 2026-01-21  |
+| [Claude Code Tips](https://github.com/ykdojo/claude-code-tips)                                          |             | 1464  | 2026-01-21  |
+| [ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator)                                 |             | 1139  | 2026-01-21  |
+| [The Ralph Playbook](https://github.com/ClaytonFarr/ralph-playbook)                                     | <br>        | 581   | 2026-01-15  |
+| [Ralph Wiggum Marketer](https://github.com/muratcankoylan/ralph-wiggum-marketer)                        |             | 565   | 2026-01-08  |
+| [Simone](https://github.com/Helmi/claude-simone)                                                        |             | 518   | 2025-08-26  |
+| [Claude Code Documentation Mirror](https://github.com/ericbuess/claude-code-docs)                       |             | 479   | 2025-12-03  |
+| [Claude CodePro](https://github.com/maxritter/claude-codepro)                                           |             | 396   | 2026-01-21  |
+| [Agentic Workflow Patterns](https://github.com/ThibautMelen/agentic-workflow-patterns)                  |             | 139   | 2025-12-08  |
+| [ClaudoPro Directory](https://github.com/JSONbored/claudepro-directory)                                 |             | 135   | 2025-12-03  |
+| [AB Method](https://github.com/ayoubben18/ab-method)                                                    |             | 100   | 2025-11-10  |
+| [Claude Code Repos Index](https://github.com/danielrosehill/Claude-Code-Repos-Index)                    |             | 59    | 2026-01-21  |
+| [RIPER Workflow](https://github.com/tony/claude-code-riper-5)                                           |             | 43    | 2025-10-12  |
+| [Laravel TALL Stack AI Development Starter Kit](https://github.com/tott/laravel-tall-claude-ai-configs) |             | 35    | 2025-08-08  |
+| [claude-code-docs](https://github.com/costiash/claude-code-docs)                                        |             | 18    | 2025-12-03  |
+| [learn-faster-kit](https://github.com/cheukyin175/learn-faster-kit)                                     |             | 7     | 2025-12-01  |
+
+[Back to Top](#table-of-contents)

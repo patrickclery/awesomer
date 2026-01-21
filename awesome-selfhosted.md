@@ -62,6 +62,7 @@ A list of Free Software network services and web applications which can be hoste
 - [Media Streaming - Video Streaming](#media-streaming---video-streaming)
 - [Miscellaneous](#miscellaneous)
 - [Money, Budgeting & Management](#money-budgeting--management)
+- [Network Utilities](#network-utilities)
 - [Note-taking & Editors](#note-taking--editors)
 - [Office Suites](#office-suites)
 - [Password Managers](#password-managers)
@@ -125,6 +126,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Swetrix](https://github.com/Swetrix/selfhosting)                                  | Ultimate, open-source web analytics to satisfy all your needs.                                                                                                | 61    | 2025-12-14  |
 | [ANALOG](https://github.com/orangecoloured/analog)                                 | A minimal analytics tool. Tracks events in a span of 10-30 days.                                                                                              | 30    | 2025-12-31  |
 
+[Back to Top](#table-of-contents)
+
 ## Archiving and Digital Preservation (DP)
 
 | Name                                                                             | Description                                                                                                                                                                                       | Stars | Last Commit |
@@ -134,11 +137,15 @@ A list of Free Software network services and web applications which can be hoste
 | [CKAN](https://github.com/ckan/ckan)                                             | Make open data websites.                                                                                                                                                                          | 4920  | 2026-01-02  |
 | [bitmagnet](https://github.com/bitmagnet-io/bitmagnet)                           | BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration.                                                             | 3747  | 2025-07-01  |
 | [Wayback](https://github.com/wabarc/wayback)                                     | A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems.                                                                                | 2116  | 2025-12-17  |
+| [Open Archiver](https://github.com/LogicLabs-OU/OpenArchiver)                    | Email archiving solution with full-text search and eDiscovery search features.                                                                                                                    | 1609  | 2026-01-18  |
 | [Ganymede](https://github.com/Zibbp/ganymede)                                    |                                                                                                                                                                                                   | 899   | 2025-12-31  |
 | [Omeka S](https://github.com/omeka/omeka-s)                                      | Next-generation web publishing platform for institutions interested in connecting digital cultural heritage collections with other resources online.                                              | 462   | 2026-01-01  |
 | [ArchivesSpace](https://github.com/archivesspace/archivesspace)                  | Archives information management application for managing and providing Web access to archives, manuscripts and digital objects.                                                                   | 392   | 2026-01-01  |
 | [Collective Access - Providence](https://github.com/collectiveaccess/providence) | Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats. | 351   | 2026-01-02  |
+| [Piler](https://github.com/jsuto/piler)                                          | Feature-rich email archiving solution.                                                                                                                                                            | 227   | 2026-01-02  |
 | [Webarchive](https://github.com/derfenix/webarchive)                             | Lightweight self-hosted _wayback machine_ that creates HTML and PDF files from your bookmarks.                                                                                                    | 175   | 2025-11-20  |
+
+[Back to Top](#table-of-contents)
 
 ## Automation
 
@@ -161,6 +168,7 @@ A list of Free Software network services and web applications which can be hoste
 | [Matchering](https://github.com/sergree/matchering)                   | Automated music mastering (alternative to LANDR, eMastered and MajorDecibel).                                                                                                                                                        | 2353  | 2025-11-26  |
 | [µTask](https://github.com/ovh/utask)                                 | Automation engine that models and executes business processes declared in yaml.                                                                                                                                                      | 1349  | 2026-01-01  |
 | [Mylar3](https://github.com/mylar3/mylar3)                            | Automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents.                                                                                                                                                     | 1337  | 2026-01-01  |
+| [Cronmaster](https://github.com/fccview/cronmaster)                   | Cronjob management UI with human readable syntax, live logging and log history for your cronjobs.                                                                                                                                    | 954   | 2026-01-01  |
 | [ChiefOnboarding](https://github.com/chiefonboarding/ChiefOnboarding) | Employee onboarding platform that allows you to provision user accounts and create sequences with todo items, resources, text/email/Slack messages, and more! Available as a web portal and Slack bot.                               | 848   | 2025-12-31  |
 | [Kibitzr](https://github.com/kibitzr/kibitzr)                         | Lightweight personal web assistant with powerful integrations.                                                                                                                                                                       | 708   | 2025-05-05  |
 | [HandBrake Web](https://github.com/TheNickOfTime/handbrake-web)       | Use one or more instances of HandBrake video transcoder on a headless device via a web interface.                                                                                                                                    | 659   | 2025-12-29  |
@@ -168,6 +176,8 @@ A list of Free Software network services and web applications which can be hoste
 | [BookBounty](https://github.com/TheWicklowWolf/BookBounty)            |                                                                                                                                                                                                                                      | 263   | 2025-12-12  |
 | [feedmixer](https://github.com/cristoper/feedmixer)                   | Micro web service which takes a list of feed URLs and returns a new feed consisting of the most recent n entries from each given feed (returns Atom, RSS, or JSON).                                                                  | 223   | 2025-09-05  |
 | [Github Ntfy](https://github.com/BreizhHardware/ntfy_alerts)          |                                                                                                                                                                                                                                      | 52    | 2025-10-20  |
+
+[Back to Top](#table-of-contents)
 
 ## Blogging Platforms
 
@@ -187,6 +197,8 @@ A list of Free Software network services and web applications which can be hoste
 | [FlatPress](https://github.com/flatpressblog/flatpress)   | A lightweight, easy-to-set-up flat-file blogging engine.                                                                               | 203   | 2026-01-02  |
 | [Antville](https://github.com/antville/antville)          | Free, open source project aimed at the development of a high performance, feature rich weblog hosting software.                        | 88    | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Booking and Scheduling
 
 | Name                                                                    | Description                                                                                                                                    | Stars | Last Commit |
@@ -199,6 +211,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Alf.io](https://github.com/alfio-event/alf.io)                         | Ticket reservation system.                                                                                                                     | 1543  | 2026-01-02  |
 | [LibreBooking](https://github.com/LibreBooking/app)                     | Resource scheduling solution offering a flexible, mobile-friendly, and extensible interface for organizations to manage resource reservations. | 635   | 2025-12-29  |
 | [Seatsurfing](https://github.com/seatsurfing/seatsurfing)               | Webbased app to book seats, desks and rooms for offices.                                                                                       | 264   | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Bookmarks and Link Sharing
 
@@ -219,6 +233,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Firefox Account Server](https://github.com/mozilla/fxa) | Host your own Firefox accounts server.                                                                                                                                                                                                                                                                | 661   | 2026-01-02  |
 | [NeonLink](https://github.com/AlexSciFier/neonlink)      | Bookmark service with unique design and simple installation with Docker.                                                                                                                                                                                                                              | 380   | 2025-06-17  |
 
+[Back to Top](#table-of-contents)
+
 ## Calendar & Contacts
 
 | Name                                                                          | Description                                                                                                                                 | Stars | Last Commit |
@@ -229,6 +245,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Davis](https://github.com/tchapi/davis)                                      | A simple, dockerizable and fully translatable admin interface for sabre/dav based on Symfony 5 and Bootstrap 4, largely inspired by Baïkal. | 600   | 2025-11-01  |
 | [Xandikos](https://github.com/jelmer/xandikos)                                | Open source CardDAV and CalDAV server with minimal administrative overhead, backed by a Git repository.                                     | 540   | 2026-01-01  |
 | [Manage My Damn Life](https://github.com/intri-in/manage-my-damn-life-nextjs) | Manage my Damn Life (MMDL) is a self-hosted front end for managing your CalDAV tasks and calendars.                                         | 488   | 2025-12-24  |
+
+[Back to Top](#table-of-contents)
 
 ## Communication - Custom Communication Systems
 
@@ -257,7 +275,7 @@ A list of Free Software network services and web applications which can be hoste
 | [Live Helper Chat](https://github.com/LiveHelperChat/livehelperchat)           | Live Support chat for your website.                                                                                                                                                                              | 2178  | 2025-12-30  |
 | [Chitchatter](https://github.com/jeremyckahn/chitchatter)                      | Peer-to-peer chat app that is serverless, decentralized, and ephemeral.                                                                                                                                          | 2148  | 2025-12-31  |
 | [RetroShare](https://github.com/RetroShare/RetroShare)                         | Secured and decentralized communication system. Offers decentralized chat, forums, messaging, file transfer.                                                                                                     | 1901  | 2025-12-29  |
-| [Revolt](https://github.com/revoltchat/self-hosted)                            | Revolt is a user-first chat platform built with modern web technologies.                                                                                                                                         | 1621  | 2025-11-14  |
+| [Stoat](https://github.com/stoatchat/self-hosted)                              | Stoat is a user-first chat platform built with modern web technologies.                                                                                                                                          | 1623  | 2025-11-14  |
 | [GlobaLeaks](https://github.com/globaleaks/globaleaks-whistleblowing-software) | Whistleblowing software enabling anyone to easily set up and maintain a secure reporting platform.                                                                                                               | 1421  | 2026-01-01  |
 | [Databag](https://github.com/balzack/databag)                                  | Federated, end-to-end encrypted messaging service for the web, iOS, and Android, supporting text, photos, video, and WebRTC video and audio calls.                                                               | 1383  | 2026-01-01  |
 | [Hyphanet](https://github.com/hyphanet/fred)                                   | Anonymously share files, browse and publish _freesites_ (web sites accessible only through Hyphanet) and chat on forums.                                                                                         | 1126  | 2025-12-27  |
@@ -268,6 +286,8 @@ A list of Free Software network services and web applications which can be hoste
 | [PushBits](https://github.com/pushbits/server)                                 | Notification server for relaying push notifications via Matrix, similar to PushBullet and Gotify.                                                                                                                | 352   | 2025-05-29  |
 | [Tiledesk](https://github.com/Tiledesk/tiledesk)                               | All-in-one customer engagement platform from lead-gen to post-sales, from WhatsApp to your website. With omni-channel live agents and AI-powered chatbots (alternative to Intercom, Zendesk, Tawk.to and Tidio). | 268   | 2025-12-05  |
 | [SAMA](https://github.com/SAMA-Communications/sama-server)                     | Next-Gen self-hosted chat server and clients. ( [Clients](https://github.com/SAMA-Communications/sama-client))                                                                                                   | 147   | 2025-12-18  |
+
+[Back to Top](#table-of-contents)
 
 ## Communication - Email - Complete Solutions
 
@@ -289,13 +309,16 @@ A list of Free Software network services and web applications which can be hoste
 | [iRedMail](https://github.com/iredmail/iRedMail)                            | Full-featured mail server solution based on Postfix and Dovecot.                                                                                                                                                                                          | 1737  | 2025-12-31  |
 | [DebOps](https://github.com/debops/debops)                                  | Your Debian-based data center in a box. A set of general-purpose Ansible roles that can be used to manage Debian or Ubuntu hosts.                                                                                                                         | 1358  | 2025-11-25  |
 
+[Back to Top](#table-of-contents)
+
 ## Communication - Email - Mail Delivery Agents
 
 | Name                                                   | Description                                                   | Stars | Last Commit |
 |--------------------------------------------------------|---------------------------------------------------------------|-------|-------------|
 | [Dovecot](https://github.com/dovecot/core)             | IMAP and POP3 server written primarily with security in mind. | 1152  | 2025-12-23  |
 | [Cyrus IMAP](https://github.com/cyrusimap/cyrus-imapd) | Email (IMAP/POP3), contacts and calendar server.              | 614   | 2025-12-31  |
-| [Piler](https://github.com/jsuto/piler)                | Feature-rich email archiving solution.                        | 227   | 2026-01-02  |
+
+[Back to Top](#table-of-contents)
 
 ## Communication - Email - Mail Transfer Agents
 
@@ -304,6 +327,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Haraka](https://github.com/haraka/Haraka)                         | Fast, highly extensible, and event driven SMTP server.                                                                                                                                                                             | 5524  | 2025-11-30  |
 | [OpenTrashmail](https://github.com/HaschekSolutions/opentrashmail) | Complete trashmail solution that exposes an SMTP server and has a web interface to manage received emails. Works with multiple and wildcard domains and is fully file based (no database needed). Includes RSS feeds and JSON API. | 786   | 2025-08-28  |
 | [DragonFly](https://github.com/corecode/dma)                       | A small MTA for home and office use. Works on Linux and FreeBSD.                                                                                                                                                                   | 255   | 2025-10-31  |
+
+[Back to Top](#table-of-contents)
 
 ## Communication - Email - Mailing Lists and Newsletters
 
@@ -315,13 +340,17 @@ A list of Free Software network services and web applications which can be hoste
 | [phpList](https://github.com/phpList/phplist3)    | Newsletter and email marketing with advanced management of subscribers, bounces, and plugins. | 828   | 2025-07-14  |
 | [Sympa](https://github.com/sympa-community/sympa) | Mailing list manager.                                                                         | 280   | 2025-12-30  |
 
+[Back to Top](#table-of-contents)
+
 ## Communication - Email - Webmail Clients
 
-| Name                                                    | Description                                                                   | Stars | Last Commit |
-|---------------------------------------------------------|-------------------------------------------------------------------------------|-------|-------------|
-| [Roundcube](https://github.com/roundcube/roundcubemail) | Browser-based IMAP client with an application-like user interface.            | 6707  | 2026-01-01  |
-| [SnappyMail](https://github.com/the-djmaze/snappymail)  | Simple, modern, lightweight & fast web-based email client (fork of RainLoop). | 1471  | 2025-06-16  |
-| [Cypht](https://github.com/cypht-org/cypht)             | Feed reader for your email accounts.                                          | 1390  | 2025-12-23  |
+| Name                                                    | Description                                                                                                                              | Stars | Last Commit |
+|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Roundcube](https://github.com/roundcube/roundcubemail) | Browser-based IMAP client with an application-like user interface.                                                                       | 6707  | 2026-01-01  |
+| [SnappyMail](https://github.com/the-djmaze/snappymail)  | Simple, modern, lightweight & fast web-based email client (fork of RainLoop). ( [Clients](https://snappymail.eu/repository/v2/plugins/)) | 1471  | 2025-06-16  |
+| [Cypht](https://github.com/cypht-org/cypht)             | Feed reader for your email accounts.                                                                                                     | 1390  | 2025-12-23  |
+
+[Back to Top](#table-of-contents)
 
 ## Communication - IRC
 
@@ -340,6 +369,8 @@ A list of Free Software network services and web applications which can be hoste
 | [UnrealIRCd](https://github.com/unrealircd/unrealircd)       | Modular, advanced and highly configurable IRC server written in C for Linux, BSD, Windows, and macOS.          | 484   | 2025-12-26  |
 | [Robust IRC](https://github.com/robustirc/robustirc)         | IRC without netsplits. Distributed IRC server, based on RobustSession protocol.                                | 192   | 2025-12-12  |
 
+[Back to Top](#table-of-contents)
+
 ## Communication - SIP
 
 | Name                                                             | Description                                                                                                                                                                                                                                              | Stars | Last Commit |
@@ -352,6 +383,8 @@ A list of Free Software network services and web applications which can be hoste
 | [openSIPS](https://github.com/OpenSIPS/opensips)                 | SIP proxy/server for voice, video, IM, presence and any other SIP extensions.                                                                                                                                                                            | 1426  | 2025-12-21  |
 | [FusionPBX](https://github.com/fusionpbx/fusionpbx)              | Web interface for multi-platform voice switch called FreeSWITCH.                                                                                                                                                                                         | 955   | 2026-01-02  |
 | [Flexisip](https://github.com/BelledonneCommunications/flexisip) | Complete, modular and scalable SIP server, includes a push gateway, to deliver SIP incoming calls or text messages on mobile device platforms where push notifications are required to receive information when the app is not active in the foreground. | 174   | 2025-12-31  |
+
+[Back to Top](#table-of-contents)
 
 ## Communication - Social Networks and Forums
 
@@ -390,6 +423,8 @@ A list of Free Software network services and web applications which can be hoste
 | [BuddyPress](https://github.com/buddypress/BuddyPress)                       | Powerful plugin that takes your WordPress.org powered site beyond the blog with social-network features like user profiles, activity streams, user groups, and more.                                | 240   | 2026-01-02  |
 | [Hatsu](https://github.com/importantimport/hatsu)                            | Bridge that interacts with Fediverse on behalf of your static site.                                                                                                                                 | 227   | 2025-12-14  |
 
+[Back to Top](#table-of-contents)
+
 ## Communication - Video Conferencing
 
 | Name                                                             | Description                                                                                                                                                                           | Stars | Last Commit |
@@ -404,6 +439,8 @@ A list of Free Software network services and web applications which can be hoste
 | [MiroTalk C2C](https://github.com/miroslavpejic85/mirotalkc2c)   | Real-time cam-2-cam video calls & screen sharing, end-to-end encrypted, to embed in any website with a simple iframe.                                                                 | 452   | 2025-12-25  |
 | [plugNmeet](https://github.com/mynaparrot/plugNmeet-server)      | Scalable and high performance web conferencing system.                                                                                                                                | 414   | 2025-12-30  |
 
+[Back to Top](#table-of-contents)
+
 ## Communication - XMPP - Servers
 
 | Name                                                    | Description                                                                                                        | Stars | Last Commit |
@@ -414,11 +451,15 @@ A list of Free Software network services and web applications which can be hoste
 | [Snikket](https://github.com/snikket-im/snikket-server) | All-in-one Dockerized easy XMPP solution, including web admin and clients. (, [Clients](https://snikket.org/app/)) | 355   | 2025-12-31  |
 | [Tigase](https://github.com/tigase/tigase-server)       | XMPP server implementation in Java.                                                                                | 350   | 2025-12-29  |
 
+[Back to Top](#table-of-contents)
+
 ## Communication - XMPP - Web Clients
 
 | Name                                                     | Description                       | Stars | Last Commit |
 |----------------------------------------------------------|-----------------------------------|-------|-------------|
 | [Converse.js](https://github.com/conversejs/converse.js) | XMPP chat client in your browser. | 3200  | 2025-12-14  |
+
+[Back to Top](#table-of-contents)
 
 ## Community-Supported Agriculture (CSA)
 
@@ -434,6 +475,8 @@ A list of Free Software network services and web applications which can be hoste
 | [OpenOlitor](https://github.com/OpenOlitor/openolitor-server)              | Administration platform for Community Supported Agriculture groups.                                                                                                 | 20    | 2025-12-09  |
 | [Hive-Pal](https://github.com/martinhrvn/hive-pal)                         | Mobile-first beekeeping management app for tracking hives, inspections, queen records, and equipment with streamlined data entry optimized for field use.           | 4     | 2025-12-29  |
 
+[Back to Top](#table-of-contents)
+
 ## Conference Management
 
 | Name                                                                 | Description                                                                                                                                                  | Stars | Last Commit |
@@ -443,6 +486,8 @@ A list of Free Software network services and web applications which can be hoste
 | [pretalx](https://github.com/pretalx/pretalx)                        | Web-based event management, including running a Call for Papers, reviewing submissions, and scheduling talks. Exports and imports for various related tools. | 864   | 2025-12-24  |
 | [OpenSlides](https://github.com/OpenSlides/OpenSlides)               | Presentation and assembly system for managing and projecting agenda, motions and elections of an assembly.                                                   | 585   | 2025-12-16  |
 | [motion.tools (Antragsgrün)](https://github.com/CatoTH/antragsgruen) | Manage motions and amendments for (political) conventions.                                                                                                   | 131   | 2025-12-24  |
+
+[Back to Top](#table-of-contents)
 
 ## Content Management Systems (CMS)
 
@@ -480,6 +525,8 @@ A list of Free Software network services and web applications which can be hoste
 | [BigTree CMS](https://github.com/bigtreecms/BigTree-CMS)                          | Straightforward, well documented, and capable CMS.                                                                                                                                                                            | 222   | 2025-11-09  |
 | [Alfresco Community Edition](https://github.com/Alfresco/alfresco-community-repo) | The open source Enterprise Content Management software that handles any type of content, allowing users to easily share and collaborate on content.                                                                           | 194   | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Customer Relationship Management (CRM)
 
 | Name                                                  | Description                                                                                                                                                                                                             | Stars | Last Commit |
@@ -492,6 +539,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Corteza](https://github.com/cortezaproject/corteza)  | CRM including a unified workspace, enterprise messaging and a low code environment for rapidly and securely delivering records-based management solutions.                                                              | 1979  | 2026-01-01  |
 | [Django-CRM](https://github.com/DjangoCRM/django-crm) | Analytical CRM with tasks management, email marketing and many more. Django CRM is built for individual use, businesses of any size or freelancers and is designed to provide easy customization and quick development. | 466   | 2026-01-01  |
 
+[Back to Top](#table-of-contents)
+
 ## DNS
 
 | Name                                                                     | Description                                                                                                 | Stars | Last Commit |
@@ -502,11 +551,12 @@ A list of Free Software network services and web applications which can be hoste
 | [blocky](https://github.com/0xERR0R/blocky)                              | Fast and lightweight DNS proxy as ad-blocker for local network with many features (alternative to Pi-hole). | 5860  | 2025-12-15  |
 | [Maza ad blocking](https://github.com/tanrax/maza-ad-blocking)           | Local ad blocker. Like Pi-hole but local and using your operating system.                                   | 1860  | 2025-11-24  |
 
+[Back to Top](#table-of-contents)
+
 ## Database Management
 
 | Name                                                        | Description                                                                                                                                                                                                                    | Stars | Last Commit |
 |-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [NocoDB](https://github.com/nocodb/nocodb)                  | No-code platform that turns any database into a smart spreadsheet (alternative to Airtable and Smartsheet).                                                                                                                    | 59867 | 2026-01-02  |
 | [ChartDB](https://github.com/chartdb/chartdb)               | Database diagrams editor that allows you to visualize and design your DB with a single query.                                                                                                                                  | 20700 | 2026-01-01  |
 | [Bytebase](https://github.com/bytebase/bytebase)            | Safe database schema change and version control for DevOps teams, supports MySQL, PostgreSQL, TiDB, ClickHouse, and Snowflake.                                                                                                 | 13509 | 2026-01-02  |
 | [Datasette](https://github.com/simonw/datasette)            | Explore and publish data with easy import and export and database management.                                                                                                                                                  | 10642 | 2025-12-30  |
@@ -519,6 +569,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Databunker](https://github.com/securitybunker/databunker)  | Network-based, self-hosted, GDPR compliant, secure database for personal data or PII.                                                                                                                                          | 1374  | 2025-11-06  |
 | [Kottster](https://github.com/kottster/kottster)            | Low-code admin panel that connects to your database and automatically generates pages to view and manage your data.                                                                                                            | 1080  | 2025-12-05  |
 | [Limbas](https://github.com/limbas/limbas)                  | Database framework for creating database-driven business applications. As a graphical database frontend, it enables the efficient processing of data stocks and the flexible development of comfortable database applications. | 59    | 2025-11-25  |
+
+[Back to Top](#table-of-contents)
 
 ## Document Management
 
@@ -537,6 +589,8 @@ A list of Free Software network services and web applications which can be hoste
 | [I, Librarian](https://github.com/mkucej/i-librarian-free)      | Organize PDF papers and office documents. It provides a lot of extra features for students and research groups both in industry and academia.                                                | 319   | 2025-12-02  |
 | [EveryDocs](https://github.com/jonashellmann/everydocs-core)    | Simple Document Management System for private use with basic functionality to organize your documents digitally.                                                                             | 312   | 2025-10-22  |
 
+[Back to Top](#table-of-contents)
+
 ## Document Management - E-books
 
 | Name                                                   | Description                                                                                                                                                   | Stars | Last Commit |
@@ -552,6 +606,8 @@ A list of Free Software network services and web applications which can be hoste
 | [BookLogr](https://github.com/Mozzo1000/booklogr)      | Manage your personal book library with ease.                                                                                                                  | 451   | 2025-12-20  |
 | [Atsumeru](https://github.com/Atsumeru-xyz/Atsumeru)   | Manga/comic/light novel media server with clients for Windows, Linux, macOS and Android. (, [Clients](https://atsumeru.xyz/guides/#how-does-it-work))         | 156   | 2025-07-14  |
 
+[Back to Top](#table-of-contents)
+
 ## Document Management - Institutional Repository and Digital Library Software
 
 | Name                                                             | Description                                                                                                                                                                          | Stars | Last Commit |
@@ -563,6 +619,8 @@ A list of Free Software network services and web applications which can be hoste
 | [InvenioRDM](https://github.com/inveniosoftware/invenio-app-rdm) | Highly scalable turn-key research data management platform with a beautiful user experience. ( [Clients](https://inveniosoftware.org/products/rdm/))                                 | 144   | 2025-12-19  |
 | [EPrints](https://github.com/eprints/eprints3.4)                 | Digital document management system with a flexible metadata and workflow model primarily aimed at academic institutions.                                                             | 40    | 2025-12-31  |
 
+[Back to Top](#table-of-contents)
+
 ## Document Management - Integrated Library Systems (ILS)
 
 | Name                                                               | Description                                                                                                                                                                                                                                   | Stars | Last Commit |
@@ -570,6 +628,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Koha](https://github.com/Koha-Community/Koha)                     | Enterprise-class ILS with modules for acquisitions, circulation, cataloging, label printing, offline circulation for when Internet access is not available, and much more.                                                                    | 546   | 2025-12-31  |
 | [Evergreen](https://github.com/evergreen-library-system/Evergreen) | Highly-scalable software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials.                                                                                 | 146   | 2026-01-01  |
 | [RERO ILS](https://github.com/rero/rero-ils)                       | Large-scale ILS that can be run as a service with consortial features, intended primarily for library networks. Includes most standard modules (circulation, acquisitions, cataloging,...) and a web-based public and professional interface. | 83    | 2025-12-15  |
+
+[Back to Top](#table-of-contents)
 
 ## E-commerce
 
@@ -584,7 +644,7 @@ A list of Free Software network services and web applications which can be hoste
 | [PrestaShop](https://github.com/PrestaShop/PrestaShop)             | Fully scalable e-commerce solution.                                                                                                             | 8921  | 2026-01-01  |
 | [Sylius](https://github.com/Sylius/Sylius)                         | Symfony2 powered open source full-stack platform for eCommerce.                                                                                 | 8386  | 2025-12-25  |
 | [OpenCart](https://github.com/opencart/opencart)                   | Shopping cart solution.                                                                                                                         | 8000  | 2026-01-02  |
-| [Vendure](https://github.com/vendure-ecommerce/vendure)            | A headless commerce framework.                                                                                                                  | 7748  | 2026-01-01  |
+| [Vendure](https://github.com/vendurehq/vendure)                    | A headless commerce framework.                                                                                                                  | 7829  | 2026-01-21  |
 | [Solidus](https://github.com/solidusio/solidus)                    | A free, open-source ecommerce platform that gives you complete control over your store.                                                         | 5251  | 2025-12-11  |
 | [Aimeos](https://github.com/aimeos/aimeos)                         | E-commerce framework for building custom online shops, market places and complex B2B applications scaling to billions of items with Laravel.    | 5207  | 2025-12-18  |
 | [Open Source POS](https://github.com/opensourcepos/opensourcepos)  | Open Source Point of Sale is a web based point of sale system.                                                                                  | 3990  | 2025-12-23  |
@@ -596,12 +656,16 @@ A list of Free Software network services and web applications which can be hoste
 | [CoreShop](https://github.com/coreshop/CoreShop)                   | E-commerce plugin for Pimcore.                                                                                                                  | 288   | 2026-01-02  |
 | [s-cart](https://github.com/gp247net/s-cart)                       | E-commerce website for individuals and businesses, built on top of Laravel Framework.                                                           | 4     | 2025-11-26  |
 
+[Back to Top](#table-of-contents)
+
 ## External Links
 
 | Name                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Stars | Last Commit |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | Curated list of amazingly awesome open source sysadmin resources. - Lists of software aimed at privacy and decentralization in some form: [PRISM Break](https://prism-break.org/en/), [privacytools.io](https://www.privacytools.io/), [Alternative Internet](https://redecentralize.github.io/alternative-internet/), [Libre Projects](https://libreprojects.net/), [Easy Indie App](https://easyindie.app) - Other Awesome lists: [Awesome Big Data](https://github.com/0xnr/awesome-bigdata), [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) - Dynamic Domain Name services: [Afraid.org](https://freedns.afraid.org/domain/registry/), [Pagekite](https://pagekite.net/) - Communities/forums: [/c/selfhosted on lemmy.world](https://lemmy.world/c/selfhosted), [/c/selfhost on lemmy.ml](https://lemmy.ml/c/selfhost), [/r/selfhosted on reddit](https://old.reddit.com/r/selfhosted/), [/r/selfhosted Matrix Channel](https://matrix.to/#/#selfhosted:selfhosted.chat), [/r/homelab on reddit](https://old.reddit.com/r/homelab/), [IndieWeb](https://indieweb.org/) | 32267 | 2025-10-26  |
 | [theme.park](https://github.com/GilbN/theme.park)                    | A collection of themes/skins for 50 selfhosted apps! -------------------- Contributing guidelines can be found [here](https://github.com/awesome-selfhosted/awesome-selfhosted-data/blob/master/CONTRIBUTING.md). This list is under the [Creative Commons Attribution-ShareAlike 3.0 Unported](https://github.com/awesome-selfhosted/awesome-selfhosted/blob/master/LICENSE) License. Terms of the license are summarized [here](https://creativecommons.org/licenses/by-sa/3.0/). The list of authors can be found in the [AUTHORS](https://github.com/awesome-selfhosted/awesome-selfhosted-data/blob/master/AUTHORS) file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 2989  | 2026-01-18  |
+
+[Back to Top](#table-of-contents)
 
 ## Feed Readers
 
@@ -631,6 +695,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Bubo Reader](https://github.com/georgemandis/bubo-rss)         | Irrationally minimal RSS feed reader.                                                                                                                            | 224   | 2025-01-20  |
 | [JARR](https://github.com/jaesivsm/JARR)                        | JARR (Just Another RSS Reader) is a web-based news aggregator and reader (fork of Newspipe).                                                                     | 128   | 2025-12-02  |
 
+[Back to Top](#table-of-contents)
+
 ## File Transfer & Synchronization
 
 | Name                                                   | Description                                                                                                                                                                           | Stars | Last Commit |
@@ -649,6 +715,8 @@ A list of Free Software network services and web applications which can be hoste
 | [bewCloud](https://github.com/bewcloud/bewcloud)       | File sharing + sync, notes, and photos (alternative to Nextcloud and ownCloud's RSS reader). (, [Clients](https://github.com/bewcloud))                                               | 1063  | 2026-01-02  |
 | [Sync-in](https://github.com/Sync-in/server)           | File storage, syncing, sharing, and collaboration with real-time editing, permission management, and desktop/CLI clients. ( [Clients](https://github.com/Sync-in/desktop))            | 506   | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## File Transfer - Object Storage & File Servers
 
 | Name                                                        | Description                                                                                                                                                        | Stars | Last Commit |
@@ -660,15 +728,20 @@ A list of Free Software network services and web applications which can be hoste
 | [Zenko CloudServer](https://github.com/scality/cloudserver) | Zenko CloudServer, an open-source implementation of a server handling the Amazon S3 protocol.                                                                      | 1868  | 2025-12-31  |
 | [ZOT OCI Registry](https://github.com/project-zot/zot)      | A production-ready vendor-neutral OCI-native container image registry.                                                                                             | 1647  | 2025-12-29  |
 
+[Back to Top](#table-of-contents)
+
 ## File Transfer - Peer-to-peer Filesharing
 
-| Name                                                                   | Description                                                                         | Stars | Last Commit |
-|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------|-------------|
-| [qBittorrent](https://github.com/qbittorrent/qBittorrent)              | Free cross-platform bittorrent client with a feature rich Web UI for remote access. | 34781 | 2026-01-01  |
-| [Transmission](https://github.com/transmission/transmission)           | Fast, easy, free Bittorrent client.                                                 | 13871 | 2026-01-02  |
-| [slskd](https://github.com/slskd/slskd)                                |                                                                                     | 2501  | 2026-01-02  |
-| [bittorrent-tracker](https://github.com/webtorrent/bittorrent-tracker) | Simple, robust, BitTorrent tracker (client and server) implementation.              | 1906  | 2025-12-13  |
-| [Webtor](https://github.com/webtor-io/self-hosted)                     | Web-based torrent client with instant audio/video streaming.                        | 517   | 2025-11-30  |
+| Name                                                                   | Description                                                                                                      | Stars | Last Commit |
+|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| [qBittorrent](https://github.com/qbittorrent/qBittorrent)              | Free cross-platform bittorrent client with a feature rich Web UI for remote access.                              | 34781 | 2026-01-01  |
+| [Transmission](https://github.com/transmission/transmission)           | Fast, easy, free Bittorrent client.                                                                              | 13871 | 2026-01-02  |
+| [slskd](https://github.com/slskd/slskd)                                |                                                                                                                  | 2501  | 2026-01-02  |
+| [bittorrent-tracker](https://github.com/webtorrent/bittorrent-tracker) | Simple, robust, BitTorrent tracker (client and server) implementation.                                           | 1906  | 2025-12-13  |
+| [Webtor](https://github.com/webtor-io/self-hosted)                     | Web-based torrent client with instant audio/video streaming.                                                     | 517   | 2025-11-30  |
+| [PrivyDrop](https://github.com/david-bai00/PrivyDrop)                  | Simple and user-friendly, breakpoint-resumable peer-to-peer text, image, and file transfer tool based on WebRTC. | 109   | 2025-12-30  |
+
+[Back to Top](#table-of-contents)
 
 ## File Transfer - Single-click & Drag-n-drop Upload
 
@@ -699,6 +772,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Flare](https://github.com/FlintSH/Flare)                  | A nonbloated, modern, and highly configurable file/screenshot vault server with support for ShareX, Flameshot, and Spectacle. Offers OCR search and more.                                              | 93    | 2025-12-12  |
 | [Shifter](https://github.com/TobySuch/Shifter)             | A simple, self-hosted file-sharing web app, powered by Django.                                                                                                                                         | 41    | 2025-12-29  |
 
+[Back to Top](#table-of-contents)
+
 ## File Transfer - Web-based File Managers
 
 | Name                                                                   | Description                                                                                                                                                                                                                      | Stars | Last Commit |
@@ -716,6 +791,8 @@ A list of Free Software network services and web applications which can be hoste
 | [FileRise](https://github.com/error311/FileRise)                       | Web file manager with uploads, tagging, share links, gallery/table views, and an in-browser editor.                                                                                                                              | 744   | 2025-12-30  |
 | [IFM](https://github.com/misterunknown/ifm)                            | Single script file manager.                                                                                                                                                                                                      | 364   | 2025-12-20  |
 | [mikochi](https://github.com/zer0tonin/Mikochi)                        | Browse remote folders, upload files, delete, rename, download and stream files to VLC/mpv.                                                                                                                                       | 347   | 2025-11-26  |
+
+[Back to Top](#table-of-contents)
 
 ## Games
 
@@ -737,6 +814,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Word Mastermind](https://github.com/clupasq/word-mastermind) | Wordle clone. A Mastermind-like game, but instead of colors you need to guess words.                                                                                                                                                                 | 248   | 2025-04-14  |
 | [piqueserver](https://github.com/piqueserver/piqueserver)     | Server for openspades, the first-person shooter in a destructible voxel world. ([Clients](https://github.com/yvt/openspades))                                                                                                                        | 227   | 2025-10-20  |
 
+[Back to Top](#table-of-contents)
+
 ## Games - Administrative Utilities & Control Panels
 
 | Name                                                                | Description                                                                                                                                                                                                                   | Stars | Last Commit |
@@ -757,6 +836,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Kubek](https://github.com/seeroy/kubek-minecraft-dashboard)        | Web management panel for Minecraft servers.                                                                                                                                                                                   | 126   | 2025-02-24  |
 | [Minus Games](https://github.com/Accessory/minus_games)             | Sync games and save files across multiple devices.                                                                                                                                                                            | 35    | 2025-11-15  |
 
+[Back to Top](#table-of-contents)
+
 ## Genealogy
 
 | Name                                                           | Description                                                                                                                                                                          | Stars | Last Commit |
@@ -767,6 +848,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Genea.app](https://github.com/genea-app/genea-app)            | Genealogy tool designed with privacy in mind that anyone can use to author or edit their family tree. Data is stored in the GEDCOM format and all processing is done in the browser. | 248   | 2025-12-12  |
 | [Gramps Web](https://github.com/gramps-project/gramps-web-api) | Web app for collaborative genealogy, based on and interoperable with Gramps, the open source genealogy desktop application.                                                          | 171   | 2025-12-31  |
 
+[Back to Top](#table-of-contents)
+
 ## Generative Artificial Intelligence (GenAI)
 
 | Name                                                           | Description                                                                                                                                                                               | Stars  | Last Commit |
@@ -774,10 +857,14 @@ A list of Free Software network services and web applications which can be hoste
 | [Ollama](https://github.com/ollama/ollama)                     | Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, and other large language models.                                                                                          | 158657 | 2026-01-02  |
 | [Open-WebUI](https://github.com/open-webui/open-webui)         | User-friendly AI Interface, supports Ollama, OpenAI API.                                                                                                                                  | 119503 | 2026-01-02  |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)   | All-in-one desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.                                                              | 52816  | 2025-12-23  |
+| [LocalAI](https://github.com/mudler/LocalAI)                   | Run your AI models locally and generate images and audio (alternative to OpenAI and Claude). (, [Clients](https://localai.io/gallery.html))                                               | 42232  | 2026-01-21  |
 | [Khoj](https://github.com/khoj-ai/khoj)                        | Your AI second brain. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI. | 32075  | 2026-01-02  |
 | [Perplexica](https://github.com/ItzCrazyKns/Perplexica)        | AI-powered search engine (alternative to Perplexity AI).                                                                                                                                  | 27938  | 2026-01-01  |
 | [Onyx Community Edition](https://github.com/onyx-dot-app/onyx) | Chat UI that works with any LLM. It comes loaded with advanced features like agents, web search, RAG, MCP, deep research, Connectors to 40+ knowledge sources, and more.                  | 16957  | 2026-01-02  |
 | [Agenta](https://github.com/agenta-ai/agenta)                  | LLMOps platform for prompt management, LLM evaluation, and observability. Build, evaluate, and monitor production-grade LLM applications with collaborative prompt engineering.           | 3575   | 2026-01-02  |
+| [LLM Harbor](https://github.com/av/harbor)                     | Containerized LLM toolkit. Run LLM backends, APIs, frontends, and additional services via a concise CLI.                                                                                  | 2324   | 2026-01-20  |
+
+[Back to Top](#table-of-contents)
 
 ## Groupware
 
@@ -791,6 +878,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Group Office](https://github.com/Intermesh/groupoffice) | Enterprise CRM and groupware tool. Share projects, calendars, files and e-mail online with co-workers and clients.                                                                              | 239   | 2026-01-02  |
 | [Tine](https://github.com/tine-groupware/tine)           | Software for digital collaboration in companies and organizations. From powerful groupware functionalities to clever add-ons, tine combines everything to make daily team collaboration easier. | 20    | 2025-12-30  |
 
+[Back to Top](#table-of-contents)
+
 ## Health and Fitness
 
 | Name                                                           | Description                                                                                                                                               | Stars | Last Commit |
@@ -798,9 +887,11 @@ A list of Free Software network services and web applications which can be hoste
 | [wger](https://github.com/wger-project/wger)                   | Web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well. | 5456  | 2025-12-31  |
 | [OpenEMR](https://github.com/openemr/openemr)                  | Electronic health records and medical practice management solution.                                                                                       | 4612  | 2026-01-02  |
 | [Fasten Health](https://github.com/fastenhealth/fasten-onprem) |                                                                                                                                                           | 2556  | 2025-11-20  |
-| [Endurain](https://github.com/joaovitoriasilva/endurain)       | Fitness tracking service designed to give users full control over their data and hosting environment.                                                     | 1701  | 2026-01-19  |
+| [Endurain](https://github.com/endurain-project/endurain)       | Fitness tracking service designed to give users full control over their data and hosting environment.                                                     | 1704  | 2026-01-21  |
 | [FitTrackee](https://github.com/SamR1/FitTrackee)              | Simple workout/activity tracker.                                                                                                                          | 1030  | 2026-01-01  |
 | [Wingfit](https://github.com/itskovacs/wingfit)                | Minimalist fitness app to plan your workouts, track your personal records and leverage smartwatch data.                                                   | 424   | 2025-08-11  |
+
+[Back to Top](#table-of-contents)
 
 ## Human Resources Management (HRM)
 
@@ -809,6 +900,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Frappe HR](https://github.com/frappe/hrms)   | Complete HRMS solution with over 13 different modules right from employee management, onboarding, leaves, to payroll, taxation, and more.                                                  | 7062  | 2026-01-02  |
 | [admidio](https://github.com/Admidio/admidio) | User management system for websites of organizations and groups. The system has a flexible role model so that it’s possible to reflect the structure and permissions of your organization. | 421   | 2025-12-31  |
 | [MintHCM](https://github.com/minthcm/minthcm) | Tool for Human Capital Management based on two popular, well-known business applications SugarCRM Community Edition and SuiteCRM.                                                          | 276   | 2025-12-15  |
+
+[Back to Top](#table-of-contents)
 
 ## Internet of Things (IoT)
 
@@ -830,6 +923,8 @@ A list of Free Software network services and web applications which can be hoste
 | [FlowForge](https://github.com/FlowFuse/flowfuse)           | Deploy Node-RED applications in a reliable, scalable and secure manner. The FlowForge platform provides DevOps capabilities for Node-RED development teams.                                                                                                | 367   | 2025-12-31  |
 | [LHA](https://github.com/javalikescript/lha)                | Light Home Automation application that is fully extensible using Blockly, HTML or Lua. It includes extensions such as ConBee, Philips Hue or Z-Wave JS.                                                                                                    | 12    | 2025-12-19  |
 
+[Back to Top](#table-of-contents)
+
 ## Inventory Management
 
 | Name                                                                                  | Description                                                                                                                                                                                                                            | Stars | Last Commit |
@@ -841,6 +936,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Part-DB](https://github.com/Part-DB/Part-DB-server)                                  | Inventory management system for your electronic components.                                                                                                                                                                            | 1425  | 2026-01-02  |
 | [Open QuarterMaster](https://github.com/Epic-Breakfast-Productions/OpenQuarterMaster) | Powerful inventory management system, designed to be flexible and scalable.                                                                                                                                                            | 50    | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Knowledge Management Tools
 
 | Name                                                               | Description                                                                                                                                                      | Stars | Last Commit |
@@ -850,6 +947,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Atomic Server](https://github.com/atomicdata-dev/atomic-server)   | Knowledge graph database with documents (similar to Notion), tables, search, and a powerful linked data API. Lightweight, very fast and no runtime dependencies. | 1461  | 2025-12-15  |
 | [TeamMapper](https://github.com/b310-digital/teammapper)           | Host and create your own mindmaps. Share your mindmap sessions with your team and collaborate live on mindmaps.                                                  | 409   | 2025-12-29  |
 | [LibreKB](https://github.com/michaelstaake/LibreKB)                | Web-based knowledge base solution. A simple web app, it runs on pretty much any web server or hosting provider with PHP and MySQL.                               | 56    | 2025-12-29  |
+
+[Back to Top](#table-of-contents)
 
 ## Learning and Courses
 
@@ -865,6 +964,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Open eClass](https://github.com/gunet/openeclass)      | Open eClass is an advanced e-learning solution that can enhance the teaching and learning process.                                         | 147   | 2025-12-30  |
 | [Schoco](https://github.com/PhiTux/schoco)              | Online IDE for learning Java programming at school, including automatic JUnit tests. Designed to give coding homework/assignments.         | 35    | 2025-03-18  |
 
+[Back to Top](#table-of-contents)
+
 ## Manufacturing
 
 | Name                                                  | Description                                                                                                                                  | Stars | Last Commit |
@@ -875,6 +976,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Fluidd](https://github.com/fluidd-core/fluidd)       | Lightweight & responsive user interface for Klipper, the 3D printer firmware.                                                                | 1674  | 2026-01-02  |
 | [Manyfold](https://github.com/manyfold3d/manyfold)    | Digital asset manager for 3d print files; STL, OBJ, 3MF and more.                                                                            | 1649  | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Maps and Global Positioning System (GPS)
 
 | Name                                                                               | Description                                                                                                                                                                                | Stars | Last Commit |
@@ -883,16 +986,19 @@ A list of Free Software network services and web applications which can be hoste
 | [Open Source Routing Machine (OSRM)](https://github.com/Project-OSRM/osrm-backend) | High performance routing engine designed to run on OpenStreetMap data and offering an HTTP API, C++ library interface, and Nodejs wrapper.                                                 | 7381  | 2025-11-30  |
 | [GraphHopper](https://github.com/graphhopper/graphhopper)                          | Fast routing library and server using OpenStreetMap.                                                                                                                                       | 6197  | 2025-12-20  |
 | [Nominatim](https://github.com/osm-search/Nominatim)                               | Server application for geocoding (address -> coordinates) and reverse geocoding (coordinates -> address) on OpenStreetMap data.                                                            | 3958  | 2026-01-02  |
-| [wanderer](https://github.com/Flomp/wanderer)                                      | Trail database where you can upload your recorded tracks or create new ones and add various metadata to build an easily searchable catalogue.                                              | 3232  | 2026-01-01  |
+| [wanderer](https://github.com/open-wanderer/wanderer)                              | Trail database where you can upload your recorded tracks or create new ones and add various metadata to build an easily searchable catalogue.                                              | 3288  | 2026-01-21  |
 | [TileServer GL](https://github.com/maptiler/tileserver-gl)                         | Vector and raster maps with GL styles. Server side rendering by Mapbox GL Native. Map tile server for Mapbox GL JS, Android, iOS, Leaflet, OpenLayers, GIS via WMTS, etc.                  | 2684  | 2026-01-01  |
 | [OpenStreetMap](https://github.com/openstreetmap/openstreetmap-website)            | Collaborative project to create a free editable map of the world. (, [Clients](https://wiki.openstreetmap.org/wiki/Software))                                                              | 2608  | 2026-01-01  |
 | [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner)              | Multimodal trip planning software based on OpenStreetMap data and consuming published GTFS-formatted data to suggest routes using local public transit systems.                            | 2503  | 2026-01-02  |
 | [AdventureLog](https://github.com/seanmorley15/AdventureLog)                       | Travel tracker and trip planner.                                                                                                                                                           | 2496  | 2026-01-02  |
 | [OpenRouteService](https://github.com/GIScience/openrouteservice)                  | Route service with directions, isochrones, time-distance matrix, route optimization, etc.                                                                                                  | 1791  | 2025-12-19  |
 | [OwnTracks Recorder](https://github.com/owntracks/recorder)                        |                                                                                                                                                                                            | 1099  | 2025-08-13  |
+| [TRIP](https://github.com/itskovacs/trip)                                          | Minimalist POI Map tracker and Trip planner.                                                                                                                                               | 889   | 2026-01-17  |
 | [AirTrail](https://github.com/johanohly/AirTrail)                                  | Personal flight tracking system.                                                                                                                                                           | 819   | 2025-12-29  |
 | [Geo2tz](https://github.com/noandrea/geo2tz)                                       | Get the timezone from geo coordinates (lat, lon).                                                                                                                                          | 90    | 2025-12-01  |
 | [Bicimon](https://github.com/knrdl/bicimon)                                        | Bike Speedometer as Progressive Web App.                                                                                                                                                   | 62    | 2022-04-17  |
+
+[Back to Top](#table-of-contents)
 
 ## Media Management
 
@@ -901,7 +1007,7 @@ A list of Free Software network services and web applications which can be hoste
 | [Sonarr](https://github.com/Sonarr/Sonarr)                        | Automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available. | 12975 | 2026-01-02  |
 | [Radarr](https://github.com/Radarr/Radarr)                        | Automatically download movies via Usenet and BitTorrent (fork of Sonarr).                                                                                                                                                        | 12763 | 2025-12-29  |
 | [MeTube](https://github.com/alexta69/metube)                      | Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites.                                                                                                                                | 11836 | 2026-01-02  |
-| [Jellyseerr](https://github.com/Fallenbagel/jellyseerr)           | Manage requests for your media library, supports Plex, Jellyfin and Emby media servers (fork of Overseerr).                                                                                                                      | 8211  | 2026-01-19  |
+| [Seerr](https://github.com/seerr-team/seerr)                      | Manage requests for your media library, supports Plex, Jellyfin and Emby media servers (fork of Overseerr).                                                                                                                      | 8246  | 2026-01-21  |
 | [Lidarr](https://github.com/Lidarr/Lidarr)                        | Music collection manager for Usenet and BitTorrent users.                                                                                                                                                                        | 4858  | 2025-12-29  |
 | [Pinchflat](https://github.com/kieraneglin/pinchflat)             |                                                                                                                                                                                                                                  | 4382  | 2025-12-16  |
 | [Ombi](https://github.com/Ombi-app/Ombi)                          | Content request system for Plex/Emby, connects to SickRage, CouchPotato, Sonarr, with a growing feature set.                                                                                                                     | 4022  | 2025-12-04  |
@@ -920,6 +1026,8 @@ A list of Free Software network services and web applications which can be hoste
 | [ChannelTube](https://github.com/TheWicklowWolf/ChannelTube)      |                                                                                                                                                                                                                                  | 276   | 2025-12-08  |
 | [ydl_api_ng](https://github.com/Totonyus/ydl_api_ng)              | Simple youtube-dl REST API to launch downloads on a distant server.                                                                                                                                                              | 225   | 2025-11-21  |
 
+[Back to Top](#table-of-contents)
+
 ## Media Streaming - Audio Streaming
 
 | Name                                                               | Description                                                                                                                                                                                                        | Stars | Last Commit |
@@ -928,7 +1036,7 @@ A list of Free Software network services and web applications which can be hoste
 | [koel](https://github.com/koel/koel)                               | Personal music streaming server that works.                                                                                                                                                                        | 16913 | 2026-01-02  |
 | [Beets](https://github.com/beetbox/beets)                          | Music library manager and MusicBrainz tagger (command-line and Web interface).                                                                                                                                     | 14504 | 2026-01-02  |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf)        | Audiobook and podcast server. It streams all audio formats, keeps and syncs progress across devices. Comes with open-source apps for Android and iOS. (, [Clients](https://github.com/advplyr/audiobookshelf-app)) | 11192 | 2025-12-24  |
-| [Snapcast](https://github.com/badaix/snapcast)                     | Synchronous multiroom audio server.                                                                                                                                                                                | 7375  | 2025-12-15  |
+| [Snapcast](https://github.com/snapcast/snapcast)                   | Synchronous multiroom audio server.                                                                                                                                                                                | 7385  | 2025-12-15  |
 | [musikcube](https://github.com/clangen/musikcube)                  | Streaming audio server with Linux/macOS/Windows/Android clients.                                                                                                                                                   | 4636  | 2025-09-21  |
 | [Black Candy](https://github.com/blackcandy-org/blackcandy)        | Music streaming server.                                                                                                                                                                                            | 4046  | 2025-12-03  |
 | [Ampache](https://github.com/ampache/ampache)                      | Web based audio/video streaming application.                                                                                                                                                                       | 3748  | 2025-12-22  |
@@ -950,6 +1058,8 @@ A list of Free Software network services and web applications which can be hoste
 | [vod2pod-rss](https://github.com/madiele/vod2pod-rss)              |                                                                                                                                                                                                                    | 338   | 2025-12-30  |
 | [Supysonic](https://github.com/spl0k/supysonic)                    | Python implementation of the Subsonic server API.                                                                                                                                                                  | 287   | 2025-11-08  |
 
+[Back to Top](#table-of-contents)
+
 ## Media Streaming - Multimedia Streaming
 
 | Name                                                      | Description                                                                                                                                                                                                                                                                  | Stars | Last Commit |
@@ -967,6 +1077,8 @@ A list of Free Software network services and web applications which can be hoste
 | [cmyflix](https://github.com/farfalleflickan/cmyflix)     | Minimalist Plex/Jellyfin alternative to stream video.                                                                                                                                                                                                                        | 184   | 2025-12-18  |
 | [ClipBucket](https://github.com/MacWarrior/clipbucket-v5) | Start your own video sharing website (YouTube/Netflix Clone) in a matter of minutes.                                                                                                                                                                                         | 143   | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Media Streaming - Video Streaming
 
 | Name                                                            | Description                                                                                                                                        | Stars | Last Commit |
@@ -982,6 +1094,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Rapidbay](https://github.com/hauxir/rapidbay)                  | Videostreaming service/torrent client that allows searching and playing videos from torrents in the browser or from a Chromecast/AppleTV/Smart TV. | 810   | 2026-01-02  |
 | [SyncTube](https://github.com/RblSb/SyncTube)                   | Lightweight and very simple to setup CyTube alternative to watch videos with friends and chat.                                                     | 344   | 2025-11-13  |
 
+[Back to Top](#table-of-contents)
+
 ## Miscellaneous
 
 | Name                                                                        | Description                                                                                                                                                                                                           | Stars | Last Commit |
@@ -990,6 +1104,7 @@ A list of Free Software network services and web applications which can be hoste
 | [penpot](https://github.com/penpot/penpot)                                  | Web-based design and prototyping platform meant for cross-domain teams.                                                                                                                                               | 43570 | 2026-01-02  |
 | [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume)          | One-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever.                                                                                | 34296 | 2026-01-02  |
 | [CyberChef](https://github.com/gchq/CyberChef)                              | Perform all manner of operations within a web browser such as AES, DES and Blowfish encryption and decryption, creating hexdumps, calculating hashes, and much more.                                                  | 33619 | 2025-08-06  |
+| [Infisical Community Edition](https://github.com/Infisical/infisical)       | Platform for secrets, certificates, and privileged access management.                                                                                                                                                 | 24549 | 2026-01-21  |
 | [Teleport](https://github.com/gravitational/teleport)                       | Certificate authority and access plane for SSH, Kubernetes, web applications, and databases.                                                                                                                          | 19599 | 2026-01-02  |
 | [Neko](https://github.com/m1k1o/neko)                                       | Virtual browser that runs in docker and uses WebRTC.                                                                                                                                                                  | 16451 | 2025-12-09  |
 | [Anubis](https://github.com/TecharoHQ/anubis)                               | Web AI firewall utility which protects upstream resources from scraper bots.                                                                                                                                          | 15901 | 2026-01-02  |
@@ -1001,17 +1116,12 @@ A list of Free Software network services and web applications which can be hoste
 | [OmniTools](https://github.com/iib0011/omni-tools)                          | Collection of powerful web-based tools for everyday tasks (coding, manipulating images/videos, PDFs or crunching numbers...).                                                                                         | 8004  | 2025-12-10  |
 | [TeslaMate](https://github.com/teslamate-org/teslamate)                     | A powerful data logger for Tesla vehicles.                                                                                                                                                                            | 7463  | 2026-01-01  |
 | [WeTTY](https://github.com/butlerx/wetty)                                   | Terminal in browser over http/https.                                                                                                                                                                                  | 5075  | 2025-10-30  |
-| [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker)      | Monitor the performance and uptime of your internet connection.                                                                                                                                                       | 5002  | 2026-01-01  |
 | [iSponsorBlockTV](https://github.com/dmunozv04/iSponsorBlockTV)             |                                                                                                                                                                                                                       | 4709  | 2025-12-22  |
-| [Upsnap](https://github.com/seriousm4x/UpSnap)                              | A simple Wake on LAN (WOL) dashboard app. Wake up devices on your network and see current status.                                                                                                                     | 4512  | 2025-12-30  |
 | [Open-Meteo](https://github.com/open-meteo/open-meteo)                      | Weather API with open-data forecasts, historical and climate data from all major national weather services.                                                                                                           | 4012  | 2025-12-29  |
 | [OpenZiti](https://github.com/openziti/ziti)                                | Fully-featured, zero trust, full mesh overlay network. Includes a 2FA support out of the box, clients for all major desktop/mobile OS'es.                                                                             | 3783  | 2025-12-29  |
 | [2FAuth](https://github.com/Bubka/2FAuth)                                   | Manage your Two-Factor Authentication (2FA) accounts and generate their security codes.                                                                                                                               | 3641  | 2025-12-20  |
-| [Speed Test by OpenSpeedTest™](https://github.com/openspeedtest/Speed-Test) | Free & Open-Source HTML5 Network Performance Estimation Tool.                                                                                                                                                         | 3281  | 2024-06-04  |
-| [Canary Tokens](https://github.com/thinkst/opencanary)                      | Generates lightweight, embedded honeypot triggers called canary tokens for detecting unauthorized access.                                                                                                             | 2721  | 2025-12-10  |
 | [Baby Buddy](https://github.com/babybuddy/babybuddy)                        | Helps caregivers track baby sleep, feedings, diaper changes, and tummy time.                                                                                                                                          | 2619  | 2025-09-07  |
 | [asciinema](https://github.com/asciinema/asciinema-server)                  | Web app for hosting asciicasts.                                                                                                                                                                                       | 2432  | 2025-12-15  |
-| [MySpeed](https://github.com/gnmyt/myspeed)                                 | Speed test analysis software that shows your internet speed for up to 30 days.                                                                                                                                        | 2406  | 2026-01-01  |
 | [LubeLogger](https://github.com/hargata/lubelog)                            | Web-based vehicle maintenance and fuel mileage tracker.                                                                                                                                                               | 2144  | 2026-01-02  |
 | [Usertour](https://github.com/usertour/usertour)                            | User onboarding platform allowing you to create in-app product tours, checklists, and surveys in minutes effortlessly.                                                                                                | 1792  | 2026-01-02  |
 | [Yamtrack](https://github.com/FuzzyGrim/Yamtrack)                           |                                                                                                                                                                                                                       | 1765  | 2026-01-01  |
@@ -1039,10 +1149,11 @@ A list of Free Software network services and web applications which can be hoste
 | [mosparo](https://github.com/mosparo/mosparo)                               | The modern spam protection tool. It replaces other captcha methods with a simple and easy to use spam protection solution.                                                                                            | 258   | 2025-12-21  |
 | [OpenReader WebUI](https://github.com/richardr1126/OpenReader-WebUI)        | EPUB, PDF, DOCX, MD, and TXT file text to speech document reader. Read documents in realtime with high-quality TTS; or extract audiobooks.                                                                            | 252   | 2025-12-12  |
 | [URL-to-PNG](https://github.com/jasonraimondi/url-to-png)                   | URL to PNG utility featuring parallel rendering using Playwright for screenshots and with storage caching via Local, S3, or CouchDB.                                                                                  | 234   | 2025-10-24  |
-| [Wakupator](https://github.com/Gibus21250/Wakupator)                        | Wake On LAN Machine Manager based on network traffic.                                                                                                                                                                 | 160   | 2025-08-04  |
 | [POMjs](https://github.com/joho1968/POMjs)                                  | Random password generator.                                                                                                                                                                                            | 44    | 2023-09-09  |
 | [ESMira](https://github.com/KL-Psychological-Methodology/ESMira)            | Run longitudinal studies (ESM, AA, EMA) with data collection and communication with participants being completely anonymous.                                                                                          | 20    | 2025-12-02  |
 | [Zero-TOTP](https://github.com/SeaweedbrainCY/zero-totp)                    | Complete, reliable, secure and zero-trust webapp based on zero-knowledge encryption to store your TOTP codes.                                                                                                         | 15    | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Money, Budgeting & Management
 
@@ -1054,6 +1165,7 @@ A list of Free Software network services and web applications which can be hoste
 | [Ghostfolio](https://github.com/ghostfolio/ghostfolio)         | Wealth management software to keep track of stocks, ETFs and cryptocurrencies.                                                                                                                                                               | 7307  | 2026-01-02  |
 | [BTCPay Server](https://github.com/btcpayserver/btcpayserver)  | Bitcoin and other cryptocurrencies payment processor.                                                                                                                                                                                        | 7303  | 2026-01-02  |
 | [Wallos](https://github.com/ellite/wallos)                     | Lightweight personal subscription tracker with statistics and optional notifications.                                                                                                                                                        | 7053  | 2025-12-20  |
+| [Sure](https://github.com/we-promise/sure)                     | Personal finance application for everyone (fork of Maybe).                                                                                                                                                                                   | 5493  | 2026-01-21  |
 | [Kill Bill](https://github.com/killbill/killbill)              | Subscription billing & payments platform. Have access to real-time analytics and financial reports.                                                                                                                                          | 5266  | 2025-11-25  |
 | [OctoBot](https://github.com/Drakkar-Software/OctoBot)         | Cryptocurrency trading bot.                                                                                                                                                                                                                  | 5071  | 2025-12-31  |
 | [ezbookkeeping](https://github.com/mayswind/ezbookkeeping)     | A lightweight personal bookkeeping app hosted by yourself.                                                                                                                                                                                   | 3611  | 2026-01-02  |
@@ -1082,6 +1194,21 @@ A list of Free Software network services and web applications which can be hoste
 | [Galette](https://github.com/galette/galette)                  | Membership management web application aimed towards non profit organizations.                                                                                                                                                                | 64    | 2026-01-02  |
 | [Mybucks.online](https://github.com/mybucks-online/app)        | Secure, browser-based, password-only self-custodial cryptocurrency wallet.                                                                                                                                                                   | 13    | 2025-12-23  |
 
+[Back to Top](#table-of-contents)
+
+## Network Utilities
+
+| Name                                                                        | Description                                                                                               | Stars | Last Commit |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------|-------------|
+| [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker)      | Monitor the performance and uptime of your internet connection.                                           | 5002  | 2026-01-01  |
+| [Upsnap](https://github.com/seriousm4x/UpSnap)                              | A simple Wake on LAN (WOL) dashboard app. Wake up devices on your network and see current status.         | 4512  | 2025-12-30  |
+| [Speed Test by OpenSpeedTest™](https://github.com/openspeedtest/Speed-Test) | Free & Open-Source HTML5 Network Performance Estimation Tool.                                             | 3281  | 2024-06-04  |
+| [Canary Tokens](https://github.com/thinkst/opencanary)                      | Generates lightweight, embedded honeypot triggers called canary tokens for detecting unauthorized access. | 2721  | 2025-12-10  |
+| [MySpeed](https://github.com/gnmyt/myspeed)                                 | Speed test analysis software that shows your internet speed for up to 30 days.                            | 2406  | 2026-01-01  |
+| [Wakupator](https://github.com/Gibus21250/Wakupator)                        | Wake On LAN Machine Manager based on network traffic.                                                     | 160   | 2025-08-04  |
+
+[Back to Top](#table-of-contents)
+
 ## Note-taking & Editors
 
 | Name                                                           | Description                                                                                                                                                                                                     | Stars | Last Commit |
@@ -1104,6 +1231,8 @@ A list of Free Software network services and web applications which can be hoste
 | [DailyTxT](https://github.com/PhiTux/DailyTxT)                 | Encrypted diary Web application to save your personal memories of each day. Includes a search function and encrypted file upload.                                                                               | 404   | 2026-01-01  |
 | [Plainpad](https://github.com/alextselegidis/plainpad)         | Modern note taking application for the cloud, utilizing the best features of progressive web apps technology.                                                                                                   | 378   | 2025-12-04  |
 
+[Back to Top](#table-of-contents)
+
 ## Office Suites
 
 | Name                                                       | Description                                                                                                                                           | Stars | Last Commit |
@@ -1113,14 +1242,18 @@ A list of Free Software network services and web applications which can be hoste
 | [CryptPad](https://github.com/cryptpad/cryptpad)           | Collaboration suite built to enable collaboration, synchronizing changes to documents in real time.                                                   | 7199  | 2026-01-02  |
 | [ONLYOFFICE](https://github.com/ONLYOFFICE/DocumentServer) | Office suite that enables you to manage documents, projects, team and customer relations in one place.                                                | 6086  | 2025-12-17  |
 
+[Back to Top](#table-of-contents)
+
 ## Password Managers
 
 | Name                                                      | Description                                                                                                                                                                                                                            | Stars | Last Commit |
 |-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Lightweight Bitwarden server API implementation written in Rust.                                                                                                                                                                       | 52781 | 2026-01-01  |
 | [Passbolt](https://github.com/passbolt/passbolt_api)      | Collaborative password manager.                                                                                                                                                                                                        | 5545  | 2025-12-22  |
-| [AliasVault](https://github.com/lanedirt/AliasVault)      | End-to-end encrypted password manager with a built-in email alias generator and server.                                                                                                                                                | 1896  | 2026-01-19  |
+| [AliasVault](https://github.com/aliasvault/aliasvault)    | End-to-end encrypted password manager with a built-in email alias generator and server.                                                                                                                                                | 1907  | 2026-01-21  |
 | [Teampass](https://github.com/nilsteampassnet/TeamPass)   | Password manager dedicated for managing passwords in a collaborative way. One symmetric key is used to encrypt all shared/team passwords and stored server side in a file and the database. works on any server Apache, MySQL and PHP. | 1768  | 2025-12-31  |
+
+[Back to Top](#table-of-contents)
 
 ## Pastebins
 
@@ -1143,6 +1276,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Chiyogami](https://github.com/rhee876527/chiyogami)                 | Pastebin with API, client-side encryption, user accounts, syntax highlighting, markdown rendering, and more.                                                                                  | 68    | 2025-12-29  |
 | [not-th.re](https://github.com/not-three/main)                       | Simple paste sharing platform, with client side encryption, featuring the monaco browser-based code editor.                                                                                   | 13    | 2025-06-21  |
 | [BinPastes](https://github.com/querwurzel/BinPastes)                 | Minimal pastebin supporting client-side encryption, fulltext search, one-time messages. Intended for one to few users looking for a simple pastebin deployment.                               | 12    | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Personal Dashboards
 
@@ -1167,6 +1302,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Hubleys](https://github.com/knrdl/hubleys-dashboard)                               | Personal dashboards to organize links for multiple users via a central yaml config.                                                                                                             | 105   | 2025-12-31  |
 | [portkey](https://github.com/kodehat/portkey)                                       | Simple web portal that serves as a startup page, displaying a compilation of links and URLs, while also allowing the addition of custom pages, all managed through a single configuration file. | 87    | 2026-01-01  |
 | [gobookmarks](https://github.com/arran4/gobookmarks)                                | Landing page to display bookmarks stored in GitHub, GitLab or local Git.                                                                                                                        | 9     | 2025-12-31  |
+
+[Back to Top](#table-of-contents)
 
 ## Photo Galleries
 
@@ -1194,6 +1331,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Mejiro](https://github.com/dmpop/pellicola)                     | Easy-to-use instant photo publishing.                                                                                                                                                                       | 182   | 2025-05-27  |
 | [This week in past](https://github.com/RouHim/this-week-in-past) | Aggregates images taken this week, from previous years and presents them on a web page with a simple slideshow.                                                                                             | 97    | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Polls and Events
 
 | Name                                                                   | Description                                                                                                                                                                             | Stars | Last Commit |
@@ -1202,7 +1341,7 @@ A list of Free Software network services and web applications which can be hoste
 | [HeyForm](https://github.com/heyform/heyform)                          | Form builder that allows anyone to create engaging conversational forms for surveys, questionnaires, quizzes, and polls.                                                                | 8529  | 2025-11-25  |
 | [Fider](https://github.com/getfider/fider)                             | Open platform to collect and prioritize feedback (alternative to UserVoice).                                                                                                            | 3958  | 2026-01-01  |
 | [LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)                 | Feature-rich web-based polling software. Supports extensive survey logic.                                                                                                               | 3465  | 2026-01-02  |
-| [OpnForm](https://github.com/JhumanJ/opnform)                          | Beautiful open-source form builder.                                                                                                                                                     | 3098  | 2026-01-19  |
+| [OpnForm](https://github.com/OpnForm/OpnForm)                          | Beautiful open-source form builder.                                                                                                                                                     | 3099  | 2026-01-21  |
 | [Bracket](https://github.com/evroon/bracket)                           | Flexible tournament system to build a tournament setup, add teams, schedule matches, keep track of scores and present ranking live to the public.                                       | 1550  | 2025-12-31  |
 | [docassemble](https://github.com/jhpyle/docassemble)                   | A free, open-source expert system for guided interviews and document assembly, based on Python, YAML, and Markdown.                                                                     | 913   | 2026-01-01  |
 | [Claper](https://github.com/ClaperCo/Claper)                           | The ultimate tool to interact with your audience (alternative to Slido, AhaSlides and Mentimeter).                                                                                      | 681   | 2025-12-30  |
@@ -1214,17 +1353,21 @@ A list of Free Software network services and web applications which can be hoste
 | [Input](https://github.com/deck9/input)                                | Privacy-focused, no-code, open-source form builder designed for simplicity and brand consistency.                                                                                       | 247   | 2025-03-14  |
 | [Meetable](https://github.com/aaronpk/Meetable)                        | Minimal events aggregator.                                                                                                                                                              | 157   | 2025-11-23  |
 
+[Back to Top](#table-of-contents)
+
 ## Proxy
 
 | Name                                                                      | Description                                                                                                                                                                                          | Stars | Last Commit |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [imgproxy](https://github.com/imgproxy/imgproxy)                          | Fast and secure standalone server for resizing and converting remote images.                                                                                                                         | 10251 | 2025-12-25  |
 | [iodine](https://github.com/yarrick/iodine)                               | IPv4 over DNS tunnel solution, enabling you to start up a socks5 proxy listener.                                                                                                                     | 7524  | 2025-09-04  |
-| [Outline Server](https://github.com/Jigsaw-Code/outline-server)           | A proxy server that runs a Shadowsocks instance for each access key and a REST API to manage the access keys.                                                                                        | 6136  | 2026-01-08  |
+| [Outline Server](https://github.com/OutlineFoundation/outline-server)     | A proxy server that runs a Shadowsocks instance for each access key and a REST API to manage the access keys.                                                                                        | 6139  | 2026-01-08  |
 | [Tinyproxy](https://github.com/tinyproxy/tinyproxy)                       | Light-weight HTTP/HTTPS proxy daemon.                                                                                                                                                                | 5592  | 2025-10-17  |
 | [sish](https://github.com/antoniomika/sish)                               | HTTP(S)/WS(S)/TCP tunnels to localhost using only SSH (serveo/ngrok alternative).                                                                                                                    | 4488  | 2025-11-20  |
 | [txtdot](https://github.com/TempoWorks/txtdot)                            | A HTTP proxy that parses only text, links and pictures from pages reducing internet bandwidth usage, removing ads and heavy scripts.                                                                 | 197   | 2025-05-05  |
 | [socks5-proxy-server](https://github.com/nskondratev/socks5-proxy-server) | SOCKS5 proxy server with built-in authentication and Telegram-bot for user management and user statistics on data spent (handy when you pay per GB of data). It is dockerised and simple to install. | 134   | 2025-11-29  |
+
+[Back to Top](#table-of-contents)
 
 ## Recipe Management
 
@@ -1243,11 +1386,13 @@ A list of Free Software network services and web applications which can be hoste
 | [ManageMeals](https://github.com/managemeals/manage-meals-web)      | Manage recipes, import recipes by URL and organize them without any ads or unnecessary text.                                                                                                                           | 51    | 2025-04-11  |
 | [What To Cook?](https://github.com/kassner/whattocook)              | Get a recipe to cook today, based on the ingredients you have at home.                                                                                                                                                 | 50    | 2025-11-20  |
 
+[Back to Top](#table-of-contents)
+
 ## Remote Access
 
 | Name                                                       | Description                                                                                                                                       | Stars | Last Commit |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Termix](https://github.com/LukeGus/Termix)                | Clientless web-based server management platform with SSH terminal, tunneling, and file editing capabilities.                                      | 9704  | 2026-01-19  |
+| [Termix](https://github.com/Termix-SSH/Termix)             | Clientless web-based server management platform with SSH terminal, tunneling, and file editing capabilities.                                      | 9750  | 2026-01-21  |
 | [Firezone](https://github.com/firezone/firezone)           | Secure remote access gateway that supports the WireGuard protocol. It offers a Web GUI, 1-line install script, multi-factor auth (MFA), and SSO.  | 8330  | 2026-01-02  |
 | [Warpgate](https://github.com/warp-tech/warpgate)          | Smart SSH and HTTPS bastion that works with any SSH client.                                                                                       | 6284  | 2026-01-02  |
 | [MeshCentral](https://github.com/Ylianst/MeshCentral)      | Run your own web server to remotely manage and control computers on a local network or anywhere on the internet.                                  | 5863  | 2026-01-01  |
@@ -1255,6 +1400,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Sshwifty](https://github.com/nirui/sshwifty)              | Sshwifty is a SSH and Telnet connector made for the Web.                                                                                          | 2964  | 2025-12-06  |
 | [ShellHub](https://github.com/shellhub-io/shellhub)        | Modern SSH server for remotely accessing linux devices via command line (using any SSH client) or web-based user interface (alternative to sshd). | 1864  | 2026-01-02  |
 | [Engity's Bifröst](https://github.com/engity-com/bifroest) | Highly customizable SSH server with several ways to authorize a user and options where and how to execute a user's session.                       | 69    | 2026-01-02  |
+
+[Back to Top](#table-of-contents)
 
 ## Resource Planning
 
@@ -1267,6 +1414,8 @@ A list of Free Software network services and web applications which can be hoste
 | [farmOS](https://github.com/farmOS/farmOS)          | Web-based farm record keeping application.                                                                                                                                                           | 1182  | 2026-01-02  |
 | [OFBiz](https://github.com/apache/ofbiz-framework)  | Enterprise Resource Planning system with a suite of business applications flexible enough to be used across any industry.                                                                            | 980   | 2026-01-02  |
 | [LedgerSMB](https://github.com/ledgersmb/LedgerSMB) | Integrated accounting and ERP system for small and midsize businesses, with double entry accounting, budgeting, invoicing, quotations, projects, orders and inventory management, shipping and more. | 515   | 2025-12-27  |
+
+[Back to Top](#table-of-contents)
 
 ## Search Engines
 
@@ -1285,6 +1434,8 @@ A list of Free Software network services and web applications which can be hoste
 | [sist2](https://github.com/sist2app/sist2)                               | Lightning-fast file system indexer and search tool.                                                                                                                                                   | 1183  | 2025-07-05  |
 | [Fess](https://github.com/codelibs/fess)                                 | Powerful and easily deployable Enterprise Search Server.                                                                                                                                              | 1073  | 2026-01-02  |
 | [Websurfx](https://github.com/neon-mmd/websurfx)                         |                                                                                                                                                                                                       | 996   | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Self-hosting Solutions
 
@@ -1306,6 +1457,8 @@ A list of Free Software network services and web applications which can be hoste
 | [HomeServerHQ](https://github.com/homeserverhq/hshq)               | All-in-one home server infrastructure and installer. Have a fully configured email server, VPN, and public website(s) set up in less than an hour, even behind CGNAT.                                                                              | 54    | 2025-12-22  |
 | [LibreServer](https://github.com/bashrc2/libreserver)              | Home server configuration based on Debian.                                                                                                                                                                                                         | 45    | 2026-01-01  |
 
+[Back to Top](#table-of-contents)
+
 ## Software Development - API Management
 
 | Name                                                                     | Description                                                                                                                                                                         | Stars | Last Commit |
@@ -1322,6 +1475,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Para](https://github.com/erudika/para)                                  | Flexible and modular backend framework/server for object persistence, API development and authentication.                                                                           | 560   | 2025-12-29  |
 | [Graphweaver](https://github.com/exogee-technology/graphweaver)          | Turn multiple data sources into a single GraphQL API.                                                                                                                               | 544   | 2025-12-21  |
 
+[Back to Top](#table-of-contents)
+
 ## Software Development - Feature Toggle
 
 | Name                                                                 | Description                                                                                          | Stars | Last Commit |
@@ -1330,6 +1485,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Flipt](https://github.com/flipt-io/flipt)                           | Feature flag solution with support for multiple data backends (alternative to LaunchDarkly).         | 4672  | 2026-01-02  |
 | [GO Feature Flag](https://github.com/thomaspoignant/go-feature-flag) | Simple, complete, and lightweight feature flag solution (alternative to LaunchDarkly).               | 1893  | 2026-01-02  |
 | [Featbit](https://github.com/featbit/featbit)                        | Enterprise-grade feature flag platform that you can self-host.                                       | 1717  | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Software Development - IDE & Tools
 
@@ -1345,6 +1502,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Lowdefy](https://github.com/lowdefy/lowdefy)          | Build internal tools, BI dashboards, admin panels, CRUD apps and workflows in minutes using YAML / JSON on an self-hosted, open-source platform. Connect to your data sources, host via Serverless, Netlify or Docker.                                                             | 2922  | 2025-12-31  |
 | [Atheos](https://github.com/Atheos/Atheos)             | Web-based IDE framework with a small footprint and minimal requirements, continued from Codiad.                                                                                                                                                                                    | 638   | 2025-12-31  |
 
+[Back to Top](#table-of-contents)
+
 ## Software Development - Localization
 
 | Name                                                 | Description                                                                                                                   | Stars | Last Commit |
@@ -1353,6 +1512,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Tolgee](https://github.com/tolgee/tolgee-platform)  | Developer & translator friendly web-based localization platform enabling users to translate directly in the app they develop. | 3716  | 2025-12-22  |
 | [Traduora](https://github.com/ever-co/ever-traduora) | Translation management platform for teams.                                                                                    | 2099  | 2025-12-23  |
 | [Accent](https://github.com/mirego/accent)           | Developer-oriented translation tool.                                                                                          | 1461  | 2025-12-26  |
+
+[Back to Top](#table-of-contents)
 
 ## Software Development - Low Code
 
@@ -1367,7 +1528,9 @@ A list of Free Software network services and web applications which can be hoste
 | [Manifest](https://github.com/mnfst/manifest)          | Complete backend that fits into 1 YAML file.                                                                                                                                        | 3248  | 2026-01-01  |
 | [SQLPage](https://github.com/sqlpage/SQLPage)          | SQL-only dynamic website builder.                                                                                                                                                   | 2408  | 2025-12-30  |
 | [Saltcorn](https://github.com/saltcorn/saltcorn)       | No-code database application builder for web and mobile applications. One platform for user interface, data backend, durable workflows, email, PDF generation, and AI applications. | 1976  | 2026-01-02  |
-| [Dashpress](https://github.com/dashpresshq/dashpress)  | Generate fully functional admin apps in seconds from your database information, with a single command.                                                                              | 1881  | 2024-12-21  |
+| [autokitteh](https://github.com/autokitteh/autokitteh) | Durable workflow automation in just a few lines of code.                                                                                                                            | 1081  | 2025-12-31  |
+
+[Back to Top](#table-of-contents)
 
 ## Software Development - Project Management
 
@@ -1392,12 +1555,16 @@ A list of Free Software network services and web applications which can be hoste
 | [Mindwendel](https://github.com/b310-digital/mindwendel)              | Brainstorm and upvote ideas and thoughts within your team.                                                                                                                                                            | 129   | 2025-12-29  |
 | [minimal-git-server](https://github.com/mcarbonne/minimal-git-server) | Lightweight git server with a basic CLI to manage repositories, supporting multiple accounts and running in a container.                                                                                              | 39    | 2025-12-18  |
 
+[Back to Top](#table-of-contents)
+
 ## Software Development - Testing
 
 | Name                                                            | Description                                                                             | Stars | Last Commit |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------|-------------|
 | [Bencher](https://github.com/bencherdev/bencher)                | Suite of continuous benchmarking tools designed to catch performance regressions in CI. | 782   | 2025-12-29  |
 | [WebHook Tester](https://github.com/tarampampam/webhook-tester) | Powerful tool for testing WebHooks and more.                                            | 362   | 2026-01-01  |
+
+[Back to Top](#table-of-contents)
 
 ## Status / Uptime pages
 
@@ -1410,6 +1577,8 @@ A list of Free Software network services and web applications which can be hoste
 | [StatPing.ng](https://github.com/statping-ng/statping-ng) | An easy to use Status Page for your websites and applications. Statping will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page. | 1899  | 2025-06-04  |
 | [Kuvasz Uptime](https://github.com/kuvasz-uptime/kuvasz)  | Performant, stable uptime & SSL monitoring service with brandable status pages, IAC support, Prometheus integration and a complete REST API.                                                                           | 479   | 2025-12-23  |
 
+[Back to Top](#table-of-contents)
+
 ## Task Management & To-do Lists
 
 | Name                                                              | Description                                                                                                                                                                                                        | Stars | Last Commit |
@@ -1420,6 +1589,7 @@ A list of Free Software network services and web applications which can be hoste
 | [Planka](https://github.com/plankanban/planka)                    | Realtime kanban board for workgroups (alternative to Trello).                                                                                                                                                      | 11272 | 2026-01-02  |
 | [Kanboard](https://github.com/kanboard/kanboard)                  | Simple visual task board.                                                                                                                                                                                          | 9363  | 2025-12-29  |
 | [Nullboard](https://github.com/apankrat/nullboard)                | Single-page minimalist kanban board; compact, highly readable and quick to use.                                                                                                                                    | 4102  | 2023-11-05  |
+| [tududi](https://github.com/chrisvel/tududi)                      | Task management tool with hierarchical structure, smart recurring tasks, and seamless Telegram integration.                                                                                                        | 2106  | 2026-01-20  |
 | [Tasks.md](https://github.com/BaldissaraMatheus/Tasks.md)         | A self-hosted, file based task management board that supports Markdown syntax.                                                                                                                                     | 1955  | 2025-12-29  |
 | [Donetick](https://github.com/donetick/donetick)                  | Task and chore management tool for personal and family use, with advanced scheduling, flexible assignment, and group sharing capabilities, detailed history, automation via API, simple and modern design.         | 1629  | 2025-12-01  |
 | [Tracks](https://github.com/TracksApp/tracks)                     | Web-based application to help you implement David Allen’s [Getting Things Done™](https://en.wikipedia.org/wiki/Getting_Things_Done) methodology.                                                                   | 1217  | 2025-12-30  |
@@ -1428,6 +1598,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Our Shopping List](https://github.com/nanawel/our-shopping-list) | Simple shared list application including shopping lists and any other small todo-list that needs to be used collaboratively.                                                                                       | 156   | 2025-11-19  |
 | [Task Keeper](https://github.com/nymanjens/piga)                  | List editor for power users, backed by a self-hosted server.                                                                                                                                                       | 90    | 2026-01-02  |
 | [Listaway](https://github.com/jeffrpowell/listaway)               | List management app for creating and publicly sharing lists of items. Supports auth, admin tools, item notes and priorities, and opt-in public read-only links with randomized URLs (alternative to Amazon Lists). | 5     | 2025-11-21  |
+
+[Back to Top](#table-of-contents)
 
 ## Ticketing
 
@@ -1443,6 +1615,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Bugzilla](https://github.com/bugzilla/bugzilla)              | General-purpose bugtracker and testing tool originally developed and used by the Mozilla project.                                                                              | 803   | 2025-09-26  |
 | [OTOBO](https://github.com/RotherOSS/otobo)                   | Flexible web-based ticketing system used for customer service, help desk, IT service management.                                                                               | 313   | 2026-01-02  |
 
+[Back to Top](#table-of-contents)
+
 ## Time Tracking
 
 | Name                                                             | Description                                                                                                | Stars | Last Commit |
@@ -1457,6 +1631,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Traggo](https://github.com/traggo/server)                       | Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.            | 1499  | 2026-01-01  |
 | [Ziit](https://github.com/0pandadev/ziit)                        | The Swiss army knife of code time tracking (alternative to WakaTime).                                      | 180   | 2025-12-18  |
 
+[Back to Top](#table-of-contents)
+
 ## URL Shorteners
 
 | Name                                                                  | Description                                                                                                                                                                               | Stars | Last Commit |
@@ -1468,14 +1644,19 @@ A list of Free Software network services and web applications which can be hoste
 | [bit](https://github.com/sjdonado/bit)                                | Fast, lightweight, resource-efficient, compiled URL shortener.                                                                                                                            | 68    | 2026-01-01  |
 | [Simple-URL-Shortener](https://github.com/azlux/Simple-URL-Shortener) | KISS URL shortener, public or private (with account). Minimalist and lightweight. No dependencies.                                                                                        | 58    | 2025-08-28  |
 
+[Back to Top](#table-of-contents)
+
 ## Video Surveillance
 
 | Name                                                           | Description                                                                                                                                                                                                                                          | Stars | Last Commit |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [Frigate](https://github.com/blakeblackshear/frigate)          | Monitor your security cameras with locally processed AI.                                                                                                                                                                                             | 28509 | 2026-01-02  |
 | [Zoneminder](https://github.com/ZoneMinder/ZoneMinder)         | Closed-circuit television (CCTV) software application which supports IP, USB and Analog cameras.                                                                                                                                                     | 5710  | 2026-01-02  |
+| [motionEye](https://github.com/motioneye-project/motioneye)    | Online interface for the software Motion, a video surveillance program with motion detection.                                                                                                                                                        | 4477  | 2026-01-19  |
 | [Viseron](https://github.com/roflcoopter/viseron)              | Self-hosted, local-only NVR and AI Computer Vision software. With features such as object detection, motion detection, face recognition and more, it gives you the power to keep an eye on your home, office or any other place you want to monitor. | 2459  | 2025-12-26  |
 | [Bluecherry](https://github.com/bluecherrydvr/bluecherry-apps) | Closed-circuit television (CCTV) software application which supports IP and Analog cameras.                                                                                                                                                          | 254   | 2025-12-29  |
+
+[Back to Top](#table-of-contents)
 
 ## Web Servers
 
@@ -1498,6 +1679,8 @@ A list of Free Software network services and web applications which can be hoste
 | [Static Web Server](https://github.com/static-web-server/static-web-server)         | Cross-platform, high-performance, and asynchronous web server for static file serving.                                                                                                                                 | 2057  | 2025-12-27  |
 | [UUSEC WAF](https://github.com/Safe3/uusec-waf)                                     | Industry-leading high-performance, AI and semantic technology web application firewall and API security gateway (fork of nginx).                                                                                       | 1542  | 2025-12-29  |
 | [Jauth](https://github.com/Jipok/Jauth)                                             |                                                                                                                                                                                                                        | 164   | 2025-05-14  |
+
+[Back to Top](#table-of-contents)
 
 ## Wikis
 
@@ -1523,3 +1706,5 @@ A list of Free Software network services and web applications which can be hoste
 | [Oddmuse](https://github.com/kensanata/oddmuse)             | Simple wiki engine written in Perl. No database required.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 88    | 2025-07-25  |
 | [WackoWiki](https://github.com/WackoWiki/wackowiki)         | WackoWiki is a light and easy to install multilingual Wiki-engine.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 54    | 2025-12-31  |
 | [W](https://github.com/vincent-peugnet/wcms)                | Lightweight, mutli-user, flat-file-database Wiki engine. Create pages quickly and edit them in your Web browser using Mardown/HTML/CSS/JS. The main difference with other wiki is that you are encouraged to customize each page style individually.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 45    | 2025-12-27  |
+
+[Back to Top](#table-of-contents)
