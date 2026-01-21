@@ -138,5 +138,44 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(source_idx).to be < toc_idx if toc_idx
       end
     end
+
+    context 'back to top links' do
+      let!(:category_a) { create(:category, awesome_list: awesome_list, name: 'Alpha Category') }
+      let!(:category_b) { create(:category, awesome_list: awesome_list, name: 'Beta Category') }
+
+      before do
+        create(:category_item, category: category_a, name: 'Item A', primary_url: 'https://example.com/a', stars: 100)
+        create(:category_item, category: category_b, name: 'Item B', primary_url: 'https://example.com/b', stars: 200)
+      end
+
+      example 'includes a Back to Top link after each category table' do
+        result = service.call(awesome_list: awesome_list)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        # Should have Back to Top links
+        back_to_top_links = content.scan(/\[Back to Top\]\(#table-of-contents\)/)
+        expect(back_to_top_links.count).to eq(2) # One for each category
+      end
+
+      example 'places Back to Top link after the category table' do
+        result = service.call(awesome_list: awesome_list)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        lines = content.lines.map(&:strip)
+
+        # Find the first category header and its corresponding Back to Top
+        alpha_idx = lines.index { |l| l == '## Alpha Category' }
+        beta_idx = lines.index { |l| l == '## Beta Category' }
+        first_back_to_top_idx = lines.index { |l| l.include?('[Back to Top]') }
+
+        # Back to Top should be between the two categories
+        expect(first_back_to_top_idx).to be > alpha_idx
+        expect(first_back_to_top_idx).to be < beta_idx
+      end
+    end
   end
 end

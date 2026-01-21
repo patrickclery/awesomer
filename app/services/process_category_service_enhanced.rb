@@ -160,6 +160,8 @@ class ProcessCategoryServiceEnhanced
     end
 
     content << ''
+    content << '[Back to Top](#table-of-contents)'
+    content << ''
     content.join("\n")
   end
 
