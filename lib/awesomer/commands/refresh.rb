@@ -139,21 +139,21 @@ module Awesomer
         client.auto_paginate = false # Avoid memory issues
         rate_limiter = GithubRateLimiterService.new
 
-        # Only sync items from active (non-archived) lists
+        # Sync all items from active (non-archived) lists
         active_list_ids = fetch_lists_to_process.pluck(:id)
         items = CategoryItem
           .joins(:category)
           .where(categories: { awesome_list_id: active_list_ids })
-          .where(stars: nil)
           .where.not(github_repo: [nil, ''])
         total = items.count
 
         if total == 0
-          say '  All items already have stars!', :green
+          say '  No items to sync', :green
           return
         end
 
-        say "  Found #{total} items without stars", :yellow
+        say "  Found #{total} items to sync", :yellow
+        $stdout.flush
 
         updated = 0
         failed = 0
@@ -184,7 +184,10 @@ module Awesomer
                 stars: stars
               )
               updated += 1
-              print '.' if updated % 10 == 0
+              if updated % 10 == 0
+                print '.'
+                $stdout.flush
+              end
             rescue Octokit::NotFound
               item.update!(stars: 0)
               failed += 1
