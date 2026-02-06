@@ -182,3 +182,12 @@ From `.cursorrules` and `CLAUDE.local.md`:
 - Include assertions to validate assumptions and catch edge cases
 - Follow existing patterns: dependency injection, Result monads, service objects
 - Never commit API keys or sensitive data to the repository
+
+### "commit all" Workflow
+
+When the user says "commit all", commit changes in **both** repos:
+
+1. **Submodule first** (`static/awesomer`): `cd static/awesomer`, stage, commit, push
+2. **Parent repo** (`awesomer-engine`): stage all changes (including updated submodule ref), commit, push
+
+Always check both repos for changes via `git status` in each. If only one has changes, commit just that one.
