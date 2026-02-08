@@ -222,7 +222,8 @@ module Awesomer
             service = ProcessAwesomeListService.new(
               repo_identifier: list.github_repo,
               sync: false, # Don't sync GitHub stats inline - too slow
-              fetch_star_history: false # We'll do this separately
+              fetch_star_history: false, # We'll do this separately
+              skip_markdown: true # Refresh command generates markdown in step 5 after stats are synced
             )
             result = service.call
 
