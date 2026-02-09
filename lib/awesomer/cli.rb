@@ -43,6 +43,7 @@ require_relative 'commands/cleanup'
 require_relative 'commands/update'
 require_relative 'commands/sync'
 require_relative 'commands/refresh'
+require_relative 'commands/audit'
 
 module Awesomer
   class Cli < Thor
@@ -63,6 +64,9 @@ module Awesomer
 
     desc 'worker SUBCOMMAND', 'Manage sync worker for automated updates'
     subcommand 'worker', Commands::Worker
+
+    desc 'audit SUBCOMMAND', 'Audit adapter selection for awesome lists'
+    subcommand 'audit', Commands::Audit
 
     desc 'prune', 'Archive stale awesome lists'
     long_desc <<-LONGDESC
