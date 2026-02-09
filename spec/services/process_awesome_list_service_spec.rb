@@ -30,6 +30,8 @@ RSpec.describe ProcessAwesomeListService do
   let(:sync_git_stats_op_double) { instance_double(SyncGitStatsOperation) }
   let(:process_category_op_double) { instance_double(ProcessCategoryService) }
   let(:find_or_create_aw_list_op_double) { instance_double(FindOrCreateAwesomeListOperation) }
+  let(:persist_parsed_categories_op_double) { instance_double(PersistParsedCategoriesOperation) }
+  let(:queue_star_history_jobs_op_double) { instance_double(QueueStarHistoryJobsOperation) }
 
   let(:errors_double) { instance_double(ActiveModel::Errors, full_messages: ['Save failed']) }
   let(:awesome_list_model_double) do
@@ -44,7 +46,8 @@ RSpec.describe ProcessAwesomeListService do
                     name: sample_repo_name,
                     save: true,
                     skip_external_links: true,
-                    start_processing!: true)
+                    start_processing!: true,
+                    update_column: true)
   end
 
   let(:parsed_categories) do
@@ -77,7 +80,9 @@ RSpec.describe ProcessAwesomeListService do
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
         parse_markdown_operation: parse_markdown_op_double,
+        persist_parsed_categories_operation: persist_parsed_categories_op_double,
         process_category_service: process_category_op_double,
+        queue_star_history_jobs_operation: queue_star_history_jobs_op_double,
         repo_identifier: sample_repo_identifier,
         sync_git_stats_operation: sync_git_stats_op_double
       )
@@ -97,6 +102,10 @@ RSpec.describe ProcessAwesomeListService do
       allow(sync_git_stats_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
         .and_return(Success(categories_with_stats))
+      allow(persist_parsed_categories_op_double).to receive(:call)
+        .and_return(Success(true))
+      allow(queue_star_history_jobs_op_double).to receive(:call)
+        .and_return(Success(true))
       allow(process_category_op_double).to receive(:call)
         .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier)
         .and_return(Success(output_markdown_paths))
@@ -129,6 +138,12 @@ RSpec.describe ProcessAwesomeListService do
         .with(markdown_content: sample_markdown_content, skip_external_links: true)
       service_instance.call
     end
+
+    example 'persists the raw README content on the AwesomeList record' do
+      expect(awesome_list_model_double).to receive(:update_column)
+        .with(:readme_content, sample_markdown_content)
+      service_instance.call
+    end
   end
 
   context 'when running in async mode (sync: false)' do
@@ -137,7 +152,9 @@ RSpec.describe ProcessAwesomeListService do
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
         parse_markdown_operation: parse_markdown_op_double,
+        persist_parsed_categories_operation: persist_parsed_categories_op_double,
         process_category_service: process_category_op_double,
+        queue_star_history_jobs_operation: queue_star_history_jobs_op_double,
         repo_identifier: sample_repo_identifier,
         sync: false, # Explicitly async mode
         sync_git_stats_operation: sync_git_stats_op_double
@@ -155,6 +172,10 @@ RSpec.describe ProcessAwesomeListService do
         .with(markdown_content: sample_markdown_content,
               skip_external_links: awesome_list_model_double.skip_external_links)
         .and_return(Success(parsed_categories))
+      allow(persist_parsed_categories_op_double).to receive(:call)
+        .and_return(Success(true))
+      allow(queue_star_history_jobs_op_double).to receive(:call)
+        .and_return(Success(true))
       allow(process_category_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
         .and_return(Success(output_markdown_paths))
@@ -309,7 +330,9 @@ RSpec.describe ProcessAwesomeListService do
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
         parse_markdown_operation: parse_markdown_op_double,
+        persist_parsed_categories_operation: persist_parsed_categories_op_double,
         process_category_service: process_category_op_double,
+        queue_star_history_jobs_operation: queue_star_history_jobs_op_double,
         repo_identifier: sample_repo_identifier,
         sync_git_stats_operation: sync_git_stats_op_double
       )
@@ -322,6 +345,10 @@ RSpec.describe ProcessAwesomeListService do
       allow(sync_git_stats_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier, sync: false)
         .and_return(Failure('Stats sync error'))
+      allow(persist_parsed_categories_op_double).to receive(:call)
+        .and_return(Success(true))
+      allow(queue_star_history_jobs_op_double).to receive(:call)
+        .and_return(Success(true))
       allow(process_category_op_double).to receive(:call)
         .with(categories: parsed_categories, repo_identifier: sample_repo_identifier)
         .and_return(Success(output_markdown_paths))
@@ -342,7 +369,9 @@ RSpec.describe ProcessAwesomeListService do
         fetch_readme_operation: fetch_readme_op_double,
         find_or_create_awesome_list_operation: find_or_create_aw_list_op_double,
         parse_markdown_operation: parse_markdown_op_double,
+        persist_parsed_categories_operation: persist_parsed_categories_op_double,
         process_category_service: process_category_op_double,
+        queue_star_history_jobs_operation: queue_star_history_jobs_op_double,
         repo_identifier: sample_repo_identifier,
         sync_git_stats_operation: sync_git_stats_op_double
       )
@@ -353,6 +382,10 @@ RSpec.describe ProcessAwesomeListService do
       allow(find_or_create_aw_list_op_double).to receive(:call).and_return(Success(awesome_list_model_double))
       allow(parse_markdown_op_double).to receive(:call).and_return(Success(parsed_categories))
       allow(sync_git_stats_op_double).to receive(:call).and_return(Success(categories_with_stats))
+      allow(persist_parsed_categories_op_double).to receive(:call)
+        .and_return(Success(true))
+      allow(queue_star_history_jobs_op_double).to receive(:call)
+        .and_return(Success(true))
       allow(process_category_op_double).to receive(:call)
         .with(categories: categories_with_stats, repo_identifier: sample_repo_identifier)
         .and_return(Failure('MD generation error'))

@@ -43,6 +43,9 @@ class ProcessAwesomeListService
     # Mark as started processing
     aw_list_record.start_processing!
 
+    # Store raw README content for offline adapter auditing
+    aw_list_record.update_column(:readme_content, fetched_data[:content])
+
     begin
       # Pass the skip_external_links flag from the AwesomeList record to the parser
       skip_links_flag = aw_list_record.skip_external_links
