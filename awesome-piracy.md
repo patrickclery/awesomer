@@ -90,7 +90,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                  | Description                                                | Stars | Last Commit |
 |-------------------------------------------------------|------------------------------------------------------------|-------|-------------|
-| [AAXtoMP3](https://github.com/KrumpetPirate/AAXtoMP3) | Convert Audible's .aax filetype to MP3, FLAC, M4A, or OPUS | 1276  | 2023-03-27  |
+| [AAXtoMP3](https://github.com/KrumpetPirate/AAXtoMP3) | Convert Audible's .aax filetype to MP3, FLAC, M4A, or OPUS | 1277  | 2023-03-27  |
 
 [Back to Top](#table-of-contents)
 
@@ -100,9 +100,9 @@ A curated list of awesome warez and piracy links
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [Mylar](https://github.com/evilhero/mylar)                 | An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents                                                                                                            | 965   | 2020-12-28  |
 | [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian) | This project isn't finished yet. Goal is to create a SickBeard, CouchPotato, Headphones-like application for ebooks. Headphones is used as a base, so there are still a lot of references to it.  | 727   | 2018-12-03  |
-| [traktarr](https://github.com/l3uddz/traktarr)             | Script to add new series & movies to Sonarr/Radarr based on Trakt lists.                                                                                                                          | 612   | 2023-03-14  |
+| [traktarr](https://github.com/l3uddz/traktarr)             | Script to add new series & movies to Sonarr/Radarr based on Trakt lists.                                                                                                                          | 613   | 2023-03-14  |
 | [Pulsarr](https://github.com/roboticsound/Pulsarr)         | Browser extension (currently Chrome & Firefox) for adding movies to Radarr or Series' to Sonarr while browsing IMDB or TVDB.                                                                      | 203   | 2023-05-22  |
-| [Bonarr](https://github.com/klassicstudios/Bonarr)         | A fork of Radarr to work with porn.                                                                                                                                                               | 154   | 2017-09-27  |
+| [Bonarr](https://github.com/klassicstudios/Bonarr)         | A fork of Radarr to work with porn.                                                                                                                                                               | 155   | 2017-09-27  |
 
 [Back to Top](#table-of-contents)
 
@@ -110,8 +110,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                           | Description                                                                   | Stars | Last Commit |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------|-------|-------------|
-| [uBlock Origin](https://github.com/gorhill/uBlock)             | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | 61364 | 2026-02-03  |
-| [Google Unlocked](https://github.com/Ibit-to/google-unlocked)  | Google Unlocked browser extension uncensor google search results              | 2346  | 2023-12-02  |
+| [uBlock Origin](https://github.com/gorhill/uBlock)             | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | 61382 | 2026-02-07  |
+| [Google Unlocked](https://github.com/Ibit-to/google-unlocked)  | Google Unlocked browser extension uncensor google search results              | 2348  | 2023-12-02  |
 | [Anti-Paywall](https://github.com/nextgens/anti-paywall)       | A browser extension that maximizes the chances of bypassing paywalls          | 683   | 2019-03-11  |
 | [Universal Bypass](https://github.com/Sainan/Universal-Bypass) | Universal Bypass automatically skips annoying link shorteners.                | 0     | N/A         |
 
@@ -181,8 +181,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                        | Description                                                                                                                         | Stars | Last Commit |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Heimdall](https://github.com/linuxserver/Heimdall)         | An Application dashboard and launcher                                                                                               | 8987  | 2025-11-11  |
-| [Organizr](https://github.com/causefx/Organizr)             | HTPC/Homelab Services Organizer - Written in PHP                                                                                    | 5686  | 2026-01-12  |
+| [Heimdall](https://github.com/linuxserver/Heimdall)         | An Application dashboard and launcher                                                                                               | 8988  | 2025-11-11  |
+| [Organizr](https://github.com/causefx/Organizr)             | HTPC/Homelab Services Organizer - Written in PHP                                                                                    | 5690  | 2026-01-12  |
 | [Muximux](https://github.com/mescon/Muximux)                | A lightweight way to manage your HTPC                                                                                               | 1148  | 2022-05-03  |
 | [Monitorr](https://github.com/Monitorr/Monitorr)            | "Monitorr” is a self-hosted PHP web app that monitors the status of local and remote network services, websites, and applications.  | 675   | 2023-05-25  |
 | [HTPC-Manager](https://github.com/Hellowlol/HTPC-Manager)   | A fully responsive interface to manage all your favorite software on your Htpc.                                                     | 344   | 2019-02-03  |
@@ -204,8 +204,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                         | Description                                                | Stars | Last Commit |
 |--------------------------------------------------------------|------------------------------------------------------------|-------|-------------|
-| [Persepolis](https://github.com/persepolisdm/persepolis)     | Persepolis is a download manager written in Python.        | 7237  | 2025-10-09  |
-| [idm-trial-reset](https://github.com/J2TeaM/idm-trial-reset) | Use IDM forever without cracking                           | 3757  | 2023-06-17  |
+| [Persepolis](https://github.com/persepolisdm/persepolis)     | Persepolis is a download manager written in Python.        | 7241  | 2025-10-09  |
+| [idm-trial-reset](https://github.com/J2TeaM/idm-trial-reset) | Use IDM forever without cracking                           | 3758  | 2023-06-17  |
 | [Plowshare](https://github.com/mcrapet/plowshare)            | Command-line tool and engine for managing sharing websites | 863   | 2021-06-13  |
 
 [Back to Top](#table-of-contents)
@@ -214,8 +214,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                           | Description                                                                                                                                      | Stars | Last Commit |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Calibre-Web](https://github.com/janeczku/calibre-web)         | :books: Web app for browsing, reading and downloading eBooks stored in a Calibre database                                                        | 16494 | 2026-02-06  |
-| [DeDRM_tools](https://github.com/apprenticeharper/DeDRM_tools) | DeDRM tools for ebooks                                                                                                                           | 15092 | 2024-08-20  |
+| [Calibre-Web](https://github.com/janeczku/calibre-web)         | :books: Web app for browsing, reading and downloading eBooks stored in a Calibre database                                                        | 16498 | 2026-02-07  |
+| [DeDRM_tools](https://github.com/apprenticeharper/DeDRM_tools) | DeDRM tools for ebooks                                                                                                                           | 15093 | 2024-08-20  |
 | [COPS](https://github.com/seblucas/cops)                       | Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to serve ebooks (epub, mobi, pdf, ...) | 1480  | 2024-04-03  |
 
 [Back to Top](#table-of-contents)
@@ -232,7 +232,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                       | Description                                  | Stars | Last Commit |
 |------------------------------------------------------------|----------------------------------------------|-------|-------------|
-| [Beets](https://github.com/beetbox/beets)                  | music library manager and MusicBrainz tagger | 14689 | 2026-02-03  |
+| [Beets](https://github.com/beetbox/beets)                  | music library manager and MusicBrainz tagger | 14690 | 2026-02-08  |
 | [filebot-node](https://github.com/filebot/filebot-node)    | Run and monitor filebot commands remotely    | 70    | 2025-09-01  |
 | [docker-filebot](https://github.com/coppit/docker-filebot) | A docker container for FileBot               | 36    | 2021-04-25  |
 
@@ -242,7 +242,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                             | Description                                                                                       | Stars | Last Commit |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------|-------|-------------|
-| [gallery-dl](https://github.com/mikf/gallery-dl) | Command-line program to download image galleries and collections from several image hosting sites | 16759 | 2026-02-06  |
+| [gallery-dl](https://github.com/mikf/gallery-dl) | Command-line program to download image galleries and collections from several image hosting sites | 16770 | 2026-02-07  |
 
 [Back to Top](#table-of-contents)
 
@@ -250,7 +250,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                         | Description                                                                                                                                                                                               | Stars | Last Commit |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Steamless](https://github.com/atom0s/Steamless)                             | Steamless is a DRM remover of the SteamStub variants.  The goal of Steamless is to make a single solution for unpacking all Steam DRM-packed files. Steamless aims to support as many games as possible.  | 4469  | 2024-03-30  |
+| [Steamless](https://github.com/atom0s/Steamless)                             | Steamless is a DRM remover of the SteamStub variants.  The goal of Steamless is to make a single solution for unpacking all Steam DRM-packed files. Steamless aims to support as many games as possible.  | 4472  | 2024-03-30  |
 | [SmartSteamEmu](https://github.com/MAXBURAOT/SmartSteamEmu)                  | SSELauncher Comfy Edition 2018 By LoodBot/Syahmixp (Steam Emulator)                                                                                                                                       | 422   | 2022-12-09  |
 | [MachineGunnur/GOG-Games](https://github.com/MachineGunnur/GOG-Games)        | A fork of Good Old Downloads' "GOG Games" project.                                                                                                                                                        | 34    | 2022-07-08  |
 | [cream-api-autoinstaller](https://github.com/Douile/cream-api-autoinstaller) | A python script to automatically install Cream API for Steam games                                                                                                                                        | 0     | N/A         |
@@ -261,8 +261,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                | Description                                                                                                                              | Stars  | Last Commit |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------|
-| [iptv-org/iptv](https://github.com/iptv-org/iptv)   | Collection of publicly available IPTV channels from all over the world                                                                   | 111141 | 2026-02-07  |
-| [tvheadend](https://github.com/tvheadend/tvheadend) | Tvheadend is the leading TV streaming server for Linux with ATSC, DVB-C/C2, DVB-S/S2, DVB-T/T2, IPTV, SAT>IP and unix pipe input sources | 3326   | 2026-02-06  |
+| [iptv-org/iptv](https://github.com/iptv-org/iptv)   | Collection of publicly available IPTV channels from all over the world                                                                   | 111194 | 2026-02-08  |
+| [tvheadend](https://github.com/tvheadend/tvheadend) | Tvheadend is the leading TV streaming server for Linux with ATSC, DVB-C/C2, DVB-S/S2, DVB-T/T2, IPTV, SAT>IP and unix pipe input sources | 3328   | 2026-02-06  |
 | [telly](https://github.com/tellytv/telly)           | An IPTV proxy                                                                                                                            | 812    | 2023-11-30  |
 | [fastocloud](https://github.com/fastogt/fastocloud) | FastoCloud COMMUNITY version                                                                                                             | 8      | 2025-08-31  |
 | [antennas](https://github.com/TheJF/antennas)       | HDHomeRun emulator for Plex DVR to connect to Tvheadend.                                                                                 | 0      | N/A         |
@@ -301,7 +301,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                   | Description                                         | Stars | Last Commit |
 |------------------------------------------------------------------------|-----------------------------------------------------|-------|-------------|
-| [HakuNeko](https://github.com/manga-download/hakuneko)                 | Manga & Anime Downloader for Linux, Windows & MacOS | 5821  | 2025-12-27  |
+| [HakuNeko](https://github.com/manga-download/hakuneko)                 | Manga & Anime Downloader for Linux, Windows & MacOS | 5825  | 2025-12-27  |
 | [Free Manga Downloader (FMD)](https://github.com/fmd-project-team/FMD) | The new FMD fork! Join our community on Discord!    | 266   | 2020-10-31  |
 
 [Back to Top](#table-of-contents)
@@ -310,9 +310,9 @@ A curated list of awesome warez and piracy links
 
 | Name                                                   | Description                                                                                                                                                                        | Stars | Last Commit |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [jellyfin](https://github.com/jellyfin/jellyfin)       | The Free Software Media System - Server Backend & API                                                                                                                              | 48334 | 2026-02-06  |
+| [jellyfin](https://github.com/jellyfin/jellyfin)       | The Free Software Media System - Server Backend & API                                                                                                                              | 48365 | 2026-02-07  |
 | [Streama](https://github.com/streamaserver/streama)    | Self hosted streaming media server. https://docs.streama-project.com/                                                                                                              | 9809  | 2026-01-04  |
-| [Gerbera](https://github.com/gerbera/gerbera)          | UPnP Media Server for 2026: Stream your digital media through your home network and consume it on all kinds of UPnP supporting devices 📱💻📺                                      | 1333  | 2026-02-02  |
+| [Gerbera](https://github.com/gerbera/gerbera)          | UPnP Media Server for 2026: Stream your digital media through your home network and consume it on all kinds of UPnP supporting devices 📱💻📺                                      | 1334  | 2026-02-07  |
 | [OpenPHT](https://github.com/RasPlex/OpenPHT)          | OpenPHT is a community driven fork of Plex Home Theater                                                                                                                            | 599   | 2022-01-19  |
 | [Viewscreen](https://github.com/viewscreen/viewscreen) | Viewscreen - a personal video streaming server                                                                                                                                     | 231   | 2018-10-02  |
 | [Myflix](https://github.com/pastapojken/Myflix)        | Myflix tries to be a somewhat simple and lightweight "DIY Netflix", similar to Plex, streama or Emby, for your DIY NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. | 0     | N/A         |
@@ -325,7 +325,7 @@ A curated list of awesome warez and piracy links
 |----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [castnow](https://github.com/xat/castnow)                | commandline chromecast player                                                                                                                                                                            | 3820  | 2022-12-06  |
 | [netflix-proxy](https://github.com/ab77/netflix-proxy)   | Smart DNS proxy to watch Netflix                                                                                                                                                                         | 3735  | 2023-05-03  |
-| [PiracyArchive](https://github.com/nid666/PiracyArchive) | A complete backup of the Reddit r/Piracy sub                                                                                                                                                             | 458   | 2024-02-25  |
+| [PiracyArchive](https://github.com/nid666/PiracyArchive) | A complete backup of the Reddit r/Piracy sub                                                                                                                                                             | 459   | 2024-02-25  |
 | [MacGuffin](https://github.com/hwkns/macguffin)          | Automated tools for handling Scene and P2P film releases -- gather and verify metadata, take screenshots and upload them to an image host, create a .torrent file and upload it to a bittorrent tracker. | 95    | 2017-06-05  |
 | [k8s-usenet](https://github.com/aldoborrero/k8s-usenet)  | k8s-usenet is a collection of Helm charts related to Usenet services.                                                                                                                                    | 77    | 2021-02-03  |
 
@@ -354,7 +354,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                   | Description                                                               | Stars | Last Commit |
 |--------------------------------------------------------|---------------------------------------------------------------------------|-------|-------------|
-| [gonic](https://github.com/sentriz/gonic)              | music streaming server / free-software subsonic server API implementation | 2264  | 2026-02-05  |
+| [gonic](https://github.com/sentriz/gonic)              | music streaming server / free-software subsonic server API implementation | 2265  | 2026-02-07  |
 | [LibreSonic](https://github.com/Libresonic/libresonic) | Media streaming software                                                  | 0     | N/A         |
 
 [Back to Top](#table-of-contents)
@@ -363,8 +363,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                | Description                                              | Stars | Last Commit |
 |-----------------------------------------------------|----------------------------------------------------------|-------|-------------|
-| [Lidarr](https://github.com/lidarr/Lidarr)          | Looks and smells like Sonarr but made for music.         | 4984  | 2026-01-18  |
-| [Headphones](https://github.com/rembo10/headphones) | Automatic music downloader for SABnzbd                   | 3773  | 2025-08-08  |
+| [Lidarr](https://github.com/lidarr/Lidarr)          | Looks and smells like Sonarr but made for music.         | 4986  | 2026-01-18  |
+| [Headphones](https://github.com/rembo10/headphones) | Automatic music downloader for SABnzbd                   | 3772  | 2025-08-08  |
 | [betanin](https://github.com/sentriz/betanin)       | beets based mitm of your torrent client and music player | 427   | 2025-06-16  |
 
 [Back to Top](#table-of-contents)
@@ -394,7 +394,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                  | Description                                                   | Stars | Last Commit |
 |-----------------------------------------------------------------------|---------------------------------------------------------------|-------|-------------|
-| [plexinc/pms-docker](https://github.com/plexinc/pms-docker)           | Plex Media Server Docker repo, for all your PMS docker needs. | 3877  | 2026-02-01  |
+| [plexinc/pms-docker](https://github.com/plexinc/pms-docker)           | Plex Media Server Docker repo, for all your PMS docker needs. | 3879  | 2026-02-01  |
 | [linuxserver/docker-plex](https://github.com/linuxserver/docker-plex) | LinuxServer.io Plex Media Server docker image                 | 1381  | 2026-01-28  |
 | [timhaak/plex](https://github.com/timhaak/docker-plex)                | alternative Plex docker image                                 | 0     | N/A         |
 
@@ -454,7 +454,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                                  | Description                                                                                                                                                   | Stars | Last Commit |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [JBOPS](https://github.com/blacktwin/JBOPS)                                           | Just a Bunch Of Plex Scripts                                                                                                                                  | 1887  | 2025-11-05  |
+| [JBOPS](https://github.com/blacktwin/JBOPS)                                           | Just a Bunch Of Plex Scripts                                                                                                                                  | 1889  | 2025-11-05  |
 | [plexupdate](https://github.com/mrworf/plexupdate)                                    | Plex Update script to simplify the life of Linux Plex Media Server users.                                                                                     | 1860  | 2022-11-11  |
 | [Varken](https://github.com/Boerderij/Varken)                                         | Standalone application to aggregate data from the Plex ecosystem into InfluxDB using Grafana as a frontend                                                    | 1182  | 2024-08-07  |
 | [Phlex](https://github.com/d8ahazard/Phlex)                                           | A super-sexy voice interface for the Plex HTPC                                                                                                                | 604   | 2019-04-25  |
@@ -484,7 +484,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                         | Description                                                                                                                               | Stars | Last Commit |
 |------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [nvidia-patch](https://github.com/keylase/nvidia-patch)                      |  This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs. | 4516  | 2026-01-31  |
+| [nvidia-patch](https://github.com/keylase/nvidia-patch)                      |  This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs. | 4518  | 2026-01-31  |
 | [kube-plex](https://github.com/munnerz/kube-plex)                            | Scalable Plex Media Server on Kubernetes -- dispatch transcode jobs as pods on your cluster!                                              | 1244  | 2023-03-28  |
 | [UnicornTranscoder](https://github.com/UnicornTranscoder/UnicornTranscoder)  | Remote transcoder for Plex                                                                                                                | 722   | 2023-03-02  |
 | [Plex-Remote-Transcoder](https://github.com/wnielson/Plex-Remote-Transcoder) | A distributed transcoding backend for Plex                                                                                                | 653   | 2020-06-23  |
@@ -512,7 +512,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                    | Description                                                   | Stars | Last Commit |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|-------|-------------|
-| [Any Soft Keyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | Android (f/w 2.1+) on screen keyboard for multiple languages. | 3227  | 2026-02-07  |
+| [Any Soft Keyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | Android (f/w 2.1+) on screen keyboard for multiple languages. | 3230  | 2026-02-08  |
 
 [Back to Top](#table-of-contents)
 
@@ -528,7 +528,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                                      | Description                                                                                                                                 | Stars | Last Commit |
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [DockSTARTer](https://github.com/GhostWriters/DockSTARTer)                                | DockSTARTer helps you get started with running apps in Docker.                                                                              | 2541  | 2026-02-04  |
+| [DockSTARTer](https://github.com/GhostWriters/DockSTARTer)                                | DockSTARTer helps you get started with running apps in Docker.                                                                              | 2542  | 2026-02-04  |
 | [rtinst](https://github.com/arakasi72/rtinst)                                             | seedbox installation script for Ubuntu and Debian systems                                                                                   | 1223  | 2023-11-05  |
 | [SeedSync](https://github.com/ipsingh06/seedsync)                                         | Sync your seedbox. Fast. And more.                                                                                                          | 333   | 2024-05-04  |
 | [usenet-docker](https://github.com/justinhamlett/usenet-docker)                           | Docker-compose configuration for Sabnzbd, CouchPotato, Plex, Sonarr, Plexpy, Nzbhydra, Muximux, Radarr, NZBGet and Ombi with a Nginx proxy. | 180   | 2017-07-13  |
@@ -542,8 +542,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                             | Description                                                                                                                                                | Stars | Last Commit |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Nebula](https://github.com/slackhq/nebula)      | A scalable overlay networking tool with a focus on performance, simplicity and security                                                                    | 16898 | 2026-02-06  |
-| [sshuttle](https://github.com/sshuttle/sshuttle) | Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux and MacOS.  Supports DNS tunneling. | 13067 | 2026-02-04  |
+| [Nebula](https://github.com/slackhq/nebula)      | A scalable overlay networking tool with a focus on performance, simplicity and security                                                                    | 16900 | 2026-02-06  |
+| [sshuttle](https://github.com/sshuttle/sshuttle) | Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux and MacOS.  Supports DNS tunneling. | 13072 | 2026-02-04  |
 | [n2n](https://github.com/ntop/n2n)               | Peer-to-peer VPN                                                                                                                                           | 6836  | 2024-09-03  |
 
 [Back to Top](#table-of-contents)
@@ -552,9 +552,9 @@ A curated list of awesome warez and piracy links
 
 | Name                                                       | Description                                                                                                                                                                               | Stars | Last Commit |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [BlockTheSpot](https://github.com/mrpond/BlockTheSpot)     | Video, audio & banner adblock/skip for Spotify                                                                                                                                            | 12511 | 2026-02-06  |
+| [BlockTheSpot](https://github.com/mrpond/BlockTheSpot)     | Video, audio & banner adblock/skip for Spotify                                                                                                                                            | 12511 | 2026-02-08  |
 | [EZBlocker](https://github.com/Xeroday/Spotify-Ad-Blocker) | EZBlocker - A Spotify Ad Blocker for Windows                                                                                                                                              | 1855  | 2022-04-17  |
-| [Downtify](https://github.com/eviabs/downtify-premium)     | Downtify is an open source Spofity downloader which makes it possible to download all your favourite songs and/or playlists directly from spotify. A Spotify Premium account is required. | 394   | 2023-03-08  |
+| [Downtify](https://github.com/eviabs/downtify-premium)     | Downtify is an open source Spofity downloader which makes it possible to download all your favourite songs and/or playlists directly from spotify. A Spotify Premium account is required. | 395   | 2023-03-08  |
 
 [Back to Top](#table-of-contents)
 
@@ -570,7 +570,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                       | Description                                                  | Stars | Last Commit |
 |----------------------------------------------------------------------------|--------------------------------------------------------------|-------|-------------|
-| [PimpMyStremio](https://github.com/sungshon/PimpMyStremio)                 | Local add-on manager for Stremio                             | 481   | 2023-10-25  |
+| [PimpMyStremio](https://github.com/sungshon/PimpMyStremio)                 | Local add-on manager for Stremio                             | 482   | 2023-10-25  |
 | [Stremio Downloader](https://github.com/BurningSands70/stremio-downloader) | An application that allows downloading streams from Stremio. | 378   | 2023-09-04  |
 
 [Back to Top](#table-of-contents)
@@ -579,8 +579,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                       | Description                                                                                                                                                                                                         | Stars | Last Commit |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [autosub](https://github.com/agermanidis/autosub)          | [NO LONGER MAINTAINED] Command-line utility for auto-generating subtitles for any video file                                                                                                                        | 4200  | 2024-03-22  |
-| [Bazarr](https://github.com/morpheus65535/bazarr)          | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. | 3767  | 2026-02-06  |
+| [autosub](https://github.com/agermanidis/autosub)          | [NO LONGER MAINTAINED] Command-line utility for auto-generating subtitles for any video file                                                                                                                        | 4201  | 2024-03-22  |
+| [Bazarr](https://github.com/morpheus65535/bazarr)          | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. | 3769  | 2026-02-07  |
 | [vlsub](https://github.com/exebetche/vlsub)                | VLC extension to download subtitles from opensubtitles.org                                                                                                                                                          | 1392  | 2023-09-27  |
 | [nzb-subliminal](https://github.com/caronc/nzb-subliminal) | Fetches subtitles for the videos it's provided. It can be easily integrated into NZBGet and SABnzbd too.                                                                                                            | 110   | 2020-08-26  |
 | [subsync](https://github.com/smacke/subsync)               | Automagically synchronize subtitles with the video.                                                                                                                                                                 | 0     | N/A         |
@@ -591,7 +591,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                             | Description                                                                                                                  | Stars | Last Commit |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [Sonarr](https://github.com/Sonarr/Sonarr)       | Smart PVR for newsgroup and bittorrent users.                                                                                | 13225 | 2026-02-02  |
+| [Sonarr](https://github.com/Sonarr/Sonarr)       | Smart PVR for newsgroup and bittorrent users.                                                                                | 13233 | 2026-02-08  |
 | [SickRage](https://github.com/SiCKRAGE/SiCKRAGE) | Mirror of OFFICIAL SiCKRAGE                                                                                                  | 1534  | 2023-06-06  |
 | [SickGear](https://github.com/SickGear/SickGear) | SickGear has proven the most reliable stable TV fork of the great Sick-Beard to fully automate TV enjoyment with innovation. | 763   | 2026-02-07  |
 
@@ -611,7 +611,7 @@ A curated list of awesome warez and piracy links
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [peerflix](https://github.com/mafintosh/peerflix)                                   | Streaming torrent client for node.js                                                                                          | 6267  | 2022-06-19  |
 | [ruTorrent](https://github.com/Novik/ruTorrent)                                     | Yet another web front-end for rTorrent                                                                                        | 2151  | 2025-11-21  |
-| [RapidBay](https://github.com/hauxir/rapidbay)                                      | Self-hosted torrent video streaming service compatible with Chromecast, AppleTV & Kodi deployable in the cloud                | 821   | 2026-01-26  |
+| [RapidBay](https://github.com/hauxir/rapidbay)                                      | Self-hosted torrent video streaming service compatible with Chromecast, AppleTV & Kodi deployable in the cloud                | 822   | 2026-01-26  |
 | [rtorrent-ps](https://github.com/pyroscope/rtorrent-ps)                             | :art: Extended rTorrent distribution with a fully customizable canvas and colors, other feature additions, and complete docs. | 473   | 2023-07-03  |
 | [pyrocore](https://github.com/pyroscope/pyrocore)                                   | :wrench: A collection of tools for the BitTorrent protocol and especially the rTorrent client                                 | 304   | 2022-12-28  |
 | [AutoRemovePlus](https://github.com/omaralvarez/deluge-autoremoveplus)              | Auto removing of deluge torrents                                                                                              | 154   | 2024-06-08  |
@@ -644,7 +644,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                                               | Description                                                                                                                                                                                                                         | Stars | Last Commit |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
-| [UNIT3D](https://github.com/HDInnovations/UNIT3D)                                  | UNIT3D is a private torrent tracker built using Laravel, Livewire and AlpineJS.                                                                                                                                                     | 2321  | 2026-02-05  |
+| [UNIT3D](https://github.com/HDInnovations/UNIT3D)                                  | UNIT3D is a private torrent tracker built using Laravel, Livewire and AlpineJS.                                                                                                                                                     | 2322  | 2026-02-05  |
 | [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms) | A Curated List Of Torrent Tracker Platforms/Codebases Written In Multiple Coding Languages                                                                                                                                          | 606   | 2025-05-30  |
 | [meanTorrent](https://github.com/taobataoma/meanTorrent)                           | meanTorrent - MEAN.JS BitTorrent Private Tracker - Full-Stack JavaScript Using MongoDB, Express, AngularJS, and Node.js, A BitTorrent Private Tracker CMS with Multilingual, and IRC announce support, CloudFlare support. Demo at: | 494   | 2020-10-01  |
 | [NexusPHP](https://github.com/ZJUT/NexusPHP)                                       | BitTorrent private tracker scripts written in PHP.                                                                                                                                                                                  | 0     | N/A         |
@@ -655,8 +655,8 @@ A curated list of awesome warez and piracy links
 
 | Name                                                | Description                                                                         | Stars | Last Commit |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------|-------|-------------|
-| [Jackett](https://github.com/Jackett/Jackett)       | API Support for your favorite torrent trackers                                      | 14854 | 2026-02-06  |
-| [nzbhydra2](https://github.com/theotherp/nzbhydra2) | Usenet meta search                                                                  | 1554  | 2026-02-01  |
+| [Jackett](https://github.com/Jackett/Jackett)       | API Support for your favorite torrent trackers                                      | 14865 | 2026-02-07  |
+| [nzbhydra2](https://github.com/theotherp/nzbhydra2) | Usenet meta search                                                                  | 1556  | 2026-02-01  |
 | [Cardigann](https://github.com/cardigann/cardigann) | A proxy server for adding new indexers to Sonarr, SickRage and other media managers | 462   | 2021-02-22  |
 
 [Back to Top](#table-of-contents)
@@ -665,7 +665,7 @@ A curated list of awesome warez and piracy links
 
 | Name                                                    | Description                                | Stars | Last Commit |
 |---------------------------------------------------------|--------------------------------------------|-------|-------------|
-| [trackerslist](https://github.com/ngosang/trackerslist) | Updated list of public BitTorrent trackers | 52838 | 2026-02-06  |
+| [trackerslist](https://github.com/ngosang/trackerslist) | Updated list of public BitTorrent trackers | 52852 | 2026-02-07  |
 
 [Back to Top](#table-of-contents)
 
@@ -690,7 +690,7 @@ A curated list of awesome warez and piracy links
 | Name                                                       | Description                                                                                                                                | Stars | Last Commit |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
 | [nZEDb](https://github.com/nZEDb/nZEDb)                    | nZEDb - a fork of nnplus(2011) | NNTP / Usenet / Newsgroup indexer.                                                                        | 637   | 2024-12-02  |
-| [newznab-tmux](https://github.com/NNTmux/newznab-tmux)     | Laravel based usenet indexer                                                                                                               | 261   | 2026-02-06  |
+| [newznab-tmux](https://github.com/NNTmux/newznab-tmux)     | Laravel based usenet indexer                                                                                                               | 261   | 2026-02-07  |
 | [nZEDb-deploy](https://github.com/PREngineer/nZEDb-deploy) | A collection of scripts to automate and simplify the deployment of a nZEDb Usenet Indexer using the new format of their GitHub repository. | 25    | 2019-05-13  |
 
 [Back to Top](#table-of-contents)
