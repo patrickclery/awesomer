@@ -151,6 +151,7 @@ module Awesomer
     option :prune, default: false, desc: 'Run pruning to remove invalid/orphaned lists', type: :boolean
     option :limit, default: nil, desc: 'Limit number of lists to process', type: :numeric
     option :threshold, default: nil, desc: 'Minimum stars for repos to appear in markdown', type: :numeric
+    option :markdown_only, default: false, desc: 'Only regenerate markdown (skip API calls)', type: :boolean
     def refresh
       refresh_command = Awesomer::Commands::Refresh.new
       refresh_command.options = options

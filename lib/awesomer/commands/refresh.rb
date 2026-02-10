@@ -41,13 +41,26 @@ module Awesomer
                    desc: 'Minimum stars for repos to appear in markdown (default: per-list setting, usually 10)',
                    type: :numeric
 
+      class_option :markdown_only,
+                   default: false,
+                   desc: 'Only regenerate markdown files (skip fetching, syncing, pruning)',
+                   type: :boolean
+
       def execute
+        @start_time = Time.current
+        @stats = {items_synced: 0, lists_failed: 0, lists_processed: 0, star_history_queued: 0}
+
+        if options[:markdown_only]
+          say '📝 Markdown-only mode: regenerating markdown from DB', :cyan
+          say '=' * 70, :green
+          generate_markdown
+          show_final_summary
+          return
+        end
+
         say '🔄 Starting Full Refresh', :cyan
         say "Mode: #{options[:async] ? 'Asynchronous (background jobs)' : 'Synchronous (inline)'}", :yellow
         say '=' * 70, :green
-
-        @start_time = Time.current
-        @stats = { lists_processed: 0, lists_failed: 0, items_synced: 0, star_history_queued: 0 }
 
         if options[:async]
           run_async_refresh
