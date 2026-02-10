@@ -8,9 +8,9 @@ RSpec.describe ProcessCategoryServiceEnhanced do
 
   describe '#call' do
     context 'when categories are in random order' do
-      let!(:category_z) { create(:category, awesome_list: awesome_list, name: 'Zebra Category') }
-      let!(:category_a) { create(:category, awesome_list: awesome_list, name: 'Alpha Category') }
-      let!(:category_m) { create(:category, awesome_list: awesome_list, name: 'Middle Category') }
+      let!(:category_z) { create(:category, awesome_list:, name: 'Zebra Category') }
+      let!(:category_a) { create(:category, awesome_list:, name: 'Alpha Category') }
+      let!(:category_m) { create(:category, awesome_list:, name: 'Middle Category') }
 
       before do
         # Create items for each category so they're not empty
@@ -20,11 +20,11 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       end
 
       example 'generates categories in alphabetical order' do
-        result = service.call(awesome_list: awesome_list)
+        result = service.call(awesome_list:)
 
         expect(result).to be_success
         file_path = result.value!
-        expect(File.exist?(file_path)).to be true
+        expect(File.exist?(file_path)).to be(true)
 
         content = File.read(file_path)
 
@@ -39,7 +39,7 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         results = []
 
         3.times do
-          result = service.call(awesome_list: awesome_list)
+          result = service.call(awesome_list:)
           expect(result).to be_success
 
           content = File.read(result.value!)
@@ -54,30 +54,30 @@ RSpec.describe ProcessCategoryServiceEnhanced do
     end
 
     context 'when GitHub items have missing stars' do
-      let!(:category) { create(:category, awesome_list: awesome_list, name: 'Test Category') }
+      let!(:category) { create(:category, awesome_list:, name: 'Test Category') }
 
       example 'raises MissingStarsError when GitHub items have no stars data' do
         # Create a GitHub item without stars (simulates failed API fetch)
-        create(:category_item, category: category, name: 'Missing Stars Item',
-               primary_url: 'https://github.com/owner/missing-repo',
-               stars: nil)
+        create(:category_item, category:, name: 'Missing Stars Item',
+                               primary_url: 'https://github.com/owner/missing-repo',
+                               stars: nil)
 
-        expect {
-          service.call(awesome_list: awesome_list)
-        }.to raise_error(ProcessCategoryServiceEnhanced::MissingStarsError, /Missing star data for GitHub items/)
+        expect do
+          service.call(awesome_list:)
+        end.to raise_error(ProcessCategoryServiceEnhanced::MissingStarsError, /Missing star data for GitHub items/)
       end
 
       example 'includes names of items missing stars in the error message' do
-        create(:category_item, category: category, name: 'Repo Without Stars',
-               primary_url: 'https://github.com/owner/repo-without-stars',
-               stars: nil)
-        create(:category_item, category: category, name: 'Another Missing',
-               primary_url: 'https://github.com/owner/another-missing',
-               stars: nil)
+        create(:category_item, category:, name: 'Repo Without Stars',
+                               primary_url: 'https://github.com/owner/repo-without-stars',
+                               stars: nil)
+        create(:category_item, category:, name: 'Another Missing',
+                               primary_url: 'https://github.com/owner/another-missing',
+                               stars: nil)
 
-        expect {
-          service.call(awesome_list: awesome_list)
-        }.to raise_error(ProcessCategoryServiceEnhanced::MissingStarsError) do |error|
+        expect do
+          service.call(awesome_list:)
+        end.to raise_error(ProcessCategoryServiceEnhanced::MissingStarsError) do |error|
           expect(error.message).to include('Repo Without Stars')
           expect(error.message).to include('Another Missing')
         end
@@ -85,44 +85,45 @@ RSpec.describe ProcessCategoryServiceEnhanced do
 
       example 'does not raise error when non-GitHub items have no stars' do
         # Non-GitHub URLs don't require stars
-        create(:category_item, category: category, name: 'External Site',
-               primary_url: 'https://example.com/tool',
-               stars: nil)
+        create(:category_item, category:, name: 'External Site',
+                               primary_url: 'https://example.com/tool',
+                               stars: nil)
 
-        expect { service.call(awesome_list: awesome_list) }.not_to raise_error
+        expect { service.call(awesome_list:) }.not_to raise_error
       end
 
       example 'does not raise error when all GitHub items have stars' do
-        create(:category_item, category: category, name: 'Item With Stars',
-               primary_url: 'https://github.com/owner/repo',
-               stars: 100)
+        create(:category_item, category:, name: 'Item With Stars',
+                               primary_url: 'https://github.com/owner/repo',
+                               stars: 100)
 
-        expect { service.call(awesome_list: awesome_list) }.not_to raise_error
+        expect { service.call(awesome_list:) }.not_to raise_error
       end
     end
 
     context 'source link' do
-      let!(:category) { create(:category, awesome_list: awesome_list, name: 'Test Category') }
+      let!(:category) { create(:category, awesome_list:, name: 'Test Category') }
 
       before do
-        create(:category_item, category: category, name: 'Test Item', primary_url: 'https://example.com/test', stars: 100)
+        create(:category_item, category:, name: 'Test Item', primary_url: 'https://example.com/test',
+                               stars: 100)
       end
 
       example 'includes a link to the original GitHub repository' do
-        result = service.call(awesome_list: awesome_list)
+        result = service.call(awesome_list:)
 
         expect(result).to be_success
         content = File.read(result.value!)
 
         # Should contain a source link to the original repo
         expect(content).to include('https://github.com/test/awesome-test')
-        expect(content).to match(/Source:.*github\.com\/test\/awesome-test/)
+        expect(content).to match(%r{Source:.*github\.com/test/awesome-test})
       end
 
       example 'places the source link after the title/description and before the table of contents' do
         awesome_list.update!(name: 'Test List', description: 'A test description')
 
-        result = service.call(awesome_list: awesome_list)
+        result = service.call(awesome_list:)
 
         expect(result).to be_success
         content = File.read(result.value!)
@@ -140,8 +141,8 @@ RSpec.describe ProcessCategoryServiceEnhanced do
     end
 
     context 'back to top links' do
-      let!(:category_a) { create(:category, awesome_list: awesome_list, name: 'Alpha Category') }
-      let!(:category_b) { create(:category, awesome_list: awesome_list, name: 'Beta Category') }
+      let!(:category_a) { create(:category, awesome_list:, name: 'Alpha Category') }
+      let!(:category_b) { create(:category, awesome_list:, name: 'Beta Category') }
 
       before do
         create(:category_item, category: category_a, name: 'Item A', primary_url: 'https://example.com/a', stars: 100)
@@ -149,18 +150,18 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       end
 
       example 'includes a Back to Top link after each category table' do
-        result = service.call(awesome_list: awesome_list)
+        result = service.call(awesome_list:)
 
         expect(result).to be_success
         content = File.read(result.value!)
 
         # Should have Back to Top links
-        back_to_top_links = content.scan(/\[Back to Top\]\(#table-of-contents\)/)
+        back_to_top_links = content.scan('[Back to Top](#table-of-contents)')
         expect(back_to_top_links.count).to eq(2) # One for each category
       end
 
       example 'places Back to Top link after the category table' do
-        result = service.call(awesome_list: awesome_list)
+        result = service.call(awesome_list:)
 
         expect(result).to be_success
         content = File.read(result.value!)
@@ -175,6 +176,81 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         # Back to Top should be between the two categories
         expect(first_back_to_top_idx).to be > alpha_idx
         expect(first_back_to_top_idx).to be < beta_idx
+      end
+    end
+
+    context 'with star threshold filtering' do
+      let!(:category) { create(:category, awesome_list:, name: 'Tools') }
+
+      before do
+        create(:category_item, category:, name: 'Popular Repo',
+                               primary_url: 'https://github.com/owner/popular', stars: 500)
+        create(:category_item, category:, name: 'Small Repo',
+                               primary_url: 'https://github.com/owner/small', stars: 3)
+        create(:category_item, category:, name: 'Medium Repo',
+                               primary_url: 'https://github.com/owner/medium', stars: 15)
+        create(:category_item, category:, name: 'Non-GitHub Tool',
+                               primary_url: 'https://example.com/tool', stars: nil)
+      end
+
+      example 'excludes items below the star threshold' do
+        result = service.call(awesome_list:, star_threshold: 10)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        expect(content).to include('Popular Repo')
+        expect(content).to include('Medium Repo')
+        expect(content).not_to include('Small Repo')
+      end
+
+      example 'always includes non-GitHub items regardless of threshold' do
+        result = service.call(awesome_list:, star_threshold: 10)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        expect(content).to include('Non-GitHub Tool')
+      end
+
+      example 'uses the awesome_list sync_threshold_value as default when no threshold given' do
+        awesome_list.update!(sync_threshold: 100)
+
+        result = service.call(awesome_list:)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        expect(content).to include('Popular Repo')
+        expect(content).not_to include('Medium Repo')
+        expect(content).not_to include('Small Repo')
+      end
+
+      example 'includes all items when threshold is 0' do
+        result = service.call(awesome_list:, star_threshold: 0)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        expect(content).to include('Popular Repo')
+        expect(content).to include('Medium Repo')
+        expect(content).to include('Small Repo')
+      end
+
+      example 'removes category when all GitHub items are below threshold and no non-GitHub items exist' do
+        # Create a separate category with only GitHub items
+        github_only_category = create(:category, awesome_list:, name: 'GitHub Only')
+        create(:category_item, category: github_only_category, name: 'Low Stars Repo',
+                               primary_url: 'https://github.com/owner/low', stars: 5)
+        create(:category_item, category: github_only_category, name: 'Also Low Repo',
+                               primary_url: 'https://github.com/owner/also-low', stars: 8)
+
+        result = service.call(awesome_list:, star_threshold: 1000)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        expect(content).not_to include('## GitHub Only')
       end
     end
   end

@@ -12,7 +12,8 @@ class ProcessCategoryServiceEnhanced
 
   TARGET_DIR = Rails.root.join('static', 'awesomer')
 
-  def call(awesome_list:)
+  def call(awesome_list:, star_threshold: nil)
+    @star_threshold = star_threshold || awesome_list.sync_threshold_value
     # Validate that all GitHub items have star data before generating markdown
     validate_github_items_have_stars!(awesome_list)
     # Skip if no categories with items
@@ -88,16 +89,19 @@ class ProcessCategoryServiceEnhanced
     content << "**Source:** [#{awesome_list.github_repo}](https://github.com/#{awesome_list.github_repo})"
     content << ''
 
-    # Add table of contents
-    category_names = categories.map(&:name)
-    toc = TableOfContentsGenerator.generate(category_names)
+    # Process each category first to determine which have visible items
+    category_sections = categories.filter_map do |category|
+      category_content = generate_category_content(category)
+      {content: category_content, name: category.name} if category_content.present?
+    end
+
+    # Add table of contents using only categories that produced content
+    visible_names = category_sections.map { |s| s[:name] }
+    toc = TableOfContentsGenerator.generate(visible_names)
     content << toc if toc.present?
 
-    # Process each category
-    categories.each do |category|
-      category_content = generate_category_content(category)
-      content << category_content if category_content.present?
-    end
+    # Append category sections
+    category_sections.each { |s| content << s[:content] }
 
     content.join("\n")
   end
@@ -105,6 +109,12 @@ class ProcessCategoryServiceEnhanced
   def generate_category_content(category)
     # Skip empty categories
     items = category.category_items.where.not(primary_url: [nil, ''])
+    return nil if items.empty?
+
+    # Filter out GitHub items below star threshold
+    items = items.reject do |item|
+      item.primary_url&.include?('github.com') && !item.stars.nil? && item.stars < @star_threshold
+    end
     return nil if items.empty?
 
     content = []
