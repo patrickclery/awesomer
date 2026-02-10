@@ -36,6 +36,11 @@ module Awesomer
                    desc: 'Limit number of lists to process',
                    type: :numeric
 
+      class_option :threshold,
+                   default: nil,
+                   desc: 'Minimum stars for repos to appear in markdown (default: per-list setting, usually 10)',
+                   type: :numeric
+
       def execute
         say '🔄 Starting Full Refresh', :cyan
         say "Mode: #{options[:async] ? 'Asynchronous (background jobs)' : 'Synchronous (inline)'}", :yellow
@@ -75,6 +80,13 @@ module Awesomer
         if options[:star_history]
           say "\n📈 Queueing star history jobs...", :cyan
           queue_all_star_history_jobs
+        end
+
+        if options[:threshold]
+          say "  Using star threshold: #{options[:threshold]} (overriding per-list defaults)", :yellow
+          say '  Note: --threshold is applied during markdown generation (step 5).', :yellow
+          say '  In async mode, run a sync refresh after jobs complete to apply: ' \
+              "awesomer refresh --no-async --threshold=#{options[:threshold]}", :yellow
         end
 
         say "\n💡 Jobs are queued. Run `bin/jobs` to process them.", :yellow
@@ -282,8 +294,9 @@ module Awesomer
         failed_count = 0
         failed_lists = []
 
+        threshold = options[:threshold]
         AwesomeList.active.find_each do |list|
-          result = service.call(awesome_list: list)
+          result = service.call(awesome_list: list, star_threshold: threshold)
           if result.success? && result.value! != :deleted
             success_count += 1
             print '.'
@@ -316,6 +329,8 @@ module Awesomer
         say '=' * 70, :green
 
         say "\n  Mode: #{options[:async] ? 'Asynchronous' : 'Synchronous'}"
+        threshold_display = options[:threshold] || 'per-list default'
+        say "  Threshold: #{threshold_display} stars minimum"
 
         if options[:async]
           say "\n  Jobs Queued:"

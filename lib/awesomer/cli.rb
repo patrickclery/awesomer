@@ -150,6 +150,7 @@ module Awesomer
     option :star_history, default: true, desc: 'Fetch star history (trending data)', type: :boolean
     option :prune, default: false, desc: 'Run pruning to remove invalid/orphaned lists', type: :boolean
     option :limit, default: nil, desc: 'Limit number of lists to process', type: :numeric
+    option :threshold, default: nil, desc: 'Minimum stars for repos to appear in markdown', type: :numeric
     def refresh
       refresh_command = Awesomer::Commands::Refresh.new
       refresh_command.options = options
