@@ -253,5 +253,128 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(content).not_to include('## GitHub Only')
       end
     end
+
+    context 'with top 10 section' do
+      let!(:category_a) { create(:category, awesome_list:, name: 'Frameworks') }
+      let!(:category_b) { create(:category, awesome_list:, name: 'Libraries') }
+
+      before do
+        create(:category_item, category: category_a, name: 'Top One',
+                               primary_url: 'https://github.com/owner/top1', stars: 50_000)
+        create(:category_item, category: category_a, name: 'Top Two',
+                               primary_url: 'https://github.com/owner/top2', stars: 40_000)
+        create(:category_item, category: category_b, name: 'Top Three',
+                               primary_url: 'https://github.com/owner/top3', stars: 30_000)
+        create(:category_item, category: category_a, name: 'Top Four',
+                               primary_url: 'https://github.com/owner/top4', stars: 20_000)
+        create(:category_item, category: category_b, name: 'Top Five',
+                               primary_url: 'https://github.com/owner/top5', stars: 15_000)
+        create(:category_item, category: category_a, name: 'Top Six',
+                               primary_url: 'https://github.com/owner/top6', stars: 10_000)
+        create(:category_item, category: category_b, name: 'Top Seven',
+                               primary_url: 'https://github.com/owner/top7', stars: 8_000)
+        create(:category_item, category: category_a, name: 'Top Eight',
+                               primary_url: 'https://github.com/owner/top8', stars: 5_000)
+        create(:category_item, category: category_b, name: 'Top Nine',
+                               primary_url: 'https://github.com/owner/top9', stars: 3_000)
+        create(:category_item, category: category_a, name: 'Top Ten',
+                               primary_url: 'https://github.com/owner/top10', stars: 2_000)
+        create(:category_item, category: category_b, name: 'Eleventh',
+                               primary_url: 'https://github.com/owner/eleventh', stars: 1_000)
+        create(:category_item, category: category_a, name: 'Twelfth',
+                               primary_url: 'https://github.com/owner/twelfth', stars: 500)
+      end
+
+      example 'includes a Top 10 section in the output' do
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+
+        expect(content).to include('## Top 10')
+      end
+
+      example 'shows exactly 10 items in the Top 10 table' do
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+
+        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+
+        data_rows = top_10_section.lines.select { |l| l.start_with?('|') && !l.include?('---') && !l.include?('Name') }
+        expect(data_rows.size).to eq(10)
+      end
+
+      example 'lists items in descending star order' do
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+
+        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+
+        expect(top_10_section).to include('Top One')
+        expect(top_10_section).to include('Top Ten')
+        expect(top_10_section).not_to include('Eleventh')
+        expect(top_10_section).not_to include('Twelfth')
+
+        expect(top_10_section.index('Top One')).to be < top_10_section.index('Top Ten')
+      end
+
+      example 'includes category name in the Top 10 table' do
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+
+        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+
+        expect(top_10_section).to include('Frameworks')
+        expect(top_10_section).to include('Libraries')
+      end
+
+      example 'places Top 10 after Table of Contents and before first category' do
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+        lines = content.lines.map(&:strip)
+
+        toc_idx = lines.index { |l| l == '## Table of Contents' }
+        top_10_idx = lines.index { |l| l == '## Top 10' }
+        first_category_idx = lines.index { |l| l == '## Frameworks' }
+
+        expect(toc_idx).to be < top_10_idx
+        expect(top_10_idx).to be < first_category_idx
+      end
+
+      example 'includes Top 10 in the Table of Contents' do
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+
+        expect(content).to include('- [Top 10](#top-10)')
+      end
+
+      example 'omits Top 10 when threshold leaves fewer than 10 qualifying items' do
+        # threshold 10_000 leaves only 6 qualifying items (Top One through Top Six)
+        result = service.call(awesome_list:, star_threshold: 10_000)
+        content = File.read(result.value!)
+
+        expect(content).not_to include('## Top 10')
+      end
+
+      example 'excludes items below threshold from Top 10' do
+        # threshold 500 leaves all 12 items qualifying; Top 10 renders, Twelfth (500) is at boundary
+        result = service.call(awesome_list:, star_threshold: 500)
+        content = File.read(result.value!)
+
+        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+
+        expect(top_10_section).to include('Top One')
+        expect(top_10_section).to include('Top Ten')
+        expect(top_10_section).not_to include('Eleventh')
+      end
+
+      example 'omits Top 10 section when fewer than 10 items exist' do
+        CategoryItem.where(name: ['Top Six', 'Top Seven', 'Top Eight', 'Top Nine', 'Top Ten', 'Eleventh',
+                                  'Twelfth']).destroy_all
+
+        result = service.call(awesome_list:, star_threshold: 0)
+        content = File.read(result.value!)
+
+        expect(content).not_to include('## Top 10')
+      end
+    end
   end
 end

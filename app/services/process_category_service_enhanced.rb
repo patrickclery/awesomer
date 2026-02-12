@@ -95,10 +95,17 @@ class ProcessCategoryServiceEnhanced
       {content: category_content, name: category.name} if category_content.present?
     end
 
+    # Build Top 10 section (needs all items across categories, respecting threshold)
+    top_10_section = generate_top_10_section(awesome_list)
+
     # Add table of contents using only categories that produced content
     visible_names = category_sections.map { |s| s[:name] }
+    visible_names.unshift('Top 10') if top_10_section
     toc = TableOfContentsGenerator.generate(visible_names)
     content << toc if toc.present?
+
+    # Add Top 10 section after ToC, before categories
+    content << top_10_section if top_10_section
 
     # Append category sections
     category_sections.each { |s| content << s[:content] }
@@ -173,6 +180,33 @@ class ProcessCategoryServiceEnhanced
     content << '[Back to Top](#table-of-contents)'
     content << ''
     content.join("\n")
+  end
+
+  def generate_top_10_section(awesome_list)
+    items = awesome_list.category_items
+                        .includes(:category)
+                        .where.not(primary_url: [nil, ''])
+                        .where.not(stars: nil)
+                        .where('stars >= ?', @star_threshold)
+                        .order(stars: :desc)
+                        .limit(10)
+
+    items = items.to_a
+    return nil if items.size < 10
+
+    table_rows = items.map do |item|
+      name_md = "[#{item.name}](#{item.primary_url})"
+      last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
+      [name_md, item.category.name, item.stars.to_s, last_commit_md]
+    end
+
+    table = Terminal::Table.new do |t|
+      t.headings = ['Name', 'Category', 'Stars', 'Last Commit']
+      table_rows.each { |row| t.add_row(row) }
+      t.style = {border: :markdown}
+    end
+
+    ['## Top 10', '', table.to_s, '', '[Back to Top](#table-of-contents)', ''].join("\n")
   end
 
   def ensure_target_directory_exists
