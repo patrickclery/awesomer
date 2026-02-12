@@ -1,4 +1,4 @@
-# Awesome List 24
+# Awesome List 27
 
 A curated list of awesome things
 
@@ -6,24 +6,13 @@ A curated list of awesome things
 
 ## Table of Contents
 
-- [Frameworks](#frameworks)
-- [Libraries](#libraries)
+- [Tools](#tools)
 
-## Frameworks
+## Tools
 
-| Name                                      | Description              | Stars | Last Commit |
-|-------------------------------------------|--------------------------|-------|-------------|
-| [Top One](https://github.com/owner/top1)  | A useful tool or library | 50000 | N/A         |
-| [Top Two](https://github.com/owner/top2)  | A useful tool or library | 40000 | N/A         |
-| [Top Four](https://github.com/owner/top4) | A useful tool or library | 20000 | N/A         |
-
-[Back to Top](#table-of-contents)
-
-## Libraries
-
-| Name                                       | Description              | Stars | Last Commit |
-|--------------------------------------------|--------------------------|-------|-------------|
-| [Top Three](https://github.com/owner/top3) | A useful tool or library | 30000 | N/A         |
-| [Top Five](https://github.com/owner/top5)  | A useful tool or library | 15000 | N/A         |
+| Name                                                    | Description              | Stars | 30d  | Last Commit |
+|---------------------------------------------------------|--------------------------|-------|------|-------------|
+| [Trending Repo](https://github.com/owner/trending-repo) | A useful tool or library | 5000  | +500 | N/A         |
+| [Stable Repo](https://github.com/owner/stable-repo)     | A useful tool or library | 3000  |      | N/A         |
 
 [Back to Top](#table-of-contents)
