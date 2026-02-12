@@ -14,6 +14,7 @@ class ProcessCategoryServiceEnhanced
 
   def call(awesome_list:, star_threshold: nil)
     @star_threshold = star_threshold || awesome_list.sync_threshold_value
+    @sort_preference = awesome_list.sort_preference
     # Validate that all GitHub items have star data before generating markdown
     validate_github_items_have_stars!(awesome_list)
     # Skip if no categories with items
@@ -128,15 +129,24 @@ class ProcessCategoryServiceEnhanced
     content << "## #{category.name}"
     content << ''
 
-    # Sort items by stars (descending, nil stars last)
+    # Sort items by preference (descending, nil values last)
     sorted_items = items.sort do |a, b|
-      stars_a = a.stars.to_i
-      stars_b = b.stars.to_i
-      if stars_a == stars_b
-        # Secondary sort by name (ascending) if stars are equal
-        a.name.downcase <=> b.name.downcase
+      if @sort_preference == 'trending_30d'
+        trend_a = a.repo&.stars_30d.to_i
+        trend_b = b.repo&.stars_30d.to_i
+        if trend_a == trend_b
+          a.name.downcase <=> b.name.downcase
+        else
+          trend_b <=> trend_a
+        end
       else
-        stars_b <=> stars_a # Descending for stars
+        stars_a = a.stars.to_i
+        stars_b = b.stars.to_i
+        if stars_a == stars_b
+          a.name.downcase <=> b.name.downcase
+        else
+          stars_b <=> stars_a
+        end
       end
     end
 

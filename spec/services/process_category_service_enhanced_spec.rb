@@ -377,6 +377,32 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       end
     end
 
+    context 'with sort_preference set to trending_30d' do
+      let!(:category) { create(:category, awesome_list:, name: 'Tools') }
+      let!(:repo_high_stars) { create(:repo, github_repo: 'owner/high-stars', stars: 50_000, stars_30d: 100) }
+      let!(:repo_high_trend) { create(:repo, github_repo: 'owner/high-trend', stars: 5000, stars_30d: 2000) }
+
+      before do
+        awesome_list.update!(sort_preference: 'trending_30d')
+        create(:category_item, category:, name: 'High Stars',
+               primary_url: 'https://github.com/owner/high-stars',
+               github_repo: 'owner/high-stars', stars: 50_000, repo: repo_high_stars)
+        create(:category_item, category:, name: 'High Trend',
+               primary_url: 'https://github.com/owner/high-trend',
+               github_repo: 'owner/high-trend', stars: 5000, repo: repo_high_trend)
+      end
+
+      example 'sorts items by 30d trending instead of total stars' do
+        result = service.call(awesome_list:)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        # High Trend (2000 30d) should appear before High Stars (100 30d)
+        expect(content.index('High Trend')).to be < content.index('High Stars')
+      end
+    end
+
     context 'with 30d trending column' do
       let!(:category) { create(:category, awesome_list:, name: 'Tools') }
       let!(:repo_with_trend) { create(:repo, github_repo: 'owner/trending-repo', stars: 5000, stars_30d: 500) }
