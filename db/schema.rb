@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_02_12_040944) do
+ActiveRecord::Schema[8.0].define(version: 2026_02_12_042750) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -80,16 +80,6 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_040944) do
     t.string "repo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "repo_stats", force: :cascade do |t|
-    t.integer "awesome_list_id", null: false
-    t.integer "stars"
-    t.integer "commits_past_year"
-    t.datetime "last_commit_at"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["awesome_list_id"], name: "index_repo_stats_on_awesome_list_id"
   end
 
   create_table "repos", force: :cascade do |t|
@@ -267,7 +257,6 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_040944) do
   add_foreign_key "categories", "categories", column: "parent_id"
   add_foreign_key "category_items", "categories"
   add_foreign_key "category_items", "repos"
-  add_foreign_key "repo_stats", "awesome_lists"
   add_foreign_key "solid_queue_blocked_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_claimed_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_failed_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
