@@ -1,3 +1,4 @@
+.DS_Store
 .idea/
 db/awesomer.sqlite3
 # Ignore master key for decrypting credentials and more.
