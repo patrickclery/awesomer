@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_02_09_004301) do
+ActiveRecord::Schema[8.0].define(version: 2026_02_12_040250) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -87,6 +87,20 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_09_004301) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["awesome_list_id"], name: "index_repo_stats_on_awesome_list_id"
+  end
+
+  create_table "repos", force: :cascade do |t|
+    t.string "github_repo", null: false
+    t.string "description"
+    t.integer "stars"
+    t.integer "previous_stars"
+    t.datetime "last_commit_at"
+    t.integer "stars_30d"
+    t.integer "stars_90d"
+    t.datetime "star_history_fetched_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["github_repo"], name: "index_repos_on_github_repo", unique: true
   end
 
   create_table "solid_cache_entries", force: :cascade do |t|
@@ -221,6 +235,17 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_09_004301) do
     t.index ["key"], name: "index_solid_queue_semaphores_on_key", unique: true
   end
 
+  create_table "star_snapshots", force: :cascade do |t|
+    t.bigint "repo_id", null: false
+    t.integer "stars", null: false
+    t.date "snapshot_date", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["repo_id", "snapshot_date"], name: "index_star_snapshots_on_repo_id_and_snapshot_date", unique: true
+    t.index ["repo_id"], name: "index_star_snapshots_on_repo_id"
+    t.index ["snapshot_date"], name: "index_star_snapshots_on_snapshot_date"
+  end
+
   create_table "sync_logs", force: :cascade do |t|
     t.bigint "awesome_list_id", null: false
     t.datetime "started_at", null: false
@@ -245,5 +270,6 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_09_004301) do
   add_foreign_key "solid_queue_ready_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_recurring_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_scheduled_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
+  add_foreign_key "star_snapshots", "repos"
   add_foreign_key "sync_logs", "awesome_lists"
 end
