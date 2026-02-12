@@ -183,6 +183,10 @@ From `.cursorrules` and `CLAUDE.local.md`:
 - Follow existing patterns: dependency injection, Result monads, service objects
 - Never commit API keys or sensitive data to the repository
 
+### Plan Documents
+
+After completing a feature via `superpowers:executing-plans`, commit the plan document from `docs/plans/` along with the implementation. Plans represent finalized architectural decisions and serve as documentation for the feature.
+
 ### "commit all" Workflow
 
 When the user says "commit all", commit changes in **both** repos:
