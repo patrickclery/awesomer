@@ -243,7 +243,7 @@ RSpec.describe Awesomer::Commands::Sync do
 
     after do
       # Clean up test files
-      %w[active-repo.md archived-repo.md orphaned-repo.md].each do |f|
+      %w[active-repo.md archived-repo.md orphaned-repo.md README.md].each do |f|
         path = markdown_dir.join(f)
         File.delete(path) if File.exist?(path)
       end

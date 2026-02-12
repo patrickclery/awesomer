@@ -161,7 +161,7 @@ class ProcessCategoryServiceEnhanced
 
         # Show stars and last commit, or N/A if not available
         stars_md = item.stars.nil? ? 'N/A' : item.stars.to_s
-        trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : 'N/A'
+        trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
         last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
 
         [name_md, description_md, stars_md, trending_md, last_commit_md]
@@ -207,7 +207,7 @@ class ProcessCategoryServiceEnhanced
 
     table_rows = items.map do |item|
       name_md = "[#{item.name}](#{item.primary_url})"
-      trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : 'N/A'
+      trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
       last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
       [name_md, item.category.name, item.stars.to_s, trending_md, last_commit_md]
     end

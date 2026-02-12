@@ -427,13 +427,13 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(content).to include('+500')
       end
 
-      example 'shows N/A for items without trending data' do
+      example 'shows blank for items without trending data' do
         result = service.call(awesome_list:)
         content = File.read(result.value!)
 
-        # The stable repo row should show N/A for 30d
+        # The stable repo row should not show any +N value in the 30d column
         lines = content.lines.select { |l| l.include?('Stable Repo') }
-        expect(lines.first).to include('N/A')
+        expect(lines.first).not_to include('+')
       end
     end
   end
