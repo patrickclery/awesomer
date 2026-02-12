@@ -6,6 +6,7 @@ A curated list of awesome Linux Containers frameworks, libraries and software
 
 ## Table of Contents
 
+- [Top 10](#top-10)
 - [Containers](#containers)
 - [Dashboard](#dashboard)
 - [Filesystem](#filesystem)
@@ -14,6 +15,23 @@ A curated list of awesome Linux Containers frameworks, libraries and software
 - [Partial Access](#partial-access)
 - [Sandboxes](#sandboxes)
 - [Security](#security)
+
+## Top 10
+
+| Name                                                                     | Category       | Stars | Last Commit |
+|--------------------------------------------------------------------------|----------------|-------|-------------|
+| [Moby](https://github.com/moby/moby)                                     | Partial Access | 70633 | 2025-09-06  |
+| [dive](https://github.com/wagoodman/dive)                                | Filesystem     | 51935 | 2025-08-21  |
+| [portainer](https://github.com/portainer/portainer)                      | Dashboard      | 34360 | 2025-09-05  |
+| [Docker](https://github.com/veggiemonk/awesome-docker)                   | Hypervisors    | 33607 | 2025-08-26  |
+| [firecracker](https://github.com/firecracker-microvm/firecracker)        | Containers     | 30232 | 2025-09-04  |
+| [gvisor](https://github.com/google/gvisor)                               | Security       | 16935 | 2025-09-06  |
+| [kaniko](https://github.com/GoogleContainerTools/kaniko)                 | Filesystem     | 15677 | 2025-06-03  |
+| [runc](https://github.com/opencontainers/runc)                           | Containers     | 12630 | 2025-09-05  |
+| [Bocker](https://github.com/p8952/bocker)                                | Containers     | 12439 | 2017-12-09  |
+| [Docker bench security](https://github.com/docker/docker-bench-security) | Security       | 9477  | 2024-10-21  |
+
+[Back to Top](#table-of-contents)
 
 ## Containers
 
