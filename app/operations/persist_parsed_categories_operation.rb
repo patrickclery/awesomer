@@ -50,6 +50,11 @@ class PersistParsedCategoriesOperation
         # Preserve existing stats if available
         existing_stats = existing_items_by_repo[item_attrs[:github_repo]] || {}
 
+        # Find or create repo if github_repo is present
+        repo = if item_attrs[:github_repo].present?
+                 Repo.find_or_create_by!(github_repo: item_attrs[:github_repo])
+               end
+
         category.category_items.create!(
           demo_url: item_attrs[:demo_url],
           description: item_attrs[:description],
@@ -57,6 +62,7 @@ class PersistParsedCategoriesOperation
           last_commit_at: item_attrs[:last_commit_at] || existing_stats[:last_commit_at],
           name: item_attrs[:name],
           primary_url: item_attrs[:primary_url],
+          repo: repo,
           stars: item_attrs[:stars] || existing_stats[:stars],
           stars_30d: existing_stats[:stars_30d],
           stars_90d: existing_stats[:stars_90d],

@@ -209,6 +209,78 @@ RSpec.describe PersistParsedCategoriesOperation do
     end
   end
 
+  context 'repo linking' do
+    example 'creates a Repo record and links it to the category_item' do
+      parsed = [
+        {
+          name: 'Tools',
+          items: [
+            {
+              name: 'MyTool',
+              primary_url: 'https://github.com/owner/mytool',
+              github_repo: 'owner/mytool',
+              description: 'A tool'
+            }
+          ]
+        }
+      ]
+
+      result = described_class.new.call(awesome_list:, parsed_categories: parsed)
+
+      expect(result).to be_success
+      item = CategoryItem.find_by(name: 'MyTool')
+      expect(item.repo).to be_present
+      expect(item.repo.github_repo).to eq('owner/mytool')
+    end
+
+    example 'reuses existing Repo record for the same github_repo' do
+      existing_repo = create(:repo, github_repo: 'owner/mytool', stars: 999)
+
+      parsed = [
+        {
+          name: 'Tools',
+          items: [
+            {
+              name: 'MyTool',
+              primary_url: 'https://github.com/owner/mytool',
+              github_repo: 'owner/mytool',
+              description: 'A tool'
+            }
+          ]
+        }
+      ]
+
+      result = described_class.new.call(awesome_list:, parsed_categories: parsed)
+
+      expect(result).to be_success
+      item = CategoryItem.find_by(name: 'MyTool')
+      expect(item.repo).to eq(existing_repo)
+      expect(Repo.where(github_repo: 'owner/mytool').count).to eq(1)
+    end
+
+    example 'does not create a repo for items without github_repo' do
+      parsed = [
+        {
+          name: 'Tools',
+          items: [
+            {
+              name: 'External Tool',
+              primary_url: 'https://example.com/tool',
+              github_repo: nil,
+              description: 'A non-GitHub tool'
+            }
+          ]
+        }
+      ]
+
+      result = described_class.new.call(awesome_list:, parsed_categories: parsed)
+
+      expect(result).to be_success
+      item = CategoryItem.find_by(name: 'External Tool')
+      expect(item.repo).to be_nil
+    end
+  end
+
   context 'with invalid category item data' do
     let(:parsed_categories) do
       [
