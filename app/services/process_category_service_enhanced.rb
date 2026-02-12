@@ -115,7 +115,7 @@ class ProcessCategoryServiceEnhanced
 
   def generate_category_content(category)
     # Skip empty categories
-    items = category.category_items.where.not(primary_url: [nil, ''])
+    items = category.category_items.includes(:repo).where.not(primary_url: [nil, ''])
     return nil if items.empty?
 
     # Filter out GitHub items below star threshold
@@ -151,14 +151,15 @@ class ProcessCategoryServiceEnhanced
 
         # Show stars and last commit, or N/A if not available
         stars_md = item.stars.nil? ? 'N/A' : item.stars.to_s
+        trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : 'N/A'
         last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
 
-        [name_md, description_md, stars_md, last_commit_md]
+        [name_md, description_md, stars_md, trending_md, last_commit_md]
       end
 
       # Create table using terminal-table in markdown mode
       table = Terminal::Table.new do |t|
-        t.headings = ['Name', 'Description', 'Stars', 'Last Commit']
+        t.headings = ['Name', 'Description', 'Stars', '30d', 'Last Commit']
         table_rows.each { |row| t.add_row(row) }
         t.style = {border: :markdown}
       end
@@ -184,7 +185,7 @@ class ProcessCategoryServiceEnhanced
 
   def generate_top_10_section(awesome_list)
     items = awesome_list.category_items
-                        .includes(:category)
+                        .includes(:category, :repo)
                         .where.not(primary_url: [nil, ''])
                         .where.not(stars: nil)
                         .where('stars >= ?', @star_threshold)
@@ -196,12 +197,13 @@ class ProcessCategoryServiceEnhanced
 
     table_rows = items.map do |item|
       name_md = "[#{item.name}](#{item.primary_url})"
+      trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : 'N/A'
       last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
-      [name_md, item.category.name, item.stars.to_s, last_commit_md]
+      [name_md, item.category.name, item.stars.to_s, trending_md, last_commit_md]
     end
 
     table = Terminal::Table.new do |t|
-      t.headings = ['Name', 'Category', 'Stars', 'Last Commit']
+      t.headings = ['Name', 'Category', 'Stars', '30d', 'Last Commit']
       table_rows.each { |row| t.add_row(row) }
       t.style = {border: :markdown}
     end

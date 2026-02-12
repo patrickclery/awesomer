@@ -376,5 +376,39 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(content).not_to include('## Top 10')
       end
     end
+
+    context 'with 30d trending column' do
+      let!(:category) { create(:category, awesome_list:, name: 'Tools') }
+      let!(:repo_with_trend) { create(:repo, github_repo: 'owner/trending-repo', stars: 5000, stars_30d: 500) }
+      let!(:repo_no_trend) { create(:repo, github_repo: 'owner/stable-repo', stars: 3000, stars_30d: nil) }
+
+      before do
+        create(:category_item, category:, name: 'Trending Repo',
+               primary_url: 'https://github.com/owner/trending-repo',
+               github_repo: 'owner/trending-repo', stars: 5000, repo: repo_with_trend)
+        create(:category_item, category:, name: 'Stable Repo',
+               primary_url: 'https://github.com/owner/stable-repo',
+               github_repo: 'owner/stable-repo', stars: 3000, repo: repo_no_trend)
+      end
+
+      example 'includes a 30d column in category tables' do
+        result = service.call(awesome_list:)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+
+        expect(content).to include('30d')
+        expect(content).to include('+500')
+      end
+
+      example 'shows N/A for items without trending data' do
+        result = service.call(awesome_list:)
+        content = File.read(result.value!)
+
+        # The stable repo row should show N/A for 30d
+        lines = content.lines.select { |l| l.include?('Stable Repo') }
+        expect(lines.first).to include('N/A')
+      end
+    end
   end
 end
