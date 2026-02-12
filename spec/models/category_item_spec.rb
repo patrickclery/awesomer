@@ -82,6 +82,26 @@ RSpec.describe CategoryItem do
       )
       expect(item.category).to eq(category)
     end
+
+    example 'optionally belongs to a repo' do
+      repo = create(:repo, github_repo: 'owner/repo')
+      item = described_class.create!(
+        category:,
+        name: 'Test Item',
+        primary_url: 'https://github.com/owner/repo',
+        repo: repo
+      )
+      expect(item.repo).to eq(repo)
+    end
+
+    example 'is valid without a repo' do
+      item = described_class.new(
+        category:,
+        name: 'Test Item',
+        primary_url: 'https://example.com'
+      )
+      expect(item).to be_valid
+    end
   end
 
   describe '#repo_identifier' do

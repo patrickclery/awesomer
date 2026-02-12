@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_02_12_040250) do
+ActiveRecord::Schema[8.0].define(version: 2026_02_12_040723) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -31,6 +31,7 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_040250) do
     t.boolean "archived", default: false, null: false
     t.datetime "archived_at"
     t.text "readme_content"
+    t.string "sort_preference", default: "stars", null: false
     t.index ["archived", "updated_at"], name: "index_awesome_lists_on_archived_and_updated_at"
     t.index ["archived"], name: "index_awesome_lists_on_archived"
     t.index ["last_synced_at"], name: "index_awesome_lists_on_last_synced_at"
@@ -65,7 +66,9 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_040250) do
     t.integer "stars_30d"
     t.integer "stars_90d"
     t.datetime "star_history_fetched_at"
+    t.bigint "repo_id"
     t.index ["category_id"], name: "index_category_items_on_category_id"
+    t.index ["repo_id"], name: "index_category_items_on_repo_id"
     t.index ["stars", "previous_stars"], name: "index_category_items_on_stars_and_previous_stars"
   end
 
@@ -263,6 +266,7 @@ ActiveRecord::Schema[8.0].define(version: 2026_02_12_040250) do
   add_foreign_key "categories", "awesome_lists"
   add_foreign_key "categories", "categories", column: "parent_id"
   add_foreign_key "category_items", "categories"
+  add_foreign_key "category_items", "repos"
   add_foreign_key "repo_stats", "awesome_lists"
   add_foreign_key "solid_queue_blocked_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade
   add_foreign_key "solid_queue_claimed_executions", "solid_queue_jobs", column: "job_id", on_delete: :cascade

@@ -27,6 +27,7 @@
 #
 class CategoryItem < ApplicationRecord
   belongs_to :category
+  belongs_to :repo, optional: true
 
   validates :name, presence: true
   validate :validate_at_least_one_url_present
