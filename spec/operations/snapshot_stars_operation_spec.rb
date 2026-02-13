@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
+require 'ostruct'
 
 RSpec.describe SnapshotStarsOperation do
   let(:operation) { described_class.new }
@@ -10,22 +11,27 @@ RSpec.describe SnapshotStarsOperation do
     allow(GithubRateLimiterService).to receive(:new).and_return(rate_limiter)
   end
 
+  def graphql_response(repo_data)
+    data = OpenStruct.new(repo_data.transform_keys(&:to_sym).transform_values { |v|
+      v.nil? ? nil : OpenStruct.new(v.transform_keys(&:to_sym))
+    })
+    OpenStruct.new(data: data)
+  end
+
   describe '#call' do
     context 'with repos to snapshot' do
       let!(:repo1) { create(:repo, github_repo: 'facebook/react') }
       let!(:repo2) { create(:repo, github_repo: 'torvalds/linux') }
 
       example 'creates star snapshots for repos via GraphQL' do
-        graphql_response = {
-          'data' => {
-            'repo0' => { 'stargazerCount' => 230_000, 'pushedAt' => '2026-02-11T08:00:00Z' },
-            'repo1' => { 'stargazerCount' => 50_000, 'pushedAt' => '2026-02-10T12:00:00Z' }
-          }
-        }
+        response = graphql_response(
+          'repo0' => { 'stargazerCount' => 230_000, 'pushedAt' => '2026-02-11T08:00:00Z' },
+          'repo1' => { 'stargazerCount' => 50_000, 'pushedAt' => '2026-02-10T12:00:00Z' }
+        )
 
         client = instance_double(Octokit::Client)
         allow(Octokit::Client).to receive(:new).and_return(client)
-        allow(client).to receive(:post).and_return(graphql_response)
+        allow(client).to receive(:post).and_return(response)
 
         result = operation.call
 
@@ -38,16 +44,14 @@ RSpec.describe SnapshotStarsOperation do
       example 'is idempotent - does not create duplicate snapshots for same day' do
         create(:star_snapshot, repo: repo1, stars: 49_000, snapshot_date: Date.current)
 
-        graphql_response = {
-          'data' => {
-            'repo0' => { 'stargazerCount' => 230_000, 'pushedAt' => '2026-02-11T08:00:00Z' },
-            'repo1' => { 'stargazerCount' => 50_000, 'pushedAt' => '2026-02-10T12:00:00Z' }
-          }
-        }
+        response = graphql_response(
+          'repo0' => { 'stargazerCount' => 230_000, 'pushedAt' => '2026-02-11T08:00:00Z' },
+          'repo1' => { 'stargazerCount' => 50_000, 'pushedAt' => '2026-02-10T12:00:00Z' }
+        )
 
         client = instance_double(Octokit::Client)
         allow(Octokit::Client).to receive(:new).and_return(client)
-        allow(client).to receive(:post).and_return(graphql_response)
+        allow(client).to receive(:post).and_return(response)
 
         operation.call
 
@@ -56,16 +60,14 @@ RSpec.describe SnapshotStarsOperation do
       end
 
       example 'handles deleted repos gracefully (null in GraphQL response)' do
-        graphql_response = {
-          'data' => {
-            'repo0' => nil,
-            'repo1' => { 'stargazerCount' => 50_000, 'pushedAt' => '2026-02-10T12:00:00Z' }
-          }
-        }
+        response = graphql_response(
+          'repo0' => nil,
+          'repo1' => { 'stargazerCount' => 50_000, 'pushedAt' => '2026-02-10T12:00:00Z' }
+        )
 
         client = instance_double(Octokit::Client)
         allow(Octokit::Client).to receive(:new).and_return(client)
-        allow(client).to receive(:post).and_return(graphql_response)
+        allow(client).to receive(:post).and_return(response)
 
         result = operation.call
 

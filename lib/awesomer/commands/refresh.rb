@@ -48,7 +48,7 @@ module Awesomer
 
       def execute
         @start_time = Time.current
-        @stats = {items_synced: 0, lists_failed: 0, lists_processed: 0, star_history_queued: 0}
+        @stats = {items_synced: 0, lists_failed: 0, lists_processed: 0, repos_snapshotted: 0, star_history_queued: 0}
 
         if options[:markdown_only]
           say '📝 Markdown-only mode: regenerating markdown from DB', :cyan
@@ -113,24 +113,28 @@ module Awesomer
         say "\n1️⃣  Processing awesome lists...", :cyan
         process_all_lists
 
-        # Step 2: Sync GitHub stats for items without stars
-        say "\n2️⃣  Syncing GitHub stats...", :cyan
+        # Step 2: Snapshot stars via GraphQL (fast batch fetch)
+        say "\n2️⃣  Snapshotting stars via GraphQL...", :cyan
+        snapshot_stars
+
+        # Step 3: Sync GitHub stats for items without stars
+        say "\n3️⃣  Syncing GitHub stats...", :cyan
         sync_github_stats
 
-        # Step 3: Queue star history jobs if enabled
+        # Step 4: Queue star history jobs if enabled
         if options[:star_history]
-          say "\n3️⃣  Queueing star history jobs...", :cyan
+          say "\n4️⃣  Queueing star history jobs...", :cyan
           queue_all_star_history_jobs
         end
 
-        # Step 4: Prune invalid lists if enabled
+        # Step 5: Prune invalid lists if enabled
         if options[:prune]
-          say "\n4️⃣  Pruning invalid lists...", :cyan
+          say "\n5️⃣  Pruning invalid lists...", :cyan
           run_pruning
         end
 
-        # Step 5: Generate markdown files
-        say "\n5️⃣  Generating markdown files...", :cyan
+        # Step 6: Generate markdown files
+        say "\n6️⃣  Generating markdown files...", :cyan
         generate_markdown
       end
 
@@ -156,6 +160,21 @@ module Awesomer
             sync: false,
             fetch_star_history: options[:star_history]
           ).call
+        end
+      end
+
+      def snapshot_stars
+        operation = SnapshotStarsOperation.new
+        result = operation.call
+
+        if result.success?
+          say "  ✅ #{result.value!}", :green
+          # Extract count from message like "Snapshotted 4755 repos, skipped 8053"
+          if result.value! =~ /Snapshotted (\d+)/
+            @stats[:repos_snapshotted] = $1.to_i
+          end
+        else
+          say "  ❌ Snapshot failed: #{result.failure}", :red
         end
       end
 
@@ -353,6 +372,7 @@ module Awesomer
           say "\n  Results:"
           say "    • Lists processed: #{@stats[:lists_processed]}"
           say "    • Lists failed: #{@stats[:lists_failed]}" if @stats[:lists_failed] > 0
+          say "    • Repos snapshotted: #{@stats[:repos_snapshotted]}" if @stats[:repos_snapshotted] > 0
           say "    • Items synced: #{@stats[:items_synced]}"
           say "    • Star history jobs queued: #{@stats[:star_history_queued]}" if options[:star_history]
         end

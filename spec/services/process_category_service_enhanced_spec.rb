@@ -436,5 +436,43 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(lines.first).not_to include('+')
       end
     end
+
+    context 'when generating markdown after star snapshot' do
+      let!(:category) { create(:category, awesome_list:, name: 'Tools') }
+      let!(:repo) { create(:repo, github_repo: 'owner/snapshotted-repo', stars: 1200) }
+
+      before do
+        create(:category_item, category:, name: 'Snapshotted Repo',
+               primary_url: 'https://github.com/owner/snapshotted-repo',
+               github_repo: 'owner/snapshotted-repo', stars: 1200, repo: repo)
+      end
+
+      example 'reflects star count from repo in the markdown output' do
+        # Simulate a snapshot updating the repo stars
+        repo.update!(stars: 1500)
+        # Also update the category_item stars (as sync_github_stats would)
+        CategoryItem.find_by(github_repo: 'owner/snapshotted-repo').update!(stars: 1500)
+
+        result = service.call(awesome_list:)
+
+        expect(result).to be_success
+        content = File.read(result.value!)
+        expect(content).to include('1500')
+      end
+
+      example 'does not delete other markdown files in the target directory' do
+        target_dir = ProcessCategoryServiceEnhanced::TARGET_DIR
+        sentinel_file = target_dir.join('unrelated-list.md')
+        File.write(sentinel_file, '# Unrelated list content')
+
+        begin
+          service.call(awesome_list:)
+
+          expect(File.exist?(sentinel_file)).to be true
+        ensure
+          File.delete(sentinel_file) if File.exist?(sentinel_file)
+        end
+      end
+    end
   end
 end

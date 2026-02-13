@@ -5,12 +5,23 @@ require 'awesomer/commands/prune'
 
 RSpec.describe Awesomer::Commands::Prune do
   let(:prune_command) { described_class.new }
+  let(:tmpdir) { Dir.mktmpdir('awesomer-prune-test') }
 
   before do
     # Silence output during tests
     allow(prune_command).to receive(:say)
     allow(prune_command).to receive(:print)
     allow(prune_command).to receive(:puts)
+
+    # Isolate filesystem operations to a temp directory
+    tmppath = Pathname.new(tmpdir)
+    allow(Rails.root).to receive(:join).and_call_original
+    allow(Rails.root).to receive(:join).with('static', 'awesomer').and_return(tmppath)
+    allow(Rails.root).to receive(:join).with('static', 'awesomer', '*.md').and_return(tmppath.join('*.md'))
+  end
+
+  after do
+    FileUtils.rm_rf(tmpdir)
   end
 
   describe '#execute' do

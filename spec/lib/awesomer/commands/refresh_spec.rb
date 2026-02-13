@@ -121,8 +121,11 @@ RSpec.describe Awesomer::Commands::Refresh do
 
       example 'processes lists synchronously instead of queueing jobs' do
         # Stub external dependencies
+        allow(SnapshotStarsOperation).to receive(:new).and_return(
+          instance_double(SnapshotStarsOperation, call: Dry::Monads::Success('Snapshotted 0 repos, skipped 0'))
+        )
         allow(Octokit::Client).to receive(:new).and_return(
-          instance_double(Octokit::Client, repository: double(
+          instance_double(Octokit::Client, :auto_paginate= => nil, repository: double(
             description: 'Test',
             pushed_at: Time.current,
             stargazers_count: 100
@@ -149,8 +152,12 @@ RSpec.describe Awesomer::Commands::Refresh do
         archived_category = create(:category, awesome_list: archived_list)
         create(:category_item, category: archived_category, github_repo: 'owner/archived-item', stars: nil)
 
+        allow(SnapshotStarsOperation).to receive(:new).and_return(
+          instance_double(SnapshotStarsOperation, call: Dry::Monads::Success('Snapshotted 0 repos, skipped 0'))
+        )
         mock_client = instance_double(Octokit::Client)
         allow(Octokit::Client).to receive(:new).and_return(mock_client)
+        allow(mock_client).to receive(:auto_paginate=)
         allow(mock_client).to receive(:repository).and_return(
           double(description: 'Test', pushed_at: Time.current, stargazers_count: 100)
         )
@@ -230,10 +237,14 @@ RSpec.describe Awesomer::Commands::Sync do
     let!(:active_list) { create(:awesome_list, github_repo: 'owner/active-repo', archived: false) }
     let!(:archived_list) { create(:awesome_list, github_repo: 'owner/archived-repo', archived: true) }
 
-    let(:markdown_dir) { Rails.root.join('static', 'awesomer') }
+    let(:tmpdir) { Dir.mktmpdir('awesomer-test') }
+    let(:markdown_dir) { Pathname.new(tmpdir) }
 
     before do
-      FileUtils.mkdir_p(markdown_dir)
+      # Stub Rails.root.join to return our tmpdir for 'static', 'awesomer'
+      allow(Rails.root).to receive(:join).and_call_original
+      allow(Rails.root).to receive(:join).with('static', 'awesomer').and_return(markdown_dir)
+
       # Create test files
       File.write(markdown_dir.join('active-repo.md'), 'active content')
       File.write(markdown_dir.join('archived-repo.md'), 'archived content')
@@ -242,11 +253,7 @@ RSpec.describe Awesomer::Commands::Sync do
     end
 
     after do
-      # Clean up test files
-      %w[active-repo.md archived-repo.md orphaned-repo.md README.md].each do |f|
-        path = markdown_dir.join(f)
-        File.delete(path) if File.exist?(path)
-      end
+      FileUtils.rm_rf(tmpdir)
     end
 
     example 'never deletes markdown files for active lists' do

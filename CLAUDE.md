@@ -4,6 +4,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## CLI-First Architecture
+
+All operations must be accessible through the `awesomer` CLI (Thor). Never require users to run `bin/rails runner` or rake tasks directly. When adding new operations, integrate them into the appropriate CLI command (usually `awesomer refresh`). The rake tasks exist as low-level entry points but the CLI is the primary interface.
+
 ## Common Commands
 
 ### Running Tests

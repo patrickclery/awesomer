@@ -131,11 +131,12 @@ module Awesomer
     desc 'refresh', 'Full refresh: sync stats, reprocess lists, fetch star history, generate markdown'
     long_desc <<-LONGDESC
       Run a complete refresh that:
-      1. Syncs GitHub stats for all items
-      2. Reprocesses all awesome lists (fetch READMEs, parse, persist)
-      3. Fetches star history for trending data
-      4. Prunes invalid lists
-      5. Generates fresh markdown files
+      1. Reprocesses all awesome lists (fetch READMEs, parse, persist)
+      2. Snapshots current star counts via GraphQL batch fetch
+      3. Syncs GitHub stats for all items
+      4. Fetches star history for trending data
+      5. Prunes invalid lists
+      6. Generates fresh markdown files
 
       By default, jobs are queued for background processing. Use --no-async
       for synchronous (inline) processing.

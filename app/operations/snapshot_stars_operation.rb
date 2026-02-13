@@ -25,10 +25,16 @@ class SnapshotStarsOperation
       query = build_graphql_query(batch_repos)
       response = client.post('/graphql', { query: query }.to_json)
 
-      data = response.is_a?(Hash) ? response['data'] : response.data
+      unless response.data
+        Rails.logger.warn "SnapshotStarsOperation: Batch #{batch_number} returned no data, skipping #{batch_repos.size} repos"
+        skipped += batch_repos.size
+        next
+      end
+
+      data = response.data
 
       batch_repos.each_with_index do |repo, index|
-        repo_data = data["repo#{index}"]
+        repo_data = data.send("repo#{index}")
 
         if repo_data.nil?
           skipped += 1
@@ -36,8 +42,8 @@ class SnapshotStarsOperation
           next
         end
 
-        stars = repo_data['stargazerCount']
-        pushed_at = repo_data['pushedAt']
+        stars = repo_data.stargazerCount
+        pushed_at = repo_data.pushedAt
 
         snapshot = StarSnapshot.find_or_initialize_by(repo: repo, snapshot_date: Date.current)
         snapshot.stars = stars
