@@ -18,5 +18,6 @@ module App
     register('persist_parsed_categories_operation') { PersistParsedCategoriesOperation.new }
     register('queue_star_history_jobs_operation') { QueueStarHistoryJobsOperation.new }
     register('snapshot_stars_operation') { SnapshotStarsOperation.new }
+    register('backfill_star_snapshots_operation') { BackfillStarSnapshotsOperation.new }
   end
 end
