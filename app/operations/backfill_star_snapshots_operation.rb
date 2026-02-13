@@ -31,7 +31,7 @@ class BackfillStarSnapshotsOperation
   def fetch_star_history(github_repo)
     uri = URI("#{OSSINSIGHT_BASE_URL}/repos/#{github_repo}/stargazers/history?per=day")
 
-    response = Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+    response = Net::HTTP.start(uri.host, uri.port, open_timeout: 15, read_timeout: 30, use_ssl: true) do |http|
       http.request(Net::HTTP::Get.new(uri))
     end
 

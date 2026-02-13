@@ -210,8 +210,7 @@ module Awesomer
         db_config = ActiveRecord::Base.connection_db_config.configuration_hash
         db_name = db_config[:database]
 
-        cmd = "pg_dump #{db_name} > #{backup_path}"
-        unless system(cmd)
+        unless system('pg_dump', db_name, out: backup_path)
           say('ERROR: Database backup failed. Aborting.', :red)
           exit 1
         end
