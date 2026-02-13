@@ -429,7 +429,7 @@
 | [Byebug](https://github.com/deivid-rodriguez/byebug)                    | Debugging in Ruby                                       | 3353  |     | 2026-02-09  |
 | [Pry Byebug](https://github.com/deivid-rodriguez/pry-byebug)            | Step-by-step debugging and stack navigation in Pry      | 2028  |     | 2026-02-09  |
 | [Seeing Is Believing](https://github.com/JoshCheek/seeing_is_believing) | Displays the results of every line of code in your file | 1319  |     | 2025-11-11  |
-| [Xray](https://github.com/brentd/xray-rails)                            | ☠️ A development tool that reveals your UI's bones      | 1224  |     | 2024-12-07  |
+| [Xray](https://github.com/brentd/xray-rails)                            | ☠️ A development tool that reveals your UI's bones       | 1224  |     | 2024-12-07  |
 
 [Back to Top](#table-of-contents)
 
@@ -703,7 +703,7 @@
 
 | Name                                                                                      | Description                                                                                                                                                          | Stars | 30d | Last Commit |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-----|-------------|
-| [ruby-openai](https://github.com/alexrudall/ruby-openai)                                  | OpenAI API + Ruby! 🤖❤️ GPT-5 & Realtime WebRTC compatible!                                                                                                          | 3210  |     | 2025-08-29  |
+| [ruby-openai](https://github.com/alexrudall/ruby-openai)                                  | OpenAI API + Ruby! 🤖❤️ GPT-5 & Realtime WebRTC compatible!                                                                                                           | 3210  |     | 2025-08-29  |
 | [m2cgen](https://github.com/BayesWitnesses/m2cgen)                                        | Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies | 2956  |     | 2024-08-03  |
 | [Awesome Machine Learning with Ruby](https://github.com/arbox/machine-learning-with-ruby) | Curated list: Resources for machine learning in Ruby                                                                                                                 | 2213  |     | 2024-12-26  |
 | [langchain.rb](https://github.com/patterns-ai-core/langchainrb)                           | Build LLM-powered applications in Ruby                                                                                                                               | 1958  |     | 2025-10-03  |
@@ -725,7 +725,7 @@
 | Name                                              | Description                                                                     | Stars | 30d | Last Commit |
 |---------------------------------------------------|---------------------------------------------------------------------------------|-------|-----|-------------|
 | [fastlane](https://github.com/fastlane/fastlane)  | 🚀 The easiest way to automate building and releasing your iOS and Android apps | 40982 |     | 2026-02-10  |
-| [dryrun](https://github.com/cesarferreira/dryrun) | ☁️ Try the demo project of any Android Library                                  | 3804  |     | 2025-10-31  |
+| [dryrun](https://github.com/cesarferreira/dryrun) | ☁️ Try the demo project of any Android Library                                   | 3804  |     | 2025-10-31  |
 | [Ruboto](https://github.com/ruboto/ruboto)        | A platform for developing apps using JRuby on Android.                          | 2032  |     | 2023-05-15  |
 
 [Back to Top](#table-of-contents)
@@ -918,7 +918,7 @@
 |-----------------------------------------------------------------|-------------------------------------------------------------|-------|-----|-------------|
 | [Whenever](https://github.com/javan/whenever)                   | Cron jobs in Ruby                                           | 8870  |     | 2026-01-18  |
 | [rufus-scheduler](https://github.com/jmettraux/rufus-scheduler) | scheduler for Ruby (at, in, cron and every jobs)            | 2431  |     | 2025-11-24  |
-| [minicron](https://github.com/jamesrwhite/minicron)             | 🕰️ Monitor your cron jobs                                   | 2321  |     | 2021-05-16  |
+| [minicron](https://github.com/jamesrwhite/minicron)             | 🕰️ Monitor your cron jobs                                    | 2321  |     | 2021-05-16  |
 | [resque-scheduler](https://github.com/resque/resque-scheduler)  | A light-weight job scheduling system built on top of Resque | 1738  |     | 2026-02-02  |
 
 [Back to Top](#table-of-contents)

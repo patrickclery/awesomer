@@ -27,7 +27,7 @@ A curated list of awesome skills, hooks, slash-commands, agent orchestrators, ap
 | [SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework)                               | Tooling 🧰                      | 20759 |     | 2026-02-11  |
 | [Claude Code Templates](https://github.com/davila7/claude-code-templates)                             | Tooling 🧰                      | 20128 |     | 2026-02-11  |
 | [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)                                 | Workflows & Knowledge Guides 🧠 | 16910 |     | 2026-02-01  |
-| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts)                             | Official Documentation 🏛️       | 13908 |     | 2026-02-05  |
+| [Anthropic Quickstarts](https://github.com/anthropics/claude-quickstarts)                             | Official Documentation 🏛️        | 13908 |     | 2026-02-05  |
 | [Happy Coder](https://github.com/slopus/happy)                                                        | Tooling 🧰                      | 11458 |     | 2026-01-29  |
 | [CC Usage](https://github.com/ryoppippi/ccusage)                                                      | Tooling 🧰                      | 10595 |     | 2026-02-11  |
 | [Claude Code Infrastructure Showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | Workflows & Knowledge Guides 🧠 | 8864  |     | 2025-10-31  |

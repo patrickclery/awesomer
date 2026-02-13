@@ -64,7 +64,7 @@ A collection of ZSH frameworks, plugins, themes and tutorials.
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------|-----|-------------|
 | [Terminals Are Sexy](https://github.com/k4m4/terminals-are-sexy) | 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.                           | 12886 |     | 2024-07-26  |
 | [awesome-devenv](https://github.com/jondot/awesome-devenv)       | A curated list of awesome tools, resources and workflow tips making an awesome development environment. | 3159  |     | 2024-07-29  |
-| [Mastering ZSH](https://github.com/rothgar/mastering-zsh)        | Advanced topics to take advantage of zsh 👩‍💻👨‍💻                                                           | 1588  |     | 2021-09-11  |
+| [Mastering ZSH](https://github.com/rothgar/mastering-zsh)        | Advanced topics to take advantage of zsh 👩‍💻👨‍💻                                                       | 1588  |     | 2021-09-11  |
 | [argcomplete](https://github.com/kislyuk/argcomplete)            | Python and tab completion, better together.                                                             | 1545  |     | 2025-10-20  |
 | [shellSpec](https://github.com/shellspec/shellspec)              | A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells                | 1345  |     | 2025-11-24  |
 
