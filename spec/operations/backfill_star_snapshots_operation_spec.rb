@@ -18,7 +18,7 @@ RSpec.describe BackfillStarSnapshotsOperation do
           expect(result).to be_success
           expect(result.value!).to match(/Backfilled \d+ snapshots/)
 
-          snapshots = StarSnapshot.where(repo: repo).order(:snapshot_date)
+          snapshots = StarSnapshot.where(repo:).order(:snapshot_date)
           expect(snapshots.count).to be > 0
 
           # Verify snapshots are cumulative (non-decreasing)
@@ -56,9 +56,9 @@ RSpec.describe BackfillStarSnapshotsOperation do
       before do
         stub_request(:get, 'https://api.ossinsight.io/v1/repos/owner/empty-repo/stargazers/history?per=day')
           .to_return(
-            status: 200,
-            body: { 'data' => { 'rows' => [] }, 'result' => { 'code' => 200, 'row_count' => 0 } }.to_json,
-            headers: { 'Content-Type' => 'application/json' }
+            body: {'data' => {'rows' => []}, 'result' => {'code' => 200, 'row_count' => 0}}.to_json,
+            headers: {'Content-Type' => 'application/json'},
+            status: 200
           )
       end
 
@@ -75,7 +75,7 @@ RSpec.describe BackfillStarSnapshotsOperation do
 
       before do
         stub_request(:get, 'https://api.ossinsight.io/v1/repos/owner/error-repo/stargazers/history?per=day')
-          .to_return(status: 500, body: 'Internal Server Error')
+          .to_return(body: 'Internal Server Error', status: 500)
       end
 
       example 'returns failure' do
@@ -90,7 +90,7 @@ RSpec.describe BackfillStarSnapshotsOperation do
       let!(:repo) { create(:repo, github_repo: 'hesreallyhim/awesome-claude-code', stars: nil) }
 
       before do
-        create(:star_snapshot, repo: repo, snapshot_date: Date.parse('2025-04-22'), stars: 999)
+        create(:star_snapshot, repo:, snapshot_date: Date.parse('2025-04-22'), stars: 999)
       end
 
       example 'updates existing snapshots with OSSInsight values' do
@@ -98,7 +98,7 @@ RSpec.describe BackfillStarSnapshotsOperation do
           result = operation.call(github_repo: 'hesreallyhim/awesome-claude-code')
 
           expect(result).to be_success
-          snapshot = StarSnapshot.find_by(repo: repo, snapshot_date: Date.parse('2025-04-22'))
+          snapshot = StarSnapshot.find_by(repo:, snapshot_date: Date.parse('2025-04-22'))
           expect(snapshot.stars).not_to eq(999) # Updated from stale value
         end
       end

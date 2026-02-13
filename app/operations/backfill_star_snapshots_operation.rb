@@ -3,13 +3,14 @@
 require 'net/http'
 require 'json'
 
+# Backfills historical star snapshots for a repo using the OSSInsight API
 class BackfillStarSnapshotsOperation
   include Dry::Monads[:result]
 
   OSSINSIGHT_BASE_URL = 'https://api.ossinsight.io/v1'
 
   def call(github_repo:)
-    repo = Repo.find_by(github_repo: github_repo)
+    repo = Repo.find_by(github_repo:)
     return Failure("Repo not found in database: #{github_repo}") unless repo
 
     rows = fetch_star_history(github_repo)
@@ -34,9 +35,7 @@ class BackfillStarSnapshotsOperation
       http.request(Net::HTTP::Get.new(uri))
     end
 
-    unless response.is_a?(Net::HTTPSuccess)
-      raise "OSSInsight API returned #{response.code}: #{response.body}"
-    end
+    raise "OSSInsight API returned #{response.code}: #{response.body}" unless response.is_a?(Net::HTTPSuccess)
 
     parsed = JSON.parse(response.body)
     parsed.dig('data', 'rows') || []
@@ -49,7 +48,7 @@ class BackfillStarSnapshotsOperation
       date = Date.parse(row['date'])
       stars = row['stargazers'].to_i
 
-      snapshot = StarSnapshot.find_or_initialize_by(repo: repo, snapshot_date: date)
+      snapshot = StarSnapshot.find_or_initialize_by(repo:, snapshot_date: date)
       snapshot.stars = stars
       snapshot.save!
       count += 1

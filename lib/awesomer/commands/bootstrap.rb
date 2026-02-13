@@ -150,7 +150,7 @@ module Awesomer
         end
       end
       desc 'stars', 'Backfill historical star snapshots for a specific repository from OSSInsight'
-      method_option :repo, required: true, desc: 'GitHub repo identifier (e.g. hesreallyhim/awesome-claude-code)',
+      method_option :repo, desc: 'GitHub repo identifier (e.g. hesreallyhim/awesome-claude-code)', required: true,
                            type: :string
       def stars
         repo_identifier = options[:repo]
@@ -167,12 +167,12 @@ module Awesomer
         # Backup database before modifying data
         backup_database!
 
-        existing_count = StarSnapshot.where(repo: repo).count
+        existing_count = StarSnapshot.where(repo:).count
         if existing_count > 0
           say("Found #{existing_count} existing snapshots. Backfill will update overlapping dates.", :yellow)
         end
 
-        say("Fetching star history from OSSInsight API...", :cyan)
+        say('Fetching star history from OSSInsight API...', :cyan)
 
         operation = BackfillStarSnapshotsOperation.new
         result = operation.call(github_repo: repo_identifier)
@@ -180,9 +180,11 @@ module Awesomer
         if result.success?
           say(result.value!, :green)
 
-          total_snapshots = StarSnapshot.where(repo: repo).count
-          date_range = StarSnapshot.where(repo: repo).order(:snapshot_date)
-          say("Total snapshots: #{total_snapshots} (#{date_range.first.snapshot_date} to #{date_range.last.snapshot_date})", :green)
+          total_snapshots = StarSnapshot.where(repo:).count
+          date_range = StarSnapshot.where(repo:).order(:snapshot_date)
+          first_date = date_range.first.snapshot_date
+          last_date = date_range.last.snapshot_date
+          say("Total snapshots: #{total_snapshots} (#{first_date} to #{last_date})", :green)
         else
           say("ERROR: #{result.failure}", :red)
           exit 1
@@ -210,7 +212,7 @@ module Awesomer
 
         cmd = "pg_dump #{db_name} > #{backup_path}"
         unless system(cmd)
-          say("ERROR: Database backup failed. Aborting.", :red)
+          say('ERROR: Database backup failed. Aborting.', :red)
           exit 1
         end
 
