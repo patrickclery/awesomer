@@ -53,6 +53,8 @@ module Awesomer
         if options[:markdown_only]
           say '📝 Markdown-only mode: regenerating markdown from DB', :cyan
           say '=' * 70, :green
+          say "\n  Computing trending from snapshots...", :cyan
+          compute_trending
           generate_markdown
           show_final_summary
           return
@@ -117,6 +119,10 @@ module Awesomer
         say "\n2️⃣  Snapshotting stars via GraphQL...", :cyan
         snapshot_stars
 
+        # Step 2b: Compute trending from snapshots
+        say "\n  Computing trending from snapshots...", :cyan
+        compute_trending
+
         # Step 3: Sync GitHub stats for items without stars
         say "\n3️⃣  Syncing GitHub stats...", :cyan
         sync_github_stats
@@ -175,6 +181,17 @@ module Awesomer
           end
         else
           say "  ❌ Snapshot failed: #{result.failure}", :red
+        end
+      end
+
+      def compute_trending
+        operation = ComputeTrendingOperation.new
+        result = operation.call
+
+        if result.success?
+          say "  ✅ #{result.value!}", :green
+        else
+          say "  ❌ #{result.failure}", :red
         end
       end
 

@@ -19,5 +19,6 @@ module App
     register('queue_star_history_jobs_operation') { QueueStarHistoryJobsOperation.new }
     register('snapshot_stars_operation') { SnapshotStarsOperation.new }
     register('backfill_star_snapshots_operation') { BackfillStarSnapshotsOperation.new }
+    register('compute_trending_operation') { ComputeTrendingOperation.new }
   end
 end
