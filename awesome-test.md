@@ -1,4 +1,4 @@
-# Awesome List 27
+# Awesome List 321
 
 A curated list of awesome things
 
@@ -10,9 +10,8 @@ A curated list of awesome things
 
 ## Tools
 
-| Name                                                    | Description              | Stars | 30d  | Last Commit |
-|---------------------------------------------------------|--------------------------|-------|------|-------------|
-| [Trending Repo](https://github.com/owner/trending-repo) | A useful tool or library | 5000  | +500 | N/A         |
-| [Stable Repo](https://github.com/owner/stable-repo)     | A useful tool or library | 3000  |      | N/A         |
+| Name                                                          | Description              | Stars | 30d | Last Commit |
+|---------------------------------------------------------------|--------------------------|-------|-----|-------------|
+| [Snapshotted Repo](https://github.com/owner/snapshotted-repo) | A useful tool or library | 1200  |     | N/A         |
 
 [Back to Top](#table-of-contents)

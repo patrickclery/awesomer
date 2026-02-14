@@ -154,12 +154,12 @@
 
 ## Design Tools
 
-| Name                                                                       | Description                                                                                                   | Stars | 30d | Last Commit |
-|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-------|-----|-------------|
-| [Draw.io](https://github.com/jgraph/drawio-desktop)                        | Official electron build of draw.io                                                                            | 59414 |     | 2026-01-29  |
-| [System Color Picker](https://github.com/sindresorhus/System-Color-Picker) | 🎨 The macOS color picker as an app with more features                                                        | 1389  |     | 2025-07-15  |
+| Name                                                                       | Description                                                                                                    | Stars | 30d | Last Commit |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-------|-----|-------------|
+| [Draw.io](https://github.com/jgraph/drawio-desktop)                        | Official electron build of draw.io                                                                             | 59414 |     | 2026-01-29  |
+| [System Color Picker](https://github.com/sindresorhus/System-Color-Picker) | 🎨 The macOS color picker as an app with more features                                                         | 1389  |     | 2025-07-15  |
 | [Nugget](https://github.com/cartesiancs/nugget-app)                        | 📷 🖥️ Electron based video editing software. Focusing on adding motion effects using a layered editing system. | 528   |     | 2025-04-28  |
-| [ScreenToLayers](https://github.com/duyquoc/ScreenToLayers)                | macOS app to capture your screen as a layered PSD file                                                        | 162   |     | 2017-02-21  |
+| [ScreenToLayers](https://github.com/duyquoc/ScreenToLayers)                | macOS app to capture your screen as a layered PSD file                                                         | 162   |     | 2017-02-21  |
 
 [Back to Top](#table-of-contents)
 
@@ -304,7 +304,7 @@
 | [Hidden](https://github.com/dwarvesf/hidden)                              | An ultra-light MacOS utility that helps hide menu bar icons                                                                                                             | 13317 |     | 2025-11-06  |
 | [SketchyBar](https://github.com/FelixKratz/SketchyBar)                    | A highly customizable macOS status bar replacement                                                                                                                      | 11152 |     | 2026-01-10  |
 | [Dozer](https://github.com/Mortennn/Dozer)                                | Hide menu bar icons on macOS                                                                                                                                            | 8616  |     | 2023-11-30  |
-| [OnlySwitch](https://github.com/jacklandrin/OnlySwitch)                   | ⚙️ All-in-One menu bar app, hide 💻MacBook Pro's notch, dark mode, AirPods, Shortcuts                                                                                    | 5482  |     | 2026-02-06  |
+| [OnlySwitch](https://github.com/jacklandrin/OnlySwitch)                   | ⚙️ All-in-One menu bar app, hide 💻MacBook Pro's notch, dark mode, AirPods, Shortcuts                                                                                   | 5482  |     | 2026-02-06  |
 | [SwiftBar](https://github.com/swiftbar/SwiftBar)                          | Powerful macOS menu bar customization tool                                                                                                                              | 3724  |     | 2026-02-07  |
 | [Reminders MenuBar](https://github.com/DamascenoRafael/reminders-menubar) | Simple macOS menu bar application to view and interact with reminders. Developed with SwiftUI and using Apple Reminders as a source.                                    | 3663  |     | 2025-08-26  |
 | [TomatoBar](https://github.com/ivoronin/TomatoBar)                        | 🍅 World's neatest Pomodoro timer for macOS menu bar                                                                                                                    | 3129  |     | 2026-02-08  |
@@ -379,7 +379,7 @@
 | Name                                                            | Description                                                           | Stars | 30d | Last Commit |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------|-------|-----|-------------|
 | [KeyCastr](https://github.com/keycastr/keycastr)                | KeyCastr, an open-source keystroke visualizer                         | 14587 |     | 2025-12-07  |
-| [Actions](https://github.com/sindresorhus/Actions)              | ⚙️ Supercharge your shortcuts                                          | 2959  |     | 2025-02-17  |
+| [Actions](https://github.com/sindresorhus/Actions)              | ⚙️ Supercharge your shortcuts                                         | 2959  |     | 2025-02-17  |
 | [Grayscale Mode](https://github.com/rkbhochalya/grayscale-mode) | A macOS menu bar app that gives you more control over Grayscale Mode. | 108   |     | 2021-09-01  |
 
 [Back to Top](#table-of-contents)
@@ -396,9 +396,9 @@
 
 ## RSS
 
-| Name                                                 | Description                                                                                                                                      | Stars | 30d | Last Commit |
-|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-----|-------------|
-| [Folo](https://github.com/RSSNext/Folo)              | 🧡 Folo is the AI Reader                                                                                                                         | 37141 |     | 2026-01-30  |
+| Name                                                 | Description                                                                                                                                    | Stars | 30d | Last Commit |
+|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------|-----|-------------|
+| [Folo](https://github.com/RSSNext/Folo)              | 🧡 Folo is the AI Reader                                                                                                                       | 37141 |     | 2026-01-30  |
 | [Saga Reader](https://github.com/sopaco/saga-reader) | 💪🏻 Blazing-Fast and Extremely-Lightweight Internet Reader driven by AI! Your AI-Powered think tank assistant.(Built with Rust, Tauri & Svelte) | 459   |     | 2026-01-20  |
 
 [Back to Top](#table-of-contents)
