@@ -53,6 +53,24 @@ class ProcessCategoryServiceEnhanced
 
   private
 
+  def validate_github_items_have_stars!(awesome_list)
+    # Find all GitHub items that are missing star data
+    # Reload to get fresh data from database
+    awesome_list.reload
+
+    # Use the through association and filter for GitHub URLs without stars
+    items_missing_stars = awesome_list.category_items
+                                      .where('primary_url LIKE ?', '%github.com%')
+                                      .where(stars: nil)
+
+    return if items_missing_stars.empty?
+
+    # Build error message with item names
+    item_names = items_missing_stars.pluck(:name).join(', ')
+    raise MissingStarsError, "Missing star data for GitHub items: #{item_names}. " \
+                             'Ensure GitHub stats have been fetched before generating markdown.'
+  end
+
   def cleanup_empty_file(awesome_list)
     file_path = TARGET_DIR.join(generate_filename(awesome_list.github_repo))
 
@@ -96,17 +114,23 @@ class ProcessCategoryServiceEnhanced
       {content: category_content, name: category.name} if category_content.present?
     end
 
-    # Build Top 10 section (needs all items across categories, respecting threshold)
-    top_10_section = generate_top_10_section(awesome_list)
+    # Build Top 10 sections
+    top_10_stars_section = generate_top_10_stars_section(awesome_list)
+    top_10_trending_section = generate_top_10_trending_section(awesome_list)
+    top_10_90d_trending_section = generate_top_10_90d_trending_section(awesome_list)
 
     # Add table of contents using only categories that produced content
     visible_names = category_sections.map { |s| s[:name] }
-    visible_names.unshift('Top 10') if top_10_section
+    visible_names.unshift('Top 10: 90-Day Trending') if top_10_90d_trending_section
+    visible_names.unshift('Top 10: 30-Day Trending') if top_10_trending_section
+    visible_names.unshift('Top 10: Stars') if top_10_stars_section
     toc = TableOfContentsGenerator.generate(visible_names)
     content << toc if toc.present?
 
-    # Add Top 10 section after ToC, before categories
-    content << top_10_section if top_10_section
+    # Add Top 10 sections after ToC, before categories
+    content << top_10_stars_section if top_10_stars_section
+    content << top_10_trending_section if top_10_trending_section
+    content << top_10_90d_trending_section if top_10_90d_trending_section
 
     # Append category sections
     category_sections.each { |s| content << s[:content] }
@@ -162,14 +186,15 @@ class ProcessCategoryServiceEnhanced
         # Show stars and last commit, or N/A if not available
         stars_md = item.stars.nil? ? 'N/A' : item.stars.to_s
         trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
+        trending_90d_md = item.repo&.stars_90d ? "+#{item.repo.stars_90d}" : ''
         last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
 
-        [name_md, description_md, stars_md, trending_md, last_commit_md]
+        [name_md, description_md, stars_md, trending_md, trending_90d_md, last_commit_md]
       end
 
       # Create table using terminal-table in markdown mode
       table = Terminal::Table.new do |t|
-        t.headings = ['Name', 'Description', 'Stars', '30d', 'Last Commit']
+        t.headings = ['Name', 'Description', 'Stars', '30d', '90d', 'Last Commit']
         table_rows.each { |row| t.add_row(row) }
         t.style = {border: :markdown}
       end
@@ -193,7 +218,7 @@ class ProcessCategoryServiceEnhanced
     content.join("\n")
   end
 
-  def generate_top_10_section(awesome_list)
+  def generate_top_10_stars_section(awesome_list)
     items = awesome_list.category_items
                         .includes(:category, :repo)
                         .where.not(primary_url: [nil, ''])
@@ -208,38 +233,81 @@ class ProcessCategoryServiceEnhanced
     table_rows = items.map do |item|
       name_md = "[#{item.name}](#{item.primary_url})"
       trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
+      trending_90d_md = item.repo&.stars_90d ? "+#{item.repo.stars_90d}" : ''
       last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
-      [name_md, item.category.name, item.stars.to_s, trending_md, last_commit_md]
+      [name_md, item.category.name, item.stars.to_s, trending_md, trending_90d_md, last_commit_md]
     end
 
     table = Terminal::Table.new do |t|
-      t.headings = ['Name', 'Category', 'Stars', '30d', 'Last Commit']
+      t.headings = ['Name', 'Category', 'Stars', '30d', '90d', 'Last Commit']
       table_rows.each { |row| t.add_row(row) }
       t.style = {border: :markdown}
     end
 
-    ['## Top 10', '', table.to_s, '', '[Back to Top](#table-of-contents)', ''].join("\n")
+    ['## Top 10: Stars', '', table.to_s, '', '[Back to Top](#table-of-contents)', ''].join("\n")
+  end
+
+  def generate_top_10_trending_section(awesome_list)
+    items = awesome_list.category_items
+                        .includes(:category, :repo)
+                        .joins(:repo)
+                        .where.not(primary_url: [nil, ''])
+                        .where.not(repos: {stars_30d: nil})
+                        .where('repos.stars_30d > 0')
+                        .order('repos.stars_30d DESC')
+                        .limit(10)
+
+    items = items.to_a
+    return nil if items.size < 10
+
+    table_rows = items.map do |item|
+      name_md = "[#{item.name}](#{item.primary_url})"
+      trending_md = "+#{item.repo.stars_30d}"
+      trending_90d_md = item.repo&.stars_90d ? "+#{item.repo.stars_90d}" : ''
+      last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
+      [name_md, item.category.name, item.stars.to_s, trending_md, trending_90d_md, last_commit_md]
+    end
+
+    table = Terminal::Table.new do |t|
+      t.headings = ['Name', 'Category', 'Stars', '30d', '90d', 'Last Commit']
+      table_rows.each { |row| t.add_row(row) }
+      t.style = {border: :markdown}
+    end
+
+    ['## Top 10: 30-Day Trending', '', table.to_s, '', '[Back to Top](#table-of-contents)', ''].join("\n")
+  end
+
+  def generate_top_10_90d_trending_section(awesome_list)
+    items = awesome_list.category_items
+                        .includes(:category, :repo)
+                        .joins(:repo)
+                        .where.not(primary_url: [nil, ''])
+                        .where.not(repos: {stars_90d: nil})
+                        .where('repos.stars_90d > 0')
+                        .order('repos.stars_90d DESC')
+                        .limit(10)
+
+    items = items.to_a
+    return nil if items.size < 10
+
+    table_rows = items.map do |item|
+      name_md = "[#{item.name}](#{item.primary_url})"
+      trending_30d_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
+      trending_90d_md = "+#{item.repo.stars_90d}"
+      last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
+      [name_md, item.category.name, item.stars.to_s, trending_30d_md, trending_90d_md, last_commit_md]
+    end
+
+    table = Terminal::Table.new do |t|
+      t.headings = ['Name', 'Category', 'Stars', '30d', '90d', 'Last Commit']
+      table_rows.each { |row| t.add_row(row) }
+      t.style = {border: :markdown}
+    end
+
+    ['## Top 10: 90-Day Trending', '', table.to_s, '', '[Back to Top](#table-of-contents)', ''].join("\n")
   end
 
   def ensure_target_directory_exists
     FileUtils.mkdir_p(TARGET_DIR)
-  end
-
-  def validate_github_items_have_stars!(awesome_list)
-    # Find all GitHub items that are missing star data
-    # Reload to get fresh data from database
-    awesome_list.reload
-
-    # Use the through association and filter for GitHub URLs without stars
-    items_missing_stars = awesome_list.category_items
-                                      .where('primary_url LIKE ?', '%github.com%')
-                                      .where(stars: nil)
-
-    return if items_missing_stars.empty?
-
-    # Build error message with item names
-    item_names = items_missing_stars.pluck(:name).join(', ')
-    raise MissingStarsError, "Missing star data for GitHub items: #{item_names}. " \
-      "Ensure GitHub stats have been fetched before generating markdown."
   end
 end

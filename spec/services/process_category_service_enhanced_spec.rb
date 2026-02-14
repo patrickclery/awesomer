@@ -254,7 +254,7 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       end
     end
 
-    context 'with top 10 section' do
+    context 'with top 10 stars section' do
       let!(:category_a) { create(:category, awesome_list:, name: 'Frameworks') }
       let!(:category_b) { create(:category, awesome_list:, name: 'Libraries') }
 
@@ -285,18 +285,18 @@ RSpec.describe ProcessCategoryServiceEnhanced do
                                primary_url: 'https://github.com/owner/twelfth', stars: 500)
       end
 
-      example 'includes a Top 10 section in the output' do
+      example 'includes a Top 10: Stars section in the output' do
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
 
-        expect(content).to include('## Top 10')
+        expect(content).to include('## Top 10: Stars')
       end
 
-      example 'shows exactly 10 items in the Top 10 table' do
+      example 'shows exactly 10 items in the Top 10: Stars table' do
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
 
-        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+        top_10_section = content[/## Top 10: Stars\n(.*?)(?=\n## )/m, 1]
 
         data_rows = top_10_section.lines.select { |l| l.start_with?('|') && !l.include?('---') && !l.include?('Name') }
         expect(data_rows.size).to eq(10)
@@ -306,7 +306,7 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
 
-        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+        top_10_section = content[/## Top 10: Stars\n(.*?)(?=\n## )/m, 1]
 
         expect(top_10_section).to include('Top One')
         expect(top_10_section).to include('Top Ten')
@@ -316,64 +316,255 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         expect(top_10_section.index('Top One')).to be < top_10_section.index('Top Ten')
       end
 
-      example 'includes category name in the Top 10 table' do
+      example 'includes category name in the Top 10: Stars table' do
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
 
-        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+        top_10_section = content[/## Top 10: Stars\n(.*?)(?=\n## )/m, 1]
 
         expect(top_10_section).to include('Frameworks')
         expect(top_10_section).to include('Libraries')
       end
 
-      example 'places Top 10 after Table of Contents and before first category' do
+      example 'places Top 10: Stars after Table of Contents and before first category' do
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
         lines = content.lines.map(&:strip)
 
         toc_idx = lines.index { |l| l == '## Table of Contents' }
-        top_10_idx = lines.index { |l| l == '## Top 10' }
+        top_10_idx = lines.index { |l| l == '## Top 10: Stars' }
         first_category_idx = lines.index { |l| l == '## Frameworks' }
 
         expect(toc_idx).to be < top_10_idx
         expect(top_10_idx).to be < first_category_idx
       end
 
-      example 'includes Top 10 in the Table of Contents' do
+      example 'includes Top 10: Stars in the Table of Contents' do
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
 
-        expect(content).to include('- [Top 10](#top-10)')
+        expect(content).to include('- [Top 10: Stars](#top-10-stars)')
       end
 
-      example 'omits Top 10 when threshold leaves fewer than 10 qualifying items' do
+      example 'omits Top 10: Stars when threshold leaves fewer than 10 qualifying items' do
         # threshold 10_000 leaves only 6 qualifying items (Top One through Top Six)
         result = service.call(awesome_list:, star_threshold: 10_000)
         content = File.read(result.value!)
 
-        expect(content).not_to include('## Top 10')
+        expect(content).not_to include('## Top 10: Stars')
       end
 
-      example 'excludes items below threshold from Top 10' do
+      example 'excludes items below threshold from Top 10: Stars' do
         # threshold 500 leaves all 12 items qualifying; Top 10 renders, Twelfth (500) is at boundary
         result = service.call(awesome_list:, star_threshold: 500)
         content = File.read(result.value!)
 
-        top_10_section = content[/## Top 10\n(.*?)(?=\n## )/m, 1]
+        top_10_section = content[/## Top 10: Stars\n(.*?)(?=\n## )/m, 1]
 
         expect(top_10_section).to include('Top One')
         expect(top_10_section).to include('Top Ten')
         expect(top_10_section).not_to include('Eleventh')
       end
 
-      example 'omits Top 10 section when fewer than 10 items exist' do
+      example 'omits Top 10: Stars section when fewer than 10 items exist' do
         CategoryItem.where(name: ['Top Six', 'Top Seven', 'Top Eight', 'Top Nine', 'Top Ten', 'Eleventh',
                                   'Twelfth']).destroy_all
 
         result = service.call(awesome_list:, star_threshold: 0)
         content = File.read(result.value!)
 
-        expect(content).not_to include('## Top 10')
+        expect(content).not_to include('## Top 10: Stars')
+      end
+    end
+
+    context 'with top 10 trending section' do
+      let!(:category_a) { create(:category, awesome_list:, name: 'Frameworks') }
+      let!(:category_b) { create(:category, awesome_list:, name: 'Libraries') }
+
+      context 'when 10+ items have positive stars_30d' do
+        before do
+          12.times do |i|
+            repo = create(:repo, github_repo: "owner/trending#{i}", stars: (12 - i) * 1000, stars_30d: (12 - i) * 100)
+            cat = i.even? ? category_a : category_b
+            create(:category_item, category: cat, name: "Trending #{i}",
+                                   primary_url: "https://github.com/owner/trending#{i}",
+                                   github_repo: "owner/trending#{i}", stars: (12 - i) * 1000, repo:)
+          end
+        end
+
+        example 'includes a Top 10: 30-Day Trending section' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).to include('## Top 10: 30-Day Trending')
+        end
+
+        example 'orders items by stars_30d descending' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          trending_section = content[/## Top 10: 30-Day Trending\n(.*?)(?=\n## )/m, 1]
+
+          expect(trending_section).to include('Trending 0')  # highest 30d
+          expect(trending_section).to include('Trending 9')  # 10th highest
+          expect(trending_section).not_to include('Trending 10') # 11th
+          expect(trending_section.index('Trending 0')).to be < trending_section.index('Trending 9')
+        end
+
+        example 'includes Top 10: 30-Day Trending in the Table of Contents' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).to include('- [Top 10: 30-Day Trending](#top-10-30-day-trending)')
+        end
+
+        example 'places trending section after stars section and before categories' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+          lines = content.lines.map(&:strip)
+
+          stars_idx = lines.index { |l| l == '## Top 10: Stars' }
+          trending_idx = lines.index { |l| l == '## Top 10: 30-Day Trending' }
+          first_category_idx = lines.index { |l| l == '## Frameworks' }
+
+          expect(stars_idx).to be < trending_idx
+          expect(trending_idx).to be < first_category_idx
+        end
+
+        example 'shows +N format for trending values' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          trending_section = content[/## Top 10: 30-Day Trending\n(.*?)(?=\n## )/m, 1]
+          expect(trending_section).to include('+1200') # highest: 12 * 100
+        end
+      end
+
+      context 'when fewer than 10 items have trending data' do
+        before do
+          5.times do |i|
+            repo = create(:repo, github_repo: "owner/trending#{i}", stars: (5 - i) * 1000, stars_30d: (5 - i) * 100)
+            create(:category_item, category: category_a, name: "Trending #{i}",
+                                   primary_url: "https://github.com/owner/trending#{i}",
+                                   github_repo: "owner/trending#{i}", stars: (5 - i) * 1000, repo:)
+          end
+          # Add items without trending data to ensure the list has enough for stars section
+          7.times do |i|
+            create(:category_item, category: category_b, name: "No Trend #{i}",
+                                   primary_url: "https://github.com/owner/notrend#{i}",
+                                   stars: (7 - i) * 1000)
+          end
+        end
+
+        example 'omits the trending section' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).not_to include('## Top 10: 30-Day Trending')
+        end
+
+        example 'does not include trending in the Table of Contents' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).not_to include('30-Day Trending')
+        end
+      end
+    end
+
+    context 'with top 10 90-day trending section' do
+      let!(:category_a) { create(:category, awesome_list:, name: 'Frameworks') }
+      let!(:category_b) { create(:category, awesome_list:, name: 'Libraries') }
+
+      context 'when 10+ items have positive stars_90d' do
+        before do
+          12.times do |i|
+            repo = create(:repo, github_repo: "owner/trend90_#{i}", stars: (12 - i) * 1000,
+                                 stars_30d: (12 - i) * 100, stars_90d: (12 - i) * 300)
+            cat = i.even? ? category_a : category_b
+            create(:category_item, category: cat, name: "Trend90 #{i}",
+                                   primary_url: "https://github.com/owner/trend90_#{i}",
+                                   github_repo: "owner/trend90_#{i}", stars: (12 - i) * 1000, repo:)
+          end
+        end
+
+        example 'includes a Top 10: 90-Day Trending section' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).to include('## Top 10: 90-Day Trending')
+        end
+
+        example 'orders items by stars_90d descending' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          trending_section = content[/## Top 10: 90-Day Trending\n(.*?)(?=\n## )/m, 1]
+
+          expect(trending_section).to include('Trend90 0')
+          expect(trending_section).to include('Trend90 9')
+          expect(trending_section).not_to include('Trend90 10')
+          expect(trending_section.index('Trend90 0')).to be < trending_section.index('Trend90 9')
+        end
+
+        example 'includes Top 10: 90-Day Trending in the Table of Contents' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).to include('- [Top 10: 90-Day Trending](#top-10-90-day-trending)')
+        end
+
+        example 'places 90d trending section after 30d trending section and before categories' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+          lines = content.lines.map(&:strip)
+
+          trending_30d_idx = lines.index { |l| l == '## Top 10: 30-Day Trending' }
+          trending_90d_idx = lines.index { |l| l == '## Top 10: 90-Day Trending' }
+          first_category_idx = lines.index { |l| l == '## Frameworks' }
+
+          expect(trending_30d_idx).to be < trending_90d_idx
+          expect(trending_90d_idx).to be < first_category_idx
+        end
+
+        example 'shows +N format for 90d trending values' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          trending_section = content[/## Top 10: 90-Day Trending\n(.*?)(?=\n## )/m, 1]
+          expect(trending_section).to include('+3600') # highest: 12 * 300
+        end
+      end
+
+      context 'when fewer than 10 items have 90d trending data' do
+        before do
+          5.times do |i|
+            repo = create(:repo, github_repo: "owner/trend90_#{i}", stars: (5 - i) * 1000,
+                                 stars_30d: (5 - i) * 100, stars_90d: (5 - i) * 300)
+            create(:category_item, category: category_a, name: "Trend90 #{i}",
+                                   primary_url: "https://github.com/owner/trend90_#{i}",
+                                   github_repo: "owner/trend90_#{i}", stars: (5 - i) * 1000, repo:)
+          end
+          7.times do |i|
+            create(:category_item, category: category_b, name: "No Trend90 #{i}",
+                                   primary_url: "https://github.com/owner/notrend90_#{i}",
+                                   stars: (7 - i) * 1000)
+          end
+        end
+
+        example 'omits the 90-day trending section' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).not_to include('## Top 10: 90-Day Trending')
+        end
+
+        example 'does not include 90-day trending in the Table of Contents' do
+          result = service.call(awesome_list:, star_threshold: 0)
+          content = File.read(result.value!)
+
+          expect(content).not_to include('90-Day Trending')
+        end
       end
     end
 
@@ -385,11 +576,11 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       before do
         awesome_list.update!(sort_preference: 'trending_30d')
         create(:category_item, category:, name: 'High Stars',
-               primary_url: 'https://github.com/owner/high-stars',
-               github_repo: 'owner/high-stars', stars: 50_000, repo: repo_high_stars)
+                               primary_url: 'https://github.com/owner/high-stars',
+                               github_repo: 'owner/high-stars', stars: 50_000, repo: repo_high_stars)
         create(:category_item, category:, name: 'High Trend',
-               primary_url: 'https://github.com/owner/high-trend',
-               github_repo: 'owner/high-trend', stars: 5000, repo: repo_high_trend)
+                               primary_url: 'https://github.com/owner/high-trend',
+                               github_repo: 'owner/high-trend', stars: 5000, repo: repo_high_trend)
       end
 
       example 'sorts items by 30d trending instead of total stars' do
@@ -403,35 +594,40 @@ RSpec.describe ProcessCategoryServiceEnhanced do
       end
     end
 
-    context 'with 30d trending column' do
+    context 'with trending columns' do
       let!(:category) { create(:category, awesome_list:, name: 'Tools') }
-      let!(:repo_with_trend) { create(:repo, github_repo: 'owner/trending-repo', stars: 5000, stars_30d: 500) }
-      let!(:repo_no_trend) { create(:repo, github_repo: 'owner/stable-repo', stars: 3000, stars_30d: nil) }
+      let!(:repo_with_trend) do
+        create(:repo, github_repo: 'owner/trending-repo', stars: 5000, stars_30d: 500, stars_90d: 1200)
+      end
+      let!(:repo_no_trend) do
+        create(:repo, github_repo: 'owner/stable-repo', stars: 3000, stars_30d: nil, stars_90d: nil)
+      end
 
       before do
         create(:category_item, category:, name: 'Trending Repo',
-               primary_url: 'https://github.com/owner/trending-repo',
-               github_repo: 'owner/trending-repo', stars: 5000, repo: repo_with_trend)
+                               primary_url: 'https://github.com/owner/trending-repo',
+                               github_repo: 'owner/trending-repo', stars: 5000, repo: repo_with_trend)
         create(:category_item, category:, name: 'Stable Repo',
-               primary_url: 'https://github.com/owner/stable-repo',
-               github_repo: 'owner/stable-repo', stars: 3000, repo: repo_no_trend)
+                               primary_url: 'https://github.com/owner/stable-repo',
+                               github_repo: 'owner/stable-repo', stars: 3000, repo: repo_no_trend)
       end
 
-      example 'includes a 30d column in category tables' do
+      example 'includes 30d and 90d columns in category tables' do
         result = service.call(awesome_list:)
 
         expect(result).to be_success
         content = File.read(result.value!)
 
         expect(content).to include('30d')
+        expect(content).to include('90d')
         expect(content).to include('+500')
+        expect(content).to include('+1200')
       end
 
       example 'shows blank for items without trending data' do
         result = service.call(awesome_list:)
         content = File.read(result.value!)
 
-        # The stable repo row should not show any +N value in the 30d column
         lines = content.lines.select { |l| l.include?('Stable Repo') }
         expect(lines.first).not_to include('+')
       end
@@ -443,8 +639,8 @@ RSpec.describe ProcessCategoryServiceEnhanced do
 
       before do
         create(:category_item, category:, name: 'Snapshotted Repo',
-               primary_url: 'https://github.com/owner/snapshotted-repo',
-               github_repo: 'owner/snapshotted-repo', stars: 1200, repo: repo)
+                               primary_url: 'https://github.com/owner/snapshotted-repo',
+                               github_repo: 'owner/snapshotted-repo', stars: 1200, repo:)
       end
 
       example 'reflects star count from repo in the markdown output' do
@@ -468,7 +664,7 @@ RSpec.describe ProcessCategoryServiceEnhanced do
         begin
           service.call(awesome_list:)
 
-          expect(File.exist?(sentinel_file)).to be true
+          expect(File.exist?(sentinel_file)).to be(true)
         ensure
           File.delete(sentinel_file) if File.exist?(sentinel_file)
         end
