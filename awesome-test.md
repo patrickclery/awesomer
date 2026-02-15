@@ -10,8 +10,8 @@ A curated list of awesome things
 
 ## Tools
 
-| Name                                                          | Description              | Stars | 30d | 90d | Last Commit |
-|---------------------------------------------------------------|--------------------------|-------|-----|-----|-------------|
-| [Snapshotted Repo](https://github.com/owner/snapshotted-repo) | A useful tool or library | 1200  |     |     | N/A         |
+| Name                                                          | Description              | Stars | 7d | 30d | 90d | Last Commit |
+|---------------------------------------------------------------|--------------------------|-------|----|-----|-----|-------------|
+| [Snapshotted Repo](https://github.com/owner/snapshotted-repo) | A useful tool or library | 1200  |    |     |     | N/A         |
 
 [Back to Top](#table-of-contents)
