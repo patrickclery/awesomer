@@ -185,16 +185,17 @@ class ProcessCategoryServiceEnhanced
 
         # Show stars and last commit, or N/A if not available
         stars_md = item.stars.nil? ? 'N/A' : item.stars.to_s
+        trending_7d_md = item.repo&.stars_7d ? "+#{item.repo.stars_7d}" : ''
         trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
         trending_90d_md = item.repo&.stars_90d ? "+#{item.repo.stars_90d}" : ''
         last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
 
-        [name_md, description_md, stars_md, trending_md, trending_90d_md, last_commit_md]
+        [name_md, description_md, stars_md, trending_7d_md, trending_md, trending_90d_md, last_commit_md]
       end
 
       # Create table using terminal-table in markdown mode
       table = Terminal::Table.new do |t|
-        t.headings = ['Name', 'Description', 'Stars', '30d', '90d', 'Last Commit']
+        t.headings = ['Name', 'Description', 'Stars', '7d', '30d', '90d', 'Last Commit']
         table_rows.each { |row| t.add_row(row) }
         t.style = {border: :markdown}
       end
@@ -232,14 +233,15 @@ class ProcessCategoryServiceEnhanced
 
     table_rows = items.map do |item|
       name_md = "[#{item.name}](#{item.primary_url})"
+      trending_7d_md = item.repo&.stars_7d ? "+#{item.repo.stars_7d}" : ''
       trending_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
       trending_90d_md = item.repo&.stars_90d ? "+#{item.repo.stars_90d}" : ''
       last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
-      [name_md, item.category.name, item.stars.to_s, trending_md, trending_90d_md, last_commit_md]
+      [name_md, item.category.name, item.stars.to_s, trending_7d_md, trending_md, trending_90d_md, last_commit_md]
     end
 
     table = Terminal::Table.new do |t|
-      t.headings = ['Name', 'Category', 'Stars', '30d', '90d', 'Last Commit']
+      t.headings = ['Name', 'Category', 'Stars', '7d', '30d', '90d', 'Last Commit']
       table_rows.each { |row| t.add_row(row) }
       t.style = {border: :markdown}
     end
@@ -262,14 +264,15 @@ class ProcessCategoryServiceEnhanced
 
     table_rows = items.map do |item|
       name_md = "[#{item.name}](#{item.primary_url})"
+      trending_7d_md = item.repo&.stars_7d ? "+#{item.repo.stars_7d}" : ''
       trending_md = "+#{item.repo.stars_30d}"
       trending_90d_md = item.repo&.stars_90d ? "+#{item.repo.stars_90d}" : ''
       last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
-      [name_md, item.category.name, item.stars.to_s, trending_md, trending_90d_md, last_commit_md]
+      [name_md, item.category.name, item.stars.to_s, trending_7d_md, trending_md, trending_90d_md, last_commit_md]
     end
 
     table = Terminal::Table.new do |t|
-      t.headings = ['Name', 'Category', 'Stars', '30d', '90d', 'Last Commit']
+      t.headings = ['Name', 'Category', 'Stars', '7d', '30d', '90d', 'Last Commit']
       table_rows.each { |row| t.add_row(row) }
       t.style = {border: :markdown}
     end
@@ -292,14 +295,15 @@ class ProcessCategoryServiceEnhanced
 
     table_rows = items.map do |item|
       name_md = "[#{item.name}](#{item.primary_url})"
+      trending_7d_md = item.repo&.stars_7d ? "+#{item.repo.stars_7d}" : ''
       trending_30d_md = item.repo&.stars_30d ? "+#{item.repo.stars_30d}" : ''
       trending_90d_md = "+#{item.repo.stars_90d}"
       last_commit_md = item.last_commit_at.nil? ? 'N/A' : item.last_commit_at.strftime('%Y-%m-%d')
-      [name_md, item.category.name, item.stars.to_s, trending_30d_md, trending_90d_md, last_commit_md]
+      [name_md, item.category.name, item.stars.to_s, trending_7d_md, trending_30d_md, trending_90d_md, last_commit_md]
     end
 
     table = Terminal::Table.new do |t|
-      t.headings = ['Name', 'Category', 'Stars', '30d', '90d', 'Last Commit']
+      t.headings = ['Name', 'Category', 'Stars', '7d', '30d', '90d', 'Last Commit']
       table_rows.each { |row| t.add_row(row) }
       t.style = {border: :markdown}
     end

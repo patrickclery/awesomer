@@ -597,10 +597,10 @@ RSpec.describe ProcessCategoryServiceEnhanced do
     context 'with trending columns' do
       let!(:category) { create(:category, awesome_list:, name: 'Tools') }
       let!(:repo_with_trend) do
-        create(:repo, github_repo: 'owner/trending-repo', stars: 5000, stars_30d: 500, stars_90d: 1200)
+        create(:repo, github_repo: 'owner/trending-repo', stars: 5000, stars_7d: 80, stars_30d: 500, stars_90d: 1200)
       end
       let!(:repo_no_trend) do
-        create(:repo, github_repo: 'owner/stable-repo', stars: 3000, stars_30d: nil, stars_90d: nil)
+        create(:repo, github_repo: 'owner/stable-repo', stars: 3000, stars_7d: nil, stars_30d: nil, stars_90d: nil)
       end
 
       before do
@@ -612,14 +612,16 @@ RSpec.describe ProcessCategoryServiceEnhanced do
                                github_repo: 'owner/stable-repo', stars: 3000, repo: repo_no_trend)
       end
 
-      example 'includes 30d and 90d columns in category tables' do
+      example 'includes 7d, 30d, and 90d columns in category tables' do
         result = service.call(awesome_list:)
 
         expect(result).to be_success
         content = File.read(result.value!)
 
+        expect(content).to include('7d')
         expect(content).to include('30d')
         expect(content).to include('90d')
+        expect(content).to include('+80')
         expect(content).to include('+500')
         expect(content).to include('+1200')
       end

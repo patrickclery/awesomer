@@ -7,6 +7,7 @@ class ComputeTrendingOperation
   include Dry::Monads[:result]
 
   PERIODS = [
+    {column: :stars_7d, days: 7},
     {column: :stars_30d, days: 30},
     {column: :stars_90d, days: 90}
   ].freeze
