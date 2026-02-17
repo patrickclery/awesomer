@@ -18,7 +18,8 @@
  */
 
 import pg from 'pg';
-import { PrismaClient } from '../generated/prisma/client.js';
+import { PrismaClient } from '../src/generated/prisma/client.js';
+import { PrismaPg } from '@prisma/adapter-pg';
 
 const { Pool } = pg;
 
@@ -53,7 +54,11 @@ async function main() {
   console.log(`Source: ${RAILS_DB_URL.replace(/:[^:@]+@/, ':***@')}`);
 
   // Connect to Prisma database (target)
-  const prisma = new PrismaClient({});
+  const targetPool = new pg.Pool({
+    connectionString: process.env.DATABASE_URL,
+  });
+  const adapter = new PrismaPg(targetPool);
+  const prisma = new PrismaClient({ adapter });
   await prisma.$connect();
   console.log('Target: Prisma database connected\n');
 
@@ -287,6 +292,7 @@ async function main() {
   } finally {
     await railsPool.end();
     await prisma.$disconnect();
+    await targetPool.end();
   }
 }
 

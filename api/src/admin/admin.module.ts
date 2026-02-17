@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import AdminJS from 'adminjs';
 import { Database, Resource, getModelByName } from '@adminjs/prisma';
-import * as PrismaModule from '../../generated/prisma/client.js';
+import * as PrismaModule from '../generated/prisma/client.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 AdminJS.registerAdapter({ Database, Resource });

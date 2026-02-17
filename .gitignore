@@ -19,6 +19,7 @@ node_modules/
 # NestJS API
 api/dist/
 api/generated/
+api/src/generated/
 
 # Next.js Frontend
 web/.next/
