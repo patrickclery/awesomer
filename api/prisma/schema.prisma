@@ -1,0 +1,238 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// =============================================================================
+// Migrated from Rails
+// =============================================================================
+
+model AwesomeList {
+  id                    Int       @id @default(autoincrement())
+  name                  String
+  slug                  String    @unique
+  description           String?   @db.Text
+  githubRepo            String    @map("github_repo")
+  state                 String    @default("pending")
+  lastCommitAt          DateTime? @map("last_commit_at")
+  skipExternalLinks     Boolean   @default(true) @map("skip_external_links")
+  processingStartedAt   DateTime? @map("processing_started_at")
+  processingCompletedAt DateTime? @map("processing_completed_at")
+  lastSyncedAt          DateTime? @map("last_synced_at")
+  lastPushedAt          DateTime? @map("last_pushed_at")
+  syncThreshold         Int?      @default(10) @map("sync_threshold")
+  archived              Boolean   @default(false)
+  archivedAt            DateTime? @map("archived_at")
+  readmeContent         String?   @map("readme_content") @db.Text
+  sortPreference        String    @default("stars") @map("sort_preference")
+  createdAt             DateTime  @default(now()) @map("created_at")
+  updatedAt             DateTime  @updatedAt @map("updated_at")
+
+  categories             Category[]
+  syncRuns               SyncRun[]
+  featuredProfiles        FeaturedProfile[]
+  newsletterSubscribers  NewsletterSubscriber[]
+  newsletterIssues       NewsletterIssue[]
+
+  @@index([archived, updatedAt])
+  @@index([archived])
+  @@index([lastSyncedAt])
+  @@index([state])
+  @@map("awesome_lists")
+}
+
+model Category {
+  id            Int      @id @default(autoincrement())
+  awesomeListId Int      @map("awesome_list_id")
+  parentId      Int?     @map("parent_id")
+  name          String
+  slug          String?  @unique
+  repoCount     Int?     @map("repo_count")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  awesomeList   AwesomeList    @relation(fields: [awesomeListId], references: [id])
+  parent        Category?      @relation("CategoryHierarchy", fields: [parentId], references: [id])
+  children      Category[]     @relation("CategoryHierarchy")
+  categoryItems CategoryItem[]
+
+  @@index([awesomeListId])
+  @@index([parentId])
+  @@map("categories")
+}
+
+model CategoryItem {
+  id                  Int       @id @default(autoincrement())
+  name                String?
+  githubRepo          String?   @map("github_repo")
+  demoUrl             String?   @map("demo_url")
+  primaryUrl          String?   @map("primary_url")
+  description         String?   @db.Text
+  commitsPastYear     Int?      @map("commits_past_year")
+  lastCommitAt        DateTime? @map("last_commit_at")
+  stars               Int?
+  categoryId          Int       @map("category_id")
+  previousStars       Int?      @map("previous_stars")
+  githubDescription   String?   @map("github_description") @db.Text
+  stars30d            Int?      @map("stars_30d")
+  stars90d            Int?      @map("stars_90d")
+  starHistoryFetchedAt DateTime? @map("star_history_fetched_at")
+  repoId              Int?      @map("repo_id")
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime  @updatedAt @map("updated_at")
+
+  category Category @relation(fields: [categoryId], references: [id])
+  repo     Repo?    @relation(fields: [repoId], references: [id])
+
+  @@index([categoryId])
+  @@index([repoId])
+  @@index([stars, previousStars])
+  @@map("category_items")
+}
+
+model Repo {
+  id                   Int       @id @default(autoincrement())
+  githubRepo           String    @unique @map("github_repo")
+  description          String?
+  stars                Int?
+  previousStars        Int?      @map("previous_stars")
+  lastCommitAt         DateTime? @map("last_commit_at")
+  stars7d              Int?      @map("stars_7d")
+  stars30d             Int?      @map("stars_30d")
+  stars90d             Int?      @map("stars_90d")
+  starHistoryFetchedAt DateTime? @map("star_history_fetched_at")
+  createdAt            DateTime  @default(now()) @map("created_at")
+  updatedAt            DateTime  @updatedAt @map("updated_at")
+
+  categoryItems CategoryItem[]
+  starSnapshots StarSnapshot[]
+  tags          RepoTag[]
+
+  @@map("repos")
+}
+
+model StarSnapshot {
+  id           Int      @id @default(autoincrement())
+  repoId       Int      @map("repo_id")
+  stars        Int
+  snapshotDate DateTime @map("snapshot_date") @db.Date
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  repo Repo @relation(fields: [repoId], references: [id])
+
+  @@unique([repoId, snapshotDate])
+  @@index([repoId])
+  @@index([snapshotDate])
+  @@map("star_snapshots")
+}
+
+// =============================================================================
+// New tables
+// =============================================================================
+
+model FeaturedProfile {
+  id            Int       @id @default(autoincrement())
+  name          String
+  avatarUrl     String?   @map("avatar_url")
+  bio           String?   @db.Text
+  githubHandle  String?   @map("github_handle")
+  twitterHandle String?   @map("twitter_handle")
+  website       String?
+  profileType   String    @map("profile_type") // creator, power_user, contributor
+  awesomeListId Int       @map("awesome_list_id")
+  featuredDate  DateTime  @default(now()) @map("featured_date")
+  isActive      Boolean   @default(true) @map("is_active")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  awesomeList AwesomeList @relation(fields: [awesomeListId], references: [id])
+
+  @@index([awesomeListId])
+  @@index([isActive])
+  @@map("featured_profiles")
+}
+
+model NewsletterSubscriber {
+  id             Int       @id @default(autoincrement())
+  email          String
+  awesomeListId  Int       @map("awesome_list_id")
+  subscribedAt   DateTime  @default(now()) @map("subscribed_at")
+  unsubscribedAt DateTime? @map("unsubscribed_at")
+  confirmed      Boolean   @default(false)
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+
+  awesomeList AwesomeList @relation(fields: [awesomeListId], references: [id])
+
+  @@unique([email, awesomeListId])
+  @@index([awesomeListId])
+  @@map("newsletter_subscribers")
+}
+
+model NewsletterIssue {
+  id                   Int       @id @default(autoincrement())
+  awesomeListId        Int       @map("awesome_list_id")
+  subject              String
+  htmlContent          String?   @map("html_content") @db.Text
+  sentAt               DateTime? @map("sent_at")
+  issueNumber          Int       @map("issue_number")
+  trendingDataSnapshot Json?     @map("trending_data_snapshot")
+  createdAt            DateTime  @default(now()) @map("created_at")
+  updatedAt            DateTime  @updatedAt @map("updated_at")
+
+  awesomeList AwesomeList @relation(fields: [awesomeListId], references: [id])
+
+  @@unique([awesomeListId, issueNumber])
+  @@index([awesomeListId])
+  @@map("newsletter_issues")
+}
+
+model Tag {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  slug      String   @unique
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  repos RepoTag[]
+
+  @@map("tags")
+}
+
+model RepoTag {
+  id        Int      @id @default(autoincrement())
+  repoId    Int      @map("repo_id")
+  tagId     Int      @map("tag_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  repo Repo @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  tag  Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@unique([repoId, tagId])
+  @@index([repoId])
+  @@index([tagId])
+  @@map("repo_tags")
+}
+
+model SyncRun {
+  id            Int       @id @default(autoincrement())
+  awesomeListId Int       @map("awesome_list_id")
+  startedAt     DateTime  @default(now()) @map("started_at")
+  completedAt   DateTime? @map("completed_at")
+  status        String    @default("running")
+  itemsSynced   Int       @default(0) @map("items_synced")
+  errorMessage  String?   @map("error_message") @db.Text
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  awesomeList AwesomeList @relation(fields: [awesomeListId], references: [id])
+
+  @@index([awesomeListId])
+  @@index([status])
+  @@map("sync_runs")
+}

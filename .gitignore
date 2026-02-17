@@ -15,3 +15,14 @@ config/repos.yml
 /CLAUDE.local.md
 /vendor/
 node_modules/
+
+# NestJS API
+api/dist/
+api/generated/
+
+# Next.js Frontend
+web/.next/
+web/out/
+
+# Platform
+*.env.local

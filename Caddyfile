@@ -1,0 +1,23 @@
+# Development: use localhost
+# Production: replace with your domain
+:80 {
+	# API routes
+	handle /api/* {
+		reverse_proxy api:4000
+	}
+
+	# API docs
+	handle /api/docs* {
+		reverse_proxy api:4000
+	}
+
+	# Listmonk admin
+	handle /mail/* {
+		reverse_proxy listmonk:9000
+	}
+
+	# Everything else goes to Next.js
+	handle {
+		reverse_proxy web:3000
+	}
+}
