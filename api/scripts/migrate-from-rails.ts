@@ -95,7 +95,7 @@ async function main() {
           sortPreference: list.sort_preference || 'stars',
         },
       });
-      listIdMap.set(list.id, created.id);
+      listIdMap.set(Number(list.id), created.id);
     }
     console.log(`  Migrated ${awesomeLists.length} awesome lists\n`);
 
@@ -131,7 +131,7 @@ async function main() {
           starHistoryFetchedAt: repo.star_history_fetched_at,
         },
       });
-      repoIdMap.set(repo.id, created.id);
+      repoIdMap.set(Number(repo.id), created.id);
     }
     console.log(`  Migrated ${repos.length} repos\n`);
 
@@ -146,7 +146,7 @@ async function main() {
     // First pass: categories without parents
     for (const cat of categories.filter((c: { parent_id: number | null }) => !c.parent_id)) {
       const slug = ensureUniqueSlug(slugify(cat.name), categorySlugSet);
-      const newListId = listIdMap.get(cat.awesome_list_id);
+      const newListId = listIdMap.get(Number(cat.awesome_list_id));
       if (!newListId) {
         console.warn(`  Skipping category ${cat.id}: no matching awesome_list`);
         continue;
@@ -159,14 +159,14 @@ async function main() {
           repoCount: cat.repo_count,
         },
       });
-      categoryIdMap.set(cat.id, created.id);
+      categoryIdMap.set(Number(cat.id), created.id);
     }
 
     // Second pass: categories with parents
     for (const cat of categories.filter((c: { parent_id: number | null }) => c.parent_id)) {
       const slug = ensureUniqueSlug(slugify(cat.name), categorySlugSet);
-      const newListId = listIdMap.get(cat.awesome_list_id);
-      const newParentId = categoryIdMap.get(cat.parent_id);
+      const newListId = listIdMap.get(Number(cat.awesome_list_id));
+      const newParentId = categoryIdMap.get(Number(cat.parent_id));
       if (!newListId) {
         console.warn(`  Skipping category ${cat.id}: no matching awesome_list`);
         continue;
@@ -180,7 +180,7 @@ async function main() {
           repoCount: cat.repo_count,
         },
       });
-      categoryIdMap.set(cat.id, created.id);
+      categoryIdMap.set(Number(cat.id), created.id);
     }
     console.log(`  Migrated ${categories.length} categories\n`);
 
@@ -193,12 +193,12 @@ async function main() {
     let skippedItems = 0;
 
     for (const item of items) {
-      const newCategoryId = categoryIdMap.get(item.category_id);
+      const newCategoryId = categoryIdMap.get(Number(item.category_id));
       if (!newCategoryId) {
         skippedItems++;
         continue;
       }
-      const newRepoId = item.repo_id ? repoIdMap.get(item.repo_id) : null;
+      const newRepoId = item.repo_id ? repoIdMap.get(Number(item.repo_id)) : null;
 
       await prisma.categoryItem.create({
         data: {
@@ -244,7 +244,7 @@ async function main() {
 
       const batchData = snapshots
         .map((s: { repo_id: number; stars: number; snapshot_date: string }) => {
-          const newRepoId = repoIdMap.get(s.repo_id);
+          const newRepoId = repoIdMap.get(Number(s.repo_id));
           if (!newRepoId) return null;
           return {
             repoId: newRepoId,
