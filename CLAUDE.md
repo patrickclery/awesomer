@@ -1,201 +1,130 @@
 # CLAUDE.md
 
-- @.claude/commands/fix-rate-limiting.md
+This file provides guidance to Claude Code when working with this repository.
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## Project Overview
 
-## CLI-First Architecture
+Awesomer is a multi-vertical platform for discovering trending open-source tools from curated GitHub Awesome Lists. It consists of a **NestJS API** (`api/`) and a **Next.js frontend** (`web/`), backed by PostgreSQL via Prisma ORM.
 
-All operations must be accessible through the `awesomer` CLI (Thor). Never require users to run `bin/rails runner` or rake tasks directly. When adding new operations, integrate them into the appropriate CLI command (usually `awesomer refresh`). The rake tasks exist as low-level entry points but the CLI is the primary interface.
+## Monorepo Structure
+
+```
+api/           → NestJS 11 backend (TypeScript, ESM, Prisma 7)
+web/           → Next.js 16 frontend (React 19, Tailwind CSS 4)
+docs/plans/    → Architecture decision records
+```
 
 ## Common Commands
 
-### Running Tests
+### API (`api/`)
 ```bash
-# Run all tests
-bundle exec rspec
+cd api
 
-# Run a specific test file
-bundle exec rspec spec/path/to/spec_file.rb
+# Install dependencies
+npm install --legacy-peer-deps    # needed due to AdminJS peer dep conflicts
 
-# Run tests for a specific line number
-bundle exec rspec spec/path/to/spec_file.rb:42
+# Generate Prisma client (after schema changes)
+npx prisma generate
 
-# Run tests with coverage
-COVERAGE=1 bundle exec rspec
+# Create/apply migrations
+npx prisma migrate dev --name description_here
 
-# Run tests for files matching a pattern
-bundle exec rspec spec/**/*operation*_spec.rb
+# Build
+npm run build                     # nest build → dist/src/
+
+# Start (development)
+npm run start:dev                 # nest start --watch
+
+# Start (production)
+npm run start:prod                # node dist/src/main.js
+
+# Note: DATABASE_URL must be set (see .env.example)
 ```
 
-### Development Server
+### Frontend (`web/`)
 ```bash
-# Start Rails server
-bin/rails server
+cd web
 
-# Start Rails console
-bin/rails console
-
-# Run background job worker (Solid Queue)
-bin/jobs
-
-# Run all services (server + jobs) in development
-bin/dev
+npm install
+npm run dev                       # Next.js dev server on port 3000
+npm run build                     # Production build
 ```
 
-### Database Commands
+### Database
 ```bash
-# Setup database (initial setup)
-bin/rails db:create db:migrate
+cd api
 
-# Reset database (drop and recreate)
-bin/rails db:drop db:create db:migrate
+# Run migrations
+npx prisma migrate dev
 
-# Run pending migrations
-bin/rails db:migrate
+# Reset database
+npx prisma migrate reset
 
-# Rollback last migration
-bin/rails db:rollback
+# Open Prisma Studio (GUI)
+npx prisma studio
 
-# Run test database migrations
-bin/rails db:migrate RAILS_ENV=test
-
-# Check migration status
-bin/rails db:migrate:status
+# Migrate data from Rails database
+DATABASE_URL="..." npx tsx scripts/migrate-from-rails.ts
 ```
 
-### Code Quality
+### Docker (development)
 ```bash
-# Run RuboCop linting
-bundle exec rubocop
-
-# Run RuboCop with auto-fix
-bundle exec rubocop -a
-
-# Run RuboCop with unsafe auto-fix
-bundle exec rubocop -A
-
-# Run security scanner
-bin/brakeman
-
-# Check specific files with RuboCop
-bundle exec rubocop app/services/
+# Start PostgreSQL + Redis
+docker compose -f docker-compose.platform.yml up -d postgres redis
 ```
 
-### Dependency Management
-```bash
-# Install gems
-bundle install
+## Architecture
 
-# Update gems
-bundle update
+### API Modules (`api/src/`)
 
-# Check outdated gems
-bundle outdated
-```
+| Module | Purpose |
+|--------|---------|
+| `prisma/` | PrismaService — wraps PrismaClient with `@prisma/adapter-pg` for Prisma 7 |
+| `awesome-lists/` | CRUD for awesome list verticals |
+| `repos/` | Repo queries, global search, star history |
+| `categories/` | Category browsing within a vertical |
+| `trending/` | Trending repos (7d/30d/90d) from star snapshot diffs |
+| `featured/` | Featured developer profiles |
+| `newsletter/` | Subscribe/unsubscribe, Listmonk integration |
+| `sync/` | Sync pipeline: fetch README → parse → upsert categories/items → fetch stars |
+| `admin/` | AdminJS panel (currently disabled — ESM incompatibility with tiptap) |
 
-### Rails Generators
-```bash
-# Generate a new model
-bin/rails generate model ModelName field:type
+### Key Technical Decisions
 
-# Generate a new migration
-bin/rails generate migration AddFieldToModel field:type
+- **ESM throughout**: `"type": "module"` in `api/package.json`. All imports use `.js` extensions.
+- **Prisma 7 client engine**: Requires `@prisma/adapter-pg` — no native engine. PrismaService uses a cast pattern to extend PrismaClient while passing adapter options.
+- **Generated files in `src/`**: Prisma output goes to `api/src/generated/prisma/` so tsc compiles it alongside the app. This directory is gitignored.
+- **GitHub API**: Uses `octokit` with `@octokit/plugin-throttling` for automatic rate limiting.
+- **Trending computation**: Compares star snapshots with 3-day tolerance windows at 7d/30d/90d intervals.
 
-# Generate a new service
-bin/rails generate service ServiceName
+### Data Model (Prisma schema at `api/prisma/schema.prisma`)
 
-# Destroy generated files
-bin/rails destroy model ModelName
-```
+Core tables: `AwesomeList`, `Category`, `CategoryItem`, `Repo`, `StarSnapshot`
+Supporting: `FeaturedProfile`, `NewsletterSubscriber`, `NewsletterIssue`, `Tag`, `RepoTag`, `SyncRun`
 
-## Architecture Overview
+CategoryItem links to both a Category (which vertical/section) and optionally a Repo (which has star snapshots and trending data).
 
-This is a Rails 8.0 application that processes and analyzes GitHub Awesome Lists repositories. It follows a modular architecture using dependency injection and the Result monad pattern for robust error handling.
+### Frontend (`web/src/`)
 
-### Core Patterns
+- App Router with dynamic `[slug]` routes per vertical
+- `lib/api.ts` — centralized API client pointing to `localhost:4000/api`
+- Dark theme via Tailwind CSS 4
+- recharts for star history visualization
 
-**Dependency Injection Container**: Uses `dry-container` and `dry-auto_inject` for managing dependencies. All operations and services are registered in `lib/app/container.rb`. This enables easy testing and decoupling of components.
+## Environment Variables
 
-**Result Monad Pattern**: Operations use `dry-monads` Result types (Success/Failure) for consistent error handling and flow control. This eliminates nil checks and provides explicit error handling paths.
+See `api/.env.example` for all options. Key ones:
+- `DATABASE_URL` — PostgreSQL connection string (required)
+- `GITHUB_API_KEY` — GitHub personal access token for sync operations
+- `PORT` — API port (default: 4000)
 
-**State Machine**: The `AwesomeList` model uses AASM for tracking processing states (pending, in_progress, completed, failed) with automatic timestamp tracking.
+## Development Guidelines
 
-### Key Components
-
-**Operations** (`app/operations/`): Single-responsibility classes that perform specific tasks:
-- `FetchReadmeOperation`: Fetches README content from GitHub API
-- `ParseMarkdownOperation`: Parses markdown to extract structured categories and items
-- `SyncGitStatsOperation`: Fetches GitHub statistics (stars, forks, issues) for repository items
-- `FindOrCreateAwesomeListOperation`: Manages AwesomeList records with upsert logic
-- `ExtractAwesomeListsOperation`: Extracts references to other awesome lists from markdown
-- `PersistParsedCategoriesOperation`: Saves parsed data to database
-- `FetchGithubStatsForCategoriesOperation`: Batch fetches GitHub stats with rate limiting
-
-**Services** (`app/services/`): Orchestrate operations to complete workflows:
-- `ProcessAwesomeListService`: Main service coordinating the full processing pipeline with state management
-- `ProcessCategoryService`: Processes individual categories and generates markdown output files
-- `BootstrapAwesomeListsService`: Bootstraps multiple awesome lists for batch processing
-- `GithubRateLimiterService`: Manages GitHub API rate limiting using Redis for tracking
-
-**Models**:
-- `AwesomeList`: Repository record with AASM state machine (pending → in_progress → completed/failed)
-- `Category`: Categories within an awesome list with position ordering
-- `CategoryItem`: Individual items within categories with URL and description
-- `RepoStat`: Cached GitHub statistics for repositories (stars, forks, issues, last commit)
-- `GithubApiRequest`: Tracks API request history for rate limiting analysis
-
-**Background Jobs** (`app/jobs/`):
-- `ProcessMarkdownWithStatsJob`: Processes awesome list with GitHub stats
-- `FetchGithubStatsJob`: Fetches GitHub statistics for repositories
-- `GenerateMarkdownJob`: Generates markdown output files
-
-### Data Flow
-
-1. **Bootstrap**: `BootstrapAwesomeListsService` reads `config/repos.yml` and creates AwesomeList records
-2. **Fetch**: `FetchReadmeOperation` retrieves README content from GitHub API
-3. **Parse**: `ParseMarkdownOperation` extracts structured categories and items using regex patterns
-4. **Sync**: `SyncGitStatsOperation` fetches GitHub stats for each repository item with rate limiting
-5. **Process**: `ProcessCategoryService` generates enhanced markdown with stats
-6. **Persist**: Data saved to PostgreSQL with state tracking via AASM transitions
-
-### Testing Strategy
-
-- RSpec for unit and integration tests with FactoryBot for test data
-- VCR for recording/replaying HTTP interactions with GitHub API
-- WebMock for stubbing external requests in isolated tests
-- SimpleCov for code coverage reporting
-- Tests use `example` blocks instead of `it` blocks (per .cursorrules)
-- Run associated spec file after code changes to verify fixes
-
-### Configuration
-
-- **Environment Variables**: Create `.env.development.local` with `GITHUB_API_KEY`
-- **Repository List**: Copy `config/repos.example.yml` to `config/repos.yml` and add repositories to track
-- **Database**: PostgreSQL with separate databases for Solid Cache and Solid Queue
-- **Redis**: Required for GitHub API rate limiting (configured in `config/redis.yml`)
-- **Background Jobs**: Solid Queue for job processing (configuration in `config/solid_queue.yml`)
-
-### Development Guidelines
-
-From `.cursorrules` and `CLAUDE.local.md`:
-- Always run specs after making changes to verify functionality
-- Use `example` blocks in specs instead of `it` blocks
-- Make changes file by file for easier review
-- Use explicit, descriptive variable names for clarity
-- Include assertions to validate assumptions and catch edge cases
-- Follow existing patterns: dependency injection, Result monads, service objects
-- Never commit API keys or sensitive data to the repository
+- Always run `npm run build` in `api/` after changes to verify compilation before committing
+- The `pg` module returns primary key columns as strings — use `Number()` when mapping IDs
+- AdminJS is temporarily disabled due to ESM compatibility issues with `@tiptap/core`
+- Never commit API keys, `.env` files, or generated Prisma client to the repository
 
 ### Plan Documents
 
-After completing a feature via `superpowers:executing-plans`, commit the plan document from `docs/plans/` along with the implementation. Plans represent finalized architectural decisions and serve as documentation for the feature.
-
-### "commit all" Workflow
-
-When the user says "commit all", commit changes in **both** repos:
-
-1. **Submodule first** (`static/awesomer`): `cd static/awesomer`, stage, commit, push
-2. **Parent repo** (`awesomer-engine`): stage all changes (including updated submodule ref), commit, push
-
-Always check both repos for changes via `git status` in each. If only one has changes, commit just that one.
+After completing a feature via `superpowers:executing-plans`, commit the plan document from `docs/plans/` along with the implementation.
