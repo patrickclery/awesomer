@@ -45,4 +45,12 @@ export class SyncController {
     const result = await this.syncService.importAwesomeList(id);
     return { data: result };
   }
+
+  @Post('markdown')
+  @ApiOperation({ summary: 'Regenerate all markdown files (admin only)' })
+  async generateMarkdown(@Headers('authorization') auth?: string) {
+    this.checkAdminKey(auth);
+    const files = await this.syncService.generateMarkdown();
+    return { data: { files, count: files.length } };
+  }
 }
