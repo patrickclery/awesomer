@@ -8,6 +8,7 @@ import { TrendingModule } from './trending/trending.module.js';
 import { FeaturedModule } from './featured/featured.module.js';
 import { NewsletterModule } from './newsletter/newsletter.module.js';
 import { SyncModule } from './sync/sync.module.js';
+import { AdminModule } from './admin/admin.module.js';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { SyncModule } from './sync/sync.module.js';
     FeaturedModule,
     NewsletterModule,
     SyncModule,
+    AdminModule,
   ],
 })
 export class AppModule {}

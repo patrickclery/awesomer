@@ -23,6 +23,14 @@ services:
       - DATABASE_URL=postgresql://awesomer:awesomer@postgres:5432/awesomer_platform
       - REDIS_URL=redis://redis:6379
       - GITHUB_API_KEY=${GITHUB_API_KEY}
+      - ADMIN_API_KEY=${ADMIN_API_KEY}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@awesomer.dev}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-changeme}
+      - ADMIN_COOKIE_SECRET=${ADMIN_COOKIE_SECRET}
+      - ADMIN_SESSION_SECRET=${ADMIN_SESSION_SECRET}
+      - LISTMONK_URL=http://listmonk:9000
+      - LISTMONK_USER=${LISTMONK_USER:-admin}
+      - LISTMONK_PASSWORD=${LISTMONK_PASSWORD:-admin}
       - PORT=4000
       - NODE_ENV=production
     depends_on:
