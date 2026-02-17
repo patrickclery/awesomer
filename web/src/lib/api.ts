@@ -182,6 +182,36 @@ export async function getFeatured(listSlug?: string) {
   return fetchApi<SingleResponse<FeaturedProfile[]>>(`/featured${query}`);
 }
 
+export async function searchGlobal(
+  query: string,
+  params?: { page?: number; per_page?: number },
+) {
+  const searchParams = new URLSearchParams({ q: query });
+  if (params?.page) searchParams.set('page', String(params.page));
+  if (params?.per_page) searchParams.set('per_page', String(params.per_page));
+  return fetchApi<PaginatedResponse<CategoryItem & {
+    category: {
+      id: number;
+      name: string;
+      slug: string;
+      awesomeList?: { id: number; name: string; slug: string };
+    };
+  }>>(`/search?${searchParams.toString()}`);
+}
+
+export async function getRepoByGithub(owner: string, name: string) {
+  return fetchApi<SingleResponse<Repo & {
+    categoryItems: Array<{
+      category: {
+        id: number;
+        name: string;
+        slug: string;
+        awesomeList: { id: number; name: string; slug: string };
+      };
+    }>;
+  }>>(`/repos/by-github/${owner}/${name}`);
+}
+
 export async function subscribeNewsletter(
   email: string,
   awesomeListId: number,

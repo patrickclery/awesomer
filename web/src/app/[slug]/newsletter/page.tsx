@@ -1,23 +1,36 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import { subscribeNewsletter } from '@/lib/api';
+import { getAwesomeList, subscribeNewsletter } from '@/lib/api';
 
 export default function NewsletterPage() {
   const params = useParams();
   const slug = params.slug as string;
   const [email, setEmail] = useState('');
+  const [listId, setListId] = useState<number | null>(null);
+  const [listName, setListName] = useState('');
   const [status, setStatus] = useState<
     'idle' | 'loading' | 'success' | 'error'
   >('idle');
 
+  useEffect(() => {
+    getAwesomeList(slug)
+      .then((res) => {
+        setListId(res.data.id);
+        setListName(res.data.name);
+      })
+      .catch(() => {
+        // List not found
+      });
+  }, [slug]);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!listId) return;
     setStatus('loading');
     try {
-      // TODO: resolve awesomeListId from slug
-      await subscribeNewsletter(email, 1);
+      await subscribeNewsletter(email, listId);
       setStatus('success');
       setEmail('');
     } catch {
@@ -27,7 +40,9 @@ export default function NewsletterPage() {
 
   return (
     <div className="max-w-lg mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Newsletter</h1>
+      <h1 className="text-2xl font-bold mb-4">
+        {listName ? `${listName} Newsletter` : 'Newsletter'}
+      </h1>
       <p className="text-muted mb-8">
         Get a weekly digest of the top trending repos delivered to your inbox.
         Automated, data-driven, no fluff.
@@ -49,7 +64,7 @@ export default function NewsletterPage() {
           />
           <button
             type="submit"
-            disabled={status === 'loading'}
+            disabled={status === 'loading' || !listId}
             className="px-6 py-2 bg-accent text-white rounded-lg hover:bg-accent-hover transition-colors disabled:opacity-50"
           >
             {status === 'loading' ? 'Subscribing...' : 'Subscribe'}

@@ -71,6 +71,66 @@ export class ReposService {
     return new PaginatedResponse(items, total, params.page, params.per_page);
   }
 
+  async searchGlobal(
+    search: string,
+    params: { page: number; per_page: number },
+  ): Promise<PaginatedResponse<unknown>> {
+    const skip = (params.page - 1) * params.per_page;
+    const take = params.per_page;
+
+    const where: Prisma.CategoryItemWhereInput = {
+      OR: [
+        { name: { contains: search, mode: 'insensitive' as const } },
+        { description: { contains: search, mode: 'insensitive' as const } },
+        { githubDescription: { contains: search, mode: 'insensitive' as const } },
+        { githubRepo: { contains: search, mode: 'insensitive' as const } },
+      ],
+    };
+
+    const [items, total] = await Promise.all([
+      this.prisma.categoryItem.findMany({
+        where,
+        include: {
+          category: {
+            select: {
+              id: true,
+              name: true,
+              slug: true,
+              awesomeList: { select: { id: true, name: true, slug: true } },
+            },
+          },
+          repo: { select: { stars7d: true, stars30d: true, stars90d: true } },
+        },
+        orderBy: { stars: { sort: 'desc', nulls: 'last' } },
+        skip,
+        take,
+      }),
+      this.prisma.categoryItem.count({ where }),
+    ]);
+
+    return new PaginatedResponse(items, total, params.page, params.per_page);
+  }
+
+  async findByGithubRepo(githubRepo: string) {
+    return this.prisma.repo.findUnique({
+      where: { githubRepo },
+      include: {
+        categoryItems: {
+          include: {
+            category: {
+              include: {
+                awesomeList: { select: { id: true, name: true, slug: true } },
+              },
+            },
+          },
+        },
+        tags: {
+          include: { tag: true },
+        },
+      },
+    });
+  }
+
   async findById(id: number) {
     return this.prisma.repo.findUnique({
       where: { id },

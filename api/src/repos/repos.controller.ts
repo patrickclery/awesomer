@@ -41,6 +41,38 @@ export class ReposController {
     });
   }
 
+  @Get('search')
+  @ApiOperation({ summary: 'Search repos across all verticals' })
+  @ApiQuery({ name: 'q', required: true, description: 'Search query' })
+  @ApiQuery({ name: 'page', required: false, type: Number })
+  @ApiQuery({ name: 'per_page', required: false, type: Number })
+  async searchGlobal(
+    @Query('q') q: string,
+    @Query('page') page?: string,
+    @Query('per_page') per_page?: string,
+  ) {
+    if (!q || q.trim().length === 0) {
+      return { data: [], meta: { total: 0, page: 1, per_page: 25, total_pages: 0 } };
+    }
+    return this.reposService.searchGlobal(q, {
+      page: page ? Number(page) : 1,
+      per_page: per_page ? Math.min(Number(per_page) || 25, 50) : 25,
+    });
+  }
+
+  @Get('repos/by-github/:owner/:name')
+  @ApiOperation({ summary: 'Get a repo by GitHub owner/name' })
+  async findByGithubRepo(
+    @Param('owner') owner: string,
+    @Param('name') name: string,
+  ) {
+    const repo = await this.reposService.findByGithubRepo(`${owner}/${name}`);
+    if (!repo) {
+      throw new NotFoundException(`Repo ${owner}/${name} not found`);
+    }
+    return { data: repo };
+  }
+
   @Get('repos/:id')
   @ApiOperation({ summary: 'Get a single repo by ID' })
   async findById(@Param('id', ParseIntPipe) id: number) {

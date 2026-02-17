@@ -30,6 +30,23 @@ export class NewsletterService {
     });
   }
 
+  async unsubscribe(email: string, awesomeListId: number) {
+    const existing = await this.prisma.newsletterSubscriber.findFirst({
+      where: { email, awesomeListId },
+    });
+
+    if (!existing || existing.unsubscribedAt) {
+      return { unsubscribed: true };
+    }
+
+    await this.prisma.newsletterSubscriber.update({
+      where: { id: existing.id },
+      data: { unsubscribedAt: new Date() },
+    });
+
+    return { unsubscribed: true };
+  }
+
   async getIssues(awesomeListSlug: string) {
     return this.prisma.newsletterIssue.findMany({
       where: {

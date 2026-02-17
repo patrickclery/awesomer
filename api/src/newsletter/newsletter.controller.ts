@@ -18,6 +18,12 @@ export class NewsletterController {
     return { data: { subscribed: true, id: subscriber.id } };
   }
 
+  @Post('unsubscribe')
+  @ApiOperation({ summary: 'Unsubscribe from a newsletter' })
+  async unsubscribe(@Body() dto: SubscribeDto) {
+    return this.newsletterService.unsubscribe(dto.email, dto.awesome_list_id);
+  }
+
   @Get(':slug/issues')
   @ApiOperation({ summary: 'Get newsletter issues for a vertical' })
   async getIssues(@Param('slug') slug: string) {
