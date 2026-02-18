@@ -29,6 +29,7 @@ model AwesomeList {
   archivedAt            DateTime? @map("archived_at")
   readmeContent         String?   @map("readme_content") @db.Text
   sortPreference        String    @default("stars") @map("sort_preference")
+  theme                 String    @default("claude")
   createdAt             DateTime  @default(now()) @map("created_at")
   updatedAt             DateTime  @updatedAt @map("updated_at")
 
