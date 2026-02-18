@@ -1,18 +1,6 @@
 services:
   # --- Application ---
 
-  web:
-    build:
-      context: ./web
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    environment:
-      - NEXT_PUBLIC_API_URL=http://api:4000/api
-    depends_on:
-      - api
-    restart: unless-stopped
-
   api:
     build:
       context: ./api
@@ -77,14 +65,14 @@ services:
   caddy:
     image: caddy:2-alpine
     ports:
-      - "80:80"
+      - "3000:80"
       - "443:443"
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./web/out:/srv:ro
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
-      - web
       - api
     restart: unless-stopped
 

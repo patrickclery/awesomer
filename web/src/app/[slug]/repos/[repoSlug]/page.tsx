@@ -1,104 +1,46 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from 'recharts';
-import { getRepoByGithub, getStarHistory, type StarHistoryPoint } from '@/lib/api';
+import { notFound } from 'next/navigation';
+import StarChart from './star-chart';
 
-interface RepoData {
-  id: number;
-  githubRepo: string;
-  description: string | null;
-  stars: number | null;
-  stars7d: number | null;
-  stars30d: number | null;
-  stars90d: number | null;
-  lastCommitAt: string | null;
-  categoryItems: Array<{
-    category: {
-      id: number;
-      name: string;
-      slug: string;
-      awesomeList: { id: number; name: string; slug: string };
-    };
-  }>;
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
+
+export async function generateStaticParams() {
+  const res = await fetch(`${API_BASE}/sync/static/repo-slugs`);
+  const { data } = await res.json();
+  return data.map((r: { listSlug: string; repoSlug: string }) => ({
+    slug: r.listSlug,
+    repoSlug: r.repoSlug,
+  }));
+}
+
+async function getRepoData(repoSlug: string) {
+  // repoSlug is "owner-name" where / was replaced with -
+  // Split on the first dash only to get owner and name
+  const dashIndex = repoSlug.indexOf('-');
+  if (dashIndex === -1) return null;
+  const owner = repoSlug.substring(0, dashIndex);
+  const name = repoSlug.substring(dashIndex + 1);
+
+  const res = await fetch(`${API_BASE}/sync/static/repo/${owner}/${name}`);
+  if (!res.ok) return null;
+  const { data } = await res.json();
+  return data;
 }
 
 function formatDelta(value: number | null) {
-  if (value === null || value === 0) return null;
+  if (value === null || value === 0) return '-';
   return value > 0 ? `+${value.toLocaleString()}` : value.toLocaleString();
 }
 
-export default function RepoDetailPage() {
-  const params = useParams();
-  const slug = params.slug as string;
-  const repoSlug = params.repoSlug as string;
+export default async function RepoDetailPage({
+  params,
+}: {
+  params: Promise<{ slug: string; repoSlug: string }>;
+}) {
+  const { slug, repoSlug } = await params;
+  const repo = await getRepoData(repoSlug);
 
-  const [repo, setRepo] = useState<RepoData | null>(null);
-  const [starHistory, setStarHistory] = useState<StarHistoryPoint[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
-
-  useEffect(() => {
-    const githubRepo = repoSlug.replace('-', '/');
-    const [owner, name] = githubRepo.split('/');
-    if (!owner || !name) {
-      setError(true);
-      setLoading(false);
-      return;
-    }
-
-    Promise.all([
-      getRepoByGithub(owner, name).catch(() => null),
-    ])
-      .then(async ([repoRes]) => {
-        if (!repoRes) {
-          setError(true);
-          return;
-        }
-        setRepo(repoRes.data);
-
-        // Fetch star history separately
-        try {
-          const historyRes = await getStarHistory(repoRes.data.id);
-          setStarHistory(historyRes.data);
-        } catch {
-          // Star history not available
-        }
-      })
-      .finally(() => setLoading(false));
-  }, [repoSlug]);
-
-  if (loading) {
-    return <div className="text-center py-12 text-muted">Loading...</div>;
-  }
-
-  if (error || !repo) {
-    return (
-      <div className="text-center py-12">
-        <h1 className="text-2xl font-bold mb-4">Repository not found</h1>
-        <Link
-          href={`/${slug}/repos`}
-          className="text-accent hover:text-accent-hover"
-        >
-          Back to repos
-        </Link>
-      </div>
-    );
-  }
-
-  const d7 = formatDelta(repo.stars7d);
-  const d30 = formatDelta(repo.stars30d);
-  const d90 = formatDelta(repo.stars90d);
+  if (!repo) return notFound();
 
   return (
     <div>
@@ -133,7 +75,11 @@ export default function RepoDetailPage() {
           </a>
           {repo.lastCommitAt && (
             <span className="text-sm text-muted">
-              Last commit: {new Date(repo.lastCommitAt).toLocaleDateString()}
+              Last commit: {new Date(repo.lastCommitAt).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
             </span>
           )}
         </div>
@@ -158,7 +104,7 @@ export default function RepoDetailPage() {
                   : ''
             }`}
           >
-            {d7 || '-'}
+            {formatDelta(repo.stars7d)}
           </div>
         </div>
         <div className="p-4 bg-surface border border-border rounded-lg">
@@ -172,7 +118,7 @@ export default function RepoDetailPage() {
                   : ''
             }`}
           >
-            {d30 || '-'}
+            {formatDelta(repo.stars30d)}
           </div>
         </div>
         <div className="p-4 bg-surface border border-border rounded-lg">
@@ -186,75 +132,26 @@ export default function RepoDetailPage() {
                   : ''
             }`}
           >
-            {d90 || '-'}
+            {formatDelta(repo.stars90d)}
           </div>
         </div>
       </div>
 
-      {/* Star History Chart */}
-      {starHistory.length > 1 && (
-        <div className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Star History</h2>
-          <div className="p-4 bg-surface border border-border rounded-lg">
-            <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={starHistory}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#262626" />
-                <XAxis
-                  dataKey="snapshotDate"
-                  tick={{ fill: '#737373', fontSize: 12 }}
-                  tickFormatter={(value: string) =>
-                    new Date(value).toLocaleDateString('en-US', {
-                      month: 'short',
-                      day: 'numeric',
-                    })
-                  }
-                />
-                <YAxis
-                  tick={{ fill: '#737373', fontSize: 12 }}
-                  tickFormatter={(value: number) =>
-                    value >= 1000 ? `${(value / 1000).toFixed(1)}k` : String(value)
-                  }
-                />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: '#141414',
-                    border: '1px solid #262626',
-                    borderRadius: '8px',
-                    color: '#ededed',
-                  }}
-                  labelFormatter={(label) =>
-                    new Date(String(label)).toLocaleDateString()
-                  }
-                  formatter={(value) => [
-                    Number(value).toLocaleString(),
-                    'Stars',
-                  ]}
-                />
-                <Line
-                  type="monotone"
-                  dataKey="stars"
-                  stroke="#3b82f6"
-                  strokeWidth={2}
-                  dot={false}
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-      )}
+      {/* Star History Chart (client component) */}
+      <StarChart data={repo.starHistory} />
 
-      {/* Categories */}
-      {repo.categoryItems.length > 0 && (
+      {/* Found In */}
+      {repo.foundIn && repo.foundIn.length > 0 && (
         <div>
           <h2 className="text-lg font-semibold mb-4">Found in</h2>
           <div className="flex flex-wrap gap-2">
-            {repo.categoryItems.map((ci) => (
+            {repo.foundIn.map((f: { listSlug: string; listName: string; categoryName: string; categorySlug: string }, i: number) => (
               <Link
-                key={ci.category.id}
-                href={`/${ci.category.awesomeList.slug}/repos?category=${ci.category.slug}`}
+                key={i}
+                href={`/${f.listSlug}/repos?category=${f.categorySlug}`}
                 className="px-3 py-1 bg-surface border border-border rounded-full text-sm text-muted hover:text-foreground hover:border-accent transition-colors"
               >
-                {ci.category.awesomeList.name} / {ci.category.name}
+                {f.listName} / {f.categoryName}
               </Link>
             ))}
           </div>

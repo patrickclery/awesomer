@@ -34,6 +34,7 @@ export class SyncService {
       await this.takeStarSnapshots();
       await this.computeTrending();
       await this.generateMarkdown();
+      await this.rebuildStaticSite();
       this.logger.log('Daily sync pipeline completed');
     } catch (error) {
       this.logger.error('Daily sync pipeline failed', error);
@@ -354,6 +355,28 @@ export class SyncService {
       `Markdown generation complete: ${generatedFiles.length} files`,
     );
     return generatedFiles;
+  }
+
+  // =========================================================================
+  // Step 6: Rebuild Static Site
+  // =========================================================================
+
+  async rebuildStaticSite() {
+    this.logger.log('Step 6: Rebuilding static site...');
+    const { execSync } = await import('child_process');
+    const path = await import('path');
+    const webDir = path.resolve(process.cwd(), '..', 'web');
+    try {
+      execSync('npm run build', {
+        cwd: webDir,
+        stdio: 'inherit',
+        timeout: 600_000,
+        env: { ...process.env, NEXT_PUBLIC_API_URL: `http://localhost:${process.env.PORT ?? 4000}/api` },
+      });
+      this.logger.log('Static site rebuilt successfully');
+    } catch (error) {
+      this.logger.error('Static site build failed', error);
+    }
   }
 
   // =========================================================================

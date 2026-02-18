@@ -1,7 +1,12 @@
-import { getAwesomeList, getTrendingByList } from '@/lib/api';
+import { getAwesomeLists, getAwesomeList, getTrendingByList } from '@/lib/api';
 import { TrendingTable } from '@/components/trending-table';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
+export async function generateStaticParams() {
+  const { data: lists } = await getAwesomeLists();
+  return lists.map((list) => ({ slug: list.slug }));
+}
 
 interface Props {
   params: Promise<{ slug: string }>;

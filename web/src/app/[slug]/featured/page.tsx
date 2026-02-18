@@ -1,4 +1,9 @@
-import { getFeatured, type FeaturedProfile } from '@/lib/api';
+import { getAwesomeLists, getFeatured, type FeaturedProfile } from '@/lib/api';
+
+export async function generateStaticParams() {
+  const { data: lists } = await getAwesomeLists();
+  return lists.map((list) => ({ slug: list.slug }));
+}
 
 interface Props {
   params: Promise<{ slug: string }>;

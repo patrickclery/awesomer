@@ -6,13 +6,25 @@ This file provides guidance to Claude Code when working with this repository.
 
 Awesomer is a multi-vertical platform for discovering trending open-source tools from curated GitHub Awesome Lists. It consists of a **NestJS API** (`api/`) and a **Next.js frontend** (`web/`), backed by PostgreSQL via Prisma ORM.
 
-## Monorepo Structure
+## Repository Structure
+
+This repo is `patrickclery/awesomer-engine` (**PRIVATE**). It contains all source code.
 
 ```
-api/           → NestJS 11 backend (TypeScript, ESM, Prisma 7)
-web/           → Next.js 16 frontend (React 19, Tailwind CSS 4)
-docs/plans/    → Architecture decision records
+api/              → NestJS 11 backend (TypeScript, ESM, Prisma 7)
+web/              → Next.js 16 frontend (React 19, Tailwind CSS 4)
+static/awesomer/  → Git submodule → patrickclery/awesomer (PUBLIC)
+docs/plans/       → Architecture decision records
 ```
+
+### Public vs Private Repos
+
+| Repo | Visibility | Purpose |
+|------|-----------|---------|
+| `patrickclery/awesomer-engine` | **PRIVATE** | All source code (API, frontend, scripts, config) |
+| `patrickclery/awesomer` | **PUBLIC** | Static markdown output only (served via GitHub Pages) |
+
+**CRITICAL: Never push source code, config, API keys, database schemas, or any non-markdown content to the public `awesomer` repo.** The `static/awesomer/` submodule should only ever contain generated markdown files. All code stays in this private `awesomer-engine` repo.
 
 ## Common Commands
 
@@ -47,8 +59,11 @@ cd web
 
 npm install
 npm run dev                       # Next.js dev server on port 3000
-npm run build                     # Production build
+npm run build                     # Static export → out/ directory (API must be running)
+npx serve out/                    # Serve static site locally for testing
 ```
+
+The frontend uses `output: 'export'` for fully static generation. All pages are pre-rendered at build time. The API must be running on port 4000 during `npm run build` since `generateStaticParams()` and server components fetch data from it. The daily sync pipeline automatically rebuilds the static site after completing.
 
 ### Database
 ```bash
@@ -86,7 +101,7 @@ docker compose -f docker-compose.platform.yml up -d postgres redis
 | `trending/` | Trending repos (7d/30d/90d) from star snapshot diffs |
 | `featured/` | Featured developer profiles |
 | `newsletter/` | Subscribe/unsubscribe, Listmonk integration |
-| `sync/` | Sync pipeline: fetch README → parse → upsert categories/items → fetch stars |
+| `sync/` | Sync pipeline: fetch README → parse → upsert categories/items → fetch stars → rebuild static site. Also serves static data export endpoints for SSG build. |
 | `admin/` | AdminJS panel (currently disabled — ESM incompatibility with tiptap) |
 
 ### Key Technical Decisions
@@ -124,6 +139,8 @@ See `api/.env.example` for all options. Key ones:
 - The `pg` module returns primary key columns as strings — use `Number()` when mapping IDs
 - AdminJS is temporarily disabled due to ESM compatibility issues with `@tiptap/core`
 - Never commit API keys, `.env` files, or generated Prisma client to the repository
+- **Never push source code to `patrickclery/awesomer`** — that public repo is only for static markdown output via the `static/awesomer/` submodule
+- When working in `static/awesomer/`, only commit generated `.md` files — no code, config, or secrets
 
 ### Plan Documents
 

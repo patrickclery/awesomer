@@ -1,7 +1,7 @@
-# Development: use localhost
-# Production: replace with your domain
 :80 {
-	# API routes
+	root * /srv
+
+	# API routes — proxy to NestJS
 	handle /api/* {
 		reverse_proxy api:4000
 	}
@@ -16,8 +16,9 @@
 		reverse_proxy listmonk:9000
 	}
 
-	# Everything else goes to Next.js
+	# Static site — serve files, fallback to index.html or 404
 	handle {
-		reverse_proxy web:3000
+		file_server
+		try_files {path} {path}/index.html /404.html
 	}
 }
