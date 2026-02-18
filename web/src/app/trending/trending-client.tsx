@@ -21,16 +21,16 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
   return (
     <div>
       <div className="flex items-center justify-between mb-8">
-        <h1 className="text-2xl font-bold">Global Trending</h1>
-        <div className="flex gap-2">
+        <h1 className="text-xl font-bold">$ trending --global</h1>
+        <div className="flex gap-1">
           {(['7d', '30d', '90d'] as Period[]).map((p) => (
             <button
               key={p}
               onClick={() => setPeriod(p)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+              className={`px-3 py-1 text-xs transition-colors ${
                 period === p
-                  ? 'bg-accent text-white'
-                  : 'bg-surface border border-border text-muted hover:text-foreground'
+                  ? 'border border-accent text-accent'
+                  : 'border border-border text-muted hover:text-foreground hover:border-muted'
               }`}
             >
               {p}
@@ -41,13 +41,13 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
 
       {repos.length > 0 ? (
         <TrendingTable
-          title={`Top ${repos.length} — ${period} Trending`}
+          title={`top ${repos.length} — ${period} trending`}
           repos={repos}
           period={period}
         />
       ) : (
-        <div className="text-center py-12 text-muted">
-          No trending data available.
+        <div className="py-8 text-muted text-sm">
+          no trending data available.
         </div>
       )}
     </div>

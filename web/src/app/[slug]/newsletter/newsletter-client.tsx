@@ -36,48 +36,50 @@ export default function NewsletterClient({ slug }: { slug: string }) {
   };
 
   return (
-    <div className="max-w-lg mx-auto">
-      <h1 className="text-2xl font-bold mb-4">
-        {listName ? `${listName} Newsletter` : 'Newsletter'}
+    <div className="max-w-lg">
+      <h1 className="text-xl font-bold mb-2">
+        $ subscribe --newsletter {listName ? `"${listName}"` : ''}
       </h1>
-      <p className="text-muted mb-8">
-        Get a weekly digest of the top trending repos delivered to your inbox.
-        Automated, data-driven, no fluff.
+      <p className="text-muted text-sm mb-6">
+        weekly digest of top trending repos. automated, data-driven, no fluff.
       </p>
 
       {status === 'success' ? (
-        <div className="p-4 bg-success/10 border border-success/20 rounded-lg text-success">
-          Subscribed! You&apos;ll get your first digest next Monday.
+        <div className="p-3 border border-success text-success text-sm">
+          [OK] subscribed. first digest arrives next monday.
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="flex gap-3">
-          <input
-            type="email"
-            placeholder="you@example.com"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="flex-1 px-4 py-2 bg-background border border-border rounded-lg text-foreground placeholder-muted focus:outline-none focus:border-accent"
-          />
+        <form onSubmit={handleSubmit} className="flex gap-2">
+          <div className="flex items-center border border-border flex-1">
+            <span className="pl-3 text-muted text-sm">&gt;</span>
+            <input
+              type="email"
+              placeholder="you@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+              className="w-full px-2 py-1.5 bg-transparent text-foreground text-sm placeholder-muted focus:outline-none"
+            />
+          </div>
           <button
             type="submit"
             disabled={status === 'loading' || !listId}
-            className="px-6 py-2 bg-accent text-white rounded-lg hover:bg-accent-hover transition-colors disabled:opacity-50"
+            className="px-4 py-1.5 border border-accent text-accent text-sm hover:bg-accent hover:text-background transition-colors disabled:opacity-30"
           >
-            {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+            {status === 'loading' ? 'subscribing...' : '[ subscribe ]'}
           </button>
         </form>
       )}
 
       {status === 'error' && (
-        <p className="text-danger text-sm mt-3">
-          Something went wrong. Please try again.
+        <p className="text-danger text-xs mt-2">
+          [ERR] something went wrong. try again.
         </p>
       )}
 
-      <div className="mt-12">
-        <h2 className="text-lg font-semibold mb-4">Past Issues</h2>
-        <p className="text-muted text-sm">No issues published yet.</p>
+      <div className="mt-10">
+        <div className="text-muted text-sm mb-3">## past issues</div>
+        <p className="text-muted text-xs">no issues published yet.</p>
       </div>
     </div>
   );

@@ -13,41 +13,50 @@ export default async function HomePage() {
 
   return (
     <div>
-      <section className="text-center py-16">
-        <h1 className="text-4xl font-bold mb-4">awesomer</h1>
-        <p className="text-muted text-lg max-w-2xl mx-auto">
-          Discover trending open-source tools, powered by real GitHub data. No
-          votes, no hype — just stars.
+      <section className="py-12">
+        <div className="text-accent glow text-lg mb-2">$ cat README.md</div>
+        <h1 className="text-2xl font-bold mb-3 text-foreground">
+          discover trending open-source tools
+        </h1>
+        <p className="text-muted text-sm max-w-xl">
+          powered by real github data. no votes, no hype — just stars.
         </p>
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-6">Verticals</h2>
+        <div className="text-muted text-sm mb-4">
+          ## verticals ({lists.length})
+        </div>
         {lists.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="space-y-1">
             {lists.map((list) => (
               <Link
                 key={list.id}
                 href={`/${list.slug}`}
-                className="block p-6 bg-surface border border-border rounded-lg hover:border-accent transition-colors"
+                className="block py-2 px-3 border border-transparent hover:border-border hover:bg-surface transition-colors group"
               >
-                <h3 className="font-semibold text-lg mb-2">{list.name}</h3>
+                <div className="flex items-center gap-3">
+                  <span className="text-muted group-hover:text-accent">&gt;</span>
+                  <span className="text-foreground group-hover:text-accent font-medium">
+                    {list.name}
+                  </span>
+                  {list._count && (
+                    <span className="text-muted text-xs">
+                      [{list._count.categories} categories]
+                    </span>
+                  )}
+                </div>
                 {list.description && (
-                  <p className="text-muted text-sm line-clamp-2">
+                  <p className="text-muted text-xs ml-6 mt-0.5 truncate">
                     {list.description}
-                  </p>
-                )}
-                {list._count && (
-                  <p className="text-muted text-xs mt-3">
-                    {list._count.categories} categories
                   </p>
                 )}
               </Link>
             ))}
           </div>
         ) : (
-          <div className="text-center py-12 text-muted">
-            <p>No verticals available yet. Connect the API to get started.</p>
+          <div className="py-8 text-muted text-sm">
+            <span className="text-danger">[ERR]</span> no verticals available. connect the API to get started.
           </div>
         )}
       </section>

@@ -43,33 +43,34 @@ export default async function VerticalPage({ params }: Props) {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">{list.name}</h1>
+        <div className="text-muted text-sm mb-1">$ awesomer show {slug}</div>
+        <h1 className="text-2xl font-bold mb-1 text-foreground">{list.name}</h1>
         {list.description && (
-          <p className="text-muted text-lg">{list.description}</p>
+          <p className="text-muted text-sm">{list.description}</p>
         )}
         <div className="mt-4">
           <Link
             href={`/${slug}/repos`}
-            className="inline-block px-4 py-2 bg-accent text-white rounded-lg hover:bg-accent-hover transition-colors"
+            className="inline-block px-4 py-1.5 border border-accent text-accent text-sm hover:bg-accent hover:text-background transition-colors"
           >
-            Browse all repos
+            [ browse all repos ]
           </Link>
         </div>
       </div>
 
       {list.categories && list.categories.length > 0 && (
         <div className="mb-8">
-          <h2 className="text-lg font-semibold mb-3">Categories</h2>
-          <div className="flex flex-wrap gap-2">
+          <div className="text-muted text-sm mb-3">## categories</div>
+          <div className="flex flex-wrap gap-1">
             {list.categories.map((cat) => (
               <Link
                 key={cat.id}
                 href={`/${slug}/repos?category=${cat.slug}`}
-                className="px-3 py-1 bg-surface border border-border rounded-full text-sm text-muted hover:text-foreground hover:border-accent transition-colors"
+                className="px-2 py-0.5 border border-border text-xs text-muted hover:text-accent hover:border-accent transition-colors"
               >
                 {cat.name}
                 {cat._count && (
-                  <span className="ml-1 text-xs">
+                  <span className="ml-1 text-muted/60">
                     ({cat._count.categoryItems})
                   </span>
                 )}
@@ -79,10 +80,10 @@ export default async function VerticalPage({ params }: Props) {
         </div>
       )}
 
-      <div className="space-y-12">
+      <div className="space-y-10">
         {trending7d.length > 0 && (
           <TrendingTable
-            title="Top 10: 7-Day Trending"
+            title="top 10 — 7-day trending"
             repos={trending7d}
             period="7d"
             listSlug={slug}
@@ -90,7 +91,7 @@ export default async function VerticalPage({ params }: Props) {
         )}
         {trending30d.length > 0 && (
           <TrendingTable
-            title="Top 10: 30-Day Trending"
+            title="top 10 — 30-day trending"
             repos={trending30d}
             period="30d"
             listSlug={slug}
@@ -98,7 +99,7 @@ export default async function VerticalPage({ params }: Props) {
         )}
         {trending90d.length > 0 && (
           <TrendingTable
-            title="Top 10: 90-Day Trending"
+            title="top 10 — 90-day trending"
             repos={trending90d}
             period="90d"
             listSlug={slug}

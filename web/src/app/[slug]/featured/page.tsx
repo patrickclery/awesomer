@@ -22,40 +22,42 @@ export default async function FeaturedPage({ params }: Props) {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-8">Featured Profiles</h1>
+      <h1 className="text-xl font-bold mb-6">$ featured --profiles</h1>
 
       {profiles.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-2">
           {profiles.map((profile) => (
             <div
               key={profile.id}
-              className="p-6 bg-surface border border-border rounded-lg"
+              className="p-4 border border-border hover:border-muted transition-colors"
             >
               <div className="flex items-start gap-4">
                 {profile.avatarUrl && (
                   <img
                     src={profile.avatarUrl}
                     alt={profile.name}
-                    className="w-16 h-16 rounded-full"
+                    className="w-12 h-12 grayscale hover:grayscale-0 transition-all"
                   />
                 )}
                 <div>
-                  <h3 className="font-semibold text-lg">{profile.name}</h3>
-                  <span className="text-xs text-muted px-2 py-0.5 bg-background rounded-full">
-                    {profile.profileType.replace('_', ' ')}
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <h3 className="font-bold">{profile.name}</h3>
+                    <span className="text-xs text-muted border border-border px-1.5 py-0.5">
+                      {profile.profileType.replace('_', ' ')}
+                    </span>
+                  </div>
                   {profile.bio && (
-                    <p className="text-muted text-sm mt-2">{profile.bio}</p>
+                    <p className="text-muted text-xs mt-1">{profile.bio}</p>
                   )}
-                  <div className="flex gap-3 mt-3 text-sm">
+                  <div className="flex gap-3 mt-2 text-xs">
                     {profile.githubHandle && (
                       <a
                         href={`https://github.com/${profile.githubHandle}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-accent hover:underline"
+                        className="text-muted hover:text-accent transition-colors"
                       >
-                        GitHub
+                        [github]
                       </a>
                     )}
                     {profile.twitterHandle && (
@@ -63,9 +65,9 @@ export default async function FeaturedPage({ params }: Props) {
                         href={`https://twitter.com/${profile.twitterHandle}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-accent hover:underline"
+                        className="text-muted hover:text-accent transition-colors"
                       >
-                        Twitter
+                        [twitter]
                       </a>
                     )}
                     {profile.website && (
@@ -73,9 +75,9 @@ export default async function FeaturedPage({ params }: Props) {
                         href={profile.website}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-accent hover:underline"
+                        className="text-muted hover:text-accent transition-colors"
                       >
-                        Website
+                        [web]
                       </a>
                     )}
                   </div>
@@ -85,8 +87,8 @@ export default async function FeaturedPage({ params }: Props) {
           ))}
         </div>
       ) : (
-        <div className="text-center py-12 text-muted">
-          No featured profiles yet.
+        <div className="py-8 text-muted text-sm">
+          no featured profiles yet.
         </div>
       )}
     </div>

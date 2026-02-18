@@ -57,17 +57,15 @@ export function TrendingTable({
 
   return (
     <div>
-      <h2 className="text-lg font-semibold mb-4">{title}</h2>
+      <div className="text-muted text-sm mb-3">--- {title} ---</div>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-border text-muted">
-              <th className="text-left py-3 px-2 w-8">#</th>
-              <th className="text-left py-3 px-2">Repository</th>
-              <th className="text-right py-3 px-2">Stars</th>
-              <th className="text-right py-3 px-2">
-                {period === '7d' ? '7d' : period === '30d' ? '30d' : '90d'}
-              </th>
+            <tr className="border-b border-border text-muted text-xs uppercase tracking-wider">
+              <th className="text-left py-2 px-2 w-8">#</th>
+              <th className="text-left py-2 px-2">repo</th>
+              <th className="text-right py-2 px-2">stars</th>
+              <th className="text-right py-2 px-2">{period}</th>
             </tr>
           </thead>
           <tbody>
@@ -81,24 +79,26 @@ export function TrendingTable({
               return (
                 <tr
                   key={repo.id}
-                  className="border-b border-border hover:bg-surface-hover transition-colors"
+                  className="border-b border-border/50 hover:bg-surface transition-colors"
                 >
-                  <td className="py-3 px-2 text-muted">{index + 1}</td>
-                  <td className="py-3 px-2">
-                    <Link href={href} className="hover:text-accent">
-                      <span className="font-medium">{repo.githubRepo}</span>
+                  <td className="py-2 px-2 text-muted text-xs">
+                    {String(index + 1).padStart(2, '0')}
+                  </td>
+                  <td className="py-2 px-2">
+                    <Link href={href} className="hover:text-accent transition-colors">
+                      <span>{repo.githubRepo}</span>
                     </Link>
                     {repo.description && (
-                      <p className="text-muted text-xs mt-1 truncate max-w-md">
+                      <p className="text-muted text-xs mt-0.5 truncate max-w-md">
                         {repo.description}
                       </p>
                     )}
                   </td>
-                  <td className="py-3 px-2 text-right font-mono">
+                  <td className="py-2 px-2 text-right text-muted">
                     {formatStars(repo.stars)}
                   </td>
                   <td
-                    className={`py-3 px-2 text-right font-mono ${
+                    className={`py-2 px-2 text-right ${
                       delta && delta > 0
                         ? 'text-success'
                         : delta && delta < 0

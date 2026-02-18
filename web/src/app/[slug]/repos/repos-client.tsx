@@ -42,11 +42,11 @@ export default function ReposClient({ slug }: { slug: string }) {
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold">Repos</h1>
-        <div className="flex gap-2">
+        <h1 className="text-xl font-bold">$ ls repos/</h1>
+        <div className="flex gap-1">
           {(
             [
-              ['stars', 'Stars'],
+              ['stars', 'stars'],
               ['trending_7d', '7d'],
               ['trending_30d', '30d'],
               ['trending_90d', '90d'],
@@ -58,10 +58,10 @@ export default function ReposClient({ slug }: { slug: string }) {
                 setSort(value);
                 setPage(1);
               }}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              className={`px-3 py-1 text-xs transition-colors ${
                 sort === value
-                  ? 'bg-accent text-white'
-                  : 'bg-surface border border-border text-muted hover:text-foreground'
+                  ? 'border border-accent text-accent'
+                  : 'border border-border text-muted hover:text-foreground hover:border-muted'
               }`}
             >
               {label}
@@ -71,66 +71,69 @@ export default function ReposClient({ slug }: { slug: string }) {
       </div>
 
       <div className="mb-6">
-        <input
-          type="text"
-          placeholder="Filter repos..."
-          value={search}
-          onChange={(e) => {
-            setSearch(e.target.value);
-            setPage(1);
-          }}
-          className="w-full max-w-md px-4 py-2 bg-background border border-border rounded-lg text-foreground placeholder-muted focus:outline-none focus:border-accent"
-        />
+        <div className="flex items-center border border-border max-w-md">
+          <span className="pl-3 text-muted text-sm">&gt;</span>
+          <input
+            type="text"
+            placeholder="filter..."
+            value={search}
+            onChange={(e) => {
+              setSearch(e.target.value);
+              setPage(1);
+            }}
+            className="w-full px-2 py-1.5 bg-transparent text-foreground text-sm placeholder-muted focus:outline-none"
+          />
+        </div>
       </div>
 
       {loading ? (
-        <div className="text-center py-12 text-muted">Loading...</div>
+        <div className="py-8 text-muted text-sm">loading...</div>
       ) : (
         <>
-          <p className="text-muted text-sm mb-4">
-            {total} repos found
+          <p className="text-muted text-xs mb-3">
+            {total} results
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border text-muted">
-                  <th className="text-left py-3 px-2">Name</th>
-                  <th className="text-left py-3 px-2">Category</th>
-                  <th className="text-right py-3 px-2">Stars</th>
-                  <th className="text-right py-3 px-2">7d</th>
-                  <th className="text-right py-3 px-2">30d</th>
-                  <th className="text-right py-3 px-2">90d</th>
+                <tr className="border-b border-border text-muted text-xs uppercase tracking-wider">
+                  <th className="text-left py-2 px-2">name</th>
+                  <th className="text-left py-2 px-2">category</th>
+                  <th className="text-right py-2 px-2">stars</th>
+                  <th className="text-right py-2 px-2">7d</th>
+                  <th className="text-right py-2 px-2">30d</th>
+                  <th className="text-right py-2 px-2">90d</th>
                 </tr>
               </thead>
               <tbody>
                 {repos.map((item) => (
                   <tr
                     key={item.id}
-                    className="border-b border-border hover:bg-surface-hover transition-colors"
+                    className="border-b border-border/50 hover:bg-surface transition-colors"
                   >
-                    <td className="py-3 px-2">
+                    <td className="py-2 px-2">
                       <Link
                         href={item.primaryUrl || '#'}
-                        className="font-medium hover:text-accent"
+                        className="hover:text-accent transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         {item.name || item.githubRepo}
                       </Link>
                       {(item.githubDescription || item.description) && (
-                        <p className="text-muted text-xs mt-1 truncate max-w-sm">
+                        <p className="text-muted text-xs mt-0.5 truncate max-w-sm">
                           {item.githubDescription || item.description}
                         </p>
                       )}
                     </td>
-                    <td className="py-3 px-2 text-muted text-xs">
+                    <td className="py-2 px-2 text-muted text-xs">
                       {item.category.name}
                     </td>
-                    <td className="py-3 px-2 text-right font-mono">
+                    <td className="py-2 px-2 text-right text-muted">
                       {item.stars?.toLocaleString() ?? '-'}
                     </td>
                     <td
-                      className={`py-3 px-2 text-right font-mono ${
+                      className={`py-2 px-2 text-right ${
                         item.repo?.stars7d && item.repo.stars7d > 0
                           ? 'text-success'
                           : item.repo?.stars7d && item.repo.stars7d < 0
@@ -144,7 +147,7 @@ export default function ReposClient({ slug }: { slug: string }) {
                         : ''}
                     </td>
                     <td
-                      className={`py-3 px-2 text-right font-mono ${
+                      className={`py-2 px-2 text-right ${
                         item.repo?.stars30d && item.repo.stars30d > 0
                           ? 'text-success'
                           : item.repo?.stars30d && item.repo.stars30d < 0
@@ -158,7 +161,7 @@ export default function ReposClient({ slug }: { slug: string }) {
                         : ''}
                     </td>
                     <td
-                      className={`py-3 px-2 text-right font-mono ${
+                      className={`py-2 px-2 text-right ${
                         item.repo?.stars90d && item.repo.stars90d > 0
                           ? 'text-success'
                           : item.repo?.stars90d && item.repo.stars90d < 0
@@ -178,23 +181,23 @@ export default function ReposClient({ slug }: { slug: string }) {
           </div>
 
           {total > 50 && (
-            <div className="flex justify-center gap-2 mt-6">
+            <div className="flex items-center gap-2 mt-4 text-sm">
               <button
                 onClick={() => setPage((p) => Math.max(1, p - 1))}
                 disabled={page === 1}
-                className="px-4 py-2 bg-surface border border-border rounded-lg text-sm disabled:opacity-50"
+                className="px-3 py-1 border border-border text-muted hover:text-foreground disabled:opacity-30 transition-colors"
               >
-                Previous
+                prev
               </button>
-              <span className="px-4 py-2 text-sm text-muted">
-                Page {page} of {Math.ceil(total / 50)}
+              <span className="text-muted text-xs">
+                [{page}/{Math.ceil(total / 50)}]
               </span>
               <button
                 onClick={() => setPage((p) => p + 1)}
                 disabled={page >= Math.ceil(total / 50)}
-                className="px-4 py-2 bg-surface border border-border rounded-lg text-sm disabled:opacity-50"
+                className="px-3 py-1 border border-border text-muted hover:text-foreground disabled:opacity-30 transition-colors"
               >
-                Next
+                next
               </button>
             </div>
           )}

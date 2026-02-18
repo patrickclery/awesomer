@@ -45,37 +45,37 @@ export default async function RepoDetailPage({
   return (
     <div>
       {/* Breadcrumb */}
-      <nav className="text-sm text-muted mb-6">
+      <nav className="text-xs text-muted mb-6">
         <Link href={`/${slug}`} className="hover:text-accent">
           {slug}
         </Link>
-        <span className="mx-2">/</span>
+        <span className="mx-1">/</span>
         <Link href={`/${slug}/repos`} className="hover:text-accent">
           repos
         </Link>
-        <span className="mx-2">/</span>
+        <span className="mx-1">/</span>
         <span className="text-foreground">{repo.githubRepo}</span>
       </nav>
 
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">{repo.githubRepo}</h1>
+        <h1 className="text-xl font-bold mb-1">{repo.githubRepo}</h1>
         {repo.description && (
-          <p className="text-muted text-lg mb-4">{repo.description}</p>
+          <p className="text-muted text-sm mb-4">{repo.description}</p>
         )}
 
-        <div className="flex flex-wrap gap-4 items-center">
+        <div className="flex flex-wrap gap-3 items-center">
           <a
             href={`https://github.com/${repo.githubRepo}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-surface border border-border rounded-lg hover:border-accent transition-colors"
+            className="inline-block px-3 py-1 border border-border text-sm text-muted hover:text-accent hover:border-accent transition-colors"
           >
-            View on GitHub
+            [view on github]
           </a>
           {repo.lastCommitAt && (
-            <span className="text-sm text-muted">
-              Last commit: {new Date(repo.lastCommitAt).toLocaleDateString('en-US', {
+            <span className="text-xs text-muted">
+              last commit: {new Date(repo.lastCommitAt).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric',
@@ -85,18 +85,18 @@ export default async function RepoDetailPage({
         </div>
       </div>
 
-      {/* Stats Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="p-4 bg-surface border border-border rounded-lg">
-          <div className="text-sm text-muted mb-1">Stars</div>
-          <div className="text-2xl font-bold font-mono">
+      {/* Stats */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+        <div className="p-3 border border-border">
+          <div className="text-xs text-muted mb-1">stars</div>
+          <div className="text-lg font-bold">
             {repo.stars?.toLocaleString() ?? '-'}
           </div>
         </div>
-        <div className="p-4 bg-surface border border-border rounded-lg">
-          <div className="text-sm text-muted mb-1">7-day change</div>
+        <div className="p-3 border border-border">
+          <div className="text-xs text-muted mb-1">7d</div>
           <div
-            className={`text-2xl font-bold font-mono ${
+            className={`text-lg font-bold ${
               repo.stars7d && repo.stars7d > 0
                 ? 'text-success'
                 : repo.stars7d && repo.stars7d < 0
@@ -107,10 +107,10 @@ export default async function RepoDetailPage({
             {formatDelta(repo.stars7d)}
           </div>
         </div>
-        <div className="p-4 bg-surface border border-border rounded-lg">
-          <div className="text-sm text-muted mb-1">30-day change</div>
+        <div className="p-3 border border-border">
+          <div className="text-xs text-muted mb-1">30d</div>
           <div
-            className={`text-2xl font-bold font-mono ${
+            className={`text-lg font-bold ${
               repo.stars30d && repo.stars30d > 0
                 ? 'text-success'
                 : repo.stars30d && repo.stars30d < 0
@@ -121,10 +121,10 @@ export default async function RepoDetailPage({
             {formatDelta(repo.stars30d)}
           </div>
         </div>
-        <div className="p-4 bg-surface border border-border rounded-lg">
-          <div className="text-sm text-muted mb-1">90-day change</div>
+        <div className="p-3 border border-border">
+          <div className="text-xs text-muted mb-1">90d</div>
           <div
-            className={`text-2xl font-bold font-mono ${
+            className={`text-lg font-bold ${
               repo.stars90d && repo.stars90d > 0
                 ? 'text-success'
                 : repo.stars90d && repo.stars90d < 0
@@ -137,21 +137,20 @@ export default async function RepoDetailPage({
         </div>
       </div>
 
-      {/* Star History Chart (client component) */}
       <StarChart data={repo.starHistory} />
 
       {/* Found In */}
       {repo.foundIn && repo.foundIn.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-4">Found in</h2>
-          <div className="flex flex-wrap gap-2">
+          <div className="text-muted text-sm mb-3">## found in</div>
+          <div className="flex flex-wrap gap-1">
             {repo.foundIn.map((f: { listSlug: string; listName: string; categoryName: string; categorySlug: string }, i: number) => (
               <Link
                 key={i}
                 href={`/${f.listSlug}/repos?category=${f.categorySlug}`}
-                className="px-3 py-1 bg-surface border border-border rounded-full text-sm text-muted hover:text-foreground hover:border-accent transition-colors"
+                className="px-2 py-0.5 border border-border text-xs text-muted hover:text-accent hover:border-accent transition-colors"
               >
-                {f.listName} / {f.categoryName}
+                {f.listName}/{f.categoryName}
               </Link>
             ))}
           </div>

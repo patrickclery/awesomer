@@ -58,9 +58,9 @@ npm run start:prod                # node dist/src/main.js
 cd web
 
 npm install
-npm run dev                       # Next.js dev server on port 3000
+npm run dev                       # Next.js dev server on port 3000 (for development)
 npm run build                     # Static export → out/ directory (API must be running)
-npx serve out/                    # Serve static site locally for testing
+python3 -m http.server 3000 --directory out  # Serve static site on port 3000
 ```
 
 The frontend uses `output: 'export'` for fully static generation. All pages are pre-rendered at build time. The API must be running on port 4000 during `npm run build` since `generateStaticParams()` and server components fetch data from it. The daily sync pipeline automatically rebuilds the static site after completing.
