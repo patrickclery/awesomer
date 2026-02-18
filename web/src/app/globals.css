@@ -13,6 +13,8 @@
   --danger: #ff3333;
   --warning: #ffb800;
   --cyan: #00d4ff;
+  --glow-color: rgba(0, 255, 65, 0.4);
+  --selection-bg: rgba(0, 255, 65, 0.15);
 }
 
 @theme inline {
@@ -52,7 +54,7 @@ body {
 
 /* Glow effect for accent elements */
 .glow {
-  text-shadow: 0 0 8px rgba(0, 255, 65, 0.4);
+  text-shadow: 0 0 8px var(--glow-color);
 }
 
 /* Scanline overlay — very subtle CRT effect */
@@ -91,6 +93,6 @@ body::before {
 
 /* Selection highlight */
 ::selection {
-  background: rgba(0, 255, 65, 0.15);
+  background: var(--selection-bg);
   color: var(--accent);
 }

@@ -38,6 +38,7 @@ export interface AwesomeList {
   description: string | null;
   githubRepo: string;
   state: string;
+  theme: string;
   lastSyncedAt: string | null;
   _count?: {
     categories: number;
