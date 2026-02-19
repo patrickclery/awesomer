@@ -201,11 +201,22 @@ export class SyncService {
             },
           });
 
-          // Also update the repo's stars and last_commit_at
+          // Also update the repo's stars, description, and last_commit_at
           await this.prisma.repo.update({
             where: { id: repoId },
             data: {
               stars: data.stargazerCount,
+              description: data.description,
+              lastCommitAt: data.pushedAt ? new Date(data.pushedAt) : undefined,
+            },
+          });
+
+          // Sync stars/description to linked category items
+          await this.prisma.categoryItem.updateMany({
+            where: { repoId },
+            data: {
+              stars: data.stargazerCount,
+              githubDescription: data.description,
               lastCommitAt: data.pushedAt ? new Date(data.pushedAt) : undefined,
             },
           });
