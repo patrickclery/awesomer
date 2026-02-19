@@ -12,6 +12,10 @@ const TRENDING_PERIODS = [
 ];
 const TOLERANCE_DAYS = 3;
 
+export type SyncStep = 'stats' | 'snapshots' | 'trending' | 'markdown' | 'rebuild';
+
+const ALL_STEPS: SyncStep[] = ['snapshots', 'trending', 'markdown', 'rebuild'];
+
 @Injectable()
 export class SyncService {
   private readonly logger = new Logger(SyncService.name);
@@ -26,18 +30,19 @@ export class SyncService {
   // =========================================================================
 
   @Cron(CronExpression.EVERY_DAY_AT_2AM)
-  async runDailySync() {
-    this.logger.log('Starting daily sync pipeline...');
+  async runDailySync(steps?: SyncStep[]) {
+    const run = new Set(steps ?? ALL_STEPS);
+    this.logger.log(`Starting sync pipeline (steps: ${[...run].join(', ')})...`);
 
     try {
-      await this.syncGithubStats();
-      await this.takeStarSnapshots();
-      await this.computeTrending();
-      await this.generateMarkdown();
-      await this.rebuildStaticSite();
-      this.logger.log('Daily sync pipeline completed');
+      if (run.has('stats'))     await this.syncGithubStats();
+      if (run.has('snapshots')) await this.takeStarSnapshots();
+      if (run.has('trending'))  await this.computeTrending();
+      if (run.has('markdown'))  await this.generateMarkdown();
+      if (run.has('rebuild'))   await this.rebuildStaticSite();
+      this.logger.log('Sync pipeline completed');
     } catch (error) {
-      this.logger.error('Daily sync pipeline failed', error);
+      this.logger.error('Sync pipeline failed', error);
     }
   }
 

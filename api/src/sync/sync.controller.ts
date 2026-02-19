@@ -2,6 +2,7 @@ import {
   Controller,
   Get,
   Post,
+  Body,
   Param,
   ParseIntPipe,
   Headers,
@@ -11,7 +12,7 @@ import {
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { ConfigService } from '@nestjs/config';
 import { StaticDataService } from './static-data.service.js';
-import { SyncService } from './sync.service.js';
+import { SyncService, SyncStep } from './sync.service.js';
 
 @ApiTags('Sync')
 @Controller('sync')
@@ -31,12 +32,15 @@ export class SyncController {
   }
 
   @Post('run')
-  @ApiOperation({ summary: 'Trigger full daily sync pipeline (admin only)' })
-  async triggerSync(@Headers('authorization') auth?: string) {
+  @ApiOperation({ summary: 'Trigger sync pipeline (admin only). Optionally pass { "steps": ["snapshots", "trending", "markdown", "rebuild"] }' })
+  async triggerSync(
+    @Headers('authorization') auth?: string,
+    @Body() body?: { steps?: SyncStep[] },
+  ) {
     this.checkAdminKey(auth);
-    // Run async so we don't block the request
-    void this.syncService.runDailySync();
-    return { message: 'Sync pipeline started' };
+    const steps = body?.steps?.length ? body.steps : undefined;
+    void this.syncService.runDailySync(steps);
+    return { message: 'Sync pipeline started', steps: steps ?? 'all (default)' };
   }
 
   @Post('import/:id')
