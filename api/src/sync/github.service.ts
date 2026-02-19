@@ -11,6 +11,7 @@ interface RepoStats {
 
 interface GraphQLRepoResult {
   stargazerCount: number;
+  description: string | null;
   pushedAt: string | null;
 }
 
@@ -84,7 +85,7 @@ export class GithubService {
 
     const queryParts = repos.map(
       (r, i) =>
-        `repo${i}: repository(owner: "${r.owner}", name: "${r.name}") { stargazerCount pushedAt }`,
+        `repo${i}: repository(owner: "${r.owner}", name: "${r.name}") { stargazerCount description pushedAt }`,
     );
 
     const query = `query { ${queryParts.join('\n')} }`;
