@@ -91,25 +91,35 @@ export class GithubService {
     const query = `query { ${queryParts.join('\n')} }`;
 
     try {
-      const result: { repository?: Record<string, GraphQLRepoResult> } =
+      const result: Record<string, GraphQLRepoResult | null> =
         await this.octokit.graphql(query);
 
-      const results = new Map<number, GraphQLRepoResult>();
-
-      repos.forEach((repo, i) => {
-        const data = (result as Record<string, GraphQLRepoResult | null>)[
-          `repo${i}`
-        ];
-        if (data) {
-          results.set(repo.id, data);
-        }
-      });
-
-      return results;
-    } catch (error) {
+      return this.extractGraphQLResults(repos, result);
+    } catch (error: unknown) {
+      // GraphQL returns partial data alongside errors (e.g. deleted repos)
+      const data = (error as { data?: Record<string, GraphQLRepoResult | null> }).data;
+      if (data) {
+        const errorCount = (error as { errors?: unknown[] }).errors?.length ?? 0;
+        this.logger.warn(`GraphQL batch had ${errorCount} errors, extracting partial results`);
+        return this.extractGraphQLResults(repos, data);
+      }
       this.logger.error(`GraphQL batch fetch failed: ${error}`);
       return new Map();
     }
+  }
+
+  private extractGraphQLResults(
+    repos: Array<{ owner: string; name: string; id: number }>,
+    data: Record<string, GraphQLRepoResult | null>,
+  ): Map<number, GraphQLRepoResult> {
+    const results = new Map<number, GraphQLRepoResult>();
+    repos.forEach((repo, i) => {
+      const repoData = data[`repo${i}`];
+      if (repoData) {
+        results.set(repo.id, repoData);
+      }
+    });
+    return results;
   }
 
   /**
