@@ -49,11 +49,7 @@ export default async function VerticalPage({ params }: Props) {
   const featuredRepos = trending7d.slice(0, 3);
   const remainingTrending = trending7d.slice(3);
 
-  // Group items by category, sorted alphabetically
-  const sortedCategories = [...(list.categories || [])].sort((a, b) =>
-    a.name.localeCompare(b.name),
-  );
-
+  // Group items by category
   const itemsByCategory = new Map<number, typeof allItems>();
   for (const item of allItems) {
     const catId = item.category.id;
@@ -62,6 +58,11 @@ export default async function VerticalPage({ params }: Props) {
     }
     itemsByCategory.get(catId)!.push(item);
   }
+
+  // Only include categories that have items, sorted alphabetically
+  const sortedCategories = [...(list.categories || [])]
+    .filter((cat) => (itemsByCategory.get(cat.id)?.length ?? 0) > 0)
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div>
@@ -120,20 +121,16 @@ export default async function VerticalPage({ params }: Props) {
       )}
 
       {/* 5. All repos grouped by category */}
-      {sortedCategories.map((cat, i) => {
-        const items = itemsByCategory.get(cat.id) || [];
-        if (items.length === 0) return null;
-        return (
-          <CategorySection
-            key={cat.id}
-            number={i + 1}
-            name={cat.name}
-            slug={cat.slug!}
-            items={items}
-            listSlug={slug}
-          />
-        );
-      })}
+      {sortedCategories.map((cat, i) => (
+        <CategorySection
+          key={cat.id}
+          number={i + 1}
+          name={cat.name}
+          slug={cat.slug!}
+          items={itemsByCategory.get(cat.id)!}
+          listSlug={slug}
+        />
+      ))}
     </div>
   );
 }
