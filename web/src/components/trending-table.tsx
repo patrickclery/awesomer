@@ -26,6 +26,7 @@ interface TrendingTableProps {
   repos: TrendingRepo[];
   period: '7d' | '30d' | '90d';
   listSlug?: string;
+  startRank?: number;
 }
 
 function formatDelta(value: number | null): string {
@@ -43,6 +44,7 @@ export function TrendingTable({
   repos,
   period,
   listSlug,
+  startRank,
 }: TrendingTableProps) {
   const getDelta = (repo: TrendingRepo) => {
     switch (period) {
@@ -82,7 +84,7 @@ export function TrendingTable({
                   className="border-b border-border/50 hover:bg-surface transition-colors"
                 >
                   <td className="py-2 px-2 text-muted text-xs">
-                    {String(index + 1).padStart(2, '0')}
+                    {String(index + (startRank ?? 1)).padStart(2, '0')}
                   </td>
                   <td className="py-2 px-2">
                     <Link href={href} className="hover:text-accent transition-colors">
