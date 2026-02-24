@@ -59,7 +59,7 @@ export function TrendingTable({
 
   return (
     <div>
-      <div className="text-muted text-sm mb-3">--- {title} ---</div>
+      {title && <div className="text-muted text-sm mb-3">--- {title} ---</div>}
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
