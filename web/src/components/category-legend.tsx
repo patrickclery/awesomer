@@ -16,13 +16,17 @@ export function CategoryLegend({ categories }: CategoryLegendProps) {
   return (
     <div className="mb-10">
       <div className="text-muted text-sm mb-4">── categories ──</div>
-      <div className="grid grid-cols-2 gap-x-8 gap-y-1 text-sm font-mono">
-        {leftColumn.map((cat, i) => (
-          <LegendEntry key={cat.id} index={i} category={cat} />
-        ))}
-        {rightColumn.map((cat, i) => (
-          <LegendEntry key={cat.id} index={midpoint + i} category={cat} />
-        ))}
+      <div className="grid grid-cols-2 gap-x-8 text-sm font-mono">
+        <div className="flex flex-col gap-y-1">
+          {leftColumn.map((cat, i) => (
+            <LegendEntry key={cat.id} index={i} category={cat} />
+          ))}
+        </div>
+        <div className="flex flex-col gap-y-1">
+          {rightColumn.map((cat, i) => (
+            <LegendEntry key={cat.id} index={midpoint + i} category={cat} />
+          ))}
+        </div>
       </div>
     </div>
   );
