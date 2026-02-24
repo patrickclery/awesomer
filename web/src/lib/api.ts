@@ -142,6 +142,12 @@ export async function getReposByList(
   );
 }
 
+export async function getAllReposByList(slug: string) {
+  return fetchApi<PaginatedResponse<CategoryItem>>(
+    `/awesome-lists/${slug}/repos?per_page=1000&sort=stars`,
+  );
+}
+
 export async function getRepo(id: number) {
   return fetchApi<SingleResponse<Repo>>(`/repos/${id}`);
 }
