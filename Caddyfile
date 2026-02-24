@@ -1,0 +1,24 @@
+:80 {
+	root * /srv
+
+	# API routes — proxy to NestJS
+	handle /api/* {
+		reverse_proxy api:4000
+	}
+
+	# API docs
+	handle /api/docs* {
+		reverse_proxy api:4000
+	}
+
+	# Listmonk admin
+	handle /mail/* {
+		reverse_proxy listmonk:9000
+	}
+
+	# Static site — serve files, fallback to index.html or 404
+	handle {
+		file_server
+		try_files {path} {path}/index.html /404.html
+	}
+}

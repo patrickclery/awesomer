@@ -182,12 +182,18 @@ module Awesomer
       def cleanup_empty_files
         say "\n🧹 Cleaning up empty files...", :cyan
 
+        # Get active list filenames - never delete these
+        active_filenames = AwesomeList.active.pluck(:github_repo).map do |repo|
+          "#{repo.split('/').last}.md"
+        end
+
         small_files = Dir.glob(Rails.root.join('static', 'awesomer', '*.md')).select do |f|
-          File.basename(f) != 'README.md' && File.size(f) < 200
+          basename = File.basename(f)
+          basename != 'README.md' && !active_filenames.include?(basename) && File.size(f) < 200
         end
 
         if small_files.any?
-          say "  Found #{small_files.count} small/empty files", :yellow
+          say "  Found #{small_files.count} small/empty files (excluding active lists)", :yellow
 
           small_files.each do |file|
             File.delete(file)

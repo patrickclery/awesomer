@@ -12,7 +12,9 @@ class GenerateMarkdownJob < ApplicationJob
     # Convert hash data back to structs if needed
     category_structs = categories.map do |category_data|
       if category_data.is_a?(Hash)
-        repos = category_data[:repos].map { |repo_data| Structs::CategoryItem.new(repo_data) }
+        # Handle both :items (from ParseMarkdownOperation) and :repos (from Structs::Category)
+        items_data = category_data[:items] || category_data[:repos] || []
+        repos = items_data.map { |repo_data| Structs::CategoryItem.new(repo_data) }
         Structs::Category.new(
           custom_order: category_data[:custom_order],
           name: category_data[:name],

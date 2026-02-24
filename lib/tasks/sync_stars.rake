@@ -33,6 +33,7 @@ namespace :sync do
           repo_data = client.repository(item.github_repo)
 
           item.update!(
+            github_description: repo_data.description,
             last_commit_at: repo_data.pushed_at,
             stars: repo_data.stargazers_count
           )

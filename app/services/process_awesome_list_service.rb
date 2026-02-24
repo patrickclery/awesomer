@@ -11,10 +11,11 @@ class ProcessAwesomeListService
     :sync_git_stats_operation,
     :process_category_service,
     :find_or_create_awesome_list_operation,
-    :persist_parsed_categories_operation
+    :persist_parsed_categories_operation,
+    :queue_star_history_jobs_operation
   ]
 
-  def initialize(repo_identifier:, sync: false, **deps)
+  def initialize(repo_identifier:, sync: false, fetch_star_history: true, skip_markdown: false, **deps)
     @fetch_readme_operation = deps[:fetch_readme_operation] || App::Container['fetch_readme_operation']
     @parse_markdown_operation = deps[:parse_markdown_operation] || App::Container['parse_markdown_operation']
     @sync_git_stats_operation = deps[:sync_git_stats_operation] || App::Container['sync_git_stats_operation']
@@ -23,8 +24,12 @@ class ProcessAwesomeListService
       deps[:find_or_create_awesome_list_operation] || App::Container['find_or_create_awesome_list_operation']
     @persist_parsed_categories_operation =
       deps[:persist_parsed_categories_operation] || App::Container['persist_parsed_categories_operation']
+    @queue_star_history_jobs_operation =
+      deps[:queue_star_history_jobs_operation] || App::Container['queue_star_history_jobs_operation']
     @repo_identifier = repo_identifier
     @sync = sync
+    @fetch_star_history = fetch_star_history
+    @skip_markdown = skip_markdown
   end
 
   def call
@@ -37,6 +42,9 @@ class ProcessAwesomeListService
 
     # Mark as started processing
     aw_list_record.start_processing!
+
+    # Store raw README content for offline adapter auditing
+    aw_list_record.update_column(:readme_content, fetched_data[:content])
 
     begin
       # Pass the skip_external_links flag from the AwesomeList record to the parser
@@ -81,15 +89,26 @@ class ProcessAwesomeListService
 
       Rails.logger.error "Failed to persist categories: #{persist_result.failure}" if persist_result.failure?
 
-      final_markdown_files_result = yield process_category_service.call(
-        categories: categories_to_process_md,
-        repo_identifier: @repo_identifier
-      )
+      # Queue star history jobs for trending data (async, doesn't block)
+      if @fetch_star_history && persist_result.success?
+        history_result = @queue_star_history_jobs_operation.call(awesome_list: aw_list_record)
+        if history_result.failure?
+          Rails.logger.warn "Failed to queue star history jobs: #{history_result.failure}"
+        end
+      end
+
+      # Skip markdown generation when caller handles it separately (e.g., refresh command)
+      unless @skip_markdown
+        final_markdown_files_result = yield process_category_service.call(
+          categories: categories_to_process_md,
+          repo_identifier: @repo_identifier
+        )
+      end
 
       # Mark as completed successfully
       aw_list_record.complete_processing!
 
-      Success(final_markdown_files_result)
+      Success(@skip_markdown ? categories_to_process_md : final_markdown_files_result)
     rescue StandardError => e
       # Mark as failed if any error occurs
       aw_list_record.fail_processing!

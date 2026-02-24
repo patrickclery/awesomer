@@ -42,6 +42,8 @@ require_relative 'commands/publish'
 require_relative 'commands/cleanup'
 require_relative 'commands/update'
 require_relative 'commands/sync'
+require_relative 'commands/refresh'
+require_relative 'commands/audit'
 
 module Awesomer
   class Cli < Thor
@@ -62,6 +64,9 @@ module Awesomer
 
     desc 'worker SUBCOMMAND', 'Manage sync worker for automated updates'
     subcommand 'worker', Commands::Worker
+
+    desc 'audit SUBCOMMAND', 'Audit adapter selection for awesome lists'
+    subcommand 'audit', Commands::Audit
 
     desc 'prune', 'Archive stale awesome lists'
     long_desc <<-LONGDESC
@@ -112,15 +117,46 @@ module Awesomer
     option :max_iterations, default: 100, desc: 'Maximum monitoring iterations', type: :numeric
     option :async, default: true, desc: 'Run sync asynchronously (false for synchronous)', type: :boolean
     def sync
-      # Create new instance and invoke with options
+      # Create new instance and call execute directly
       sync_command = Awesomer::Commands::Sync.new
       sync_command.options = options
-      sync_command.invoke(:execute)
+      sync_command.execute
     end
 
     desc 'update', 'Update all awesome lists with GitHub stats and clean up'
     def update
       Awesomer::Commands::Update.start
+    end
+
+    desc 'refresh', 'Full refresh: sync stats, reprocess lists, fetch star history, generate markdown'
+    long_desc <<-LONGDESC
+      Run a complete refresh that:
+      1. Reprocesses all awesome lists (fetch READMEs, parse, persist)
+      2. Snapshots current star counts via GraphQL batch fetch
+      3. Syncs GitHub stats for all items
+      4. Fetches star history for trending data
+      5. Prunes invalid lists
+      6. Generates fresh markdown files
+
+      By default, jobs are queued for background processing. Use --no-async
+      for synchronous (inline) processing.
+
+      Examples:
+        awesomer refresh                    # Queue all jobs for background processing
+        awesomer refresh --no-async         # Process everything inline (slow but complete)
+        awesomer refresh --no-star-history  # Skip star history fetching
+        awesomer refresh --limit=5          # Only process 5 lists (for testing)
+    LONGDESC
+    option :async, default: true, desc: 'Run asynchronously using background jobs', type: :boolean
+    option :star_history, default: true, desc: 'Fetch star history (trending data)', type: :boolean
+    option :prune, default: false, desc: 'Run pruning to remove invalid/orphaned lists', type: :boolean
+    option :limit, default: nil, desc: 'Limit number of lists to process', type: :numeric
+    option :threshold, default: nil, desc: 'Minimum stars for repos to appear in markdown', type: :numeric
+    option :markdown_only, default: false, desc: 'Only regenerate markdown (skip API calls)', type: :boolean
+    def refresh
+      refresh_command = Awesomer::Commands::Refresh.new
+      refresh_command.options = options
+      refresh_command.execute
     end
 
     desc 'status', 'Show current status of AwesomeList records in the database'

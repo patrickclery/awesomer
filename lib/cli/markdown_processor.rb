@@ -120,13 +120,13 @@ module Cli
         puts
       end
 
-      # Query awesome lists based on options
+      # Query awesome lists based on options (always filter for active lists only)
       awesome_lists = if options[:incomplete_only]
-                        puts '🎯 Processing only incomplete awesome lists...'
-                        AwesomeList.incomplete
+                        puts '🎯 Processing only active incomplete awesome lists...'
+                        AwesomeList.active.incomplete
                       else
-                        puts '📋 Processing all awesome lists...'
-                        AwesomeList.all
+                        puts '📋 Processing all active awesome lists...'
+                        AwesomeList.active
                       end
 
       awesome_lists = awesome_lists.limit(options[:limit]) if options[:limit]

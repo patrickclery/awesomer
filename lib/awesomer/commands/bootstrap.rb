@@ -149,6 +149,74 @@ module Awesomer
           exit 1
         end
       end
+      desc 'stars', 'Backfill historical star snapshots for a specific repository from OSSInsight'
+      method_option :repo, desc: 'GitHub repo identifier (e.g. hesreallyhim/awesome-claude-code)', required: true,
+                           type: :string
+      def stars
+        repo_identifier = options[:repo]
+
+        puts "Backfilling star snapshots for #{repo_identifier}"
+        puts '=' * 50
+
+        repo = Repo.find_by(github_repo: repo_identifier)
+        unless repo
+          say("ERROR: Repo '#{repo_identifier}' not found in database. Run 'awesomer refresh' first.", :red)
+          exit 1
+        end
+
+        # Backup database before modifying data
+        backup_database!
+
+        existing_count = StarSnapshot.where(repo:).count
+        if existing_count > 0
+          say("Found #{existing_count} existing snapshots. Backfill will update overlapping dates.", :yellow)
+        end
+
+        say('Fetching star history from OSSInsight API...', :cyan)
+
+        operation = BackfillStarSnapshotsOperation.new
+        result = operation.call(github_repo: repo_identifier)
+
+        if result.success?
+          say(result.value!, :green)
+
+          total_snapshots = StarSnapshot.where(repo:).count
+          date_range = StarSnapshot.where(repo:).order(:snapshot_date)
+          first_date = date_range.first.snapshot_date
+          last_date = date_range.last.snapshot_date
+          say("Total snapshots: #{total_snapshots} (#{first_date} to #{last_date})", :green)
+        else
+          say("ERROR: #{result.failure}", :red)
+          exit 1
+        end
+      end
+
+      private
+
+      def backup_database!
+        backup_dir = File.expand_path('~/tmp/awesomer')
+        FileUtils.mkdir_p(backup_dir)
+
+        date_stamp = Date.current.to_s
+        backup_path = File.join(backup_dir, "backup-#{date_stamp}.sql")
+
+        if File.exist?(backup_path)
+          say("Backup already exists at #{backup_path}, skipping.", :yellow)
+          return
+        end
+
+        say("Backing up database to #{backup_path}...", :cyan)
+
+        db_config = ActiveRecord::Base.connection_db_config.configuration_hash
+        db_name = db_config[:database]
+
+        unless system('pg_dump', db_name, out: backup_path)
+          say('ERROR: Database backup failed. Aborting.', :red)
+          exit 1
+        end
+
+        say("Backup complete (#{File.size(backup_path)} bytes).", :green)
+      end
     end
   end
 end

@@ -1,29 +1,28 @@
-version: '3.8'
+# Docker Compose for Awesomer Rails Application
+# Run: docker compose up -d
+# CLI: docker compose run --rm app bin/awesomer status
 
 services:
-  postgres:
-    image: postgres:16-alpine
-    container_name: awesomer_postgres
+  db:
+    image: postgres:17
+    container_name: awesomer_db
     environment:
-      POSTGRES_DB: awesomer_development
-      POSTGRES_USER: awesomer
-      POSTGRES_PASSWORD: awesomer_password
-    ports:
-      - "5433:5432"
+      POSTGRES_USER: ${DATABASE_USERNAME:-awesomer}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-awesomer_password}
+      POSTGRES_DB: awesomer_production
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U awesomer -d awesomer_development"]
+      test: ["CMD-SHELL", "pg_isready -U ${DATABASE_USERNAME:-awesomer} -d awesomer_production"]
       interval: 10s
       timeout: 3s
-      retries: 3
+      retries: 5
+      start_period: 30s
 
   redis:
-    image: redis:7-alpine
+    image: redis:7
     container_name: awesomer_redis
-    ports:
-      - "6379:6379"
     volumes:
       - redis_data:/data
     command: redis-server --appendonly yes
@@ -34,8 +33,65 @@ services:
       timeout: 3s
       retries: 3
 
+  app:
+    build: .
+    container_name: awesomer_app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      RAILS_ENV: production
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_USERNAME: ${DATABASE_USERNAME:-awesomer}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:-awesomer_password}
+      REDIS_URL: redis://redis:6379/0
+      GITHUB_API_KEY: ${GITHUB_API_KEY}
+      GITHUB_ACCESS_TOKEN: ${GITHUB_ACCESS_TOKEN}
+      PUBLISH_REPO: ${PUBLISH_REPO:-patrickclery/awesomer-test}
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:-please_generate_a_secure_key}
+    volumes:
+      - ./output:/app/output
+      - ./static:/app/static
+    # Default: just show status
+    command: ["bin/awesomer", "status"]
+
+  # Solid Queue worker for processing background jobs
+  worker:
+    build: .
+    container_name: awesomer_worker
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      RAILS_ENV: production
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_USERNAME: ${DATABASE_USERNAME:-awesomer}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD:-awesomer_password}
+      REDIS_URL: redis://redis:6379/0
+      GITHUB_API_KEY: ${GITHUB_API_KEY}
+      GITHUB_ACCESS_TOKEN: ${GITHUB_ACCESS_TOKEN}
+      PUBLISH_REPO: ${PUBLISH_REPO:-patrickclery/awesomer-test}
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:-please_generate_a_secure_key}
+    volumes:
+      - ./output:/app/output
+      - ./static:/app/static
+    command: ["bin/jobs", "start"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f 'solid_queue' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
 volumes:
   postgres_data:
     driver: local
   redis_data:
-    driver: local 
+    driver: local

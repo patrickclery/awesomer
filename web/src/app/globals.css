@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #b3b1ad;
+  --accent: #00ff41;
+  --accent-hover: #33ff66;
+  --surface: #0a0a0a;
+  --surface-hover: #111111;
+  --border: #1a1a1a;
+  --muted: #555555;
+  --success: #00ff41;
+  --danger: #ff3333;
+  --warning: #ffb800;
+  --cyan: #00d4ff;
+  --glow-color: rgba(0, 255, 65, 0.4);
+  --selection-bg: rgba(0, 255, 65, 0.15);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-cyan: var(--cyan);
+  --font-sans: var(--font-geist-mono);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-mono), 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Glow effect for accent elements */
+.glow {
+  text-shadow: 0 0 8px var(--glow-color);
+}
+
+/* Scanline overlay — very subtle CRT effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  z-index: 9999;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Selection highlight */
+::selection {
+  background: var(--selection-bg);
+  color: var(--accent);
+}

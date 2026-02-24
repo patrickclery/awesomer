@@ -1,3 +1,4 @@
 [submodule "static/awesomer"]
 	path = static/awesomer
 	url = https://github.com/patrickclery/awesomer.git
+	ignore = all

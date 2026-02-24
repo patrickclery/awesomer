@@ -1,0 +1,53 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Dry-Struct Usage Guidelines
+
+This project uses `Dry::Struct` for defining structured data objects, particularly for representing parsed data from external sources (like Markdown files or API responses) and for passing data between operations and services.
+
+### Location
+- Struct definitions are typically located in `[app/structs/structs/](mdc:app/structs/structs)` (e.g., `[category.rb](mdc:app/structs/structs/category.rb)`, `[category_item.rb](mdc:app/structs/structs/category_item.rb)`).
+- They are often namespaced under a `Structs` module to avoid naming collisions with ActiveRecord models or other classes (e.g., `Structs::Category`, `Structs::CategoryItem`).
+
+### Key Features & Conventions
+
+1.  **Type Definitions**: Attributes are defined with types using `Dry::Types`. A shared `Types` module (`module Types; include Dry.Types(); end`) is commonly defined within the struct files or a shared types file.
+    ```ruby
+    module Structs
+      class CategoryItem < Dry::Struct
+        attribute :id, Types::Integer
+        attribute :name, Types::String
+        attribute? :description, Types::String.optional # Optional attribute
+      end
+    end
+    ```
+
+2.  **Optional Attributes**: 
+    - Use `attribute?` to define keys that may be missing from the input hash.
+    - Use `Types::Type.optional` (e.g., `Types::String.optional`) for the type definition to allow `nil` as a valid value for the attribute if the key is present, and to allow the key to be omitted if used with `attribute?`.
+    - Example: `attribute? :description, Types::String.optional` means the `:description` key can be absent in the input hash, and if present, its value can be a string or `nil`.
+
+3.  **Immutability**: `Dry::Struct` objects are immutable. To "change" an attribute, you create a new instance with the updated values:
+    ```ruby
+    item = Structs::CategoryItem.new(id: 1, name: "Old Name")
+    updated_item = item.new(name: "New Name") # id remains 1, name is updated
+    ```
+    When updating a subset of attributes, existing attributes from the original struct are carried over to the new instance.
+    To get all attributes as a hash for merging or updates: `item.to_h`.
+
+4.  **Collections**: Arrays of structs are common, e.g., `attribute :repos, Types::Array.of(Structs::CategoryItem)`.
+
+### Testing Structs
+- Specs for structs should be placed in a corresponding path, e.g., `[spec/structs/structs/category_item_spec.rb](mdc:spec/structs/structs/category_item_spec.rb)`.
+- Tests should verify:
+    - Successful initialization with valid attributes (both required and optional).
+    - Correct types are enforced (e.g., passing a string for an integer attribute raises `Dry::Struct::Error`).
+    - Handling of missing required attributes.
+    - Correct default values if any are defined (not currently used in examples but possible).
+
+### Usage in Operations/Services
+- Operations often parse external data into these structs.
+- Services and operations pass these struct instances between each other.
+- When an operation modifies data represented by a struct (e.g., `SyncGitStatsOperation` adding star counts to a `CategoryItem`), it should create and return *new instances* of these structs with the updated data due to their immutability.

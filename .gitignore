@@ -1,3 +1,4 @@
+.DS_Store
 .idea/
 db/awesomer.sqlite3
 # Ignore master key for decrypting credentials and more.
@@ -5,6 +6,7 @@ config/master.key
 log/*
 tmp/*
 storage/*.sqlite3*
+.env
 .env.*local
 # Ignore all .keep files
 */**/.keep
@@ -13,3 +15,15 @@ config/repos.yml
 /CLAUDE.local.md
 /vendor/
 node_modules/
+
+# NestJS API
+api/dist/
+api/generated/
+api/src/generated/
+
+# Next.js Frontend
+web/.next/
+web/out/
+
+# Platform
+*.env.local

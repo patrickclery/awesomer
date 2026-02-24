@@ -15,6 +15,7 @@ real-time statistics.
 - 💎 **Gem-like CLI** - Use `awesomer` command from anywhere
 - 🔧 **Background Processing** - Async job processing with Solid Queue
 - 💾 **Intelligent Caching** - Reduces API calls with smart caching strategies
+- 📈 **30-Day Trending** - Daily star snapshots with GraphQL batch fetching to track trending repos
 
 ## Table of Contents
 
@@ -178,6 +179,17 @@ This command will:
 3. Push to the public [awesomer repository](https://github.com/patrickclery/awesomer)
 4. Update the parent repository's submodule reference
 
+### Star Snapshots (Trending Data)
+
+Snapshot current star counts for all repos to build trending data over time:
+
+```bash
+# Take a daily star snapshot for all repos via GitHub GraphQL API
+bin/rails awesomer:snapshot_stars
+```
+
+This batches repos into groups of 100 using GraphQL, creating one `StarSnapshot` record per repo per day. The 30-day trending column in generated markdown is computed from these snapshots. Run this daily (e.g., via cron) to accumulate trending data.
+
 ### Status Commands
 
 ```bash
@@ -235,13 +247,15 @@ Features:
 - `ParseMarkdownOperation` - Extracts structured data from markdown
 - `SyncGitStatsOperation` - Fetches GitHub statistics
 - `FetchGithubStatsForCategoriesOperation` - Batch stats fetching
+- `SnapshotStarsOperation` - GraphQL batch star snapshots for all repos
 
 **Models**
 
 - `AwesomeList` - Repository records with AASM state machine
 - `Category` - Categories within awesome lists
 - `CategoryItem` - Individual items with GitHub stats
-- `RepoStat` - Cached GitHub statistics
+- `Repo` - Stable identity for GitHub repositories (decoupled from category items)
+- `StarSnapshot` - Daily star count snapshots per repo for trending calculations
 
 ### State Machine
 
@@ -280,10 +294,12 @@ Processed files are saved to `static/md/` with enhanced formatting:
 ```markdown
 ## Category Name
 
-| Name | Description | Stars | Last Commit |
-|------|-------------|-------|-------------|
-| [repo-name](url) | Description text | 1,234 | 2024-01-15 |
+| Name | Description | Stars | 30d | Last Commit |
+|------|-------------|-------|-----|-------------|
+| [repo-name](url) | Description text | 1,234 | +50 | 2024-01-15 |
 ```
+
+Each list also includes a **Top 10** section at the top showing the highest-starred repos across all categories, with their 30-day trending data.
 
 ## Development
 

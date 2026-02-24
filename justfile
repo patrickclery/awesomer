@@ -2,6 +2,26 @@
 default:
     @just --list
 
+# Start API and frontend dev servers (requires Docker for PostgreSQL)
+dev:
+    #!/usr/bin/env bash
+    set -e
+    echo "Starting PostgreSQL + Redis..."
+    docker compose -f docker-compose.platform.yml up -d postgres redis
+    sleep 2
+    echo "Starting API on :4000..."
+    cd api && npm run start:dev &
+    API_PID=$!
+    sleep 10
+    echo "Starting frontend on :3000..."
+    cd web && npm run dev &
+    WEB_PID=$!
+    echo "API: http://localhost:4000/api"
+    echo "Web: http://localhost:3000"
+    echo "Press Ctrl+C to stop both..."
+    trap "kill $API_PID $WEB_PID 2>/dev/null; echo 'Stopped.'" EXIT INT TERM
+    wait
+
 # Format YAML files with Prettier
 format-yaml:
     @echo "🔧 Formatting YAML files with Prettier..."

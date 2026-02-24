@@ -20,14 +20,22 @@ class ProcessMarkdownWithStatsJob < ApplicationJob
     category_structs = result.value!
 
     # Count total repos for scheduling
-    total_repos = category_structs.sum { |category| category.repos.count { |repo| extract_github_repo(repo.url) } }
+    # Structs::Category uses :repos, while raw hashes from ParseMarkdownOperation use :items
+    total_repos = category_structs.sum do |category|
+      items = if category.is_a?(Hash)
+                category[:items] || category[:repos] || []
+              else
+                category.repos || []
+              end
+      items.to_a.count { |item| extract_github_repo(item.respond_to?(:primary_url) ? item.primary_url : item[:primary_url]) }
+    end
 
     Rails.logger.info "Queued #{total_repos} GitHub stats jobs"
 
     # Schedule the markdown generation job to run after a delay
     # This gives time for the stats jobs to complete
     estimated_completion_time = calculate_completion_time(total_repos)
-    GenerateMarkdownJob.perform_in(estimated_completion_time, categories:, output_options:, repo_identifier:)
+    GenerateMarkdownJob.set(wait: estimated_completion_time.seconds).perform_later(categories:, output_options:, repo_identifier:)
 
     Rails.logger.info "Scheduled markdown generation in #{estimated_completion_time} seconds"
   end

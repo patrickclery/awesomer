@@ -19,21 +19,17 @@ class ClaudeCodeAdapter < BaseParserAdapter
     return false if content.blank?
 
     # Check for claude-code specific patterns:
-    # 1. Has the backtick format [`name`](url)
+    # 1. Has the backtick format [`name`](url) - this is the key differentiator
     has_backtick_format = content.match?(/\[`[^`]+`\]\([^)]+\)/)
 
-    # 2. Has the &nbsp; separators typical of this format
-    has_nbsp_separators = content.include?('&nbsp;')
-
-    # 3. Has "by" attribution pattern
+    # 2. Has "by" attribution pattern with &nbsp;
     has_by_pattern = content.match?(/&nbsp;\s*by\s*&nbsp;/i)
 
-    # If it strongly matches claude-code patterns
-    return true if has_backtick_format && has_nbsp_separators
+    # 3. Check if this IS the awesome-claude-code repo (title at top, not just a link)
+    is_claude_code_repo = content.match?(/^#\s+awesome-claude-code/i)
 
-    # Also check for the specific repo
-    content.include?('awesome-claude-code') ||
-      (has_nbsp_separators && has_by_pattern)
+    # Must have BOTH backtick format AND by pattern, or be the specific repo
+    is_claude_code_repo || (has_backtick_format && has_by_pattern)
   end
 
   def priority
@@ -91,8 +87,8 @@ class ClaudeCodeAdapter < BaseParserAdapter
 
         name = match[1].strip
         url = match[2].strip
-        author = match[3]&.strip
-        license = match[4]&.strip
+        match[3]&.strip
+        match[4]&.strip
 
         github_repo = extract_github_repo(url)
 
@@ -104,21 +100,25 @@ class ClaudeCodeAdapter < BaseParserAdapter
           primary_url: url
         }
 
-        # Add author and license to description if present
-        metadata = []
-        metadata << "by #{author}" if author
-        metadata << license if license
-        building_item[:description] = metadata.join(' - ') if metadata.any?
+      # Don't add author and license to description - they're already in the original format
+      # and adding them here creates redundancy in the output
 
       # Check if next line is a description (for multi-line format)
       elsif building_item && stripped.present? && !stripped.start_with?('[') &&
-            !stripped.start_with?('#') && !stripped.start_with?('>')
-        # This is likely a description line
+            !stripped.start_with?('#') && !stripped.start_with?('>') &&
+            !stripped.start_with?('<details') && !stripped.start_with?('<summary') &&
+            !stripped.start_with?('</details') && !stripped.start_with?('<br')
+        # This is likely a description line (but not HTML tags)
         if building_item[:description]
           building_item[:description] += " #{stripped}"
         else
           building_item[:description] = stripped
         end
+
+      # Stop building description when we hit HTML details/summary blocks
+      elsif building_item && stripped.start_with?('<details', '<summary')
+        # Flush the current item - we've reached the end of the description
+        flush_item.call
 
       # Handle standalone links that might be items
       elsif current_category && stripped.match?(/^\[.+\]\(.+\)/)

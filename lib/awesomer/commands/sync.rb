@@ -30,9 +30,15 @@ module Awesomer
                    desc: 'Run sync process asynchronously (false for synchronous)',
                    type: :boolean
 
+      class_option :star_history,
+                   default: true,
+                   desc: 'Fetch star history (trending data) after sync',
+                   type: :boolean
+
       def execute
         say '🚀 Starting Complete Sync Process', :cyan
-        say 'Sequence: Sync → Prune → Generate Markdown', :yellow
+        sequence = options[:star_history] ? 'Sync → Star History → Prune → Generate Markdown' : 'Sync → Prune → Generate Markdown'
+        say "Sequence: #{sequence}", :yellow
         say "Mode: #{options[:async] ? 'Asynchronous' : 'Synchronous'}", :yellow
         say '=' * 70, :green
 
@@ -63,6 +69,12 @@ module Awesomer
             case status[:state]
             when :complete
               say "\n✅ Sync complete! All #{status[:total]} items have stars.", :green
+
+              # Queue star history jobs if enabled
+              if options[:star_history]
+                say "\n📈 Queueing star history jobs for trending data...", :cyan
+                queue_star_history_jobs
+              end
 
               # Automatically run pruning
               say "\n🗑️  Running pruning phase...", :cyan
@@ -105,7 +117,13 @@ module Awesomer
           # Step 1: Sync GitHub stats
           sync_github_stats_synchronously
 
-          # Step 2: Run pruning
+          # Step 2: Queue star history jobs if enabled
+          if options[:star_history]
+            say "\n📈 Queueing star history jobs for trending data...", :cyan
+            queue_star_history_jobs
+          end
+
+          # Step 3: Run pruning
           say "\n🗑️  Running pruning phase...", :cyan
           run_pruning
 
@@ -182,6 +200,27 @@ module Awesomer
         }
       end
 
+      def queue_star_history_jobs
+        operation = QueueStarHistoryJobsOperation.new
+        total_queued = 0
+
+        AwesomeList.active.find_each do |list|
+          result = operation.call(awesome_list: list)
+          if result.success?
+            queued = result.value![:queued]
+            total_queued += queued
+            print '.' if queued > 0
+          else
+            print 'x'
+          end
+        end
+
+        puts # New line after progress dots
+        say "  ✅ Queued #{total_queued} star history jobs", :green
+        say '  ℹ️  Jobs will run in background via Solid Queue', :cyan
+        say '  ℹ️  Use `bin/jobs` to process the queue', :cyan
+      end
+
       def run_pruning
         validator = ListValidationService.new(stale_days: 365)
         result = validator.prune!(dry_run: false)
@@ -202,9 +241,18 @@ module Awesomer
         existing_files = Dir.glob(File.join(markdown_dir, '*.md'))
                            .reject { |f| File.basename(f) == 'README.md' }
 
-        existing_files.each { |f| File.delete(f) }
+        # Only delete files for archived (inactive) lists - never delete files for active lists
+        active_filenames = AwesomeList.active.pluck(:github_repo).map do |repo|
+          "#{repo.split('/').last}.md"
+        end
 
-        say "  ✅ Deleted #{existing_files.count} old markdown files", :green
+        files_to_delete = existing_files.reject do |f|
+          active_filenames.include?(File.basename(f))
+        end
+
+        files_to_delete.each { |f| File.delete(f) }
+
+        say "  ✅ Deleted #{files_to_delete.count} old markdown files (preserved #{active_filenames.count} active)", :green
       end
 
       def generate_markdown
@@ -427,10 +475,13 @@ module Awesomer
         say "\n  Awesome Lists:"
         say "    • Total: #{total_lists}"
         say "    • Completed: #{completed}"
+        items_with_star_history = CategoryItem.where.not(star_history_fetched_at: nil).count
+
         say "\n  Items:"
         say "    • Total with GitHub: #{total_items}"
         say "    • With stars: #{items_with_stars}"
         say "    • Coverage: #{(items_with_stars.to_f / total_items * 100).round(1)}%"
+        say "    • With star history: #{items_with_star_history}" if items_with_star_history > 0
         say "\n  Files:"
         say "    • Markdown files: #{files}"
 
