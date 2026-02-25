@@ -38,7 +38,7 @@ export function CategorySection({
           <tbody>
             {sorted.map((item) => {
               const repoSlug = item.githubRepo
-                ? item.githubRepo.replace('/', '-')
+                ? item.githubRepo.replace('/', '~')
                 : null;
               const href = repoSlug
                 ? `/${listSlug}/repos/${repoSlug}`

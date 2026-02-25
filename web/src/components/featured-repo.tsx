@@ -15,7 +15,7 @@ interface FeaturedRepoProps {
 }
 
 export function FeaturedRepo({ repo, rank, listSlug }: FeaturedRepoProps) {
-  const repoSlug = repo.githubRepo.replace('/', '-');
+  const repoSlug = repo.githubRepo.replace('/', '~');
   const href = `/${listSlug}/repos/${repoSlug}`;
 
   const sizeClasses = {

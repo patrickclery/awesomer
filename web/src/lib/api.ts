@@ -16,6 +16,7 @@ interface SingleResponse<T> {
 
 async function fetchApi<T>(path: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {
+    cache: 'no-store',
     ...options,
     headers: {
       'Content-Type': 'application/json',
@@ -110,7 +111,12 @@ export interface StarHistoryPoint {
 
 // API functions
 export async function getAwesomeLists() {
-  return fetchApi<SingleResponse<AwesomeList[]>>('/awesome-lists');
+  const result = await fetchApi<SingleResponse<AwesomeList[]>>('/awesome-lists');
+  const buildSlug = process.env.BUILD_SLUG;
+  if (buildSlug) {
+    result.data = result.data.filter((list) => list.slug === buildSlug);
+  }
+  return result;
 }
 
 export async function getAwesomeList(slug: string) {

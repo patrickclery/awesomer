@@ -85,7 +85,7 @@ function SearchResults() {
         <div className="space-y-1">
           {results.map((item) => {
             const listSlug = item.category.awesomeList?.slug;
-            const repoSlug = item.githubRepo?.replace('/', '-');
+            const repoSlug = item.githubRepo?.replace('/', '~');
 
             return (
               <div

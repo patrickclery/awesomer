@@ -7,19 +7,22 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
 export async function generateStaticParams() {
   const res = await fetch(`${API_BASE}/sync/static/repo-slugs`);
   const { data } = await res.json();
-  return data.map((r: { listSlug: string; repoSlug: string }) => ({
+  const buildSlug = process.env.BUILD_SLUG;
+  const filtered = buildSlug
+    ? data.filter((r: { listSlug: string }) => r.listSlug === buildSlug)
+    : data;
+  return filtered.map((r: { listSlug: string; repoSlug: string }) => ({
     slug: r.listSlug,
     repoSlug: r.repoSlug,
   }));
 }
 
 async function getRepoData(repoSlug: string) {
-  // repoSlug is "owner-name" where / was replaced with -
-  // Split on the first dash only to get owner and name
-  const dashIndex = repoSlug.indexOf('-');
-  if (dashIndex === -1) return null;
-  const owner = repoSlug.substring(0, dashIndex);
-  const name = repoSlug.substring(dashIndex + 1);
+  // repoSlug is "owner~name" where / was replaced with ~
+  const tildeIndex = repoSlug.indexOf('~');
+  if (tildeIndex === -1) return null;
+  const owner = repoSlug.substring(0, tildeIndex);
+  const name = repoSlug.substring(tildeIndex + 1);
 
   const res = await fetch(`${API_BASE}/sync/static/repo/${owner}/${name}`);
   if (!res.ok) return null;

@@ -10,7 +10,7 @@ export class TrendingService {
   async getGlobalTrending(period: TrendingPeriod = '7d', limit: number = 10) {
     const orderByField = this.getOrderByField(period);
 
-    return this.prisma.repo.findMany({
+    const repos = await this.prisma.repo.findMany({
       where: {
         [orderByField]: { not: null, gt: 0 },
       },
@@ -31,6 +31,11 @@ export class TrendingService {
         },
       },
     });
+
+    return repos.map((r) => ({
+      ...r,
+      description: r.description ?? r.categoryItems[0]?.githubDescription ?? null,
+    }));
   }
 
   async getTrendingByAwesomeList(
@@ -40,7 +45,7 @@ export class TrendingService {
   ) {
     const orderByField = this.getOrderByField(period);
 
-    return this.prisma.repo.findMany({
+    const repos = await this.prisma.repo.findMany({
       where: {
         [orderByField]: { not: null, gt: 0 },
         categoryItems: {
@@ -67,6 +72,11 @@ export class TrendingService {
         },
       },
     });
+
+    return repos.map((r) => ({
+      ...r,
+      description: r.description ?? r.categoryItems[0]?.githubDescription ?? null,
+    }));
   }
 
   private getOrderByField(period: TrendingPeriod): string {

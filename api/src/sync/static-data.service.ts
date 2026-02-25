@@ -124,7 +124,7 @@ export class StaticDataService {
       .filter((i) => i.category.awesomeList.slug)
       .map((i) => ({
         listSlug: i.category.awesomeList.slug,
-        repoSlug: i.githubRepo!.replace('/', '-'),
+        repoSlug: i.githubRepo!.replace('/', '~'),
       }));
   }
 
@@ -200,7 +200,7 @@ export class StaticDataService {
 
     return repos.map((r) => ({
       githubRepo: r.githubRepo,
-      description: r.description,
+      description: r.description ?? r.categoryItems[0]?.githubDescription ?? null,
       stars: r.stars,
       stars7d: r.stars7d,
       stars30d: r.stars30d,
@@ -233,7 +233,7 @@ export class StaticDataService {
 
     return repos.map((r) => ({
       githubRepo: r.githubRepo,
-      description: r.description,
+      description: r.description ?? r.categoryItems[0]?.githubDescription ?? null,
       stars: r.stars,
       stars7d: r.stars7d,
       stars30d: r.stars30d,

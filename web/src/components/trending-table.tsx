@@ -73,7 +73,7 @@ export function TrendingTable({
           <tbody>
             {repos.map((repo, index) => {
               const delta = getDelta(repo);
-              const repoSlug = repo.githubRepo.replace('/', '-');
+              const repoSlug = repo.githubRepo.replace('/', '~');
               const href = listSlug
                 ? `/${listSlug}/repos/${repoSlug}`
                 : `/${repo.categoryItems?.[0]?.category?.awesomeList?.slug || 'repos'}/${repoSlug}`;
