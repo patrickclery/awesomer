@@ -1,6 +1,21 @@
 import Link from 'next/link';
 import { getAwesomeLists } from '@/lib/api';
 
+const ASCII_BANNER = ` █████╗ ██╗    ██╗███████╗███████╗ ██████╗ ███╗   ███╗███████╗██████╗
+██╔══██╗██║    ██║██╔════╝██╔════╝██╔═══██╗████╗ ████║██╔════╝██╔══██╗
+███████║██║ █╗ ██║█████╗  ███████╗██║   ██║██╔████╔██║█████╗  ██████╔╝
+██╔══██║██║███╗██║██╔══╝  ╚════██║██║   ██║██║╚██╔╝██║██╔══╝  ██╔══██╗
+██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗██║  ██║
+╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝`;
+
+const BOOT_SEQUENCE = [
+  { label: 'Connecting to github.com', status: 'OK' },
+  { label: 'Loading star snapshot data', status: 'OK' },
+  { label: 'Parsing awesome lists', status: 'OK' },
+  { label: 'Computing trending deltas', status: 'OK' },
+  { label: 'Rendering static output', status: 'OK' },
+];
+
 export default async function HomePage() {
   let lists: Awaited<ReturnType<typeof getAwesomeLists>>['data'] = [];
 
@@ -13,8 +28,54 @@ export default async function HomePage() {
 
   return (
     <div>
-      <section className="py-12">
-        <div className="text-accent glow text-lg mb-2">$ cat README.md</div>
+      <section className="py-8">
+
+        {/* ASCII Banner — desktop */}
+        <div className="hidden sm:block mb-6 overflow-x-auto">
+          <pre className="ascii-art text-accent glow-intense glitch">
+            {ASCII_BANNER}
+          </pre>
+        </div>
+
+        {/* Mobile fallback */}
+        <div className="sm:hidden text-accent glow text-2xl font-bold mb-4">
+          awesomer<span className="cursor-blink">_</span>
+        </div>
+
+        {/* Boot sequence block */}
+        <div className="border border-border bg-surface p-4 mb-6 text-xs font-mono space-y-1">
+          <div className="text-muted mb-2">
+            ┌─ awesomer-engine v2.0.0 ── boot sequence ─────────────────────────────┐
+          </div>
+          {BOOT_SEQUENCE.map(({ label, status }) => (
+            <div key={label} className="flex gap-2 pl-2">
+              <span className="text-muted flex-1">{label.padEnd(42, '.')}</span>
+              <span className="text-success">[{status}]</span>
+            </div>
+          ))}
+          <div className="text-muted mt-2">
+            └────────────────────────────────────────────────────────────────────────┘
+          </div>
+          <div className="pt-1 flex flex-wrap gap-6 pl-2">
+            <span>
+              <span className="text-accent">SIGNAL</span>
+              <span className="text-muted">........</span>
+              <span className="text-foreground">★ stars only. no votes.</span>
+            </span>
+            <span>
+              <span className="text-accent">VERTICALS</span>
+              <span className="text-muted">......</span>
+              <span className="text-success">{lists.length || '…'} loaded</span>
+            </span>
+            <span>
+              <span className="text-accent">STATUS</span>
+              <span className="text-muted">.........</span>
+              <span className="text-success glow-pulse">■ ONLINE</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="text-accent glow text-sm mb-2">$ cat README.md</div>
         <h1 className="text-2xl font-bold mb-3 text-foreground">
           discover trending open-source tools
         </h1>

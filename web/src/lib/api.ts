@@ -16,7 +16,6 @@ interface SingleResponse<T> {
 
 async function fetchApi<T>(path: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {
-    cache: 'no-store',
     ...options,
     headers: {
       'Content-Type': 'application/json',

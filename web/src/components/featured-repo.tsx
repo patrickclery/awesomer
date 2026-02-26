@@ -14,21 +14,61 @@ interface FeaturedRepoProps {
   listSlug: string;
 }
 
+const RANK_LABELS = {
+  1: '◆ TRENDING #1 ◆',
+  2: '◈ TRENDING #2 ◈',
+  3: '○ TRENDING #3 ○',
+};
+
 export function FeaturedRepo({ repo, rank, listSlug }: FeaturedRepoProps) {
   const repoSlug = repo.githubRepo.replace('/', '~');
   const href = `/${listSlug}/repos/${repoSlug}`;
 
+  if (rank === 1) {
+    return (
+      <div className="mb-4 font-mono">
+        <div className="text-accent/50 text-xs leading-none select-none">
+          ╔══ {RANK_LABELS[1]} {'═'.repeat(44)}╗
+        </div>
+        <div className="terminal-box bg-surface px-6 py-4 border-x border-accent/50">
+          <div className="flex items-baseline gap-3 mb-2">
+            <span className="text-accent glow-intense text-sm font-bold tracking-widest">
+              #{rank}
+            </span>
+            <Link href={href} className="text-xl font-bold hover:text-accent transition-colors glow">
+              {repo.githubRepo}
+            </Link>
+          </div>
+          {repo.description && (
+            <p className="text-muted text-sm mb-3">{repo.description}</p>
+          )}
+          <div className="flex items-center gap-4 text-sm">
+            <span className="text-muted">
+              {repo.stars?.toLocaleString() ?? '—'} ★
+            </span>
+            {repo.stars7d != null && repo.stars7d > 0 && (
+              <span className="text-success glow">
+                +{repo.stars7d.toLocaleString()} this week
+              </span>
+            )}
+          </div>
+        </div>
+        <div className="text-accent/50 text-xs leading-none select-none">
+          ╚{'═'.repeat(68)}╝
+        </div>
+      </div>
+    );
+  }
+
   const sizeClasses = {
-    1: 'p-6 border-2 border-accent',
-    2: 'p-4 border border-accent/60 max-w-2xl',
-    3: 'p-3 border border-accent/30 max-w-xl',
-  };
+    2: 'p-4 border border-accent/40 max-w-2xl',
+    3: 'p-3 border border-accent/20 max-w-xl',
+  } as const;
 
   const titleClasses = {
-    1: 'text-xl font-bold',
     2: 'text-lg font-bold',
     3: 'text-base font-bold',
-  };
+  } as const;
 
   return (
     <div className={`${sizeClasses[rank]} bg-surface mb-4`}>

@@ -68,11 +68,19 @@ export default async function VerticalPage({ params }: Props) {
     <div>
       {/* 1. Hero */}
       <div className="mb-6">
-        <div className="text-muted text-sm mb-1">$ awesomer show {slug}</div>
-        <h1 className="text-2xl font-bold mb-1 text-foreground">{list.name}</h1>
-        {list.description && (
-          <p className="text-muted text-sm">{list.description}</p>
-        )}
+        <div className="text-accent/60 text-xs font-mono mb-2 hidden sm:block">
+          ╔══════════════════════════════════════════════════════════════════════╗
+        </div>
+        <div className="sm:pl-4">
+          <div className="text-muted text-sm mb-1">$ awesomer show {slug}</div>
+          <h1 className="text-2xl font-bold mb-1 text-foreground glow">{list.name}</h1>
+          {list.description && (
+            <p className="text-muted text-sm">{list.description}</p>
+          )}
+        </div>
+        <div className="text-accent/60 text-xs font-mono mt-2 hidden sm:block">
+          ╚══════════════════════════════════════════════════════════════════════╝
+        </div>
       </div>
 
       {/* 2. Attribution banner */}
@@ -83,7 +91,7 @@ export default async function VerticalPage({ params }: Props) {
           rel="noopener noreferrer"
           className="text-muted text-sm hover:text-accent transition-colors"
         >
-          ── curated from {list.githubRepo} ──
+          ══ curated from {list.githubRepo} ══
         </a>
       </div>
 
