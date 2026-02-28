@@ -8,12 +8,11 @@ const ASCII_BANNER = ` █████╗ ██╗    ██╗█████�
 ██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗██║  ██║
 ╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝`;
 
-const BOOT_SEQUENCE = [
-  { label: 'Connecting to github.com', status: 'OK' },
-  { label: 'Loading star snapshot data', status: 'OK' },
-  { label: 'Parsing awesome lists', status: 'OK' },
-  { label: 'Computing trending deltas', status: 'OK' },
-  { label: 'Rendering static output', status: 'OK' },
+const VIBE_TASKS = [
+  'Fetch star snapshots from GitHub API',
+  'Parse awesome list markdown → extract repos',
+  'Compute trending deltas (7d / 30d / 90d)',
+  'Render static site output',
 ];
 
 export default async function HomePage() {
@@ -32,9 +31,7 @@ export default async function HomePage() {
 
         {/* ASCII Banner — desktop */}
         <div className="hidden sm:block mb-6 overflow-x-auto">
-          <pre className="ascii-art text-accent glow-intense glitch">
-            {ASCII_BANNER}
-          </pre>
+          <pre className="ascii-art text-accent glow-intense glitch">{ASCII_BANNER}</pre>
         </div>
 
         {/* Mobile fallback */}
@@ -42,36 +39,48 @@ export default async function HomePage() {
           awesomer<span className="cursor-blink">_</span>
         </div>
 
-        {/* Boot sequence block */}
-        <div className="border border-border bg-surface p-4 mb-6 text-xs font-mono space-y-1">
-          <div className="text-muted mb-2">
-            ┌─ awesomer-engine v2.0.0 ── boot sequence ─────────────────────────────┐
-          </div>
-          {BOOT_SEQUENCE.map(({ label, status }) => (
-            <div key={label} className="flex gap-2 pl-2">
-              <span className="text-muted flex-1">{label.padEnd(42, '.')}</span>
-              <span className="text-success">[{status}]</span>
+        {/* Vibe coding panel — meta joke: this site was built by Claude Code */}
+        <div className="mb-6 overflow-hidden text-xs font-mono" style={{ backgroundColor: '#1a1b2e', border: '1px solid #2a2d3e' }}>
+          {/* Status bar row 1 — Claude Code prompt style */}
+          <div className="flex items-stretch" style={{ backgroundColor: '#1a1b2e', minHeight: '28px' }}>
+            <div
+              className="flex items-center px-3 font-bold text-white"
+              style={{
+                backgroundColor: '#c96a2b',
+                clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%)',
+                paddingRight: '18px',
+              }}
+            >
+              ~/awesomer
             </div>
-          ))}
-          <div className="text-muted mt-2">
-            └────────────────────────────────────────────────────────────────────────┘
+            <div className="flex items-center px-3 py-1.5" style={{ color: '#cdd6f4' }}>
+              git ⌐main (~5 ?1) ●
+            </div>
+            <div className="flex items-center px-3 py-1.5 ml-auto" style={{ color: '#a6adc8' }}>
+              ⊙ 47,018 (69%)
+            </div>
           </div>
-          <div className="pt-1 flex flex-wrap gap-6 pl-2">
-            <span>
-              <span className="text-accent">SIGNAL</span>
-              <span className="text-muted">........</span>
-              <span className="text-foreground">★ stars only. no votes.</span>
-            </span>
-            <span>
-              <span className="text-accent">VERTICALS</span>
-              <span className="text-muted">......</span>
-              <span className="text-success">{lists.length || '…'} loaded</span>
-            </span>
-            <span>
-              <span className="text-accent">STATUS</span>
-              <span className="text-muted">.........</span>
-              <span className="text-success glow-pulse">■ ONLINE</span>
-            </span>
+          {/* Status bar row 2 */}
+          <div className="px-2 py-0.5" style={{ borderBottom: '1px solid #2a2d3e' }}>
+            <span style={{ color: '#f38ba8' }}>►► bypass permissions on</span>
+            <span style={{ color: '#585b70' }}> (shift+tab to cycle)</span>
+          </div>
+          {/* Command prompt */}
+          <div className="px-3 py-2">
+            <span style={{ color: '#585b70' }}>&gt; </span>
+            <span style={{ color: '#c96a2b' }}>/execute-plan</span>
+            <span style={{ color: '#cdd6f4' }}> build-trending-repo-rankings-from-awesome-lists.md</span>
+            <span className="cursor-blink" style={{ color: '#cdd6f4' }}>█</span>
+          </div>
+          {/* Task list */}
+          <div className="px-3 pb-3">
+            <div className="mb-1.5" style={{ color: '#585b70' }}>● TodoWrite</div>
+            {VIBE_TASKS.map((task) => (
+              <div key={task} className="pl-2 leading-relaxed">
+                <span style={{ color: '#00ff41' }}>✓ </span>
+                <span style={{ color: '#cdd6f4' }}>{task}</span>
+              </div>
+            ))}
           </div>
         </div>
 
