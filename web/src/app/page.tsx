@@ -39,48 +39,50 @@ export default async function HomePage() {
           awesomer<span className="cursor-blink">_</span>
         </div>
 
-        {/* Vibe coding panel — meta joke: this site was built by Claude Code */}
-        <div className="mb-6 overflow-hidden text-xs font-mono" style={{ backgroundColor: '#1a1b2e', border: '1px solid #2a2d3e' }}>
-          {/* Status bar row 1 — Claude Code prompt style */}
-          <div className="flex items-stretch" style={{ backgroundColor: '#1a1b2e', minHeight: '28px' }}>
-            <div
-              className="flex items-center px-3 font-bold text-white"
-              style={{
-                backgroundColor: '#c96a2b',
-                clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%)',
-                paddingRight: '18px',
-              }}
-            >
-              ~/awesomer
+        {/* macOS terminal window — Claude Code meta joke, inspired by task-master.dev */}
+        <div
+          className="mb-6 overflow-hidden rounded-lg text-xs font-mono"
+          style={{
+            border: '1px solid rgba(255,255,255,0.08)',
+            boxShadow: '0 20px 60px rgba(0,0,0,0.6)',
+          }}
+        >
+          {/* macOS title bar */}
+          <div className="flex items-center px-4 py-2.5" style={{ backgroundColor: '#252525' }}>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: '#ff5f56' }} />
+              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: '#febc2e' }} />
+              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: '#28c840' }} />
             </div>
-            <div className="flex items-center px-3 py-1.5" style={{ color: '#cdd6f4' }}>
-              git ⌐main (~5 ?1) ●
-            </div>
-            <div className="flex items-center px-3 py-1.5 ml-auto" style={{ color: '#a6adc8' }}>
-              ⊙ 47,018 (69%)
+            <div className="flex-1 text-center" style={{ color: '#555' }}>
+              claude-code — ~/awesomer
             </div>
           </div>
-          {/* Status bar row 2 */}
-          <div className="px-2 py-0.5" style={{ borderBottom: '1px solid #2a2d3e' }}>
-            <span style={{ color: '#f38ba8' }}>►► bypass permissions on</span>
-            <span style={{ color: '#585b70' }}> (shift+tab to cycle)</span>
-          </div>
-          {/* Command prompt */}
-          <div className="px-3 py-2">
-            <span style={{ color: '#585b70' }}>&gt; </span>
-            <span style={{ color: '#c96a2b' }}>/execute-plan</span>
-            <span style={{ color: '#cdd6f4' }}> build-trending-repo-rankings-from-awesome-lists.md</span>
-            <span className="cursor-blink" style={{ color: '#cdd6f4' }}>█</span>
-          </div>
-          {/* Task list */}
-          <div className="px-3 pb-3">
-            <div className="mb-1.5" style={{ color: '#585b70' }}>● TodoWrite</div>
-            {VIBE_TASKS.map((task) => (
-              <div key={task} className="pl-2 leading-relaxed">
-                <span style={{ color: '#00ff41' }}>✓ </span>
-                <span style={{ color: '#cdd6f4' }}>{task}</span>
-              </div>
-            ))}
+
+          {/* Terminal content */}
+          <div style={{ backgroundColor: '#1a1b2e' }}>
+            {/* bypass permissions row */}
+            <div className="px-2 py-0.5" style={{ borderBottom: '1px solid #2a2d3e' }}>
+              <span style={{ color: '#f38ba8' }}>►► bypass permissions on</span>
+              <span style={{ color: '#585b70' }}> (shift+tab to cycle)</span>
+            </div>
+            {/* Command prompt */}
+            <div className="px-3 py-2">
+              <span style={{ color: '#585b70' }}>&gt; </span>
+              <span style={{ color: '#c96a2b' }}>/execute-plan</span>
+              <span style={{ color: '#cdd6f4' }}> build-trending-repo-rankings-from-awesome-lists.md</span>
+              <span className="cursor-blink" style={{ color: '#cdd6f4' }}>█</span>
+            </div>
+            {/* Task list */}
+            <div className="px-3 pb-3">
+              <div className="mb-1.5" style={{ color: '#585b70' }}>● TodoWrite</div>
+              {VIBE_TASKS.map((task) => (
+                <div key={task} className="pl-2 leading-relaxed">
+                  <span style={{ color: '#00ff41' }}>✓ </span>
+                  <span style={{ color: '#cdd6f4' }}>{task}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 

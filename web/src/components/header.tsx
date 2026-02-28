@@ -17,15 +17,24 @@ export function Header() {
 
   return (
     <header className="border-b border-border bg-background sticky top-0 z-50">
-      {/* Status bar */}
-      <div className="border-b border-border/50 px-4 sm:px-6 lg:px-8 py-0.5 text-xs font-mono text-muted flex items-center gap-4 overflow-hidden">
-        <span className="max-w-5xl mx-auto w-full flex gap-4 flex-wrap">
-          <span className="text-accent/60">claude://awesomer</span>
-          <span>CPU <span className="text-accent">████████░░</span> 78%</span>
-          <span>MEM <span className="text-accent">██████░░░░</span> 61%</span>
-          <span className="hidden md:inline">UPTIME <span className="text-foreground">always</span></span>
-          <span className="hidden md:inline">BUILD <span className="text-success">● live</span></span>
-        </span>
+      {/* Claude Code status bar */}
+      <div className="flex items-stretch text-xs font-mono overflow-hidden" style={{ backgroundColor: '#1a1b2e', minHeight: '28px' }}>
+        <div
+          className="flex items-center px-3 font-bold text-white shrink-0"
+          style={{
+            backgroundColor: '#c96a2b',
+            clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%)',
+            paddingRight: '18px',
+          }}
+        >
+          ~/awesomer
+        </div>
+        <div className="flex items-center px-3 py-1.5 hidden sm:flex" style={{ color: '#cdd6f4' }}>
+          git ⌐main (~5 ?1) ●
+        </div>
+        <div className="flex items-center px-3 py-1.5 ml-auto" style={{ color: '#a6adc8' }}>
+          ⊙ 47,018 (69%)
+        </div>
       </div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
