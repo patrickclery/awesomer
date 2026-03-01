@@ -1,5 +1,10 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 import type { CategoryItem } from '@/lib/api';
+
+type SortMode = '7d' | 'stars';
 
 interface CategorySectionProps {
   number: number;
@@ -16,10 +21,15 @@ export function CategorySection({
   items,
   listSlug,
 }: CategorySectionProps) {
+  const [sortMode, setSortMode] = useState<SortMode>('7d');
   const num = String(number).padStart(2, '0');
-  const sorted = [...items].sort(
-    (a, b) => (b.stars ?? 0) - (a.stars ?? 0),
-  );
+
+  const sorted = [...items].sort((a, b) => {
+    if (sortMode === '7d') {
+      return (b.repo?.stars7d ?? 0) - (a.repo?.stars7d ?? 0) || (b.stars ?? 0) - (a.stars ?? 0);
+    }
+    return (b.stars ?? 0) - (a.stars ?? 0);
+  });
 
   return (
     <div id={`category-${slug}`} className="mb-10">
@@ -31,8 +41,24 @@ export function CategorySection({
           <thead>
             <tr className="border-b border-border text-muted text-xs uppercase tracking-wider">
               <th className="text-left py-2 px-2">repo</th>
-              <th className="text-right py-2 px-2">stars</th>
-              <th className="text-right py-2 px-2">7d</th>
+              <th
+                className={`text-right py-2 px-2 cursor-pointer select-none transition-colors ${
+                  sortMode === 'stars' ? 'text-accent' : 'hover:text-foreground'
+                }`}
+                onClick={() => setSortMode('stars')}
+                title="Sort by star count"
+              >
+                stars{sortMode === 'stars' ? ' ↓' : ''}
+              </th>
+              <th
+                className={`text-right py-2 px-2 cursor-pointer select-none transition-colors ${
+                  sortMode === '7d' ? 'text-accent' : 'hover:text-foreground'
+                }`}
+                onClick={() => setSortMode('7d')}
+                title="Sort by 7-day trending"
+              >
+                7d{sortMode === '7d' ? ' ↓' : ''}
+              </th>
             </tr>
           </thead>
           <tbody>
