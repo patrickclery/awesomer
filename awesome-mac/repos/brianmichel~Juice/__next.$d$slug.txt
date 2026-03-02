@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[23528,["/awesomer/_next/static/chunks/9ea137281ff55f7e.js","/awesomer/_next/static/chunks/96c6d2e48edc98a7.js"],"default"]
+3:I[38930,["/awesomer/_next/static/chunks/9ea137281ff55f7e.js","/awesomer/_next/static/chunks/96c6d2e48edc98a7.js"],"default"]
+0:{"buildId":"oGjtnE8eVvJ5OfHnjjd6X","rsc":["$","$1","c",{"children":[null,["$","div",null,{"style":{"--background":"#08080a","--foreground":"#b8b8c0","--accent":"#007aff","--accent-hover":"#3395ff","--surface":"#0e0e12","--surface-hover":"#16161c","--border":"#222230","--muted":"#555566","--success":"#30d158","--danger":"#ff453a","--warning":"#ffd60a","--cyan":"#64d2ff","--glow-color":"rgba(0, 122, 255, 0.4)","--selection-bg":"rgba(0, 122, 255, 0.15)"},"children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]]}],"loading":null,"isPartial":false}
