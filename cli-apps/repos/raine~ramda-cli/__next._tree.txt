@@ -1,0 +1,4 @@
+:HL["/awesomer/_next/static/chunks/baa431c9624e8df8.css","style"]
+:HL["/awesomer/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/awesomer/_next/static/media/RecMonoCasual_Regular-s.p.8bf4882e.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
+0:{"buildId":"hq7hrQAzPnXs_DgWzXAQV","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"cli-apps","hasRuntimePrefetch":false,"slots":{"children":{"name":"repos","paramType":null,"paramKey":"repos","hasRuntimePrefetch":false,"slots":{"children":{"name":"repoSlug","paramType":"d","paramKey":"raine~ramda-cli","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
