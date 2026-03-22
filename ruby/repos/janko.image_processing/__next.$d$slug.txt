@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[88287,["/awesomer/_next/static/chunks/f74a6859e1c4d5e3.js","/awesomer/_next/static/chunks/d532426fc21885cb.js"],"default"]
+3:I[74895,["/awesomer/_next/static/chunks/f74a6859e1c4d5e3.js","/awesomer/_next/static/chunks/d532426fc21885cb.js"],"default"]
+0:{"buildId":"9_vld2GCjf_7QPC6H6aKt","rsc":["$","$1","c",{"children":[null,["$","div",null,{"style":{"--background":"#0a0008","--foreground":"#c4b5c9","--accent":"#cc342d","--accent-hover":"#e04840","--surface":"#0f000a","--surface-hover":"#180012","--border":"#2a1025","--muted":"#6b5066","--success":"#5cb85c","--danger":"#cc342d","--warning":"#e8a02e","--cyan":"#6bbfc0","--glow-color":"rgba(204, 52, 45, 0.4)","--selection-bg":"rgba(204, 52, 45, 0.15)"},"children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]]}],"loading":null,"isPartial":false}
