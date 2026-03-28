@@ -2,5 +2,5 @@
 2:I[94559,["/awesomer/_next/static/chunks/28d858f06d317d98.js","/awesomer/_next/static/chunks/7d8b9f193a6efa19.js"],"default"]
 3:I[51858,["/awesomer/_next/static/chunks/f74a6859e1c4d5e3.js","/awesomer/_next/static/chunks/d532426fc21885cb.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"W79Er596Eyw4wrL8n7963","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"tunneling"}],[["$","script","script-0",{"src":"/awesomer/_next/static/chunks/7d8b9f193a6efa19.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"pmzq89k90dBVDoxOlczyd","rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"tunneling"}],[["$","script","script-0",{"src":"/awesomer/_next/static/chunks/7d8b9f193a6efa19.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
