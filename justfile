@@ -2,13 +2,10 @@
 default:
     @just --list
 
-# Start API and frontend dev servers (requires Docker for PostgreSQL)
+# Start API and frontend dev servers (PostgreSQL must be running locally)
 dev:
     #!/usr/bin/env bash
     set -e
-    echo "Starting PostgreSQL + Redis..."
-    docker compose -f docker-compose.platform.yml up -d postgres redis
-    sleep 2
     echo "Starting API on :4000..."
     cd api && npm run start:dev &
     API_PID=$!

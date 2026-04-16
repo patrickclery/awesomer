@@ -89,12 +89,6 @@ curl -X POST http://localhost:4000/api/sync/import/223 -H "Authorization: Bearer
 curl -X POST http://localhost:4000/api/sync/markdown -H "Authorization: Bearer $KEY"
 ```
 
-### Docker (development)
-```bash
-# Start PostgreSQL + Redis
-docker compose -f docker-compose.platform.yml up -d postgres redis
-```
-
 ## Architecture
 
 ### API Modules (`api/src/`)
@@ -328,7 +322,7 @@ A NestJS service and npm script that backfills missing daily star snapshot data 
 - **TypeScript** 5.7.3 - Used for all backend and shared code (ESM strict mode)
 - **JavaScript/JSX** - Frontend React components with TypeScript
 - **Markdown** - Documentation and README files
-- **YAML** - Docker Compose and configuration files
+- **YAML** - Configuration files
 ## Runtime
 - **Node.js** 22 (Alpine) - Both development and production
 - ESM-first architecture with `"type": "module"` in `api/package.json`
@@ -404,24 +398,14 @@ A NestJS service and npm script that backfills missing daily star snapshot data 
 ## Platform Requirements
 - Node.js 22+
 - npm 10+
-- PostgreSQL 14+ (or use `docker compose -f docker-compose.platform.yml up postgres`)
-- Redis (optional, for job queues — included in platform compose)
+- PostgreSQL 14+
 - Git
-- Node.js 22 Alpine
-- PostgreSQL 16+ (production-grade instance)
-- Redis (optional, for task scheduling)
-- Docker/Docker Compose - Platform definition in `docker-compose.platform.yml`
-- Services: PostgreSQL, Redis (Valkey), Caddy reverse proxy
 ## Deployment Target
 - GitHub Pages via `patrickclery/awesomer` public repository
 - Served from `gh-pages` branch
 - Built with `BASE_PATH=/awesomer npm run build`
 - Deployed via force-push to `gh-pages` branch from `/tmp/gh-pages-deploy/` staging directory
-- Node.js application (containerized or standalone)
-- Requires PostgreSQL and optional Redis
 - Cron jobs: Daily sync at 2 AM UTC (via `@nestjs/schedule`)
-- Caddy server (in docker-compose) routes to API and static frontend
-- Configuration in `Caddyfile`
 <!-- GSD:stack-end -->
 
 <!-- GSD:conventions-start source:CONVENTIONS.md -->
