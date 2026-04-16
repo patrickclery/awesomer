@@ -1,6 +1,6 @@
 # Awesomer
 
-Multi-vertical platform for discovering trending open-source tools from curated GitHub Awesome Lists.
+What if every Awesome List had a trending page? Now they do.
 
 **Live site:** [patrickclery.com/awesomer](https://patrickclery.com/awesomer/)
 

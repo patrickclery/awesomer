@@ -2,7 +2,7 @@
   "name": "awesomer",
   "version": "1.0.0",
   "private": true,
-  "description": "Multi-vertical platform for discovering trending open-source tools from curated GitHub Awesome Lists",
+  "description": "What if every Awesome List had a trending page? Now they do.",
   "scripts": {
     "dev": "concurrently -k -n api,web -c blue,magenta \"npm run dev:api\" \"npm run dev:web\"",
     "dev:api": "cd api && npm run start:dev",

@@ -41,10 +41,25 @@ export class MarkdownService {
   private async generateHomepage(outputDir?: string): Promise<string[]> {
     const lines: string[] = [];
 
-    // Section 1: Title and tagline
+    // Section 1: Title and tagline (fetched from GitHub repo description)
+    let tagline = 'What if every Awesome List had a trending page? Now they do.';
+    try {
+      const res = await fetch('https://api.github.com/repos/patrickclery/awesomer', {
+        headers: { Accept: 'application/vnd.github+json' },
+        signal: AbortSignal.timeout(10000),
+      });
+      if (res.ok) {
+        const repo = (await res.json()) as { description?: string };
+        if (typeof repo.description === 'string' && repo.description.length > 0) {
+          tagline = repo.description;
+        }
+      }
+    } catch {
+      this.logger.warn('Could not fetch repo description from GitHub — using fallback');
+    }
     lines.push('# Awesomer');
     lines.push('');
-    lines.push('What if every Awesome List had a trending page? Now they do.');
+    lines.push(tagline);
     lines.push('');
     lines.push(`[Live site ↗](${LIVE_SITE_BASE}/) | [GitHub ↗](https://github.com/patrickclery/awesomer)`);
     lines.push('');
