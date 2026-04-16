@@ -1,0 +1,455 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1e1e2e;
+  --foreground: #cdd6f4;
+  --accent: #cba6f7;
+  --accent-hover: #b4befe;
+  --surface: #313244;
+  --surface-hover: #45475a;
+  --border: #45475a;
+  --muted: #a6adc8;
+  --success: #a6e3a1;
+  --danger: #f38ba8;
+  --warning: #f9e2af;
+  --cyan: #89dcfe;
+  --glow-color: rgba(203, 166, 247, 0.4);
+  --selection-bg: rgba(203, 166, 247, 0.15);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-cyan: var(--cyan);
+  --font-sans: var(--font-geist-mono);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-mono), 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Pulsing glow */
+@keyframes glow-pulse {
+  0%, 100% { text-shadow: 0 0 8px var(--glow-color); }
+  50% {
+    text-shadow:
+      0 0 4px var(--accent),
+      0 0 12px rgba(0, 255, 65, 0.8),
+      0 0 28px rgba(0, 255, 65, 0.5),
+      0 0 52px rgba(0, 255, 65, 0.2);
+  }
+}
+
+.glow-pulse {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+/* Glow effect for accent elements */
+.glow {
+  text-shadow: 0 0 8px var(--glow-color);
+}
+
+/* Intense glow */
+.glow-intense {
+  text-shadow:
+    0 0 4px var(--accent),
+    0 0 10px var(--glow-color),
+    0 0 20px var(--glow-color),
+    0 0 40px var(--glow-color);
+}
+
+/* Description text — IBM Plex Sans for readable body copy */
+.description {
+  font-family: var(--font-description), 'IBM Plex Sans', system-ui, sans-serif;
+}
+
+/* ASCII art pre element */
+.ascii-art {
+  font-family: 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: 11px;
+  line-height: 1.2;
+  white-space: pre;
+  letter-spacing: 0;
+}
+
+/* Terminal box with glow border */
+.terminal-box {
+  border: 1px solid var(--accent);
+  box-shadow:
+    0 0 6px rgba(0, 255, 65, 0.3),
+    inset 0 0 6px rgba(0, 255, 65, 0.05);
+}
+
+/* Scanline overlay — CRT effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 1px,
+    rgba(0, 0, 0, 0.04) 1px,
+    rgba(0, 0, 0, 0.04) 2px
+  );
+  z-index: 9999;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Selection highlight */
+::selection {
+  background: var(--selection-bg);
+  color: var(--accent);
+}
+
+/* ===== NEW: Card system ===== */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.card:hover {
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  box-shadow: 0 0 20px color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.card-featured {
+  background: linear-gradient(
+    180deg,
+    var(--surface) 0%,
+    color-mix(in srgb, var(--surface) 85%, var(--background)) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.3),
+    0 0 15px color-mix(in srgb, var(--accent) 10%, transparent),
+    inset 0 1px 0 color-mix(in srgb, var(--accent) 8%, transparent);
+  transition: border-color 200ms ease-out, box-shadow 200ms ease-out, transform 150ms ease-out;
+}
+
+.card-featured:hover {
+  border-color: var(--accent);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.35),
+    0 0 30px color-mix(in srgb, var(--accent) 20%, transparent),
+    inset 0 1px 0 color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.card-featured:active {
+  transform: scale(0.98);
+}
+
+/* Mini card -- compact #2-5 cards (per D-09) */
+.card-mini {
+  background: color-mix(in srgb, var(--surface) 40%, var(--background));
+  border: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+  box-shadow: none;
+  transition: background 200ms ease-out, border-color 200ms ease-out, box-shadow 200ms ease-out, transform 150ms ease-out;
+}
+
+.card-mini:hover {
+  background: var(--surface);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2),
+    0 0 10px color-mix(in srgb, var(--accent) 6%, transparent);
+}
+
+.card-mini:active {
+  transform: scale(0.98);
+}
+
+/* Tiny card — sidebar #6-14, most diminished */
+.card-tiny {
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--border) 30%, transparent);
+  border-radius: 4px;
+  box-shadow: none;
+  transition: background 150ms ease-out, border-color 150ms ease-out;
+}
+
+.card-tiny:hover {
+  background: color-mix(in srgb, var(--surface) 50%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+/* Info card — list identity + stats, subordinate to hero card (Phase 22, D-06/D-09) */
+.info-card {
+  background: color-mix(in srgb, var(--surface) 30%, var(--background));
+  border: 1px solid color-mix(in srgb, var(--border) 40%, transparent);
+  border-radius: 6px;
+  box-shadow: none;
+  transition: border-color 200ms ease-out, box-shadow 200ms ease-out, background 200ms ease-out;
+}
+
+.info-card:hover {
+  border-color: color-mix(in srgb, var(--border) 70%, transparent);
+  background: color-mix(in srgb, var(--surface) 45%, var(--background));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Focus-visible ring — neutral, no accent glow */
+.info-card:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .info-card {
+    transition: none !important;
+  }
+}
+
+/* Hero card border pulse — subtle accent breathing for #1 card */
+@keyframes card-border-pulse {
+  0%, 100% {
+    border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+    box-shadow:
+      0 4px 24px rgba(0, 0, 0, 0.3),
+      0 0 15px color-mix(in srgb, var(--accent) 10%, transparent),
+      inset 0 1px 0 color-mix(in srgb, var(--accent) 8%, transparent);
+  }
+  50% {
+    border-color: color-mix(in srgb, var(--accent) 80%, transparent);
+    box-shadow:
+      0 4px 24px rgba(0, 0, 0, 0.3),
+      0 0 28px color-mix(in srgb, var(--accent) 22%, transparent),
+      inset 0 1px 0 color-mix(in srgb, var(--accent) 14%, transparent);
+  }
+}
+
+.card-pulse {
+  animation: card-border-pulse 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-pulse {
+    animation: none !important;
+  }
+}
+
+/* Focus states for keyboard navigation (per D-14) */
+.card:focus-within,
+.card-featured:focus-within,
+.card-mini:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Spark bar — inline mini bar chart */
+.spark-bar {
+  display: inline-block;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 1px;
+  opacity: 0.7;
+  vertical-align: bottom;
+}
+
+/* Stat pill */
+.stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+/* Stats bar — bottom row of hero cards (icon + count + github icon) */
+.stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid color-mix(in srgb, var(--border) 50%, transparent);
+  padding-top: 16px;
+  margin-top: auto;
+}
+
+/* Avatar chip — rounded square, subtle border (Phase 16)
+   D-14: rounded-square matches GitHub's own avatar treatment.
+   D-15: 1px --border separates avatar from card surface. */
+.avatar {
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* Fallback variant — muted GitHubIcon with filled chip slot.
+   Applied on top of `.avatar` by OwnerAvatar when onError fires. */
+.avatar-fallback {
+  color: var(--muted);
+  background: color-mix(in srgb, var(--surface) 50%, transparent);
+  padding: 2px;
+}
+
+/* Gradient text for hero titles */
+.gradient-text {
+  background: linear-gradient(135deg, var(--accent), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Fade-in animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in-up 0.4s ease-out both;
+}
+
+/* Stagger children */
+.stagger > * { animation: fade-in-up 0.3s ease-out both; }
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 60ms; }
+.stagger > *:nth-child(3) { animation-delay: 120ms; }
+.stagger > *:nth-child(4) { animation-delay: 180ms; }
+.stagger > *:nth-child(5) { animation-delay: 240ms; }
+.stagger > *:nth-child(6) { animation-delay: 300ms; }
+
+/* Starburst badge — shopping magazine price explosion */
+.starburst {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 120px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Outer burst — accent border */
+.starburst::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  background: var(--accent);
+  clip-path: polygon(
+    50% 0%, 58% 12%, 72% 2%, 68% 18%, 88% 10%,
+    80% 28%, 100% 28%, 88% 40%, 98% 55%,
+    82% 58%, 92% 75%, 75% 68%, 78% 88%,
+    62% 78%, 55% 100%, 48% 80%, 32% 95%,
+    35% 75%, 15% 82%, 25% 65%, 2% 68%,
+    18% 52%, 0% 38%, 20% 35%, 8% 18%,
+    28% 22%, 30% 5%, 42% 15%
+  );
+  transform: rotate(-5deg);
+}
+
+/* Inner fill — elevated dark with gradient */
+.starburst::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--surface-hover) 0%, var(--background) 100%);
+  clip-path: polygon(
+    50% 0%, 58% 12%, 72% 2%, 68% 18%, 88% 10%,
+    80% 28%, 100% 28%, 88% 40%, 98% 55%,
+    82% 58%, 92% 75%, 75% 68%, 78% 88%,
+    62% 78%, 55% 100%, 48% 80%, 32% 95%,
+    35% 75%, 15% 82%, 25% 65%, 2% 68%,
+    18% 52%, 0% 38%, 20% 35%, 8% 18%,
+    28% 22%, 30% 5%, 42% 15%
+  );
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+
+.starburst-text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--success);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(166, 227, 161, 0.4);
+}
+
+.starburst-sub {
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--muted);
+  text-shadow: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-blink,
+  .glow-pulse,
+  .animate-fade-in,
+  .stagger > * {
+    animation: none !important;
+  }
+  .card,
+  .card-featured,
+  .card-mini {
+    transition: none !important;
+  }
+}
+
+
