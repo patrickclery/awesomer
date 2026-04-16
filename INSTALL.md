@@ -22,7 +22,7 @@ Awesomer tracks GitHub stars across repositories listed in curated Awesome Lists
 ### Prerequisites
 
 - Node.js 22+
-- PostgreSQL 14+ (or use Docker: `docker compose -f docker-compose.platform.yml up -d postgres`)
+- PostgreSQL 14+
 
 ### Setup
 
@@ -30,7 +30,7 @@ Awesomer tracks GitHub stars across repositories listed in curated Awesome Lists
 # API
 cd api
 cp .env.example .env        # Configure DATABASE_URL, GITHUB_API_KEY
-npm install --legacy-peer-deps
+npm install
 npx prisma generate
 npx prisma migrate dev
 npm run start:dev            # Runs on port 4000
@@ -73,13 +73,6 @@ See `api/.env.example` for all options. Key variables:
 | `ADMIN_API_KEY` | Yes | Bearer token for admin sync endpoints |
 | `PORT` | No | API port (default: 4000) |
 | `BASE_PATH` | No | Static site base path (default: `/awesomer`) |
-
-## Docker
-
-```bash
-# Start PostgreSQL + Redis
-docker compose -f docker-compose.platform.yml up -d postgres redis
-```
 
 ## License
 
