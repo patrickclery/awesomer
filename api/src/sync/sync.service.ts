@@ -629,10 +629,11 @@ export class SyncService {
   async rebuildStaticSite() {
     this.logger.log('Step 6: Rebuilding static site...');
     const { spawn } = await import('child_process');
-    const { writeFileSync, mkdirSync, rmSync } = await import('fs');
+    const { writeFileSync, mkdirSync, rmSync, statSync, readdirSync, existsSync } = await import('fs');
     const path = await import('path');
     const webDir = path.resolve(process.cwd(), '..', 'web');
     const dataDir = path.join(webDir, 'data');
+    const outDir = path.join(webDir, 'out');
 
     try {
       // Export static data files so Next.js build doesn't need a running API
@@ -682,7 +683,23 @@ export class SyncService {
           else reject(new Error(`build exited with code ${code}`));
         });
       });
-      this.logger.log('Static site rebuilt successfully');
+
+      // Sanity-check the build output before reporting success. Catches the
+      // historical "all-pages-404 after build success" failure mode where
+      // npm run build exits 0 but pages render the Next.js error fallback.
+      const homepage = path.join(outDir, 'index.html');
+      if (!existsSync(homepage) || statSync(homepage).size < 50_000) {
+        throw new Error(`Build sanity check failed: ${homepage} missing or too small (< 50KB)`);
+      }
+      const repoDirs = existsSync(path.join(outDir, 'r')) ? readdirSync(path.join(outDir, 'r')).length : 0;
+      if (repoDirs < 5_000) {
+        throw new Error(`Build sanity check failed: web/out/r/ has only ${repoDirs} entries (expected >= 5000)`);
+      }
+      const listDirs = existsSync(path.join(outDir, 'l')) ? readdirSync(path.join(outDir, 'l')).length : 0;
+      if (listDirs < 25) {
+        throw new Error(`Build sanity check failed: web/out/l/ has only ${listDirs} entries (expected >= 25)`);
+      }
+      this.logger.log(`Static site rebuilt successfully (homepage ${(statSync(homepage).size / 1024).toFixed(0)}KB, ${repoDirs} repo pages, ${listDirs} list pages)`);
     } catch (error) {
       this.logger.error('Static site build failed', error);
       throw error;

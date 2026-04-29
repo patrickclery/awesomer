@@ -128,8 +128,23 @@ export class StaticDataService {
   }
 
   async exportAllRepoDetails(): Promise<Array<{ repoSlug: string; data: StaticRepoPage }>> {
+    // Filter to the same set exportRepoSlugs() returns, so generateStaticParams
+    // and on-disk JSON files stay 1:1 (no orphans, no missing pages).
+    const items = await this.prisma.categoryItem.findMany({
+      where: { githubRepo: { not: null } },
+      select: { githubRepo: true },
+      distinct: ['githubRepo'],
+    });
+    const lists = await this.prisma.awesomeList.findMany({
+      where: { archived: false },
+      select: { githubRepo: true },
+    });
+    const wanted = new Set<string>();
+    for (const i of items) wanted.add(i.githubRepo!);
+    for (const l of lists) wanted.add(l.githubRepo);
+
     const repos = await this.prisma.repo.findMany({
-      where: { githubRepo: { not: '' } },
+      where: { githubRepo: { in: Array.from(wanted) } },
       include: {
         starSnapshots: {
           orderBy: { snapshotDate: 'asc' },
