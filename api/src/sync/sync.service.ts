@@ -73,6 +73,9 @@ export class SyncService {
       // Step 6: Deploy to GitHub Pages
       await this.deployStaticSite();
 
+      // Step 7: Auto-commit README.md to main so GitHub homepage stays fresh
+      await this.commitReadmeToMain();
+
       this.logger.log('Daily pipeline completed successfully');
     } catch (error) {
       this.logger.error('Daily pipeline failed', error);
@@ -729,10 +732,9 @@ export class SyncService {
       // Prevent Jekyll from ignoring _next/ directory
       writeFileSync(path.join(deployDir, '.nojekyll'), '');
 
-      // Init fresh git repo, commit, force-push to gh-pages
+      // Init fresh git repo, commit, force-push to gh-pages.
+      // Identity inherits from global ~/.config/git/.gitconfig.
       execSync('git init', { cwd: deployDir, timeout: 30_000 });
-      execSync('git config user.name "Awesomer Deploy"', { cwd: deployDir });
-      execSync('git config user.email "deploy@awesomer.dev"', { cwd: deployDir });
       execSync('git add -A', { cwd: deployDir, stdio: 'inherit', timeout: 60_000 });
 
       const date = new Date().toISOString().slice(0, 10);
@@ -756,6 +758,59 @@ export class SyncService {
     } catch (error) {
       this.logger.error('Static site deployment failed', error);
       throw error;
+    }
+  }
+
+  /**
+   * Commit the regenerated README.md to main so the GitHub repo homepage
+   * stays in sync with live data. Uses an isolated worktree based on
+   * origin/main to avoid touching the user's working tree or local main.
+   * Non-fatal: a failure here doesn't fail the pipeline (deploy already
+   * succeeded; the live site is fresh — only the GitHub repo homepage lags).
+   */
+  async commitReadmeToMain() {
+    this.logger.log('Step 7: Committing README.md to main...');
+    const { execSync } = await import('child_process');
+    const fs = await import('fs');
+    const path = await import('path');
+    const projectRoot = path.resolve(process.cwd(), '..');
+    const sourceReadme = path.join(projectRoot, 'README.md');
+    const worktreeDir = '/tmp/awesomer-readme-worktree';
+
+    try {
+      // Clean any prior worktree
+      try { execSync(`git worktree remove --force "${worktreeDir}"`, { cwd: projectRoot, stdio: 'pipe' }); } catch { /* none to remove */ }
+      fs.rmSync(worktreeDir, { recursive: true, force: true });
+
+      // Fetch and check out a detached worktree at origin/main
+      execSync('git fetch origin main', { cwd: projectRoot, timeout: 60_000 });
+      execSync(`git worktree add --detach "${worktreeDir}" origin/main`, { cwd: projectRoot, timeout: 30_000 });
+
+      // Copy the freshly regenerated README.md into the worktree
+      fs.copyFileSync(sourceReadme, path.join(worktreeDir, 'README.md'));
+
+      // Skip if README is unchanged from origin/main
+      try {
+        execSync('git diff --quiet README.md', { cwd: worktreeDir });
+        this.logger.log('README.md unchanged from origin/main; skipping auto-commit');
+        return;
+      } catch { /* changed; proceed */ }
+
+      const date = new Date().toISOString().slice(0, 10);
+      execSync(
+        `git commit -m "chore: auto-update README (daily sync ${date})" -- README.md`,
+        { cwd: worktreeDir, stdio: 'inherit', timeout: 60_000 },
+      );
+      execSync('git push origin HEAD:main', {
+        cwd: worktreeDir,
+        stdio: 'inherit',
+        timeout: 120_000,
+      });
+      this.logger.log('README.md auto-committed and pushed to main');
+    } catch (error) {
+      this.logger.warn(`README auto-commit failed (non-fatal): ${error}`);
+    } finally {
+      try { execSync(`git worktree remove --force "${worktreeDir}"`, { cwd: projectRoot, stdio: 'pipe' }); } catch { /* ignore */ }
     }
   }
 
