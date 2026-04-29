@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import StarChart from './star-chart';
@@ -10,17 +12,14 @@ export async function generateStaticParams() {
 }
 
 async function getRepoData(ownerName: string) {
-  const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
-  // ownerName is "owner~name" where / was replaced with ~
-  const tildeIndex = ownerName.indexOf('~');
-  if (tildeIndex === -1) return null;
-  const owner = ownerName.substring(0, tildeIndex);
-  const name = ownerName.substring(tildeIndex + 1);
-
-  const res = await fetch(`${API_BASE}/sync/static/repo/${owner}/${name}`);
-  if (!res.ok) return null;
-  const { data } = await res.json();
-  return data;
+  const filePath = path.join(process.cwd(), 'data', 'r', `${ownerName}.json`);
+  try {
+    const raw = await fs.promises.readFile(filePath, 'utf-8');
+    const { data } = JSON.parse(raw);
+    return data;
+  } catch {
+    return null;
+  }
 }
 
 function formatDelta(value: number | null) {

@@ -150,8 +150,8 @@ export default async function HomePage() {
 
   const heroList = lists[0];
   const gridLists = lists.slice(1, 5);
-  const sidebarLists = lists.slice(5, 14);
-  const hasMore = lists.length > 30;
+  const sidebarLists = lists.slice(5);
+  const hasMore = false;
 
   const totalRepos = lists.reduce((sum, l) => sum + (l.repoCount || 0), 0);
   const homeDescription =

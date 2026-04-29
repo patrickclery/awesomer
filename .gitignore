@@ -25,6 +25,9 @@ api/src/generated/
 web/.next/
 web/out/
 
+# Generated markdown output (written by sync pipeline Step 4)
+/static/
+
 # Platform
 *.env.local
 

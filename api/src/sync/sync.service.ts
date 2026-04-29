@@ -76,6 +76,7 @@ export class SyncService {
       this.logger.log('Daily pipeline completed successfully');
     } catch (error) {
       this.logger.error('Daily pipeline failed', error);
+      throw error;
     }
   }
 
@@ -239,6 +240,25 @@ export class SyncService {
     const parser = getParser(list.parserType);
     const { categories, items } = parser.parse(readme);
     const filteredItems = await this.filterAwesomeListRepos(list.slug, items);
+
+    // Safeguard: never wipe a list. If parsing returned 0 items but the list
+    // has existing items, the upstream README was likely cleared/restructured
+    // (e.g. "update in progress"). Skip the sync rather than delete everything.
+    if (filteredItems.length === 0) {
+      const existingCount = await this.prisma.categoryItem.count({
+        where: { category: { awesomeListId } },
+      });
+      if (existingCount > 0) {
+        this.logger.warn(
+          `Diff-sync skipped for ${list.githubRepo}: parser returned 0 items but DB has ${existingCount} existing items (upstream README likely wiped). Preserving existing items.`,
+        );
+        await this.prisma.awesomeList.update({
+          where: { id: awesomeListId },
+          data: { lastSyncedAt: new Date() },
+        });
+        return { added: 0, removed: 0, unchanged: existingCount };
+      }
+    }
 
     // 3. Build set of current README items keyed by primaryUrl
     const readmeUrls = new Set(filteredItems.map((i) => i.primaryUrl));
@@ -608,7 +628,7 @@ export class SyncService {
 
   async rebuildStaticSite() {
     this.logger.log('Step 6: Rebuilding static site...');
-    const { execSync } = await import('child_process');
+    const { spawn } = await import('child_process');
     const { writeFileSync, mkdirSync, rmSync } = await import('fs');
     const path = await import('path');
     const webDir = path.resolve(process.cwd(), '..', 'web');
@@ -623,25 +643,49 @@ export class SyncService {
       this.logger.log(`Exported last-snapshot.json: ${lastSnapshot}`);
 
       const lists = await this.staticData.exportAllLists();
-      writeFileSync(path.join(dataDir, 'lists.json'), JSON.stringify(lists));
+      writeFileSync(path.join(dataDir, 'lists.json'), JSON.stringify({ data: lists }));
       this.logger.log(`Exported lists.json: ${lists.length} lists`);
 
       const repoSlugs = await this.staticData.exportRepoSlugs();
-      writeFileSync(path.join(dataDir, 'repo-slugs.json'), JSON.stringify(repoSlugs));
+      writeFileSync(path.join(dataDir, 'repo-slugs.json'), JSON.stringify({ data: repoSlugs }));
       this.logger.log(`Exported repo-slugs.json: ${repoSlugs.length} slugs`);
+
+      // Pre-dump per-repo detail JSON so build pages read from disk instead of HTTP
+      const repoDir = path.join(dataDir, 'r');
+      rmSync(repoDir, { recursive: true, force: true });
+      mkdirSync(repoDir, { recursive: true });
+      const repoDetails = await this.staticData.exportAllRepoDetails();
+      for (const { repoSlug, data } of repoDetails) {
+        writeFileSync(path.join(repoDir, `${repoSlug}.json`), JSON.stringify({ data }));
+      }
+      this.logger.log(`Exported ${repoDetails.length} per-repo JSON files`);
 
       // Clear .next/ cache to prevent stale data
       rmSync(path.join(webDir, '.next'), { recursive: true, force: true });
 
-      execSync('npm run build', {
-        cwd: webDir,
-        stdio: 'inherit',
-        timeout: 600_000,
-        env: { ...process.env, NEXT_PUBLIC_API_URL: `http://localhost:${process.env.PORT ?? 4000}/api`, BASE_PATH: process.env.BASE_PATH ?? '/awesomer' },
+      // Use spawn instead of execSync so the API event loop stays free —
+      // build pages call localhost:4000/api/* during SSG and need this process responsive.
+      await new Promise<void>((resolve, reject) => {
+        const child = spawn('npm', ['run', 'build'], {
+          cwd: webDir,
+          stdio: 'inherit',
+          env: { ...process.env, NEXT_PUBLIC_API_URL: `http://localhost:${process.env.PORT ?? 4000}/api`, BASE_PATH: process.env.BASE_PATH ?? '/awesomer' },
+        });
+        const timer = setTimeout(() => {
+          child.kill('SIGKILL');
+          reject(new Error('build timed out after 600s'));
+        }, 600_000);
+        child.on('error', (err) => { clearTimeout(timer); reject(err); });
+        child.on('exit', (code) => {
+          clearTimeout(timer);
+          if (code === 0) resolve();
+          else reject(new Error(`build exited with code ${code}`));
+        });
       });
       this.logger.log('Static site rebuilt successfully');
     } catch (error) {
       this.logger.error('Static site build failed', error);
+      throw error;
     }
   }
 
@@ -694,6 +738,7 @@ export class SyncService {
       this.logger.log('Static site deployed to gh-pages branch');
     } catch (error) {
       this.logger.error('Static site deployment failed', error);
+      throw error;
     }
   }
 

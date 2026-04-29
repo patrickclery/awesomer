@@ -115,9 +115,61 @@ export class StaticDataService {
       select: { githubRepo: true },
       distinct: ['githubRepo'],
     });
+    const lists = await this.prisma.awesomeList.findMany({
+      where: { archived: false },
+      select: { githubRepo: true },
+    });
 
-    return items.map((i) => ({
-      repoSlug: i.githubRepo!.replace('/', '~'),
+    const slugs = new Set<string>();
+    for (const i of items) slugs.add(i.githubRepo!.replace('/', '~'));
+    for (const l of lists) slugs.add(l.githubRepo.replace('/', '~'));
+
+    return Array.from(slugs).map((repoSlug) => ({ repoSlug }));
+  }
+
+  async exportAllRepoDetails(): Promise<Array<{ repoSlug: string; data: StaticRepoPage }>> {
+    const repos = await this.prisma.repo.findMany({
+      where: { githubRepo: { not: '' } },
+      include: {
+        starSnapshots: {
+          orderBy: { snapshotDate: 'asc' },
+          select: { snapshotDate: true, stars: true },
+        },
+        categoryItems: {
+          include: {
+            category: {
+              include: {
+                awesomeList: { select: { name: true, slug: true, archived: true } },
+              },
+            },
+          },
+        },
+      },
+    });
+
+    return repos.map((repo) => ({
+      repoSlug: repo.githubRepo.replace('/', '~'),
+      data: {
+        githubRepo: repo.githubRepo,
+        description: repo.description,
+        stars: repo.stars,
+        stars7d: repo.stars7d,
+        stars30d: repo.stars30d,
+        stars90d: repo.stars90d,
+        lastCommitAt: repo.lastCommitAt?.toISOString() ?? null,
+        starHistory: repo.starSnapshots.map((s) => ({
+          snapshotDate: s.snapshotDate.toISOString().split('T')[0],
+          stars: s.stars,
+        })),
+        foundIn: repo.categoryItems
+          .filter((ci) => !ci.category.awesomeList.archived)
+          .map((ci) => ({
+            categoryName: ci.category.name,
+            categorySlug: ci.category.slug ?? '',
+            listName: ci.category.awesomeList.name,
+            listSlug: ci.category.awesomeList.slug,
+          })),
+      },
     }));
   }
 
