@@ -64,16 +64,13 @@ export class SyncService {
       // Step 3: Compute trending deltas (7d/30d/90d)
       await this.computeTrending();
 
-      // Step 4: Generate markdown files
-      await this.generateMarkdown();
-
-      // Step 5: Rebuild static site
+      // Step 4: Rebuild static site
       await this.rebuildStaticSite();
 
-      // Step 6: Deploy to GitHub Pages
+      // Step 5: Deploy to GitHub Pages (markdown is generated inside, after rsync)
       await this.deployStaticSite();
 
-      // Step 7: Auto-commit README.md to main so GitHub homepage stays fresh
+      // Step 6: Auto-commit README.md to main so GitHub homepage stays fresh
       await this.commitReadmeToMain();
 
       this.logger.log('Daily pipeline completed successfully');

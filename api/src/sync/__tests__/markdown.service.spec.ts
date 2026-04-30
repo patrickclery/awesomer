@@ -302,9 +302,9 @@ beforeEach(async () => {
 
   // Mock the GitHub API fetch that generateHomepage() tries to make so tests
   // are deterministic in offline environments
-  global.fetch = jest.fn().mockResolvedValue({
-    ok: false,
-  }) as any;
+  global.fetch = jest
+    .fn<() => Promise<{ ok: boolean }>>()
+    .mockResolvedValue({ ok: false }) as unknown as typeof fetch;
 
   await service.generateAll(tmpDir);
 });
@@ -645,7 +645,9 @@ describe('D-12: cleanupOldFiles preserves README.md and subdirectories', () => {
       const freshMockPrisma = buildMockPrisma();
       const freshService = new MarkdownService(freshMockPrisma as unknown as PrismaService);
 
-      global.fetch = jest.fn().mockResolvedValue({ ok: false }) as any;
+      global.fetch = jest
+        .fn<() => Promise<{ ok: boolean }>>()
+        .mockResolvedValue({ ok: false }) as unknown as typeof fetch;
       await freshService.generateAll(cleanupTmpDir);
 
       // awesome-go.md should be removed

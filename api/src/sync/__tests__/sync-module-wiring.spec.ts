@@ -54,7 +54,9 @@ describe('MH-B: SyncService.generateMarkdown() delegates to MarkdownService', ()
     const mockPrisma = {} as unknown as PrismaService;
 
     // Build a MarkdownService stub with a spy on generateAll
-    const generateAllSpy = jest.fn().mockResolvedValue(['README.md']);
+    const generateAllSpy = jest
+      .fn<(outputDir?: string) => Promise<string[]>>()
+      .mockResolvedValue(['README.md']);
 
     const mockMarkdown = {
       generateAll: generateAllSpy,
@@ -81,7 +83,9 @@ describe('MH-B: SyncService.generateMarkdown() delegates to MarkdownService', ()
 
   it('generateMarkdown() passes through the outputDir argument to generateAll()', async () => {
     const mockPrisma = {} as unknown as PrismaService;
-    const generateAllSpy = jest.fn().mockResolvedValue([]);
+    const generateAllSpy = jest
+      .fn<(outputDir?: string) => Promise<string[]>>()
+      .mockResolvedValue([]);
     const mockMarkdown = { generateAll: generateAllSpy } as unknown as MarkdownService;
 
     const service = new SyncService(
