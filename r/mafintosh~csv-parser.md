@@ -1,0 +1,18 @@
+# mafintosh/csv-parser
+
+> Streaming csv parser inspired by binary-csv that aims to be faster than everyone else
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/mafintosh/csv-parser) | [Live site ↗](https://patrickclery.com/awesomer/r/mafintosh~csv-parser/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,494 | -1 | +0 | +2 | 2026-04-07 |
+
+## Found In
+
+- [awesome-nodejs](../l/nodejs.md) / Packages
+
+---
+*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mafintosh~csv-parser/)*

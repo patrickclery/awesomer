@@ -1,0 +1,18 @@
+# sindresorhus/conf
+
+> Simple config handling for your app or module
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/sindresorhus/conf) | [Live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~conf/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,337 | +0 | +2 | +5 | 2026-03-11 |
+
+## Found In
+
+- [awesome-nodejs](../l/nodejs.md) / Packages
+
+---
+*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~conf/)*
