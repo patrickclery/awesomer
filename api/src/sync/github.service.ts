@@ -2,7 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Octokit } from 'octokit';
 import { throttling } from '@octokit/plugin-throttling';
-import { MAX_STARGAZER_PAGES } from '../common/constants.js';
+import { MAX_STARGAZER_PAGES, STARGAZER_BACKFILL_DAYS } from '../common/constants.js';
 
 interface RepoStats {
   stars: number;
@@ -133,66 +133,96 @@ export class GithubService {
   }
 
   /**
-   * Fetch complete stargazer history for a repo via the REST API.
+   * Fetch stargazer history via GraphQL with `orderBy: STARRED_AT DESC`,
+   * paginating newest-first until the oldest stargazer in the batch crosses
+   * STARGAZER_BACKFILL_DAYS.
    *
-   * Uses the `application/vnd.github.star+json` media type to get `starred_at`
-   * timestamps for each stargazer. Paginates through all pages (100 per page,
-   * max 400 pages = 40,000 stars) and aggregates by day into cumulative counts.
+   * Why GraphQL instead of REST: GitHub's REST stargazers endpoint hard-caps
+   * at 400 pages (40,000 stargazers). pages 401+ return HTTP 422 and
+   * `Link: rel="last"` reports 400 even for repos with millions of
+   * stargazers, so the oldest 40k is the only data REST exposes — useless
+   * for recent-window trending on big repos. GraphQL with DESC ordering
+   * lets us walk newest→oldest and stop once we've covered the trending
+   * window, which works uniformly for repos of every size.
    *
-   * The result is 100% accurate: unstars are excluded (unstarred users aren't
-   * in the response), so the total matches GitHub's reported star count exactly.
+   * Cumulative anchoring: we compute cumulative counts so the newest date
+   * in the result equals the live `totalCount`, which keeps trending deltas
+   * accurate even when older history is missing.
    */
   async fetchStargazersHistory(
     owner: string,
     name: string,
   ): Promise<StargazersHistoryResult | null> {
     const dailyDeltas = new Map<string, number>();
-    let page = 1;
     let totalStargazers = 0;
-    let truncated = false;
+    let totalCount = 0;
+    let cursor: string | null = null;
+    let oldestDate: string | null = null;
+    let pagesFetched = 0;
+
+    const stopBefore = new Date();
+    stopBefore.setUTCDate(stopBefore.getUTCDate() - STARGAZER_BACKFILL_DAYS);
+    const stopBeforeISO = stopBefore.toISOString().slice(0, 10);
 
     try {
-      while (page <= MAX_STARGAZER_PAGES) {
-        const response = await this.octokit.request(
-          'GET /repos/{owner}/{repo}/stargazers',
-          {
-            owner,
-            repo: name,
-            per_page: 100,
-            page,
-            headers: {
-              accept: 'application/vnd.github.star+json',
-            },
-          },
-        );
+      while (pagesFetched < MAX_STARGAZER_PAGES) {
+        const after = cursor ? `, after: "${cursor}"` : '';
+        const query = `query {
+          repository(owner: "${owner}", name: "${name}") {
+            stargazers(first: 100${after}, orderBy: { field: STARRED_AT, direction: DESC }) {
+              totalCount
+              edges { starredAt }
+              pageInfo { hasNextPage endCursor }
+            }
+          }
+        }`;
 
-        const stargazers = response.data as Array<{ starred_at: string; user: unknown }>;
-        if (stargazers.length === 0) break;
+        const result: {
+          repository: {
+            stargazers: {
+              totalCount: number;
+              edges: Array<{ starredAt: string }>;
+              pageInfo: { hasNextPage: boolean; endCursor: string | null };
+            };
+          } | null;
+        } = await this.octokit.graphql(query);
 
-        for (const sg of stargazers) {
-          const date = sg.starred_at.slice(0, 10); // YYYY-MM-DD
+        if (!result.repository) return null;
+
+        const sg = result.repository.stargazers;
+        totalCount = sg.totalCount;
+        pagesFetched++;
+
+        if (sg.edges.length === 0) break;
+
+        for (const edge of sg.edges) {
+          const date = edge.starredAt.slice(0, 10);
           dailyDeltas.set(date, (dailyDeltas.get(date) ?? 0) + 1);
           totalStargazers++;
+          oldestDate = date;
         }
 
-        if (stargazers.length < 100) break;
-
-        if (page === MAX_STARGAZER_PAGES) {
-          truncated = true;
-          this.logger.warn(
-            `${owner}/${name}: hit ${MAX_STARGAZER_PAGES}-page limit (${totalStargazers} stargazers). History is truncated.`,
-          );
-        }
-
-        page++;
+        // Stop once we've covered the trending window
+        if (oldestDate && oldestDate < stopBeforeISO) break;
+        if (!sg.pageInfo.hasNextPage) break;
+        cursor = sg.pageInfo.endCursor;
       }
 
       if (totalStargazers === 0) return null;
 
-      // Convert daily deltas to cumulative counts
+      const truncated = totalStargazers < totalCount && pagesFetched >= MAX_STARGAZER_PAGES;
+
+      if (truncated) {
+        this.logger.warn(
+          `${owner}/${name}: hit ${MAX_STARGAZER_PAGES}-page cap after ${totalStargazers}/${totalCount} stargazers. Oldest fetched: ${oldestDate}.`,
+        );
+      }
+
+      // Build cumulative counts. Anchor the newest date to totalCount so
+      // trending against the live snapshot stays accurate.
       const sortedDates = [...dailyDeltas.keys()].sort();
       const dailyCumulativeCounts = new Map<string, number>();
-      let cumulative = 0;
+      let cumulative = totalCount - totalStargazers;
 
       for (const date of sortedDates) {
         cumulative += dailyDeltas.get(date)!;
@@ -200,20 +230,18 @@ export class GithubService {
       }
 
       this.logger.debug(
-        `${owner}/${name}: ${totalStargazers} stargazers across ${dailyCumulativeCounts.size} days (${page - 1} pages)`,
+        `${owner}/${name}: ${totalStargazers}/${totalCount} stargazers across ${dailyCumulativeCounts.size} days (${pagesFetched} GraphQL pages, oldest=${oldestDate})`,
       );
 
       return { dailyCumulativeCounts, totalStargazers, truncated };
     } catch (error: unknown) {
-      const status =
-        error instanceof Error && 'status' in error
-          ? (error as { status: number }).status
-          : undefined;
-      if (status === 404) {
+      const message = error instanceof Error ? error.message : String(error);
+      // GraphQL 404 surfaces as a "Could not resolve to a Repository" error
+      if (/Could not resolve to a Repository|NOT_FOUND/i.test(message)) {
         this.logger.debug(`Repo not found: ${owner}/${name}`);
         return null;
       }
-      this.logger.error(`Failed to fetch stargazers for ${owner}/${name}: ${error}`);
+      this.logger.error(`Failed to fetch stargazers for ${owner}/${name}: ${message}`);
       return null;
     }
   }

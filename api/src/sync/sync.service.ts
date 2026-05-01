@@ -759,19 +759,21 @@ export class SyncService {
   }
 
   /**
-   * Commit the regenerated README.md to main so the GitHub repo homepage
-   * stays in sync with live data. Uses an isolated worktree based on
+   * Commit the regenerated README.md AND the per-list (l/) and per-repo (r/)
+   * markdown trees to main so the GitHub repo homepage stays in sync and
+   * every link in the README resolves. Uses an isolated worktree based on
    * origin/main to avoid touching the user's working tree or local main.
    * Non-fatal: a failure here doesn't fail the pipeline (deploy already
    * succeeded; the live site is fresh — only the GitHub repo homepage lags).
    */
   async commitReadmeToMain() {
-    this.logger.log('Step 7: Committing README.md to main...');
+    this.logger.log('Step 7: Committing markdown to main...');
     const { execSync } = await import('child_process');
     const fs = await import('fs');
     const path = await import('path');
     const projectRoot = path.resolve(process.cwd(), '..');
     const sourceReadme = path.join(projectRoot, 'README.md');
+    const sourceMarkdownDir = path.join(projectRoot, 'static', 'awesomer');
     const worktreeDir = '/tmp/awesomer-readme-worktree';
 
     try {
@@ -786,26 +788,44 @@ export class SyncService {
       // Copy the freshly regenerated README.md into the worktree
       fs.copyFileSync(sourceReadme, path.join(worktreeDir, 'README.md'));
 
-      // Skip if README is unchanged from origin/main
-      try {
-        execSync('git diff --quiet README.md', { cwd: worktreeDir });
-        this.logger.log('README.md unchanged from origin/main; skipping auto-commit');
-        return;
-      } catch { /* changed; proceed */ }
+      // Mirror the l/ and r/ markdown trees from static/awesomer/.
+      // --delete removes files that no longer exist in source (e.g., archived lists),
+      // keeping main in sync with the current generation output.
+      for (const subdir of ['l', 'r']) {
+        const src = path.join(sourceMarkdownDir, subdir);
+        if (!fs.existsSync(src)) continue;
+        execSync(
+          `rsync -a --delete "${src}/" "${path.join(worktreeDir, subdir)}/"`,
+          { cwd: projectRoot, timeout: 120_000 },
+        );
+      }
 
+      // Stage everything we manage. README + l/ + r/ only — never anything else.
+      execSync('git add -A README.md l r', { cwd: worktreeDir, stdio: 'pipe' });
+
+      // Skip if nothing changed
+      const staged = execSync('git status --porcelain', { cwd: worktreeDir })
+        .toString()
+        .trim();
+      if (!staged) {
+        this.logger.log('Markdown unchanged from origin/main; skipping auto-commit');
+        return;
+      }
+
+      const fileCount = staged.split('\n').length;
       const date = new Date().toISOString().slice(0, 10);
       execSync(
-        `git commit -m "chore: auto-update README (daily sync ${date})" -- README.md`,
+        `git commit -m "chore: auto-update markdown (daily sync ${date}, ${fileCount} files)"`,
         { cwd: worktreeDir, stdio: 'inherit', timeout: 60_000 },
       );
       execSync('git push origin HEAD:main', {
         cwd: worktreeDir,
         stdio: 'inherit',
-        timeout: 120_000,
+        timeout: 300_000,
       });
-      this.logger.log('README.md auto-committed and pushed to main');
+      this.logger.log(`Markdown auto-committed and pushed to main (${fileCount} files)`);
     } catch (error) {
-      this.logger.warn(`README auto-commit failed (non-fatal): ${error}`);
+      this.logger.warn(`Markdown auto-commit failed (non-fatal): ${error}`);
     } finally {
       try { execSync(`git worktree remove --force "${worktreeDir}"`, { cwd: projectRoot, stdio: 'pipe' }); } catch { /* ignore */ }
     }
