@@ -1,12 +1,14 @@
 import {
   getAwesomeList,
   getTrendingByList,
+  getAllReposByList,
 } from '@/lib/api';
 import { getStaticLists } from '@/lib/static-data';
 import { ListInfoCard } from '@/components/list-info-card';
 import { RepoHeroCard } from '@/components/repo-hero-card';
 import { RepoMiniCard } from '@/components/repo-mini-card';
 import { SidebarRepoList } from '@/components/sidebar-repo-list';
+import { AllReposSection } from '@/components/all-repos-section';
 import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
@@ -21,27 +23,55 @@ interface Props {
 export default async function VerticalPage({ params }: Props) {
   const { slug } = await params;
 
-  let list;
-  try {
-    const response = await getAwesomeList(slug);
-    list = response.data;
-  } catch {
+  // Parallelize three independent fetches; preserve current per-fetch error semantics.
+  const [listResult, trendingResult, allReposResult] = await Promise.allSettled([
+    getAwesomeList(slug),
+    getTrendingByList(slug, { period: '7d', limit: 30 }),
+    getAllReposByList(slug),
+  ]);
+
+  if (listResult.status !== 'fulfilled') {
     notFound();
   }
+  const list = listResult.value.data;
 
-  let trending7d: Awaited<ReturnType<typeof getTrendingByList>>['data'] = [];
-
-  try {
-    const t7 = await getTrendingByList(slug, { period: '7d', limit: 30 });
-    trending7d = t7.data;
-  } catch {
-    // Data not available yet
-  }
+  const trending7d =
+    trendingResult.status === 'fulfilled' ? trendingResult.value.data : [];
+  const allItems =
+    allReposResult.status === 'fulfilled' ? allReposResult.value.data : [];
 
   const heroRepo = trending7d[0];
   const gridRepos = trending7d.slice(1, 5);
   const sidebarRepos = trending7d.slice(5, 14);
-  const hasMore = sidebarRepos.length > 0;
+
+  // Group items by category (migrated verbatim from /all/page.tsx lines 35-52).
+  const itemsByCategory = new Map<number, typeof allItems>();
+  for (const item of allItems) {
+    const catId = item.category.id;
+    if (!itemsByCategory.has(catId)) {
+      itemsByCategory.set(catId, []);
+    }
+    itemsByCategory.get(catId)!.push(item);
+  }
+
+  const categoryTotalStars = new Map<number, number>();
+  for (const [catId, items] of itemsByCategory) {
+    categoryTotalStars.set(
+      catId,
+      items.reduce((sum, item) => sum + (item.stars ?? 0), 0),
+    );
+  }
+
+  const sortedCategories = [...(list.categories || [])]
+    .filter(
+      (cat) =>
+        cat.slug != null && (itemsByCategory.get(cat.id)?.length ?? 0) > 0,
+    )
+    .sort(
+      (a, b) =>
+        (categoryTotalStars.get(b.id) ?? 0) -
+        (categoryTotalStars.get(a.id) ?? 0),
+    );
 
   return (
     <div>
@@ -58,21 +88,16 @@ export default async function VerticalPage({ params }: Props) {
         }}
       />
 
-      {/* Seven-day trending */}
+      {/* Seven-day trending grid (Phase 17 — preserved) */}
       {trending7d.length > 0 ? (
         <div className="stagger">
-          {/* Main content: 2/3 left (hero + #2-5) | 1/3 right (#6-20 sidebar) */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {/* Left 2/3: Hero + mini cards */}
             <div className="lg:col-span-2">
-              {/* Hero #1 -- full width of left column */}
               {heroRepo && (
                 <div className="mb-4">
                   <RepoHeroCard repo={heroRepo} />
                 </div>
               )}
-
-              {/* #2-5 mini cards stacked */}
               {gridRepos.length > 0 && (
                 <div className="flex flex-col gap-2 stagger">
                   {gridRepos.map((repo, i) => (
@@ -81,15 +106,9 @@ export default async function VerticalPage({ params }: Props) {
                 </div>
               )}
             </div>
-
-            {/* Right 1/3: Sidebar #6-30 */}
             {sidebarRepos.length > 0 && (
               <div className="lg:col-span-1">
-                <SidebarRepoList
-                  repos={sidebarRepos}
-                  listSlug={slug}
-                  hasMore={hasMore}
-                />
+                <SidebarRepoList repos={sidebarRepos} />
               </div>
             )}
           </div>
@@ -98,6 +117,26 @@ export default async function VerticalPage({ params }: Props) {
         <div className="py-8 text-muted text-sm">
           <span className="text-danger">[ERR]</span> no trending data available. check the API connection.
         </div>
+      )}
+
+      {/* Phase 27: Inlined AllReposSection (full-width sibling, OUTSIDE .stagger) */}
+      {sortedCategories.length > 0 ? (
+        <section id="all-repos" className="mt-12">
+          <AllReposSection
+            items={allItems}
+            categories={sortedCategories.map((cat) => ({
+              id: cat.id,
+              name: cat.name,
+              slug: cat.slug,
+              count: itemsByCategory.get(cat.id)?.length ?? 0,
+            }))}
+            listSlug={slug}
+          />
+        </section>
+      ) : (
+        <section id="all-repos" className="mt-12 py-8 text-muted text-sm">
+          <span className="text-danger">[ERR]</span> no repos available for this list.
+        </section>
       )}
     </div>
   );

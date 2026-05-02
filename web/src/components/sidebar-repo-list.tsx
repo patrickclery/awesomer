@@ -15,8 +15,6 @@ interface SidebarRepo {
 
 interface SidebarRepoListProps {
   repos: SidebarRepo[];
-  listSlug: string;
-  hasMore: boolean;
 }
 
 function formatStars(value: number): string {
@@ -25,7 +23,7 @@ function formatStars(value: number): string {
   return value.toLocaleString();
 }
 
-export function SidebarRepoList({ repos, listSlug, hasMore }: SidebarRepoListProps) {
+export function SidebarRepoList({ repos }: SidebarRepoListProps) {
   return (
     <div>
       <div className="flex flex-col gap-0.5">
