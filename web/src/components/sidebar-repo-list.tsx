@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Star } from 'lucide-react';
-import { repoPath, listAllPath } from '@/lib/routes';
+import { repoPath } from '@/lib/routes';
 import { GitHubIcon } from '@/components/github-icon';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
@@ -70,14 +70,6 @@ export function SidebarRepoList({ repos, listSlug, hasMore }: SidebarRepoListPro
             </div>
           </Link>
         ))}
-        {hasMore && (
-          <Link
-            href={listAllPath(listSlug)}
-            className="text-xs text-muted hover:text-accent transition-colors text-center py-2 mt-1"
-          >
-            view all &rarr;
-          </Link>
-        )}
       </div>
     </div>
   );
