@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Star } from 'lucide-react';
 import { repoPath } from '@/lib/routes';
-import { GitHubIcon } from '@/components/github-icon';
+import { ExternalGitHubLink } from '@/components/external-github-link';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
 
@@ -28,10 +28,9 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
     <div>
       <div className="flex flex-col gap-0.5">
         {repos.map((repo, i) => (
-          <Link
+          <div
             key={repo.id}
-            href={repoPath(repo.githubRepo)}
-            className="block card-tiny px-2.5 py-2 group relative overflow-hidden"
+            className="card-tiny px-2.5 py-2 group relative overflow-hidden"
           >
             {/* Rank watermark */}
             <span className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
@@ -41,9 +40,14 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
             <div className="flex items-center gap-2 min-w-0 relative">
               <OwnerAvatar owner={repo.githubRepo.split('/')[0]} size={20} />
               <div className="flex items-baseline gap-1.5 min-w-0 flex-1">
-                <span className="text-xs font-bold group-hover:text-accent transition-colors truncate shrink-0">
-                  {repo.githubRepo.split('/')[1]}
-                </span>
+                <Link
+                  href={repoPath(repo.githubRepo)}
+                  className="truncate shrink-0 cursor-pointer rounded focus-visible:outline-2 focus-visible:outline-accent"
+                >
+                  <span className="text-xs font-bold group-hover:text-accent transition-colors">
+                    {repo.githubRepo.split('/')[1]}
+                  </span>
+                </Link>
                 {cleanDescription(repo.description) && (
                   <span className="description text-[11px] text-muted truncate min-w-0">
                     {cleanDescription(repo.description)}
@@ -64,9 +68,13 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
                   <span className="font-bold text-foreground">{formatStars(repo.stars)}</span>
                 </span>
               )}
-              <GitHubIcon size={11} className="text-muted group-hover:text-foreground transition-colors" />
+              <ExternalGitHubLink
+                githubRepo={repo.githubRepo}
+                size={11}
+                label={`${repo.githubRepo.split('/')[1]} on GitHub`}
+              />
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>
