@@ -3,7 +3,7 @@ import { getTrendingLists } from '@/lib/api';
 import type { TrendingList } from '@/lib/api';
 import { listPath } from '@/lib/routes';
 import { Star } from 'lucide-react';
-import { GitHubIcon } from '@/components/github-icon';
+import { ExternalGitHubLink } from '@/components/external-github-link';
 import { HomeInfoCard } from '@/components/home-info-card';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
@@ -31,45 +31,52 @@ function HeroCard({ list }: { list: TrendingList }) {
   const description = cleanDescription(list.description);
 
   return (
-    <Link href={listPath(list.slug)} className="block cursor-pointer">
-      <div className="card-featured card-pulse p-4 sm:p-5 h-full group relative flex flex-col">
-        {/* Watermark rank */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <span className="absolute -right-2 -bottom-6 text-[10rem] font-black font-mono text-accent/[0.07] select-none leading-none">1</span>
-        </div>
-        {/* Hottest list starburst badge */}
-        <div className="starburst">
-          <span className="starburst-text">
-            HOTTEST
-            <span className="starburst-sub">this week</span>
-          </span>
-        </div>
-        <div className="flex items-center gap-3 mb-2">
-          <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={40} />
-          <h2 className="text-2xl sm:text-3xl font-bold gradient-text transition-opacity group-hover:opacity-90">
+    <div className="card-featured card-pulse p-4 sm:p-5 h-full group relative flex flex-col">
+      {/* Watermark rank */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <span className="absolute -right-2 -bottom-6 text-[10rem] font-black font-mono text-accent/[0.07] select-none leading-none">1</span>
+      </div>
+      {/* Hottest list starburst badge */}
+      <div className="starburst">
+        <span className="starburst-text">
+          HOTTEST
+          <span className="starburst-sub">this week</span>
+        </span>
+      </div>
+      <div className="flex items-center gap-3 mb-2">
+        <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={40} />
+        <Link
+          href={listPath(list.slug)}
+          className="cursor-pointer rounded focus-visible:outline-2 focus-visible:outline-accent"
+        >
+          <h2 className="inline text-2xl sm:text-3xl font-bold gradient-text transition-opacity group-hover:opacity-90">
             {displayName}
           </h2>
-        </div>
-        {description && (
-          <p className="description text-muted text-sm mb-3 max-w-2xl">{description}</p>
-        )}
-        {/* Metric row: delta · stars · github */}
-        <div className="flex items-center gap-4 text-sm">
-          {list.stars7d > 0 && (
-            <span className="font-bold text-success">
-              +{list.stars7d.toLocaleString()}
-            </span>
-          )}
-          <span className="inline-flex items-center gap-1.5 text-muted">
-            <Star className="w-4 h-4 text-accent" aria-hidden="true" />
-            <span className="font-bold text-foreground">
-              {list.totalStars > 0 ? formatStars(list.totalStars) : '—'}
-            </span>
-          </span>
-          <GitHubIcon size={16} className="text-muted group-hover:text-foreground transition-colors" />
-        </div>
+        </Link>
       </div>
-    </Link>
+      {description && (
+        <p className="description text-muted text-sm mb-3 max-w-2xl">{description}</p>
+      )}
+      {/* Metric row: delta · stars · github */}
+      <div className="flex items-center gap-4 text-sm">
+        {list.stars7d > 0 && (
+          <span className="font-bold text-success">
+            +{list.stars7d.toLocaleString()}
+          </span>
+        )}
+        <span className="inline-flex items-center gap-1.5 text-muted">
+          <Star className="w-4 h-4 text-accent" aria-hidden="true" />
+          <span className="font-bold text-foreground">
+            {list.totalStars > 0 ? formatStars(list.totalStars) : '—'}
+          </span>
+        </span>
+        <ExternalGitHubLink
+          githubRepo={list.githubRepo}
+          size={16}
+          label={`${list.name} on GitHub`}
+        />
+      </div>
+    </div>
   );
 }
 
@@ -78,42 +85,49 @@ function MiniCard({ list, rank }: { list: TrendingList; rank: number }) {
   const description = cleanDescription(list.description);
 
   return (
-    <Link href={listPath(list.slug)} className="block cursor-pointer flex-1">
-      <div className="card-mini p-3 sm:p-4 h-full group relative overflow-hidden">
-        {/* Watermark rank number */}
-        <span className="absolute -right-1 -bottom-3 text-7xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
-          {rank}
-        </span>
-        <div className="relative">
-          <div className="flex items-center gap-2 min-w-0">
-            <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={24} />
-            <div className="flex-1 min-w-0">
-              <h3 className="text-sm font-bold group-hover:text-accent transition-colors truncate">
+    <div className="card-mini p-3 sm:p-4 h-full group relative overflow-hidden flex-1">
+      {/* Watermark rank number */}
+      <span className="absolute -right-1 -bottom-3 text-7xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
+        {rank}
+      </span>
+      <div className="relative">
+        <div className="flex items-center gap-2 min-w-0">
+          <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={24} />
+          <div className="flex-1 min-w-0">
+            <Link
+              href={listPath(list.slug)}
+              className="cursor-pointer rounded focus-visible:outline-2 focus-visible:outline-accent"
+            >
+              <h3 className="inline text-sm font-bold group-hover:text-accent transition-colors">
                 {displayName}
               </h3>
-              {description && (
-                <p className="description text-muted text-xs mt-0.5">{description}</p>
-              )}
-            </div>
-          </div>
-          {/* Bottom metric row: delta · stars · github */}
-          <div className="flex items-center gap-3 mt-2 text-xs">
-            {list.stars7d > 0 && (
-              <span className="font-bold text-success">
-                +{list.stars7d.toLocaleString()}
-              </span>
+            </Link>
+            {description && (
+              <p className="description text-muted text-xs mt-0.5">{description}</p>
             )}
-            <span className="inline-flex items-center gap-1 text-muted">
-              <Star className="w-3 h-3 text-accent" aria-hidden="true" />
-              <span className="font-bold text-foreground">
-                {list.totalStars > 0 ? formatStars(list.totalStars) : '—'}
-              </span>
-            </span>
-            <GitHubIcon size={12} className="text-muted group-hover:text-foreground transition-colors" />
           </div>
         </div>
+        {/* Bottom metric row: delta · stars · github */}
+        <div className="flex items-center gap-3 mt-2 text-xs">
+          {list.stars7d > 0 && (
+            <span className="font-bold text-success">
+              +{list.stars7d.toLocaleString()}
+            </span>
+          )}
+          <span className="inline-flex items-center gap-1 text-muted">
+            <Star className="w-3 h-3 text-accent" aria-hidden="true" />
+            <span className="font-bold text-foreground">
+              {list.totalStars > 0 ? formatStars(list.totalStars) : '—'}
+            </span>
+          </span>
+          <ExternalGitHubLink
+            githubRepo={list.githubRepo}
+            size={12}
+            label={`${list.name} on GitHub`}
+          />
+        </div>
       </div>
-    </Link>
+    </div>
   );
 }
 
@@ -200,10 +214,9 @@ export default async function HomePage() {
               <div className="lg:col-span-1">
                 <div className="flex flex-col gap-0.5">
                   {sidebarLists.map((list, i) => (
-                    <Link
+                    <div
                       key={list.id}
-                      href={listPath(list.slug)}
-                      className="block card-tiny px-2.5 py-2 group relative overflow-hidden"
+                      className="card-tiny px-2.5 py-2 group relative overflow-hidden"
                     >
                       {/* Rank watermark */}
                       <span className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
@@ -213,9 +226,14 @@ export default async function HomePage() {
                       <div className="flex items-center gap-2 min-w-0 relative">
                         <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={20} />
                         <div className="flex items-baseline gap-1.5 min-w-0 flex-1">
-                          <span className="text-xs font-bold group-hover:text-accent transition-colors truncate shrink-0">
-                            {stripAwesomePrefix(list.name)}
-                          </span>
+                          <Link
+                            href={listPath(list.slug)}
+                            className="truncate shrink-0 cursor-pointer rounded focus-visible:outline-2 focus-visible:outline-accent"
+                          >
+                            <span className="text-xs font-bold group-hover:text-accent transition-colors">
+                              {stripAwesomePrefix(list.name)}
+                            </span>
+                          </Link>
                           {cleanDescription(list.description) && (
                             <span className="description text-[11px] text-muted truncate min-w-0">
                               {cleanDescription(list.description)}
@@ -236,9 +254,13 @@ export default async function HomePage() {
                             <span className="font-bold text-foreground">{formatStars(list.totalStars)}</span>
                           </span>
                         )}
-                        <GitHubIcon size={11} className="text-muted group-hover:text-foreground transition-colors" />
+                        <ExternalGitHubLink
+                          githubRepo={list.githubRepo}
+                          size={11}
+                          label={`${list.name} on GitHub`}
+                        />
                       </div>
-                    </Link>
+                    </div>
                   ))}
                   {hasMore && (
                     <Link
