@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 43,214 | +49 | +156 | +266 | 2026-04-29 |
+| 43,254 | +19 | +145 | +274 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~spark/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~spark/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,232 | +8 |  |  | 2025-09-19 |
+| 10,245 | +6 | +24 | +165 | 2025-09-19 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/othersideai~self-operating-computer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/othersideai~self-operating-computer/)*

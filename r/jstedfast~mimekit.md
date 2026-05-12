@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,994 | +3 | +11 | +32 | 2026-04-21 |
+| 1,993 | -1 | +8 | +26 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Library
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jstedfast~mimekit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jstedfast~mimekit/)*

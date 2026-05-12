@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,445 | +6 | +22 |  | 2026-04-27 |
+| 9,450 | +2 | +15 | +70 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/coreos~flannel/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coreos~flannel/)*

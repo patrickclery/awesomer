@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 134 | +6 | +33 | +94 | 2026-04-13 |
+| 135 | +0 | +20 | +94 | 2026-04-13 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/undeadlist~claude-code-agents/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/undeadlist~claude-code-agents/)*

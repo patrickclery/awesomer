@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 319 | +2 | +4 | +6 | 2025-10-21 |
+| 321 | +2 | +7 | +7 | 2025-10-21 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/trelby~trelby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trelby~trelby/)*

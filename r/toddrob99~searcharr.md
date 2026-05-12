@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 299 | -1 | +1 | +2 | 2026-04-08 |
+| 298 | +0 | -1 | +2 | 2026-04-08 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Bots
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/toddrob99~searcharr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/toddrob99~searcharr/)*

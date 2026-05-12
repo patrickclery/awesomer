@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,200 | -1 | -5 | -2 | 2026-04-29 |
+| 3,198 | -1 | -5 | -4 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/remult~remult/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/remult~remult/)*

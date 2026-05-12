@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,228 | +1 | +10 | +4 | 2026-04-29 |
+| 1,228 | +0 | +8 | +13 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fi3ework~vite-plugin-checker/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fi3ework~vite-plugin-checker/)*

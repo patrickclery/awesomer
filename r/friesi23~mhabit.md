@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,314 | +10 | +47 | +80 | 2026-04-28 |
+| 1,362 | +6 | +83 | +115 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/friesi23~mhabit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/friesi23~mhabit/)*

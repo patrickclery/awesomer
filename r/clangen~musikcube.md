@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,761 | +12 | +32 | +49 | 2026-03-23 |
+| 4,762 | +0 | +23 | +46 | 2026-03-23 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/clangen~musikcube/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clangen~musikcube/)*

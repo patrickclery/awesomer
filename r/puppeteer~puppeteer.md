@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 94,222 | +62 | +247 | +490 | 2026-04-29 |
+| 94,297 | +64 | +215 | +521 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/puppeteer~puppeteer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/puppeteer~puppeteer/)*

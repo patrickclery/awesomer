@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/textacular~textacular/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/textacular~textacular/)*

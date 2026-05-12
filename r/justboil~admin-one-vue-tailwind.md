@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,463 | +1 | +6 | +8 | 2025-11-27 |
+| 2,463 | +1 | +5 | +7 | 2025-11-27 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / UI libraries, components & templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/justboil~admin-one-vue-tailwind/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/justboil~admin-one-vue-tailwind/)*

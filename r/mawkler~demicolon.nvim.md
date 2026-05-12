@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 129 | +0 | +3 | +8 | 2026-01-25 |
+| 130 | +1 | +3 | +7 | 2026-01-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Keybinding
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mawkler~demicolon.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mawkler~demicolon.nvim/)*

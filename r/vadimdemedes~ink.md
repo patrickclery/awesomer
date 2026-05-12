@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 38,082 | +193 | +2,238 | +2,641 | 2026-04-17 |
+| 38,293 | +119 | +745 | +2,712 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vadimdemedes~ink/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vadimdemedes~ink/)*

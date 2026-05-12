@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,464 | +38 |  |  | 2026-04-29 |
+| 21,506 | +22 | +119 | +387 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📈 9. Evaluation, Benchmarks & Datasets
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~datasets/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~datasets/)*

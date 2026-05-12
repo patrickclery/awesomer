@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 193 | +0 | +1 | +1 | 2026-04-03 |
+| 193 | +0 | +1 | +1 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jamieweavis~streaker/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jamieweavis~streaker/)*

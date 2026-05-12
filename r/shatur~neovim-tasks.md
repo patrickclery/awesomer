@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Code Runner
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shatur~neovim-tasks/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shatur~neovim-tasks/)*

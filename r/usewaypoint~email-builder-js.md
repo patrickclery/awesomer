@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,641 | +7 | +29 | +111 | 2026-02-09 |
+| 1,652 | +8 | +30 | +106 | 2026-02-09 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/usewaypoint~email-builder-js/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/usewaypoint~email-builder-js/)*

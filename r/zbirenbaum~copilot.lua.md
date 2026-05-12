@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,067 | +9 | +40 | +73 | 2026-04-29 |
+| 4,072 | +7 | +25 | +75 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Completion
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zbirenbaum~copilot.lua/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zbirenbaum~copilot.lua/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,575 | +16 | +89 |  | 2026-04-28 |
+| 15,591 | +14 | +67 | +277 | 2026-04-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/iterative~dvc/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/iterative~dvc/)*

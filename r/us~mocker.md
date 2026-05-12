@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 136 | +25 |  |  | 2026-04-25 |
+| 177 | +25 | +74 |  | 2026-05-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mac](../l/mac.md) / Virtualization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/us~mocker/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/us~mocker/)*

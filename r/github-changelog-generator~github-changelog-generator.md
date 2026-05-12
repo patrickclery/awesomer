@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,520 | -4 | -7 | +0 | 2026-03-18 |
+| 7,524 | +0 | -2 | +2 | 2026-03-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Documentation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/github-changelog-generator~github-changelog-generator/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/github-changelog-generator~github-changelog-generator/)*

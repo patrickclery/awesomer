@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,115 | +0 |  |  | 2026-04-29 |
+| 4,115 | +1 | +1 | +40 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / RSS
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/swanson~stringer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/swanson~stringer/)*

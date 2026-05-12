@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,714 | +3 | +2 |  | 2025-07-21 |
+| 3,717 | +3 | +10 | +34 | 2025-07-21 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cheesecakeufo~komorebi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cheesecakeufo~komorebi/)*

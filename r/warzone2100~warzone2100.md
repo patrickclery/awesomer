@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,787 | +17 | +58 | +73 | 2026-04-29 |
+| 3,806 | +15 | +68 | +91 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/warzone2100~warzone2100/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/warzone2100~warzone2100/)*

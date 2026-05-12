@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,143 |  |  |  | 2026-03-12 |
+| 1,144 | +1 | +3 | +8 | 2026-03-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Feature Engineering & Data Preparation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-merlin~nvtabular/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-merlin~nvtabular/)*

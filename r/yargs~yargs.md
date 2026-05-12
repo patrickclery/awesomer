@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,480 | +9 | +15 | +24 | 2026-03-23 |
+| 11,481 | +1 | +15 | +24 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/yargs~yargs/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yargs~yargs/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,338 | +1 | +3 |  | 2026-04-29 |
+| 1,339 | +1 | +3 | +12 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/intel~scikit-learn-intelex/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/intel~scikit-learn-intelex/)*

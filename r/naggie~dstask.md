@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,158 | +1 | +10 | +19 | 2026-04-04 |
+| 1,162 | +1 | +8 | +20 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Applications
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/naggie~dstask/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/naggie~dstask/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,620 | -1 | +2 |  | 2025-11-14 |
+| 3,622 | +2 | +3 | +22 | 2025-11-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~scenic/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~scenic/)*

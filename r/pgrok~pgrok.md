@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,522 | +1 | +14 | +27 | 2026-04-05 |
+| 3,524 | +1 | +12 | +26 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pgrok~pgrok/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pgrok~pgrok/)*

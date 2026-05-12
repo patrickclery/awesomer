@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,967 |  |  |  | 2025-12-02 |
+| 2,971 | +1 | +13 | +54 | 2025-12-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Structured Outputs
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/eladlev~autoprompt/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eladlev~autoprompt/)*

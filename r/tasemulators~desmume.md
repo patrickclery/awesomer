@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,539 | +11 | +29 | +52 | 2026-04-26 |
+| 3,553 | +7 | +33 | +61 | 2026-04-26 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tasemulators~desmume/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tasemulators~desmume/)*

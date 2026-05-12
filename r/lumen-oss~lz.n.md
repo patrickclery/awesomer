@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 269 | +1 | +14 | +18 | 2026-04-26 |
+| 274 | +5 | +10 | +22 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lumen-oss~lz.n/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lumen-oss~lz.n/)*

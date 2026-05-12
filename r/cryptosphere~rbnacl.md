@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 988 | +0 | +1 |  | 2025-10-28 |
+| 987 | +0 | +0 |  | 2025-10-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Encryption
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cryptosphere~rbnacl/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cryptosphere~rbnacl/)*

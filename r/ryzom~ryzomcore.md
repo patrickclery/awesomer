@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 428 | +3 | +7 | +10 | 2026-04-28 |
+| 431 | +2 | +6 | +10 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ryzom~ryzomcore/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ryzom~ryzomcore/)*

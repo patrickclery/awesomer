@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,696 | +300 | +1,915 | +3,675 | 2026-04-29 |
+| 21,138 | +301 | +1,198 | +4,060 | 2026-05-11 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/promptfoo~promptfoo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/promptfoo~promptfoo/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,914 | +0 | +23 |  | 2026-04-28 |
+| 7,929 | +7 | +24 | +127 | 2026-05-04 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Multimedia and File Formats
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tomwright~dasel/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tomwright~dasel/)*

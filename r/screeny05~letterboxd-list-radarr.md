@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 485 | +1 | +8 | +10 | 2025-09-19 |
+| 491 | +2 | +12 | +10 | 2025-09-19 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/screeny05~letterboxd-list-radarr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/screeny05~letterboxd-list-radarr/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,497 | +7 | +9 | +29 | 2026-04-25 |
+| 8,500 | +1 | +14 | +26 | 2026-05-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mopidy~mopidy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mopidy~mopidy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,889 | -1 | +9 | +31 | 2026-02-26 |
+| 1,895 | +5 | +10 | +31 | 2026-02-26 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelaquilina~zsh-you-should-use/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelaquilina~zsh-you-should-use/)*

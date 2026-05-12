@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 106 | +0 | +1 | +1 | 2026-04-29 |
+| 107 | +1 | +1 | +1 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/silverwind~updates/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/silverwind~updates/)*

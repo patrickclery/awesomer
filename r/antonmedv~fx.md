@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,439 | +13 | +69 | +108 | 2026-03-28 |
+| 20,449 | +2 | +54 | +107 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/antonmedv~fx/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antonmedv~fx/)*

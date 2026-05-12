@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,623 | -2 | -6 |  | 2026-01-11 |
+| 1,623 | +0 | -3 | -5 | 2026-01-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pat~thinking-sphinx/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pat~thinking-sphinx/)*

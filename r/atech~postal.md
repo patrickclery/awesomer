@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,478 | +15 | +54 |  | 2026-04-28 |
+| 16,509 | +24 | +68 | +262 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Email
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/atech~postal/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/atech~postal/)*

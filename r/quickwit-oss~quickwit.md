@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,119 | +22 |  |  | 2026-04-28 |
+| 11,189 | +22 | +122 | +342 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/quickwit-oss~quickwit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/quickwit-oss~quickwit/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,804 | +25 |  |  | 2026-04-15 |
+| 8,824 | +13 | +90 | +325 | 2026-05-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/miurla~morphic/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/miurla~morphic/)*

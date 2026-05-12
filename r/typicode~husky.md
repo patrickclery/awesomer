@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,006 | +30 | +97 | +157 | 2026-03-19 |
+| 35,049 | +25 | +111 | +187 | 2026-03-19 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/typicode~husky/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/typicode~husky/)*

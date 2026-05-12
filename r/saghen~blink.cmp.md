@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,227 | +32 | +141 | +214 | 2026-04-29 |
+| 6,265 | +26 | +124 | +231 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Completion
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/saghen~blink.cmp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saghen~blink.cmp/)*

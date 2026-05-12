@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,280 | +5 | +44 | +78 | 2026-04-16 |
+| 13,315 | +17 | +57 | +101 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cheat~cheat/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cheat~cheat/)*

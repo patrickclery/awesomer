@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,692 | +147 |  |  | 2026-04-29 |
+| 20,907 | +139 | +599 | +2,005 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Interactive ML Apps & Notebooks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/marimo-team~marimo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marimo-team~marimo/)*

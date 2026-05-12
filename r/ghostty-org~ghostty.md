@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 52,168 | +816 | +3,010 | +4,894 | 2026-04-27 |
+| 54,259 | +817 | +3,859 | +6,619 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ghostty-org~ghostty/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ghostty-org~ghostty/)*

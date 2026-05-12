@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,966 | +7 | +7 | +17 | 2026-02-27 |
+| 3,970 | +5 | +10 | +15 | 2026-02-27 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zclzone~vue-naive-admin/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zclzone~vue-naive-admin/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 125 | +0 | +1 |  | 2026-04-19 |
+| 125 | +0 | +1 | +2 | 2026-04-19 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ptdewey~yankbank-nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ptdewey~yankbank-nvim/)*

@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Country Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dgilperez~validates_zipcode/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dgilperez~validates_zipcode/)*

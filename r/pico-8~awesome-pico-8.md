@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,005 | +9 | +17 | +25 | 2026-02-18 |
+| 3,011 | +3 | +21 | +28 | 2026-02-18 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pico-8~awesome-pico-8/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pico-8~awesome-pico-8/)*

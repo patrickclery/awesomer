@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,784 | -3 | +0 | +12 | 2026-03-21 |
+| 2,788 | +3 | +3 | +13 | 2026-03-21 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nksaraf~vinxi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nksaraf~vinxi/)*

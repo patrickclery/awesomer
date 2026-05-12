@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,033 | +245 |  |  | 2026-04-28 |
+| 49,336 | +208 | +838 | +2,665 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)*

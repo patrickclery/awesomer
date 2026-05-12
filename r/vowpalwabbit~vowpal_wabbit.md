@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,679 | +7 | +13 | +10 | 2026-04-26 |
+| 8,679 | +1 | +13 | +16 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vowpalwabbit~vowpal_wabbit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vowpalwabbit~vowpal_wabbit/)*

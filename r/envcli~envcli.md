@@ -15,4 +15,4 @@
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/envcli~envcli/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/envcli~envcli/)*

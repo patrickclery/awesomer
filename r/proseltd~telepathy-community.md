@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,206 | +3 | +4 |  | 2026-02-25 |
+| 1,208 | +3 | +6 | +36 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Telegram
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/proseltd~telepathy-community/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/proseltd~telepathy-community/)*

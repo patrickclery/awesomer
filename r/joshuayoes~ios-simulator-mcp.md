@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,929 | +19 | +135 | +199 | 2026-04-21 |
+| 1,967 | +25 | +118 | +216 | 2026-04-21 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/joshuayoes~ios-simulator-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/joshuayoes~ios-simulator-mcp/)*

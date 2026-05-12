@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 386,926 | +1,087 | +2,211 | +3,495 | 2026-04-24 |
+| 388,077 | +424 | +2,735 | +4,204 | 2026-05-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Books
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ebookfoundation~free-programming-books/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ebookfoundation~free-programming-books/)*

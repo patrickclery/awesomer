@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,703 | +19 | +115 | +197 | 2026-04-28 |
+| 20,736 | +27 | +101 | +214 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Video
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/xbmc~xbmc/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xbmc~xbmc/)*

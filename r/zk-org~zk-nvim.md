@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 818 | +5 | +11 | +17 | 2026-04-10 |
+| 821 | +1 | +14 | +19 | 2026-04-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Note Taking
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zk-org~zk-nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zk-org~zk-nvim/)*

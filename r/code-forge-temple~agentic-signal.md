@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 148 | +1 | +4 | +11 | 2026-04-23 |
+| 152 | +0 | +6 | +11 | 2026-04-29 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/code-forge-temple~agentic-signal/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/code-forge-temple~agentic-signal/)*

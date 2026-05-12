@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 659 |  | +2 |  | 2026-04-09 |
+| 662 | +3 | +3 |  | 2026-05-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Server
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zone-eu~zone-mta/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zone-eu~zone-mta/)*

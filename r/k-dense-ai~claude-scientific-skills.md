@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,721 | +592 | +2,983 | +5,380 | 2026-04-27 |
+| 20,643 | +576 | +2,523 | +6,033 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/k-dense-ai~claude-scientific-skills/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/k-dense-ai~claude-scientific-skills/)*

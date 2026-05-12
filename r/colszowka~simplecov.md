@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,885 | +1 | +5 |  | 2026-04-28 |
+| 4,887 | +0 | +3 | +21 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Analysis and Metrics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/colszowka~simplecov/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/colszowka~simplecov/)*

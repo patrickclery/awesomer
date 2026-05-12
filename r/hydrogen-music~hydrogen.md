@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,277 | +2 | +8 | +7 | 2026-04-24 |
+| 1,289 | +7 | +16 | +19 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hydrogen-music~hydrogen/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hydrogen-music~hydrogen/)*

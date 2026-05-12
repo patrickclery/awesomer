@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,920 | +2 |  |  | 2025-10-13 |
+| 1,918 | -2 | +1 | +15 | 2025-10-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Wikis
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/django-wiki~django-wiki/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/django-wiki~django-wiki/)*

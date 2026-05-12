@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 64,754 | +345 |  |  | 2026-04-24 |
+| 65,378 | +388 | +1,600 | +6,039 | 2026-05-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/unclecode~crawl4ai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unclecode~crawl4ai/)*

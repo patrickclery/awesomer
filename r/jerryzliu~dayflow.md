@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,993 | +26 | +108 | +249 | 2026-04-26 |
+| 6,010 | +11 | +96 | +183 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jerryzliu~dayflow/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jerryzliu~dayflow/)*

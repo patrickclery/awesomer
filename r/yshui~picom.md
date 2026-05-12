@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,709 | +2 | +18 | +31 | 2026-04-18 |
+| 4,718 | +8 | +21 | +38 | 2026-04-18 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Compositors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/yshui~picom/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yshui~picom/)*

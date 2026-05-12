@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 122 | +1 | +12 | +18 | 2025-12-17 |
+| 126 | +2 | +12 | +19 | 2025-12-17 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Marketing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gomarble-ai~google-ads-mcp-server/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gomarble-ai~google-ads-mcp-server/)*

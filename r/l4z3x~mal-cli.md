@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 147 | -1 | +2 | +2 | 2025-07-17 |
+| 150 | +2 | +4 | +6 | 2025-07-17 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/l4z3x~mal-cli/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/l4z3x~mal-cli/)*

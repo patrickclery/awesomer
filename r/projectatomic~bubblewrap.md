@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,943 | +116 |  |  | 2026-04-24 |
+| 7,090 | +87 | +418 | +1,365 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Sandboxes
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/projectatomic~bubblewrap/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/projectatomic~bubblewrap/)*

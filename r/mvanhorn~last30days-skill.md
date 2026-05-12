@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,295 | +949 |  |  | 2026-04-26 |
+| 25,511 | +815 | +4,919 | +23,128 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mvanhorn~last30days-skill/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mvanhorn~last30days-skill/)*

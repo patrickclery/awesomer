@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,596 | +66 | +245 | +445 | 2026-04-29 |
+| 24,701 | +65 | +250 | +499 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/spotdl~spotify-downloader/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spotdl~spotify-downloader/)*

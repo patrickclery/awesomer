@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,879 | +0 | -2 |  | 2026-03-26 |
+| 1,880 | +0 | +1 |  | 2026-03-26 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Debugging Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/yuki24~did_you_mean/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yuki24~did_you_mean/)*

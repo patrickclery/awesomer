@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 837 | +2 | +43 | +34 | 2026-01-22 |
+| 869 | +31 | +50 | +34 | 2026-01-22 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/huifer~claude-ally-health/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huifer~claude-ally-health/)*

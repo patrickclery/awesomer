@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 289 | +0 | +0 | +1 | 2025-11-08 |
+| 289 | +0 | +0 | +0 | 2025-11-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Audio Streaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/spl0k~supysonic/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spl0k~supysonic/)*

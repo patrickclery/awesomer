@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 629 | +2 | +12 | +13 | 2026-04-10 |
+| 632 | +3 | +9 | +13 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/snyk~actions/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/snyk~actions/)*

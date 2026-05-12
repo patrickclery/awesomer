@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,050 | +43 | +213 | +753 | 2026-03-18 |
+| 8,088 | +19 | +146 | +466 | 2026-03-18 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/automazeio~ccpm/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/automazeio~ccpm/)*

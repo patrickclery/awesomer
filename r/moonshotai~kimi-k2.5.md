@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,884 | +67 |  |  | 2026-01-31 |
+| 1,944 | +34 | +217 | +1,031 | 2026-01-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧠 2. Open Foundation Models
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/moonshotai~kimi-k2.5/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moonshotai~kimi-k2.5/)*

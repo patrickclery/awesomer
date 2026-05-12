@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,911 | +3 | +21 | +36 | 2026-01-11 |
+| 2,913 | +2 | +12 | +31 | 2026-01-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Folding
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~nvim-ufo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~nvim-ufo/)*

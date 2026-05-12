@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 907 | +1 | +9 | +16 | 2026-04-28 |
+| 910 | +1 | +6 | +16 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hakky54~certificate-ripper/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hakky54~certificate-ripper/)*

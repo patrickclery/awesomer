@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 958 | +12 |  |  | 2026-04-10 |
+| 991 | +13 | +86 | +251 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Reddit
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/arthurheitmann~arctic_shift/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/arthurheitmann~arctic_shift/)*

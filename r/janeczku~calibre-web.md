@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,030 | +44 | +195 | +306 | 2026-04-26 |
+| 17,112 | +53 | +196 | +358 | 2026-05-09 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / E-Book Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/janeczku~calibre-web/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/janeczku~calibre-web/)*

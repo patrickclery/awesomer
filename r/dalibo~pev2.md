@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,460 | +5 | +21 | +50 | 2026-04-07 |
+| 3,468 | +4 | +20 | +54 | 2026-05-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dalibo~pev2/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dalibo~pev2/)*

@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/amrbashir~vite-plugin-tauri/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/amrbashir~vite-plugin-tauri/)*

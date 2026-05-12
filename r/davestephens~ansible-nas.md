@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,729 | +0 |  |  | 2026-02-17 |
+| 3,734 | +2 | +12 | +67 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Self-hosting Solutions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/davestephens~ansible-nas/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davestephens~ansible-nas/)*

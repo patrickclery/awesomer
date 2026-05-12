@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 571 | +0 | +1 | +5 | 2025-11-12 |
+| 574 | +2 | +4 | +4 | 2025-11-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/etsd-tech~mcp-pointer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/etsd-tech~mcp-pointer/)*

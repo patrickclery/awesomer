@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,331 | +14 | +114 |  | 2026-02-07 |
+| 7,340 | +11 | +103 | +201 | 2026-02-07 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Apps/Websites
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~icones/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~icones/)*

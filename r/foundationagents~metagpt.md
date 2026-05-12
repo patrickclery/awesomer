@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 67,539 | +218 |  |  | 2026-01-21 |
+| 67,888 | +217 | +967 | +4,226 | 2026-01-21 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/foundationagents~metagpt/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/foundationagents~metagpt/)*

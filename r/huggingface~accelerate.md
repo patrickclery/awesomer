@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,642 | +21 |  |  | 2026-04-28 |
+| 9,677 | +24 | +79 | +219 | 2026-05-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~accelerate/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~accelerate/)*

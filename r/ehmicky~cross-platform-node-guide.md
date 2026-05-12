@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,418 | -1 | -1 |  | 2025-05-25 |
+| 1,417 | +0 | -2 | +7 | 2025-05-25 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Resources
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ehmicky~cross-platform-node-guide/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ehmicky~cross-platform-node-guide/)*

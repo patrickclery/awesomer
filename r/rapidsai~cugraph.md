@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,167 | +4 |  |  | 2026-04-28 |
+| 2,170 | +3 | +10 | +52 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rapidsai~cugraph/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rapidsai~cugraph/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,204 | +3 | +4 |  | 2026-02-19 |
+| 1,206 | +2 | +3 | +25 | 2026-02-19 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dev47apps~droidcam/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dev47apps~droidcam/)*

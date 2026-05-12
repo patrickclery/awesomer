@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,789 | +34 | +157 | +243 | 2026-04-27 |
+| 10,845 | +37 | +152 | +280 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~skopeo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~skopeo/)*

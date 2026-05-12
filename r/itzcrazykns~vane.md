@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,048 | +162 |  |  | 2026-04-11 |
+| 34,298 | +164 | +593 | +5,762 | 2026-04-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Generative Artificial Intelligence (GenAI)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/itzcrazykns~vane/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/itzcrazykns~vane/)*

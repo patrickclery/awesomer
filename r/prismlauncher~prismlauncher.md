@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,223 | +65 | +250 | +371 | 2026-04-28 |
+| 9,312 | +55 | +250 | +424 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/prismlauncher~prismlauncher/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/prismlauncher~prismlauncher/)*

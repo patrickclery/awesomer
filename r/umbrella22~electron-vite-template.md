@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 507 | +0 | +1 | +2 | 2026-03-02 |
+| 507 | +0 | +0 | +1 | 2026-03-02 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/umbrella22~electron-vite-template/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/umbrella22~electron-vite-template/)*

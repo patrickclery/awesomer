@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 510 | +13 | +21 | +29 | 2026-01-29 |
+| 517 | +3 | +25 | +40 | 2026-01-29 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/onebadidea~swiftquit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/onebadidea~swiftquit/)*

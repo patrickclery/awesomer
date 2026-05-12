@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 372 | +1 |  |  | 2026-04-15 |
+| 374 | +1 | +11 | +20 | 2026-04-15 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Video Streaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rblsb~synctube/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rblsb~synctube/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,152 | +0 | +5 | +6 | 2026-04-04 |
+| 1,152 | +0 | +2 | +6 | 2026-04-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Country Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/daddyz~phonelib/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/daddyz~phonelib/)*

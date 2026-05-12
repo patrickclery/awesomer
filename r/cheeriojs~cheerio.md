@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,297 | +13 | +53 | +189 | 2026-04-29 |
+| 30,316 | +15 | +51 | +193 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cheeriojs~cheerio/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cheeriojs~cheerio/)*

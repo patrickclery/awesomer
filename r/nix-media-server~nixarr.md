@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 375 | +2 |  |  | 2026-04-26 |
+| 381 | +4 | +12 | +38 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nix-media-server~nixarr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nix-media-server~nixarr/)*

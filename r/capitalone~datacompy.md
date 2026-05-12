@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 639 | -1 | +1 | +6 | 2026-04-26 |
+| 643 | +4 | +5 | +7 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/capitalone~datacompy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/capitalone~datacompy/)*

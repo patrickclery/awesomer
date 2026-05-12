@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 382 | +0 | +3 | +5 | 2026-03-17 |
+| 384 | +1 | +2 | +5 | 2026-03-17 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Terminal Integration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nikvdp~neomux/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nikvdp~neomux/)*

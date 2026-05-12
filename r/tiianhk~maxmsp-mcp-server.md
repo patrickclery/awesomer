@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 210 | +6 | +17 | +24 | 2025-11-10 |
+| 215 | +4 | +14 | +32 | 2025-11-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tiianhk~maxmsp-mcp-server/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tiianhk~maxmsp-mcp-server/)*

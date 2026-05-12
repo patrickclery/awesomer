@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,069 | +31 | +136 | +217 | 2026-04-13 |
+| 17,118 | +24 | +119 | +254 | 2026-04-13 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/denisidoro~navi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/denisidoro~navi/)*

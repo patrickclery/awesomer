@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,359 | +152 | +566 | +950 | 2026-04-29 |
+| 35,651 | +180 | +656 | +1,159 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Compositors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hyprwm~hyprland/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hyprwm~hyprland/)*

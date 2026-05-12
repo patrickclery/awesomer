@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,581 | +12 | +55 | +105 | 2026-02-09 |
+| 4,607 | +12 | +60 | +121 | 2026-02-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / General Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mangerlahn~latest/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mangerlahn~latest/)*

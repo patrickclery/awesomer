@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 150 | +1 |  |  | 2026-01-23 |
+| 149 | +0 | +0 | +5 | 2026-01-23 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Django
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/protibimbok~django-vite-plugin/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/protibimbok~django-vite-plugin/)*

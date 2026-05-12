@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,101 | +7 | +23 | +37 | 2026-01-20 |
+| 2,104 | +2 | +21 | +37 | 2026-01-20 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/n2cholas~awesome-jax/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/n2cholas~awesome-jax/)*

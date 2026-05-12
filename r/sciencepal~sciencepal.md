@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +0 | +1 | +0 | 2026-04-29 |
+| 153 | +1 | +1 | +0 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sciencepal~sciencepal/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sciencepal~sciencepal/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,602 | -1 |  |  | 2025-06-22 |
+| 1,603 | +1 | +0 | +7 | 2025-06-22 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Rust
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wulf~create-rust-app/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wulf~create-rust-app/)*

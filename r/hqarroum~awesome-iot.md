@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,916 | +8 | +33 | +50 | 2026-04-04 |
+| 3,930 | +6 | +32 | +60 | 2026-05-02 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Hardware
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hqarroum~awesome-iot/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hqarroum~awesome-iot/)*

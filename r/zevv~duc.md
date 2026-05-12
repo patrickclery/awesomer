@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 682 | +1 | +4 | +5 | 2026-04-15 |
+| 683 | +0 | +2 | +6 | 2026-04-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zevv~duc/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zevv~duc/)*

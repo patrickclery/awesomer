@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,196 | +3 | +9 | +17 | 2026-04-06 |
+| 2,199 | +2 | +6 | +16 | 2026-04-06 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gsliepen~tinc/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gsliepen~tinc/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,129 | +1 | +0 | +1 | 2026-03-26 |
+| 1,129 | +0 | +0 | +0 | 2026-03-26 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/axe-me~vite-plugin-node/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/axe-me~vite-plugin-node/)*

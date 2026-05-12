@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 164 | +4 | +26 | +36 | 2025-10-18 |
+| 173 | +5 | +20 | +39 | 2025-10-18 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisvoncsefalvay~claude-d3js-skill/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisvoncsefalvay~claude-d3js-skill/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 173 | +0 | -1 |  | 2026-03-20 |
+| 173 | +0 | +0 |  | 2026-03-20 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/oh-my-c0de~oh-my-fullstack/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/oh-my-c0de~oh-my-fullstack/)*

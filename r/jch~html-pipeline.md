@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,335 | -10 |  |  | 2026-01-06 |
+| 2,326 | -10 | -20 | -5 | 2026-01-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTML/XML Parsing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jch~html-pipeline/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jch~html-pipeline/)*

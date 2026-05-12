@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 165 | +0 | +1 | +3 | 2025-06-02 |
+| 167 | +2 | +3 | +3 | 2025-06-02 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/karneades~awesome-security-card-games/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/karneades~awesome-security-card-games/)*

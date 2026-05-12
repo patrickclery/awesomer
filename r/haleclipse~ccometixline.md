@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,837 | +93 | +402 | +625 | 2026-03-14 |
+| 2,932 | +62 | +315 | +661 | 2026-03-14 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/haleclipse~ccometixline/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/haleclipse~ccometixline/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 193 | +11 |  |  | 2026-04-22 |
+| 208 | +11 | +34 | +99 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/xpaysh~awesome-x402/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xpaysh~awesome-x402/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,012 | +28 | +85 | +218 | 2026-04-29 |
+| 5,063 | +30 | +109 | +236 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Marketing Platform
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/useplunk~plunk/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/useplunk~plunk/)*

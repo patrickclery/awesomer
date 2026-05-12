@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,448 | +34 |  |  | 2026-04-29 |
+| 41,499 | +35 | +150 | +618 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Mobile Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fastlane~fastlane/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fastlane~fastlane/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,148 | +12 | +59 | +120 | 2026-04-28 |
+| 4,181 | +19 | +68 | +132 | 2026-05-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / HA/Failover/Sharding
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vitabaks~autobase/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vitabaks~autobase/)*

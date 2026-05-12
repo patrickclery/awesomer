@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,283 | +61 |  |  | 2026-04-29 |
+| 31,414 | +80 | +314 | +1,406 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Web Monitoring
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dgtlmoon~changedetection.io/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dgtlmoon~changedetection.io/)*

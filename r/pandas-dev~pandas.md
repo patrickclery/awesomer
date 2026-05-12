@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 48,612 | +67 |  |  | 2026-04-29 |
+| 48,730 | +77 | +261 | +1,077 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pandas-dev~pandas/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pandas-dev~pandas/)*

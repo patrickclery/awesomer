@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 50,253 | +778 |  |  | 2026-04-29 |
+| 51,165 | +581 | +2,564 | +7,607 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/joaomdmoura~crewai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/joaomdmoura~crewai/)*

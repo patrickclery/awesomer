@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,463 | +19 | +108 | +147 | 2026-04-27 |
+| 4,493 | +18 | +96 | +166 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~age/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~age/)*

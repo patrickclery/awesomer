@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 876 | +4 | +16 | +38 | 2026-04-08 |
+| 879 | +2 | +14 | +27 | 2026-04-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rohitg00~kubectl-mcp-server/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rohitg00~kubectl-mcp-server/)*

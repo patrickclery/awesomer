@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,387 | +2 | +8 | +26 | 2026-04-28 |
+| 16,396 | +7 | +14 | +31 | 2026-04-28 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/moment~luxon/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moment~luxon/)*

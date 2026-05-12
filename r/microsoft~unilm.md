@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,105 | +6 |  |  | 2026-01-23 |
+| 22,122 | +7 | +36 | +165 | 2026-01-23 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Embedding Models
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~unilm/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~unilm/)*

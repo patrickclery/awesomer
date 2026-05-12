@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 304 | +1 | +0 | +0 | 2025-12-18 |
+| 305 | +0 | +2 | +0 | 2025-12-18 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Matlab
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cdslaborg~paramonte/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cdslaborg~paramonte/)*

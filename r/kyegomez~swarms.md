@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,570 | +151 |  |  | 2026-04-29 |
+| 6,663 | +53 | +451 | +969 | 2026-05-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kyegomez~swarms/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kyegomez~swarms/)*

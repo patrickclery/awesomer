@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 187 | +2 | +11 | +16 | 2025-07-12 |
+| 191 | +3 | +10 | +19 | 2025-07-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Location Services
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jagan-shanmugam~open-streetmap-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jagan-shanmugam~open-streetmap-mcp/)*

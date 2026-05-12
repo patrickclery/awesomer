@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,428 | +0 |  |  | 2025-05-27 |
+| 1,427 | -1 | -1 | +9 | 2025-05-27 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/eumemic~ai-legion/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eumemic~ai-legion/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,977 | +50 | +318 | +491 | 2026-01-24 |
+| 17,095 | +80 | +296 | +564 | 2026-01-24 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Crypto Currencies
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bbfamily~abu/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bbfamily~abu/)*

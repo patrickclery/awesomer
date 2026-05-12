@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,284 | +1 | +8 | +42 | 2026-04-29 |
+| 2,287 | +2 | +6 | +43 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Java
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~mahout/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~mahout/)*

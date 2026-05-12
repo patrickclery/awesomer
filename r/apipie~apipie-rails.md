@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,504 | -1 | +0 |  | 2025-11-07 |
+| 2,505 | +0 | +1 | +4 | 2025-11-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Documentation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apipie~apipie-rails/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apipie~apipie-rails/)*

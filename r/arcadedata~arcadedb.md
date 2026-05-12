@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 833 | +16 |  |  | 2026-04-29 |
+| 864 | +22 | +71 | +172 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/arcadedata~arcadedb/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/arcadedata~arcadedb/)*

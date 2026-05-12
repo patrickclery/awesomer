@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,733 | +54 |  |  | 2026-04-24 |
+| 36,768 | +26 | +166 | +526 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deep Learning Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~pytorch-image-models/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~pytorch-image-models/)*

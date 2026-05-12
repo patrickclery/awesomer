@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,430 | +47 | +284 | +468 | 2026-04-13 |
+| 19,525 | +45 | +270 | +526 | 2026-05-10 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/agarrharr~awesome-cli-apps/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agarrharr~awesome-cli-apps/)*

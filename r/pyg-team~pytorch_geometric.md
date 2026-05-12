@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,705 | +7 | +82 | +134 | 2026-04-29 |
+| 23,741 | +24 | +74 | +161 | 2026-05-04 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deep Learning Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pyg-team~pytorch_geometric/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pyg-team~pytorch_geometric/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 87,846 | +88 |  |  | 2025-12-02 |
+| 87,966 | +83 | +285 | +1,393 | 2025-12-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/chatgptnextweb~nextchat/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chatgptnextweb~nextchat/)*

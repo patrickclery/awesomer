@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 |  |  |  | 2025-11-12 |
+| 115 | +0 |  |  | 2025-11-12 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / DMARC
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/antedebaas~viesti-reports/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antedebaas~viesti-reports/)*

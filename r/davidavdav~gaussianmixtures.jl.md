@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 107 | +0 | +0 |  | 2026-01-08 |
+| 107 | +0 | +0 | +0 | 2026-01-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/davidavdav~gaussianmixtures.jl/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davidavdav~gaussianmixtures.jl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 141 | +3 | +10 | +7 | 2026-04-27 |
+| 141 | +0 | +6 | +12 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/docker~hub-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/docker~hub-mcp/)*

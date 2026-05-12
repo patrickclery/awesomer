@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 879 | +2 | +8 | +26 | 2026-04-15 |
+| 888 | +3 | +14 | +34 | 2026-05-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/orbitalquark~textadept/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/orbitalquark~textadept/)*

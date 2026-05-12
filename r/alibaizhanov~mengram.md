@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 161 | +4 |  |  | 2026-04-29 |
+| 165 | +3 | +12 |  | 2026-05-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alibaizhanov~mengram/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alibaizhanov~mengram/)*

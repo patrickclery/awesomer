@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 706 | +1 |  |  | 2026-03-27 |
+| 713 | +2 | +10 | +27 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Custom Linux Kernels
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/anthraxx~linux-hardened/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anthraxx~linux-hardened/)*

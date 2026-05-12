@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,502 | +0 | +1 |  | 2025-09-02 |
+| 2,503 | +0 | +1 | +6 | 2025-09-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authentication and OAuth
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hassox~warden/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hassox~warden/)*

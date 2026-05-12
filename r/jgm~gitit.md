@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,261 | +0 |  |  | 2026-03-01 |
+| 2,262 | +0 | +4 | +15 | 2026-03-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Wikis
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jgm~gitit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jgm~gitit/)*

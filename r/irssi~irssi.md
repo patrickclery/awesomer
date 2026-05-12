@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,101 | +5 | +11 | +29 | 2026-02-01 |
+| 3,108 | +4 | +19 | +32 | 2026-02-01 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/irssi~irssi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/irssi~irssi/)*

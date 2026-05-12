@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,020 |  |  |  | 2026-04-28 |
+| 1,076 | +33 | +158 | +675 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Large Language Models (Base + Chat)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-nemo~nemotron/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-nemo~nemotron/)*

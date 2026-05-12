@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 174 | +2 | +19 |  | 2026-03-30 |
+| 177 | +3 | +12 |  | 2026-03-30 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/leonardocardoso~poirot/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/leonardocardoso~poirot/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 58,612 | +172 | +744 | +1,114 | 2026-04-28 |
+| 58,818 | +115 | +719 | +1,242 | 2026-05-09 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sharkdp~bat/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sharkdp~bat/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,519 | +70 | +305 | +472 | 2026-04-21 |
+| 33,596 | +47 | +247 | +511 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/derailed~k9s/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/derailed~k9s/)*

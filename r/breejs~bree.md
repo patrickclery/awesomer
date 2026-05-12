@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,284 | -1 | +1 | +7 | 2026-02-17 |
+| 3,286 | +1 | +3 | +8 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/breejs~bree/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/breejs~bree/)*

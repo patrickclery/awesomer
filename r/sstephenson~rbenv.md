@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,675 | +4 | +13 |  | 2026-03-23 |
+| 16,683 | +1 | +16 | +98 | 2026-03-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Environment Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sstephenson~rbenv/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sstephenson~rbenv/)*

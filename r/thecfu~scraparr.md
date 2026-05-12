@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 394 | +2 | +10 | +18 | 2026-04-22 |
+| 398 | +5 | +8 | +22 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thecfu~scraparr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thecfu~scraparr/)*

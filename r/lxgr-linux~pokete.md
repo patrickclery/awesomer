@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,116 | +3 | +10 | +26 | 2026-04-27 |
+| 3,120 | +3 | +11 | +25 | 2026-05-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lxgr-linux~pokete/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lxgr-linux~pokete/)*

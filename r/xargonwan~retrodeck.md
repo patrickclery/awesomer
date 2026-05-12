@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,177 | +6 | +28 |  | 2026-04-27 |
+| 1,186 | +6 | +31 | +80 | 2026-04-30 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/xargonwan~retrodeck/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xargonwan~retrodeck/)*

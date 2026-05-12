@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,826 | +1 | +3 | +6 | 2025-07-07 |
+| 7,831 | +3 | +7 | +10 | 2025-07-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Version Control
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kamranahmedse~git-standup/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kamranahmedse~git-standup/)*

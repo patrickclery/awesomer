@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 122 | +0 |  |  | 2026-01-18 |
+| 124 | +0 | +2 | +10 | 2026-01-18 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Resource
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/weyaaron~nvim-training/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/weyaaron~nvim-training/)*

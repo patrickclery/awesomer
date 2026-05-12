@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,822 | +39 | +100 | +145 | 2026-04-29 |
+| 4,850 | +14 | +103 | +165 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/metabrainz~picard/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/metabrainz~picard/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,762 | +111 | +529 | +1,394 | 2026-04-24 |
+| 34,938 | +100 | +483 | +1,356 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aquasecurity~trivy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aquasecurity~trivy/)*

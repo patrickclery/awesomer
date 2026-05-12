@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,367 | +0 | +6 | +4 | 2026-04-13 |
+| 1,370 | +2 | +6 | +9 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / PDF
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gettalong~hexapdf/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gettalong~hexapdf/)*

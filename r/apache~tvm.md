@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,315 | +21 |  |  | 2026-04-29 |
+| 13,345 | +17 | +80 | +277 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~tvm/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~tvm/)*

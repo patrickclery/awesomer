@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,312 | +9 | +27 | +28 | 2026-04-28 |
+| 3,319 | +3 | +22 | +47 | 2026-05-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/weechat~weechat/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/weechat~weechat/)*

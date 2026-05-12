@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,952 | +80 |  |  | 2026-04-29 |
+| 17,073 | +71 | +295 | +993 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Remote Login Software
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/moonlight-stream~moonlight-qt/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moonlight-stream~moonlight-qt/)*

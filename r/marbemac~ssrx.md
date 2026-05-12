@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/marbemac~ssrx/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marbemac~ssrx/)*

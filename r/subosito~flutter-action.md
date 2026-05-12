@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,584 | +2 | +13 | +14 | 2026-03-25 |
+| 2,585 | +0 | +9 | +19 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Collection of Actions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/subosito~flutter-action/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/subosito~flutter-action/)*

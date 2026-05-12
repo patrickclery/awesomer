@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 208 | +0 | +1 | +1 | 2026-04-26 |
+| 211 | +2 | +3 | +1 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~tumult.plugin.zsh/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~tumult.plugin.zsh/)*

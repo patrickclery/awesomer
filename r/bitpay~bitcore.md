@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,985 | +1 | -1 | +3 | 2026-04-28 |
+| 4,985 | +0 | -1 | +0 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bitpay~bitcore/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bitpay~bitcore/)*

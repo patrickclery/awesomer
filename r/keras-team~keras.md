@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 64,052 | +27 | +133 | +236 | 2026-04-29 |
+| 64,060 | +5 | +98 | +236 | 2026-05-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/keras-team~keras/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/keras-team~keras/)*

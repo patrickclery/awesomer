@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189 | +1 | +0 |  | 2026-04-17 |
+| 188 | -1 | +0 | -1 | 2026-04-17 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Monitoring/Statistics/Perfomance
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~mamonsu/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~mamonsu/)*

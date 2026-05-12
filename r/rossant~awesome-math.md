@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,853 | +401 | +1,040 | +1,165 | 2026-04-06 |
+| 15,080 | +65 | +1,129 | +1,369 | 2026-04-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rossant~awesome-math/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rossant~awesome-math/)*

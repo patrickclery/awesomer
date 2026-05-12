@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 855 | +5 | +21 |  | 2026-02-23 |
+| 858 | +1 | +10 | +69 | 2026-02-23 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / AI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/davidyz~vectorcode/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davidyz~vectorcode/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,276 | +59 |  |  | 2026-04-29 |
+| 22,368 | +71 | +221 | +879 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/prefecthq~prefect/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/prefecthq~prefect/)*

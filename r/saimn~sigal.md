@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 937 | +1 | +1 | -44 | 2026-04-07 |
+| 939 | +2 | +4 | -44 | 2026-04-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Photo Galleries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/saimn~sigal/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saimn~sigal/)*

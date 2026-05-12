@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 249 | +38 |  |  | 2026-04-28 |
+| 302 | +33 | +144 |  | 2026-05-05 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aklofas~kicad-happy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aklofas~kicad-happy/)*

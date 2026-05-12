@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,126 | +0 | +10 | +12 | 2026-04-28 |
+| 1,127 | +0 | +7 | +12 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/schemahero~schemahero/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/schemahero~schemahero/)*

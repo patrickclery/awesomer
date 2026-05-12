@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,156 | +884 |  |  | 2026-04-26 |
+| 22,380 | +719 | +4,081 | +19,181 | 2026-05-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jarrodwatts~claude-hud/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jarrodwatts~claude-hud/)*

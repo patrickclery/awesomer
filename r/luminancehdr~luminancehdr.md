@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 659 | +0 | +4 | +0 | 2025-06-13 |
+| 663 | +3 | +5 | +0 | 2025-06-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/luminancehdr~luminancehdr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/luminancehdr~luminancehdr/)*

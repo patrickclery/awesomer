@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,934 | +23 | +74 | +101 | 2026-04-28 |
+| 2,950 | +7 | +80 | +109 | 2026-05-09 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gramps-project~gramps/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gramps-project~gramps/)*

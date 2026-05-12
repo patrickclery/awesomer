@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,889 | +4 |  |  | 2026-04-20 |
+| 1,897 | +5 | +20 | +72 | 2026-05-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/carlrobertoh~proxyai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/carlrobertoh~proxyai/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,728 | -1 | +3 | +12 | 2026-04-15 |
+| 12,734 | +7 | +7 | +15 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/octalmage~robotjs/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/octalmage~robotjs/)*

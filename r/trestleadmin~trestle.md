@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,994 | +0 | -2 | +2 | 2025-09-25 |
+| 1,995 | +0 | +2 | +2 | 2025-09-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Admin Interface
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/trestleadmin~trestle/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trestleadmin~trestle/)*

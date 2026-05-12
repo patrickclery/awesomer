@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 153 | +0 | +3 | +4 | 2026-03-29 |
+| 154 | +1 | +1 | +4 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Startup
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cwood-sdf~spaceport.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cwood-sdf~spaceport.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,195 | +2 | +6 | +12 | 2026-04-28 |
+| 1,200 | +4 | +10 | +16 | 2026-05-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/seadve~mousai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/seadve~mousai/)*

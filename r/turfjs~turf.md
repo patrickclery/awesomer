@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,350 | +17 | +48 | +84 | 2026-04-28 |
+| 10,363 | +3 | +48 | +87 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/turfjs~turf/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/turfjs~turf/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,554 | +0 | +7 | +9 | 2025-12-15 |
+| 1,553 | -2 | +1 | +9 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Frontend Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/peaceiris~actions-hugo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/peaceiris~actions-hugo/)*

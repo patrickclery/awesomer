@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,406 | -1 | -11 | -4 | 2026-04-16 |
+| 14,402 | +1 | -10 | -11 | 2026-04-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shelljs~shelljs/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shelljs~shelljs/)*

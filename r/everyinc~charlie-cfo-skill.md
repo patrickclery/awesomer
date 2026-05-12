@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 209 | +13 | +28 |  | 2026-01-29 |
+| 217 | +3 | +28 | +47 | 2026-01-29 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/everyinc~charlie-cfo-skill/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/everyinc~charlie-cfo-skill/)*

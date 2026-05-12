@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,952 | +16 |  |  | 2025-12-12 |
+| 5,979 | +13 | +57 | +176 | 2025-12-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/trusted-ai~adversarial-robustness-toolbox/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trusted-ai~adversarial-robustness-toolbox/)*

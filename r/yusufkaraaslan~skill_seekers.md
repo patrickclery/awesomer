@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,186 | +187 | +1,710 | +2,629 | 2026-04-26 |
+| 13,432 | +159 | +790 | +2,574 | 2026-05-03 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/yusufkaraaslan~skill_seekers/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yusufkaraaslan~skill_seekers/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,350 | +10 | +57 | +87 | 2026-04-26 |
+| 9,368 | +11 | +52 | +97 | 2026-05-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/unit8co~darts/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unit8co~darts/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 122 | +0 | +5 | +4 | 2025-12-06 |
+| 122 | +0 | +0 | +8 | 2025-12-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kukapay~crypto-indicators-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kukapay~crypto-indicators-mcp/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,746 | +4 | +77 |  | 2026-04-29 |
+| 9,756 | +3 | +32 | +288 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alan-turing-institute~sktime/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alan-turing-institute~sktime/)*

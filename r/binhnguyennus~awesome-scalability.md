@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 70,695 | +152 |  |  | 2026-01-04 |
+| 70,951 | +130 | +679 | +2,871 | 2026-01-04 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Architecture
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/binhnguyennus~awesome-scalability/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/binhnguyennus~awesome-scalability/)*

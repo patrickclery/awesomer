@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,882 | +1 | +13 | +21 | 2026-04-06 |
+| 3,884 | +1 | +8 | +21 | 2026-04-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/marmelab~awesome-rest/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marmelab~awesome-rest/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,915 | +0 | +0 | +5 | 2025-11-06 |
+| 9,916 | +0 | +1 | +5 | 2025-11-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aksakalli~gtop/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aksakalli~gtop/)*

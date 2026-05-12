@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 137 | +1 | +5 |  | 2025-06-03 |
+| 137 | -1 | +5 | +13 | 2025-06-03 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/doggybee~mcp-server-ccxt/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/doggybee~mcp-server-ccxt/)*

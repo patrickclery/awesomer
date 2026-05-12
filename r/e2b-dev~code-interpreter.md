@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,299 |  |  |  | 2026-04-28 |
+| 2,310 | +8 | +30 | +120 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Evaluation Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/e2b-dev~code-interpreter/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/e2b-dev~code-interpreter/)*

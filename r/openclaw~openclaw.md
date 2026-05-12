@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 366,139 | +4,172 |  |  | 2026-04-29 |
+| 370,864 | +2,696 | +16,162 |  | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/openclaw~openclaw/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openclaw~openclaw/)*

@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,173 | +3 | +25 | +36 | 2026-04-28 |
+| 2,185 | +8 | +27 | +44 | 2026-05-08 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / Experiment Tracking & Versioning
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/marquezproject~marquez/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marquezproject~marquez/)*

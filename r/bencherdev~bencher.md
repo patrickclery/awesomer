@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 829 | +4 |  |  | 2026-04-29 |
+| 838 | +5 | +19 | +42 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Devops
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bencherdev~bencher/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bencherdev~bencher/)*

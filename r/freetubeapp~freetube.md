@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,707 | +55 | +200 | +395 | 2026-04-28 |
+| 20,789 | +41 | +211 | +432 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/freetubeapp~freetube/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/freetubeapp~freetube/)*

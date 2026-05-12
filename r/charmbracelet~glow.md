@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,762 | +239 | +723 | +1,146 | 2026-04-26 |
+| 25,108 | +225 | +786 | +1,428 | 2026-04-26 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/charmbracelet~glow/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/charmbracelet~glow/)*

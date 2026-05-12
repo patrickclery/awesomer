@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,158 | -1 | +2 |  | 2026-04-20 |
+| 2,158 | +0 | +0 | +12 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/glebm~i18n-tasks/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/glebm~i18n-tasks/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 197 | +3 | +5 | +14 | 2025-06-28 |
+| 202 | +2 | +9 | +17 | 2026-05-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vhladiienko~awesome-game-production/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vhladiienko~awesome-game-production/)*

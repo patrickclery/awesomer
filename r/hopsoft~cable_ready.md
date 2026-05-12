@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 770 | +0 |  |  | 2025-06-25 |
+| 771 | +0 | +2 |  | 2025-06-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / WebSocket
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hopsoft~cable_ready/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hopsoft~cable_ready/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,347 | +1 | +12 | +20 | 2026-04-24 |
+| 1,353 | +3 | +12 | +21 | 2026-04-24 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/notthetup~awesome-webaudio/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/notthetup~awesome-webaudio/)*

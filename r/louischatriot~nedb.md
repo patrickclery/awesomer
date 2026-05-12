@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,555 | -4 | -5 | -2 | 2025-05-15 |
+| 13,551 | -2 | -7 | -11 | 2025-05-15 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/louischatriot~nedb/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/louischatriot~nedb/)*

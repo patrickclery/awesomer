@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,397 | -4 | -5 |  | 2026-04-20 |
+| 3,396 | -1 | -5 | +23 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/seattlerb~minitest/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/seattlerb~minitest/)*

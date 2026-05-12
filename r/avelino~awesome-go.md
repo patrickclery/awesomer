@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 171,309 | +679 | +2,679 | +4,366 | 2026-04-27 |
+| 172,376 | +597 | +2,699 | +5,049 | 2026-05-10 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/avelino~awesome-go/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/avelino~awesome-go/)*

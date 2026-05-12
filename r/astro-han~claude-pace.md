@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +25 |  |  | 2026-04-27 |
+| 165 | +9 | +74 |  | 2026-05-01 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/astro-han~claude-pace/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/astro-han~claude-pace/)*

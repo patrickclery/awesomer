@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 362 | +2 | +4 | +5 | 2026-04-29 |
+| 365 | +1 | +5 | +9 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Kubernetes
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/percona~percona-postgresql-operator/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/percona~percona-postgresql-operator/)*

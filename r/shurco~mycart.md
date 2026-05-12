@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 348 | +0 |  |  | 2026-04-28 |
+| 350 | +2 | +3 | +9 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / E-commerce
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shurco~mycart/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shurco~mycart/)*

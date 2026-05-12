@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 135 | +5 | +23 | +94 | 2026-04-27 |
+| 140 | +2 | +20 | +94 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/veelenga~claude-mermaid/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/veelenga~claude-mermaid/)*

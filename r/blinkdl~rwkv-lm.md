@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,497 | +19 |  |  | 2026-04-28 |
+| 14,519 | +16 | +54 | +221 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Large Language Models (Base + Chat)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/blinkdl~rwkv-lm/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/blinkdl~rwkv-lm/)*

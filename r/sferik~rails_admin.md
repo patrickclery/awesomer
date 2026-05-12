@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,954 | -4 | -9 |  | 2025-09-14 |
+| 7,951 | -2 | -8 | +8 | 2025-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Admin Interface
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sferik~rails_admin/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sferik~rails_admin/)*

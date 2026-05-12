@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,278 | +10 | +58 | +90 | 2026-04-25 |
+| 2,302 | +17 | +58 | +107 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/flyinghead~flycast/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flyinghead~flycast/)*

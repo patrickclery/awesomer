@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 162 | +2 | +4 | +4 | 2025-10-08 |
+| 162 | -1 | +3 | +4 | 2025-10-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Terminal Integration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/laktak~tome/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/laktak~tome/)*

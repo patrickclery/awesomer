@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,845 | +4 | +8 | +5 | 2026-02-10 |
+| 1,847 | +1 | +7 | +12 | 2026-02-10 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fabianlindfors~reshape/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fabianlindfors~reshape/)*

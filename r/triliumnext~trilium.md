@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,803 | +143 |  |  | 2026-04-29 |
+| 35,976 | +108 | +483 | +1,633 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Note-taking & Editors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/triliumnext~trilium/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/triliumnext~trilium/)*

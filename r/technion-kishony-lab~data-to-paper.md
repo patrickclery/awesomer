@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 785 | +4 |  |  | 2025-07-19 |
+| 788 | +3 | +13 | +40 | 2025-07-19 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/technion-kishony-lab~data-to-paper/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/technion-kishony-lab~data-to-paper/)*

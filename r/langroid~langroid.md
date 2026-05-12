@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,991 | +15 |  |  | 2026-04-07 |
+| 4,007 | +6 | +45 | +145 | 2026-05-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/langroid~langroid/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/langroid~langroid/)*

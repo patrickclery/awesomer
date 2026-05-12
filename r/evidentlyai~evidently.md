@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,433 | +22 | +84 | +154 | 2026-04-22 |
+| 7,479 | +32 | +97 | +188 | 2026-05-02 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/evidentlyai~evidently/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/evidentlyai~evidently/)*

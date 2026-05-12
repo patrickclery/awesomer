@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,845 | +171 | +643 | +874 | 2025-09-14 |
+| 7,960 | +63 | +472 | +956 | 2025-09-14 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Usage Monitors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/maciek-roboblog~claude-code-usage-monitor/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/maciek-roboblog~claude-code-usage-monitor/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,328 | +378 |  |  | 2026-03-23 |
+| 34,897 | +291 | +1,531 | +6,830 | 2026-05-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Courses & Interactive Playgrounds
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/patchy631~ai-engineering-hub/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/patchy631~ai-engineering-hub/)*

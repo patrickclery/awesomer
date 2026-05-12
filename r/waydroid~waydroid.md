@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,274 | +38 | +227 | +326 | 2026-04-26 |
+| 11,341 | +44 | +226 | +364 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/waydroid~waydroid/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/waydroid~waydroid/)*

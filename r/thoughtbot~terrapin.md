@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 284 | +0 | +2 |  | 2026-03-31 |
+| 284 | +0 | +0 |  | 2026-03-31 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Builder
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~terrapin/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~terrapin/)*

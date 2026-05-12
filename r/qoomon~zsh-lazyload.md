@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 149 | -1 | -1 | +0 | 2025-08-06 |
+| 149 | +0 | -1 | +0 | 2025-08-06 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qoomon~zsh-lazyload/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qoomon~zsh-lazyload/)*

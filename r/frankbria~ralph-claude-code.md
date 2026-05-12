@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,922 | +147 | +643 | +1,321 | 2026-04-13 |
+| 9,084 | +89 | +491 | +1,244 | 2026-04-13 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / AI-Native IDEs & Development Environments
 - [awesome-claude-code](../l/claude-code.md) / Ralph Wiggum
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/frankbria~ralph-claude-code/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/frankbria~ralph-claude-code/)*

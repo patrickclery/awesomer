@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 687 | -3 | -4 | -1 | 2025-12-12 |
+| 686 | -1 | -4 | -2 | 2025-12-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / PDF
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fnando~kitabu/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fnando~kitabu/)*

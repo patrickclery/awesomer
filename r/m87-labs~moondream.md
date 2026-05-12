@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,615 |  |  |  | 2026-04-20 |
+| 9,676 | +23 | +119 | +402 | 2026-04-20 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multimodal Models (Vision + Language)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/m87-labs~moondream/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/m87-labs~moondream/)*

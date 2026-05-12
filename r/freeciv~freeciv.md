@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,528 | +6 | +15 | +26 | 2026-04-28 |
+| 1,531 | +1 | +13 | +30 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/freeciv~freeciv/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/freeciv~freeciv/)*

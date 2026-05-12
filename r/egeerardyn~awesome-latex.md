@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,616 | +1 | +8 | +17 | 2026-03-22 |
+| 1,623 | +4 | +16 | +22 | 2026-03-22 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/egeerardyn~awesome-latex/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/egeerardyn~awesome-latex/)*

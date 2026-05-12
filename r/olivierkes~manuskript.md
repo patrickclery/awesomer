@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,257 | +6 | +22 | +36 | 2026-04-23 |
+| 2,269 | +9 | +28 | +46 | 2026-04-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/olivierkes~manuskript/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/olivierkes~manuskript/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,849 | +8 | +32 | +48 | 2025-09-09 |
+| 1,894 | +36 | +64 | +89 | 2025-09-09 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/willfarrell~docker-autoheal/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/willfarrell~docker-autoheal/)*

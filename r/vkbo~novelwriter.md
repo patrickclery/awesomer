@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,871 | +23 |  |  | 2026-04-26 |
+| 2,905 | +16 | +82 | +206 | 2026-05-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Writing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vkbo~novelwriter/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vkbo~novelwriter/)*

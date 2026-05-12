@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,793 | +54 |  |  | 2026-04-29 |
+| 29,869 | +40 | +205 | +708 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Screenshot Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/flameshot-org~flameshot/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flameshot-org~flameshot/)*

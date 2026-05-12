@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 830 | +1 | +0 | +0 | 2025-07-29 |
+| 830 | +0 | +0 | +0 | 2025-07-29 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/madlabsinc~mevn-cli/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/madlabsinc~mevn-cli/)*

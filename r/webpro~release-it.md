@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,923 | +3 | +31 |  | 2026-04-24 |
+| 8,932 | +5 | +25 | +117 | 2026-04-24 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/webpro~release-it/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/webpro~release-it/)*

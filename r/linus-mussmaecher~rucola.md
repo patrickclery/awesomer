@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 487 | +0 |  |  | 2026-04-16 |
+| 493 | +4 | +8 | +28 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Note Taking and Lists
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/linus-mussmaecher~rucola/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/linus-mussmaecher~rucola/)*

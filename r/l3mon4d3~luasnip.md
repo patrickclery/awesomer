@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,340 | +17 | +29 | +53 | 2026-04-05 |
+| 4,349 | +8 | +33 | +54 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Snippet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/l3mon4d3~luasnip/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/l3mon4d3~luasnip/)*

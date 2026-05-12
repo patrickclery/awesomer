@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,958 | +14 |  |  | 2026-04-27 |
+| 5,985 | +18 | +60 | +197 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Password Vaults
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/philippc~keepass2android/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/philippc~keepass2android/)*

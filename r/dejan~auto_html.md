@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 797 | +0 | -1 |  | 2026-04-02 |
+| 797 | +0 | +0 |  | 2026-04-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / View helpers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dejan~auto_html/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dejan~auto_html/)*

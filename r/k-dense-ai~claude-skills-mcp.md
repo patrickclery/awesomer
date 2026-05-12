@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 379 | +1 | +18 | +34 | 2026-04-08 |
+| 383 | +3 | +16 | +31 | 2026-04-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/k-dense-ai~claude-skills-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/k-dense-ai~claude-skills-mcp/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,455 | +185 | +665 | +886 | 2026-04-29 |
+| 2,687 | +149 | +626 | +1,092 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ivanmurzak~unity-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ivanmurzak~unity-mcp/)*

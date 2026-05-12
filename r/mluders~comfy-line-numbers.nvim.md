@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 120 | +1 | +6 |  | 2026-01-26 |
+| 125 | +3 | +8 | +13 | 2026-01-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Utility
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mluders~comfy-line-numbers.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mluders~comfy-line-numbers.nvim/)*

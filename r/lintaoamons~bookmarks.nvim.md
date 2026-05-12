@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 288 | +0 | +0 | +4 | 2025-10-24 |
+| 290 | +1 | +2 | +3 | 2025-10-24 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Marks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lintaoamons~bookmarks.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lintaoamons~bookmarks.nvim/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 63,863 | +950 |  |  | 2026-04-28 |
+| 64,578 | +216 | +1,909 | +3,450 | 2026-05-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Privacy and Encryption Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gorhill~ublock/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gorhill~ublock/)*

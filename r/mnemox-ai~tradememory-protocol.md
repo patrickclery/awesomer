@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 728 | +78 |  |  | 2026-04-10 |
+| 857 | +75 | +318 |  | 2026-04-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mnemox-ai~tradememory-protocol/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mnemox-ai~tradememory-protocol/)*

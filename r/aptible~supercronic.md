@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,471 | +7 | +32 | +60 | 2026-04-23 |
+| 2,486 | +9 | +38 | +68 | 2026-04-23 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aptible~supercronic/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aptible~supercronic/)*

@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lomray-software~vite-ssr-boost/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lomray-software~vite-ssr-boost/)*

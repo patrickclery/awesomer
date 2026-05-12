@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,853 | -2 | -1 | +6 | 2026-03-04 |
+| 5,853 | -1 | -2 | +3 | 2026-03-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/activerecord-hackery~ransack/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/activerecord-hackery~ransack/)*

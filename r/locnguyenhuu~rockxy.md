@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 365 | +32 |  |  | 2026-04-29 |
+| 407 | +35 | +195 |  | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Network Analysis
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/locnguyenhuu~rockxy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/locnguyenhuu~rockxy/)*

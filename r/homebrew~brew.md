@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 47,781 | +136 | +493 | +791 | 2026-04-29 |
+| 47,959 | +110 | +503 | +894 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Package Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/homebrew~brew/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/homebrew~brew/)*

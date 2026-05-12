@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,376 | +8 | +38 | +67 | 2026-02-15 |
+| 8,398 | +15 | +48 | +76 | 2026-02-15 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Extensions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/garmeeh~next-seo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/garmeeh~next-seo/)*

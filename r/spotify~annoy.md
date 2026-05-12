@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,230 | +6 | +38 | +55 | 2025-10-29 |
+| 14,236 | +6 | +25 | +56 | 2025-10-29 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
-- [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/spotify~annoy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spotify~annoy/)*

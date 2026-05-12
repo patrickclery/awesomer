@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,628 | +21 | +99 | +162 | 2026-04-26 |
+| 1,679 | +39 | +106 | +201 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/codergamester~mcp-unity/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/codergamester~mcp-unity/)*

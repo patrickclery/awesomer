@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,210 | +4 | +19 | +29 | 2026-04-27 |
+| 2,220 | +8 | +23 | +34 | 2026-05-09 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/synfig~synfig/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/synfig~synfig/)*

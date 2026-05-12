@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,131 | +4 | +13 | +19 | 2026-04-23 |
+| 4,128 | -5 | +3 | +21 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Scala
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/johnsnowlabs~spark-nlp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/johnsnowlabs~spark-nlp/)*

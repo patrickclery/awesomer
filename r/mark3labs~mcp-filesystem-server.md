@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 637 | +4 | +15 | +29 | 2025-11-24 |
+| 641 | +1 | +14 | +33 | 2025-11-24 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / File Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mark3labs~mcp-filesystem-server/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mark3labs~mcp-filesystem-server/)*

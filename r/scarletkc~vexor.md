@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 214 | +0 | +2 | +11 | 2026-03-06 |
+| 212 | -1 | -1 | +9 | 2026-03-06 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/scarletkc~vexor/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/scarletkc~vexor/)*

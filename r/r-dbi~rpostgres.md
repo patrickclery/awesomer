@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 337 | +0 | +0 |  | 2026-03-23 |
+| 337 | +0 | +0 |  | 2026-05-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/r-dbi~rpostgres/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/r-dbi~rpostgres/)*

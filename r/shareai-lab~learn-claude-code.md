@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,402 | +1,881 | +13,698 | +13,014 | 2026-04-14 |
+| 59,775 | +1,738 | +8,109 | +23,834 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shareai-lab~learn-claude-code/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shareai-lab~learn-claude-code/)*

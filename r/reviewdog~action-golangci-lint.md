@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 243 | +0 | +1 |  | 2026-04-27 |
+| 243 | +0 | +0 |  | 2026-05-10 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/reviewdog~action-golangci-lint/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/reviewdog~action-golangci-lint/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,817 | +0 | +0 | +1 | 2025-12-29 |
+| 4,818 | +0 | +2 | +1 | 2025-12-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Queues and Messaging
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/collectiveidea~delayed_job/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/collectiveidea~delayed_job/)*

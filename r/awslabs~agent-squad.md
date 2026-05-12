@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,597 | +12 |  |  | 2026-04-24 |
+| 7,626 | +19 | +66 | +309 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~agent-squad/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~agent-squad/)*

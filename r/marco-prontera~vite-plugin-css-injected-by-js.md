@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 500 | +0 | +2 |  | 2026-04-17 |
+| 500 | +0 | +0 | +8 | 2026-04-17 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/marco-prontera~vite-plugin-css-injected-by-js/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marco-prontera~vite-plugin-css-injected-by-js/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 659 | +2 |  |  | 2026-03-17 |
+| 664 | +3 | +13 | +35 | 2026-05-03 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Search Engines
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/neonwatty~meme-search/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neonwatty~meme-search/)*

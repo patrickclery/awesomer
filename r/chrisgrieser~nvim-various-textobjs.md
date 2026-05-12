@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 762 | +0 | +6 | +6 | 2026-04-13 |
+| 762 | +0 | +2 | +6 | 2026-04-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-various-textobjs/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-various-textobjs/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,810 | +58 |  |  | 2026-04-29 |
+| 27,885 | +52 | +201 | +833 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~semantic-kernel/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~semantic-kernel/)*

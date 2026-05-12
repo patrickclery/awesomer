@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,430 | +3 | +8 | +6 | 2026-04-19 |
+| 1,433 | +2 | +9 | +13 | 2026-04-19 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/drwhut~tabletop-club/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/drwhut~tabletop-club/)*

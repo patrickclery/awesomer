@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 746 | +1 | +0 | -1 | 2025-05-28 |
+| 746 | +0 | +2 | -1 | 2025-05-28 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vaniacer~piu-piu-sh/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vaniacer~piu-piu-sh/)*

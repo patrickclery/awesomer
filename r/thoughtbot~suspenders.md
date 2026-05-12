@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,048 | -1 | -2 | +1 | 2026-04-29 |
+| 4,048 | +0 | -2 | -2 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Rails Application Generators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~suspenders/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~suspenders/)*

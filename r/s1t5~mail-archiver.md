@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,828 | +17 |  |  | 2026-04-28 |
+| 1,861 | +12 | +73 | +288 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Archiving and Digital Preservation (DP)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/s1t5~mail-archiver/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/s1t5~mail-archiver/)*

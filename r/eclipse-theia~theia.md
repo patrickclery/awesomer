@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,486 | +11 | +55 | +96 | 2026-04-29 |
+| 21,499 | +11 | +44 | +101 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/eclipse-theia~theia/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eclipse-theia~theia/)*

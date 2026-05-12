@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 748 | +8 | +101 | +218 | 2026-04-26 |
+| 815 | +15 | +130 | +280 | 2026-04-29 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Backup
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/portabase~portabase/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/portabase~portabase/)*

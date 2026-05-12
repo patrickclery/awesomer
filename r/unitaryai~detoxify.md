@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,219 | +2 |  |  | 2026-04-06 |
+| 1,235 | +8 | +20 | +55 | 2026-04-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/unitaryai~detoxify/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unitaryai~detoxify/)*

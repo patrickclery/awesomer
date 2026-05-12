@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,370 | +4 | +16 | +23 | 2025-12-15 |
+| 5,377 | +6 | +22 | +28 | 2026-05-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/onqtam~awesome-cmake/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/onqtam~awesome-cmake/)*

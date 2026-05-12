@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 307 | +3 | +7 | +9 | 2025-07-01 |
+| 310 | +0 | +8 | +9 | 2025-07-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qolors~feedcord/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qolors~feedcord/)*

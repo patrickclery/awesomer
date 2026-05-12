@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 746 | +0 | +5 | +8 | 2026-01-07 |
+| 748 | +1 | +6 | +13 | 2026-01-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Tabline
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nanozuki~tabby.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nanozuki~tabby.nvim/)*

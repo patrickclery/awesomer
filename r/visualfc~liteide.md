@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,752 | +3 | -1 | +1 | 2025-09-08 |
+| 7,752 | +0 | +5 | -2 | 2025-09-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/visualfc~liteide/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/visualfc~liteide/)*

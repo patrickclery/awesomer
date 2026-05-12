@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 362 | +0 | +1 | +4 | 2026-01-17 |
+| 362 | +0 | +0 | +4 | 2026-01-17 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/akianonymus~gdrive-downloader/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/akianonymus~gdrive-downloader/)*

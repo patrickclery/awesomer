@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114 | +8 | +44 |  | 2026-04-28 |
+| 122 | +3 | +23 | +107 | 2026-04-29 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Config Managers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/foxj77~claudectx/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/foxj77~claudectx/)*

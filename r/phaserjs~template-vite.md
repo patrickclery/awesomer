@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 128 | +0 | +2 |  | 2026-04-21 |
+| 131 | +2 | +3 | +3 | 2026-04-29 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/phaserjs~template-vite/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/phaserjs~template-vite/)*

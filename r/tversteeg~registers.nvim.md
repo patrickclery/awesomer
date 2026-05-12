@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Register
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tversteeg~registers.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tversteeg~registers.nvim/)*

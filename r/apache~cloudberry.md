@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,211 | +8 |  |  | 2026-04-28 |
+| 1,216 | +2 | +16 | +36 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Server
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~cloudberry/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~cloudberry/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,010 | +99 | +210 | +373 | 2026-04-26 |
+| 25,071 | +33 | +215 | +389 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/simple-icons~simple-icons/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/simple-icons~simple-icons/)*

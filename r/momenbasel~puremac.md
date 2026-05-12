@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,592 | +576 |  |  | 2026-04-22 |
+| 4,101 | +371 | +3,994 |  | 2026-04-22 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Cleanup and Uninstall
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/momenbasel~puremac/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/momenbasel~puremac/)*

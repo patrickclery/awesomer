@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,261 | +1 | +4 | +9 | 2025-05-23 |
+| 1,263 | +0 | +2 | +10 | 2025-05-23 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Statusline
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rebelot~heirline.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rebelot~heirline.nvim/)*

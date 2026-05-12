@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 586 | +3 | +13 | +18 | 2026-04-28 |
+| 583 | +1 | +3 | +16 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/scribusproject~scribus/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/scribusproject~scribus/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189 | +1 | +4 |  | 2026-03-25 |
+| 190 | +0 | +4 | +11 | 2026-03-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Syntax
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/indianboy42~tree-sitter-just/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/indianboy42~tree-sitter-just/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,153 | +8 | +30 | +46 | 2026-04-29 |
+| 1,163 | +8 | +27 | +52 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apecloud~aperag/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apecloud~aperag/)*

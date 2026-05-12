@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,499 | +83 | +460 | +708 | 2026-01-19 |
+| 2,618 | +82 | +343 | +770 | 2026-01-19 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/op7418~nanobanana-ppt-skills/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/op7418~nanobanana-ppt-skills/)*

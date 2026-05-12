@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,914 |  |  |  | 2026-04-14 |
+| 2,929 | +7 | +34 | +110 | 2026-04-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Additional Inference Engines
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/b4rtaz~distributed-llama/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/b4rtaz~distributed-llama/)*

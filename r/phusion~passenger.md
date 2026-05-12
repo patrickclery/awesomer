@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,075 | +0 | -1 | +2 | 2026-04-23 |
+| 5,075 | +0 | +0 | +2 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/phusion~passenger/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/phusion~passenger/)*

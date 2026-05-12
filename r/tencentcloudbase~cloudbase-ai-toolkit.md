@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 998 | +4 | +13 | +3 | 2026-04-29 |
+| 1,006 | +3 | +19 | +3 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tencentcloudbase~cloudbase-ai-toolkit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tencentcloudbase~cloudbase-ai-toolkit/)*

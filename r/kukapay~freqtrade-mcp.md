@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 117 | +1 | +7 | +9 | 2025-12-06 |
+| 118 | +0 | +4 | +9 | 2025-12-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kukapay~freqtrade-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kukapay~freqtrade-mcp/)*

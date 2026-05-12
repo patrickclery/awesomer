@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,336 | +0 | +5 |  | 2026-02-25 |
+| 2,339 | +3 | +4 | +21 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Country Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hexorx~countries/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hexorx~countries/)*

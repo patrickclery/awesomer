@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 854 | +0 | +0 | +2 | 2026-03-24 |
+| 854 | +1 | -1 | +2 | 2026-03-24 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/eliverlara~ant/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eliverlara~ant/)*

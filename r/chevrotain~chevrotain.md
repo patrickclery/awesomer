@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,771 | +7 | +10 | +13 | 2026-04-27 |
+| 2,773 | +0 | +11 | +19 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/chevrotain~chevrotain/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chevrotain~chevrotain/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,439 | +15 | +27 | +46 | 2025-12-08 |
+| 24,443 | +5 | +23 | +43 | 2025-12-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/winstonjs~winston/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/winstonjs~winston/)*

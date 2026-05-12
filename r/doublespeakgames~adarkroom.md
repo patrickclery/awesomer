@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,078 | +16 | +38 | +66 | 2025-05-23 |
+| 8,101 | +13 | +58 | +83 | 2025-05-23 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/doublespeakgames~adarkroom/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/doublespeakgames~adarkroom/)*

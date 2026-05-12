@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 989 | +1 | +4 | +4 | 2025-11-26 |
+| 991 | +1 | +5 | +4 | 2025-11-26 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/oml-team~open-metric-learning/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/oml-team~open-metric-learning/)*

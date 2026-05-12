@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,444 | +21 | +113 | +189 | 2026-04-11 |
+| 2,563 | +85 | +175 | +288 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / General Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/roversx~launchnext/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/roversx~launchnext/)*

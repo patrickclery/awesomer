@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,823 | +20 | +78 | +132 | 2026-04-29 |
+| 7,861 | +24 | +86 | +159 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/openttd~openttd/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openttd~openttd/)*

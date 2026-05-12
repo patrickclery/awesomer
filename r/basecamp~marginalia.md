@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,773 | +1 | +2 |  | 2026-04-20 |
+| 1,773 | +0 | +2 | +4 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/basecamp~marginalia/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/basecamp~marginalia/)*

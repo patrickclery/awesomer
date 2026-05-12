@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,316 | +65 |  |  | 2026-04-14 |
+| 18,438 | +84 | +268 | +833 | 2026-04-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Evaluation Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~evals/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~evals/)*

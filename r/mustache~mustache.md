@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,072 | -1 | -2 |  | 2026-02-24 |
+| 3,075 | +1 | +4 | +11 | 2026-02-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Template Engine
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mustache~mustache/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mustache~mustache/)*

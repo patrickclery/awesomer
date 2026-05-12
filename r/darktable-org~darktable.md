@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,326 | +35 | +137 | +211 | 2026-04-29 |
+| 12,389 | +44 | +155 | +257 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/darktable-org~darktable/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/darktable-org~darktable/)*

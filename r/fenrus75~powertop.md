@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,298 | +3 | +15 | +23 | 2026-04-29 |
+| 1,306 | +6 | +17 | +28 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fenrus75~powertop/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fenrus75~powertop/)*

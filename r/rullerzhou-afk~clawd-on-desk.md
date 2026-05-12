@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,956 | +439 |  |  | 2026-04-29 |
+| 2,347 | +266 | +1,394 |  | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-code](../l/claude-code.md) / IDE Integrations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rullerzhou-afk~clawd-on-desk/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rullerzhou-afk~clawd-on-desk/)*

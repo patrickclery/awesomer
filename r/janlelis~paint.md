@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / CLI Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/janlelis~paint/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/janlelis~paint/)*

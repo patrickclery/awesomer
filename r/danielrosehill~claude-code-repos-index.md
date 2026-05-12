@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 424 | +48 | +260 | +67 | 2026-04-29 |
+| 470 | +20 | +239 | +300 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/danielrosehill~claude-code-repos-index/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/danielrosehill~claude-code-repos-index/)*

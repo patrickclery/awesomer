@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,502 | +8 | +33 |  | 2026-04-23 |
+| 3,514 | +6 | +26 | +115 | 2026-05-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Monitoring/Statistics/Perfomance
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wrouesnel~postgres_exporter/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wrouesnel~postgres_exporter/)*

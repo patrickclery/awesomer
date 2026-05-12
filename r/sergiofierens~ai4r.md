@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 720 | +0 | -1 |  | 2025-07-18 |
+| 721 | +1 | +1 | +2 | 2025-07-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Machine Learning
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sergiofierens~ai4r/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sergiofierens~ai4r/)*

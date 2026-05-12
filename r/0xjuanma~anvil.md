@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 111 | -2 | +1 | +8 | 2026-01-24 |
+| 115 | +1 | +3 | +10 | 2026-01-24 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/0xjuanma~anvil/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/0xjuanma~anvil/)*

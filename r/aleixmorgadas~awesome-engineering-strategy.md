@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,329 | +2 | +20 | +29 | 2026-02-27 |
+| 1,333 | +3 | +10 | +31 | 2026-02-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Business
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aleixmorgadas~awesome-engineering-strategy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aleixmorgadas~awesome-engineering-strategy/)*

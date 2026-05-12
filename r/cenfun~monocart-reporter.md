@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 302 | +1 | +6 | +8 | 2026-04-17 |
+| 302 | +0 | +3 | +8 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Reporters
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cenfun~monocart-reporter/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cenfun~monocart-reporter/)*

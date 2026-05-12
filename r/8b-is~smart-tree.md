@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 236 | +5 | +6 | +9 | 2026-04-22 |
+| 243 | +1 | +12 | +15 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / File Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/8b-is~smart-tree/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/8b-is~smart-tree/)*

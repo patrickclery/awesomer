@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,507 | +138 | +644 | +1,081 | 2026-04-29 |
+| 31,250 | +649 | +1,107 | +1,718 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nextjs](../l/nextjs.md) / Extensions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/copilotkit~copilotkit/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/copilotkit~copilotkit/)*

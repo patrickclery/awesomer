@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,943 | +15 |  |  | 2026-04-29 |
+| 6,969 | +13 | +58 | +151 | 2026-05-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/enricoros~big-agi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/enricoros~big-agi/)*

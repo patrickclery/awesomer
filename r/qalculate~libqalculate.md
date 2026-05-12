@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,481 | +9 | +40 | +63 | 2026-04-28 |
+| 2,489 | +6 | +30 | +62 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qalculate~libqalculate/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qalculate~libqalculate/)*

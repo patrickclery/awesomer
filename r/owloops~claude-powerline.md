@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,046 | +22 | +78 | +144 | 2026-04-28 |
+| 1,072 | +13 | +72 | +159 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/owloops~claude-powerline/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/owloops~claude-powerline/)*

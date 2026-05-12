@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 370 | +0 | +1 | +3 | 2026-04-23 |
+| 371 | +0 | +1 | +3 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/archergu~fast-vite-nestjs-electron/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/archergu~fast-vite-nestjs-electron/)*

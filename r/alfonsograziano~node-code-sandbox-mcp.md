@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +0 | +2 | +5 | 2025-11-24 |
+| 152 | +0 | +0 | +5 | 2025-11-24 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Code Execution
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alfonsograziano~node-code-sandbox-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alfonsograziano~node-code-sandbox-mcp/)*

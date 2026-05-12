@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 265 | +0 | +3 |  | 2026-04-21 |
+| 268 | +3 | +4 | +9 | 2026-04-21 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Open Source
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/albancrepel~compiiile/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/albancrepel~compiiile/)*

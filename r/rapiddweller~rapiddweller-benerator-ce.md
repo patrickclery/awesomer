@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 158 | +0 | +0 |  | 2026-01-17 |
+| 157 | -1 | -1 | +0 | 2026-01-17 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rapiddweller~rapiddweller-benerator-ce/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rapiddweller~rapiddweller-benerator-ce/)*

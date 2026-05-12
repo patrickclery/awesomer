@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,321 | +2 | +2 | +6 | 2026-03-21 |
+| 1,324 | +2 | +4 | +8 | 2026-03-21 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Shell Package Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alichtman~shallow-backup/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alichtman~shallow-backup/)*

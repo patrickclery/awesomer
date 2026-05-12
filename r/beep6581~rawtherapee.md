@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,917 | +11 | +52 |  | 2026-04-29 |
+| 3,939 | +15 | +55 | +159 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/beep6581~rawtherapee/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/beep6581~rawtherapee/)*

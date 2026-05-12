@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 646 | +1 | +6 | +22 | 2026-03-24 |
+| 651 | +2 | +8 | +25 | 2026-03-24 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mem0ai~mem0-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mem0ai~mem0-mcp/)*

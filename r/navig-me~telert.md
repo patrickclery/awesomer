@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 281 | +1 | +4 | +4 | 2025-12-15 |
+| 281 | +0 | +2 | +4 | 2025-12-15 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/navig-me~telert/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/navig-me~telert/)*

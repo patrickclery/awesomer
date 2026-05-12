@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,867 | +18 |  |  | 2026-04-14 |
+| 3,894 | +15 | +74 | +192 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Sandboxes
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/google~nsjail/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google~nsjail/)*

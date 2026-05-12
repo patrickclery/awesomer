@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,994 | +9 | +48 | +80 | 2026-04-22 |
+| 15,002 | +6 | +41 | +81 | 2026-04-22 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aniftyco~awesome-tailwindcss/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aniftyco~awesome-tailwindcss/)*

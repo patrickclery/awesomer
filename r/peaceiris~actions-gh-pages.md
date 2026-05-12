@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,279 | +6 | +19 | +33 | 2026-04-15 |
+| 5,288 | +4 | +25 | +35 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Pages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/peaceiris~actions-gh-pages/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/peaceiris~actions-gh-pages/)*

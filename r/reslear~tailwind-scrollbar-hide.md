@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 310 | +0 | +2 |  | 2025-08-24 |
+| 312 | +1 | +2 | +8 | 2025-08-24 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/reslear~tailwind-scrollbar-hide/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/reslear~tailwind-scrollbar-hide/)*

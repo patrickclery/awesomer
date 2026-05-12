@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 827 | +3 |  |  | 2026-04-07 |
+| 829 | +1 | +6 |  | 2026-04-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / GUI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/andyobtiva~glimmer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/andyobtiva~glimmer/)*

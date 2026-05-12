@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,544 | +22 | +235 | +273 | 2026-04-19 |
+| 28,566 | +10 | +234 | +282 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / GUI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/getredash~redash/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/getredash~redash/)*

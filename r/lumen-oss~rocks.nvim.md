@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,026 | +3 | +13 | +11 | 2026-04-13 |
+| 1,029 | +3 | +13 | +11 | 2026-05-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Plugin Manager
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lumen-oss~rocks.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lumen-oss~rocks.nvim/)*

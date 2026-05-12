@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,406 | +3 | +20 | +41 | 2026-04-13 |
+| 3,420 | +4 | +26 | +48 | 2026-04-13 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/krzjoa~awesome-python-data-science/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/krzjoa~awesome-python-data-science/)*

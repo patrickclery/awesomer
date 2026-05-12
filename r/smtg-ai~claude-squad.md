@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,209 | +96 | +487 | +732 | 2026-03-28 |
+| 7,421 | +103 | +474 | +899 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Orchestrators
+- [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/smtg-ai~claude-squad/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smtg-ai~claude-squad/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,120 | +8 | +24 | +38 | 2025-11-10 |
+| 4,125 | +6 | +22 | +42 | 2025-11-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Comment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~todo-comments.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~todo-comments.nvim/)*

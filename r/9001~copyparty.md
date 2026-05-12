@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,542 | +141 | +646 | +1,235 | 2026-04-24 |
+| 44,793 | +125 | +600 | +1,344 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Web-based File Managers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/9001~copyparty/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/9001~copyparty/)*

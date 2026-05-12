@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 375 | +2 | +2 |  | 2026-04-04 |
+| 376 | +0 | +3 | +17 | 2026-04-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/yuzheshi~awesome-agi-cocosci/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yuzheshi~awesome-agi-cocosci/)*

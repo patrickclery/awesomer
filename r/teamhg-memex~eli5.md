@@ -15,4 +15,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Interpretability & Explainability
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/teamhg-memex~eli5/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/teamhg-memex~eli5/)*

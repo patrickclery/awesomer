@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 265 | +7 | +26 | +45 | 2026-04-22 |
+| 274 | +7 | +27 | +49 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Orchestrators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rsmdt~the-startup/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rsmdt~the-startup/)*

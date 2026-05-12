@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,730 | +5 |  |  | 2026-04-29 |
+| 7,733 | +2 | +17 | +66 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Distributions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/postgresapp~postgresapp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/postgresapp~postgresapp/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,785 | +119 | +503 | +913 | 2026-04-26 |
+| 30,955 | +105 | +490 | +1,000 | 2026-05-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qarmin~czkawka/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qarmin~czkawka/)*

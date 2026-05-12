@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,704 | +1 | +3 |  | 2026-04-26 |
+| 3,706 | +1 | +5 | +16 | 2026-04-26 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/polyaxon~polyaxon/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/polyaxon~polyaxon/)*

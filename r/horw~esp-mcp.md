@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 148 | +0 | +5 | +11 | 2025-12-27 |
+| 148 | +1 | +3 | +11 | 2025-12-27 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Embedded System
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/horw~esp-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/horw~esp-mcp/)*

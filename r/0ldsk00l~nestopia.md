@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 895 | +2 | +6 | +15 | 2026-04-26 |
+| 897 | +0 | +3 | +18 | 2026-04-26 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/0ldsk00l~nestopia/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/0ldsk00l~nestopia/)*

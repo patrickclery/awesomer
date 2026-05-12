@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,039 |  |  |  | 2026-04-08 |
+| 1,045 | +4 | +19 | +53 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Game AI & Simulations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/toni-sm~skrl/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/toni-sm~skrl/)*

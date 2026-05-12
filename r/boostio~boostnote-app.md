@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,051 | +5 | +10 | +11 | 2026-03-17 |
+| 4,051 | +0 | +11 | +15 | 2026-03-17 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/boostio~boostnote-app/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/boostio~boostnote-app/)*

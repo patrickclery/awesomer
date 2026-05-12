@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 351 | +39 | +153 |  | 2026-01-30 |
+| 457 | +46 | +202 | +441 | 2026-01-30 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/paramchoudhary~resumeskills/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/paramchoudhary~resumeskills/)*

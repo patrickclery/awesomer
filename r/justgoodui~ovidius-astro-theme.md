@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114 | +0 | +1 | +2 | 2025-11-04 |
+| 114 | +0 | +1 | +1 | 2025-11-04 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / UI libraries, components & templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/justgoodui~ovidius-astro-theme/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/justgoodui~ovidius-astro-theme/)*

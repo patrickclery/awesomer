@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,318 | +134 | +583 | +891 | 2026-04-16 |
+| 3,591 | +187 | +600 | +1,115 | 2026-04-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/coding-solo~godot-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coding-solo~godot-mcp/)*

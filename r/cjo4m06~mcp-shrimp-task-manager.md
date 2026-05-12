@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,091 | +4 | +27 | +49 | 2025-08-21 |
+| 2,098 | +6 | +21 | +48 | 2025-08-21 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cjo4m06~mcp-shrimp-task-manager/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cjo4m06~mcp-shrimp-task-manager/)*

@@ -15,4 +15,4 @@
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/netlify~actions/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netlify~actions/)*

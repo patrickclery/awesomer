@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,256 | +15 | +66 | +144 | 2025-08-29 |
+| 22,265 | +3 | +44 | +133 | 2025-08-29 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/localtunnel~localtunnel/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/localtunnel~localtunnel/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 858 | +6 |  |  | 2026-04-26 |
+| 879 | +7 | +43 | +128 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Instagram
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/misiektoja~instagram_monitor/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/misiektoja~instagram_monitor/)*

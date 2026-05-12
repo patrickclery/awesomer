@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,998 | +1 | +2 |  | 2026-03-25 |
+| 2,001 | +1 | +4 | +12 | 2026-03-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Date and Time Processing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/basecamp~local_time/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/basecamp~local_time/)*

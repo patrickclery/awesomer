@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 901 | +1 | +0 | +4 | 2026-01-11 |
+| 903 | +2 | +2 | +4 | 2026-01-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~nvim-hlslens/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~nvim-hlslens/)*

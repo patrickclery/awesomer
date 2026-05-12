@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 169,960 | +6,605 | +51,648 |  | 2026-04-29 |
+| 179,322 | +6,207 | +28,351 |  | 2026-05-11 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/affaan-m~everything-claude-code/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/affaan-m~everything-claude-code/)*

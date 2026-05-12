@@ -15,4 +15,4 @@
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aaronhma~awesome-tensorflow-js/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aaronhma~awesome-tensorflow-js/)*

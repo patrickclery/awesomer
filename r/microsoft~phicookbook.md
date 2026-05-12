@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,732 | +2 |  |  | 2026-04-26 |
+| 3,731 | +3 | +5 | +87 | 2026-05-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧠 2. Open Foundation Models
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~phicookbook/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~phicookbook/)*

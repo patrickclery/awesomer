@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,008 | +2 | +0 |  | 2025-08-02 |
+| 4,007 | -2 | +3 |  | 2025-08-02 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Images
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/icholy~ttygif/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/icholy~ttygif/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 313 | +7 | +35 |  | 2026-04-17 |
+| 330 | +8 | +32 | +79 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/polygon-io~mcp_polygon/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/polygon-io~mcp_polygon/)*

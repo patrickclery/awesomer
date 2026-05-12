@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 273 | +0 |  |  | 2026-03-22 |
+| 275 | +2 | +3 |  | 2026-03-22 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Symfony
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lhapaipai~vite-bundle/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lhapaipai~vite-bundle/)*

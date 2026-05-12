@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,158 | +2 |  |  | 2026-03-01 |
+| 1,162 | +3 | +12 | +33 | 2026-03-01 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / [zshPlug](https://github.com/Atlas34/zshPlug)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zap-zsh~zap/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zap-zsh~zap/)*

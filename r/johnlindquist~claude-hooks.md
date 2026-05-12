@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 362 | +9 | +23 | +32 | 2025-08-08 |
+| 364 | +1 | +21 | +32 | 2025-08-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/johnlindquist~claude-hooks/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/johnlindquist~claude-hooks/)*

@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gennaro-tedesco~nvim-possession/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gennaro-tedesco~nvim-possession/)*

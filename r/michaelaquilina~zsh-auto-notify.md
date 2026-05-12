@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 477 | +1 | +3 | +6 | 2025-06-23 |
+| 478 | +0 | +3 | +7 | 2025-06-23 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelaquilina~zsh-auto-notify/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelaquilina~zsh-auto-notify/)*

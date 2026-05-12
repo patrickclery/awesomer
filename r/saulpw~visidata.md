@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,053 | +18 | +109 | +155 | 2026-04-24 |
+| 9,080 | +17 | +71 | +172 | 2026-05-07 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/saulpw~visidata/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saulpw~visidata/)*

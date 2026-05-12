@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,022 | +152 | +1,092 | +2,388 | 2026-04-29 |
+| 8,204 | +114 | +857 | +2,314 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ykdojo~claude-code-tips/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ykdojo~claude-code-tips/)*

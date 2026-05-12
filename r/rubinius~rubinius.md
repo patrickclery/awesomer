@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,095 | +2 | +2 | +0 | 2025-09-11 |
+| 3,095 | +0 | +2 | +0 | 2025-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Implementations/Compilers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rubinius~rubinius/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rubinius~rubinius/)*

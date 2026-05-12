@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,434 | +13 | +61 | +116 | 2026-04-26 |
+| 11,462 | +19 | +64 | +126 | 2026-05-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/streamlink~streamlink/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/streamlink~streamlink/)*

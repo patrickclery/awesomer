@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 38,152 | +13 | +82 | +173 | 2026-04-29 |
+| 38,195 | +33 | +86 | +203 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/istio~istio/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/istio~istio/)*

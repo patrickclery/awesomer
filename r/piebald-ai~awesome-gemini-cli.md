@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 430 | +9 | +53 | +84 | 2026-04-25 |
+| 444 | +6 | +43 | +90 | 2026-05-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/piebald-ai~awesome-gemini-cli/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/piebald-ai~awesome-gemini-cli/)*

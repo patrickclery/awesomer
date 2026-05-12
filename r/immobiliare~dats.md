@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 103 | +0 | +0 |  | 2025-04-28 |
+| 103 | +0 | +0 |  | 2026-05-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-28 | [View live site ↗](https://patrickclery.com/awesomer/r/immobiliare~dats/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/immobiliare~dats/)*

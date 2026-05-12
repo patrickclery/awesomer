@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,216 | +82 |  |  | 2026-03-04 |
+| 16,304 | +54 | +396 | +3,194 | 2026-03-04 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qwenlm~qwen-agent/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qwenlm~qwen-agent/)*

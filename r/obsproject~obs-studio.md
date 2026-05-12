@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 72,030 | +180 | +767 | +1,156 | 2026-04-22 |
+| 72,299 | +148 | +771 | +1,322 | 2026-05-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/obsproject~obs-studio/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/obsproject~obs-studio/)*

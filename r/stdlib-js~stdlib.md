@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,811 | +5 | +22 | +50 | 2026-04-29 |
+| 5,826 | +10 | +30 | +55 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / JavaScript
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/stdlib-js~stdlib/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stdlib-js~stdlib/)*

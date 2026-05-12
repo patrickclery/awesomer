@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 510 | +3 | +3 | +1 | 2026-04-29 |
+| 511 | +2 | +4 | +1 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Pages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/crazy-max~ghaction-github-pages/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crazy-max~ghaction-github-pages/)*

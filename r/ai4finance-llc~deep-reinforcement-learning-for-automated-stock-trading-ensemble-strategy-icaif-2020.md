@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,074 | +38 | +234 |  | 2026-04-28 |
+| 3,143 | +31 | +217 | +466 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Time Series Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ai4finance-llc~deep-reinforcement-learning-for-automated-stock-trading-ensemble-strategy-icaif-2020/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ai4finance-llc~deep-reinforcement-learning-for-automated-stock-trading-ensemble-strategy-icaif-2020/)*

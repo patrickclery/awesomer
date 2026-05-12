@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,705 | +370 |  |  | 2026-01-09 |
+| 33,462 | +583 | +1,677 | +4,134 | 2026-01-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/songquanpeng~one-api/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/songquanpeng~one-api/)*

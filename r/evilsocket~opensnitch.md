@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,548 | +46 | +514 | +579 | 2026-04-17 |
+| 13,611 | +35 | +207 | +620 | 2026-04-17 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/evilsocket~opensnitch/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/evilsocket~opensnitch/)*

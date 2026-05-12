@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 78,652 | +101 | +384 | +629 | 2026-04-29 |
+| 78,768 | +72 | +390 | +691 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/netdata~netdata/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netdata~netdata/)*

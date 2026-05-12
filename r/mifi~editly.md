@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,396 | +14 | +42 | +59 | 2025-05-12 |
+| 5,405 | +5 | +34 | +63 | 2025-05-12 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mifi~editly/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mifi~editly/)*

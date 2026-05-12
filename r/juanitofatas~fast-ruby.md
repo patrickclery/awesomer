@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,732 | +1 | +2 |  | 2025-12-29 |
+| 5,731 | -1 | +0 | +12 | 2025-12-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Coding Style Guides
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/juanitofatas~fast-ruby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/juanitofatas~fast-ruby/)*

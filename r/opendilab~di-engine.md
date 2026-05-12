@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,622 | +1 | +10 | +25 | 2025-12-07 |
+| 3,617 | -6 | +3 | +18 | 2025-12-07 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/opendilab~di-engine/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opendilab~di-engine/)*

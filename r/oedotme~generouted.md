@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,214 | +1 | +4 | +5 | 2026-04-05 |
+| 1,217 | +3 | +6 | +6 | 2026-04-05 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / React
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/oedotme~generouted/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/oedotme~generouted/)*

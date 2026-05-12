@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,308 | +16 | +69 | +88 | 2026-04-29 |
+| 8,335 | +13 | +67 | +109 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/brndnmtthws~conky/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brndnmtthws~conky/)*

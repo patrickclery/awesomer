@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,410 | +82 | +275 |  | 2026-04-24 |
+| 26,563 | +112 | +351 | +1,023 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/eloston~ungoogled-chromium/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eloston~ungoogled-chromium/)*

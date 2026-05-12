@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 320 | +4 | +7 |  | 2026-04-25 |
+| 322 | +2 | +6 | +13 | 2026-04-25 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tamcore~autoupdate-oh-my-zsh-plugins/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tamcore~autoupdate-oh-my-zsh-plugins/)*

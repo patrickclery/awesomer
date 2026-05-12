@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +1 | +2 | +4 | 2026-04-29 |
+| 152 | +0 | +1 | +3 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/defanglabs~defang/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/defanglabs~defang/)*

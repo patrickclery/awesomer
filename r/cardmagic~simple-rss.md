@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 227 | +0 |  |  | 2026-03-29 |
+| 227 | +0 | +0 |  | 2026-03-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / RSS
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cardmagic~simple-rss/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cardmagic~simple-rss/)*

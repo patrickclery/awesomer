@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,138 | +72 |  |  | 2026-01-05 |
+| 10,233 | +64 | +309 | +989 | 2026-01-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🎨 6. Generative Media Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lightricks~ltx-video/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lightricks~ltx-video/)*

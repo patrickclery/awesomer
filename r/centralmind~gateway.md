@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 525 | +2 | +4 | +5 | 2025-07-18 |
+| 528 | +1 | +7 | +5 | 2025-07-18 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/centralmind~gateway/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/centralmind~gateway/)*

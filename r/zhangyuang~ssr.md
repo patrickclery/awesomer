@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,705 | +0 | +2 | +3 | 2026-04-08 |
+| 2,705 | +1 | +0 | +2 | 2026-04-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zhangyuang~ssr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zhangyuang~ssr/)*

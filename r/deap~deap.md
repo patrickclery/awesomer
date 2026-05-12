@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,382 | +0 | +22 |  | 2026-04-17 |
+| 6,391 | +4 | +16 | +74 | 2026-04-17 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/deap~deap/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deap~deap/)*

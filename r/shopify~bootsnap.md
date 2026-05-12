@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,723 | +0 | +2 |  | 2026-04-28 |
+| 2,725 | +1 | +5 |  | 2026-05-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Optimizations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shopify~bootsnap/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shopify~bootsnap/)*

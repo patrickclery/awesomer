@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,569 | +25 | +147 | +201 | 2026-04-05 |
+| 8,620 | +38 | +133 | +238 | 2026-05-08 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Big Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/igorbarinov~awesome-data-engineering/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/igorbarinov~awesome-data-engineering/)*

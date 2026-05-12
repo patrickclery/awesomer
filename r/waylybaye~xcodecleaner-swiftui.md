@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,414 | +2 | +1 | +2 | 2025-06-19 |
+| 1,419 | +4 | +7 | +5 | 2025-06-19 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/waylybaye~xcodecleaner-swiftui/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/waylybaye~xcodecleaner-swiftui/)*

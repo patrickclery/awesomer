@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,915 | -2 | +0 | +4 | 2026-04-15 |
+| 9,910 | -4 | -4 | -2 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/devexpress~testcafe/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/devexpress~testcafe/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 494 | +1 | +20 | +34 | 2026-03-19 |
+| 515 | +19 | +31 | +51 | 2026-03-19 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/joinly-ai~joinly/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/joinly-ai~joinly/)*

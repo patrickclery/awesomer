@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,760 | +4 | +33 | +53 | 2026-04-26 |
+| 3,770 | +0 | +31 | +63 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/damascenorafael~reminders-menubar/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/damascenorafael~reminders-menubar/)*

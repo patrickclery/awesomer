@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,565 | +1 | +3 | +7 | 2025-09-24 |
+| 10,562 | -1 | +0 | +2 | 2025-09-24 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/phw~peek/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/phw~peek/)*

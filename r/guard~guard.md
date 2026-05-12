@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,479 | -38 | -146 | -158 | 2026-02-02 |
+| 6,441 | -38 | -86 | -197 | 2026-02-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / File System Listener
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/guard~guard/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/guard~guard/)*

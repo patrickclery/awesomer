@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,333 | +16 | +71 | +116 | 2026-04-22 |
+| 6,377 | +33 | +87 | +146 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Traditional Market
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ricequant~rqalpha/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ricequant~rqalpha/)*

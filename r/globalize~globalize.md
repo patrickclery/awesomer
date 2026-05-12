@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,157 | +0 | -2 |  | 2025-12-23 |
+| 2,157 | +0 | -1 |  | 2025-12-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/globalize~globalize/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/globalize~globalize/)*

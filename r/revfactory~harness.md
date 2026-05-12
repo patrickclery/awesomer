@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,989 | +239 |  |  | 2026-04-18 |
+| 3,260 | +151 | +958 |  | 2026-05-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Teams
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/revfactory~harness/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/revfactory~harness/)*

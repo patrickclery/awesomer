@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,973 | +3 | +17 | +31 | 2026-04-27 |
+| 10,977 | +2 | +11 | +30 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/quay~clair/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/quay~clair/)*

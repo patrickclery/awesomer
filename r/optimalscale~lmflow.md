@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,487 | +4 |  |  | 2026-04-25 |
+| 8,488 | +2 | +3 | +22 | 2026-05-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/optimalscale~lmflow/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/optimalscale~lmflow/)*

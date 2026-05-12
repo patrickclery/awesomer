@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,991 | +1 | -1 | -1 | 2026-01-17 |
+| 5,991 | +0 | +2 | -1 | 2026-01-17 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/serialport~node-serialport/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/serialport~node-serialport/)*

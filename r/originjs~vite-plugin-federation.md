@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,015 | -2 | +3 | +11 | 2025-05-17 |
+| 3,018 | +2 | +5 | +12 | 2025-05-17 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/originjs~vite-plugin-federation/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/originjs~vite-plugin-federation/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,013 | +0 | +12 | +22 | 2025-11-14 |
+| 6,017 | +2 | +14 | +25 | 2025-11-14 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mixn~carbon-now-cli/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mixn~carbon-now-cli/)*

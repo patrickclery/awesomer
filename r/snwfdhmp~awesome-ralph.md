@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 867 | +9 | +45 | +132 | 2026-02-03 |
+| 874 | +5 | +32 | +93 | 2026-02-03 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Ralph Wiggum
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/snwfdhmp~awesome-ralph/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/snwfdhmp~awesome-ralph/)*

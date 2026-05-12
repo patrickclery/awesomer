@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 804 | +1 | +2 | +9 | 2026-04-15 |
+| 807 | +2 | +6 | +9 | 2026-04-15 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Bookmarks and Link Sharing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/beromir~servas/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/beromir~servas/)*

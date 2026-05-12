@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,688 | +5 | +14 | +32 | 2026-04-28 |
+| 2,695 | +5 | +17 | +33 | 2026-04-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Tabline
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/romgrk~barbar.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/romgrk~barbar.nvim/)*

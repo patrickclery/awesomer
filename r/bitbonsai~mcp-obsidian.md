@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,168 | +47 | +185 | +270 | 2026-04-27 |
+| 1,232 | +37 | +182 | +314 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bitbonsai~mcp-obsidian/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bitbonsai~mcp-obsidian/)*

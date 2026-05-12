@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,175 | +3 | +17 | +29 | 2026-04-17 |
+| 1,180 | +1 | +10 | +29 | 2026-04-17 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/richardtallent~vite-plugin-singlefile/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/richardtallent~vite-plugin-singlefile/)*

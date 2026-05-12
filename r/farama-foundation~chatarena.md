@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,546 | +0 |  |  | 2025-08-11 |
+| 1,547 | +0 | +5 | +20 | 2025-08-11 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/farama-foundation~chatarena/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/farama-foundation~chatarena/)*

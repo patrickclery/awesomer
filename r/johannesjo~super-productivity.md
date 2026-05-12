@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,905 | +124 | +658 | +288 | 2026-04-28 |
+| 19,219 | +189 | +667 | +288 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/johannesjo~super-productivity/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/johannesjo~super-productivity/)*

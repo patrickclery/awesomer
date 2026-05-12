@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,944 | +1,228 | +5,412 |  | 2026-04-28 |
+| 48,928 | +8,429 | +17,709 | +35,265 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Orchestrators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ruvnet~claude-code-flow/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ruvnet~claude-code-flow/)*

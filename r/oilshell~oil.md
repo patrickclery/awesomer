@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,317 | +1 | +12 |  | 2026-03-14 |
+| 3,334 | +11 | +22 | +53 | 2026-03-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/oilshell~oil/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/oilshell~oil/)*

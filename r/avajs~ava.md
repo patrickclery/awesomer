@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,849 | +0 | -2 | +1 | 2026-04-27 |
+| 20,845 | -2 | -4 | -3 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/avajs~ava/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/avajs~ava/)*

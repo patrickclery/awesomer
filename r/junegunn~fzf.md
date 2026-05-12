@@ -8,14 +8,14 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 79,880 | +170 | +788 | +1,341 | 2026-04-27 |
+| 80,150 | +151 | +771 | +1,508 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / [zplug](https://github.com/zplug/zplug)
-- [Awesome-Linux-Software](../l/linux-software.md) / Tools
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
+- [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/junegunn~fzf/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/junegunn~fzf/)*

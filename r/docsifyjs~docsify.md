@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,184 | +33 | +92 | +175 | 2026-04-29 |
+| 31,198 | +11 | +78 | +152 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/docsifyjs~docsify/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/docsifyjs~docsify/)*

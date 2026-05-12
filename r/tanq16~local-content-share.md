@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 445 | -1 | +6 | +13 | 2026-01-28 |
+| 451 | +4 | +9 | +16 | 2026-01-28 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Pastebins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tanq16~local-content-share/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tanq16~local-content-share/)*

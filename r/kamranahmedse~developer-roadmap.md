@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 353,867 | +519 |  |  | 2026-04-29 |
+| 354,591 | +449 | +1,899 | +7,195 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Technologies
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kamranahmedse~developer-roadmap/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kamranahmedse~developer-roadmap/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 283 | +32 |  |  | 2026-04-19 |
+| 328 | +30 | +121 |  | 2026-05-05 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/youichi-uda~godot-mcp-pro/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/youichi-uda~godot-mcp-pro/)*

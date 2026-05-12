@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 409 | +1 |  |  | 2026-03-01 |
+| 413 | +0 | +8 | +16 | 2026-03-01 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Encryption
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alichtman~deadbolt/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alichtman~deadbolt/)*

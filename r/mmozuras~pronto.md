@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,666 | +1 | +4 |  | 2026-04-27 |
+| 2,668 | +2 | +4 | +11 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Analysis and Metrics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mmozuras~pronto/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mmozuras~pronto/)*

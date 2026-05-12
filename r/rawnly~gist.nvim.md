@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 214 | +0 | +1 |  | 2026-02-18 |
+| 215 | +0 | +2 | +2 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / GitHub
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rawnly~gist.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rawnly~gist.nvim/)*

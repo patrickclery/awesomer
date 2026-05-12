@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,376 | -2 |  |  | 2025-12-16 |
+| 1,377 | +1 | -1 |  | 2025-12-16 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Natural Language Processing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fukuball~jieba-php/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fukuball~jieba-php/)*

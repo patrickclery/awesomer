@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,368 | +5 | +17 | +19 | 2026-04-23 |
+| 2,374 | +4 | +13 | +27 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/astefanutti~decktape/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/astefanutti~decktape/)*

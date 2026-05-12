@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,123 | +74 |  |  | 2026-04-27 |
+| 18,226 | +72 | +308 | +1,127 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Large Language Models (Base + Chat)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/state-spaces~mamba/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/state-spaces~mamba/)*

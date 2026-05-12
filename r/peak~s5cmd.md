@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,022 | +10 | +45 | +75 | 2025-06-13 |
+| 4,038 | +8 | +42 | +80 | 2025-06-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/peak~s5cmd/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/peak~s5cmd/)*

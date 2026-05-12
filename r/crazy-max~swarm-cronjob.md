@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 871 | +3 | +5 | +5 | 2026-04-23 |
+| 872 | +1 | +5 | +8 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/crazy-max~swarm-cronjob/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crazy-max~swarm-cronjob/)*

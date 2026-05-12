@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 138 | +0 |  |  | 2026-04-07 |
+| 138 | +0 | +0 |  | 2026-04-07 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Plex Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jrudio~go-plex-client/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jrudio~go-plex-client/)*

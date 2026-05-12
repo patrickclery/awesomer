@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,394 | +11 | +30 | +42 | 2026-04-23 |
+| 2,407 | +9 | +35 | +48 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/steamgriddb~steam-rom-manager/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/steamgriddb~steam-rom-manager/)*

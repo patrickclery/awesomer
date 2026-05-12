@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,632 | +11 | +92 | +122 | 2026-03-04 |
+| 3,653 | +8 | +68 | +132 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Containers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nestybox~sysbox/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nestybox~sysbox/)*

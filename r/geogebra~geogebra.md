@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,193 | +0 | +18 | +20 | 2026-04-28 |
+| 2,205 | +8 | +22 | +35 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Education
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/geogebra~geogebra/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/geogebra~geogebra/)*

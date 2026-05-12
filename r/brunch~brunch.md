@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,758 | +1 | -3 | -4 | 2026-04-19 |
+| 6,758 | +0 | +0 | -4 | 2026-04-19 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/brunch~brunch/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brunch~brunch/)*

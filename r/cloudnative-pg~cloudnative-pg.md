@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,528 | +43 | +200 | +309 | 2026-04-29 |
+| 8,592 | +32 | +194 | +344 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Kubernetes
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudnative-pg~cloudnative-pg/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudnative-pg~cloudnative-pg/)*

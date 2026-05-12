@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mangelozzi~rgflow.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mangelozzi~rgflow.nvim/)*

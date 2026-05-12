@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 116 | +2 | +5 | +7 | 2026-04-24 |
+| 116 | +0 | +5 | +7 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/flintsh~flare/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flintsh~flare/)*

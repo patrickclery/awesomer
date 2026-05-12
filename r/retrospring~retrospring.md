@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 285 | -2 | -1 |  | 2025-08-31 |
+| 284 | -1 | -3 | +2 | 2025-08-31 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Social Networking
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/retrospring~retrospring/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/retrospring~retrospring/)*

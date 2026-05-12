@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,030 | -1 | +7 |  | 2026-04-02 |
+| 2,033 | +0 | +6 | +30 | 2026-04-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/palkan~test-prof/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/palkan~test-prof/)*

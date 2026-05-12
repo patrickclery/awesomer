@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,761 | -2 | +11 | +15 | 2026-04-02 |
+| 4,767 | +4 | +10 | +14 | 2026-05-01 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/amundsen-io~amundsen/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/amundsen-io~amundsen/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 382 | +2 | +9 | +12 | 2026-03-18 |
+| 383 | +0 | +7 | +14 | 2026-03-18 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Utility
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/maxim-lobanov~setup-xcode/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/maxim-lobanov~setup-xcode/)*

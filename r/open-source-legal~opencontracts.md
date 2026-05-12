@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,298 | +15 |  |  | 2026-04-29 |
+| 1,309 | +9 | +37 | +163 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Legal AI & Contract Analysis
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/open-source-legal~opencontracts/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/open-source-legal~opencontracts/)*

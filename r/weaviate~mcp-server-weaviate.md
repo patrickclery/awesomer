@@ -15,4 +15,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/weaviate~mcp-server-weaviate/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/weaviate~mcp-server-weaviate/)*

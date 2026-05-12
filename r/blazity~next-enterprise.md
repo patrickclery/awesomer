@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,386 | +9 | +17 | +34 | 2026-04-16 |
+| 7,393 | +4 | +25 | +36 | 2026-04-29 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/blazity~next-enterprise/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/blazity~next-enterprise/)*

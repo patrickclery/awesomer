@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,977 | +2 | +7 |  | 2025-08-06 |
+| 6,982 | +5 | +11 | +32 | 2025-08-06 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/deepmipt~deeppavlov/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deepmipt~deeppavlov/)*

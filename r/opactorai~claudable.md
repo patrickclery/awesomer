@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,914 | +24 | +70 | +123 | 2026-04-11 |
+| 3,950 | +14 | +80 | +151 | 2026-04-11 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/opactorai~claudable/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opactorai~claudable/)*

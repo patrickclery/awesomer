@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 671 | +0 | +7 | +8 | 2026-04-29 |
+| 670 | -1 | +3 | +8 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/anmol098~anmol098/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anmol098~anmol098/)*

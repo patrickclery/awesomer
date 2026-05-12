@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,468 | +39 | +160 | +239 | 2026-04-24 |
+| 20,513 | +22 | +150 | +269 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ethicalml~awesome-production-machine-learning/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ethicalml~awesome-production-machine-learning/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 142 | +0 | +2 |  | 2026-04-20 |
+| 143 | +1 | +2 | +4 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Reporters
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanrosello-og~playwright-slack-report/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanrosello-og~playwright-slack-report/)*

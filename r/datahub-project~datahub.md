@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,854 | +27 | +127 | +187 | 2026-04-29 |
+| 11,891 | +21 | +113 | +201 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Engineering & Feature Stores
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/datahub-project~datahub/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/datahub-project~datahub/)*

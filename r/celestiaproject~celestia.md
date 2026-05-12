@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,270 | +8 | +26 | +40 | 2026-04-28 |
+| 2,284 | +5 | +32 | +52 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Education
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/celestiaproject~celestia/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/celestiaproject~celestia/)*

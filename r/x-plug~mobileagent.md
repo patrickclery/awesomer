@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,586 |  |  |  | 2026-04-14 |
+| 8,651 | +37 | +225 | +1,529 | 2026-04-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/x-plug~mobileagent/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/x-plug~mobileagent/)*

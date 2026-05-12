@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,930 | +7 | +17 | +31 | 2026-04-25 |
+| 3,941 | +6 | +26 | +38 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/anmol098~waka-readme-stats/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anmol098~waka-readme-stats/)*

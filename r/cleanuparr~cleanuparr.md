@@ -1,6 +1,6 @@
 # Cleanuparr/Cleanuparr
 
-> Cleanuparr is a tool for automating the cleanup of unwanted or blocked files in Sonarr, Radarr, and supported download c
+> Advanced download manager for the Servarr ecosystem
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Cleanuparr/Cleanuparr) | [Live site ↗](https://patrickclery.com/awesomer/r/cleanuparr~cleanuparr/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,190 | +15 | +72 | +168 | 2026-04-28 |
+| 2,226 | +26 | +80 | +156 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cleanuparr~cleanuparr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cleanuparr~cleanuparr/)*

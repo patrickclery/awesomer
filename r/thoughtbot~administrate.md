@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,020 | -1 | +0 | +5 | 2026-04-08 |
+| 6,021 | +0 | +1 | +4 | 2026-04-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Admin Interface
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~administrate/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~administrate/)*

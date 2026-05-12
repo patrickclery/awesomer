@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 346 | +1 | -1 |  | 2025-09-04 |
+| 348 | +0 | +3 | +12 | 2025-09-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Bars and Lines
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bekaboo~deadcolumn.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bekaboo~deadcolumn.nvim/)*

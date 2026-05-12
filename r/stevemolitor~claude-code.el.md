@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 691 | +6 | +19 | +44 | 2026-04-19 |
+| 698 | +6 | +20 | +47 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / IDE Integrations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/stevemolitor~claude-code.el/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stevemolitor~claude-code.el/)*

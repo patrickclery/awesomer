@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 686 | +4 | +8 | +9 | 2026-04-29 |
+| 687 | +1 | +7 | +13 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/klausmeyer~docker-registry-browser/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/klausmeyer~docker-registry-browser/)*

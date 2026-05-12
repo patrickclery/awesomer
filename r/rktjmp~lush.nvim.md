@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,764 | +0 | +6 | +13 | 2025-09-01 |
+| 1,762 | -1 | +0 | +8 | 2025-09-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme Creation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rktjmp~lush.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rktjmp~lush.nvim/)*

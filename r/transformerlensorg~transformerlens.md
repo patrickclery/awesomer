@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,369 | +31 |  |  | 2026-04-29 |
+| 3,403 | +20 | +106 | +347 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛡️ 10. AI Safety, Alignment & Interpretability
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/transformerlensorg~transformerlens/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/transformerlensorg~transformerlens/)*

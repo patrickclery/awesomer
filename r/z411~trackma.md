@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 870 | +2 |  |  | 2026-03-01 |
+| 870 | +2 | +4 | +14 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Others
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/z411~trackma/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/z411~trackma/)*

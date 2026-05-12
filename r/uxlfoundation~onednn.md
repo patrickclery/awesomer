@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,985 | +3 |  |  | 2026-04-29 |
+| 3,990 | +5 | +15 | +51 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-Performance Compute Libraries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/uxlfoundation~onednn/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/uxlfoundation~onednn/)*

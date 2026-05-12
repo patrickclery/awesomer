@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 932 | +0 |  |  | 2026-04-22 |
+| 934 | +2 | +6 | +19 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Directory Listing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pls-rs~pls/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pls-rs~pls/)*

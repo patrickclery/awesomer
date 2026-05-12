@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 473 | +0 |  |  | 2026-04-21 |
+| 473 | +0 | +0 |  | 2026-04-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Gem Generators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bkuhlmann~gemsmith/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bkuhlmann~gemsmith/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 203 | +5 | +20 | +47 | 2026-04-29 |
+| 209 | +1 | +19 | +58 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/varun29ankus~shodh-memory/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/varun29ankus~shodh-memory/)*

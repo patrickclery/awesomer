@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,507 | +3 | +10 | +22 | 2026-03-06 |
+| 6,507 | +0 | +1 | +20 | 2026-03-06 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/stefanprodan~dockprom/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stefanprodan~dockprom/)*

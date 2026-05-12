@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,601 | +762 |  |  | 2026-04-27 |
+| 58,579 | +532 | +7,181 | +13,280 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / LLMs
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/virattt~ai-hedge-fund/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/virattt~ai-hedge-fund/)*

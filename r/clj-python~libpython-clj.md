@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,201 | +1 | +6 | +7 | 2026-01-19 |
+| 1,201 | -1 | +3 | +7 | 2026-01-19 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/clj-python~libpython-clj/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clj-python~libpython-clj/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,724 | +1 |  |  | 2026-04-29 |
+| 4,724 | -1 | +4 | +38 | 2026-04-29 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Julia ML Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/fluxml~flux.jl/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fluxml~flux.jl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,753 | +13 | +41 | +48 | 2026-04-07 |
+| 2,758 | +2 | +28 | +62 | 2026-04-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Syntax
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-treesitter~nvim-treesitter-textobjects/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-treesitter~nvim-treesitter-textobjects/)*

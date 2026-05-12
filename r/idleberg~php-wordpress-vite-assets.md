@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 148 | +0 |  |  | 2026-01-11 |
+| 148 | +0 | +0 |  | 2026-01-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / WordPress
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/idleberg~php-wordpress-vite-assets/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/idleberg~php-wordpress-vite-assets/)*

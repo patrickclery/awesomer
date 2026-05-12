@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 559 | +0 |  |  | 2026-04-15 |
+| 559 | +0 | -2 | +15 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Calendar & Contacts
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jelmer~xandikos/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jelmer~xandikos/)*

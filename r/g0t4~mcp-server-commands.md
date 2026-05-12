@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 225 | +1 | +0 | -1 | 2026-04-23 |
+| 224 | -1 | +0 | -1 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/g0t4~mcp-server-commands/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/g0t4~mcp-server-commands/)*

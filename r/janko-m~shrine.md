@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,271 | +0 | -2 |  | 2026-01-02 |
+| 3,272 | +1 | +0 | +11 | 2026-01-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / File Upload
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/janko-m~shrine/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/janko-m~shrine/)*

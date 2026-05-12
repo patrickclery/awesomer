@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,046 | +56 | +241 | +394 | 2026-04-29 |
+| 23,118 | +27 | +240 | +434 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/handbrake~handbrake/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/handbrake~handbrake/)*

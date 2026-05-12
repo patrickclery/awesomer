@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 383 | +1 |  |  | 2025-12-25 |
+| 383 | +0 | +1 |  | 2025-12-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / IRB
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/janlelis~clipboard/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/janlelis~clipboard/)*

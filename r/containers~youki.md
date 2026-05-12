@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,364 | +10 | +50 |  | 2026-04-25 |
+| 7,396 | +21 | +65 | +186 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Containers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~youki/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~youki/)*

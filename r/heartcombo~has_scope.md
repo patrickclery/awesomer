@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,729 | -5 | -39 | -43 | 2026-03-27 |
+| 1,721 | -8 | -15 | -43 | 2026-03-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/heartcombo~has_scope/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/heartcombo~has_scope/)*

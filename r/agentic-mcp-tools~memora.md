@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 397 | +2 | +27 | +101 | 2026-04-20 |
+| 400 | +1 | +14 | +69 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/agentic-mcp-tools~memora/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agentic-mcp-tools~memora/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,703 | +70 | +224 |  | 2026-04-26 |
+| 13,785 | +43 | +230 | +740 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/federico-terzi~espanso/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/federico-terzi~espanso/)*

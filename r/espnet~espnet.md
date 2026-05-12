@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,820 | +10 | +33 | +52 | 2026-04-27 |
+| 9,833 | +9 | +30 | +57 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/espnet~espnet/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/espnet~espnet/)*

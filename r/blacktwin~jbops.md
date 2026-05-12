@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,903 | -1 | +5 | +10 | 2025-11-05 |
+| 1,907 | +1 | +6 | +11 | 2025-11-05 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Plex Scripts and Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/blacktwin~jbops/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/blacktwin~jbops/)*

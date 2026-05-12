@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 269 | +1 |  |  | 2026-04-16 |
+| 270 | +0 | +4 | +10 | 2026-04-16 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Groupware
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tracim~tracim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tracim~tracim/)*

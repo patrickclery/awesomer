@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 154 | +24 |  |  | 2026-04-29 |
+| 168 | +8 | +71 |  | 2026-05-10 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Usage Monitors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lis186~ccxray/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lis186~ccxray/)*

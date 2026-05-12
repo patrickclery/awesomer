@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 182 | +0 | +0 | +2 | 2026-01-18 |
+| 182 | +0 | +0 | +1 | 2026-01-18 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Language Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mbiesiad~awesome-translations/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mbiesiad~awesome-translations/)*

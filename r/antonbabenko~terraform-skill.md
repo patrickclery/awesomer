@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,763 | +179 | +337 | +489 | 2026-04-22 |
+| 1,822 | +32 | +309 | +510 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/antonbabenko~terraform-skill/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antonbabenko~terraform-skill/)*

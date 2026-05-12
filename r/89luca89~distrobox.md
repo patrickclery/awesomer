@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,343 | +28 | +116 | +191 | 2026-04-28 |
+| 12,399 | +37 | +135 | +222 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/89luca89~distrobox/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/89luca89~distrobox/)*

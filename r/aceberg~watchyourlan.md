@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,899 | +13 |  |  | 2025-09-10 |
+| 6,982 | +74 | +107 | +254 | 2025-09-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Network Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aceberg~watchyourlan/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aceberg~watchyourlan/)*

@@ -1,6 +1,6 @@
 # qodo-ai/pr-agent
 
-> 🚀 PR Agent: The Original Open-Source PR Reviewer.  \| This repo is not the Qodo free tier! Try Qodo free tier, click th
+> 🚀 PR Agent: The Original Open-Source PR Reviewer.  
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/qodo-ai/pr-agent) | [Live site ↗](https://patrickclery.com/awesomer/r/qodo-ai~pr-agent/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,037 | +85 |  |  | 2026-04-21 |
+| 11,160 | +80 | +326 | +1,102 | 2026-05-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qodo-ai~pr-agent/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qodo-ai~pr-agent/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,609 | -2 | -4 | -2 | 2025-12-06 |
+| 1,609 | +0 | -2 | -2 | 2025-12-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Date and Time Processing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/adzap~validates_timeliness/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/adzap~validates_timeliness/)*

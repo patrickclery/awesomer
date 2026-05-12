@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 250 | +0 | +1 |  | 2026-04-10 |
+| 250 | +0 | +0 | +7 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme Creation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/iron-e~nvim-highlite/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/iron-e~nvim-highlite/)*

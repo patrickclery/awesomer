@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,180 | +12 |  |  | 2026-04-29 |
+| 4,200 | +10 | +82 | +184 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / E-commerce
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/opensourcepos~opensourcepos/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opensourcepos~opensourcepos/)*

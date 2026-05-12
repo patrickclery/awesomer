@@ -1,6 +1,6 @@
 # Canner/WrenAI
 
-> Open-source text-to-SQL and text-to-chart GenBI agent with a semantic layer. Ask your database questions in natural lang
+> The open context layer that gives AI agents grounded, governed SQL across 20+ data sources, that helps you build GenBI, 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Canner/WrenAI) | [Live site ↗](https://patrickclery.com/awesomer/r/canner~wrenai/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,036 | +51 |  |  | 2026-04-27 |
+| 15,173 | +112 | +257 | +914 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/canner~wrenai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/canner~wrenai/)*

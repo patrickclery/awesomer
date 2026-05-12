@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 138 | +1 |  |  | 2026-03-21 |
+| 139 | +1 | +3 |  | 2026-03-21 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Proxy
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nskondratev~socks5-proxy-server/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nskondratev~socks5-proxy-server/)*

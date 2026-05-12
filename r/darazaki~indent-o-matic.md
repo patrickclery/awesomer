@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Indent
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/darazaki~indent-o-matic/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/darazaki~indent-o-matic/)*

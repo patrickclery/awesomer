@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,736 | +5 | +7 | +12 | 2026-04-29 |
+| 1,747 | +7 | +15 | +24 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Social Networking
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/decidim~decidim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/decidim~decidim/)*

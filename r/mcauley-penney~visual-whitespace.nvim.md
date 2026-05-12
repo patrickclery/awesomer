@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 457 | +2 | +2 | +9 | 2026-02-22 |
+| 456 | +0 | +2 | +6 | 2026-02-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / UI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mcauley-penney~visual-whitespace.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mcauley-penney~visual-whitespace.nvim/)*

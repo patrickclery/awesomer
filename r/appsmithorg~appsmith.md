@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,710 | +46 | +260 | +399 | 2026-04-29 |
+| 39,787 | +56 | +207 | +458 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Application platforms
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/appsmithorg~appsmith/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/appsmithorg~appsmith/)*

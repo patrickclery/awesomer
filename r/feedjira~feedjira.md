@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,089 | +0 |  |  | 2026-04-20 |
+| 2,089 | +0 | +3 | +5 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / RSS
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/feedjira~feedjira/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/feedjira~feedjira/)*

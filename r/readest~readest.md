@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,086 | +354 |  |  | 2026-04-29 |
+| 20,451 | +208 | +1,013 | +3,313 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Ebooks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/readest~readest/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/readest~readest/)*

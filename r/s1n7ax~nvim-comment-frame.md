@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 101 | +0 | +0 |  | 2025-08-05 |
+| 101 | +0 | +0 | +0 | 2025-08-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Comment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/s1n7ax~nvim-comment-frame/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/s1n7ax~nvim-comment-frame/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,168 | +34 |  |  | 2026-04-10 |
+| 39,238 | +38 | +249 | +785 | 2026-04-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Speech & Audio Models (TTS, STT, Music)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/2noise~chattts/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/2noise~chattts/)*

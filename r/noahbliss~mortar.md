@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 275 | +0 | -1 | +1 | 2026-02-28 |
+| 277 | +1 | +0 | +1 | 2026-02-28 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/noahbliss~mortar/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/noahbliss~mortar/)*

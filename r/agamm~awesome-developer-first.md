@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,618 | +6 | +47 | +72 | 2026-04-07 |
+| 1,627 | +2 | +35 | +73 | 2026-05-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Business
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/agamm~awesome-developer-first/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agamm~awesome-developer-first/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,870 | +7 | +12 | +23 | 2026-04-29 |
+| 9,875 | +1 | +17 | +24 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/keystonejs~keystone/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/keystonejs~keystone/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 322 | +1 | +2 | +7 | 2025-10-20 |
+| 328 | +4 | +4 | +9 | 2025-10-20 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / File Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mamertofabian~mcp-everything-search/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mamertofabian~mcp-everything-search/)*

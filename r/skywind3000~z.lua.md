@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,133 | +1 | +8 | +7 | 2026-03-09 |
+| 3,134 | +2 | +8 | +6 | 2026-03-09 |
 
 ## Found In
 
@@ -19,4 +19,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/skywind3000~z.lua/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/skywind3000~z.lua/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 438 | +1 |  |  | 2026-04-21 |
+| 439 | +1 | +5 | +13 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Music Automation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sentriz~betanin/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sentriz~betanin/)*

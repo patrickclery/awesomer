@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,649 | +50 | +175 | +344 | 2026-04-23 |
+| 22,703 | +38 | +171 | +330 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/serengil~deepface/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/serengil~deepface/)*

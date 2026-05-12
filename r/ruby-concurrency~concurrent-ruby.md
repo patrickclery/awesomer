@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,811 | +1 |  |  | 2026-04-20 |
+| 5,815 | +2 | +3 | +16 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Concurrency and Parallelism
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-concurrency~concurrent-ruby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-concurrency~concurrent-ruby/)*

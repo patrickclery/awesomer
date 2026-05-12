@@ -1,6 +1,6 @@
 # MervinPraison/PraisonAI
 
-> PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous agents that research, pl
+> PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents th
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/MervinPraison/PraisonAI) | [Live site ↗](https://patrickclery.com/awesomer/r/mervinpraison~praisonai/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,006 | +36 | +1,258 | +1,317 | 2026-04-29 |
+| 7,107 | +66 | +210 | +1,410 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mervinpraison~praisonai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mervinpraison~praisonai/)*

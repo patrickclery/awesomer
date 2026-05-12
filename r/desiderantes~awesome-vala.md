@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 221 | +0 | +2 |  | 2025-10-03 |
+| 221 | +0 | +0 | +6 | 2025-10-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/desiderantes~awesome-vala/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/desiderantes~awesome-vala/)*

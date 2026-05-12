@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 58,841 | +192 | +870 | +1,389 | 2026-04-29 |
+| 59,182 | +202 | +826 | +1,603 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Open Source
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/withastro~astro/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/withastro~astro/)*

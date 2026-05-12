@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,175 | -2 |  |  | 2026-04-29 |
+| 3,177 | +0 | +2 | +20 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Operating Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/vmware~photon/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vmware~photon/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,044 | +4 | +6 | +11 | 2026-02-25 |
+| 3,044 | +1 | +4 | +11 | 2026-02-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dahlia~awesome-sqlalchemy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dahlia~awesome-sqlalchemy/)*

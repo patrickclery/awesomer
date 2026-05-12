@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,764 | +0 | +1 | +1 | 2025-11-20 |
+| 1,765 | +0 | +1 | +1 | 2025-11-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/evanphx~benchmark-ips/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/evanphx~benchmark-ips/)*

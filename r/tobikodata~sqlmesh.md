@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,052 |  |  |  | 2026-04-29 |
+| 3,068 | +10 | +47 | +195 | 2026-04-29 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Transformation & Analytics Engineering
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tobikodata~sqlmesh/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tobikodata~sqlmesh/)*

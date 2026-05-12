@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,538 | -2 | +4 |  | 2026-02-14 |
+| 16,541 | +1 | +1 | +35 | 2026-02-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Coding Style Guides
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bbatsov~ruby-style-guide/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bbatsov~ruby-style-guide/)*

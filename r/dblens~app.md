@@ -15,4 +15,4 @@
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dblens~app/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dblens~app/)*

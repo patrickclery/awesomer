@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,038 | +29 | +150 | +231 | 2026-04-27 |
+| 2,882 | +835 | +938 | +1,055 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/domcyrus~rustnet/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/domcyrus~rustnet/)*

@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Utility
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sontungexpt~url-open/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sontungexpt~url-open/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,021 | +16 |  |  | 2026-03-07 |
+| 12,053 | +20 | +72 | +190 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Development process
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/danluu~post-mortems/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/danluu~post-mortems/)*

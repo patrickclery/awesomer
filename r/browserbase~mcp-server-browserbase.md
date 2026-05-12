@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,298 | +21 | +80 | +109 | 2026-03-31 |
+| 3,330 | +20 | +86 | +134 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/browserbase~mcp-server-browserbase/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/browserbase~mcp-server-browserbase/)*

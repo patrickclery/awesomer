@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,465 | +266 |  |  | 2026-04-29 |
+| 24,933 | +346 | +1,522 | +8,784 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/agentscope-ai~agentscope/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agentscope-ai~agentscope/)*

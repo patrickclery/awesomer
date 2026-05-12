@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,206 | +31 | +140 | +291 | 2026-04-27 |
+| 1,231 | +15 | +102 | +302 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/skills-directory~skill-codex/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/skills-directory~skill-codex/)*

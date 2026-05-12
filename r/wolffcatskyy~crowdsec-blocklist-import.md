@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 201 | +1 |  |  | 2026-04-20 |
+| 208 | +5 | +13 | +45 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wolffcatskyy~crowdsec-blocklist-import/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wolffcatskyy~crowdsec-blocklist-import/)*

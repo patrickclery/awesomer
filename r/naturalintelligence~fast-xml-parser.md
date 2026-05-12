@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,082 | +4 | +21 | +30 | 2026-04-24 |
+| 3,087 | +4 | +14 | +32 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/naturalintelligence~fast-xml-parser/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/naturalintelligence~fast-xml-parser/)*

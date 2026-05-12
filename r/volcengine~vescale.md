@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,009 | +3 |  |  | 2026-03-03 |
+| 1,009 | -1 | +5 | +85 | 2026-03-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Distributed Training
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/volcengine~vescale/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/volcengine~vescale/)*

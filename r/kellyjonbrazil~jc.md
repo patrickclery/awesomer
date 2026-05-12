@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,590 | +7 | +24 | +31 | 2026-04-22 |
+| 8,601 | +9 | +29 | +45 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Multimedia and File Formats
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kellyjonbrazil~jc/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kellyjonbrazil~jc/)*

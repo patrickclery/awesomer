@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 426 | +2 | +6 | +6 | 2026-04-23 |
+| 425 | -1 | +2 | +6 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Golang
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/olexsmir~gopher.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/olexsmir~gopher.nvim/)*

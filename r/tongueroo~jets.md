@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,594 | +0 |  |  | 2025-11-06 |
+| 2,594 | +0 | -1 | +1 | 2025-11-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Serverless
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tongueroo~jets/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tongueroo~jets/)*

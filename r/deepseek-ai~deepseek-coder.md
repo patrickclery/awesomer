@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,184 | +119 |  |  | 2025-11-11 |
+| 23,307 | +74 | +294 | +691 | 2025-11-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧠 2. Open Foundation Models
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/deepseek-ai~deepseek-coder/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deepseek-ai~deepseek-coder/)*

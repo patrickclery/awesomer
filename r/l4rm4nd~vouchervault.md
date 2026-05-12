@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 475 | +1 | +5 | +12 | 2026-04-28 |
+| 483 | +1 | +10 | +18 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Money, Budgeting & Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/l4rm4nd~vouchervault/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/l4rm4nd~vouchervault/)*

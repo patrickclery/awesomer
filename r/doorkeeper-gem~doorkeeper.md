@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,477 | +0 | +8 | +15 | 2026-04-28 |
+| 5,482 | +4 | +7 | +15 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authentication and OAuth
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/doorkeeper-gem~doorkeeper/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/doorkeeper-gem~doorkeeper/)*

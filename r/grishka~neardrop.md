@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,073 | +13 |  |  | 2026-03-19 |
+| 6,088 | +7 | +56 | +207 | 2026-03-19 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / File Sharing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/grishka~neardrop/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/grishka~neardrop/)*

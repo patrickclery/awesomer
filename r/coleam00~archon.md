@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,100 | +847 |  |  | 2026-04-29 |
+| 21,275 | +551 | +4,891 | +7,758 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/coleam00~archon/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coleam00~archon/)*

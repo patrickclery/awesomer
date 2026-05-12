@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 645 | +1 | +3 | +5 | 2026-03-30 |
+| 646 | +1 | +4 | +5 | 2026-03-30 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/greatauk~plugin-web-update-notification/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/greatauk~plugin-web-update-notification/)*

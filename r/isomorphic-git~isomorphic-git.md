@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,194 | +15 | +64 | +79 | 2026-04-27 |
+| 8,211 | +11 | +63 | +89 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/isomorphic-git~isomorphic-git/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/isomorphic-git~isomorphic-git/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,560 | +5 |  |  | 2026-04-28 |
+| 3,560 | -1 | +10 | +38 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / View components
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/github~view_component/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/github~view_component/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 646 | +1 | +2 | +2 | 2025-08-02 |
+| 646 | +0 | +1 | +2 | 2025-08-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/joseexposito~touche/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/joseexposito~touche/)*

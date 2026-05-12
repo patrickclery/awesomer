@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,426 | +0 |  |  | 2026-04-24 |
+| 3,427 | +1 | +0 | +10 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Highlighting
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jneen~rouge/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jneen~rouge/)*

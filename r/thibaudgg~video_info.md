@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 429 | +0 |  |  | 2025-12-13 |
+| 429 | +0 | +0 |  | 2025-12-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Video
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thibaudgg~video_info/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thibaudgg~video_info/)*

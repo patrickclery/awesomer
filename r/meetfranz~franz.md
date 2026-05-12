@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,677 | -2 | -1 | +8 | 2025-09-24 |
+| 4,680 | +2 | -1 | +8 | 2025-09-24 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/meetfranz~franz/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/meetfranz~franz/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,216 | +0 | -1 | +3 | 2025-08-29 |
+| 3,220 | +3 | +5 | +2 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Machine Learning
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alexrudall~ruby-openai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alexrudall~ruby-openai/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 173 | +9 | +22 |  | 2026-04-26 |
+| 188 | +15 | +29 |  | 2026-05-10 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / CLI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/riii111~sabiql/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/riii111~sabiql/)*

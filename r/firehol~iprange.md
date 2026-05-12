@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 229 | +1 | +6 |  | 2026-04-07 |
+| 230 | +1 | +6 | +8 | 2026-04-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/firehol~iprange/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/firehol~iprange/)*

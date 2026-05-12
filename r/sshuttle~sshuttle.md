@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,289 | +15 | +67 | +119 | 2026-04-27 |
+| 13,319 | +16 | +72 | +135 | 2026-04-27 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-piracy](../l/piracy.md) / Self-hosted VPNs
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sshuttle~sshuttle/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sshuttle~sshuttle/)*

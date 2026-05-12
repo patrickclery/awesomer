@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,850 | +12 | +45 | +73 | 2026-02-24 |
+| 8,868 | +16 | +44 | +87 | 2026-02-24 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/remarkjs~remark/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/remarkjs~remark/)*

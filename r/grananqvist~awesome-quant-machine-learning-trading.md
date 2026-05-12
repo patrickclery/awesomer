@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,620 | +17 | +86 | +117 | 2025-05-21 |
+| 3,638 | +12 | +76 | +128 | 2025-05-21 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Others
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/grananqvist~awesome-quant-machine-learning-trading/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/grananqvist~awesome-quant-machine-learning-trading/)*

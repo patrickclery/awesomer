@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 388 | +1 | +4 | +6 | 2026-04-24 |
+| 391 | +3 | +6 | +6 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Pull Requests
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kentaro-m~auto-assign-action/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kentaro-m~auto-assign-action/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,557 | +250 | +3,447 | +3,594 | 2026-04-27 |
+| 5,945 | +174 | +1,515 | +4,084 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dmtrkovalenko~fff.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dmtrkovalenko~fff.nvim/)*

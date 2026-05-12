@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,514 | +6 | +53 | +81 | 2026-04-23 |
+| 14,539 | +11 | +62 | +98 | 2026-05-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/analysis-tools-dev~static-analysis/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/analysis-tools-dev~static-analysis/)*

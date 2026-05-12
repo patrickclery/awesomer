@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 198 |  |  |  | 2026-04-29 |
+| 232 | +13 |  |  | 2026-04-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Startup
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/amansingh-afk~milli.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/amansingh-afk~milli.nvim/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,145 | +144 | +851 | +1,527 | 2025-11-21 |
+| 6,385 | +125 | +650 | +1,588 | 2025-11-21 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pleaseprompto~notebooklm-skill/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pleaseprompto~notebooklm-skill/)*

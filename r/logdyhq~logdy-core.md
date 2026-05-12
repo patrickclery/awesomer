@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,177 | +17 | +38 | +53 | 2025-08-25 |
+| 2,191 | +6 | +43 | +64 | 2025-08-25 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/logdyhq~logdy-core/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/logdyhq~logdy-core/)*

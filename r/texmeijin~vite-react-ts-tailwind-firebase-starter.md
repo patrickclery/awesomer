@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 307 | +0 | +1 | +1 | 2026-04-29 |
+| 307 | +0 | +0 | +1 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/texmeijin~vite-react-ts-tailwind-firebase-starter/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/texmeijin~vite-react-ts-tailwind-firebase-starter/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 334 | +10 | +36 | +168 | 2026-04-26 |
+| 342 | +4 | +28 | +155 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Productivity & Organization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/haunchen~n8n-skills/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/haunchen~n8n-skills/)*

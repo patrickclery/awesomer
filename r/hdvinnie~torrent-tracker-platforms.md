@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 612 | +2 |  |  | 2025-05-30 |
+| 616 | +2 | +7 | +15 | 2025-05-30 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Tracker Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hdvinnie~torrent-tracker-platforms/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hdvinnie~torrent-tracker-platforms/)*

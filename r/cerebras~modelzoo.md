@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,149 |  |  |  | 2026-03-11 |
+| 1,153 | +3 |  |  | 2026-05-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Hubs & Registries
 
 ---
-*Updated: 2026-04-28 | [View live site ↗](https://patrickclery.com/awesomer/r/cerebras~modelzoo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cerebras~modelzoo/)*

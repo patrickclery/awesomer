@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,581 | +49 | +176 | +282 | 2026-04-09 |
+| 33,670 | +49 | +197 | +343 | 2026-05-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/balena-io~etcher/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/balena-io~etcher/)*

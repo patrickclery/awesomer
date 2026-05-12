@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,086 | +2 | +4 | +2 | 2026-04-27 |
+| 5,088 | +2 | +6 | +2 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jeremyevans~sequel/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jeremyevans~sequel/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 271 | +0 | +0 |  | 2026-04-16 |
+| 271 | +0 | +0 | +1 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/runtime-env~import-meta-env/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/runtime-env~import-meta-env/)*

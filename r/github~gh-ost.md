@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,317 | +15 | +44 | +78 | 2026-04-22 |
+| 13,336 | +7 | +43 | +89 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/github~gh-ost/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/github~gh-ost/)*

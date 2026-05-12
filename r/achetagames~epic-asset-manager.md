@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 500 | -1 | +2 | +8 | 2026-03-23 |
+| 501 | +1 | +0 | +9 | 2026-03-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/achetagames~epic-asset-manager/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/achetagames~epic-asset-manager/)*

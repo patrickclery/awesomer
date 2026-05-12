@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 778 | +2 | +12 | +17 | 2026-03-06 |
+| 784 | +4 | +14 | +18 | 2026-03-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Business
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wardley-maps-community~awesome-wardley-maps/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wardley-maps-community~awesome-wardley-maps/)*

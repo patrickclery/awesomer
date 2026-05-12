@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,542 | +136 | +497 | +911 | 2026-04-27 |
+| 22,739 | +145 | +505 | +1,035 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/superclaude-org~superclaude_framework/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/superclaude-org~superclaude_framework/)*

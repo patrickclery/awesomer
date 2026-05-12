@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 154 | +0 |  |  | 2026-04-15 |
+| 154 | +0 | +0 |  | 2026-04-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Gem Servers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pierrerambaud~gemirro/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pierrerambaud~gemirro/)*

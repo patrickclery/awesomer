@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,047 | +36 | +150 | +247 | 2026-04-28 |
+| 15,109 | +36 | +156 | +276 | 2026-05-11 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [awesome-piracy](../l/piracy.md) / File Renaming and Tagging
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/beetbox~beets/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/beetbox~beets/)*

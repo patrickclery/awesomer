@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 515 | +0 |  |  | 2025-11-14 |
+| 515 | +0 | +0 |  | 2025-11-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Pagination
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/glebm~order_query/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/glebm~order_query/)*

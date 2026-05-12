@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 215 | +19 | +90 |  | 2026-04-28 |
+| 235 | +11 | +69 | +228 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Config Managers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/agent-sh~agnix/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agent-sh~agnix/)*

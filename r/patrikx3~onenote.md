@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,041 | +5 | +12 | +18 | 2026-04-27 |
+| 2,048 | +3 | +12 | +23 | 2026-04-27 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/patrikx3~onenote/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/patrikx3~onenote/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,989 | +21 | +72 |  | 2026-04-29 |
+| 22,012 | +20 | +66 | +263 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Package Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/caskroom~homebrew-cask/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/caskroom~homebrew-cask/)*

@@ -1,6 +1,6 @@
 # Neighbor-Z/SwiftMTP
 
-> A modern MTP device management tool for macOS.
+> A modern Android File Transfer tool for macOS with AI supercharged.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Neighbor-Z/SwiftMTP) | [Live site ↗](https://patrickclery.com/awesomer/r/neighbor-z~swiftmtp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 228 | +36 |  |  | 2026-04-26 |
+| 332 | +85 | +240 |  | 2026-05-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/neighbor-z~swiftmtp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neighbor-z~swiftmtp/)*

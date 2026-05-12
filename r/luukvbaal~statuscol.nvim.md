@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 612 | +4 | +9 | +8 | 2025-06-02 |
+| 609 | +0 | +5 | +8 | 2025-06-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Bars and Lines
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/luukvbaal~statuscol.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/luukvbaal~statuscol.nvim/)*

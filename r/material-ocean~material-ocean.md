@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 124 | +0 | +1 |  | 2026-01-17 |
+| 124 | +0 | +0 |  | 2026-01-17 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/material-ocean~material-ocean/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/material-ocean~material-ocean/)*

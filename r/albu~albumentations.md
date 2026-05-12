@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,288 | +4 | -2 |  | 2025-06-25 |
+| 15,288 | +2 | -2 | +72 | 2025-06-25 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/albu~albumentations/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/albu~albumentations/)*

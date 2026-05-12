@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 119 | -1 | +8 | +14 | 2026-04-27 |
+| 119 | +0 | -2 | +14 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/birdeehub~lze/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/birdeehub~lze/)*

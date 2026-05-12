@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,182 | +30 | +117 | +212 | 2026-04-29 |
+| 21,221 | +21 | +121 | +226 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/teableio~teable/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/teableio~teable/)*

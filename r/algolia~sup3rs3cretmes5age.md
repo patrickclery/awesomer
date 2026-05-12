@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 564 | +0 | +2 | +19 | 2026-04-29 |
+| 565 | +1 | +1 | +19 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Pastebins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/algolia~sup3rs3cretmes5age/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/algolia~sup3rs3cretmes5age/)*

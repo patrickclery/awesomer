@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,879 | +0 | -4 | +0 | 2026-01-14 |
+| 2,882 | +1 | +4 | +2 | 2026-01-14 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/justjanne~powerline-go/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/justjanne~powerline-go/)*

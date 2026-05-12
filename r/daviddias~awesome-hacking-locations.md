@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,116 | +0 | +3 |  | 2025-08-24 |
+| 1,120 | +1 | +6 | +10 | 2025-08-24 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/daviddias~awesome-hacking-locations/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/daviddias~awesome-hacking-locations/)*

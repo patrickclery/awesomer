@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,898 | +176 | +672 | +1,074 | 2026-04-29 |
+| 26,104 | +114 | +671 | +1,207 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Others
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wilsonfreitas~awesome-quant/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wilsonfreitas~awesome-quant/)*

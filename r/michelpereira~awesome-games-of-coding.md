@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,095 | +4 | +12 | +19 | 2026-03-25 |
+| 2,097 | +1 | +11 | +23 | 2026-03-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/michelpereira~awesome-games-of-coding/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michelpereira~awesome-games-of-coding/)*

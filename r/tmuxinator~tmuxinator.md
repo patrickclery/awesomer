@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,550 | +13 | +51 | +88 | 2026-04-16 |
+| 13,576 | +12 | +54 | +108 | 2026-05-03 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/tmuxinator~tmuxinator/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tmuxinator~tmuxinator/)*

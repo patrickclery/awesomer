@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Error Handling
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bugsnag~bugsnag-ruby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bugsnag~bugsnag-ruby/)*

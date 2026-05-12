@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 977 | +0 | +0 |  | 2025-11-05 |
+| 977 | +0 | +1 |  | 2025-11-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Scala
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/h2oai~sparkling-water/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/h2oai~sparkling-water/)*

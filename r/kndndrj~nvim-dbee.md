@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,258 | +1 |  |  | 2025-07-25 |
+| 1,261 | +2 | +11 | +55 | 2025-07-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Database
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kndndrj~nvim-dbee/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kndndrj~nvim-dbee/)*

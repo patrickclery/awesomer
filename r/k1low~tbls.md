@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,208 | +12 | +39 | +57 | 2026-04-27 |
+| 4,211 | +1 | +36 | +50 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/k1low~tbls/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/k1low~tbls/)*

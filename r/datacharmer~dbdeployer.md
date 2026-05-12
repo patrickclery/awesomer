@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 717 | +0 |  |  | 2026-04-07 |
+| 717 | +0 | +0 |  | 2026-04-07 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Distributions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/datacharmer~dbdeployer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/datacharmer~dbdeployer/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,960 | +114 |  |  | 2026-04-29 |
+| 14,068 | +72 | +431 | +1,515 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/modelscope~ms-swift/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/modelscope~ms-swift/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 508 | +0 |  |  | 2026-04-18 |
+| 508 | +0 | +1 | +17 | 2026-04-18 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Solid
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/amoutonbrady~vite-plugin-solid/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/amoutonbrady~vite-plugin-solid/)*

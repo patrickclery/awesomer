@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 427 | +0 |  |  | 2026-01-22 |
+| 427 | +0 | +0 | +3 | 2026-01-22 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Content Discovery
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sjlu~popular-movies/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sjlu~popular-movies/)*

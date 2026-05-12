@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,335 | +35 |  |  | 2026-04-29 |
+| 4,377 | +18 | +140 | +418 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Other Resources
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/x-cmd~x-cmd/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/x-cmd~x-cmd/)*

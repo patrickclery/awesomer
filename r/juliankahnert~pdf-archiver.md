@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 332 | +0 |  |  | 2026-04-20 |
+| 332 | +0 | +0 |  | 2026-04-20 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / File Organization Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/juliankahnert~pdf-archiver/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/juliankahnert~pdf-archiver/)*

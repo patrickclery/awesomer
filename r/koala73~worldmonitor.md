@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 52,984 | +2,056 | +7,546 |  | 2026-04-29 |
+| 53,961 | +557 | +6,177 | +53,805 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Data Sources
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/koala73~worldmonitor/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/koala73~worldmonitor/)*

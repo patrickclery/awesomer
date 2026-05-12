@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,936 | +84 | +215 | +378 | 2026-04-26 |
+| 29,165 | +52 | +368 | +556 | 2026-05-10 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/academic~awesome-datascience/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/academic~awesome-datascience/)*

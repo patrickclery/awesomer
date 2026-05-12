@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,421 | +4 | +25 | +54 | 2026-01-21 |
+| 2,427 | -1 | +20 | +52 | 2026-01-21 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/marcopiovanello~yt-dlp-web-ui/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marcopiovanello~yt-dlp-web-ui/)*

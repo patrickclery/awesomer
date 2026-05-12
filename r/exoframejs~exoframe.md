@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,150 | +0 | +3 |  | 2026-02-22 |
+| 1,150 | +0 | +1 |  | 2026-02-22 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/exoframejs~exoframe/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/exoframejs~exoframe/)*

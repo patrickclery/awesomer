@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,569 | +2 |  |  | 2026-01-21 |
+| 1,569 | -1 | +1 |  | 2026-01-21 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-piracy](../l/piracy.md) / Stream Synchronisation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/calzoneman~sync/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/calzoneman~sync/)*

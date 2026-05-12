@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 253 | +0 | +2 | +6 | 2026-02-14 |
+| 255 | +1 | +3 | +8 | 2026-02-14 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/haaleo~publish-vscode-extension/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/haaleo~publish-vscode-extension/)*

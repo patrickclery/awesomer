@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,443 | -3 | -12 | -6 | 2026-04-01 |
+| 11,440 | -2 | -4 | -10 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/debug-js~debug/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/debug-js~debug/)*

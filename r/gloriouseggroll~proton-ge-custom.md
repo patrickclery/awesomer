@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,047 | +50 | +197 | +368 | 2026-03-23 |
+| 14,121 | +42 | +192 | +388 | 2026-03-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gloriouseggroll~proton-ge-custom/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gloriouseggroll~proton-ge-custom/)*

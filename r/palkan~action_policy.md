@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,556 | +0 | +16 | +13 | 2026-03-25 |
+| 1,557 | +0 | +11 | +22 | 2026-03-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authorization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/palkan~action_policy/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/palkan~action_policy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,375 | +10 | +26 | +43 | 2026-04-08 |
+| 11,380 | +3 | +23 | +42 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/acornjs~acorn/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/acornjs~acorn/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,454 | -1 | -2 | -1 | 2025-10-04 |
+| 3,453 | -1 | -2 | -1 | 2025-10-04 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Scala
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/scalanlp~breeze/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/scalanlp~breeze/)*

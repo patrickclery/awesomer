@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,779 | +4 |  |  | 2026-04-20 |
+| 4,779 | -2 | +4 | +31 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Dashboards
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~blazer/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~blazer/)*

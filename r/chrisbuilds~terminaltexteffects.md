@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,986 | +8 | +41 | +72 | 2026-04-25 |
+| 3,992 | +6 | +23 | +71 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Just for Fun
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisbuilds~terminaltexteffects/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisbuilds~terminaltexteffects/)*

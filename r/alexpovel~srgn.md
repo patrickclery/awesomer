@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 890 | +1 |  |  | 2026-04-14 |
+| 895 | +3 | +8 | +14 | 2026-05-03 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Search
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alexpovel~srgn/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alexpovel~srgn/)*

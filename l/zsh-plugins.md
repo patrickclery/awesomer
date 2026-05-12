@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [zoxide](../r/ajeetdsouza~zoxide.md) | 36,166 | +225 | +1,109 | +1,729 |
-| 2 | [Maple](../r/subframe7536~maple-font.md) | 25,542 | +192 | +786 | +1,292 |
-| 3 | [oh-my-zsh](../r/ohmyzsh~ohmyzsh.md) | 186,590 | +184 |  |  |
-| 4 | [fzf](../r/junegunn~fzf.md) | 79,880 | +170 | +788 | +1,341 |
-| 5 | [powerlevel10k](../r/romkatv~powerlevel10k.md) | 53,987 | +128 | +474 | +791 |
-| 6 | [Nerd Fonts](../r/ryanoasis~nerd-fonts.md) | 62,757 | +99 | +497 | +744 |
-| 7 | [Iosevka](../r/be5invis~iosevka.md) | 22,177 | +97 | +251 | +351 |
-| 8 | [awesome-sysadmin](../r/n1trux~awesome-sysadmin.md) | 33,726 | +76 | +337 |  |
-| 9 | [autosuggestions](../r/zsh-users~zsh-autosuggestions.md) | 35,384 | +59 | +235 | +368 |
-| 10 | [Monaspace](../r/githubnext~monaspace.md) | 19,044 | +59 |  |  |
+| 1 | [zoxide](../r/ajeetdsouza~zoxide.md) | 36,540 | +235 | +1,052 | +1,972 |
+| 2 | [oh-my-zsh](../r/ohmyzsh~ohmyzsh.md) | 186,922 | +213 | +845 | +3,141 |
+| 3 | [fzf](../r/junegunn~fzf.md) | 80,150 | +151 | +771 | +1,508 |
+| 4 | [Maple](../r/subframe7536~maple-font.md) | 25,728 | +122 | +620 | +1,296 |
+| 5 | [powerlevel10k](../r/romkatv~powerlevel10k.md) | 54,139 | +98 | +435 | +870 |
+| 6 | [Nerd Fonts](../r/ryanoasis~nerd-fonts.md) | 62,929 | +95 | +460 | +856 |
+| 7 | [awesome-sysadmin](../r/n1trux~awesome-sysadmin.md) | 33,861 | +66 | +334 | +1,237 |
+| 8 | [Monaspace](../r/githubnext~monaspace.md) | 19,137 | +62 | +293 | +881 |
+| 9 | [autosuggestions](../r/zsh-users~zsh-autosuggestions.md) | 35,475 | +56 | +224 | +423 |
+| 10 | [fzf-tab](../r/aloxaf~fzf-tab.md) | 4,699 | +28 | +71 | +133 |
 
 ## Table of Contents
 
@@ -60,17 +60,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [completions (zsh-users)](../r/zsh-users~zsh-completions.md) | Additional completion definitions for Zsh. | 7,750 | +13 |
-| [carapace-bin](../r/rsteube~carapace-bin.md) | A multi-shell completion binary. | 1,803 | +12 |
-| [inshellisense](../r/microsoft~inshellisense.md) | IDE style command line auto complete | 9,859 | +10 |
-| [mcfly](../r/cantino~mcfly.md) | Fly through your shell history. Great Scott! | 7,707 | +6 |
-| [fzf-tab-completion](../r/lincheney~fzf-tab-completion.md) | Tab completion using fzf | 836 | +4 |
-| [argc-completions](../r/sigoden~argc-completions.md) | {bash,zsh,fish,powershell,nushell}-completions for 1000+ commands. | 441 | +1 |
-| [better-npm-completion](../r/lukechilds~zsh-better-npm-completion.md) | Better completion for npm | 500 | +1 |
-| [claudecode-completion](../r/wbingli~zsh-claudecode-completion.md) | Minimal zsh completion plugin for Claude Code CLI | 28 | +1 |
-| [cod](../r/dim-an~cod.md) | cod is a completion daemon for bash/fish/zsh | 547 | +1 |
-| [nestcli](../r/behradkhodayar~nestcli-zsh.md) | Zsh completion plugin for Nest.js framework's CLI tool | 2 | +1 |
-| [nx](../r/jscutlery~nx-completion.md) | Nx workspace completion plugin for Zsh. | 153 | +1 |
+| [inshellisense](../r/microsoft~inshellisense.md) | IDE style command line auto complete | 9,886 | +23 |
+| [completions (zsh-users)](../r/zsh-users~zsh-completions.md) | Additional completion definitions for Zsh. | 7,768 | +13 |
+| [carapace-bin](../r/rsteube~carapace-bin.md) | A multi-shell completion binary. | 1,815 | +9 |
+| [mcfly](../r/cantino~mcfly.md) | Fly through your shell history. Great Scott! | 7,712 | +5 |
+| [claudecode-completion](../r/wbingli~zsh-claudecode-completion.md) | Minimal zsh completion plugin for Claude Code CLI | 30 | +2 |
+| [fzf-tab-completion](../r/lincheney~fzf-tab-completion.md) | Tab completion using fzf | 838 | +2 |
+| [argc-completions](../r/sigoden~argc-completions.md) | {bash,zsh,fish,powershell,nushell}-completions for 1000+ commands. | 443 | +1 |
+| [better-npm-completion](../r/lukechilds~zsh-better-npm-completion.md) | Better completion for npm | 501 | +1 |
+| [codex](../r/pressdarling~codex-zsh-plugin.md) | Completions for OpenAI's Codex CLI tool, with caching, autoupdating, and notifications you can disable. | 3 | +1 |
+| [mac](../r/scriptingosx~mac-zsh-completions.md) | macOS specific additional completion definitions for Zsh. | 191 | +1 |
 | [1password-op](../r/unixorn~1password-op.plugin.zsh.md) | ZSH plugin to load completions and aliases for 1Password's `op` tool | 9 | +0 |
 | [aider](../r/hmgle~aider-zsh-complete.md) | Zsh completion script for the `aider` | 3 | +0 |
 | [aircrack](../r/doc0x1~aircrack-zsh-completions.md) | Zsh plugin adding completions for aircrack-ng tools. Designed to work as an Oh-My-Zsh plugin. | 4 | +0 |
@@ -101,11 +100,11 @@
 | [cargo](../r/menketechnologies~zsh-cargo-completion.md) | All the functionality of the original oh-my-zsh cargo completion, with additional support for remote crates via `cargo s | 35 | +0 |
 | [carthage](../r/squarefrog~zsh-carthage.md) | A very, very tiny Carthage plugin for zsh. | 1 | +0 |
 | [cf-zsh-autocomplete](../r/norman-abramovitz~cf-zsh-autocomplete-plugin.md) | Cloud Foundry CLI zsh complete plugin | 34 | +0 |
-| [chezmoi](../r/mass8326~zsh-chezmoi.md) | Add completion and aliases for chezmoi to make managing dotfiles easier | 10 | +0 |
+| [chezmoi](../r/mass8326~zsh-chezmoi.md) | Add completion and aliases for chezmoi to make managing dotfiles easier | 11 | +0 |
 | [claude-code-zsh-completion](../r/1160054~claude-code-zsh-completion.md) | Zsh completion for the Claude Code CLI with support for 120+ languages | 8 | +0 |
 | [click-completion](../r/click-contrib~click-completion.md) | Add or enhance bash, fish, zsh and powershell completion in Click | 294 | +0 |
+| [cod](../r/dim-an~cod.md) | cod is a completion daemon for bash/fish/zsh | 547 | +0 |
 | [codeception](../r/shengyou~codeception-zsh-plugin.md) | A oh-my-zsh plugin for codeception command completion. | 12 | +0 |
-| [codex](../r/pressdarling~codex-zsh-plugin.md) | Completions for OpenAI's Codex CLI tool, with caching, autoupdating, and notifications you can disable. | 2 | +0 |
 | [comonicon](../r/roger-luo~comoniconzshcompletion.jl.md) | ZSH completion for Comonicon | 0 | +0 |
 | [complete-lastf](../r/chougousui~complete-lastf.md) | A zsh plugin that does filename completion | 4 | +0 |
 | [complete-mac](../r/vitkabele~complete-mac.md) | ZSH completions for macOS system commands | 10 | +0 |
@@ -158,6 +157,7 @@
 | [git-user-switch](../r/dipodidae~zsh-plugin-git-user-switch.md) | Switch between multiple GitHub user accounts. It automatically updates both your SSH configuration and GitHub CLI (gh) a | 0 | +0 |
 | [github-cli](../r/sudosubin~zsh-github-cli.md) | Zsh github cli completion plugin | 6 | +0 |
 | [gitlab-runner](../r/pseyfert~zsh-gitlab-runner-completion.md) | ZSH completions for gitlab-ci-multi-runner. | 0 | +0 |
+| [gradle-completion (gradle)](../r/gradle~gradle-completion.md) | Gradle tab completion for bash and zsh | 1,098 | +0 |
 | [gradle-completion (ninrod)](../r/ninrod~gradle-zsh-completion.md) | zsh completion for gradle | 1 | +0 |
 | [grid5000](../r/pmorillon~grid5000-zsh-plugin.md) | Grid'5000 plugin for oh-my-zsh | 2 | +0 |
 | [gstreamer](../r/craigcarey~gstreamer-tab.md) | A basic tab completion plugin for zsh | 2 | +0 |
@@ -186,16 +186,16 @@
 | [llm](../r/eliyastein~llm-zsh-plugin.md) | Zsh completion plugin for the LLM CLI tool by Simon Willison | 20 | +0 |
 | [llm-cli-autocomplete-tool](../r/duoyuncloud~zsh-llm-cli-autocomplete-tool.md) | AI-powered Zsh plugin for intelligent CLI command completion using LLMs with LoRA fine-tuning. | 7 | +0 |
 | [ls-go](../r/mohamedelashri~ls-go-zsh.md) | ls-go aliases plugin for zsh | 0 | +0 |
-| [mac](../r/scriptingosx~mac-zsh-completions.md) | macOS specific additional completion definitions for Zsh. | 190 | +0 |
 | [macos](../r/danydodson~zsh-completions.md) | 🔧 Collection of macOS zsh completions | 1 | +0 |
 | [mill](../r/carlosedp~mill-zsh-completions.md) | Zsh plugin adding Scala Mill build tool completions and prompt display | 4 | +0 |
 | [miniconda](../r/cmuench~zsh-miniconda.md) | Miniconda zsh plugin (tested with Zap plugin manager) | 1 | +0 |
 | [misc-completions](../r/syohex~zsh-misc-completions.md) | Adds completions for more unix and perl commands. | 0 | +0 |
 | [mooseX-App](../r/perlpunk~moosex-app-plugin-zshcompletion.md) | Zsh completion generator for perl module MooseX::App | 1 | +0 |
 | [more-completions](../r/menketechnologies~zsh-more-completions.md) | Worlds largest collection of zsh completions | 53 | +0 |
-| [msfvenom](../r/green-m~msfvenom-zsh-completion.md) | zsh completion for msfvenom in Metasploit | 57 | +0 |
+| [msfvenom](../r/green-m~msfvenom-zsh-completion.md) | zsh completion for msfvenom in Metasploit | 58 | +0 |
 | [mx-honey](../r/mukel~mx-honey.md) | 🍯 sweet (zsh) completions for mx | 8 | +0 |
 | [myincr](../r/gaojunbin~zsh-myincr.md) | zsh plugin for oh-my-zsh to autosuggest | 0 | +0 |
+| [nestcli](../r/behradkhodayar~nestcli-zsh.md) | Zsh completion plugin for Nest.js framework's CLI tool | 2 | +0 |
 | [newman](../r/selop~newman-autocomplete.md) | Oh-my-zsh autocomplete plugin for Newman | 0 | +0 |
 | [ngrok](../r/bostonaholic~ngrok.plugin.zsh.md) | A Zsh plugin to auto-load ngrok | 2 | +0 |
 | [nix](../r/spwhitt~nix-zsh-completions.md) | ZSH Completions for Nix | 278 | +0 |
@@ -203,6 +203,7 @@
 | [nova](../r/rbirnie~oh-my-zsh-nova.md) | oh-my-zsh Plugin for python-novaclient | 6 | +0 |
 | [npm-run](../r/akoenig~npm-run.plugin.zsh.md) | Autocompletion support for `npm run`. | 53 | +0 |
 | [npm-scripts-autocomplete](../r/grigorii-zander~zsh-npm-scripts-autocomplete.md) | ZSH plugin for npm scripts autocompletion | 118 | +0 |
+| [nx](../r/jscutlery~nx-completion.md) | Nx workspace completion plugin for Zsh. | 153 | +0 |
 | [oh-my-update](../r/utox39~oh-my-update.md) | oh-my-zsh plugin/theme updater | 4 | +0 |
 | [okta](../r/sirhc~okta.plugin.zsh.md) | Provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) and [okta-awscli](https:// | 1 | +0 |
 | [ollama](../r/katrovsky~zsh-ollama-completion.md) | Zsh completion plugin for Ollama AI models management | 8 | +0 |
@@ -237,7 +238,7 @@
 | [skate-actions](../r/mjmccull0~skate-actions.md) | Oh My Zsh plugin for Charmbracelet's Skate | 0 | +0 |
 | [speedtest](../r/yash-singh1~zsh-plugin-speedtest.md) | ZSH Plugin for `speedtest-cli` | 2 | +0 |
 | [spring-boot-plugin](../r/linux-china~oh-my-zsh-spring-boot-plugin.md) | oh-my-zsh Spring Boot plugin | 9 | +0 |
-| [ssh (sunlei)](../r/sunlei~zsh-ssh.md) | Better host completion for ssh in Zsh. | 210 | +0 |
+| [ssh (sunlei)](../r/sunlei~zsh-ssh.md) | Better host completion for ssh in Zsh. | 211 | +0 |
 | [ssh (zpm-zsh)](../r/zpm-zsh~ssh.md) | Zsh plugin for ssh | 19 | +0 |
 | [ssh-agent (bobsoppe)](../r/bobsoppe~zsh-ssh-agent.md) | Ssh-agent management for zsh | 25 | +0 |
 | [ssh-agent (hkupty)](../r/hkupty~ssh-agent.md) | zsh ssh agent plugin | 12 | +0 |
@@ -274,8 +275,7 @@
 | [zenquotes](../r/aminelch~zenquotes.md) |  Plugin for ZSH to get random quote from zenquotes.io | 0 | +0 |
 | [zoxide](../r/jnooree~zoxide-zsh-completion.md) | Hand-written zoxide completion | 4 | +0 |
 | [zpacman](../r/yttehs-hdx~zsh-zpacman.md) | oh-my-zsh plugin for zpacman | 0 | +0 |
-| [gradle-completion (gradle)](../r/gradle~gradle-completion.md) | Gradle tab completion for bash and zsh | 1,097 | -1 |
-| [yarn](../r/g-plane~zsh-yarn-autocompletions.md) | Zsh plugin for Yarn autocompletions. | 587 | -1 |
+| [yarn](../r/g-plane~zsh-yarn-autocompletions.md) | Zsh plugin for Yarn autocompletions. | 586 | -1 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -283,14 +283,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Maple](../r/subframe7536~maple-font.md) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grain | 25,542 | +192 |
-| [Nerd Fonts](../r/ryanoasis~nerd-fonts.md) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph colle | 62,757 | +99 |
-| [Iosevka](../r/be5invis~iosevka.md) | Versatile typeface for code, from code. | 22,177 | +97 |
-| [Powerline patched font collection](../r/powerline~fonts.md) | Patched fonts for Powerline users. | 26,284 | +9 |
-| [Awesome Terminal Fonts](../r/gabrielelana~awesome-terminal-fonts.md) | Tools and instructions on how to have awesome symbols in a terminal with a monospace font | 2,524 | +2 |
+| [Maple](../r/subframe7536~maple-font.md) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grain | 25,728 | +122 |
+| [Nerd Fonts](../r/ryanoasis~nerd-fonts.md) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph colle | 62,929 | +95 |
+| [Iosevka](../r/be5invis~iosevka.md) | Versatile typeface for code, from code. | 22,222 | +26 |
+| [Powerline patched font collection](../r/powerline~fonts.md) | Patched fonts for Powerline users. | 26,295 | +3 |
+| [Awesome Terminal Fonts](../r/gabrielelana~awesome-terminal-fonts.md) | Tools and instructions on how to have awesome symbols in a terminal with a monospace font | 2,524 | +0 |
 | [Fantasque Awesome Font](../r/ztomer~fantasque_awesome_powerline.md) | patched fantasque sans+powerline+awesome | 37 | +0 |
-| [Fantasque-sans](../r/belluzj~fantasque-sans.md) | A font family with a great monospaced variant for programmers. | 7,370 | +0 |
-| [SFMono Nerd Font Ligaturized](../r/shaunsingh~sfmono-nerd-font-ligaturized.md) | Apple's SFMono font nerd-font patched and ligaturized  | 1,030 | +0 |
+| [Fantasque-sans](../r/belluzj~fantasque-sans.md) | A font family with a great monospaced variant for programmers. | 7,365 | -3 |
+| [SFMono Nerd Font Ligaturized](../r/shaunsingh~sfmono-nerd-font-ligaturized.md) | Apple's SFMono font nerd-font patched and ligaturized  | 1,029 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -298,8 +298,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
+| [rossmacarthur/zsh-plugin-manager-benchmark](../r/rossmacarthur~zsh-plugin-manager-benchmark.md) | Benchmark the speed of different Zsh plugin managers | 128 | +1 |
 | [pm-perf-test](../r/z-shell~pm-perf-test.md) | Plugin Manager performance test for Zsh  | 5 | +0 |
-| [rossmacarthur/zsh-plugin-manager-benchmark](../r/rossmacarthur~zsh-plugin-manager-benchmark.md) | Benchmark the speed of different Zsh plugin managers | 126 | +0 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -307,19 +307,21 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [awesome-sysadmin](../r/n1trux~awesome-sysadmin.md) | A curated list of amazingly awesome open-source sysadmin resources. | 33,726 | +76 |
-| [carapace](../r/rsteube~carapace.md) | A multi-shell completion library. | 1,261 | +6 |
-| [zsh-bench](../r/romkatv~zsh-bench.md) | Benchmark for interactive Zsh | 958 | +5 |
-| [shellSpec](../r/shellspec~shellspec.md) | A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells | 1,366 | +4 |
-| [complgen](../r/adaszko~complgen.md) | Declarative bash/fish/zsh/pwsh completions without writing shell scripts! | 325 | +2 |
-| [completion-generator](../r/robsis~zsh-completion-generator.md) | Plugin that generates completion functions automatically from getopt-style help texts | 295 | +1 |
-| [manpage-completion-generator](../r/umlx5h~zsh-manpage-completion-generator.md) | Generate zsh completions from man page | 60 | +1 |
-| [Mastering ZSH](../r/rothgar~mastering-zsh.md) | Advanced topics to take advantage of zsh 👩‍💻👨‍💻 | 1,610 | +1 |
-| [shtab](../r/iterative~shtab.md) | ↔️ Automagic shell tab completion for Python CLI applications | 450 | +1 |
-| [zshdb](../r/rocky~zshdb.md) | gdb-like "trepan" debugger for zsh | 324 | +1 |
+| [awesome-sysadmin](../r/n1trux~awesome-sysadmin.md) | A curated list of amazingly awesome open-source sysadmin resources. | 33,861 | +66 |
+| [carapace](../r/rsteube~carapace.md) | A multi-shell completion library. | 1,283 | +10 |
+| [zsh-bench](../r/romkatv~zsh-bench.md) | Benchmark for interactive Zsh | 963 | +4 |
+| [Mastering ZSH](../r/rothgar~mastering-zsh.md) | Advanced topics to take advantage of zsh 👩‍💻👨‍💻 | 1,611 | +2 |
+| [argcomplete](../r/kislyuk~argcomplete.md) | Python and tab completion, better together. | 1,562 | +1 |
+| [completion-generators](../r/zetlen~zsh-completion-generators.md) | Has a table of tool names and the commands for outputting completion scripts for those tools. On every load, will check  | 2 | +1 |
+| [complgen](../r/adaszko~complgen.md) | Declarative bash/fish/zsh/pwsh completions without writing shell scripts! | 327 | +1 |
+| [shellSpec](../r/shellspec~shellspec.md) | A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells | 1,372 | +1 |
+| [shtab](../r/iterative~shtab.md) | ↔️ Automagic shell tab completion for Python CLI applications | 452 | +1 |
+| [zshdb](../r/rocky~zshdb.md) | gdb-like "trepan" debugger for zsh | 325 | +1 |
+| [zunit](../r/zunit-zsh~zunit.md) | A powerful testing framework for ZSH projects | 224 | +1 |
 | [cgen](../r/acristoffers~cgen.md) | Generates BASH, ZSH and Fish completion files | 1 | +0 |
-| [completion-generators](../r/zetlen~zsh-completion-generators.md) | Has a table of tool names and the commands for outputting completion scripts for those tools. On every load, will check  | 1 | +0 |
+| [completion-generator](../r/robsis~zsh-completion-generator.md) | Plugin that generates completion functions automatically from getopt-style help texts | 295 | +0 |
 | [crazy-complete](../r/crazy-complete~crazy-complete.md) | Generate shell auto completion files | 16 | +0 |
+| [manpage-completion-generator](../r/umlx5h~zsh-manpage-completion-generator.md) | Generate zsh completions from man page | 60 | +0 |
 | [oclif completion generator](../r/muniftanjim~oclif-plugin-completion.md) | oclif plugin for generating shell completions | 13 | +0 |
 | [oh-plugin](../r/mbergo~oh-plugin.md) | Plugin installation for oh-my-zsh | 3 | +0 |
 | [rust-zsh-plugin-cli](../r/johnstonskj~rust-zsh-plugin-cli.md) | A command-line tool to generate new Zsh plugins. | 0 | +0 |
@@ -328,8 +330,6 @@
 | [zargparse](../r/ctil~zargparse.md) | A tool for generating zsh completion files for python command line tools that use argparse | 13 | +0 |
 | [zsh-ai-completions](../r/iloveitaly~zsh-ai-completions.md) | Shell completions are hard. Let's generate them with AI. | 9 | +0 |
 | [zshelldoc](../r/zdharma-continuum~zshelldoc.md) | Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists | 23 | +0 |
-| [zunit](../r/zunit-zsh~zunit.md) | A powerful testing framework for ZSH projects | 223 | +0 |
-| [argcomplete](../r/kislyuk~argcomplete.md) | Python and tab completion, better together. | 1,562 | -1 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -337,39 +337,47 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [aws-vault (zsh-contrib)](../r/zsh-contrib~zsh-aws.md) | Zsh plugin for AWS credential management with aws-vault and per-window tmux profile support | 1 | +1 |
-| [edit-select](../r/michael-matta1~zsh-edit-select.md) | Edit your Zsh command line like a text editor with Shift selection, copy/cut/paste, replace on type/paste, undo/redo, mo | 10 | +1 |
-| [eza (zsh-contrib)](../r/zsh-contrib~zsh-eza.md) | Zsh plugin for eza with Catppuccin and Rose Pine theming, smart defaults, and full alias support | 1 | +1 |
-| [fzf (zsh-contrib)](../r/zsh-contrib~zsh-fzf.md) | Zsh plugin for fzf with Catppuccin and Rose Pine theming and enhanced key bindings | 1 | +1 |
-| [git-profile](../r/nemezo~zsh-git-profile.md) | Zsh plugin for deterministic Git identity management across accounts, clients, and projects, ensuring the correct author | 1 | +1 |
-| [op](../r/zsh-contrib~zsh-op.md) | Zsh plugin for 1Password CLI with secure macOS Keychain caching, multi-profile support, and SSH key management | 1 | +1 |
+| [patina](../r/michel-kraemer~zsh-patina.md) | $ A blazingly fast Zsh syntax highlighter 🌈 | 225 | +11 |
+| [halfpipe](../r/raimo~zsh-halfpipe.md) | Press Ctrl-G after pipe in zsh and the output updates live as you edit the command | 21 | +1 |
+| [lacy](../r/lacymorrow~lacy.md) | AI Terminal. Speak to your shell. | 11 | +1 |
+| [arch-aptstyle](../r/mroldl001~arch-aptstyle.md) | A lightweight zsh plugin for apt-style commands on Arch Linux package managers (pacman, paru, yay). | 4 |  |
+| [aws-vault (zsh-contrib)](../r/zsh-contrib~zsh-aws.md) | Zsh plugin for AWS credential management with aws-vault and per-window tmux profile support | 1 | +0 |
 | [awsmultiaccount](../r/acidix~zsh-awsmultiaccount.md) | zsh plugin for working with multiple aws profiles and roles | 0 | +0 |
 | [btrfs-snapper](../r/crisis1er~zsh-btrfs-snapper.md) | Oh My Zsh plugin for btrfs filesystem and snapper snapshot management on openSUSE Tumbleweed | 0 | +0 |
 | [diskguard](../r/tomfromberlin~diskguard.md) | A ZSH plugin that warns you when you try to copy/move files and are running low on disk space | 1 | +0 |
+| [dune.zsh](../r/bitpeppr~dune.zsh.md) | Dune quotes to kick off your zsh session! | 0 | +0 |
+| [edit-select](../r/michael-matta1~zsh-edit-select.md) | Edit your Zsh command line like a text editor with Shift selection, copy/cut/paste, replace on type/paste, undo/redo, mo | 11 | +0 |
 | [expand-space](../r/spqw~zsh-alias-expand-space.md) | Zsh plugin to expand aliases when space is pressed | 0 | +0 |
+| [eza (zsh-contrib)](../r/zsh-contrib~zsh-eza.md) | Zsh plugin for eza with Catppuccin and Rose Pine theming, smart defaults, and full alias support | 1 | +0 |
+| [fzf (zsh-contrib)](../r/zsh-contrib~zsh-fzf.md) | Zsh plugin for fzf with Catppuccin and Rose Pine theming and enhanced key bindings | 1 | +0 |
 | [gcloud (johnstonskj)](../r/johnstonskj~zsh-gcloud-plugin.md) | Zsh plugin to set the environment for the Google Cloud SDK and CLI. | 0 | +0 |
+| [git-tidy](../r/silee9019~git-tidy.md) | Oh My Zsh plugin for safely cleaning up gone branches (trunk-based + squash merge workflow) | 0 |  |
 | [git-worktree-manager](../r/tmbtech~zsh-git-worktree-manager.md) | Oh-My-Zsh plugin for managing git worktrees with ease | 0 | +0 |
 | [gitbutler](../r/batuhan0sanli~gitbutler-omz.md) | Oh My Zsh plugin for GitButler — aliases, git protection shield, and prompt integration for OMZ &  Powerlevel10k | 1 | +0 |
-| [halfpipe](../r/raimo~zsh-halfpipe.md) | Press Ctrl-G after pipe in zsh and the output updates live as you edit the command | 20 | +0 |
 | [jirarc](../r/aoantov~jirarc.md) | Zsh aliases plugin for Jira CLI | 0 | +0 |
 | [k9s](../r/acidix~zsh-k9s.md) | zsh plugin to manage multiple kubectl configurations for k9s | 0 | +0 |
 | [kube-ctx-manager](../r/notharshhaa~kube-ctx-manager.md) | A smart shell plugin for kubectl power users fuzzy context switching, auto-suggested aliases, and prod safeguards built  | 1 | +0 |
-| [lacy](../r/lacymorrow~lacy.md) | AI Terminal. Speak to your shell. | 9 | +0 |
 | [llm-replace](../r/m3at~zsh-llm-replace.md) | Zsh plugin to integrate LLM into the shell for quick command generation | 2 | +0 |
 | [magebox](../r/jcombee~oh-my-zsh-magebox.md) | Oh-My-Zsh plugin for [magebox](https://magebox.dev/) — a modern development environment for Magento 2 and MageOS. | 0 | +0 |
 | [matecito](../r/uvallasciani~matecito-zsh.md) | Oh My Zsh plugin that detects your language and country to display quotes from local authors in your native language. Si | 0 | +0 |
-| [mise (cowboyd)](../r/cowboyd~zsh-mise.md) | zsh plugin for mise | 0 |  |
+| [mise (cowboyd)](../r/cowboyd~zsh-mise.md) | zsh plugin for mise | 0 | +0 |
 | [mlir](../r/oowekyala~mlir-zsh-plugin.md) | ZSH utilities to work with MLIR | 12 | +0 |
 | [nvm-x](../r/seebeen~zsh-nvm-x.md) | Fast Zsh plugin to install, update, and load nvm, with optional lazy-loading and .nvmrc auto-use support | 1 | +0 |
 | [ohmyai](../r/briques~ohmyai-zsh.md) | AI-powered shell command suggestions for Zsh. Type what you want to do, press Ctrl+o, get suggestions from OpenAI. Oh My | 0 | +0 |
+| [op](../r/zsh-contrib~zsh-op.md) | Zsh plugin for 1Password CLI with secure macOS Keychain caching, multi-profile support, and SSH key management | 1 | +0 |
 | [paste-guard](../r/stefanoamorelli~zsh-paste-guard.md) | Zsh plugin that intercepts pasted commands and requires typed confirmation before execution. Mitigates MITRE ATT&CK T120 | 1 | +0 |
-| [patina](../r/michel-kraemer~zsh-patina.md) | $ A blazingly fast Zsh syntax highlighter 🌈 | 210 |  |
+| [pi](../r/nearsyh~pi-zsh-plugin.md) | Maps `:` commands in your shell to `pi -p` calls and keeps a per-shell `pi` session file for continuity. | 0 |  |
 | [pjfzf](../r/k021~pjfzf.md) | A project directory navigator powered by [fzf](https://github.com/junegunn/fzf). Registers base directories and navigate | 0 | +0 |
+| [pnpm (bgowers)](../r/bgowers~omz-pnpm.md) | An oh-my-zsh plugin for pnpm tha provides aliases and completion | 1 |  |
+| [smart-history](../r/lstasi~zsh-smart-history-plugin.md) | zsh Smart History plugin | 0 | +0 |
 | [snap-list](../r/crisis1er~zsh-snap-list.md) | Oh My Zsh plugin for colorized snapper snapshot listing with summary line on openSUSE Tumbleweed | 0 | +0 |
 | [snap-new](../r/crisis1er~zsh-snap-new.md) | Oh My Zsh plugin for interactive guided snapper snapshot creation on openSUSE Tumbleweed | 0 | +0 |
 | [snap-rollback](../r/crisis1er~zsh-snap-rollback.md) | Oh My Zsh plugin for openSUSE Tumbleweed — Safe guided snapper rollback with confirmation and reboot warning | 0 | +0 |
+| [startcache](../r/rndjams~zsh-startcache.md) | Fast zsh startup via time-based caching. Replaces evalcache + compinit rebuild hacks in one plugin. | 0 | +0 |
+| [undo-dir](../r/allisnulll~zsh-undo-dir.md) | Zsh Plugin to navigate cwd history | 6 |  |
 | [zsh-make-completion](../r/pksublime~zsh-make-completion.md) | Make zsh behave much like bash when tab completing make targets | 1 | +0 |
-| [zsh-pkg-update-nag](../r/madisonrickert~zsh-pkg-update-nag.md) | Session-start nag that checks Homebrew, npm, pnpm, uv, and RubyGems globals for outdated packages and offers to update t | 4 |  |
+| [zsh-pkg-update-nag](../r/madisonrickert~zsh-pkg-update-nag.md) | Session-start nag that checks Homebrew, npm, pnpm, uv, and RubyGems globals for outdated packages and offers to update t | 4 | +0 |
+| [git-profile](../r/nemezo~zsh-git-profile.md) | Zsh plugin for deterministic Git identity management across accounts, clients, and projects, ensuring the correct author | 1 | -1 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -377,88 +385,97 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [zoxide](../r/ajeetdsouza~zoxide.md) | A smarter cd command. Supports all major shells. | 36,166 | +225 |
-| [autosuggestions](../r/zsh-users~zsh-autosuggestions.md) | Fish-like autosuggestions for zsh | 35,384 | +59 |
-| [syntax-highlighting](../r/zsh-users~zsh-syntax-highlighting.md) | Fish shell like syntax highlighting for Zsh. | 22,575 | +39 |
-| [autocomplete](../r/marlonrichert~zsh-autocomplete.md) | 🤖 Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion. | 6,549 | +21 |
-| [fzf-tab](../r/aloxaf~fzf-tab.md) | Replace zsh's default completion selection menu with fzf! | 4,666 | +16 |
-| [vi-mode (jeffreytse)](../r/jeffreytse~zsh-vi-mode.md) | 💻 A better and friendly vi(vim) mode plugin for ZSH. | 4,327 | +16 |
-| [forgit](../r/wfxr~forgit.md) | 💤 A utility tool powered by fzf for using git interactively. | 4,978 | +10 |
-| [fast-syntax-highlighting](../r/zdharma-continuum~fast-syntax-highlighting.md) | Feature-rich syntax highlighting for ZSH | 1,662 | +8 |
-| [shellfirm](../r/kaplanelad~shellfirm.md) | Safety guardrails for ai coding agents and human terminal commands | 902 | +6 |
-| [autojump](../r/wting~autojump.md) | A cd command that learns - easily navigate directories from the command line | 16,903 | +4 |
-| [autoupdate-oh-my-zsh-plugins](../r/tamcore~autoupdate-oh-my-zsh-plugins.md) | Plugin for oh-my-zsh to automatically update custom-plugins | 320 | +4 |
-| [defer](../r/romkatv~zsh-defer.md) | Deferred execution of Zsh commands | 484 | +4 |
-| [git-extra-commands](../r/unixorn~git-extra-commands.md) | A collection of git utilities, useful extra git scripts, tutorials and other useful articles. | 1,151 | +4 |
-| [history-substring-search](../r/zsh-users~zsh-history-substring-search.md) | 🐠 ZSH port of Fish history search (up arrow) | 3,026 | +4 |
-| [enhancd](../r/b4b4r07~enhancd.md) | 🚀 A next-generation cd command with your interactive filter | 2,696 | +3 |
-| [git-secret](../r/sobolevn~git-secret.md) | 👥 A bash-tool to store your private data inside a git repository. | 4,013 | +3 |
-| [zsh-z (agkozak)](../r/agkozak~zsh-z.md) | Jump quickly to directories that you have visited "frecently." A native Zsh port of z.sh with added features. | 2,383 | +3 |
-| [async](../r/mafredri~zsh-async.md) | Because your terminal should be able to perform tasks asynchronously without external tools! | 814 | +2 |
-| [autoswitch-virtualenv](../r/michaelaquilina~zsh-autoswitch-virtualenv.md) |  🐍 ZSH plugin to automatically switch python virtualenvs (including pipenv and poetry) as you move between directories | 618 | +2 |
-| [claude-code-shell](../r/arieltm~zsh-claude-code-shell.md) | Zsh plugin that integrates Claude Code CLI into your shell. Chat with Claude and execute AI-generated commands directly  | 32 | +2 |
-| [command-time](../r/popstas~zsh-command-time.md) | Show execution time for long commands in zsh | 212 | +2 |
-| [fzf (unixorn)](../r/unixorn~fzf-zsh-plugin.md) | ZSH plugin to enable fzf searches of a lot more stuff - docker, tmux, homebrew and more. | 416 | +2 |
-| [fzf-history-search](../r/joshskidmore~zsh-fzf-history-search.md) | A simple zsh plugin that replaces Ctrl+R with an fzf-driven select which includes date/times. | 458 | +2 |
-| [git-fuzzy](../r/bigh~git-fuzzy.md) | interactive `git` with the help of `fzf` | 2,423 | +2 |
-| [nvm](../r/lukechilds~zsh-nvm.md) | Zsh plugin for installing, updating and loading nvm | 2,404 | +2 |
-| [shift-select](../r/jirutka~zsh-shift-select.md) | Select text in Zsh command line using Shift, as in many text editors and GUI programs | 206 | +2 |
-| [ai-cmd](../r/shanemcd~ai-cmd.md) | Zsh plugin to generate shell commands from natural language using local LLMs via ollama | 4 | +1 |
-| [ai-cmd](../r/kylesnowschwartz~zsh-ai-cmd.md) | Zsh plugin: natural language to shell commands with AI | 92 | +1 |
-| [aish](../r/chr15m~aish.md) | Shell script one-liners right in your terminal prompt | 35 | +1 |
-| [almostontop](../r/valiev~almostontop.md) | almostontop zsh plugin | 96 | +1 |
-| [ask-opencode](../r/andreacasarin~zsh-ask-opencode.md) | ZSH plugin that integrates OpenCode AI with your shell | 10 | +1 |
-| [atuin](../r/ellie~atuin.md) | ✨ Magical shell history | 12 | +1 |
-| [auto-notify](../r/michaelaquilina~zsh-auto-notify.md) |  ⏰ ZSH plugin that automatically sends out a notification when a long running task has completed. | 477 | +1 |
-| [aws-vault](../r/blimmer~zsh-aws-vault.md) | oh-my-zsh plugin for aws-vault | 95 | +1 |
-| [bitwarden (kalsowerus)](../r/kalsowerus~zsh-bitwarden.md) | Simple zsh-plugin that adds keybinds to easily search and retrieve Bitwarden usernames/passwords. | 15 | +1 |
-| [claude](../r/hundredacrestudio~zsh-claude.md) | Standalone zsh plugin providing AI-powered command suggestions and explanations via Claude AP | 3 | +1 |
-| [evalcache](../r/mroth~evalcache.md) | 🐣 zsh plugin to cache eval loads to improve shell startup time | 261 | +1 |
-| [explain-shell (brokentoaster)](../r/brokentoaster~zsh-explainshell.md) | plugin to look up current cmd line on explainshell. | 8 | +1 |
-| [git-worktree (trthomps)](../r/trthomps~git-worktree-zsh-plugin.md) | Plugin for Oh My ZSH for working with git work trees | 6 | +1 |
-| [histdb](../r/larkery~zsh-histdb.md) | A slightly better history for zsh | 1,362 | +1 |
-| [learn](../r/menketechnologies~zsh-learn.md) | learning collection in MySQL/MariaDB to save, query and quiz everything you learn | 8 | +1 |
-| [macos-autoproxy](../r/sukkaw~zsh-osx-autoproxy.md) | An oh-my-zsh plugin that configures proxy environment variables based on macOS's system preferences automatically | 143 | +1 |
-| [opencode](../r/verlihirsh~zsh-opencode-plugin.md) | Stop googling shell commands. Just describe what you want in plain English, press Tab, and get the exact command you nee | 6 | +1 |
-| [pnpm (ntnyq)](../r/ntnyq~omz-plugin-pnpm.md) | ⚙️ oh-my-zsh aliases for common pnpm commands. | 90 | +1 |
-| [schroot](../r/fshp~schroot.plugin.zsh.md) | Show current `chroot` name in your prompt. | 2 | +1 |
-| [seedee](../r/joknarf~seedee.md) | command line interactive directory navigator with history (bash / ksh / zsh)  | 9 | +1 |
-| [ssh-host](../r/obolientsev~ssh-host.md) | Lightweight terminal-based ssh/scp manager | 7 | +1 |
-| [sysadmin-util](../r/skx~sysadmin-util.md) | Tools for Linux/Unix sysadmins. | 998 | +1 |
-| [system-clipboard](../r/kutsan~zsh-system-clipboard.md) | System clipboard key bindings for Zsh Line Editor with vi mode. It is similar to what `set clipboard=unnamed` does for v | 180 | +1 |
-| [tab-title (trystan2k)](../r/trystan2k~zsh-tab-title.md) | A ZSH plugin to set the terminal tab title according to current directory or running process. It's based (forked) from O | 55 | +1 |
-| [terraform (ptavares)](../r/ptavares~zsh-terraform.md) | zsh plugin for installing some usefull aliases for Terraform daily usage | 5 | +1 |
-| [tmux (zsh-contrib)](../r/zsh-contrib~zsh-tmux.md) | Zsh plugin for automatic tmux window title management based on current shell activity | 2 | +1 |
-| [vivid](../r/zsh-contrib~zsh-vivid.md) | Zsh plugin for vivid LS_COLORS generation with Catppuccin theming and cross-plugin synchronization | 1 | +1 |
-| [z.lua](../r/skywind3000~z.lua.md) | ⚡ A new cd command that helps you navigate faster by learning your habits. | 3,133 | +1 |
-| [1password](../r/agpenton~1password-zsh-plugin.md) | zsh plugin to manage 1password | 4 | +0 |
-| [256color](../r/chrissicool~zsh-256color.md) | ZSH plugin to enhance the terminal environment with 256 colors | 151 | +0 |
-| [abbr](../r/olets~zsh-abbr.md) | zsh-abbr brings auto-expanding abbreviations to your zsh terminal. Full-featured CLI; dotfiles-friendly; integrates with | 775 | +0 |
+| [zoxide](../r/ajeetdsouza~zoxide.md) | A smarter cd command. Supports all major shells. | 36,540 | +235 |
+| [autosuggestions](../r/zsh-users~zsh-autosuggestions.md) | Fish-like autosuggestions for zsh | 35,475 | +56 |
+| [fzf-tab](../r/aloxaf~fzf-tab.md) | Replace zsh's default completion selection menu with fzf! | 4,699 | +28 |
+| [syntax-highlighting](../r/zsh-users~zsh-syntax-highlighting.md) | Fish shell like syntax highlighting for Zsh. | 22,613 | +26 |
+| [autocomplete](../r/marlonrichert~zsh-autocomplete.md) | 🤖 Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion. | 6,575 | +21 |
+| [vi-mode (jeffreytse)](../r/jeffreytse~zsh-vi-mode.md) | 💻 A better and friendly vi(vim) mode plugin for ZSH. | 4,345 | +12 |
+| [forgit](../r/wfxr~forgit.md) | 💤 A utility tool powered by fzf for using git interactively. | 4,987 | +9 |
+| [zsh-z (agkozak)](../r/agkozak~zsh-z.md) | Jump quickly to directories that you have visited "frecently." A native Zsh port of z.sh with added features. | 2,391 | +7 |
+| [fast-syntax-highlighting](../r/zdharma-continuum~fast-syntax-highlighting.md) | Feature-rich syntax highlighting for ZSH | 1,670 | +5 |
+| [you-should-use](../r/michaelaquilina~zsh-you-should-use.md) | 📎 ZSH plugin that reminds you to use existing aliases for commands you just typed | 1,895 | +5 |
+| [git-secret](../r/sobolevn~git-secret.md) | 👥 A bash-tool to store your private data inside a git repository. | 4,019 | +4 |
+| [kube-ps1](../r/jonmosco~kube-ps1.md) | Kubernetes prompt info for bash and zsh | 3,781 | +4 |
+| [abbr](../r/olets~zsh-abbr.md) | zsh-abbr brings auto-expanding abbreviations to your zsh terminal. Full-featured CLI; dotfiles-friendly; integrates with | 779 | +3 |
+| [autojump](../r/wting~autojump.md) | A cd command that learns - easily navigate directories from the command line | 16,906 | +3 |
+| [fzf-history-search](../r/joshskidmore~zsh-fzf-history-search.md) | A simple zsh plugin that replaces Ctrl+R with an fzf-driven select which includes date/times. | 461 | +3 |
+| [git-extra-commands](../r/unixorn~git-extra-commands.md) | A collection of git utilities, useful extra git scripts, tutorials and other useful articles. | 1,155 | +3 |
+| [history-substring-search](../r/zsh-users~zsh-history-substring-search.md) | 🐠 ZSH port of Fish history search (up arrow) | 3,033 | +3 |
+| [navigation-tools](../r/zdharma-continuum~zsh-navigation-tools.md) | Curses-based tools for Zsh, e.g. multi-word history searcher | 17 | +3 |
+| [autopair](../r/hlissner~zsh-autopair.md) | Auto-close and delete matching delimiters in zsh | 617 | +2 |
+| [autoupdate-oh-my-zsh-plugins](../r/tamcore~autoupdate-oh-my-zsh-plugins.md) | Plugin for oh-my-zsh to automatically update custom-plugins | 322 | +2 |
+| [defer](../r/romkatv~zsh-defer.md) | Deferred execution of Zsh commands | 488 | +2 |
+| [seedee](../r/joknarf~seedee.md) | command line interactive directory navigator with history (bash / ksh / zsh)  | 11 | +2 |
+| [shellfirm](../r/kaplanelad~shellfirm.md) | Safety guardrails for ai coding agents and human terminal commands | 906 | +2 |
+| [tumult](../r/unixorn~tumult.plugin.zsh.md) | Tumult is a collection of macOS-specific functions and scripts for your shell environment. It is packaged as a ZSH plugi | 211 | +2 |
+| [z.lua](../r/skywind3000~z.lua.md) | ⚡ A new cd command that helps you navigate faster by learning your habits. | 3,134 | +2 |
+| [1password](../r/agpenton~1password-zsh-plugin.md) | zsh plugin to manage 1password | 5 | +1 |
+| [256color](../r/chrissicool~zsh-256color.md) | ZSH plugin to enhance the terminal environment with 256 colors | 153 | +1 |
+| [activate-py-environment](../r/se-jaeger~zsh-activate-py-environment.md) | ZSH plugin that automagically detects and activates your python environments (poetry, virtualenv, conda) while traversin | 31 | +1 |
+| [ai-cmd](../r/kylesnowschwartz~zsh-ai-cmd.md) | Zsh plugin: natural language to shell commands with AI | 94 | +1 |
+| [ai-commands](../r/muepatrick~zsh-ai-commands.md) | Zsh plugin to convert natural language prompts to terminal commands with GPT-4 | 40 | +1 |
+| [apple-touchbar](../r/zsh-users~zsh-apple-touchbar.md) | Make your touchbar more powerful. | 352 | +1 |
+| [atuin](../r/ellie~atuin.md) | ✨ Magical shell history | 13 | +1 |
+| [change-case](../r/mtxr~zsh-change-case.md) | Plugin for fast swap between upper and lower case in your command line. (ZSH-only) | 9 | +1 |
+| [clean-history](../r/automaat~zsh-clean-history.md) | Smart zsh history cleanup plugin - removes typos and failed commands | 3 | +1 |
+| [command-execution-timer](../r/olets~command-execution-timer.md) | A zsh plugin for measuring, working with, and displaying the time an interactive shell command takes to execute. | 15 | +1 |
+| [communism](../r/victoria-riley-barnett~communism.md) | A ZSH startup plugin that adds Marx quotes and an ASCII hammer & sickle to your terminal sessions. | 31 | +1 |
+| [diff-so-fancy](../r/z-shell~zsh-diff-so-fancy.md) | ⚙️ The diff-so-fancy for Zsh | 31 | +1 |
+| [dot-up](../r/toku-sa-n~zsh-dot-up.md) | Zsh plugin that converts ..., ...., ....., etc., into cd commands to navigate parent directories. | 8 | +1 |
+| [dotfiles](../r/vladmyr~dotfiles-plugin.md) | Keep your dotfiles in sync using Git, a plugin for Oh My Zsh | 27 | +1 |
+| [expand](../r/menketechnologies~zsh-expand.md) | Zsh Plugin expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key.  | 41 | +1 |
+| [ez-compinit](../r/mattmc3~ez-compinit.md) | 🐣 - Make Zsh compinit suck less | 40 | +1 |
+| [fastcache](../r/quarticcat~zsh-fastcache.md) | A Zsh plugin to cache command output to boost shell startup. | 47 | +1 |
+| [fd](../r/aubreypwd~zsh-plugin-fd.md) | Function for fuzzy finding files and olders using fzf. | 10 | +1 |
+| [git-it-on](../r/peterhurford~git-it-on.zsh.md) | Quickly navigate GitHub from the command line. | 116 | +1 |
+| [git-worktrees](../r/egyptianbman~zsh-git-worktrees.md) | A zsh plugin that makes git worktrees much more functional | 17 | +1 |
+| [history-enquirer](../r/zthxxx~zsh-history-enquirer.md) | plugin for zsh history search, enhance interaction | 99 | +1 |
+| [jq](../r/reegnz~jq-zsh-plugin.md) | jq zsh plugin | 360 | +1 |
+| [macos (zshzoo)](../r/zshzoo~macos.md) | Zsh goodies for MacOS users | 26 | +1 |
+| [macos-autoproxy](../r/sukkaw~zsh-osx-autoproxy.md) | An oh-my-zsh plugin that configures proxy environment variables based on macOS's system preferences automatically | 144 | +1 |
+| [opencode](../r/verlihirsh~zsh-opencode-plugin.md) | Stop googling shell commands. Just describe what you want in plain English, press Tab, and get the exact command you nee | 7 | +1 |
+| [per-directory-history](../r/jimhester~per-directory-history.md) | Per directory history for zsh, as well as global history, and the ability to toggle between them with ^G. | 351 | +1 |
+| [pnpm (ntnyq)](../r/ntnyq~omz-plugin-pnpm.md) | ⚙️ oh-my-zsh aliases for common pnpm commands. | 91 | +1 |
+| [prettyping](../r/unixorn~prettyping.md) | `prettyping` is a wrapper around the standard `ping` tool, making the output prettier, more colorful, more compact, and  | 6 | +1 |
+| [redo](../r/joknarf~redo.md) | bash/zsh interactive history menu | 13 | +1 |
+| [shift-select](../r/jirutka~zsh-shift-select.md) | Select text in Zsh command line using Shift, as in many text editors and GUI programs | 207 | +1 |
+| [smartcache](../r/quarticcat~zsh-smartcache.md) | A Zsh plugin to cache command output to boost shell startup. | 47 | +1 |
+| [ssh-host](../r/obolientsev~ssh-host.md) | Lightweight terminal-based ssh/scp manager | 8 | +1 |
+| [ssh-warrior](../r/offerpi~ssh-warrior.md) | An Oh-My-Zsh plugin that automatically changes your terminal background color based on the SSH host you connect to.  | 1 | +1 |
+| [worktree](../r/jspears~worktree.md) | zsh plugins for working with git worktree | 6 | +1 |
+| [yazi-zoxide](../r/fdw~yazi-zoxide-zsh.md) | A zsh plugin to enjoy yazi and zoxide | 19 | +1 |
+| [zbrowse](../r/zdharma-continuum~zbrowse.md) | When doing shell work, it is often the case that `echo $variable` is invoked multiple times, to check the result of a lo | 20 | +1 |
+| [zce](../r/hchbaw~zce.zsh.md) | # zsh EasyMotion/ace-jump-mode | 68 | +1 |
+| [zman](../r/mattmc3~zman.md) | Use fzf to quickly browse Zsh manuals | 33 | +1 |
+| [zsh-expand](../r/menketechnologies~zsh-expand.md) | Zsh Plugin expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key.  | 41 | +1 |
+| [zui](../r/zdharma-continuum~zui.md) | ⬢ Zsh User Interface library – CGI+DHTML-like rapid application development with Zsh | 18 | +1 |
 | [abbr-path](../r/felixgravila~zsh-abbr-path.md) | theme_title_use_abbreviated_path equivalent for zsh on osx | 12 | +0 |
 | [abbr-preview](../r/cohml~zsh-abbr-preview.md) | zsh-abbr plugin extension that displays abbreviation expansion previews as you type. | 4 | +0 |
 | [abbrev-alias](../r/momo-lab~zsh-abbrev-alias.md) | This zsh plugin provides functionality similar to Vim's abbreviation expansion. | 121 | +0 |
 | [actiona](../r/matthieusb~act.md) | Zsh plugin for the actiona gui automation tool | 4 | +0 |
-| [activate-py-environment](../r/se-jaeger~zsh-activate-py-environment.md) | ZSH plugin that automagically detects and activates your python environments (poetry, virtualenv, conda) while traversin | 30 | +0 |
 | [adguard-helper](../r/mohamedelashri~adguard-helper.md) | Zsh plugin for human-friendly AdGuard VPN CLI usage | 1 | +0 |
 | [adonisjs](../r/baliestri~adonisjs.plugin.zsh.md) | Plugin for skipping the node part from the ace command. | 0 | +0 |
-| [ai-commands](../r/muepatrick~zsh-ai-commands.md) | Zsh plugin to convert natural language prompts to terminal commands with GPT-4 | 39 | +0 |
+| [ai-cmd](../r/shanemcd~ai-cmd.md) | Zsh plugin to generate shell commands from natural language using local LLMs via ollama | 4 | +0 |
 | [airpods-battery](../r/louis-thevenet~zsh-airpods-battery.md) | Zsh plugin that displays your airpods battery level in prompt | 11 | +0 |
+| [aish](../r/chr15m~aish.md) | Shell script one-liners right in your terminal prompt | 35 | +0 |
 | [alacritty](../r/casonadams~alacritty-shell.md) | A (zsh) plugin to control alacritty color themes. | 12 | +0 |
 | [alehouse](../r/sticklerm3~alehouse.md) | zsh-plugin for my brew aliases | 19 | +0 |
 | [alias-finder](../r/akash329d~zsh-alias-finder.md) | Simple ZSH Plugin to help you remember aliases. | 20 | +0 |
 | [alias-maker](../r/mefithp~alias-maker.md) | The Alias Maker plugin is a zsh plugin that allows you to easily create and manage custom zsh aliases from the command l | 13 | +0 |
-| [alias-tips](../r/djui~alias-tips.md) | An oh-my-zsh plugin to help remembering those aliases you defined once | 810 | +0 |
+| [alias-tips](../r/djui~alias-tips.md) | An oh-my-zsh plugin to help remembering those aliases you defined once | 811 | +0 |
 | [allclear](../r/givensuman~zsh-allclear.md) | a zsh plugin that clears your terminal | 4 | +0 |
 | [allergen](../r/stanislas~allergen.md) | An collection of custom zsh plugins to use with antigen. | 3 | +0 |
+| [almostontop](../r/valiev~almostontop.md) | almostontop zsh plugin | 96 | +0 |
 | [alt-and-select](../r/raisty~alt-and-select.md) | Alt & Select plugin for Oh My Zsh | 8 | +0 |
 | [ansible](../r/sparsick~ansible-zsh.md) | A plugin for [Ansible](https://www.ansible.com/). | 14 | +0 |
 | [ansimotd](../r/yuhonas~zsh-ansimotd.md) | a zsh-plugin to display old skool ansi & ascii bbs art on logon | 81 | +0 |
+| [ansiweather](../r/fcambus~ansiweather.md) | Weather in terminal, with ANSI colors and Unicode symbols | 1,938 | +0 |
 | [antidote-use-omz](../r/getantidote~use-omz.md) | A plugin to make using Oh-My-Zsh with antidote seamless | 36 | +0 |
 | [antigen-git-rebase](../r/smallhadroncollider~antigen-git-rebase.md) | An Antigen/zsh script to help with rebasing | 6 | +0 |
 | [anyframe](../r/mollifier~anyframe.md) | peco/percol/fzf wrapper plugin for zsh | 195 | +0 |
 | [apache2](../r/voronkovich~apache2.plugin.zsh.md) | ZSH plugin for Apache 2. | 6 | +0 |
 | [apparix](../r/micans~apparix.md) | Command line directory bookmarks with jumping to bookmarks, subdirectory tab completion, distant listing etc | 54 | +0 |
-| [apple-touchbar](../r/zsh-users~zsh-apple-touchbar.md) | Make your touchbar more powerful. | 351 | +0 |
 | [appup](../r/cloudstek~zsh-plugin-appup.md) | The command that can save you typing 15 characters or more, each time! | 19 | +0 |
 | [apt](../r/geolmg~apt-zsh-plugin.md) | a small zsh plugin for distros with atp package manager | 8 | +0 |
 | [arc](../r/anton-rudeshko~zsh-arc.md) | zsh plugin with aliases for Yandex version control system `arc` | 6 | +0 |
@@ -467,14 +484,16 @@
 | [archlinux (fourdim)](../r/fourdim~zsh-archlinux.md) | A plugin which provides command `pac` to drive pacman for common operations. | 1 | +0 |
 | [archlinux (junker)](../r/junker~zsh-archlinux.md) | ZSH Arch Linux plugin | 10 | +0 |
 | [arduino](../r/raghur~zsh-arduino.md) | zsh plugin for arduino build, upload and monitor | 6 | +0 |
-| [artisan](../r/jessarcher~zsh-artisan.md) | Laravel artisan plugin for zsh to help you to run artisan from anywhere in the project tree, with auto-completion, and i | 649 | +0 |
+| [artisan](../r/jessarcher~zsh-artisan.md) | Laravel artisan plugin for zsh to help you to run artisan from anywhere in the project tree, with auto-completion, and i | 650 | +0 |
 | [asciidoctor](../r/sparsick~asciidoctor-zsh.md) | A plugin for AsciiDoctor. | 6 | +0 |
 | [asdf (kiurchv)](../r/kiurchv~asdf.plugin.zsh.md) | Zsh integration and completions for asdf | 14 | +0 |
 | [asdf (zimfw)](../r/zimfw~asdf.md) | Initializes asdf. | 12 | +0 |
 | [asdf-direnv](../r/redxtech~zsh-asdf-direnv.md) | A zsh plugin that loads asdf & asdf-direnv. | 12 | +0 |
 | [asdf-prompt](../r/curryeleison~zsh-asdf-prompt.md) | Prompt info for asdf users in zsh | 8 | +0 |
 | [ask](../r/licheam~zsh-ask.md) | A lightweight Zsh plugin serves as a ChatGPT API frontend, enabling you to interact with ChatGPT directly from Zsh. | 79 | +0 |
+| [ask-opencode](../r/andreacasarin~zsh-ask-opencode.md) | ZSH plugin that integrates OpenCode AI with your shell | 10 | +0 |
 | [assume-role](../r/weizard~assume-role.md) | A plugin for zsh. | 7 | +0 |
+| [async](../r/mafredri~zsh-async.md) | Because your terminal should be able to perform tasks asynchronously without external tools! | 814 | +0 |
 | [atom-plugin](../r/corradorossi~oh-my-zsh-atom-plugin.md) | Plugin for Oh My Zsh that let's you launch a file or folder in Atom from iTerm2 | 5 | +0 |
 | [aur-install](../r/redxtech~zsh-aur-install.md) | A zsh plugin that provides a function to install a package from the AUR. | 2 | +0 |
 | [auto-cenv](../r/el3ssar~zsh-auto-cenv.md) | Zsh plugin that automatically activates and deactivates Conda environments when you `cd` into or out of project director | 0 | +0 |
@@ -482,16 +501,18 @@
 | [auto-fu.zsh](../r/hchbaw~auto-fu.zsh.md) | #zsh automatic complete-word and list-choices. Originally incr-0.2.zsh  by y.fujii <y-fujii at mimosa-pudica.net> | 436 | +0 |
 | [auto-ls (commanda-panda)](../r/commanda-panda~zsh-auto-ls.md) | ZSH plugin that automatically runs ls or color-ls if available on cd | 6 | +0 |
 | [auto-ls (desyncr)](../r/desyncr~auto-ls.md) | zsh plugin for auto-ls | 93 | +0 |
+| [auto-notify](../r/michaelaquilina~zsh-auto-notify.md) |  ⏰ ZSH plugin that automatically sends out a notification when a long running task has completed. | 478 | +0 |
 | [auto-nvm](../r/manlao~zsh-auto-nvm.md) | zsh nvm plugin | 0 | +0 |
 | [auto-pnpm-use](../r/brunomacedo~zsh-auto-pnpm-use.md) | zsh-auto-pnpm-use is a zsh plugin that automatically loads the node version specified in .nvmrc file. | 5 | +0 |
 | [auto-venv (skylor0tang)](../r/skylor-tang~auto-venv.md) | A Zsh plugin that automatically activates the Python virtual environment in the current directory or its parent director | 6 | +0 |
 | [autodark (cravend)](../r/cravend~autodark.md) | Automatically switch your terminal's color scheme! | 3 | +0 |
 | [autodark (vbwx)](../r/vbwx~zsh-autodark.md) | ZSH plugin that switches to another Terminal profile if dark mode is enabled | 0 | +0 |
 | [autodotenv](../r/nocttuam~autodotenv.md) | autodotenv is a oh-my-zsh plugin inspired in official dotenv plugin | 17 | +0 |
+| [autoenv](../r/hyperupcall~autoenv.md) | Directory-based environments. | 6,025 | +0 |
 | [autoenv-extended](../r/zpm-zsh~autoenv.md) | Autoenv for zsh | 174 | +0 |
-| [autopair](../r/hlissner~zsh-autopair.md) | Auto-close and delete matching delimiters in zsh | 615 | +0 |
 | [autoquoter](../r/ianthehenry~zsh-autoquoter.md) | automatically quote arguments to commands like `git commit -m` | 127 | +0 |
 | [autosuggestions-plugin](../r/jumbojett~zsh-autosuggestions-plugin.md) |  🐟 fish-style auto-suggestions in zsh | 1 | +0 |
+| [autoswitch-virtualenv](../r/michaelaquilina~zsh-autoswitch-virtualenv.md) |  🐍 ZSH plugin to automatically switch python virtualenvs (including pipenv and poetry) as you move between directories | 619 | +0 |
 | [autoupdate-antibody](../r/spikespaz~autoupdate-antibody-zsh.md) | Add automatic updating to antigen | 0 | +0 |
 | [autoupdate-antigen](../r/unixorn~autoupdate-antigen.zshplugin.md) | Add automatic updating to antigen | 27 | +0 |
 | [autovenv (linnnus)](../r/linnnus~autovenv.md) | ZSH plugin to automatically (de)activate Python virtual environments. | 7 | +0 |
@@ -501,6 +522,7 @@
 | [aws-mfa](../r/freebirdrides~oh-my-zsh-aws-mfa.md) | oh-my-zsh plugin for AWS MFA | 4 | +0 |
 | [aws-plugin](../r/pookey~zsh-aws-plugin.md) | Adds helper functions for `aws` command. Includes mfa and `assume-role` helpers. | 3 | +0 |
 | [aws-upload](../r/borracciablu~aws-upload-zsh.md) | A zsh plugin for aws-upload | 3 | +0 |
+| [aws-vault](../r/blimmer~zsh-aws-vault.md) | oh-my-zsh plugin for aws-vault | 95 | +0 |
 | [aws-vault-profiles](../r/jonscheiding~zsh-plugin-aws-vault-profiles.md) | Oh My ZSH plugin integration aws-vault with $AWS_PROFILE | 1 | +0 |
 | [aws2](../r/drgr33n~oh-my-zsh_aws2-plugin.md) | Small hack to the original AWS plugin to work with version 2 of the AWS cli | 3 | +0 |
 | [awsp](../r/suonto~awsp-zsh-plugin.md) | Improvement of the official ZSH AWS Plugin. Adds colors and intuitive profile management. | 1 | +0 |
@@ -509,7 +531,7 @@
 | [azcli](../r/dmakeienko~azcli.md) | An oh-my-zsh plugin for AZ CLI | 2 | +0 |
 | [azure-keyvault](../r/milespossing~azure-keyvault-zsh.md) | A simple zsh plugin to help make using the keyvault feature of the azure cli a little less verbose | 0 | +0 |
 | [azure-subscription](../r/dmakeienko~azure-subscription-prompt.md) | Azure Subscription prompt plugin for zsh | 3 | +0 |
-| [banner](../r/drkhsh~zsh-banner.md) | zsh-plugin to display ascii/ansi art on startup. mirror from git.drkhsh.at | 9 | +0 |
+| [banner](../r/drkhsh~zsh-banner.md) | zsh-plugin to display ascii/ansi art on startup. mirror from git.drkhsh.at | 10 | +0 |
 | [baseballfunfacts](../r/richardmoyer~baseballfunfacts.md) | A zsh plugin for random baseball fun facts | 3 | +0 |
 | [bash](../r/chrissicool~zsh-bash.md) | Bash compatibility plugin for ZSH | 40 | +0 |
 | [bash-quote](../r/jtprog~bash-quote.md) | Plugin for ZSH to get random quote from bashorg.org | 7 | +0 |
@@ -520,7 +542,7 @@
 | [bitbucket-git-helpers](../r/unixorn~bitbucket-git-helpers.plugin.zsh.md) | Add some git helper scripts for dealing with repos on bitbucket | 16 | +0 |
 | [bitwarden (casonadams)](../r/casonadams~bitwarden-cli.md) | Bitwarden CLI zsh wrapper | 5 | +0 |
 | [bitwarden (game4move78)](../r/game4move78~zsh-bitwarden.md) | This plugin provides functions to manage a bitwarden session | 28 | +0 |
-| [blackbox](../r/stackexchange~blackbox.md) | Safely store secrets in Git/Mercurial/Subversion | 6,769 | +0 |
+| [bitwarden (kalsowerus)](../r/kalsowerus~zsh-bitwarden.md) | Simple zsh-plugin that adds keybinds to easily search and retrieve Bitwarden usernames/passwords. | 15 | +0 |
 | [bob](../r/wintermi~zsh-bob.md) | A zsh plugin for `bob` a cross-platform and easy-to-use Neovim version manager. | 4 | +0 |
 | [bofh](../r/fundor333~bofh.md) | Plugin for ohmyszh for adding a fortune style message from a BOFH | 4 | +0 |
 | [bol](../r/ikhurramraza~bol.md) | An oh-my-zsh plugin, that prints a random quote when you open a terminal. | 8 | +0 |
@@ -556,11 +578,11 @@
 | [cdh](../r/johncassol~cdh.md) | cdh is a smart shell function to manage and navigate your directory history with fuzzy search. In another words, it trac | 3 | +0 |
 | [cdhist](../r/joknarf~cdhist.md) | cd history (bash / ksh / zsh) | 8 | +0 |
 | [cdr](../r/willghatch~zsh-cdr.md) | Easy setup of cdr for zsh. | 19 | +0 |
-| [change-case](../r/mtxr~zsh-change-case.md) | Plugin for fast swap between upper and lower case in your command line. (ZSH-only) | 8 | +0 |
 | [cheatsheet](../r/0b10~cheatsheet.md) | An oh-my-zsh plugin to create, and manage simple text cheatsheets | 14 | +0 |
 | [check-deps](../r/zpm-zsh~check-deps.md) | Helper for zsh plugins, which check dependencies | 4 | +0 |
 | [chgo](../r/sbfaulkner~chgo-plugin-zsh.md) | zsh plugin implementing chruby-like versioning for go | 0 | +0 |
-| [clean-history](../r/automaat~zsh-clean-history.md) | Smart zsh history cleanup plugin - removes typos and failed commands | 2 | +0 |
+| [claude](../r/hundredacrestudio~zsh-claude.md) | Standalone zsh plugin providing AI-powered command suggestions and explanations via Claude AP | 3 | +0 |
+| [claude-code-shell](../r/arieltm~zsh-claude-code-shell.md) | Zsh plugin that integrates Claude Code CLI into your shell. Chat with Claude and execute AI-generated commands directly  | 33 | +0 |
 | [clean-project](../r/wwilsman~zsh-clean-project.md) | ZSH plugin to remove files from projects (automatically by default) | 11 | +0 |
 | [cleanzip](../r/xeferis~cleanzip.md) | A zsh plugin to compress files without not needed data. Made for MacOS. | 0 | +0 |
 | [clipboard](../r/zpm-zsh~clipboard.md) | Zsh clipboard plugin | 46 | +0 |
@@ -568,7 +590,7 @@
 | [cmd-time](../r/tomfromberlin~zsh-cmd-time.md) | Z shell plugin that displays the execution time for commands in the right prompt | 6 | +0 |
 | [cmdtime](../r/tom-auger~cmdtime.md) | ZSH plugin to display duration of command | 35 | +0 |
 | [code-review](../r/xorkevin~code-review-zsh.md) | zsh code review plugin | 4 | +0 |
-| [codex](../r/tom-doerr~zsh_codex.md) | This is a ZSH plugin that enables you to use OpenAI's Codex AI in the command line. | 1,723 | +0 |
+| [codex](../r/tom-doerr~zsh_codex.md) | This is a ZSH plugin that enables you to use OpenAI's Codex AI in the command line. | 1,725 | +0 |
 | [coffee-time](../r/gakimball~zsh-coffee-time.md) | zsh plugin for quicker caffeinate in macOS | 2 | +0 |
 | [color-logging](../r/p1r473~zsh-color-logging.md) | colorize various tools like tail head cat | 3 | +0 |
 | [colored-man-pages](../r/ael-code~zsh-colored-man-pages.md) | zsh plugin that colorifies man pages | 70 | +0 |
@@ -578,11 +600,10 @@
 | [colorls](../r/kallahan23~zsh-colorls.md) | Zsh plugin for colorls | 10 | +0 |
 | [colors (Tarrasch)](../r/tarrasch~zsh-colors.md) | Imagine a shell where `red ERROR` just works | 44 | +0 |
 | [colors (zpm-zsh)](../r/zpm-zsh~colors.md) | Enhanced colors for zsh | 56 | +0 |
-| [command-execution-timer](../r/olets~command-execution-timer.md) | A zsh plugin for measuring, working with, and displaying the time an interactive shell command takes to execute. | 14 | +0 |
 | [command-not-found (freed-wu)](../r/freed-wu~zsh-command-not-found.md) | Seperated from oh-my-zsh | 12 | +0 |
 | [command-not-found (tarrasch)](../r/tarrasch~zsh-command-not-found.md) | A mirror of oh-my-zsh/plugins/command-not-found in case you don't want all of oh-my-zsh | 27 | +0 |
 | [command-note](../r/kkrainbow~zsh-command-note.plugin.md) | OH-MY-ZSH Plugin: A simple command reminder tool | 13 | +0 |
-| [communism](../r/victoria-riley-barnett~communism.md) | A ZSH startup plugin that adds Marx quotes and an ASCII hammer & sickle to your terminal sessions. | 30 | +0 |
+| [command-time](../r/popstas~zsh-command-time.md) | Show execution time for long commands in zsh | 212 | +0 |
 | [compe](../r/tamago324~compe-zsh.md) | zsh completion source for nvim-compe | 22 | +0 |
 | [conda (themysciradata)](../r/themysciradata~conda.plugin.zsh.md) | Just a tiny little plugin for OMZ or whatever for use with conda setups | 15 | +0 |
 | [conda (wardhanisukoco)](../r/wardhanisukoco~zsh-plugin-conda.md) | Automatically loads `conda` and provides functions for detecting `conda` versions for use in themes. | 1 | +0 |
@@ -617,13 +638,11 @@
 | [depot-tools](../r/kuoe0~zsh-depot-tools.md) | oh-my-zsh wrapper plugin for depot_tools | 2 | +0 |
 | [dev](../r/sbfaulkner~dev-plugin-zsh.md) | zsh plug-in to automate project setup and workflow | 5 | +0 |
 | [dietpi](../r/unixorn~dietpi.plugin.zsh.md) | Add dietpi tools to your ZSH environment | 9 | +0 |
-| [diff-so-fancy](../r/z-shell~zsh-diff-so-fancy.md) | ⚙️ The diff-so-fancy for Zsh | 30 | +0 |
 | [ding](../r/jessetipton~ding.md) | A lightweight Zsh plugin that plays notification sounds when a long-running shell command completes. | 2 | +0 |
 | [diractions](../r/adrieankhisbe~diractions.md) | 👨‍💻 Doing Anything, Anywhere, from Here [zsh] 🚏 | 36 | +0 |
 | [dirbrowse](../r/giovannilupi~dirbrowse.md) | Oh My Zsh plugin for directory browsing | 3 | +0 |
-| [dircolors-solarized (joel-porquet)](../r/joel-porquet~zsh-dircolors-solarized.md) | Solarized dircolors plugin for zsh | 116 | +0 |
+| [dircolors-solarized (joel-porquet)](../r/joel-porquet~zsh-dircolors-solarized.md) | Solarized dircolors plugin for zsh | 117 | +0 |
 | [dircolors-solarized (pinelibg)](../r/pinelibg~dircolors-solarized-zsh.md) | ZSH plugin for solarized dircolors | 2 | +0 |
-| [dircycle](../r/michaelxmcbride~zsh-dircycle.md) | A Zsh plugin for cycling through the directory stack. | 22 | +0 |
 | [directory-history](../r/tymm~zsh-directory-history.md) | Giving you a history which is sensitive to the directory you are currently in | 161 | +0 |
 | [direnv](../r/ptavares~zsh-direnv.md) | zsh plugin for installing and loading direnv | 18 | +0 |
 | [dirrc](../r/gmatheu~shell-plugins.md) | Custom shell (sh, bash, zsh) plugins | 30 | +0 |
@@ -638,8 +657,6 @@
 | [docker-run](../r/rawkode~zsh-docker-run.md) | Run your favourite commands naturally, with Docker | 47 | +0 |
 | [dogesh](../r/keithhamilton~oh-my-dogesh.md) | Doge-themed plugin for oh-my-zsh | 6 | +0 |
 | [doppler](../r/lsdcapital~zsh-doppler.md) | Zsh plugin that displays your current doppler environment in the prompt | 0 | +0 |
-| [dot-up](../r/toku-sa-n~zsh-dot-up.md) | Zsh plugin that converts ..., ...., ....., etc., into cd commands to navigate parent directories. | 7 | +0 |
-| [dotfiles](../r/vladmyr~dotfiles-plugin.md) | Keep your dotfiles in sync using Git, a plugin for Oh My Zsh | 26 | +0 |
 | [dotpyvenv](../r/jeanpantoja~dotpyvenv.md) | A simple oh-my-zsh plugin | 7 | +0 |
 | [download](../r/aubreypwd~zsh-plugin-download.md) | An easy function to use aira2c to download a file from the internet with connection support. | 5 | +0 |
 | [dropbox](../r/zpm-zsh~dropbox.md) | Zsh dropbox plugin | 21 | +0 |
@@ -657,10 +674,12 @@
 | [emoji-cli](../r/b4b4r07~emoji-cli.md) | 😱 Emoji completion on the command line | 446 | +0 |
 | [emoji-fzf](../r/pschmitt~emoji-fzf.zsh.md) | ZSH plugin for emoji-fzf | 10 | +0 |
 | [emojis](../r/michaelaquilina~zsh-emojis.md) | Variables for numerous ascii emojis! | 16 | +0 |
+| [enhancd](../r/b4b4r07~enhancd.md) | 🚀 A next-generation cd command with your interactive filter | 2,696 | +0 |
 | [ensure-kube-context](../r/do-i-need-a-username~ensure-kube-context.md) | A ZSH plugin to ensure the --context flag is passed to kubectl. | 0 | +0 |
 | [env-secrets](../r/singular0~zsh-env-secrets.md) | A zsh plugin that loads environment variables from password managers and keychains | 2 | +0 |
 | [envrc](../r/fabiogibson~envrc-zsh-plugin.md) | Oh-my-zsh plugin to automatically load or unload environment variables from .envrc file depending on the current directo | 4 | +0 |
 | [escape-backtick](../r/bezhermoso~zsh-escape-backtick.md) | Quickly insert escaped backticks when double-tapping "`" | 1 | +0 |
+| [evalcache](../r/mroth~evalcache.md) | 🐣 zsh plugin to cache eval loads to improve shell startup time | 261 | +0 |
 | [evil-registers](../r/zsh-vi-more~evil-registers.md) | Access external clipboards in vi-mode keymaps | 47 | +0 |
 | [exa (DarrinTisdale)](../r/darrintisdale~zsh-aliases-exa.md) | zsh plugin adding aliases for the exa command-line tool | 115 | +0 |
 | [exa (mohamedelashri)](../r/mohamedelashri~exa-zsh.md) | Exa aliases plugin for zsh   | 18 | +0 |
@@ -673,13 +692,12 @@
 | [exa-ls](../r/birdhackor~zsh-exa-ls-plugin.md) | Adds aliases so that you can use [exa](https://github.com/ogham/exa) as a drop-in replacement for `ls` and `tree`. | 3 | +0 |
 | [exa-ls (zpm-zsh)](../r/zpm-zsh~ls.md) | Zsh plugin for ls | 104 | +0 |
 | [exercism](../r/fabiokiatkowski~exercism.plugin.zsh.md) | A Plugin to Oh My Zsh Framework | 10 | +0 |
-| [expand](../r/menketechnologies~zsh-expand.md) | Zsh Plugin expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key.  | 40 | +0 |
 | [expand-ealias](../r/zigius~expand-ealias.plugin.zsh.md) | expand specific aliases with space | 15 | +0 |
 | [expander](../r/ianthehenry~zsh-expander.md) | predictable fzf-based completion for zsh | 5 | +0 |
+| [explain-shell (brokentoaster)](../r/brokentoaster~zsh-explainshell.md) | plugin to look up current cmd line on explainshell. | 8 | +0 |
 | [explain-shell (gmatheu)](../r/gmatheu~shell-plugins.md) | Custom shell (sh, bash, zsh) plugins | 30 | +0 |
 | [extend-history](../r/xav-b~zsh-extend-history.md) | Zsh plugin to record command history with more context | 11 | +0 |
 | [ez-cmd](../r/akgarhwal~ez-cmd.md) | ez-md is an ohmyz.sh plugin that simplifies and streamlines common command-line tasks by providing easy-to-use shortcuts | 2 | +0 |
-| [ez-compinit](../r/mattmc3~ez-compinit.md) | 🐣 - Make Zsh compinit suck less | 38 | +0 |
 | [eza (clavelm)](../r/clavelm~eza-omz-plugin.md) | oh-my-zsh plugin for eza | 0 | +0 |
 | [eza (mohamedelashri)](../r/mohamedelashri~eza-zsh.md) |  eza aliases plugin for zsh  | 9 | +0 |
 | [eza (twopizza9621536)](../r/twopizza9621536~zsh-eza.md) | A zsh aliases plugin for eza, a replacement for exa | 7 | +0 |
@@ -688,10 +706,8 @@
 | [f-shortcuts](../r/zpm-zsh~f-shortcuts.md) | Make shortcut toolbar for F1-F12 keys. | 9 | +0 |
 | [fancy-ctrl-z](../r/mdumitru~fancy-ctrl-z.md) | This is a clone of the plugin of the same name present at: https://github.com/robbyrussell/oh-my-zsh | 25 | +0 |
 | [fast-alias-tips](../r/decayofmind~zsh-fast-alias-tips.md) | Help remembering the aliases you defined once | 15 | +0 |
-| [fastcache](../r/quarticcat~zsh-fastcache.md) | A Zsh plugin to cache command output to boost shell startup. | 46 | +0 |
 | [fav](../r/ddnexus~fav.md) | zsh/fzf plugin that makes it really easy to add and recall named favorites of your important directories | 5 | +0 |
 | [favorite-directories](../r/seletskiy~zsh-favorite-directories.md) | zsh plugin for cd to list of favorite directories lightning fast | 9 | +0 |
-| [fd](../r/aubreypwd~zsh-plugin-fd.md) | Function for fuzzy finding files and olders using fzf. | 9 | +0 |
 | [fd-plugin](../r/mohamedelashri~fd-zsh.md) | Adds aliases for fd, a modern replacement for find. | 10 | +0 |
 | [ffexport](../r/pakrohk~ffexport.plugin.zsh.md) | Lightweight, zsh-native video export manager — profile-driven FFmpeg exports, persistent zsh completion, profile import/ | 2 | +0 |
 | [figures](../r/zpm-zsh~figures.md) | Unicode symbols for ZSH | 15 | +0 |
@@ -699,7 +715,7 @@
 | [firebase (seqi)](../r/seqi~firebase-zsh.md) | A Firebase plugin for Zsh | 9 | +0 |
 | [fishysave](../r/dariogliendo~fishysave.zsh.md) | Plugin to save and update function and aliases directly from the shell | 0 | +0 |
 | [fixnumpad-osx](../r/zackintosh~fixnumpad-osx.plugin.zsh.md) | Enables numpad keys of Apple keyboards to be recognized in zsh via oh-my-zsh plugin | 4 | +0 |
-| [flow-cli](../r/data-wise~flow-cli.md) | ADHD-optimized ZSH configuration documentation and workflows | 8 | +0 |
+| [flow-cli](../r/data-wise~flow-cli.md) | ADHD-optimized ZSH configuration documentation and workflows | 9 | +0 |
 | [flow-plugin](../r/sandstorm~oh-my-zsh-flow-plugin.md) | Neos Flow Plugin for Oh-my-ZSH | 45 | +0 |
 | [flutter-zsh-shortcuts](../r/dizzpy~flutter-zsh-shortcuts.md) | A Zsh plugin that adds convenient aliases for common Flutter commands. | 0 | +0 |
 | [fnm (dominik-schwabe)](../r/dominik-schwabe~zsh-fnm.md) | Plugin for ZSH to install the Fast Node Manager (fnm). | 16 | +0 |
@@ -756,10 +772,10 @@
 | [git-commit-shortcuts](../r/ashsajal1~git-commit-shortcuts.md) | A Zsh plugin that simplifies git commits with emoji-powered commands like <gfeat> and <gfix> for faster, more readable v | 3 | +0 |
 | [git-complete-urls](../r/rapgenic~zsh-git-complete-urls.md) | Zsh plugin to enhance git completion to include in the remotes completion (e.g. from `git clone`) any URL in the clipboa | 4 | +0 |
 | [git-flow-avh](../r/nekofar~zsh-git-flow-avh.md) | This plugin adds short aliases for the git-flow commands | 7 | +0 |
+| [git-fuzzy](../r/bigh~git-fuzzy.md) | interactive `git` with the help of `fzf` | 2,427 | +0 |
 | [git-gen](../r/sharif3271~git-gen.md) | an oh-my-zsh  plugin for handling bulk operations of git | 1 | +0 |
 | [git-graph](../r/maks0u~git-graph.md) | Better git graph — zsh plugin | 2 | +0 |
 | [git-is-clean](../r/aubreypwd~zsh-plugin-git-is-clean.md) | A way to tell if a git repo is clean, then do something about it. | 3 | +0 |
-| [git-it-on](../r/peterhurford~git-it-on.zsh.md) | Quickly navigate GitHub from the command line. | 115 | +0 |
 | [git-lfs](../r/nekofar~zsh-git-lfs.md) | This plugin adds short aliases for the git-lfs commands | 4 | +0 |
 | [git-patch](../r/marvinroman~oh-my-zsh-git-patch-plugin.md) | Adds custom functions and aliases to the oh-my-zsh `git` plugin. | 1 | +0 |
 | [git-plugin (dark-kitt)](../r/dark-kitt~zsh-git-plugin.md) | ZSH Git integration, to display the current working directory and the current working branch. | 0 | +0 |
@@ -777,7 +793,7 @@
 | [git-sync](../r/caarlos0-graveyard~zsh-git-sync.md) | A zsh plugin to sync git repositories and clean them up. | 46 | +0 |
 | [git-to-jj](../r/elithrar~zsh-git-to-jj.md) | A zsh plugin for learning the Jujutsu (jj) VCS porcelain from your usual git workflow. | 17 | +0 |
 | [git-worktree (alexiszamanidis)](../r/alexiszamanidis~zsh-git-worktree.md) | An interactive ZSH plugin that wraps some git operations for simplicity and productivity. Also, it contains completions  | 35 | +0 |
-| [git-worktrees](../r/egyptianbman~zsh-git-worktrees.md) | A zsh plugin that makes git worktrees much more functional | 16 | +0 |
+| [git-worktree (trthomps)](../r/trthomps~git-worktree-zsh-plugin.md) | Plugin for Oh My ZSH for working with git work trees | 6 | +0 |
 | [git-wt](../r/fingergohappy~git-wt.md) | git-wt is a Zsh-native plugin that provides a safe, predictable and completion-first workflow for managing Git worktrees | 1 | +0 |
 | [gitcd (SukkaW)](../r/sukkaw~zsh-gitcd.md) | 🔩 An oh-my-zsh plugin for git clone && cd | 5 | +0 |
 | [gitcd (viko16)](../r/viko16~gitcd.plugin.zsh.md) | 👷 [oh-my-zsh plugin] git clone and change directory by a single command | 12 | +0 |
@@ -821,9 +837,9 @@
 | [hipchat](../r/robertzk~hipchat.zsh.md) | A zsh plugin to send hipchat messages through shell | 13 | +0 |
 | [hist](../r/marlonrichert~zsh-hist.md) | 📝 Edit your Zsh history from the command line. | 198 | +0 |
 | [hist-delete](../r/p1r473~zsh-hist-delete-fzf.md) | Delete history from zsh hist fzf | 3 | +0 |
+| [histdb](../r/larkery~zsh-histdb.md) | A slightly better history for zsh | 1,365 | +0 |
 | [historikeeper](../r/stiliajohny~historikeeper.md) | A ZSH plugin that captures history in a database | 1 | +0 |
 | [history](../r/b4b4r07~zsh-history.md) | A plugin for zsh history extended by golang, dealing it like SQL | 83 | +0 |
-| [history-enquirer](../r/zthxxx~zsh-history-enquirer.md) | plugin for zsh history search, enhance interaction | 98 | +0 |
 | [history-filter](../r/michaelaquilina~zsh-history-filter.md) | 🔍 Zsh plugin to filter out some commands from being added to you history | 35 | +0 |
 | [history-here](../r/leonjza~history-here.md) | A zsh plugin to quickly isolate shell history recording. | 9 | +0 |
 | [history-on-success](../r/nyoungstudios~zsh-history-on-success.md) | Zsh plugin for filtering the commands saved to your zsh history file | 5 | +0 |
@@ -854,7 +870,7 @@
 | [iterm-touchbar](../r/iam4x~zsh-iterm-touchbar.md) | Display feedback of terminal in the 🍏 Touchbar | 690 | +0 |
 | [iterm2](../r/laggardkernel~zsh-iterm2.md) | Pack iTerm2 shell integration scripts as a ZSH plugin | 10 | +0 |
 | [iterm2-colors](../r/shayneholmes~zsh-iterm2colors.md) | A zsh plugin to manage your iterm2's color scheme from the command line | 4 | +0 |
-| [iterm2-shell-integration](../r/gnachman~iterm2-shell-integration.md) | Shell integration and utilities for iTerm2 | 66 | +0 |
+| [iterm2-shell-integration](../r/gnachman~iterm2-shell-integration.md) | Shell integration and utilities for iTerm2 | 67 | +0 |
 | [iterm2-tabs](../r/gimbo~iterm2-tabs.zsh.md) | Andy's zsh plugin for setting iTerm2 titles and colors | 8 | +0 |
 | [iwd](../r/zshzoo~iwd.md) | Similar to `$PWD`, this zsh plugin saves your initial working directory in `$IWD` | 4 | +0 |
 | [jabba](../r/2m~zsh-jabba.md) | ZSH plugin for jabba | 5 | +0 |
@@ -866,11 +882,11 @@
 | [jenv-lazy](../r/shihyuho~zsh-jenv-lazy.md) | A ZSH plugin for lazy loading of jEnv. | 7 | +0 |
 | [jhipster](../r/jhipster~jhipster-oh-my-zsh-plugin.md) | JHipster plugin for oh-my-zsh | 39 | +0 |
 | [jira-plus](../r/gerges~oh-my-zsh-jira-plus.md) | A plugin for oh-my-zsh that can parse the issue key out of the current branch i.e. "issue/CONF-123" | 6 | +0 |
-| [jj](../r/rkh~zsh-jj.md) | Jujutsu support for Z Shell | 16 | +0 |
+| [jj](../r/rkh~zsh-jj.md) | Jujutsu support for Z Shell | 17 | +0 |
 | [journal](../r/onurhanak~zsh-journal.md) | A zsh plugin to attach notes to your commands | 4 | +0 |
-| [jq](../r/reegnz~jq-zsh-plugin.md) | jq zsh plugin | 358 | +0 |
 | [jrgit](../r/jrocha-dev~ohmyzsh-plugin-jrgit.md) | This Oh-My-Zsh Git plugin automates the installation and configuration of Git and its related tools, manages SSH and GPG | 0 | +0 |
 | [jumper](../r/thestuckster~jumper.md) | ZSH plugin to save and quickly jump to different directories | 6 | +0 |
+| [k](../r/supercrabtree~k.md) | k is the new l, yo | 1,811 | +0 |
 | [k3d](../r/dwaynebradley~k3d-oh-my-zsh-plugin.md) | Adds aliases and tab completions for [k3d](https://k3d.io/). | 7 | +0 |
 | [kctl](../r/yzdann~kctl.md) | robbyrussell/oh-my-zsh kubectl.plugin.zsh without delete commands :) | 4 | +0 |
 | [kill-node](../r/vmattos~kill-node.md) | zsh plugin for murdering node proc families | 8 | +0 |
@@ -902,6 +918,8 @@
 | [last-working-dir-tmux](../r/curly-mo~last-working-dir-tmux.md) | Zsh plugin to load last working dir within a tmux session | 1 | +0 |
 | [last-working-directory](../r/mdumitru~last-working-dir.md) | This is a clone of the plugin of the same name present at: https://github.com/robbyrussell/oh-my-zsh | 8 | +0 |
 | [lazy-load](../r/goarano~zsh-lazy-load.md) | zsh/bash plugin for lazy loading completions | 3 | +0 |
+| [lazyload](../r/qoomon~zsh-lazyload.md) | zsh plugin for lazy load commands and speed up start up time of zsh | 149 | +0 |
+| [learn](../r/menketechnologies~zsh-learn.md) | learning collection in MySQL/MariaDB to save, query and quiz everything you learn | 8 | +0 |
 | [lesaint-git](../r/lesaint~lesaint-git.md) | My Zsh plugin for Git  | 0 | +0 |
 | [lesaint-mvn](../r/lesaint~lesaint-mvn.md) | My Zsh plugin for Maven  | 0 | +0 |
 | [life-progress](../r/bgzo~life-progress.md) | project: life progress prompt on command line, support zsh / powershell. | 1 | +0 |
@@ -921,9 +939,8 @@
 | [lsd (z-shell)](../r/z-shell~zsh-lsd.md) | Zsh plugin replace GNU/ls with next generation Peltoche/lsd | 16 | +0 |
 | [lumberjack](../r/molovo~lumberjack.md) | Lumberjack is a logging interface for shell scripts | 46 | +0 |
 | [lux](../r/pndurette~zsh-lux.md) | zsh plugin to toggle light/dark modes of macOS but also of iTerm, Visual Studio Code and anything you can script/theme | 34 | +0 |
-| [mac-packaging](../r/temikus~mac-packaging.md) | ZSH plugin for common Mac Packaging functions | 1 | +0 |
+| [mac-packaging](../r/temikus~mac-packaging.md) | ZSH plugin for common Mac Packaging functions | 2 | +0 |
 | [macos (joow)](../r/joow~macos.md) | Zsh plugin for Mac OS | 3 | +0 |
-| [macos (zshzoo)](../r/zshzoo~macos.md) | Zsh goodies for MacOS users | 24 | +0 |
 | [macos-theme](../r/gakimball~zsh-macos-theme.md) | zsh plugin to toggle the macOS theme | 0 | +0 |
 | [mage2docker](../r/lukaszolszewski~mage2docker.md) | Mage2Docker - Plugin for Oh-My-Zsh | 12 | +0 |
 | [magento-2](../r/dambrogia~oh-my-zsh-plugin-magento-2.md) | Magento 2 auto complete plugin for oh-my-zsh | 26 | +0 |
@@ -935,7 +952,7 @@
 | [media-sync](../r/redxtech~zsh-media-sync.md) | A plugin to facilitate copying media between two `rclone` locations. | 1 | +0 |
 | [mercurial](../r/hcgraf~zsh-mercurial.md) | Extracted "mercurial" plugin from oh-my-zsh | 1 | +0 |
 | [mfunc](../r/hlohm~mfunc.md) | function wrapper plugin for oh-my-zsh | 8 | +0 |
-| [mise](../r/wintermi~zsh-mise.md) | A zsh plugin for `mise` a polyglot tool version manager. It replaces tools like asdf, nvm, pyenv, rbenv, etc. | 20 | +0 |
+| [mise](../r/wintermi~zsh-mise.md) | A zsh plugin for `mise` a polyglot tool version manager. It replaces tools like asdf, nvm, pyenv, rbenv, etc. | 21 | +0 |
 | [mkarch](../r/0xrz~mkarch.md) | zsh plugin to create archives with ease | 6 | +0 |
 | [mkcd](../r/azizoid~zsh-mkcd.md) | Inspired by the common `mkdir && cd` pattern. A minimal zsh plugin that creates a directory and immediately enters it. | 5 | +0 |
 | [mkcd](../r/marvinroman~oh-my-zsh-mkcd-plugin.md) | Allows user to create a directory and if successful, `cd` into it afterward. | 4 | +0 |
@@ -955,13 +972,13 @@
 | [n](../r/gretzky~n.zsh.md) | zsh plugin for switching node versions automatically with n | 10 | +0 |
 | [namelink](../r/jthat~zsh-namelink.md) | zsh plugin for synchronized mapping of filesystem entries to the named directory hash | 4 | +0 |
 | [navi](../r/icatalina~zsh-navi-plugin.md) | Navi plugin for ZSH | 6 | +0 |
-| [navigation-tools](../r/zdharma-continuum~zsh-navigation-tools.md) | Curses-based tools for Zsh, e.g. multi-word history searcher | 14 | +0 |
 | [nerd-font-check](../r/delorenj~nerd-font-check.md) | Oh-My-Zsh plugin to check and install Nerd Fonts | 1 | +0 |
 | [new-file-from-template](../r/zpm-zsh~new-file-from-template.md) | ZSH plugin who create file from template  | 15 | +0 |
 | [newvwp](../r/aubreypwd~zsh-plugin-newvwp.md) | Create a new Valet WordPress site in a single command, ready for development! | 2 | +0 |
 | [nhl-schedule](../r/matt561~zsh-nhl-schedule.md) | zsh plugin for displaying the NHL's schedule | 2 | +0 |
 | [nice-exit-code](../r/bric3~nice-exit-code.md) | ZSH plugin that maps exit status code to human readable string | 38 | +0 |
 | [nix-shell](../r/chisui~zsh-nix-shell.md) | zsh plugin that lets you use zsh in nix-shell shells. | 436 | +0 |
+| [nlsh](../r/psycharch~nlsh.md) | A Zsh plugin that allows you to interact with your shell using natural language. | 39 | +0 |
 | [nnvm](../r/torifat~nnvm.md) | nnvm a zsh plugin for auto-switching node versions based on .nvmrc using n | 4 | +0 |
 | [no-ps2](../r/romkatv~zsh-no-ps2.md) | A plugin for zsh that inserts a newline on Enter if the typed command is incomplete | 29 | +0 |
 | [nobility](../r/twilight4~nobility.md) | Pentesting framework with shell integrations designed for workflow automation | 4 | +0 |
@@ -979,7 +996,7 @@
 | [notes (aperezdc)](../r/aperezdc~zsh-notes.md) | Quick selection widget for Markdown notes, inspired by terminal_velocity | 13 | +0 |
 | [notes (chipsenkbeil)](../r/chipsenkbeil~zsh-notes.md) | Plugin extracted from my zshrc to provide a quick notes editing experience in zsh. | 21 | +0 |
 | [notify (luismayta)](../r/luismayta~zsh-notify.md) | Get notified when your command is done | 13 | +0 |
-| [notify (marzocchi)](../r/marzocchi~zsh-notify.md) | Desktop notifications for long-running commands in zsh. | 549 | +0 |
+| [notify (marzocchi)](../r/marzocchi~zsh-notify.md) | Desktop notifications for long-running commands in zsh. | 548 | +0 |
 | [npm (trystan2k)](../r/trystan2k~zsh-npm-plugin.md) | A ZSH plugin to set custom NPM aliases. It's based (forked) from Oh-My-ZSH one. | 2 | +0 |
 | [npm (zfben)](../r/zfben~zsh-npm.md) | A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more. | 1 | +0 |
 | [npms](../r/torifat~npms.md) | npms is a utility tool powered by fzf for using npm scripts interactively. | 10 | +0 |
@@ -995,8 +1012,7 @@
 | [oh-my-gpt](../r/vicotrbb~oh-my-gpt.md) | A simple ZSH plugin to interact with chat-gpt from your terminal | 2 | +0 |
 | [oh-my-matrix](../r/amstrad~oh-my-matrix.md) | oh-my-zsh plugin. Turns your terminal into the Matrix just for fun  | 27 | +0 |
 | [oh-my-posh-manager](../r/wintermi~zsh-oh-my-posh.md) | A zsh plugin to manage the Oh My Posh prompt theme engine, along with providing a default powerline like theme. | 5 | +0 |
-| [ollama](../r/plutowang~zsh-ollama-command.md) | An oh-my-zsh plugin that integrates the OLLAMA AI model to provide command suggestions | 47 | +0 |
-| [omz-full-autoupdate](../r/pilaton~ohmyzsh-full-autoupdate.md) | Automatic update of custom plugins and themes Oh My Zsh | 92 | +0 |
+| [ollama](../r/plutowang~zsh-ollama-command.md) | An oh-my-zsh plugin that integrates the OLLAMA AI model to provide command suggestions | 48 | +0 |
 | [omz-git](../r/aeons~omz-git.md) | Oh My Zsh's git plugin packaged standalone | 2 | +0 |
 | [omz-themes-standalone](../r/zshzoo~omz-themes-standalone.md) | A standalone plugin that gives you the oh-my-zsh themes without requiring everything else | 6 | +0 |
 | [open-create-projects](../r/marcossegovia~open-create-projects.md) | zsh script to open or create existing or new projects, respectively on your JetBrains IDEs  | 3 | +0 |
@@ -1020,7 +1036,6 @@
 | [penmux](../r/mfulz~zsh-penmux.md) | zsh plugin for pentesting session tracking (dependend on tmux and tmux-logging-extended) | 2 | +0 |
 | [pentest](../r/jhwohlgemuth~oh-my-zsh-pentest-plugin.md) | Aliases and functions for the lazy penetration tester | 69 | +0 |
 | [penv](../r/nhqml~penv-zsh-plugin.md) | Manages `uv` Python virtual environments stored in `~/.local/share/py-venv/`. Supports subcommands for listing, activati | 1 | +0 |
-| [per-directory-history](../r/jimhester~per-directory-history.md) | Per directory history for zsh, as well as global history, and the ability to toggle between them with ^G. | 350 | +0 |
 | [percol](../r/robturtle~percol.plugin.zsh.md) | Allows interactively incrementally search history/checkout git branches and other stuff | 9 | +0 |
 | [perlbrew](../r/tfiala~zsh-perlbrew.md) | Provides a zsh plugin to install perlbrew if not present, and initialize it. | 1 | +0 |
 | [pew](../r/shosca~zsh-pew.md) | Zsh plugin that sets up and manages virtualenvs using pew, automatically switches virtualenvs as you move directories | 2 | +0 |
@@ -1066,7 +1081,6 @@
 | [presenter-mode](../r/idadzie~zsh-presenter-mode.md) |  📣 Expand your aliases during presentations | 4 | +0 |
 | [pretty-time (sindresorhus)](../r/sindresorhus~pretty-time-zsh.md) | Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s | 74 | +0 |
 | [pretty-time (zpm-zsh)](../r/zpm-zsh~pretty-time.md) | Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s | 2 | +0 |
-| [prettyping](../r/unixorn~prettyping.md) | `prettyping` is a wrapper around the standard `ping` tool, making the output prettier, more colorful, more compact, and  | 5 | +0 |
 | [prezto-last-working-dir](../r/jonivanderheijden~prezto-last-working-dir.md) | Created a version of the oh-my-zsh last-working-dir plugin for Prezto https://github.com/ohmyzsh/ohmyzsh/tree/master/plu | 0 | +0 |
 | [print-alias](../r/brymck~print-alias.md) | A Zsh plugin for printing expanded aliases | 21 | +0 |
 | [printc](../r/philfernandez~printc.md) | zsh plugin for wrapping ANSI color codes | 16 | +0 |
@@ -1085,6 +1099,7 @@
 | [proxy-plugin (xooooooooox)](../r/xooooooooox~zsh-proxy.md) | About An oh-my-zsh plugin that configures proxy environment variables based on macOS's system preferences automatically | 1 | +0 |
 | [psgrep](../r/voidzero~omz-plugin-psgrep.md) | psgrep plugin for oh-my-zsh | 1 | +0 |
 | [pump](../r/fab1o~pump-zsh.md) | An Oh My Zsh plugin with a configurable set of aliases and functions to supercharge your terminal experience, plus custo | 0 | +0 |
+| [purge-history-secrets](../r/jotasixto~purge-history-secrets.md) | This zsh plugin helps ensure that secrets do not persist in your zsh history | 4 | +0 |
 | [pwp](../r/ttkalcevic~pwp.md) | oh-my-zsh pwp plugin | 6 | +0 |
 | [pycalc (alalik)](../r/alalik~pycalc.md) | ohmyzsh pycalc plugin - Python‑backed calculator in your Zsh shell. | 1 | +0 |
 | [pycalc (peibozhao)](../r/peibozhao~pycalc.md) | zsh calculator plugin | 2 | +0 |
@@ -1116,7 +1131,6 @@
 | [rc-files](../r/0b10~rc-files.md) | A simple zsh plugin that provides shortcuts to edit rc files | 4 | +0 |
 | [recall](../r/mango-tree~zsh-recall.md) | zsh plugin for history UI  | 21 | +0 |
 | [redis](../r/z-shell~redis.md) | This Zsh service plugin will run the Redis server pointing it to configuration file redis.conf. | 5 | +0 |
-| [redo](../r/joknarf~redo.md) | bash/zsh interactive history menu | 12 | +0 |
 | [reentry-hook](../r/robsis~zsh-reentry-hook.md) | ZSH plugin that re-enters working directory if it has been removed and re-created. | 6 | +0 |
 | [release-fetcher](../r/game4move78~zsh-release-fetcher.md) | zsh plugin for fetching releases | 0 | +0 |
 | [reload](../r/aubreypwd~zsh-plugin-reload.md) | Reload your ~/.zshrc file with the reload command. | 11 | +0 |
@@ -1129,7 +1143,7 @@
 | [robo](../r/shengyou~robo-zsh-plugin.md) | A oh-my-zsh plugin for robo command completion. | 2 | +0 |
 | [rockz](../r/aperezdc~rockz.md) | Virtualfish-alike Lua+LuaRocks “Rockenv” wrapper for Zsh | 9 | +0 |
 | [ros2-env](../r/butakus~ros2-env.md) | A zsh plugin to manage ROS 2 workspaces | 18 | +0 |
-| [rose-pine-man](../r/const-void~rose-pine-man.md) | Soho vibes for man pages  | 14 | +0 |
+| [rose-pine-man](../r/const-void~rose-pine-man.md) | Soho vibes for man pages  | 15 | +0 |
 | [rtm-reminder](../r/aranel616~rtm-reminder-zsh.md) | A lightweight Zsh plugin that displays urgent Remember The Milk tasks after each command execution | 0 | +0 |
 | [run-scripts](../r/aireck2~zsh-run-scripts.md) | zsh plugin for running scripts smartly from package.json | 6 | +0 |
 | [rura](../r/kiki-ki~rura.md) | zsh plugin to memorize and jump to directories instantly. 0 MP required. | 1 | +0 |
@@ -1148,6 +1162,7 @@
 | [saneopt](../r/willghatch~zsh-saneopt.md) | Sane options for zsh, in the spirit of vim-sensible. | 20 | +0 |
 | [sb-upgrade](../r/redxtech~zsh-sb-upgrade.md) | A zsh plugin that provides a function that upgrades apps on my seedbox | 0 | +0 |
 | [scad](../r/micahelliott~scad.md) | Docker aliases for shells, with colorized output and fuzzy completions for many commands | 4 | +0 |
+| [schroot](../r/fshp~schroot.plugin.zsh.md) | Show current `chroot` name in your prompt. | 2 | +0 |
 | [sdkman](../r/ptavares~zsh-sdkman.md) | zsh plugin for installing and loading sdkman | 7 | +0 |
 | [sealion](../r/xyproto~sealion.md) | 🌊 Command line lunch reminder | 11 | +0 |
 | [search-directory-history](../r/cmaahs~search-directory-history.md) | In support of Oh-My-Zsh plugin per-directory-history, I've created a crude searching mechanism, not having time to paint | 3 | +0 |
@@ -1167,7 +1182,7 @@
 | [shell-ng](../r/joknarf~shell-ng.md) | shell plugin nextgen experience (bash/zsh/ksh) | 8 | +0 |
 | [shell-proxy](../r/caesar0301~zsh-shell-proxy.md) | Modified shell-proxy zsh plugin. | 1 | +0 |
 | [shellcolor](../r/saltedblowfish~zsh-shellcolor.md) | Change your terminal background when cd'ing into directories with this zsh plugin. | 6 | +0 |
-| [shellsense](../r/venopyx~shellsense.md) | ShellSense is an intelligent linux terminal plugin designed to enhance your terminal experience with powerful features a | 5 | +0 |
+| [shellsense](../r/venopyx~shellsense.md) | ShellSense is an intelligent linux terminal plugin designed to enhance your terminal experience with powerful features a | 6 | +0 |
 | [shortcuts](../r/fairy-root~zsh-shortcuts-plugin.md) | Shortcuts plugin for oh my zsh to make command Shortcuts | 7 | +0 |
 | [show-git-user](../r/luisprgr~zsh-show-git-user.md) | A zsh plugin to easily show git user names in the zsh prompt | 4 | +0 |
 | [show-path](../r/redxtech~zsh-show-path.md) | A zsh plugin to show $PATH line by line. | 2 | +0 |
@@ -1181,7 +1196,6 @@
 | [smart-command-not-found](../r/rami-shalhoub~smart-command-not-found.md) | A smarter command-not-found plugin for Oh My Zsh | 0 | +0 |
 | [smart-files](../r/vxfemboy~zsh-smart-files.md) | zsh plugin providing real-time path highlighting with smart permission awareness. Instantly see if paths exist, need per | 7 | +0 |
 | [smart-insert](../r/lgdevlop~zsh-smart-insert.md) | Zsh plugin to smartly insert file paths using FZF, fd, rg and custom prefixes. | 6 | +0 |
-| [smartcache](../r/quarticcat~zsh-smartcache.md) | A Zsh plugin to cache command output to boost shell startup. | 46 | +0 |
 | [smartinput](../r/momo-lab~zsh-smartinput.md) | This is a zsh plugin to provided smart input. | 10 | +0 |
 | [smile](../r/fundor333~smile.md) | An oh-my-zsh plugin for printing smile | 5 | +0 |
 | [snippets](../r/willghatch~zsh-snippets.md) | Snippet expansion for zsh | 42 | +0 |
@@ -1195,7 +1209,6 @@
 | [ssh-connect](../r/gko~ssh-connect.md) | 🐙 simple ssh manager based on bash/zsh history | 116 | +0 |
 | [ssh-plugin](../r/paraqles~zsh-plugin-ssh.md) | Plugin for `ssh`. | 6 | +0 |
 | [ssh-quickconnect](../r/breda~zsh-ssh-quickconnect.md) | ZSH plugin to quickly connect to already known hosts (requires fzf) | 2 | +0 |
-| [ssh-warrior](../r/offerpi~ssh-warrior.md) | An Oh-My-Zsh plugin that automatically changes your terminal background color based on the SSH host you connect to.  | 0 | +0 |
 | [sshinfo](../r/sckyzo~zsh-sshinfo.md) | A Zsh plugin to display resolved SSH connection details before connecting. | 1 | +0 |
 | [sshpky](../r/jeffzhangc~sshpky_zsh_plugin.md) | Auto updates git-repositories in the `$ZSH_CUSTOM` folder. | 1 | +0 |
 | [sshukh](../r/anatolykopyl~sshukh-zsh-plugin.md) | Plugin to update known hosts automatically if needed | 8 | +0 |
@@ -1214,11 +1227,13 @@
 | [symfony (voronkovich)](../r/voronkovich~symfony.plugin.zsh.md) | Make bin/console great again! | 6 | +0 |
 | [syntax-highlighting-filetypes](../r/trapd00r~zsh-syntax-highlighting-filetypes.md) | zsh syntax highlighting with dircolors in realtime | 155 | +0 |
 | [sys-diver](../r/toruiwashita~sys-diver-zsh.md) | A zsh plugin for directory change or editor startup with only key operations using widgits without typing command | 10 | +0 |
+| [system-clipboard](../r/kutsan~zsh-system-clipboard.md) | System clipboard key bindings for Zsh Line Editor with vi mode. It is similar to what `set clipboard=unnamed` does for v | 181 | +0 |
 | [system-update](../r/cnlee1702~zsh-system-update.md) | Smart, efficient system update plugin for oh-my-zsh with intelligent caching | 1 | +0 |
 | [systemd](../r/le0me55i~zsh-systemd.md) | forked from https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd | 12 | +0 |
 | [t3-shortcuts](../r/murat-yasar~zsh-t3-shortcuts.md) | oh-my-zsh plugin for typo3 projects | 0 | +0 |
 | [t32](../r/chrissicool~zsh-t32.md) | ZSH plugin for the Lauterbach Trace32 toolset. | 2 | +0 |
 | [tab-title (p1r473)](../r/p1r473~tab-title.md) | Rename Tmux and Screen panes and windows | 2 | +0 |
+| [tab-title (trystan2k)](../r/trystan2k~zsh-tab-title.md) | A ZSH plugin to set the terminal tab title according to current directory or running process. It's based (forked) from O | 55 | +0 |
 | [tailf](../r/rummik~zsh-tailf.md) | tail -f with prefixed newlines instead of trailing | 3 | +0 |
 | [take](../r/amyreese~zsh-take.md) | zsh plugin replicating `take` from ohmyzsh | 4 | +0 |
 | [tasko](../r/knid~tasko.md) | TaskWarrior zsh plugin for opening annotations content | 2 | +0 |
@@ -1233,6 +1248,7 @@
 | [terraform (hanjunlee)](../r/hanjunlee~terraform-oh-my-zsh-plugin.md) | oh-my-zsh Plugin for Terraform, more extended than original oh-my-zsh plugin, a tool from Hashicorp for managing infrast | 0 | +0 |
 | [terraform (jsporna)](../r/jsporna~terraform-zsh-plugin.md) | ZSH plugin to easier work with terraform | 5 | +0 |
 | [terraform (macunha1)](../r/macunha1~zsh-terraform.md) | Terraform plugin for ZSH, supports Oh My ZSH, convenient aliases, and autocompletion | 23 | +0 |
+| [terraform (ptavares)](../r/ptavares~zsh-terraform.md) | zsh plugin for installing some usefull aliases for Terraform daily usage | 5 | +0 |
 | [terraform (thuandt)](../r/thuandt~zsh-terraform.md) | zsh terraform plugin | 3 | +0 |
 | [terragrunt](../r/hanjunlee~terragrunt-oh-my-zsh-plugin.md) | oh-my-zsh-plugin for terragrunt | 5 | +0 |
 | [tfaws](../r/jmischler72~tfaws.md) | tfaws - zsh plugin for switching aws contexts | 1 | +0 |
@@ -1243,15 +1259,16 @@
 | [thefuck](../r/laggardkernel~thefuck.md) | ZSH plugin with thefuck initialization and useful functions | 32 | +0 |
 | [theia-dev-tools](../r/tapublic~zsh-theia-dev-tools.md) | ZSH Theia IDE Dev Tools Plugin | 0 | +0 |
 | [tig](../r/menketechnologies~zsh-tig-plugin.md) | Adds a few advanced bindings for [tig](https://github.com/jonas/tig) and also provides a `tig-pick` script. | 1 | +0 |
-| [time-tracker](../r/mike-fam~time-tracker-plugin.md) | oh-my-zsh plugin to track git branch and how much time spent | 1 | +0 |
+| [time-tracker](../r/mike-fam~time-tracker-plugin.md) | oh-my-zsh plugin to track git branch and how much time spent | 2 | +0 |
 | [timewarrior (ianmkenney)](../r/ianmkenney~timewarrior_zsh_completion.md) | zsh completions for the timewarrior time tracking command line application | 9 | +0 |
-| [timewarrior (svenXY)](../r/svenxy~timewarrior.md) | zsh plugin for timewarrior | 62 | +0 |
-| [tinted-shell](../r/tinted-theming~tinted-shell.md) | Base16 and Base24 for Shells | 82 | +0 |
+| [timewarrior (svenXY)](../r/svenxy~timewarrior.md) | zsh plugin for timewarrior | 63 | +0 |
+| [tinted-shell](../r/tinted-theming~tinted-shell.md) | Base16 and Base24 for Shells | 83 | +0 |
 | [tipz](../r/molovo~tipz.md) | Gives you helpful hints when you execute a command for which you have an alias defined | 28 | +0 |
 | [title](../r/zpm-zsh~title.md) | A zsh plugin that allows you to set a terminal header like any of PROMPT | 7 | +0 |
 | [titles](../r/jreese~zsh-titles.md) | Terminal/tmux titles based on current location and task | 58 | +0 |
-| [tm](../r/kjhaber~tm.zsh.md) | Tmux shortcut plugin for zsh | 7 | +0 |
+| [tm](../r/kjhaber~tm.zsh.md) | Tmux shortcut plugin for zsh | 8 | +0 |
 | [tmux (zpm-zsh)](../r/zpm-zsh~tmux.md) | zsh plugin for tmux | 20 | +0 |
+| [tmux (zsh-contrib)](../r/zsh-contrib~zsh-tmux.md) | Zsh plugin for automatic tmux window title management based on current shell activity | 2 | +0 |
 | [tmux-auto-title](../r/mbenford~zsh-tmux-auto-title.md) | ZSH plugin for tmux that automatically sets the title of windows/panes as the current foreground command. | 24 | +0 |
 | [tmux-rename](../r/sei40kr~zsh-tmux-rename.md) | A ZSH plugin to rename tmux window automatically. | 5 | +0 |
 | [tmux-sessionizer](../r/nikevsoft~tmux-sessionizer.md) | Zsh plugin for easily creating tmux sessions for your directories. | 3 | +0 |
@@ -1262,16 +1279,15 @@
 | [tmuxrepl](../r/csurfer~tmuxrepl.md) | Stupidly simple zsh plugin to have a R-EP-L tmux session. | 25 | +0 |
 | [todotxt](../r/neluji~omz-todotxt.md) | An oh-my-zsh plugin for todo.txt | 3 | +0 |
 | [toggl](../r/natterstefan~toggl-zsh-plugin.md) | ⌚️A oh-my-zsh plugin, printing the working hours of the current week tracked in toggl.com (for OSX). | 5 | +0 |
-| [toggle-command-prefix](../r/xpmo~zsh-toggle-command-prefix.md) | Zsh widget to toggle a prefix on a command | 25 | +0 |
+| [toggle-command-prefix](../r/xpmo~zsh-toggle-command-prefix.md) | Zsh widget to toggle a prefix on a command | 26 | +0 |
 | [toolbox](../r/paxcoder~zsh-toolbox.md) | a various tools for oh my zsh, packed to one plugin. | 1 | +0 |
 | [touchplus](../r/raisedadead~zsh-touchplus.md) | > A Zsh plugin to create files with touch including the path! | 4 | +0 |
 | [traista](../r/exaluc~traista.md) | Oh My Zsh theme | 2 | +0 |
 | [travis](../r/denolfe~zsh-travis.md) | ZSH plugin to open Travis CI page for the current repo | 4 | +0 |
 | [tre](../r/redxtech~zsh-tre.md) | A zsh plugin that makes using the tre command easier. | 1 | +0 |
 | [tsm](../r/robertaudi~tsm.md) | Tmux Session Manager | 19 | +0 |
-| [tumult](../r/unixorn~tumult.plugin.zsh.md) | Tumult is a collection of macOS-specific functions and scripts for your shell environment. It is packaged as a ZSH plugi | 208 | +0 |
 | [ubuntualiases](../r/guilledf~zsh-ubuntualiases.md) | Ubuntu 16 aliases plugin for antigen | 2 | +0 |
-| [ugit](../r/bhupesh-v~ugit.md) | 🚨️ ugit helps undo git commands. Your damage control git buddy. Undo from 20+ git scenarios. | 1,507 | +0 |
+| [ugit](../r/bhupesh-v~ugit.md) | 🚨️ ugit helps undo git commands. Your damage control git buddy. Undo from 20+ git scenarios. | 1,508 | +0 |
 | [uncloudium](../r/talon1024~omz-uncloudium.md) | Oh My Zsh plugin for Uncloudium | 2 | +0 |
 | [undollar](../r/zpm-zsh~undollar.md) | Zsh plugin who strips the dollar sign from the beginning of the terminal command | 23 | +0 |
 | [unique-id](../r/z-shell~zsh-unique-id.md) | This plugin provides a unique number that identifies a running Zshell session, in its shell variable $ZUID_ID.  | 8 | +0 |
@@ -1314,6 +1330,7 @@
 | [visit](../r/justinpchang~visit.md) | oh-my-zsh custom plugin for faster navigation | 4 | +0 |
 | [vivi](../r/rufevean~vivi.md) | A zsh-plugin to integrate LLM models into terminal | 1 | +0 |
 | [vivid](../r/ryanccn~vivid-zsh.md) | zsh plugins for vivid | 12 | +0 |
+| [vivid](../r/zsh-contrib~zsh-vivid.md) | Zsh plugin for vivid LS_COLORS generation with Catppuccin theming and cross-plugin synchronization | 1 | +0 |
 | [volta](../r/ri7nz~zsh-volta.md) | ZSH Plugin to install and load Volta: JS Toolchains as Code. ⚡ | 3 | +0 |
 | [volta (cowboyd)](../r/cowboyd~zsh-volta.md) | Zsh plugin to seamlessly install and configure volta | 9 | +0 |
 | [vox](../r/andrewbonnington~vox.plugin.zsh.md) | This oh-my-zsh plugin allows you to control VOX (http://coppertino.com/vox/mac) using your terminal. | 8 | +0 |
@@ -1323,7 +1340,6 @@
 | [vscode-shell-integration](../r/tolkonepiu~vscode-shell-integration-zsh-plugin.md) | A simple zsh plugin that automatically activates VS Code shell integration when working in VS Code terminals. | 2 | +0 |
 | [vterm](../r/randomphrase~vterm-zsh-plugin.md) | zsh init code for vterm, suitable for use as an omz plugin | 0 | +0 |
 | [vtex](../r/xdigu~zsh-vtex.md) | A simple zsh plugin to help with vtex-cli commands | 1 | +0 |
-| [wakatime (sobolevn)](../r/sobolevn~wakatime-zsh-plugin.md) | 🕒Track how much time you have spent in your terminal! | 95 | +0 |
 | [wakatime (wbingli)](../r/wbingli~zsh-wakatime.md) | ZSH plugin for wakatime | 159 | +0 |
 | [warhol](../r/unixorn~warhol.plugin.zsh.md) | Colorize command output using grc and lscolors | 70 | +0 |
 | [warrior](../r/offerpi~zsh-warrior.md) | A plugin for oh-my-zsh that uses a large language model to translate plain English into Zsh commands. | 2 | +0 |
@@ -1342,7 +1358,6 @@
 | [windows-title](../r/mdarocha~zsh-windows-title.md) | A simple zsh plugin that dynamically sets your terminal window title | 4 | +0 |
 | [wordle](../r/zechris~zwordle.md) | zsh wordle (with tab completion) | 3 | +0 |
 | [workon](../r/bryanculver~workon.plugin.zsh.md) | Lightly simple utility to jump between projects. | 7 | +0 |
-| [worktree](../r/jspears~worktree.md) | zsh plugins for working with git worktree | 5 | +0 |
 | [wpm](../r/btror~wpm.md) | Typing speed test oh-my-zsh custom plugin. | 1 | +0 |
 | [wsl](../r/florentinl~omz-wsl.md) | WSL plugin for oh-my-zsh | 2 | +0 |
 | [wsl2-ssh-pageant](../r/antoinemartin~wsl2-ssh-pageant-oh-my-zsh-plugin.md) | Oh My ZSH plugin to use your Yubikey stored GPG keys from WSL | 1 | +0 |
@@ -1352,7 +1367,6 @@
 | [yadm](../r/juanrgon~yadm-zsh.md) | yadm zsh plugin | 9 | +0 |
 | [yapipenv](../r/anonguy~yapipenv.zsh.md) | Yet another pipenv plugin for zshell. | 0 | +0 |
 | [yazi-mount](../r/splixx05~zsh-yazi-mount.md) | zsh-plugin to mounting USB devices in yazi | 0 | +0 |
-| [yazi-zoxide](../r/fdw~yazi-zoxide-zsh.md) | A zsh plugin to enjoy yazi and zoxide | 18 | +0 |
 | [yeoman](../r/edouard-lopez~yeoman-zsh-plugin.md) |  Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (options and command auto-completion). | 41 | +0 |
 | [youtube-dl](../r/joow~youtube-dl.md) | Simple Zsh plugin for youtube-dl | 2 | +0 |
 | [youtube-dl-aliases](../r/katrinleinweber~oh-my-zsh-youtube-dl-aliases.md) | Custom plugin for Oh My Zsh with youtube-dl aliases | 7 | +0 |
@@ -1361,13 +1375,11 @@
 | [zabrze](../r/ryooooooga~zabrze.md) | zsh abbreviation expansion plugin | 48 | +0 |
 | [zapmarks](../r/iliutaadrian~zapmarks.md) |  Zsh plugin that provides quick access to your most used command-line bookmarks | 3 | +0 |
 | [zaw](../r/zsh-users~zaw.md) | zsh anything.el-like widget. | 584 | +0 |
-| [zbrowse](../r/zdharma-continuum~zbrowse.md) | When doing shell work, it is often the case that `echo $variable` is invoked multiple times, to check the result of a lo | 19 | +0 |
-| [zce](../r/hchbaw~zce.zsh.md) | # zsh EasyMotion/ace-jump-mode | 67 | +0 |
 | [zcolors](../r/marlonrichert~zcolors.md) | 🌈 Generate a theme for git, grep, less and zsh that matches your $LS_COLORS | 84 | +0 |
 | [zconvey](../r/zdharma-continuum~zconvey.md) | Send notifications and commands to all or selected Zshell instances | 6 | +0 |
 | [zed](../r/eendroroy~zed-zsh.md) | A simple wrapper for z to install as zsh plugin. | 8 | +0 |
 | [zellij (jaeheonji)](../r/jaeheonji~zsh-zellij-plugin.md) | Zsh Plugin for Zellij | 6 | +0 |
-| [zeno](../r/yuki-yano~zeno.zsh.md) | zsh fuzzy completion and utility plugin with Deno. | 296 | +0 |
+| [zeno](../r/yuki-yano~zeno.zsh.md) | zsh fuzzy completion and utility plugin with Deno. | 298 | +0 |
 | [zenplash](../r/chivier~zenplash.md) | ZSH plugin who creates files from template | 4 | +0 |
 | [zenv](../r/janitha~zenv.md) | Shell utility designed to create isolated working environments. On activation, run arbitrary commands and set environmen | 2 | +0 |
 | [zero](../r/arlimus~zero.zsh.md) | theme and configuration plugin for zsh with oh-my-zsh | 16 | +0 |
@@ -1376,6 +1388,7 @@
 | [zfzf](../r/b0o~zfzf.md) | zfzf is a fzf-based file picker for zsh which allows you to quickly navigate the directory hierarchy | 26 | +0 |
 | [zgen-compinit-tweak](../r/seletskiy~zsh-zgen-compinit-tweak.md) | Make compinit runs only once after all loading is done by zgen | 3 | +0 |
 | [zgenom-ext-eval](../r/jandamm~zgenom-ext-eval.md) | Evaluate commands and create ad hoc plugins | 4 | +0 |
+| [zhooks](../r/agkozak~zhooks.md) | Display Zsh hook functions and arrays | 71 | +0 |
 | [zi-rbenv](../r/z-shell~zi-rbenv.md) | ⚙️ Zsh Rbenv | 5 | +0 |
 | [zimfw-extras](../r/patthemav~zimfw-extras.md) | Custom extras for zimfw, packaged into a zimfw plugin | 0 | +0 |
 | [zinfo_line](../r/kmhjs~zinfo_line.md) | zsh information line plugin | 1 | +0 |
@@ -1396,7 +1409,6 @@
 | [zlitefetch](../r/ippee~zlitefetch.md) | A lightweight command-line system information plugin in zsh. | 6 | +0 |
 | [zload](../r/mollifier~zload.md) | zsh plugin to load files as an autoloading function | 14 | +0 |
 | [zlong_alert](../r/kevinywlui~zlong_alert.zsh.md) | A plugin to alert you when a long-running command has finished | 50 | +0 |
-| [zman](../r/mattmc3~zman.md) | Use fzf to quickly browse Zsh manuals | 32 | +0 |
 | [znotify](../r/rudeigerc~znotify.md) | A simple Zsh plugin for sending notifications to other services | 1 | +0 |
 | [znvm](../r/ajnasz~znvm.md) | Nodejs version managment for zsh | 1 | +0 |
 | [zoc](../r/tomerg2~zoc.md) | Small Zsh plugin with aliases and functions to speed up `oc` logins and token renewal. | 1 | +0 |
@@ -1407,9 +1419,8 @@
 | [zredis-cmd](../r/z-shell~zredis-cmd.md) | A Zsh plugin that utilizes <variable sharing> done by z-shell/zredis plugin to implement <remote command execution> | 5 | +0 |
 | [zservice-py3http](../r/z-shell~zservice-py3http.md) | This Zsh service plugin will serve the given directory (plugin's directory by default) using Python's 3 HTTP server. | 4 | +0 |
 | [zsh-dev-navigator](../r/dvigo~zsh-dev-navigator.md) | Quickly jump into your development directories using a simple command that acts as a smart cd with recursive autocomplet | 0 | +0 |
-| [zsh-expand](../r/menketechnologies~zsh-expand.md) | Zsh Plugin expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key.  | 40 | +0 |
 | [zsh-hookie-projects](../r/aemonge~zsh-hookie-projects.md) | Language-agnostic project detection plugin for Zsh with customizable `on_project` and `off_project` hooks. | 0 | +0 |
-| [zsh-in-docker](../r/deluan~zsh-in-docker.md) | Install Zsh, Oh My Zsh and plugins inside a Docker container with one line! | 1,104 | +0 |
+| [zsh-in-docker](../r/deluan~zsh-in-docker.md) | Install Zsh, Oh My Zsh and plugins inside a Docker container with one line! | 1,105 | +0 |
 | [zsh-llm-assist](../r/championswimmer~zsh-llm-assist.md) | Plain english to shell command suggestions as well as shell command to plain english explanation using Gemini CLI, Codex | 5 | +0 |
 | [zsh-not-vim](../r/redxtech~zsh-not-vim.md) | A zsh plugin to shame the user for forgetting they weren't in vim. | 3 | +0 |
 | [zsh-select](../r/z-shell~zsh-select.md) | A shell command that will display a selection list written in Zsh | 15 | +0 |
@@ -1426,18 +1437,14 @@
 | [zsnapshot](../r/zdharma-continuum~zsnapshot.md) | Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file. | 4 | +0 |
 | [ztouch](../r/mjrafferty~ztouch.md) | ZSH plugin for iTerm2 and Mac Touch Bar | 3 | +0 |
 | [ztrace](../r/zdharma-continuum~ztrace.md) | Catches output of commands, allows to reuse that output, glue it with history content. | 10 | +0 |
-| [zui](../r/zdharma-continuum~zui.md) | ⬢ Zsh User Interface library – CGI+DHTML-like rapid application development with Zsh | 17 | +0 |
 | [zypper-short](../r/justanotherinternetguy~zypper-short.md) | An oh-my-zsh plugin for Opensuse's `zypper` package manager | 1 | +0 |
-| [ansiweather](../r/fcambus~ansiweather.md) | Weather in terminal, with ANSI colors and Unicode symbols | 1,938 | -1 |
-| [autoenv](../r/hyperupcall~autoenv.md) | Directory-based environments. | 6,025 | -1 |
 | [dotbare](../r/kazhala~dotbare.md) | Manage dotfiles and any git directories interactively with fzf | 726 | -1 |
-| [k](../r/supercrabtree~k.md) | k is the new l, yo | 1,813 | -1 |
-| [kube-ps1](../r/jonmosco~kube-ps1.md) | Kubernetes prompt info for bash and zsh | 3,777 | -1 |
-| [lazyload](../r/qoomon~zsh-lazyload.md) | zsh plugin for lazy load commands and speed up start up time of zsh | 149 | -1 |
-| [nlsh](../r/psycharch~nlsh.md) | A Zsh plugin that allows you to interact with your shell using natural language. | 39 | -1 |
-| [purge-history-secrets](../r/jotasixto~purge-history-secrets.md) | This zsh plugin helps ensure that secrets do not persist in your zsh history | 4 | -1 |
-| [you-should-use](../r/michaelaquilina~zsh-you-should-use.md) | 📎 ZSH plugin that reminds you to use existing aliases for commands you just typed | 1,889 | -1 |
-| [zhooks](../r/agkozak~zhooks.md) | Display Zsh hook functions and arrays | 71 | -1 |
+| [fzf (unixorn)](../r/unixorn~fzf-zsh-plugin.md) | ZSH plugin to enable fzf searches of a lot more stuff - docker, tmux, homebrew and more. | 415 | -1 |
+| [nvm](../r/lukechilds~zsh-nvm.md) | Zsh plugin for installing, updating and loading nvm | 2,403 | -1 |
+| [omz-full-autoupdate](../r/pilaton~ohmyzsh-full-autoupdate.md) | Automatic update of custom plugins and themes Oh My Zsh | 91 | -1 |
+| [sysadmin-util](../r/skx~sysadmin-util.md) | Tools for Linux/Unix sysadmins. | 997 | -1 |
+| [wakatime (sobolevn)](../r/sobolevn~wakatime-zsh-plugin.md) | 🕒Track how much time you have spent in your terminal! | 94 | -1 |
+| [blackbox](../r/stackexchange~blackbox.md) | Safely store secrets in Git/Mercurial/Subversion | 6,769 | -2 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -1445,12 +1452,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Nerd fonts](../r/ryanoasis~nerd-fonts.md) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph colle | 62,757 | +99 |
-| [Cascadia Code](../r/microsoft~cascadia-code.md) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and fe | 27,653 | +11 |
-| [Powerline patched font collection](../r/powerline~fonts.md) | Patched fonts for Powerline users. | 26,284 | +9 |
-| [Awesome Terminal Fonts](../r/gabrielelana~awesome-terminal-fonts.md) | Tools and instructions on how to have awesome symbols in a terminal with a monospace font | 2,524 | +2 |
-| [Fira Mono](../r/mozilla~fira.md) | Mozilla's new typeface, used in Firefox OS | 5,157 | +2 |
-| [Spacemono](../r/googlefonts~spacemono.md) | Original monospace display typeface family | 422 | +1 |
+| [Nerd fonts](../r/ryanoasis~nerd-fonts.md) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph colle | 62,929 | +95 |
+| [Cascadia Code](../r/microsoft~cascadia-code.md) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and fe | 27,677 | +15 |
+| [Fira Mono](../r/mozilla~fira.md) | Mozilla's new typeface, used in Firefox OS | 5,163 | +4 |
+| [Powerline patched font collection](../r/powerline~fonts.md) | Patched fonts for Powerline users. | 26,295 | +3 |
+| [Spacemono](../r/googlefonts~spacemono.md) | Original monospace display typeface family | 424 | +1 |
+| [Awesome Terminal Fonts](../r/gabrielelana~awesome-terminal-fonts.md) | Tools and instructions on how to have awesome symbols in a terminal with a monospace font | 2,524 | +0 |
 | [Fantasque Awesome Font](../r/ztomer~fantasque_awesome_powerline.md) | patched fantasque sans+powerline+awesome | 37 | +0 |
 
 [Back to top](#awesome-zsh-plugins)
@@ -1459,7 +1466,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Monaspace](../r/githubnext~monaspace.md) | An innovative superfamily of fonts for code | 19,044 | +59 |
+| [Monaspace](../r/githubnext~monaspace.md) | An innovative superfamily of fonts for code | 19,137 | +62 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -1467,28 +1474,28 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [powerlevel10k](../r/romkatv~powerlevel10k.md) | A Zsh theme | 53,987 | +128 |
-| [pure](../r/sindresorhus~pure.md) | Pretty, minimal and fast ZSH prompt | 14,215 | +13 |
-| [spaceship](../r/denysdovhan~spaceship-prompt.md) | 🚀✨ Minimalistic, powerful and extremely customizable Zsh prompt | 20,484 | +12 |
-| [typewritten](../r/reobin~typewritten.md) | A minimal, lightweight, informative zsh prompt theme | 939 | +3 |
-| [agkozak](../r/agkozak~agkozak-zsh-prompt.md) | A fast, asynchronous Zsh prompt with color ASCII indicators of Git, exit, SSH, virtual environment, and vi mode status.  | 344 | +2 |
-| [black-Void](../r/black7375~black-void-zsh.md) | 🔮 Awesome, Customable Zsh Starter Kit 🌠🌠 | 361 | +2 |
-| [catppuccin-powerlevel10k-themes](../r/tolkonepiu~catppuccin-powerlevel10k-themes.md) | Powerlevel10k themes inspired by the Catppuccin color palettes. | 32 | +2 |
-| [jovial](../r/zthxxx~jovial.md) | Jovial - A lovely zsh theme with responsive-design, it's pretty fast, keep simple but useful | 562 | +2 |
-| [powerlevel9k](../r/bhilburn~powerlevel9k.md) | Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k had a substantial im | 13,430 | +2 |
-| [transient](../r/olets~zsh-transient-prompt.md) | Add a transient prompt to your zsh command line. Over 1400 clones by over 1000 unique cloners as of April 2026. Human wr | 32 | +2 |
-| [agnoster (fcamblor)](../r/fcamblor~oh-my-zsh-agnoster-fcamblor.md) | Solarized [Agnoster](https://gist.github.com/agnoster/3712874) variant with `git` status information. Requires a unicode | 252 | +1 |
-| [alien](../r/eendroroy~alien.md) | An asynchronous zsh prompt | 347 | +1 |
-| [aphrodite](../r/win0err~aphrodite-terminal-theme.md) | A minimalistic terminal theme (prompt) for sexy terminals that works in bash, fish and zsh | 173 | +1 |
-| [capsule](../r/42lm~capsule.md) | capsule is a simple single file terminal prompt that is completely customizable. Display is divided into capsules (TIMER | 10 | +1 |
-| [lambda-gitster](../r/ergenekonyigit~lambda-gitster.md) | oh-my-zsh theme | 118 | +1 |
-| [lcars](../r/lgulliver~lcars-zsh-theme.md) | Star Trek-inspired Oh My Zsh theme | 4 | +1 |
-| [liquidprompt](../r/nojhan~liquidprompt.md) | A full-featured & carefully designed adaptive prompt for Bash & Zsh | 4,649 | +1 |
-| [minimal (subnixr)](../r/subnixr~minimal.md) | A minimal zsh theme | 278 | +1 |
-| [passion](../r/chesteryue~ohmyzsh-theme-passion.md) | An oh-my-zsh theme.  | 354 | +1 |
-| [thm](../r/thm-unix~thm-zshtheme.md) | Another yet theme for Oh-My-Zsh | 5 | +1 |
-| [ykali](../r/jeffreyyaj~ykali-zsh.md) | Zsh theme built specially for kali linux users | 17 | +1 |
-| [zsh2000](../r/consolemaverick~zsh2000.md) | Pretty sweet zsh theme | 120 | +1 |
+| [powerlevel10k](../r/romkatv~powerlevel10k.md) | A Zsh theme | 54,139 | +98 |
+| [pure](../r/sindresorhus~pure.md) | Pretty, minimal and fast ZSH prompt | 14,229 | +8 |
+| [spaceship](../r/denysdovhan~spaceship-prompt.md) | 🚀✨ Minimalistic, powerful and extremely customizable Zsh prompt | 20,490 | +3 |
+| [headline](../r/moarram~headline.md) | Responsive Zsh theme with Git status information and a colorful line above the prompt | 337 | +2 |
+| [powerline (jeremy)](../r/jeremyfreeagent~oh-my-zsh-powerline-theme.md) | oh-my-zsh Powerline style Theme | 1,237 | +2 |
+| [agnosterzak](../r/zakaziko99~agnosterzak-ohmyzsh-theme.md) | An oh-my-zsh theme based on Powerline Vim & Agnoster theme | 405 | +1 |
+| [catpuccin](../r/jannotjarks~catppuccin-zsh.md) | My zsh theme based on catppuccin | 40 | +1 |
+| [daivasmara](../r/daivasmara~daivasmara.zsh-theme.md) | Chill zsh-theme, personal take on smt | 92 | +1 |
+| [garrett](../r/chauncey-garrett~zsh-prompt-garrett.md) | A prompt with the information you need the moment you need it. | 160 | +1 |
+| [geometry](../r/geometry-zsh~geometry.md) | geometry is a minimal, composable zsh prompt | 989 | +1 |
+| [git-prompt (olivierverdier)](../r/olivierverdier~zsh-git-prompt.md) | Informative git prompt for zsh | 1,776 | +1 |
+| [git-prompt (woefe)](../r/woefe~git-prompt.zsh.md) | A fast, customizable, pure-shell, asynchronous Git prompt for Zsh | 290 | +1 |
+| [gndx](../r/gndx~gndx-zsh-theme.md) | An oh-my-zsh theme. | 50 | +1 |
+| [lcars](../r/lgulliver~lcars-zsh-theme.md) | Star Trek-inspired Oh My Zsh theme | 5 | +1 |
+| [nerdp](../r/joknarf~nerdp.md) | Nerd powerline prompt for bash/ksh/zsh | 7 | +1 |
+| [passion](../r/chesteryue~ohmyzsh-theme-passion.md) | An oh-my-zsh theme.  | 357 | +1 |
+| [powerline-go](../r/justjanne~powerline-go.md) |  A beautiful and useful low-latency prompt for your shell, written in go | 2,882 | +1 |
+| [roundy](../r/nullxception~roundy.md) | fast, cute, and-of-course, roundy prompt-theme for Zsh | 54 | +1 |
+| [statusline](../r/el1t~statusline.md) | Responsive powerline-esque zsh theme | 70 | +1 |
+| [vercel](../r/vercel~zsh-theme.md) | Yet another zsh theme | 195 | +1 |
+| [zeit](../r/zeit~zeit.zsh-theme.md) | Yet another zsh theme | 195 | +1 |
+| [zeta](../r/skylerlee~zeta-zsh-theme.md) | Another ⭐ theme for oh-my-zsh | 232 | +1 |
 | [021011](../r/guesswhozzz~021011.zsh-theme.md) | Minimalist Zsh theme — clean, clear, visually structured. | 127 | +0 |
 | [0i0](../r/0i0~0i0.zsh-theme.md) | just another prompt | 15 | +0 |
 | [14degree](../r/saims0n~14degree-zsh-theme.md) | My Own Modified Linux ZSH Theme  | 2 | +0 |
@@ -1499,7 +1506,7 @@
 | [abhiyan](../r/abhiyandhakal~abhiyan.zsh.md) | custom zsh prompt theme | 6 | +0 |
 | [absolute](../r/nelsonbrandao~absolute.md) | Absolute - A clean ZSH theme | 41 | +0 |
 | [abzt](../r/stentibbing~abzt-zsh-theme.md) | Another Basic ZSH Theme | 2 | +0 |
-| [acenoster](../r/himdek~acenoster-zsh-theme.md) | A multipurpose ZSH Theme with very detailed git and mercurial prompt. | 12 | +0 |
+| [acenoster](../r/himdek~acenoster-zsh-theme.md) | A multipurpose ZSH Theme with very detailed git and mercurial prompt. | 13 | +0 |
 | [achab](../r/niotna~antoinechab-theme.md) | oh my zsh theme. mix duellj with git branch | 3 | +0 |
 | [adamdodev](../r/adamdodev~adamdodev-zsh-theme.md) | Theme and prompt for oh-my-zsh | 1 | +0 |
 | [af-magic-dynamic](../r/rslavin~af-magic-dynamic.md) | Modification of af-magic for oh-my-zsh to include path shortening/abbreviation in the prompt. | 1 | +0 |
@@ -1507,7 +1514,9 @@
 | [aflah-bhari](../r/aflahb~aflah-bhari-zsh-theme.md) | A modified version of the robbyrussel theme for oh-my-zsh. | 0 | +0 |
 | [aftermath](../r/schanur~aftermath.md) | Get a informative summary line after each command you run on your shell | 2 | +0 |
 | [agitnoster](../r/dbestevez~agitnoster-theme.md) | Oh My Zsh theme based on agnoster theme | 7 | +0 |
+| [agkozak](../r/agkozak~agkozak-zsh-prompt.md) | A fast, asynchronous Zsh prompt with color ASCII indicators of Git, exit, SSH, virtual environment, and vi mode status.  | 344 | +0 |
 | [agnopro](../r/arhafizi~agnopro-zsh-theme.md) | A ZSH theme based on Agnoster with enhanced features. | 0 | +0 |
+| [agnoster (fcamblor)](../r/fcamblor~oh-my-zsh-agnoster-fcamblor.md) | Solarized [Agnoster](https://gist.github.com/agnoster/3712874) variant with `git` status information. Requires a unicode | 252 | +0 |
 | [agnoster (fseguin)](../r/fsegouin~oh-my-zsh-agnoster-mod-theme.md) | oh-my-zsh agnoster mod theme | 4 | +0 |
 | [agnoster-gentoo](../r/r7l~agnoster-gentoo-zsh-theme.md) | Agnoster Gentoo ZSH Theme | 1 | +0 |
 | [agnoster-j](../r/apjanke~agnosterj-zsh-theme.md) | AgnosterJ: apjanke's fork of the Agnoster Zsh Theme | 20 | +0 |
@@ -1518,7 +1527,6 @@
 | [agnoster-repopath](../r/ivanfurlan~agnoster-repopath-theme.md) | Custom theme for oh-my-zsh | 2 | +0 |
 | [agnoster-timestamp-newline](../r/dylandelobel~agnoster-timestamp-newline-zsh-theme.md) | Agnoster modified with timestamp and newline | 6 | +0 |
 | [agnosterAfro](../r/afrozalm~agnosterafro.md) | Oh-my-zsh theme based on Powerline and Agnoster  | 6 | +0 |
-| [agnosterzak](../r/zakaziko99~agnosterzak-ohmyzsh-theme.md) | An oh-my-zsh theme based on Powerline Vim & Agnoster theme | 404 | +0 |
 | [ai-candy](../r/sihaoliu~ai-candy.md) | A responsive Oh My Zsh theme for the AI-assisted developer who works across containers, VMs, and bare metal. | 0 | +0 |
 | [ai-hayasaka](../r/aeghost~ai-hayasaka-zsh-theme.md) | Another OMZ-ZSH theme | 0 | +0 |
 | [air](../r/ivan-kuzmichev~air.md) | Zsh theme with arc support | 0 | +0 |
@@ -1527,6 +1535,7 @@
 | [alarangeiras](../r/alarangeiras~alarangeiras-zsh-theme.md) | Another custom theme for oh-my-zsh | 0 | +0 |
 | [ale](../r/alepimentel~ale-zsh.md) | My zsh theme | 3 | +0 |
 | [alesrosina](../r/alesrosina~oh-my-zsh-alesrosina-theme.md) | Includes decorators for `git` information, current directory and the last command's return status. | 0 | +0 |
+| [alien](../r/eendroroy~alien.md) | An asynchronous zsh prompt | 347 | +0 |
 | [alien-minimal](../r/eendroroy~alien-minimal.md) | An asynchronous minimal zsh prompt | 151 | +0 |
 | [almel](../r/ryooooooga~almel.md) | Fast and customizable shell prompt | 27 | +0 |
 | [aloy (garethclews)](../r/garethclews~aloy.md) | zsh prompt based on Empress Noodle's Lena | 12 | +0 |
@@ -1541,6 +1550,7 @@
 | [aofxta](../r/aofxta~aofxta.zsh-theme.md) | Aof customize theme oh-my-zsh | 0 | +0 |
 | [ap2](../r/aungphyo-dev~ap2.zsh.md) | my customized zsh theme | 0 | +0 |
 | [aperiodic](../r/piccobit~aperiodic-zsh-theme.md) | Shows `git` decorations, user, host, whether root, active Python virtual environment, current Ruby interpreter, visual a | 2 | +0 |
+| [aphrodite](../r/win0err~aphrodite-terminal-theme.md) | A minimalistic terminal theme (prompt) for sexy terminals that works in bash, fish and zsh | 174 | +0 |
 | [aplos](../r/sunquan1991~aplos.md) | A minimal ZSH prompt with working directory, Git local info, Git remote info, time and exit code. | 4 | +0 |
 | [apollo](../r/mjrafferty~apollo-zsh-theme.md) | Heavily customizable, compatible, and fast ZSH theme framework. | 74 | +0 |
 | [appa](../r/givensuman~appa-zsh-theme.md) | a tidy lil zsh theme | 0 | +0 |
@@ -1556,6 +1566,7 @@
 | [arrow-minimal](../r/maxim-usikov~arrow-minimal.zsh-theme.md) | A minimal zsh theme. | 0 | +0 |
 | [asciigit](../r/cemsbr~asciigit.md) | ASCII-only ZSH prompt theme | 6 | +0 |
 | [astral](../r/xwmx~astral.md) | A Zsh theme with contextual information and Zen mode. | 18 | +0 |
+| [astro](../r/iplaces~astro-zsh-theme.md) | Astro Theme for Oh My ZSH | 107 | +0 |
 | [async](../r/mje-nz~zsh-themes.md) | Minimal, fast zsh themes | 4 | +0 |
 | [aterminal](../r/guiferpa~aterminal.md) | 🎉 An oh-my-zsh plugin for show platform versions | 37 | +0 |
 | [aub](../r/frasharp~aub.md) | A zsh theme | 2 | +0 |
@@ -1589,11 +1600,12 @@
 | [bgnoster](../r/vvvvv~bgnoster.zsh-theme.md) | mini modification of agnoster.zsh-theme | 0 | +0 |
 | [bigshrimp](../r/taksyon~bigshrimp-zsh-theme.md) | simple and concise terminal prompt theme for Oh My Zsh | 2 | +0 |
 | [bigyls](../r/bigyls~bigyls-zsh-theme.md) | Personnal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters" | 2 | +0 |
-| [bira](../r/zimfw~bira.md) | A fork of bira's theme. | 3 | +0 |
+| [bira](../r/zimfw~bira.md) | A fork of bira's theme. | 4 | +0 |
 | [birame](../r/maniat1k~birame.md) | based on bira zsh theme! | 3 | +0 |
 | [biraskull](../r/shahryar-pirooz~biraskull.zsh-theme.md) | I like the bira-zsh theme, so i modified it to suit my taste more. | 0 | +0 |
 | [biratime](../r/vemonet~biratime.md) | ⌨️ A simple Oh My ZSH! theme based on the Bira theme, displaying time instead of the username | 3 | +0 |
 | [birav2](../r/shahid64~birav2-theme.md) | birav2, littel modified theme for oh my zsh | 1 | +0 |
+| [black-Void](../r/black7375~black-void-zsh.md) | 🔮 Awesome, Customable Zsh Starter Kit 🌠🌠 | 361 | +0 |
 | [blackrain](../r/ginfuru~zsh-blackrain.md) | A zsh theme for OH-My-ZSH that is git aware | 7 | +0 |
 | [blaze](../r/danieltodor~blaze.md) | A customizable and informative prompt for bash, fish, zsh, on linux distributions. | 40 | +0 |
 | [blazux](../r/blazux~omz-theme.md) | oh-my-zsh theme | 2 | +0 |
@@ -1623,6 +1635,7 @@
 | [bubblified (hohmannr)](../r/hohmannr~bubblified.md) | Inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme). Works best with [nerdfonts](https://github.com/r | 77 | +0 |
 | [bubblified (varaki)](../r/varaki~bubblified-varaki.zsh-theme.md) | Based on [bubblified (hohmannr)](https://github.com/hohmannr/bubblified). Changes color when root. Includes decorators t | 0 | +0 |
 | [buddha](../r/buddhadom~zsh-buddha.md) | A simple, readability-focused ZSH theme for use with OhMyZsh | 0 | +0 |
+| [bullet-train](../r/caiogondim~bullet-train.zsh.md) | 🚄 An oh-my-zsh shell theme based on the Powerline Vim plugin | 2,845 | +0 |
 | [bunnyruni](../r/jopcode~oh-my-zsh-bunnyruni-theme.md) | my little cute theme | 14 | +0 |
 | [bunnyruni.min](../r/mikeumus~bunnyruni.min.md) | @jopcode's Bunnyruni ZSH theme, modified just displaying time and directory leaf.  | 1 | +0 |
 | [bureau](../r/isqua~bureau.md) | 🚀 Informative and fast ZSH theme with git status. Works well with HUGE repositories. Show username, hostname, path, git | 38 | +0 |
@@ -1633,10 +1646,11 @@
 | [cabovianco](../r/cabovianco~cabovianco-zsh-theme.md) | Includes decorators for `git` status and current directory. | 0 | +0 |
 | [cactus](../r/welksonramos~cactus.md) | 🌵 A minimal zsh theme with git status indicators | 4 | +0 |
 | [cafeconbits](../r/ricard-ferrero~cafeconbits-zsh-theme.md) | A ZSH theme simple, clear and has a coffee cup ☕ (inspired by "robbyrussell" theme). | 1 | +0 |
-| [calma](../r/luislve17~calma.md) | Minimal zsh theme to keep sanity in check | 3 | +0 |
+| [calma](../r/luislve17~calma.md) | Minimal zsh theme to keep sanity in check | 4 | +0 |
 | [candy-fantasy](../r/fffelix-huang~candy-fantasy.md) | A simple, but colorful theme for Oh My Zsh. | 0 | +0 |
+| [capsule](../r/42lm~capsule.md) | capsule is a simple single file terminal prompt that is completely customizable. Display is divided into capsules (TIMER | 10 | +0 |
 | [carriage-return](../r/treyssatvincent~carriage-return.zsh-theme.md) | ohmyzsh's default theme (robbyrussell) with a carriage return | 0 | +0 |
-| [catpuccin](../r/jannotjarks~catppuccin-zsh.md) | My zsh theme based on catppuccin | 38 | +0 |
+| [catppuccin-powerlevel10k-themes](../r/tolkonepiu~catppuccin-powerlevel10k-themes.md) | Powerlevel10k themes inspired by the Catppuccin color palettes. | 34 | +0 |
 | [catpuccin-kali](../r/robinx0~catpuccin-kali-theme.zsh-theme.md) | This is a theme inspired from oh-my-posh catpuccin-"flavor" theme for oh-my-zsh.  | 0 | +0 |
 | [cayun](../r/comeacrossyun~ys-cayun.zsh-theme.md) | 基于ys的定制化oh-my-zsh主题，支持python的prompt显示 | 38 | +0 |
 | [celestialorb](../r/celestialorb~zsh-theme.md) | Personal zsh theme. | 1 | +0 |
@@ -1656,7 +1670,6 @@
 | [cinnabar](../r/nvillapiano~zsh-theme---cinnabar.md) | Cinnabar theme for zshell | 2 | +0 |
 | [clarity](../r/nbitmage~clarity.zsh.md) | A zsh prompt, aiming for simpleness and extensibility. | 6 | +0 |
 | [classic](../r/freakinu~classic-zsh-theme.md) | A classic *nix prompt zsh theme | 1 | +0 |
-| [classyTouch](../r/yarisgutierrez~classytouch_oh-my-zsh.md) | Custom oh-my-zsh theme inspired by a bash prompt of the same name. | 57 | +0 |
 | [classyTouchName](../r/dylanroman03~classytouchname.md) | Oh-my-zsh theme inspired by classyTouch by yarisgutierrez  | 1 | +0 |
 | [clean (akz92)](../r/akz92~clean.md) | Minimalist zsh theme | 9 | +0 |
 | [clean (brandonRoehl)](../r/brandonroehl~zsh-clean.md) | Minimal customizable ZSH theme | 28 | +0 |
@@ -1686,13 +1699,13 @@
 | [cryo](../r/cryocaustik~cryo-zsh-theme.md) | ohmyzsh theme - clone of robbyrussel theme with a date and time stamp | 1 | +0 |
 | [cryo-long](../r/cryocaustik~cryo-long-zsh-theme.md) | Variant of [cryo](https://github.com/cryocaustik/cryo-zsh-theme/) with added decorators for hostname and current directo | 0 | +0 |
 | [cryptic](../r/thederpykrafter~cryptic.zsh-theme.md) | Based on [aphrodite-terminal-theme](https://github.com/win0err/aphrodite-terminal-theme). Includes decorators for curren | 0 | +0 |
+| [cute](../r/dogrocker~oh-my-zsh-powerline-cute-theme.md) | An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin | 32 | +0 |
 | [cxzh](../r/makeworksimple~cxzh.zsh-theme.md) | Works well on dark background, has `git` status decorations. | 0 | +0 |
 | [cybensis](../r/cybensis~cybensis-zsh-theme.md) | My custom Oh-My-ZSH theme based on af-magic with a pastel colour scheme | 0 | +0 |
 | [cypher-ruby](../r/ston1x~cypher-ruby.md) | ♦️Cypher zsh theme with ruby version | 1 | +0 |
 | [czsh](../r/cellophan~czsh.md) | oh-my-zsh with agnoster theme in a container | 3 | +0 |
 | [daily](../r/ghlin~zsh-theme-daily.md) | my personal oh-my-zsh theme | 0 | +0 |
 | [daily-emoji](../r/huytran-wq~zsh-daily-emoji-theme.md) | My current custom ZSH theme that shows random emoji with different categories daily. | 1 | +0 |
-| [daivasmara](../r/daivasmara~daivasmara.zsh-theme.md) | Chill zsh-theme, personal take on smt | 91 | +0 |
 | [dalailahner](../r/dalailahner~dalailahner.zsh-theme.md) | dalailahner zsh-theme | 0 | +0 |
 | [damino](../r/njdom24~damino-zsh-theme.md) | My custom minimal Zsh theme | 0 | +0 |
 | [dangerroom](../r/abbreviatedman~dangerroom.md) | An oh-my-zsh theme that's informative, minimal, and, above all, X-Men themed. | 1 | +0 |
@@ -1723,7 +1736,7 @@
 | [dr4kk0nnys_v2](../r/dr4kk0nnys~dr4kk0nnys_theme_ohmyzsh_v2.md) | Redesigned Dr4kk0nnys theme for oh my zsh | 0 | +0 |
 | [dracula](../r/dracula~zsh.md) | 🧛🏻‍♂️ Dark theme for ZSH | 291 | +0 |
 | [dragon (jeop10)](../r/jeop10~dragon.md) | My Oh my zsh theme inspired on kali linux 🐲 | 1 | +0 |
-| [dragon (sabertaximi)](../r/sabertazimi~dragon-zsh-theme.md) | Hackable personal dotfiles managed with chezmoi | 13 | +0 |
+| [dragon (sabertaximi)](../r/sabertazimi~dragon-zsh-theme.md) | Hackable personal dotfiles managed with chezmoi | 14 | +0 |
 | [drkat](../r/katrinaalaimo~drkat-zsh-theme.md) | Custom CLI zsh theme  | 3 | +0 |
 | [droolmaw](../r/isuke~droolmaw.md) | zsh theme | 0 | +0 |
 | [droolscar](../r/isuke~droolscar.md) | zsh theme | 7 | +0 |
@@ -1787,12 +1800,10 @@
 | [gallifrey-war](../r/cdubos-fr~gallifrey-war.md) | Oh-My-Zsh theme inspired by gallifrey legacy theme | 1 | +0 |
 | [gallium](../r/rickconsole~gallium.md) | Minimal ZSH theme inspired by gal and gallois | 0 | +0 |
 | [garden](../r/fecat233~garden.md) | an oh-my-zsh theme with awesome emoji | 1 | +0 |
-| [garrett](../r/chauncey-garrett~zsh-prompt-garrett.md) | A prompt with the information you need the moment you need it. | 159 | +0 |
 | [gawaine](../r/nicolaracco~gawaine.zsh-theme.md) | Personal theme for oh-my-zsh | 3 | +0 |
 | [gbt](../r/jtyr~gbt.md) | Highly configurable prompt builder for Bash, ZSH and PowerShell written in Go. | 558 | +0 |
 | [gcloud-prompt](../r/ocadaruma~zsh-gcloud-prompt.md) | Show current gcloud config in zsh prompt. | 23 | +0 |
 | [gentoo](../r/ikelos~gentoo-zsh-theme.md) | Oh-my-zsh gentoo theme with virtualenv support | 1 | +0 |
-| [geometry](../r/geometry-zsh~geometry.md) | geometry is a minimal, composable zsh prompt | 988 | +0 |
 | [geometryHostInfo](../r/fuzen-py~geometryhostinfo.md) | Adds [user@host] to zsh geometry theme | 1 | +0 |
 | [gerry](../r/gerrylarios~gerry-prompt.md) | My personal and fast ZSH prompt with git status. Works well with HUGE repositories. | 0 | +0 |
 | [get-to-work](../r/diogo13antunes~get_to_work.md) | oh-my-zsh theme | 1 | +0 |
@@ -1805,8 +1816,6 @@
 | [girazz](../r/mdentremont~girazz.md) | Custom ZSH theme | 0 | +0 |
 | [git-kali](../r/green0wl~zsh-git-kali-prompt.md) | Based on [An informative `git` prompt for kali](https://github.com/olivierverdier/zsh-git-prompt). Includes decorators f | 7 | +0 |
 | [git-prompt (awgn)](../r/awgn~git-prompt.md) | A fast git prompt for bash, zsh, fish... | 13 | +0 |
-| [git-prompt (olivierverdier)](../r/olivierverdier~zsh-git-prompt.md) | Informative git prompt for zsh | 1,775 | +0 |
-| [git-prompt (woefe)](../r/woefe~git-prompt.zsh.md) | A fast, customizable, pure-shell, asynchronous Git prompt for Zsh | 289 | +0 |
 | [git-prompt-kit](../r/olets~git-prompt-kit.md) | Configurable set of components for creating feature rich, high performance Git-aware zsh prompts (aka themes) with minim | 8 | +0 |
 | [git-simple](../r/zakharel~git-simple-theme.md) | simple zsh theme with git info | 1 | +0 |
 | [git-venv-prompt](../r/walkingshamrock~zsh-git-venv-prompt.md) | Enhances your Zsh prompt with information about the current Python virtual environment and the Git status (asynchronousl | 0 | +0 |
@@ -1822,7 +1831,6 @@
 | [glider](../r/mrredacted~zsh-glider.md) | Another awesome theme for oh-my-zsh using gruvbox-like colors, with git status decorators | 1 | +0 |
 | [glimmer](../r/martnu~glimmer.md) | my zsh theme | 1 | +0 |
 | [gn-z11](../r/xxidbr9~zsh_gn-z11-theme.md) | high-redshift galaxy theme for zsh | 0 | +0 |
-| [gndx](../r/gndx~gndx-zsh-theme.md) | An oh-my-zsh theme. | 49 | +0 |
 | [gnrnzh](../r/paolonem~gnrnzh-zsh-theme.md) | Customization of gnzh.zsh-theme from oh-my-zsh | 1 | +0 |
 | [gocilla](../r/goranvasic~gocilla-iterm-zsh.md) | Gocilla theme for iTerm2 and Oh My Zsh | 0 | +0 |
 | [golden-prompt](../r/goldeneye128~golden-prompt.md) | Simple zsh prompt with some features | 1 | +0 |
@@ -1849,7 +1857,6 @@
 | [hanpen](../r/kojole~hanpen.zsh-theme.md) | 🎨 Hanpen Oh My Zsh theme | 0 | +0 |
 | [happy-coding](../r/lexhuismans~happy-coding.md) | Nice and informative oh-my-zsh theme | 2 | +0 |
 | [hcompact](../r/fusion809~zsh-theme.md) | My Zsh themes: hcompact, hfulldate and hornix. | 1 | +0 |
-| [headline](../r/moarram~headline.md) | Responsive Zsh theme with Git status information and a colorful line above the prompt | 335 | +0 |
 | [heapbytes](../r/heapbytes~heapbytes-zsh.md) | Zsh theme built specially for pentesters | 83 | +0 |
 | [heart](../r/gko~heart.md) | ❤️/💔 ZSH theme | 7 | +0 |
 | [hedroed-bureau](../r/hedroed~hedroed-bureau.zsh-theme.md) | My Oh My Zsh theme based on the 'bureau' theme | 0 | +0 |
@@ -1868,8 +1875,8 @@
 | [hoffish](../r/emilhof~hoffish-zsh-theme.md) | If agnoster and fish had a theme child. | 0 | +0 |
 | [hogbal](../r/hogbal~hogbal.zsh-theme.md) | Works best with a dark background and a 256 color terminal program. Includes decorators for `virtualenv`, `git` informat | 0 | +0 |
 | [home](../r/sheerun~home.md) | Pretty, short, one-line ZSH prompt that makes you feel at home | 4 | +0 |
-| [hometown](../r/olets~hometown-prompt.md) | Feature rich, high performance Git-aware zsh theme. Over 800 unique cloners as of Aug '25. Human-written. | 10 | +0 |
-| [honukai-iterm](../r/oskarkrawczyk~honukai-iterm-zsh.md) | Honukai theme and colors for Oh My ZSH and iTerm | 1,082 | +0 |
+| [hometown](../r/olets~hometown-prompt.md) | Feature rich Git-focused zsh theme. High performance and robust by building off p10k internals. Over 800 unique cloners  | 10 | +0 |
+| [honukai-iterm](../r/oskarkrawczyk~honukai-iterm-zsh.md) | Honukai theme and colors for Oh My ZSH and iTerm | 1,083 | +0 |
 | [hoozeeth](../r/hooay233~hoozeeth.md) | Hoozeeth Is A Zsh Theme. It Is Meaning "Hooay's Zsh Theme". | 1 | +0 |
 | [horizontal](../r/nuimk~horizontal.md) | zsh prompt with horizontal line | 3 | +0 |
 | [hornix](../r/fusion809~zsh-theme.md) | My Zsh themes: hcompact, hfulldate and hornix. | 1 | +0 |
@@ -1877,7 +1884,7 @@
 | [htb](../r/ibyf0r3ns1cs~zsh-htb-theme.md) | Inspired by the pwnbox on a HackTheBox machine. Includes decorators for user@host, IP address and the current directory. | 2 | +0 |
 | [humbled](../r/saravanabalagi~zsh-theme-humbled.md) | A clean and humble zsh theme with support for condaenv, virtualenv and git | 1 | +0 |
 | [hyper](../r/willmendesneto~hyper-oh-my-zsh.md) | Oh-My-ZSH theme based on hyper terminal default theme 😎 | 46 | +0 |
-| [hyperzsh](../r/tylerreckart~hyperzsh.md) | git flavored zsh | 538 | +0 |
+| [hyperzsh](../r/tylerreckart~hyperzsh.md) | git flavored zsh | 537 | +0 |
 | [iamskok](../r/iamskok~iamskok.zsh-theme.md) | ZSH Theme | 3 | +0 |
 | [iay](../r/aaqaishtyaq~iay.md) | Minimalistic Shell Prompt | 8 | +0 |
 | [ice](../r/lenart12~ice.zsh-theme.md) | Theme for oh-my-zsh | 1 | +0 |
@@ -1889,7 +1896,6 @@
 | [iguanidae](../r/btd1337~iguanidae-zsh-theme.md) | Includes `git`, `nvm` and `venv` decorations. | 2 | +0 |
 | [illusion](../r/shabane~illusion.md) | a zsh theme with feature that is needed | 3 | +0 |
 | [illuvia-gitster](../r/lopezator~lluvia-gitster.md) | oh my zsh theme | 1 | +0 |
-| [imp](../r/igormp~imp.md) | Imp theme for zsh | 31 | +0 |
 | [imranic](../r/alimranahmed~zsh-imranic-themes.md) | Minimalist theme with decorators for `git` status, python virtualenv, rvm ruby version, conda version, kube status,  and | 2 | +0 |
 | [infernus](../r/jshiell~infernus-zsh-theme.md) | Zsh theme for use with Antigen/Znap/etc | 0 | +0 |
 | [infinite](../r/the-infinitys~zsh-infinite.md) | . | 3 | +0 |
@@ -1916,6 +1922,7 @@
 | [jnooree](../r/jnooree~jnooree-zsh-theme.md) | Minimalist theme with colors adapted from the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robby | 0 | +0 |
 | [joje](../r/joje6~joje.zsh-theme.md) | oh-my-zsh custom theme | 0 | +0 |
 | [jon](../r/jon-schneider~jon.zsh-theme.md) | My zsh theme. A simplified bira with the colors of robbyrussell. | 1 | +0 |
+| [jovial](../r/zthxxx~jovial.md) | Jovial - A lovely zsh theme with responsive-design, it's pretty fast, keep simple but useful | 561 | +0 |
 | [jpegleg](../r/jpegleg~zshrc.md) | install zsh and ohmyzsh and apply custom jpegleg theme | 1 | +0 |
 | [js-magic](../r/jsextonn~js-magic.md) | Simplified take on the amazing af-magic zsh-theme | 0 | +0 |
 | [judgedim](../r/judgedim~oh-my-zsh-judgedim-theme.md) | oh-my-zsh style theme | 0 | +0 |
@@ -1952,12 +1959,12 @@
 | [laconic](../r/saka7~laconic.zsh-theme.md) | Simple oh-my-zsh theme | 0 | +0 |
 | [lagnoda](../r/jashezan~lagnoda.md) | lagnoda: A ZSH Theme Inspired by agnoster and Lambda  This ZSH theme, lagnoda, draws inspiration from the popular agnost | 4 | +0 |
 | [lagune](../r/noplay~lagune.md) | A zsh theme | 1 | +0 |
-| [lambda (bluedragon1221)](../r/bluedragon1221~zsh-lambda-prompt.md) | My git prompt | 2 | +0 |
 | [lambda (cdimascio)](../r/cdimascio~lambda-zsh-theme.md) | λ Beautiful lambda theme for Zsh | 68 | +0 |
-| [lambda (halfo)](../r/halfo~lambda-mod-zsh-theme.md) | A simple zsh theme. | 470 | +0 |
+| [lambda (halfo)](../r/halfo~lambda-mod-zsh-theme.md) | A simple zsh theme. | 471 | +0 |
 | [lambda-blazinggit](../r/zalefin~lambda-blazinggit.md) | An Oh-My-Zsh theme | 0 | +0 |
+| [lambda-gitster](../r/ergenekonyigit~lambda-gitster.md) | oh-my-zsh theme | 118 | +0 |
 | [lambda-minimal](../r/sohnryang~lambda-minimal-theme.md) | A zsh theme with lambda. | 4 | +0 |
-| [lambda-mod](../r/halfo~lambda-mod-zsh-theme.md) | A simple zsh theme. | 470 | +0 |
+| [lambda-mod](../r/halfo~lambda-mod-zsh-theme.md) | A simple zsh theme. | 471 | +0 |
 | [lambda-p](../r/paimanbandi~lambda-p.md) |  Lambda-P ZSH Theme  | 0 | +0 |
 | [lambda-pure](../r/marszall87~lambda-pure.md) | Pretty, minimal and fast ZSH prompt, with NodeJS version | 124 | +0 |
 | [lambda-v](../r/vkaracic~lambdav-zsh-theme.md) | Lambda V ZSH teminal theme | 2 | +0 |
@@ -2030,6 +2037,7 @@
 | [mini-simple](../r/ysl2~mini-simple-zsh-prompt.md) | This is a really mini and simple zsh prompt. For my personal use. This is a modification based on https://www.youtube.co | 2 | +0 |
 | [minima](../r/brolly0204~zsh-minima.md) | minima zsh theme | 3 | +0 |
 | [minimal (glsorre)](../r/glsorre~minimal.md) | a minimal asynchronous zsh theme | 0 | +0 |
+| [minimal (subnixr)](../r/subnixr~minimal.md) | A minimal zsh theme | 278 | +0 |
 | [minimal-improved](../r/gdsrosa~minimal_improved.md) | This repository is a theme(Minimal Improved) for Oh-my-zsh | 30 | +0 |
 | [minimal-os](../r/nkurata~zsh-theme.md) | Minimal-OS is a sleek and simple Zsh theme designed for use with Oh-My-Zsh. It provides a minimalist prompt with helpful | 3 | +0 |
 | [minimal-terminal](../r/lissy93~minimal-terminal-prompt.md) | 📟 A clean PS1 bash prompt, showing user, host, pathname and git status | 71 | +0 |
@@ -2072,7 +2080,6 @@
 | [neewbie](../r/neewbee~neewbee.zsh-theme.md) | my personal zsh theme | 0 | +0 |
 | [neon](../r/sahariko~neon.md) | Pretty and minimal ZSH theme | 13 | +0 |
 | [neon-potato](../r/algosuna~neon-potato.md) | Colorful oh-my-zsh theme for z shell. | 0 | +0 |
-| [nerdp](../r/joknarf~nerdp.md) | Nerd powerline prompt for bash/ksh/zsh | 6 | +0 |
 | [nerdps1](../r/joknarf~nerdps1.md) | Nerd powerline prompt for bash/ksh/zsh | 17 | +0 |
 | [nescalante](../r/nescalante~zsh-theme.md) | oh-my-zsh custom theme | 2 | +0 |
 | [netmask](../r/swomf~netmask-zsh-theme.md) | A utilitarian, horizontal-space-saving oh-my-zsh theme that shows your IP, even on Termux | 0 | +0 |
@@ -2086,7 +2093,6 @@
 | [nknu](../r/aanc~oh-my-zsh-nknu-theme.md) | Theme for oh-my-zsh | 0 | +0 |
 | [nmaxcom](../r/nmaxcom~nmaxcom-zsh-theme.md) | Best zsh theme in town! Homemade with 💙 | 2 | +0 |
 | [node](../r/skuridin~oh-my-zsh-node-theme.md) | Node.js theme for ZSH users | 69 | +0 |
-| [nodeys](../r/marszall87~nodeys-zsh-theme.md) | Just ys zsh theme with NodeJS version. | 36 | +0 |
 | [noon](../r/silky~noon.zsh-theme.md) | my zsh theme | 0 | +0 |
 | [nord](../r/tywr~nord-zsh.md) | Custom theme for ZSH terminal | 10 | +0 |
 | [normanius](../r/normanius~normanius-zsh-theme.md) | My preferred ZSH theme | 0 | +0 |
@@ -2130,7 +2136,6 @@
 | [paramour](../r/espeon~paramour.md) | zsh theme | 1 | +0 |
 | [paroape](../r/paroape~paroape-zsh-theme.md) | Personnal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters" | 2 | +0 |
 | [parrot](../r/trabdlkarim~parrot-zsh-theme.md) | Oh My Zsh theme based on Parrot OS bash theme | 15 | +0 |
-| [parrot-htb](../r/lloyd-leo~parrot-htb-zsh-theme.md) | Includes decorators for current directory, `git` status and username@hostname. | 0 | +0 |
 | [pastel](../r/iboyperson~pastel.md) | A ZSH theme inspired by https://github.com/cbrock/sugar-free | 6 | +0 |
 | [paulmanjarres](../r/paul-manjarres~paulmanjarres-zsh-theme.md) | My personal ZSH themes | 0 | +0 |
 | [pawsh](../r/sergiobonatto~pawsh-zsh-theme.md) | Pawsh is a kawaii zsh theme for your terminal dojo.  Neko face ᓚᘏᗢ watches your prompt, turns red if your last command w | 1 | +0 |
@@ -2165,12 +2170,9 @@
 | [powerlevelHipstersmoothie](../r/hipstersmoothie~powerlevelhipstersmoothie.md) | my zsh theme | 9 | +0 |
 | [powerline](../r/carlcarl~powerline-zsh.md) | Powerline for Zsh (This is a fork from https://github.com/milkbikis/powerline-bash) | 132 | +0 |
 | [powerline (brucehsu)](../r/brucehsu~oh-my-zsh-powerline-theme.md) | oh-my-zsh Powerline style Theme | 11 | +0 |
-| [powerline (jeremy)](../r/jeremyfreeagent~oh-my-zsh-powerline-theme.md) | oh-my-zsh Powerline style Theme | 1,235 | +0 |
-| [powerline-go](../r/justjanne~powerline-go.md) |  A beautiful and useful low-latency prompt for your shell, written in go | 2,879 | +0 |
+| [powerline-cute](../r/dogrocker~oh-my-zsh-powerline-cute-theme.md) | An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin | 32 | +0 |
 | [powerline-hs](../r/rdnetto~powerline-hs.md) | A lightning fast reimplementation of the Powerline prompt generator in Haskell. | 119 | +0 |
 | [powerline-pills](../r/lucasqueiroz~powerline-pills-zsh.md) | Custom ZSH theme that simulates pills created using powerline characters. | 20 | +0 |
-| [powerline-shell (b-ryan)](../r/b-ryan~powerline-shell.md) | A beautiful and useful prompt for your shell | 6,292 | +0 |
-| [powerline-shell (banga)](../r/b-ryan~powerline-shell.md) | A beautiful and useful prompt for your shell | 6,292 | +0 |
 | [powerline-train](../r/sherubthakur~powerline-train.md) | oh-my-zsh Powerline style Theme - Solarized Color Scheme | 5 | +0 |
 | [powermore](../r/primejade~powermore-zsh.md) | a fork of powerless ZSH plugin | 0 | +0 |
 | [powerzeesh](../r/sevaho~powerzeesh.md) | Powerline based zsh theme | 0 | +0 |
@@ -2194,6 +2196,8 @@
 | [pumpkane](../r/colinzedev~pumpkane-oh-my-zsh-theme.md) | A modern, colorful, and informative theme designed for clarity, aesthetics, and productivity. It features dynamic colors | 0 | +0 |
 | [punctual](../r/dannynimmo~punctual-zsh-theme.md) | Punctual, a Zsh prompt theme | 60 | +0 |
 | [pure-agnoster](../r/yourfin~pure-agnoster.md) | Pretty and fast ZSH prompt | 4 | +0 |
+| [purify (banminkyoz)](../r/banminkyoz~purify.md) | 🌈 Clean & vibrant color schemes for Vim, Terminals... | 359 | +0 |
+| [purify (kyoz)](../r/kyoz~purify.md) | 🌈 Clean & vibrant color schemes for Vim, Terminals... | 359 | +0 |
 | [purity](../r/petermbenjamin~purity.md) | Oh-My-ZSH prompt inspired by robbyrussell theme + pure prompt | 14 | +0 |
 | [purpleblood](../r/hfmorais~oh-my-zsh-purpleblood-theme.md) | Based on [darkblood](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/darkblood.zsh-theme). Includes decorators for | 0 | +0 |
 | [purr](../r/mubinben~purr-zsh-theme.md) | Includes decorators for current directory and `git` status. | 0 | +0 |
@@ -2244,7 +2248,6 @@
 | [rocket](../r/alexandresl~rocket-zsh-theme.md) | Theme created for the Oh My ZSH framework | 2 | +0 |
 | [rougarou](../r/rougaroutheme~rougarou-zsh.md) | Dark theme for zsh | 2 | +0 |
 | [rounded](../r/daniilty~rounded-zsh-theme.md) | Includes current directory and `git` status decorations. | 3 | +0 |
-| [roundy](../r/nullxception~roundy.md) | fast, cute, and-of-course, roundy prompt-theme for Zsh | 53 | +0 |
 | [rs](../r/sam-621~rs-zsh-theme.md) | Includes `git` decorations. Requires unicode capable terminal. | 0 | +0 |
 | [rufus](../r/runarsf~rufus-zsh-theme.md) | A simple oh-my-zsh theme. | 0 | +0 |
 | [rummik](../r/rummik~zsh-theme.md) | @rummik's theme. Supports [psmin](https://gitlab.com/zick.kim/zsh/zsh-psmin), and `git` status information in the prompt | 0 | +0 |
@@ -2343,7 +2346,6 @@
 | [starboy](../r/prdpx7~starboy.md) | A simple zsh-theme | 2 | +0 |
 | [starship (wintermi)](../r/wintermi~zsh-starship.md) | A zsh plugin to use the Starship prompt, along with a powerline theme | 20 | +0 |
 | [starship2k](../r/2kabhishek~starship2k.md) | Make Your Shell Shine 🌟🐚 | 8 | +0 |
-| [statusline](../r/el1t~statusline.md) | Responsive powerline-esque zsh theme | 69 | +0 |
 | [steef (danihodovic)](../r/danihodovic~steeef.md) | Zsh steeef theme as a standalone repository | 4 | +0 |
 | [steef (zelongguo)](../r/zelongguo~steeef.md) | 🌱 A zsh theme. | 0 | +0 |
 | [steef (zimfw)](../r/zimfw~steeef.md) | A customizable version of steeef's prompt theme. | 5 | +0 |
@@ -2379,6 +2381,7 @@
 | [theta-async](../r/jesec~zsh_theme_theta-async.md) | Simplified rewrite of theta theme (https://github.com/eendroroy/theta) with true async support | 1 | +0 |
 | [theto](../r/heyvito~theto-zsh-theme.md) | 🎨 A Minimal ZSH theme | 9 | +0 |
 | [thetraveler](../r/bassopenguin~thetraveler.md) | A theme for oh-my-zsh inspired by theunraveler | 2 | +0 |
+| [thm](../r/thm-unix~thm-zshtheme.md) | Another yet theme for Oh-My-Zsh | 5 | +0 |
 | [thnikk](../r/thnikk~zsh-theme-thnikk.md) | Basic spaceship-like zsh prompt | 1 | +0 |
 | [thygod](../r/thy-god~thy-god-zsh-theme.md) | Personal Oh-My-ZSH theme, features include changing the prompt to a red cross upon invalid command and the usual git sta | 0 | +0 |
 | [thyme (chenhao-ye)](../r/chenhao-ye~thyme.md) | Seasoning for shells. | 23 | +0 |
@@ -2390,6 +2393,7 @@
 | [tq](../r/kitian616~tq-zsh-theme.md) | tq is a theme for "Oh My Zsh!". | 2 | +0 |
 | [traffic](../r/fcce~traffic-zsh-theme.md) | a zsh theme | 1 | +0 |
 | [trajan](../r/denisinla~trajan-zsh-theme.md) | Just another theme file for zsh. | 1 | +0 |
+| [transient](../r/olets~zsh-transient-prompt.md) | Add a transient prompt to your zsh command line. Over 1400 clones by over 1000 unique cloners as of April 2026. Human wr | 32 | +0 |
 | [trinity](../r/de-luca~trinity.md) | A simple zsh theme | 1 | +0 |
 | [tron](../r/idotron~tron-zsh-theme.md) | A custom ZSH theme. | 0 | +0 |
 | [troopert](../r/troopert~troopert-theme.md) | My Personal ZSH theme | 0 | +0 |
@@ -2399,6 +2403,7 @@
 | [twilight](../r/henryws~twilight-prompt.md) | ZSH prompt | 2 | +0 |
 | [type0](../r/mikeredd~type0_zsh-theme.md) | My personal oh my zsh theme | 0 | +0 |
 | [typedark](../r/bonnyad9~typedark.md) | Dark theme for visual studio code, zed and zsh with helpful semantic syntax highlighting | 0 | +0 |
+| [typewritten](../r/reobin~typewritten.md) | A minimal, lightweight, informative zsh prompt theme | 939 | +0 |
 | [ubunly](../r/alejandromume~ubunly-zsh-theme.md) | The new Kali Linux console bringed to Ubuntu | 32 | +0 |
 | [ubuntu](../r/janstuemmel~zsh-ubuntu-theme.md) | Ubuntu zsh theme | 1 | +0 |
 | [ubuntu-ish](../r/thesola10~zsh-ubuntu-ish.md) | A zsh theme which mimics the default Debian/Ubuntu bash prompt | 0 | +0 |
@@ -2414,7 +2419,6 @@
 | [vanan](../r/avano~vanan.zsh-theme.md) | Enhances your terminal with detailed `git` information. Also includes decorators for `vi`-mode and status of the last co | 0 | +0 |
 | [vehemence](../r/h1n1-dev~vehemence-zsh.md) | Another oh-my-zsh theme | 0 | +0 |
 | [velvet](../r/dor133~velvet-zsh-theme.md) | A basic Oh My ZSH theme | 0 | +0 |
-| [vercel](../r/vercel~zsh-theme.md) | Yet another zsh theme | 194 | +0 |
 | [vertepommes](../r/therojam~vertepommes-theme.md) | this oh-my-zsh theme based on the ys-themes | 0 | +0 |
 | [vinhnx](../r/vinhnx~vinhnx.zsh-theme.md) | My modified theme from themes/mgutz.zsh-theme, for oh-my-zsh (zshell). Looks great when using with Solarized color schem | 7 | +0 |
 | [voidy](../r/rwejdling~voidy.md) | Simple ZSH theme for Oh My Zsh | 0 | +0 |
@@ -2450,6 +2454,7 @@
 | [yellow peach](../r/tomorrowbye~yellow-peach-theme.md) | A warm and friendly zsh theme with git integration, featuring orange and pink color schemes. | 0 | +0 |
 | [yellow-sea-diamonds](../r/jimratliff~yellow-sea-diamonds-zsh-theme.md) | My theme for “Oh My Zsh" and iTerm2 | 0 | +0 |
 | [yindev](../r/menyinch~yindev-zsh-theme.md) | An oh-my-zsh theme. | 2 | +0 |
+| [ykali](../r/jeffreyyaj~ykali-zsh.md) | Zsh theme built specially for kali linux users | 17 | +0 |
 | [ys](../r/cristiancavalli~ys-zsh-custom-theme.md) | Clean, simple, compatible and meaningful theme meant for dark backgrounds. | 0 | +0 |
 | [ys-cluster](../r/andih~oh-my-zsh-ys-cluster-theme.md) | Modified ys oh-my-zsh theme for usage with batch systems on clusters | 1 | +0 |
 | [ysm](../r/hanbinpro~ysm-zsh-theme.md) | ysm theme is a simple oh-my-zsh theme. | 1 | +0 |
@@ -2464,7 +2469,6 @@
 | [zap-robbyrussell](../r/devadathanmb~zap-robbyrussell.md) | Famous robbyrussell theme ported for zap zsh  ⚡ | 1 | +0 |
 | [zcmder](../r/bwpge~zcmder.md) | A Cmder inspired zsh theme with git prompt features | 1 | +0 |
 | [zcraft](../r/cpea2506~zcraft.md) | A minimal zsh theme | 1 | +0 |
-| [zeit](../r/zeit~zeit.zsh-theme.md) | Yet another zsh theme | 194 | +0 |
 | [zelda](../r/superknerdbros~zelda.zsh-theme.md) | A Zelda Inspired ZSH Theme w/ GIT Status shown as -LVL- and -LIFE- ♥ ♡ | 2 | +0 |
 | [zemm-blinks](../r/aranasaurus~zemm-blinks.zsh-theme.md) | My customization of the blinks oh-my-zsh theme | 7 | +0 |
 | [zemoji](../r/therzka~zemoji.md) | My personal emoji-fied oh-my-zsh theme based on mashaal's wild-cherry theme | 5 | +0 |
@@ -2477,7 +2481,6 @@
 | [zeroastro](../r/zeroastro~zeroastro-zsh-theme.md) | Simple Oh My ZSH theme for Dark Backgrounds | 6 | +0 |
 | [zerocake](../r/zeropoke~zerocake.zsh-theme.md) | My Oh My ZSH theme | 0 | +0 |
 | [zest](../r/hash-bang~zsh-theme-zest.md) | A simple, functional theme for ZSH | 0 | +0 |
-| [zeta](../r/skylerlee~zeta-zsh-theme.md) | Another ⭐ theme for oh-my-zsh | 230 | +0 |
 | [zhiyin](../r/amyangxyz~zhiyin-zsh-theme.md) | Zhiyin dance in zsh prompt | 68 | +0 |
 | [zido](../r/sidoniebouthors~zido-zsh-theme.md) | zsh theme | 1 | +0 |
 | [zigbar](../r/dbushell~zigbar.md) | 💀 REPO MOVED OFF GITHUB | 29 | +0 |
@@ -2489,6 +2492,7 @@
 | [zprompts](../r/z-shell~zprompts.md) | Zsh themes (prompts) plugin that uses the original Zsh theming subsystem. | 6 | +0 |
 | [zqt](../r/ladychili~zqt-zsh-theme.md) | Customised oh-my-zsh theme | 3 | +0 |
 | [zsh1999](../r/dtan13~zsh1999.md) | 🚀 Yet another zsh theme! | 6 | +0 |
+| [zsh2000](../r/consolemaverick~zsh2000.md) | Pretty sweet zsh theme | 120 | +0 |
 | [zsh313](../r/amirali313~zsh313-theme.md) | Minimal theme with `git` status decorations. | 0 | +0 |
 | [zshcomrade](../r/landongn~zshcomrade.md) | A ZSH Theme, Comrade! | 8 | +0 |
 | [zshify](../r/nrjdalal~zshify.md) | Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh! | 5 | +0 |
@@ -2500,13 +2504,14 @@
 | [zwsh](../r/naens~zwsh.md) | A Zpm3/Wordstar mode/theme for zsh | 0 | +0 |
 | [zys](../r/zyszys~zys-zsh-theme.md) | 🌈A ZSH theme similar with agnoster-zsh-theme. | 10 | +0 |
 | [zzshell](../r/thezzisu~zzshell.md) | Shell theme for zsh and posh | 0 | +0 |
-| [astro](../r/iplaces~astro-zsh-theme.md) | Astro Theme for Oh My ZSH | 107 | -1 |
-| [cute](../r/dogrocker~oh-my-zsh-powerline-cute-theme.md) | An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin | 32 | -1 |
-| [powerline-cute](../r/dogrocker~oh-my-zsh-powerline-cute-theme.md) | An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin | 32 | -1 |
-| [purify (banminkyoz)](../r/banminkyoz~purify.md) | 🌈 Clean & vibrant color schemes for Vim, Terminals... | 359 | -1 |
-| [purify (kyoz)](../r/kyoz~purify.md) | 🌈 Clean & vibrant color schemes for Vim, Terminals... | 359 | -1 |
-| [bullet-train](../r/caiogondim~bullet-train.zsh.md) | 🚄 An oh-my-zsh shell theme based on the Powerline Vim plugin | 2,845 | -2 |
-| [cobalt2](../r/wesbos~cobalt2-iterm.md) | Cobalt2 Colour Scheme for iTerm2 + ZSH | 1,208 | -3 |
+| [classyTouch](../r/yarisgutierrez~classytouch_oh-my-zsh.md) | Custom oh-my-zsh theme inspired by a bash prompt of the same name. | 56 | -1 |
+| [cobalt2](../r/wesbos~cobalt2-iterm.md) | Cobalt2 Colour Scheme for iTerm2 + ZSH | 1,207 | -1 |
+| [imp](../r/igormp~imp.md) | Imp theme for zsh | 30 | -1 |
+| [liquidprompt](../r/nojhan~liquidprompt.md) | A full-featured & carefully designed adaptive prompt for Bash & Zsh | 4,649 | -1 |
+| [nodeys](../r/marszall87~nodeys-zsh-theme.md) | Just ys zsh theme with NodeJS version. | 35 | -1 |
+| [powerlevel9k](../r/bhilburn~powerlevel9k.md) | Powerlevel9k was a tool for building a beautiful and highly functional CLI, customized for you. P9k had a substantial im | 13,424 | -3 |
+| [powerline-shell (b-ryan)](../r/b-ryan~powerline-shell.md) | A beautiful and useful prompt for your shell | 6,290 | -3 |
+| [powerline-shell (banga)](../r/b-ryan~powerline-shell.md) | A beautiful and useful prompt for your shell | 6,290 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2514,13 +2519,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [aporia](../r/fr3on~aporia.md) | Aporia: The adaptive, high-performance Zsh theme for professionals. Context-aware, polyglot-ready, and zero-dependency.  | 2 |  |
+| [aporia](../r/fr3on~aporia.md) | Aporia: The adaptive, high-performance Zsh theme for professionals. Context-aware, polyglot-ready, and zero-dependency.  | 2 | +0 |
 | [better-robbyrussell](../r/ymulenll~oh-my-zsh-better-robbyrussell.md) | Robbyrussell inspired theme but tweaked to work with aws and truncate large github branch names | 0 | +0 |
-| [buddy](../r/izuminnnn~zsh-buddy-theme.md) | A dynamic, humorous, and feature-rich Zsh configuration that combines productivity with playful developer trolling. | 2 |  |
-| [dwep](../r/dwep1337~dwep-zsh-theme.md) | Tema customizado para Oh My Zsh | 0 |  |
+| [buddy](../r/hieudnm~zsh-buddy-theme.md) | A dynamic, humorous, and feature-rich Zsh configuration that combines productivity with playful developer trolling. | 2 | +0 |
+| [dwep](../r/dwep1337~dwep-zsh-theme.md) | Tema customizado para Oh My Zsh | 0 | +0 |
 | [eyerelax](../r/code-brewer~eyerelax-zsh-theme.md) | Minimalist theme with decorators for `git` status, venv/anaconda environment, execution time of last command and current | 0 | +0 |
 | [ooh-matron](../r/hulleyrob~ohmyzsh-theme-ooh-matron.md) | An Oh My Zsh theme | 0 | +0 |
 | [sentinelx](../r/robinx0~sentinelx-theme.md) | SentinelX - an oh me zsh theme | 0 | +0 |
+| [spaceshit](../r/claudiosanches~spaceshit-zsh-theme.md) | A small, fast, and lightweight Oh My Zsh theme inspired by Spaceship. Includes compact Git status, path display, and com | 0 | +0 |
 | [warm-springs](../r/brtmax~warm-springs.md) | Warm Springs Color Theme Zsh | 0 | +0 |
 
 [Back to top](#awesome-zsh-plugins)
@@ -2529,20 +2535,20 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ZSH for Humans](../r/romkatv~zsh4humans.md) | A turnkey configuration for Zsh | 2,235 | +3 |
-| [BlaCk-Void-Zsh](../r/black7375~black-void-zsh.md) | 🔮 Awesome, Customable Zsh Starter Kit 🌠🌠 | 361 | +2 |
-| [zephyr](../r/mattmc3~zephyr.md) | 🌬️ A Zsh framework as nice as a cool summer breeze | 231 | +2 |
-| [ZSH Unplugged](../r/mattmc3~zsh_unplugged.md) |  🤔 perhaps you don't need a Zsh plugin manager after all... | 494 | +2 |
+| [ZSH for Humans](../r/romkatv~zsh4humans.md) | A turnkey configuration for Zsh | 2,243 | +6 |
+| [belak/zsh-utils](../r/belak~zsh-utils.md) | A minimal, opinionated set of ZSH plugins designed to be small, simple, and focused. | 210 | +1 |
+| [zephyr](../r/mattmc3~zephyr.md) | 🌬️ A Zsh framework as nice as a cool summer breeze | 233 | +1 |
+| [ZSH Pony](../r/mika~zsh-pony.md) | Demo of hot stuff in the Zsh | 190 | +1 |
+| [ZSH Unplugged](../r/mattmc3~zsh_unplugged.md) |  🤔 perhaps you don't need a Zsh plugin manager after all... | 496 | +1 |
 | [adamnorwood-zsh](../r/adamnorwood~adamnorwood-zsh.md) | Adam Norwood's Z shell (zsh) configuration with custom Oh My Posh theme. | 13 | +0 |
-| [belak/zsh-utils](../r/belak~zsh-utils.md) | A minimal, opinionated set of ZSH plugins designed to be small, simple, and focused. | 209 | +0 |
+| [BlaCk-Void-Zsh](../r/black7375~black-void-zsh.md) | 🔮 Awesome, Customable Zsh Starter Kit 🌠🌠 | 361 | +0 |
 | [Configuration to use Hyper.js as a ZSH terminal with a Windows Subsystem Linux on windows 10, with Oh My Zsh and the Powerlevel10k theme](../r/jkergal~hyperjs-wsl-zsh-powerlevel10k-config-on-windows.md) | Configure your hyper.js terminal with zsh and powerlevel10k theme on windows, with easy default directory | 6 | +0 |
 | [GH](../r/gustavohellwig~gh-zsh.md) | Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-compl | 74 | +0 |
 | [How to Install and Configure Z Shell in Ubuntu](../r/profpan396~how-to-install-and-configure-zshell.md) | How to install Z Shell, change themes, and enable the autosuggestions plug-in on the command line interface (CLI) | 8 | +0 |
 | [One Key Linux Setup](../r/miracleyoo~one-key-linux-setup.md) | Scripts which aims to initialize and configure a linux system quickly. Mainly include update, zsh, oh-my-zsh, zsh plugin | 23 | +0 |
 | [rad-shell](../r/brandon-fryslie~rad-shell.md) | Ultra fast, feature filled Zsh installation | 41 | +0 |
 | [rs-example](../r/al-jshen~zshplug-rs-example.md) | example zsh plugin with rust processing | 9 | +0 |
-| [zinit-configs](../r/zdharma-continuum~zinit-configs.md) | Real-world configuration files (basically zshrc-s) holding Zinit (former Zplugin) invocations | 75 | +0 |
-| [ZSH Pony](../r/mika~zsh-pony.md) | Demo of hot stuff in the Zsh | 189 | +0 |
+| [zinit-configs](../r/zdharma-continuum~zinit-configs.md) | Real-world configuration files (basically zshrc-s) holding Zinit (former Zplugin) invocations | 76 | +0 |
 | [ZSH Setup by Easy-Cloud-in](../r/easy-cloud-in~zsh-setup.md) | A powerful Zsh environment setup with Oh My Posh themes, essential plugins, and advanced search capabilities. This repos | 3 | +0 |
 
 [Back to top](#awesome-zsh-plugins)
@@ -2551,7 +2557,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,307 | +0 |
+| [Antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,304 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2559,7 +2565,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [prezto](../r/sorin-ionescu~prezto.md) | The configuration framework for Zsh | 14,517 | +4 |
+| [prezto](../r/sorin-ionescu~prezto.md) | The configuration framework for Zsh | 14,525 | +4 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2567,8 +2573,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [zgenom](../r/jandamm~zgenom.md) | A lightweight and fast plugin manager for ZSH | 423 | +1 |
-| [Antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,307 | +0 |
+| [zgenom](../r/jandamm~zgenom.md) | A lightweight and fast plugin manager for ZSH | 426 | +2 |
+| [Antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,304 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2576,7 +2582,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Prezto](../r/sorin-ionescu~prezto.md) | The configuration framework for Zsh | 14,517 | +4 |
+| [Prezto](../r/sorin-ionescu~prezto.md) | The configuration framework for Zsh | 14,525 | +4 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2584,7 +2590,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,307 | +0 |
+| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,304 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2592,7 +2598,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,307 | +0 |
+| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,304 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2600,7 +2606,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,307 | +0 |
+| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,304 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2608,7 +2614,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [TOML](../r/toml-lang~toml.md) | Tom's Obvious, Minimal Language | 20,467 | +13 |
+| [TOML](../r/toml-lang~toml.md) | Tom's Obvious, Minimal Language | 20,477 | +4 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2616,10 +2622,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [oh-my-zsh](../r/ohmyzsh~ohmyzsh.md) | 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 30 | 186,590 | +184 |
-| [fzf](../r/junegunn~fzf.md) | 🌸 A command-line fuzzy finder | 79,880 | +170 |
-| [the startup time](../r/zplug~zplug.md) | A next-generation plugin manager for zsh — manage plugins, commands, and themes from GitHub, Bitbucket, oh-my-zsh, prezt | 6,019 | +3 |
-| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,307 | +0 |
+| [oh-my-zsh](../r/ohmyzsh~ohmyzsh.md) | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30 | 186,922 | +213 |
+| [fzf](../r/junegunn~fzf.md) | 🌸 A command-line fuzzy finder | 80,150 | +151 |
+| [the startup time](../r/zplug~zplug.md) | A next-generation plugin manager for zsh — manage plugins, commands, and themes from GitHub, Bitbucket, oh-my-zsh, prezt | 6,022 | +3 |
+| [antigen](../r/zsh-users~antigen.md) | The plugin manager for zsh. | 8,304 | -3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2627,7 +2633,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [zap](../r/zap-zsh~zap.md) | ⚡ Zap is a minimal zsh plugin manager | 1,158 | +2 |
+| [zap](../r/zap-zsh~zap.md) | ⚡ Zap is a minimal zsh plugin manager | 1,162 | +3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2635,7 +2641,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [zsh-quickstart-kit](../r/unixorn~zsh-quickstart-kit.md) | A simple ZSH quickstart for using ZSH, zgenom, oh-my-zsh and a curated list of extra plugins. It is designed to be easy  | 891 | +1 |
+| [zsh-quickstart-kit](../r/unixorn~zsh-quickstart-kit.md) | A simple ZSH quickstart for using ZSH, zgenom, oh-my-zsh and a curated list of extra plugins. It is designed to be easy  | 895 | +3 |
 
 [Back to top](#awesome-zsh-plugins)
 
@@ -2643,9 +2649,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ZPWR](../r/menketechnologies~zpwr.md) | ZPWR => World's Most Advanced UNIX Terminal Environment | 219 | +1 |
+| [ZPWR](../r/menketechnologies~zpwr.md) | ZPWR => World's Most Advanced UNIX Terminal Environment | 219 | +0 |
 
 [Back to top](#awesome-zsh-plugins)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/l/zsh-plugins/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/l/zsh-plugins/)*

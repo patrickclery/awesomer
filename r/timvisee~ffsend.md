@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,331 | +5 | +9 | +15 | 2025-11-20 |
+| 7,340 | +8 | +14 | +22 | 2025-11-20 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/timvisee~ffsend/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/timvisee~ffsend/)*

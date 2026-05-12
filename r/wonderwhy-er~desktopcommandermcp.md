@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,971 | +43 | +157 | +282 | 2026-04-29 |
+| 6,024 | +33 | +145 | +306 | 2026-05-11 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wonderwhy-er~desktopcommandermcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wonderwhy-er~desktopcommandermcp/)*

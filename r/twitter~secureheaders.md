@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,238 | -11 | -54 |  | 2026-04-27 |
+| 3,225 | -13 | -21 | -3 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~secureheaders/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~secureheaders/)*

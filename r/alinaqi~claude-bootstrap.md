@@ -1,6 +1,6 @@
 # alinaqi/claude-bootstrap
 
-> Opinionated project initialization for Claude Code. Security-first, spec-driven, AI-native.
+> What started as an opinionated Claude Code setup kit is now an autonomous AI engineering command center
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/alinaqi/claude-bootstrap) | [Live site ↗](https://patrickclery.com/awesomer/r/alinaqi~claude-bootstrap/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 587 | +4 | +19 | +40 | 2026-04-21 |
+| 618 | +17 | +45 | +63 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/alinaqi~claude-bootstrap/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alinaqi~claude-bootstrap/)*

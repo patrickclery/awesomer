@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,622 | +8 | +13 | +34 | 2026-03-29 |
+| 4,623 | +3 | +15 | +29 | 2026-05-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/multimc~launcher/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/multimc~launcher/)*

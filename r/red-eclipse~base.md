@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 511 | +2 | +5 |  | 2026-04-08 |
+| 514 | +2 | +7 | +15 | 2026-04-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/red-eclipse~base/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/red-eclipse~base/)*

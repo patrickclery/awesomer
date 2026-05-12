@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 226 | +2 |  |  | 2026-03-21 |
+| 232 | +2 | +21 | +51 | 2026-03-21 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Version Control
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/maoyama~tempo/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/maoyama~tempo/)*

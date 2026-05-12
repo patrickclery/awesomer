@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,817 | +24 |  |  | 2026-04-27 |
+| 4,843 | +13 | +90 | +369 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Work Queues
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pgmq~pgmq/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pgmq~pgmq/)*

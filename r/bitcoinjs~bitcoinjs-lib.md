@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,984 | -1 | +3 | +6 | 2026-02-17 |
+| 5,985 | +1 | +2 | +7 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bitcoinjs~bitcoinjs-lib/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bitcoinjs~bitcoinjs-lib/)*

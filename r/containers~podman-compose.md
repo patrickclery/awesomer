@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,057 | +7 | +37 | +59 | 2026-04-28 |
+| 6,069 | +7 | +34 | +70 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~podman-compose/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~podman-compose/)*

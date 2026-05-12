@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,471 | +19 |  |  | 2026-04-17 |
+| 14,534 | +39 | +139 | +486 | 2026-04-17 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) DNS
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/owasp-amass~amass/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/owasp-amass~amass/)*

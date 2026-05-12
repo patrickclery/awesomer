@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,709 | +18 | +84 |  | 2026-04-29 |
+| 4,739 | +21 | +70 | +288 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Compositors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/plagman~gamescope/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/plagman~gamescope/)*

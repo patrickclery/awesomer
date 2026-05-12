@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 410 | +10 |  |  | 2026-04-29 |
+| 421 | +5 | +42 | +121 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Processors
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/harehare~mq/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/harehare~mq/)*

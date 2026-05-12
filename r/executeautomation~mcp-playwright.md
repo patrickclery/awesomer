@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,478 | +23 | +106 | +174 | 2025-12-13 |
+| 5,504 | +16 | +92 | +193 | 2025-12-13 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/executeautomation~mcp-playwright/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/executeautomation~mcp-playwright/)*

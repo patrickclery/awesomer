@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 531 | +3 | +26 | +39 | 2025-12-24 |
+| 536 | +3 | +15 | +39 | 2025-12-24 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kimtaeyoon83~mcp-server-youtube-transcript/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kimtaeyoon83~mcp-server-youtube-transcript/)*

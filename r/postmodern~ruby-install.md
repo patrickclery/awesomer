@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,970 | +1 | +3 | +2 | 2026-01-14 |
+| 1,970 | +0 | +2 | +2 | 2026-01-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Environment Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/postmodern~ruby-install/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/postmodern~ruby-install/)*

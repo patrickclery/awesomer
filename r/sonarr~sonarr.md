@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,731 | +42 |  |  | 2026-04-27 |
+| 13,802 | +42 | +173 | +612 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / TV Automation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sonarr~sonarr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sonarr~sonarr/)*

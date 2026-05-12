@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,579 | +12 |  |  | 2026-02-11 |
+| 7,599 | +15 | +49 | +180 | 2026-02-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Large Language Models (Base + Chat)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/meta-llama~llama-models/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/meta-llama~llama-models/)*

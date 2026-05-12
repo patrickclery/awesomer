@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 741 | +1 | +8 | +12 | 2026-04-02 |
+| 740 | +0 | +3 | +10 | 2026-04-02 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / React
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pd4d10~vite-plugin-svgr/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pd4d10~vite-plugin-svgr/)*

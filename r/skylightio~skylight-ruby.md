@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 318 | +0 |  |  | 2026-04-18 |
+| 318 | +0 | +0 |  | 2026-05-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Performance Monitoring
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/skylightio~skylight-ruby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/skylightio~skylight-ruby/)*

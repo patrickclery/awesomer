@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,801 | +14 | +61 | +81 | 2026-04-24 |
+| 7,813 | +6 | +48 | +88 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/turbot~steampipe/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/turbot~steampipe/)*

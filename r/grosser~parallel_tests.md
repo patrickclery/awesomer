@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,500 | +1 | +3 | +3 | 2026-04-09 |
+| 3,500 | +0 | +4 | +3 | 2026-04-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/grosser~parallel_tests/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/grosser~parallel_tests/)*

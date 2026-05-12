@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 784 | +4 |  |  | 2026-04-26 |
+| 789 | +2 | +14 | +48 | 2026-05-05 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/databassgit~agentforge/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/databassgit~agentforge/)*

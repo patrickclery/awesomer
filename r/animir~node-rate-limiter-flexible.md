@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,531 | +6 | +22 | +28 | 2026-04-25 |
+| 3,539 | +5 | +25 | +45 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/animir~node-rate-limiter-flexible/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/animir~node-rate-limiter-flexible/)*

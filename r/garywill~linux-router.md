@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,007 | +3 | +9 | +18 | 2026-03-14 |
+| 2,009 | +0 | +8 | +16 | 2026-03-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/garywill~linux-router/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/garywill~linux-router/)*

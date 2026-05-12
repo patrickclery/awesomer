@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,846 | +6 | +24 | +30 | 2026-04-13 |
+| 1,849 | +1 | +15 | +31 | 2026-04-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/robbie-cahill~tunnelmole-client/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/robbie-cahill~tunnelmole-client/)*

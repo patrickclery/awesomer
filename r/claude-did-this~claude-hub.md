@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 461 | +3 | +34 | +58 | 2025-10-27 |
+| 472 | +4 | +21 | +66 | 2025-10-27 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/claude-did-this~claude-hub/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/claude-did-this~claude-hub/)*

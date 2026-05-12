@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 120 | +9 |  |  | 2026-04-27 |
+| 131 | +7 | +31 | +58 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-google-dorks-tools) Google Dorks Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/xploits3c~dorkeye/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xploits3c~dorkeye/)*

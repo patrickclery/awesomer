@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 54,062 | +674 | +2,962 | +4,882 | 2026-04-28 |
+| 55,024 | +604 | +2,690 | +5,453 | 2026-05-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/upstash~context7/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/upstash~context7/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,500 | +28 | +108 | +159 | 2026-01-10 |
+| 3,539 | +20 | +107 | +190 | 2026-01-10 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Window Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/felixkratz~jankyborders/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/felixkratz~jankyborders/)*

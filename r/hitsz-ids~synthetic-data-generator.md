@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,417 | +3 |  |  | 2026-04-27 |
+| 2,417 | +0 | +5 | +16 | 2026-04-27 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Synthetic Data Generation
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hitsz-ids~synthetic-data-generator/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hitsz-ids~synthetic-data-generator/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 263 | +0 | +4 |  | 2026-04-27 |
+| 264 | +1 | +1 | +13 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/patrickhoefler~dockerfilegraph/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/patrickhoefler~dockerfilegraph/)*

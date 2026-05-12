@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 855 | +8 |  |  | 2026-03-02 |
+| 855 | +0 | +17 | +76 | 2026-03-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Document Management - E-books
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/kiwix~kiwix-tools/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kiwix~kiwix-tools/)*

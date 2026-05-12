@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 79,920 | +1,319 | +2,546 | +3,542 | 2026-04-06 |
+| 81,057 | +538 | +3,018 | +4,435 | 2026-04-30 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/localsend~localsend/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/localsend~localsend/)*

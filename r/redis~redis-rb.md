@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,989 | +1 | -11 | -11 | 2026-03-12 |
+| 3,990 | +0 | +1 | -11 | 2026-03-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Drivers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/redis~redis-rb/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/redis~redis-rb/)*

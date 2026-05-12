@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,300 | +15 | +295 |  | 2026-03-29 |
+| 31,328 | +11 | +308 | +560 | 2026-03-29 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / DDL Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/iawia002~annie/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/iawia002~annie/)*

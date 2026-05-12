@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 47,777 | +76 | +338 | +560 | 2026-04-12 |
+| 47,893 | +66 | +307 | +604 | 2026-04-12 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/akullpp~awesome-java/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/akullpp~awesome-java/)*

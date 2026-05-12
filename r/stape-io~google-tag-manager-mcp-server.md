@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 142 | +4 | +19 | +25 | 2026-04-16 |
+| 146 | +3 | +14 | +27 | 2026-04-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Marketing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/stape-io~google-tag-manager-mcp-server/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stape-io~google-tag-manager-mcp-server/)*

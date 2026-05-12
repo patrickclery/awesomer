@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,013 | +4 |  |  | 2025-12-31 |
+| 2,023 | +6 | +21 | +68 | 2025-12-31 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Scrolling
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/karb94~neoscroll.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/karb94~neoscroll.nvim/)*

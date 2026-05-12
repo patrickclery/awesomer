@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114 | +0 |  |  | 2026-04-20 |
+| 114 | +0 | +1 | +1 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Papers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mgramin~database-as-code/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mgramin~database-as-code/)*

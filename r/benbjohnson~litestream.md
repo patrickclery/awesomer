@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,506 | +30 | +113 | +182 | 2026-04-27 |
+| 13,546 | +34 | +111 | +210 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/benbjohnson~litestream/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benbjohnson~litestream/)*

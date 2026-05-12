@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,715 |  |  |  | 2026-04-29 |
+| 13,876 | +86 | +3,762 | +5,264 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Engineering & Feature Stores
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/open-metadata~openmetadata/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/open-metadata~openmetadata/)*

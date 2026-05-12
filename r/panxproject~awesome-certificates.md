@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,674 | +30 | +119 | +178 | 2026-01-14 |
+| 4,711 | +24 | +107 | +206 | 2026-01-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/panxproject~awesome-certificates/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/panxproject~awesome-certificates/)*

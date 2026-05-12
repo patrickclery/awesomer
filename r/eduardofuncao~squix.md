@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 230 | +4 |  |  | 2026-04-17 |
+| 233 | +1 | +38 | +93 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Database
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/eduardofuncao~squix/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eduardofuncao~squix/)*

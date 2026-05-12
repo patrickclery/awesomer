@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 471 | +1 | +3 |  | 2026-04-29 |
+| 473 | +2 | +4 |  | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Assets
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shakacode~shakapacker/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shakacode~shakapacker/)*

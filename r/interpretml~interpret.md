@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,840 | +6 | +18 | +33 | 2026-04-28 |
+| 6,848 | +7 | +25 | +38 | 2026-05-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/interpretml~interpret/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/interpretml~interpret/)*

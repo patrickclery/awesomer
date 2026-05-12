@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,643 | -1 | -2 |  | 2026-04-22 |
+| 1,644 | +1 | +0 | +2 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Form Builder
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/bootstrap-ruby~rails-bootstrap-forms/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bootstrap-ruby~rails-bootstrap-forms/)*

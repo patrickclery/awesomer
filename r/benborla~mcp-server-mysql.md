@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,600 | +36 | +151 | +235 | 2026-03-10 |
+| 1,634 | +26 | +123 | +251 | 2026-03-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/benborla~mcp-server-mysql/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benborla~mcp-server-mysql/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 556 | +0 | +5 | +9 | 2025-08-26 |
+| 555 | -1 | +5 | +6 | 2025-08-26 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/helmi~claude-simone/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/helmi~claude-simone/)*

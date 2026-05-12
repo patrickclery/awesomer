@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 584 | +4 |  |  | 2026-04-15 |
+| 590 | +4 | +17 | +56 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Mobile Apps
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ruddarr~app/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ruddarr~app/)*

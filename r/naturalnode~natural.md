@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,874 | +1 | +1 | -2 | 2026-02-22 |
+| 10,872 | -1 | +0 | -2 | 2026-02-22 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/naturalnode~natural/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/naturalnode~natural/)*

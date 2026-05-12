@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 843 | +1 | +2 |  | 2026-03-15 |
+| 843 | +0 | +1 | +4 | 2026-05-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Formatting
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rubocop-hq~rubocop-rspec/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rubocop-hq~rubocop-rspec/)*

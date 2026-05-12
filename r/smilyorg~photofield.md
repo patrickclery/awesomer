@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 576 | +0 | +2 | +6 | 2026-01-26 |
+| 576 | +0 | +1 | +3 | 2026-01-26 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Photo Galleries
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/smilyorg~photofield/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smilyorg~photofield/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 278 | +8 | +37 | +110 | 2026-04-21 |
+| 297 | +12 | +44 | +126 | 2026-04-21 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Location Services
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cablate~mcp-google-map/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cablate~mcp-google-map/)*

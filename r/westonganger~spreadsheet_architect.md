@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,348 | -1 |  |  | 2026-04-27 |
+| 1,348 | +0 | -1 |  | 2026-04-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Spreadsheets and Documents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/westonganger~spreadsheet_architect/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/westonganger~spreadsheet_architect/)*

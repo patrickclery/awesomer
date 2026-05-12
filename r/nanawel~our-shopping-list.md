@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 187 | +2 |  |  | 2026-03-03 |
+| 187 | +0 | +3 | +23 | 2026-03-03 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Task Management & To-do Lists
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nanawel~our-shopping-list/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nanawel~our-shopping-list/)*

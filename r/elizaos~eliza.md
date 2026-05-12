@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,281 | +53 |  |  | 2026-04-29 |
+| 18,344 | +47 | +187 | +1,057 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/elizaos~eliza/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elizaos~eliza/)*

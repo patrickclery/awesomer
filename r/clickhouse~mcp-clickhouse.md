@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 764 | +6 | +30 | +44 | 2026-04-24 |
+| 777 | +11 | +28 | +51 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/clickhouse~mcp-clickhouse/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clickhouse~mcp-clickhouse/)*

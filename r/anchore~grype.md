@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,108 | +40 |  |  | 2026-04-24 |
+| 12,186 | +46 | +182 | +707 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Security
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/anchore~grype/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anchore~grype/)*

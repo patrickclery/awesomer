@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,888 | +0 |  |  | 2026-04-02 |
+| 1,891 | +1 | +7 | +26 | 2026-04-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Wiki Software
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jermolene~tiddlydesktop/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jermolene~tiddlydesktop/)*

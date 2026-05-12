@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,789 | +3 | +13 | +15 | 2026-04-22 |
+| 2,788 | -1 | +3 | +16 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/narhakobyan~awesome-nest-boilerplate/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/narhakobyan~awesome-nest-boilerplate/)*

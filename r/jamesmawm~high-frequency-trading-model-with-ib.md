@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,875 | -3 |  |  | 2025-05-29 |
+| 2,866 | -13 | -6 | +49 | 2025-05-29 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / High Frequency Trading
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jamesmawm~high-frequency-trading-model-with-ib/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jamesmawm~high-frequency-trading-model-with-ib/)*

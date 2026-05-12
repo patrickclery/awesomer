@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 854 | +0 |  |  | 2026-04-23 |
+| 854 | +0 | +0 |  | 2026-04-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CMS
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wearefine~fae/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wearefine~fae/)*

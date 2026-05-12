@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,782 | +602 | +2,976 |  | 2026-04-25 |
+| 8,836 | +819 | +2,664 |  | 2026-05-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/wanshuiyin~auto-claude-code-research-in-sleep/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wanshuiyin~auto-claude-code-research-in-sleep/)*

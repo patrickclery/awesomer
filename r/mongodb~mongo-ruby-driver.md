@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,432 | +0 | -1 |  | 2026-04-29 |
+| 1,433 | +1 | +2 |  | 2026-05-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Drivers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mongodb~mongo-ruby-driver/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mongodb~mongo-ruby-driver/)*

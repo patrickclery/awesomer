@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,095 | +2 | +2 | +2 | 2026-01-13 |
+| 2,095 | +0 | +2 | +2 | 2026-01-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nateware~redis-objects/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nateware~redis-objects/)*

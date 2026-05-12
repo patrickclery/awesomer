@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,417 | -1 | -3 |  | 2026-02-03 |
+| 2,415 | -2 | -4 |  | 2026-02-03 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/actionhero~actionhero/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/actionhero~actionhero/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,827 | +32 |  |  | 2026-02-10 |
+| 7,875 | +32 | +140 | +653 | 2026-02-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Image Generation & Editing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/qwenlm~qwen-image/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qwenlm~qwen-image/)*

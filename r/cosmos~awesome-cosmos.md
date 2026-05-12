@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 597 | +2 | +0 |  | 2026-04-13 |
+| 597 | +0 | +0 | +1 | 2026-04-13 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Decentralized Systems
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/cosmos~awesome-cosmos/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cosmos~awesome-cosmos/)*

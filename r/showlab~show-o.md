@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,919 |  |  |  | 2026-01-08 |
+| 1,924 | +1 | +17 | +61 | 2026-01-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multimodal Models (Vision + Language)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/showlab~show-o/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/showlab~show-o/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,609 | +5 |  |  | 2026-04-21 |
+| 2,621 | +9 | +35 | +127 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/illuin-tech~colpali/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/illuin-tech~colpali/)*

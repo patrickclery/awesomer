@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,450 | +148 | +747 | +870 | 2026-04-29 |
+| 18,648 | +137 | +522 | +945 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Screen Recording
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mediar-ai~screenpipe/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mediar-ai~screenpipe/)*

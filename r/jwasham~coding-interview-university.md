@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 343,198 | +1,826 |  |  | 2025-08-28 |
+| 346,578 | +1,344 | +5,820 | +11,006 | 2025-08-28 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Technologies
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jwasham~coding-interview-university/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jwasham~coding-interview-university/)*

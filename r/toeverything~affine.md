@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 67,836 | +297 | +1,107 | +2,364 | 2026-04-29 |
+| 68,276 | +280 | +1,109 | +2,659 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/toeverything~affine/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/toeverything~affine/)*

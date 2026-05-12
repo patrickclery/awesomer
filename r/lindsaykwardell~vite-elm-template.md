@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Tauri
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lindsaykwardell~vite-elm-template/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lindsaykwardell~vite-elm-template/)*

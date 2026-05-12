@@ -1,6 +1,6 @@
 # prompt-security/clawsec
 
-> A complete security skill suite for OpenClaw's and NanoClaw agents (and variants). Protect your SOUL.md (etc') with drif
+> A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents (and variants). Protect your SOUL.md 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/prompt-security/clawsec) | [Live site ↗](https://patrickclery.com/awesomer/r/prompt-security~clawsec/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 961 | +47 | +101 |  | 2026-04-29 |
+| 980 | +13 | +86 | +279 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/prompt-security~clawsec/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/prompt-security~clawsec/)*

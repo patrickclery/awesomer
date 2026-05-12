@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 256 | +3 | +4 | +3 | 2026-04-14 |
+| 258 | +1 | +6 | +7 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Notifications and Messages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sarisia~actions-status-discord/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sarisia~actions-status-discord/)*

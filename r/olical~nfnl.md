@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 350 | +0 | +6 | +9 | 2026-04-13 |
+| 351 | +1 | +6 | +9 | 2026-04-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fennel
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/olical~nfnl/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/olical~nfnl/)*

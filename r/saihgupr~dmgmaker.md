@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 271 | +5 |  |  | 2026-03-20 |
+| 275 | +2 | +18 |  | 2026-05-10 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Frameworks For Hybrid Applications
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/saihgupr~dmgmaker/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saihgupr~dmgmaker/)*

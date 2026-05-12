@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,494 | -1 | +3 |  | 2025-08-25 |
+| 2,494 | +0 | +3 |  | 2025-08-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Form Builder
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/apotonick~reform/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apotonick~reform/)*

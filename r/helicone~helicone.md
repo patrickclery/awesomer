@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,576 | +46 |  |  | 2026-04-23 |
+| 5,642 | +44 | +171 | +569 | 2026-05-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/helicone~helicone/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/helicone~helicone/)*

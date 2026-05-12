@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,118 | +13 | +62 | +87 | 2026-02-08 |
+| 2,140 | +11 | +58 | +107 | 2026-02-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cto](../l/cto.md) / Product
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dend~awesome-product-management/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dend~awesome-product-management/)*

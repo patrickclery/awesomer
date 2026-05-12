@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,528 | +3 |  |  | 2026-04-27 |
+| 1,529 | +0 | +7 | +25 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Event Sourcing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/railseventstore~rails_event_store/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/railseventstore~rails_event_store/)*

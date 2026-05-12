@@ -1,6 +1,6 @@
 # av/harbor
 
-> One command brings a complete pre-wired LLM stack with hundreds of services to explore.
+> Stop configuring your AI stack. Start using it. One command brings a complete pre-wired LLM stack with hundreds of servi
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/av/harbor) | [Live site ↗](https://patrickclery.com/awesomer/r/av~harbor/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,886 | +30 | +338 | +380 | 2026-04-26 |
+| 2,924 | +21 | +118 | +406 | 2026-05-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Generative Artificial Intelligence (GenAI)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/av~harbor/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/av~harbor/)*

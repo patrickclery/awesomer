@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,783 | +11 |  |  | 2026-04-29 |
+| 11,801 | +9 | +40 | +166 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Music and Sound
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/samaaron~sonic-pi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/samaaron~sonic-pi/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,073 | +60 |  |  | 2026-04-29 |
+| 19,147 | +47 | +261 | +835 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deep Learning Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/triton-lang~triton/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/triton-lang~triton/)*

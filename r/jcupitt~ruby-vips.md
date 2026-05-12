@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 889 | +0 | +1 |  | 2025-12-10 |
+| 890 | +0 | +2 | +4 | 2025-12-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Image Processing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jcupitt~ruby-vips/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jcupitt~ruby-vips/)*

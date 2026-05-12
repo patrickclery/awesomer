@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,707 | +9 | +57 | +114 | 2026-04-25 |
+| 11,731 | +17 | +50 | +127 | 2026-05-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/imsnif~bandwhich/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/imsnif~bandwhich/)*

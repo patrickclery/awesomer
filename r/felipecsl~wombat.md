@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,360 | +1 | +5 |  | 2026-04-07 |
+| 1,362 | +1 | +3 | +11 | 2026-04-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Crawling
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/felipecsl~wombat/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/felipecsl~wombat/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,860 | +370 | +1,988 |  | 2026-04-26 |
+| 6,196 | +215 | +1,939 |  | 2026-04-26 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)*

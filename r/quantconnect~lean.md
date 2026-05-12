@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,683 | +171 | +530 | +1,140 | 2026-04-24 |
+| 18,917 | +150 | +573 | +1,275 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Traditional Market
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/quantconnect~lean/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/quantconnect~lean/)*

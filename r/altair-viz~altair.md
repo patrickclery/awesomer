@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,348 | +15 | +28 |  | 2026-04-27 |
+| 10,372 | +8 | +52 | +146 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/altair-viz~altair/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/altair-viz~altair/)*

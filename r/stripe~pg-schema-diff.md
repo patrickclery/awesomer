@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 841 | +5 | +19 | +23 | 2026-01-07 |
+| 845 | +1 | +15 | +30 | 2026-01-07 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / CLI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/stripe~pg-schema-diff/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stripe~pg-schema-diff/)*

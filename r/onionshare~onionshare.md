@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,940 | +4 | +17 | +37 | 2026-03-11 |
+| 6,956 | +11 | +27 | +45 | 2026-03-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/onionshare~onionshare/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/onionshare~onionshare/)*

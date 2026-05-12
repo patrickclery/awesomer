@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,495 | +0 | +1 |  | 2025-07-09 |
+| 1,495 | +0 | +0 |  | 2025-07-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/igorkasyanchuk~rails_db/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/igorkasyanchuk~rails_db/)*

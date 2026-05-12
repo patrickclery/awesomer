@@ -1,6 +1,6 @@
 # OpenBMB/MiniCPM-o
 
-> A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone
+> A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/OpenBMB/MiniCPM-o) | [Live site ↗](https://patrickclery.com/awesomer/r/openbmb~minicpm-o/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,468 | +84 |  |  | 2026-04-27 |
+| 24,542 | +53 | +229 | +1,020 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multimodal Models (Vision + Language)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~minicpm-o/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~minicpm-o/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,596 | +4 |  |  | 2025-12-14 |
+| 4,603 | +4 | +17 | +59 | 2025-12-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Speech & Audio Models (TTS, STT, Music)
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/whisperspeech~whisperspeech/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/whisperspeech~whisperspeech/)*

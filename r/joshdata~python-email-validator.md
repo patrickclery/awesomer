@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,395 |  | +7 | +41 | 2026-04-14 |
+| 1,399 | +2 | +6 | +41 | 2026-04-14 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Verification
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/joshdata~python-email-validator/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/joshdata~python-email-validator/)*

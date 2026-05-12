@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 | +0 |  |  | 2026-01-21 |
+| 115 | +0 | +0 |  | 2026-01-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Cloud
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/projecthydra~browse-everything/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/projecthydra~browse-everything/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,707 | +5 | +18 |  | 2026-02-17 |
+| 1,708 | +0 | +14 | +97 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Orchestrators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/parruda~claude-swarm/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/parruda~claude-swarm/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 388 | +0 |  |  | 2026-04-01 |
+| 388 | +0 | +0 | +11 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Performance Monitoring
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/basesecrete~rorvswild/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/basesecrete~rorvswild/)*

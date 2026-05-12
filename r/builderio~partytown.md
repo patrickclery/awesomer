@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,688 | +1 | +19 |  | 2026-04-02 |
+| 13,690 | +5 | +15 | +93 | 2026-04-02 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/builderio~partytown/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/builderio~partytown/)*

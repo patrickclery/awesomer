@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,947 | +386 | +639 | +780 | 2026-04-29 |
+| 27,756 | +3,262 | +8,347 | +8,550 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Username Check
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/soxoj~maigret/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/soxoj~maigret/)*

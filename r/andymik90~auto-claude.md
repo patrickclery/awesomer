@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,103 | +76 | +467 | +1,187 | 2026-03-23 |
+| 14,187 | +48 | +280 | +996 | 2026-03-23 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Orchestrators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/andymik90~auto-claude/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/andymik90~auto-claude/)*

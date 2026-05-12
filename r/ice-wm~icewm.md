@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 398 | +2 |  |  | 2026-01-01 |
+| 397 | -1 | +1 | +13 | 2026-01-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Stacking Window Managers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ice-wm~icewm/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ice-wm~icewm/)*

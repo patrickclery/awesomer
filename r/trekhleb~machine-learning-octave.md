@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 895 | +0 | +1 | +2 | 2025-11-23 |
+| 893 | -2 | -2 | +2 | 2025-11-23 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Matlab
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/trekhleb~machine-learning-octave/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trekhleb~machine-learning-octave/)*

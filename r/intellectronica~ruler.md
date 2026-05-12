@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,664 |  |  |  | 2026-04-15 |
+| 2,688 | +17 | +76 | +267 | 2026-05-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/intellectronica~ruler/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/intellectronica~ruler/)*

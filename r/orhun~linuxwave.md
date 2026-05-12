@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 643 | +0 | +3 | +4 | 2026-04-21 |
+| 645 | +2 | +6 | +6 | 2026-04-21 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/orhun~linuxwave/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/orhun~linuxwave/)*

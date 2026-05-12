@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 123 | +0 |  |  | 2026-04-08 |
+| 125 | +2 | +2 |  | 2026-04-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Mobile Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/pubnub~ruby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pubnub~ruby/)*

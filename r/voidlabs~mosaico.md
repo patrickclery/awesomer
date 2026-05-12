@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,779 | +2 | +4 |  | 2025-08-22 |
+| 1,778 | -1 | +4 | +9 | 2025-08-22 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/voidlabs~mosaico/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/voidlabs~mosaico/)*

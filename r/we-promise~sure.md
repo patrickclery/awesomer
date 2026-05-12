@@ -1,6 +1,6 @@
 # we-promise/sure
 
-> The personal finance app for everyone. NOT affiliated with or endorsed by Maybe Finance Inc.
+> The personal finance app for everyone (by everyone)
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/we-promise/sure) | [Live site ↗](https://patrickclery.com/awesomer/r/we-promise~sure/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,934 | +111 | +357 | +858 | 2026-04-29 |
+| 8,153 | +104 | +419 | +1,024 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Money, Budgeting & Management
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/we-promise~sure/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/we-promise~sure/)*

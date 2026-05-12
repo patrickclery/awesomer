@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 201 | +0 | +0 |  | 2026-04-23 |
+| 201 | +0 | +0 | +1 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxdeepin~deepin-music/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxdeepin~deepin-music/)*

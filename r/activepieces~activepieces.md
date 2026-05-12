@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,984 | +173 | +498 | +757 | 2026-04-29 |
+| 22,143 | +105 | +477 | +842 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/activepieces~activepieces/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/activepieces~activepieces/)*

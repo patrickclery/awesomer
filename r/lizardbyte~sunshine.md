@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,525 | +284 |  |  | 2026-04-28 |
+| 36,858 | +197 | +929 | +2,749 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Remote Login Software
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/lizardbyte~sunshine/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lizardbyte~sunshine/)*

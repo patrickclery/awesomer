@@ -1,6 +1,6 @@
 # Canner/wren-engine
 
-> The open context engine for AI agents support 15+ data sources. Built on Rust and Apache DataFusion.
+> This repository has been merged into Canner/WrenAI under the core/ directory
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Canner/wren-engine) | [Live site ↗](https://patrickclery.com/awesomer/r/canner~wren-engine/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 655 | +4 | +39 | +60 | 2026-04-27 |
+| 661 | +0 | +23 | +61 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/canner~wren-engine/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/canner~wren-engine/)*

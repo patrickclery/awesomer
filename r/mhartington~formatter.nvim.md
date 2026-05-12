@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,455 | +1 | +2 |  | 2025-05-29 |
+| 1,456 | +0 | +1 | +9 | 2025-05-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Formatting
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mhartington~formatter.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mhartington~formatter.nvim/)*

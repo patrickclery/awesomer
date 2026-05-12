@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 264 | +12 | +40 |  | 2025-12-08 |
+| 271 | +2 | +31 | +107 | 2025-12-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thibautmelen~agentic-workflow-patterns/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thibautmelen~agentic-workflow-patterns/)*

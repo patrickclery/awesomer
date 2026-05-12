@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,887 | -1 | +0 | +2 | 2026-04-27 |
+| 3,891 | +4 | +6 | +2 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/miniprofiler~rack-mini-profiler/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/miniprofiler~rack-mini-profiler/)*

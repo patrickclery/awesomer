@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,681 | +6 | +29 | +41 | 2026-03-28 |
+| 1,692 | +8 | +33 | +46 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/julien040~anyquery/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/julien040~anyquery/)*

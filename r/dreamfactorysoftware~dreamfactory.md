@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,763 | +2 | +6 | +11 | 2026-04-23 |
+| 1,766 | +1 | +7 | +11 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/dreamfactorysoftware~dreamfactory/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dreamfactorysoftware~dreamfactory/)*

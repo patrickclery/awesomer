@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,044 | +4 |  |  | 2025-07-30 |
+| 14,048 | +2 | +21 | +134 | 2025-07-30 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Books
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zachgoldberg~startup-cto-handbook/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zachgoldberg~startup-cto-handbook/)*

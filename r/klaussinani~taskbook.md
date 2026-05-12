@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,306 | -1 | +11 |  | 2025-11-03 |
+| 9,311 | +3 | +12 | +76 | 2025-11-03 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/klaussinani~taskbook/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/klaussinani~taskbook/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 42,463 | +66 | +257 | +494 | 2026-04-29 |
+| 42,551 | +50 | +262 | +512 | 2026-05-11 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Interactive ML Apps & Notebooks
 - [awesome-machine-learning](../l/machine-learning.md) / Python
+- [Awesome Open Source AI](../l/opensource-ai.md) / Interactive ML Apps & Notebooks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/gradio-app~gradio/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gradio-app~gradio/)*

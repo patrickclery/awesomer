@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,490 | +29 | +133 | +247 | 2026-03-19 |
+| 25,544 | +24 | +129 | +271 | 2026-03-19 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/swordfish90~cool-retro-term/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/swordfish90~cool-retro-term/)*

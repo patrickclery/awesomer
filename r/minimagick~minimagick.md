@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,852 | -2 | -2 | +2 | 2025-08-19 |
+| 2,852 | -1 | -2 | +0 | 2025-08-19 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Image Processing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/minimagick~minimagick/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/minimagick~minimagick/)*

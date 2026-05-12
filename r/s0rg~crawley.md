@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 337 | +0 | +3 | +6 | 2026-04-24 |
+| 339 | +2 | +2 | +6 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/s0rg~crawley/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/s0rg~crawley/)*

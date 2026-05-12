@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,506 |  |  |  | 2026-03-19 |
+| 5,541 | +28 | +97 | +289 | 2026-03-19 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Safety Evaluation Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/agentops-ai~agentops/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agentops-ai~agentops/)*

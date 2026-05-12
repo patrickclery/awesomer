@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,437 | +9 | +16 | +31 | 2026-04-12 |
+| 8,456 | +13 | +35 | +47 | 2026-04-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/schachmat~wego/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/schachmat~wego/)*

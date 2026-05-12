@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 132 | +1 | +1 | +1 | 2026-03-28 |
+| 132 | +0 | +1 | +1 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Notifications and Messages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/appleboy~discord-action/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/appleboy~discord-action/)*

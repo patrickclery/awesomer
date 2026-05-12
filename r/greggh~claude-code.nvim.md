@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,026 | +15 | +60 | +98 | 2026-02-04 |
+| 2,045 | +9 | +50 | +110 | 2026-02-04 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / IDE Integrations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/greggh~claude-code.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/greggh~claude-code.nvim/)*

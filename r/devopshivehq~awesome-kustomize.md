@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 | +0 | +1 |  | 2026-04-07 |
+| 116 | +0 | +2 | +3 | 2026-04-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/devopshivehq~awesome-kustomize/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/devopshivehq~awesome-kustomize/)*

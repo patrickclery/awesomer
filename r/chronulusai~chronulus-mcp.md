@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 108 | +0 | +1 | +3 | 2025-07-19 |
+| 108 | +0 | +0 | +2 | 2025-07-19 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Data Science Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/chronulusai~chronulus-mcp/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chronulusai~chronulus-mcp/)*

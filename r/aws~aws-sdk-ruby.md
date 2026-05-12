@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,643 | +1 | +0 | +2 | 2026-04-27 |
+| 3,643 | +0 | +1 | +2 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Cloud
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/aws~aws-sdk-ruby/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aws~aws-sdk-ruby/)*

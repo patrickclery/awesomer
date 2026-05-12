@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,226 | +3 | +8 |  | 2026-04-24 |
+| 5,228 | +1 | +5 | +38 | 2026-05-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/azure~mmlspark/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/azure~mmlspark/)*

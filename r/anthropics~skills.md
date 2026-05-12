@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 125,844 | +3,991 |  | +78,225 | 2026-04-23 |
+| 132,208 | +4,252 | +17,177 | +65,662 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Community Resources
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~skills/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~skills/)*

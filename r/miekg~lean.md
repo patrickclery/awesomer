@@ -15,4 +15,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/miekg~lean/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/miekg~lean/)*

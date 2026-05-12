@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 780 | -1 | +0 |  | 2026-03-12 |
+| 779 | -1 | +0 | +16 | 2026-03-12 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Tauri
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/mubaidr~vite-vue3-chrome-extension-v3/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mubaidr~vite-vue3-chrome-extension-v3/)*

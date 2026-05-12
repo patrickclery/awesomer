@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 241 | +0 | +0 |  | 2026-04-29 |
+| 241 | +0 | +0 |  | 2026-05-06 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / External Services
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/exelban~gcloud/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/exelban~gcloud/)*

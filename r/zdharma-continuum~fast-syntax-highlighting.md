@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,662 | +8 | +23 | +38 | 2025-07-16 |
+| 1,670 | +5 | +21 | +40 | 2025-07-16 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/zdharma-continuum~fast-syntax-highlighting/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zdharma-continuum~fast-syntax-highlighting/)*

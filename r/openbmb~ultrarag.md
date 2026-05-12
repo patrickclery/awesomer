@@ -1,6 +1,6 @@
 # OpenBMB/UltraRAG
 
-> [GitHub Trending #2] A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines
+> A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/OpenBMB/UltraRAG) | [Live site ↗](https://patrickclery.com/awesomer/r/openbmb~ultrarag/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,528 |  |  |  | 2026-04-29 |
+| 5,544 | +11 | +70 | +554 | 2026-05-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~ultrarag/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~ultrarag/)*

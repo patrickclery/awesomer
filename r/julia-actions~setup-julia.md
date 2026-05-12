@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 107 | +1 |  |  | 2026-04-26 |
+| 107 | +0 | +2 |  | 2026-05-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Official Actions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/julia-actions~setup-julia/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/julia-actions~setup-julia/)*

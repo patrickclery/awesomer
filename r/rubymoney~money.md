@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,855 | +2 |  |  | 2026-03-29 |
+| 2,854 | -1 | +3 | +17 | 2026-03-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Money
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/rubymoney~money/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rubymoney~money/)*

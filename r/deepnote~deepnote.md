@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,855 | +17 | +62 | +113 | 2026-04-29 |
+| 2,892 | +14 | +73 | +134 | 2026-05-10 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / Notebooks & Interactive Computing
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/deepnote~deepnote/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deepnote~deepnote/)*

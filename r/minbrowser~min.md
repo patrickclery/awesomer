@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,958 | +10 | +42 | +59 | 2026-04-12 |
+| 8,975 | +12 | +46 | +75 | 2026-05-05 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/minbrowser~min/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/minbrowser~min/)*

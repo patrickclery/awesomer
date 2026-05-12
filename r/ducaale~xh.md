@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,769 | +13 | +64 | +132 | 2026-04-27 |
+| 7,793 | +15 | +64 | +132 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Downloading and Serving
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/ducaale~xh/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ducaale~xh/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 297 | +0 |  |  | 2026-04-21 |
+| 299 | +1 | +2 | +8 | 2026-04-30 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Preact
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/preactjs~preset-vite/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/preactjs~preset-vite/)*

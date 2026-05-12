@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 183 | +7 | +33 | +48 | 2026-04-22 |
+| 191 | +6 | +31 | +47 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nullpointerdepressivedisorder~middledrag/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nullpointerdepressivedisorder~middledrag/)*

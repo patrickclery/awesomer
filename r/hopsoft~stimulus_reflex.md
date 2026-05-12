@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,333 | +0 |  |  | 2026-04-10 |
+| 2,333 | +0 | +1 | +11 | 2026-04-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / WebSocket
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/hopsoft~stimulus_reflex/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hopsoft~stimulus_reflex/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,406 |  |  |  | 2026-04-29 |
+| 9,409 | +2 | +34 | +191 | 2026-05-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Packaging & Deployment
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/replicate~cog/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/replicate~cog/)*

@@ -1,6 +1,6 @@
 # paperclipai/paperclip
 
-> Open-source orchestration for zero-human companies
+> The open-source app everyone uses to manage agents at work
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/paperclipai/paperclip) | [Live site ↗](https://patrickclery.com/awesomer/r/paperclipai~paperclip/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 60,416 | +3,027 |  |  | 2026-04-28 |
+| 64,333 | +2,126 | +12,797 |  | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/paperclipai~paperclip/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/paperclipai~paperclip/)*

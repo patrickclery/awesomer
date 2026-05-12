@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,872 | +0 | +4 | +6 | 2026-03-02 |
+| 8,872 | +0 | +1 | +5 | 2026-03-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scheduling
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/javan~whenever/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/javan~whenever/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,759 | +16 | +60 | +93 | 2026-04-27 |
+| 8,775 | +10 | +49 | +106 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~buildah/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~buildah/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,565 | +6 | +53 | +67 | 2025-08-19 |
+| 5,567 | -2 | +48 | +66 | 2025-08-19 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Time Series Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/borisbanushev~stockpredictionai/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/borisbanushev~stockpredictionai/)*

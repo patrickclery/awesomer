@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 50,840 | +100 | +390 | +661 | 2026-04-19 |
+| 50,990 | +96 | +385 | +749 | 2026-04-19 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/jesseduffield~lazydocker/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jesseduffield~lazydocker/)*

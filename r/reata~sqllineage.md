@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,644 | +2 | +10 | +8 | 2026-04-21 |
+| 1,647 | +3 | +11 | +16 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/reata~sqllineage/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/reata~sqllineage/)*

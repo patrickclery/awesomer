@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 716 | +1 | +9 | +13 | 2026-02-13 |
+| 722 | +4 | +11 | +16 | 2026-02-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Remote Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/esensar~nvim-dev-container/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/esensar~nvim-dev-container/)*

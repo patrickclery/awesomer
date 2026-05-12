@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 618 | +2 | +5 |  | 2026-02-07 |
+| 619 | +0 | +6 | +11 | 2026-02-07 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelaquilina~zsh-autoswitch-virtualenv/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelaquilina~zsh-autoswitch-virtualenv/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 728 | +0 | +3 |  | 2026-04-24 |
+| 731 | +2 | +4 | +15 | 2026-04-24 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/billiob~terminology/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/billiob~terminology/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,363 | +244 | +1,173 |  | 2026-04-29 |
+| 35,700 | +209 | +1,182 | +2,352 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/drone~drone/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/drone~drone/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,622 | +16 |  |  | 2026-03-30 |
+| 6,639 | +8 | +61 | +147 | 2026-03-30 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Weather & Climate AI
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/google-deepmind~graphcast/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google-deepmind~graphcast/)*

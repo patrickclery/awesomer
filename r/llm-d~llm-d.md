@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,098 | +56 |  |  | 2026-04-29 |
+| 3,165 | +40 | +207 | +710 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/llm-d~llm-d/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/llm-d~llm-d/)*

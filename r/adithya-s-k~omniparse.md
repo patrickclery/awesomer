@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,814 | +4 |  |  | 2025-12-12 |
+| 6,817 | +1 | +14 | +43 | 2025-12-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Document Conversion & Preprocessing
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/adithya-s-k~omniparse/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/adithya-s-k~omniparse/)*

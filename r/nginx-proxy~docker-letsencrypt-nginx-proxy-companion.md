@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,704 | +0 | +4 |  | 2026-04-16 |
+| 7,703 | -1 | -1 | +26 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/nginx-proxy~docker-letsencrypt-nginx-proxy-companion/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nginx-proxy~docker-letsencrypt-nginx-proxy-companion/)*

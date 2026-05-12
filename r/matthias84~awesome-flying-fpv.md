@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 614 | +5 | +25 | +35 | 2026-03-06 |
+| 618 | +1 | +17 | +36 | 2026-03-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Hardware
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/matthias84~awesome-flying-fpv/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/matthias84~awesome-flying-fpv/)*

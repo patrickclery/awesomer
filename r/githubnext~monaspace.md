@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,044 | +59 |  |  | 2026-03-27 |
+| 19,137 | +62 | +293 | +881 | 2026-03-27 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Prerequisites
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/githubnext~monaspace/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/githubnext~monaspace/)*

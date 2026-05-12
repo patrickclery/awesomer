@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 48,524 | +273 | +1,419 | +2,013 | 2026-04-29 |
+| 48,981 | +260 | +1,370 | +2,313 | 2026-05-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Self-hosted AI Platforms
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/makeplane~plane/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/makeplane~plane/)*

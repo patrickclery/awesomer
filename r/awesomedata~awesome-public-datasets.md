@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 74,682 | +551 | +940 | +1,306 | 2026-04-28 |
+| 75,306 | +229 | +1,353 | +1,867 | 2026-05-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Big Data
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/awesomedata~awesome-public-datasets/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/awesomedata~awesome-public-datasets/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,604 |  |  |  | 2026-03-13 |
+| 6,603 | -1 | +13 | +48 | 2026-03-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/julep-ai~julep/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/julep-ai~julep/)*

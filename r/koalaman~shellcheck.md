@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,349 | +46 | +162 | +255 | 2026-04-04 |
+| 39,406 | +30 | +146 | +284 | 2026-04-04 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/koalaman~shellcheck/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/koalaman~shellcheck/)*

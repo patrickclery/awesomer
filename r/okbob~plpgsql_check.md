@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 752 | +0 | +6 | +10 | 2026-04-26 |
+| 752 | +0 | +2 | +10 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/okbob~plpgsql_check/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/okbob~plpgsql_check/)*

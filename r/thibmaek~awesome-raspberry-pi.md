@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,303 | +30 | +185 | +291 | 2026-04-15 |
+| 16,355 | +38 | +155 | +310 | 2026-04-15 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/thibmaek~awesome-raspberry-pi/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thibmaek~awesome-raspberry-pi/)*

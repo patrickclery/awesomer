@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,303 | +8 |  |  | 2025-10-09 |
+| 7,315 | +17 | +25 | +104 | 2025-10-09 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Download Managers
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/persepolisdm~persepolis/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/persepolisdm~persepolis/)*

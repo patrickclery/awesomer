@@ -15,4 +15,4 @@
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/raylee~tldr-sh-client/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/raylee~tldr-sh-client/)*

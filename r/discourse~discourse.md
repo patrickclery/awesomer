@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,923 | +40 | +271 | +437 | 2026-04-29 |
+| 47,010 | +52 | +266 | +476 | 2026-05-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Social Networking
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/discourse~discourse/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/discourse~discourse/)*

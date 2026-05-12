@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,761 | +11 | +39 | +52 | 2026-04-22 |
+| 2,768 | +5 | +31 | +52 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Pull Requests
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/peter-evans~create-pull-request/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/peter-evans~create-pull-request/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 898 | +1 | +1 | +8 | 2025-12-15 |
+| 899 | +1 | +3 | +5 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Indent
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/shellraining~hlchunk.nvim/)*
+*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shellraining~hlchunk.nvim/)*
