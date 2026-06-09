@@ -68,4 +68,4 @@ What if every Awesome List had a trending page? Now they do.
 | [Awesome-Linux-Software](l/linux-software.md) | 🐧 A list of awesome Linux softwares  | 24,949 | +0 |
 
 ---
-*Updated: 2026-06-08 | [View live site ↗](https://patrickclery.com/awesomer/)*
+*Updated: 2026-06-09 | [View live site ↗](https://patrickclery.com/awesomer/)*
