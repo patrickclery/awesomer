@@ -1,0 +1,18 @@
+# zscole/model-hierarchy-skill
+
+> OpenClaw skill for cost-optimized model routing based on task complexity
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/zscole/model-hierarchy-skill) | [Live site ↗](https://patrickclery.com/awesomer/r/zscole~model-hierarchy-skill/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 339 | +0 | -1 | +7 | 2026-02-16 |
+
+## Found In
+
+- [awesome-agent-skills](../l/agent-skills.md) / Community Skills
+
+---
+*Updated: 2026-06-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zscole~model-hierarchy-skill/)*

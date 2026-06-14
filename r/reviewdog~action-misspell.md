@@ -1,0 +1,18 @@
+# reviewdog/action-misspell
+
+> Run misspell with reviewdog
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/reviewdog/action-misspell) | [Live site ↗](https://patrickclery.com/awesomer/r/reviewdog~action-misspell/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 102 | +0 | +0 | +2 | 2026-06-02 |
+
+## Found In
+
+- [awesome-actions](../l/actions.md) / Static Analysis
+
+---
+*Updated: 2026-06-14 | [View live site ↗](https://patrickclery.com/awesomer/r/reviewdog~action-misspell/)*

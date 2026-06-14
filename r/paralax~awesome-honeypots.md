@@ -1,0 +1,18 @@
+# paralax/awesome-honeypots
+
+> an awesome list of honeypot resources
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/paralax/awesome-honeypots) | [Live site ↗](https://patrickclery.com/awesomer/r/paralax~awesome-honeypots/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 10,348 | +12 | +68 | +121 | 2026-06-01 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Security
+
+---
+*Updated: 2026-06-14 | [View live site ↗](https://patrickclery.com/awesomer/r/paralax~awesome-honeypots/)*

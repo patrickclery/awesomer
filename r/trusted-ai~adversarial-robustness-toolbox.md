@@ -1,0 +1,18 @@
+# Trusted-AI/adversarial-robustness-toolbox
+
+> Adversarial Robustness Toolbox (ART) - Python Library for Machine Learning Security - Evasion, Poisoning, Extraction, In
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | [Live site ↗](https://patrickclery.com/awesomer/r/trusted-ai~adversarial-robustness-toolbox/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 6,038 | +7 | +54 | +159 | 2025-12-12 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
+
+---
+*Updated: 2026-06-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trusted-ai~adversarial-robustness-toolbox/)*

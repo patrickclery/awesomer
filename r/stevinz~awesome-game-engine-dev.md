@@ -1,0 +1,18 @@
+# stevinz/awesome-game-engine-dev
+
+> Awesome list of resources for Game Engine Development.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/stevinz/awesome-game-engine-dev) | [Live site ↗](https://patrickclery.com/awesomer/r/stevinz~awesome-game-engine-dev/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,369 | +2 | +20 | +51 | 2026-06-10 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Gaming
+
+---
+*Updated: 2026-06-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stevinz~awesome-game-engine-dev/)*
