@@ -1,0 +1,18 @@
+# LeonardoCardoso/Poirot
+
+> A native macOS companion for Claude Code that lets you browse sessions, explore diffs, and re-run commands.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/LeonardoCardoso/Poirot) | [Live site ↗](https://patrickclery.com/awesomer/r/leonardocardoso~poirot/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 187 | +0 | +4 | +81 | 2026-05-16 |
+
+## Found In
+
+- [awesome-mac](../l/mac.md) / Developer Utilities
+
+---
+*Updated: 2026-06-19 | [View live site ↗](https://patrickclery.com/awesomer/r/leonardocardoso~poirot/)*

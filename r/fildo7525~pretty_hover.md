@@ -1,0 +1,18 @@
+# Fildo7525/pretty_hover
+
+> A small and customizable Neovim plugin for pretty printing the hover information from LSP servers
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Fildo7525/pretty_hover) | [Live site ↗](https://patrickclery.com/awesomer/r/fildo7525~pretty_hover/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 250 | +0 | +1 | +5 | 2026-05-22 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / LSP
+
+---
+*Updated: 2026-06-19 | [View live site ↗](https://patrickclery.com/awesomer/r/fildo7525~pretty_hover/)*
