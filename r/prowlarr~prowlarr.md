@@ -1,0 +1,18 @@
+# prowlarr/prowlarr
+
+> Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PV
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/prowlarr/prowlarr) | [Live site ↗](https://patrickclery.com/awesomer/r/prowlarr~prowlarr/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 7,064 | +37 | +155 | +492 | 2026-08-20 |
+
+## Found In
+
+- [awesome-arr](../l/arr.md) / Indexer Managers
+
+---
+*Updated: 2026-08-22 | [View live site ↗](https://patrickclery.com/awesomer/r/prowlarr~prowlarr/)*

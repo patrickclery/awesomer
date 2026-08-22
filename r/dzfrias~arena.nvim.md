@@ -1,0 +1,18 @@
+# dzfrias/arena.nvim
+
+> A smart (frecency-based) buffer switcher
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/dzfrias/arena.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/dzfrias~arena.nvim/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 118 | +0 | -1 | +2 | 2026-03-15 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / Buffers
+
+---
+*Updated: 2026-08-22 | [View live site ↗](https://patrickclery.com/awesomer/r/dzfrias~arena.nvim/)*

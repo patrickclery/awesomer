@@ -1,0 +1,18 @@
+# lando/lando
+
+> A development tool for all your projects that is fast, easy, powerful and liberating
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/lando/lando) | [Live site ↗](https://patrickclery.com/awesomer/r/lando~lando/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,235 | -2 | +4 | +4 | 2026-08-20 |
+
+## Found In
+
+- [awesome-docker](../l/docker.md) / Development with Docker
+
+---
+*Updated: 2026-08-22 | [View live site ↗](https://patrickclery.com/awesomer/r/lando~lando/)*
