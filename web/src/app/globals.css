@@ -91,7 +91,7 @@ body {
 .ascii-art {
   font-family: 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-size: 11px;
-  line-height: 1.2;
+  line-height: 1;
   white-space: pre;
   letter-spacing: 0;
 }
