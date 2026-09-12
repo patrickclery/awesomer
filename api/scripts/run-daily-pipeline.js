@@ -1,9 +1,16 @@
 /**
  * Standalone daily sync pipeline script.
  *
- * Bootstraps a NestJS application context (no HTTP server needed) and runs
- * SyncService.runDailyPipeline(). Designed to be called by systemd timer or
- * cron -- does NOT depend on the API server running on port 4000.
+ * Bootstraps a full NestJS HTTP application (not just an injection context)
+ * and runs SyncService.runDailyPipeline(). The HTTP listener is required
+ * because rebuildStaticSite() spawns `npm run build` in web/, and the
+ * Next.js SSG build calls localhost:${PORT}/api/* during page generation.
+ * Without a listener every page falls back to 404 and the build sanity
+ * check refuses to deploy. The listener shuts down with app.close() when
+ * the pipeline finishes, so the API isn't left running between syncs.
+ *
+ * If port ${PORT} is already in use (e.g. dev API is up), we skip our own
+ * listener and rely on the existing server to handle the build's fetches.
  *
  * IMPORTANT: Imports from dist/ (compiled output) because NestJS decorator
  * metadata requires tsc's emitDecoratorMetadata. Running TypeScript source
@@ -25,6 +32,7 @@
 
 import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
+import { ValidationPipe } from '@nestjs/common';
 import { AppModule } from '../dist/src/app.module.js';
 import { SyncService } from '../dist/src/sync/sync.service.js';
 
@@ -43,20 +51,39 @@ async function main() {
     }
   }
 
-  console.log('Bootstrapping NestJS application context...');
-  const app = await NestFactory.createApplicationContext(AppModule, {
+  const port = Number(process.env.PORT ?? 4000);
+
+  console.log('Bootstrapping NestJS HTTP application...');
+  const app = await NestFactory.create(AppModule, {
     logger: ['log', 'error', 'warn'],
   });
+  app.setGlobalPrefix('api');
+  app.enableCors();
+  app.useGlobalPipes(
+    new ValidationPipe({ whitelist: true, transform: true, forbidNonWhitelisted: true }),
+  );
+
+  let listenerStarted = false;
+  try {
+    await app.listen(port);
+    listenerStarted = true;
+    console.log(`API listening on port ${port} for SSG build`);
+  } catch (err) {
+    if (err && err.code === 'EADDRINUSE') {
+      console.log(`Port ${port} already in use — relying on existing API server`);
+    } else {
+      await app.close();
+      throw err;
+    }
+  }
 
   const sync = app.get(SyncService);
 
   try {
     if (args.length > 0) {
-      // Run specific steps
       console.log(`Running sync pipeline with steps: ${args.join(', ')}`);
       await sync.runDailySync(args);
     } else {
-      // Run the full daily pipeline (includes diff-sync, snapshots, trending, markdown, rebuild)
       console.log('Running full daily pipeline...');
       await sync.runDailyPipeline();
     }
@@ -69,7 +96,7 @@ async function main() {
   }
 
   await app.close();
-  console.log('Done');
+  console.log(listenerStarted ? 'Done (listener stopped)' : 'Done');
 }
 
 main().catch((err) => {
