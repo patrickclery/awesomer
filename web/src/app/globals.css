@@ -89,12 +89,10 @@ body {
 
 /* ASCII art pre element */
 .ascii-art {
-  /* Box-drawing/block glyphs (U+2500-259F) must all come from ONE monospace
-     font or the rows jumble. 'SF Mono'/Menlo are absent off macOS and can
-     resolve to a PROPORTIONAL fallback (fontconfig maps Menlo -> Noto Sans on
-     many Linux boxes), so they are deliberately not listed. Every family here
-     ships the full block/box range. */
-  font-family: ui-monospace, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono', Consolas, monospace;
+  /* Must be the self-hosted subset — see the asciiMono comment in layout.tsx.
+     System monospace fonts disagree on the advance width of U+2588 and friends,
+     which shears the figlet rows apart in Firefox. */
+  font-family: var(--font-ascii), monospace;
   font-size: 11px;
   line-height: 1;
   white-space: pre;
