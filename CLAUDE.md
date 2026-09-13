@@ -17,7 +17,14 @@ web/              → Next.js 16 frontend (React 19, Tailwind CSS 4)
 
 This repo deploys the static site to GitHub Pages via the `gh-pages` branch.
 
-Sensitive directories (`.planning/`, `.claude/`, `docs/plans/`) are excluded via `.gitignore` and never committed.
+Sensitive directories (`.planning/`, `.claude/`) are excluded via `.gitignore` and never committed here.
+`.planning/` is a **nested git repository** of its own, pushed to the private repo
+`patrickclery/awesomer-planning` — it is not a submodule, and this repo has no `.gitmodules`.
+The legacy design docs that used to live in `docs/plans/` and `docs/superpowers/plans/` now live
+in `.planning/legacy/`. Two consequences worth knowing: never run a GSD command with a working
+directory inside `.planning/` (root detection stops at the nested `.git`), and never run a bare
+`git clean -xfd` here (`-x` sweeps ignored paths and would delete the nested repo) — use
+`git clean -xfd -e .planning -e .claude`.
 
 ## Common Commands
 

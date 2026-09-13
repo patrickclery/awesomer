@@ -35,8 +35,6 @@ web/out/
 .worktrees/
 
 # Private/editor config (excluded from public repo)
-docs/plans/
-docs/superpowers/
 .planning/
 .claude/
 .taskmaster/
