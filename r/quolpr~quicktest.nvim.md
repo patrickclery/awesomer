@@ -1,0 +1,18 @@
+# quolpr/quicktest.nvim
+
+> Run your tests inside nvim in split window or popup with live feedback
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/quolpr/quicktest.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/quolpr~quicktest.nvim/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 103 | +0 | -1 | -1 | 2026-05-02 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / Test
+
+---
+*Updated: 2026-09-13 | [View live site ↗](https://patrickclery.com/awesomer/r/quolpr~quicktest.nvim/)*

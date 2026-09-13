@@ -1,0 +1,19 @@
+<body style="font:15px monospace;background:#fff"><div id=o>measuring…</div>
+<img src="http://127.0.0.1:3122/slow.gif" style="width:1px;height:1px">
+<iframe id=f src="/l/ai-agents/" style="width:1900px;height:1100px;visibility:hidden"></iframe>
+<script>
+setInterval(()=>{
+ try{
+  const w=document.getElementById('f').contentWindow, d=w.document, de=d.documentElement;
+  w.scrollTo(0, de.scrollHeight);
+  const rows=[...d.querySelectorAll('table tbody tr')];
+  if(!rows.length) return;
+  const lr=rows[rows.length-1].getBoundingClientRect();
+  document.getElementById('o').textContent=
+   'scrollY='+Math.round(w.scrollY)+' maxScroll='+(de.scrollHeight-de.clientHeight)+
+   ' scrollHeight='+de.scrollHeight+' clientHeight='+de.clientHeight+
+   ' rows='+rows.length+' lastRowBottomViewport='+Math.round(lr.bottom)+
+   ' bodyH='+getComputedStyle(d.body).height+' mainH='+d.querySelector('main').scrollHeight;
+ }catch(e){document.getElementById('o').textContent='err '+e.message}
+},400);
+</script></body>
