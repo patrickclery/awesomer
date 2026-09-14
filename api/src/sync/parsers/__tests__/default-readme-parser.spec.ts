@@ -30,6 +30,7 @@ MIT
 
 - [RepoSix](https://github.com/owner6/repo-six) - Another tool
 - [![badge][img]](https://github.com/owner7/badge-repo) [BadgeName](https://homepage.com) - Badge item
+- <img src="https://img.shields.io/github/stars/owner8/img-repo?style=social"/> [ImgName](https://github.com/owner8/img-repo) - Img prefix item
 `;
 
 describe('DefaultReadmeParser', () => {
@@ -111,6 +112,15 @@ describe('DefaultReadmeParser', () => {
     expect(badge!.description).toBe('Badge item');
   });
 
+  it('parses shields-image-prefix items', () => {
+    const result = parser.parse(MOCK_README);
+    const img = result.items.find((i) => i.name === 'ImgName');
+    expect(img).toBeDefined();
+    expect(img!.primaryUrl).toBe('https://github.com/owner8/img-repo');
+    expect(img!.githubRepo).toBe('owner8/img-repo');
+    expect(img!.description).toBe('Img prefix item');
+  });
+
   it('sets description to null when no description is present', () => {
     const result = parser.parse(MOCK_README);
     const noDesc = result.items.find((i) => i.name === 'NoDesc');
@@ -126,7 +136,7 @@ describe('DefaultReadmeParser', () => {
     const catBItems = result.items.filter((i) => i.categoryIndex === catBIndex);
     // Category A: RepoOne, RepoTwo, NoDesc (NonGitHub, BlobRef, TreeRef skipped)
     expect(catAItems).toHaveLength(3);
-    // Category B: RepoSix, BadgeName
-    expect(catBItems).toHaveLength(2);
+    // Category B: RepoSix, BadgeName, ImgName
+    expect(catBItems).toHaveLength(3);
   });
 });
