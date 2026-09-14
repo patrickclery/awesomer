@@ -1,0 +1,24 @@
+-- Insert awesome-local-llm as a new awesome list vertical
+-- Data-only migration: schema.prisma is unchanged.
+-- parser_type is NULL on purpose -> getParser() returns DefaultReadmeParser
+-- (verified: the default parser yields 186/186 items for this README, so no adapter is needed).
+-- The `description` column present in the 20260401230000 analog was dropped by
+-- 20260414_drop_awesome_list_description_last_commit_at; list descriptions now come from
+-- awesome_lists.repo_id -> repos.description.
+INSERT INTO awesome_lists
+  (name, slug, github_repo, state, skip_external_links, sort_preference,
+   parser_type, theme, sync_threshold, archived, created_at, updated_at)
+VALUES (
+  'Awesome local LLM',
+  'local-llm',
+  'rafska/awesome-local-llm',
+  'pending',
+  true,
+  'stars',
+  NULL,
+  'claude',
+  10,
+  false,
+  NOW(),
+  NOW()
+);
