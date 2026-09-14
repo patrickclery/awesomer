@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 789 | +9 | +19 | +10 | 2025-08-22 |
+| 804 | +1 | +2 | +10 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Motion
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smoka7~hop.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smoka7~hop.nvim/)*

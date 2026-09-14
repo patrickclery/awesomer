@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 961 | +2 | +21 | +18 | 2026-04-21 |
+| 971 | +0 | +1 | +6 | 2026-07-19 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Email
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sup-heliotrope~sup/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sup-heliotrope~sup/)*

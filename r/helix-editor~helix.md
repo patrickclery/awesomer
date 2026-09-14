@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,307 | +84 | +414 | +929 | 2026-05-11 |
+| 46,205 | +62 | +383 | +1,313 | 2026-09-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/helix-editor~helix/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/helix-editor~helix/)*

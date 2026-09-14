@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114 | +0 |  |  | 2026-04-30 |
+| 115 | +0 | +0 | +1 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Library
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ballerina-platform~module-ballerina-email/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ballerina-platform~module-ballerina-email/)*

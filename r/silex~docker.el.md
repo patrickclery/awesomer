@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 819 | +0 | +3 | +8 | 2026-01-26 |
+| 827 | +0 | +1 | +5 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/silex~docker.el/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/silex~docker.el/)*

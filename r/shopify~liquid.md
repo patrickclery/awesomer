@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,783 | -1 | +26 | +62 | 2026-05-08 |
+| 11,880 | +7 | +25 | +70 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Template Engine
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shopify~liquid/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shopify~liquid/)*

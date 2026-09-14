@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 366 | +1 | +2 | +10 | 2025-07-21 |
+| 368 | -1 | -1 | +2 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Bars and Lines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/m4xshen~smartcolumn.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/m4xshen~smartcolumn.nvim/)*

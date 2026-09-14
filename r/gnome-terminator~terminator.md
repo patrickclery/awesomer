@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,589 | +8 | +20 | +44 | 2026-03-29 |
+| 2,655 | +5 | +17 | +47 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gnome-terminator~terminator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gnome-terminator~terminator/)*

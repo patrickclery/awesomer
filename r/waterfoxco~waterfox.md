@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,775 | +35 | +148 | +414 | 2026-05-11 |
+| 6,285 | +50 | +158 | +392 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/waterfoxco~waterfox/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/waterfoxco~waterfox/)*

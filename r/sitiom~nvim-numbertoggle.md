@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 221 | +1 | +2 | +10 | 2026-04-08 |
+| 230 | +0 | +1 | +7 | 2026-06-19 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / UI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sitiom~nvim-numbertoggle/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sitiom~nvim-numbertoggle/)*

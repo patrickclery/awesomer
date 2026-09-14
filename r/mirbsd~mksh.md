@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 238 | +1 | +3 |  | 2026-02-19 |
+| 241 | +0 | +1 | +0 | 2026-02-19 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shells
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mirbsd~mksh/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mirbsd~mksh/)*

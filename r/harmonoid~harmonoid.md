@@ -1,6 +1,6 @@
 # harmonoid/harmonoid
 
-> 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, macOS & Android.
+> 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, macOS, Android & iOS.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/harmonoid/harmonoid) | [Live site ↗](https://patrickclery.com/awesomer/r/harmonoid~harmonoid/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,551 | +12 | +55 | +101 | 2026-03-21 |
+| 4,735 | +16 | +49 | +134 | 2026-09-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/harmonoid~harmonoid/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/harmonoid~harmonoid/)*

@@ -1,6 +1,6 @@
 # bgauryy/octocode-mcp
 
-> MCP server for semantic code research and context generation on real-time using LLM patterns \| Search naturally across 
+> Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fract
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/bgauryy/octocode-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/bgauryy~octocode-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 815 | +9 | +31 | +58 | 2026-05-11 |
+| 933 | +7 | +25 | +69 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bgauryy~octocode-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bgauryy~octocode-mcp/)*

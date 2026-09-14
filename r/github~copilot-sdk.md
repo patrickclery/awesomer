@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,639 | +39 | +323 | +1,745 | 2026-05-11 |
+| 10,469 | +20 | +70 | +1,067 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / SDKs & API Development Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/github~copilot-sdk/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/github~copilot-sdk/)*

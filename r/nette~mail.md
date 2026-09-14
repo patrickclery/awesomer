@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 492 | -1 | +1 |  | 2026-05-03 |
+| 494 | +0 | +1 | +3 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Library
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nette~mail/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nette~mail/)*

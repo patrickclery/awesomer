@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,228 | +53 | +93 | +331 | 2026-04-16 |
+| 23,409 | +8 | +18 | +100 | 2026-08-02 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/docker-slim~docker-slim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/docker-slim~docker-slim/)*

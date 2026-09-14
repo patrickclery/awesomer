@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,559 | +23 | +64 | +122 | 2026-05-05 |
+| 4,010 | +23 | +59 | +297 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/offen~docker-volume-backup/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/offen~docker-volume-backup/)*

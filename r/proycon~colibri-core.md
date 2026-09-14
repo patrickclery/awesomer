@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 130 | +1 | +1 |  | 2026-02-05 |
+| 133 | +0 | +1 | +3 | 2026-02-05 |
 
 ## Found In
 
-- [awesome-machine-learning](../l/machine-learning.md) / C++
 - [awesome-machine-learning](../l/machine-learning.md) / Python
+- [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/proycon~colibri-core/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/proycon~colibri-core/)*

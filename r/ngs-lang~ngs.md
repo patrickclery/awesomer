@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,521 | +1 | +3 | +1 | 2026-05-09 |
+| 1,520 | -2 | -3 | -1 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shells
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ngs-lang~ngs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ngs-lang~ngs/)*

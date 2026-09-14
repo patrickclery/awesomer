@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 377 | +1 | +13 | +59 | 2026-03-25 |
+| 416 | +3 | +8 | +32 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saihgupr~googledrivesync/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saihgupr~googledrivesync/)*

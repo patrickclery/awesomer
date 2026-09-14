@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 99,296 | +425 | +1,734 | +3,130 | 2026-04-15 |
+| 109,004 | +400 | +1,749 | +6,247 | 2026-08-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧠 2. Open Foundation Models
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~whisper/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~whisper/)*

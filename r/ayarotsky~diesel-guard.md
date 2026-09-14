@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 113 | +2 | +7 | +8 | 2026-05-03 |
+| 120 | +0 | +0 | +6 | 2026-08-24 |
 
 ## Found In
 
-- [awesome-db-tools](../l/db-tools.md) / CLI
 - [awesome-postgres](../l/postgres.md) / Utilities
+- [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ayarotsky~diesel-guard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ayarotsky~diesel-guard/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 252 | +0 | +3 |  | 2026-04-01 |
+| 261 | +0 | +2 | +7 | 2026-05-31 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bakke92~awesome-gdpr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bakke92~awesome-gdpr/)*

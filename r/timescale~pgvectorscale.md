@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,003 | +7 | +43 | +166 | 2026-04-30 |
+| 3,127 | +6 | +21 | +72 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/timescale~pgvectorscale/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/timescale~pgvectorscale/)*

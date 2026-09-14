@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,167 | +2 | +10 | +16 | 2026-04-07 |
+| 1,183 | +1 | +3 | +10 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pypa~gh-action-pypi-publish/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pypa~gh-action-pypi-publish/)*

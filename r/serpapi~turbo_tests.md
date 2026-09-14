@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 209 | +0 | -1 | +1 | 2025-09-24 |
+| 216 | +1 | +1 | +9 | 2025-09-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/serpapi~turbo_tests/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/serpapi~turbo_tests/)*

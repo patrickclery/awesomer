@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 474 | +2 | +9 | +43 | 2026-05-01 |
+| 501 | +3 | +7 | +18 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Note-taking & Editors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/phitux~dailytxt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/phitux~dailytxt/)*

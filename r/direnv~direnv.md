@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,065 | +24 | +124 | +253 | 2026-03-31 |
+| 15,442 | +22 | +84 | +263 | 2026-03-31 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/direnv~direnv/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/direnv~direnv/)*

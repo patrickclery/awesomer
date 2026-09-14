@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 72,786 | +97 | +439 | +2,504 | 2026-05-11 |
+| 74,744 | +164 | +485 | +1,445 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~incubator-superset/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~incubator-superset/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,339 | +207 | +1,139 | +2,256 | 2026-05-11 |
+| 59,891 | +130 | +491 | +1,599 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/starship~starship/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/starship~starship/)*

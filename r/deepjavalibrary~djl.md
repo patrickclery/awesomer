@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,812 | +6 | +17 | +26 | 2026-04-28 |
+| 4,854 | +2 | +15 | +29 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Java
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deepjavalibrary~djl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deepjavalibrary~djl/)*

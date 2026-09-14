@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,042 | +9 | +59 | +173 | 2026-05-06 |
+| 3,331 | +7 | +65 | +245 | 2026-08-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Synthetic Data Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~datatrove/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~datatrove/)*

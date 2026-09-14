@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,081 | +20 | +105 | +345 | 2026-05-06 |
+| 7,561 | +34 | +133 | +357 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Electronic
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/logisim-evolution~logisim-evolution/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/logisim-evolution~logisim-evolution/)*

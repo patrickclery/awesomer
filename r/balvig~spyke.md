@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 904 | +1 | +0 | +3 | 2025-11-04 |
+| 902 | +0 | -1 | -2 | 2025-11-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / API Builder and Discovery
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/balvig~spyke/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/balvig~spyke/)*

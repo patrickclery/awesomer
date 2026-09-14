@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 325 | +1 | +2 |  | 2025-10-05 |
+| 326 | +0 | +1 | +1 | 2025-10-05 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rocky~zshdb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rocky~zshdb/)*

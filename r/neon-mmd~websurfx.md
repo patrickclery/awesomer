@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,103 | +11 | +21 | +77 | 2026-05-10 |
+| 1,195 | +5 | +22 | +62 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neon-mmd~websurfx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neon-mmd~websurfx/)*

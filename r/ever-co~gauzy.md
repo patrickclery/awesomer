@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,684 | +12 | +55 | +253 | 2026-05-11 |
+| 4,814 | +15 | +495 | +1,084 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ever-co~gauzy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ever-co~gauzy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,132 | +3 | +6 | +22 | 2026-04-27 |
+| 1,148 | -1 | +4 | +8 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / NLP & Transformers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~fairseq2/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~fairseq2/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 74,437 | +255 | +1,362 | +4,586 | 2026-03-11 |
+| 78,274 | +231 | +801 | +2,639 | 2026-03-11 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Educational Resources & Courses
+- [Awesome local LLM](../l/local-llm.md) / Prompt Engineering
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dair-ai~prompt-engineering-guide/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dair-ai~prompt-engineering-guide/)*

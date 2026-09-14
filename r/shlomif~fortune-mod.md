@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 526 | +2 | +6 | +8 | 2026-04-13 |
+| 547 | +2 | +9 | +14 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Just for Fun
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shlomif~fortune-mod/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shlomif~fortune-mod/)*

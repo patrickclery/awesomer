@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,763 | +3 | +11 | +19 | 2026-04-30 |
+| 1,788 | +0 | +4 | +21 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pablolec~recoverpy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pablolec~recoverpy/)*

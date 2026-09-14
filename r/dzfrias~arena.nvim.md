@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 | +0 | +0 |  | 2026-03-15 |
+| 119 | +0 | +1 | +4 | 2026-03-15 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Buffers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dzfrias~arena.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dzfrias~arena.nvim/)*

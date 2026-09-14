@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,396 | +3 | +11 | +17 | 2026-05-05 |
+| 1,431 | +4 | +11 | +23 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pgrouting~pgrouting/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pgrouting~pgrouting/)*

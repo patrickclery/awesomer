@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,308 | -1 | -1 | +8 | 2026-05-06 |
+| 2,320 | +1 | +1 | +4 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/instill-ai~vdp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/instill-ai~vdp/)*

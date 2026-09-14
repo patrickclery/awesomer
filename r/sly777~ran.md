@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,208 | +0 | +1 |  | 2026-02-14 |
+| 2,204 | +0 | -5 | -4 | 2026-02-14 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sly777~ran/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sly777~ran/)*

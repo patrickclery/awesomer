@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,414 | +5 |  |  | 2026-04-17 |
+| 3,475 | +1 | +15 | +42 | 2026-08-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qdata~textattack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qdata~textattack/)*

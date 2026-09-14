@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 739 | +7 | +23 | +59 | 2026-04-09 |
+| 774 | +4 | +6 | +26 | 2026-04-09 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Ralph Wiggum
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/muratcankoylan~ralph-wiggum-marketer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/muratcankoylan~ralph-wiggum-marketer/)*

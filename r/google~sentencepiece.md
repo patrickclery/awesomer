@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,811 | +12 | +62 | +112 | 2026-05-10 |
+| 12,075 | +15 | +52 | +170 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google~sentencepiece/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google~sentencepiece/)*

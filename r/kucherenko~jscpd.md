@@ -1,6 +1,6 @@
 # kucherenko/jscpd
 
-> Copy/paste detector for programming source code. 
+> Copy/paste detector for source code. 220+ languages, Rust engine, SARIF/HTML/badge reporters, GitHub Action, MCP server 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/kucherenko/jscpd) | [Live site ↗](https://patrickclery.com/awesomer/r/kucherenko~jscpd/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,622 | +29 | +108 | +192 | 2026-05-11 |
+| 6,203 | +30 | +204 | +429 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kucherenko~jscpd/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kucherenko~jscpd/)*

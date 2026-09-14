@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [Repository](../r/tailwindcss~tailwindcss.md) | 94,943 | +104 | +442 | +1,854 |
-| 2 | [Daisy UI](../r/saadeghi~daisyui.md) | 40,920 | +63 | +211 | +418 |
-| 3 | [Flowbite Admin Dashboard](../r/themesberg~flowbite-admin-dashboard.md) | 2,844 | +9 | +14 | +29 |
-| 4 | [Typography](../r/tailwindlabs~tailwindcss-typography.md) | 6,365 | +8 | +46 | +89 |
-| 5 | [Astro Template Dante](../r/justgoodui~dante-astro-theme.md) | 491 | +3 | +8 | +15 |
-| 6 | [Headless UI](../r/tailwindlabs~headlessui.md) | 28,556 | +3 | +55 | +271 |
-| 7 | [Prettier plugin](../r/tailwindlabs~prettier-plugin-tailwindcss.md) | 7,077 | +2 | +16 | +42 |
-| 8 | [RustyWind](../r/avencera~rustywind.md) | 614 | +2 | +4 | +3 |
-| 9 | [Astro Template Cactus](../r/chrismwilliams~astro-theme-cactus.md) | 1,614 | +2 | +31 | +61 |
-| 10 | [Scrollbar Hide](../r/reslear~tailwind-scrollbar-hide.md) | 312 | +1 | +2 | +8 |
+| 1 | [Daisy UI](../r/saadeghi~daisyui.md) | 42,365 | +76 | +288 | +1,248 |
+| 2 | [Repository](../r/tailwindcss~tailwindcss.md) | 97,538 | +55 | +290 | +1,980 |
+| 3 | [Astro Template Cactus](../r/chrismwilliams~astro-theme-cactus.md) | 1,720 | +12 | +13 | +66 |
+| 4 | [Headless UI](../r/tailwindlabs~headlessui.md) | 28,743 | +10 | +33 | +124 |
+| 5 | [Typography](../r/tailwindlabs~tailwindcss-typography.md) | 6,467 | +9 | +21 | +69 |
+| 6 | [Flowbite Admin Dashboard](../r/themesberg~flowbite-admin-dashboard.md) | 2,883 | +8 | +20 | +33 |
+| 7 | [Prettier plugin](../r/tailwindlabs~prettier-plugin-tailwindcss.md) | 7,131 | +5 | +8 | +45 |
+| 8 | [Astro Template Dante](../r/justgoodui~dante-astro-theme.md) | 513 | +3 | +8 | +13 |
+| 9 | [Forms](../r/tailwindlabs~tailwindcss-forms.md) | 4,565 | +2 | -2 | +3 |
+| 10 | [Editor support for VS2022](../r/theron-wang~vs2022-editor-support-for-tailwind-css.md) | 149 | +1 | +0 | +2 |
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Editor support for VS2022](../r/theron-wang~vs2022-editor-support-for-tailwind-css.md) | Unofficial Tailwind CSS extension for IntelliSense, linting, sorting, and more to enhance the development experience in  | 145 | +0 |
+| [Editor support for VS2022](../r/theron-wang~vs2022-editor-support-for-tailwind-css.md) | Unofficial Tailwind CSS extension for IntelliSense, linting, sorting, and more to enhance the development experience in  | 149 | +1 |
 | [LSP support for Emacs](../r/merrickluo~lsp-tailwindcss.md) | the lsp-mode client for tailwindcss | 223 | +0 |
 
 [Back to top](#awesome-tailwindcss)
@@ -40,16 +40,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Typography](../r/tailwindlabs~tailwindcss-typography.md) | Beautiful typographic defaults for HTML you don't control. | 6,365 | +8 |
-| [Scrollbar Hide](../r/reslear~tailwind-scrollbar-hide.md) | tailwindcss plugin for hide scrollbar | 312 | +1 |
-| [Bootstrap grid](../r/karolis-sh~tailwind-bootstrap-grid.md) | Tailwind CSS plugin that generates Bootstrap's flexbox grid | 187 | +0 |
-| [Debug screens](../r/jorenvanhee~tailwindcss-debug-screens.md) | A Tailwind CSS component that shows the currently active screen (responsive breakpoint). | 676 | +0 |
-| [Dot & grid backgrounds](../r/thenaubit~tailwind-dot-grid-backgrounds.md) | 🎨 A tiny Tailwind plugin to add dot and grid customizable backgrounds fast | 37 | +0 |
-| [Forms](../r/tailwindlabs~tailwindcss-forms.md) | A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities. | 4,558 | +0 |
-| [Leading Trim](../r/stormwarning~tailwindcss-capsize.md) | ✂️ Tailwind CSS utility classes for trimming whitespace above & below capital letters. | 121 | +0 |
-| [px to viewport](../r/the-lemonboy~tailwindcss-px-to-viewport.md) | Tailwind CSS plugin that automatically converts px unit properties to viewport units vw or vh. | 9 | +0 |
-| [Themer](../r/ryanclementshax~tailwindcss-themer.md) | An unopinionated, scalable, tailwindcss theming solution | 312 | +0 |
-| [Fluid](../r/barvian~fluid-tailwind.md) | Build better responsive designs in less code. | 1,774 | -2 |
+| [Typography](../r/tailwindlabs~tailwindcss-typography.md) | Beautiful typographic defaults for HTML you don't control. | 6,467 | +9 |
+| [Forms](../r/tailwindlabs~tailwindcss-forms.md) | A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities. | 4,565 | +2 |
+| [tw-fade](../r/petekp~tw-fade.md) | Elegant, CSS-driven scroll-edge fade masking for Tailwind CSS v4. Zero JavaScript. | 103 | +1 |
+| [Bootstrap grid](../r/karolis-sh~tailwind-bootstrap-grid.md) | Tailwind CSS plugin that generates Bootstrap's flexbox grid | 189 | +0 |
+| [Debug screens](../r/jorenvanhee~tailwindcss-debug-screens.md) | A Tailwind CSS component that shows the currently active screen (responsive breakpoint). | 673 | +0 |
+| [Dot & grid backgrounds](../r/thenaubit~tailwind-dot-grid-backgrounds.md) | 🎨 A tiny Tailwind plugin to add dot and grid customizable backgrounds fast | 39 | +0 |
+| [Fluid](../r/barvian~fluid-tailwind.md) | Build better responsive designs in less code. | 1,779 | +0 |
+| [Leading Trim](../r/stormwarning~tailwindcss-capsize.md) | ✂️ Tailwind CSS utility classes for trimming whitespace above & below capital letters. | 122 | +0 |
+| [px to viewport](../r/the-lemonboy~tailwindcss-px-to-viewport.md) | Tailwind CSS plugin that automatically converts px unit properties to viewport units vw or vh. | 10 | +0 |
+| [Scrollbar Hide](../r/reslear~tailwind-scrollbar-hide.md) | tailwindcss plugin for hide scrollbar | 315 | +0 |
+| [tailwind-hitslop](../r/jubstaaa~tailwind-hitslop.md) | Hit-slop utilities for Tailwind CSS v4 — invisible expanded touch targets, like React Native hitSlop. Pure CSS, zero JS. | 9 | +0 |
+| [Themer](../r/ryanclementshax~tailwindcss-themer.md) | An unopinionated, scalable, tailwindcss theming solution | 315 | +0 |
 
 [Back to top](#awesome-tailwindcss)
 
@@ -57,12 +59,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Prettier plugin](../r/tailwindlabs~prettier-plugin-tailwindcss.md) | A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order. | 7,077 | +2 |
-| [RustyWind](../r/avencera~rustywind.md) | CLI for organizing Tailwind CSS classes | 614 | +2 |
-| [@nuxtjs/tailwindcss](../r/nuxt-community~tailwindcss-module.md) | Tailwind CSS module for Nuxt | 1,869 | +1 |
-| [tailwindcss-rails](../r/rails~tailwindcss-rails.md) | Gem for using Tailwind CSS with Rails' asset pipeline. | 1,587 | +1 |
-| [Config viewer](../r/rogden~tailwind-config-viewer.md) | A local UI tool for visualizing your Tailwind CSS configuration file. | 2,213 | +0 |
-| [Tailwind to Inline styles converter](../r/vardan-arm~tailwind-to-inline.md) | Converts Tailwind CSS classes to inline styles for email-ready HTML templates. | 96 | +0 |
+| [Prettier plugin](../r/tailwindlabs~prettier-plugin-tailwindcss.md) | A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order. | 7,131 | +5 |
+| [@nuxtjs/tailwindcss](../r/nuxt-community~tailwindcss-module.md) | Tailwind CSS module for Nuxt | 1,868 | +1 |
+| [Config viewer](../r/rogden~tailwind-config-viewer.md) | A local UI tool for visualizing your Tailwind CSS configuration file. | 2,214 | +1 |
+| [RustyWind](../r/avencera~rustywind.md) | CLI for organizing Tailwind CSS classes | 623 | +0 |
+| [Tailwind to Inline styles converter](../r/vardan-arm~tailwind-to-inline.md) | Converts Tailwind CSS classes to inline styles for email-ready HTML templates. | 101 | +0 |
+| [tailwindcss-rails](../r/rails~tailwindcss-rails.md) | Gem for using Tailwind CSS with Rails' asset pipeline. | 1,586 | -1 |
 
 [Back to top](#awesome-tailwindcss)
 
@@ -70,16 +72,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Daisy UI](../r/saadeghi~daisyui.md) | 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library | 40,920 | +63 |
-| [Flowbite Admin Dashboard](../r/themesberg~flowbite-admin-dashboard.md) | Free and open-source admin dashboard template built with Tailwind CSS and Flowbite | 2,844 | +9 |
-| [Astro Template Dante](../r/justgoodui~dante-astro-theme.md) | Dante, a single-author blog and portfolio theme for Astro.js.  | 491 | +3 |
-| [Astro Template Cactus](../r/chrismwilliams~astro-theme-cactus.md) | A simple Astro theme. Use it to create your blog or website. | 1,614 | +2 |
-| [Admin One Vue 3](../r/justboil~admin-one-vue-tailwind.md) | Free Vue.js 3.x Tailwind 4.x admin dashboard template with dark mode. Vite builds. Pinia state. Laravel integration avai | 2,463 | +1 |
-| [Admin One React](../r/justboil~admin-one-react-tailwind.md) | Free React Next Tailwind 4.x admin dashboard template with typescript and dark mode. | 589 | +0 |
-| [Astro Template Ovidius](../r/justgoodui~ovidius-astro-theme.md) | Ovidius - a single-author blog theme for Astro.js. | 114 | +0 |
-| [Astro Template Resume](../r/fortezhuo~fortezhuo.my.id.md) | My Personal Landing Page | 4 | +0 |
-| [Date picker](../r/themesberg~tailwind-datepicker.md) | A Tailwind CSS datepicker built with vanilla JavaScript | 148 | +0 |
-| [Xtend UI](../r/xtendui~xtendui.md) | Xtend UI is a powerful frontend library of Tailwind CSS components enhanced by vanilla js. It helps you build interfaces | 450 | -1 |
+| [Daisy UI](../r/saadeghi~daisyui.md) | 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library | 42,365 | +76 |
+| [Astro Template Cactus](../r/chrismwilliams~astro-theme-cactus.md) | A simple Astro theme. Use it to create your blog or website. | 1,720 | +12 |
+| [Flowbite Admin Dashboard](../r/themesberg~flowbite-admin-dashboard.md) | Free and open-source admin dashboard template built with Tailwind CSS and Flowbite | 2,883 | +8 |
+| [Astro Template Dante](../r/justgoodui~dante-astro-theme.md) | Dante, a single-author blog and portfolio theme for Astro.js.  | 513 | +3 |
+| [Astro Template Ovidius](../r/justgoodui~ovidius-astro-theme.md) | Ovidius - a single-author blog theme for Astro.js. | 117 | +1 |
+| [Admin One React](../r/justboil~admin-one-react-tailwind.md) | Free React Next Tailwind 4.x admin dashboard template with typescript and dark mode. | 590 | +0 |
+| [Admin One Vue 3](../r/justboil~admin-one-vue-tailwind.md) | Free Vue.js 3.x Tailwind 4.x admin dashboard template with dark mode. Vite builds. Pinia state. Laravel integration avai | 2,468 | +0 |
+| [Date picker](../r/themesberg~tailwind-datepicker.md) | A Tailwind CSS datepicker built with vanilla JavaScript | 147 | +0 |
+| [Xtend UI](../r/xtendui~xtendui.md) | Xtend UI is a powerful frontend library of Tailwind CSS components enhanced by vanilla js. It helps you build interfaces | 452 | +0 |
 
 [Back to top](#awesome-tailwindcss)
 
@@ -87,10 +88,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Repository](../r/tailwindcss~tailwindcss.md) | A utility-first CSS framework for rapid UI development. | 94,943 | +104 |
-| [Headless UI](../r/tailwindlabs~headlessui.md) | Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. | 28,556 | +3 |
+| [Repository](../r/tailwindcss~tailwindcss.md) | A utility-first CSS framework for rapid UI development. | 97,538 | +55 |
+| [Headless UI](../r/tailwindlabs~headlessui.md) | Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. | 28,743 | +10 |
 
 [Back to top](#awesome-tailwindcss)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/l/tailwindcss/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/l/tailwindcss/)*

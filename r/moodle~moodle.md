@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,061 | +24 | +87 | +146 | 2026-05-01 |
+| 7,402 | +13 | +71 | +237 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Education
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moodle~moodle/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/moodle~moodle/)*

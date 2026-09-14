@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 667 | +0 | +0 |  | 2026-04-02 |
+| 668 | +0 | +0 | +1 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pusher~pusher-http-ruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pusher~pusher-http-ruby/)*

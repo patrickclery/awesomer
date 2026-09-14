@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,638 | +85 | +404 | +1,938 | 2026-05-11 |
+| 8,457 | +122 | +517 | +2,327 | 2026-09-03 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Training and Fine-tuning
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thudm~slime/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thudm~slime/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 860 | +5 | +18 | +96 | 2025-10-02 |
+| 887 | +1 | +5 | +20 | 2025-10-02 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / AI Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gety-ai~apple-on-device-openai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gety-ai~apple-on-device-openai/)*

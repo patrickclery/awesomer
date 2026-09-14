@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,479 | -13 | -8 | -33 | 2026-05-11 |
+| 7,504 | +2 | +1 | +12 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Java
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/h2oai~h2o-3/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/h2oai~h2o-3/)*

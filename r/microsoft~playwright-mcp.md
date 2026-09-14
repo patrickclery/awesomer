@@ -8,11 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,360 | +374 | +1,723 | +3,208 | 2026-05-09 |
+| 37,059 | +212 | +948 | +3,121 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
+- [awesome-playwright](../l/playwright.md) / AI & Agents
+- [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-mcp/)*

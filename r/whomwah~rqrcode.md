@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,985 | +0 | +4 | +16 | 2026-03-24 |
+| 2,000 | +0 | +2 | +2 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / QR
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/whomwah~rqrcode/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/whomwah~rqrcode/)*

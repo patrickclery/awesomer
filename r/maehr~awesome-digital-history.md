@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 318 | +1 | +8 | +9 | 2026-04-25 |
+| 352 | +0 | +4 | +20 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Health and Social Science
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/maehr~awesome-digital-history/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/maehr~awesome-digital-history/)*

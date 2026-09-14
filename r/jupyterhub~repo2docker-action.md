@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +0 | +0 |  | 2026-02-23 |
+| 153 | +0 | +0 | +1 | 2026-02-23 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Machine Learning Ops
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jupyterhub~repo2docker-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jupyterhub~repo2docker-action/)*

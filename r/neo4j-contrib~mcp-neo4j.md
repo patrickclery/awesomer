@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 945 | +2 | +8 | +29 | 2026-04-10 |
+| 981 | -1 | +2 | +20 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neo4j-contrib~mcp-neo4j/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neo4j-contrib~mcp-neo4j/)*

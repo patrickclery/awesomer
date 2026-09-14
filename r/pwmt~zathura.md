@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,098 | +9 | +36 | +90 | 2026-05-11 |
+| 3,296 | +11 | +49 | +146 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / E-Book Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pwmt~zathura/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pwmt~zathura/)*

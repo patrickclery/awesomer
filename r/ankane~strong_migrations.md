@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,393 | +2 | +15 | +27 | 2026-04-25 |
+| 4,445 | +1 | +10 | +35 | 2026-08-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~strong_migrations/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~strong_migrations/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,271 | -1 | -2 |  | 2026-05-11 |
+| 4,270 | +0 | +0 | +1 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Error Handling
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/errbit~errbit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/errbit~errbit/)*

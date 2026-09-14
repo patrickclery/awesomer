@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,401 | +4 | +30 | +58 | 2026-05-09 |
+| 6,519 | +13 | +37 | +83 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudquery~cloudquery/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudquery~cloudquery/)*

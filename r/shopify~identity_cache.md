@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,963 | +0 | -1 | -1 | 2026-04-20 |
+| 1,969 | +0 | +1 | +3 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Caching
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shopify~identity_cache/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shopify~identity_cache/)*

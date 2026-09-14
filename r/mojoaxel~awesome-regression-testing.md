@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,383 | +2 | +9 | +6 | 2026-03-01 |
+| 2,412 | +3 | +3 | +14 | 2026-05-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Testing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mojoaxel~awesome-regression-testing/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mojoaxel~awesome-regression-testing/)*

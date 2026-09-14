@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,334 | +4 | +20 | +40 | 2026-04-05 |
+| 3,372 | -3 | +8 | +28 | 2026-07-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Debugging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rcarriga~nvim-dap-ui/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rcarriga~nvim-dap-ui/)*

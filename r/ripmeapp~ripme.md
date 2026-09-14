@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,074 | -2 | +6 | +23 | 2025-10-03 |
+| 4,116 | +6 | +19 | +33 | 2026-08-16 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / DDL Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ripmeapp~ripme/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ripmeapp~ripme/)*

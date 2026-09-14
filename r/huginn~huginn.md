@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,264 | +43 | +186 | +380 | 2026-05-09 |
+| 49,937 | +38 | +148 | +461 | 2026-09-13 |
 
 ## Found In
 
+- [awesome-ruby](../l/ruby.md) / Automation
 - [awesome-selfhosted](../l/selfhosted.md) / Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huginn~huginn/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huginn~huginn/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 104 | +1 | +5 | +40 | 2025-10-06 |
+| 125 | +1 | +4 | +11 | 2025-10-06 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
+- [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/askbudi~roundtable/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/askbudi~roundtable/)*

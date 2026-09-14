@@ -1,6 +1,6 @@
 # getnora-io/nora
 
-> Lightweight multi-format artifact registry. 13 formats: Docker, Maven, npm, PyPI, Cargo, Go, RubyGems, Terraform, NuGet,
+> Lightweight multi-format artifact registry. 15 formats: Docker, Maven, npm, PyPI, Cargo, Go, Raw, RubyGems, Terraform, A
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/getnora-io/nora) | [Live site ↗](https://patrickclery.com/awesomer/r/getnora-io~nora/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 157 | +15 | +121 | +133 | 2026-05-11 |
+| 297 | +7 | +26 | +103 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Registry
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/getnora-io~nora/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/getnora-io~nora/)*

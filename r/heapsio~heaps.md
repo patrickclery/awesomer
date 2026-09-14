@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,470 | +10 | +19 | +22 | 2026-05-11 |
+| 3,501 | +2 | +3 | +11 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/heapsio~heaps/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/heapsio~heaps/)*

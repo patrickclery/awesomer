@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 346 | +2 | +5 | +8 | 2026-01-22 |
+| 357 | +1 | +2 | +8 | 2026-01-22 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/symbitic~awesome-babylonjs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/symbitic~awesome-babylonjs/)*

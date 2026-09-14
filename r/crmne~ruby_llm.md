@@ -1,6 +1,6 @@
 # crmne/ruby_llm
 
-> One beautiful Ruby API for OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter, DeepSeek, Ollama, VertexAI, Perplexity
+> One delightful Ruby framework for every major AI provider. Build AI agents, chatbots, RAG apps, and multimodal workflows
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/crmne/ruby_llm) | [Live site ↗](https://patrickclery.com/awesomer/r/crmne~ruby_llm/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,913 |  |  |  | 2026-05-07 |
+| 4,359 | +19 | +61 | +337 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
+- [awesome-ruby](../l/ruby.md) / AI and LLMs
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crmne~ruby_llm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crmne~ruby_llm/)*

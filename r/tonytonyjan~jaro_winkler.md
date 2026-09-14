@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 222 | +0 | +3 | +7 | 2026-02-23 |
+| 222 | +0 | +0 | -1 | 2026-02-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tonytonyjan~jaro_winkler/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tonytonyjan~jaro_winkler/)*

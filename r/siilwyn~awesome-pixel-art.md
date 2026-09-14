@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,199 | +2 | +10 | +20 | 2025-11-03 |
+| 1,252 | +4 | +17 | +37 | 2026-08-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/siilwyn~awesome-pixel-art/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/siilwyn~awesome-pixel-art/)*

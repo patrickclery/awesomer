@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,526 | +14 | +57 | +107 | 2026-05-10 |
+| 7,756 | +9 | +34 | +177 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/adnanhodzic~auto-cpufreq/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/adnanhodzic~auto-cpufreq/)*

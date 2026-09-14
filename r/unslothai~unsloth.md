@@ -1,6 +1,6 @@
 # unslothai/unsloth
 
-> Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.
+> Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/unslothai/unsloth) | [Live site ↗](https://patrickclery.com/awesomer/r/unslothai~unsloth/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 63,991 | +421 | +2,967 | +12,540 | 2026-05-11 |
+| 76,103 | +1,242 | +4,826 | +9,552 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛠️ 7. Training & Fine-tuning Ecosystem
+- [Awesome local LLM](../l/local-llm.md) / Inference platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unslothai~unsloth/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unslothai~unsloth/)*

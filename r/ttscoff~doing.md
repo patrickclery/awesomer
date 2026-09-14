@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,270 | +1 | +4 | +13 | 2026-04-30 |
+| 1,291 | +0 | +2 | +15 | 2026-07-27 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ttscoff~doing/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ttscoff~doing/)*

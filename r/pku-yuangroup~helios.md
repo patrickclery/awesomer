@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,788 | +27 | +125 |  | 2026-04-16 |
+| 2,146 | +16 | +96 | +238 | 2026-08-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Video Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pku-yuangroup~helios/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pku-yuangroup~helios/)*

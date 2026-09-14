@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,621 | +5 | +25 | +39 | 2026-05-03 |
+| 1,703 | +8 | +27 | +64 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/varietywalls~variety/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/varietywalls~variety/)*

@@ -1,6 +1,6 @@
 # benjamimgois/goverlay
 
-> Goverlay is an easy graphical interface to configure MangoHud, vkBasalt, and OptiScaler
+> Goverlay is an easy graphical interface to configure linux gaming applications
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/benjamimgois/goverlay) | [Live site ↗](https://patrickclery.com/awesomer/r/benjamimgois~goverlay/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,287 | +20 | +60 | +99 | 2026-05-09 |
+| 1,481 | +19 | +54 | +137 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benjamimgois~goverlay/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/benjamimgois~goverlay/)*

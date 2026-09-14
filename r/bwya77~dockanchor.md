@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 451 | +5 | +24 | +43 | 2026-01-21 |
+| 565 | +6 | +18 | +67 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bwya77~dockanchor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bwya77~dockanchor/)*

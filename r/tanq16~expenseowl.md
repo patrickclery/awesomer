@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,426 | +6 | +19 | +70 | 2025-10-18 |
+| 1,507 | +5 | +28 | +64 | 2025-10-18 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Money, Budgeting & Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tanq16~expenseowl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tanq16~expenseowl/)*

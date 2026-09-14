@@ -1,6 +1,6 @@
 # badlogic/pi-mono
 
-> AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods
+> AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/badlogic/pi-mono) | [Live site ↗](https://patrickclery.com/awesomer/r/badlogic~pi-mono/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 48,084 | +3,674 | +13,716 | +38,172 | 2026-05-11 |
+| 104,620 | +4,163 | +14,445 | +41,822 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/badlogic~pi-mono/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/badlogic~pi-mono/)*

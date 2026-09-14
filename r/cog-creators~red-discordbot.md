@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,534 | +9 | +32 | +72 | 2026-05-10 |
+| 5,705 | +11 | +41 | +132 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cog-creators~red-discordbot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cog-creators~red-discordbot/)*

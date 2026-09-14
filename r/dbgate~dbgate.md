@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,968 | +22 | +76 | +130 | 2026-05-11 |
+| 7,306 | +44 | +105 | +250 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dbgate~dbgate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbgate~dbgate/)*

@@ -1,6 +1,6 @@
 # portainer/portainer-mcp
 
-> Portainer MCP server
+> Official Portainer MCP server
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/portainer/portainer-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/portainer~portainer-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 153 | +9 | +15 | +19 | 2026-02-26 |
+| 229 | +5 | +16 | +52 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/portainer~portainer-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/portainer~portainer-mcp/)*

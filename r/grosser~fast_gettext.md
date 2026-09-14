@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 409 | +0 | -1 |  | 2025-10-24 |
+| 409 | +0 | +0 | +0 | 2025-10-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/grosser~fast_gettext/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/grosser~fast_gettext/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,520 | +551 | +2,826 | +5,377 | 2026-05-11 |
+| 23,771 | +104 | +428 | +1,831 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / Orchestrators
+- [awesome-claude-code](../l/claude-code.md) / Alternative Clients
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/slopus~happy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/slopus~happy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 827 | +0 | -1 | +0 | 2026-02-23 |
+| 826 | +0 | -1 | +0 | 2026-02-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Logging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trusche~httplog/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trusche~httplog/)*

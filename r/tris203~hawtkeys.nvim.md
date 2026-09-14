@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 245 | +0 | +1 |  | 2026-03-09 |
+| 253 | +0 | +1 | +7 | 2026-03-09 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Keybinding
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tris203~hawtkeys.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tris203~hawtkeys.nvim/)*

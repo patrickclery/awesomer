@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,397 | +1 | +8 | +7 | 2026-04-28 |
+| 1,399 | +0 | -2 | +1 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ray-x~navigator.lua/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ray-x~navigator.lua/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,362 | +2 | +8 | +18 | 2025-11-13 |
+| 1,371 | +1 | +1 | +7 | 2025-11-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / .NET
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/giacomelli~geneticsharp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/giacomelli~geneticsharp/)*

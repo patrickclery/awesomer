@@ -1,6 +1,6 @@
 # mindsdb/mindsdb
 
-> AI Data Vault - A query engine for AI Agents to securely query data from any datasource
+> The unified workspace where open-source models get things done for you.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mindsdb/mindsdb) | [Live site ↗](https://patrickclery.com/awesomer/r/mindsdb~mindsdb/)
 
@@ -8,13 +8,14 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,146 | +50 | +191 | +414 | 2026-05-09 |
+| 39,732 | +36 | +165 | +428 | 2026-09-11 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 - [awesome-machine-learning](../l/machine-learning.md) / Python
+- [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 - [awesome-db-tools](../l/db-tools.md) / Machine Learning
+- [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mindsdb~mindsdb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mindsdb~mindsdb/)*

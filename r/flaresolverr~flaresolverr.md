@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,846 | +98 | +411 | +778 | 2026-03-26 |
+| 15,574 | +86 | +413 | +1,265 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flaresolverr~flaresolverr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flaresolverr~flaresolverr/)*

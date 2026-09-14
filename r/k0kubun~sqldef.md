@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,092 | +3 | +26 | +259 | 2026-05-07 |
+| 3,159 | +4 | +20 | +48 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/k0kubun~sqldef/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/k0kubun~sqldef/)*

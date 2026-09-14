@@ -1,6 +1,6 @@
 # gogs/gogs
 
-> Gogs is a painless self-hosted Git service
+> The painless way to host your own Git service
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/gogs/gogs) | [Live site ↗](https://patrickclery.com/awesomer/r/gogs~gogs/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 47,508 | -2 | +16 | -51 | 2026-05-01 |
+| 47,808 | +31 | +73 | +204 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gogs~gogs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gogs~gogs/)*

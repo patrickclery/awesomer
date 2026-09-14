@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 112 | +0 | +3 | +5 | 2026-05-10 |
+| 120 | +0 | +0 | +1 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/orhun~orhun/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/orhun~orhun/)*

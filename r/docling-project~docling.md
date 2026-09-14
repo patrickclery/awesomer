@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 59,546 | +435 | +1,958 | +3,865 | 2026-05-11 |
+| 66,343 | +513 | +1,586 | +4,746 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/docling-project~docling/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/docling-project~docling/)*

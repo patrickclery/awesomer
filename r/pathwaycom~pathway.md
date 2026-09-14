@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 63,288 | -61 | +105 | +5,383 | 2026-05-11 |
+| 62,291 | -40 | -173 | -690 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
+- [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pathwaycom~pathway/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pathwaycom~pathway/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,635 | +11 | +26 | +54 | 2026-03-22 |
+| 18,758 | +12 | +23 | +100 | 2026-07-25 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mac](../l/mac.md) / QuickLook Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~quick-look-plugins/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~quick-look-plugins/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,203 | +9 | +114 | +150 | 2026-05-11 |
+| 1,402 | +8 | +38 | +130 | 2026-08-14 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 - [awesome-neovim](../l/neovim.md) / AI
+- [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/milanglacier~minuet-ai.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/milanglacier~minuet-ai.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 45,681 | +123 | +642 | +1,634 | 2026-05-08 |
+| 48,590 | +409 | +1,043 | +2,216 | 2026-08-16 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Work
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lukasz-madon~awesome-remote-job/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lukasz-madon~awesome-remote-job/)*

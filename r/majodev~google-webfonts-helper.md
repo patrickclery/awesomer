@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,952 | +0 | +22 | +37 | 2026-02-27 |
+| 13,065 | +9 | +25 | +61 | 2026-02-27 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/majodev~google-webfonts-helper/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/majodev~google-webfonts-helper/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,806 | +11 | +61 | +279 | 2026-05-07 |
+| 6,952 | +6 | +32 | +103 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lotabout~skim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lotabout~skim/)*

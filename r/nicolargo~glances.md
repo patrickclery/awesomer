@@ -1,6 +1,6 @@
 # nicolargo/glances
 
-> Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.
+> Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, macOS and Windows operating systems.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/nicolargo/glances) | [Live site ↗](https://patrickclery.com/awesomer/r/nicolargo~glances/)
 
@@ -8,13 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,501 | +43 | +291 | +470 | 2026-05-11 |
+| 33,568 | +51 | +211 | +735 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-docker](../l/docker.md) / Container Operations
-- [awesome-shell](../l/shell.md) / System Utilities
 - [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
+- [awesome-shell](../l/shell.md) / System Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nicolargo~glances/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nicolargo~glances/)*

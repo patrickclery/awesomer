@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,547 | +4 | +23 | +36 | 2025-12-27 |
+| 1,599 | +0 | +15 | +45 | 2025-12-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kazhnuz~awesome-gnome/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kazhnuz~awesome-gnome/)*

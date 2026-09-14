@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,947 | +98 | +419 | +1,313 | 2026-05-11 |
+| 13,080 | +51 | +211 | +749 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain4j~langchain4j/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain4j~langchain4j/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,680 | +7 | +23 | +40 | 2026-05-11 |
+| 2,769 | +11 | +29 | +57 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/musicplayerdaemon~mpd/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/musicplayerdaemon~mpd/)*

@@ -1,6 +1,6 @@
 # JSONbored/claudepro-directory
 
-> Awesome Claude directory: agents, MCP servers, skills, hooks, commands, tools, guides, and AI workflow resources.
+> HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills,
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/JSONbored/claudepro-directory) | [Live site ↗](https://patrickclery.com/awesomer/r/jsonbored~claudepro-directory/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 217 | +2 | +11 | +21 | 2026-05-11 |
+| 297 | +1 | +6 | +33 | 2026-08-16 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Documentation, Knowledge & Learning
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jsonbored~claudepro-directory/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jsonbored~claudepro-directory/)*

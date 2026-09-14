@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,458 | -1 | -1 | +1 | 2026-03-27 |
+| 1,464 | +0 | -1 | +3 | 2026-07-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authentication and OAuth
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sorcery~sorcery/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sorcery~sorcery/)*

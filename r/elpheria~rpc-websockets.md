@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 627 | +1 | +2 | +2 | 2026-05-09 |
+| 626 | +0 | +0 | +2 | 2026-05-15 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elpheria~rpc-websockets/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elpheria~rpc-websockets/)*

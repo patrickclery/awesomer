@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 55,024 | +604 | +2,690 | +5,453 | 2026-05-11 |
+| 61,955 | +277 | +1,228 | +4,556 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
-- [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
+- [Awesome local LLM](../l/local-llm.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/upstash~context7/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/upstash~context7/)*

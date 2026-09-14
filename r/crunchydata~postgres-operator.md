@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,406 | +5 | +14 | +16 | 2026-04-29 |
+| 4,447 | +3 | +10 | +25 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Kubernetes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crunchydata~postgres-operator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crunchydata~postgres-operator/)*

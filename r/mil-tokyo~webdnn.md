@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,999 | -2 | -2 | -1 | 2025-06-07 |
+| 2,000 | +0 | +1 | +3 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / JavaScript
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mil-tokyo~webdnn/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mil-tokyo~webdnn/)*

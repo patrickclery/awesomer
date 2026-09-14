@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,084 | +89 | +491 | +1,244 | 2026-04-13 |
+| 9,626 | +0 | +27 | +290 | 2026-07-18 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-code](../l/claude-code.md) / Ralph Wiggum
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/frankbria~ralph-claude-code/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/frankbria~ralph-claude-code/)*

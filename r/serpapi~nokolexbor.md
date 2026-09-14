@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 410 | -1 | +3 | +59 | 2026-04-24 |
+| 414 | -1 | -1 | +4 | 2026-07-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTML/XML Parsing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/serpapi~nokolexbor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/serpapi~nokolexbor/)*

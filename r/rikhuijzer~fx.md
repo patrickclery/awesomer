@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 309 | +8 | +12 | +31 | 2026-05-09 |
+| 325 | +0 | +0 | +11 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Blogging Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rikhuijzer~fx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rikhuijzer~fx/)*

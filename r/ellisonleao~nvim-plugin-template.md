@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 468 | +0 | -1 | +7 | 2025-10-08 |
+| 475 | +0 | +2 | +4 | 2025-10-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Plugin Template
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ellisonleao~nvim-plugin-template/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ellisonleao~nvim-plugin-template/)*

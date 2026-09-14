@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 78,768 | +72 | +390 | +691 | 2026-05-11 |
+| 80,504 | +68 | +311 | +1,340 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-docker](../l/docker.md) / Container Operations
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netdata~netdata/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/netdata~netdata/)*

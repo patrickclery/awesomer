@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 463 | +2 | +4 |  | 2026-02-22 |
+| 467 | +0 | +0 | +4 | 2026-08-19 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/uncomplicate~deep-diamond/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/uncomplicate~deep-diamond/)*

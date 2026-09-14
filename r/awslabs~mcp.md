@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,016 | +70 | +278 | +534 | 2026-05-11 |
+| 9,688 | +22 | +91 | +419 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
+- [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~mcp/)*

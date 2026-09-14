@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 283 | +1 | +3 | +1 | 2026-05-05 |
+| 288 | +1 | +0 | +4 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gatewayd-io~gatewayd/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gatewayd-io~gatewayd/)*

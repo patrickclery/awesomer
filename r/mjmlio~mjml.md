@@ -1,6 +1,6 @@
 # mjmlio/mjml
 
-> MJML: the only framework that makes responsive-email easy
+> MJML: the only framework that makes responsive email easy
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mjmlio/mjml) | [Live site ↗](https://patrickclery.com/awesomer/r/mjmlio~mjml/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,049 | +9 | +58 | +93 | 2026-05-11 |
+| 18,235 | +10 | +37 | +132 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mjmlio~mjml/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mjmlio~mjml/)*

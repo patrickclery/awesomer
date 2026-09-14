@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,123 | +2 | +9 | +21 | 2026-05-11 |
+| 1,144 | +2 | +8 | +16 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jonaskruckenberg~vite-imagetools/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jonaskruckenberg~vite-imagetools/)*

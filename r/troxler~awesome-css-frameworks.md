@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,333 | +15 | +48 | +79 | 2026-04-11 |
+| 9,516 | +18 | +44 | +139 | 2026-06-08 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/troxler~awesome-css-frameworks/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/troxler~awesome-css-frameworks/)*

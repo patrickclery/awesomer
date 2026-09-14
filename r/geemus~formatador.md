@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 447 | +0 | -1 |  | 2025-11-24 |
+| 459 | +0 | +0 | +0 | 2026-06-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/geemus~formatador/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/geemus~formatador/)*

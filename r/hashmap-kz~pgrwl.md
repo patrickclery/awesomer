@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 109 | +3 | +19 | +25 | 2026-05-11 |
+| 181 | +1 | +1 | +5 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / High-Availability
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hashmap-kz~pgrwl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hashmap-kz~pgrwl/)*

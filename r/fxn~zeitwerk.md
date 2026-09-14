@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,113 | +3 | +5 | +11 | 2026-05-11 |
+| 2,138 | +0 | +0 | +2 | 2026-08-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Loaders
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fxn~zeitwerk/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fxn~zeitwerk/)*

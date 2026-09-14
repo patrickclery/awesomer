@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 73,177 | +572 | +2,165 | +5,955 | 2026-05-11 |
+| 87,753 | +661 | +3,747 | +10,607 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Coding Agents
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/all-hands-ai~openhands/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/all-hands-ai~openhands/)*

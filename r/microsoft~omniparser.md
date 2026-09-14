@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,743 |  |  |  | 2026-04-13 |
+| 25,389 | +27 | +132 | +482 | 2026-07-20 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Computer Use
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multimodal Models (Vision + Language)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~omniparser/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~omniparser/)*

@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 484 | +14 | +104 | +272 | 2026-05-11 |
+| 702 | +10 | +52 | +158 | 2026-09-13 |
 
 ## Found In
 
+- [awesome-claude-code](../l/claude-code.md) / Security
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mensfeld~code-on-incus/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mensfeld~code-on-incus/)*

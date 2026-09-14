@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,771 | +76 | +366 | +623 | 2026-04-27 |
+| 18,959 | +97 | +493 | +1,941 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/c4illin~convertx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/c4illin~convertx/)*

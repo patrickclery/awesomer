@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,334 | +13 | +67 | +186 | 2026-05-07 |
+| 2,567 | +12 | +58 | +162 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
+- [Awesome local LLM](../l/local-llm.md) / Inference
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vllm-project~production-stack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vllm-project~production-stack/)*

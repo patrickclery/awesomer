@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,567 | +40 | +221 | +557 | 2026-05-10 |
+| 12,058 | +19 | +73 | +348 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Driving & Robotics Simulators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/autowarefoundation~autoware/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/autowarefoundation~autoware/)*

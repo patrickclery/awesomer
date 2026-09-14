@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,934 | +12 | +31 | +53 | 2026-02-17 |
+| 4,992 | -5 | -4 | +35 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Indent
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lukas-reineke~indent-blankline.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lukas-reineke~indent-blankline.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 438 | +2 | +9 | +13 | 2026-04-16 |
+| 463 | +2 | +7 | +16 | 2026-07-27 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neanias~everforest-nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neanias~everforest-nvim/)*

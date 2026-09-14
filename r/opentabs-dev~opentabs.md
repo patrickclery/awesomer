@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 483 | +26 | +158 |  | 2026-05-11 |
+| 945 | +13 | +51 | +214 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opentabs-dev~opentabs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/opentabs-dev~opentabs/)*

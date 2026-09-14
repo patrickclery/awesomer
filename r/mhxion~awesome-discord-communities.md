@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,450 | +9 | +25 | +43 | 2026-04-25 |
+| 3,593 | +6 | +23 | +117 | 2026-04-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mhxion~awesome-discord-communities/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mhxion~awesome-discord-communities/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 398 | +2 | +3 | +3 | 2026-03-23 |
+| 412 | +1 | +4 | +12 | 2026-08-09 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Bookmarks and Link Sharing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alexscifier~neonlink/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexscifier~neonlink/)*

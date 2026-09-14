@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,193 | +153 | +946 | +2,160 | 2026-05-11 |
+| 49,094 | +120 | +639 | +2,231 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Inference platforms
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Self-hosted AI Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mudler~localai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mudler~localai/)*

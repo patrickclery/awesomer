@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,340 | +8 | +60 | +132 | 2026-05-07 |
+| 5,621 | +9 | +37 | +210 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neogitorg~neogit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neogitorg~neogit/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 129 | +0 | +7 |  | 2026-04-25 |
+| 131 | +0 | +1 | +2 | 2026-08-03 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Directory Navigation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jintin~aliasme/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jintin~aliasme/)*

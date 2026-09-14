@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,780 | +75 | +549 | +1,030 | 2026-05-05 |
+| 11,696 | +78 | +971 | +1,476 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/viarotel-org~escrcpy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/viarotel-org~escrcpy/)*

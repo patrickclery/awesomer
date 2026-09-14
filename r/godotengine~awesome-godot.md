@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,930 | +53 | +208 | +382 | 2026-05-04 |
+| 10,734 | +51 | +182 | +573 | 2026-09-12 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/godotengine~awesome-godot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/godotengine~awesome-godot/)*

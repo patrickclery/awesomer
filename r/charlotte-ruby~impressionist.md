@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,532 | +0 | +0 |  | 2026-02-08 |
+| 1,527 | -1 | -1 | -5 | 2026-02-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Analytics
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/charlotte-ruby~impressionist/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/charlotte-ruby~impressionist/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 138 | +0 | +8 | +12 | 2025-05-30 |
+| 148 | +2 | +3 | +7 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dotintent~awesome-ble/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dotintent~awesome-ble/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 241 | +0 | +2 |  | 2026-04-04 |
+| 245 | +0 | +0 | +1 | 2026-05-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Terminal Integration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/samjwill~nvim-unception/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/samjwill~nvim-unception/)*

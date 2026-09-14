@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,519 | +6 | +22 | +42 | 2026-05-07 |
+| 1,643 | +5 | +28 | +97 | 2026-06-25 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/minecraft-linux~mcpelauncher-manifest/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/minecraft-linux~mcpelauncher-manifest/)*

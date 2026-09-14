@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,562 | +1 | -1 | +4 | 2026-04-26 |
+| 2,573 | +1 | +3 | +4 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rbspy~rbspy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rbspy~rbspy/)*

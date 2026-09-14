@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,399 | +1 | +5 | +11 | 2026-02-02 |
+| 1,414 | +5 | +8 | +9 | 2026-02-02 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~trash-cli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~trash-cli/)*

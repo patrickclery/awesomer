@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,148 | +3 | +76 | +183 | 2026-04-13 |
+| 28,480 | -4 | +49 | +210 | 2026-07-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvchad~nvchad/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvchad~nvchad/)*

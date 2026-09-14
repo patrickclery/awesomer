@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,497 | +6 | +20 | +89 | 2026-03-31 |
+| 6,573 | +6 | +17 | +54 | 2026-03-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Courses & Interactive Playgrounds
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yandexdataschool~practical_rl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yandexdataschool~practical_rl/)*

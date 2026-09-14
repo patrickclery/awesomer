@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,559 | +3 | +6 | +13 | 2026-05-07 |
+| 2,570 | -2 | +0 | +10 | 2026-09-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-piracy](../l/piracy.md) / Seedboxes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ghostwriters~dockstarter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ghostwriters~dockstarter/)*

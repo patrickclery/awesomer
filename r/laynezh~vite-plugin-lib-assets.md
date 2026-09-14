@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 133 | +1 | +1 |  | 2025-12-03 |
+| 135 | +0 | +0 | +1 | 2025-12-03 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/laynezh~vite-plugin-lib-assets/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/laynezh~vite-plugin-lib-assets/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,758 | +77 | +377 | +732 | 2026-05-11 |
+| 15,882 | +72 | +373 | +1,371 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ast-grep~ast-grep/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ast-grep~ast-grep/)*

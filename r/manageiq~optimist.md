@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 257 | +0 | +0 |  | 2026-03-20 |
+| 259 | +0 | +0 | +2 | 2026-06-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Builder
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/manageiq~optimist/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/manageiq~optimist/)*

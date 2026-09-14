@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 146 | +0 | +6 | +11 | 2026-03-06 |
+| 162 | +0 | +2 | +6 | 2026-03-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aashari~mcp-server-atlassian-bitbucket/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aashari~mcp-server-atlassian-bitbucket/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 65,665 | +50 | +272 | +392 | 2026-05-03 |
+| 66,798 | +78 | +278 | +836 | 2026-09-02 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~awesome-nodejs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~awesome-nodejs/)*

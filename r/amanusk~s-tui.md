@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,996 | +8 | +26 | +43 | 2026-03-27 |
+| 5,088 | +2 | +22 | +62 | 2026-08-27 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/amanusk~s-tui/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/amanusk~s-tui/)*

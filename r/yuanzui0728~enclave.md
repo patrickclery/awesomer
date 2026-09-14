@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 161 | +13 |  |  | 2026-05-11 |
+| 185 | +2 | +6 | +1 | 2026-06-26 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yuanzui0728~enclave/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yuanzui0728~enclave/)*

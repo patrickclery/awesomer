@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,844 | +38 | +150 | +642 | 2026-03-21 |
+| 10,482 | +43 | +176 | +469 | 2026-08-26 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/a16z-infra~ai-town/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/a16z-infra~ai-town/)*

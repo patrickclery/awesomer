@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,370 | +13 | +87 | +114 | 2026-04-29 |
+| 6,536 | +6 | +24 | +125 | 2026-06-25 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Dashboards
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pawelmalak~flame/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pawelmalak~flame/)*

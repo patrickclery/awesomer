@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 106 | +0 | +0 |  | 2025-10-29 |
+| 109 | +0 | +1 | +2 | 2025-10-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Utility
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sontungexpt~url-open/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sontungexpt~url-open/)*

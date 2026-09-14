@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,523 | +7 | +48 | +77 | 2026-04-13 |
+| 6,652 | +2 | +22 | +76 | 2026-07-25 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ryo-ma~github-profile-trophy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ryo-ma~github-profile-trophy/)*

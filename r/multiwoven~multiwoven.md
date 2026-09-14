@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,653 | +2 | +3 | +21 | 2026-05-09 |
+| 1,673 | +1 | +4 | +16 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Data Processing and ETL
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/multiwoven~multiwoven/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/multiwoven~multiwoven/)*

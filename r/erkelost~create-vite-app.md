@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 244 | +0 | +0 |  | 2026-05-08 |
+| 247 | +0 | +0 | +2 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Get Started
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/erkelost~create-vite-app/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/erkelost~create-vite-app/)*

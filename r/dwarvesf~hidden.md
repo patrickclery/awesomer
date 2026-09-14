@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,946 | +71 | +227 | +407 | 2026-03-03 |
+| 14,698 | +36 | +135 | +522 | 2026-06-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dwarvesf~hidden/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dwarvesf~hidden/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,237 | +3 | +8 | +40 | 2026-05-11 |
+| 1,294 | +5 | +15 | +44 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / DMARC
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/domainaware~parsedmarc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/domainaware~parsedmarc/)*

@@ -1,6 +1,6 @@
 # conorluddy/ios-simulator-skill
 
-> An IOS Simulator Skill for ClaudeCode. Use it to optimise Claude's ability to build, run and interact with your apps. I 
+> An IOS Simulator Skill for ClaudeCode. Use it to optimise Claude's ability to build, run and interact with your apps, an
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/conorluddy/ios-simulator-skill) | [Live site ↗](https://patrickclery.com/awesomer/r/conorluddy~ios-simulator-skill/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 976 | +41 | +201 | +355 | 2026-05-07 |
+| 1,249 | +15 | +35 | +170 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/conorluddy~ios-simulator-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/conorluddy~ios-simulator-skill/)*

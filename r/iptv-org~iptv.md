@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 116,145 | +241 | +1,665 | +5,375 | 2026-05-11 |
+| 138,531 | +593 | +2,730 | +16,176 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / IPTV and DVR
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/iptv-org~iptv/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/iptv-org~iptv/)*

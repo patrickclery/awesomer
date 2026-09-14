@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,992 | +1 | +15 | +32 | 2026-04-09 |
+| 3,036 | +0 | +12 | +27 | 2026-08-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Servers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/socketry~falcon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/socketry~falcon/)*

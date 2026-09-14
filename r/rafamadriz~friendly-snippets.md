@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,708 | +0 | +19 | +42 | 2026-01-23 |
+| 2,777 | -1 | +9 | +38 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Snippet
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rafamadriz~friendly-snippets/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rafamadriz~friendly-snippets/)*

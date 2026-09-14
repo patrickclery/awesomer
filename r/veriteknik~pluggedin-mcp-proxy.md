@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 129 | +0 | +2 | +6 | 2026-05-10 |
+| 135 | +1 | +1 | +4 | 2026-05-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/veriteknik~pluggedin-mcp-proxy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/veriteknik~pluggedin-mcp-proxy/)*

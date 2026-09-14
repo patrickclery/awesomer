@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,112 | +53 | +196 | +358 | 2026-05-09 |
+| 18,175 | +163 | +326 | +681 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Ebooks
-- [awesome-selfhosted](../l/selfhosted.md) / Document Management - E-books
 - [Awesome-Linux-Software](../l/linux-software.md) / E-Book Utilities
+- [awesome-selfhosted](../l/selfhosted.md) / Document Management - E-books
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/janeczku~calibre-web/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/janeczku~calibre-web/)*

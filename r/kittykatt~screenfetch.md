@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,054 | +2 | +4 | +10 | 2026-03-02 |
+| 4,075 | +2 | +7 | +18 | 2026-03-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kittykatt~screenfetch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kittykatt~screenfetch/)*

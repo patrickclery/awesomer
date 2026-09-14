@@ -1,6 +1,6 @@
 # lackeyjb/playwright-skill
 
-> Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom
+> General-purpose Playwright automation for coding agents
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/lackeyjb/playwright-skill) | [Live site ↗](https://patrickclery.com/awesomer/r/lackeyjb~playwright-skill/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,601 | +43 | +220 | +504 | 2025-12-19 |
+| 3,118 | +23 | +92 | +352 | 2026-08-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lackeyjb~playwright-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lackeyjb~playwright-skill/)*

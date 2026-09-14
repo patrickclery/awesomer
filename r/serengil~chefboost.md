@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 486 | +0 | +0 | +2 | 2026-04-07 |
+| 487 | +0 | -2 | -1 | 2026-05-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/serengil~chefboost/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/serengil~chefboost/)*

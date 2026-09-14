@@ -1,6 +1,6 @@
 # manticoresoftware/manticoresearch
 
-> Easy to use open source fast database for search \| Good alternative to Elasticsearch \| Drop-in replacement for E in th
+> Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/manticoresoftware/manticoresearch) | [Live site ↗](https://patrickclery.com/awesomer/r/manticoresoftware~manticoresearch/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,791 | +17 | +43 | +174 | 2026-05-11 |
+| 11,999 | +8 | +59 | +179 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/manticoresoftware~manticoresearch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/manticoresoftware~manticoresearch/)*

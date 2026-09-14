@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,800 | +1 | +13 | +47 | 2026-04-29 |
+| 1,823 | +0 | +2 | +17 | 2026-05-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Courses & Interactive Playgrounds
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/peremartra~large-language-model-notebooks-course/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/peremartra~large-language-model-notebooks-course/)*

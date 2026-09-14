@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,114 | +135 | +623 | +2,205 | 2026-03-15 |
+| 49,147 | +203 | +803 | +2,175 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/krtirtho~spotube/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/krtirtho~spotube/)*

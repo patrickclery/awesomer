@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,395 | +21 | +91 | +255 | 2026-05-08 |
+| 3,565 | +12 | +42 | +124 | 2026-08-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Notebooks & Interactive Computing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deta~surf/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deta~surf/)*

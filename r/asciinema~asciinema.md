@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,276 | +34 | +119 | +250 | 2026-04-29 |
+| 17,796 | +31 | +122 | +376 | 2026-08-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/asciinema~asciinema/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/asciinema~asciinema/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,956 | +3 | +38 | +76 | 2026-05-11 |
+| 6,086 | +7 | +21 | +84 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Server
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/foxcpp~maddy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/foxcpp~maddy/)*

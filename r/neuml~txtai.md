@@ -8,12 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,480 | +23 | +88 | +185 | 2026-05-10 |
+| 12,947 | +12 | +59 | +292 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neuml~txtai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neuml~txtai/)*

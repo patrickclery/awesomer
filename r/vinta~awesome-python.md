@@ -1,6 +1,6 @@
 # vinta/awesome-python
 
-> An opinionated list of Python frameworks, libraries, tools, and resources
+> The definitive list that answers "I want to do X in Python, which tool should I use?"
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/vinta/awesome-python) | [Live site ↗](https://patrickclery.com/awesomer/r/vinta~awesome-python/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 297,091 | +1,154 | +5,362 | +9,741 | 2026-05-11 |
+| 320,389 | +1,360 | +6,496 | +17,370 | 2026-09-13 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vinta~awesome-python/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vinta~awesome-python/)*

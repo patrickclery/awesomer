@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,221 | +105 | +583 | +1,115 | 2026-05-11 |
+| 36,702 | +139 | +653 | +1,770 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Containers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/firecracker-microvm~firecracker/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/firecracker-microvm~firecracker/)*

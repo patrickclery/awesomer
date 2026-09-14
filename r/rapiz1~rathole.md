@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,519 | +33 | +233 | +784 | 2026-04-16 |
+| 14,188 | +35 | +171 | +428 | 2026-08-23 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rapiz1~rathole/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rapiz1~rathole/)*

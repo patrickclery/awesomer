@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 124 | -1 | +22 | +56 | 2026-05-07 |
+| 154 | +1 | +7 | +22 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Plugin Manager
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zuqini~zpack.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zuqini~zpack.nvim/)*

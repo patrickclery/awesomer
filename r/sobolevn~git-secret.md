@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,019 | +4 | +12 | +21 | 2026-05-04 |
+| 4,045 | +2 | +10 | +22 | 2026-08-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sobolevn~git-secret/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sobolevn~git-secret/)*

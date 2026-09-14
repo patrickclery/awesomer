@@ -1,6 +1,6 @@
 # deusyu/translate-book
 
-> Claude Code skill that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents
+> Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using pa
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/deusyu/translate-book) | [Live site ↗](https://patrickclery.com/awesomer/r/deusyu~translate-book/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 690 | +30 | +82 |  | 2026-04-28 |
+| 1,830 | +29 | +702 | +1,056 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deusyu~translate-book/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deusyu~translate-book/)*

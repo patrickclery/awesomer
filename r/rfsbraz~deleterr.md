@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 303 | +4 | +22 | +38 | 2026-05-07 |
+| 334 | +0 | +1 | +19 | 2026-09-01 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rfsbraz~deleterr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rfsbraz~deleterr/)*

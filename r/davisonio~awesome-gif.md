@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 686 | +1 | +4 | +8 | 2026-03-13 |
+| 698 | +2 | +4 | +10 | 2026-05-17 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davisonio~awesome-gif/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/davisonio~awesome-gif/)*

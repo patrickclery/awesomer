@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,518 | +0 | +0 | +23 | 2026-05-11 |
+| 1,550 | +1 | +0 | +4 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tilo~smarter_csv/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tilo~smarter_csv/)*

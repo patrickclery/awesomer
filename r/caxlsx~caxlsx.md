@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 625 | +1 | +0 |  | 2026-04-13 |
+| 646 | +0 | +1 | +9 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Spreadsheets and Documents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/caxlsx~caxlsx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/caxlsx~caxlsx/)*

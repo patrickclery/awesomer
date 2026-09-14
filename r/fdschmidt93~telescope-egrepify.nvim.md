@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 142 | +1 | +1 | +0 | 2025-12-21 |
+| 144 | +0 | +0 | +1 | 2025-12-21 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fdschmidt93~telescope-egrepify.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fdschmidt93~telescope-egrepify.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,431 | -11 | -17 | -40 | 2026-02-06 |
+| 4,458 | +4 | +6 | +20 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dvorka~hstr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dvorka~hstr/)*

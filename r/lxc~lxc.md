@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,176 | +0 | +19 | +43 | 2026-05-09 |
+| 5,261 | +4 | +22 | +59 | 2026-09-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-linux-containers](../l/linux-containers.md) / Containers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lxc~lxc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lxc~lxc/)*

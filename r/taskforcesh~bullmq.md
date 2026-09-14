@@ -1,6 +1,6 @@
 # taskforcesh/bullmq
 
-> BullMQ - Message Queue and Batch processing for NodeJS, Python, Elixir and PHP based on Redis
+> BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/taskforcesh/bullmq) | [Live site ↗](https://patrickclery.com/awesomer/r/taskforcesh~bullmq/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,837 | +32 | +121 | +249 | 2026-05-11 |
+| 9,393 | +20 | +102 | +394 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/taskforcesh~bullmq/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/taskforcesh~bullmq/)*

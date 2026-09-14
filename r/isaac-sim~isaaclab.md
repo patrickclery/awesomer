@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,133 | +44 | +242 | +890 | 2026-05-11 |
+| 8,116 | +45 | +220 | +667 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/isaac-sim~isaaclab/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/isaac-sim~isaaclab/)*

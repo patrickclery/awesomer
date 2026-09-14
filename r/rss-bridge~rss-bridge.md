@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,929 | +10 | +81 | +140 | 2026-05-06 |
+| 9,233 | +12 | +67 | +215 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rss-bridge~rss-bridge/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rss-bridge~rss-bridge/)*

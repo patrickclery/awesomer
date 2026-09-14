@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 182 | -1 | -1 | +1 | 2026-05-07 |
+| 184 | +0 | +1 | +2 | 2026-07-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / GitHub
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/topaxi~pipeline.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/topaxi~pipeline.nvim/)*

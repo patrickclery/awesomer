@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,045 | +1 | +2 |  | 2026-05-04 |
+| 2,041 | +0 | +0 | -2 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jeffknupp~sandman2/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jeffknupp~sandman2/)*

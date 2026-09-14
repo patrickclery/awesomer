@@ -1,6 +1,6 @@
 # lxqt/lxqt
 
-> Checkout all LXQt components at once by using git submodule. Discussions, Wiki and general issues are here.
+> Checkout all LXQt components at once by using git submodule. Discussions, GH Wiki and general issues are here.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/lxqt/lxqt) | [Live site ↗](https://patrickclery.com/awesomer/r/lxqt~lxqt/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,830 | +2 | +11 | +46 | 2026-04-21 |
+| 1,868 | +4 | +12 | +28 | 2026-08-27 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Environments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lxqt~lxqt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lxqt~lxqt/)*

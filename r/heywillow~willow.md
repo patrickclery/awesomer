@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,030 | +4 | +25 | +74 | 2026-02-13 |
+| 3,105 | +4 | +13 | +50 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/heywillow~willow/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/heywillow~willow/)*

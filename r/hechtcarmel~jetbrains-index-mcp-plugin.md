@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 198 | +8 | +49 | +88 | 2026-05-06 |
+| 335 | -1 | +19 | +84 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hechtcarmel~jetbrains-index-mcp-plugin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hechtcarmel~jetbrains-index-mcp-plugin/)*

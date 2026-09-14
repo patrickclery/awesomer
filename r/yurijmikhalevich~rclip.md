@@ -1,6 +1,6 @@
 # yurijmikhalevich/rclip
 
-> AI-Powered Semantic Photo Search for the Command Line
+> grep for images – local, offline image search for the terminal
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/yurijmikhalevich/rclip) | [Live site ↗](https://patrickclery.com/awesomer/r/yurijmikhalevich~rclip/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 918 | +2 | +7 | +10 | 2026-05-11 |
+| 1,000 | +1 | +13 | +45 | 2026-09-13 |
 
 ## Found In
 
+- [awesome-cli-apps](../l/cli-apps.md) / Images
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yurijmikhalevich~rclip/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yurijmikhalevich~rclip/)*

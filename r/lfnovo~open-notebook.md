@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,236 | +215 | +1,215 | +3,985 | 2026-05-08 |
+| 38,695 | +569 | +1,896 | +7,956 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Notebooks & Interactive Computing
+- [Awesome local LLM](../l/local-llm.md) / Research
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lfnovo~open-notebook/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lfnovo~open-notebook/)*

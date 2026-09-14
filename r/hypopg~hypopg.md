@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,643 | +2 | +15 | +26 | 2026-04-18 |
+| 1,711 | +2 | +19 | +51 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hypopg~hypopg/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hypopg~hypopg/)*

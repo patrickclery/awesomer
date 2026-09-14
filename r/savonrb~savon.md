@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,077 | +1 | -1 | -1 | 2026-01-22 |
+| 2,084 | +0 | -1 | -3 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTTP Clients and tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/savonrb~savon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/savonrb~savon/)*

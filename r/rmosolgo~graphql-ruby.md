@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,432 | +2 | +4 | +8 | 2026-05-08 |
+| 5,445 | -1 | -1 | -3 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / GraphQL
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rmosolgo~graphql-ruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rmosolgo~graphql-ruby/)*

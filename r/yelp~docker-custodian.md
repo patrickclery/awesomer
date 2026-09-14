@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 375 | +1 | +1 |  | 2026-04-02 |
+| 373 | +0 | -1 | +1 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yelp~docker-custodian/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yelp~docker-custodian/)*

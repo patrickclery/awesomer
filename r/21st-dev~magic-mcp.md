@@ -1,6 +1,6 @@
 # 21st-dev/magic-mcp
 
-> It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
+> It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI wit
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/21st-dev/magic-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/21st-dev~magic-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,859 | +29 | +161 | +352 | 2026-02-17 |
+| 5,858 | +39 | +198 | +727 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/21st-dev~magic-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/21st-dev~magic-mcp/)*

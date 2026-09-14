@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,163 | +1 | +27 | +44 | 2025-09-29 |
+| 5,216 | +4 | +14 | +46 | 2026-07-22 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Audio and Video Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ddddxxx~lyricsx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ddddxxx~lyricsx/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,983 | +0 | +6 | +12 | 2026-05-01 |
+| 1,995 | +2 | +5 | +7 | 2026-09-09 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
 - [awesome-ruby](../l/ruby.md) / Machine Learning
+- [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/patterns-ai-core~langchainrb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/patterns-ai-core~langchainrb/)*

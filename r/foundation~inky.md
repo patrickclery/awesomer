@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 695 | +1 | +1 |  | 2026-04-24 |
+| 704 | +0 | +1 | +7 | 2026-07-14 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Templating
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/foundation~inky/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/foundation~inky/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 378 | +0 | -1 | +1 | 2026-05-08 |
+| 383 | +0 | +0 | +5 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/feat-agency~vite-plugin-webfont-dl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/feat-agency~vite-plugin-webfont-dl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 418 | +0 | -1 | +1 | 2026-03-29 |
+| 424 | +0 | +0 | +3 | 2026-05-18 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davidmyersdev~vite-plugin-node-polyfills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/davidmyersdev~vite-plugin-node-polyfills/)*

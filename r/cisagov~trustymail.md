@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 221 | +0 | +1 |  | 2026-05-01 |
+| 224 | +0 | +0 | +3 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Security Check
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cisagov~trustymail/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cisagov~trustymail/)*

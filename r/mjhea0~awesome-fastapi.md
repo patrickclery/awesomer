@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,353 | +29 | +120 | +195 | 2026-03-30 |
+| 11,659 | +14 | +67 | +221 | 2026-08-24 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mjhea0~awesome-fastapi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mjhea0~awesome-fastapi/)*

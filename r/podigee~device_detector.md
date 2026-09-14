@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 771 | +0 | +0 | +0 | 2025-11-10 |
+| 765 | +0 | -2 | -7 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTTP Clients and tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/podigee~device_detector/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/podigee~device_detector/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 187 | +0 | -1 | +4 | 2026-02-09 |
+| 196 | +1 | +2 | +6 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Code Runner
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/krady21~compiler-explorer.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/krady21~compiler-explorer.nvim/)*

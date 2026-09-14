@@ -1,6 +1,6 @@
 # MODSetter/SurfSense
 
-> An open source, privacy focused alternative to NotebookLM for teams with no data limits. Join our Discord: https://disco
+> Open-source NotebookLM alternative. Research the open web with live data(Reddit, YT, IG, TikTok, Indeed, Google Search, 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/MODSetter/SurfSense) | [Live site ↗](https://patrickclery.com/awesomer/r/modsetter~surfsense/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,191 | +118 | +433 | +1,469 | 2026-05-10 |
+| 16,136 | +56 | +226 | +1,479 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
+- [Awesome local LLM](../l/local-llm.md) / Research
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/modsetter~surfsense/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/modsetter~surfsense/)*

@@ -1,6 +1,6 @@
 # chrisgrieser/nvim-chainsaw
 
-> Smart and highly customizable insertion of various kinds of log statements.
+> Smart and customizable creation of logs.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/chrisgrieser/nvim-chainsaw) | [Live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-chainsaw/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 137 | +0 | -1 | -1 | 2026-04-13 |
+| 159 | +0 | +19 | +22 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Debugging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-chainsaw/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-chainsaw/)*

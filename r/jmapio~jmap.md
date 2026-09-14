@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,337 | +0 | +6 | +15 | 2026-05-04 |
+| 1,372 | +3 | +10 | +29 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / JMAP Server & others
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jmapio~jmap/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jmapio~jmap/)*

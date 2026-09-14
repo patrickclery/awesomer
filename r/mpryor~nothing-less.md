@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 232 | +110 | +117 |  | 2026-05-08 |
+| 279 | +0 | +5 | +17 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mpryor~nothing-less/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mpryor~nothing-less/)*

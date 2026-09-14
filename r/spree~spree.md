@@ -1,6 +1,6 @@
 # spree/spree
 
-> Open-source headless eCommerce platform with REST API, TypeScript SDK, and Next.js storefront for cross-border, B2B or m
+> Open Source eCommerce Platform for B2B, Marketplace, and Enterprise. REST API, TypeScript SDK, and production-ready Next
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/spree/spree) | [Live site ↗](https://patrickclery.com/awesomer/r/spree~spree/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,412 | +23 | +83 | +143 | 2026-05-11 |
+| 15,694 | +18 | +73 | +215 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spree~spree/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spree~spree/)*

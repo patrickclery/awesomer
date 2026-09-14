@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,247 | +26 | +121 | +189 | 2026-02-19 |
+| 7,116 | +258 | +442 | +774 | 2026-02-19 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Research Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tensortrade-org~tensortrade/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tensortrade-org~tensortrade/)*

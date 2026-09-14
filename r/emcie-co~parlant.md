@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,067 | +17 | +169 | +460 | 2026-05-10 |
+| 18,284 | +18 | +34 | +170 | 2026-07-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/emcie-co~parlant/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/emcie-co~parlant/)*

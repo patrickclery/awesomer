@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,592 | +5 | +9 | +23 | 2026-04-23 |
+| 1,621 | +0 | +1 | +16 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wiredoor~wiredoor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wiredoor~wiredoor/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,581 | +4 | +35 | +51 | 2025-11-21 |
+| 2,630 | +1 | +13 | +43 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Backups
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eduardolat~pgbackweb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eduardolat~pgbackweb/)*

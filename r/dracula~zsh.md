@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 291 | +0 | +0 |  | 2026-04-23 |
+| 296 | +0 | +2 | +5 | 2026-04-23 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dracula~zsh/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dracula~zsh/)*

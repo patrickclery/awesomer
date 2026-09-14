@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,722 | +15 | +58 | +104 | 2026-02-14 |
+| 7,280 | +10 | +433 | +510 | 2026-08-29 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Business
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mmccaff~placestopostyourstartup/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mmccaff~placestopostyourstartup/)*

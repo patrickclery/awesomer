@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 38,146 | +72 | +251 | +433 | 2026-05-11 |
+| 39,002 | +48 | +196 | +612 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rapid7~metasploit-framework/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rapid7~metasploit-framework/)*

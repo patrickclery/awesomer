@@ -1,6 +1,6 @@
 # jeffallan/claude-skills
 
-> 66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.
+> 67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/jeffallan/claude-skills) | [Live site ↗](https://patrickclery.com/awesomer/r/jeffallan~claude-skills/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,960 | +202 | +861 | +8,227 | 2026-05-01 |
+| 11,449 | +103 | +441 | +1,544 | 2026-08-07 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Multi-Purpose
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jeffallan~claude-skills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jeffallan~claude-skills/)*

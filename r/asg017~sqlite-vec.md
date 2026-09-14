@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,565 | +28 | +172 | +723 | 2026-04-08 |
+| 8,102 | +23 | +92 | +359 | 2026-05-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/asg017~sqlite-vec/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/asg017~sqlite-vec/)*

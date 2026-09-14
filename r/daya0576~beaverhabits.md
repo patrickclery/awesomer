@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,755 | +4 | +20 | +97 | 2026-04-24 |
+| 1,836 | +5 | +21 | +66 | 2026-08-09 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Time Tracking
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/daya0576~beaverhabits/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/daya0576~beaverhabits/)*

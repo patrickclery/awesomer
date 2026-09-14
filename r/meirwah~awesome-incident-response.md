@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,027 | +18 | +81 | +148 | 2026-05-06 |
+| 9,383 | +18 | +60 | +284 | 2026-07-15 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/meirwah~awesome-incident-response/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/meirwah~awesome-incident-response/)*

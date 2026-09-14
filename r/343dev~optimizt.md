@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 172 | +2 | +7 | +15 | 2026-05-02 |
+| 183 | +3 | +3 | +6 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/343dev~optimizt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/343dev~optimizt/)*

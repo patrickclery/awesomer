@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,822 | +32 | +309 | +510 | 2026-04-22 |
+| 2,340 | +18 | +69 | +322 | 2026-07-03 |
 
 ## Found In
 
+- [awesome-claude-code](../l/claude-code.md) / Infrastructure & DevOps
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antonbabenko~terraform-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antonbabenko~terraform-skill/)*

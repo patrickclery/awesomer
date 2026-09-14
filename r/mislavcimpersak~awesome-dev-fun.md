@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 654 | +2 | +6 | +2 | 2025-07-08 |
+| 659 | +2 | +3 | +4 | 2026-08-28 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mislavcimpersak~awesome-dev-fun/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mislavcimpersak~awesome-dev-fun/)*

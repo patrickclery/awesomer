@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 963 | +4 | +18 | +42 | 2026-04-27 |
+| 1,033 | -1 | +8 | +35 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/romkatv~zsh-bench/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/romkatv~zsh-bench/)*

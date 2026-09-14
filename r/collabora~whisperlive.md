@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,011 | +10 |  |  | 2026-05-08 |
+| 4,274 | +8 | +47 | +192 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Video Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/collabora~whisperlive/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/collabora~whisperlive/)*

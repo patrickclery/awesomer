@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,160 | +74 | +251 | +468 | 2026-04-19 |
+| 34,168 | +39 | +208 | +726 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/monitorcontrol~monitorcontrol/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/monitorcontrol~monitorcontrol/)*

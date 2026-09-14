@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,647 | +3 | +33 | +47 | 2026-05-01 |
+| 3,709 | +8 | +15 | +44 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gsconnect~gnome-shell-extension-gsconnect/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gsconnect~gnome-shell-extension-gsconnect/)*

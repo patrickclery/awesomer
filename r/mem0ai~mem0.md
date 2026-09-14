@@ -1,6 +1,6 @@
 # mem0ai/mem0
 
-> Universal memory layer for AI Agents
+> The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mem0ai/mem0) | [Live site ↗](https://patrickclery.com/awesomer/r/mem0ai~mem0/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 55,407 | +663 | +2,761 | +8,681 | 2026-05-09 |
+| 65,229 | +484 | +1,992 | +6,625 | 2026-09-11 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Memory Management
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mem0ai~mem0/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mem0ai~mem0/)*

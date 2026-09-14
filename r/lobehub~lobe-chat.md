@@ -1,6 +1,6 @@
 # lobehub/lobe-chat
 
-> The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are t
+> 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reportin
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/lobehub/lobe-chat) | [Live site ↗](https://patrickclery.com/awesomer/r/lobehub~lobe-chat/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 76,854 | +835 | +1,808 | +5,531 | 2026-05-11 |
+| 82,445 | +181 | +764 | +3,764 | 2026-09-13 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
+- [Awesome local LLM](../l/local-llm.md) / User Interfaces
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lobehub~lobe-chat/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lobehub~lobe-chat/)*

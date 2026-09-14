@@ -1,6 +1,6 @@
 # 24eme/signaturepdf
 
-> Free open-source web software for signing PDF (alone or with others) and also organize pages, edit medata and compress p
+> Free open-source web software for signing PDF (alone or with others) and also organize pages, edit metadata and compress
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/24eme/signaturepdf) | [Live site ↗](https://patrickclery.com/awesomer/r/24eme~signaturepdf/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 781 | +2 | +15 | +48 | 2026-04-30 |
+| 828 | +3 | +7 | +30 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Document Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/24eme~signaturepdf/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/24eme~signaturepdf/)*

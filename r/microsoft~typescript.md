@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 108,805 | +73 | +302 | +1,476 | 2026-05-08 |
+| 111,029 | +485 | +844 | +1,767 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Showcases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~typescript/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~typescript/)*

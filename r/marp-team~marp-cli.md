@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,537 | +22 | +135 | +267 | 2026-05-06 |
+| 3,817 | +14 | +63 | +185 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marp-team~marp-cli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/marp-team~marp-cli/)*

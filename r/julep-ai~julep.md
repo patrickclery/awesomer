@@ -1,6 +1,6 @@
 # julep-ai/julep
 
-> Deploy serverless AI workflows at scale. Firebase for AI agents
+> Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/julep-ai/julep) | [Live site ↗](https://patrickclery.com/awesomer/r/julep-ai~julep/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,603 | -1 | +13 | +48 | 2026-03-13 |
+| 6,586 | -1 | -12 | -24 | 2026-08-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/julep-ai~julep/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/julep-ai~julep/)*

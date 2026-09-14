@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,697 | +1 | +8 | +17 | 2026-04-04 |
+| 1,710 | -2 | -1 | +6 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Code Runner
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelb~sniprun/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelb~sniprun/)*

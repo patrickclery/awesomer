@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,666 | +1 | +6 | +6 | 2025-10-22 |
+| 3,669 | -2 | -5 | -5 | 2026-07-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Email
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mikel~mail/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mikel~mail/)*

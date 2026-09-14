@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,262 | +3 | +10 | +29 | 2026-04-07 |
+| 5,280 | +3 | +8 | +19 | 2026-08-20 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tiling Window Managers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pop-os~shell/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pop-os~shell/)*

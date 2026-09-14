@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,227 | -12 | -7 | +183 | 2026-05-08 |
+| 30,376 | +6 | +18 | +97 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Proxy and VPN Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trailofbits~algo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trailofbits~algo/)*

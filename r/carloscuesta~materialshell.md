@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 844 | +0 | +0 |  | 2025-12-12 |
+| 839 | +0 | -1 | -1 | 2025-12-12 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/carloscuesta~materialshell/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/carloscuesta~materialshell/)*

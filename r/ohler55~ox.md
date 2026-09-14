@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 911 | +0 | +0 | +3 | 2026-05-09 |
+| 913 | +0 | +0 | +3 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTML/XML Parsing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ohler55~ox/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ohler55~ox/)*

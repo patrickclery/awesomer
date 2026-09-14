@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 287 | +0 | +1 |  | 2026-03-06 |
+| 289 | +0 | +0 | +3 | 2026-03-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gennaro-tedesco~nvim-possession/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gennaro-tedesco~nvim-possession/)*

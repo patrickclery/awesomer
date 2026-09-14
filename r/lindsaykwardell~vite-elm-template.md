@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 147 | +0 | +0 | +0 | 2026-01-08 |
+| 146 | +0 | +0 | +0 | 2026-01-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Tauri
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lindsaykwardell~vite-elm-template/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lindsaykwardell~vite-elm-template/)*

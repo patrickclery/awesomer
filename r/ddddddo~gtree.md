@@ -1,6 +1,6 @@
 # ddddddO/gtree
 
-> Easily output ASCII tree from Go program or Markdown unordered list (and it does more than just output tree!🌳🗂🔍)
+> Easily output ASCII tree from Go program or Markdown unordered list . There's also CLI tool that can output tree from JS
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ddddddO/gtree) | [Live site ↗](https://patrickclery.com/awesomer/r/ddddddo~gtree/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 333 | +1 | +3 | +4 | 2026-05-08 |
+| 361 | +0 | +3 | +30 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ddddddo~gtree/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ddddddo~gtree/)*

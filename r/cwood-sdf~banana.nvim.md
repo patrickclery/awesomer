@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 155 | +0 | +1 |  | 2025-12-09 |
+| 157 | +0 | +0 | +2 | 2025-12-09 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cwood-sdf~banana.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cwood-sdf~banana.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,391 | +18 | +98 | +308 | 2026-05-08 |
+| 19,673 | +13 | +46 | +183 | 2026-09-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Game AI & Simulations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unity-technologies~ml-agents/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unity-technologies~ml-agents/)*

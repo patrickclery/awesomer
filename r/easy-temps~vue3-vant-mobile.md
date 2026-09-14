@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,025 | +3 | +12 | +44 | 2026-05-06 |
+| 2,065 | +4 | +8 | +24 | 2026-07-31 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/easy-temps~vue3-vant-mobile/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/easy-temps~vue3-vant-mobile/)*

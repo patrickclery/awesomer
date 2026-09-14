@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,719 | +1 | +24 | +59 | 2026-05-03 |
+| 2,792 | +7 | +19 | +53 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/meeb~tubesync/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/meeb~tubesync/)*

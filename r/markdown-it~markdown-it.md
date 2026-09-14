@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,416 | +36 | +138 | +243 | 2026-03-26 |
+| 21,898 | +18 | +86 | +326 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/markdown-it~markdown-it/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/markdown-it~markdown-it/)*

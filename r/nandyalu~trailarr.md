@@ -1,6 +1,6 @@
 # nandyalu/trailarr
 
-> Trailarr is a Docker application to download and manage trailers for your Media libraries.
+> Trailarr is a self-hosted app to download and manage trailers for your media libraries.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/nandyalu/trailarr) | [Live site ↗](https://patrickclery.com/awesomer/r/nandyalu~trailarr/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 405 | +9 | +28 | +38 | 2026-05-11 |
+| 459 | +4 | +15 | +33 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nandyalu~trailarr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nandyalu~trailarr/)*

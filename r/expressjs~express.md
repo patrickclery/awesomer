@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 69,015 | +26 | +89 | +270 | 2026-05-08 |
+| 69,459 | +20 | +97 | +277 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/expressjs~express/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/expressjs~express/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,299 | +25 | +117 | +272 | 2026-05-10 |
+| 14,014 | +25 | +129 | +452 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clementtsang~bottom/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/clementtsang~bottom/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,880 | +37 | +130 | +305 | 2026-05-11 |
+| 18,163 | +18 | +49 | +197 | 2026-09-09 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 - [awesome-neovim](../l/neovim.md) / AI
+- [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yetone~avante.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yetone~avante.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,261 | +5 | +32 | +109 | 2026-04-27 |
+| 15,336 | +8 | +17 | +42 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/luin~ioredis/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/luin~ioredis/)*

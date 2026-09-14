@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 53,805 | +87 | +352 | +1,143 | 2026-05-10 |
+| 55,107 | +67 | +241 | +948 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Trackers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ngosang~trackerslist/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ngosang~trackerslist/)*

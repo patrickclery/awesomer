@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,213 | +14 | +40 | +88 | 2026-05-11 |
+| 13,440 | +7 | +38 | +155 | 2026-09-10 |
 
 ## Found In
 
+- [awesome-docker](../l/docker.md) / Engine & Runtime
 - [awesome-linux-containers](../l/linux-containers.md) / Containers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opencontainers~runc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/opencontainers~runc/)*

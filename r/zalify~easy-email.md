@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,412 | +3 | +78 | +179 | 2026-04-28 |
+| 3,016 | +41 | +179 | +516 | 2026-08-13 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zalify~easy-email/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zalify~easy-email/)*

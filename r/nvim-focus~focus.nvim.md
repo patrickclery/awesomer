@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 806 | -1 | -3 | +1 | 2026-02-08 |
+| 814 | +1 | +2 | +7 | 2026-02-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Split and Window
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-focus~focus.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-focus~focus.nvim/)*

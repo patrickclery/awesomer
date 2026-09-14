@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,155 | +3 | +9 | +17 | 2026-05-11 |
+| 1,170 | -2 | +1 | +7 | 2026-09-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / For Developers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~git-extra-commands/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~git-extra-commands/)*

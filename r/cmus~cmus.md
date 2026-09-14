@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,129 | +8 | +27 | +58 | 2026-01-10 |
+| 6,239 | +5 | +32 | +88 | 2026-08-12 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cmus~cmus/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cmus~cmus/)*

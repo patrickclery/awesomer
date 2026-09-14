@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,155 | +3 | +27 | +57 | 2026-05-05 |
+| 1,265 | +5 | +13 | +92 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/codelit~courselit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/codelit~courselit/)*

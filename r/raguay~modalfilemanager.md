@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 166 | +1 | +3 |  | 2026-03-28 |
+| 170 | +0 | +0 | +2 | 2026-05-16 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / File Organization Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/raguay~modalfilemanager/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/raguay~modalfilemanager/)*

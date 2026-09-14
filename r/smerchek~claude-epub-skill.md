@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 116 | +3 | +11 | +48 | 2025-10-18 |
+| 159 | +1 | +9 | +31 | 2025-10-18 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Document Processing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smerchek~claude-epub-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smerchek~claude-epub-skill/)*

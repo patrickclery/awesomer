@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 231 | +2 | +9 | +13 | 2025-11-21 |
+| 246 | +1 | +2 | +10 | 2026-08-20 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/satta~awesome-suricata/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/satta~awesome-suricata/)*

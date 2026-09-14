@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,758 | +5 | +19 | +44 | 2025-12-27 |
+| 2,838 | +2 | +8 | +41 | 2025-12-27 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sonic2kk~steamtinkerlaunch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sonic2kk~steamtinkerlaunch/)*

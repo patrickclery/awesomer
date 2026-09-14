@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 131 | +0 | +0 |  | 2026-05-11 |
+| 133 | +0 | +0 | +2 | 2026-09-07 |
 
 ## Found In
 
-- [awesome-docker](../l/docker.md) / Docker Images
 - [awesome-actions](../l/actions.md) / Deployment
+- [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wemake-services~docker-image-size-limit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wemake-services~docker-image-size-limit/)*

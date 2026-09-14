@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,296 | +4 | +12 | +17 | 2026-05-04 |
+| 5,327 | +4 | +9 | +21 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/solidusio~solidus/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/solidusio~solidus/)*

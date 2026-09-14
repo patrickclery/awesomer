@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,183 | +1 | +2 | +0 | 2026-03-24 |
+| 2,193 | -2 | -1 | -1 | 2026-03-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tmm1~stackprof/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tmm1~stackprof/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,191 | +6 | +28 | +43 | 2026-04-30 |
+| 1,337 | +9 | +20 | +127 | 2026-08-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/infosecb~awesome-detection-engineering/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/infosecb~awesome-detection-engineering/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 290 | +0 | +2 | +3 | 2026-01-29 |
+| 291 | +1 | +2 | -1 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Pages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shalzz~zola-deploy-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shalzz~zola-deploy-action/)*

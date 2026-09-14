@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,034 | +25 | +94 | +279 | 2026-05-11 |
+| 5,489 | +16 | +64 | +348 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Disposable emails domain list
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/disposable-email-domains~disposable-email-domains/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/disposable-email-domains~disposable-email-domains/)*

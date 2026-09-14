@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,100 | +6 | +37 | +74 | 2026-05-11 |
+| 5,303 | +13 | +42 | +160 | 2026-05-21 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mgramin~awesome-db-tools/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mgramin~awesome-db-tools/)*

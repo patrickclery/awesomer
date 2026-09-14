@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,540 | +47 | +232 | +427 | 2026-05-10 |
+| 17,312 | +106 | +267 | +570 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - Custom Communication Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/caronc~apprise/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/caronc~apprise/)*

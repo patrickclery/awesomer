@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,144 | +2 | +9 | +14 | 2026-05-08 |
+| 2,194 | +3 | +13 | +34 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/andydunstall~piko/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/andydunstall~piko/)*

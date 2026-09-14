@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,884 | +12 | +34 | +63 | 2026-05-08 |
+| 9,955 | +18 | +36 | +54 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lib~pq/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lib~pq/)*

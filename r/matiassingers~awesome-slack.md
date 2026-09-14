@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 882 | +1 | +4 | +4 | 2025-07-28 |
+| 893 | +2 | +3 | +8 | 2026-08-29 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Work
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/matiassingers~awesome-slack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/matiassingers~awesome-slack/)*

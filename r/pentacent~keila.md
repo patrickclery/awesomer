@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,091 | +7 | +28 | +60 | 2026-05-08 |
+| 2,209 | +4 | +23 | +93 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Newsletter Platform
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pentacent~keila/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pentacent~keila/)*

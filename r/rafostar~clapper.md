@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 958 | -2 | -2 | +4 | 2026-03-14 |
+| 972 | +0 | -1 | +7 | 2026-07-20 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Video
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rafostar~clapper/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rafostar~clapper/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,407 | +2 | +9 | +54 | 2026-03-25 |
+| 1,455 | -2 | -2 | +30 | 2026-03-25 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Beyond *arr
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mylar3~mylar3/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mylar3~mylar3/)*

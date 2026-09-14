@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 181 | +0 | +0 | +0 | 2026-05-11 |
+| 186 | +1 | +2 | +3 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opmdg~check_pgactivity/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/opmdg~check_pgactivity/)*

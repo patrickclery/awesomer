@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,815 | +5 | +9 | +11 | 2026-03-09 |
+| 14,831 | -4 | -3 | +8 | 2026-07-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Package Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cocoapods~cocoapods/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cocoapods~cocoapods/)*

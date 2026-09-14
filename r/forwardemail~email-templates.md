@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,733 | +0 | +6 | +9 | 2025-12-31 |
+| 3,738 | +1 | +1 | +5 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/forwardemail~email-templates/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/forwardemail~email-templates/)*

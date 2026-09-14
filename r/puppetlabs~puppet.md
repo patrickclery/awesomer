@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,854 | +3 | +27 | +42 | 2026-03-16 |
+| 7,928 | -1 | +7 | +46 | 2026-08-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / DevOps Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/puppetlabs~puppet/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/puppetlabs~puppet/)*

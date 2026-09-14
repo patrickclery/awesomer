@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 122,089 | +935 | +1,462 | +2,391 | 2026-05-11 |
+| 137,263 | +3,053 | +5,517 | +14,148 | 2026-09-10 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ripienaar~free-for-dev/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ripienaar~free-for-dev/)*

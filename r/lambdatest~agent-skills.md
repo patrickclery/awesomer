@@ -1,6 +1,6 @@
 # LambdaTest/agent-skills
 
-> Agent Skills for Test Automation
+> AI agent skills for TestMu AI (Formerly LambdaTest).
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/LambdaTest/agent-skills) | [Live site ↗](https://patrickclery.com/awesomer/r/lambdatest~agent-skills/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 272 | +19 | +167 |  | 2026-05-08 |
+| 367 | +5 | +15 | +56 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lambdatest~agent-skills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lambdatest~agent-skills/)*

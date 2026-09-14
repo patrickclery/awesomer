@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 946 | -1 | +14 | +41 | 2026-05-10 |
+| 1,082 | +12 | +43 | +94 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Note-taking & Editors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brufdev~many-notes/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brufdev~many-notes/)*

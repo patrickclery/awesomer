@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,690 | +1 | +4 | +8 | 2026-01-19 |
+| 1,711 | -1 | +4 | +16 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/faroit~awesome-python-scientific-audio/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/faroit~awesome-python-scientific-audio/)*

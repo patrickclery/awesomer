@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,395 | +0 | +1 |  | 2026-03-15 |
+| 1,407 | +0 | +1 | +6 | 2026-07-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Ebook
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kmuto~review/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kmuto~review/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,812 | +23 | +70 | +151 | 2026-04-10 |
+| 7,136 | +15 | +50 | +216 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/denvercoder1~github-readme-streak-stats/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/denvercoder1~github-readme-streak-stats/)*

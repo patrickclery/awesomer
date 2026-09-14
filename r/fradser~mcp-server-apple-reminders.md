@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 106 | +4 | +25 | +83 | 2026-04-25 |
+| 204 | +5 | +24 | +63 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fradser~mcp-server-apple-reminders/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fradser~mcp-server-apple-reminders/)*

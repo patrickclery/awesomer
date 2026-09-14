@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 233 | +1 | +4 | +6 | 2026-05-08 |
+| 241 | +1 | +2 | +4 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / React
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/daydreamer-riri~vite-react-ssg/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/daydreamer-riri~vite-react-ssg/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,803 | +1 | +16 | +65 | 2025-11-13 |
+| 2,865 | +5 | +13 | +39 | 2026-06-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Fairness & Bias Mitigation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trusted-ai~aif360/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trusted-ai~aif360/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 394 | +1 | +3 | +22 | 2026-01-20 |
+| 427 | +0 | +1 | +11 | 2026-08-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Icon
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/2kabhishek~nerdy.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/2kabhishek~nerdy.nvim/)*

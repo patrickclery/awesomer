@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 521 | +0 | +1 | +7 | 2026-05-09 |
+| 526 | -1 | +0 | +3 | 2026-07-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Debugging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/andrewferrier~debugprint.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/andrewferrier~debugprint.nvim/)*

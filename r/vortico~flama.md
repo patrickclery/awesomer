@@ -1,6 +1,6 @@
 # vortico/flama
 
-> Fire up your models with the flame 🔥
+> The production framework for Predictive and Generative AI. Serve any model as an API in one line, with OpenAI/Anthropic/
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/vortico/flama) | [Live site ↗](https://patrickclery.com/awesomer/r/vortico~flama/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 289 | +0 | +1 | +1 | 2026-05-06 |
+| 297 | +1 | +1 | +11 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vortico~flama/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vortico~flama/)*

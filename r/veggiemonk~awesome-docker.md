@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,963 | +23 | +182 | +256 | 2026-04-28 |
+| 36,813 | +50 | +176 | +595 | 2026-09-12 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/veggiemonk~awesome-docker/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/veggiemonk~awesome-docker/)*

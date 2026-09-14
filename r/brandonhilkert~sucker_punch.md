@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,635 | -2 | -3 | +4 | 2025-12-24 |
+| 2,630 | -1 | -1 | -3 | 2025-12-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Queues and Messaging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brandonhilkert~sucker_punch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brandonhilkert~sucker_punch/)*

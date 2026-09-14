@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 207 | +1 | +2 |  | 2026-04-21 |
+| 211 | +0 | +0 | +4 | 2026-06-29 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alexlafroscia~vite-plugin-handlebars/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexlafroscia~vite-plugin-handlebars/)*

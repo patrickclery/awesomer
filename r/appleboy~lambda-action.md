@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 436 | +0 | +1 |  | 2026-03-28 |
+| 435 | +0 | +0 | +0 | 2026-08-09 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/appleboy~lambda-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/appleboy~lambda-action/)*

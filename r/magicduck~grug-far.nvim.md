@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,911 | +1 | +53 | +97 | 2026-04-27 |
+| 2,014 | +3 | +19 | +72 | 2026-08-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Search
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/magicduck~grug-far.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/magicduck~grug-far.nvim/)*

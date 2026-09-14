@@ -1,6 +1,6 @@
 # google-ai-edge/LiteRT-LM
 
-> No description available.
+> LiteRT-LM is Google's production-ready, high-performance, open-source inference framework for deploying Large Language M
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/google-ai-edge/LiteRT-LM) | [Live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert-lm/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,935 | +181 | +1,541 | +4,138 | 2026-05-11 |
+| 6,437 | +56 | +243 | +833 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert-lm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert-lm/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 835 | +0 | +0 | +1 | 2026-01-12 |
+| 836 | +1 | +1 | -1 | 2026-01-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Crawling
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/postmodern~spidr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/postmodern~spidr/)*

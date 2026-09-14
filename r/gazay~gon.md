@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,091 | +0 | +2 | +1 | 2026-01-11 |
+| 3,101 | +0 | +1 | +2 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / View helpers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gazay~gon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gazay~gon/)*

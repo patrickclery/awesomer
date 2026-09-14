@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 589 | +2 | +11 | +27 | 2026-04-18 |
+| 612 | +2 | +5 | +15 | 2026-08-21 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) LinkedIn
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/l4rm4nd~linkedindumper/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/l4rm4nd~linkedindumper/)*

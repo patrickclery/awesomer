@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 213 | +5 |  |  | 2026-05-08 |
+| 347 | +4 | +33 | +90 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smart-mcp-proxy~mcpproxy-go/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smart-mcp-proxy~mcpproxy-go/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,209 | +0 | +3 | +4 | 2026-05-05 |
+| 1,216 | +1 | +3 | +4 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elixir-ecto~postgrex/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elixir-ecto~postgrex/)*

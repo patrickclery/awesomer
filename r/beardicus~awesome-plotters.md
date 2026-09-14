@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,395 | +3 | +17 | +29 | 2025-12-03 |
+| 1,455 | +5 | +17 | +43 | 2025-12-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Hardware
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/beardicus~awesome-plotters/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/beardicus~awesome-plotters/)*

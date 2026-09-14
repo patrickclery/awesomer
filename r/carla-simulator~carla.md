@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,941 | +27 | +127 | +424 | 2026-05-11 |
+| 14,393 | +21 | +98 | +325 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Driving & Robotics Simulators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/carla-simulator~carla/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/carla-simulator~carla/)*

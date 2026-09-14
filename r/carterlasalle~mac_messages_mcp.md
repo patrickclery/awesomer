@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 279 | +3 | +12 | +21 | 2026-05-10 |
+| 326 | +5 | +14 | +28 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/carterlasalle~mac_messages_mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/carterlasalle~mac_messages_mcp/)*

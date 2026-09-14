@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 501 | +0 | +4 | +12 | 2026-01-06 |
+| 539 | +1 | +6 | +36 | 2026-01-06 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Books
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/terrytangyuan~distributed-ml-patterns/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/terrytangyuan~distributed-ml-patterns/)*

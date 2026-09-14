@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 691 | +1 | +2 | +3 | 2026-05-09 |
+| 702 | +2 | +4 | +6 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~throttler/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~throttler/)*

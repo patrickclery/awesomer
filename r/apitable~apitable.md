@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,344 | +8 | +37 | +49 | 2025-10-30 |
+| 15,598 | +72 | +150 | +210 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apitable~apitable/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apitable~apitable/)*

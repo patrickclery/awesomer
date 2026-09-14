@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 698 | +3 | +14 | +31 | 2026-04-07 |
+| 857 | +2 | +13 | +107 | 2026-08-18 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/joewdavies~awesome-frontend-gis/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/joewdavies~awesome-frontend-gis/)*

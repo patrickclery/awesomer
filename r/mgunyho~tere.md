@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,797 | -1 | +0 | +6 | 2026-03-09 |
+| 1,799 | -1 | -3 | -1 | 2026-03-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mgunyho~tere/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mgunyho~tere/)*

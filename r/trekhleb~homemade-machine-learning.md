@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,519 | +10 | +50 | +162 | 2025-11-23 |
+| 24,783 | +15 | +29 | +179 | 2025-11-23 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
-- [Awesome Open Source AI](../l/opensource-ai.md) / Educational Resources & Courses
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trekhleb~homemade-machine-learning/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trekhleb~homemade-machine-learning/)*

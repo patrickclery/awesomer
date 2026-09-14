@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,207 | +0 | +0 |  | 2026-03-14 |
+| 1,209 | +0 | +1 | +1 | 2026-03-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/drhenner~ror_ecommerce/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/drhenner~ror_ecommerce/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 163 | +6 | +20 | +26 | 2026-05-04 |
+| 539 | +27 | +128 | +336 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Art & Culture
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/diivi~aseprite-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/diivi~aseprite-mcp/)*

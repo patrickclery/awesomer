@@ -1,6 +1,6 @@
 # vkbo/novelWriter
 
-> novelWriter is an open source plain text editor designed for writing novels.
+> novelWriter is an open source plain text editor designed for writing novels
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/vkbo/novelWriter) | [Live site ↗](https://patrickclery.com/awesomer/r/vkbo~novelwriter/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,905 | +16 | +82 | +206 | 2026-05-03 |
+| 3,116 | +17 | +49 | +141 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Writing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vkbo~novelwriter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vkbo~novelwriter/)*

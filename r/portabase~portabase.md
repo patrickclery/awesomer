@@ -1,6 +1,6 @@
 # Portabase/portabase
 
-> Portabase - Database backup & restore tool for PostgreSQL, MySQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis and Valk
+> Portabase - Database backup & restore tool for PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis a
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Portabase/portabase) | [Live site ↗](https://patrickclery.com/awesomer/r/portabase~portabase/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 815 | +15 | +130 | +280 | 2026-04-29 |
+| 1,712 | +12 | +71 | +694 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Backup
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/portabase~portabase/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/portabase~portabase/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 42,611 | +638 | +2,091 | +5,664 | 2026-04-22 |
+| 48,528 | +234 | +1,129 | +4,089 | 2026-09-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Finance & Quantitative AI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~qlib/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~qlib/)*

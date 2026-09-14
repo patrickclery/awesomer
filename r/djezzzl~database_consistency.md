@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,185 | +2 | +13 | +12 | 2026-04-24 |
+| 1,192 | +0 | +1 | +3 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/djezzzl~database_consistency/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/djezzzl~database_consistency/)*

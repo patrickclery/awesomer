@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,654 | +3 | +17 | +49 | 2026-04-22 |
+| 1,728 | +1 | +11 | +38 | 2026-07-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rachartier~tiny-inline-diagnostic.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rachartier~tiny-inline-diagnostic.nvim/)*

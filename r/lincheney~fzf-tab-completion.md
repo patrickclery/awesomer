@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 838 | +2 | +7 | +10 | 2026-04-05 |
+| 862 | +2 | +3 | +15 | 2026-07-31 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Completions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lincheney~fzf-tab-completion/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lincheney~fzf-tab-completion/)*

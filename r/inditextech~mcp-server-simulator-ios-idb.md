@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 303 | +1 | +1 | +6 | 2026-01-26 |
+| 309 | +0 | +0 | +3 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/inditextech~mcp-server-simulator-ios-idb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/inditextech~mcp-server-simulator-ios-idb/)*

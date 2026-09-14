@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,029 | +0 | +4 | +9 | 2026-04-19 |
+| 2,054 | +0 | +2 | +14 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/retext-project~retext/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/retext-project~retext/)*

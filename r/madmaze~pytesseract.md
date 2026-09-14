@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,338 | +2 | +8 | +15 | 2026-03-16 |
+| 6,384 | +3 | +3 | +23 | 2026-07-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/madmaze~pytesseract/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/madmaze~pytesseract/)*

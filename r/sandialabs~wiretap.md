@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,096 | +5 | +9 | +15 | 2026-02-03 |
+| 1,111 | +1 | +7 | +17 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sandialabs~wiretap/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sandialabs~wiretap/)*

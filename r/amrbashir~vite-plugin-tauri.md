@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 288 | +0 | +0 | +0 | 2026-04-07 |
+| 293 | +0 | -1 | +1 | 2026-06-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/amrbashir~vite-plugin-tauri/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/amrbashir~vite-plugin-tauri/)*

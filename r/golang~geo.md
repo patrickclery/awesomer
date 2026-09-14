@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,838 | +3 | +9 | +10 | 2026-05-05 |
+| 1,853 | +0 | +5 | +12 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Go
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/golang~geo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/golang~geo/)*

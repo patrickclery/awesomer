@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,484 | +21 | +64 | +103 | 2026-04-21 |
+| 12,677 | +20 | +57 | +150 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/orf~gping/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/orf~gping/)*

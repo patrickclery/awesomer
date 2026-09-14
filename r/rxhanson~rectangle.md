@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,032 | +42 | +260 | +447 | 2026-04-29 |
+| 29,898 | +32 | +208 | +656 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Window Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rxhanson~rectangle/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rxhanson~rectangle/)*

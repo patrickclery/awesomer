@@ -1,6 +1,6 @@
 # svg/svgo
 
-> ⚙️ Node.js tool for optimizing SVG files
+> SVG Optimizer for Node.js and CLI. ⚙️
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/svg/svgo) | [Live site ↗](https://patrickclery.com/awesomer/r/svg~svgo/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,473 | +7 | +47 | +79 | 2026-04-17 |
+| 22,669 | +16 | +38 | +135 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/svg~svgo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/svg~svgo/)*

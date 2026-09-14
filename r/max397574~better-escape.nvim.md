@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 784 | -1 | +4 | +5 | 2026-04-22 |
+| 797 | +1 | +2 | +10 | 2026-04-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Keybinding
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/max397574~better-escape.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/max397574~better-escape.nvim/)*

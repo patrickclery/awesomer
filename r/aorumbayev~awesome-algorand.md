@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 214 | +0 | +0 | +2 | 2026-04-24 |
+| 218 | -1 | +0 | +3 | 2026-09-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Decentralized Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aorumbayev~awesome-algorand/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aorumbayev~awesome-algorand/)*

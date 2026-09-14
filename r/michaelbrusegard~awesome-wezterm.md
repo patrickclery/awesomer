@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 622 | +7 | +38 | +70 | 2026-05-11 |
+| 747 | +4 | +19 | +89 | 2026-08-21 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelbrusegard~awesome-wezterm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelbrusegard~awesome-wezterm/)*

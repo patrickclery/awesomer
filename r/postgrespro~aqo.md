@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 493 | +2 | +3 |  | 2026-02-25 |
+| 500 | +0 | +1 | +5 | 2026-06-27 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Optimization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~aqo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~aqo/)*

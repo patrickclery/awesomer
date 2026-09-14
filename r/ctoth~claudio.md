@@ -1,6 +1,6 @@
 # ctoth/claudio
 
-> Hook-based audio plugin for Claude Code that plays contextual sounds based on tool usage and events
+> Hook-based audio feedback for Claude Code and OpenAI Codex CLI
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ctoth/claudio) | [Live site ↗](https://patrickclery.com/awesomer/r/ctoth~claudio/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 101 | +8 | +23 | +60 | 2026-04-23 |
+| 114 | +2 | +3 | +9 | 2026-09-12 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Remote Control, Notifications & Voice I/O
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ctoth~claudio/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ctoth~claudio/)*

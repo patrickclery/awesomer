@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 982 | -1 |  |  | 2025-05-08 |
+| 989 | +0 | +4 | +7 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Frameworks
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/camping~camping/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/camping~camping/)*

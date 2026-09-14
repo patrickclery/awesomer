@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 460 | +1 | +9 | +18 | 2026-05-10 |
+| 483 | -2 | +1 | +16 | 2026-07-19 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lyqht~awesome-supabase/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lyqht~awesome-supabase/)*

@@ -1,6 +1,6 @@
 # tomwright/dasel
 
-> Select, put and delete data from JSON, TOML, YAML, XML, INI, HCL and CSV files with a single tool. Also available as a g
+> Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/tomwright/dasel) | [Live site ↗](https://patrickclery.com/awesomer/r/tomwright~dasel/)
 
@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,929 | +7 | +24 | +127 | 2026-05-04 |
+| 8,030 | +8 | +14 | +55 | 2026-08-16 |
 
 ## Found In
 
-- [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 - [awesome-shell](../l/shell.md) / Multimedia and File Formats
+- [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tomwright~dasel/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tomwright~dasel/)*

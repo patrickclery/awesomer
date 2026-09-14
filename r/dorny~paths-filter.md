@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,118 | +15 | +52 | +108 | 2026-05-06 |
+| 3,331 | +7 | +42 | +122 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Utility
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dorny~paths-filter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dorny~paths-filter/)*

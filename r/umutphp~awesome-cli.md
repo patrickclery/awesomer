@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 743 | +3 | +14 | +53 | 2025-10-08 |
+| 815 | +6 | +19 | +50 | 2025-10-08 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Related
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/umutphp~awesome-cli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/umutphp~awesome-cli/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,365 | -3 | +9 | +30 | 2026-03-15 |
+| 7,442 | +4 | +14 | +44 | 2026-03-15 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Fonts
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/belluzj~fantasque-sans/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/belluzj~fantasque-sans/)*

@@ -1,6 +1,6 @@
 # dbcli/mycli
 
-> A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.
+> Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/dbcli/mycli) | [Live site ↗](https://patrickclery.com/awesomer/r/dbcli~mycli/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,908 | +0 | +12 | +25 | 2026-05-11 |
+| 11,976 | +6 | +14 | +46 | 2026-09-12 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dbcli~mycli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbcli~mycli/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,362 | +3 | +2 | +2 | 2026-03-28 |
+| 5,376 | +2 | +5 | +4 | 2026-07-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Template Engine
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/slim-template~slim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/slim-template~slim/)*

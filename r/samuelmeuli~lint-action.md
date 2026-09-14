@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 606 | +1 | +2 | +4 | 2026-05-08 |
+| 608 | +0 | -2 | +0 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/samuelmeuli~lint-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/samuelmeuli~lint-action/)*

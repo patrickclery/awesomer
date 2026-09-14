@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 99,819 | +215 | +792 | +1,618 | 2026-05-11 |
+| 102,971 | +132 | +598 | +2,202 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-machine-learning](../l/machine-learning.md) / Python
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
+- [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pytorch~pytorch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pytorch~pytorch/)*

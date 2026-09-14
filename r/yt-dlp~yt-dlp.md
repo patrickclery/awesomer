@@ -8,14 +8,14 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 161,683 | +1,181 | +5,534 | +9,792 | 2026-05-05 |
+| 190,836 | +1,546 | +6,428 | +20,120 | 2026-08-30 |
 
 ## Found In
 
-- [awesome-shell](../l/shell.md) / Downloading and Serving
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
+- [awesome-shell](../l/shell.md) / Downloading and Serving
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Video Search and Other Video Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yt-dlp~yt-dlp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yt-dlp~yt-dlp/)*

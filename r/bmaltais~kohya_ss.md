@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,260 | +22 | +93 | +346 | 2026-05-08 |
+| 12,580 | +8 | +46 | +200 | 2026-08-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bmaltais~kohya_ss/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bmaltais~kohya_ss/)*

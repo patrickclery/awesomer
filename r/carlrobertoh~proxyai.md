@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,897 | +5 | +20 | +72 | 2026-05-07 |
+| 1,934 | +1 | +3 | +20 | 2026-05-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
+- [Awesome local LLM](../l/local-llm.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/carlrobertoh~proxyai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/carlrobertoh~proxyai/)*

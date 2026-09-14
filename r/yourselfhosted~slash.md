@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,151 | +0 | +16 | +47 | 2026-03-01 |
+| 3,177 | -1 | +7 | +15 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Bookmarks and Link Sharing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yourselfhosted~slash/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yourselfhosted~slash/)*

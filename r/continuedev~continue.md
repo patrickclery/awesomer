@@ -1,6 +1,6 @@
 # continuedev/continue
 
-> ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
+> open-source coding agent
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/continuedev/continue) | [Live site ↗](https://patrickclery.com/awesomer/r/continuedev~continue/)
 
@@ -8,12 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,109 | +152 | +624 | +2,010 | 2026-05-11 |
+| 35,892 | +93 | +411 | +2,196 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
+- [Awesome local LLM](../l/local-llm.md) / Coding Agents
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧪 13. Developer Tools & Integrations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/continuedev~continue/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/continuedev~continue/)*

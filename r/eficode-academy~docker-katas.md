@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 289 | +0 | +2 | +3 | 2026-02-20 |
+| 290 | +0 | +0 | +2 | 2026-09-11 |
 
 ## Found In
 
-- [awesome-docker](../l/docker.md) / Where to start
+- [awesome-docker](../l/docker.md) / Where to Start
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eficode-academy~docker-katas/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eficode-academy~docker-katas/)*

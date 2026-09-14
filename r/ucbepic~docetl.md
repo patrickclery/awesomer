@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,748 | +7 | +50 | +221 | 2026-03-27 |
+| 4,088 | +15 | +121 | +258 | 2026-09-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Document Conversion & Preprocessing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ucbepic~docetl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ucbepic~docetl/)*

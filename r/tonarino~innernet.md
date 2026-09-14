@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,477 | +6 | +17 | +45 | 2026-03-19 |
+| 5,547 | +7 | +25 | +53 | 2026-07-28 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tonarino~innernet/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tonarino~innernet/)*

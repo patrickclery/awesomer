@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,924 | +7 | +52 | +101 | 2026-04-25 |
+| 3,148 | +3 | +41 | +147 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Others
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/domokane~financepy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/domokane~financepy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 71,145 | +234 | +1,227 | +4,352 | 2026-05-08 |
+| 74,742 | +152 | +650 | +2,565 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛠️ 7. Training & Fine-tuning Ecosystem
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hiyouga~llama-factory/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hiyouga~llama-factory/)*

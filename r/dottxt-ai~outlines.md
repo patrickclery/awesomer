@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,825 | +44 | +186 | +473 | 2026-05-04 |
+| 15,790 | +49 | +186 | +1,829 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Structured Outputs
+- [Awesome local LLM](../l/local-llm.md) / Models
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dottxt-ai~outlines/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dottxt-ai~outlines/)*

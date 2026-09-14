@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,189 | +16 | +81 | +278 | 2026-05-08 |
+| 8,476 | +12 | +63 | +204 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / ⚡ 3. Inference Engines & Serving
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bitsandbytes-foundation~bitsandbytes/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bitsandbytes-foundation~bitsandbytes/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 690 | +3 | +9 | +13 | 2026-04-25 |
+| 703 | +2 | +6 | +11 | 2026-08-10 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cycjimmy~semantic-release-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cycjimmy~semantic-release-action/)*

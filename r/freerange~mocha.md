@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,281 | +0 | +1 | +10 | 2026-03-14 |
+| 1,284 | +0 | -1 | -1 | 2026-07-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/freerange~mocha/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/freerange~mocha/)*

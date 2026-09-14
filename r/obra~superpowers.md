@@ -8,11 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 186,375 | +8,361 | +39,637 | +82,117 | 2026-05-08 |
+| 286,098 | +3,884 | +14,114 | +57,724 | 2026-09-12 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 - [awesome-claude-code](../l/claude-code.md) / General
+- [Awesome local LLM](../l/local-llm.md) / Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/obra~superpowers/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/obra~superpowers/)*

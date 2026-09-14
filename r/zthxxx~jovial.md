@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 561 | +0 | +1 | +2 | 2026-04-20 |
+| 566 | +0 | +3 | +4 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zthxxx~jovial/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zthxxx~jovial/)*

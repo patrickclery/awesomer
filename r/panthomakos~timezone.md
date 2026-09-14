@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 363 | +0 | +0 | +0 | 2025-12-11 |
+| 373 | +0 | +0 | -2 | 2025-12-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Date and Time Processing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/panthomakos~timezone/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/panthomakos~timezone/)*

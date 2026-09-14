@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 87,424 | +89 | +392 | +797 | 2026-05-08 |
+| 90,820 | +111 | +395 | +1,660 | 2026-09-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / OpenSource-Computer-Vision
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/opencv~opencv/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/opencv~opencv/)*

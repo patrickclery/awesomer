@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,561 | +19 | +117 | +347 | 2026-05-11 |
+| 7,915 | +16 | +62 | +235 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Groupware / Webmail
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tutao~tutanota/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tutao~tutanota/)*

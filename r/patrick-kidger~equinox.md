@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,877 | +6 | +32 | +112 | 2026-05-11 |
+| 2,970 | +6 | +23 | +66 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deep Learning Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/patrick-kidger~equinox/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/patrick-kidger~equinox/)*

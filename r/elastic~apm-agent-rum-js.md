@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 300 | +0 | +0 | +5 | 2026-05-09 |
+| 301 | -1 | -1 | +0 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Showcases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elastic~apm-agent-rum-js/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elastic~apm-agent-rum-js/)*

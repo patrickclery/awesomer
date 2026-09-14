@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,389 | +4 | +22 | +40 | 2025-09-22 |
+| 15,481 | +6 | +24 | +68 | 2025-09-22 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kaldi-asr~kaldi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kaldi-asr~kaldi/)*

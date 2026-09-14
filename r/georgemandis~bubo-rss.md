@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 231 | +0 | +1 | +19 | 2026-01-10 |
+| 234 | +1 | +1 | +3 | 2026-01-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/georgemandis~bubo-rss/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/georgemandis~bubo-rss/)*

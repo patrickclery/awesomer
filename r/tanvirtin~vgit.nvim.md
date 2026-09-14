@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 849 | +2 | +6 | +3 | 2026-03-28 |
+| 847 | -1 | -4 | -2 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tanvirtin~vgit.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tanvirtin~vgit.nvim/)*

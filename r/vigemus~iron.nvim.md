@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,341 | +5 | +13 | +22 | 2026-02-20 |
+| 1,360 | -1 | +3 | +12 | 2026-08-30 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Code Runner
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vigemus~iron.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vigemus~iron.nvim/)*

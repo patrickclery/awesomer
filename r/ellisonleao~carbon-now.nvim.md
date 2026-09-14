@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 193 | +0 | +0 |  | 2025-11-05 |
+| 195 | +0 | +0 | +2 | 2025-11-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Snippet
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ellisonleao~carbon-now.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ellisonleao~carbon-now.nvim/)*

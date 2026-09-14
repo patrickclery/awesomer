@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 101 | +0 | +4 | +9 | 2026-04-11 |
+| 109 | +0 | +2 | +8 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Task Management & To-do Lists
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nymanjens~piga/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nymanjens~piga/)*

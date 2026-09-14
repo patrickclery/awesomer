@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,451 | +8 | +31 | +64 | 2026-04-10 |
+| 3,530 | +2 | +16 | +53 | 2026-08-27 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/winetricks~winetricks/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/winetricks~winetricks/)*

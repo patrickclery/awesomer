@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,107 | +66 | +210 | +1,410 | 2026-05-11 |
+| 9,049 | +40 | +196 | +910 | 2026-09-11 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
+- [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mervinpraison~praisonai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mervinpraison~praisonai/)*

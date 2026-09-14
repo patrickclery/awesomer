@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 572 | +0 | +0 | +8 | 2026-04-22 |
+| 581 | +0 | +2 | +3 | 2026-07-18 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/altermo~ultimate-autopair.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/altermo~ultimate-autopair.nvim/)*

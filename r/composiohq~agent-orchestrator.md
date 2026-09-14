@@ -1,6 +1,6 @@
 # ComposioHQ/agent-orchestrator
 
->  Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, mer
+> Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, we
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ComposioHQ/agent-orchestrator) | [Live site ↗](https://patrickclery.com/awesomer/r/composiohq~agent-orchestrator/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,956 | +169 | +823 |  | 2026-05-11 |
+| 11,918 | +334 | +2,418 | +4,363 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/composiohq~agent-orchestrator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/composiohq~agent-orchestrator/)*

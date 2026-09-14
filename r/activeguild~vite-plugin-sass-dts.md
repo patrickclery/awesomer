@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 130 | +0 | +1 | +0 | 2026-03-27 |
+| 133 | +0 | +0 | +1 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/activeguild~vite-plugin-sass-dts/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/activeguild~vite-plugin-sass-dts/)*

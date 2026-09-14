@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 486 | +0 | -1 |  | 2025-10-06 |
+| 483 | +0 | +0 | -3 | 2025-10-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Data Visualization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/styd~apexcharts.rb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/styd~apexcharts.rb/)*

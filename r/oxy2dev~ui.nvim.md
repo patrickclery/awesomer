@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 153 | +0 | -1 | -1 | 2026-02-14 |
+| 159 | +0 | +1 | +5 | 2026-02-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / UI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/oxy2dev~ui.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oxy2dev~ui.nvim/)*

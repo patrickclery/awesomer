@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,402 | +6 | +40 | +127 | 2025-11-17 |
+| 3,547 | +16 | +43 | +94 | 2026-06-01 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/notpresident35~awesome-learn-gamedev/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/notpresident35~awesome-learn-gamedev/)*

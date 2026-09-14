@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,938 | +0 | -1 | +3 | 2025-12-29 |
+| 1,948 | +0 | +3 | +6 | 2026-07-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fcambus~ansiweather/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fcambus~ansiweather/)*

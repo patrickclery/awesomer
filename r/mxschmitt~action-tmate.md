@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,538 | +6 | +13 | +21 | 2026-05-09 |
+| 3,581 | +2 | +6 | +31 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Utility
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mxschmitt~action-tmate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mxschmitt~action-tmate/)*

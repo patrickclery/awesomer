@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,180 | +2 | +11 |  | 2026-05-06 |
+| 1,215 | +5 | +10 | +27 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Dashboards and Homepages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mescon~muximux/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mescon~muximux/)*

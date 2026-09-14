@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 418 | +0 | +5 | +12 | 2026-04-27 |
+| 435 | +0 | +5 | +9 | 2026-07-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Animation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rachartier~tiny-glimmer.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rachartier~tiny-glimmer.nvim/)*

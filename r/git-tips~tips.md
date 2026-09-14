@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,695 | +3 | +4 | +4 | 2026-04-10 |
+| 21,723 | +1 | +2 | +21 | 2026-09-13 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/git-tips~tips/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/git-tips~tips/)*

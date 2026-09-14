@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,115 | +1 | +1 | +7 | 2026-05-11 |
+| 4,131 | +5 | +9 | +17 | 2026-09-12 |
 
 ## Found In
 
+- [awesome-ruby](../l/ruby.md) / RSS
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stringer-rss~stringer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stringer-rss~stringer/)*

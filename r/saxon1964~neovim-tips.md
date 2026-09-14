@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 458 | +2 | +5 | +25 | 2026-04-19 |
+| 470 | +0 | +1 | +9 | 2026-04-19 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Workflow
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saxon1964~neovim-tips/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saxon1964~neovim-tips/)*

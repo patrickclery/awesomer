@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 303 | +0 | +0 |  | 2026-02-25 |
+| 303 | +0 | +0 | +0 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/googleads~google-api-ads-ruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/googleads~google-api-ads-ruby/)*

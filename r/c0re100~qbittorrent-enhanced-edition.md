@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,659 | +48 | +182 | +384 | 2026-05-10 |
+| 26,569 | +38 | +188 | +591 | 2026-08-19 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/c0re100~qbittorrent-enhanced-edition/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/c0re100~qbittorrent-enhanced-edition/)*

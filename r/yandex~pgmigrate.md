@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 667 | +0 | +1 | +7 | 2026-05-01 |
+| 670 | +0 | +2 | +4 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yandex~pgmigrate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yandex~pgmigrate/)*

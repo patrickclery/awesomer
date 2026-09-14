@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,449 | +2 | +4 | +29 | 2025-05-24 |
+| 2,466 | -1 | +1 | +7 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Cursorline
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rrethy~vim-illuminate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rrethy~vim-illuminate/)*

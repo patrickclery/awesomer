@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 204 | +1 | +3 | +7 | 2026-04-01 |
+| 206 | +0 | +0 | +2 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neo451~feed.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neo451~feed.nvim/)*

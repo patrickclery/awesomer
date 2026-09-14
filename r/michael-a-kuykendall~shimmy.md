@@ -1,6 +1,6 @@
 # Michael-A-Kuykendall/shimmy
 
-> ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single 
+> ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Sing
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Michael-A-Kuykendall/shimmy) | [Live site ↗](https://patrickclery.com/awesomer/r/michael-a-kuykendall~shimmy/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,798 | +25 | +833 | +975 | 2026-03-26 |
+| 5,867 | +49 | +120 | +447 | 2026-08-30 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Rust
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michael-a-kuykendall~shimmy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/michael-a-kuykendall~shimmy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 440 | +1 | +4 | +7 | 2026-04-04 |
+| 455 | +0 | +0 | +13 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Inbound - Mail Parser
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spamscope~mail-parser/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spamscope~mail-parser/)*

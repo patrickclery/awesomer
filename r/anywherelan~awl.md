@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 532 | +4 | +23 | +7 | 2026-04-27 |
+| 681 | +8 | +28 | +139 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anywherelan~awl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anywherelan~awl/)*

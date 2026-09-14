@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 458 | +2 | +13 | +9 | 2026-03-29 |
+| 490 | +4 | +8 | +21 | 2026-09-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/myhoneybadger~awesome-github-wiki/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/myhoneybadger~awesome-github-wiki/)*

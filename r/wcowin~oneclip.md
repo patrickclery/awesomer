@@ -1,6 +1,6 @@
 # Wcowin/OneClip
 
-> OneClip——A simple and professional native clipboard manager for macOS ｜简单专业的macOS原生剪贴板软件
+> OneClip——A simple and professional native clipboard manager for macOS ｜干净美观的 macOS 剪贴板管理工具｜还支持轻量级截图/长截图、录屏录音、OCR、划词翻译、拖拽
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Wcowin/OneClip) | [Live site ↗](https://patrickclery.com/awesomer/r/wcowin~oneclip/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 324 | +5 | +59 | +214 | 2026-05-08 |
+| 462 | +12 | +27 | +110 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Clipboard Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wcowin~oneclip/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wcowin~oneclip/)*

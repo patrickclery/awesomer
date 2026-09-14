@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 142 | +1 | +2 | +8 | 2026-03-24 |
+| 151 | +1 | +4 | +10 | 2026-08-06 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/appledragon~everythingbymdfind/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/appledragon~everythingbymdfind/)*

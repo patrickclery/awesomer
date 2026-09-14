@@ -1,6 +1,6 @@
 # dmtrKovalenko/fff.nvim
 
-> The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS
+> The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/dmtrKovalenko/fff.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/dmtrkovalenko~fff.nvim/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,945 | +174 | +1,515 | +4,084 | 2026-05-08 |
+| 10,714 | +77 | +748 | +2,108 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dmtrkovalenko~fff.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dmtrkovalenko~fff.nvim/)*

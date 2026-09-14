@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 234 | +0 | +3 | +7 | 2026-05-11 |
+| 239 | +0 | +1 | +4 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/marcizhu~marcizhu/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/marcizhu~marcizhu/)*

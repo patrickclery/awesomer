@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,097 | +17 | +89 | +313 | 2026-05-11 |
+| 5,670 | +24 | +107 | +428 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Work Queues
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/riverqueue~river/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/riverqueue~river/)*

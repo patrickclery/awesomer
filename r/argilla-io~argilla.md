@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,969 | +14 | +40 | +136 | 2026-04-27 |
+| 5,105 | +4 | +26 | +102 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛠️ 7. Training & Fine-tuning Ecosystem
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/argilla-io~argilla/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/argilla-io~argilla/)*

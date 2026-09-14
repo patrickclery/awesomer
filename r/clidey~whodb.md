@@ -1,6 +1,6 @@
 # clidey/whodb
 
-> A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse 
+> Where data access meets operational intelligence
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/clidey/whodb) | [Live site ↗](https://patrickclery.com/awesomer/r/clidey~whodb/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,816 | +38 | +102 | +165 | 2026-05-11 |
+| 5,024 | +3 | +17 | +170 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clidey~whodb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/clidey~whodb/)*

@@ -1,6 +1,6 @@
 # latitude-dev/latitude-llm
 
-> Latitude is the open-source agent engineering platform
+> Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify t
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/latitude-dev/latitude-llm) | [Live site ↗](https://patrickclery.com/awesomer/r/latitude-dev~latitude-llm/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,981 | +5 | +36 | +127 | 2026-05-11 |
+| 4,640 | +12 | +58 | +511 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/latitude-dev~latitude-llm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/latitude-dev~latitude-llm/)*

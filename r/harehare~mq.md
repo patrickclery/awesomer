@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 421 | +5 | +42 | +121 | 2026-05-11 |
+| 1,029 | +12 | +23 | +114 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-cli-apps](../l/cli-apps.md) / Markdown
 - [awesome-cli-apps](../l/cli-apps.md) / Processors
+- [awesome-cli-apps](../l/cli-apps.md) / Markdown
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/harehare~mq/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/harehare~mq/)*

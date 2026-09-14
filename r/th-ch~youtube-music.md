@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,640 | +111 | +333 | +1,221 | 2026-05-10 |
+| 33,468 | +73 | +407 | +1,531 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/th-ch~youtube-music/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/th-ch~youtube-music/)*

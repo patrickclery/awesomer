@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,395 | +63 | +286 | +472 | 2026-05-11 |
+| 17,409 | +48 | +246 | +694 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/imagemagick~imagemagick/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/imagemagick~imagemagick/)*

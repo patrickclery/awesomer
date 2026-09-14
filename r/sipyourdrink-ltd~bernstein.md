@@ -1,6 +1,6 @@
 # sipyourdrink-ltd/bernstein
 
-> Deterministic orchestrator for 40+ CLI AI agents. Git worktree isolation, HMAC audit trail, MCP server mode. https://ber
+> The open‑source AI Agents Governance & Orchestration framework: write the rules declaratively, Bernstein enforces them a
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/sipyourdrink-ltd/bernstein) | [Live site ↗](https://patrickclery.com/awesomer/r/sipyourdrink-ltd~bernstein/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 317 | +52 |  |  | 2026-05-11 |
+| 1,176 | +61 | +301 | +603 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sipyourdrink-ltd~bernstein/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sipyourdrink-ltd~bernstein/)*

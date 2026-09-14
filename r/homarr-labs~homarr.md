@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,751 | +42 | +324 | +503 | 2026-05-11 |
+| 4,684 | +35 | +151 | +628 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Dashboards
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/homarr-labs~homarr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/homarr-labs~homarr/)*

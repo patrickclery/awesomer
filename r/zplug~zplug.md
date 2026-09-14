@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,022 | +3 | +15 | +25 | 2026-03-04 |
+| 6,054 | +2 | +6 | +22 | 2026-03-04 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / [zplug](https://github.com/zplug/zplug)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zplug~zplug/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zplug~zplug/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 544 | +1 | +2 |  | 2026-01-02 |
+| 546 | +0 | +0 | +0 | 2026-01-02 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Build
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wangyoucao577~go-release-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wangyoucao577~go-release-action/)*

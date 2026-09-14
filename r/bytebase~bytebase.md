@@ -1,6 +1,6 @@
 # bytebase/bytebase
 
-> World's most advanced database DevSecOps solution for Developer, Security, DBA and Platform Engineering teams. The GitHu
+> Database governance built for humans and agents — controlling changes and access across every major database.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/bytebase/bytebase) | [Live site ↗](https://patrickclery.com/awesomer/r/bytebase~bytebase/)
 
@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,987 | +31 | +90 | +160 | 2026-05-11 |
+| 14,482 | +16 | +102 | +336 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-docker](../l/docker.md) / Development Environment
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bytebase~bytebase/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bytebase~bytebase/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,011 | +5 | +10 | +17 | 2026-05-07 |
+| 1,035 | +3 | +6 | +22 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / GUI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/commandprompt~pgmanage/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/commandprompt~pgmanage/)*

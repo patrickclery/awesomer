@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,165 | +4 | +13 | +32 | 2026-03-01 |
+| 1,221 | +5 | +14 | +30 | 2026-07-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Code Runner
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benlubas~molten-nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/benlubas~molten-nvim/)*

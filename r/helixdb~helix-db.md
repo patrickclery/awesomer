@@ -1,6 +1,6 @@
 # HelixDB/helix-db
 
-> HelixDB is an open-source graph-vector database built from scratch in Rust.
+> HelixDB is an OLTP graph database with native vector and full-text search built in Rust on Object Storage.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/HelixDB/helix-db) | [Live site ↗](https://patrickclery.com/awesomer/r/helixdb~helix-db/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,425 | +320 | +369 | +674 | 2026-05-07 |
+| 5,902 | +79 | +172 | +702 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/helixdb~helix-db/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/helixdb~helix-db/)*

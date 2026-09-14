@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,825 | +55 | +183 | +325 | 2026-05-10 |
+| 1,940 | +16 | +148 | +26 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Knowledge & Memory
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/doobidoo~mcp-memory-service/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/doobidoo~mcp-memory-service/)*

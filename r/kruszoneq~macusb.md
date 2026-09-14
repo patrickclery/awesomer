@@ -1,6 +1,6 @@
 # Kruszoneq/macUSB
 
-> Download. Flash. Boot. The all-in-one macOS USB creator
+> The all-in-one bootable USB creator for Mac
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Kruszoneq/macUSB) | [Live site ↗](https://patrickclery.com/awesomer/r/kruszoneq~macusb/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,447 | +25 | +292 | +795 | 2026-05-10 |
+| 2,752 | +27 | +154 | +1,163 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kruszoneq~macusb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kruszoneq~macusb/)*

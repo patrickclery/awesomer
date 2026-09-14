@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,259 | +19 | +73 | +134 | 2026-05-09 |
+| 4,440 | -1 | +23 | +107 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ibhagwan~fzf-lua/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ibhagwan~fzf-lua/)*

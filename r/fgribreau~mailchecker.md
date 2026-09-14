@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,881 | +2 | +5 | +13 | 2026-05-07 |
+| 1,907 | +4 | +6 | +16 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Verification
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fgribreau~mailchecker/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fgribreau~mailchecker/)*
