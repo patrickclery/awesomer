@@ -106,7 +106,7 @@ export class MarkdownService {
       include: {
         repo: { select: { stars: true, stars7d: true, stars30d: true, stars90d: true, description: true } },
       },
-      orderBy: { repo: { stars7d: 'desc' } },
+      orderBy: { repo: { stars7d: { sort: 'desc', nulls: 'last' } } },
       take: 1,
     });
 
@@ -185,7 +185,7 @@ export class MarkdownService {
       include: {
         repo: { select: { stars: true, stars7d: true, description: true } },
       },
-      orderBy: { repo: { stars7d: 'desc' } },
+      orderBy: { repo: { stars7d: { sort: 'desc', nulls: 'last' } } },
     });
 
     if (allLists.length === 0) return;
