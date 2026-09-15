@@ -21,4 +21,10 @@ VALUES (
   false,
   NOW(),
   NOW()
-);
+)
+-- awesome_lists.slug is @unique. Without this guard a pre-existing 'local-llm'
+-- row (manual insert, baselined database, partially-applied deploy) raises
+-- 23505, Prisma records the migration as failed in _prisma_migrations, and
+-- every subsequent `migrate deploy` is blocked until an operator runs
+-- `migrate resolve` by hand.
+ON CONFLICT (slug) DO NOTHING;
