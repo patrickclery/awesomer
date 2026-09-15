@@ -1,0 +1,19 @@
+# sindresorhus/quick-look-plugins
+
+> List of useful Quick Look plugins for developers
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/sindresorhus/quick-look-plugins) | [Live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~quick-look-plugins/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 18,761 | +12 | +24 | +103 | 2026-07-25 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Development Environment
+- [awesome-mac](../l/mac.md) / QuickLook Plugins
+
+---
+*Updated: 2026-09-15 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~quick-look-plugins/)*
