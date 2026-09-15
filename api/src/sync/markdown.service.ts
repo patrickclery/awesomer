@@ -532,7 +532,11 @@ export class MarkdownService {
   // ===========================================================================
 
   private escapeTableCell(text: string): string {
-    return text.replace(/\|/g, '\\|').replace(/\n/g, ' ').substring(0, 120);
+    // Truncate BEFORE escaping. Truncating the escaped string can cut a `\|`
+    // pair in half, leaving a trailing backslash that escapes the table's own
+    // column delimiter and collapses the row.
+    const flat = text.replace(/\n/g, ' ').substring(0, 120);
+    return flat.replace(/\|/g, '\\|');
   }
 
   private formatStars(stars: number | null): string {
