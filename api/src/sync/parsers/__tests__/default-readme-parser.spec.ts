@@ -1,6 +1,6 @@
 import { DefaultReadmeParser } from '../default-readme-parser.js';
 
-const MOCK_README = `# Awesome Test List
+const MOCK_README = `# Awesome Test List <img src="https://awesome.re/badge.svg"/>
 
 Some intro text.
 
@@ -26,7 +26,7 @@ Please read CONTRIBUTING.md
 
 MIT
 
-### Category B
+### Category B <img src="https://example.com/b.svg"/>
 
 - [RepoSix](https://github.com/owner6/repo-six) - Another tool
 - [![badge][img]](https://github.com/owner7/badge-repo) [BadgeName](https://homepage.com) - Badge item
@@ -90,8 +90,23 @@ describe('DefaultReadmeParser', () => {
     const catB = result.categories.find((c) => c.name === 'Category B');
     expect(catA).toBeDefined();
     expect(catB).toBeDefined();
-    // The title header creates category index 0
     expect(catA!.order).toBeLessThan(catB!.order);
+  });
+
+  it('does not persist the document title as a category', () => {
+    const result = parser.parse(MOCK_README);
+    const categoryNames = result.categories.map((c) => c.name);
+    expect(categoryNames).not.toContain('Awesome Test List');
+    expect(categoryNames.some((n) => n.startsWith('Awesome Test List'))).toBe(false);
+  });
+
+  it('strips inline HTML from header-derived category names', () => {
+    const result = parser.parse(MOCK_README);
+    const categoryNames = result.categories.map((c) => c.name);
+    // `### Category B <img src="..."/>` must not reach the DB (and GET
+    // /api/categories) with the raw tag attached.
+    expect(categoryNames).toContain('Category B');
+    expect(categoryNames.some((n) => n.includes('<'))).toBe(false);
   });
 
   it('assigns correct categoryIndex to items', () => {

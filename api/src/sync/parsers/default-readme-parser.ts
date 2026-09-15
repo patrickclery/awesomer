@@ -36,8 +36,15 @@ export class DefaultReadmeParser implements ReadmeParser {
       // Check for header
       const headerMatch = line.match(HEADER_RE);
       if (headerMatch) {
-        const headerText = headerMatch[2].trim();
-        if (!SKIP_HEADERS.test(headerText)) {
+        // Strip inline HTML before using the header as a category name. Awesome
+        // lists routinely decorate headings (most commonly the title, e.g.
+        // `# Awesome local LLM <img src="https://awesome.re/badge.svg"/>`), and
+        // Category.name is served verbatim by the public GET /api/categories —
+        // untrusted third-party markup must not cross that boundary.
+        const headerText = headerMatch[2].replace(/<[^>]*>/g, '').trim();
+        // The document title is the list itself, not one of its sections.
+        const isDocumentTitle = headerMatch[1] === '#' && categories.length === 0;
+        if (headerText && !isDocumentTitle && !SKIP_HEADERS.test(headerText)) {
           categories.push({ name: headerText, order: categories.length });
           currentCategoryIndex = categories.length - 1;
         }
