@@ -31,6 +31,7 @@ MIT
 - [RepoSix](https://github.com/owner6/repo-six) - Another tool
 - [![badge][img]](https://github.com/owner7/badge-repo) [BadgeName](https://homepage.com) - Badge item
 - <img src="https://img.shields.io/github/stars/owner8/img-repo?style=social"/> [ImgName](https://github.com/owner8/img-repo) - Img prefix item
+- ![stars](https://img.shields.io/github/stars/owner9/md-badge-repo?style=flat) [MdBadgeName](https://github.com/owner9/md-badge-repo) - Markdown badge item
 `;
 
 describe('DefaultReadmeParser', () => {
@@ -121,6 +122,19 @@ describe('DefaultReadmeParser', () => {
     expect(img!.description).toBe('Img prefix item');
   });
 
+  it('parses markdown-image badge-prefix items (captures the repo, not the badge)', () => {
+    const result = parser.parse(MOCK_README);
+    // Regression guard: ITEM_RE's `[^[\n]*?` prefix cannot span the `[` that
+    // opens the image alt-text, so it used to capture the shields.io badge URL
+    // and drop the whole item when parseGithubRepo() rejected it.
+    const mdBadge = result.items.find((i) => i.name === 'MdBadgeName');
+    expect(mdBadge).toBeDefined();
+    expect(mdBadge!.primaryUrl).toBe('https://github.com/owner9/md-badge-repo');
+    expect(mdBadge!.githubRepo).toBe('owner9/md-badge-repo');
+    expect(mdBadge!.description).toBe('Markdown badge item');
+    expect(result.items.some((i) => i.name === 'stars')).toBe(false);
+  });
+
   it('sets description to null when no description is present', () => {
     const result = parser.parse(MOCK_README);
     const noDesc = result.items.find((i) => i.name === 'NoDesc');
@@ -136,7 +150,7 @@ describe('DefaultReadmeParser', () => {
     const catBItems = result.items.filter((i) => i.categoryIndex === catBIndex);
     // Category A: RepoOne, RepoTwo, NoDesc (NonGitHub, BlobRef, TreeRef skipped)
     expect(catAItems).toHaveLength(3);
-    // Category B: RepoSix, BadgeName, ImgName
-    expect(catBItems).toHaveLength(3);
+    // Category B: RepoSix, BadgeName, ImgName, MdBadgeName
+    expect(catBItems).toHaveLength(4);
   });
 });

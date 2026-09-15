@@ -14,6 +14,13 @@ const ITEM_RE =
 //   - [![badge][ref]](github-url) [Name](homepage) - desc
 const BADGE_ITEM_RE =
   /^\s*[-*]\s*\[!\[[^\]]*\]\[[^\]]*\]\]\((?<badgeUrl>[^)]+)\)\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*[-\u2013\u2014:]\s*(?<description>.+))?/;
+// Markdown-image badge prefix (e.g. shields.io star badges):
+//   - ![stars](https://img.shields.io/github/stars/o/r) [Name](github-url) - desc
+// ITEM_RE cannot handle this: its `[^[\n]*?` prefix class cannot span the `[`
+// that opens the image alt-text, so it latches onto the *badge* link and the
+// whole item is discarded when parseGithubRepo() rejects the shields.io URL.
+const MD_BADGE_ITEM_RE =
+  /^\s*[-*]\s*!\[[^\]]*\]\([^)]*\)\s*\[(?<name>[^\]]+)\]\((?<url>[^)]+)\)(?:\s*[-\u2013\u2014:]\s*(?<description>.+))?/;
 
 export class DefaultReadmeParser implements ReadmeParser {
   parse(content: string): ParseResult {
@@ -52,6 +59,24 @@ export class DefaultReadmeParser implements ReadmeParser {
           primaryUrl: `https://github.com/${parsed.owner}/${parsed.name}`,
           githubRepo: `${parsed.owner}/${parsed.name}`,
           description: badgeMatch.groups.description?.trim() || null,
+          categoryIndex: currentCategoryIndex,
+        });
+        continue;
+      }
+
+      // Check for Markdown-image badge prefix (badge first, repo link second)
+      const mdBadgeMatch = line.match(MD_BADGE_ITEM_RE);
+      if (mdBadgeMatch?.groups) {
+        const url = mdBadgeMatch.groups.url;
+        if (SKIP_URL.test(url)) continue;
+        const parsed = GithubService.parseGithubRepo(url);
+        if (!parsed) continue;
+
+        items.push({
+          name: mdBadgeMatch.groups.name,
+          primaryUrl: `https://github.com/${parsed.owner}/${parsed.name}`,
+          githubRepo: `${parsed.owner}/${parsed.name}`,
+          description: mdBadgeMatch.groups.description?.trim() || null,
           categoryIndex: currentCategoryIndex,
         });
         continue;
