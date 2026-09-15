@@ -1,6 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { writeFile, mkdir, readdir, unlink } from 'fs/promises';
 import { resolve, join } from 'path';
+import type { Prisma } from '../generated/prisma/client.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { MIN_STARS, STALE_DAYS } from '../common/constants.js';
 
@@ -40,6 +41,7 @@ export class MarkdownService {
 
   private async generateHomepage(outputDir?: string): Promise<string[]> {
     const lines: string[] = [];
+    const pageable = await this.loadPageableRepos();
 
     // Section 1: Title and tagline (fetched from GitHub repo description)
     let tagline = 'What if every Awesome List had a trending page? Now they do.';
@@ -68,7 +70,7 @@ export class MarkdownService {
     await this.appendHeroSection(lines);
 
     // Section 3: Top 10 trending repos (D-02)
-    await this.appendTop10TrendingRepos(lines);
+    await this.appendTop10TrendingRepos(lines, pageable);
 
     // Section 4: All awesome lists (D-03)
     await this.appendAllListsTable(lines);
@@ -133,7 +135,10 @@ export class MarkdownService {
   // Top 10 trending repos section (D-02)
   // ===========================================================================
 
-  private async appendTop10TrendingRepos(lines: string[]): Promise<void> {
+  private async appendTop10TrendingRepos(
+    lines: string[],
+    pageable: Set<string>,
+  ): Promise<void> {
     const topRepos = await this.prisma.repo.findMany({
       where: { stars7d: { not: null, gt: 0 }, stars: { gte: MIN_STARS } },
       orderBy: { stars7d: 'desc' },
@@ -160,7 +165,7 @@ export class MarkdownService {
     for (let i = 0; i < topRepos.length; i++) {
       const r = topRepos[i];
       const repoName = r.githubRepo.split('/').pop() ?? r.githubRepo;
-      const repoLink = `[${repoName}](r/${this.repoSlug(r.githubRepo)}.md)`;
+      const repoLink = this.repoLink(r.githubRepo, repoName, pageable, false);
 
       const ci = r.categoryItems[0];
       const listName = ci?.category?.awesomeList?.name ?? '';
@@ -211,6 +216,8 @@ export class MarkdownService {
   // ===========================================================================
 
   private async generateListPages(outputDir?: string): Promise<string[]> {
+    const pageable = await this.loadPageableRepos();
+
     const lists = await this.prisma.awesomeList.findMany({
       where: { archived: false },
       include: {
@@ -284,7 +291,12 @@ export class MarkdownService {
         for (let i = 0; i < top10Eligible.length; i++) {
           const item = top10Eligible[i];
           const name = item.name ?? 'Unknown';
-          const repoLink = this.repoMdLink(item.repo!.githubRepo, name, true);
+          const repoLink = this.repoLink(
+            item.repo!.githubRepo,
+            name,
+            pageable,
+            true,
+          );
           lines.push(
             `| ${i + 1} | ${repoLink} | ${this.formatStars(item.repo!.stars)} | ${this.formatDelta(item.repo!.stars7d)} | ${this.formatDelta(item.repo!.stars30d)} | ${this.formatDelta(item.repo!.stars90d)} |`,
           );
@@ -336,7 +348,12 @@ export class MarkdownService {
 
             let nameLink: string;
             if (item.repo) {
-              nameLink = this.repoMdLink(item.repo.githubRepo, name, true);
+              nameLink = this.repoLink(
+                item.repo.githubRepo,
+                name,
+                pageable,
+                true,
+              );
             } else {
               nameLink = `[${name}](${item.primaryUrl})`;
             }
@@ -384,21 +401,8 @@ export class MarkdownService {
   // ===========================================================================
 
   private async generateRepoPages(outputDir?: string): Promise<string[]> {
-    const cutoffDate = new Date();
-    cutoffDate.setDate(cutoffDate.getDate() - STALE_DAYS);
-
     const repos = await this.prisma.repo.findMany({
-      where: {
-        stars: { gte: MIN_STARS },
-        lastCommitAt: { gte: cutoffDate },
-        categoryItems: {
-          some: {
-            category: {
-              awesomeList: { archived: false },
-            },
-          },
-        },
-      },
+      where: this.repoPageWhere(),
       include: {
         categoryItems: {
           include: {
@@ -556,6 +560,56 @@ export class MarkdownService {
       throw new Error(`Invalid githubRepo for slug: ${githubRepo}`);
     }
     return sanitized;
+  }
+
+  /**
+   * Single source of truth for which repos get an individual `r/*.md` page.
+   * Used both by generateRepoPages() (which writes them) and by
+   * loadPageableRepos() (which decides whether a link to one may be emitted),
+   * so the two can never drift apart.
+   */
+  private repoPageWhere(): Prisma.RepoWhereInput {
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - STALE_DAYS);
+
+    return {
+      stars: { gte: MIN_STARS },
+      lastCommitAt: { gte: cutoffDate },
+      categoryItems: {
+        some: {
+          category: {
+            awesomeList: { archived: false },
+          },
+        },
+      },
+    };
+  }
+
+  /** The `githubRepo` values that generateRepoPages() will actually write a page for. */
+  private async loadPageableRepos(): Promise<Set<string>> {
+    const repos = await this.prisma.repo.findMany({
+      where: this.repoPageWhere(),
+      select: { githubRepo: true },
+    });
+    return new Set(repos.map((r) => r.githubRepo));
+  }
+
+  /**
+   * Link to the local repo page when one will exist, otherwise fall back to the
+   * upstream GitHub URL. Emitting `r/<slug>.md` unconditionally produced a dead
+   * link for every repo outside the MIN_STARS / STALE_DAYS window — permanently,
+   * even on a fully fresh run.
+   */
+  private repoLink(
+    githubRepo: string,
+    name: string,
+    pageable: Set<string>,
+    fromSubdir: boolean,
+  ): string {
+    if (pageable.has(githubRepo)) {
+      return this.repoMdLink(githubRepo, name, fromSubdir);
+    }
+    return `[${name}](https://github.com/${githubRepo})`;
   }
 
   private repoMdLink(githubRepo: string, name: string, fromSubdir: boolean): string {
