@@ -272,6 +272,33 @@ export class GithubService {
   }
 
   /**
+   * Fetch the raw content of an arbitrary file in a repository.
+   * Used by parsers that declare a `sourcePath` (a JSON data file rather than a README).
+   */
+  async fetchFileContent(owner: string, repo: string, path: string): Promise<string | null> {
+    try {
+      const { data } = await this.octokit.rest.repos.getContent({
+        owner,
+        repo,
+        path,
+        mediaType: { format: 'raw' },
+      });
+      return data as unknown as string;
+    } catch (error: unknown) {
+      const status =
+        error instanceof Error && 'status' in error
+          ? (error as { status: number }).status
+          : undefined;
+      if (status === 404) {
+        this.logger.debug(`File not found: ${owner}/${repo}/${path}`);
+        return null;
+      }
+      this.logger.error(`Failed to fetch ${path} for ${owner}/${repo}: ${error}`);
+      return null;
+    }
+  }
+
+  /**
    * Parse "owner/repo" from a GitHub URL.
    * Only matches root repo URLs — rejects any URL with path segments
    * like /blob/, /tree/, /releases/, etc.

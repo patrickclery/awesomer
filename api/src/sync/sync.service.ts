@@ -141,18 +141,23 @@ export class SyncService {
 
     this.logger.log(`Importing ${list.githubRepo}...`);
 
-    const readme = await this.github.fetchReadme(parsed.owner, parsed.name);
-    if (!readme) throw new Error(`README not found for ${list.githubRepo}`);
+    // Some lists are generated from a JSON data file rather than a README; the parser declares
+    // which file to read via `sourcePath` (undefined means use the README).
+    const parser = getParser(list.parserType);
+    const sourcePath = parser.sourcePath;
+    const source = sourcePath
+      ? await this.github.fetchFileContent(parsed.owner, parsed.name, sourcePath)
+      : await this.github.fetchReadme(parsed.owner, parsed.name);
+    if (!source) throw new Error(`Source content not found for ${list.githubRepo}`);
 
     // Update readme_content
     await this.prisma.awesomeList.update({
       where: { id: awesomeListId },
-      data: { readmeContent: readme },
+      data: { readmeContent: source },
     });
 
-    // Parse markdown and extract categories/items
-    const parser = getParser(list.parserType);
-    const { categories, items } = parser.parse(readme);
+    // Parse source and extract categories/items
+    const { categories, items } = parser.parse(source);
 
     // Filter out items that reference other awesome lists
     // (the "awesome" meta-list is exempt since it catalogs all lists)
@@ -227,18 +232,22 @@ export class SyncService {
 
     this.logger.log(`Diff-syncing ${list.githubRepo}...`);
 
-    // 1. Fetch latest README from GitHub (one API call)
-    const readme = await this.github.fetchReadme(parsed.owner, parsed.name);
-    if (!readme) throw new Error(`README not found for ${list.githubRepo}`);
+    // 1. Fetch the latest source from GitHub (one API call). The parser decides whether that is
+    // the README or a repo-relative data file it declares via `sourcePath`.
+    const parser = getParser(list.parserType);
+    const sourcePath = parser.sourcePath;
+    const source = sourcePath
+      ? await this.github.fetchFileContent(parsed.owner, parsed.name, sourcePath)
+      : await this.github.fetchReadme(parsed.owner, parsed.name);
+    if (!source) throw new Error(`Source content not found for ${list.githubRepo}`);
 
     await this.prisma.awesomeList.update({
       where: { id: awesomeListId },
-      data: { readmeContent: readme },
+      data: { readmeContent: source },
     });
 
-    // 2. Parse markdown into categories + items
-    const parser = getParser(list.parserType);
-    const { categories, items } = parser.parse(readme);
+    // 2. Parse the source into categories + items
+    const { categories, items } = parser.parse(source);
     const filteredItems = await this.filterAwesomeListRepos(list.slug, items);
 
     // Safeguard: never wipe a list. If parsing returned 0 items but the list

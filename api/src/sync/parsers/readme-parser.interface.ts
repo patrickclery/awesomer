@@ -17,5 +17,7 @@ export interface ParseResult {
 }
 
 export interface ReadmeParser {
+  /** Repo-relative path parsed instead of the README; `undefined` means use the README. */
+  readonly sourcePath?: string;
   parse(content: string): ParseResult;
 }
