@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,602 | +13 | +76 | +235 | 2026-05-01 |
+| 9,794 | +8 | +34 | +127 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Hubs & Registries
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/onnx~models/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/onnx~models/)*

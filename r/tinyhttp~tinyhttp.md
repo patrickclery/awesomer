@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,886 | -1 | +3 | +6 | 2026-04-25 |
+| 2,902 | +0 | +2 | +10 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tinyhttp~tinyhttp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tinyhttp~tinyhttp/)*

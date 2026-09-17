@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,234 | -1 | +9 | +18 | 2026-05-11 |
+| 2,253 | -1 | -3 | +2 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Queues and Messaging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/karafka~karafka/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/karafka~karafka/)*

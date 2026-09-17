@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,038 | +0 | +4 | +6 | 2026-04-24 |
+| 1,062 | +1 | +8 | +16 | 2026-08-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cosmos72~twin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cosmos72~twin/)*

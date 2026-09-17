@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,931 | +45 | +240 | +1,075 | 2026-05-10 |
+| 4,554 | +105 | +659 | +2,419 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ebullioscopic~atoll/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ebullioscopic~atoll/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,541 | +17 | +75 | +249 | 2026-05-11 |
+| 11,735 | +7 | +44 | +120 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qubvel~segmentation_models.pytorch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qubvel~segmentation_models.pytorch/)*

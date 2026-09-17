@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 242 | +0 | +0 |  | 2026-04-08 |
+| 239 | +0 | -1 | -2 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Admin Interface
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hot-glue-for-rails~hot-glue/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hot-glue-for-rails~hot-glue/)*

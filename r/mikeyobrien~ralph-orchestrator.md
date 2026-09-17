@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,851 | +37 | +343 | +631 | 2026-05-08 |
+| 3,134 | +8 | +37 | +192 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Ralph Wiggum
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mikeyobrien~ralph-orchestrator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mikeyobrien~ralph-orchestrator/)*

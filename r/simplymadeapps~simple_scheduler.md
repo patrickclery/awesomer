@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 133 | +0 | +0 |  | 2025-11-15 |
+| 133 | +0 | +0 | +0 | 2025-11-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scheduling
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/simplymadeapps~simple_scheduler/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/simplymadeapps~simple_scheduler/)*

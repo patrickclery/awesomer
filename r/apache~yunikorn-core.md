@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,010 | +3 |  | +13 | 2026-04-30 |
+| 1,027 | +1 | +4 | +13 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~yunikorn-core/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~yunikorn-core/)*

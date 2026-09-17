@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,777 | +63 | +345 | +4,591 | 2026-05-10 |
+| 10,707 | +38 | +155 | +725 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~open-swe/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~open-swe/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,771 | +4 | +23 | +56 | 2026-05-01 |
+| 3,836 | +3 | +15 | +47 | 2026-09-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netflix~maestro/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/netflix~maestro/)*

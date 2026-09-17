@@ -1,6 +1,6 @@
 # maxritter/claude-codepro
 
-> How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on al
+> Professional context and harness engineering for Claude Code and OpenAI Codex. Build production-grade software with spec
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/maxritter/claude-codepro) | [Live site ↗](https://patrickclery.com/awesomer/r/maxritter~claude-codepro/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,707 | +30 | +75 | +78 | 2026-05-08 |
+| 2,070 | +23 | +139 | +319 | 2026-09-09 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Multi-Purpose
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/maxritter~claude-codepro/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/maxritter~claude-codepro/)*

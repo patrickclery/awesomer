@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 580 | +0 | +0 | +0 | 2025-09-08 |
+| 593 | +1 | +2 | +9 | 2026-05-12 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~image-dimensions/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~image-dimensions/)*

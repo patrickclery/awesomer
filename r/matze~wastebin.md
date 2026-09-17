@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 786 | +5 | +19 | +28 | 2026-05-08 |
+| 853 | +5 | +21 | +58 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Pastebins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/matze~wastebin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/matze~wastebin/)*

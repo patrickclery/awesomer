@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,419 | +50 | +179 | +929 | 2026-02-02 |
+| 23,815 | -8 | -13 | +199 | 2026-02-02 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
+- [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vanna-ai~vanna/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vanna-ai~vanna/)*

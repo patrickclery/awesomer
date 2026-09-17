@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,272 | +10 | +48 | +195 | 2026-05-11 |
+| 3,588 | +15 | +53 | +250 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Personal Dashboards
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ignisda~ryot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ignisda~ryot/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,125 | +127 | +544 | +1,921 | 2026-05-11 |
+| 59,745 | +151 | +612 | +1,897 | 2026-09-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Data Backup and Recovery
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ncw~rclone/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ncw~rclone/)*

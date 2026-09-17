@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 200 | +0 | +4 | +0 | 2025-11-22 |
+| 218 | +1 | +2 | +13 | 2025-11-22 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/costales~gufw/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/costales~gufw/)*

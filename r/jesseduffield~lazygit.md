@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 77,779 | +379 | +1,567 | +3,462 | 2026-05-11 |
+| 82,300 | +195 | +966 | +3,010 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jesseduffield~lazygit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jesseduffield~lazygit/)*

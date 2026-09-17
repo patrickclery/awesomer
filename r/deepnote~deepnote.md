@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,892 | +14 | +73 | +134 | 2026-05-10 |
+| 3,007 | +1 | +8 | +82 | 2026-09-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deepnote~deepnote/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deepnote~deepnote/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,503 | +2 | +13 | +55 | 2026-02-02 |
+| 1,555 | +1 | +10 | +37 | 2026-06-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Distributed Training
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mosaicml~streaming/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mosaicml~streaming/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,745 | +3 | +3 | +1 | 2025-09-10 |
+| 8,755 | +0 | -4 | +8 | 2026-06-17 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/insidegui~wwdc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/insidegui~wwdc/)*

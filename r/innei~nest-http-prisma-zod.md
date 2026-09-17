@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 168 | +0 | -1 |  | 2026-04-29 |
+| 169 | +0 | +0 | +1 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/innei~nest-http-prisma-zod/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/innei~nest-http-prisma-zod/)*

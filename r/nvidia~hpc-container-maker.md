@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 513 | +1 | +1 | +2 | 2026-05-08 |
+| 517 | +3 | +3 | +2 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia~hpc-container-maker/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia~hpc-container-maker/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 198 | +0 | -1 | +3 | 2026-04-08 |
+| 204 | +0 | +1 | +5 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Bots
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shayaantx~botdarr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shayaantx~botdarr/)*

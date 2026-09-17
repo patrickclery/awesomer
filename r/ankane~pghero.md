@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,859 | +5 | +31 | +46 | 2026-04-27 |
+| 8,926 | +4 | +17 | +47 | 2026-09-06 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Monitoring/Statistics/Perfomance
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~pghero/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~pghero/)*

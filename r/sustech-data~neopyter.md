@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 166 | +1 | +2 | +4 | 2026-04-24 |
+| 173 | -1 | +0 | +2 | 2026-05-20 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Live Preview
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sustech-data~neopyter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sustech-data~neopyter/)*

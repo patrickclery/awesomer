@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,813 | +43 | +202 | +839 | 2026-05-11 |
+| 5,872 | +58 | +272 | +813 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bram2w~baserow/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bram2w~baserow/)*

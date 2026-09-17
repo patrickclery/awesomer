@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,680 | -2 | -3 | +0 | 2025-11-30 |
+| 1,684 | +0 | +2 | +5 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thevahidal~soul/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thevahidal~soul/)*

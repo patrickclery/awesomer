@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,261 | +10 | +55 | +130 | 2026-05-11 |
+| 9,506 | +10 | +42 | +173 | 2026-09-09 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / File Manager
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gokcehan~lf/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gokcehan~lf/)*

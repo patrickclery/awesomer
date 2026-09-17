@@ -1,6 +1,6 @@
 # Nano-Collective/nanocoder
 
-> A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒
+> An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, kee
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Nano-Collective/nanocoder) | [Live site ↗](https://patrickclery.com/awesomer/r/nano-collective~nanocoder/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,881 | +26 | +203 | +587 | 2026-05-10 |
+| 2,466 | +9 | +116 | +359 | 2026-09-13 |
 
 ## Found In
 
+- [awesome-cli-apps](../l/cli-apps.md) / Agents
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nano-collective~nanocoder/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nano-collective~nanocoder/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,194 | +1 | +10 | +41 | 2025-11-06 |
+| 12,247 | +0 | +8 | +36 | 2026-07-17 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cyrus-and~gdb-dashboard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cyrus-and~gdb-dashboard/)*

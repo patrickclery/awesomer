@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,804 | +33 | +227 | +408 | 2026-05-11 |
+| 26,552 | +35 | +115 | +542 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/typesense~typesense/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/typesense~typesense/)*

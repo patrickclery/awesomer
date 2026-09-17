@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 202 | +0 | +1 | +2 | 2026-04-20 |
+| 210 | +0 | +2 | +6 | 2026-06-22 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/juliastats~kerneldensity.jl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/juliastats~kerneldensity.jl/)*

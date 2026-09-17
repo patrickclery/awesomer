@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 163 | +1 | +3 | +5 | 2026-05-11 |
+| 181 | -1 | +3 | +10 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stippi~code-assistant/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stippi~code-assistant/)*

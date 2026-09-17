@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 384 | +0 | +2 |  | 2025-12-25 |
+| 384 | +0 | +0 | +0 | 2025-12-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/janlelis~paint/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/janlelis~paint/)*

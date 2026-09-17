@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 161 | +0 | +1 | +1 | 2025-05-22 |
+| 161 | +0 | -1 | +0 | 2026-05-26 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/weaviate~mcp-server-weaviate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/weaviate~mcp-server-weaviate/)*

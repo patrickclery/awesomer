@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 54,755 | +161 | +459 | +873 | 2026-05-11 |
+| 56,348 | +103 | +409 | +1,137 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/laurent22~joplin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/laurent22~joplin/)*

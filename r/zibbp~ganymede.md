@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 953 | +2 | +15 | +46 | 2026-05-10 |
+| 1,007 | +5 | +14 | +38 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Archiving and Digital Preservation (DP)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zibbp~ganymede/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zibbp~ganymede/)*

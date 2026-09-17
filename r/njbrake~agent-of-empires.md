@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,163 | +231 | +610 | +984 | 2026-05-11 |
+| 3,222 | +36 | +152 | +633 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/njbrake~agent-of-empires/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/njbrake~agent-of-empires/)*

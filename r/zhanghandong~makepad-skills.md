@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 737 | +2 | -2 | +14 | 2026-04-07 |
+| 747 | -1 | +2 | +7 | 2026-04-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zhanghandong~makepad-skills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zhanghandong~makepad-skills/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,548 | +3 | +14 | +11 | 2026-04-18 |
+| 3,560 | +2 | +3 | +8 | 2026-08-19 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/veelenga~awesome-crystal/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/veelenga~awesome-crystal/)*

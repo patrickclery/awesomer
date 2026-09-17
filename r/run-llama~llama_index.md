@@ -1,6 +1,6 @@
 # run-llama/llama_index
 
-> LlamaIndex is the leading document agent and OCR platform
+> LlamaIndex is the document processing platform for AI
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/run-llama/llama_index) | [Live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,336 | +208 | +838 | +2,665 | 2026-05-11 |
+| 52,148 | +141 | +511 | +2,009 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)*

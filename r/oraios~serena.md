@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,084 | +274 | +1,309 | +2,388 | 2026-05-11 |
+| 29,266 | +308 | +1,273 | +3,891 | 2026-09-12 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
+- [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/oraios~serena/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oraios~serena/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,035 | +45 | +96 | +176 | 2026-01-13 |
+| 15,294 | +11 | +31 | +155 | 2026-01-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/muesli~duf/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/muesli~duf/)*

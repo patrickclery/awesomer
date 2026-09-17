@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,921 | +68 | +397 | +1,301 | 2026-05-11 |
+| 8,275 | +81 | +360 | +1,010 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/a-ghorbani~pocketpal-ai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/a-ghorbani~pocketpal-ai/)*

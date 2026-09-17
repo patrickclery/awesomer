@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 770 | +0 | +4 | +4 | 2026-04-25 |
+| 784 | -1 | +0 | +3 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Drivers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/trilogy-libraries~trilogy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trilogy-libraries~trilogy/)*

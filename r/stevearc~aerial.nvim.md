@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,278 | +3 | +13 | +38 | 2026-02-25 |
+| 2,339 | -4 | +3 | +42 | 2026-06-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stevearc~aerial.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stevearc~aerial.nvim/)*

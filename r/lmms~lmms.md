@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,874 | +16 | +112 | +201 | 2026-05-09 |
+| 10,358 | +24 | +116 | +364 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lmms~lmms/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lmms~lmms/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 413 | +0 | +2 |  | 2025-11-07 |
+| 414 | +0 | +1 | +2 | 2025-11-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Command Line Learning
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/madlabsinc~teachcode/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/madlabsinc~teachcode/)*

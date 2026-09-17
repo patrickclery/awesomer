@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 64,892 | +87 | +404 | +752 | 2026-05-11 |
+| 66,239 | +129 | +320 | +1,028 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/facebook~docusaurus/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/facebook~docusaurus/)*

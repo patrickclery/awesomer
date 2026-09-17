@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,437 | +4 | +17 | +22 | 2026-05-10 |
+| 3,490 | +1 | +6 | +40 | 2026-08-21 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-linux-containers](../l/linux-containers.md) / Dashboard
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/swarmpit~swarmpit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/swarmpit~swarmpit/)*

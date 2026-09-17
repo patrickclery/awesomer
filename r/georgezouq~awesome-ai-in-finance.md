@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,905 | +44 | +260 | +519 | 2026-05-02 |
+| 6,562 | +30 | +164 | +478 | 2026-09-08 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/georgezouq~awesome-ai-in-finance/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/georgezouq~awesome-ai-in-finance/)*

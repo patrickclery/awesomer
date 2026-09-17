@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,597 | +54 | +235 | +880 | 2026-05-11 |
+| 36,296 | +41 | +139 | +473 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google~jax/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google~jax/)*

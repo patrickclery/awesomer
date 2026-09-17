@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 998 | +3 | +7 | +14 | 2026-05-02 |
+| 1,035 | +2 | +9 | +23 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/goreleaser~goreleaser-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/goreleaser~goreleaser-action/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189 | +0 | +1 | +6 | 2026-03-01 |
+| 192 | +0 | +0 | +4 | 2026-03-01 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lijiangchen8~arco-admin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lijiangchen8~arco-admin/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,069 | +61 | +318 | +1,095 | 2026-05-01 |
+| 24,487 | +79 | +421 | +1,073 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spicetify~spicetify-cli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spicetify~spicetify-cli/)*

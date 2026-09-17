@@ -1,6 +1,6 @@
 # embeddings-benchmark/mteb
 
-> MTEB: Massive Text Embedding Benchmark
+> MTEB: State-of-the-art evaluation of embeddings across languages and modalities
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/embeddings-benchmark/mteb) | [Live site ↗](https://patrickclery.com/awesomer/r/embeddings-benchmark~mteb/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,261 | +13 | +58 | +158 | 2026-05-11 |
+| 3,421 | +9 | +30 | +118 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Embedding Benchmarks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/embeddings-benchmark~mteb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/embeddings-benchmark~mteb/)*

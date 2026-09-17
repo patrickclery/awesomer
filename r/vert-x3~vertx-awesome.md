@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,229 | +0 | +0 | +0 | 2026-01-09 |
+| 2,221 | -1 | -4 | -5 | 2026-06-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vert-x3~vertx-awesome/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vert-x3~vertx-awesome/)*

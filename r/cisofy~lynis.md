@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,633 | +26 | +131 | +235 | 2026-05-11 |
+| 16,324 | +53 | +172 | +547 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cisofy~lynis/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cisofy~lynis/)*

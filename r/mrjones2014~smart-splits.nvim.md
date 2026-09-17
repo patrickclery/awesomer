@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,646 | +6 | +30 | +61 | 2026-05-08 |
+| 1,719 | +2 | +9 | +42 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Split and Window
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mrjones2014~smart-splits.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mrjones2014~smart-splits.nvim/)*

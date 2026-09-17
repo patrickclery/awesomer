@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 854 | -1 | +1 | +2 | 2026-02-26 |
+| 864 | +1 | +2 | +6 | 2026-02-26 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antdv-pro~antdv-pro/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antdv-pro~antdv-pro/)*

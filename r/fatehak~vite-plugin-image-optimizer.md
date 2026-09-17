@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 502 | +0 | +7 | +15 | 2026-05-11 |
+| 517 | +2 | +2 | +6 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fatehak~vite-plugin-image-optimizer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fatehak~vite-plugin-image-optimizer/)*

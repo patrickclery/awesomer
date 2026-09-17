@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,133 | +1 | +2 | +2 | 2026-03-10 |
+| 4,133 | -1 | -4 | -10 | 2026-03-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTTP Clients and tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/typhoeus~typhoeus/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/typhoeus~typhoeus/)*

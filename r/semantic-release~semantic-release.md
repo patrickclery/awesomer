@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,653 | +32 | +109 | +229 | 2026-05-11 |
+| 24,035 | +16 | +58 | +275 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/semantic-release~semantic-release/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/semantic-release~semantic-release/)*

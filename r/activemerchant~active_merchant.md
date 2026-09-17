@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,596 | -2 | +0 | +2 | 2025-11-04 |
+| 4,600 | -1 | -1 | +1 | 2025-11-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/activemerchant~active_merchant/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/activemerchant~active_merchant/)*

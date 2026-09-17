@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,656 | +5 | +30 | +42 | 2026-05-09 |
+| 10,704 | +3 | +10 | +38 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/foliojs~pdfkit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/foliojs~pdfkit/)*

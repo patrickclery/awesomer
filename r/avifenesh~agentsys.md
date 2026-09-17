@@ -1,6 +1,6 @@
 # avifenesh/agentsys
 
-> AI writes code. This automates everything else · 20 plugins · 49 agents · 41 skills · for Claude Code, OpenCode, Codex, 
+> AI writes code. This automates everything else · 24 plugins · 49 agents · 44 skills · for Claude Code, OpenCode, Codex, 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/avifenesh/agentsys) | [Live site ↗](https://patrickclery.com/awesomer/r/avifenesh~agentsys/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 791 | +11 | +81 | +435 | 2026-04-26 |
+| 985 | +4 | +21 | +115 | 2026-09-10 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/avifenesh~agentsys/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/avifenesh~agentsys/)*

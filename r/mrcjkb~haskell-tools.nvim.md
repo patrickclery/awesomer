@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 596 | +2 | +8 | +13 | 2026-05-11 |
+| 610 | +3 | +6 | +11 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mrcjkb~haskell-tools.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mrcjkb~haskell-tools.nvim/)*

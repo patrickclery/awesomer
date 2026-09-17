@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,861 | +66 | +334 | +1,237 | 2026-05-10 |
+| 35,134 | +63 | +237 | +818 | 2026-09-02 |
 
 ## Found In
 
-- [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 - [awesome-docker](../l/docker.md) / Awesome Lists
+- [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/n1trux~awesome-sysadmin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/n1trux~awesome-sysadmin/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 704 | +0 | +12 | +51 | 2026-05-03 |
+| 747 | +3 | +9 | +37 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Calendar & Contacts
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tchapi~davis/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tchapi~davis/)*

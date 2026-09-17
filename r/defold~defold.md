@@ -1,6 +1,6 @@
 # defold/defold
 
-> Defold is a completely free to use game engine for development of desktop, mobile and web games.
+> Defold is a completely free to use game engine for development of desktop, console, mobile and web games.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/defold/defold) | [Live site ↗](https://patrickclery.com/awesomer/r/defold~defold/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,989 | +45 | +92 | +151 | 2026-05-11 |
+| 6,302 | +17 | +62 | +188 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/defold~defold/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/defold~defold/)*

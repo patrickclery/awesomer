@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,149 | +1 | +2 | +1 | 2026-05-07 |
+| 1,155 | +0 | +0 | +4 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mapbox~node-pre-gyp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mapbox~node-pre-gyp/)*

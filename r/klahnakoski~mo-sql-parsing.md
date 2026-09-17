@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 294 | +0 | +1 | +3 | 2025-10-28 |
+| 294 | -1 | +0 | +0 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/klahnakoski~mo-sql-parsing/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/klahnakoski~mo-sql-parsing/)*

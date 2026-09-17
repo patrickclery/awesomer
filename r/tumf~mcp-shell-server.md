@@ -1,6 +1,6 @@
 # tumf/mcp-shell-server
 
-> No description available.
+> Secure MCP server for whitelisted shell command execution with stdin, argv pipelines, timeouts, and structured audit log
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/tumf/mcp-shell-server) | [Live site ↗](https://patrickclery.com/awesomer/r/tumf~mcp-shell-server/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 174 | +1 | +2 | +4 | 2026-04-02 |
+| 192 | +3 | +6 | +16 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tumf~mcp-shell-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tumf~mcp-shell-server/)*

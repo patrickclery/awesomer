@@ -1,6 +1,6 @@
 # gokayfem/awesome-vlm-architectures
 
-> Famous Vision Language Models and Their Architectures
+> Curated visual catalog of 155+ vision-language model (VLM/MLLM) architectures: papers, diagrams, training recipes, datas
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/gokayfem/awesome-vlm-architectures) | [Live site ↗](https://patrickclery.com/awesomer/r/gokayfem~awesome-vlm-architectures/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,247 | +6 | +21 | +47 | 2026-01-11 |
+| 1,309 | +1 | +5 | +44 | 2026-07-31 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gokayfem~awesome-vlm-architectures/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gokayfem~awesome-vlm-architectures/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 45,945 | +67 | +205 | +447 | 2026-04-29 |
+| 47,606 | +3 | +31 | +1,315 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/prisma~prisma/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/prisma~prisma/)*

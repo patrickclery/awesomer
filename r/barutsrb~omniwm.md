@@ -1,6 +1,6 @@
 # BarutSRB/OmniWM
 
-> MacOS Niri and Hyprland inspired tiling window manager that's developer signed and notorized (safe for managed enterpris
+> Free, open-source tiling window manager for Apple Silicon Macs, with Niri-style scrolling containers and Hyprland-style 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/BarutSRB/OmniWM) | [Live site ↗](https://patrickclery.com/awesomer/r/barutsrb~omniwm/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,756 | +59 | +365 | +713 | 2026-05-09 |
+| 2,880 | +66 | +413 | +922 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Window Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/barutsrb~omniwm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/barutsrb~omniwm/)*

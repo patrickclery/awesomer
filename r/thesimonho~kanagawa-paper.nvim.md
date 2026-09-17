@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 377 | +1 | +8 | +12 | 2026-03-16 |
+| 404 | +3 | +6 | +21 | 2026-05-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thesimonho~kanagawa-paper.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thesimonho~kanagawa-paper.nvim/)*

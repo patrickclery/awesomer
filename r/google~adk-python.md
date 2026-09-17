@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,576 | +153 | +707 | +2,155 | 2026-05-09 |
+| 21,524 | +106 | +416 | +1,405 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google~adk-python/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google~adk-python/)*

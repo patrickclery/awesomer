@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 746 | -1 | +4 | -1 | 2026-01-12 |
+| 757 | -1 | +2 | +10 | 2026-01-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ronin-rb~ronin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ronin-rb~ronin/)*

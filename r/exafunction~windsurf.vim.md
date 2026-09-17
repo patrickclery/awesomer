@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,114 | +0 | +5 | +38 | 2026-03-31 |
+| 5,143 | -2 | +34 | +28 | 2026-03-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/exafunction~windsurf.vim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/exafunction~windsurf.vim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 109 | +2 | +9 | +20 | 2026-05-01 |
+| 123 | +1 | +2 | +11 | 2026-09-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cerberauth~awesome-openid-connect/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cerberauth~awesome-openid-connect/)*

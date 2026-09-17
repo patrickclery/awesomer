@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,123 | +4 | +17 | +80 | 2026-04-19 |
+| 7,198 | +5 | +21 | +56 | 2026-09-09 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jarun~buku/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jarun~buku/)*

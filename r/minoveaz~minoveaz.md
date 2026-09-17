@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 137 | +2 | +2 |  | 2026-05-10 |
+| 135 | +0 | -1 | -4 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/minoveaz~minoveaz/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/minoveaz~minoveaz/)*

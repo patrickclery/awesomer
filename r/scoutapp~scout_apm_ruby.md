@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 222 | +0 | +0 | +3 | 2026-04-16 |
+| 223 | +0 | +0 | +1 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Performance Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/scoutapp~scout_apm_ruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/scoutapp~scout_apm_ruby/)*

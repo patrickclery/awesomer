@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,296 | +56 | +273 | +501 | 2026-05-11 |
+| 14,832 | +73 | +319 | +955 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Other Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crowdsecurity~crowdsec/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crowdsecurity~crowdsec/)*

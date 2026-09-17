@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,885 | +52 | +254 | +652 | 2026-05-10 |
+| 12,467 | +33 | +111 | +419 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛠️ 7. Training & Fine-tuning Ecosystem
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/axolotl-ai-cloud~axolotl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/axolotl-ai-cloud~axolotl/)*

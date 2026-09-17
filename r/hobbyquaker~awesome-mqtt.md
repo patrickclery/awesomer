@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,333 | +4 | +17 | +51 | 2026-05-05 |
+| 2,396 | +3 | +13 | +45 | 2026-09-01 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hobbyquaker~awesome-mqtt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hobbyquaker~awesome-mqtt/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 492 | +1 | +2 |  | 2026-05-08 |
+| 492 | +0 | +1 | +0 | 2026-05-20 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eidolon-ai~eidolon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eidolon-ai~eidolon/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,933 | +8 | +46 | +278 | 2026-05-08 |
+| 2,070 | +4 | +33 | +93 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games - Administrative Utilities & Control Panels
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jmberesford~retrom/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jmberesford~retrom/)*

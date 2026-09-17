@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,410 | +13 | +89 | +228 | 2026-05-11 |
+| 5,579 | +10 | +22 | +136 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zenml-io~zenml/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zenml-io~zenml/)*

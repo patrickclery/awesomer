@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 745 | +1 | +8 | +7 | 2026-02-16 |
+| 757 | +1 | +6 | +10 | 2026-02-16 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/novatorem~novatorem/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/novatorem~novatorem/)*

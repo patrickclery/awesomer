@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 461 | +0 | +0 |  | 2026-03-27 |
+| 463 | +0 | +0 | +1 | 2026-03-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Decorators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/heartcombo~show_for/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/heartcombo~show_for/)*

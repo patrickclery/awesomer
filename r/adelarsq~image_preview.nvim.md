@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 190 | +0 | +1 | +2 | 2026-05-06 |
+| 192 | -1 | -1 | +1 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/adelarsq~image_preview.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/adelarsq~image_preview.nvim/)*

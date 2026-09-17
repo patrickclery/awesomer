@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 512 | +0 | +1 | +2 | 2025-12-18 |
+| 528 | -1 | +2 | +12 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pulseaudio~pulseaudio/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pulseaudio~pulseaudio/)*

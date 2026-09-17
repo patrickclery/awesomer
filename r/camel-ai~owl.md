@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,771 | +38 | +136 | +858 | 2026-05-01 |
+| 20,130 | +11 | +49 | +285 | 2026-08-27 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/camel-ai~owl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/camel-ai~owl/)*

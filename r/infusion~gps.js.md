@@ -1,6 +1,6 @@
 # infusion/GPS.js
 
-> The RAW NMEA parser and GPS utility library
+> Parse NMEA 0183 GPS/GNSS sentences, streams, and navigation state in Node.js or browsers
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/infusion/GPS.js) | [Live site ↗](https://patrickclery.com/awesomer/r/infusion~gps.js/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 269 | +0 | +1 | +2 | 2025-08-16 |
+| 270 | +0 | +0 | +1 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/infusion~gps.js/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/infusion~gps.js/)*

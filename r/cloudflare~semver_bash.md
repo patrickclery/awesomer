@@ -15,4 +15,4 @@
 - [awesome-shell](../l/shell.md) / Shell Script Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudflare~semver_bash/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudflare~semver_bash/)*

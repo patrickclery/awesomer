@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,921 | +1 | +3 | +6 | 2026-04-12 |
+| 1,945 | +2 | +2 | +20 | 2026-08-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gsamokovarov~jump/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gsamokovarov~jump/)*

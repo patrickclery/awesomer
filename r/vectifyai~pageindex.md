@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,606 | +4,503 | +5,668 | +16,098 | 2026-05-11 |
+| 35,632 | +93 | +453 | +2,570 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vectifyai~pageindex/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vectifyai~pageindex/)*

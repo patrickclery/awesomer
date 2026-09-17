@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,209 | +0 | +1 | +2 | 2025-12-15 |
+| 2,210 | +1 | +0 | +3 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eleith~emailjs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eleith~emailjs/)*

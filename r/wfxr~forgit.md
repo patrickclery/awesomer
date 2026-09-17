@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,987 | +9 | +26 | +57 | 2026-05-09 |
+| 5,076 | +6 | +18 | +53 | 2026-09-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wfxr~forgit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wfxr~forgit/)*

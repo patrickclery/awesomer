@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,130 | +24 | +74 | +133 | 2026-05-04 |
+| 12,399 | +11 | +48 | +178 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hadolint~hadolint/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hadolint~hadolint/)*

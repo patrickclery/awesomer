@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,023 | +125 | +487 | +887 | 2026-05-10 |
+| 48,168 | +157 | +544 | +1,549 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bevyengine~bevy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bevyengine~bevy/)*

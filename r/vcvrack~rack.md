@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,360 | +4 | +18 | +38 | 2025-11-04 |
+| 4,415 | +1 | +13 | +42 | 2025-11-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vcvrack~rack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vcvrack~rack/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,315 | +200 | +889 | +1,915 | 2026-05-09 |
+| 22,264 | +46 | +248 | +996 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wavetermdev~waveterm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wavetermdev~waveterm/)*

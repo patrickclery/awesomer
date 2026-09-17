@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,129 | +5 | +50 | +186 | 2026-05-06 |
+| 22,300 | +1 | +18 | +109 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Library
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/phpmailer~phpmailer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/phpmailer~phpmailer/)*

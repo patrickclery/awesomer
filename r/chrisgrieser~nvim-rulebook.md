@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 116 | +0 | +1 | +3 | 2026-04-06 |
+| 118 | +0 | +0 | -1 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Diagnostics
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-rulebook/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-rulebook/)*

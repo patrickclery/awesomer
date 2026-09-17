@@ -1,6 +1,6 @@
 # LargeModGames/spotatui
 
-> A fully standalone Spotify client for the terminal. Native streaming included, no daemon required.
+> A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtub
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/LargeModGames/spotatui) | [Live site ↗](https://patrickclery.com/awesomer/r/largemodgames~spotatui/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 658 | +20 | +98 | +193 | 2026-05-11 |
+| 1,339 | +27 | +143 | +578 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/largemodgames~spotatui/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/largemodgames~spotatui/)*

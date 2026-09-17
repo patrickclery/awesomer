@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,777 | +12 | +40 | +64 | 2026-05-08 |
+| 9,839 | -2 | +4 | +29 | 2026-07-23 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pycaret~pycaret/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pycaret~pycaret/)*

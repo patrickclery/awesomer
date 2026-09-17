@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,312 | +4 | +10 | +33 | 2026-03-11 |
+| 6,330 | +3 | +4 | +10 | 2026-07-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Starter Projects & Examples
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tensorflow~docs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tensorflow~docs/)*

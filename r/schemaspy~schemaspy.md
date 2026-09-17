@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,580 | +2 | +15 | +29 | 2026-03-05 |
+| 3,719 | +2 | +14 | +63 | 2026-03-05 |
 
 ## Found In
 
-- [awesome-postgres](../l/postgres.md) / CLI
 - [awesome-db-tools](../l/db-tools.md) / Schema
+- [awesome-postgres](../l/postgres.md) / CLI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/schemaspy~schemaspy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/schemaspy~schemaspy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,486 | +3 | +42 | +53 | 2026-05-05 |
+| 1,557 | +3 | +13 | +57 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Backup
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dimitri~pgcopydb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dimitri~pgcopydb/)*

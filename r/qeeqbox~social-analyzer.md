@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,801 | +58 | +237 | +850 | 2026-01-12 |
+| 24,025 | +49 | +273 | +980 | 2026-01-12 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Username Check
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qeeqbox~social-analyzer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qeeqbox~social-analyzer/)*

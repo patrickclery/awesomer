@@ -1,6 +1,6 @@
 # strands-agents/sdk-python
 
-> A model-driven approach to building AI agents in just a few lines of code.
+> Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/strands-agents/sdk-python) | [Live site ↗](https://patrickclery.com/awesomer/r/strands-agents~sdk-python/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,835 | +65 | +243 | +804 | 2026-05-11 |
+| 7,234 | +64 | +328 | +1,095 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/strands-agents~sdk-python/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/strands-agents~sdk-python/)*

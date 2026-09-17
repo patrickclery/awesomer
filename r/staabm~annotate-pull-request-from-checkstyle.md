@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 201 | +0 | +0 |  | 2026-05-05 |
+| 202 | +0 | +0 | +1 | 2026-06-08 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Pull Requests
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/staabm~annotate-pull-request-from-checkstyle/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/staabm~annotate-pull-request-from-checkstyle/)*

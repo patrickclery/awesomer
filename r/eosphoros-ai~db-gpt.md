@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,717 | +63 | +258 | +692 | 2026-05-11 |
+| 19,946 | +50 | +219 | +959 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eosphoros-ai~db-gpt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eosphoros-ai~db-gpt/)*

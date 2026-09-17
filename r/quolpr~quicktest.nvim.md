@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 104 | +0 | +0 |  | 2026-05-02 |
+| 103 | +0 | -1 | -1 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Test
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/quolpr~quicktest.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/quolpr~quicktest.nvim/)*

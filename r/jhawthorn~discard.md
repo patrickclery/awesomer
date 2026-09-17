@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,393 | +2 | +7 | +12 | 2026-02-23 |
+| 2,423 | +0 | -1 | +9 | 2026-06-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jhawthorn~discard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jhawthorn~discard/)*

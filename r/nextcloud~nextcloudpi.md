@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,899 | +2 | +7 | +50 | 2026-04-21 |
+| 2,937 | +3 | +6 | +29 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Self-hosting Solutions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nextcloud~nextcloudpi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nextcloud~nextcloudpi/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,150 | +0 | +2 | +1 | 2026-03-30 |
+| 1,164 | +2 | +3 | +11 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cosmicnvim~cosmicnvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cosmicnvim~cosmicnvim/)*

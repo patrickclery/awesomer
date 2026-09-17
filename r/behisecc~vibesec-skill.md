@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 827 | +14 | +65 | +168 | 2026-02-17 |
+| 1,275 | +21 | +118 | +327 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/behisecc~vibesec-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/behisecc~vibesec-skill/)*

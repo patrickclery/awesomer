@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,645 | +10 | +85 | +489 | 2026-05-02 |
+| 5,939 | +17 | +53 | +180 | 2026-09-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Web Data Ingestion
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clusterzx~paperless-ai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/clusterzx~paperless-ai/)*

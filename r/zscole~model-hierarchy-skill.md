@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 340 | -1 | +2 |  | 2026-02-16 |
+| 345 | +0 | +1 | +6 | 2026-02-16 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zscole~model-hierarchy-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zscole~model-hierarchy-skill/)*

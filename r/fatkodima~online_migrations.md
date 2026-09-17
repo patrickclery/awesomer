@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 739 | +0 | +3 | +15 | 2026-04-09 |
+| 756 | +1 | +2 | +18 | 2026-07-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fatkodima~online_migrations/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fatkodima~online_migrations/)*

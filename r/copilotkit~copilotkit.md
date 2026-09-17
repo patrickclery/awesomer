@@ -1,6 +1,6 @@
 # CopilotKit/CopilotKit
 
-> The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol
+> The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/CopilotKit/CopilotKit) | [Live site ↗](https://patrickclery.com/awesomer/r/copilotkit~copilotkit/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,250 | +649 | +1,107 | +1,718 | 2026-05-11 |
+| 37,334 | +211 | +576 | +2,209 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nextjs](../l/nextjs.md) / Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/copilotkit~copilotkit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/copilotkit~copilotkit/)*

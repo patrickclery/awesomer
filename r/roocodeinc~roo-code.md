@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,990 | +135 | +912 | +2,084 | 2026-05-10 |
+| 24,305 | -3 | -41 | +73 | 2026-05-15 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / 🧪 13. Developer Tools & Integrations
+- [Awesome local LLM](../l/local-llm.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/roocodeinc~roo-code/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/roocodeinc~roo-code/)*

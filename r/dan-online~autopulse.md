@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 487 | +0 | +14 | +27 | 2026-05-11 |
+| 546 | +3 | +14 | +36 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dan-online~autopulse/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dan-online~autopulse/)*

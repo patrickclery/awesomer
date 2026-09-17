@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,784 | +17 | +120 | +313 | 2026-04-30 |
+| 5,049 | +17 | +50 | +183 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Embedding Models
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~text-embeddings-inference/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~text-embeddings-inference/)*

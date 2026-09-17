@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,240 | +21 | +74 | +142 | 2026-05-11 |
+| 5,715 | +38 | +110 | +326 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vita3k~vita3k/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vita3k~vita3k/)*

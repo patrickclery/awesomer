@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 661 | +0 | +23 | +61 | 2026-05-06 |
+| 663 | +0 | +0 | +3 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/canner~wren-engine/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/canner~wren-engine/)*

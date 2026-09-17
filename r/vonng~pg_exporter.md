@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 347 | +0 | +6 | +52 | 2026-04-14 |
+| 362 | +0 | +2 | +13 | 2026-08-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Monitoring/Statistics/Perfomance
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vonng~pg_exporter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vonng~pg_exporter/)*

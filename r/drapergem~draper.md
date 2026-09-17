@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,264 | +0 | +0 | +6 | 2026-02-28 |
+| 5,276 | +0 | +0 | +2 | 2026-05-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Decorators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/drapergem~draper/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/drapergem~draper/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,320 | +8 | +45 | +109 | 2026-05-11 |
+| 1,618 | +11 | +61 | +189 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sharevb~it-tools/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sharevb~it-tools/)*

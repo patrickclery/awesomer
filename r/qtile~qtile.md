@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,268 | +7 | +24 | +34 | 2026-05-09 |
+| 5,298 | +1 | +12 | +28 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tiling Window Managers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qtile~qtile/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qtile~qtile/)*

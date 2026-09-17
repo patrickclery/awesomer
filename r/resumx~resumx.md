@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 147 | +1 | +9 |  | 2026-05-05 |
+| 171 | +1 | +4 | +14 | 2026-06-09 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Professional: Resume
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/resumx~resumx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/resumx~resumx/)*

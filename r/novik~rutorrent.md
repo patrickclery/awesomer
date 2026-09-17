@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,163 | +0 | +11 | +13 | 2026-05-09 |
+| 2,178 | -2 | +2 | +10 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Torrent Clients
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/novik~rutorrent/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/novik~rutorrent/)*

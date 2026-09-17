@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,335 | +0 | +11 | +22 | 2026-03-09 |
+| 4,415 | +1 | +18 | +61 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pyqtgraph~pyqtgraph/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pyqtgraph~pyqtgraph/)*

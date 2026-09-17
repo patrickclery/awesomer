@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 402 | +0 | +1 |  | 2026-05-04 |
+| 406 | +0 | +2 | +3 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / GUI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-gnome~ruby-gnome/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-gnome~ruby-gnome/)*

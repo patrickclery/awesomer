@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 54,139 | +98 | +435 | +870 | 2026-03-14 |
+| 55,091 | +42 | +184 | +636 | 2026-09-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/romkatv~powerlevel10k/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/romkatv~powerlevel10k/)*

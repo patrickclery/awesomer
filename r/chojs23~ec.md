@@ -1,6 +1,6 @@
 # chojs23/ec
 
-> Easy terminal-native 3-way git mergetool vim-like workflow
+> Terminal-native 3-way git mergetool and diff viewer
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/chojs23/ec) | [Live site ↗](https://patrickclery.com/awesomer/r/chojs23~ec/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 197 | +7 | +26 | +55 | 2026-04-21 |
+| 298 | +0 | +8 | +35 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chojs23~ec/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chojs23~ec/)*

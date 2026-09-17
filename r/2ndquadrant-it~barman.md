@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,131 | +45 | +359 | +418 | 2026-04-20 |
+| 3,236 | +1 | +19 | +63 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Backup
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/2ndquadrant-it~barman/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/2ndquadrant-it~barman/)*

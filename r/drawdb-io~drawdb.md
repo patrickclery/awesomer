@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 37,186 | +37 | +146 | +408 | 2026-05-10 |
+| 39,512 | +106 | +430 | +2,140 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/drawdb-io~drawdb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/drawdb-io~drawdb/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,907 | +27 | +74 | +128 | 2026-04-23 |
+| 7,338 | +16 | +131 | +274 | 2026-08-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/liuchong~awesome-roadmaps/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/liuchong~awesome-roadmaps/)*

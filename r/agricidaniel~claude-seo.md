@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,363 | +372 | +1,832 | +6,350 | 2026-05-11 |
+| 16,852 | +685 | +2,703 | +7,925 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agricidaniel~claude-seo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agricidaniel~claude-seo/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,784 | +16 | +68 | +138 | 2026-05-11 |
+| 6,062 | +10 | +56 | +190 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gothenburgbitfactory~taskwarrior/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gothenburgbitfactory~taskwarrior/)*

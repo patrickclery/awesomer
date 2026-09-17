@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,156 | +6 | +24 | +47 | 2026-04-01 |
+| 26,238 | +7 | +16 | +61 | 2026-07-02 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openfaas~faas/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openfaas~faas/)*

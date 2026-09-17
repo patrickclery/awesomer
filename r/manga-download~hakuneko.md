@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,074 | +20 | +89 | +270 | 2026-03-29 |
+| 6,334 | +9 | +37 | +178 | 2026-03-29 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Manga
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/manga-download~hakuneko/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/manga-download~hakuneko/)*

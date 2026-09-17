@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 488 | -1 | +3 | +11 | 2026-05-08 |
+| 517 | +0 | +3 | +25 | 2026-08-12 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Video Search and Other Video Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bibanon~tubeup/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bibanon~tubeup/)*

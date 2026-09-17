@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 166 | +0 | +0 |  | 2026-05-01 |
+| 167 | +0 | +0 | +1 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/johnmyleswhite~rdatasets.jl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/johnmyleswhite~rdatasets.jl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,691 | +1 | +2 | +5 | 2026-05-11 |
+| 1,689 | +1 | -1 | -2 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ms-jpq~chadtree/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ms-jpq~chadtree/)*

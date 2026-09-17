@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,886 | +143 | +559 | +1,045 | 2026-05-11 |
+| 34,886 | +137 | +485 | +1,439 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kovidgoyal~kitty/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kovidgoyal~kitty/)*

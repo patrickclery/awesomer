@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 524 | +0 | +0 |  | 2025-12-05 |
+| 524 | +0 | +0 | +0 | 2025-12-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Git Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/narkoz~ginatra/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/narkoz~ginatra/)*

@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,056 | +150 | +708 | +2,581 | 2026-05-11 |
+| 42,151 | +144 | +444 | +1,463 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agno-agi~agno/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agno-agi~agno/)*

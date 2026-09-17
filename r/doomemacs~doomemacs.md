@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,094 | +34 | +156 | +284 | 2026-05-08 |
+| 22,677 | +28 | +101 | +412 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/doomemacs~doomemacs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/doomemacs~doomemacs/)*

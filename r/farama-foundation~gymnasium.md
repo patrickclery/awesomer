@@ -1,6 +1,6 @@
 # Farama-Foundation/Gymnasium
 
-> An API standard for single-agent reinforcement learning environments, with popular reference environments and related ut
+> A standard API for single-agent reinforcement learning environments, with popular reference environments and related uti
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Farama-Foundation/Gymnasium) | [Live site ↗](https://patrickclery.com/awesomer/r/farama-foundation~gymnasium/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,870 | +43 | +181 | +343 | 2026-05-08 |
+| 12,528 | +57 | +207 | +483 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/farama-foundation~gymnasium/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/farama-foundation~gymnasium/)*

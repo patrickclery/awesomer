@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 402 | +2 | +1 | +14 | 2026-04-01 |
+| 406 | -1 | +1 | +4 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mrcjkb~kickstart-nix.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mrcjkb~kickstart-nix.nvim/)*

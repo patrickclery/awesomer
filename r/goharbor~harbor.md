@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,462 | +43 | +225 | +703 | 2026-05-11 |
+| 29,355 | +53 | +201 | +652 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/goharbor~harbor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/goharbor~harbor/)*

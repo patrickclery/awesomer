@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 964 | +1 | +2 | +1 | 2026-04-25 |
+| 972 | +0 | +1 | +1 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Servers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/boazsegev~iodine/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/boazsegev~iodine/)*

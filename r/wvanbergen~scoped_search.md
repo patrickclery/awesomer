@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 266 | -2 | -2 | -2 | 2025-09-30 |
+| 268 | +0 | +0 | +2 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wvanbergen~scoped_search/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wvanbergen~scoped_search/)*

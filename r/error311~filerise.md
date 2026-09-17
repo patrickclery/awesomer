@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 952 | +4 | +14 | +31 | 2026-05-07 |
+| 1,012 | +4 | +9 | +44 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Web-based File Managers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/error311~filerise/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/error311~filerise/)*

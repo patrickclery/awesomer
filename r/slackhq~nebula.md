@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,324 | +21 | +126 | +291 | 2026-05-11 |
+| 18,337 | +30 | +723 | +936 | 2026-09-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-piracy](../l/piracy.md) / Self-hosted VPNs
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/slackhq~nebula/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/slackhq~nebula/)*

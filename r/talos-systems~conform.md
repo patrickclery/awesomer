@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 520 | +2 | +3 | +16 | 2026-05-08 |
+| 525 | +0 | +0 | +5 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Tools and Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/talos-systems~conform/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/talos-systems~conform/)*

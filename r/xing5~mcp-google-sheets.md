@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 851 | +14 | +50 | +103 | 2026-03-15 |
+| 998 | +2 | +18 | +93 | 2026-05-14 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xing5~mcp-google-sheets/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xing5~mcp-google-sheets/)*

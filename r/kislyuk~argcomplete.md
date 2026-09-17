@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,562 | +1 | +1 | +9 | 2026-04-02 |
+| 1,580 | +1 | +4 | +12 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kislyuk~argcomplete/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kislyuk~argcomplete/)*

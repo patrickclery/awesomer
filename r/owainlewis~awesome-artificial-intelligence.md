@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,759 | +132 | +456 | +630 | 2025-08-12 |
+| 16,454 | +258 | +679 | +2,375 | 2026-08-15 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/owainlewis~awesome-artificial-intelligence/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/owainlewis~awesome-artificial-intelligence/)*

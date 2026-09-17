@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,028 | +0 | +2 | +2 | 2026-05-08 |
+| 1,032 | +0 | +2 | +2 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Implementations/Compilers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/natalie-lang~natalie/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/natalie-lang~natalie/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,019 | +1 | +12 | +27 | 2026-05-11 |
+| 3,148 | +30 | +46 | +97 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alexei-led~pumba/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexei-led~pumba/)*

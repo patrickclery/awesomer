@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,722 | +9 | +42 | +143 | 2026-05-09 |
+| 2,866 | +7 | +33 | +93 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/forceu~gokapi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/forceu~gokapi/)*

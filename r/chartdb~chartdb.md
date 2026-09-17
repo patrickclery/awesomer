@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,159 | +47 | +402 | +595 | 2026-04-15 |
+| 22,898 | +35 | +169 | +506 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chartdb~chartdb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chartdb~chartdb/)*

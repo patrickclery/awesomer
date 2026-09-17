@@ -8,12 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,151 | +78 | +346 | +645 | 2026-05-11 |
+| 26,495 | +74 | +289 | +924 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
+- [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deepset-ai~haystack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deepset-ai~haystack/)*

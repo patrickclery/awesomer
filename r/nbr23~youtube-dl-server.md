@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 310 | +1 | +0 | +1 | 2026-04-22 |
+| 316 | +0 | +2 | +6 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nbr23~youtube-dl-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nbr23~youtube-dl-server/)*

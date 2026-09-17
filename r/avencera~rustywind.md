@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 614 | +2 | +4 | +3 | 2026-04-26 |
+| 623 | +0 | +0 | +9 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/avencera~rustywind/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/avencera~rustywind/)*

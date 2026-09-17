@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,681 | +27 | +119 | +206 | 2026-05-10 |
+| 7,141 | +22 | +108 | +315 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mixxxdj~mixxx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mixxxdj~mixxx/)*

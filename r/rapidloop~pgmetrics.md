@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,093 | +4 | +5 | +18 | 2026-04-23 |
+| 1,109 | +4 | +6 | +13 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Monitoring/Statistics/Perfomance
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rapidloop~pgmetrics/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rapidloop~pgmetrics/)*

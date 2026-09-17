@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 494 | +3 | +10 | +29 | 2026-05-11 |
+| 809 | +9 | +21 | +309 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / HTTP Client
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ozeranskii~httptap/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ozeranskii~httptap/)*

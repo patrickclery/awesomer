@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,882 | +3 | +28 | +96 | 2026-05-04 |
+| 3,938 | +0 | +10 | +47 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lightning-ai~litserve/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lightning-ai~litserve/)*

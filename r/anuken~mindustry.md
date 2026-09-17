@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,500 | +48 | +325 | +586 | 2026-05-10 |
+| 28,973 | +74 | +372 | +1,078 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anuken~mindustry/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anuken~mindustry/)*

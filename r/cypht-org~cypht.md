@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,502 | +15 | +32 | +46 | 2026-05-10 |
+| 1,726 | +12 | +47 | +130 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Groupware / Webmail
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cypht-org~cypht/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cypht-org~cypht/)*

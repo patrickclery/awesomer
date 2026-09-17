@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,665 | +0 | +7 | +14 | 2026-03-17 |
+| 1,689 | -3 | +0 | +14 | 2026-03-17 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Note Taking
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-telekasten~telekasten.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-telekasten~telekasten.nvim/)*

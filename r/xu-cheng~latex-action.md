@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,378 | +5 | +13 | +22 | 2026-04-02 |
+| 1,409 | +1 | +2 | +23 | 2026-07-30 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Utility
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xu-cheng~latex-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xu-cheng~latex-action/)*

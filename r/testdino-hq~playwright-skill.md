@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 232 | +10 | +47 |  | 2026-05-07 |
+| 362 | +3 | +14 | +84 | 2026-09-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-playwright](../l/playwright.md) / Utils
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/testdino-hq~playwright-skill/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/testdino-hq~playwright-skill/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,426 | +7 | +13 | +55 | 2026-02-18 |
+| 2,479 | +3 | +9 | +39 | 2026-06-25 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/arybczak~ncmpcpp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/arybczak~ncmpcpp/)*

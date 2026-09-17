@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,435 | +17 | +74 | +152 | 2026-05-04 |
+| 5,592 | +5 | +27 | +90 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-neo-tree~neo-tree.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-neo-tree~neo-tree.nvim/)*

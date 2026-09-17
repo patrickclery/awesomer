@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 277 | +0 | +0 |  | 2026-04-14 |
+| 277 | +0 | +1 | +0 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/humaans~next-img/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/humaans~next-img/)*

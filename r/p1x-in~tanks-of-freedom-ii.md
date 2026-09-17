@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 397 | +3 | +11 | +14 | 2025-10-02 |
+| 423 | +1 | +3 | +22 | 2025-10-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/p1x-in~tanks-of-freedom-ii/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/p1x-in~tanks-of-freedom-ii/)*

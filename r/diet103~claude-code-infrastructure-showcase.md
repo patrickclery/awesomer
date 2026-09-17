@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,632 | +19 | +191 | +430 | 2026-04-17 |
+| 10,018 | +5 | +21 | +313 | 2026-07-13 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / General
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/diet103~claude-code-infrastructure-showcase/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/diet103~claude-code-infrastructure-showcase/)*

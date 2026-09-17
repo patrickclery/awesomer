@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,278 | +23 | +107 | +328 | 2026-05-10 |
+| 7,586 | +7 | +62 | +212 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Console
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cylgom~ly/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cylgom~ly/)*

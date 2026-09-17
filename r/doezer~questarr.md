@@ -1,6 +1,6 @@
 # Doezer/Questarr
 
-> Video games manager for -arr users
+> Questarr is an *Arr-inspired game manager that helps you discover, track, and automatically download the games you want.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Doezer/Questarr) | [Live site ↗](https://patrickclery.com/awesomer/r/doezer~questarr/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 381 | +14 | +76 | +153 | 2026-05-11 |
+| 619 | +25 | +64 | +191 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Beyond *arr
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/doezer~questarr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/doezer~questarr/)*

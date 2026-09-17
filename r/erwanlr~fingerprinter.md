@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 258 | +0 | +0 | +0 | 2025-09-17 |
+| 257 | +0 | +0 | -1 | 2025-09-17 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/erwanlr~fingerprinter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/erwanlr~fingerprinter/)*

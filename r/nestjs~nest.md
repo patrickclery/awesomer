@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 75,455 | +74 | +306 | +640 | 2026-05-11 |
+| 76,652 | +64 | +279 | +800 | 2026-09-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~nest/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~nest/)*

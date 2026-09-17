@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,302 | +59 | +533 | +1,619 | 2026-05-09 |
+| 36,914 | +78 | +307 | +1,272 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Courses & Interactive Playgrounds
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~data-science-for-beginners/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~data-science-for-beginners/)*

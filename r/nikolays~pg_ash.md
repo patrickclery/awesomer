@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 221 | +0 | +7 |  | 2026-05-10 |
+| 245 | +4 | +9 | +14 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nikolays~pg_ash/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nikolays~pg_ash/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,840 |  |  |  | 2026-05-07 |
+| 2,001 | +3 | +19 | +155 | 2026-08-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shcherbak-ai~contextgem/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shcherbak-ai~contextgem/)*

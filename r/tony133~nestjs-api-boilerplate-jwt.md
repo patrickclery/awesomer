@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 589 | +1 | +4 | +4 | 2026-05-10 |
+| 593 | +1 | +2 | +4 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tony133~nestjs-api-boilerplate-jwt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tony133~nestjs-api-boilerplate-jwt/)*

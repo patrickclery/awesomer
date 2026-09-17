@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,446 | +4 | +14 | +5 | 2026-05-07 |
+| 4,464 | -1 | +3 | +15 | 2026-08-04 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thlorenz~doctoc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thlorenz~doctoc/)*

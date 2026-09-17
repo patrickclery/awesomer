@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,123 | +28 | +153 | +608 | 2026-04-15 |
+| 7,678 | +16 | +79 | +390 | 2026-09-08 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ericlbuehler~mistral.rs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ericlbuehler~mistral.rs/)*

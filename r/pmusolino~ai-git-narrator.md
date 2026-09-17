@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 118 | +0 | -1 | +0 | 2026-01-18 |
+| 120 | +1 | +1 | +3 | 2026-01-18 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Version Control
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pmusolino~ai-git-narrator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pmusolino~ai-git-narrator/)*

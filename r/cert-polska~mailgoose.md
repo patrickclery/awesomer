@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 203 | +0 |  | +7 | 2026-05-08 |
+| 208 | +0 | +1 | +2 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Security Check
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cert-polska~mailgoose/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cert-polska~mailgoose/)*

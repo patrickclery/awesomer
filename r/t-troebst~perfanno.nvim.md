@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 365 | +0 | +4 | +7 | 2026-01-20 |
+| 372 | +1 | +3 | +5 | 2026-01-20 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Debugging
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/t-troebst~perfanno.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/t-troebst~perfanno.nvim/)*

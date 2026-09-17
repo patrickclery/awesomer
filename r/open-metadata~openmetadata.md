@@ -1,6 +1,6 @@
 # open-metadata/OpenMetadata
 
-> OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a cen
+> The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and busine
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/open-metadata/OpenMetadata) | [Live site ↗](https://patrickclery.com/awesomer/r/open-metadata~openmetadata/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,876 | +86 | +3,762 | +5,264 | 2026-05-11 |
+| 15,185 | +63 | +311 | +988 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Engineering & Feature Stores
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/open-metadata~openmetadata/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/open-metadata~openmetadata/)*

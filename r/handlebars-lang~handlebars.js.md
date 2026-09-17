@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,628 | +3 | +13 | +19 | 2026-04-21 |
+| 18,673 | +1 | +3 | +33 | 2026-06-24 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/handlebars-lang~handlebars.js/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/handlebars-lang~handlebars.js/)*

@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,286 | +64 | +215 | +373 | 2026-05-11 |
+| 19,291 | +48 | +212 | +758 | 2026-09-13 |
 
 ## Found In
 
+- [awesome-docker](../l/docker.md) / Engine & Runtime
 - [awesome-linux-containers](../l/linux-containers.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google~gvisor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google~gvisor/)*

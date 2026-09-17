@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,315 | +1 | +4 | +3 | 2026-05-05 |
+| 7,339 | -1 | +5 | +12 | 2026-08-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flyerhzm~bullet/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flyerhzm~bullet/)*

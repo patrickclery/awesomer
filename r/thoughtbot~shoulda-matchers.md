@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,572 | +0 | -1 | -1 | 2026-04-28 |
+| 3,581 | -3 | -2 | -1 | 2026-08-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~shoulda-matchers/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~shoulda-matchers/)*

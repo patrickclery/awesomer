@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 808 | +0 | +6 | +19 | 2026-03-25 |
+| 827 | +0 | +1 | +16 | 2026-07-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Note Taking
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jakewvincent~mkdnflow.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jakewvincent~mkdnflow.nvim/)*

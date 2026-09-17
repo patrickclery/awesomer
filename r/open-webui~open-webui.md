@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 136,604 | +1,135 | +5,354 | +8,983 | 2026-05-10 |
+| 151,864 | +732 | +3,101 | +10,268 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / User Interfaces
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/open-webui~open-webui/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/open-webui~open-webui/)*

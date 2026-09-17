@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,223 | +26 | +167 |  | 2026-04-19 |
+| 1,371 | +2 | +70 | +113 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unmta~emailmd/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unmta~emailmd/)*

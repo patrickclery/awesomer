@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,242 | -6 | -24 | -6 | 2026-04-08 |
+| 3,234 | +0 | -5 | -7 | 2026-06-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Static Site Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~high_voltage/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~high_voltage/)*

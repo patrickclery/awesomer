@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 51,165 | +581 | +2,563 | +7,607 | 2026-05-11 |
+| 58,456 | +350 | +1,386 | +4,864 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crewaiinc~crewai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crewaiinc~crewai/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,270 | +5 | +20 | +32 | 2026-03-16 |
+| 1,338 | +8 | +18 | +56 | 2026-03-16 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Hardware
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/szenergy~awesome-lidar/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/szenergy~awesome-lidar/)*

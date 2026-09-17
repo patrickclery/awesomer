@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 963 | +4 | +16 | +38 | 2025-10-23 |
+| 1,006 | +4 | +11 | +31 | 2025-10-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fausto-korpsvart~gruvbox-gtk-theme/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fausto-korpsvart~gruvbox-gtk-theme/)*

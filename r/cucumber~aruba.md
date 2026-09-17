@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 964 | +0 | +2 |  | 2026-05-09 |
+| 966 | -3 | -3 | +1 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cucumber~aruba/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cucumber~aruba/)*

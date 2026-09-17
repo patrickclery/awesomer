@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 424 | +2 | +4 | +3 | 2026-01-03 |
+| 435 | +1 | +1 | +11 | 2026-01-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Programming Languages Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dmmulroy~ts-error-translator.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dmmulroy~ts-error-translator.nvim/)*

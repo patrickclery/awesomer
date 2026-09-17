@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 908 | +85 | +661 | +890 | 2026-05-11 |
+| 1,242 | +12 | +34 | +175 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / QuickLook Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xykong~flux-markdown/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xykong~flux-markdown/)*

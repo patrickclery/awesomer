@@ -1,6 +1,6 @@
 # softeria/ms-365-mcp-server
 
-> A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API
+> A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Microsoft Office services through the Graph
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/softeria/ms-365-mcp-server) | [Live site ↗](https://patrickclery.com/awesomer/r/softeria~ms-365-mcp-server/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 700 | +25 | +91 | +253 | 2026-05-09 |
+| 968 | +16 | +57 | +185 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/softeria~ms-365-mcp-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/softeria~ms-365-mcp-server/)*

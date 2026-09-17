@@ -1,6 +1,6 @@
 # paradedb/paradedb
 
-> Simple, Elastic-quality search for Postgres
+> One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search exte
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/paradedb/paradedb) | [Live site ↗](https://patrickclery.com/awesomer/r/paradedb~paradedb/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,759 | +34 | +113 | +237 | 2026-05-11 |
+| 9,256 | +20 | +103 | +324 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/paradedb~paradedb/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/paradedb~paradedb/)*

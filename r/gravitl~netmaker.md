@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,569 | +9 | +34 | +91 | 2026-05-11 |
+| 11,780 | +5 | +29 | +153 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gravitl~netmaker/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gravitl~netmaker/)*

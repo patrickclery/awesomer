@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 313 | +0 | +0 |  | 2026-05-09 |
+| 316 | +0 | +1 | +1 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Collection of Actions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/borales~actions-yarn/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/borales~actions-yarn/)*

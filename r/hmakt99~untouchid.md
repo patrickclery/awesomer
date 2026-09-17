@@ -1,6 +1,6 @@
 # HMAKT99/UnTouchID
 
-> Use your phone's fingerprint to authenticate on any Mac — sudo, screensaver, App Store. No $199 Magic Keyboard needed. W
+> Use your phone's Face ID or fingerprint to approve sudo and unlock your Mac. QR pairing, encrypted BLE, Secure Enclave s
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/HMAKT99/UnTouchID) | [Live site ↗](https://patrickclery.com/awesomer/r/hmakt99~untouchid/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 200 | +3 | +16 |  | 2026-04-18 |
+| 304 | +6 | +18 | +59 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Security Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hmakt99~untouchid/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hmakt99~untouchid/)*

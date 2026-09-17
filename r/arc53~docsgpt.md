@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,874 | +4 | +53 | +97 | 2026-05-11 |
+| 18,261 | +4 | +45 | +326 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/arc53~docsgpt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/arc53~docsgpt/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 216 | -2 | +126 |  | 2026-05-06 |
+| 325 | +1 | +6 | +137 | 2026-05-06 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Data Breach Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nox-project~nox-framework/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nox-project~nox-framework/)*

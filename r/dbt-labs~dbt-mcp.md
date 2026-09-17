@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 559 | +5 | +25 | +49 | 2026-05-11 |
+| 603 | +2 | +7 | +25 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Data Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dbt-labs~dbt-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbt-labs~dbt-mcp/)*

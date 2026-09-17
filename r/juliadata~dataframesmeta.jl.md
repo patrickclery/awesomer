@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 497 | +0 | +0 | +4 | 2025-11-24 |
+| 496 | +0 | +0 | -2 | 2026-07-25 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/juliadata~dataframesmeta.jl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/juliadata~dataframesmeta.jl/)*

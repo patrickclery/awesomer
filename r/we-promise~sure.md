@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,153 | +104 | +419 | +1,024 | 2026-05-11 |
+| 9,893 | +95 | +455 | +1,208 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Money, Budgeting & Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/we-promise~sure/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/we-promise~sure/)*

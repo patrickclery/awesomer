@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 291 | +0 | +0 | +1 | 2025-11-15 |
+| 298 | +2 | +2 | +3 | 2026-07-05 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ebruck~radiotray-ng/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ebruck~radiotray-ng/)*

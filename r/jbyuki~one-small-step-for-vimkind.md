@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 540 | +0 | +4 | +0 | 2026-01-12 |
+| 548 | +0 | +1 | +8 | 2026-01-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jbyuki~one-small-step-for-vimkind/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jbyuki~one-small-step-for-vimkind/)*

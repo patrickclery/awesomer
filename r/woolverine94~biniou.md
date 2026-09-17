@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,128 | +3 | +10 | +62 | 2026-05-10 |
+| 1,151 | +2 | +6 | +15 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Self-hosted AI Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/woolverine94~biniou/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/woolverine94~biniou/)*

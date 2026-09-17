@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,772 | +565 | +1,242 | +4,493 | 2026-04-24 |
+| 9,248 | +157 | +573 | +1,589 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Audio and Video Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ronitsingh10~finetune/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ronitsingh10~finetune/)*

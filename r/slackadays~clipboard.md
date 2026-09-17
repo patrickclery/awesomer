@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,773 | +9 | +37 | +72 | 2026-05-06 |
+| 5,899 | +13 | +25 | +90 | 2026-05-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/slackadays~clipboard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/slackadays~clipboard/)*

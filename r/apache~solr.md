@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,612 | +1 | +13 | +27 | 2026-05-11 |
+| 1,674 | +5 | +20 | +50 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~solr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~solr/)*

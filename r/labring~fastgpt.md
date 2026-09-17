@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,998 | +101 | +366 | +1,071 | 2026-05-11 |
+| 29,636 | +63 | +284 | +1,237 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/labring~fastgpt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/labring~fastgpt/)*

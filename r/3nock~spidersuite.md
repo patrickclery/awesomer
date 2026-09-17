@@ -1,6 +1,6 @@
 # 3nock/SpiderSuite
 
-> SpiderSuite releases, wiki and roadmap
+> SpiderSuite (web security crawler) releases, wiki and roadmap
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/3nock/SpiderSuite) | [Live site ↗](https://patrickclery.com/awesomer/r/3nock~spidersuite/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 956 | -1 | +8 | +14 | 2026-04-02 |
+| 977 | +1 | +6 | +16 | 2026-08-13 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Other Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/3nock~spidersuite/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/3nock~spidersuite/)*

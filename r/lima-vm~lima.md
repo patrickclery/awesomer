@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,987 | +46 | +297 | +870 | 2026-05-11 |
+| 21,882 | +46 | +203 | +641 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Virtualization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lima-vm~lima/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lima-vm~lima/)*

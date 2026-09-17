@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,057 | +49 | +137 | +240 | 2026-05-06 |
+| 16,386 | +24 | +70 | +203 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davatorium~rofi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/davatorium~rofi/)*

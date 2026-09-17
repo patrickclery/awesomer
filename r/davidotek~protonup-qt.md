@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,897 | +7 | +34 | +61 | 2026-02-20 |
+| 2,032 | +2 | +14 | +93 | 2026-08-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davidotek~protonup-qt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/davidotek~protonup-qt/)*

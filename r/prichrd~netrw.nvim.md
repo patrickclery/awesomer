@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 268 | +0 | -1 | +2 | 2026-05-05 |
+| 275 | +0 | +1 | +7 | 2026-05-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/prichrd~netrw.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/prichrd~netrw.nvim/)*

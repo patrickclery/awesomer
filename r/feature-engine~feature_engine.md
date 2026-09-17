@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,236 | +2 | +13 | +21 | 2026-03-28 |
+| 2,279 | +3 | +11 | +32 | 2026-08-30 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Feature Engineering & Data Preparation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/feature-engine~feature_engine/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/feature-engine~feature_engine/)*

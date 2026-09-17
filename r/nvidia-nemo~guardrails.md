@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,107 |  |  |  | 2026-05-11 |
+| 7,112 | +45 | +167 | +682 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
+- [Awesome local LLM](../l/local-llm.md) / Security and Sandboxing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-nemo~guardrails/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-nemo~guardrails/)*

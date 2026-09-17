@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,646 | +405 | +549 | +1,678 | 2026-05-11 |
+| 5,156 | +39 | +168 | +449 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/steipete~peekaboo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/steipete~peekaboo/)*

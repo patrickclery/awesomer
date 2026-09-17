@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 190 | +0 | +1 |  | 2026-04-27 |
+| 196 | +0 | +0 | +4 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/iterative~dvclive/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/iterative~dvclive/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 381 | +0 | +0 |  | 2025-09-19 |
+| 382 | +0 | -1 | +1 | 2026-07-02 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bioruby~bioruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bioruby~bioruby/)*

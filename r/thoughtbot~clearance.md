@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,734 | +0 | +0 | +9 | 2026-05-06 |
+| 3,736 | +0 | +0 | +1 | 2026-07-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authentication and OAuth
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~clearance/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~clearance/)*

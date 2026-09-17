@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,113 | +2 | +7 | +14 | 2026-04-10 |
+| 2,147 | +1 | +13 | +22 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~typescript-starter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~typescript-starter/)*

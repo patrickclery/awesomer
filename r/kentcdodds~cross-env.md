@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,527 | +0 | +1 | -4 | 2025-11-16 |
+| 6,523 | +0 | -2 | -4 | 2025-11-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kentcdodds~cross-env/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kentcdodds~cross-env/)*

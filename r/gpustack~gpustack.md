@@ -1,6 +1,6 @@
 # gpustack/gpustack
 
-> A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI mo
+> A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/gpustack/gpustack) | [Live site ↗](https://patrickclery.com/awesomer/r/gpustack~gpustack/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,994 | +41 | +182 | +519 | 2026-05-11 |
+| 5,680 | +44 | +196 | +518 | 2026-09-10 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gpustack~gpustack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gpustack~gpustack/)*

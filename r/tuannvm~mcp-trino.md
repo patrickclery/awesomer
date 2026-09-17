@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 103 | +0 | +3 | +42 | 2026-05-11 |
+| 120 | +0 | +2 | +11 | 2026-07-01 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tuannvm~mcp-trino/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tuannvm~mcp-trino/)*

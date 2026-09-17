@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,852 | +0 | +0 | +1 | 2025-10-28 |
+| 1,849 | +0 | -3 | -2 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/soundcloud~lhm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/soundcloud~lhm/)*

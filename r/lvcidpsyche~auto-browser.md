@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 449 | +66 | +440 |  | 2026-05-09 |
+| 792 | +4 | +31 | +238 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lvcidpsyche~auto-browser/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lvcidpsyche~auto-browser/)*

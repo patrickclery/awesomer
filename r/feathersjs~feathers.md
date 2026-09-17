@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,254 | +2 | +4 | +11 | 2026-05-01 |
+| 15,265 | +3 | +5 | +15 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/feathersjs~feathers/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/feathersjs~feathers/)*

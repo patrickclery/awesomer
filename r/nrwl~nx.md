@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,691 | +53 | +185 | +354 | 2026-05-11 |
+| 29,324 | +41 | +106 | +396 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Get Started
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nrwl~nx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nrwl~nx/)*

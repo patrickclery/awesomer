@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,803 | +10 | +51 | +129 | 2026-03-23 |
+| 2,008 | +14 | +51 | +157 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 3D Vision & Point Cloud Processing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ros-planning~moveit2/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ros-planning~moveit2/)*

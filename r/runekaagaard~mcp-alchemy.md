@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 402 | +1 | +2 | +3 | 2025-08-15 |
+| 419 | +3 | +5 | +10 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/runekaagaard~mcp-alchemy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/runekaagaard~mcp-alchemy/)*

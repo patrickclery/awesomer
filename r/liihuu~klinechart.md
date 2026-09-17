@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,756 | +10 | +73 | +217 | 2026-05-10 |
+| 4,136 | +25 | +83 | +271 | 2026-08-30 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Visualizing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/liihuu~klinechart/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/liihuu~klinechart/)*

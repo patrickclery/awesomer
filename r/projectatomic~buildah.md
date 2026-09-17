@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,775 | +10 | +49 | +202 | 2026-05-09 |
+| 9,011 | +6 | +30 | +122 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Filesystem
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/projectatomic~buildah/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/projectatomic~buildah/)*

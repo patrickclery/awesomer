@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,572 | +0 | +2 | +3 | 2025-12-07 |
+| 1,568 | +0 | -1 | -2 | 2025-12-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vinceliuice~mojave-gtk-theme/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vinceliuice~mojave-gtk-theme/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,639 | +22 | +77 | +160 | 2026-05-10 |
+| 6,875 | +17 | +52 | +200 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wesnoth~wesnoth/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wesnoth~wesnoth/)*

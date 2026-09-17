@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 | +0 | +0 |  | 2025-10-27 |
+| 121 | +2 | +2 | +3 | 2025-10-27 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/abstract-ide~abstract-cs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/abstract-ide~abstract-cs/)*

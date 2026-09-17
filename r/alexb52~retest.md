@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 221 | +0 | +1 |  | 2026-04-25 |
+| 220 | +0 | +0 | +1 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / File System Listener
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alexb52~retest/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexb52~retest/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,803 | +8 | +18 | +29 | 2026-04-23 |
+| 1,879 | +2 | +20 | +67 | 2026-04-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/philipk~boilr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/philipk~boilr/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 193 | +0 | +0 |  | 2025-06-19 |
+| 192 | +0 | +0 | +0 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authorization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elorest~petergate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elorest~petergate/)*

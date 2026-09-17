@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 282 | +1 | +3 | +16 | 2026-03-18 |
+| 296 | +2 | +6 | +11 | 2026-07-17 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neuromorphs~tonic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neuromorphs~tonic/)*

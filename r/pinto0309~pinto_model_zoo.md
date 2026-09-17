@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,149 | +8 |  |  | 2026-04-30 |
+| 4,602 | +6 | +36 | +164 | 2026-09-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Hubs & Registries
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pinto0309~pinto_model_zoo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pinto0309~pinto_model_zoo/)*

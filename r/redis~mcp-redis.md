@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 507 | +4 | +29 | +49 | 2026-05-11 |
+| 622 | +14 | +55 | +90 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/redis~mcp-redis/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/redis~mcp-redis/)*

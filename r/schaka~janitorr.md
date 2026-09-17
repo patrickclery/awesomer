@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 728 | +4 | +12 | +23 | 2026-04-30 |
+| 751 | +0 | +5 | +14 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/schaka~janitorr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/schaka~janitorr/)*

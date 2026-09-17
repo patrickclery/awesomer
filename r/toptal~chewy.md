@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,901 | +0 | +1 | +2 | 2026-03-27 |
+| 1,899 | -1 | -3 | -2 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/toptal~chewy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/toptal~chewy/)*

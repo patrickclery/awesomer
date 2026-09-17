@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 494 | +5 | +12 | +21 | 2026-04-06 |
+| 531 | +0 | +6 | +19 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Folding
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-origami/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-origami/)*

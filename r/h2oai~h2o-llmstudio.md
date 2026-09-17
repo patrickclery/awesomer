@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,964 | +45 | +59 | +110 | 2026-04-29 |
+| 5,181 | +4 | +18 | +204 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/h2oai~h2o-llmstudio/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/h2oai~h2o-llmstudio/)*

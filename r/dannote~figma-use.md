@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 542 | +2 | +12 | +52 | 2026-04-25 |
+| 599 | +0 | +7 | +40 | 2026-07-03 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dannote~figma-use/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dannote~figma-use/)*

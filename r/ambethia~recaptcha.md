@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,004 | +0 | +0 | +0 | 2026-04-09 |
+| 2,005 | +1 | +1 | +2 | 2026-06-19 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Captchas and anti-spam
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ambethia~recaptcha/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ambethia~recaptcha/)*

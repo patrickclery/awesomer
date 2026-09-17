@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,098 | +3 | +19 | +39 | 2026-04-13 |
+| 2,157 | +6 | +9 | +37 | 2026-09-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thecomputerm~awesome-svelte/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thecomputerm~awesome-svelte/)*

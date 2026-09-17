@@ -1,6 +1,6 @@
 # Muvon/octocode
 
-> Semantic code searcher and codebase utility
+> Structural code intelligence for AI agents — semantic search, knowledge graphs, and a built-in MCP server in one Rust bi
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Muvon/octocode) | [Live site ↗](https://patrickclery.com/awesomer/r/muvon~octocode/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 371 | +26 | +52 | +135 | 2026-05-10 |
+| 472 | +4 | +25 | +73 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/muvon~octocode/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/muvon~octocode/)*

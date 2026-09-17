@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,302 | +19 | +96 | +341 | 2026-05-09 |
+| 5,650 | +27 | +97 | +257 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Music Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lidarr~lidarr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lidarr~lidarr/)*

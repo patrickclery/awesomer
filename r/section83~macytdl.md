@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 920 | +5 | +23 | +31 | 2026-05-08 |
+| 1,006 | +4 | +29 | +58 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Audio and Video Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/section83~macytdl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/section83~macytdl/)*

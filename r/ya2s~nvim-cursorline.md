@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 469 | +1 | +6 | +15 | 2026-02-14 |
+| 478 | +0 | +1 | +6 | 2026-02-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Cursorline
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ya2s~nvim-cursorline/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ya2s~nvim-cursorline/)*

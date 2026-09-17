@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 562 | +0 | -1 |  | 2026-04-10 |
+| 562 | +0 | -1 | +0 | 2026-06-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Core Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/barsoom~attr_extras/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/barsoom~attr_extras/)*

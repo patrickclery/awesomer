@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,976 | +6 | +14 | +36 | 2026-04-24 |
+| 2,030 | +4 | +9 | +35 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Multimedia Streaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pikvm~ustreamer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pikvm~ustreamer/)*

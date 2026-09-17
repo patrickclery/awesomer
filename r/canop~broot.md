@@ -1,6 +1,6 @@
 # Canop/broot
 
-> A new way to see and navigate directory trees : https://dystroy.org/broot
+> A new way to see and navigate directory trees
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Canop/broot) | [Live site ↗](https://patrickclery.com/awesomer/r/canop~broot/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,662 | +17 | +76 | +159 | 2026-04-11 |
+| 12,938 | +14 | +48 | +201 | 2026-09-11 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/canop~broot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/canop~broot/)*

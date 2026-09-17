@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,740 | +109 | +588 | +1,126 | 2026-04-10 |
+| 23,255 | +70 | +330 | +978 | 2026-08-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eza-community~eza/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eza-community~eza/)*

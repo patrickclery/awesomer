@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,215 | +2 | +11 | +16 | 2025-07-09 |
+| 5,278 | +3 | +5 | +12 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/visit1985~mdp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/visit1985~mdp/)*

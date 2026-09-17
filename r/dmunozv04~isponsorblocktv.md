@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,617 | +67 | +238 | +375 | 2026-05-09 |
+| 6,077 | +23 | +95 | +332 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dmunozv04~isponsorblocktv/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dmunozv04~isponsorblocktv/)*

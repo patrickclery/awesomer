@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,339 | +66 | +338 | +1,066 | 2026-05-11 |
+| 19,296 | +57 | +227 | +657 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛠️ 7. Training & Fine-tuning Ecosystem
+- [Awesome local LLM](../l/local-llm.md) / Training and Fine-tuning
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~trl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~trl/)*

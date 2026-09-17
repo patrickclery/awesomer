@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,311 | -1 | +8 | +38 | 2026-05-09 |
+| 1,332 | +1 | +6 | +16 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Environments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/buddiesofbudgie~budgie-desktop/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/buddiesofbudgie~budgie-desktop/)*

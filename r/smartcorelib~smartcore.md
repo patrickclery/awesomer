@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 911 | +1 | +9 | +14 | 2026-04-15 |
+| 952 | +1 | +5 | +23 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Rust
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smartcorelib~smartcore/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smartcorelib~smartcore/)*

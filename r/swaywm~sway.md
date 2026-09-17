@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,894 | +26 | +124 | +227 | 2026-05-10 |
+| 17,318 | +25 | +85 | +284 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Compositors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/swaywm~sway/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/swaywm~sway/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 597 | +13 | +563 |  | 2026-05-08 |
+| 891 | +3 | +19 | +243 | 2026-08-21 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Utils
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/saffron-health~libretto/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saffron-health~libretto/)*

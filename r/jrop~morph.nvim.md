@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 111 | +1 | +1 | +7 | 2026-05-01 |
+| 136 | +0 | +0 | +23 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jrop~morph.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jrop~morph.nvim/)*

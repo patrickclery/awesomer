@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,225 | +12 | +163 | +244 | 2026-04-16 |
+| 2,312 | +2 | +14 | +59 | 2026-06-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Image Conversion
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/achno~gowall/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/achno~gowall/)*

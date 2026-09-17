@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,559 | +28 | +118 | +215 | 2026-02-24 |
+| 6,891 | +6 | +64 | +250 | 2026-06-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stevearc~oil.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stevearc~oil.nvim/)*

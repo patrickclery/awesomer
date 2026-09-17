@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,827 | +1 | +7 | +9 | 2026-05-09 |
+| 4,829 | -1 | -5 | -8 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Version Control
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/carloscuesta~gitmoji-cli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/carloscuesta~gitmoji-cli/)*

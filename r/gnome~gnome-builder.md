@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 262 | +0 | +0 |  | 2026-05-08 |
+| 263 | +0 | -1 | +0 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gnome~gnome-builder/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gnome~gnome-builder/)*

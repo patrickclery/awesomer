@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 169 | +0 | +0 |  | 2026-04-13 |
+| 170 | +0 | +0 | +1 | 2026-04-13 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Completions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chitoku-k~fzf-zsh-completions/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chitoku-k~fzf-zsh-completions/)*

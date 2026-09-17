@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 524 | +0 | +2 | +8 | 2026-05-07 |
+| 532 | +0 | +0 | +5 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/connet-dev~connet/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/connet-dev~connet/)*

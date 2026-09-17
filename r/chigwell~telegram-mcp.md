@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,081 | +28 | +179 | +258 | 2026-05-11 |
+| 1,605 | +33 | +145 | +402 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chigwell~telegram-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chigwell~telegram-mcp/)*

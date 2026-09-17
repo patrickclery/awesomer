@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 278 | +0 | +1 |  | 2025-12-06 |
+| 279 | +0 | +0 | +1 | 2025-12-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / DevOps Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bensie~sshkey/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bensie~sshkey/)*

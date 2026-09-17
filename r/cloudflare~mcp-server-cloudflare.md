@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,730 | +45 | +128 | +202 | 2026-04-30 |
+| 4,192 | +20 | +119 | +333 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudflare~mcp-server-cloudflare/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudflare~mcp-server-cloudflare/)*

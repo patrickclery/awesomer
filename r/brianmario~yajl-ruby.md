@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,490 | +0 | +0 | +0 | 2025-12-27 |
+| 1,489 | +1 | +0 | -1 | 2025-12-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Optimizations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brianmario~yajl-ruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brianmario~yajl-ruby/)*

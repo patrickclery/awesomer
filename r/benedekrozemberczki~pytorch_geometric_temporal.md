@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,980 | +0 | +5 | +15 | 2025-09-18 |
+| 2,991 | -1 | -2 | +2 | 2026-05-30 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benedekrozemberczki~pytorch_geometric_temporal/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/benedekrozemberczki~pytorch_geometric_temporal/)*

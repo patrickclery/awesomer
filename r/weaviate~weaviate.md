@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,164 | +39 | +178 | +657 | 2026-05-11 |
+| 16,805 | +13 | +76 | +479 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/weaviate~weaviate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/weaviate~weaviate/)*

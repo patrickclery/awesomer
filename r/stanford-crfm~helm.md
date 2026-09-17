@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,784 | +9 | +42 | +120 | 2026-05-09 |
+| 2,907 | +6 | +30 | +81 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📈 9. Evaluation, Benchmarks & Datasets
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/stanford-crfm~helm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stanford-crfm~helm/)*

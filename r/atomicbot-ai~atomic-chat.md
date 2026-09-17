@@ -1,6 +1,6 @@
 # AtomicBot-ai/Atomic-Chat
 
-> Atomic-Chat is an open source alternative to ChatGPT that runs 100% offline on your computer.
+> Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Joi
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/AtomicBot-ai/Atomic-Chat) | [Live site ↗](https://patrickclery.com/awesomer/r/atomicbot-ai~atomic-chat/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 630 | +41 | +215 |  | 2026-05-08 |
+| 1,469 | +52 | +206 | +561 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / AI Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/atomicbot-ai~atomic-chat/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/atomicbot-ai~atomic-chat/)*

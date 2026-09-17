@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 779 | +0 | -2 | +3 | 2025-12-26 |
+| 786 | -1 | +2 | +7 | 2026-05-21 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fossfreedom~indicator-sysmonitor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fossfreedom~indicator-sysmonitor/)*

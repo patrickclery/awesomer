@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,074 | -14 | -30 | -54 | 2026-04-20 |
+| 3,084 | +0 | -2 | -2 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTTP Clients and tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/httprb~http/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/httprb~http/)*

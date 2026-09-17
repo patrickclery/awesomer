@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,778 | +35 | +152 | +294 | 2026-02-22 |
+| 9,322 | +32 | +106 | +374 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/denvercoder1~readme-typing-svg/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/denvercoder1~readme-typing-svg/)*

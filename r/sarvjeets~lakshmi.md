@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 141 | +1 | +1 |  | 2026-05-08 |
+| 148 | +0 | +0 | +4 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Finance
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sarvjeets~lakshmi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sarvjeets~lakshmi/)*

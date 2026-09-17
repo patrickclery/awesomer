@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 620 | +7 | +23 | +83 | 2026-05-02 |
+| 684 | +3 | +8 | +30 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / CSV Files
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hat0uma~csvview.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hat0uma~csvview.nvim/)*

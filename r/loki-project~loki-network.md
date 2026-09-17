@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,044 | +1 | +8 | +44 | 2025-10-16 |
+| 2,091 | +2 | +14 | +43 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Decentralised Networks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/loki-project~loki-network/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/loki-project~loki-network/)*

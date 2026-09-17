@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,179 | +1 | +9 | +14 | 2026-04-15 |
+| 14,234 | +25 | +27 | +46 | 2026-04-15 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/http-party~http-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/http-party~http-server/)*

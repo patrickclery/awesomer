@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,298 | +382 | +2,770 | +10,378 | 2026-05-11 |
+| 32,059 | +109 | +470 | +1,730 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Self-hosted AI Platforms
+- [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/onyx-dot-app~onyx/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/onyx-dot-app~onyx/)*

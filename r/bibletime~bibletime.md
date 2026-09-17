@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 397 | +0 | +1 | +8 | 2026-05-09 |
+| 408 | +2 | +1 | +4 | 2026-06-29 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Education
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bibletime~bibletime/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bibletime~bibletime/)*

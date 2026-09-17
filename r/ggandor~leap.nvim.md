@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,032 | +1 | +9 | +12 | 2026-04-11 |
+| 5,030 | -2 | +0 | +1 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Motion
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ggandor~leap.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ggandor~leap.nvim/)*

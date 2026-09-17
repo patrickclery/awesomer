@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,884 | +0 | +11 | +21 | 2025-07-15 |
+| 10,031 | +17 | +94 | +124 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openmined~pysyft/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openmined~pysyft/)*

@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,860 | +10 | +50 | +83 | 2026-05-07 |
+| 4,047 | +8 | +39 | +125 | 2026-09-11 |
 
 ## Found In
 
+- [awesome-docker](../l/docker.md) / Registry CLI
 - [awesome-linux-containers](../l/linux-containers.md) / Filesystem
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/google~go-containerregistry/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google~go-containerregistry/)*

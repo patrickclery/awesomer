@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,297 | +9 | +27 | +78 | 2026-05-09 |
+| 3,374 | +6 | +21 | +53 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Privacy
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anysoftkeyboard~anysoftkeyboard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anysoftkeyboard~anysoftkeyboard/)*

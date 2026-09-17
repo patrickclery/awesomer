@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,856 | +5 | +17 | +31 | 2026-05-09 |
+| 3,898 | +1 | +9 | +27 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Bookmarks and Link Sharing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/shaarli~shaarli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shaarli~shaarli/)*

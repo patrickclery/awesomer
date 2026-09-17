@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 916 | +5 | +26 | +53 | 2026-03-30 |
+| 1,002 | +5 | +17 | +61 | 2026-07-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Programming Languages Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chomosuke~typst-preview.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chomosuke~typst-preview.nvim/)*

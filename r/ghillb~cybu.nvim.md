@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 325 | +0 | +0 |  | 2026-05-03 |
+| 328 | +0 | +1 | +3 | 2026-05-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / UI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ghillb~cybu.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ghillb~cybu.nvim/)*

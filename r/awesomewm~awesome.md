@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,878 | +9 | +14 | +46 | 2026-04-23 |
+| 6,958 | +0 | +18 | +53 | 2026-08-28 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Dynamic Window Managers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/awesomewm~awesome/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/awesomewm~awesome/)*

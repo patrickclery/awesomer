@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,548 | +0 | +5 | +8 | 2025-10-30 |
+| 1,550 | +0 | +0 | +2 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Markdown Processors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benbalter~word-to-markdown/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/benbalter~word-to-markdown/)*

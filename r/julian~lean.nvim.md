@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 520 | +2 | +16 | +26 | 2026-05-11 |
+| 581 | +4 | +18 | +37 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Programming Languages Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/julian~lean.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/julian~lean.nvim/)*

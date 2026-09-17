@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 418 | +0 | +3 | +6 | 2026-03-30 |
+| 434 | +0 | +4 | +10 | 2026-03-30 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mellow-theme~mellow.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mellow-theme~mellow.nvim/)*

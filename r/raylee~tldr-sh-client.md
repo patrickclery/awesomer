@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 737 | +0 | +0 |  | 2026-01-27 |
+| 735 | +0 | -3 | -2 | 2026-01-27 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/raylee~tldr-sh-client/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/raylee~tldr-sh-client/)*

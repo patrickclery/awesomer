@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 205 | +1 | +1 |  | 2026-05-08 |
+| 213 | +1 | +1 | +8 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brunnerlivio~brunnerlivio/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brunnerlivio~brunnerlivio/)*

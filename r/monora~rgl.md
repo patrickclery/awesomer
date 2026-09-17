@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 421 | +0 | +0 |  | 2026-05-10 |
+| 424 | +0 | +2 | +3 | 2026-08-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/monora~rgl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/monora~rgl/)*

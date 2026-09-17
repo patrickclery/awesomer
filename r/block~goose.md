@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 45,005 | +1,259 | +3,902 | +15,173 | 2026-05-11 |
+| 54,210 | +475 | +1,415 | +4,768 | 2026-09-11 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
+- [Awesome local LLM](../l/local-llm.md) / Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/block~goose/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/block~goose/)*

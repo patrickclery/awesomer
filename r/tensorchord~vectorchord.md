@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,671 | +5 | +38 | +131 | 2026-04-30 |
+| 1,789 | +7 | +15 | +90 | 2026-08-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tensorchord~vectorchord/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tensorchord~vectorchord/)*

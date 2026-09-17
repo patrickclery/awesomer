@@ -1,6 +1,6 @@
 # mukul975/Anthropic-Cybersecurity-Skills
 
-> 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3F
+> 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3F
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | [Live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,196 | +215 | +1,939 |  | 2026-04-26 |
+| 32,717 | +2,292 | +4,949 | +16,967 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
+- [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)*

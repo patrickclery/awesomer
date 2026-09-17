@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 312 | +0 | +0 |  | 2026-05-09 |
+| 315 | +0 | +1 | +3 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanclementshax~tailwindcss-themer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanclementshax~tailwindcss-themer/)*

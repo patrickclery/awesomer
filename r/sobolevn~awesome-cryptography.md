@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,926 | +17 | +93 | +153 | 2025-06-05 |
+| 7,112 | +14 | +46 | +124 | 2026-07-15 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sobolevn~awesome-cryptography/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sobolevn~awesome-cryptography/)*

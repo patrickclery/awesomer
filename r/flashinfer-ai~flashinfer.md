@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,589 |  |  |  | 2026-05-11 |
+| 6,393 | +55 | +234 | +598 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / Additional Inference Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flashinfer-ai~flashinfer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flashinfer-ai~flashinfer/)*

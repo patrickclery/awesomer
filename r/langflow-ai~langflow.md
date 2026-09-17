@@ -8,12 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 147,967 | +291 | +1,164 | +3,984 | 2026-05-11 |
+| 154,714 | +249 | +1,484 | +5,020 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/langflow-ai~langflow/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/langflow-ai~langflow/)*

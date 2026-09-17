@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 831 | +1 | +5 | +3 | 2026-05-11 |
+| 855 | -2 | +1 | +20 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Audio Streaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/izderadicka~audioserve/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/izderadicka~audioserve/)*

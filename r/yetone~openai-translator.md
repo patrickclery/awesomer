@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,899 | +0 | +12 | +208 | 2026-04-03 |
+| 24,980 | +5 | +13 | +55 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Translation Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yetone~openai-translator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yetone~openai-translator/)*

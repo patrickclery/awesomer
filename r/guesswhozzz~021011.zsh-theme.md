@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 127 | +0 | +2 | +8 | 2026-01-24 |
+| 132 | +0 | +0 | +4 | 2026-06-26 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/guesswhozzz~021011.zsh-theme/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/guesswhozzz~021011.zsh-theme/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,468 | +0 | -1 | +2 | 2026-03-30 |
+| 3,472 | +1 | +1 | +4 | 2026-03-30 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~tensorwatch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~tensorwatch/)*

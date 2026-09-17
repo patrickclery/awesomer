@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,710 | +31 | +170 | +356 | 2026-05-01 |
+| 12,363 | +48 | +163 | +446 | 2026-06-04 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/felixkratz~sketchybar/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/felixkratz~sketchybar/)*

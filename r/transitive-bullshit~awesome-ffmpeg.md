@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,163 | +4 | +9 | +14 | 2025-08-09 |
+| 1,188 | +1 | +7 | +16 | 2026-08-24 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/transitive-bullshit~awesome-ffmpeg/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/transitive-bullshit~awesome-ffmpeg/)*

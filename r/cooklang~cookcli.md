@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,278 | +7 | +48 | +167 | 2026-04-24 |
+| 1,383 | +6 | +18 | +75 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cooklang~cookcli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cooklang~cookcli/)*

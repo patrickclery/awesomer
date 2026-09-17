@@ -8,20 +8,21 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [Maigret](../r/soxoj~maigret.md) | 27,756 | +3,262 | +8,347 | +8,550 |
-| 2 | [yt-dlp](../r/yt-dlp~yt-dlp.md) | 161,683 | +1,181 | +5,534 | +9,792 |
-| 3 | [Sherlock](../r/sherlock-project~sherlock.md) | 83,211 | +317 | +2,408 | +9,495 |
-| 4 | [uBlock Origin](../r/gorhill~ublock.md) | 64,578 | +216 | +1,909 | +3,450 |
-| 5 | [SecLists](../r/danielmiessler~seclists.md) | 70,832 | +158 | +659 | +1,333 |
-| 6 | [ChangeDetection.io Open Source](../r/dgtlmoon~changedetection.io.md) | 31,414 | +80 | +314 | +1,406 |
-| 7 | [SpiderFoot](../r/smicallef~spiderfoot.md) | 17,721 | +77 | +354 | +661 |
-| 8 | [Holehe](../r/megadose~holehe.md) | 10,904 | +70 | +271 | +484 |
-| 9 | [PhoneInfoga](../r/sundowndev~phoneinfoga.md) | 16,407 | +67 | +203 | +678 |
-| 10 | [Social Analyzer](../r/qeeqbox~social-analyzer.md) | 22,801 | +58 | +237 | +850 |
+| 1 | [yt-dlp](../r/yt-dlp~yt-dlp.md) | 190,836 | +1,546 | +6,428 | +20,120 |
+| 2 | [Holehe](../r/megadose~holehe.md) | 14,908 | +657 | +2,322 | +3,634 |
+| 3 | [Sherlock](../r/sherlock-project~sherlock.md) | 91,439 | +503 | +1,975 | +6,405 |
+| 4 | [SpiderFoot](../r/smicallef~spiderfoot.md) | 22,082 | +234 | +1,313 | +3,900 |
+| 5 | [uBlock Origin](../r/gorhill~ublock.md) | 67,806 | +214 | +849 | +2,312 |
+| 6 | [Maigret](../r/soxoj~maigret.md) | 37,509 | +167 | +753 | +4,414 |
+| 7 | [MailAccess](../r/katrielmoses~mailaccess.md) | 1,346 | +159 | +903 | +1,209 |
+| 8 | [Blackbird](../r/p1ngul1n0~blackbird.md) | 8,082 | +155 | +557 | +1,940 |
+| 9 | [SecLists](../r/danielmiessler~seclists.md) | 73,481 | +153 | +645 | +1,903 |
+| 10 | [ChangeDetection.io Open Source](../r/dgtlmoon~changedetection.io.md) | 34,018 | +109 | +891 | +2,008 |
 
 ## Table of Contents
 
 - [[↑](#-google-dorks-tools) Google Dorks Tools](#-google-dorks-tools-google-dorks-tools)
+- [[↑](#-table-of-contents) Company Research](#-table-of-contents-company-research)
 - [[↑](#-table-of-contents) DNS](#-table-of-contents-dns)
 - [[↑](#-table-of-contents) Data Breach Search Engines](#-table-of-contents-data-breach-search-engines)
 - [[↑](#-table-of-contents) Domain and IP Research](#-table-of-contents-domain-and-ip-research)
@@ -45,7 +46,6 @@
 - [[↑](#-table-of-contents) Real-Time Search, Social Media Search, and General Social Media Tools](#-table-of-contents-real-time-search-social-media-search-and-general-social-media-tools)
 - [[↑](#-table-of-contents) Reddit](#-table-of-contents-reddit)
 - [[↑](#-table-of-contents) Related Awesome Lists](#-table-of-contents-related-awesome-lists)
-- [[↑](#-table-of-contents) Speciality Search Engines](#-table-of-contents-speciality-search-engines)
 - [[↑](#-table-of-contents) Steam](#-table-of-contents-steam)
 - [[↑](#-table-of-contents) Telegram](#-table-of-contents-telegram)
 - [[↑](#-table-of-contents) Threat Intelligence](#-table-of-contents-threat-intelligence)
@@ -58,7 +58,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [DorkEye](../r/xploits3c~dorkeye.md) | Automated Google Dorking Tool. Generates and runs advanced search queries for exposed files. It also test Vulns, Analyze | 131 | +7 |
+| [AtDork](../r/amnottdevv~atdork.md) | tools auto dorking with multi enggine search | 39 | +1 |
+| [DorkCraft](../r/juandresrodca~dorkcraft.md) | Google Dork helper  | 7 | +1 |
+
+[Back to top](#awesome-osint)
+
+## [↑](#-table-of-contents) Company Research
+
+| Repo | Description | Stars | 7d |
+|------|-------------|-------|----|
+| [Section 16 Deadline Calculator](../r/turner-levey~section-16-deadline-calculator.md) | Free no-tracking Section 16 / Form 4 deadline calculator for SEC Forms 3, 4, and 5. | 0 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -66,8 +75,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Amass](../r/owasp-amass~amass.md) | In-depth attack surface mapping and asset discovery | 14,534 | +39 |
+| [Amass](../r/owasp-amass~amass.md) | In-depth attack surface mapping and asset discovery | 15,153 | +49 |
+| [dnsx](../r/projectdiscovery~dnsx.md) | dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-suppli | 2,866 | +7 |
 | [Columbus Project](../r/elmasy-com~columbus.md) | An advanced  subdomain discovery service with fast, powerful and easy to use API and DNS history. | 34 | +0 |
+| [Subhunt](../r/ahmadouniass~subdomains-finder-subhunt.md) | Subdomain enumeration tool using passive sources (CRT.sh, HackerTarget, RapidDNS) — built for reconnaissance & bug bount | 2 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -75,8 +86,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Leaker](../r/vflame6~leaker.md) | Passive leak enumeration tool. | 304 | +2 |
-| [NOX](../r/nox-project~nox-framework.md) | High-performance OSINT/CTI framework for automated identity pivoting and risk analysis across 120+ sources. | 216 | -2 |
+| [Leaker](../r/vflame6~leaker.md) | Passive leak enumeration tool. | 593 | +6 |
+| [NOX](../r/nox-project~nox-framework.md) | High-performance OSINT/CTI framework for automated identity pivoting and risk analysis across 120+ sources. | 325 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -84,9 +95,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Crypto Scam & Crypto Phishing URL Threat Intel Feed](../r/spmedia~crypto-scam-and-crypto-phishing-threat-intel-feed.md) | A fresh feed of crypto phishing and crypto scam websites. Automatically updated daily/frequently. | 58 | +0 |
-| [Squatm3gator](../r/david3107~squatm3gator.md) | Squatm3gator is a complete web solution based on the python tool squatm3, designed to enumerate available domains genera | 32 | +0 |
-| [WebsiteTechMiner.py](../r/cybersader~websitetechminer-py.md) | A little Python project to automate gathering website profiling data from "BuiltWith" & "Wappalyzer" for tech stack info | 14 | +0 |
+| [Crypto Scam & Crypto Phishing URL Threat Intel Feed](../r/spmedia~crypto-scam-and-crypto-phishing-threat-intel-feed.md) | A fresh feed of crypto phishing and crypto scam websites. Automatically updated daily/frequently. | 69 | +1 |
+| [openSquat](../r/atenreiro~opensquat.md) | openSquat is an open-source tool that detects look-alike domains impersonating your brand, by scanning newly registered  | 985 | +1 |
+| [Domain Hunter](../r/whitebite~domain-hunter.md) | Check bulk domain availability 100% in your browser — free, open-source RDAP domain checker & name generator. 140+ TLDs, | 17 |  |
+| [osint-recon](../r/jmarchiori13~osint-recon.md) | Passive OSINT reconnaissance framework for authorized red team engagements — subdomains, DNS, tech fingerprinting, email | 1 | +0 |
+| [Squatm3gator](../r/david3107~squatm3gator.md) | Squatm3gator is a complete web solution based on the python tool squatm3, designed to enumerate available domains genera | 31 | +0 |
+| [WebsiteTechMiner.py](../r/cybersader~websitetechminer-py.md) | A little Python project to automate gathering website profiling data from "BuiltWith" & "Wappalyzer" for tech stack info | 16 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -94,13 +108,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Holehe](../r/megadose~holehe.md) | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information  | 10,904 | +70 |
-| [Ghunt](../r/mxrch~ghunt.md) | 🕵️‍♂️ Offensive Google framework. | 18,917 | +37 |
-| [Blackbird](../r/p1ngul1n0~blackbird.md) | An OSINT tool to search for accounts by username and email in social networks. | 6,030 | +30 |
-| [user-scanner](../r/kaifcodec~user-scanner.md) | 🕵️‍♂️ (2-in-1) Email & Username OSINT suite. Analyzes 195+ scan vectors (95+ email / 100+ username) for security resear | 1,522 | +13 |
-| [h8mail](../r/khast3x~h8mail.md) | Email OSINT & Password breach hunting tool, locally or using premium services. Supports chasing down related email | 4,980 | +8 |
-| [Gitrecon](../r/atiilla~gitrecon.md) | This tool uses the GitHub API to scan repositories owned by a user for email addresses and associated names. It provides | 54 | +1 |
-| [OSINTEye](../r/atiilla~osinteye.md) | OSINT Eye Mobile | 26 | +0 |
+| [Holehe](../r/megadose~holehe.md) | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information  | 14,908 | +657 |
+| [MailAccess](../r/katrielmoses~mailaccess.md) | Free email OSINT tool, 2500+ platforms, identity clustering, breach detection. No API keys required. pip install mailacc | 1,346 | +159 |
+| [Blackbird](../r/p1ngul1n0~blackbird.md) | An OSINT tool to search for accounts by username and email in social networks. | 8,082 | +155 |
+| [user-scanner](../r/kaifcodec~user-scanner.md) | 🕵️‍♂️ (2-in-1) Email & Username OSINT suite featuring native MCP support for deep data extraction just from a single Em | 4,776 | +71 |
+| [Ghunt](../r/mxrch~ghunt.md) | 🕵️‍♂️ Offensive Google framework. | 19,550 | +34 |
+| [h8mail](../r/khast3x~h8mail.md) | Email OSINT & Password breach hunting tool, locally or using premium services. Supports chasing down related email | 5,294 | +19 |
+| [OSINTEye](../r/atiilla~osinteye.md) | OSINT Eye Mobile | 33 | +2 |
+| [Gitrecon](../r/atiilla~gitrecon.md) | This tool uses the GitHub API to scan repositories owned by a user for email addresses and associated names. It provides | 54 | -1 |
 
 [Back to top](#awesome-osint)
 
@@ -108,8 +123,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Facebook Friend List Scraper](../r/narkopolo~fb_friend_list_scraper.md) | OSINT tool to scrape names and usernames from large friend lists on Facebook, without being rate limited. | 320 | +1 |
-| [Fb-sleep-stats](../r/sqren~fb-sleep-stats.md) | Use Facebook to track your friends’ sleeping habits | 1,694 | +0 |
+| [Facebook Friend List Scraper](../r/narkopolo~fb_friend_list_scraper.md) | OSINT tool to scrape names and usernames from large friend lists on Facebook, without being rate limited. | 332 | +2 |
+| [Fb-sleep-stats](../r/sqren~fb-sleep-stats.md) | Use Facebook to track your friends’ sleeping habits | 1,710 | +2 |
 
 [Back to top](#awesome-osint)
 
@@ -117,10 +132,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [psn_monitor](../r/misiektoja~psn_monitor.md) | Real-time tracking of Sony Playstation (PSN) players activities | 36 | +1 |
-| [xbox_monitor](../r/misiektoja~xbox_monitor.md) | Real-time tracking of Xbox Live players activities | 26 | +1 |
-| [lol_monitor](../r/misiektoja~lol_monitor.md) | Real-time tracking of LoL (League of Legends) players activities | 19 | +0 |
-| [steam_monitor](../r/misiektoja~steam_monitor.md) | Real-time tracking of Steam players activities | 45 | +0 |
+| [psn_monitor](../r/misiektoja~psn_monitor.md) | Real-time tracking of Sony Playstation (PSN) players activities | 41 | +1 |
+| [steam_monitor](../r/misiektoja~steam_monitor.md) | Real-time tracking of Steam players activities | 58 | +1 |
+| [lol_monitor](../r/misiektoja~lol_monitor.md) | Real-time tracking of LoL (League of Legends) players activities | 22 | +0 |
+| [xbox_monitor](../r/misiektoja~xbox_monitor.md) | Real-time tracking of Xbox Live players activities | 28 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -128,8 +143,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SatIntel](../r/ang13t~satintel.md) | SatIntel is an OSINT tool for Satellites 🛰. Extract satellite telemetry, receive orbital predictions, and parse TLEs 🔭 | 884 | -1 |
-| [Hyperlapse](../r/teehanlax~hyperlapse.js.md) | JavaScript hyper-lapse utility for Google Street View. | 2,467 | -22 |
+| [Hyperlapse](../r/teehanlax~hyperlapse.js.md) | JavaScript hyper-lapse utility for Google Street View. | 2,463 | +1 |
+| [SatIntel](../r/ang13t~satintel.md) | SatIntel is an OSINT tool for Satellites 🛰. Extract satellite telemetry, receive orbital predictions, and parse TLEs 🔭 | 900 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -137,8 +152,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Shotstars](../r/snooppr~shotstars.md) | An advanced tool for checking GitHub repositories, with star statistics, including fake star analysis and data visualiza | 102 | +3 |
-| [github_monitor](../r/misiektoja~github_monitor.md) | Track GitHub user and repository activity in real time with instant notifications | 46 | +0 |
+| [github_monitor](../r/misiektoja~github_monitor.md) | Track GitHub user and repository activity in real time with instant notifications | 53 | +0 |
+| [Shotstars](../r/snooppr~shotstars.md) | An advanced tool for checking GitHub repositories, with star statistics, including fake star analysis and data visualiza | 117 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -146,7 +161,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ExifLooter](../r/aydinnyunus~exiflooter.md) | ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap | 488 | +2 |
+| [ExifLooter](../r/aydinnyunus~exiflooter.md) | ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap | 498 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -154,8 +169,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Perspective](../r/finos~perspective.md) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | 10,474 | +3 |
-| [csvkit](../r/wireservice~csvkit.md) | A suite of utilities for converting to and working with CSV, the king of tabular file formats. | 6,371 | +2 |
+| [Perspective](../r/finos~perspective.md) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | 11,193 | +15 |
+| [csvkit](../r/wireservice~csvkit.md) | A suite of utilities for converting to and working with CSV, the king of tabular file formats. | 6,411 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -163,12 +178,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Osintgram](../r/datalux~osintgram.md) | Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any u | 12,782 | +43 |
-| [Osintgraph](../r/xd-mhloo~osintgraph.md) | About Osintgraph is an open-source tool that collects Instagram data, followers, and followees, storing them in Neo4j. I | 724 | +25 |
-| [Toutatis](../r/megadose~toutatis.md) | Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and mo | 3,913 | +11 |
-| [InstagramPrivSniffer](../r/obitouka~instagramprivsniffer.md) |  First ever tool to view "Instagram private posts" anonymously  | 785 | +10 |
-| [instagram_monitor](../r/misiektoja~instagram_monitor.md) | Track Instagram users' activities, profile changes and capture content with beautiful dashboards and instant notificatio | 879 | +7 |
-| [insto](../r/subzeroid~insto.md) | Interactive Instagram OSINT CLI with pluggable HikerAPI and aiograpi backends | 6 | +2 |
+| [Osintgram](../r/datalux~osintgram.md) | Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any u | 14,397 | +89 |
+| [Osintgraph](../r/xd-mhloo~osintgraph.md) | About Osintgraph is an open-source tool that collects Instagram data, followers, and followees, storing them in Neo4j. I | 951 | +36 |
+| [Toutatis](../r/megadose~toutatis.md) | Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and mo | 4,279 | +34 |
+| [instagram_monitor](../r/misiektoja~instagram_monitor.md) | Track Instagram users' activities, profile changes and capture content with beautiful dashboards and instant notificatio | 1,475 | +12 |
+| [InstagramPrivSniffer](../r/obitouka~instagramprivsniffer.md) |  First ever tool to view "Instagram private posts" anonymously  | 1,002 | +12 |
+| [insto](../r/subzeroid~insto.md) | 🔍 Interactive Instagram OSINT CLI with pluggable HikerAPI and aiograpi backends | 110 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -176,7 +191,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Awesome Translations list](../r/mbiesiad~awesome-translations.md) | 😎 Awesome lists about Internationalization & localization stuff. l10n, g11n, m17n, i18n. Translations! 🌎🌍 | 182 | +0 |
+| [Awesome Translations list](../r/mbiesiad~awesome-translations.md) | 😎 Awesome lists about Internationalization & localization stuff. l10n, g11n, m17n, i18n. Translations! 🌎🌍 | 193 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -184,8 +199,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [LinkedInDumper](../r/l4rm4nd~linkedindumper.md) | Python 3 script to dump/scrape/extract company employees from LinkedIn API | 589 | +2 |
-| [the-endorser](../r/eth0izzle~the-endorser.md) | An OSINT tool that allows you to draw out relationships between people on LinkedIn via endorsements/skills. | 352 | +0 |
+| [LinkedInDumper](../r/l4rm4nd~linkedindumper.md) | Python 3 script to dump/scrape/extract company employees from LinkedIn API | 612 | +2 |
+| [the-endorser](../r/eth0izzle~the-endorser.md) | An OSINT tool that allows you to draw out relationships between people on LinkedIn via endorsements/skills. | 357 | -1 |
 
 [Back to top](#awesome-osint)
 
@@ -193,8 +208,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Phantom Tide](../r/tg12~phantomtide.md) | Global maritime intelligence platform for real-time vessel tracking, AIS data analysis, sanctions monitoring, shipping r | 89 | +7 |
-| [Hormuz Tracker](../r/johnsmalls22-rgb~hormuz-tracker.md) | Real-time Strait of Hormuz vessel tracking with AIS data, dark ship detection, oil prices, and carrier positions. |  |  |
+| [Phantom Tide](../r/tg12~phantomtide.md) | Global maritime intelligence platform for real-time vessel tracking, AIS data analysis, sanctions monitoring, shipping r | 124 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -202,9 +216,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [lastfm_monitor](../r/misiektoja~lastfm_monitor.md) | Track Last.fm listening activity in real time with Spotify integration, automated playback, scrobble history and instant | 24 | +0 |
-| [spotify_monitor](../r/misiektoja~spotify_monitor.md) | Track Spotify friends' music activity in real time with auto-playback, skipped tracks detection and instant notification | 99 | +0 |
-| [spotify_profile_monitor](../r/misiektoja~spotify_profile_monitor.md) | Track Spotify profile, follower and playlist changes in real time | 52 | +0 |
+| [spotify_monitor](../r/misiektoja~spotify_monitor.md) | Track Spotify friends' music activity in real time with auto-playback, skipped tracks detection and instant notification | 108 | +1 |
+| [lastfm_monitor](../r/misiektoja~lastfm_monitor.md) | Track Last.fm listening activity in real time with Spotify integration, automated playback, scrobble history and instant | 26 | +0 |
+| [spotify_profile_monitor](../r/misiektoja~spotify_profile_monitor.md) | Track Spotify profile, follower and playlist changes in real time | 59 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -212,7 +226,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [gmapcatcher](../r/heldersepu~gmapcatcher.md) | An offline map viewer | 225 | +0 |
+| [gmapcatcher](../r/heldersepu~gmapcatcher.md) | An offline map viewer | 226 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -220,35 +234,35 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SpiderFoot](../r/smicallef~spiderfoot.md) | SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. | 17,721 | +77 |
-| [CrowdSec](../r/crowdsecurity~crowdsec.md) | CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs an | 13,296 | +56 |
-| [ReconFTW](../r/six2dez~reconftw.md) | reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform sc | 7,543 | +50 |
-| [The Harvester](../r/laramies~theharvester.md) | E-mails, subdomains and names Harvester - OSINT  | 16,179 | +37 |
-| [Photon](../r/s0md3v~photon.md) | Incredibly fast crawler designed for OSINT. | 12,866 | +14 |
-| [FOCA](../r/elevenpaths~foca.md) | Tool to find metadata and hidden information in the documents. | 3,529 | +7 |
-| [keyFinder](../r/momenbasel~keyfinder.md) | Passive API key and secret discovery browser extension for Chrome and Firefox. 80+ detection patterns, zero config. | 664 | +7 |
-| [Waybackurls](../r/tomnomnom~waybackurls.md) | Fetch all the URLs that the Wayback Machine knows about for a domain | 4,430 | +4 |
-| [Cyberbro](../r/stanfrbd~cyberbro.md) | A simple application that extracts your IoCs from garbage input and checks their reputation using multiple CTI services. | 648 | +3 |
-| [ArkhamMirror](../r/mantisfury~arkhammirror.md) | Local-first AI-powered document intelligence platform for investigative journalism | 408 | +2 |
-| [OpenGraph Intel (OGI)](../r/khashashin~ogi.md) | Open Source Link Analysis & OSINT Framework | 144 | +2 |
-| [sn0int](../r/kpcyrd~sn0int.md) | Semi-automatic OSINT framework and package manager | 2,437 | +2 |
-| [BeVigil-CLI](../r/bevigil~bevigil-osint-cli.md) | bevigil-cli provides a unified command line interface and python library for using BeVigil OSINT API. | 138 | +0 |
-| [Datasploit](../r/datasploit~datasploit.md) | An #OSINT Framework to perform various recon techniques on Companies, People, Phone Number, Bitcoin Addresses, etc.,  ag | 3,281 | +0 |
-| [Dehashed CLI](../r/hmaverickadams~dehashed-api-tool.md) | A command-line tool to query the DeHashed API. Easily search for various parameters like usernames, emails, hashed passw | 267 | +0 |
+| [SpiderFoot](../r/smicallef~spiderfoot.md) | SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. | 22,082 | +234 |
+| [The Harvester](../r/laramies~theharvester.md) | E-mails, subdomains and names Harvester - OSINT  | 17,367 | +94 |
+| [CrowdSec](../r/crowdsecurity~crowdsec.md) | CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs an | 14,832 | +73 |
+| [ReconFTW](../r/six2dez~reconftw.md) | reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform sc | 8,107 | +30 |
+| [Photon](../r/s0md3v~photon.md) | Incredibly fast crawler designed for OSINT. | 13,202 | +23 |
+| [OpenGraph Intel (OGI)](../r/khashashin~ogi.md) | Open Source Link Analysis & OSINT Framework | 297 | +6 |
+| [PRISM](../r/novacode37~prism-platform.md) | Self-hosted OSINT platform. Point it at a domain, IP, email, phone or username and 22+ modules run in parallel: WHOIS, D | 228 | +5 |
+| [Waybackurls](../r/tomnomnom~waybackurls.md) | Fetch all the URLs that the Wayback Machine knows about for a domain | 4,560 | +5 |
+| [FOCA](../r/elevenpaths~foca.md) | Tool to find metadata and hidden information in the documents. | 3,632 | +4 |
+| [keyFinder](../r/momenbasel~keyfinder.md) | Passive API key and secret discovery browser extension for Chrome and Firefox. 80+ detection patterns, zero config. | 712 | +4 |
+| [sn0int](../r/kpcyrd~sn0int.md) | Semi-automatic OSINT framework and package manager | 2,533 | +4 |
+| [Cyberbro](../r/stanfrbd~cyberbro.md) | A simple application that extracts your IoCs from garbage input and checks their reputation using multiple CTI services. | 686 | +3 |
+| [ArkhamMirror](../r/mantisfury~arkhammirror.md) | Local-first AI-powered document intelligence platform for investigative journalism | 488 | +1 |
+| [BeVigil-CLI](../r/bevigil~bevigil-osint-cli.md) | bevigil-cli provides a unified command line interface and python library for using BeVigil OSINT API. | 144 | +1 |
+| [LinkScope Client](../r/accentusoft~linkscope_client.md) | Repository for the LinkScope Client software. | 497 | +1 |
+| [SpiderSuite](../r/3nock~spidersuite.md) | SpiderSuite (web security crawler) releases, wiki and roadmap | 977 | +1 |
+| [Dehashed CLI](../r/hmaverickadams~dehashed-api-tool.md) | A command-line tool to query the DeHashed API. Easily search for various parameters like usernames, emails, hashed passw | 281 | +0 |
 | [DuckDuckGo URL scraper](../r/its0x08~duckduckgo.md) | A simple DuckDuckGo URL scraper. | 31 | +0 |
-| [Glit](../r/shadawck~glit.md) | Retrieve all mails of users related to a git repository, a git user or a git organization | 56 | +0 |
-| [IntelHub](../r/tomsec8~intelhub.md) | A modern and intuitive Chrome extension that brings your favorite OSINT tools, metadata analyzers, and Google Dorking as | 98 | +0 |
-| [IntellyWeave](../r/vericle~intellyweave.md) | AI-powered platform for OSINT intelligence analysis. Features archive discovery with hypothesis-driven investigation, GL | 59 | +0 |
-| [LinkScope Client](../r/accentusoft~linkscope_client.md) | Repository for the LinkScope Client software. | 465 | +0 |
-| [Orbit](../r/s0md3v~orbit.md) | Blockchain Transactions Investigation Tool | 598 | +0 |
-| [OsintStalker](../r/milo2012~osintstalker.md) | osintstalker | 714 | +0 |
-| [Pyba](../r/fauvidotechnologies~pybrowserautomation.md) | easy, reproducible, fast and low memory web automation for OSINT | 29 | +0 |
+| [Glit](../r/shadawck~glit.md) | Retrieve all mails of users related to a git repository, a git user or a git organization | 58 | +0 |
+| [IntelHub](../r/tomsec8~intelhub.md) | A modern and intuitive Chrome extension that brings your favorite OSINT tools, metadata analyzers, and Google Dorking as | 121 | +0 |
+| [IntellyWeave](../r/vericle~intellyweave.md) | AI-powered platform for OSINT intelligence analysis. Features archive discovery with hypothesis-driven investigation, GL | 75 | +0 |
+| [Orbit](../r/s0md3v~orbit.md) | Blockchain Transactions Investigation Tool | 619 | +0 |
+| [OsintStalker](../r/milo2012~osintstalker.md) | osintstalker | 724 | +0 |
+| [Pyba](../r/fauvidotechnologies~pybrowserautomation.md) | easy, reproducible, fast and low memory web automation for OSINT | 30 | +0 |
 | [pygreynoise](../r/greynoise-intelligence~pygreynoise.md) | Python3 library and command line for GreyNoise | 177 | +0 |
 | [SerpScan](../r/alaa-abdulridha~serpscan.md) | Serpscan is a powerfull php script designed to allow you to leverage the power of dorking straight from the comfort of y | 70 | +0 |
-| [Sub3 Suite](../r/3nock~sub3suite.md) | OSINT Template Engine | 572 | +0 |
-| [Discoshell](../r/foozzi~discoshell.md) | a simple discovery script that uses popular tools like subfinder, amass, puredns, alterx, massdns and others | 86 | -1 |
-| [SpiderSuite](../r/3nock~spidersuite.md) | SpiderSuite releases, wiki and roadmap | 956 | -1 |
-| [Zen](../r/s0md3v~zen.md) | Find emails of Github users | 590 | -2 |
+| [Sub3 Suite](../r/3nock~sub3suite.md) | OSINT Template Engine | 580 | +0 |
+| [Zen](../r/s0md3v~zen.md) | Find emails of Github users | 601 | +0 |
+| [Datasploit](../r/datasploit~datasploit.md) | An #OSINT Framework to perform various recon techniques on Companies, People, Phone Number, Bitcoin Addresses, etc.,  ag | 3,318 | -1 |
 
 [Back to top](#awesome-osint)
 
@@ -264,8 +278,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [PhoneInfoga](../r/sundowndev~phoneinfoga.md) | Information gathering framework for phone numbers | 16,407 | +67 |
-| [InMobPrefix](../r/hstsethi~in-mob-prefix.md) | Dataset, charts, models of 4 digit mobile number prefixes in India by state, operator name. | 5 | +0 |
+| [PhoneInfoga](../r/sundowndev~phoneinfoga.md) | Information gathering framework for phone numbers | 17,859 | +92 |
+| [InMobPrefix](../r/hstsethi~in-mob-prefix.md) | Dataset, charts, models of 4 digit mobile number prefixes in India by state, operator name. | 6 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -273,7 +287,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [uBlock Origin](../r/gorhill~ublock.md) | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | 64,578 | +216 |
+| [uBlock Origin](../r/gorhill~ublock.md) | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | 67,806 | +214 |
+| [MetaClean](../r/moresyl~metaclean.md) | Offline metadata & privacy cleaner for images, Office, PDF and text · Rust + Tauri · 本地文件隐私净化器 | 12 | +5 |
 
 [Back to top](#awesome-osint)
 
@@ -281,7 +296,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Oblivion](../r/loseys~oblivion.md) | Data leak checker & OSINT Tool | 589 | -1 |
+| [Oblivion](../r/loseys~oblivion.md) | Data leak checker & OSINT Tool | 599 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -289,7 +304,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Arctic Shift](../r/arthurheitmann~arctic_shift.md) | Making Reddit data accessible to researchers, moderators and everyone else.  Interact with the data through large dumps, | 991 | +13 |
+| [Arctic Shift](../r/arthurheitmann~arctic_shift.md) | Making Reddit data accessible to researchers, moderators and everyone else.  Interact with the data through large dumps, | 1,510 | +40 |
 
 [Back to top](#awesome-osint)
 
@@ -297,25 +312,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SecLists](../r/danielmiessler~seclists.md) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessmen | 70,832 | +158 |
-| [awesome-pentest](../r/enaqx~awesome-pentest.md) | A collection of awesome penetration testing resources, tools and other shiny things | 26,087 | +54 |
-| [personal-security-checklist](../r/lissy93~personal-security-checklist.md) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 | 21,388 | +54 |
-| [awesome-privacy](../r/lissy93~awesome-privacy.md) | 🦄  A curated list of privacy & security-focused software and services | 9,356 | +42 |
-| [awesome-threat-intelligence](../r/hslatman~awesome-threat-intelligence.md) | A curated list of Awesome Threat Intelligence resources | 10,178 | +34 |
-| [awesome-forensics](../r/cugu~awesome-forensics.md) | ⭐️ A curated list of awesome forensic analysis tools and resources | 5,046 | +12 |
-| [infosec reference](../r/rmusser01~infosec_reference.md) | An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git ho | 5,945 | +6 |
-| [awesome-lockpicking](../r/fabacab~awesome-lockpicking.md) | 🔓😎 A curated list of awesome guides, tools, and other resources related to the security and compromise of locks, safes | 1,863 | +2 |
-| [security-list](../r/zbetcheckin~security_list.md) | Great security list for fun and profit | 1,868 | +1 |
-| [awesome-sec-talks](../r/paulsec~awesome-sec-talks.md) | A collected list of awesome security talks | 4,210 | +0 |
-| [awesome-anti-forensic](../r/remiflavien1~awesome-anti-forensic.md) | Tools and packages that are used for countering forensic activities, including encryption, steganography, and anything t | 990 | -1 |
-
-[Back to top](#awesome-osint)
-
-## [↑](#-table-of-contents) Speciality Search Engines
-
-| Repo | Description | Stars | 7d |
-|------|-------------|-------|----|
-| [Search Abuseipdb](../r/oseasfr~search-abuseipdb.md) | search-abuseipdb | 3 | +0 |
+| [SecLists](../r/danielmiessler~seclists.md) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessmen | 73,481 | +153 |
+| [awesome-pentest](../r/enaqx~awesome-pentest.md) | A collection of awesome penetration testing resources, tools and other shiny things | 27,187 | +77 |
+| [personal-security-checklist](../r/lissy93~personal-security-checklist.md) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 | 22,311 | +57 |
+| [awesome-privacy](../r/lissy93~awesome-privacy.md) | 🦄  A curated list of privacy & security-focused software and services | 9,871 | +47 |
+| [awesome-threat-intelligence](../r/hslatman~awesome-threat-intelligence.md) | A curated list of Awesome Threat Intelligence resources | 10,623 | +31 |
+| [OSINT-BIBLE](../r/frangelbarrera~osint-bible.md) | Comprehensive 2026 OSINT guide — 450+ tools, AI intelligence, methodologies & ethics across 35 sections for investigatio | 914 | +16 |
+| [awesome-lockpicking](../r/fabacab~awesome-lockpicking.md) | 🔓😎 A curated list of awesome guides, tools, and other resources related to the security and compromise of locks, safes | 1,927 | +4 |
+| [awesome-forensics](../r/cugu~awesome-forensics.md) | ⭐️ A curated list of awesome forensic analysis tools and resources | 5,181 | +3 |
+| [awesome-sec-talks](../r/paulsec~awesome-sec-talks.md) | A collected list of awesome security talks | 4,236 | +2 |
+| [infosec reference](../r/rmusser01~infosec_reference.md) | An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git ho | 5,991 | +2 |
+| [awesome-anti-forensic](../r/remiflavien1~awesome-anti-forensic.md) | Tools and packages that are used for countering forensic activities, including encryption, steganography, and anything t | 1,039 | +1 |
+| [security-list](../r/zbetcheckin~security_list.md) | Great security list for fun and profit | 1,883 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -323,7 +331,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Steam-OSINT](../r/matiash26~steam-osint.md) | This tool will help you find a mutual friend | 88 | +0 |
+| [Steam-OSINT](../r/matiash26~steam-osint.md) | This tool will help you find a mutual friend | 99 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -331,15 +339,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Telepahty](../r/proseltd~telepathy-community.md) | Public release of Telepathy, an OSINT toolkit for investigating Telegram chats. | 1,208 | +3 |
-| [TOsint](../r/drego85~tosint.md) | Tosint is a Telegram OSINT tool that extracts actionable intelligence from bot tokens and chat IDs for security investig | 821 | +3 |
-| [Telegram Nearby Map](../r/tejado~telegram-nearby-map.md) | Discover the location of nearby Telegram users 📡🌍 | 1,184 | +2 |
-| [Telerecon](../r/sockysec~telerecon.md) | A reconnaissance framework for researching and investigating Telegram.  | 1,295 | +2 |
-| [Maltego Telegram](../r/vognik~maltego-telegram.md) | 🔎 OSINT Maltego Transforms for investigating Telegram channels, groups, and users, including deanonymization via sticke | 451 | +1 |
-| [Telegram Channel Joiner](../r/spmedia~telegram-channel-joiner.md) | A python bot that uses the Pyrogram API Framework to take a list of Telegram channels and groups and joins them. | 13 | +0 |
-| [Telegram channels scraper TeleGraphite ](../r/hamodywe~telegram-scraper-telegraphite.md) | A fast and reliable Telegram channel scraper that fetches posts and exports them to JSON. | 276 | +0 |
-| [TeleTracker](../r/tsale~teletracker.md) | TeleTracker is a simple set of Python scripts designed for anyone investigating Telegram channels. It helps you send mes | 527 | +0 |
-| [CCTV](../r/ivanglinkin~cctv.md) | Close-Circuit Telegram Vision revolutionizes location tracking with its open-source design and Telegram API integration. | 2,465 | -2 |
+| [Maltego Telegram](../r/vognik~maltego-telegram.md) | 🔎 OSINT Maltego Transforms for investigating Telegram channels, groups, and users, including deanonymization via sticke | 563 | +5 |
+| [Telerecon](../r/sockysec~telerecon.md) | A reconnaissance framework for researching and investigating Telegram.  | 1,326 | +3 |
+| [TOsint](../r/drego85~tosint.md) | Tosint is a Telegram OSINT tool that extracts actionable intelligence from bot tokens and chat IDs for security investig | 849 | +3 |
+| [TeleTracker](../r/tsale~teletracker.md) | TeleTracker is a simple set of Python scripts designed for anyone investigating Telegram channels. It helps you send mes | 542 | +2 |
+| [CCTV](../r/ivanglinkin~cctv.md) | Close-Circuit Telegram Vision revolutionizes location tracking with its open-source design and Telegram API integration. | 2,478 | +1 |
+| [Telegram Channel Joiner](../r/spmedia~telegram-channel-joiner.md) | A python bot that uses the Pyrogram API Framework to take a list of Telegram channels and groups and joins them. | 16 | +1 |
+| [Telegram Nearby Map](../r/tejado~telegram-nearby-map.md) | Discover the location of nearby Telegram users 📡🌍 | 1,190 | +1 |
+| [Telepahty](../r/proseltd~telepathy-community.md) | Public release of Telepathy, an OSINT toolkit for investigating Telegram chats. | 1,235 | +1 |
+| [Telegram channels scraper TeleGraphite ](../r/hamodywe~telegram-scraper-telegraphite.md) | A fast and reliable Telegram channel scraper that fetches posts and exports them to JSON. | 289 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -347,9 +355,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OnionScan](../r/s-rah~onionscan.md) | OnionScan is a free and open source tool for investigating the Dark Web. | 3,230 | +4 |
-| [PhishingSecLists](../r/spmedia~phishingseclists.md) | To be used with tools like GoBuster & DirBuster but these lists are specifically tailored and designed for scanning phis | 81 | +0 |
-| [Threat Actor Usernames Scrape](../r/spmedia~threat-actor-usernames-scrape.md) | A collection & lists of intel and usernames scraped from various cybercrime sources & forums. DarkForums, HackForums, Pa | 191 | +0 |
+| [VoidAccess](../r/katrielmoses~voidaccess.md) | Self-hosted dark web OSINT platform. Automated threat intelligence from query to graph in 13 steps. Free alternative to  | 699 | +28 |
+| [OnionScan](../r/s-rah~onionscan.md) | OnionScan is a free and open source tool for investigating the Dark Web. | 3,300 | +9 |
+| [Threat Actor Usernames Scrape](../r/spmedia~threat-actor-usernames-scrape.md) | A collection & lists of intel and usernames scraped from various cybercrime sources & forums. DarkForums, HackForums, Pa | 236 | +5 |
+| [PhishingSecLists](../r/spmedia~phishingseclists.md) | To be used with tools like GoBuster & DirBuster but these lists are specifically tailored and designed for scanning phis | 88 | +1 |
+| [Taranis AI](../r/taranis-ai~taranis-ai.md) | Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize inf | 1,214 | +0 |
+| [ThreatLens](../r/abdaullahag~threat_intel_project.md) | Python CLI tool for rapid IOC analysis (IPs, Domains, CVEs) using 6 free Threat Intel APIs. Outputs: Color-coded Excel,  | 10 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -357,15 +368,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Maigret](../r/soxoj~maigret.md) | 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites | 27,756 | +3,262 |
-| [Sherlock](../r/sherlock-project~sherlock.md) | Hunt down social media accounts by username across social networks | 83,211 | +317 |
-| [Social Analyzer](../r/qeeqbox~social-analyzer.md) | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites | 22,801 | +58 |
-| [Blackbird](../r/p1ngul1n0~blackbird.md) | An OSINT tool to search for accounts by username and email in social networks. | 6,030 | +30 |
-| [user-scanner](../r/kaifcodec~user-scanner.md) | 🕵️‍♂️ (2-in-1) Email & Username OSINT suite. Analyzes 195+ scan vectors (95+ email / 100+ username) for security resear | 1,522 | +13 |
-| [NexFil](../r/thewhiteh4t~nexfil.md) | OSINT tool for finding profiles by username | 2,523 | +7 |
-| [Seekr](../r/seekr-osint~seekr.md) | A multi-purpose OSINT toolkit with a neat web-interface. | 805 | +4 |
-| [Cupidcr4wl](../r/osinti4l~cupidcr4wl.md) | cupidcr4wl is an Open-Source Intelligence username and phone number search tool that crawls adult content platforms to s | 124 | +2 |
-| [Antisocial](../r/lukeslp~antisocial.md) | Find forgotten accounts across 30+ platforms using three-tier verification | 2 | +0 |
+| [Sherlock](../r/sherlock-project~sherlock.md) | Hunt down social media accounts by username across social networks | 91,439 | +503 |
+| [Maigret](../r/soxoj~maigret.md) | 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites | 37,509 | +167 |
+| [Blackbird](../r/p1ngul1n0~blackbird.md) | An OSINT tool to search for accounts by username and email in social networks. | 8,082 | +155 |
+| [user-scanner](../r/kaifcodec~user-scanner.md) | 🕵️‍♂️ (2-in-1) Email & Username OSINT suite featuring native MCP support for deep data extraction just from a single Em | 4,776 | +71 |
+| [Social Analyzer](../r/qeeqbox~social-analyzer.md) | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites | 24,025 | +49 |
+| [Cupidcr4wl](../r/osinti4l~cupidcr4wl.md) | cupidcr4wl is an Open-Source Intelligence username and phone number search tool that crawls adult content platforms to s | 170 | +4 |
+| [Antisocial](../r/lukeslp~antisocial.md) | Find forgotten accounts across 30+ platforms using three-tier verification | 5 | +1 |
+| [NexFil](../r/thewhiteh4t~nexfil.md) | OSINT tool for finding profiles by username | 2,617 | +1 |
+| [Seekr](../r/seekr-osint~seekr.md) | A multi-purpose OSINT toolkit with a neat web-interface. | 870 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -373,9 +384,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [yt-dlp](../r/yt-dlp~yt-dlp.md) | A feature-rich command-line audio/video downloader | 161,683 | +1,181 |
-| [Video Stabilization Methods](../r/yaochih~awesome-video-stabilization.md) | A curated list of video stabilization methods | 538 | +0 |
-| [Tubuep](../r/bibanon~tubeup.md) | Use yt-dlp to download video/metadata and upload to the Internet Archive. | 488 | -1 |
+| [yt-dlp](../r/yt-dlp~yt-dlp.md) | A feature-rich command-line audio/video downloader | 190,836 | +1,546 |
+| [Video Stabilization Methods](../r/yaochih~awesome-video-stabilization.md) | A curated list of video stabilization methods | 558 | +1 |
+| [Tubuep](../r/bibanon~tubeup.md) | Use yt-dlp to download video/metadata and upload to the Internet Archive. | 517 | +0 |
 
 [Back to top](#awesome-osint)
 
@@ -383,9 +394,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Wayback Machine Archiver](../r/jsvine~waybackpack.md) | Download the entire Wayback Machine archive for a given URL. | 3,190 | +2 |
-| [Wayback-Archive](../r/geiserx~wayback-archive.md) | Download complete websites from the Wayback Machine with full asset preservation for offline viewing | 8 | +0 |
-| [waybackpy](../r/akamhy~waybackpy.md) | Wayback Machine API interface & a command-line tool | 576 | +0 |
+| [Wayback Machine Archiver](../r/jsvine~waybackpack.md) | Download the entire Wayback Machine archive for a given URL. | 3,230 | +2 |
+| [Wayback-Archive](../r/geiserx~wayback-archive.md) | Download complete websites from the Wayback Machine with full asset preservation for offline viewing | 34 | +2 |
+| [waybackpy](../r/akamhy~waybackpy.md) | Wayback Machine API interface & a command-line tool | 604 | +1 |
 
 [Back to top](#awesome-osint)
 
@@ -393,10 +404,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ChangeDetection.io Open Source](../r/dgtlmoon~changedetection.io.md) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for trackin | 31,414 | +80 |
+| [ChangeDetection.io Open Source](../r/dgtlmoon~changedetection.io.md) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for trackin | 34,018 | +109 |
 | [Website-Diff](../r/geiserx~website-diff.md) | Intelligent web page comparison tool with Wayback Machine support and visual regression testing | 1 | +0 |
 
 [Back to top](#awesome-osint)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/l/osint/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/l/osint/)*

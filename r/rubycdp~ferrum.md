@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,006 | +3 | +10 | +22 | 2026-04-22 |
+| 2,045 | +1 | +9 | +15 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rubycdp~ferrum/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rubycdp~ferrum/)*

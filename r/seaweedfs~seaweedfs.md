@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,209 | +147 | +753 | +2,292 | 2026-05-11 |
+| 34,616 | +137 | +554 | +1,702 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Object Storage & File Servers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/seaweedfs~seaweedfs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/seaweedfs~seaweedfs/)*

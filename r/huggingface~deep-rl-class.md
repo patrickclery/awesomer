@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,866 | +0 | +29 | +130 | 2026-04-17 |
+| 5,013 | +8 | +29 | +93 | 2026-05-26 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Courses & Interactive Playgrounds
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~deep-rl-class/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~deep-rl-class/)*

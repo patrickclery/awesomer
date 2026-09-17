@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 191 | +8 | +37 | +82 | 2026-05-11 |
+| 255 | +1 | +10 | +46 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / AI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cursortab~cursortab.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cursortab~cursortab.nvim/)*

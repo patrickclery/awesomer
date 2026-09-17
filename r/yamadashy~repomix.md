@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,604 | +279 | +1,238 | +2,979 | 2026-05-11 |
+| 28,326 | +127 | +496 | +2,038 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yamadashy~repomix/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yamadashy~repomix/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,472 | +11 | +21 | +188 | 2026-04-07 |
+| 2,684 | +10 | +52 | +137 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mobile-artificial-intelligence~maid/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mobile-artificial-intelligence~maid/)*

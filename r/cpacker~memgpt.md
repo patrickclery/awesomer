@@ -1,6 +1,6 @@
 # cpacker/MemGPT
 
-> Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.
+> Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/cpacker/MemGPT) | [Live site ↗](https://patrickclery.com/awesomer/r/cpacker~memgpt/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,641 | +218 | +651 | +1,744 | 2026-04-12 |
+| 24,722 | +137 | +485 | +1,384 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cpacker~memgpt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cpacker~memgpt/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,358 | -2 | +4 | +50 | 2026-05-01 |
+| 11,379 | +4 | +3 | +25 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kotlinby~awesome-kotlin/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kotlinby~awesome-kotlin/)*

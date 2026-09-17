@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 381 | +2 | +3 | +0 | 2026-05-11 |
+| 387 | +0 | +0 | +4 | 2026-09-11 |
 
 ## Found In
 
-- [awesome-db-tools](../l/db-tools.md) / HA/Failover/Sharding
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
+- [awesome-db-tools](../l/db-tools.md) / HA/Failover/Sharding
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/percona~percona-xtradb-cluster/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/percona~percona-xtradb-cluster/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 326 | -1 | -1 |  | 2026-03-22 |
+| 325 | +0 | +0 | -1 | 2026-03-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/workarea-commerce~workarea/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/workarea-commerce~workarea/)*

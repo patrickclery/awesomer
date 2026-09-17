@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,671 | +97 | +801 | +1,186 | 2026-05-05 |
+| 24,418 | +72 | +1,786 | +4,001 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Video Streaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/iv-org~invidious/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/iv-org~invidious/)*

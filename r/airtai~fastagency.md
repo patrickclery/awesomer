@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 539 | +2 | +7 |  | 2026-02-23 |
+| 549 | +1 | +3 | +9 | 2026-02-23 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/airtai~fastagency/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/airtai~fastagency/)*

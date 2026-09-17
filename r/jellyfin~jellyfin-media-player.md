@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,491 | +3 | -2 | +235 | 2026-03-28 |
+| 5,743 | +37 | +149 | +250 | 2026-08-31 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Video
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jellyfin~jellyfin-media-player/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jellyfin~jellyfin-media-player/)*

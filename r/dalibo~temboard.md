@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 760 | +0 | +3 | +1 | 2026-04-16 |
+| 768 | +2 | +1 | +7 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / GUI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dalibo~temboard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dalibo~temboard/)*

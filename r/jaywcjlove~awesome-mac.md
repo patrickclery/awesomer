@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 103,823 | +505 | +2,042 | +3,433 | 2026-05-10 |
+| 113,704 | +410 | +2,723 | +7,931 | 2026-09-13 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jaywcjlove~awesome-mac/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jaywcjlove~awesome-mac/)*

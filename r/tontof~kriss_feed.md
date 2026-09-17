@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 288 | +0 | +0 | +1 | 2026-01-07 |
+| 293 | +1 | +1 | +5 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tontof~kriss_feed/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tontof~kriss_feed/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 73,591 | -11 | -16 | -11 | 2026-04-30 |
+| 73,549 | -8 | -2 | -13 | 2026-07-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-vite](../l/vite.md) / Official Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vuejs~awesome-vue/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vuejs~awesome-vue/)*

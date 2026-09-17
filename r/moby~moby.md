@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 71,541 | +4 | +65 | +502 | 2026-05-11 |
+| 72,092 | +20 | +71 | +405 | 2026-09-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-docker](../l/docker.md) / Projects
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moby~moby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/moby~moby/)*

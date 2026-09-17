@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 132 | +0 | +2 | +10 | 2026-03-12 |
+| 136 | +0 | -1 | +3 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Search
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/2kabhishek~seeker.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/2kabhishek~seeker.nvim/)*

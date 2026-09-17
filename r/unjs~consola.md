@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,259 | +6 | +24 | +47 | 2026-05-11 |
+| 7,326 | +3 | +8 | +39 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unjs~consola/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unjs~consola/)*

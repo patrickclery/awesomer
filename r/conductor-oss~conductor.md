@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,787 | +29 | +249 | +760 | 2026-05-10 |
+| 32,198 | +22 | +105 | +238 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/conductor-oss~conductor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/conductor-oss~conductor/)*

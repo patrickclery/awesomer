@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,742 | +53 | +269 | +474 | 2026-05-07 |
+| 7,048 | +48 | +194 | +833 | 2026-06-29 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nickvisionapps~parabolic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nickvisionapps~parabolic/)*

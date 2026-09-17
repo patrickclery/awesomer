@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 380 | +0 | +0 |  | 2025-11-14 |
+| 380 | +0 | +0 | -1 | 2025-11-14 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/valyouw~njstrace/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/valyouw~njstrace/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 65,766 | -12 | -73 | -130 | 2026-05-11 |
+| 65,951 | +4 | -29 | +126 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/webpack~webpack/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/webpack~webpack/)*

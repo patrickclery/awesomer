@@ -1,6 +1,6 @@
 # pydantic/pydantic-ai
 
-> AI Agent Framework, the Pydantic way
+> How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/pydantic/pydantic-ai) | [Live site ↗](https://patrickclery.com/awesomer/r/pydantic~pydantic-ai/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,999 | +170 | +767 | +2,287 | 2026-05-11 |
+| 19,902 | +126 | +616 | +2,137 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pydantic~pydantic-ai/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pydantic~pydantic-ai/)*

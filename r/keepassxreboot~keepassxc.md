@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,089 | +207 | +547 | +844 | 2026-05-05 |
+| 28,791 | +95 | +411 | +1,137 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/keepassxreboot~keepassxc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/keepassxreboot~keepassxc/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,344 | +2 | +7 | +29 | 2026-04-14 |
+| 1,371 | +1 | +6 | +19 | 2026-08-19 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/feross~webtorrent-cli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/feross~webtorrent-cli/)*

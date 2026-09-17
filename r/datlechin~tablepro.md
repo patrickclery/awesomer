@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,286 | +1,012 | +1,331 |  | 2026-05-11 |
+| 5,866 | +53 | +404 | +1,426 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Databases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/datlechin~tablepro/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/datlechin~tablepro/)*

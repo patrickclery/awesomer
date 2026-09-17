@@ -1,6 +1,6 @@
 # Boeing/config-file-validator
 
-> Cross-platform CLI tool to validate configuration files (JSON, YAML, TOML, XML, INI, HCL, ENV, Properties, CSV, and more
+> Cross-platform CLI tool to validate configuration files across 18 formats. Syntax and schema validation with JSON Schema
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Boeing/config-file-validator) | [Live site ↗](https://patrickclery.com/awesomer/r/boeing~config-file-validator/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 504 | +1 | +2 | +5 | 2026-05-11 |
+| 516 | +2 | +4 | +9 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/boeing~config-file-validator/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/boeing~config-file-validator/)*

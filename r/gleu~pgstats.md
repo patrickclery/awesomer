@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 127 | +0 | +0 | +0 | 2026-03-30 |
+| 128 | +0 | +0 | +1 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Monitoring/Statistics/Perfomance
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gleu~pgstats/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gleu~pgstats/)*

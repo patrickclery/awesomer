@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,702 | +4 | +7 | +21 | 2025-12-10 |
+| 3,721 | -2 | +3 | +20 | 2026-06-12 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Other Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gee1k~upic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gee1k~upic/)*

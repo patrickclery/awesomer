@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,383 | +14 | +56 | +229 | 2026-05-04 |
+| 3,540 | +11 | +23 | +83 | 2026-05-04 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/skyworkai~deepresearchagent/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/skyworkai~deepresearchagent/)*

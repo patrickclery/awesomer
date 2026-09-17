@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,587 | +15 | +28 | +38 | 2025-09-22 |
+| 2,709 | +5 | +23 | +97 | 2025-09-22 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ttt30ga~awesome-product-design/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ttt30ga~awesome-product-design/)*

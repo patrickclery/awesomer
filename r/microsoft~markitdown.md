@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 122,624 | +2,397 | +20,807 | +36,645 | 2026-04-20 |
+| 183,510 | +1,752 | +9,814 | +29,770 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Document Conversion & Preprocessing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~markitdown/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~markitdown/)*

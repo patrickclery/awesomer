@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,221 | +11 | +71 | +125 | 2026-04-24 |
+| 1,364 | +5 | +20 | +98 | 2026-08-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fccview~cronmaster/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fccview~cronmaster/)*

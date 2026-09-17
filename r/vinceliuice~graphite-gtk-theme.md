@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,460 | +2 | +21 | +38 | 2026-01-31 |
+| 1,522 | +3 | +15 | +39 | 2026-08-24 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vinceliuice~graphite-gtk-theme/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vinceliuice~graphite-gtk-theme/)*

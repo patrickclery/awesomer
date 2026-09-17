@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,606 | +50 | +224 | +892 | 2026-03-27 |
+| 11,162 | +19 | +56 | +404 | 2026-07-26 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/the-pocket~pocketflow/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/the-pocket~pocketflow/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,541 | +2 | +10 | +11 | 2026-05-09 |
+| 3,595 | -1 | +12 | +35 | 2026-05-22 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pgmodeler~pgmodeler/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pgmodeler~pgmodeler/)*

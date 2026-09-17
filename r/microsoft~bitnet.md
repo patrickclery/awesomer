@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 38,938 | +134 |  |  | 2026-03-10 |
+| 40,232 | +34 | +152 | +919 | 2026-07-27 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~bitnet/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~bitnet/)*

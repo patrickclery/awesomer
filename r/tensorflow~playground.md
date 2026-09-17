@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,897 | +3 | +38 | +154 | 2026-04-08 |
+| 13,018 | +7 | +27 | +82 | 2026-06-10 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Visualizing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tensorflow~playground/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tensorflow~playground/)*

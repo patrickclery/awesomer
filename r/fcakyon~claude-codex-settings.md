@@ -1,6 +1,6 @@
 # fcakyon/claude-codex-settings
 
-> My personal Claude Code and OpenAI Codex setup with battle-tested skills, plugins, hooks and agents that I use daily.
+> Battle-tested Claude Code, OpenAI Codex, Cursor configs, plugins, hooks and agents with Kimi, MiniMax and GLM API suppor
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/fcakyon/claude-codex-settings) | [Live site ↗](https://patrickclery.com/awesomer/r/fcakyon~claude-codex-settings/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 680 | +17 | +93 | +160 | 2026-05-09 |
+| 1,142 | +25 | +95 | +410 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Providers, Runtime & Integration Infrastructure
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fcakyon~claude-codex-settings/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fcakyon~claude-codex-settings/)*

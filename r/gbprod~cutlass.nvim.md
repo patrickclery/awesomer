@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 227 | +2 | +1 | +0 | 2025-10-23 |
+| 231 | +0 | +1 | +4 | 2025-10-23 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gbprod~cutlass.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gbprod~cutlass.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 238 | +0 | +0 |  | 2025-11-02 |
+| 238 | +0 | +0 | +0 | 2025-11-02 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/scicloj~scicloj.ml/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/scicloj~scicloj.ml/)*

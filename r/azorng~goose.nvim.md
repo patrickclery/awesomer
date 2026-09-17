@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 308 | +1 | +3 | +6 | 2026-04-16 |
+| 316 | +1 | +1 | +6 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / AI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/azorng~goose.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/azorng~goose.nvim/)*

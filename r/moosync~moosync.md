@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 231 | +5 | +13 | +20 | 2026-02-27 |
+| 257 | +0 | +2 | +15 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moosync~moosync/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/moosync~moosync/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,825 | +5 | +26 | +70 | 2026-05-08 |
+| 13,915 | +6 | +27 | +69 | 2026-08-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dask~dask/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dask~dask/)*

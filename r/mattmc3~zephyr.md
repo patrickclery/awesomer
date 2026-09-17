@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 233 | +1 | +8 | +15 | 2026-04-28 |
+| 254 | +0 | +3 | +14 | 2026-08-16 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Tutorials
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mattmc3~zephyr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mattmc3~zephyr/)*

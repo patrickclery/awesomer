@@ -1,6 +1,6 @@
 # cline/cline
 
-> Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and
+> Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/cline/cline) | [Live site ↗](https://patrickclery.com/awesomer/r/cline~cline/)
 
@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,623 | +277 | +1,471 | +4,545 | 2026-05-11 |
+| 67,933 | +412 | +1,762 | +4,617 | 2026-09-12 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Coding Agents
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧪 13. Developer Tools & Integrations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cline~cline/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cline~cline/)*

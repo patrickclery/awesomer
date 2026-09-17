@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,415 | +7 | +31 | +67 | 2026-05-08 |
+| 2,491 | +6 | +17 | +60 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nheko-reborn~nheko/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nheko-reborn~nheko/)*

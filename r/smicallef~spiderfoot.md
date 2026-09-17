@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,721 | +77 | +354 | +661 | 2026-04-13 |
+| 22,082 | +234 | +1,313 | +3,900 | 2026-04-13 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Other Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smicallef~spiderfoot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smicallef~spiderfoot/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 109 | +0 | +1 | +8 | 2025-12-23 |
+| 115 | +0 | +1 | +6 | 2026-06-18 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Rust
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wulf~vite-rs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wulf~vite-rs/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,967 | +0 | +12 | +38 | 2026-04-04 |
+| 2,068 | +7 | +23 | +68 | 2026-07-26 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/brabadu~awesome-fonts/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brabadu~awesome-fonts/)*

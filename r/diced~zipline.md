@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,148 | +22 | +95 | +175 | 2026-05-10 |
+| 3,409 | +19 | +49 | +184 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/diced~zipline/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/diced~zipline/)*

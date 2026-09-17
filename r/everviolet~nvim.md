@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 649 | +6 | +17 | +36 | 2026-05-08 |
+| 677 | -1 | +6 | +12 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Colorscheme
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/everviolet~nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/everviolet~nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,181 | +0 | +8 | +19 | 2026-05-11 |
+| 4,414 | +4 | +29 | +129 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Audio Streaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/blackcandy-org~blackcandy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/blackcandy-org~blackcandy/)*

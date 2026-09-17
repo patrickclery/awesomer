@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,434 | +0 | +1 |  | 2026-03-19 |
+| 1,432 | +0 | -6 | -4 | 2026-03-19 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/metric-learn~metric-learn/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/metric-learn~metric-learn/)*

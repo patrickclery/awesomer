@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 94,297 | +64 | +215 | +521 | 2026-05-11 |
+| 95,580 | +35 | +120 | +837 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
+- [Awesome local LLM](../l/local-llm.md) / Browser Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/puppeteer~puppeteer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/puppeteer~puppeteer/)*

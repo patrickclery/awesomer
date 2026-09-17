@@ -8,12 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,917 | +46 | +265 | +1,015 | 2026-05-11 |
+| 17,705 | +37 | +121 | +507 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/camel-ai~camel/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/camel-ai~camel/)*

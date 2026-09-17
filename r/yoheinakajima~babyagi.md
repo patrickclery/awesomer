@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,263 | +13 | +43 | +244 | 2026-01-31 |
+| 22,353 | +7 | +3 | +45 | 2026-01-31 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yoheinakajima~babyagi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yoheinakajima~babyagi/)*

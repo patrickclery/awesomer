@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,443 | +10 | +42 | +66 | 2026-04-03 |
+| 2,679 | +41 | +92 | +201 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sztheory~exifcleaner/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sztheory~exifcleaner/)*

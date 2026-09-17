@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 947 | +1 | +8 | +22 | 2026-02-10 |
+| 1,000 | +4 | +12 | +36 | 2026-08-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/notlmn~awesome-icons/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/notlmn~awesome-icons/)*

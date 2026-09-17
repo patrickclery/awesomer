@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 203 | +0 | +0 |  | 2026-02-16 |
+| 208 | +0 | +1 | +4 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cezaraugusto~mklicense/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cezaraugusto~mklicense/)*

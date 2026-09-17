@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,364 | +95 | +132 | +237 | 2026-05-09 |
+| 5,523 | +6 | +39 | +118 | 2026-08-19 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/treeverse~lakefs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/treeverse~lakefs/)*

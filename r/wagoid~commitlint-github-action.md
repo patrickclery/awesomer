@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 397 | +0 | +2 | +4 | 2026-02-14 |
+| 402 | +0 | +1 | +6 | 2026-02-14 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/wagoid~commitlint-github-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wagoid~commitlint-github-action/)*

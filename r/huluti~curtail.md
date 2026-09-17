@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 457 | +1 | +5 | +8 | 2026-05-05 |
+| 497 | +0 | +6 | +19 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huluti~curtail/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huluti~curtail/)*

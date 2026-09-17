@@ -1,6 +1,6 @@
 # mastra-ai/mastra
 
-> From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScr
+> Mastra is the modern TypeScript framework for AI-powered applications and agents.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mastra-ai/mastra) | [Live site ↗](https://patrickclery.com/awesomer/r/mastra-ai~mastra/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,779 | +229 | +883 | +2,980 | 2026-05-11 |
+| 28,001 | +186 | +809 | +2,915 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mastra-ai~mastra/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mastra-ai~mastra/)*

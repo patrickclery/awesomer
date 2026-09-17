@@ -1,6 +1,6 @@
 # silverwind/updates
 
-> CLI tool to update npm, uv, cargo, go and actions dependencies
+> CLI to update npm, uv, cargo, go, docker and actions dependencies
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/silverwind/updates) | [Live site ↗](https://patrickclery.com/awesomer/r/silverwind~updates/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 107 | +1 | +1 | +1 | 2026-05-11 |
+| 109 | +1 | +2 | +3 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/silverwind~updates/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/silverwind~updates/)*

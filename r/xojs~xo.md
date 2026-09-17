@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,971 | +0 | +2 | +6 | 2026-04-02 |
+| 7,990 | +2 | -3 | +16 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xojs~xo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xojs~xo/)*

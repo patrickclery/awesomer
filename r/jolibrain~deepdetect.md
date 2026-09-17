@@ -1,6 +1,6 @@
 # jolibrain/deepdetect
 
-> Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
+> Deep Learning Server and CLI for Torch and TensorRT
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/jolibrain/deepdetect) | [Live site ↗](https://patrickclery.com/awesomer/r/jolibrain~deepdetect/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,549 | -1 | +0 | +6 | 2026-04-17 |
+| 2,551 | +1 | +0 | +3 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jolibrain~deepdetect/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jolibrain~deepdetect/)*

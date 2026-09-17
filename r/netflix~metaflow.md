@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,087 | +12 | +60 | +365 | 2026-05-10 |
+| 10,263 | +17 | +52 | +134 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netflix~metaflow/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/netflix~metaflow/)*

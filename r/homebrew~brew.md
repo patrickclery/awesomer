@@ -1,6 +1,6 @@
 # Homebrew/brew
 
-> 🍺 The missing package manager for macOS (or Linux)
+> 🍺 The Package Manager for Everywhere
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Homebrew/brew) | [Live site ↗](https://patrickclery.com/awesomer/r/homebrew~brew/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 47,959 | +110 | +503 | +894 | 2026-05-11 |
+| 49,540 | +75 | +384 | +1,029 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Package Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/homebrew~brew/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/homebrew~brew/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,446 | +13 | +53 | +141 | 2026-05-11 |
+| 2,656 | +18 | +56 | +148 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Experiment Tracking & Versioning
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openlineage~openlineage/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openlineage~openlineage/)*

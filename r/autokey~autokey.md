@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,830 | +4 | +8 | +15 | 2026-05-09 |
+| 3,891 | +4 | +16 | +47 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/autokey~autokey/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/autokey~autokey/)*

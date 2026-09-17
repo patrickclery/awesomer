@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +0 | +0 | +0 | 2026-04-01 |
+| 155 | +0 | +0 | +2 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Golang
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crispgm~nvim-go/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crispgm~nvim-go/)*

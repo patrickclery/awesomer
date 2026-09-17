@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 874 | +1 | +9 | +31 | 2026-05-09 |
+| 877 | +0 | -1 | +0 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Date and Time Processing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/holidays~holidays/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/holidays~holidays/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 444 | +0 | +3 |  | 2026-05-09 |
+| 450 | +0 | +1 | +4 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dmbates~mixedmodels.jl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dmbates~mixedmodels.jl/)*

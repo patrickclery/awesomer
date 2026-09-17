@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,210 | +0 | +8 | +7 | 2026-02-17 |
+| 4,236 | +2 | +9 | +20 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Related Awesome Lists
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/paulsec~awesome-sec-talks/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/paulsec~awesome-sec-talks/)*

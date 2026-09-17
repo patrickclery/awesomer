@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 374 | +0 | +2 | +3 | 2025-11-26 |
+| 378 | +1 | -3 | -2 | 2026-08-01 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
+- [awesome-ai-in-finance](../l/ai-in-finance.md) / Trading Execution
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mcpdotdirect~evm-mcp-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mcpdotdirect~evm-mcp-server/)*

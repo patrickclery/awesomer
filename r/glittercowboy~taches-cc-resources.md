@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,893 | +20 | +110 | +280 | 2026-04-01 |
+| 1,977 | +4 | +10 | +34 | 2026-04-01 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Multi-Purpose
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/glittercowboy~taches-cc-resources/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/glittercowboy~taches-cc-resources/)*

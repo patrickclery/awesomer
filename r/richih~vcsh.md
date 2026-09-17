@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,261 | +1 | +6 | +11 | 2025-12-29 |
+| 2,279 | +2 | +7 | +14 | 2025-12-29 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Package Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/richih~vcsh/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/richih~vcsh/)*

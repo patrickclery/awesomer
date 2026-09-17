@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 858 | +1 | +2 |  | 2026-03-04 |
+| 865 | +0 | +1 | +4 | 2026-08-20 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fabiocolacio~marker/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fabiocolacio~marker/)*

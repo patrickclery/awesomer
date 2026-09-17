@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,630 | +23 | +107 | +684 | 2026-05-10 |
+| 6,273 | +28 | +110 | +487 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Network Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/seriousm4x~upsnap/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/seriousm4x~upsnap/)*

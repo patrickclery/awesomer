@@ -1,6 +1,6 @@
 # quickwit-oss/quickwit
 
-> Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo.
+> Cloud-native OSS search engine for observability
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/quickwit-oss/quickwit) | [Live site ↗](https://patrickclery.com/awesomer/r/quickwit-oss~quickwit/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,189 | +22 | +122 | +342 | 2026-05-11 |
+| 11,620 | +36 | +127 | +301 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/quickwit-oss~quickwit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/quickwit-oss~quickwit/)*

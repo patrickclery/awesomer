@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,198 | +22 | +82 | +326 | 2026-05-07 |
+| 6,518 | +22 | +97 | +181 | 2026-08-25 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dbrgn~tealdeer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbrgn~tealdeer/)*

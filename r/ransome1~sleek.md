@@ -1,6 +1,6 @@
 # ransome1/sleek
 
-> todo.txt manager for Linux, Windows and MacOS, free and open-source (FOSS)
+> todo.txt manager for Linux, Windows and Mac, free and open-source (FOSS)
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ransome1/sleek) | [Live site ↗](https://patrickclery.com/awesomer/r/ransome1~sleek/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,961 | +3 | +18 | +33 | 2026-05-11 |
+| 2,030 | +2 | +5 | +36 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ransome1~sleek/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ransome1~sleek/)*

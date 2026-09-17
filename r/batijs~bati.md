@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 475 | +1 | +0 |  | 2026-05-11 |
+| 485 | +0 | +0 | +6 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Get Started
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/batijs~bati/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/batijs~bati/)*

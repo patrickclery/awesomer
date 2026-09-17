@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,382 | +106 | +387 | +839 | 2026-05-11 |
+| 882 | +46 | +161 | +870 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/asheshgoplani~agent-deck/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/asheshgoplani~agent-deck/)*

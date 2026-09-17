@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,023 | +43 | +94 | +324 | 2026-05-11 |
+| 7,480 | +31 | +278 | +391 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flyteorg~flyte/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flyteorg~flyte/)*

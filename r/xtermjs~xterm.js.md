@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,469 | +42 | +196 | +641 | 2026-05-11 |
+| 21,168 | +27 | +113 | +428 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Showcases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/xtermjs~xterm.js/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xtermjs~xterm.js/)*

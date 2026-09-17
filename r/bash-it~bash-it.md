@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,042 | +1 | +27 | +64 | 2026-04-18 |
+| 15,161 | +5 | +21 | +62 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Package Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bash-it~bash-it/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bash-it~bash-it/)*

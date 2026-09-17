@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,099 | +0 | +0 |  | 2026-02-03 |
+| 1,101 | +0 | +0 | +1 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Documentation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-grape~grape-swagger/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-grape~grape-swagger/)*

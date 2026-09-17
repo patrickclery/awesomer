@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 290 | +0 | +1 | +2 | 2026-05-11 |
+| 296 | +0 | +1 | +5 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Groupware / Webmail
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/egroupware~egroupware/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/egroupware~egroupware/)*

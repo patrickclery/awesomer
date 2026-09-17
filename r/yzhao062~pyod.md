@@ -1,6 +1,6 @@
 # yzhao062/pyod
 
-> A Python library for anomaly detection across tabular, time series, graph, text, and image data. 60+ detectors, benchmar
+> A Python library for anomaly detection across tabular, time series, graph, text, image, and audio data. 60+ detectors, b
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/yzhao062/pyod) | [Live site ↗](https://patrickclery.com/awesomer/r/yzhao062~pyod/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,839 | +4 | +60 | +92 | 2026-05-11 |
+| 10,001 | +9 | +42 | +124 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yzhao062~pyod/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yzhao062~pyod/)*

@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,390 | +478 | +1,869 | +4,614 | 2026-05-05 |
+| 33,319 | +336 | +1,223 | +3,913 | 2026-09-07 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / User Interfaces
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sillytavern~sillytavern/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sillytavern~sillytavern/)*

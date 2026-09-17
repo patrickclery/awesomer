@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 998 | +2 | +9 | +20 | 2026-05-08 |
+| 1,025 | +1 | +3 | +16 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/b0o~schemastore.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/b0o~schemastore.nvim/)*

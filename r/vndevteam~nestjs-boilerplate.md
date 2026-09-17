@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 305 | +2 | +3 | +3 | 2026-05-08 |
+| 298 | +0 | +0 | -1 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vndevteam~nestjs-boilerplate/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vndevteam~nestjs-boilerplate/)*

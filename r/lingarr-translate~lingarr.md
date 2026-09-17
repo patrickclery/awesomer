@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 777 | +9 | +31 | +49 | 2026-05-11 |
+| 873 | +9 | +33 | +83 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lingarr-translate~lingarr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lingarr-translate~lingarr/)*

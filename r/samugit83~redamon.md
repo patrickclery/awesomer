@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,862 |  |  |  | 2026-05-11 |
+| 2,444 | +30 | +136 | +457 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/samugit83~redamon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/samugit83~redamon/)*

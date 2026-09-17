@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,849 | +6 | +37 | +109 | 2026-01-14 |
+| 4,934 | +5 | +13 | +58 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~unplugin-icons/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~unplugin-icons/)*

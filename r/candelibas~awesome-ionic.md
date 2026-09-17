@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 859 | +0 | +1 | +5 | 2026-03-17 |
+| 864 | +0 | +0 | +2 | 2026-08-18 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/candelibas~awesome-ionic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/candelibas~awesome-ionic/)*

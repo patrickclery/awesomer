@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,793 | +8 | +41 | +140 | 2026-03-24 |
+| 2,937 | +4 | +25 | +101 | 2026-03-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelfeil~infinity/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/michaelfeil~infinity/)*

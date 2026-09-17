@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,659 | +26 | +58 | +116 | 2026-05-06 |
+| 3,980 | +11 | +63 | +201 | 2026-08-18 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antimicrox~antimicrox/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antimicrox~antimicrox/)*

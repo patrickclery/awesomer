@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 454 | +3 | +14 | +17 | 2026-04-27 |
+| 465 | +1 | +3 | +11 | 2026-07-13 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nonzzz~vite-bundle-analyzer/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nonzzz~vite-bundle-analyzer/)*

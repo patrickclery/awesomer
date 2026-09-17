@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,604 | +3 | +5 | +15 | 2026-05-08 |
+| 1,625 | +0 | +1 | +13 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lesovsky~pgcenter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lesovsky~pgcenter/)*

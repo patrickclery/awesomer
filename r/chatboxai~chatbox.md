@@ -1,18 +1,18 @@
-# chatboxai/chatbox
+# ChatBoxAI/ChatBox
 
 > Powerful AI Client
 
-[Home](../README.md) | [View on GitHub ↗](https://github.com/chatboxai/chatbox) | [Live site ↗](https://patrickclery.com/awesomer/r/chatboxai~chatbox/)
+[Home](../README.md) | [View on GitHub ↗](https://github.com/ChatBoxAI/ChatBox) | [Live site ↗](https://patrickclery.com/awesomer/r/chatboxai~chatbox/)
 
 ## Stats
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,899 | +113 | +511 | +1,775 | 2026-04-09 |
+| 41,752 |  |  |  | 2026-09-10 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
+- [Awesome local LLM](../l/local-llm.md) / Inference platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/chatboxai~chatbox/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chatboxai~chatbox/)*

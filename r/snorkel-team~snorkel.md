@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,960 | +4 | +12 | +34 | 2026-04-10 |
+| 6,006 | +3 | +3 | +31 | 2026-06-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/snorkel-team~snorkel/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/snorkel-team~snorkel/)*

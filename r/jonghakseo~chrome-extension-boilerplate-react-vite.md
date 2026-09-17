@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,882 | +2 | +13 | +34 | 2025-10-27 |
+| 4,905 | -2 | -8 | -1 | 2025-10-27 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jonghakseo~chrome-extension-boilerplate-react-vite/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jonghakseo~chrome-extension-boilerplate-react-vite/)*

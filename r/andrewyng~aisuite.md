@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,765 | +15 |  |  | 2025-12-15 |
+| 16,261 | +21 | +169 | +1,741 | 2026-08-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/andrewyng~aisuite/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/andrewyng~aisuite/)*

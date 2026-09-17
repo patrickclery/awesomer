@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 203,710 | +134 | +756 | +1,561 | 2026-04-21 |
+| 208,964 | +302 | +983 | +4,029 | 2026-07-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ossu~computer-science/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ossu~computer-science/)*

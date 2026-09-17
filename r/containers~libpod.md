@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,661 | +81 | +306 | +1,132 | 2026-05-11 |
+| 32,851 | +70 | +288 | +816 | 2026-09-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-linux-containers](../l/linux-containers.md) / Containers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~libpod/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~libpod/)*

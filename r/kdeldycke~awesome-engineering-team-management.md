@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,461 | +6 | +33 | +38 | 2026-04-27 |
+| 2,599 | +8 | +23 | +69 | 2026-08-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Business
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kdeldycke~awesome-engineering-team-management/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kdeldycke~awesome-engineering-team-management/)*

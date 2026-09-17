@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 536 | +4 | +20 | +31 | 2026-04-24 |
+| 578 | +0 | +7 | +26 | 2026-07-11 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aetaric~checkrr/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aetaric~checkrr/)*

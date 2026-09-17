@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,402 | +1 | +1 | +4 | 2025-09-19 |
+| 1,403 | +0 | +1 | +2 | 2025-09-19 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jawj~zapatos/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jawj~zapatos/)*

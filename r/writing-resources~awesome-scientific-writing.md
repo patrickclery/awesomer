@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 939 | -1 | +8 | +17 | 2026-03-06 |
+| 1,001 | +0 | +15 | +49 | 2026-09-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/writing-resources~awesome-scientific-writing/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/writing-resources~awesome-scientific-writing/)*

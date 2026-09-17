@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,635 | +9 | +23 | +50 | 2026-02-05 |
+| 1,702 | +6 | +14 | +47 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Programming Languages Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-java~nvim-java/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-java~nvim-java/)*

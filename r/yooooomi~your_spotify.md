@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,423 | +9 | +52 | +103 | 2026-03-30 |
+| 4,576 | +21 | +48 | +122 | 2026-07-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Personal Dashboards
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/yooooomi~your_spotify/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yooooomi~your_spotify/)*

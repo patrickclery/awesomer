@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,613 | +26 | +131 | +242 | 2026-02-08 |
+| 22,982 | +18 | +58 | +252 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~zsh-syntax-highlighting/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~zsh-syntax-highlighting/)*

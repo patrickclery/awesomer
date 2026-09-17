@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,924 | +21 | +118 | +406 | 2026-05-10 |
+| 3,216 | +15 | +50 | +139 | 2026-09-13 |
 
 ## Found In
 
-- [awesome-docker](../l/docker.md) / Container Operations
 - [awesome-selfhosted](../l/selfhosted.md) / Generative Artificial Intelligence (GenAI)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/av~harbor/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/av~harbor/)*

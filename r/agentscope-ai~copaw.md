@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,543 | +254 | +1,514 |  | 2026-05-11 |
+| 34,892 | +488 | +1,135 | +17,118 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agentscope-ai~copaw/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agentscope-ai~copaw/)*

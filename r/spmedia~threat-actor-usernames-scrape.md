@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 191 | +0 | +9 | +44 | 2026-05-09 |
+| 236 | +5 | +6 | +21 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Threat Intelligence
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spmedia~threat-actor-usernames-scrape/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spmedia~threat-actor-usernames-scrape/)*

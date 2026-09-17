@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,056 | +23 | +107 | +222 | 2026-05-06 |
+| 4,363 | +19 | +51 | +204 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Customer Data Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/antvis~mcp-server-chart/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antvis~mcp-server-chart/)*

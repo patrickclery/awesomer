@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,598 | +0 | +3 | -1 | 2026-05-09 |
+| 1,608 | -1 | -4 | -2 | 2026-06-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Core Extensions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sporkmonger~addressable/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sporkmonger~addressable/)*

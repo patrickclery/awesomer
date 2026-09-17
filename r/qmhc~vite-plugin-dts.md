@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,522 | +1 | +10 | +22 | 2026-05-06 |
+| 1,526 | +0 | -1 | +3 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/qmhc~vite-plugin-dts/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qmhc~vite-plugin-dts/)*

@@ -1,6 +1,6 @@
 # Vonng/pigsty
 
-> Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 460 PG extensions. Best-of
+> Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 575 PG extensions. Best-of
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Vonng/pigsty) | [Live site ↗](https://patrickclery.com/awesomer/r/vonng~pigsty/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,110 | +43 | +137 | +468 | 2026-05-11 |
+| 5,618 | +15 | +92 | +450 | 2026-09-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-postgres](../l/postgres.md) / Distributions
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/vonng~pigsty/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vonng~pigsty/)*

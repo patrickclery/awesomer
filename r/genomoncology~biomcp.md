@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 505 | +6 | +17 | +55 | 2026-05-01 |
+| 630 | +12 | +39 | +104 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Search & Data Extraction
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/genomoncology~biomcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/genomoncology~biomcp/)*

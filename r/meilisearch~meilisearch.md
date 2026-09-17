@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,498 | +94 | +469 | +1,866 | 2026-05-11 |
+| 59,278 | +83 | +319 | +1,178 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/meilisearch~meilisearch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/meilisearch~meilisearch/)*

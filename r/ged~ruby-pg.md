@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 858 | +2 | +2 | +7 | 2026-03-13 |
+| 871 | +1 | +1 | +1 | 2026-09-03 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ruby](../l/ruby.md) / Database Drivers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ged~ruby-pg/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ged~ruby-pg/)*

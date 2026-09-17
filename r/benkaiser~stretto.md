@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 631 | +0 | -3 | +0 | 2026-04-28 |
+| 635 | +0 | +1 | +4 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Audio Streaming
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/benkaiser~stretto/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/benkaiser~stretto/)*

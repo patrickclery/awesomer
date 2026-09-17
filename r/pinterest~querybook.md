@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,251 | +1 | +3 | +13 | 2026-05-09 |
+| 2,289 | +5 | +14 | +33 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / IDE
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pinterest~querybook/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pinterest~querybook/)*

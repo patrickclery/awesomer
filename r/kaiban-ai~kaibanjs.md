@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,430 | +7 | +28 | +95 | 2026-04-27 |
+| 1,476 | +2 | +5 | +22 | 2026-05-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kaiban-ai~kaibanjs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kaiban-ai~kaibanjs/)*

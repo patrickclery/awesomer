@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 380 | +0 | +0 | +0 | 2025-12-15 |
+| 377 | +0 | -3 | -3 | 2025-12-15 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netlify~actions/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/netlify~actions/)*

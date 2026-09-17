@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,449 | +0 | +10 | +18 | 2025-12-26 |
+| 3,473 | +0 | +6 | +21 | 2026-08-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~pgsync/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~pgsync/)*

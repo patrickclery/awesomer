@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,451 | +0 | +2 | -1 | 2026-05-11 |
+| 1,463 | +0 | +2 | +7 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cypress-io~github-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cypress-io~github-action/)*

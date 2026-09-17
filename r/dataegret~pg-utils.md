@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,206 | +0 | +4 | +11 | 2025-12-05 |
+| 1,218 | +0 | +0 | +9 | 2026-06-29 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-postgres](../l/postgres.md) / Tutorials
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dataegret~pg-utils/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dataegret~pg-utils/)*

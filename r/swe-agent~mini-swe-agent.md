@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,298 | +134 | +531 | +1,512 | 2026-05-07 |
+| 7,495 | +161 | +999 | +2,318 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/swe-agent~mini-swe-agent/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/swe-agent~mini-swe-agent/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 724 | +0 | +5 | +2 | 2026-04-28 |
+| 739 | +2 | +8 | +15 | 2026-06-02 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tanelpoder~tpt-oracle/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tanelpoder~tpt-oracle/)*

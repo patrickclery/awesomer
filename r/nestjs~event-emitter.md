@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 245 | +0 | +3 |  | 2026-05-11 |
+| 251 | +0 | +0 | +6 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~event-emitter/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjs~event-emitter/)*

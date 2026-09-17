@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,485 | +14 | +23 | +20 | 2026-05-08 |
+| 1,545 | +6 | +16 | +47 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Language Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-java/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-java/)*

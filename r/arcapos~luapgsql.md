@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 120 | +0 | +1 | +3 | 2026-02-07 |
+| 119 | +0 | -1 | -1 | 2026-02-07 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/arcapos~luapgsql/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/arcapos~luapgsql/)*

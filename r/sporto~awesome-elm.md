@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,684 | +0 | +2 | +7 | 2025-10-13 |
+| 3,685 | +1 | -1 | -1 | 2026-07-21 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sporto~awesome-elm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sporto~awesome-elm/)*

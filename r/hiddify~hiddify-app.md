@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,513 | +213 | +1,010 | +4,025 | 2026-04-01 |
+| 32,706 | +226 | +647 | +1,958 | 2026-08-10 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Proxy and VPN Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hiddify~hiddify-app/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hiddify~hiddify-app/)*

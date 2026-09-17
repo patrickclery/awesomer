@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,022 | -2 | -5 | +4 | 2026-04-06 |
+| 4,031 | -1 | -3 | -1 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/svenfuchs~rails-i18n/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/svenfuchs~rails-i18n/)*

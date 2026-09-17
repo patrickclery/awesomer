@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,229 | +155 | +416 | +1,603 | 2026-02-21 |
+| 12,284 | +22 | +128 | +434 | 2026-09-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
+- [Awesome local LLM](../l/local-llm.md) / Computer Use
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/simular-ai~agent-s/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/simular-ai~agent-s/)*

@@ -1,6 +1,6 @@
 # cartesiancs/nugget-app
 
-> 📷 🖥️ Electron based video editing software. Focusing on adding motion effects using a layered editing system.
+> Video Editor for AI agents, built on the belief that open source can beat commercial tools
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/cartesiancs/nugget-app) | [Live site ↗](https://patrickclery.com/awesomer/r/cartesiancs~nugget-app/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 570 | +6 | +15 | +44 | 2026-02-16 |
+| 641 | +1 | +54 | +66 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Design Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cartesiancs~nugget-app/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cartesiancs~nugget-app/)*

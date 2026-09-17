@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,226 | +94 | +55 | +183 | 2026-05-07 |
+| 1,306 | +9 | +11 | +46 | 2026-08-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Embedding Models
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/starlightsearch~embedanything/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/starlightsearch~embedanything/)*

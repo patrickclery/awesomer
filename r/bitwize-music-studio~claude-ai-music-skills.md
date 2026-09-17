@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 170 | +20 | +83 | +165 | 2026-05-08 |
+| 487 | +15 | +68 | +227 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bitwize-music-studio~claude-ai-music-skills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bitwize-music-studio~claude-ai-music-skills/)*

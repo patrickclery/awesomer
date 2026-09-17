@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 266 | +0 | +1 | +7 | 2026-03-31 |
+| 274 | +1 | -1 | +7 | 2026-07-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mk-5~fjira/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mk-5~fjira/)*

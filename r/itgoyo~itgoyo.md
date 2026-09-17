@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 276 | +0 | +3 | +3 | 2026-05-11 |
+| 288 | +0 | +2 | +8 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/itgoyo~itgoyo/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/itgoyo~itgoyo/)*

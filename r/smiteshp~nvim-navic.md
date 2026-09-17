@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,657 | +1 | +7 | +14 | 2025-12-29 |
+| 1,681 | +0 | +2 | +15 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Bars and Lines
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/smiteshp~nvim-navic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smiteshp~nvim-navic/)*

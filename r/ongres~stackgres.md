@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,397 | +5 | +14 | +20 | 2026-05-11 |
+| 1,428 | +2 | +2 | +21 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Kubernetes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ongres~stackgres/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ongres~stackgres/)*

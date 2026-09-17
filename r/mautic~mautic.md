@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,600 | +55 | +172 | +287 | 2026-05-11 |
+| 10,496 | +21 | +163 | +668 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Marketing Platform
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mautic~mautic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mautic~mautic/)*

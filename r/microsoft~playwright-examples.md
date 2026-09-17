@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 125 | +1 | +5 |  | 2025-10-20 |
+| 137 | +0 | +0 | +7 | 2025-10-20 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Showcases
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-examples/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-examples/)*

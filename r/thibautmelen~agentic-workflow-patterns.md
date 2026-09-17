@@ -1,6 +1,6 @@
 # ThibautMelen/agentic-workflow-patterns
 
-> 🐔 Agentic systems explained with chickens. Workflows, agents & orchestration made simple. Mermaid diagrams included
+> Agentic AI explained with chickens 🐔 every pattern a runnable, CI-checked file.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ThibautMelen/agentic-workflow-patterns) | [Live site ↗](https://patrickclery.com/awesomer/r/thibautmelen~agentic-workflow-patterns/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 271 | +2 | +31 | +107 | 2025-12-08 |
+| 308 | +3 | +19 | +30 | 2026-07-11 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / General
+- [awesome-claude-code](../l/claude-code.md) / Documentation, Knowledge & Learning
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/thibautmelen~agentic-workflow-patterns/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thibautmelen~agentic-workflow-patterns/)*

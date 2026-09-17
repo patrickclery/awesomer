@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,043 | +19 | +105 | +194 | 2026-05-06 |
+| 11,459 | +26 | +78 | +266 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/simonw~datasette/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/simonw~datasette/)*

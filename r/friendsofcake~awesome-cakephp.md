@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 934 | +1 | +2 |  | 2026-05-05 |
+| 937 | +0 | +0 | +3 | 2026-08-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/friendsofcake~awesome-cakephp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/friendsofcake~awesome-cakephp/)*

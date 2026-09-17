@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,013 | -1 | +4 | +27 | 2026-05-11 |
+| 3,036 | +0 | +2 | +16 | 2026-08-01 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/julmon~pg_activity/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/julmon~pg_activity/)*

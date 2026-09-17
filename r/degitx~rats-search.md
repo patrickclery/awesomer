@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,856 | +4 | +18 | +77 | 2026-04-26 |
+| 1,979 | +11 | +36 | +101 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Tracker Aggregators
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/degitx~rats-search/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/degitx~rats-search/)*

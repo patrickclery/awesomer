@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 | +0 | +0 | +0 | 2026-04-26 |
+| 115 | +0 | +0 | +1 | 2026-07-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scheduling
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/hlascelles~que-scheduler/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hlascelles~que-scheduler/)*

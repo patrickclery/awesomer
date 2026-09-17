@@ -1,6 +1,6 @@
 # adaszko/complgen
 
-> Declarative bash/fish/zsh/pwsh completions without writing shell scripts!
+> Language-independent, declarative bash/fish/zsh/pwsh completions without writing shell scripts!
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/adaszko/complgen) | [Live site ↗](https://patrickclery.com/awesomer/r/adaszko~complgen/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 327 | +1 | +4 | +29 | 2026-05-11 |
+| 337 | +0 | +2 | +4 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/adaszko~complgen/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/adaszko~complgen/)*

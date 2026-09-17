@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,102 | +3 | +21 | +46 | 2026-05-09 |
+| 2,229 | +3 | +18 | +60 | 2026-09-05 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/staniel359~muffon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/staniel359~muffon/)*

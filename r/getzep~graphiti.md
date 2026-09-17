@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,915 | +246 | +1,160 | +3,393 | 2026-05-08 |
+| 30,851 | +247 | +935 | +3,399 | 2026-09-11 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 - [Awesome Open Source AI](../l/opensource-ai.md) / Knowledge Graphs for RAG
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/getzep~graphiti/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/getzep~graphiti/)*

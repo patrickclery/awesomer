@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 193 | +0 | +0 | +0 | 2026-05-10 |
+| 195 | +0 | +0 | +2 | 2026-05-29 |
 
 ## Found In
 
-- [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 - [awesome-shell](../l/shell.md) / Customization
+- [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/agkozak~polyglot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agkozak~polyglot/)*

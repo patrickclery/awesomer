@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 106,411 | +128 | +616 | +1,131 | 2026-05-11 |
+| 109,378 | +150 | +565 | +2,032 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fatedier~frp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fatedier~frp/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,655 | -36 | -68 | -172 | 2026-04-29 |
+| 13,653 | +1 | -5 | -4 | 2026-07-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Social Networking
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/diaspora~diaspora/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/diaspora~diaspora/)*

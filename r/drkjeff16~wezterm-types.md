@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 197 | +1 | +7 | +20 | 2026-05-07 |
+| 222 | +0 | +2 | +12 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/drkjeff16~wezterm-types/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/drkjeff16~wezterm-types/)*

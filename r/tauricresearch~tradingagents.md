@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 73,686 | +7,054 | +24,198 | +33,217 | 2026-05-11 |
+| 105,144 | +1,052 | +7,057 | +18,818 | 2026-09-07 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Agents
+- [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tauricresearch~tradingagents/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tauricresearch~tradingagents/)*

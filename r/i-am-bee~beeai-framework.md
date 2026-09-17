@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,248 | +7 | +42 | +185 | 2026-05-09 |
+| 3,399 | +3 | +20 | +106 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/i-am-bee~beeai-framework/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/i-am-bee~beeai-framework/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,606 | +5 | +22 | +97 | 2026-05-11 |
+| 1,720 | +8 | +24 | +76 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/narwhals-dev~narwhals/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/narwhals-dev~narwhals/)*

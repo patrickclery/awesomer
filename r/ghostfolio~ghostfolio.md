@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,408 | +73 | +297 | +508 | 2026-05-11 |
+| 9,294 | +32 | +176 | +576 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ghostfolio~ghostfolio/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ghostfolio~ghostfolio/)*

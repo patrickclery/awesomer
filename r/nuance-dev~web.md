@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 661 | +1 | +5 | +22 | 2025-10-21 |
+| 670 | +0 | +5 | +8 | 2025-10-21 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Browsers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~web/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~web/)*

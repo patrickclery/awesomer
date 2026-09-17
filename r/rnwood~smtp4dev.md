@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,889 | +8 | +30 | +98 | 2026-05-11 |
+| 3,973 | +3 | +30 | +61 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Testing Application
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rnwood~smtp4dev/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rnwood~smtp4dev/)*

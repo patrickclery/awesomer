@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 622 | +0 | +0 | -1 | 2025-10-17 |
+| 621 | -1 | -1 | +1 | 2025-10-17 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jonaslu~ain/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jonaslu~ain/)*

@@ -1,6 +1,6 @@
 # comet-ml/opik-mcp
 
-> Model Context Protocol (MCP) implementation for Opik enabling seamless IDE integration and unified access to prompts, pr
+> Model Context Protocol (MCP) server for Opik, the open-source LLM observability and evaluation platform, built by Comet.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/comet-ml/opik-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/comet-ml~opik-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 202 | -1 | -1 |  | 2026-03-17 |
+| 218 | -1 | +1 | +9 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/comet-ml~opik-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/comet-ml~opik-mcp/)*

@@ -1,6 +1,6 @@
 # mistweaverco/kulala.nvim
 
-> A fully-featured 🤏 HTTP-client 🐼 interface 🖥️ for Neovim ❤️.
+> A fully-featured ⚡️ HTTP/GraphQL/gRPC/Websocket-client 🐼 interface 🖥️ for Neovim ❤️, that supports the Jetbrains .http
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mistweaverco/kulala.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/mistweaverco~kulala.nvim/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,981 | +4 | +27 | +58 | 2026-05-09 |
+| 2,168 | +4 | +24 | +103 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Web Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mistweaverco~kulala.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mistweaverco~kulala.nvim/)*

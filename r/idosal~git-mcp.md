@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,066 | +51 | +164 | +293 | 2026-05-08 |
+| 8,384 | +12 | +56 | +215 | 2026-05-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/idosal~git-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/idosal~git-mcp/)*

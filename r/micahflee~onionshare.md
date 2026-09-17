@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,956 | +11 | +27 | +109 | 2026-03-11 |
+| 7,088 | +3 | +30 | +96 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/micahflee~onionshare/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/micahflee~onionshare/)*

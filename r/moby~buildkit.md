@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,960 | +13 | +65 | +132 | 2026-05-11 |
+| 10,260 | +9 | +69 | +204 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moby~buildkit/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/moby~buildkit/)*

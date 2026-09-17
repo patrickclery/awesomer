@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,153 | +10 | +55 | +91 | 2026-05-08 |
+| 13,383 | +12 | +34 | +165 | 2026-09-09 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dbcli~pgcli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbcli~pgcli/)*

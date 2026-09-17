@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,455 | +3 | +15 | +22 | 2026-04-17 |
+| 1,487 | +2 | +6 | +26 | 2026-06-14 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - Custom Communication Systems
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/balzack~databag/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/balzack~databag/)*

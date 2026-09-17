@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,245 | +1 | -26 | -111 | 2026-04-30 |
+| 12,318 | +0 | +10 | +51 | 2026-05-27 |
 
 ## Found In
 
+- [awesome-mac](../l/mac.md) / Developer Utilities
 - [awesome-db-tools](../l/db-tools.md) / Application platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/illacloud~illa-builder/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/illacloud~illa-builder/)*

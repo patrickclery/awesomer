@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 279 | +2 | +15 | +26 | 2026-03-31 |
+| 323 | +2 | +9 | +28 | 2026-08-23 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/eyalzh~browser-control-mcp/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eyalzh~browser-control-mcp/)*

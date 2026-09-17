@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,240 | +7 | +14 | +31 | 2026-02-15 |
+| 3,298 | +2 | +9 | +30 | 2026-06-18 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dbcli~litecli/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbcli~litecli/)*

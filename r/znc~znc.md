@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,109 | +1 | +6 | +26 | 2026-05-07 |
+| 2,124 | +0 | +3 | +10 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / IRC
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/znc~znc/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/znc~znc/)*

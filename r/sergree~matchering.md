@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,517 | +10 | +37 | +76 | 2026-05-05 |
+| 2,629 | +5 | +24 | +83 | 2026-07-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Automation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sergree~matchering/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sergree~matchering/)*

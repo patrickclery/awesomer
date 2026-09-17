@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 104 | +0 | +1 |  | 2026-05-11 |
+| 106 | +0 | +0 | +1 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mammadataei~cypress-vite/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mammadataei~cypress-vite/)*

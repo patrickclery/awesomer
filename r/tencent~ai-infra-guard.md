@@ -1,6 +1,6 @@
 # Tencent/AI-Infra-Guard
 
-> A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP sca
+> A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Tencent/AI-Infra-Guard) | [Live site ↗](https://patrickclery.com/awesomer/r/tencent~ai-infra-guard/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,656 | +38 |  |  | 2026-05-11 |
+| 6,255 | +1,243 | +1,764 | +2,356 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tencent~ai-infra-guard/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tencent~ai-infra-guard/)*

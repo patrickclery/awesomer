@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,525 | +5 | +24 | +147 | 2026-03-12 |
+| 7,675 | +9 | +19 | +105 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/parcel-bundler~parcel-css/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/parcel-bundler~parcel-css/)*

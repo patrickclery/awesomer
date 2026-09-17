@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,163 | +22 | +152 | +255 | 2026-05-01 |
+| 25,503 | +3 | +20 | +187 | 2026-09-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deep Learning Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/lucidrains~vit-pytorch/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lucidrains~vit-pytorch/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,903 | +43 | +207 | +424 | 2025-12-17 |
+| 21,550 | +31 | +142 | +433 | 2026-06-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Plugin Manager
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~lazy.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~lazy.nvim/)*

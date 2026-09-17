@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,571 | +19 | +110 | +306 | 2026-05-07 |
+| 13,959 | +18 | +74 | +265 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 3D Vision & Point Cloud Processing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/isl-org~open3d/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/isl-org~open3d/)*

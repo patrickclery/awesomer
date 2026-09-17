@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,480 | +39 | +143 | +544 | 2026-05-07 |
+| 9,999 | +23 | +88 | +357 | 2026-09-13 |
 
 ## Found In
 
+- [Awesome local LLM](../l/local-llm.md) / Training and Fine-tuning
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛡️ 10. AI Safety, Alignment & Interpretability
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/openrlhf~openrlhf/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openrlhf~openrlhf/)*

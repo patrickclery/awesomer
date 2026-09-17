@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,760 | +1 | +4 | +3 | 2026-01-31 |
+| 1,782 | +0 | +2 | +10 | 2026-01-31 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Markdown Processors
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gettalong~kramdown/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gettalong~kramdown/)*

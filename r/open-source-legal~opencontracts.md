@@ -1,6 +1,6 @@
 # Open-Source-Legal/OpenContracts
 
-> Humans and AI agents, building knowledge bases together. Self-hosted document annotation, version control, semantic sear
+> The open document intelligence platform for builders and hackers - DMS for the agentic world
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Open-Source-Legal/OpenContracts) | [Live site ↗](https://patrickclery.com/awesomer/r/open-source-legal~opencontracts/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,309 | +9 | +37 | +163 | 2026-05-11 |
+| 1,474 | +8 | +37 | +122 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Legal AI & Contract Analysis
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/open-source-legal~opencontracts/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/open-source-legal~opencontracts/)*

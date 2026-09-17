@@ -1,6 +1,6 @@
 # kriuchkov/tock
 
-> Tock is a powerful time tracking tool for the command line.
+> Tock is a powerful time tracking tool for the command line. It saves activity logs as plaintext files and provides an in
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/kriuchkov/tock) | [Live site ↗](https://patrickclery.com/awesomer/r/kriuchkov~tock/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 413 | +6 | +18 | +74 | 2026-05-11 |
+| 477 | +6 | +21 | +46 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Time Tracking
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/kriuchkov~tock/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kriuchkov~tock/)*

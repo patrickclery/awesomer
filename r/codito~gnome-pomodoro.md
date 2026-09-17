@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,182 | +3 | +16 | +45 | 2026-05-08 |
+| 2,249 | +4 | +16 | +43 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/codito~gnome-pomodoro/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/codito~gnome-pomodoro/)*

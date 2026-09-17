@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,122 | +4 | +38 | +142 | 2026-05-06 |
+| 11,241 | +6 | +22 | +91 | 2026-08-26 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~promptflow/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~promptflow/)*

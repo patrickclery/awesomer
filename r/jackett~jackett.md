@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,341 | +56 | +177 | +565 | 2026-05-11 |
+| 16,025 | +57 | +146 | +450 | 2026-09-13 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-piracy](../l/piracy.md) / Tracker Proxies
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jackett~jackett/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jackett~jackett/)*

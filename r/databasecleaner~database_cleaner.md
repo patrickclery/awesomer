@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,961 | +0 | +0 |  | 2025-07-07 |
+| 2,965 | +1 | +1 | +3 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/databasecleaner~database_cleaner/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/databasecleaner~database_cleaner/)*

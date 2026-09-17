@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 274 | +1 | +1 | +0 | 2026-03-28 |
+| 277 | +0 | +2 | +3 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Optimizations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/fatkodima~fast_count/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fatkodima~fast_count/)*

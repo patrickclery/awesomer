@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,951 | +7 | +42 | +214 | 2025-12-09 |
+| 8,103 | +7 | +35 | +98 | 2025-12-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Productivity
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/koekeishiya~skhd/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/koekeishiya~skhd/)*

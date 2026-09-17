@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 190 | +17 | +122 | +186 | 2026-05-11 |
+| 326 | +5 | +36 | +97 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/dlyongemallo~diffview.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dlyongemallo~diffview.nvim/)*

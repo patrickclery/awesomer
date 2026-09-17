@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,064 | +4 | +6 | +17 | 2026-03-24 |
+| 11,106 | +1 | -3 | +28 | 2026-09-10 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unicodeveloper~awesome-nextjs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unicodeveloper~awesome-nextjs/)*

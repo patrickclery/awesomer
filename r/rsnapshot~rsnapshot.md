@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,615 | +0 | +5 | +11 | 2026-03-10 |
+| 3,668 | +1 | +6 | +35 | 2026-08-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Data Backup and Recovery
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rsnapshot~rsnapshot/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rsnapshot~rsnapshot/)*

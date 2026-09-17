@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 204 | +0 | +0 | +1 | 2025-11-24 |
+| 210 | +0 | +1 | +5 | 2026-07-24 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Indent
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/darazaki~indent-o-matic/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/darazaki~indent-o-matic/)*

@@ -1,6 +1,6 @@
 # jlevy/repren
 
-> Power rename/refactor tool (now with Claude Code skill support!)
+> Power rename/refactor tool for CLI and agent use
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/jlevy/repren) | [Live site ↗](https://patrickclery.com/awesomer/r/jlevy~repren/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 371 | +0 | +0 | +0 | 2026-04-14 |
+| 374 | +1 | +1 | +2 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / For Developers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jlevy~repren/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jlevy~repren/)*

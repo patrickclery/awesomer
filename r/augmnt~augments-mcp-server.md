@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 121 | +0 | +1 | +4 | 2026-03-13 |
+| 128 | +0 | +2 | +4 | 2026-03-13 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/augmnt~augments-mcp-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/augmnt~augments-mcp-server/)*

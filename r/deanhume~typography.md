@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 697 | -1 | +1 | +2 | 2026-04-20 |
+| 712 | +2 | +4 | +10 | 2026-08-09 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/deanhume~typography/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deanhume~typography/)*

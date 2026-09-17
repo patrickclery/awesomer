@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,260 | +151 | +958 |  | 2026-05-07 |
+| 8,979 | +53 | +218 | +1,999 | 2026-07-24 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / Teams
+- [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
+- [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/revfactory~harness/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/revfactory~harness/)*

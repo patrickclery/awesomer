@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 45,203 | +161 | +686 | +1,297 | 2026-03-27 |
+| 49,212 | +232 | +983 | +3,130 | 2026-08-20 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Image Generation & Editing
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/upscayl~upscayl/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/upscayl~upscayl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,716 | +3 | +15 | +31 | 2026-05-11 |
+| 18,773 | +0 | +10 | +29 | 2026-07-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/spotify~luigi/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spotify~luigi/)*

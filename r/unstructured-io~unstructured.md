@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,676 | +56 | +244 | +791 | 2026-05-05 |
+| 15,421 | +18 | +110 | +490 | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unstructured-io~unstructured/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unstructured-io~unstructured/)*

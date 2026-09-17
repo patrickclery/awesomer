@@ -8,11 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 132,208 | +4,252 | +17,177 | +65,662 | 2026-05-09 |
+| 176,090 | +1,299 | +6,749 | +25,176 | 2026-09-10 |
 
 ## Found In
 
+- [awesome-claude-code](../l/claude-code.md) / From Anthropic
 - [awesome-claude-skills](../l/claude-skills.md) / Community Resources
+- [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~skills/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~skills/)*

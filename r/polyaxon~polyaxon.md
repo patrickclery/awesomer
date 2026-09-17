@@ -1,6 +1,6 @@
 # polyaxon/polyaxon
 
-> MLOps Tools For Managing & Orchestrating The Machine Learning LifeCycle
+> AI Infra / AI Orchestration / AI Control Plane
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/polyaxon/polyaxon) | [Live site ↗](https://patrickclery.com/awesomer/r/polyaxon~polyaxon/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,706 | +1 | +5 | +16 | 2026-04-26 |
+| 3,730 | +4 | +12 | +24 | 2026-09-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/polyaxon~polyaxon/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/polyaxon~polyaxon/)*

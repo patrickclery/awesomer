@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 509 | +0 | +2 | +0 | 2026-04-09 |
+| 508 | +0 | +0 | +1 | 2026-04-09 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/camspiers~snap/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/camspiers~snap/)*

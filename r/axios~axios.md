@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 109,042 | -5 | +59 | +497 | 2026-05-11 |
+| 109,214 | +5 | -23 | +137 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/axios~axios/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/axios~axios/)*

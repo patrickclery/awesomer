@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 988 | +0 | +1 | +7 | 2026-05-11 |
+| 987 | +0 | -2 | -2 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Error Handling
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/getsentry~sentry-ruby/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/getsentry~sentry-ruby/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 633 | -1 | -1 |  | 2026-05-08 |
+| 631 | +0 | +0 | +0 | 2026-07-03 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/moshebe~gebug/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/moshebe~gebug/)*

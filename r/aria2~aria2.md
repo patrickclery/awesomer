@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,897 | +82 | +324 | +603 | 2026-03-10 |
+| 42,205 | +76 | +489 | +1,005 | 2026-06-25 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aria2~aria2/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aria2~aria2/)*

@@ -1,6 +1,6 @@
 # flytohub/flyto-core
 
-> The open-source execution engine for AI agents. 412 modules, MCP-native, triggers, queue, versioning, metering.
+> AI said it finished. Flyto2 shows the proof.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/flytohub/flyto-core) | [Live site ↗](https://patrickclery.com/awesomer/r/flytohub~flyto-core/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 270 | +1 | +6 |  | 2026-05-07 |
+| 480 | +1 | +1 | +206 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/flytohub~flyto-core/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flytohub~flyto-core/)*

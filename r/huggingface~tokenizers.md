@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,711 | +21 | +96 | +171 | 2026-05-07 |
+| 11,034 | +16 | +67 | +216 | 2026-09-11 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~tokenizers/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~tokenizers/)*

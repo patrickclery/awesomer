@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,565 | +43 | +189 | +837 | 2026-03-11 |
+| 6,271 | +35 | +182 | +509 | 2026-08-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Document Management - E-books
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/crocodilestick~calibre-web-automated/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crocodilestick~calibre-web-automated/)*

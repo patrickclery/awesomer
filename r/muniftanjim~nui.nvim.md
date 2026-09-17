@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,068 | +4 | +20 | +26 | 2025-06-08 |
+| 2,115 | +2 | +11 | +35 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/muniftanjim~nui.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/muniftanjim~nui.nvim/)*

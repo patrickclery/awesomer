@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 460 | +1 | +3 | +1 | 2026-04-28 |
+| 475 | +1 | +3 | +13 | 2026-07-29 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/alemart~opensurge/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alemart~opensurge/)*

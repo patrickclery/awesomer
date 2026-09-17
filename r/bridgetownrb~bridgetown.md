@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,339 | +2 | +6 | +19 | 2026-05-11 |
+| 1,364 | +1 | +3 | +12 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Static Site Generation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/bridgetownrb~bridgetown/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bridgetownrb~bridgetown/)*

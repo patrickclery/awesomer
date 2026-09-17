@@ -1,6 +1,6 @@
 # coreybutler/nvm-windows
 
-> A node.js version management utility for Windows. Ironically written in Go.
+> The Node.js version manager for Windows.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/coreybutler/nvm-windows) | [Live site ↗](https://patrickclery.com/awesomer/r/coreybutler~nvm-windows/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,293 | +84 | +404 | +805 | 2026-04-17 |
+| 47,660 | +83 | +327 | +859 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coreybutler~nvm-windows/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coreybutler~nvm-windows/)*

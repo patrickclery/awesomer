@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,722 | +33 | +173 | +562 | 2026-05-06 |
+| 4,974 | +10 | +53 | +180 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Screensavers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unhappychoice~gitlogue/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unhappychoice~gitlogue/)*

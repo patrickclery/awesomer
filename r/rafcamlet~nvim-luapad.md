@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 682 | +2 | +4 | +8 | 2026-03-23 |
+| 692 | +0 | -1 | +5 | 2026-03-23 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Code Runner
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/rafcamlet~nvim-luapad/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rafcamlet~nvim-luapad/)*

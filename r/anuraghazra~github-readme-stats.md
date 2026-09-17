@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 79,377 | +122 | +364 | +651 | 2026-03-31 |
+| 79,835 | +2 | -6 | +185 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/anuraghazra~github-readme-stats/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anuraghazra~github-readme-stats/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,226 | +15 | +46 | +115 | 2026-05-11 |
+| 1,325 | +5 | +14 | +63 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Finder Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/netdcy~flowvision/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/netdcy~flowvision/)*

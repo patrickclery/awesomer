@@ -1,6 +1,6 @@
 # BerriAI/litellm
 
-> Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails
+> The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/BerriAI/litellm) | [Live site ↗](https://patrickclery.com/awesomer/r/berriai~litellm/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,550 | +915 | +3,617 | +11,173 | 2026-05-11 |
+| 58,635 | +597 | +2,319 | +8,195 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/berriai~litellm/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/berriai~litellm/)*

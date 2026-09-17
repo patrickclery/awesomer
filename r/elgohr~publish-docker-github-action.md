@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 793 | +0 | +0 |  | 2026-05-05 |
+| 793 | +1 | +1 | +1 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Tools and Management
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elgohr~publish-docker-github-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elgohr~publish-docker-github-action/)*

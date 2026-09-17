@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,752 | -1 | +4 | +33 | 2026-05-11 |
+| 4,784 | +3 | +10 | +15 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Training & Optimization Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/pytorch~ignite/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pytorch~ignite/)*

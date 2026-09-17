@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,923 | +4 | +12 | +49 | 2026-05-06 |
+| 12,929 | +2 | -1 | -1 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/graphile~postgraphile/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/graphile~postgraphile/)*

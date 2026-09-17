@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 160 | +0 | +2 |  | 2026-04-12 |
+| 164 | +0 | -1 | +2 | 2026-06-05 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/abians~docker-db-manager/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/abians~docker-db-manager/)*

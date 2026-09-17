@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 184,170 | +192 | +853 | +3,592 | 2026-05-11 |
+| 187,298 | +192 | +681 | +2,347 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/significant-gravitas~auto-gpt/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/significant-gravitas~auto-gpt/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 234 | +2 | +7 | +9 | 2026-03-17 |
+| 248 | +3 | +6 | +10 | 2026-03-17 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/jzarca01~awesome-food/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jzarca01~awesome-food/)*

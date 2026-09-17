@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 231 | +0 | -1 | -45 | 2026-04-24 |
+| 235 | +1 | +1 | +6 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/leedrss~leed/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/leedrss~leed/)*

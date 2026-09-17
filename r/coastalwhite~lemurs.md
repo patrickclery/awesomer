@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,290 | +5 | +23 | +70 | 2026-03-14 |
+| 1,354 | +5 | +12 | +41 | 2026-06-28 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Console
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coastalwhite~lemurs/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coastalwhite~lemurs/)*

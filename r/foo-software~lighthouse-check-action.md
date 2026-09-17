@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 507 | +0 | +0 | +3 | 2026-02-12 |
+| 512 | +0 | +1 | +4 | 2026-06-23 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Monitoring
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/foo-software~lighthouse-check-action/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/foo-software~lighthouse-check-action/)*

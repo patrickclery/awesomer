@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114 | +3 | +5 | +9 | 2026-03-16 |
+| 129 | +0 | +4 | +10 | 2026-03-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/aliyun~alibaba-cloud-ops-mcp-server/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aliyun~alibaba-cloud-ops-mcp-server/)*

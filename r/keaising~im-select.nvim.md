@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 342 | +2 | +4 | +6 | 2026-03-18 |
+| 366 | +2 | +9 | +17 | 2026-03-18 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/keaising~im-select.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/keaising~im-select.nvim/)*

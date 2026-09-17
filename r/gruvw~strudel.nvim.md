@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 435 | +3 | +20 | +31 | 2026-04-10 |
+| 482 | +5 | +9 | +27 | 2026-04-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Live Preview
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gruvw~strudel.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gruvw~strudel.nvim/)*

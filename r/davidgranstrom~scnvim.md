@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 263 | +2 | +4 |  | 2026-04-20 |
+| 273 | +2 | +2 | +6 | 2026-06-16 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Media
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/davidgranstrom~scnvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/davidgranstrom~scnvim/)*

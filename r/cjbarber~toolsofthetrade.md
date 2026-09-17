@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,035 | +5 | +34 | +63 | 2026-03-13 |
+| 17,168 | +3 | +22 | +93 | 2026-05-16 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Business
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/cjbarber~toolsofthetrade/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cjbarber~toolsofthetrade/)*

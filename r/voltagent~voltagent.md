@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,779 | +170 | +934 | +3,053 | 2026-05-11 |
+| 10,606 | +40 | +255 | +995 | 2026-08-27 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/voltagent~voltagent/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/voltagent~voltagent/)*

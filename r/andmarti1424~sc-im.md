@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,617 | +4 | +41 | +241 | 2026-05-06 |
+| 5,691 | +7 | +10 | +54 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/andmarti1424~sc-im/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/andmarti1424~sc-im/)*

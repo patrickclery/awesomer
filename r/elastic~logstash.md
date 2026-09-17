@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,847 | +2 | +20 | +38 | 2026-05-11 |
+| 14,940 | -2 | +24 | +65 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / DevOps Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/elastic~logstash/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elastic~logstash/)*

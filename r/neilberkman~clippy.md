@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 233 | +3 | +11 | +21 | 2026-05-10 |
+| 246 | +0 | +2 | +10 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/neilberkman~clippy/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neilberkman~clippy/)*

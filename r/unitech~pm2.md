@@ -1,6 +1,6 @@
 # Unitech/pm2
 
-> Node.js Production Process Manager with a built-in Load Balancer.
+> Node.js/Typescript/Bun Production Process Manager with a built-in Load Balancer.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Unitech/pm2) | [Live site ↗](https://patrickclery.com/awesomer/r/unitech~pm2/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 43,138 | +32 | +101 | +146 | 2026-05-04 |
+| 43,291 | +4 | +23 | +80 | 2026-09-04 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/unitech~pm2/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unitech~pm2/)*

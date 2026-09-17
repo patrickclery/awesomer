@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,776 | +8 | +14 | +17 | 2026-05-07 |
+| 6,796 | +2 | +4 | +17 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~openwhisk/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~openwhisk/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,807 | +59 | +268 | +469 | 2026-05-11 |
+| 35,825 | +57 | +242 | +716 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/gchq~cyberchef/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gchq~cyberchef/)*

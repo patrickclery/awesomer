@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 388 | +1 | +7 |  | 2025-11-05 |
+| 395 | +0 | +2 | +6 | 2026-06-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coq-community~awesome-coq/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coq-community~awesome-coq/)*

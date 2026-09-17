@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 944 | +2 | +6 | +2 | 2025-09-16 |
+| 958 | +1 | +5 | +11 | 2026-07-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Note Taking and Lists
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/coderofsalvation~kanban.bash/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coderofsalvation~kanban.bash/)*

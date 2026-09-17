@@ -1,6 +1,6 @@
 # mnemox-ai/tradememory-protocol
 
-> Decision audit trail + persistent memory for AI trading agents. Outcome-weighted recall, SHA-256 tamper detection, 17 MC
+> Decision audit trail + persistent memory for AI trading agents. Outcome-weighted recall, tamper-evident SHA-256 chain wi
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mnemox-ai/tradememory-protocol) | [Live site ↗](https://patrickclery.com/awesomer/r/mnemox-ai~tradememory-protocol/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 857 | +75 | +318 |  | 2026-04-10 |
+| 1,417 | +2 | +7 | +174 | 2026-09-12 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Finance & Fintech
+- [awesome-ai-in-finance](../l/ai-in-finance.md) / Research & Analysis
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/mnemox-ai~tradememory-protocol/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mnemox-ai~tradememory-protocol/)*

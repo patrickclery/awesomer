@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 101 | +1 | +2 |  | 2025-12-28 |
+| 107 | +0 | +2 | +6 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/h-hg~fcitx.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/h-hg~fcitx.nvim/)*

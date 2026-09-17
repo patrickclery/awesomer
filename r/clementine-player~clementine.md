@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,205 | -1 | +6 | +21 | 2026-04-25 |
+| 4,250 | +2 | +11 | +38 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/clementine-player~clementine/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/clementine-player~clementine/)*

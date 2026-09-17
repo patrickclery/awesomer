@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,764 | +7 | +26 | +110 | 2025-09-13 |
+| 3,842 | -2 | +5 | +43 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Workflow
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/m4xshen~hardtime.nvim/)*
+*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/m4xshen~hardtime.nvim/)*
