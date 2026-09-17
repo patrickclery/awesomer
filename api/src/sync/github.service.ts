@@ -93,16 +93,24 @@ export class GithubService {
   ): Promise<Map<number, GraphQLRepoResult>> {
     if (repos.length === 0) return new Map();
 
+    // owner/name come from third-party list sources; pass them as GraphQL variables
+    // rather than interpolating into the document so a stray quote or brace cannot
+    // break (or extend) the query.
     const queryParts = repos.map(
-      (r, i) =>
-        `repo${i}: repository(owner: "${r.owner}", name: "${r.name}") { stargazerCount description pushedAt }`,
+      (_, i) => `repo${i}: repository(owner: $o${i}, name: $n${i}) { stargazerCount description pushedAt }`,
     );
-
-    const query = `query { ${queryParts.join('\n')} }`;
+    const declarations = repos.map((_, i) => `$o${i}: String!, $n${i}: String!`).join(', ');
+    const query = `query (${declarations}) { ${queryParts.join('\n')} }`;
+    const variables: Record<string, string> = Object.fromEntries(
+      repos.flatMap((r, i) => [
+        [`o${i}`, r.owner],
+        [`n${i}`, r.name],
+      ]),
+    );
 
     try {
       const result: Record<string, GraphQLRepoResult | null> =
-        await this.octokit.graphql(query);
+        await this.octokit.graphql(query, variables);
 
       return this.extractGraphQLResults(repos, result);
     } catch (error: unknown) {
@@ -166,10 +174,9 @@ export class GithubService {
 
     try {
       while (pagesFetched < MAX_STARGAZER_PAGES) {
-        const after = cursor ? `, after: "${cursor}"` : '';
-        const query = `query {
-          repository(owner: "${owner}", name: "${name}") {
-            stargazers(first: 100${after}, orderBy: { field: STARRED_AT, direction: DESC }) {
+        const query = `query ($owner: String!, $name: String!, $after: String) {
+          repository(owner: $owner, name: $name) {
+            stargazers(first: 100, after: $after, orderBy: { field: STARRED_AT, direction: DESC }) {
               totalCount
               edges { starredAt }
               pageInfo { hasNextPage endCursor }
@@ -185,7 +192,7 @@ export class GithubService {
               pageInfo: { hasNextPage: boolean; endCursor: string | null };
             };
           } | null;
-        } = await this.octokit.graphql(query);
+        } = await this.octokit.graphql(query, { owner, name, after: cursor });
 
         if (!result.repository) return null;
 
