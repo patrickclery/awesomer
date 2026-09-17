@@ -67,6 +67,7 @@ What if every Awesome List had a trending page? Now they do.
 | [awesome-nextjs](l/nextjs.md) | 📔 📚 A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for un | 11,105 | +1 |
 | [awesome-piracy](l/piracy.md) | A curated list of awesome warez and piracy links | 26,911 | -3 |
 | [Awesome local LLM](l/local-llm.md) | A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally | 2,865 |  |
+| [Awesome Immich](l/immich.md) | Sites and packages for Immich | 16 |  |
 
 ---
-*Updated: 2026-09-16 | [View live site ↗](https://patrickclery.com/awesomer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/)*
