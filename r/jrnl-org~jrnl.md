@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,313 | +5 | +22 | +57 | 2026-09-10 |
+| 7,318 | +5 | +27 | +60 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Applications
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jrnl-org~jrnl/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jrnl-org~jrnl/)*

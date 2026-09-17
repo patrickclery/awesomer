@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,609 | +3 | +11 | +33 | 2026-09-13 |
+| 1,611 | +3 | +14 | +30 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Framework
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/maizzle~framework/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maizzle~framework/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 117 | +1 | +4 |  | 2026-08-11 |
+| 118 | +1 | +5 |  | 2026-08-11 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/khendzel~skills-janitor/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/khendzel~skills-janitor/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 729 | +0 | +3 | +15 | 2026-06-03 |
+| 729 | +0 | +2 | +15 | 2026-06-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Stacking Window Managers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/danakj~openbox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/danakj~openbox/)*

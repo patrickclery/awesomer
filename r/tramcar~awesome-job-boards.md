@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,860 | +3 | +14 | +107 | 2026-07-29 |
+| 1,863 | +3 | +16 | +110 | 2026-07-29 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Work
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tramcar~awesome-job-boards/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tramcar~awesome-job-boards/)*

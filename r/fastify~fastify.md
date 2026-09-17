@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 37,118 | +27 | +130 | +617 | 2026-09-13 |
+| 37,146 | +27 | +147 | +607 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fastify~fastify/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fastify~fastify/)*

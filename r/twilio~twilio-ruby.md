@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,389 | +1 | -1 | -1 | 2026-09-10 |
+| 1,390 | +1 | +0 | +0 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/twilio~twilio-ruby/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/twilio~twilio-ruby/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,440 | -1 | +0 | -3 | 2026-08-23 |
+| 4,440 | -1 | +0 | -2 | 2026-08-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Crawling
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sparklemotion~mechanize/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sparklemotion~mechanize/)*

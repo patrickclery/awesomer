@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 419 | +11 | +175 |  | 2026-09-12 |
+| 422 | +11 | +175 | +287 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Download Management Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thsnkhn~harbor/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thsnkhn~harbor/)*

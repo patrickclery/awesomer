@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 132,896 | +1,645 | +5,379 | +15,834 | 2026-09-13 |
+| 133,481 | +1,645 | +5,450 | +16,026 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🎨 6. Generative Media Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/comfy-org~comfyui/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/comfy-org~comfyui/)*

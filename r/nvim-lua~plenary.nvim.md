@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,495 | -3 | +2 | +17 | 2026-04-10 |
+| 3,496 | -3 | +4 | +15 | 2026-04-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Neovim Lua Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-lua~plenary.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-lua~plenary.nvim/)*

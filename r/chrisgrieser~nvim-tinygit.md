@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 214 | +2 | +2 | +6 | 2026-08-12 |
+| 214 | +2 | +2 | +4 | 2026-08-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-tinygit/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-tinygit/)*

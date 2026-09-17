@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,184 | +67 | +651 | +1,390 | 2026-09-13 |
+| 5,257 | +67 | +700 | +1,424 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Distributed Training
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rlinf~rlinf/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rlinf~rlinf/)*

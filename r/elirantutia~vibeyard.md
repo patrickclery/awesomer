@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,373 | +4 | +24 |  | 2026-09-03 |
+| 1,375 | +4 | +24 |  | 2026-09-03 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Alternative Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elirantutia~vibeyard/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/elirantutia~vibeyard/)*

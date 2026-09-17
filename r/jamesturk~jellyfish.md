@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,233 | -2 | +4 | +14 | 2026-07-24 |
+| 2,233 | -2 | +3 | +13 | 2026-07-24 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jamesturk~jellyfish/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jamesturk~jellyfish/)*

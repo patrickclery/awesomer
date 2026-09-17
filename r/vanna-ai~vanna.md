@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,815 | -8 | -13 | +199 | 2026-02-02 |
+| 23,815 | -8 | -11 | +170 | 2026-02-02 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vanna-ai~vanna/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vanna-ai~vanna/)*

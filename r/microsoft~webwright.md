@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,980 | +15 | +70 |  | 2026-08-03 |
+| 6,001 | +15 | +81 |  | 2026-08-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~webwright/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~webwright/)*

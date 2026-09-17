@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,085 | +47 | +214 | +559 | 2026-09-12 |
+| 14,097 | +47 | +204 | +552 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vendicated~vencord/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vendicated~vencord/)*

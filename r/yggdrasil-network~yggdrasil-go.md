@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,408 | +17 | +63 |  | 2026-06-19 |
+| 5,410 | +17 | +60 |  | 2026-06-19 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yggdrasil-network~yggdrasil-go/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yggdrasil-network~yggdrasil-go/)*

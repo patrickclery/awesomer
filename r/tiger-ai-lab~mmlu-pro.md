@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 422 | +0 | +3 | +34 | 2026-03-18 |
+| 423 | +0 | +4 | +30 | 2026-03-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Benchmark Suites
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tiger-ai-lab~mmlu-pro/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tiger-ai-lab~mmlu-pro/)*

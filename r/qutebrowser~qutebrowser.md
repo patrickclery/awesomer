@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,685 | +10 | +40 | +139 | 2026-09-07 |
+| 11,688 | +10 | +40 | +129 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qutebrowser~qutebrowser/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/qutebrowser~qutebrowser/)*

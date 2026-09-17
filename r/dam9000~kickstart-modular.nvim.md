@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,019 | +0 | +7 | +25 | 2026-09-07 |
+| 1,019 | +0 | +7 | +23 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dam9000~kickstart-modular.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dam9000~kickstart-modular.nvim/)*

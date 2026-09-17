@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,196 | +0 | -1 | +3 | 2026-08-25 |
+| 2,194 | +0 | -3 | +2 | 2026-08-25 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deviantfero~wpgtk/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deviantfero~wpgtk/)*

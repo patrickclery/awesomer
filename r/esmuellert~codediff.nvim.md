@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,553 | +8 | +39 | +136 | 2026-09-11 |
+| 1,560 | +8 | +42 | +131 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/esmuellert~codediff.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/esmuellert~codediff.nvim/)*

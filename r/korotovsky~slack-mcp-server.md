@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,824 | +10 | +42 | +161 | 2026-07-16 |
+| 1,828 | +10 | +45 | +162 | 2026-07-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/korotovsky~slack-mcp-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/korotovsky~slack-mcp-server/)*

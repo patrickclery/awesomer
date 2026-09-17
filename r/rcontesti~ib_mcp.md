@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 140 | +0 | +1 |  | 2025-10-23 |
+| 140 | +0 | +0 |  | 2025-10-23 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Trading Execution
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rcontesti~ib_mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rcontesti~ib_mcp/)*

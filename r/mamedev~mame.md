@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,474 | +16 | +71 | +248 | 2026-09-13 |
+| 10,494 | +16 | +87 | +267 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mamedev~mame/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mamedev~mame/)*

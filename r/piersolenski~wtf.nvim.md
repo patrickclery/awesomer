@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 607 | -2 | +0 | +6 | 2026-06-02 |
+| 608 | -2 | +1 | +6 | 2026-06-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Diagnostics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/piersolenski~wtf.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/piersolenski~wtf.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 289 | +0 | +1 | +4 | 2026-09-11 |
+| 290 | +0 | +2 | +4 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anilahir~nestjs-authentication-and-authorization/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/anilahir~nestjs-authentication-and-authorization/)*

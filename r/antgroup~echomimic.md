@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,297 | +1 | +12 | +40 | 2026-04-07 |
+| 4,298 | +1 | +13 | +42 | 2026-04-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Portrait Animation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antgroup~echomimic/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/antgroup~echomimic/)*

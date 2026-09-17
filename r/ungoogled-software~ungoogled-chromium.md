@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,686 | +71 | +277 | +799 | 2026-09-13 |
+| 27,707 | +71 | +271 | +800 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Browsers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ungoogled-software~ungoogled-chromium/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ungoogled-software~ungoogled-chromium/)*

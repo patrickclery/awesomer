@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,171 | -1 | +2 | +6 | 2026-07-13 |
+| 10,171 | -1 | +1 | +6 | 2026-07-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/teamcapybara~capybara/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/teamcapybara~capybara/)*

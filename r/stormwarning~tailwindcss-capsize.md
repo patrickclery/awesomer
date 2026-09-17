@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 122 | +0 | +0 | +1 | 2026-09-10 |
+| 122 | +0 | +0 | +1 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stormwarning~tailwindcss-capsize/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stormwarning~tailwindcss-capsize/)*

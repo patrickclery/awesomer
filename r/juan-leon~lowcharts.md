@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Graphics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/juan-leon~lowcharts/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/juan-leon~lowcharts/)*

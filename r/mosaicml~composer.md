@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,493 | +0 | -1 | +7 | 2026-04-29 |
+| 5,495 | +0 | +1 | +9 | 2026-04-29 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Distributed Training
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mosaicml~composer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mosaicml~composer/)*

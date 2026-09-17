@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,872 | +2 | +13 | +38 | 2026-09-04 |
+| 1,875 | +2 | +14 | +38 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pimutils~vdirsyncer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pimutils~vdirsyncer/)*

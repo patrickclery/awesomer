@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,685 | +71 | +280 | +911 | 2026-09-13 |
+| 11,727 | +71 | +292 | +926 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / ⚡ 3. Inference Engines & Serving
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lostruins~koboldcpp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lostruins~koboldcpp/)*

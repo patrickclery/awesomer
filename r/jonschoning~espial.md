@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 918 | +1 | +8 | +28 | 2026-08-02 |
+| 919 | +1 | +9 | +29 | 2026-08-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Bookmarks and Link Sharing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jonschoning~espial/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jonschoning~espial/)*

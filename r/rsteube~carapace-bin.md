@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,953 | +10 | +33 | +95 | 2026-09-13 |
+| 1,955 | +10 | +32 | +95 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Completions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rsteube~carapace-bin/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rsteube~carapace-bin/)*

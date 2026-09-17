@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,745 | +4 | +32 | +115 | 2026-08-25 |
+| 6,748 | +4 | +35 | +116 | 2026-08-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/superagent-ai~superagent/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/superagent-ai~superagent/)*

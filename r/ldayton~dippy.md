@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 244 | -1 | +3 | +7 | 2026-06-12 |
+| 244 | -1 | +3 | +8 | 2026-06-12 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ldayton~dippy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ldayton~dippy/)*

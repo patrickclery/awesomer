@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,016 | +25 | +127 | +625 | 2026-09-07 |
+| 33,035 | +25 | +135 | +624 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/surrealdb~surrealdb/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/surrealdb~surrealdb/)*

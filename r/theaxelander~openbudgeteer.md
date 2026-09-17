@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 973 | +1 | +4 | +12 | 2026-01-10 |
+| 973 | +1 | +4 | +13 | 2026-01-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Money, Budgeting & Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/theaxelander~openbudgeteer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/theaxelander~openbudgeteer/)*

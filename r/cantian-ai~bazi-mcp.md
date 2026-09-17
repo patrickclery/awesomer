@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 431 | +2 | +9 | +41 | 2025-10-11 |
+| 431 | +2 | +9 | +38 | 2025-10-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Art & Culture
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cantian-ai~bazi-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cantian-ai~bazi-mcp/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,749 | +12 | +40 | +107 | 2026-09-13 |
+| 9,753 | +12 | +43 | +110 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Probabilistic Programming & Bayesian ML
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pymc-devs~pymc/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pymc-devs~pymc/)*

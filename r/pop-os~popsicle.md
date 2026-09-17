@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 853 | +3 | +5 | +17 | 2026-09-01 |
+| 856 | +3 | +6 | +20 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pop-os~popsicle/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pop-os~popsicle/)*

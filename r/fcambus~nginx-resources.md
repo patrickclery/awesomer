@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,810 | +3 | +7 | +29 | 2026-08-04 |
+| 3,815 | +3 | +12 | +35 | 2026-08-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fcambus~nginx-resources/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fcambus~nginx-resources/)*

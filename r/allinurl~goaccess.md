@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,923 | +13 | +117 | +281 | 2026-09-13 |
+| 20,929 | +13 | +103 | +284 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / System Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/allinurl~goaccess/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/allinurl~goaccess/)*

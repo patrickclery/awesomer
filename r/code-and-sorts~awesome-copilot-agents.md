@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 570 | +2 | +13 | +33 | 2026-04-29 |
+| 571 | +2 | +13 | +35 | 2026-04-29 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/code-and-sorts~awesome-copilot-agents/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/code-and-sorts~awesome-copilot-agents/)*

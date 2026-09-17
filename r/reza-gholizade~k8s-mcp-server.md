@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 181 | +3 | +5 | +14 | 2026-09-10 |
+| 182 | +3 | +5 | +16 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/reza-gholizade~k8s-mcp-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/reza-gholizade~k8s-mcp-server/)*

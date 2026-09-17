@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,075 | +415 | +1,338 | +5,402 | 2026-06-14 |
+| 28,148 | +415 | +1,305 | +5,153 | 2026-06-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Video Generation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aidc-ai~pixelle-video/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aidc-ai~pixelle-video/)*

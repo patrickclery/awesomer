@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,325 | +7 | +33 | +105 | 2026-09-04 |
+| 3,331 | +7 | +37 | +108 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/snes9xgit~snes9x/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/snes9xgit~snes9x/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,028 | +1 | +5 | +41 | 2026-05-24 |
+| 1,028 | +1 | +4 | +38 | 2026-05-24 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Quickfix
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stevearc~quicker.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stevearc~quicker.nvim/)*

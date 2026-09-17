@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 454 | +0 | +4 | +2 | 2026-02-12 |
+| 454 | +0 | +4 | +6 | 2026-02-12 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/theimpossibleastronaut~awesome-linguistics/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/theimpossibleastronaut~awesome-linguistics/)*

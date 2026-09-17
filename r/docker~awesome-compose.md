@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,304 | +53 | +216 | +751 | 2026-09-11 |
+| 46,343 | +53 | +229 | +765 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Awesome Lists
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/docker~awesome-compose/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/docker~awesome-compose/)*

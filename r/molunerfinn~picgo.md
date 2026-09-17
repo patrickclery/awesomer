@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,186 | +49 | +200 | +377 | 2026-09-01 |
+| 27,202 | +49 | +211 | +383 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Other Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/molunerfinn~picgo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/molunerfinn~picgo/)*

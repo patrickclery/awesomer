@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 228 | +5 | +53 | +180 | 2026-09-13 |
+| 232 | +5 | +53 | +180 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Other Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/novacode37~prism-platform/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/novacode37~prism-platform/)*

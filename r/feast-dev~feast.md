@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,266 | +16 | +59 | +174 | 2026-09-11 |
+| 7,273 | +16 | +61 | +177 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Experiment Tracking & Versioning
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/feast-dev~feast/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/feast-dev~feast/)*

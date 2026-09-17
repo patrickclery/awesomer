@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,175 | +23 | +194 | +635 | 2026-09-06 |
+| 12,197 | +23 | +190 | +632 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/waydroid~waydroid/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/waydroid~waydroid/)*

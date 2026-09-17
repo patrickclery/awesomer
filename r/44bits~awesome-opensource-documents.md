@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,321 | +2 | +10 | +72 | 2025-10-29 |
+| 2,323 | +2 | +8 | +71 | 2025-10-29 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Media
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/44bits~awesome-opensource-documents/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/44bits~awesome-opensource-documents/)*

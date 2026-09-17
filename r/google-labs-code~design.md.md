@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,878 | +172 | +648 |  | 2026-07-27 |
+| 27,945 | +172 | +651 |  | 2026-09-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Protocols & Standards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google-labs-code~design.md/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-labs-code~design.md/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,903 | +5 | +21 | +46 | 2026-09-03 |
+| 1,904 | +5 | +21 | +46 | 2026-09-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/meganz~megasync/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/meganz~megasync/)*

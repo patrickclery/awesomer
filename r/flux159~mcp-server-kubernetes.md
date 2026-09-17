@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,579 | +8 | +55 | +151 | 2026-08-31 |
+| 1,580 | +8 | +14 | +143 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flux159~mcp-server-kubernetes/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flux159~mcp-server-kubernetes/)*

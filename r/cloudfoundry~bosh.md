@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,078 | +0 | +2 | +2 | 2026-09-12 |
+| 2,078 | +0 | +2 | +2 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / DevOps Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudfoundry~bosh/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudfoundry~bosh/)*

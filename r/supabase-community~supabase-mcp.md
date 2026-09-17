@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,907 | +3 | +45 | +170 | 2026-09-13 |
+| 2,908 | +3 | +42 | +166 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/supabase-community~supabase-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/supabase-community~supabase-mcp/)*

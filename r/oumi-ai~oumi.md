@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,382 | -4 | +5 | +70 | 2026-09-12 |
+| 9,387 | -4 | +9 | +70 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oumi-ai~oumi/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oumi-ai~oumi/)*

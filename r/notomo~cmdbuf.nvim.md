@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 143 | +0 | +1 | +4 | 2026-08-10 |
+| 144 | +0 | +2 | +5 | 2026-08-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Command Line
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/notomo~cmdbuf.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/notomo~cmdbuf.nvim/)*

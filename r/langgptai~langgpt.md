@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,521 | +16 | +92 | +308 | 2026-09-11 |
+| 12,528 | +16 | +94 | +303 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Structured Outputs
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/langgptai~langgpt/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/langgptai~langgpt/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,096 | +38 | +149 | +384 | 2026-09-13 |
+| 17,107 | +38 | +142 | +375 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vitest-dev~vitest/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vitest-dev~vitest/)*

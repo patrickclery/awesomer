@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,566 | +7 | +27 | +124 | 2026-08-10 |
+| 4,568 | +7 | +29 | +118 | 2026-08-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / E-Book Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/torakiki~pdfsam/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/torakiki~pdfsam/)*

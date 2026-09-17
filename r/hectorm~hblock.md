@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,987 | +5 | +13 | +36 | 2026-07-01 |
+| 1,986 | +5 | +11 | +35 | 2026-07-01 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / System Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hectorm~hblock/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hectorm~hblock/)*

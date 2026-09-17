@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,438 | +6 | +6 | +27 | 2026-01-09 |
+| 2,441 | +6 | +9 | +30 | 2026-01-09 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eug~awesome-opengl/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eug~awesome-opengl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,685 | +23 | +149 | +409 | 2026-09-13 |
+| 10,701 | +23 | +155 | +410 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stenzek~duckstation/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stenzek~duckstation/)*

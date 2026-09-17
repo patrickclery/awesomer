@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,502 | +33 | +184 |  | 2026-07-18 |
+| 7,514 | +33 | +190 |  | 2026-07-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Educational Resources & Courses
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/henryndubuaku~maths-cs-ai-compendium/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/henryndubuaku~maths-cs-ai-compendium/)*

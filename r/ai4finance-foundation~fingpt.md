@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,246 | +45 | +162 | +749 | 2026-09-13 |
+| 21,256 | +45 | +155 | +737 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Finance & Quantitative AI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ai4finance-foundation~fingpt/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ai4finance-foundation~fingpt/)*

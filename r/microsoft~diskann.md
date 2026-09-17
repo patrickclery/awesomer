@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,924 | +7 | +24 | +77 | 2026-09-13 |
+| 1,926 | +7 | +21 | +73 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~diskann/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~diskann/)*

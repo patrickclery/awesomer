@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,319 | +336 | +1,223 | +3,913 | 2026-09-07 |
+| 33,413 | +336 | +1,172 | +3,871 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sillytavern~sillytavern/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sillytavern~sillytavern/)*

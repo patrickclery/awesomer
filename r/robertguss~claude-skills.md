@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115 | +3 | +11 | +17 | 2026-08-08 |
+| 116 | +3 | +12 | +17 | 2026-08-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Writing & Prose Quality
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/robertguss~claude-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/robertguss~claude-skills/)*

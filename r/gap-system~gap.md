@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,004 | +1 | +7 | +27 | 2026-09-13 |
+| 1,005 | +1 | +8 | +26 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Education
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gap-system~gap/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gap-system~gap/)*

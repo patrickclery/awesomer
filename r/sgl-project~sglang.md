@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,894 | +399 | +4,111 | +6,864 | 2026-09-13 |
+| 36,034 | +399 | +4,084 | +6,876 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / ⚡ 3. Inference Engines & Serving
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~sglang/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~sglang/)*

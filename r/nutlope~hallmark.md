@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,531 | +1,295 | +3,711 |  | 2026-08-06 |
+| 28,711 | +1,295 | +3,277 |  | 2026-08-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nutlope~hallmark/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nutlope~hallmark/)*

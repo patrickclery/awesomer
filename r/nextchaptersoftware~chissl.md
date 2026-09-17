@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 195 | +0 | +2 | +3 | 2025-12-09 |
+| 195 | +0 | +3 | +3 | 2025-12-09 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nextchaptersoftware~chissl/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nextchaptersoftware~chissl/)*

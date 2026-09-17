@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,200 | +290 | +2,683 |  | 2026-09-13 |
+| 36,397 | +290 | +2,795 |  | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~claude-plugins-official/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~claude-plugins-official/)*

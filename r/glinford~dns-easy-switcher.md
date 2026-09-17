@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 358 | +1 | +2 | +9 | 2025-11-18 |
+| 359 | +1 | +3 | +10 | 2025-11-18 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/glinford~dns-easy-switcher/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/glinford~dns-easy-switcher/)*

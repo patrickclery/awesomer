@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,181 | +13 | +43 | +124 | 2026-09-03 |
+| 2,185 | +13 | +38 | +125 | 2026-09-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 3D & Creative Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pierotofy~opensplat/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pierotofy~opensplat/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,172 | +4 | +53 | +153 | 2026-09-07 |
+| 7,175 | +4 | +51 | +137 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Groupware / Webmail
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/roundcube~roundcubemail/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/roundcube~roundcubemail/)*

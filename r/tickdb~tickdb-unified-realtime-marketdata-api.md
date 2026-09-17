@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 784 | +25 | +110 |  | 2026-06-20 |
+| 794 | +25 | +109 |  | 2026-06-20 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Market Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tickdb~tickdb-unified-realtime-marketdata-api/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tickdb~tickdb-unified-realtime-marketdata-api/)*

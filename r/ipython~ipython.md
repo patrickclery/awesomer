@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,780 | +3 | +6 | +68 | 2026-09-07 |
+| 16,783 | +3 | +13 | +64 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ipython~ipython/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ipython~ipython/)*

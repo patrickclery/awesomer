@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,099 | +67 | +241 | +652 | 2026-09-13 |
+| 14,124 | +67 | +241 | +660 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Data Backup and Recovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kopia~kopia/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kopia~kopia/)*

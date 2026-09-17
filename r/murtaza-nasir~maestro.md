@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,491 |  |  |  | 2026-04-16 |
+| 1,492 |  |  |  | 2026-04-16 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Research
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/murtaza-nasir~maestro/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/murtaza-nasir~maestro/)*

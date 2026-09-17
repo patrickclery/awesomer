@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 288 | +1 | +2 | +15 | 2025-10-09 |
+| 288 | +1 | +1 | +16 | 2025-10-09 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Art & Culture
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/burningion~video-editing-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/burningion~video-editing-mcp/)*

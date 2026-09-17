@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,860 | +1 | +7 | +20 | 2026-09-08 |
+| 1,860 | +1 | +7 | +19 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rmagatti~auto-session/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rmagatti~auto-session/)*

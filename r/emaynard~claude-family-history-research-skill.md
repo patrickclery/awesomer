@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 108 | +2 | +7 | +27 | 2026-07-18 |
+| 108 | +2 | +5 | +26 | 2026-07-18 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Communication & Writing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/emaynard~claude-family-history-research-skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/emaynard~claude-family-history-research-skill/)*

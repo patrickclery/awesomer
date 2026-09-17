@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [Listmonk](../r/knadh~listmonk.md) | 23,396 | +137 | +575 | +1,820 |
-| 2 | [Stalwart](../r/stalwartlabs~mail-server.md) | 14,648 | +92 | +480 | +1,467 |
-| 3 | [Himalaya](../r/soywod~himalaya.md) | 7,234 | +62 | +214 | +808 |
-| 4 | [MailPit](../r/axllent~mailpit.md) | 10,353 | +61 | +244 | +699 |
-| 5 | [Docker Mailserver](../r/docker-mailserver~docker-mailserver.md) | 18,846 | +47 | +144 | +462 |
-| 6 | [Easy Email](../r/zalify~easy-email.md) | 3,016 | +41 | +179 | +516 |
-| 7 | [Maildev](../r/maildev~maildev.md) | 6,050 | +33 | +63 | +122 |
-| 8 | [GrapesJS](../r/artf~grapesjs.md) | 26,222 | +30 | +99 | +312 |
-| 9 | [Notifuse](../r/notifuse~notifuse.md) | 2,191 | +28 | +145 | +208 |
-| 10 | [Postal](../r/postalserver~postal.md) | 16,806 | +24 | +75 | +204 |
+| 1 | [Listmonk](../r/knadh~listmonk.md) | 23,443 | +137 | +511 | +1,819 |
+| 2 | [Stalwart](../r/stalwartlabs~mail-server.md) | 14,689 | +92 | +475 | +1,470 |
+| 3 | [Himalaya](../r/soywod~himalaya.md) | 7,250 | +62 | +217 | +801 |
+| 4 | [MailPit](../r/axllent~mailpit.md) | 10,372 | +61 | +247 | +687 |
+| 5 | [Docker Mailserver](../r/docker-mailserver~docker-mailserver.md) | 18,849 | +47 | +104 | +440 |
+| 6 | [Easy Email](../r/zalify~easy-email.md) | 3,041 | +41 | +183 | +531 |
+| 7 | [Maildev](../r/maildev~maildev.md) | 6,062 | +33 | +72 | +132 |
+| 8 | [GrapesJS](../r/artf~grapesjs.md) | 26,239 | +30 | +106 | +319 |
+| 9 | [Notifuse](../r/notifuse~notifuse.md) | 2,201 | +28 | +155 | +217 |
+| 10 | [Postal](../r/postalserver~postal.md) | 16,812 | +24 | +73 | +204 |
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Himalaya](../r/soywod~himalaya.md) | CLI to manage emails | 7,234 | +62 |
+| [Himalaya](../r/soywod~himalaya.md) | CLI to manage emails | 7,250 | +62 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -58,15 +58,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Stalwart](../r/stalwartlabs~mail-server.md) | All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV | 14,648 | +92 |
-| [Docker Mailserver](../r/docker-mailserver~docker-mailserver.md) | Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a contain | 18,846 | +47 |
-| [Mailu](../r/mailu~mailu.md) | Insular email distribution - mail server as Docker images | 7,509 | +13 |
-| [Mox](../r/mjl-~mox.md) | modern full-featured open source secure mail server for low-maintenance self-hosted email | 5,853 | +9 |
+| [Stalwart](../r/stalwartlabs~mail-server.md) | All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV | 14,689 | +92 |
+| [Docker Mailserver](../r/docker-mailserver~docker-mailserver.md) | Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a contain | 18,849 | +47 |
+| [Mailu](../r/mailu~mailu.md) | Insular email distribution - mail server as Docker images | 7,508 | +13 |
+| [Mox](../r/mjl-~mox.md) | modern full-featured open source secure mail server for low-maintenance self-hosted email | 5,858 | +9 |
 | [Mailinabox](../r/mail-in-a-box~mailinabox.md) | Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything | 15,416 | +5 |
-| [Forward Email](../r/forwardemail~forwardemail.net.md) | Privacy-focused encrypted email for everyone.  All-in-one alternative to Gmail + Mailchimp + Sendgrid. | 1,671 | +2 |
+| [Forward Email](../r/forwardemail~forwardemail.net.md) | Privacy-focused encrypted email for everyone.  All-in-one alternative to Gmail + Mailchimp + Sendgrid. | 1,670 | +2 |
 | [Zimbra Open Source Edition](../r/zimbra~zm-build.md) | zm-build for Zimbra Collaboration Suite, FOSS Edition | 245 | +1 |
-| [Erooster Email Server](../r/erooster-mail~erooster.md) | A mail suite written in rust meant to be easy to use. | 61 | +0 |
-| [Excision-Mail](../r/excision-mail~excision-mail.md) | Fullstack, security focused, personal mail server based on OpenSMTPD for OpenBSD | 160 | +0 |
+| [Erooster Email Server](https://github.com/erooster-mail/erooster) | A mail suite written in rust meant to be easy to use. | 61 | +0 |
+| [Excision-Mail](https://github.com/Excision-Mail/Excision-Mail) | Fullstack, security focused, personal mail server based on OpenSMTPD for OpenBSD | 160 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -74,14 +74,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [parsedmarc](../r/domainaware~parsedmarc.md) | A Python package and CLI for parsing aggregate and forensic DMARC reports | 1,294 | +5 |
+| [parsedmarc](../r/domainaware~parsedmarc.md) | A Python package and CLI for parsing aggregate and forensic DMARC reports | 1,297 | +5 |
 | [checkdmarc](../r/domainaware~checkdmarc.md) | A parser for SPF and DMARC DNS records | 321 | +2 |
-| [dmarc-report-converter](../r/tierpod~dmarc-report-converter.md) | Convert dmarc reports from xml to human-readable formats | 278 | +1 |
+| [dmarc-report-converter](https://github.com/tierpod/dmarc-report-converter) | Convert dmarc reports from xml to human-readable formats | 278 | +1 |
 | [DmarcSrg](../r/liuch~dmarc-srg.md) | A php parser, viewer and summary report generator for incoming DMARC reports. | 300 | +1 |
-| [DMARC Analyzer](../r/dmarc-analyzer-net~dmarcanalyzerapp.md) | Open-source, self-hosted DMARC monitoring for agencies — unlimited domains, automatic report ingestion, no per-domain pr | 8 |  |
-| [dmarcts-report-parser](../r/techsneeze~dmarcts-report-parser.md) | A Perl based tool to parse DMARC reports from an IMAP mailbox or from the filesystem, and insert the information into a  | 244 | +0 |
+| [DMARC Analyzer](https://github.com/dmarc-analyzer-net/DmarcAnalyzerApp) | Open-source, self-hosted DMARC monitoring for agencies — unlimited domains, automatic report ingestion, no per-domain pr | 10 |  |
+| [dmarcts-report-parser](https://github.com/techsneeze/dmarcts-report-parser) | A Perl based tool to parse DMARC reports from an IMAP mailbox or from the filesystem, and insert the information into a  | 244 | +0 |
 | [Viesti-Reports](../r/antedebaas~viesti-reports.md) | DMARC & SMTP-TLS Reports processor and visualizer and BIMI file hoster | 116 | +0 |
-| [Open DMARC Analyzer](../r/userjack6880~open-dmarc-analyzer.md) | Open DMARC Analyzer is an Open Source DMARC Report Analyzer to be used with DMARC reports that have been parsed by John  | 272 | -1 |
+| [Open DMARC Analyzer](https://github.com/userjack6880/Open-DMARC-Analyzer) | Open DMARC Analyzer is an Open Source DMARC Report Analyzer to be used with DMARC reports that have been parsed by John  | 272 | -1 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -89,13 +89,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [disposable-email-domains](../r/disposable-email-domains~disposable-email-domains.md) | a list of disposable email domains | 5,489 | +16 |
-| [disposable](../r/disposable~disposable.md) | A list of disposable/temporary email address domains | 1,448 | +5 |
+| [disposable-email-domains](../r/disposable-email-domains~disposable-email-domains.md) | a list of disposable email domains | 5,499 | +16 |
+| [disposable](../r/disposable~disposable.md) | A list of disposable/temporary email address domains | 1,450 | +5 |
 | [disposable-email-domain-list](../r/groundcat~disposable-email-domain-list.md) | A list of disposable email domains, cleaned and validated by scanning MX records. | 107 | +0 |
-| [disposable-email-domains (another one too)](../r/kslr~disposable-email-domains.md) | Anti-cheating, temporary (disposable/throwaway) email list | 30 | +0 |
-| [disposable-email-domains (another one)](../r/amieiro~disposable-email-domains.md) | Disposable email domain lists, used in disposable email services, generated every quarter of an hour, in txt and JSON fo | 91 | +0 |
-| [disposable-email-domains (Verifly)](../r/james-sib~disposable-email-domains.md) | Daily-refreshed open dataset of disposable, role-based, and dead-MX email domains. Multiple formats (txt/json). Kept fre | 0 | +0 |
-| [email_data](../r/fnando~email_data.md) | This project is a compilation of datasets related to emails. Includes disposable emails, disposable domains, and free em | 33 | +0 |
+| [disposable-email-domains (another one too)](https://github.com/kslr/disposable-email-domains) | Anti-cheating, temporary (disposable/throwaway) email list | 30 | +0 |
+| [disposable-email-domains (another one)](https://github.com/amieiro/disposable-email-domains) | Disposable email domain lists, used in disposable email services, generated every quarter of an hour, in txt and JSON fo | 91 | +0 |
+| [disposable-email-domains (Verifly)](https://github.com/james-sib/disposable-email-domains) | Daily-refreshed open dataset of disposable, role-based, and dead-MX email domains. Multiple formats (txt/json). Kept fre | 0 | +0 |
+| [email_data](https://github.com/fnando/email_data) | This project is a compilation of datasets related to emails. Includes disposable emails, disposable domains, and free em | 33 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -103,19 +103,19 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Easy Email](../r/zalify~easy-email.md) | Easy Email Editor is a feature-rich, top open-source SaaS email editor based on React and MJML. | 3,016 | +41 |
-| [GrapesJS](../r/artf~grapesjs.md) | Free and Open source Web Builder Framework. Next generation tool for building templates without coding | 26,222 | +30 |
-| [maily.to](../r/arikchakma~maily.to.md) | Craft beautiful emails effortlessly with Maily, the powerful email editor that ensures impeccable communication across a | 3,962 | +19 |
+| [Easy Email](../r/zalify~easy-email.md) | Easy Email Editor is a feature-rich, top open-source SaaS email editor based on React and MJML. | 3,041 | +41 |
+| [GrapesJS](../r/artf~grapesjs.md) | Free and Open source Web Builder Framework. Next generation tool for building templates without coding | 26,239 | +30 |
+| [maily.to](../r/arikchakma~maily.to.md) | Craft beautiful emails effortlessly with Maily, the powerful email editor that ensures impeccable communication across a | 3,963 | +19 |
 | [Drag-and-Drop-Email-Designer](../r/sendwithses~drag-and-drop-email-designer.md) | Free, open source, HTML email template editor and no code designer. | 2,307 | +16 |
-| [email-builder-js](../r/usewaypoint~email-builder-js.md) | A free and open-source block-based email template builder. | 1,747 | +5 |
-| [React Email Editor](../r/unlayer~react-email-editor.md) | Drag-n-Drop Email Editor Component for React.js | 5,220 | +3 |
-| [emailmd](../r/unmta~emailmd.md) | Render markdown into email-safe HTML | 1,371 | +2 |
-| [MySigMail Card](../r/mysigmail~card.md) | An open source html email template builder with drag & drop editor | 425 | +2 |
-| [email-builder-wysiwyg](../r/stefanraath3~email-builder-wysiwyg.md) | A Resend Template-style WYSIWYG email editor with Notion-like editing that generates email-safe React Email templates. | 6 | +1 |
-| [LePatron](../r/badsender-com~lepatron.email.md) | LePatron is an opensource email builder allowing to industrialize your email template production. Build tailor made emai | 91 | +1 |
-| [mdx-to-email](../r/getvero~mdx-to-email.md) | Convert MDX files to HTML emails, fast! | 6 | +0 |
-| [Mosaico](../r/voidlabs~mosaico.md) | Mosaico - Responsive Email Template Editor | 1,781 | +0 |
-| [Paperbits emails](../r/paperbits~paperbits-emails.md) | This repository contains editors and generators for email templates. | 71 | +0 |
+| [email-builder-js](../r/usewaypoint~email-builder-js.md) | A free and open-source block-based email template builder. | 1,750 | +5 |
+| [React Email Editor](../r/unlayer~react-email-editor.md) | Drag-n-Drop Email Editor Component for React.js | 5,223 | +3 |
+| [emailmd](../r/unmta~emailmd.md) | Render markdown into email-safe HTML | 1,373 | +2 |
+| [MySigMail Card](../r/mysigmail~card.md) | An open source html email template builder with drag & drop editor | 429 | +2 |
+| [email-builder-wysiwyg](https://github.com/stefanraath3/email-builder-wysiwyg) | A Resend Template-style WYSIWYG email editor with Notion-like editing that generates email-safe React Email templates. | 6 | +1 |
+| [LePatron](https://github.com/Badsender-com/LePatron.email) | LePatron is an opensource email builder allowing to industrialize your email template production. Build tailor made emai | 91 | +1 |
+| [mdx-to-email](https://github.com/getvero/mdx-to-email) | Convert MDX files to HTML emails, fast! | 6 | +0 |
+| [Mosaico](https://github.com/voidlabs/mosaico) | Mosaico - Responsive Email Template Editor | 1,781 | +0 |
+| [Paperbits emails](https://github.com/paperbits/paperbits-emails) | This repository contains editors and generators for email templates. | 71 | +0 |
 | [Vue Email Editor](../r/unlayer~vue-email-editor.md) | Drag-n-Drop Email Editor Component for Vue.js | 665 | +0 |
 
 [Back to top](#awesome-opensource-email)
@@ -124,12 +124,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Maildev](../r/maildev~maildev.md) | 📫 SMTP Server + Web Interface for viewing and testing emails during development. | 6,050 | +33 |
-| [Inbucket](../r/inbucket~inbucket.md) | Disposable webmail server (similar to Mailinator) with built in SMTP, POP3, RESTful servers; no DB required. | 2,284 | +18 |
-| [Opentrashmail](../r/hascheksolutions~opentrashmail.md) | Open Source standalone trashmail solution that ships its own mail server | 960 | +3 |
+| [Maildev](../r/maildev~maildev.md) | 📫 SMTP Server + Web Interface for viewing and testing emails during development. | 6,062 | +33 |
+| [Inbucket](../r/inbucket~inbucket.md) | Disposable webmail server (similar to Mailinator) with built in SMTP, POP3, RESTful servers; no DB required. | 2,288 | +18 |
+| [Opentrashmail](https://github.com/HaschekSolutions/opentrashmail) | Open Source standalone trashmail solution that ships its own mail server | 960 | +3 |
 | [SMTP4dev](../r/rnwood~smtp4dev.md) | smtp4dev - the fake smtp email server for development and testing | 3,973 | +3 |
-| [Blackhole](../r/kura~blackhole.md) | Blackhole is an MTA written on top of asyncio, utilising async and await statements that dumps all mail it receives to / | 61 | +0 |
-| [TestMSG](../r/yaroslaff~testmsg.md) | Generate/send RFC-compliant e-mail messages. DKIM signed (optionally). Can send over SSL/TLS with authentication. Gmail. | 8 | +0 |
+| [Blackhole](https://github.com/kura/blackhole) | Blackhole is an MTA written on top of asyncio, utilising async and await statements that dumps all mail it receives to / | 61 | +0 |
+| [TestMSG](https://github.com/yaroslaff/testmsg) | Generate/send RFC-compliant e-mail messages. DKIM signed (optionally). Can send over SSL/TLS with authentication. Gmail. | 8 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -137,15 +137,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Email-Verifier](../r/aftership~email-verifier.md) | ✅ A Go library for email verification without sending any emails. | 1,618 | +7 |
-| [python-email-validator](../r/joshdata~python-email-validator.md) | A robust email syntax and deliverability validation library for Python. | 1,446 | +7 |
-| [Mailchecker](../r/fgribreau~mailchecker.md) | 📫 Cross-language temporary (disposable/throwaway) email detection library. Covers 55 734+ fake email providers. | 1,907 | +4 |
-| [EmailValidator](../r/egulias~emailvalidator.md) | PHP Email address validator | 11,641 | +3 |
-| [CustomerOS MailSherpa](../r/customeros~mailsherpa.md) | CLI to verify an if an email address is deliverable.  Uses SMTP to validate email addresses without sending an email. | 26 | +1 |
+| [Email-Verifier](../r/aftership~email-verifier.md) | ✅ A Go library for email verification without sending any emails. | 1,619 | +7 |
+| [python-email-validator](../r/joshdata~python-email-validator.md) | A robust email syntax and deliverability validation library for Python. | 1,447 | +7 |
+| [Mailchecker](../r/fgribreau~mailchecker.md) | 📫 Cross-language temporary (disposable/throwaway) email detection library. Covers 55 734+ fake email providers. | 1,906 | +4 |
+| [EmailValidator](https://github.com/egulias/EmailValidator) | PHP Email address validator | 11,641 | +3 |
+| [CustomerOS MailSherpa](https://github.com/customeros/mailsherpa) | CLI to verify an if an email address is deliverable.  Uses SMTP to validate email addresses without sending an email. | 26 | +1 |
 | [email-validator-js](../r/devmehq~email-validator-js.md) | Verify email address checking MX records, and SMTP connection, check for disposable email addresses and free email provi | 107 | +0 |
-| [Selfsend - email-sanitizer-api](../r/selfsend~email-sanitizer-api.md) | A high-performance and secure REST/GraphQL API built with Rust, MongoDB & Redis for cleaning email subscriber lists. Mai | 6 | +0 |
-| [Truemail](../r/truemail-rb~truemail.md) | 🚀 Configurable framework agnostic plain Ruby 📨 email validator/verifier. Verify email via Regex, DNS, SMTP and even mo | 1,276 | +0 |
-| [validate-email](../r/centminmod~validate-emails.md) | Self-hosted email verification script to clean up bad invalid email address lists. Supports various commercial email ver | 96 | +0 |
+| [Selfsend - email-sanitizer-api](https://github.com/SelfSend/email-sanitizer-api) | A high-performance and secure REST/GraphQL API built with Rust, MongoDB & Redis for cleaning email subscriber lists. Mai | 6 | +0 |
+| [Truemail](https://github.com/truemail-rb/truemail) | 🚀 Configurable framework agnostic plain Ruby 📨 email validator/verifier. Verify email via Regex, DNS, SMTP and even mo | 1,277 | +0 |
+| [validate-email](https://github.com/centminmod/validate-emails) | Self-hosted email verification script to clean up bad invalid email address lists. Supports various commercial email ver | 96 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -153,7 +153,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Anonaddy](../r/anonaddy~anonaddy.md) | Anonymous email forwarding | 4,840 | +9 |
+| [Anonaddy](../r/anonaddy~anonaddy.md) | Anonymous email forwarding | 4,847 | +9 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -161,8 +161,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MJML](../r/mjmlio~mjml.md) | MJML: the only framework that makes responsive email easy | 18,235 | +10 |
-| [Maizzle](../r/maizzle~framework.md) | The modern email development framework. | 1,609 | +3 |
+| [MJML](../r/mjmlio~mjml.md) | MJML: the only framework that makes responsive email easy | 18,243 | +10 |
+| [Maizzle](../r/maizzle~framework.md) | The modern email development framework. | 1,611 | +3 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -170,9 +170,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Tutanota](../r/tutao~tutanota.md) | Tuta is an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar | 7,915 | +16 |
-| [Cypht](../r/cypht-org~cypht.md) | Cypht: Lightweight Open Source webmail aggregator [PHP, JS].  Supports IMAP/SMTP, JMAP and EWS (Exchange Web Services) | 1,726 | +12 |
-| [Roundcube](../r/roundcube~roundcubemail.md) | The Roundcube Webmail suite | 7,172 | +4 |
+| [Tutanota](../r/tutao~tutanota.md) | Tuta is an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar | 7,919 | +16 |
+| [Cypht](../r/cypht-org~cypht.md) | Cypht: Lightweight Open Source webmail aggregator [PHP, JS].  Supports IMAP/SMTP, JMAP and EWS (Exchange Web Services) | 1,725 | +12 |
+| [Roundcube](../r/roundcube~roundcubemail.md) | The Roundcube Webmail suite | 7,175 | +4 |
 | [Egroupware](../r/egroupware~egroupware.md) | Web based groupware server written in PHP, forum at https://help.egroupware.org/ | 296 | +0 |
 
 [Back to top](#awesome-opensource-email)
@@ -183,7 +183,7 @@
 |------|-------------|-------|----|
 | [Dovecot](../r/dovecot~core.md) | Dovecot mail server | 1,251 | +5 |
 | [Cyrus](../r/cyrusimap~cyrus-imapd.md) | Cyrus IMAP is an email, contacts and calendar server | 647 | +1 |
-| [James](../r/apache~james-project.md) | Emails at the heart of your business logic! | 1,042 | +1 |
+| [James](../r/apache~james-project.md) | Emails at the heart of your business logic! | 1,043 | +1 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -192,8 +192,8 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [Libratom](../r/libratom~libratom.md) | Python library and supporting utilities to parse and process PST and mbox email sources | 129 | +1 |
-| [Inbound SMTP to Webhook](../r/sendbetter~inbound-email.md) | SMTP server to receive emails, parse content (including headers), store attachments in Amazon S3, and forward email cont | 77 | +0 |
-| [Mail-Parser](../r/spamscope~mail-parser.md) | A tool that parses emails by enhancing the Python standard library, extracting all details into a comprehensive object. | 455 | +0 |
+| [Inbound SMTP to Webhook](https://github.com/sendbetter/inbound-email) | SMTP server to receive emails, parse content (including headers), store attachments in Amazon S3, and forward email cont | 77 | +0 |
+| [Mail-Parser](../r/spamscope~mail-parser.md) | A tool that parses emails by enhancing the Python standard library, extracting all details into a comprehensive object. | 456 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -201,9 +201,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [JMAP](../r/jmapio~jmap.md) | JSON Meta Application Protocol Specification (JMAP) | 1,372 | +3 |
-| [James](../r/apache~james-project.md) | Emails at the heart of your business logic! | 1,042 | +1 |
-| [Gomap](../r/cwinters8~gomap.md) | Go module for interfacing with JMAP servers | 4 | +0 |
+| [JMAP](../r/jmapio~jmap.md) | JSON Meta Application Protocol Specification (JMAP) | 1,373 | +3 |
+| [James](../r/apache~james-project.md) | Emails at the heart of your business logic! | 1,043 | +1 |
+| [Gomap](https://github.com/cwinters8/gomap) | Go module for interfacing with JMAP servers | 4 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -211,18 +211,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [go-mail](../r/wneessen~go-mail.md) | 📧 Easy to use, yet comprehensive library for sending mails with Go | 1,485 | +3 |
-| [lettre](../r/lettre~lettre.md) | a mailer library for Rust | 2,259 | +3 |
-| [MailKit](../r/jstedfast~mailkit.md) | A cross-platform .NET library for IMAP, POP3, and SMTP. | 6,859 | +3 |
-| [go-smtp](../r/emersion~go-smtp.md) | 📤 An SMTP library for Go clients and servers | 2,047 | +1 |
-| [PHPMailer](../r/phpmailer~phpmailer.md) | The classic email sending library for PHP | 22,300 | +1 |
+| [go-mail](../r/wneessen~go-mail.md) | 📧 Easy to use, yet comprehensive library for sending mails with Go | 1,486 | +3 |
+| [lettre](../r/lettre~lettre.md) | a mailer library for Rust | 2,260 | +3 |
+| [MailKit](../r/jstedfast~mailkit.md) | A cross-platform .NET library for IMAP, POP3, and SMTP. | 6,860 | +3 |
+| [go-smtp](../r/emersion~go-smtp.md) | 📤 An SMTP library for Go clients and servers | 2,049 | +1 |
+| [PHPMailer](../r/phpmailer~phpmailer.md) | The classic email sending library for PHP | 22,298 | +1 |
 | [Swoosh](../r/swoosh~swoosh.md) | Compose, deliver and test your emails easily in Elixir | 1,526 | +1 |
-| [ballerina-email](../r/ballerina-platform~module-ballerina-email.md) | Ballerina module to send and receive emails | 115 | +0 |
-| [go-msgauth](../r/emersion~go-msgauth.md) | 🔏 A Go library and tools for DKIM, DMARC and Authentication-Results | 228 | +0 |
+| [ballerina-email](../r/ballerina-platform~module-ballerina-email.md) | Ballerina module to send and receive emails | 114 | +0 |
+| [go-msgauth](https://github.com/emersion/go-msgauth) | 🔏 A Go library and tools for DKIM, DMARC and Authentication-Results | 228 | +0 |
 | [Nette Mail](../r/nette~mail.md) | A handy library for creating and sending emails in PHP | 494 | +0 |
 | [Play-Mailer](../r/playframework~play-mailer.md) | Play mailer plugin | 252 | +0 |
-| [Stampie](../r/stampie~stampie.md) | Library for using online Email providers | 294 | +0 |
-| [Anymail](../r/anymail~django-anymail.md) | Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Rese | 1,899 | -1 |
+| [Stampie](https://github.com/Stampie/Stampie) | Library for using online Email providers | 294 | +0 |
+| [Anymail](../r/anymail~django-anymail.md) | Django email backends and webhooks for Amazon SES, Brevo, MailerSend, Mailgun, Mailjet, Mailtrap, Postmark, Postal, Rese | 1,898 | -1 |
 | [mailparse](../r/staktrace~mailparse.md) | Rust library to parse mail files | 226 | -1 |
 | [MimeKit](../r/jstedfast~mimekit.md) | A .NET MIME creation and parser library with support for S/MIME, PGP, DKIM, TNEF and Unix mbox spools. | 2,001 | -1 |
 
@@ -232,9 +232,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Mautic](../r/mautic~mautic.md) | Mautic: Open Source Marketing Automation Software. | 10,496 | +21 |
-| [Plunk](../r/useplunk~plunk.md) | The Open-Source Email Platform | 5,461 | +18 |
-| [Sendportal](../r/mettle~sendportal.md) | Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost.  | 2,172 | +0 |
+| [Mautic](../r/mautic~mautic.md) | Mautic: Open Source Marketing Automation Software. | 10,513 | +21 |
+| [Plunk](../r/useplunk~plunk.md) | The Open-Source Email Platform | 5,470 | +18 |
+| [Sendportal](https://github.com/mettle/sendportal) | Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost.  | 2,173 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -242,13 +242,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Listmonk](../r/knadh~listmonk.md) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | 23,396 | +137 |
-| [Notifuse](../r/notifuse~notifuse.md) | Open-source, self-hosted newsletter, email marketing and transactional email platform. Visual MJML editor, Liquid templa | 2,191 | +28 |
-| [Keila](../r/pentacent~keila.md) | Open Source Newsletter Tool. | 2,209 | +4 |
+| [Listmonk](../r/knadh~listmonk.md) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | 23,443 | +137 |
+| [Notifuse](../r/notifuse~notifuse.md) | Open-source, self-hosted newsletter, email marketing and transactional email platform. Visual MJML editor, Liquid templa | 2,201 | +28 |
+| [Keila](../r/pentacent~keila.md) | Open Source Newsletter Tool. | 2,210 | +4 |
 | [Mailtrain](../r/mailtrain-org~mailtrain.md) | Self hosted newsletter app | 5,751 | +3 |
 | [MailCarrier](../r/mailcarrierapp~mailcarrier.md) | Mailing platform with templates and logs included. | 165 | +0 |
-| [phplist3](../r/phplist~phplist3.md) | Fully functional Open Source email marketing manager for creating, sending, integrating, and analysing email campaigns a | 870 | +0 |
-| [RSS2Newsletter](../r/elliotkillick~rss2newsletter.md) | Convert RSS/Atom feed to email newsletters | 280 | +0 |
+| [phplist3](../r/phplist~phplist3.md) | Fully functional Open Source email marketing manager for creating, sending, integrating, and analysing email campaigns a | 871 | +0 |
+| [RSS2Newsletter](https://github.com/ElliotKillick/rss2newsletter) | Convert RSS/Atom feed to email newsletters | 280 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -256,14 +256,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Imapsync](../r/imapsync~imapsync.md) | Imapsync is an IMAP transfers tool. The purpose of imapsync is to migrate IMAP accounts or to backup IMAP accounts. IMAP | 4,149 | +5 |
-| [Emailens Engine](../r/emailens~engine.md) | The rendering linter for email, in your terminal and CI. HTML, react.email, mjml and maizzle checked against 255 CSS and | 13 | +1 |
-| [Vue-Email](../r/vue-email~vue-email.md) | 💌 Write email templates with vue | 1,088 | +1 |
-| [Can I email](../r/hteumeuleu~caniemail.md) | Can I email… Support tables for HTML and CSS in emails. | 942 | +0 |
-| [Email-Expiration-Manager](../r/mindbaz~email-expiration-manager.md) | Thunderbird extension for managing emails with expiration dates | 7 | +0 |
-| [HowToTarget.email](../r/customerio~howtotarget.md) | Email development techniques for singling out email clients and platforms. | 54 | +0 |
-| [MailFathom](../r/krzysztof318~mailfathom.md) | A brain for your mail: MailFathom turns IMAP mailboxes into a self-hosted, AI-native service. Mail synchronizes into you | 14 |  |
-| [Premail](../r/peterbe~premailer.md) | Turns CSS blocks into style attributes | 1,082 | -1 |
+| [Imapsync](../r/imapsync~imapsync.md) | Imapsync is an IMAP transfers tool. The purpose of imapsync is to migrate IMAP accounts or to backup IMAP accounts. IMAP | 4,152 | +5 |
+| [Emailens Engine](https://github.com/emailens/engine) | The rendering linter for email, in your terminal and CI. HTML, react.email, mjml and maizzle checked against 255 CSS and | 13 | +1 |
+| [Vue-Email](../r/vue-email~vue-email.md) | 💌 Write email templates with vue | 1,087 | +1 |
+| [Can I email](../r/hteumeuleu~caniemail.md) | Can I email… Support tables for HTML and CSS in emails. | 943 | +0 |
+| [Email-Expiration-Manager](https://github.com/Mindbaz/Email-Expiration-Manager) | Thunderbird extension for managing emails with expiration dates | 7 | +0 |
+| [HowToTarget.email](https://github.com/customerio/howtotarget) | Email development techniques for singling out email clients and platforms. | 54 | +0 |
+| [MailFathom](https://github.com/Krzysztof318/MailFathom) | A brain for your mail: MailFathom turns IMAP mailboxes into a self-hosted, AI-native service. Mail synchronizes into you | 14 |  |
+| [Premail](https://github.com/peterbe/premailer) | Turns CSS blocks into style attributes | 1,082 | -1 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -271,7 +271,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SimpleLogin](../r/simple-login~app.md) | The SimpleLogin back-end and web app | 6,983 | +23 |
+| [SimpleLogin](../r/simple-login~app.md) | The SimpleLogin back-end and web app | 6,989 | +23 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -279,8 +279,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Google Postmaster Datas](../r/mindbaz~python-gpostmaster-domains-datas.md) | Downloads and flattends data from Google Postmaster Tools (GPT) | 16 | +0 |
-| [Python Hetrixtools Blacklist](../r/mindbaz~python-hetrixtools-blacklist.md) | Tool to retrieve @hetrixtools data from their API and store them in flat file or in a database | 6 | +0 |
+| [Google Postmaster Datas](https://github.com/Mindbaz/python-gpostmaster-domains-datas) | Downloads and flattends data from Google Postmaster Tools (GPT) | 16 | +0 |
+| [Python Hetrixtools Blacklist](https://github.com/Mindbaz/python-hetrixtools-blacklist) | Tool to retrieve @hetrixtools data from their API and store them in flat file or in a database | 6 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -288,16 +288,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Postal](../r/postalserver~postal.md) | 📮 A fully featured open source mail delivery platform for incoming & outgoing e-mail | 16,806 | +24 |
-| [Maddy](../r/foxcpp~maddy.md) | ✉️ Composable all-in-one mail server. | 6,086 | +7 |
-| [KumoMTA](../r/kumocorp~kumomta.md) | The first Open-Source  high-performance MTA developed from the ground-up for high-volume email sending environments. | 532 | +4 |
-| [James](../r/apache~james-project.md) | Emails at the heart of your business logic! | 1,042 | +1 |
+| [Postal](../r/postalserver~postal.md) | 📮 A fully featured open source mail delivery platform for incoming & outgoing e-mail | 16,812 | +24 |
+| [Maddy](../r/foxcpp~maddy.md) | ✉️ Composable all-in-one mail server. | 6,089 | +7 |
+| [KumoMTA](../r/kumocorp~kumomta.md) | The first Open-Source  high-performance MTA developed from the ground-up for high-volume email sending environments. | 536 | +4 |
+| [James](../r/apache~james-project.md) | Emails at the heart of your business logic! | 1,043 | +1 |
 | [Zone-MTA](../r/zone-eu~zone-mta.md) | 📤 Modern outbound MTA cross platform and extendable server application | 671 | +1 |
 | [Chasquid](../r/albertito~chasquid.md) | SMTP (email) server with a focus on simplicity, security, and ease of operation [mirror] | 978 | +0 |
-| [Cuttlefish](../r/mlandauer~cuttlefish.md) | Transactional email server with a lovely web interface | 1,622 | +0 |
+| [Cuttlefish](https://github.com/mlandauer/cuttlefish) | Transactional email server with a lovely web interface | 1,623 | +0 |
 | [DragonFly](../r/corecode~dma.md) | The DragonFly Mail Agent, a small Mail Transport Agent (MTA), designed for home and office use. | 265 | +0 |
-| [MailWhale](../r/muety~mailwhale.md) | 🐳 A bring-your-own-SMTP-server mail relay with REST API and web UI | 372 | +0 |
-| [SMTPRelay](../r/decke~smtprelay.md) | Simple Golang SMTP relay/proxy server | 634 | -1 |
+| [MailWhale](https://github.com/muety/mailwhale) | 🐳 A bring-your-own-SMTP-server mail relay with REST API and web UI | 372 | +0 |
+| [SMTPRelay](../r/decke~smtprelay.md) | Simple Golang SMTP relay/proxy server | 633 | -1 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -305,11 +305,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MailPit](../r/axllent~mailpit.md) | An email and SMTP testing tool with API for developers | 10,353 | +61 |
-| [MailHog](../r/mailhog~mailhog.md) | Web and API based SMTP testing | 16,150 | +13 |
-| [MailCrab](../r/tweedegolf~mailcrab.md) | Email test server for development, written in Rust | 995 | +4 |
-| [MailKite Server](../r/mailkite~server.md) | Open-source programmable mail server for apps and AI agents — Haraka SMTP (MX + submission) + IMAP, one small backend co | 2 |  |
-| [Robin](../r/mimecast~robin.md) | Debug and development tool for MTA architects! Robin is a highly configurable SMTP client for testing and debugging SMTP | 18 | +0 |
+| [MailPit](../r/axllent~mailpit.md) | An email and SMTP testing tool with API for developers | 10,372 | +61 |
+| [MailHog](https://github.com/mailhog/MailHog) | Web and API based SMTP testing | 16,155 | +13 |
+| [MailCrab](../r/tweedegolf~mailcrab.md) | Email test server for development, written in Rust | 996 | +4 |
+| [MailKite Server](https://github.com/mailkite/server) | Open-source programmable mail server for apps and AI agents — Haraka SMTP (MX + submission) + IMAP, one small backend co | 2 |  |
+| [Robin](https://github.com/mimecast/robin) | Debug and development tool for MTA architects! Robin is a highly configurable SMTP client for testing and debugging SMTP | 18 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -317,10 +317,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Rspamd](../r/rspamd~rspamd.md) | Rapid spam filtering system. | 2,523 | +2 |
-| [AgentJ](../r/probesys~agentj.md) | Libre antispam system with human authentication. | 33 | +0 |
-| [Guardian](../r/mailuminati~guardian.md) | Fast and privacy-preserving email threat detection with shared intelligence. | 18 | +0 |
-| [Spamscope](../r/spamscope~spamscope.md) | Fast Advanced Spam Analysis Tool | 311 | +0 |
+| [Rspamd](../r/rspamd~rspamd.md) | Rapid spam filtering system. | 2,525 | +2 |
+| [AgentJ](https://github.com/Probesys/agentj) | Libre antispam system with human authentication. | 33 | +0 |
+| [Guardian](https://github.com/Mailuminati/Guardian) | Fast and privacy-preserving email threat detection with shared intelligence. | 18 | +0 |
+| [Spamscope](https://github.com/SpamScope/spamscope) | Fast Advanced Spam Analysis Tool | 311 | +0 |
 
 [Back to top](#awesome-opensource-email)
 
@@ -330,10 +330,10 @@
 |------|-------------|-------|----|
 | [Domain Security Scanner](../r/globalcyberalliance~domain-security-scanner.md) | Scan domains and receive advice based on their BIMI, DKIM, DMARC, and SPF records | 180 | +1 |
 | [mxcheck](../r/steffenfritz~mxcheck.md) | mxcheck is an info and security scanner for e-mail servers. | 146 | +1 |
-| [E-Mail Header Analyzer](../r/cyberdefenders~email-header-analyzer.md) | E-Mail Header Analyzer | 698 | +0 |
+| [E-Mail Header Analyzer](https://github.com/cyberdefenders/email-header-analyzer) | E-Mail Header Analyzer | 698 | +0 |
 | [Mailgoose](../r/cert-polska~mailgoose.md) | A web application that allows the users to check whether their SPF, DMARC and DKIM configuration is set up correctly. | 208 | +0 |
-| [mailsec-check](../r/foxcpp~mailsec-check.md) | Another utility to analyze state of deployment of security-related email protocols. | 68 | +0 |
-| [Spamhaus-Intelligence-API-CLI](../r/mindbaz~spamhaus-intelligence-api-cli.md) | CLI to query Spamhaus Intelligence API | 2 | +0 |
+| [mailsec-check](https://github.com/foxcpp/mailsec-check) | Another utility to analyze state of deployment of security-related email protocols. | 68 | +0 |
+| [Spamhaus-Intelligence-API-CLI](https://github.com/Mindbaz/Spamhaus-Intelligence-API-CLI) | CLI to query Spamhaus Intelligence API | 2 | +0 |
 | [Trustymail](../r/cisagov~trustymail.md) | Scan domains and return data based on trustworthy email best practices | 224 | +0 |
 
 [Back to top](#awesome-opensource-email)
@@ -342,13 +342,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Hermes](../r/matcornic~hermes.md) | Golang package that generates clean, responsive HTML e-mails for sending transactional mail | 3,030 | +4 |
-| [Cerberus](../r/tedgoas~cerberus.md) | A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail. | 5,134 | +0 |
-| [Inky](../r/foundation~inky.md) | An email framework that converts simple HTML into responsive email-ready HTML. | 704 | +0 |
-| [Maud](../r/lambda-fairy~maud.md) | 📝 Compile-time HTML templates for Rust | 2,633 | +0 |
-| [Foundation for Emails 2](../r/foundation~foundation-emails.md) | Quickly create responsive HTML emails that work on any device and client. Even Outlook. | 7,792 | -1 |
+| [Hermes](https://github.com/matcornic/hermes) | Golang package that generates clean, responsive HTML e-mails for sending transactional mail | 3,030 | +4 |
+| [Cerberus](../r/tedgoas~cerberus.md) | Simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail. | 5,136 | +0 |
+| [Inky](../r/foundation~inky.md) | An email framework that converts simple HTML into responsive email-ready HTML. | 705 | +0 |
+| [Maud](../r/lambda-fairy~maud.md) | 📝 Compile-time HTML templates for Rust | 2,634 | +0 |
+| [Foundation for Emails 2](../r/foundation~foundation-emails.md) | Quickly create responsive HTML emails that work on any device and client. Even Outlook. | 7,794 | -1 |
 
 [Back to top](#awesome-opensource-email)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/l/opensource-email/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/l/opensource-email/)*

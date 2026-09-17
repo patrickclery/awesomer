@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,176 | +53 | +263 | +850 | 2026-09-03 |
+| 61,203 | +53 | +267 | +854 | 2026-09-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/solido~awesome-flutter/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/solido~awesome-flutter/)*

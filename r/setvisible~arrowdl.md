@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 849 | +1 | +5 | +9 | 2026-05-04 |
+| 850 | +1 | +7 | +10 | 2026-05-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/setvisible~arrowdl/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/setvisible~arrowdl/)*

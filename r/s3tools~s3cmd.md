@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,908 | +5 | +9 | +18 | 2025-10-22 |
+| 4,908 | +5 | +7 | +16 | 2025-10-22 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/s3tools~s3cmd/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/s3tools~s3cmd/)*

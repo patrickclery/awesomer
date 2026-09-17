@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 56,694 | +427 | +1,775 | +6,690 | 2026-09-13 |
+| 56,867 | +427 | +1,846 | +6,512 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/twentyhq~twenty/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/twentyhq~twenty/)*

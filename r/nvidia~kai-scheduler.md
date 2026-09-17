@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,508 | +15 | +58 | +184 | 2026-09-10 |
+| 1,520 | +15 | +68 | +192 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia~kai-scheduler/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia~kai-scheduler/)*

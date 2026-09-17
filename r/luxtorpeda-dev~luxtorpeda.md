@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 960 | +0 | +0 | +1 | 2026-05-26 |
+| 960 | +0 | +0 | +0 | 2026-05-26 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/luxtorpeda-dev~luxtorpeda/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/luxtorpeda-dev~luxtorpeda/)*

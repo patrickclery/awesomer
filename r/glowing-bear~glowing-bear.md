@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 978 | +1 | +2 | +6 | 2026-08-06 |
+| 978 | +1 | +2 | +5 | 2026-08-06 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - IRC
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/glowing-bear~glowing-bear/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/glowing-bear~glowing-bear/)*

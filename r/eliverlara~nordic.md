@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,732 | +9 | +15 | +43 | 2026-07-23 |
+| 2,733 | +9 | +16 | +44 | 2026-07-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eliverlara~nordic/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eliverlara~nordic/)*

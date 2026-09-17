@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,128 | +3 | +14 | +34 | 2026-07-14 |
+| 1,129 | +3 | +12 | +35 | 2026-07-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Color
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/catgoose~nvim-colorizer.lua/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/catgoose~nvim-colorizer.lua/)*

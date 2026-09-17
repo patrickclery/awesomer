@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,301 | +51 | +213 | +2,229 | 2026-09-12 |
+| 12,315 | +51 | +208 | +2,145 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Document Conversion & Preprocessing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~liteparse/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~liteparse/)*

@@ -1,6 +1,6 @@
 # spree/spree
 
-> Open Source eCommerce Platform for B2B, Marketplace, and Enterprise. REST API, TypeScript SDK, and production-ready Next
+> Open Source Platform for DTC, B2B Commerce, Marketplaces & Omnichannel. REST APIs, TypeScript SDKs, and production-ready
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/spree/spree) | [Live site ↗](https://patrickclery.com/awesomer/r/spree~spree/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,694 | +18 | +73 | +215 | 2026-09-12 |
+| 15,695 | +18 | +71 | +203 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spree~spree/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/spree~spree/)*

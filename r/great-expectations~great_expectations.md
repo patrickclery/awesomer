@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,785 | +18 | +74 | +229 | 2026-09-11 |
+| 11,796 | +18 | +83 | +220 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-quality Open Datasets & Data Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/great-expectations~great_expectations/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/great-expectations~great_expectations/)*

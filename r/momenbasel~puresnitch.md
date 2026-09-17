@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114 | +10 | +37 | +87 | 2026-08-30 |
+| 118 | +10 | +37 | +88 | 2026-08-30 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Security Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/momenbasel~puresnitch/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/momenbasel~puresnitch/)*

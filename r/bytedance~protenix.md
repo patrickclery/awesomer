@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,053 | +12 | +34 | +105 | 2026-08-01 |
+| 2,055 | +12 | +34 | +101 | 2026-08-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Scientific AI & Drug Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bytedance~protenix/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bytedance~protenix/)*

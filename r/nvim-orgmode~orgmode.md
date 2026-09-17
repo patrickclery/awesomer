@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,877 | +5 | +18 | +92 | 2026-09-13 |
+| 3,880 | +5 | +18 | +95 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Note Taking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-orgmode~orgmode/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-orgmode~orgmode/)*

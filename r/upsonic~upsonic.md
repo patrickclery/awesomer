@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,953 | +4 | +15 | +68 | 2026-06-18 |
+| 7,955 | +4 | +14 | +68 | 2026-06-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/upsonic~upsonic/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/upsonic~upsonic/)*

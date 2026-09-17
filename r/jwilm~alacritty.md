@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 65,708 | +82 | +344 | +1,131 | 2026-08-31 |
+| 65,736 | +82 | +338 | +1,128 | 2026-08-31 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jwilm~alacritty/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jwilm~alacritty/)*

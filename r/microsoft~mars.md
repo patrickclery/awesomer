@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,783 | -1 | +7 | +50 | 2026-08-31 |
+| 1,784 | -1 | +9 | +49 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / LLMs
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~mars/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~mars/)*

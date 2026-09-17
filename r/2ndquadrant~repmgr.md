@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,711 | +0 | +4 | +10 | 2026-03-28 |
+| 1,712 | +0 | +5 | +10 | 2026-03-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/2ndquadrant~repmgr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/2ndquadrant~repmgr/)*

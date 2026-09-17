@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 230 | +0 | +0 | +3 | 2026-07-09 |
+| 231 | +0 | +0 | +4 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~medio/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~medio/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,585 | -2 | +7 | +33 | 2026-09-13 |
+| 13,587 | -2 | +7 | +39 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Logging
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fluent~fluentd/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fluent~fluentd/)*

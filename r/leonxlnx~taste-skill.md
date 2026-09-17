@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 86,800 | +2,719 | +10,373 | +42,647 | 2026-08-24 |
+| 87,557 | +2,719 | +10,307 | +41,912 | 2026-08-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/leonxlnx~taste-skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/leonxlnx~taste-skill/)*

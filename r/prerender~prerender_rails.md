@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 358 | +0 | +0 | +1 | 2026-06-09 |
+| 358 | +0 | +0 | +0 | 2026-06-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / SEO
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/prerender~prerender_rails/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prerender~prerender_rails/)*

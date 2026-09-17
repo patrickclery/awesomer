@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,578 | +23 | +111 | +379 | 2026-08-28 |
+| 10,592 | +23 | +114 | +385 | 2026-08-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Image Generation & Editing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/acly~krita-ai-diffusion/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/acly~krita-ai-diffusion/)*

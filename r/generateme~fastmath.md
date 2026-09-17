@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 287 | +1 | +1 | +7 | 2026-09-11 |
+| 287 | +1 | +1 | +7 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/generateme~fastmath/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/generateme~fastmath/)*

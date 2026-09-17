@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,885 | +0 | -3 | -3 | 2026-08-15 |
+| 3,886 | +0 | -1 | -2 | 2026-08-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Date and Time Processing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~groupdate/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~groupdate/)*

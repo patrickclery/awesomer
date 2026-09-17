@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,045 | +114 | +434 |  | 2026-09-10 |
+| 18,080 | +114 | +441 |  | 2026-09-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gastownhall~gastown/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gastownhall~gastown/)*

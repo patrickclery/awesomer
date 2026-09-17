@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 276 | +1 | +5 | +12 | 2026-08-08 |
+| 276 | +1 | +5 | +11 | 2026-08-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Shell Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/slavaganzin~await/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/slavaganzin~await/)*

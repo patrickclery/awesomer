@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,215 | +25 | +80 | +279 | 2026-09-13 |
+| 2,224 | +25 | +81 | +278 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Beyond *arr
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nezreka~soulsync/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nezreka~soulsync/)*

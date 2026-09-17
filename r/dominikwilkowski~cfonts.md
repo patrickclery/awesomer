@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,894 | +2 | +11 | +24 | 2026-09-13 |
+| 1,895 | +2 | +11 | +22 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dominikwilkowski~cfonts/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dominikwilkowski~cfonts/)*

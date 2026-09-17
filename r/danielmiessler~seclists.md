@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 73,481 | +153 | +645 | +1,903 | 2026-09-13 |
+| 73,550 | +153 | +661 | +1,925 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Related Awesome Lists
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/danielmiessler~seclists/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/danielmiessler~seclists/)*

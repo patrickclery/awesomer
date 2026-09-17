@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,871 | +1 | +4 | +9 | 2026-08-14 |
+| 1,871 | +1 | +3 | +9 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / System Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tanrax~maza-ad-blocking/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tanrax~maza-ad-blocking/)*

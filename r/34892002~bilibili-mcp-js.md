@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 192 | +3 | +3 | +20 | 2026-03-30 |
+| 192 | +3 | +3 | +18 | 2026-03-30 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/34892002~bilibili-mcp-js/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/34892002~bilibili-mcp-js/)*

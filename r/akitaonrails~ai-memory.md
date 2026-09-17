@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,662 |  |  |  | 2026-09-12 |
+| 6,970 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/akitaonrails~ai-memory/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/akitaonrails~ai-memory/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,858 | +182 | +863 | +2,271 | 2026-08-03 |
+| 11,908 | +182 | +793 | +2,196 | 2026-08-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/0x4m4~hexstrike-ai/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/0x4m4~hexstrike-ai/)*

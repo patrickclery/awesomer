@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,767 | -1 | -5 | -1 | 2025-11-05 |
+| 6,767 | -1 | -4 | -1 | 2025-11-05 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stackexchange~blackbox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stackexchange~blackbox/)*

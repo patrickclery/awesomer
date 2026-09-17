@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,275 | +5 | +20 | +77 | 2026-09-11 |
+| 2,278 | +5 | +22 | +78 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/murmele~gittyup/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/murmele~gittyup/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,657 | +14 | +53 | +240 | 2026-06-22 |
+| 2,667 | +14 | +58 | +239 | 2026-06-22 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/metatool-ai~metatool-app/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/metatool-ai~metatool-app/)*

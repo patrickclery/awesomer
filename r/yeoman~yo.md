@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,964 | +0 | -1 | +6 | 2026-08-01 |
+| 3,964 | +0 | +0 | +5 | 2026-08-01 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yeoman~yo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yeoman~yo/)*

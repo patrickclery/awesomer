@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,482 | +187 | +867 | +2,672 | 2026-09-13 |
+| 26,568 | +187 | +852 | +2,659 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/4ian~gdevelop/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/4ian~gdevelop/)*

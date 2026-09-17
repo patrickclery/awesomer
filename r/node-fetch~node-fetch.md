@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,855 | +0 | +0 | -2 | 2026-05-12 |
+| 8,855 | +0 | +0 | -3 | 2026-05-12 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/node-fetch~node-fetch/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/node-fetch~node-fetch/)*

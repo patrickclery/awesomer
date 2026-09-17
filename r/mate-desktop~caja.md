@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 317 | -1 | +0 | +3 | 2026-09-03 |
+| 317 | -1 | -1 | +3 | 2026-09-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / File Manager
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mate-desktop~caja/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mate-desktop~caja/)*

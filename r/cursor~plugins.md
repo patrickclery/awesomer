@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,597 | +1,984 | +4,884 |  | 2026-09-13 |
+| 7,969 | +1,984 | +4,893 | +5,953 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cursor~plugins/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cursor~plugins/)*

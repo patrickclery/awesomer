@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,580 | +101 | +362 | +1,052 | 2026-09-13 |
+| 14,617 | +101 | +377 | +1,041 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Translation Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tisfeng~easydict/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tisfeng~easydict/)*

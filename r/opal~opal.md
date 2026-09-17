@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,927 | -1 | +0 | +3 | 2026-09-13 |
+| 4,927 | -1 | +0 | +5 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Implementations/Compilers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/opal~opal/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/opal~opal/)*

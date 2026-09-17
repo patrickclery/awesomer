@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,391 | +19 | +46 | +361 | 2026-09-13 |
+| 31,393 | +19 | +43 | +356 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/webtorrent~webtorrent/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/webtorrent~webtorrent/)*

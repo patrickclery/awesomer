@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 289 | +0 | +13 | +15 | 2026-08-11 |
+| 289 | +0 | +14 | +16 | 2026-08-11 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Telegram
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hamodywe~telegram-scraper-telegraphite/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hamodywe~telegram-scraper-telegraphite/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 929 | +0 | -1 | +3 | 2026-03-22 |
+| 929 | +0 | +0 | +3 | 2026-03-22 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~get-port/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~get-port/)*

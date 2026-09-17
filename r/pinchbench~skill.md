@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,344 | +5 | +27 | +113 | 2026-07-02 |
+| 1,347 | +5 | +30 | +107 | 2026-07-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Benchmark Suites
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pinchbench~skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pinchbench~skill/)*

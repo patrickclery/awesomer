@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Directory Navigation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jintin~aliasme/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jintin~aliasme/)*

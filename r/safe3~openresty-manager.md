@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,452 | +1 | +10 | +38 | 2026-08-19 |
+| 1,453 | +1 | +9 | +38 | 2026-08-19 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/safe3~openresty-manager/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/safe3~openresty-manager/)*

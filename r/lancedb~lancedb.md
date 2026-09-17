@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,416 | +90 | +268 | +807 | 2026-09-13 |
+| 11,434 | +90 | +270 | +793 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lancedb~lancedb/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lancedb~lancedb/)*

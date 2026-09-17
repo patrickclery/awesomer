@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 376 | +7 | +21 | +74 | 2026-07-21 |
+| 380 | +7 | +24 | +75 | 2026-07-21 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Utils
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/currents-dev~playwright-best-practices-skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/currents-dev~playwright-best-practices-skill/)*

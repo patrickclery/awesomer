@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,738 | +1 | +2 | +4 | 2026-03-15 |
+| 1,739 | +1 | +3 | +5 | 2026-03-15 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Script Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kward~shunit2/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kward~shunit2/)*

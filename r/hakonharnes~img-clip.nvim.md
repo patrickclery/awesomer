@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 938 | +0 | +4 | +18 | 2026-09-02 |
+| 938 | +0 | +3 | +17 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Media
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hakonharnes~img-clip.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hakonharnes~img-clip.nvim/)*

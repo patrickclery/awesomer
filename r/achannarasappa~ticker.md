@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,228 | +15 | +32 | +124 | 2026-06-28 |
+| 6,232 | +15 | +31 | +122 | 2026-06-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Applications
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/achannarasappa~ticker/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/achannarasappa~ticker/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,214 | +98 | +327 | +1,979 | 2026-09-13 |
+| 14,231 | +98 | +305 | +1,848 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fathah~hermes-desktop/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fathah~hermes-desktop/)*

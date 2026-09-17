@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,074 | +5 | +32 | +88 | 2026-06-11 |
+| 2,075 | +5 | +30 | +87 | 2026-06-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / General Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rlxone~equinox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rlxone~equinox/)*

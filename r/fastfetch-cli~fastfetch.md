@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,609 | +110 | +411 | +1,385 | 2026-09-13 |
+| 24,655 | +110 | +422 | +1,382 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fastfetch-cli~fastfetch/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fastfetch-cli~fastfetch/)*

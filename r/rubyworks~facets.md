@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 808 | +0 | +0 | +3 | 2026-08-31 |
+| 808 | +0 | +0 | +2 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Core Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rubyworks~facets/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rubyworks~facets/)*

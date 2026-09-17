@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,334 | +4 | +98 | +199 | 2026-09-01 |
+| 9,348 | +4 | +107 | +210 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / 3D Printing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/prusa3d~prusaslicer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prusa3d~prusaslicer/)*

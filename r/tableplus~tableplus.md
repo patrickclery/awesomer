@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,827 | +3 | +14 | +31 | 2026-03-02 |
+| 3,830 | +3 | +15 | +29 | 2026-03-02 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tableplus~tableplus/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tableplus~tableplus/)*

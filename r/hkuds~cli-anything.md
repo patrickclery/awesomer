@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,352 | +410 |  |  | 2026-08-21 |
+| 49,478 | +410 | +1,804 |  | 2026-08-21 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~cli-anything/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~cli-anything/)*

@@ -15,4 +15,4 @@
 - [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sly777~ran/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sly777~ran/)*

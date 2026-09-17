@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,567 | +115 | +362 | +1,121 | 2026-06-05 |
+| 57,601 | +115 | +386 | +1,113 | 2026-06-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wasabeef~awesome-android-ui/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wasabeef~awesome-android-ui/)*

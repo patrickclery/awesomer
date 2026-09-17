@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,075 | +0 | -3 | +5 | 2026-06-23 |
+| 6,074 | +0 | -3 | +4 | 2026-06-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vcr~vcr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vcr~vcr/)*

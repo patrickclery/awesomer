@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,427 | +0 | -3 | +1 | 2026-02-13 |
+| 2,427 | +0 | -2 | +2 | 2026-02-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Just for Fun
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~emoj/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~emoj/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,618 | +7 | +23 | +42 | 2026-09-13 |
+| 1,619 | +7 | +23 | +41 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Verification
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aftership~email-verifier/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aftership~email-verifier/)*

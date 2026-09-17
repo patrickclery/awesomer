@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,096 | +14 | +86 | +266 | 2026-09-08 |
+| 3,114 | +14 | +97 | +274 | 2026-09-08 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/michelpereira~awesome-open-source-games/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/michelpereira~awesome-open-source-games/)*

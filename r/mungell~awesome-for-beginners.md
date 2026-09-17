@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 89,209 | +226 | +842 | +2,664 | 2026-07-25 |
+| 89,310 | +226 | +862 | +2,678 | 2026-07-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mungell~awesome-for-beginners/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mungell~awesome-for-beginners/)*

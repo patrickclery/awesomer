@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,136 | +56 | +226 | +1,479 | 2026-09-12 |
+| 16,157 | +56 | +222 | +1,213 | 2026-09-16 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 - [Awesome local LLM](../l/local-llm.md) / Research
+- [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/modsetter~surfsense/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modsetter~surfsense/)*

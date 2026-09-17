@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 52,660 | +350 | +1,160 |  | 2026-09-03 |
+| 52,732 | +350 | +1,068 |  | 2026-09-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Starter Projects & Examples
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~claude-cookbooks/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~claude-cookbooks/)*

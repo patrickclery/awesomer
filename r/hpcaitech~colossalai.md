@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,440 | +0 | +5 | +41 | 2026-08-31 |
+| 41,441 | +0 | +4 | +45 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛠️ 7. Training & Fine-tuning Ecosystem
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hpcaitech~colossalai/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hpcaitech~colossalai/)*

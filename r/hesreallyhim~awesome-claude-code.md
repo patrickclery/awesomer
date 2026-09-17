@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 53,965 | +440 | +1,680 | +7,454 | 2026-09-13 |
+| 54,150 | +440 | +1,689 | +7,387 | 2026-09-16 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hesreallyhim~awesome-claude-code/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hesreallyhim~awesome-claude-code/)*

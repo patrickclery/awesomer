@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,892 | +15 | +40 | +118 | 2026-09-09 |
+| 3,895 | +15 | +37 | +117 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~safetensors/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~safetensors/)*

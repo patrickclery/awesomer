@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,996 | +23 | +68 | +250 | 2026-09-11 |
+| 6,000 | +23 | +61 | +243 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Notebooks & Interactive Computing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/quarto-dev~quarto-cli/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/quarto-dev~quarto-cli/)*

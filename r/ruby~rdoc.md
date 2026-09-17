@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 930 | +0 | +3 | +11 | 2026-09-13 |
+| 930 | +0 | +2 | +11 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Documentation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby~rdoc/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby~rdoc/)*

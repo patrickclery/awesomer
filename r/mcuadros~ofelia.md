@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,987 | +5 | +27 | +93 | 2026-09-03 |
+| 3,989 | +5 | +25 | +93 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mcuadros~ofelia/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mcuadros~ofelia/)*

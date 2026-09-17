@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 376 | +0 | -1 | +0 | 2026-08-03 |
+| 376 | +0 | +0 | +0 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / AI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/georgesalkhouri~nvim-aider/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/georgesalkhouri~nvim-aider/)*

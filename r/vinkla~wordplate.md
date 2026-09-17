@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,173 | +0 | -1 | +0 | 2026-08-25 |
+| 2,173 | +0 | -1 | +0 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / WordPress
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/vinkla~wordplate/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vinkla~wordplate/)*

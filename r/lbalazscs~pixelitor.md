@@ -15,4 +15,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lbalazscs~pixelitor/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lbalazscs~pixelitor/)*

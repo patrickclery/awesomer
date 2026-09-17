@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,722 | +137 | +485 | +1,384 | 2026-09-10 |
+| 24,763 | +137 | +481 | +1,368 | 2026-09-10 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Memory Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/letta-ai~letta/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/letta-ai~letta/)*

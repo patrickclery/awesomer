@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,132 | +8 | +46 | +138 | 2026-05-26 |
+| 1,132 | +8 | +18 | +138 | 2026-05-26 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/owloops~updo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/owloops~updo/)*

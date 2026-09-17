@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 578 | +0 | +1 | +2 | 2025-10-25 |
+| 578 | +0 | +0 | +2 | 2025-10-25 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Plex Scripts and Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jasonhhouse~gaps/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jasonhhouse~gaps/)*

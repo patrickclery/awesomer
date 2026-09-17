@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 448 | +0 | +1 | +2 | 2026-03-21 |
+| 448 | +0 | +1 | +1 | 2026-03-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Builder
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mdub~clamp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mdub~clamp/)*

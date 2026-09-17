@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,197 | +1 | +9 | +29 | 2026-09-11 |
+| 6,199 | +1 | +10 | +30 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/prefecthq~marvin/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prefecthq~marvin/)*

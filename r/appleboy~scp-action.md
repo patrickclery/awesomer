@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,578 | +3 | +4 | +18 | 2026-08-09 |
+| 1,578 | +3 | +3 | +17 | 2026-08-09 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/appleboy~scp-action/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/appleboy~scp-action/)*

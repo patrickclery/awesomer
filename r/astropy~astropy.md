@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,302 | +10 | +30 | +117 | 2026-09-12 |
+| 5,305 | +10 | +29 | +116 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Scientific AI & Physics ML
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/astropy~astropy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/astropy~astropy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,417 | +0 | -1 | +14 | 2026-09-01 |
+| 3,416 | +0 | -3 | +12 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ayamir~nvimdots/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ayamir~nvimdots/)*

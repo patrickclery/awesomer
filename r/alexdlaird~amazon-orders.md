@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 175 | +2 | +4 | +25 | 2026-09-11 |
+| 178 | +2 | +7 | +27 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexdlaird~amazon-orders/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexdlaird~amazon-orders/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,109 | +10 | +138 | +273 | 2026-09-13 |
+| 5,113 | +10 | +50 | +274 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/liam-hq~liam/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/liam-hq~liam/)*

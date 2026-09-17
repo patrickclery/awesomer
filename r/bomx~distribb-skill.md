@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 190 | +6 | +15 |  | 2026-08-21 |
+| 193 | +6 | +18 |  | 2026-08-21 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bomx~distribb-skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bomx~distribb-skill/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,540 | -1 | +1 | +15 | 2026-06-20 |
+| 1,540 | -1 | +1 | +14 | 2026-06-20 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/azimjohn~jprq/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/azimjohn~jprq/)*

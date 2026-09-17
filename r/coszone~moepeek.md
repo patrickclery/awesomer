@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 817 | +3 | +13 | +138 | 2026-09-04 |
+| 819 | +3 | +13 | +139 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Translation Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coszone~moepeek/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/coszone~moepeek/)*

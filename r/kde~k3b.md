@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 232 | +0 | +5 | +15 | 2026-09-11 |
+| 232 | +0 | +5 | +15 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kde~k3b/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kde~k3b/)*

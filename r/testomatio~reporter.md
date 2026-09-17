@@ -15,4 +15,4 @@
 - [awesome-playwright](../l/playwright.md) / Reporters
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/testomatio~reporter/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/testomatio~reporter/)*

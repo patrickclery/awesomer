@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,722 | +8 | +23 | +70 | 2026-09-13 |
+| 1,722 | +8 | +20 | +70 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Tracker Proxies
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/theotherp~nzbhydra2/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/theotherp~nzbhydra2/)*

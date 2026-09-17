@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,170 | +0 | +1 |  | 2026-07-28 |
+| 2,170 | +0 | +0 |  | 2026-07-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Configuration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rubyconfig~config/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rubyconfig~config/)*

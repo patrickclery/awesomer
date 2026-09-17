@@ -15,4 +15,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/f4ww4z~mcp-mysql-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/f4ww4z~mcp-mysql-server/)*

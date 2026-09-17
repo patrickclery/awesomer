@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,857 | +4 | +52 | +115 | 2026-09-13 |
+| 1,860 | +4 | +52 | +117 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agentjido~jido/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agentjido~jido/)*

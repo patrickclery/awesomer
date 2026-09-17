@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,049 | -2 | -2 | -1 | 2026-08-29 |
+| 4,049 | -2 | -3 | +0 | 2026-08-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bblimke~webmock/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bblimke~webmock/)*

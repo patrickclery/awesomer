@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,414 | +13 | +73 | +209 | 2026-08-18 |
+| 6,418 | +13 | +68 | +205 | 2026-08-18 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/karlstav~cava/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/karlstav~cava/)*

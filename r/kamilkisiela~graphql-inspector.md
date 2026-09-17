@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,767 | +2 | +10 | +15 | 2026-09-09 |
+| 1,767 | +2 | +10 | +12 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kamilkisiela~graphql-inspector/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kamilkisiela~graphql-inspector/)*

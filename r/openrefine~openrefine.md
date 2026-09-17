@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,995 | +12 | +54 | +131 | 2026-09-11 |
+| 12,001 | +12 | +62 | +131 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Labeling & Annotation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openrefine~openrefine/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openrefine~openrefine/)*

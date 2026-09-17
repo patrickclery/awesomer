@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,585 | +2 | +3 | +8 | 2026-09-07 |
+| 1,587 | +2 | +5 | +10 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Collection of Actions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hashicorp~setup-terraform/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hashicorp~setup-terraform/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 212,738 | +3,380 | +10,361 | +36,932 | 2026-04-20 |
+| 213,315 | +3,380 | +10,069 | +35,263 | 2026-04-20 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Curated Resource Lists
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/forrestchang~andrej-karpathy-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/forrestchang~andrej-karpathy-skills/)*

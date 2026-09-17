@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 334 | +0 | +0 | +6 | 2026-06-26 |
+| 334 | +0 | -1 | +6 | 2026-06-26 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Tools and Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dessant~lock-threads/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dessant~lock-threads/)*

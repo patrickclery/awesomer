@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 456 | +0 | +2 | +9 | 2026-09-09 |
+| 457 | +0 | +2 | +8 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/domdomegg~airtable-mcp-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/domdomegg~airtable-mcp-server/)*

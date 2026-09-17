@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,285 | +277 | +1,020 |  | 2026-08-09 |
+| 25,395 | +277 | +1,026 |  | 2026-08-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Protocols & Standards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agentskills~agentskills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agentskills~agentskills/)*

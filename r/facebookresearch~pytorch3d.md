@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,967 | +4 | +18 | +68 | 2026-09-03 |
+| 9,968 | +4 | +18 | +67 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 3D Vision & Point Cloud Processing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~pytorch3d/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~pytorch3d/)*

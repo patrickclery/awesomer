@@ -15,4 +15,4 @@
 - [awesome-postgres](../l/postgres.md) / Optimization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~aqo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~aqo/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,203 | +4 | +7 | +17 | 2026-09-13 |
+| 1,203 | +4 | +7 | +20 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / API Builder and Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/okuramasafumi~alba/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/okuramasafumi~alba/)*

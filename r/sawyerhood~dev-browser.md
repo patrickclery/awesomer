@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,612 | +8 | +70 |  | 2026-09-05 |
+| 6,619 | +8 | +70 |  | 2026-09-05 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Design & UI/UX
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sawyerhood~dev-browser/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sawyerhood~dev-browser/)*

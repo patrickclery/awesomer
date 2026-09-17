@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 723 | +146 | +286 |  | 2026-09-13 |
+| 731 | +146 | +293 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/figranium~figranium/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/figranium~figranium/)*

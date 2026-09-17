@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,662 | +6 | +36 | +60 | 2026-09-02 |
+| 6,662 | +6 | +22 | +58 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Handbooks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/basecamp~handbook/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/basecamp~handbook/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,793 | +12 | +72 | +228 | 2026-09-13 |
+| 1,795 | +12 | +72 | +203 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Audio / Music / Voice Generation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/magenta~magenta-realtime/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/magenta~magenta-realtime/)*

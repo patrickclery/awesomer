@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,835 | +100 | +355 | +1,445 | 2026-09-13 |
+| 32,868 | +100 | +336 | +1,468 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shadps4-emu~shadps4/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shadps4-emu~shadps4/)*

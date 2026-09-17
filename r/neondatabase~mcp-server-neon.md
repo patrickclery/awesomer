@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 641 | +0 | +18 | +32 | 2026-09-11 |
+| 644 | +0 | +20 | +35 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neondatabase~mcp-server-neon/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neondatabase~mcp-server-neon/)*

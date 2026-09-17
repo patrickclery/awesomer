@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,478 | +4 | +24 | +70 | 2026-09-11 |
+| 18,482 | +4 | +26 | +72 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/teambit~bit/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/teambit~bit/)*

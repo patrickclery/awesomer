@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,386 | +62 | +213 | +764 | 2026-09-11 |
+| 16,431 | +62 | +246 | +783 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/googleapis~genai-toolbox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/googleapis~genai-toolbox/)*

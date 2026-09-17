@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,827 | +0 | +2 | +36 | 2026-07-31 |
+| 1,827 | +0 | +1 | +37 | 2026-07-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openagentplatform~dive/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openagentplatform~dive/)*

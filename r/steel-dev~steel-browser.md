@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,638 | +37 | +159 | +473 | 2026-09-03 |
+| 7,648 | +37 | +151 | +472 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/steel-dev~steel-browser/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/steel-dev~steel-browser/)*

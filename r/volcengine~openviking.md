@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,981 |  |  |  | 2026-09-13 |
+| 37,672 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/volcengine~openviking/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/volcengine~openviking/)*

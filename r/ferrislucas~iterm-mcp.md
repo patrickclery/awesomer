@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 567 | +1 | +0 | +8 | 2025-09-20 |
+| 568 | +1 | +1 | +8 | 2025-09-20 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ferrislucas~iterm-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ferrislucas~iterm-mcp/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,077 | +64 | +200 | +595 | 2026-09-11 |
+| 16,094 | +64 | +206 | +587 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Edge / On-device AI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alibaba~mnn/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alibaba~mnn/)*

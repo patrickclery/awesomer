@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,309 | +1 | +5 | +44 | 2026-07-31 |
+| 1,313 | +1 | +9 | +48 | 2026-07-31 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gokayfem~awesome-vlm-architectures/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gokayfem~awesome-vlm-architectures/)*

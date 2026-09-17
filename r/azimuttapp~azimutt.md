@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,177 | +5 | +14 | +44 | 2026-08-25 |
+| 2,180 | +5 | +16 | +48 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/azimuttapp~azimutt/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/azimuttapp~azimutt/)*

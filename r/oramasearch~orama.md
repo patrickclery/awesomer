@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,548 | +11 | +31 | +145 | 2026-09-11 |
+| 10,554 | +11 | +36 | +138 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oramasearch~orama/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oramasearch~orama/)*

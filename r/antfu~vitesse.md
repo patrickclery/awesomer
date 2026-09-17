@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,438 | +1 | +0 | +14 | 2026-02-25 |
+| 9,439 | +1 | +1 | +13 | 2026-02-25 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~vitesse/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~vitesse/)*

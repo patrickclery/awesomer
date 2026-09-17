@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 123,786 | +11,154 | +17,870 | +32,628 | 2026-09-13 |
+| 124,642 | +11,154 | +18,225 | +32,705 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~codex/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~codex/)*

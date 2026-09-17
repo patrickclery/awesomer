@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,118 | +1 | +3 | +15 | 2026-09-12 |
+| 1,118 | +1 | +2 | +14 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Dependency Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saecki~crates.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/saecki~crates.nvim/)*

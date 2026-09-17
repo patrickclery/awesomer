@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 58,635 | +597 | +2,319 | +8,195 | 2026-09-13 |
+| 58,871 | +597 | +2,348 | +8,095 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/berriai~litellm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/berriai~litellm/)*

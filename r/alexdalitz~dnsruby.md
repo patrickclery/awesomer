@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Networking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexdalitz~dnsruby/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexdalitz~dnsruby/)*

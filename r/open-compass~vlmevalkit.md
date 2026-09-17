@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,385 | +11 | +48 | +165 | 2026-09-10 |
+| 4,394 | +11 | +50 | +168 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Benchmark Suites
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/open-compass~vlmevalkit/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/open-compass~vlmevalkit/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,169 | +101 | +1,176 | +3,191 | 2026-09-13 |
+| 14,222 | +101 | +1,188 | +3,189 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent & Voice Infrastructure
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/livekit~agents/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/livekit~agents/)*

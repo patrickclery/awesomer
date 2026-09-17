@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,049 | +6 | +28 | +117 | 2026-09-13 |
+| 12,048 | +6 | +25 | +113 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/o2sh~onefetch/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/o2sh~onefetch/)*

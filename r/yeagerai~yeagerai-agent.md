@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 592 | +0 | +0 | -3 | 2026-06-05 |
+| 592 | +0 | +0 | -2 | 2026-06-05 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yeagerai~yeagerai-agent/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yeagerai~yeagerai-agent/)*

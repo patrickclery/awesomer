@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,838 | +1,645 | +5,773 |  | 2026-09-11 |
+| 16,004 | +1,645 | +4,594 |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/citrolabs~ego-lite/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/citrolabs~ego-lite/)*

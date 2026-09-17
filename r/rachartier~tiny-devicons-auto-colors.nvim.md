@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Color
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rachartier~tiny-devicons-auto-colors.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rachartier~tiny-devicons-auto-colors.nvim/)*

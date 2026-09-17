@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 147 | +1 | +3 |  | 2026-07-11 |
+| 148 | +1 | +4 |  | 2026-07-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alex-on-ai~webreaper/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alex-on-ai~webreaper/)*

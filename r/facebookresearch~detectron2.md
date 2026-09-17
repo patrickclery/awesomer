@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,705 | +16 | +38 | +157 | 2026-08-19 |
+| 34,709 | +16 | +43 | +152 | 2026-08-19 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~detectron2/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~detectron2/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,635 | +4 | +40 | +127 | 2026-08-14 |
+| 3,636 | +4 | +35 | +124 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Markdown and LaTeX
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oxy2dev~markview.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oxy2dev~markview.nvim/)*

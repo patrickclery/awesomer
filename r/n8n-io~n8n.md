@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 204,165 | +1,297 | +3,561 | +11,575 | 2026-09-13 |
+| 204,516 | +1,297 | +3,574 | +11,509 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/n8n-io~n8n/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/n8n-io~n8n/)*

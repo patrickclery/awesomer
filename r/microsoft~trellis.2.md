@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,173 | +146 | +568 |  | 2026-07-10 |
+| 11,223 | +146 | +559 |  | 2026-07-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 3D & Creative Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~trellis.2/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~trellis.2/)*

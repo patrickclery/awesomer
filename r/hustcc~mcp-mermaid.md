@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 634 | +0 | +9 | +53 | 2026-05-15 |
+| 636 | +0 | +9 | +48 | 2026-05-15 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Customer Data Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hustcc~mcp-mermaid/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hustcc~mcp-mermaid/)*

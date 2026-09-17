@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 684 | +4 | +22 |  | 2026-08-09 |
+| 685 | +4 | +20 |  | 2026-08-09 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Session Monitors
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/m1ckc3s~claude-status-bar/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/m1ckc3s~claude-status-bar/)*

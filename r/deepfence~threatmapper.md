@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,322 | +6 | +12 | +42 | 2026-06-01 |
+| 5,321 | +6 | +9 | +40 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deepfence~threatmapper/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepfence~threatmapper/)*

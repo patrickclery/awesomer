@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,266 | +308 | +1,273 | +3,891 | 2026-09-12 |
+| 29,451 | +308 | +1,324 | +3,954 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oraios~serena/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oraios~serena/)*

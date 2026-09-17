@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 870 | +0 | +4 | +19 | 2026-08-16 |
+| 871 | +0 | +3 | +19 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Newsletter Platform
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/phplist~phplist3/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/phplist~phplist3/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,032 | +129 | +134 | +141 | 2026-08-26 |
+| 1,032 | +129 | +133 | +142 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Where to Start
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/furkan~dockerlings/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/furkan~dockerlings/)*

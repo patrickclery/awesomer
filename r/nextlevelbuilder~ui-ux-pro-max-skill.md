@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 127,310 | +2,943 | +10,697 | +35,450 | 2026-09-10 |
+| 128,053 | +2,943 | +10,577 | +34,714 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nextlevelbuilder~ui-ux-pro-max-skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nextlevelbuilder~ui-ux-pro-max-skill/)*

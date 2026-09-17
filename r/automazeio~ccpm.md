@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,371 | +6 | +35 | +182 | 2026-03-18 |
+| 8,376 | +6 | +36 | +175 | 2026-03-18 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/automazeio~ccpm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/automazeio~ccpm/)*

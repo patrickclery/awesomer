@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,433 | +2 | +9 | +17 | 2026-05-05 |
+| 1,432 | +2 | +8 | +16 | 2026-05-05 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexis-benoist~eralchemy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexis-benoist~eralchemy/)*

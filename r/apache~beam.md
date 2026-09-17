@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,661 | +1 | +21 | +49 | 2026-09-13 |
+| 8,665 | +1 | +21 | +51 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~beam/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~beam/)*

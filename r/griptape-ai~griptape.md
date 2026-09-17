@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,576 | +0 | +4 | +36 | 2026-09-11 |
+| 2,577 | +0 | +4 | +35 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/griptape-ai~griptape/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/griptape-ai~griptape/)*

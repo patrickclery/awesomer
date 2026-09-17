@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 340 | +0 | +0 |  | 2026-09-12 |
+| 340 | +0 | +0 |  | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Type Signatures and Type Checking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yippee-fun~literal/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yippee-fun~literal/)*

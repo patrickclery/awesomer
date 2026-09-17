@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 106 | +1 | +2 | +7 | 2026-07-04 |
+| 106 | +1 | +1 | +7 | 2026-07-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Animation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/y3owk1n~undo-glow.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/y3owk1n~undo-glow.nvim/)*

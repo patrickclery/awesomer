@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,576 | +6 | +26 | +77 | 2026-09-08 |
+| 6,579 | +6 | +28 | +75 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xataio~pgroll/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xataio~pgroll/)*

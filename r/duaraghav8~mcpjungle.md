@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,254 | +13 | +51 | +160 | 2026-08-02 |
+| 1,263 | +13 | +53 | +162 | 2026-08-02 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/duaraghav8~mcpjungle/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/duaraghav8~mcpjungle/)*

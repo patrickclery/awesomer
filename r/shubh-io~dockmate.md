@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 338 | +0 | +1 | +17 | 2026-04-06 |
+| 337 | +0 | +0 | +14 | 2026-04-06 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shubh-io~dockmate/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shubh-io~dockmate/)*

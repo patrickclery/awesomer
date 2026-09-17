@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,414 | +1 | +10 | +41 | 2025-10-27 |
+| 4,417 | +1 | +11 | +40 | 2025-10-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agarrharr~awesome-macos-screensavers/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agarrharr~awesome-macos-screensavers/)*

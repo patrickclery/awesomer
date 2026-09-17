@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,777 | +58 | +204 | +1,059 | 2026-09-12 |
+| 3,792 | +58 | +204 | +1,026 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yvgude~lean-ctx/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yvgude~lean-ctx/)*

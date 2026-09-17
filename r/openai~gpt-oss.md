@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,397 | +24 | +89 | +232 | 2026-07-24 |
+| 20,402 | +24 | +89 | +229 | 2026-07-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Large Language Models (Base + Chat)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~gpt-oss/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~gpt-oss/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 169 | +2 | +14 | +44 | 2026-09-12 |
+| 169 | +2 | +13 | +43 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Note Taking and Lists
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fulsomenko~kanban/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fulsomenko~kanban/)*

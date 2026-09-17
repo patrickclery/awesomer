@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 255 | -1 | -1 | +5 | 2025-11-11 |
+| 255 | -1 | -2 | +5 | 2025-11-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Markdown and LaTeX
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zeioth~markmap.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zeioth~markmap.nvim/)*

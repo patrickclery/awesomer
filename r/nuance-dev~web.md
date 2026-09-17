@@ -1,6 +1,6 @@
 # nuance-dev/Web
 
-> No description available.
+> A native macOS browser with Glance for quick lookups and optional local AI.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/nuance-dev/Web) | [Live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~web/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 670 | +0 | +5 | +8 | 2025-10-21 |
+| 665 | +0 | -3 | +4 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Browsers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~web/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nuance-dev~web/)*

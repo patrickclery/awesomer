@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,421 | -1 | +1 | +7 | 2026-06-01 |
+| 4,421 | -1 | +0 | +6 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / API Builder and Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rails~jbuilder/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rails~jbuilder/)*

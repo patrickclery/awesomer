@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 357 | +1 | +9 |  | 2026-08-21 |
+| 357 | +1 | +7 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Research & Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stefanoamorelli~sec-edgar-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stefanoamorelli~sec-edgar-mcp/)*

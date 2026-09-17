@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 137,882 | +928 | +5,294 | +23,265 | 2026-09-13 |
+| 138,430 | +928 | +5,498 | +23,494 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Starter Projects & Examples
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shubhamsaboo~awesome-llm-apps/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shubhamsaboo~awesome-llm-apps/)*

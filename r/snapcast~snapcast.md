@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,866 | +19 | +54 | +173 | 2026-06-27 |
+| 7,874 | +19 | +57 | +170 | 2026-06-27 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Audio Streaming
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/snapcast~snapcast/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/snapcast~snapcast/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 974 | +7 | +41 |  | 2026-09-11 |
+| 974 | +7 | +39 |  | 2026-09-11 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Deployment & Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openrundev~openrun/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openrundev~openrun/)*

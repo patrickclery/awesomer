@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,506 | +15 | +70 | +196 | 2026-09-12 |
+| 17,515 | +15 | +74 | +190 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/leon-ai~leon/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/leon-ai~leon/)*

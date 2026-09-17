@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,978 | +225 | +593 | +5,710 | 2026-09-11 |
+| 50,405 | +225 | +938 | +5,840 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Computer Vision
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/roboflow~supervision/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/roboflow~supervision/)*

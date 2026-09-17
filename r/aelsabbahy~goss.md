@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,965 | +2 | +18 | +61 | 2026-09-13 |
+| 5,970 | +2 | +21 | +66 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aelsabbahy~goss/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aelsabbahy~goss/)*

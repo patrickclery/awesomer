@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,268 | +13 | +62 | +199 | 2026-09-13 |
+| 4,272 | +13 | +57 | +198 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/morpheus65535~bazarr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/morpheus65535~bazarr/)*

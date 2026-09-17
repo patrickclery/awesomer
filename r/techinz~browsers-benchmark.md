@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 388 | +2 | +11 | +61 | 2026-09-01 |
+| 390 | +2 | +11 | +58 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/techinz~browsers-benchmark/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/techinz~browsers-benchmark/)*

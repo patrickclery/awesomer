@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,054 | +1 | +7 | +24 | 2025-12-27 |
+| 2,054 | +1 | +6 | +21 | 2025-12-27 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Web Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rest-nvim~rest.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rest-nvim~rest.nvim/)*

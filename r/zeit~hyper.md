@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,730 | +11 | +38 | +129 | 2026-08-21 |
+| 44,731 | +11 | +40 | +128 | 2026-08-21 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zeit~hyper/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zeit~hyper/)*

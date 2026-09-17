@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,729 | +47 | +185 | +643 | 2026-06-20 |
+| 10,737 | +47 | +172 | +631 | 2026-06-20 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Technical Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/je-suis-tm~quant-trading/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/je-suis-tm~quant-trading/)*

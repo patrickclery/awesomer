@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,028 | +1 | +17 | +46 | 2026-09-12 |
+| 4,027 | +1 | +8 | +43 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Plex
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/plexinc~pms-docker/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/plexinc~pms-docker/)*

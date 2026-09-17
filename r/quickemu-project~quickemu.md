@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,169 | +49 | +523 | +964 | 2026-08-28 |
+| 16,181 | +49 | +523 | +964 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/quickemu-project~quickemu/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/quickemu-project~quickemu/)*

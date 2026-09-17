@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,571 | +290 | +435 | +1,443 | 2026-09-13 |
+| 1,579 | +290 | +406 | +1,045 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zzet~gortex/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zzet~gortex/)*

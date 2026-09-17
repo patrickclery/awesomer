@@ -15,4 +15,4 @@
 - [awesome-claude-code](../l/claude-code.md) / Remote Control, Notifications & Voice I/O
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ctoth~claudio/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ctoth~claudio/)*

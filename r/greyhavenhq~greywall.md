@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 294 | +1 | +8 | +57 | 2026-08-13 |
+| 296 | +1 | +10 | +57 | 2026-08-13 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/greyhavenhq~greywall/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/greyhavenhq~greywall/)*

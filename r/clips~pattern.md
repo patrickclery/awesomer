@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,862 | +0 | +4 | +9 | 2026-08-05 |
+| 8,862 | +0 | +3 | +10 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/clips~pattern/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/clips~pattern/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,238 | +6 | +22 | +87 | 2026-01-29 |
+| 1,239 | +6 | +21 | +84 | 2026-01-29 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/irazasyed~awesome-cloudflare/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/irazasyed~awesome-cloudflare/)*

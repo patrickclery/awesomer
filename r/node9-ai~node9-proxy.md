@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 211 | +0 | +2 |  | 2026-09-13 |
+| 213 | +0 | +4 |  | 2026-09-16 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/node9-ai~node9-proxy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/node9-ai~node9-proxy/)*

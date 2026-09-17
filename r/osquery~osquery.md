@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,564 | +45 | +104 | +250 | 2026-09-09 |
+| 23,572 | +45 | +105 | +249 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/osquery~osquery/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/osquery~osquery/)*

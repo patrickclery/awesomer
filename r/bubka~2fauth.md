@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,149 | +16 | +43 | +148 | 2026-09-02 |
+| 4,153 | +16 | +44 | +147 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bubka~2fauth/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bubka~2fauth/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 397 | +1 | +7 | +17 | 2026-09-02 |
+| 397 | +1 | +5 | +17 | 2026-09-02 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/slevithan~awesome-regex/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/slevithan~awesome-regex/)*

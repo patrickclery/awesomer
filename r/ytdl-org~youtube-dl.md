@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 141,206 | +48 | +245 | +695 | 2026-02-19 |
+| 141,245 | +48 | +273 | +721 | 2026-02-19 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ytdl-org~youtube-dl/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ytdl-org~youtube-dl/)*

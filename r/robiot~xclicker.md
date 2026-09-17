@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 636 | +4 | +6 | +28 | 2026-08-23 |
+| 636 | +4 | +6 | +27 | 2026-08-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/robiot~xclicker/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/robiot~xclicker/)*

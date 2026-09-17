@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,058 | +199 | +483 | +1,352 | 2026-09-09 |
+| 7,111 | +199 | +486 | +1,354 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/trailofbits~skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/trailofbits~skills/)*

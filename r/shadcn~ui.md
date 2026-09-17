@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 123,676 | +517 | +2,365 | +7,045 | 2026-09-12 |
+| 123,947 | +517 | +2,471 | +7,055 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shadcn~ui/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shadcn~ui/)*

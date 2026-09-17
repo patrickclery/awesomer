@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,904 | +160 | +664 | +2,214 | 2026-09-10 |
+| 32,962 | +160 | +660 | +2,182 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/github~github-mcp-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/github~github-mcp-server/)*

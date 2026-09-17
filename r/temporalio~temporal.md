@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,002 | +135 | +695 | +2,020 | 2026-09-13 |
+| 23,084 | +135 | +725 | +2,047 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/temporalio~temporal/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/temporalio~temporal/)*

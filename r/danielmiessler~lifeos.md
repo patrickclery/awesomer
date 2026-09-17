@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,005 | +145 | +518 |  | 2026-09-04 |
+| 19,030 | +145 | +461 |  | 2026-09-04 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/danielmiessler~lifeos/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/danielmiessler~lifeos/)*

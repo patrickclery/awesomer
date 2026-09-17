@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,911 | +21 | +97 | +259 | 2025-10-17 |
+| 24,925 | +21 | +101 | +267 | 2025-10-17 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wesm~pydata-book/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wesm~pydata-book/)*

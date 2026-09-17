@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 93,925 | +1,440 | +6,782 | +33,981 | 2026-09-12 |
+| 95,103 | +1,440 | +7,190 | +32,469 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/addyosmani~agent-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/addyosmani~agent-skills/)*

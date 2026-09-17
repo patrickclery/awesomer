@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,863 | +3 | +18 | +97 | 2026-09-13 |
+| 1,865 | +3 | +19 | +95 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mikavilpas~yazi.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mikavilpas~yazi.nvim/)*

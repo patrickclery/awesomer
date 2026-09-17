@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,008 | +11 | +42 | +159 | 2026-09-10 |
+| 7,010 | +11 | +40 | +156 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flaxengine~flaxengine/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flaxengine~flaxengine/)*

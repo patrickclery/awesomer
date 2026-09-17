@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,402 | +8 | +34 | +130 | 2026-09-11 |
+| 4,404 | +8 | +30 | +129 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧪 13. Developer Tools & Integrations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jupyterlab~jupyter-ai/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jupyterlab~jupyter-ai/)*

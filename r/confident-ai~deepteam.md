@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,793 | +145 | +348 | +901 | 2026-08-21 |
+| 2,821 | +145 | +370 | +920 | 2026-08-21 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/confident-ai~deepteam/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/confident-ai~deepteam/)*

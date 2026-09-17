@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,306 | +130 | +502 | +1,439 | 2026-08-25 |
+| 29,345 | +130 | +509 | +1,426 | 2026-08-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~smolagents/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~smolagents/)*

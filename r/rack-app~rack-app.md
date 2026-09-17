@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Web Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rack-app~rack-app/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rack-app~rack-app/)*

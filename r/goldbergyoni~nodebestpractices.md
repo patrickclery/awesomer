@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 105,615 | +13 | +93 | +288 | 2026-06-15 |
+| 105,620 | +13 | +43 | +274 | 2026-06-15 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Resources
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/goldbergyoni~nodebestpractices/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/goldbergyoni~nodebestpractices/)*

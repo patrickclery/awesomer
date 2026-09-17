@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,634 | +605 | +2,371 | +2,523 | 2026-09-13 |
+| 3,678 | +605 | +2,413 | +2,560 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/marin-community~marin/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marin-community~marin/)*

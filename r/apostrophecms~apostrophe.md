@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,619 | +6 | +20 | +51 | 2026-09-11 |
+| 4,619 | +6 | +20 | +47 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apostrophecms~apostrophe/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apostrophecms~apostrophe/)*

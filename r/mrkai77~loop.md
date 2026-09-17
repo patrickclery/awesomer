@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,560 | +51 | +198 | +613 | 2026-09-11 |
+| 11,584 | +51 | +210 | +611 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Window Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mrkai77~loop/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mrkai77~loop/)*

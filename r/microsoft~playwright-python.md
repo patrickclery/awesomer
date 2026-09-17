@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,998 | +29 | +84 | +252 | 2026-09-10 |
+| 15,005 | +29 | +86 | +251 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Language Support
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-python/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-python/)*

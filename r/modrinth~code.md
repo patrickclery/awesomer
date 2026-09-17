@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,368 | +20 | +74 | +210 | 2026-09-13 |
+| 2,368 | +20 | +63 | +198 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/modrinth~code/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modrinth~code/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,042 | +1 | +5 | +19 | 2026-09-13 |
+| 1,043 | +1 | +6 | +19 | 2026-09-16 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-opensource-email](../l/opensource-email.md) / JMAP Server & others
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~james-project/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~james-project/)*

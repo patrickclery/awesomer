@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,592 | +1 | +2 | +7 | 2026-08-28 |
+| 1,592 | +1 | +2 | +8 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Ruby on Rails
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elmassimo~vite_ruby/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/elmassimo~vite_ruby/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 503 | +7 | +56 | +164 | 2026-09-10 |
+| 504 | +7 | +57 | +156 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Monitoring
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kolapsis~maintenant/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kolapsis~maintenant/)*

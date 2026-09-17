@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,994 | +15 | +40 | +107 | 2026-09-11 |
+| 11,001 | +15 | +46 | +111 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/quantumblacklabs~kedro/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/quantumblacklabs~kedro/)*

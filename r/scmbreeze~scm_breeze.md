@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,913 | +0 | -1 | +6 | 2026-07-23 |
+| 2,913 | +0 | -2 | +5 | 2026-07-23 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/scmbreeze~scm_breeze/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scmbreeze~scm_breeze/)*

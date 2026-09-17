@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,049 | +64 | +287 | +789 | 2026-09-13 |
+| 8,089 | +64 | +304 | +801 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Inference engines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ai-dynamo~dynamo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ai-dynamo~dynamo/)*

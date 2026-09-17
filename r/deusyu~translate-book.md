@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,830 | +29 | +702 | +1,056 | 2026-09-07 |
+| 1,861 | +29 | +708 | +1,073 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deusyu~translate-book/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deusyu~translate-book/)*

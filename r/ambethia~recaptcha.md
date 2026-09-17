@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Captchas and anti-spam
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ambethia~recaptcha/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ambethia~recaptcha/)*

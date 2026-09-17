@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 116,356 | +2,594 | +10,156 |  | 2026-09-12 |
+| 118,183 | +2,594 | +10,866 | +49,282 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/safishamsi~graphify/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/safishamsi~graphify/)*

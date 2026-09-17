@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 103 | +0 | +2 | +9 | 2026-09-13 |
+| 103 | +0 | +1 | +7 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Stats Tracking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rtarun3606k~takatime/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rtarun3606k~takatime/)*

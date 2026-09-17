@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,778 | +6 | +8 | +26 | 2026-03-23 |
+| 4,780 | +6 | +8 | +27 | 2026-03-23 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/seldonio~seldon-core/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/seldonio~seldon-core/)*

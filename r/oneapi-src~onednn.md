@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,044 | +4 | +7 | +36 | 2026-09-13 |
+| 4,046 | +4 | +9 | +38 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oneapi-src~onednn/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oneapi-src~onednn/)*

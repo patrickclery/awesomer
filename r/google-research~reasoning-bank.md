@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 580 |  |  |  | 2026-08-05 |
+| 586 |  |  |  | 2026-08-05 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Memory Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google-research~reasoning-bank/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-research~reasoning-bank/)*

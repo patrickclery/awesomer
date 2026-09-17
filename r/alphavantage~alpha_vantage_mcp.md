@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 209 | +4 | +13 |  | 2026-08-30 |
+| 210 | +4 | +11 |  | 2026-08-30 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Market Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alphavantage~alpha_vantage_mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alphavantage~alpha_vantage_mcp/)*

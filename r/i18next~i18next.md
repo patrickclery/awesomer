@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,632 | +4 | +18 | +49 | 2026-09-03 |
+| 8,634 | +4 | +18 | +51 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/i18next~i18next/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/i18next~i18next/)*

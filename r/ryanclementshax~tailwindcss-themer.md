@@ -15,4 +15,4 @@
 - [awesome-tailwindcss](../l/tailwindcss.md) / Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanclementshax~tailwindcss-themer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanclementshax~tailwindcss-themer/)*

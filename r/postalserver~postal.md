@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,806 | +24 | +75 | +204 | 2026-09-13 |
+| 16,812 | +24 | +73 | +204 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Server
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/postalserver~postal/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/postalserver~postal/)*

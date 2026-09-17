@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 314 | -2 | +1 | +9 | 2026-08-25 |
+| 314 | -2 | +0 | +9 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Polls and Events
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fsinfuhh~bitpoll/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fsinfuhh~bitpoll/)*

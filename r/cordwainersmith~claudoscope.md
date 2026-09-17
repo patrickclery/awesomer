@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 235 | +3 | +11 | +41 | 2026-08-26 |
+| 236 | +3 | +11 | +40 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / AI Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cordwainersmith~claudoscope/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cordwainersmith~claudoscope/)*

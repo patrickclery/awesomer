@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,028 | +169 | +638 | +1,800 | 2026-09-05 |
+| 23,077 | +169 | +641 | +1,797 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Window Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nikitabobko~aerospace/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nikitabobko~aerospace/)*

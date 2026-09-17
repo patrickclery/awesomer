@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,315 | +515 | +2,100 |  | 2026-09-11 |
+| 6,444 | +515 | +1,897 |  | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI-Native IDEs & Development Environments
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agegr~pi-web/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agegr~pi-web/)*

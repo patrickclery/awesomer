@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,882 | +4 | +10 | +29 | 2026-07-30 |
+| 7,883 | +4 | +9 | +23 | 2026-07-30 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Text Editors
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/macvim-dev~macvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/macvim-dev~macvim/)*

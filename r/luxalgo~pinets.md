@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 553 |  |  |  | 2026-09-08 |
+| 646 |  |  |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Technical Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/luxalgo~pinets/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/luxalgo~pinets/)*

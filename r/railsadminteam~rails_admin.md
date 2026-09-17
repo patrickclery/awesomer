@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,956 | +0 | -2 |  | 2026-09-13 |
+| 7,955 | +0 | -2 |  | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Admin Interface
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/railsadminteam~rails_admin/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/railsadminteam~rails_admin/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,017 | +30 | +130 | +665 | 2026-09-12 |
+| 2,032 | +30 | +135 | +604 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/feder-cr~invisible_playwright/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/feder-cr~invisible_playwright/)*

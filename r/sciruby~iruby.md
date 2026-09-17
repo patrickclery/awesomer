@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 924 | -3 | -3 | -1 | 2026-06-30 |
+| 924 | -3 | -3 | -2 | 2026-06-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sciruby~iruby/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sciruby~iruby/)*

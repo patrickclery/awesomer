@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 42,365 | +76 | +288 | +1,248 | 2026-09-12 |
+| 42,392 | +76 | +288 | +1,258 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / UI libraries, components & templates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saadeghi~daisyui/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/saadeghi~daisyui/)*

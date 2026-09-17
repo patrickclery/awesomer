@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 300 | +1 | +2 | +5 | 2026-09-09 |
+| 300 | +1 | +1 | +5 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / DMARC
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/liuch~dmarc-srg/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/liuch~dmarc-srg/)*

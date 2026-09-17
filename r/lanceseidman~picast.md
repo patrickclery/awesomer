@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,797 | -1 | +2 | -2 | 2026-03-28 |
+| 1,796 | -1 | +0 | -2 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Multimedia and File Formats
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lanceseidman~picast/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lanceseidman~picast/)*

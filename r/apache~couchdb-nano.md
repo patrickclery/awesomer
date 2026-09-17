@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 689 | +0 | +0 | +2 | 2026-08-21 |
+| 691 | +0 | +2 | +4 | 2026-08-21 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~couchdb-nano/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~couchdb-nano/)*

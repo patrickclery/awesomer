@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 555 | +3 | +0 | +15 | 2026-09-11 |
+| 556 | +3 | +1 | +16 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Personal Dashboards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/notclickable-jordan~starbase-80/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/notclickable-jordan~starbase-80/)*

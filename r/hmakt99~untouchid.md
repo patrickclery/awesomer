@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 304 | +6 | +18 | +59 | 2026-08-05 |
+| 305 | +6 | +19 | +57 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Security Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hmakt99~untouchid/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hmakt99~untouchid/)*

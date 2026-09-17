@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,447 | +4 | +15 | +44 | 2026-08-14 |
+| 2,450 | +4 | +17 | +47 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agkozak~zsh-z/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agkozak~zsh-z/)*

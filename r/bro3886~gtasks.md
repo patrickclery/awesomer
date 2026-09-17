@@ -15,4 +15,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Note Taking, Lists, Task Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bro3886~gtasks/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bro3886~gtasks/)*

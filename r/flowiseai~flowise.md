@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 55,458 | +12 | +93 | +1,865 | 2026-08-13 |
+| 55,464 | +12 | +88 | +1,762 | 2026-08-13 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flowiseai~flowise/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flowiseai~flowise/)*

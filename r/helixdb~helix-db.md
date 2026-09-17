@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,902 | +79 | +172 | +702 | 2026-09-12 |
+| 5,909 | +79 | +167 | +523 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/helixdb~helix-db/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/helixdb~helix-db/)*

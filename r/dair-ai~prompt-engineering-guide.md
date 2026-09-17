@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 78,274 | +231 | +801 | +2,639 | 2026-03-11 |
+| 78,364 | +231 | +841 | +2,642 | 2026-03-11 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Prompt Engineering
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dair-ai~prompt-engineering-guide/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dair-ai~prompt-engineering-guide/)*

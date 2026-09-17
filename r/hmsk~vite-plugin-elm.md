@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 220 | +0 | +1 | +4 | 2025-10-27 |
+| 220 | +0 | +0 | +4 | 2025-10-27 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Elm
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hmsk~vite-plugin-elm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hmsk~vite-plugin-elm/)*

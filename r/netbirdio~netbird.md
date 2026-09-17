@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,166 | +175 | +786 | +3,180 | 2026-09-13 |
+| 29,272 | +175 | +824 | +3,230 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/netbirdio~netbird/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/netbirdio~netbird/)*

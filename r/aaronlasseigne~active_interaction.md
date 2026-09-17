@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,147 | +1 | +4 | +4 | 2025-11-28 |
+| 2,147 | +1 | +4 | +3 | 2025-11-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Business logic
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aaronlasseigne~active_interaction/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aaronlasseigne~active_interaction/)*

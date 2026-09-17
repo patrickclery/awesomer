@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,003 | +4 | +9 | +9 | 2026-04-18 |
+| 7,006 | +4 | +9 | +10 | 2026-04-18 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / For Developers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/arzzen~git-quick-stats/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/arzzen~git-quick-stats/)*

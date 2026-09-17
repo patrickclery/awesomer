@@ -1,6 +1,6 @@
 # Roy3838/Observer
 
-> Why wait for computer if computer can wait for you
+> Why observe computer if computer can observe for you
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Roy3838/Observer) | [Live site ↗](https://patrickclery.com/awesomer/r/roy3838~observer/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,608 |  |  |  | 2026-09-12 |
+| 1,610 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/roy3838~observer/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/roy3838~observer/)*

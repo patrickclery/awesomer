@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,929 | +3 | +18 | +72 | 2026-09-09 |
+| 1,933 | +3 | +20 | +75 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Registry CLI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/regclient~regclient/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/regclient~regclient/)*

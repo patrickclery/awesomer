@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,499 | +6 | +26 | +91 | 2026-09-11 |
+| 4,500 | +6 | +21 | +88 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Builder
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/docker~buildx/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/docker~buildx/)*

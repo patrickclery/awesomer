@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,723 | +2 | +13 | +43 | 2026-09-12 |
+| 3,723 | +2 | +11 | +43 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Web Servers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxserver~docker-swag/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxserver~docker-swag/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,789 | +15 | +101 | +353 | 2026-09-09 |
+| 13,805 | +15 | +106 | +355 | 2026-09-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dlr-rm~stable-baselines3/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dlr-rm~stable-baselines3/)*

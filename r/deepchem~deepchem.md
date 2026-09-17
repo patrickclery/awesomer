@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,991 | +14 | +52 | +192 | 2026-08-20 |
+| 6,999 | +14 | +55 | +191 | 2026-08-20 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Scientific AI & Drug Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deepchem~deepchem/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepchem~deepchem/)*

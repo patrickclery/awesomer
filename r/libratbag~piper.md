@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,990 | +35 | +67 | +168 | 2026-08-12 |
+| 5,994 | +35 | +69 | +167 | 2026-08-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Others
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/libratbag~piper/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/libratbag~piper/)*

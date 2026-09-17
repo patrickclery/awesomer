@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 213 | +1 | +3 | +7 | 2026-08-19 |
+| 213 | +1 | +1 | +7 | 2026-08-19 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/abstract-ide~abstract/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/abstract-ide~abstract/)*

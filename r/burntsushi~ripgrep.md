@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 68,226 | +218 | +907 | +3,160 | 2026-08-04 |
+| 68,315 | +218 | +972 | +3,143 | 2026-08-04 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/burntsushi~ripgrep/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/burntsushi~ripgrep/)*

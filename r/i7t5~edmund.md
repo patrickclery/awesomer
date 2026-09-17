@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 218 | +2 | +46 |  | 2026-09-12 |
+| 224 | +2 | +48 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Markdown Tools [![Awesome List][awesome-list Icon]](https://github.com/BubuAnabelas/awesome-markdown#tools)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/i7t5~edmund/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/i7t5~edmund/)*

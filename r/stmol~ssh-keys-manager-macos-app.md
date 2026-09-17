@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 227 | +0 | +14 | +46 | 2026-07-03 |
+| 231 | +0 | +17 | +49 | 2026-07-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stmol~ssh-keys-manager-macos-app/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stmol~ssh-keys-manager-macos-app/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,234 | +4 | +16 | +92 | 2026-08-16 |
+| 12,239 | +4 | +23 | +94 | 2026-08-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/paulmillr~chokidar/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paulmillr~chokidar/)*

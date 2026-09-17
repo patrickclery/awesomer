@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,485 | +3 | +19 | +99 | 2026-09-07 |
+| 1,486 | +3 | +19 | +98 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Library
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wneessen~go-mail/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wneessen~go-mail/)*

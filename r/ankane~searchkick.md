@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,721 | -1 | +1 | +4 | 2026-08-17 |
+| 6,720 | -1 | +0 | +4 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~searchkick/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~searchkick/)*

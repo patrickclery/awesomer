@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 267 | -1 | +0 | +6 | 2026-09-13 |
+| 267 | -1 | +0 | +6 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/archergu~fast-vite-electron/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/archergu~fast-vite-electron/)*

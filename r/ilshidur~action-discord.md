@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 464 | +0 | +0 | -2 | 2026-08-14 |
+| 464 | +0 | +0 | -1 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Notifications and Messages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ilshidur~action-discord/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ilshidur~action-discord/)*

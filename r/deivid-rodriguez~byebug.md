@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,350 | +0 | +1 | -3 | 2026-07-27 |
+| 3,350 | +0 | +1 | +0 | 2026-07-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Debugging Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deivid-rodriguez~byebug/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deivid-rodriguez~byebug/)*

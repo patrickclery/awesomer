@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,048 | +2 | +5 |  | 2026-09-08 |
+| 2,049 | +2 | +6 |  | 2026-09-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/test-prof~test-prof/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/test-prof~test-prof/)*

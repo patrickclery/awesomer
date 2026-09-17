@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,424 | +12 | +41 | +116 | 2026-09-13 |
+| 2,430 | +12 | +44 | +117 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Registry CLI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/oras-project~oras/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oras-project~oras/)*

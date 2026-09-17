@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,251 | +1 | +2 | +6 | 2026-07-15 |
+| 1,253 | +1 | +3 | +8 | 2026-07-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Captchas and anti-spam
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/markets~invisible_captcha/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/markets~invisible_captcha/)*

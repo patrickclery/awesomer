@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 660 | +1 | +9 | +31 | 2026-06-28 |
+| 660 | +1 | +5 | +31 | 2026-06-28 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Work
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/j0hnm4r5~awesome-creative-technology/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/j0hnm4r5~awesome-creative-technology/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,025 | +57 | +146 | +450 | 2026-09-13 |
+| 16,042 | +57 | +153 | +441 | 2026-09-16 |
 
 ## Found In
 
-- [awesome-arr](../l/arr.md) / Indexer Managers
 - [awesome-piracy](../l/piracy.md) / Tracker Proxies
+- [awesome-arr](../l/arr.md) / Indexer Managers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jackett~jackett/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jackett~jackett/)*

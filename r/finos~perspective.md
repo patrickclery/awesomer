@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,193 | +15 | +86 | +230 | 2026-09-09 |
+| 11,216 | +15 | +101 | +247 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Infographics and Data Visualization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/finos~perspective/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/finos~perspective/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,882 | +33 | +93 | +340 | 2026-09-10 |
+| 8,883 | +33 | +91 | +332 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Medical Imaging & Healthcare AI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mic-dkfz~nnunet/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mic-dkfz~nnunet/)*

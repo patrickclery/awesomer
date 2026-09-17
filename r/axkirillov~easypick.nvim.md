@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 410 | +0 | +0 | +3 | 2026-08-06 |
+| 411 | +0 | +1 | +4 | 2026-08-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/axkirillov~easypick.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/axkirillov~easypick.nvim/)*

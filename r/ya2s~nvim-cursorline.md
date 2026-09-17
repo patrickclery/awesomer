@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Cursorline
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ya2s~nvim-cursorline/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ya2s~nvim-cursorline/)*

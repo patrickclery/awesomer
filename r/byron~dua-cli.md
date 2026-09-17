@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,255 | +28 | +126 | +317 | 2026-09-12 |
+| 6,265 | +28 | +124 | +315 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/byron~dua-cli/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/byron~dua-cli/)*

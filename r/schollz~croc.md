@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,314 | +216 | +565 | +5,049 | 2026-09-12 |
+| 40,349 | +216 | +500 | +5,084 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/schollz~croc/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/schollz~croc/)*

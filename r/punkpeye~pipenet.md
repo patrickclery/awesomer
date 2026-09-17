@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 526 | +1 | +9 | +26 | 2026-09-07 |
+| 527 | +1 | +10 | +26 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/punkpeye~pipenet/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/punkpeye~pipenet/)*

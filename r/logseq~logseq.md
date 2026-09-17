@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,885 | +118 | +439 | +1,494 | 2026-09-11 |
+| 44,934 | +118 | +449 | +1,487 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/logseq~logseq/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/logseq~logseq/)*

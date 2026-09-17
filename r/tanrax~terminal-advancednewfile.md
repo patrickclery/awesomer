@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 293 | +0 | +0 | +1 | 2026-08-14 |
+| 292 | +0 | -1 | +0 | 2026-08-14 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tanrax~terminal-advancednewfile/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tanrax~terminal-advancednewfile/)*

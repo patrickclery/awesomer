@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,490 | +0 | +2 |  | 2026-09-13 |
+| 1,490 | +0 | +2 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Type Signatures and Type Checking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/soutaro~steep/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/soutaro~steep/)*

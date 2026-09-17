@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,030 | +28 | +129 | +548 | 2026-09-11 |
+| 21,042 | +28 | +129 | +538 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~candle/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~candle/)*

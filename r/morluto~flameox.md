@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 121 | +1 | +90 |  | 2026-09-12 |
+| 114 | +1 | +80 |  | 2026-09-12 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/morluto~flameox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/morluto~flameox/)*

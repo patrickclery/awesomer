@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 472 | +4 | +25 | +73 | 2026-09-11 |
+| 474 | +4 | +26 | +72 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/muvon~octocode/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/muvon~octocode/)*

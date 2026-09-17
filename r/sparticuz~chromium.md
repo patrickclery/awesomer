@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,643 | +2 | +5 | +21 | 2026-09-11 |
+| 1,646 | +2 | +8 | +24 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Integrations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sparticuz~chromium/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sparticuz~chromium/)*

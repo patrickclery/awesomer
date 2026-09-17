@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,413 | +25 | +844 | +1,243 | 2026-09-11 |
+| 18,449 | +25 | +865 | +1,253 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/audacity~audacity/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/audacity~audacity/)*

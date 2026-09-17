@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,041 | +2 | +3 | +11 | 2026-09-11 |
+| 1,041 | +2 | +3 | +10 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Svelte
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sveltejs~vite-plugin-svelte/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sveltejs~vite-plugin-svelte/)*

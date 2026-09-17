@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 389 | +1 | +6 |  | 2026-09-03 |
+| 391 | +1 | +7 |  | 2026-09-03 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Architecture & Design
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cisco-open~network-sketcher/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cisco-open~network-sketcher/)*

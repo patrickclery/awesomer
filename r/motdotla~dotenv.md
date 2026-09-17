@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,535 | +5 | +21 | +69 | 2026-08-04 |
+| 20,537 | +5 | +19 | +65 | 2026-08-04 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/motdotla~dotenv/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/motdotla~dotenv/)*

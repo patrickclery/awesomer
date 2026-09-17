@@ -15,4 +15,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/scicloj~scicloj.ml/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scicloj~scicloj.ml/)*

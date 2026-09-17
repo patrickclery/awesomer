@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fastify~fastify-dx/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fastify~fastify-dx/)*

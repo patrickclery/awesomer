@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,655 | +99 | +356 | +1,580 | 2026-09-12 |
+| 12,689 | +99 | +353 | +1,494 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Documentation, Knowledge & Learning
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/piebald-ai~claude-code-system-prompts/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/piebald-ai~claude-code-system-prompts/)*

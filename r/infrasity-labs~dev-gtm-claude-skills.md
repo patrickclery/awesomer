@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 124 | +1 | +17 | +76 | 2026-06-28 |
+| 123 | +1 | +14 | +61 | 2026-06-28 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/infrasity-labs~dev-gtm-claude-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/infrasity-labs~dev-gtm-claude-skills/)*

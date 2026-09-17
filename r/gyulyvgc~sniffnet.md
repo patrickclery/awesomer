@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,100 | +91 | +568 | +1,860 | 2026-09-12 |
+| 41,130 | +91 | +554 | +1,776 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Network Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gyulyvgc~sniffnet/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gyulyvgc~sniffnet/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,814 | +17 | +103 | +288 | 2026-09-13 |
+| 2,826 | +17 | +106 | +297 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Inventory Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/donkie~spoolman/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/donkie~spoolman/)*

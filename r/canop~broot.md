@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,938 | +14 | +48 | +201 | 2026-09-11 |
+| 12,940 | +14 | +44 | +195 | 2026-09-13 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/canop~broot/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/canop~broot/)*

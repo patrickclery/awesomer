@@ -15,4 +15,4 @@
 - [awesome](../l/awesome.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rayokota~awesome-hbase/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rayokota~awesome-hbase/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,031 | +1 | +1 | +15 | 2026-07-23 |
+| 4,031 | +1 | +0 | +12 | 2026-07-23 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lirantal~dockly/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lirantal~dockly/)*

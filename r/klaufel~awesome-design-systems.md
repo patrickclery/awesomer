@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 885 | +3 | +7 | +26 | 2026-08-27 |
+| 885 | +3 | +5 | +24 | 2026-09-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/klaufel~awesome-design-systems/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/klaufel~awesome-design-systems/)*

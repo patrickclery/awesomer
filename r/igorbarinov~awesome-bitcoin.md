@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,351 | +2 | +3 | +18 | 2026-09-05 |
+| 1,353 | +2 | +3 | +21 | 2026-09-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Decentralized Systems
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/igorbarinov~awesome-bitcoin/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/igorbarinov~awesome-bitcoin/)*

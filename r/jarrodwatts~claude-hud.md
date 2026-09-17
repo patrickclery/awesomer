@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,948 | +171 | +568 | +2,746 | 2026-09-12 |
+| 28,001 | +171 | +559 | +2,593 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Status Lines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jarrodwatts~claude-hud/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jarrodwatts~claude-hud/)*

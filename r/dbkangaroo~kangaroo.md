@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 517 | +1 | +3 | +11 | 2026-09-05 |
+| 518 | +1 | +3 | +12 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / IDE
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dbkangaroo~kangaroo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dbkangaroo~kangaroo/)*

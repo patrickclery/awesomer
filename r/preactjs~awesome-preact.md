@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,002 | +0 | +0 | +8 | 2026-09-11 |
+| 1,004 | +0 | +2 | +9 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/preactjs~awesome-preact/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/preactjs~awesome-preact/)*

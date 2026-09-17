@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 147 | +1 | +3 | +17 | 2026-09-07 |
+| 147 | +1 | +2 | +15 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Time Tracking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/0xjuanma~helm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/0xjuanma~helm/)*

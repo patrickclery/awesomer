@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,083 | +23 | +90 | +245 | 2026-09-10 |
+| 10,091 | +23 | +93 | +239 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flyway~flyway/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flyway~flyway/)*

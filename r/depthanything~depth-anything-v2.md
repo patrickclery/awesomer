@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,803 | +34 | +154 | +519 | 2026-03-24 |
+| 8,817 | +34 | +157 | +515 | 2026-03-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multimodal Models (Vision + Language)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/depthanything~depth-anything-v2/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/depthanything~depth-anything-v2/)*

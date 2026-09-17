@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 109 | +0 | +0 | +7 | 2026-07-29 |
+| 109 | +0 | -1 | +4 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smughead~loupe/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/smughead~loupe/)*

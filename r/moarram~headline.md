@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 342 | +0 | -1 | +4 | 2025-10-14 |
+| 342 | +0 | -1 | +3 | 2025-10-14 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/moarram~headline/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/moarram~headline/)*

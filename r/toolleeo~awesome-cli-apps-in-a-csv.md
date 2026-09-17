@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,614 | +10 | +32 | +90 | 2026-07-29 |
+| 2,618 | +10 | +34 | +91 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Other Resources
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/toolleeo~awesome-cli-apps-in-a-csv/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/toolleeo~awesome-cli-apps-in-a-csv/)*

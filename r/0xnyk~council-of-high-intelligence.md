@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,232 | +174 | +279 |  | 2026-09-07 |
+| 4,240 | +174 | +272 |  | 2026-09-14 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/0xnyk~council-of-high-intelligence/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/0xnyk~council-of-high-intelligence/)*

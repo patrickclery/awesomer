@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,353 | +61 | +244 | +699 | 2026-09-06 |
+| 10,372 | +61 | +247 | +687 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Testing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/axllent~mailpit/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/axllent~mailpit/)*

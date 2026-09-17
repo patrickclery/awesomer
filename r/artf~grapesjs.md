@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,222 | +30 | +99 | +312 | 2026-08-26 |
+| 26,239 | +30 | +106 | +319 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/artf~grapesjs/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/artf~grapesjs/)*

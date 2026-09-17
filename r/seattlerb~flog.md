@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 968 | +0 | +2 | +4 | 2026-07-22 |
+| 968 | +0 | +2 | +3 | 2026-07-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Analysis and Metrics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/seattlerb~flog/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/seattlerb~flog/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,449 | +103 | +441 | +1,544 | 2026-08-07 |
+| 11,548 | +103 | +504 | +1,562 | 2026-08-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Multi-Purpose
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jeffallan~claude-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jeffallan~claude-skills/)*

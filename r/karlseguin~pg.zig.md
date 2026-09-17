@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 597 | +0 | +6 | +30 | 2026-08-26 |
+| 596 | +0 | +6 | +28 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/karlseguin~pg.zig/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/karlseguin~pg.zig/)*

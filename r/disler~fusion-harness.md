@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 557 |  |  |  | 2026-08-23 |
+| 568 |  |  |  | 2026-08-23 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Providers, Runtime & Integration Infrastructure
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/disler~fusion-harness/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/disler~fusion-harness/)*

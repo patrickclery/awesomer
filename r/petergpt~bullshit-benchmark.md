@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,864 |  |  |  | 2026-09-14 |
+| 1,872 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Explorers, Benchmarks, Leaderboards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/petergpt~bullshit-benchmark/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/petergpt~bullshit-benchmark/)*

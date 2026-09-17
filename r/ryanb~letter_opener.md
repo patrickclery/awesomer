@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,840 | +0 | +0 | -2 | 2026-04-25 |
+| 3,840 | +0 | +0 | -1 | 2026-04-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Email
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanb~letter_opener/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanb~letter_opener/)*

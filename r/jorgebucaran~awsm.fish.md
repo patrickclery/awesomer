@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,072 | +8 | +27 | +76 | 2026-01-25 |
+| 5,075 | +8 | +26 | +74 | 2026-01-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jorgebucaran~awsm.fish/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jorgebucaran~awsm.fish/)*

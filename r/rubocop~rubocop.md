@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,901 | -1 | +1 |  | 2026-09-13 |
+| 12,903 | -1 | +5 |  | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Formatting
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rubocop~rubocop/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rubocop~rubocop/)*

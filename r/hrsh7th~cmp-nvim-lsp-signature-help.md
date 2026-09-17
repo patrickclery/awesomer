@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Completion
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hrsh7th~cmp-nvim-lsp-signature-help/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hrsh7th~cmp-nvim-lsp-signature-help/)*

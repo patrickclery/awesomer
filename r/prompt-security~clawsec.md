@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,103 | +6 | +21 | +65 | 2026-09-13 |
+| 1,103 | +6 | +20 | +62 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/prompt-security~clawsec/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prompt-security~clawsec/)*

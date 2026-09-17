@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 532 | +4 | +16 | +36 | 2026-09-10 |
+| 536 | +4 | +18 | +39 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Server
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kumocorp~kumomta/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kumocorp~kumomta/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 410 | +2 | +7 | +40 | 2026-08-03 |
+| 412 | +2 | +10 | +42 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Document Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jonashellmann~everydocs-core/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jonashellmann~everydocs-core/)*

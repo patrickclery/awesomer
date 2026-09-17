@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,975 | +1 | +4 | +10 | 2026-04-24 |
+| 1,975 | +1 | +3 | +10 | 2026-04-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ruby](../l/ruby.md) / Encryption
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cossacklabs~themis/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cossacklabs~themis/)*

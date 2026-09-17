@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,228 | +0 | -4 |  | 2026-09-11 |
+| 3,228 | +0 | -1 |  | 2026-09-11 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/github~secure_headers/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/github~secure_headers/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,284 | +22 | +128 | +434 | 2026-09-05 |
+| 12,309 | +22 | +146 | +435 | 2026-09-05 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Computer Use
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/simular-ai~agent-s/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/simular-ai~agent-s/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,362 | +20 | +95 | +319 | 2026-09-11 |
+| 9,382 | +20 | +108 | +328 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/falcosecurity~falco/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/falcosecurity~falco/)*

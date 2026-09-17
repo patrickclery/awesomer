@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Core Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ms-ati~docile/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ms-ati~docile/)*

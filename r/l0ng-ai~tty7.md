@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 878 | +37 | +191 |  | 2026-09-12 |
+| 895 | +37 | +165 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Terminal Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~tty7/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~tty7/)*

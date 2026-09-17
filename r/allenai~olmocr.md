@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,468 | +33 | +160 |  | 2026-03-25 |
+| 19,609 | +33 | +269 |  | 2026-03-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Document Conversion & Preprocessing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/allenai~olmocr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/allenai~olmocr/)*

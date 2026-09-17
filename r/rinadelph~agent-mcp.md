@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,290 | +2 | +17 | +44 | 2026-03-28 |
+| 1,291 | +2 | +17 | +44 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rinadelph~agent-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rinadelph~agent-mcp/)*

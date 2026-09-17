@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,730 | +22 | +101 | +339 | 2026-09-04 |
+| 11,745 | +22 | +110 | +340 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Gaming Software
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/playcover~playcover/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/playcover~playcover/)*

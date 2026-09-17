@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 205 | +0 | +1 | +7 | 2026-09-11 |
+| 206 | +0 | +2 | +7 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Analytics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jortilles~eda/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jortilles~eda/)*

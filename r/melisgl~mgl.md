@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 650 | +0 | +1 | +5 | 2026-06-27 |
+| 650 | +0 | +1 | +6 | 2026-06-27 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Common Lisp
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/melisgl~mgl/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/melisgl~mgl/)*

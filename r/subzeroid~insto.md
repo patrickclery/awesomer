@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 110 | +1 | +22 | +82 | 2026-09-07 |
+| 112 | +1 | +23 | +83 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Instagram
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/subzeroid~insto/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/subzeroid~insto/)*

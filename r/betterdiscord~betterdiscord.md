@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,234 | +14 | +60 | +133 | 2026-09-11 |
+| 9,239 | +14 | +62 | +134 | 2026-09-11 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/betterdiscord~betterdiscord/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/betterdiscord~betterdiscord/)*

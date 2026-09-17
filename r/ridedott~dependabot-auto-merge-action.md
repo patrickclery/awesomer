@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 316 | -1 | -1 | +0 | 2026-09-11 |
+| 316 | -1 | -1 | +0 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ridedott~dependabot-auto-merge-action/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ridedott~dependabot-auto-merge-action/)*

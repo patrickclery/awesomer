@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,530 | +31 | +119 | +1,048 | 2026-09-03 |
+| 1,544 | +31 | +119 | +911 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Cleanup and Uninstall
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/iliyami~macclean/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/iliyami~macclean/)*

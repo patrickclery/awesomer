@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 326 | +12 | +61 |  | 2026-09-03 |
+| 335 | +12 | +63 |  | 2026-09-03 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Design & UI/UX
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/educlopez~ui-craft/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/educlopez~ui-craft/)*

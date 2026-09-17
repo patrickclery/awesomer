@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,981 | +185 | +2,395 | +4,209 | 2026-09-10 |
+| 11,055 | +185 | +2,405 | +4,144 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jo-inc~camofox-browser/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jo-inc~camofox-browser/)*

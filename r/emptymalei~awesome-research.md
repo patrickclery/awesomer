@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,767 | +10 | +33 | +84 | 2026-05-19 |
+| 2,768 | +10 | +28 | +79 | 2026-05-19 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/emptymalei~awesome-research/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/emptymalei~awesome-research/)*

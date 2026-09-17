@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,899 | +49 | +160 | +610 | 2026-09-13 |
+| 40,914 | +49 | +163 | +590 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~faiss/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~faiss/)*

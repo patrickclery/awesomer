@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,740 | +0 | +0 |  | 2026-09-04 |
+| 2,740 | +0 | -1 |  | 2026-09-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Optimizations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rails~bootsnap/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rails~bootsnap/)*

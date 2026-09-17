@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,690 | +0 | +2 | +11 | 2026-07-29 |
+| 5,690 | +0 | +1 | +12 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/danger~danger/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/danger~danger/)*

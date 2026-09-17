@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,876 | +79 | +270 | +739 | 2026-09-13 |
+| 7,888 | +79 | +263 | +722 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Remote Access
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/warp-tech~warpgate/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/warp-tech~warpgate/)*

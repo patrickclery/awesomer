@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 109,682 | +179 | +948 | +2,616 | 2026-08-31 |
+| 109,769 | +179 | +973 | +2,617 | 2026-08-31 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/papers-we-love~papers-we-love/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/papers-we-love~papers-we-love/)*

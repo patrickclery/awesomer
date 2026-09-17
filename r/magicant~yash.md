@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 568 | +2 | +11 | +28 | 2026-09-12 |
+| 569 | +2 | +12 | +29 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shells
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/magicant~yash/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/magicant~yash/)*

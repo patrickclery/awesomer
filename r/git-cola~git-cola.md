@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,573 | +5 | +15 | +39 | 2026-09-06 |
+| 2,574 | +5 | +15 | +40 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/git-cola~git-cola/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/git-cola~git-cola/)*

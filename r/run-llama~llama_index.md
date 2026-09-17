@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 52,148 | +141 | +511 | +2,009 | 2026-09-11 |
+| 52,184 | +141 | +489 | +1,980 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/run-llama~llama_index/)*

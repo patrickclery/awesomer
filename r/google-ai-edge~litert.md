@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,397 | +22 | +96 | +839 | 2026-09-13 |
+| 3,407 | +22 | +97 | +837 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert/)*

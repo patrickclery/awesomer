@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 431 | +1 | +1 | +4 | 2026-03-05 |
+| 432 | +1 | +2 | +5 | 2026-03-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zhiningliu1998~imbalanced-ensemble/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zhiningliu1998~imbalanced-ensemble/)*

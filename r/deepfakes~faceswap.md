@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 57,547 | +28 | +93 |  | 2026-08-05 |
+| 57,554 | +28 | +87 |  | 2026-08-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Face Swap & Deepfake
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/deepfakes~faceswap/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepfakes~faceswap/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,585 | +2 | +14 | +39 | 2026-05-18 |
+| 1,588 | +2 | +14 | +41 | 2026-05-18 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~warpinator/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~warpinator/)*

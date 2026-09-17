@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,938 | +11 | +22 | +60 | 2026-09-07 |
+| 6,942 | +11 | +25 | +62 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Interpretability & Explainability
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/interpretml~interpret/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/interpretml~interpret/)*

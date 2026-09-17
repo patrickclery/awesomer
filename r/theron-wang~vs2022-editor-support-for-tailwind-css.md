@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 149 | +1 | +0 | +2 | 2026-09-11 |
+| 149 | +1 | +0 | +2 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / IDE extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/theron-wang~vs2022-editor-support-for-tailwind-css/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/theron-wang~vs2022-editor-support-for-tailwind-css/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 540 | +3 | +60 | +72 | 2026-09-13 |
+| 545 | +3 | +64 | +76 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pietheinstrengholt~rssmonster/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pietheinstrengholt~rssmonster/)*

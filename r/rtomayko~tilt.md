@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,943 | +0 | +1 | +4 | 2026-05-13 |
+| 1,944 | +0 | +2 | +5 | 2026-05-13 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Template Engine
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rtomayko~tilt/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rtomayko~tilt/)*

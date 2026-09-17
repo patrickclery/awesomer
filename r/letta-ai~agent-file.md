@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,197 | +0 | +3 | +39 | 2026-03-24 |
+| 1,199 | +0 | +3 | +40 | 2026-03-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Protocols & Standards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/letta-ai~agent-file/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/letta-ai~agent-file/)*

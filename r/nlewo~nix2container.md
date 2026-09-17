@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 911 | +2 | +16 | +53 | 2026-09-07 |
+| 911 | +2 | +14 | +55 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Builder
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nlewo~nix2container/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nlewo~nix2container/)*

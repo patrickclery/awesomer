@@ -15,4 +15,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gabber-dev~gabber/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gabber-dev~gabber/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 288 | +4 | +18 | +119 | 2026-09-02 |
+| 290 | +4 | +18 | +114 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Customer Data Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saurabhsharma2u~search-console-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/saurabhsharma2u~search-console-mcp/)*

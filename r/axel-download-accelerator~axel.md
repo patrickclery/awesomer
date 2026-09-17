@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,400 | +3 | +8 | +26 | 2026-08-29 |
+| 3,401 | +3 | +8 | +26 | 2026-08-29 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / DDL Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/axel-download-accelerator~axel/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/axel-download-accelerator~axel/)*

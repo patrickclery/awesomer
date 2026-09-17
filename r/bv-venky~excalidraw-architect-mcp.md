@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 150 | +3 | +8 | +28 | 2026-08-25 |
+| 150 | +3 | +7 | +25 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Architecture & Design
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/bv-venky~excalidraw-architect-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bv-venky~excalidraw-architect-mcp/)*

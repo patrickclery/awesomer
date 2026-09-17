@@ -15,4 +15,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Just for Fun
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/xxczaki~oji/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xxczaki~oji/)*

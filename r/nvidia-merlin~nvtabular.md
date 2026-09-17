@@ -15,4 +15,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Feature Engineering & Data Preparation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-merlin~nvtabular/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia-merlin~nvtabular/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,220 | +3 | +23 | +80 | 2026-09-10 |
+| 5,223 | +3 | +21 | +81 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unlayer~react-email-editor/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unlayer~react-email-editor/)*

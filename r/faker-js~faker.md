@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,489 | +20 | +39 | +122 | 2026-09-13 |
+| 15,487 | +20 | +40 | +115 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/faker-js~faker/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/faker-js~faker/)*

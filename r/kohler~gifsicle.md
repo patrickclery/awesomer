@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,317 | +5 | +17 | +63 | 2026-01-31 |
+| 4,317 | +5 | +16 | +60 | 2026-01-31 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Images
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kohler~gifsicle/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kohler~gifsicle/)*

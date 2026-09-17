@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,148 | +3 | +15 | +57 | 2026-08-18 |
+| 2,150 | +3 | +16 | +59 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Clipboard Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pastebar~pastebarapp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pastebar~pastebarapp/)*

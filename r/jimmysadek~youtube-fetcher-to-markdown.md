@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 473 | -1 |  |  | 2026-09-05 |
+| 476 | -1 | +278 |  | 2026-09-05 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jimmysadek~youtube-fetcher-to-markdown/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jimmysadek~youtube-fetcher-to-markdown/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,841 |  |  |  | 2025-09-21 |
+| 25,876 |  |  |  | 2025-09-21 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/humanlayer~12-factor-agents/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/humanlayer~12-factor-agents/)*

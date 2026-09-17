@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,352 | +39 | +145 |  | 2026-09-11 |
+| 1,361 | +39 | +145 |  | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Legal AI & Contract Analysis
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/harveyai~harvey-labs/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/harveyai~harvey-labs/)*

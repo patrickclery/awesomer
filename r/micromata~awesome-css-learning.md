@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,858 | +3 | +14 | +40 | 2026-02-01 |
+| 3,861 | +3 | +16 | +41 | 2026-02-01 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/micromata~awesome-css-learning/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/micromata~awesome-css-learning/)*

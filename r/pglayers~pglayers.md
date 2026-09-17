@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 159 | +1 | +14 |  | 2026-09-12 |
+| 161 | +1 | +15 |  | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-postgres](../l/postgres.md) / Docker images
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pglayers~pglayers/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pglayers~pglayers/)*

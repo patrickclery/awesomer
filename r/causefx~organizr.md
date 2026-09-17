@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,814 | +1 | +6 | +39 | 2026-05-19 |
+| 5,813 | +1 | +4 | +35 | 2026-05-19 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-arr](../l/arr.md) / Dashboards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/causefx~organizr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/causefx~organizr/)*

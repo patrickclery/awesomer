@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,357 | +1 | +2 | +2 | 2026-07-24 |
+| 1,356 | +1 | +1 | +1 | 2026-07-24 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/catsmiaow~node-nestjs-structure/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/catsmiaow~node-nestjs-structure/)*

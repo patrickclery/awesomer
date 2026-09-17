@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,516 | +29 | +53 | +641 | 2026-09-10 |
+| 4,514 | +29 | +44 | +639 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Traditional Market
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/taurusai~kungfu/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/taurusai~kungfu/)*

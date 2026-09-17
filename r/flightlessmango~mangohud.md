@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,023 | +38 | +91 | +320 | 2026-09-12 |
+| 9,031 | +38 | +95 | +310 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flightlessmango~mangohud/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flightlessmango~mangohud/)*

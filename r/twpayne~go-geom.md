@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 974 | +0 | +3 | +4 | 2026-08-19 |
+| 975 | +0 | +4 | +5 | 2026-08-19 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Go
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/twpayne~go-geom/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/twpayne~go-geom/)*

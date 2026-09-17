@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 290 | +1 | +5 | +22 | 2026-09-08 |
+| 291 | +1 | +6 | +21 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Markdown and LaTeX
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yousefhadder~markdown-plus.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yousefhadder~markdown-plus.nvim/)*

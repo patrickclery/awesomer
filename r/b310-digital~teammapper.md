@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 496 | +3 | +11 | +30 | 2026-09-13 |
+| 496 | +3 | +8 | +31 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Knowledge Management Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/b310-digital~teammapper/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/b310-digital~teammapper/)*

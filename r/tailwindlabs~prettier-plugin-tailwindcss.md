@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,131 | +5 | +8 | +45 | 2026-09-01 |
+| 7,131 | +5 | +7 | +44 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tailwindlabs~prettier-plugin-tailwindcss/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tailwindlabs~prettier-plugin-tailwindcss/)*

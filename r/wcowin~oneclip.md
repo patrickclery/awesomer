@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 462 | +12 | +27 | +110 | 2026-09-08 |
+| 462 | +12 | +24 | +110 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Clipboard Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wcowin~oneclip/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wcowin~oneclip/)*

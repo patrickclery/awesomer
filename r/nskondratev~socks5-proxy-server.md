@@ -15,4 +15,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Proxy
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nskondratev~socks5-proxy-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nskondratev~socks5-proxy-server/)*

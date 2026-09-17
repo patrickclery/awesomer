@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Marks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/evwilson~spelunk.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/evwilson~spelunk.nvim/)*

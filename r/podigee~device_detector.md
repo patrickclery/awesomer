@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / HTTP Clients and tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/podigee~device_detector/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/podigee~device_detector/)*

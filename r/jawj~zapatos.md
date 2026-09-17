@@ -15,4 +15,4 @@
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jawj~zapatos/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jawj~zapatos/)*

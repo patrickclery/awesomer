@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 267 | +3 | +9 | +26 | 2026-08-27 |
+| 267 | +3 | +7 | +25 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Customer Data Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hustcc~mcp-echarts/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hustcc~mcp-echarts/)*

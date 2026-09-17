@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 380 | +1 | -1 | -1 | 2025-10-17 |
+| 380 | +1 | +0 | -1 | 2025-10-17 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/six-ddc~hss/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/six-ddc~hss/)*

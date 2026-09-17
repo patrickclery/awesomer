@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 159 | +0 | +2 | +10 | 2026-09-13 |
+| 159 | +0 | +2 | +10 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gmt4~mpvc/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gmt4~mpvc/)*

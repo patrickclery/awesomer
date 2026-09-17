@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 799 | +0 | +0 | +10 | 2026-07-12 |
+| 799 | +0 | +0 | +8 | 2026-07-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Backup
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~pg_probackup/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrespro~pg_probackup/)*

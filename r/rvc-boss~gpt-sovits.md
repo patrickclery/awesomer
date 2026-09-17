@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,770 | +198 | +914 | +3,073 | 2026-08-18 |
+| 61,801 | +198 | +827 | +3,002 | 2026-08-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Audio / Music / Voice Generation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rvc-boss~gpt-sovits/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rvc-boss~gpt-sovits/)*

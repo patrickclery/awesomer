@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 37,059 | +212 | +948 | +3,121 | 2026-09-11 |
+| 37,164 | +212 | +966 | +3,092 | 2026-09-14 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-mcp/)*

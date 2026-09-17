@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,572 | -1 | -3 |  | 2026-09-08 |
+| 4,571 | -1 | -5 |  | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sferik~twitter-ruby/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sferik~twitter-ruby/)*

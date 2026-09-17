@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 38,713 | +399 | +1,570 |  | 2026-04-13 |
+| 38,856 | +399 | +1,431 |  | 2026-04-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Finance & Quantitative AI
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/shiyu-coder~kronos/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shiyu-coder~kronos/)*

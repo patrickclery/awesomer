@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,715 | +7 | +24 | +61 | 2026-06-25 |
+| 4,719 | +7 | +25 | +61 | 2026-06-25 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Proxy
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antoniomika~sish/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/antoniomika~sish/)*

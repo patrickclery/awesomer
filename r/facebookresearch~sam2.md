@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,854 | +42 | +152 | +504 | 2026-05-30 |
+| 19,874 | +42 | +166 | +496 | 2026-05-30 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~sam2/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~sam2/)*

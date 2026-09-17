@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,002 | +26 | +362 |  | 2026-07-28 |
+| 3,017 | +26 | +367 |  | 2026-07-28 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Start Here
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wesammustafa~claude-code-everything-you-need-to-know/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wesammustafa~claude-code-everything-you-need-to-know/)*

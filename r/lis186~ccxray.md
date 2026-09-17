@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 293 | +3 | +34 | +102 | 2026-09-09 |
+| 294 | +3 | +35 | +102 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Usage & Cost
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lis186~ccxray/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lis186~ccxray/)*

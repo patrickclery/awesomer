@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,840 | +9 | +42 | +156 | 2026-09-02 |
+| 4,847 | +9 | +44 | +153 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Forwarding
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/anonaddy~anonaddy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/anonaddy~anonaddy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 479 | +0 | +3 | +3 | 2026-08-30 |
+| 479 | +0 | +2 | +3 | 2026-08-30 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Pull Requests
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hmarr~auto-approve-action/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hmarr~auto-approve-action/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,130 | +14 | +43 | +160 | 2026-09-10 |
+| 9,138 | +14 | +47 | +161 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Hubs & Registries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/modelscope~modelscope/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modelscope~modelscope/)*

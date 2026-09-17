@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 795 | +1 | +5 | +10 | 2026-02-17 |
+| 795 | +1 | +5 | +12 | 2026-02-17 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/arl~gitmux/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/arl~gitmux/)*

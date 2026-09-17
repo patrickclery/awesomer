@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 810 | +0 | -2 | +1 | 2026-03-03 |
+| 810 | +0 | -1 | +0 | 2026-03-03 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Projects using NestJS
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/eicrud~eicrud/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eicrud~eicrud/)*

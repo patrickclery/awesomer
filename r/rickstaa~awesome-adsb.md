@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 381 | +0 | +7 | +64 | 2026-09-05 |
+| 381 | +0 | +7 | +63 | 2026-09-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Hardware
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rickstaa~awesome-adsb/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rickstaa~awesome-adsb/)*

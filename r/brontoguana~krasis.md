@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 521 |  |  |  | 2026-09-03 |
+| 521 |  |  |  | 2026-09-15 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Inference engines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brontoguana~krasis/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brontoguana~krasis/)*

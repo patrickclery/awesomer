@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,484 | +2 | +3 | +30 | 2026-07-28 |
+| 1,484 | +2 | +3 | +24 | 2026-07-28 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/securitybunker~databunker/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/securitybunker~databunker/)*

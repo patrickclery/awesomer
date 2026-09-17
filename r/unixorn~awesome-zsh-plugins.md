@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,000 | +34 | +88 | +236 | 2026-09-06 |
+| 18,009 | +34 | +77 | +235 | 2026-09-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~awesome-zsh-plugins/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~awesome-zsh-plugins/)*

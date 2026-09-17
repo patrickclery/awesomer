@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,341 | +2 | +1 | +49 | 2026-06-26 |
+| 20,344 | +2 | +2 | +42 | 2026-06-26 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/knex~knex/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/knex~knex/)*

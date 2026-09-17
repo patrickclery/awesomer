@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~rnvimr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~rnvimr/)*

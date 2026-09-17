@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Project
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cljoly~telescope-repo.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cljoly~telescope-repo.nvim/)*

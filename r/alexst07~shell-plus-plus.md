@@ -15,4 +15,4 @@
 - [awesome-shell](../l/shell.md) / Shells
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alexst07~shell-plus-plus/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexst07~shell-plus-plus/)*

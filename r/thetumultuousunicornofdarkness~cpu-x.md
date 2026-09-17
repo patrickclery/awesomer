@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,652 | +4 | +12 | +47 | 2026-09-13 |
+| 2,653 | +4 | +12 | +46 | 2026-09-13 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thetumultuousunicornofdarkness~cpu-x/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thetumultuousunicornofdarkness~cpu-x/)*

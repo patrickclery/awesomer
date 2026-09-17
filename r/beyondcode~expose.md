@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,571 | +1 | +3 | +2 | 2026-09-11 |
+| 4,571 | +1 | +3 | +4 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/beyondcode~expose/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/beyondcode~expose/)*
