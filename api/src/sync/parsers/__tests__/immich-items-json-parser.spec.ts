@@ -132,4 +132,12 @@ describe('ImmichItemsJsonParser', () => {
     expect(empty.categories).toEqual([]);
     expect(empty.items).toEqual([]);
   });
+
+  it('returns an empty result rather than throwing when sourceCodeUrl is not a string', () => {
+    const json = JSON.stringify([
+      { name: 'Tools', projects: [{ title: 'X', sourceCodeUrl: { url: 'https://github.com/a/b' } }] },
+    ]);
+    expect(() => parser.parse(json)).not.toThrow();
+    expect(parser.parse(json).items).toEqual([]);
+  });
 });

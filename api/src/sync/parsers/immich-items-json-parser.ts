@@ -58,7 +58,7 @@ export class ImmichItemsJsonParser implements ReadmeParser {
       for (const project of projects) {
         // No source URL at all (website-only guides) -- dropped per the `github_repo IS NULL` rule.
         const url = project?.sourceCodeUrl;
-        if (!url) continue;
+        if (typeof url !== 'string' || !url) continue;
         // File references inside a repo (/blob/, /tree/, /raw/).
         if (SKIP_URL.test(url)) continue;
         // Anything that is not a GitHub root repo URL (non-GitHub forges, deep paths).
