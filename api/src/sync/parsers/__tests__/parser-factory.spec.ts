@@ -3,6 +3,7 @@ import { DefaultReadmeParser } from '../default-readme-parser.js';
 import { AiAgentsReadmeParser } from '../ai-agents-readme-parser.js';
 import { OpensourceAiReadmeParser } from '../opensource-ai-readme-parser.js';
 import { McpServersReadmeParser } from '../mcp-servers-readme-parser.js';
+import { ImmichItemsJsonParser } from '../immich-items-json-parser.js';
 
 describe('getParser', () => {
   it('returns DefaultReadmeParser for null', () => {
@@ -27,5 +28,11 @@ describe('getParser', () => {
 
   it('returns McpServersReadmeParser for "mcp-servers"', () => {
     expect(getParser('mcp-servers')).toBeInstanceOf(McpServersReadmeParser);
+  });
+
+  it('returns ImmichItemsJsonParser for "immich"', () => {
+    const parser = getParser('immich');
+    expect(parser).toBeInstanceOf(ImmichItemsJsonParser);
+    expect(parser.sourcePath).toBe('apps/awesome.immich.app/src/data/items.json');
   });
 });
