@@ -1,0 +1,18 @@
+# JoseDeFreitas/awesome-youtubers
+
+> An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, mac
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/JoseDeFreitas/awesome-youtubers) | [Live site ↗](https://patrickclery.com/awesomer/r/josedefreitas~awesome-youtubers/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 7,820 | +15 | +71 | +327 | 2026-08-05 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Learn
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/josedefreitas~awesome-youtubers/)*

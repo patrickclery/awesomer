@@ -1,0 +1,18 @@
+# Owloops/updo
+
+> Uptime monitoring CLI tool with alerting and advanced settings
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Owloops/updo) | [Live site ↗](https://patrickclery.com/awesomer/r/owloops~updo/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,137 | +3 | +15 | +140 | 2026-05-26 |
+
+## Found In
+
+- [awesome-cli-apps](../l/cli-apps.md) / Development
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/owloops~updo/)*

@@ -1,0 +1,18 @@
+# zasper-io/zasper
+
+> High Performace IDE for Jupyter Notebooks
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/zasper-io/zasper) | [Live site ↗](https://patrickclery.com/awesomer/r/zasper-io~zasper/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 2,348 | +9 | +27 | +16 | 2026-09-23 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Notebooks & Interactive Computing
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/zasper-io~zasper/)*

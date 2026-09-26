@@ -1,0 +1,18 @@
+# chainguard-images/images
+
+> Public Chainguard Images
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/chainguard-images/images) | [Live site ↗](https://patrickclery.com/awesomer/r/chainguard-images~images/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 695 | +2 | +3 | +14 | 2026-09-26 |
+
+## Found In
+
+- [awesome-docker](../l/docker.md) / Base Images
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/chainguard-images~images/)*

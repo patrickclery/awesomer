@@ -1,0 +1,18 @@
+# google-ai-edge/LiteRT
+
+> LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/google-ai-edge/LiteRT) | [Live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 3,447 | +31 | +112 | +843 | 2026-09-26 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert/)*

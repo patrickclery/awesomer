@@ -1,0 +1,18 @@
+# chrisgrieser/nvim-early-retirement
+
+> Send buffers into early retirement by automatically closing them after x minutes of inactivity.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/chrisgrieser/nvim-early-retirement) | [Live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-early-retirement/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 257 | +0 | +0 | +2 | 2026-09-18 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / Buffers
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-early-retirement/)*

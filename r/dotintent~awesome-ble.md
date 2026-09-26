@@ -1,0 +1,18 @@
+# dotintent/awesome-ble
+
+> A collaborative list of Awesome Bluetooth Low Energy (BLE) resources. Feel free to contribute!
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/dotintent/awesome-ble) | [Live site ↗](https://patrickclery.com/awesomer/r/dotintent~awesome-ble/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 150 | +2 | +3 | +6 | 2026-09-11 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Platforms
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/dotintent~awesome-ble/)*

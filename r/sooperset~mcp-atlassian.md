@@ -1,0 +1,18 @@
+# sooperset/mcp-atlassian
+
+> MCP server for Atlassian tools (Confluence, Jira)
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/sooperset/mcp-atlassian) | [Live site ↗](https://patrickclery.com/awesomer/r/sooperset~mcp-atlassian/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 5,941 | +24 | +151 | +495 | 2026-09-19 |
+
+## Found In
+
+- [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
+
+---
+*Updated: 2026-09-26 | [View live site ↗](https://patrickclery.com/awesomer/r/sooperset~mcp-atlassian/)*
