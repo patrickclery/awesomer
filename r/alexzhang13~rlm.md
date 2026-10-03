@@ -1,0 +1,18 @@
+# alexzhang13/rlm
+
+> General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/alexzhang13/rlm) | [Live site ↗](https://patrickclery.com/awesomer/r/alexzhang13~rlm/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 5,657 | +13 | +115 |  | 2026-09-24 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
+
+---
+*Updated: 2026-10-03 | [View live site ↗](https://patrickclery.com/awesomer/r/alexzhang13~rlm/)*

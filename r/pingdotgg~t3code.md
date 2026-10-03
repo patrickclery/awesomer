@@ -1,0 +1,18 @@
+# pingdotgg/t3code
+
+> No description available.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/pingdotgg/t3code) | [Live site ↗](https://patrickclery.com/awesomer/r/pingdotgg~t3code/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 24,416 | +815 | +3,196 |  | 2026-10-03 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Desktop & Mobile AI Apps
+
+---
+*Updated: 2026-10-03 | [View live site ↗](https://patrickclery.com/awesomer/r/pingdotgg~t3code/)*

@@ -1,0 +1,18 @@
+# saghen/blink.cmp
+
+> Performant, batteries-included completion plugin for Neovim 
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/saghen/blink.cmp) | [Live site ↗](https://patrickclery.com/awesomer/r/saghen~blink.cmp/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 6,609 | +12 | +68 | +186 | 2026-10-01 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / Completion
+
+---
+*Updated: 2026-10-03 | [View live site ↗](https://patrickclery.com/awesomer/r/saghen~blink.cmp/)*

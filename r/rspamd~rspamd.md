@@ -1,0 +1,18 @@
+# rspamd/rspamd
+
+> Rapid spam filtering system.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/rspamd/rspamd) | [Live site ↗](https://patrickclery.com/awesomer/r/rspamd~rspamd/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 2,535 | +1 | +21 | +47 | 2026-10-02 |
+
+## Found In
+
+- [awesome-opensource-email](../l/opensource-email.md) / SPAM Filtering
+
+---
+*Updated: 2026-10-03 | [View live site ↗](https://patrickclery.com/awesomer/r/rspamd~rspamd/)*
