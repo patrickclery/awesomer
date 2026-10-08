@@ -33,8 +33,8 @@ const ibmPlexSans = IBM_Plex_Sans({
 // basePath ('/awesomer' on gh-pages, '' locally). Next prefixes file-convention
 // assets (opengraph-image, icon, ...) with basePath itself, so metadataBase must be
 // the bare origin — a '/awesomer/' path here would double the prefix in og:image.
-// The public/ manifest is NOT prefixed by Next, so it is prefixed manually.
-const basePath = process.env.BASE_PATH || '';
+// The web manifest is the app/manifest.ts metadata route, whose <link> Next emits
+// (basePath-prefixed) automatically.
 
 // Umami analytics (D-11). Read at build time; the tag is only emitted when both
 // values are configured so builds without them never point visitors at a dead host.
@@ -49,7 +49,6 @@ export const metadata: Metadata = {
   },
   description:
     'Trending GitHub repos, organized by awesome-list. 7d / 30d / 90d star deltas across curated awesome-lists.',
-  manifest: `${basePath}/manifest.webmanifest`,
   // No `url` here: a root og:url would be inherited by every route that doesn't
   // override it, collapsing shared deep links into the homepage card. Routes set
   // their own og:url / canonical via pageMetadata() in lib/metadata.ts.

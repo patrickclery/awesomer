@@ -1,9 +1,0 @@
-{
-  "name": "awesomer",
-  "short_name": "awesomer",
-  "description": "Trending GitHub repos, organized by awesome-list",
-  "start_url": "/awesomer/",
-  "display": "standalone",
-  "background_color": "#1e1e2e",
-  "theme_color": "#1e1e2e"
-}
