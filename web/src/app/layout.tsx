@@ -30,10 +30,38 @@ const ibmPlexSans = IBM_Plex_Sans({
   display: 'swap',
 });
 
+// basePath ('/awesomer' on gh-pages, '' locally). Next prefixes file-convention
+// assets (opengraph-image, icon, ...) with basePath itself, so metadataBase must be
+// the bare origin — a '/awesomer/' path here would double the prefix in og:image.
+// The public/ manifest is NOT prefixed by Next, so it is prefixed manually.
+const basePath = process.env.BASE_PATH || '';
+
+// Umami analytics (D-11). Read at build time; the tag is only emitted when both
+// values are configured so builds without them never point visitors at a dead host.
+const umamiScriptUrl = process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL;
+const umamiWebsiteId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
+
 export const metadata: Metadata = {
-  title: 'awesomer — trending open source tools',
+  metadataBase: new URL('https://patrickclery.com'),
+  title: {
+    default: 'awesomer — Trending GitHub repos, organized by awesome-list',
+    template: '%s | awesomer',
+  },
   description:
-    'Data-driven discovery of trending open-source tools. GitHub stars are the signal.',
+    'Trending GitHub repos, organized by awesome-list. 7d / 30d / 90d star deltas across curated awesome-lists.',
+  manifest: `${basePath}/manifest.webmanifest`,
+  openGraph: {
+    title: 'awesomer — Trending GitHub repos, organized by awesome-list',
+    description: 'Trending GitHub repos, organized by awesome-list.',
+    url: 'https://patrickclery.com/awesomer/',
+    siteName: 'awesomer',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'awesomer — Trending GitHub repos, organized by awesome-list',
+    description: 'Trending GitHub repos, organized by awesome-list.',
+  },
 };
 
 export default function RootLayout({
@@ -43,6 +71,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        {umamiScriptUrl && umamiWebsiteId && (
+          <script async defer src={umamiScriptUrl} data-website-id={umamiWebsiteId} />
+        )}
+      </head>
       <body
         className={`${geistMono.variable} ${ibmPlexSans.variable} ${asciiMono.variable} antialiased bg-background text-foreground`}
       >
