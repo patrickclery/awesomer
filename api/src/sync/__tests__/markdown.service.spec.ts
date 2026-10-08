@@ -389,8 +389,10 @@ describe('Phase 28: README.md starts with the persistent hero block', () => {
     expect(readme).toContain('Trending GitHub repos, organized by awesome-list');
   });
 
-  it('contains no banned positioning phrases', () => {
-    expect(readme).not.toMatch(/hand-picked|star-history|meta-awesome-list/i);
+  it('contains no banned positioning phrases in the generated hero copy', () => {
+    // Scoped to the hero: list descriptions further down are upstream data we do not control.
+    const hero = readme.slice(0, readme.indexOf('## Hottest This Week:'));
+    expect(hero).not.toMatch(/hand-picked|star-history|meta-awesome-list/i);
   });
 });
 
