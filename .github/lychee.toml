@@ -1,9 +1,26 @@
 # Lychee broken-link checker config (Phase 28 D-11)
-# Run: lychee --config .github/lychee.toml './web/out/**/*.html' README.md docs/*.md '.planning/phases/28-announce-app-launch-outreach-to-influencers-communities-and-/drafts/*.md'
+# Run from the repo root:
+#   lychee --config .github/lychee.toml --root-dir "$PWD/web/out" \
+#     './web/out/**/*.html' README.md docs/*.md \
+#     '.planning/phases/28-announce-app-launch-outreach-to-influencers-communities-and-/drafts/*.md'
+# Add --offline to check only the export's internal links.
+#
+# The export's internal links are root-relative and, in the gh-pages build
+# (BASE_PATH=/awesomer), basePath-prefixed: /awesomer/l/..., /awesomer/_next/...
+# --root-dir maps root-relative links onto web/out/ (it must be an absolute path, so it is
+# passed on the command line rather than set here). web/out/ has no awesomer/ directory,
+# so `remap` below strips the basePath segment after that mapping. Builds without BASE_PATH
+# never produce the segment, so the same invocation works for both.
 #
 # Use the Rust link checker (https://github.com/lycheeverse/lychee): the distro package
 # (`pacman -S lychee`), `cargo install lychee`, or the `lycheeverse/lychee` Docker image.
 # Do NOT use `npx lychee`: the npm package named "lychee" is an unrelated database library.
+
+# file://<root-dir>/awesomer/<path>  ->  file://<root-dir>/<path>
+remap = ["^(file://.*/web/out)/awesomer(/.*)?$ $1$2"]
+
+# Directory links (trailingSlash: true) must resolve to an exported index.html.
+index_files = ["index.html"]
 
 exclude_path = [
   "node_modules",
