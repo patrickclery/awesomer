@@ -380,6 +380,14 @@ body::before {
   z-index: 10;
 }
 
+/* Below lg the hero card sits near the viewport edge; a -20px overhang
+   pushes the badge past it and causes horizontal scroll (320/375/768). */
+@media (max-width: 1023px) {
+  .starburst {
+    right: -8px;
+  }
+}
+
 /* Outer burst — accent border */
 .starburst::before {
   content: '';
