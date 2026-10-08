@@ -1,5 +1,13 @@
 import { getTrending } from '@/lib/api';
 import TrendingClient from './trending-client';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/metadata';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Trending repos',
+  description: 'The fastest-growing GitHub repos across every awesome-list, by 7d / 30d / 90d star gains.',
+  path: '/trending/',
+});
 
 export default async function TrendingPage() {
   const [t7, t30, t90] = await Promise.all([

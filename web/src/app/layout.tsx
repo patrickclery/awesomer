@@ -50,10 +50,12 @@ export const metadata: Metadata = {
   description:
     'Trending GitHub repos, organized by awesome-list. 7d / 30d / 90d star deltas across curated awesome-lists.',
   manifest: `${basePath}/manifest.webmanifest`,
+  // No `url` here: a root og:url would be inherited by every route that doesn't
+  // override it, collapsing shared deep links into the homepage card. Routes set
+  // their own og:url / canonical via pageMetadata() in lib/metadata.ts.
   openGraph: {
     title: 'awesomer — Trending GitHub repos, organized by awesome-list',
     description: 'Trending GitHub repos, organized by awesome-list.',
-    url: 'https://patrickclery.com/awesomer/',
     siteName: 'awesomer',
     type: 'website',
   },

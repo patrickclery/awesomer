@@ -7,6 +7,16 @@ import { ExternalGitHubLink } from '@/components/external-github-link';
 import { HomeInfoCard } from '@/components/home-info-card';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
+import type { Metadata } from 'next';
+import { pageMetadata, SITE_NAME, SITE_TAGLINE } from '@/lib/metadata';
+
+export const metadata: Metadata = pageMetadata({
+  title: `${SITE_NAME} — ${SITE_TAGLINE}`,
+  description:
+    'Trending GitHub repos, organized by awesome-list. 7d / 30d / 90d star deltas across curated awesome-lists.',
+  path: '/',
+  absoluteTitle: true,
+});
 
 function formatStars(value: number): string {
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;

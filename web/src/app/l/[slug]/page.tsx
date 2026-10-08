@@ -10,6 +10,10 @@ import { RepoMiniCard } from '@/components/repo-mini-card';
 import { SidebarRepoList } from '@/components/sidebar-repo-list';
 import { AllReposSection } from '@/components/all-repos-section';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/metadata';
+import { listPath } from '@/lib/routes';
+import { cleanDescription } from '@/lib/text';
 
 export async function generateStaticParams() {
   const { data: lists } = getStaticLists();
@@ -18,6 +22,20 @@ export async function generateStaticParams() {
 
 interface Props {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  // Same build-time static data generateStaticParams() reads — no extra API call.
+  const list = getStaticLists().data.find((l) => l.slug === slug);
+  if (!list) return {};
+  return pageMetadata({
+    title: `${list.name} — trending repos`,
+    description:
+      cleanDescription(list.description) ??
+      `Trending GitHub repos from ${list.name}, ranked by 7d / 30d / 90d star gains.`,
+    path: `${listPath(slug)}/`,
+  });
 }
 
 export default async function VerticalPage({ params }: Props) {

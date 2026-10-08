@@ -5,6 +5,9 @@ import { notFound } from 'next/navigation';
 import StarChart from './star-chart';
 import { getStaticRepoSlugs } from '@/lib/static-data';
 import { listPath } from '@/lib/routes';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/metadata';
+import { cleanDescription } from '@/lib/text';
 
 export async function generateStaticParams() {
   const { data } = getStaticRepoSlugs();
@@ -20,6 +23,23 @@ async function getRepoData(ownerName: string) {
   } catch {
     return null;
   }
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ ownerName: string }>;
+}): Promise<Metadata> {
+  const { ownerName } = await params;
+  const repo = await getRepoData(ownerName);
+  if (!repo) return {};
+  return pageMetadata({
+    title: repo.githubRepo,
+    description:
+      cleanDescription(repo.description) ??
+      `Star history and 7d / 30d / 90d star deltas for ${repo.githubRepo}.`,
+    path: `/r/${ownerName}/`,
+  });
 }
 
 function formatDelta(value: number | null) {
