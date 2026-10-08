@@ -169,7 +169,7 @@ export default async function HomePage() {
 
   const totalRepos = lists.reduce((sum, l) => sum + (l.repoCount || 0), 0);
   const homeDescription =
-    awesomerDescription ?? 'What if every Awesome List had a trending page? Now they do.';
+    awesomerDescription ?? 'Trending GitHub repos, organized by awesome-list';
 
   return (
     <div>
