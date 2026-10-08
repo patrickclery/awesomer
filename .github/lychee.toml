@@ -1,0 +1,36 @@
+# Lychee broken-link checker config (Phase 28 D-11)
+# Run: lychee --config .github/lychee.toml './web/out/**/*.html' README.md docs/*.md '.planning/phases/28-announce-app-launch-outreach-to-influencers-communities-and-/drafts/*.md'
+#
+# Use the Rust link checker (https://github.com/lycheeverse/lychee): the distro package
+# (`pacman -S lychee`), `cargo install lychee`, or the `lycheeverse/lychee` Docker image.
+# Do NOT use `npx lychee`: the npm package named "lychee" is an unrelated database library.
+
+exclude_path = [
+  "node_modules",
+  ".next",
+  "api/src/generated",
+  "api/dist",
+  "web/.next",
+  "web/out/_next",
+]
+
+max_concurrency = 8
+timeout = 20
+retry_wait_time = 2
+max_retries = 2
+
+# 429 = rate-limited but URL is valid; 200/206 are normal
+accept = [200, 206, 429]
+
+# Avoid noisy rate-limiting on github.com: lychee reads the GITHUB_TOKEN environment
+# variable automatically. Do not set `github_token` here; TOML values are not
+# env-interpolated, so "${GITHUB_TOKEN}" would be sent as a literal (invalid) token.
+
+# Skip URLs that 401/403 unauthenticated even though they exist
+exclude = [
+  "^https://twitter\\.com/",
+  "^https://x\\.com/",
+  "^https://(www\\.)?linkedin\\.com/",
+  "^https://(www\\.)?reddit\\.com/",
+  "^https://news\\.ycombinator\\.com/",
+]
