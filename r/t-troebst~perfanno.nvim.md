@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Debugging
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/t-troebst~perfanno.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/t-troebst~perfanno.nvim/)*

@@ -15,4 +15,4 @@
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/stve~awesome-dropwizard/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stve~awesome-dropwizard/)*

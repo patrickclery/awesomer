@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,658 | +10 | +46 | +119 | 2026-07-08 |
+| 11,658 | +10 | +40 | +113 | 2026-07-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/maaslalani~slides/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maaslalani~slides/)*

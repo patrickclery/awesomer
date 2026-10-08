@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,169 | +4 | +9 | +23 | 2025-10-12 |
+| 13,166 | +4 | +6 | +19 | 2025-10-12 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/h4cc~awesome-elixir/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/h4cc~awesome-elixir/)*

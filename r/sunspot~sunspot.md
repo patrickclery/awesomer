@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,978 | +0 | -3 | -6 | 2026-08-18 |
+| 2,978 | +0 | -1 | -6 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sunspot~sunspot/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sunspot~sunspot/)*

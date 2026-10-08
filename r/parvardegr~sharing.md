@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,837 | +0 | -4 | +3 | 2026-06-17 |
+| 1,837 | +0 | -2 | +3 | 2026-06-17 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/parvardegr~sharing/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/parvardegr~sharing/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 88,528 | +224 | +867 | +3,166 | 2026-09-13 |
+| 88,639 | +224 | +922 | +3,178 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/syncthing~syncthing/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/syncthing~syncthing/)*

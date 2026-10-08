@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,388 | +3 | +4 | +18 | 2026-01-02 |
+| 7,389 | +3 | +6 | +19 | 2026-01-02 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mac](../l/mac.md) / Collaboration and Team Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~caprine/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~caprine/)*

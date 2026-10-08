@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 449 | +23 | +96 |  | 2026-06-30 |
+| 461 | +23 | +105 |  | 2026-06-30 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Creative Media
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/iart-ai~motion-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/iart-ai~motion-skills/)*

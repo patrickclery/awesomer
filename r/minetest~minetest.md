@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,596 | +40 | +151 | +619 | 2026-09-13 |
+| 13,606 | +40 | +154 | +617 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/minetest~minetest/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/minetest~minetest/)*

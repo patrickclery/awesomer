@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,050 | +33 | +63 | +122 | 2026-09-11 |
+| 6,062 | +33 | +72 | +132 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Testing Application
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/maildev~maildev/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maildev~maildev/)*

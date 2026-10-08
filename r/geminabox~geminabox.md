@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,544 | -1 | -4 | -1 | 2026-08-27 |
+| 1,544 | -1 | -4 | -1 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Gem Servers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/geminabox~geminabox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/geminabox~geminabox/)*

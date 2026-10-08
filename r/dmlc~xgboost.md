@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,758 | +26 | +104 | +294 | 2026-09-11 |
+| 28,768 | +26 | +108 | +290 | 2026-09-16 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dmlc~xgboost/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dmlc~xgboost/)*

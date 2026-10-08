@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 194 | +3 | +28 | +55 | 2026-05-01 |
+| 197 | +3 | +28 | +54 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Creative & Media
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wholiver~swiftui-design-skill/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wholiver~swiftui-design-skill/)*

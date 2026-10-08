@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coffebar~neovim-project/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/coffebar~neovim-project/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 197 | +1 | +1 | +3 | 2026-09-12 |
+| 197 | +1 | +1 | +3 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Utility
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wyrihaximus~github-action-get-previous-tag/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wyrihaximus~github-action-get-previous-tag/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 337 | +0 | +2 | +4 | 2026-08-20 |
+| 338 | +0 | +3 | +5 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Other Resources
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/adaszko~complgen/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/adaszko~complgen/)*

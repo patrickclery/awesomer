@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,911 | +0 | -1 | -3 | 2025-10-27 |
+| 2,911 | +0 | -1 | -2 | 2025-10-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Environment Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/postmodern~chruby/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/postmodern~chruby/)*

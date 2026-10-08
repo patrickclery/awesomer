@@ -15,4 +15,4 @@
 - [awesome-actions](../l/actions.md) / Collection of Actions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/borales~actions-yarn/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/borales~actions-yarn/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,862 | +3 | +7 | +31 | 2026-06-14 |
+| 1,863 | +3 | +6 | +30 | 2026-06-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/raphamorim~awesome-canvas/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/raphamorim~awesome-canvas/)*

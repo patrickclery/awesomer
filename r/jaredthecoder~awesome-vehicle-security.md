@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,612 | +76 | +169 | +281 | 2026-05-30 |
+| 4,625 | +76 | +178 | +294 | 2026-05-30 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jaredthecoder~awesome-vehicle-security/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jaredthecoder~awesome-vehicle-security/)*

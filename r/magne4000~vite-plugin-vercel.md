@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 129 | +0 | +1 | +1 | 2026-09-10 |
+| 129 | +0 | +1 | +1 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/magne4000~vite-plugin-vercel/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/magne4000~vite-plugin-vercel/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,175 | +11 | +20 | +63 | 2026-08-22 |
+| 2,175 | +11 | +18 | +61 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/0x2e~fusion/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/0x2e~fusion/)*

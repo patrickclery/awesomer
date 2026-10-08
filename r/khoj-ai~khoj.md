@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 37,305 | +171 | +812 | +2,166 | 2026-08-02 |
+| 37,355 | +171 | +832 | +2,166 | 2026-08-02 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/khoj-ai~khoj/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/khoj-ai~khoj/)*

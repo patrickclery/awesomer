@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,490 | +8 | +42 | +90 | 2026-05-01 |
+| 6,492 | +8 | +37 | +89 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Graphics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sharkdp~pastel/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sharkdp~pastel/)*

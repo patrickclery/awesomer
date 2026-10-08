@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,358 | +5 | +12 | +28 | 2026-09-11 |
+| 9,358 | +5 | +11 | +27 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / .NET
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dotnet~machinelearning/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dotnet~machinelearning/)*

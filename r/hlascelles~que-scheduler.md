@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Scheduling
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hlascelles~que-scheduler/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hlascelles~que-scheduler/)*

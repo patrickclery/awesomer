@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Cloud
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/samvera~browse-everything/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/samvera~browse-everything/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 516 | +2 | +4 | +9 | 2026-09-11 |
+| 517 | +2 | +5 | +10 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/boeing~config-file-validator/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/boeing~config-file-validator/)*

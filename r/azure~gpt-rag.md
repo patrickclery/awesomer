@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,176 | +2 | +10 | +15 | 2026-09-09 |
+| 1,177 | +2 | +10 | +16 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/azure~gpt-rag/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/azure~gpt-rag/)*

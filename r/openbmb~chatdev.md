@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,280 | +103 | +283 | +871 | 2026-07-24 |
+| 34,320 | +103 | +310 | +842 | 2026-07-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~chatdev/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~chatdev/)*

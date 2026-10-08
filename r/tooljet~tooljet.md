@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,903 | +334 | +2,164 | +2,879 | 2026-09-13 |
+| 40,927 | +334 | +570 | +2,893 | 2026-09-16 |
 
 ## Found In
 
-- [awesome-db-tools](../l/db-tools.md) / Application platforms
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
+- [awesome-db-tools](../l/db-tools.md) / Application platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tooljet~tooljet/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tooljet~tooljet/)*

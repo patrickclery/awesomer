@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 389 | +1 | +10 |  | 2026-06-11 |
+| 389 | +1 | +7 |  | 2026-06-11 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Market Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/massive-com~mcp_massive/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/massive-com~mcp_massive/)*

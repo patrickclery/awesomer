@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,651 | +2 | +4 | +31 | 2026-09-11 |
+| 1,651 | +2 | +3 | +31 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/skrub-data~skrub/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/skrub-data~skrub/)*

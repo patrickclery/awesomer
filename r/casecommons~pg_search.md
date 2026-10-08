@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,577 | +0 | +2 | +7 | 2026-09-07 |
+| 1,577 | +0 | +2 | +8 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/casecommons~pg_search/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/casecommons~pg_search/)*

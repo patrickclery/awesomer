@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,172 | +47 | +216 | +3,729 | 2026-09-01 |
+| 7,192 | +47 | +210 | +3,328 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Language Model Families
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zai-org~glm-5/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zai-org~glm-5/)*

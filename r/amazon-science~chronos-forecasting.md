@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,849 | +37 | +144 | +387 | 2026-09-08 |
+| 5,866 | +37 | +148 | +387 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/amazon-science~chronos-forecasting/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/amazon-science~chronos-forecasting/)*

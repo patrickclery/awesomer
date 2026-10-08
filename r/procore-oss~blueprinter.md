@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,312 | +0 | +2 |  | 2026-09-10 |
+| 1,311 | +0 | +0 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / API Builder and Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/procore-oss~blueprinter/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/procore-oss~blueprinter/)*

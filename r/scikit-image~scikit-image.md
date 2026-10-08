@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,585 | +4 | +12 | +57 | 2026-09-09 |
+| 6,589 | +4 | +16 | +59 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/scikit-image~scikit-image/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scikit-image~scikit-image/)*

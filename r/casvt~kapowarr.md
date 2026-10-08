@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,065 | +10 | +22 | +72 | 2026-09-09 |
+| 1,067 | +10 | +24 | +75 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Beyond *arr
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/casvt~kapowarr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/casvt~kapowarr/)*

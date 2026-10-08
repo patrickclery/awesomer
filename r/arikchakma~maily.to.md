@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,962 | +19 | +78 | +151 | 2026-08-28 |
+| 3,963 | +19 | +43 | +150 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/arikchakma~maily.to/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/arikchakma~maily.to/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 331 |  |  |  | 2026-08-16 |
+| 337 |  |  |  | 2026-08-16 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Configuration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/disler~fixing-smartass-opus-5/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/disler~fixing-smartass-opus-5/)*

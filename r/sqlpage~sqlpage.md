@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,560 | +2 | +22 | +48 | 2026-09-13 |
+| 2,563 | +2 | +22 | +51 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Application platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sqlpage~sqlpage/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sqlpage~sqlpage/)*

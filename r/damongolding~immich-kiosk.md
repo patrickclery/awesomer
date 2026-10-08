@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,672 | +9 | +44 | +125 | 2026-09-12 |
+| 1,672 | +9 | +41 | +119 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Photo Galleries
+- [Awesome Immich](../l/immich.md) / Client apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/damongolding~immich-kiosk/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/damongolding~immich-kiosk/)*

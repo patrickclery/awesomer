@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,342 | +1 | +12 | +44 | 2026-06-22 |
+| 1,342 | +1 | +8 | +41 | 2026-06-22 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/freedoom~freedoom/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/freedoom~freedoom/)*

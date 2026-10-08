@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,260 |  |  |  | 2026-06-03 |
+| 1,261 |  |  |  | 2026-06-03 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Computer Use
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/minimax-ai~openroom/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/minimax-ai~openroom/)*

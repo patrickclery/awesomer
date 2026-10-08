@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 157 | +1 | +5 | +15 | 2026-09-11 |
+| 157 | +1 | +5 | +14 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tjblackheart~andcli/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tjblackheart~andcli/)*

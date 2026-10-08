@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,674 | +2 | +2 | +15 | 2026-09-10 |
+| 4,676 | +2 | +3 | +16 | 2026-09-13 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/nojhan~liquidprompt/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nojhan~liquidprompt/)*

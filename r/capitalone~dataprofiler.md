@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,582 | +2 | +8 | +19 | 2026-09-10 |
+| 1,584 | +2 | +10 | +19 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/capitalone~dataprofiler/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/capitalone~dataprofiler/)*

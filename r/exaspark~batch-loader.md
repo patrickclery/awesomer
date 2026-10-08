@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,124 | +0 | +1 | +3 | 2025-12-09 |
+| 1,123 | +0 | -1 | +1 | 2025-12-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Profiler and Optimization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/exaspark~batch-loader/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/exaspark~batch-loader/)*

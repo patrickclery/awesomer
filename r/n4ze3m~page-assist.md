@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,210 |  |  |  | 2026-09-13 |
+| 8,213 |  |  |  | 2026-09-13 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / User Interfaces
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/n4ze3m~page-assist/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/n4ze3m~page-assist/)*

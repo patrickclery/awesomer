@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 115,658 | +1,253 | +7,288 | +25,311 | 2026-07-31 |
+| 116,092 | +1,253 | +7,234 | +24,885 | 2026-07-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Curated Resource Lists
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/voltagent~awesome-design-md/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/voltagent~awesome-design-md/)*

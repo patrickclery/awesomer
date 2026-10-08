@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 352 | +3 | +11 | +40 | 2026-06-12 |
+| 352 | +3 | +11 | +38 | 2026-06-12 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/techinz~playwright-captcha/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/techinz~playwright-captcha/)*

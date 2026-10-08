@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,632 | +0 | +0 | +6 | 2026-09-11 |
+| 1,631 | +0 | -1 | +4 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aleclarson~vite-tsconfig-paths/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aleclarson~vite-tsconfig-paths/)*

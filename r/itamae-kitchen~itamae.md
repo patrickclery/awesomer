@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / DevOps Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/itamae-kitchen~itamae/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/itamae-kitchen~itamae/)*

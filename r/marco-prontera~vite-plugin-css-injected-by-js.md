@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/marco-prontera~vite-plugin-css-injected-by-js/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marco-prontera~vite-plugin-css-injected-by-js/)*

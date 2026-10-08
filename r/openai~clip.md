@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,293 | +36 | +122 | +521 | 2026-03-25 |
+| 34,313 | +36 | +132 | +515 | 2026-03-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multimodal & Vision-Language Codebases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~clip/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~clip/)*

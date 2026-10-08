@@ -15,4 +15,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Scala
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~algebird/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~algebird/)*

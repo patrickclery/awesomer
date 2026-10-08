@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,704 | +30 | +76 | +172 | 2026-09-13 |
+| 4,708 | +30 | +73 | +173 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/simonmichael~hledger/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/simonmichael~hledger/)*

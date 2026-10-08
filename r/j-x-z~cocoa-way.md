@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,025 | +7 | +22 | +79 | 2026-09-09 |
+| 1,028 | +7 | +24 | +80 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Virtualization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/j-x-z~cocoa-way/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/j-x-z~cocoa-way/)*

@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Test
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/quolpr~quicktest.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/quolpr~quicktest.nvim/)*

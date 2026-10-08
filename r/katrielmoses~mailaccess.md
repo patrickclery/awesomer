@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,346 | +159 | +903 | +1,209 | 2026-09-10 |
+| 1,377 | +159 | +868 | +1,236 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Email Search / Email Check
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/katrielmoses~mailaccess/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/katrielmoses~mailaccess/)*

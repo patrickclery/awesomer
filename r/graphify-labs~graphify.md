@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 116,359 | +2,592 | +10,158 |  | 2026-09-12 |
+| 118,184 | +2,592 | +10,866 |  | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/graphify-labs~graphify/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/graphify-labs~graphify/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,831 | +4 | +8 | +41 | 2026-09-13 |
+| 2,833 | +4 | +10 | +41 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Distributions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sqlcollaborative~dbatools/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sqlcollaborative~dbatools/)*

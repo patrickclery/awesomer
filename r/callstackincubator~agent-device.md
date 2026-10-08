@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,560 | +95 | +469 | +1,792 | 2026-09-13 |
+| 4,607 | +95 | +498 | +1,783 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/callstackincubator~agent-device/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/callstackincubator~agent-device/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,387 | -2 | -4 |  | 2025-06-17 |
+| 4,384 | +0 | -2 | -2 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/faye~faye/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/faye~faye/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,424 | +0 | +1 | +13 | 2026-06-10 |
+| 1,424 | +0 | +1 | +12 | 2026-06-10 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Apps
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rauchg~blog/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rauchg~blog/)*

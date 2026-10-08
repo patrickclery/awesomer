@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 280 | +0 | +0 | +0 | 2026-09-11 |
+| 280 | +0 | +0 | +0 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/williamluke4~nitro/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/williamluke4~nitro/)*

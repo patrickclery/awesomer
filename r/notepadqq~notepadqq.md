@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,327 | +1 | +0 | +19 | 2026-08-03 |
+| 2,328 | +1 | +3 | +19 | 2026-08-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/notepadqq~notepadqq/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/notepadqq~notepadqq/)*

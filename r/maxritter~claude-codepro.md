@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,070 | +23 | +139 | +319 | 2026-09-09 |
+| 2,072 | +23 | +65 | +318 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Multi-Purpose
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/maxritter~claude-codepro/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maxritter~claude-codepro/)*

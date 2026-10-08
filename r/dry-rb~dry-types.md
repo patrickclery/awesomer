@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Type Signatures and Type Checking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dry-rb~dry-types/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dry-rb~dry-types/)*

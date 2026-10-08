@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 134 | +0 | +1 | +7 | 2026-09-10 |
+| 136 | +0 | +4 | +8 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/artis3n~ansible_galaxy_collection/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/artis3n~ansible_galaxy_collection/)*

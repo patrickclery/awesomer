@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 723 | +0 | -1 | +1 | 2026-08-15 |
+| 723 | +0 | -1 | +2 | 2026-08-15 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Docker
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kool-dev~kool/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kool-dev~kool/)*

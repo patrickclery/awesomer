@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,540 | +354 | +1,453 | +5,435 | 2026-09-13 |
+| 34,680 | +354 | +1,444 | +5,356 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Testing, Evaluation and Observability
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/langfuse~langfuse/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/langfuse~langfuse/)*

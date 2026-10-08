@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,591 | -4 | +4 | +28 | 2026-09-08 |
+| 1,593 | -4 | +7 | +29 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/actionbook~actionbook/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/actionbook~actionbook/)*

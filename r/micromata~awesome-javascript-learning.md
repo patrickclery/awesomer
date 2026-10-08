@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,849 | +5 | +12 | +49 | 2026-02-01 |
+| 5,850 | +5 | +13 | +49 | 2026-02-01 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/micromata~awesome-javascript-learning/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/micromata~awesome-javascript-learning/)*

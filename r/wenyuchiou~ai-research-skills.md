@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 248 | +13 | +42 |  | 2026-08-31 |
+| 252 | +13 | +43 |  | 2026-08-31 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Research & Scientific Inquiry
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/wenyuchiou~ai-research-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wenyuchiou~ai-research-skills/)*

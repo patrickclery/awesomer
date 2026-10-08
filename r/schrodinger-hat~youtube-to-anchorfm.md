@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 145 | +0 | +1 | +1 | 2026-06-11 |
+| 144 | +0 | +0 | +0 | 2026-06-11 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/schrodinger-hat~youtube-to-anchorfm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/schrodinger-hat~youtube-to-anchorfm/)*

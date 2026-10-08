@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,508 | +12 | +42 | +124 | 2026-08-07 |
+| 8,512 | +12 | +44 | +123 | 2026-08-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/brndnmtthws~conky/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brndnmtthws~conky/)*

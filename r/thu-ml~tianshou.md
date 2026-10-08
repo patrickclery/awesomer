@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,973 | +13 | +47 | +176 | 2026-04-03 |
+| 10,975 | +13 | +45 | +175 | 2026-04-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Game AI & Simulations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thu-ml~tianshou/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thu-ml~tianshou/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,547 | +7 | +39 | +166 | 2026-09-12 |
+| 3,559 | +7 | +48 | +173 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Evaluation Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/truera~trulens/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/truera~trulens/)*

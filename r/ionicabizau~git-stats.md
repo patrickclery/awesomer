@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,599 | +2 | -1 | +3 | 2025-11-09 |
+| 6,599 | +2 | -2 | +3 | 2025-11-09 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Version Control
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ionicabizau~git-stats/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ionicabizau~git-stats/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,407 | +2 | +7 | +22 | 2026-07-20 |
+| 1,408 | +2 | +6 | +23 | 2026-07-20 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Dynamic Window Managers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/conformal~spectrwm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/conformal~spectrwm/)*

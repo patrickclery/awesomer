@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,249 | +1 | +4 | +13 | 2025-10-12 |
+| 1,248 | +1 | +3 | +11 | 2025-10-12 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/caramelfur~picsur/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/caramelfur~picsur/)*

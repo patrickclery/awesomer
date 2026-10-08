@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,761 | +4 | +16 | +69 | 2026-08-25 |
+| 1,763 | +4 | +18 | +68 | 2026-08-25 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Generation/Masking/Subsetting
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/greenmaskio~greenmask/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/greenmaskio~greenmask/)*

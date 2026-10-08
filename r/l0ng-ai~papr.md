@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 527 | +9 | +21 | +171 | 2026-09-03 |
+| 529 | +9 | +19 | +104 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / RSS
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~papr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~papr/)*

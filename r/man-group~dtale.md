@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,220 | -1 | +8 | +50 | 2026-07-24 |
+| 5,223 | -1 | +9 | +54 | 2026-07-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/man-group~dtale/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/man-group~dtale/)*

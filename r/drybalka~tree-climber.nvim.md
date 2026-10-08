@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Tree-sitter Based
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/drybalka~tree-climber.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/drybalka~tree-climber.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,068 | +2 | +3 | +19 | 2026-09-07 |
+| 3,068 | +2 | +5 | +16 | 2026-09-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/uncrustify~uncrustify/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/uncrustify~uncrustify/)*

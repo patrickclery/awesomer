@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 179 | -1 | +0 | +6 | 2026-09-04 |
+| 180 | -1 | +0 | +7 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Network Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gibus21250~wakupator/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gibus21250~wakupator/)*

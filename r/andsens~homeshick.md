@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,193 | +1 | +0 | +2 | 2026-08-28 |
+| 2,193 | +1 | +1 | +2 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Package Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/andsens~homeshick/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/andsens~homeshick/)*

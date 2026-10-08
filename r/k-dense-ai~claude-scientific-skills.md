@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,729 | +594 | +11,242 | +16,479 | 2026-09-13 |
+| 45,167 | +594 | +11,457 | +16,540 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Research & Scientific Inquiry
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/k-dense-ai~claude-scientific-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/k-dense-ai~claude-scientific-skills/)*

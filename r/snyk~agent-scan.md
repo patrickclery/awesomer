@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,034 | +35 | +121 | +459 | 2026-09-11 |
+| 3,053 | +35 | +140 | +459 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / 🔒 Security Notice
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/snyk~agent-scan/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/snyk~agent-scan/)*

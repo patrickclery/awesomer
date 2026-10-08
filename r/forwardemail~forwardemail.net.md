@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,671 | +2 | +12 | +75 | 2026-09-04 |
+| 1,670 | +2 | +10 | +72 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-opensource-email](../l/opensource-email.md) / Complete Email Server
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/forwardemail~forwardemail.net/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/forwardemail~forwardemail.net/)*

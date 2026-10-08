@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,320 | +35 | +128 | +386 | 2026-07-21 |
+| 15,327 | +35 | +121 | +378 | 2026-07-21 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/terkelg~awesome-creative-coding/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/terkelg~awesome-creative-coding/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,694 | +4 | +22 | +69 | 2026-03-11 |
+| 1,694 | +4 | +19 | +65 | 2026-03-11 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - Email - Webmail Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/the-djmaze~snappymail/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/the-djmaze~snappymail/)*

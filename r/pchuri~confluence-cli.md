@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 288 | +7 | +23 |  | 2026-09-07 |
+| 289 | +7 | +24 |  | 2026-09-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Note Taking, Lists, Task Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pchuri~confluence-cli/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pchuri~confluence-cli/)*

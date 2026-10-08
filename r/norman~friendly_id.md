@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,225 | -1 | -1 | -2 | 2026-08-18 |
+| 6,224 | -1 | -2 | -2 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / SEO
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/norman~friendly_id/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/norman~friendly_id/)*

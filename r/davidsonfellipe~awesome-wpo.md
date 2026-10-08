@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,075 | +16 | +53 | +141 | 2026-07-28 |
+| 9,081 | +16 | +46 | +144 | 2026-07-28 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/davidsonfellipe~awesome-wpo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/davidsonfellipe~awesome-wpo/)*

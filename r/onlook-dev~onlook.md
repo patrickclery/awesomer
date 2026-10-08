@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,723 | +50 | +234 | +791 | 2026-08-25 |
+| 26,744 | +50 | +235 | +793 | 2026-08-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI-Native IDEs & Development Environments
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/onlook-dev~onlook/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/onlook-dev~onlook/)*

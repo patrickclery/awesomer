@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 472 | -1 | -1 | +3 | 2026-02-03 |
+| 471 | -1 | -2 | +2 | 2026-02-03 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Courses & Books & Blogs
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jamesmawm~mastering-python-for-finance-second-edition/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jamesmawm~mastering-python-for-finance-second-edition/)*

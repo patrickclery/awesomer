@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 882 | +46 | +161 | +870 | 2026-09-13 |
+| 903 | +46 | +167 | +841 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/asheshgoplani~agent-deck/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/asheshgoplani~agent-deck/)*

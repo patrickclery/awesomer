@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,443 | +2 | +7 | +35 | 2026-08-14 |
+| 2,444 | +2 | +9 | +36 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/spacingbat3~webcord/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/spacingbat3~webcord/)*

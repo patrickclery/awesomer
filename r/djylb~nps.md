@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,068 | +9 | +19 |  | 2026-06-10 |
+| 1,072 | +9 | +21 |  | 2026-06-10 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Open source (at least with a reasonably permissive license)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/djylb~nps/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/djylb~nps/)*

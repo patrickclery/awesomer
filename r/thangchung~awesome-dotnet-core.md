@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,378 | +10 | +16 | +106 | 2026-02-27 |
+| 21,385 | +10 | +22 | +105 | 2026-02-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thangchung~awesome-dotnet-core/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thangchung~awesome-dotnet-core/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 65,228 | +484 | +1,991 | +6,624 | 2026-09-11 |
+| 65,394 | +484 | +1,967 | +6,551 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/embedchain~embedchain/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/embedchain~embedchain/)*

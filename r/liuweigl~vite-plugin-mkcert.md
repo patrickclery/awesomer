@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 769 | +2 | +3 | +12 | 2026-07-01 |
+| 770 | +2 | +4 | +13 | 2026-07-01 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/liuweigl~vite-plugin-mkcert/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/liuweigl~vite-plugin-mkcert/)*

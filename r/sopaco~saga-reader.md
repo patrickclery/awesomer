@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 534 | +1 | +1 | -5 | 2026-07-11 |
+| 536 | +1 | +3 | -4 | 2026-07-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / RSS
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sopaco~saga-reader/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sopaco~saga-reader/)*

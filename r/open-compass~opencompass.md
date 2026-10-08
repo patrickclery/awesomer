@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,425 | +29 | +124 | +339 | 2026-09-10 |
+| 7,445 | +29 | +136 | +341 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📈 9. Evaluation, Benchmarks & Datasets
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/open-compass~opencompass/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/open-compass~opencompass/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,863 | +109 | +461 | +2,099 | 2026-09-07 |
+| 12,901 | +109 | +463 | +1,966 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Status Lines
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sirmalloc~ccstatusline/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sirmalloc~ccstatusline/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 960 | +0 | +1 | +3 | 2026-09-01 |
+| 961 | +0 | +2 | +4 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Image Processing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/janko~image_processing/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/janko~image_processing/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 995 | +17 | +87 |  | 2026-09-13 |
+| 1,006 | +17 | +92 |  | 2026-09-13 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Session Monitors
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hoangsonww~claude-code-agent-monitor/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hoangsonww~claude-code-agent-monitor/)*

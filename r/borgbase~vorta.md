@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,501 | +0 | +9 | +33 | 2026-09-07 |
+| 2,501 | +0 | +6 | +32 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Data Backup and Recovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/borgbase~vorta/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/borgbase~vorta/)*

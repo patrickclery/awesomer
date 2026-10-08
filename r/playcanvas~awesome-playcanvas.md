@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 486 | +1 | +9 | +24 | 2026-09-06 |
+| 491 | +1 | +13 | +29 | 2026-09-15 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/playcanvas~awesome-playcanvas/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/playcanvas~awesome-playcanvas/)*

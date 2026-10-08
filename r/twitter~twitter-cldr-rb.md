@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~twitter-cldr-rb/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~twitter-cldr-rb/)*

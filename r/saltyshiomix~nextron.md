@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,430 | -1 | +3 | +9 | 2026-08-21 |
+| 4,431 | -1 | +4 | +11 | 2026-08-21 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/saltyshiomix~nextron/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/saltyshiomix~nextron/)*

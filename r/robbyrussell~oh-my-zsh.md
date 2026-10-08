@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189,704 | +124 | +525 | +1,674 | 2026-09-13 |
+| 189,749 | +124 | +536 | +1,647 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/robbyrussell~oh-my-zsh/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/robbyrussell~oh-my-zsh/)*

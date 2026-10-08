@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,419 | -1 | -2 | +4 | 2026-01-30 |
+| 1,419 | -1 | -2 | +6 | 2026-01-30 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/philsturgeon~awesome-earth/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/philsturgeon~awesome-earth/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,606 | +2 | +28 | +122 | 2026-08-18 |
+| 5,608 | +2 | +30 | +117 | 2026-08-18 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Electron
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alex8088~electron-vite/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alex8088~electron-vite/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,796 | +2 | +7 | +10 | 2026-08-03 |
+| 3,797 | +2 | +8 | +11 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~unplugin-auto-import/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~unplugin-auto-import/)*

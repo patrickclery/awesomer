@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,149 | +5 | +26 |  | 2026-07-23 |
+| 4,152 | +5 | +28 |  | 2026-07-23 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Other
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/imapsync~imapsync/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/imapsync~imapsync/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,153 | +33 | +138 | +836 | 2026-09-10 |
+| 4,152 | +33 | +104 | +829 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Web Servers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yusing~godoxy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yusing~godoxy/)*

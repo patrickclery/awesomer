@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 63,137 | +162 | +580 | +1,633 | 2026-09-11 |
+| 63,174 | +162 | +573 | +1,623 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/git~git/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/git~git/)*

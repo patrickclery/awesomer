@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 47,660 | +83 | +327 | +859 | 2026-09-13 |
+| 47,688 | +83 | +318 | +860 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/coreybutler~nvm-windows/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/coreybutler~nvm-windows/)*

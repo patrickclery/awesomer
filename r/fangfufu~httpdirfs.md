@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 886 | +0 | +3 | +7 | 2026-08-04 |
+| 885 | +0 | +1 | +5 | 2026-08-04 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Open Directories
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fangfufu~httpdirfs/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fangfufu~httpdirfs/)*

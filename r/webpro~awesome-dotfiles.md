@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,859 | +23 | +57 | +179 | 2026-07-26 |
+| 10,866 | +23 | +58 | +178 | 2026-07-26 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/webpro~awesome-dotfiles/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/webpro~awesome-dotfiles/)*

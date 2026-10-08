@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,594 | -1 | -1 | -3 | 2026-01-08 |
+| 1,595 | -1 | +0 | -2 | 2026-01-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Utilities
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jfelchner~ruby-progressbar/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jfelchner~ruby-progressbar/)*

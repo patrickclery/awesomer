@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,983 | +2 | +7 | +19 | 2026-09-03 |
+| 1,985 | +2 | +9 | +20 | 2026-09-03 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/typeddjango~awesome-python-typing/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/typeddjango~awesome-python-typing/)*

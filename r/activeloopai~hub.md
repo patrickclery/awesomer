@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,233 | +3 | +8 | +58 | 2026-05-21 |
+| 9,236 | +3 | +12 | +59 | 2026-05-21 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/activeloopai~hub/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/activeloopai~hub/)*

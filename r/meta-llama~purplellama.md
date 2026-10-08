@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,391 | +7 | +43 | +165 | 2026-08-18 |
+| 4,397 | +7 | +42 | +165 | 2026-08-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/meta-llama~purplellama/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/meta-llama~purplellama/)*

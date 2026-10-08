@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [OpenCode](../r/anomalyco~opencode.md) | 207,060 | +2,529 | +9,705 | +32,406 |
-| 2 | [yt-dlp](../r/yt-dlp~yt-dlp.md) | 190,836 | +1,546 | +6,428 | +20,120 |
-| 3 | [ripgrep](../r/burntsushi~ripgrep.md) | 68,226 | +218 | +907 | +3,160 |
-| 4 | [croc](../r/schollz~croc.md) | 40,314 | +216 | +565 | +5,049 |
-| 5 | [yazi](../r/sxyazi~yazi.md) | 42,157 | +201 | +843 | +2,748 |
-| 6 | [Lazygit](../r/jesseduffield~lazygit.md) | 82,300 | +195 | +966 | +3,010 |
-| 7 | [rclone](../r/ncw~rclone.md) | 59,745 | +151 | +612 | +1,897 |
-| 8 | [starship](../r/starship~starship.md) | 59,891 | +130 | +491 | +1,599 |
-| 9 | [zoxide](../r/ajeetdsouza~zoxide.md) | 39,439 | +125 | +795 | +2,007 |
-| 10 | [just](../r/casey~just.md) | 35,779 | +122 | +481 | +1,493 |
+| 1 | [OpenCode](../r/anomalyco~opencode.md) | 207,793 | +2,529 | +9,488 | +31,876 |
+| 2 | [yt-dlp](../r/yt-dlp~yt-dlp.md) | 191,519 | +1,546 | +6,530 | +20,227 |
+| 3 | [ripgrep](../r/burntsushi~ripgrep.md) | 68,315 | +218 | +972 | +3,143 |
+| 4 | [croc](../r/schollz~croc.md) | 40,349 | +216 | +500 | +5,084 |
+| 5 | [yazi](../r/sxyazi~yazi.md) | 42,227 | +201 | +809 | +2,707 |
+| 6 | [Lazygit](../r/jesseduffield~lazygit.md) | 82,378 | +195 | +977 | +2,967 |
+| 7 | [rclone](../r/ncw~rclone.md) | 59,779 | +151 | +581 | +1,855 |
+| 8 | [starship](../r/starship~starship.md) | 59,913 | +130 | +472 | +1,553 |
+| 9 | [zoxide](../r/ajeetdsouza~zoxide.md) | 39,499 | +125 | +815 | +1,985 |
+| 10 | [just](../r/casey~just.md) | 35,815 | +122 | +491 | +1,468 |
 
 ## Table of Contents
 
@@ -87,24 +87,24 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenCode](../r/anomalyco~opencode.md) | The open source coding agent. | 207,060 | +2,529 |
-| [lean-ctx](../r/yvgude~lean-ctx.md) | LeanCTX — Context Intelligence for AI systems. | 3,777 | +58 |
-| [agent-deck](../r/asheshgoplani~agent-deck.md) | Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more. | 882 | +46 |
-| [agent-of-empires](../r/njbrake~agent-of-empires.md) | Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vib | 3,222 | +36 |
-| [coi](../r/mensfeld~code-on-incus.md) | Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detects and stops threats aut | 702 | +10 |
-| [Nanocoder](../r/nano-collective~nanocoder.md) | An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, kee | 2,466 | +9 |
-| [hcom](../r/aannoo~hcom.md) | Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, Op | 490 | +7 |
-| [bosun](../r/yetidevworks~bosun.md) | Tmux-native orchestrator for AI agent sessions. Rust + ratatui. | 45 | +2 |
+| [OpenCode](../r/anomalyco~opencode.md) | The open source coding agent. | 207,793 | +2,529 |
+| [lean-ctx](../r/yvgude~lean-ctx.md) | LeanCTX — Context Intelligence for AI systems. | 3,792 | +58 |
+| [agent-deck](../r/asheshgoplani~agent-deck.md) | Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more. | 903 | +46 |
+| [agent-of-empires](../r/njbrake~agent-of-empires.md) | Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vib | 3,256 | +36 |
+| [coi](../r/mensfeld~code-on-incus.md) | Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detects and stops threats aut | 706 | +10 |
+| [Nanocoder](../r/nano-collective~nanocoder.md) | An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, kee | 2,476 | +9 |
+| [hcom](../r/aannoo~hcom.md) | Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, Op | 500 | +7 |
+| [bosun](https://github.com/yetidevworks/bosun) | Tmux-native orchestrator for AI agent sessions. Rust + ratatui. | 45 | +2 |
 | [Shep](../r/shep-ai~cli.md) | Ship features 10x faster. Built In Auto: Memory, K8S Agent & Security (SDD+SDLC) . 😇 | 253 | +2 |
-| [faf-cli](../r/wolfe-jam~faf-cli.md) | The context every AI coding agent reads — authors AGENTS.md, CLAUDE.md, GEMINI.md & .cursorrules from your repo's real s | 39 | +1 |
-| [greywall](../r/greyhavenhq~greywall.md) | Container-free, deny-by-default sandbox for AI coding agents. Kernel-enforced filesystem, network, and syscall isolation | 294 | +1 |
+| [faf-cli](https://github.com/Wolfe-Jam/faf-cli) | The context every AI coding agent reads — authors AGENTS.md, CLAUDE.md, GEMINI.md & .cursorrules from your repo's real s | 40 | +1 |
+| [greywall](../r/greyhavenhq~greywall.md) | Container-free, deny-by-default sandbox for AI coding agents. Kernel-enforced filesystem, network, and syscall isolation | 296 | +1 |
 | [toktrack](../r/mag123c~toktrack.md) | Ultra-fast token & cost tracker for LLM Token Usage (e.g. Claude Code) | 189 | +1 |
-| [AgentBridge](../r/raysonmeng~agent-bridge.md) | A local bridge for bidirectional collaboration between Claude Code and Codex. 连接 Claude Code 与 Codex 的本地实时协作桥接工具。 | 341 |  |
-| [agentify](../r/koriyoshi2041~agentify.md) | Agent Interface Compiler — One command. Every agent speaks your product. Transform OpenAPI specs into MCP Servers, Skill | 38 | +0 |
-| [Keen Code](../r/mochow13~keen-code.md) | A context-aware terminal-based coding agent written in Go. Supports multiple-providers, MCPs, Subagents, Agent Skills, c | 62 |  |
-| [Sugar](../r/roboticforce~sugar.md) | Persistent memory for AI coding agents. Local-first, cross-session context, global knowledge, and optional autonomous ta | 94 | +0 |
-| [actionbook](../r/actionbook~actionbook.md) | Let your AI agent get the sources behind logins and paywalls. | 1,591 | -4 |
-| [agentty](../r/1ay1~agentty.md) | AI pair programming in your terminal — one static binary, sub-ms startup, any model | 600 | -9 |
+| [AgentBridge](../r/raysonmeng~agent-bridge.md) | A local bridge for bidirectional collaboration between Claude Code and Codex. 连接 Claude Code 与 Codex 的本地实时协作桥接工具。 | 344 |  |
+| [agentify](https://github.com/koriyoshi2041/agentify) | Agent Interface Compiler — One command. Every agent speaks your product. Transform OpenAPI specs into MCP Servers, Skill | 38 | +0 |
+| [Keen Code](https://github.com/mochow13/keen-code) | A context-aware terminal-based coding agent written in Go. Supports multiple-providers, MCPs, Subagents, Agent Skills, c | 64 |  |
+| [Sugar](https://github.com/roboticforce/sugar) | Persistent memory for AI coding agents. Local-first, cross-session context, global knowledge, and optional autonomous ta | 94 | +0 |
+| [actionbook](../r/actionbook~actionbook.md) | Let your AI agent get the sources behind logins and paywalls. | 1,593 | -4 |
+| [agentty](../r/1ay1~agentty.md) | AI pair programming in your terminal — one static binary, sub-ms startup, any model | 599 | -9 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -112,7 +112,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Plakar](../r/plakarkorp~plakar.md) | plakar is a backup solution powered by Kloset and ptar | 2,053 |  |
+| [Plakar](../r/plakarkorp~plakar.md) | plakar is a backup solution powered by Kloset and ptar | 2,062 |  |
 
 [Back to top](#awesome-cli-apps)
 
@@ -121,7 +121,7 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [rem](../r/bro3886~rem.md) | A powerful ai-native CLI tool for macOS Reminders app | 152 | +0 |
-| [ical](../r/bro3886~ical.md) | A fast, ai-native macOS Calendar CLI built on go-eventkit | 84 | -1 |
+| [ical](https://github.com/BRO3886/ical) | A fast, ai-native macOS Calendar CLI built on go-eventkit | 84 | -1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -129,7 +129,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [concord](../r/chojs23~concord.md) | A feature-rich TUI client for Discord | 1,482 | +40 |
+| [concord](../r/chojs23~concord.md) | A feature-rich TUI client for Discord | 1,509 | +40 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -137,14 +137,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [tldr](../r/tldr-pages~tldr.md) | Collaborative cheatsheets for console commands 📚. | 63,695 | +62 |
-| [The Fuck](../r/nvbn~thefuck.md) | Magnificent app which corrects your previous console command. | 97,841 | +32 |
-| [navi](../r/denisidoro~navi.md) | An interactive cheatsheet tool for the command-line | 17,539 | +26 |
-| [yai](../r/ekkinox~yai.md) | Your AI powered terminal assistant. | 868 | +2 |
-| [how2](../r/santinic~how2.md) | AI for the Command Line | 5,770 | +0 |
+| [tldr](../r/tldr-pages~tldr.md) | Collaborative cheatsheets for console commands 📚. | 63,724 | +62 |
+| [The Fuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | 97,855 | +32 |
+| [navi](../r/denisidoro~navi.md) | An interactive cheatsheet tool for the command-line | 17,555 | +26 |
+| [yai](https://github.com/ekkinox/yai) | Your AI powered terminal assistant. | 868 | +2 |
+| [how2](https://github.com/santinic/how2) | AI for the Command Line | 5,770 | +0 |
 | [teachcode](../r/madlabsinc~teachcode.md) | A tool to develop and improve a student’s programming skills by introducing the earliest lessons of coding. | 414 | +0 |
-| [Wat](../r/dthree~wat.md) | Instant, central, community-built docs | 508 | +0 |
-| [howdoi](../r/gleitz~howdoi.md) | instant coding answers via the command line | 10,844 | -3 |
+| [Wat](https://github.com/dthree/wat) | Instant, central, community-built docs | 508 | +0 |
+| [howdoi](../r/gleitz~howdoi.md) | instant coding answers via the command line | 10,845 | -3 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -152,34 +152,34 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [jq](../r/stedolan~jq.md) | Command-line JSON processor | 35,590 | +20 |
-| [fx](../r/antonmedv~fx.md) | Terminal JSON viewer & processor | 20,624 | +9 |
-| [dasel](../r/tomwright~dasel.md) | Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV. | 8,030 | +8 |
-| [visidata](../r/saulpw~visidata.md) | A terminal spreadsheet multitool for discovering and arranging data | 9,275 | +6 |
-| [yq](../r/kislyuk~yq.md) | Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents | 2,975 | +5 |
-| [dyff](../r/homeport~dyff.md) | /ˈdʏf/ - diff tool for YAML files, and sometimes JSON | 1,883 | +4 |
-| [stegcloak](../r/kurolabs~stegcloak.md) | Hide secrets with invisible characters in plain text securely using passwords 🧙🏻‍♂️⭐ | 3,890 | +4 |
-| [config-file-validator](../r/boeing~config-file-validator.md) | Cross-platform CLI tool to validate configuration files across 18 formats. Syntax and schema validation with JSON Schema | 516 | +2 |
-| [config-file-validator](../r/boeing~config-file-validator.md) | Cross-platform CLI tool to validate configuration files across 18 formats. Syntax and schema validation with JSON Schema | 516 | +2 |
-| [gron](../r/tomnomnom~gron.md) | Make JSON greppable! | 14,518 | +1 |
-| [xq](../r/sibprogrammer~xq.md) | Command-line XML and HTML beautifier and content extractor | 1,150 | +1 |
-| [GROQ](../r/sanity-io~groq-cli.md) | Run GROQ in your command line | 236 | +0 |
-| [jp](../r/therealklanni~jp.md) | A tiny commandline tool for parsing JSON from any source. | 53 | +0 |
-| [parse-columns-cli](../r/sindresorhus~parse-columns-cli.md) | Parse text columns, like the output of unix commands. Returns JSON that you can manipulate with tools like jq or undersc | 70 | +0 |
-| [ramda-cli](../r/raine~ramda-cli.md) | 🐏 A CLI tool for processing data with functional pipelines | 582 | +0 |
-| [strip-json-comments-cli](../r/sindresorhus~strip-json-comments-cli.md) | Strip comments from JSON. Lets you use comments in your JSON files! | 80 | +0 |
-| [underscore-cli](../r/ddopson~underscore-cli.md) | Command-line utility-belt for hacking JSON and Javascript. | 1,732 | +0 |
-| [vj](../r/busyloop~vj.md) | vj - JSON Humanizer | 98 | +0 |
-| [yaml-cli](../r/pandastrike~yaml-cli.md) | A simple CLI for querying and updating YAML files | 92 | +0 |
-
-[Back to top](#awesome-cli-apps)
-
-## Data Manipulation
-
-| Repo | Description | Stars | 7d |
-|------|-------------|-------|----|
-| [sc-im](../r/andmarti1424~sc-im.md) | sc-im - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for terminal | 5,691 | +7 |
+| [sc-im](../r/andmarti1424~sc-im.md) | sc-im - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for terminal | 5,693 | +7 |
 | [nless](../r/mpryor~nothing-less.md) | A TUI pager with advanced support for tabular data, inferring/swapping delimiters, and real-time event parsing.  | 279 | +0 |
+
+[Back to top](#awesome-cli-apps)
+
+## Data Manipulation
+
+| Repo | Description | Stars | 7d |
+|------|-------------|-------|----|
+| [jq](../r/stedolan~jq.md) | Command-line JSON processor | 35,608 | +20 |
+| [fx](../r/antonmedv~fx.md) | Terminal JSON viewer & processor | 20,628 | +9 |
+| [dasel](../r/tomwright~dasel.md) | Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV. | 8,033 | +8 |
+| [visidata](../r/saulpw~visidata.md) | A terminal spreadsheet multitool for discovering and arranging data | 9,280 | +6 |
+| [yq](../r/kislyuk~yq.md) | Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents | 2,976 | +5 |
+| [dyff](../r/homeport~dyff.md) | /ˈdʏf/ - diff tool for YAML files, and sometimes JSON | 1,883 | +4 |
+| [stegcloak](https://github.com/kurolabs/stegcloak) | Hide secrets with invisible characters in plain text securely using passwords 🧙🏻‍♂️⭐ | 3,892 | +4 |
+| [config-file-validator](../r/boeing~config-file-validator.md) | Cross-platform CLI tool to validate configuration files across 18 formats. Syntax and schema validation with JSON Schema | 517 | +2 |
+| [config-file-validator](../r/boeing~config-file-validator.md) | Cross-platform CLI tool to validate configuration files across 18 formats. Syntax and schema validation with JSON Schema | 517 | +2 |
+| [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | 14,518 | +1 |
+| [xq](../r/sibprogrammer~xq.md) | Command-line XML and HTML beautifier and content extractor | 1,149 | +1 |
+| [GROQ](../r/sanity-io~groq-cli.md) | Run GROQ in your command line | 236 | +0 |
+| [jp](https://github.com/therealklanni/jp) | A tiny commandline tool for parsing JSON from any source. | 53 | +0 |
+| [parse-columns-cli](https://github.com/sindresorhus/parse-columns-cli) | Parse text columns, like the output of unix commands. Returns JSON that you can manipulate with tools like jq or undersc | 70 | +0 |
+| [ramda-cli](https://github.com/raine/ramda-cli) | 🐏 A CLI tool for processing data with functional pipelines | 582 | +0 |
+| [strip-json-comments-cli](https://github.com/sindresorhus/strip-json-comments-cli) | Strip comments from JSON. Lets you use comments in your JSON files! | 80 | +0 |
+| [underscore-cli](https://github.com/ddopson/underscore-cli) | Command-line utility-belt for hacking JSON and Javascript. | 1,732 | +0 |
+| [vj](https://github.com/busyloop/vj) | vj - JSON Humanizer | 98 | +0 |
+| [yaml-cli](https://github.com/pandastrike/yaml-cli) | A simple CLI for querying and updating YAML files | 92 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -187,9 +187,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pgxcli](../r/balaji01-4d~pgxcli.md) | Postgres CLI with autocompletion and syntax highlighting | 75 | +0 |
-| [rdsai-cli](../r/aliyun~rdsai-cli.md) | RDSAI CLI is a next-generation, AI-powered RDS CLI that transforms how you interact with the databasea | 62 | +0 |
-| [squix](../r/eduardofuncao~squix.md) | A CLI tool for managing and executing SQL queries across multiple databases. Written in Go, made beautiful with BubbleTe | 267 | +0 |
+| [pgxcli](https://github.com/Balaji01-4D/pgxcli) | Postgres CLI with autocompletion and syntax highlighting | 75 | +0 |
+| [rdsai-cli](https://github.com/aliyun/rdsai-cli) | RDSAI CLI is a next-generation, AI-powered RDS CLI that transforms how you interact with the databasea | 63 | +0 |
+| [squix](../r/eduardofuncao~squix.md) | A CLI tool for managing and executing SQL queries across multiple databases. Written in Go, made beautiful with BubbleTe | 268 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -197,7 +197,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [nomino](../r/yaa110~nomino.md) | Batch rename utility for developers | 708 | +0 |
+| [nomino](https://github.com/yaa110/nomino) | Batch rename utility for developers | 708 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -205,8 +205,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ota](../r/ota-run~ota.md) | The execution contract for AI agents. Execution governance for software repositories, shared with humans and CI. | 80 | +3 |
-| [dotenv-diff](../r/chrilleweb~dotenv-diff.md) | Validate environment variable usage in codebase | 80 | +0 |
+| [ota](https://github.com/ota-run/ota) | The execution contract for AI agents. Execution governance for software repositories, shared with humans and CI. | 80 | +3 |
+| [dotenv-diff](https://github.com/Chrilleweb/dotenv-diff) | Validate environment variable usage in codebase | 80 | +0 |
 | [mk](../r/pycontribs~mk.md) | mk ease contributing to any open source repository by exposing most common actions you can run. Inspired by make, tox an | 140 | +0 |
 
 [Back to top](#awesome-cli-apps)
@@ -215,91 +215,91 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [just](../r/casey~just.md) | 🤖 Just a command runner | 35,779 | +122 |
-| [neovim](../r/neovim~neovim.md) | Vim-fork focused on extensibility and usability | 102,306 | +108 |
-| [lazydocker](../r/jesseduffield~lazydocker.md) | The lazier way to manage everything docker | 52,815 | +79 |
-| [helix](../r/helix-editor~helix.md) | A post-modern modal text editor. | 46,205 | +62 |
-| [micro](../r/zyedidia~micro.md) | A modern and intuitive terminal-based text editor | 29,574 | +62 |
-| [k9s](../r/derailed~k9s.md) | 🐶 Kubernetes CLI To Manage Your Clusters In Style! | 34,574 | +46 |
-| [vim](../r/vim~vim.md) | The official Vim repository | 40,889 | +33 |
-| [HTTPie](../r/httpie~httpie.md) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloa | 38,506 | +20 |
-| [semantic-release](../r/semantic-release~semantic-release.md) | 📦🚀 Fully automated version management and package publishing | 24,035 | +16 |
+| [just](../r/casey~just.md) | 🤖 Just a command runner | 35,815 | +122 |
+| [neovim](../r/neovim~neovim.md) | Vim-fork focused on extensibility and usability | 102,365 | +108 |
+| [lazydocker](../r/jesseduffield~lazydocker.md) | The lazier way to manage everything docker | 52,844 | +79 |
+| [helix](../r/helix-editor~helix.md) | A post-modern modal text editor. | 46,244 | +62 |
+| [micro](../r/zyedidia~micro.md) | A modern and intuitive terminal-based text editor | 29,597 | +62 |
+| [k9s](../r/derailed~k9s.md) | 🐶 Kubernetes CLI To Manage Your Clusters In Style! | 34,601 | +46 |
+| [vim](../r/vim~vim.md) | The official Vim repository | 40,891 | +33 |
+| [HTTPie](https://github.com/httpie/httpie) | 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloa | 38,517 | +20 |
+| [semantic-release](../r/semantic-release~semantic-release.md) | 📦🚀 Fully automated version management and package publishing | 24,039 | +16 |
 | [cookiecutter](../r/audreyr~cookiecutter.md) | A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package  | 25,087 | +12 |
-| [localtunnel](../r/localtunnel~localtunnel.md) | expose yourself | 22,472 | +12 |
-| [pgcli](../r/dbcli~pgcli.md) | Postgres CLI with autocompletion and syntax highlighting | 13,383 | +12 |
-| [bats-core](../r/bats-core~bats-core.md) | Bash Automated Testing System | 6,257 | +10 |
-| [logdy](../r/logdyhq~logdy-core.md) | Realtime log viewer with web UI, tail -f for logs with a web interface browser. | 2,288 | +8 |
+| [localtunnel](https://github.com/localtunnel/localtunnel) | expose yourself | 22,471 | +12 |
+| [pgcli](../r/dbcli~pgcli.md) | Postgres CLI with autocompletion and syntax highlighting | 13,388 | +12 |
+| [bats-core](../r/bats-core~bats-core.md) | Bash Automated Testing System | 6,262 | +10 |
+| [logdy](https://github.com/logdyhq/logdy-core) | Realtime log viewer with web UI, tail -f for logs with a web interface browser. | 2,290 | +8 |
 | [updo](../r/owloops~updo.md) | Uptime monitoring CLI tool with alerting and advanced settings | 1,132 | +8 |
-| [usql](../r/xo~usql.md) | Universal command-line interface for SQL databases | 10,112 | +8 |
-| [ATAC](../r/julien-cpsn~atac.md) | A simple API client (postman like) in your terminal | 3,724 | +6 |
-| [mycli](../r/dbcli~mycli.md) | Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes | 11,976 | +6 |
-| [release-it](../r/webpro~release-it.md) | 🚀 Automate versioning and package publishing | 9,054 | +6 |
-| [emacs](../r/emacs-mirror~emacs.md) | Mirror of GNU Emacs | 5,196 | +5 |
-| [kakoune](../r/mawww~kakoune.md) | mawww's experiment for a better code editor | 11,052 | +5 |
-| [o](../r/xyproto~o.md) | Snappy and configuration-free text editor/IDE for the terminal. Suitable for writing git commit messages, editing Markdo | 700 | +5 |
+| [usql](../r/xo~usql.md) | Universal command-line interface for SQL databases | 10,115 | +8 |
+| [ATAC](../r/julien-cpsn~atac.md) | A simple API client (postman like) in your terminal | 3,728 | +6 |
+| [mycli](../r/dbcli~mycli.md) | Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes | 11,975 | +6 |
+| [release-it](../r/webpro~release-it.md) | 🚀 Automate versioning and package publishing | 9,056 | +6 |
+| [emacs](../r/emacs-mirror~emacs.md) | Mirror of GNU Emacs | 5,200 | +5 |
+| [kakoune](../r/mawww~kakoune.md) | mawww's experiment for a better code editor | 11,053 | +5 |
+| [o](../r/xyproto~o.md) | Snappy and configuration-free text editor/IDE for the terminal. Suitable for writing git commit messages, editing Markdo | 701 | +5 |
 | [s3cmd](../r/s3tools~s3cmd.md) | Official s3cmd repo -- Command line tool for managing S3 compatible storage services (including Amazon S3 and CloudFront | 4,908 | +5 |
 | [shell2http](../r/msoap~shell2http.md) | Executing shell commands via HTTP server | 1,506 | +5 |
 | [pm2](../r/unitech~pm2.md) | Node.js/Typescript/Bun Production Process Manager with a built-in Load Balancer. | 43,291 | +4 |
-| [grex](../r/pemistahl~grex.md) | A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cas | 8,184 | +3 |
-| [npm-check-updates](../r/tjunnone~npm-check-updates.md) | Find newer versions of package dependencies than what your package.json allows | 10,315 | +3 |
-| [updatecli](../r/updatecli~updatecli.md) | A Declarative Update Policy Engine | 981 | +3 |
-| [cronboard](../r/antoniorodr~cronboard.md) | A terminal-based dashboard for managing cron jobs locally and on servers. | 1,452 | +2 |
-| [curlie](../r/rs~curlie.md) | The power of curl, the ease of use of httpie. | 3,718 | +2 |
+| [grex](../r/pemistahl~grex.md) | A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cas | 8,187 | +3 |
+| [npm-check-updates](../r/tjunnone~npm-check-updates.md) | Find newer versions of package dependencies than what your package.json allows | 10,317 | +3 |
+| [updatecli](../r/updatecli~updatecli.md) | A Declarative Update Policy Engine | 983 | +3 |
+| [cronboard](../r/antoniorodr~cronboard.md) | A terminal-based dashboard for managing cron jobs locally and on servers. | 1,451 | +2 |
+| [curlie](../r/rs~curlie.md) | The power of curl, the ease of use of httpie. | 3,722 | +2 |
 | [ops](../r/nanovms~ops.md) | ops - build and run nanos unikernels | 1,515 | +2 |
 | [PingMe](../r/kha7iq~pingme.md) | PingMe - A unified CLI and web service for sending notifications across multiple messaging platforms | 862 | +2 |
-| [s5cmd](../r/peak~s5cmd.md) | Parallel S3 and local filesystem execution tool. | 4,188 | +2 |
-| [add-gitignore](../r/tejasq~add-gitignore.md) | An interactive CLI tool that adds a .gitignore to your projects. | 730 | +1 |
+| [s5cmd](https://github.com/peak/s5cmd) | Parallel S3 and local filesystem execution tool. | 4,189 | +2 |
+| [add-gitignore](https://github.com/TejasQ/add-gitignore) | An interactive CLI tool that adds a .gitignore to your projects. | 730 | +1 |
 | [bcal](../r/jarun~bcal.md) | 🔢 Bits, bytes and general-purpose calculator | 700 | +1 |
 | [diff2html-cli](../r/rtfpessoa~diff2html-cli.md) | Pretty diff to html javascript cli (diff2html-cli) | 604 | +1 |
-| [Discharge](../r/brandonweiss~discharge.md) | ⚡️ A simple, easy way to deploy static websites to Amazon S3. | 647 | +1 |
+| [Discharge](https://github.com/brandonweiss/discharge) | ⚡️ A simple, easy way to deploy static websites to Amazon S3. | 647 | +1 |
 | [dockly](../r/lirantal~dockly.md) | Immersive terminal interface for managing docker containers and services | 4,031 | +1 |
-| [HTTP Prompt](../r/eliangcs~http-prompt.md) | An interactive command-line HTTP and API testing client built on top of HTTPie featuring autocomplete, syntax highlighti | 9,109 | +1 |
+| [HTTP Prompt](https://github.com/eliangcs/http-prompt) | An interactive command-line HTTP and API testing client built on top of HTTPie featuring autocomplete, syntax highlighti | 9,109 | +1 |
 | [shellspec](../r/shellspec~shellspec.md) | A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells | 1,396 | +1 |
 | [telert](../r/navig-me~telert.md) | Command‑line and Python utility that alerts on command completion, code execution and system monitoring events | 287 | +1 |
-| [tunnelmole](../r/robbie-cahill~tunnelmole-client.md) | Tunnelmole - Connect to local servers from anywhere | 1,889 | +1 |
+| [tunnelmole](../r/robbie-cahill~tunnelmole-client.md) | Tunnelmole - Connect to local servers from anywhere | 1,890 | +1 |
 | [updates](../r/silverwind~updates.md) | CLI to update npm, uv, cargo, go, docker and actions dependencies | 109 | +1 |
-| [wipe-modules](../r/bntzio~wipe-modules.md) | 🗑️ Easily remove the node_modules folder of non-active projects | 360 | +1 |
-| [boilr](../r/tmrts~boilr.md) | ⚡ boilerplate template manager that generates files or directories from template repositories | 1,762 | +0 |
-| [caniuse-cmd](../r/sgentle~caniuse-cmd.md) | Caniuse command line tool | 1,645 | +0 |
-| [cgasm](../r/bnagy~cgasm.md) | We're insanely passionate about command line asm documentation in the cloud, and we're crushing it! | 387 | +0 |
-| [clog](../r/clog-tool~clog-cli.md) | Generate beautiful changelogs from your Git commit history | 920 | +0 |
-| [deviceframe](../r/c0bra~deviceframe.md) | 📱 Put device frames around your mobile/web/progressive app screenshots. | 595 | +0 |
-| [docker-pushrm](../r/christian-korneck~docker-pushrm.md) | "Docker Push Readme" - a Docker CLI plugin to update container repo docs | 152 | +0 |
-| [flog](../r/mingrammer~flog.md) | 🎩 A fake log generator for common log formats | 1,332 | +0 |
+| [wipe-modules](https://github.com/bntzio/wipe-modules) | 🗑️ Easily remove the node_modules folder of non-active projects | 360 | +1 |
+| [boilr](https://github.com/tmrts/boilr) | ⚡ boilerplate template manager that generates files or directories from template repositories | 1,762 | +0 |
+| [caniuse-cmd](https://github.com/sgentle/caniuse-cmd) | Caniuse command line tool | 1,645 | +0 |
+| [cgasm](https://github.com/bnagy/cgasm) | We're insanely passionate about command line asm documentation in the cloud, and we're crushing it! | 387 | +0 |
+| [clog](https://github.com/clog-tool/clog-cli) | Generate beautiful changelogs from your Git commit history | 920 | +0 |
+| [deviceframe](https://github.com/c0bra/deviceframe) | 📱 Put device frames around your mobile/web/progressive app screenshots. | 596 | +0 |
+| [docker-pushrm](https://github.com/christian-korneck/docker-pushrm) | "Docker Push Readme" - a Docker CLI plugin to update container repo docs | 152 | +0 |
+| [flog](https://github.com/mingrammer/flog) | 🎩 A fake log generator for common log formats | 1,332 | +0 |
 | [foy](../r/zaaack~foy.md) | A simple, light-weight, type-friendly and modern task runner for general purpose. | 290 | +0 |
-| [gdb-dashboard](../r/cyrus-and~gdb-dashboard.md) | Modular visual interface for GDB in Python | 12,247 | +0 |
-| [htconvert](../r/lukechilds~htconvert.md) | Convert .htaccess redirects to nginx.conf redirects | 192 | +0 |
-| [iola](../r/pvarentsov~iola.md) | 🔄 iola: Command-line socket client with REST API. | 170 | +0 |
-| [ipfs-deploy](../r/agentofuser~ipfs-deploy.md) | Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS | 1,168 | +0 |
+| [gdb-dashboard](../r/cyrus-and~gdb-dashboard.md) | Modular visual interface for GDB in Python | 12,251 | +0 |
+| [htconvert](https://github.com/lukechilds/htconvert) | Convert .htaccess redirects to nginx.conf redirects | 192 | +0 |
+| [iola](https://github.com/pvarentsov/iola) | 🔄 iola: Command-line socket client with REST API. | 170 | +0 |
+| [ipfs-deploy](https://github.com/agentofuser/ipfs-deploy) | Old (2022) proof of concept:  Zero-Config CLI to Deploy Static Websites to IPFS | 1,168 | +0 |
 | [iredis](../r/laixintao~iredis.md) | Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting. | 2,744 | +0 |
-| [is-up-cli](../r/sindresorhus~is-up-cli.md) | Check whether a website is up or down | 366 | +0 |
-| [legit](../r/captainsafia~legit.md) | Add licenses to projects at the command line | 590 | +0 |
+| [is-up-cli](https://github.com/sindresorhus/is-up-cli) | Check whether a website is up or down | 366 | +0 |
+| [legit](https://github.com/captainsafia/legit) | Add licenses to projects at the command line | 590 | +0 |
 | [loadtest](../r/alexfernandez~loadtest.md) | Runs a load test on the selected URL. Fast and easy to use. Can be integrated in your own workflow using the API. | 2,629 | +0 |
-| [lstags](../r/ivanilves~lstags.md) | Explore Docker registries and manipulate Docker images! | 339 | +0 |
-| [mklicense](../r/cezaraugusto~mklicense.md) | CLI tool for generating Licenses. Easily. | 208 | +0 |
-| [mobicon-cli](../r/samverschueren~mobicon-cli.md) | Mobile icon generator | 121 | +0 |
-| [mobisplash-cli](../r/samverschueren~mobisplash-cli.md) | Mobile app splash screen generator | 73 | +0 |
+| [lstags](https://github.com/ivanilves/lstags) | Explore Docker registries and manipulate Docker images! | 339 | +0 |
+| [mklicense](../r/cezaraugusto~mklicense.md) | CLI tool for generating Licenses. Easily. | 207 | +0 |
+| [mobicon-cli](https://github.com/SamVerschueren/mobicon-cli) | Mobile icon generator | 121 | +0 |
+| [mobisplash-cli](https://github.com/SamVerschueren/mobisplash-cli) | Mobile app splash screen generator | 73 | +0 |
 | [np](../r/sindresorhus~np.md) | A better `npm publish` | 7,713 | +0 |
-| [npm-name-cli](../r/sindresorhus~npm-name-cli.md) | Check whether a package or organization name is available on npm | 290 | +0 |
-| [npm-user-cli](../r/sindresorhus~npm-user-cli.md) | Get user info of an npm user | 32 | +0 |
-| [pkg-dir-cli](../r/sindresorhus~pkg-dir-cli.md) | Find the root directory of a Node.js project or npm package | 27 | +0 |
-| [reachable](../r/italolelis~reachable.md) | Reachable is a CLI tool to check if a domain is up | 40 | +0 |
-| [rebound](../r/shobrook~rebound.md) | Instant Stack Overflow results whenever an exception is thrown | 4,115 | +0 |
+| [npm-name-cli](https://github.com/sindresorhus/npm-name-cli) | Check whether a package or organization name is available on npm | 290 | +0 |
+| [npm-user-cli](https://github.com/sindresorhus/npm-user-cli) | Get user info of an npm user | 32 | +0 |
+| [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) | Find the root directory of a Node.js project or npm package | 27 | +0 |
+| [reachable](https://github.com/italolelis/reachable) | Reachable is a CLI tool to check if a domain is up | 40 | +0 |
+| [rebound](https://github.com/shobrook/rebound) | Instant Stack Overflow results whenever an exception is thrown | 4,115 | +0 |
 | [release](../r/vercel~release.md) | Generate changelogs with a single command | 3,585 | +0 |
-| [s3m](../r/s3m~s3m.md) | CLI for streams of data in S3 buckets | 56 | +0 |
-| [SAWS](../r/donnemartin~saws.md) | A supercharged AWS command line interface (CLI). | 5,302 | +0 |
-| [scaffold-static](../r/jamesgeorge007~scaffold-static.md) | Scaffolding utility for vanilla-js | 130 | +0 |
-| [simplehttp](../r/snwfdhmp~simplehttp.md) | Simple and lightweight http server for local files | 75 | +0 |
-| [sqlline](../r/julianhyde~sqlline.md) | Shell for issuing SQL to relational databases via JDBC | 658 | +0 |
-| [Step CI](../r/stepci~stepci.md) | Automated API Testing and Quality Assurance | 1,870 | +0 |
-| [strip-css-comments-cli](../r/sindresorhus~strip-css-comments-cli.md) | Strip comments from CSS | 42 | +0 |
-| [viewport-list-cli](../r/kevva~viewport-list-cli.md) | Return a list of devices and their viewports | 60 | +0 |
+| [s3m](https://github.com/s3m/s3m) | CLI for streams of data in S3 buckets | 56 | +0 |
+| [SAWS](https://github.com/donnemartin/saws) | A supercharged AWS command line interface (CLI). | 5,302 | +0 |
+| [scaffold-static](https://github.com/jamesgeorge007/scaffold-static) | Scaffolding utility for vanilla-js | 130 | +0 |
+| [simplehttp](https://github.com/snwfdhmp/simplehttp) | Simple and lightweight http server for local files | 75 | +0 |
+| [sqlline](https://github.com/julianhyde/sqlline) | Shell for issuing SQL to relational databases via JDBC | 658 | +0 |
+| [Step CI](https://github.com/stepci/stepci) | Automated API Testing and Quality Assurance | 1,869 | +0 |
+| [strip-css-comments-cli](https://github.com/sindresorhus/strip-css-comments-cli) | Strip comments from CSS | 42 | +0 |
+| [viewport-list-cli](https://github.com/kevva/viewport-list-cli) | Return a list of devices and their viewports | 60 | +0 |
 | [yo](../r/yeoman~yo.md) | CLI tool for running Yeoman generators | 3,964 | +0 |
 | [ain](../r/jonaslu~ain.md) | A HTTP API client for the terminal | 621 | -1 |
 | [bitwise](../r/mellowcandle~bitwise.md) | Terminal based bit manipulator in ncurses | 721 | -1 |
-| [ctop](../r/bcicen~ctop.md) | Top-like interface for container metrics | 17,838 | -1 |
+| [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 17,837 | -1 |
 | [mevn-cli](../r/madlabsinc~mevn-cli.md) | Light speed setup for MEVN(Mongo Express Vue Node)  Apps | 831 | -1 |
-| [npm-home](../r/sindresorhus~npm-home.md) | Open the npm page, Yarn page, or GitHub repo of a package | 198 | -1 |
+| [npm-home](https://github.com/sindresorhus/npm-home) | Open the npm page, Yarn page, or GitHub repo of a package | 198 | -1 |
 | [serve](../r/vercel~serve.md) | Static file serving and directory listing | 9,899 | -2 |
 
 [Back to top](#awesome-cli-apps)
@@ -308,7 +308,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [bencher](../r/bencherdev~bencher.md) | 🐰 Bencher - Continuous Benchmarking | 899 | +3 |
+| [bencher](../r/bencherdev~bencher.md) | 🐰 Bencher - Continuous Benchmarking | 900 | +3 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -316,8 +316,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [treepp](../r/water-run~treepp.md) | tree++: A much better Windows `tree` command—more features, faster performance, and diff-level compatibility with the or | 90 | +2 |
-| [pls](../r/pls-rs~pls.md) | pls is a prettier and powerful ls(1) for the pros. | 965 | +0 |
+| [treepp](https://github.com/Water-Run/treepp) | tree++: A much better Windows `tree` command—more features, faster performance, and diff-level compatibility with the or | 90 | +2 |
+| [pls](../r/pls-rs~pls.md) | pls is a prettier and powerful ls(1) for the pros. | 966 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -350,37 +350,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [yt-dlp](../r/yt-dlp~yt-dlp.md) | A feature-rich command-line audio/video downloader | 190,836 | +1,546 |
-| [youtube-dl](../r/ytdl-org~youtube-dl.md) | Command-line program to download videos from YouTube.com and other video sites | 141,206 | +48 |
-| [spotatui](../r/largemodgames~spotatui.md) | A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtub | 1,339 | +27 |
-| [beets](../r/beetbox~beets.md) | music library manager and MusicBrainz tagger | 15,652 | +24 |
-| [streamlink](../r/streamlink~streamlink.md) | Streamlink is a CLI utility which pipes video streams from various services into a video player | 11,752 | +15 |
-| [mpd](../r/musicplayerdaemon~mpd.md) | Music Player Daemon | 2,769 | +11 |
-| [musikcube](../r/clangen~musikcube.md) | a cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++ | 4,840 | +7 |
-| [editly](../r/mifi~editly.md) | Slick, declarative command line video editing & API | 5,500 | +6 |
-| [cmus](../r/cmus~cmus.md) | Small, fast and powerful console music player for Unix-like operating systems. | 6,239 | +5 |
-| [ncmpcpp](../r/arybczak~ncmpcpp.md) | Featureful ncurses based MPD client inspired by ncmpc | 2,479 | +3 |
-| [hygg](../r/kruserr~hygg.md) | 📚 Simplifying the way you read. Minimalistic Vim-like TUI document reader. | 353 | +2 |
-| [irssi](../r/irssi~irssi.md) | The client of the future | 3,134 | +2 |
-| [mps-youtube](../r/mps-youtube~mps-youtube.md) | yewtube, forked from mps-youtube , is a Terminal based YouTube player and downloader. No Youtube API key required. | 8,791 | +2 |
-| [newsboat](../r/newsboat~newsboat.md) | An RSS/Atom feed reader for text terminals | 3,905 | +2 |
-| [Pokete](../r/lxgr-linux~pokete.md) | A terminal based Pokemon like game | 3,154 | +2 |
-| [epr](../r/wustho~epr.md) | CLI Epub Reader | 1,408 | +1 |
-| [Instant-Music-Downloader](../r/yask123~instant-music-downloader.md) | 🎷  Downloads Music From The Web  | 1,445 | +1 |
-| [kirc](../r/mcpcpc~kirc.md) | Lightweight terminal IRC client | 544 | +1 |
-| [mal-cli](../r/l4z3x~mal-cli.md) | Terminal Interface for the official MyAnimeList api. | 160 | +1 |
-| [radio-active](../r/deep5050~radio-active.md) | Play any radios around the globe right from the terminal ⚡ | 599 | +1 |
-| [TUISIC](../r/dark-kernel~tuisic.md) | First of its kind, A simple TUI online music streaming application written in c++ with easy vim motions, now with suppor | 71 | +1 |
-| [Bible.Js CLI](../r/biblejs~bibleapp.md) | 📖 Bible.JS CLI client. Read the Holy Bible via the command line. | 340 | +0 |
-| [dzr](../r/yne~dzr.md) | deezer.com Player (CLI & VSCode) | 263 | +0 |
-| [itunes-remote](../r/mischah~itunes-remote.md) | 🎶 Control iTunes via CLI  | 435 | +0 |
-| [medium-cli](../r/djadmin~medium-cli.md) | Medium for Hackers - 💻 A CLI for Medium Stories. | 734 | +0 |
-| [movie](../r/mayankchd~movie.md) | A CLI for getting information about movies and comparing two movies | 175 | +0 |
-| [moviemon](../r/ichait~moviemon.md) | 🎥 Everything about your movies within the command line.  | 229 | +0 |
-| [mpvc](../r/gmt4~mpvc.md) | Music player in POSIX-sh using mpv from the shell/fzf + extras/goodies 🎧📡🔊 | 159 | +0 |
-| [somafm-cli](../r/rockymadden~somafm-cli.md) | 🎵 Listen to SomaFM in your terminal via pure bash | 163 | +0 |
-| [SpeedRead](../r/sunsations~speed_read.md) | speed_read: A simple terminal-based open source Spritz-alike  | 73 | +0 |
-| [swaglyrics-for-spotify](../r/swaglyrics~swaglyrics-for-spotify.md) | 📃 Get lyrics of currently playing Spotify song so you don't sing along with the wrong ones and embarrass yourself later | 346 | +0 |
+| [golazo](../r/0xjuanma~golazo.md) | The beautiful game in your terminal. Minimal TUI app to keep up with live & recent football/soccer matches written in Go | 861 | -1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -388,7 +358,37 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [golazo](../r/0xjuanma~golazo.md) | The beautiful game in your terminal. Minimal TUI app to keep up with live & recent football/soccer matches written in Go | 860 | -1 |
+| [yt-dlp](../r/yt-dlp~yt-dlp.md) | A feature-rich command-line audio/video downloader | 191,519 | +1,546 |
+| [youtube-dl](../r/ytdl-org~youtube-dl.md) | Command-line program to download videos from YouTube.com and other video sites | 141,245 | +48 |
+| [spotatui](../r/largemodgames~spotatui.md) | A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtub | 1,356 | +27 |
+| [beets](../r/beetbox~beets.md) | music library manager and MusicBrainz tagger | 15,665 | +24 |
+| [streamlink](../r/streamlink~streamlink.md) | Streamlink is a CLI utility which pipes video streams from various services into a video player | 11,761 | +15 |
+| [mpd](../r/musicplayerdaemon~mpd.md) | Music Player Daemon | 2,772 | +11 |
+| [musikcube](../r/clangen~musikcube.md) | a cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++ | 4,840 | +7 |
+| [editly](https://github.com/mifi/editly) | Slick, declarative command line video editing & API | 5,503 | +6 |
+| [cmus](../r/cmus~cmus.md) | Small, fast and powerful console music player for Unix-like operating systems. | 6,242 | +5 |
+| [ncmpcpp](../r/arybczak~ncmpcpp.md) | Featureful ncurses based MPD client inspired by ncmpc | 2,480 | +3 |
+| [hygg](../r/kruserr~hygg.md) | 📚 Simplifying the way you read. Minimalistic Vim-like TUI document reader. | 353 | +2 |
+| [irssi](../r/irssi~irssi.md) | The client of the future | 3,136 | +2 |
+| [mps-youtube](../r/mps-youtube~mps-youtube.md) | yewtube, forked from mps-youtube , is a Terminal based YouTube player and downloader. No Youtube API key required. | 8,791 | +2 |
+| [newsboat](../r/newsboat~newsboat.md) | An RSS/Atom feed reader for text terminals | 3,907 | +2 |
+| [Pokete](../r/lxgr-linux~pokete.md) | A terminal based Pokemon like game | 3,156 | +2 |
+| [epr](https://github.com/wustho/epr) | CLI Epub Reader | 1,408 | +1 |
+| [Instant-Music-Downloader](https://github.com/yask123/Instant-Music-Downloader) | 🎷  Downloads Music From The Web  | 1,445 | +1 |
+| [kirc](../r/mcpcpc~kirc.md) | Lightweight terminal IRC client | 544 | +1 |
+| [mal-cli](https://github.com/L4z3x/mal-cli) | Terminal Interface for the official MyAnimeList api. | 160 | +1 |
+| [radio-active](../r/deep5050~radio-active.md) | Play any radios around the globe right from the terminal ⚡ | 599 | +1 |
+| [TUISIC](https://github.com/Dark-Kernel/tuisic) | First of its kind, A simple TUI online music streaming application written in c++ with easy vim motions, now with suppor | 73 | +1 |
+| [Bible.Js CLI](https://github.com/BibleJS/BibleApp) | 📖 Bible.JS CLI client. Read the Holy Bible via the command line. | 340 | +0 |
+| [dzr](../r/yne~dzr.md) | deezer.com Player (CLI & VSCode) | 263 | +0 |
+| [itunes-remote](https://github.com/mischah/itunes-remote) | 🎶 Control iTunes via CLI  | 435 | +0 |
+| [medium-cli](../r/djadmin~medium-cli.md) | Medium for Hackers - 💻 A CLI for Medium Stories. | 734 | +0 |
+| [movie](https://github.com/mayankchd/movie) | A CLI for getting information about movies and comparing two movies | 176 | +0 |
+| [moviemon](https://github.com/iCHAIT/moviemon) | 🎥 Everything about your movies within the command line.  | 230 | +0 |
+| [mpvc](../r/gmt4~mpvc.md) | Music player in POSIX-sh using mpv from the shell/fzf + extras/goodies 🎧📡🔊 | 159 | +0 |
+| [somafm-cli](https://github.com/rockymadden/somafm-cli) | 🎵 Listen to SomaFM in your terminal via pure bash | 163 | +0 |
+| [SpeedRead](https://github.com/sunsations/speed_read) | speed_read: A simple terminal-based open source Spritz-alike  | 73 | +0 |
+| [swaglyrics-for-spotify](https://github.com/SwagLyrics/SwagLyrics-For-Spotify) | 📃 Get lyrics of currently playing Spotify song so you don't sing along with the wrong ones and embarrass yourself later | 346 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -396,7 +396,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [elio](../r/elio-fm~elio.md) | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 857 | +5 |
+| [elio](../r/elio-fm~elio.md) | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 863 | +5 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -404,8 +404,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [croc](../r/schollz~croc.md) | Easily and securely send things from one computer to another 🐊 📦 | 40,314 | +216 |
-| [filecast](../r/gistrec~filecast.md) | Fast file transfer over LAN using UDP broadcast, with built-in packet loss recovery. Works on Linux, macOS, and Windows | 66 | +1 |
+| [croc](../r/schollz~croc.md) | Easily and securely send things from one computer to another 🐊 📦 | 40,349 | +216 |
+| [filecast](https://github.com/gistrec/filecast) | Fast file transfer over LAN using UDP broadcast, with built-in packet loss recovery. Works on Linux, macOS, and Windows | 66 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -413,70 +413,70 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ripgrep](../r/burntsushi~ripgrep.md) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 68,226 | +218 |
-| [yazi](../r/sxyazi~yazi.md) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | 42,157 | +201 |
-| [rclone](../r/ncw~rclone.md) | "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Stora | 59,745 | +151 |
-| [zoxide](../r/ajeetdsouza~zoxide.md) | A smarter cd command. Supports all major shells. | 39,439 | +125 |
-| [fzf](../r/junegunn~fzf.md) | 🌸 A command-line fuzzy finder | 82,964 | +86 |
-| [fd](../r/sharkdp~fd.md) | A simple, fast and user-friendly alternative to 'find' | 44,395 | +74 |
-| [ast-grep](../r/ast-grep~ast-grep.md) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | 15,882 | +72 |
-| [eza](../r/eza-community~eza.md) | A modern alternative to ls | 23,255 | +70 |
-| [bat](../r/sharkdp~bat.md) | A cat(1) clone with wings. | 60,438 | +47 |
-| [dust](../r/bootandy~dust.md) | A more intuitive version of du in rust | 12,255 | +35 |
-| [dua-cli](../r/byron~dua-cli.md) | View disk space usage and delete unwanted data, fast. | 6,255 | +28 |
-| [television](../r/alexpasmantier~television.md) | A very fast, portable and hackable fuzzy finder. | 6,264 | +27 |
-| [scc](../r/boyter~scc.md) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written  | 8,742 | +24 |
+| [ripgrep](../r/burntsushi~ripgrep.md) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 68,315 | +218 |
+| [yazi](../r/sxyazi~yazi.md) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | 42,227 | +201 |
+| [rclone](../r/ncw~rclone.md) | "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Stora | 59,779 | +151 |
+| [zoxide](../r/ajeetdsouza~zoxide.md) | A smarter cd command. Supports all major shells. | 39,499 | +125 |
+| [fzf](../r/junegunn~fzf.md) | 🌸 A command-line fuzzy finder | 83,001 | +86 |
+| [fd](../r/sharkdp~fd.md) | A simple, fast and user-friendly alternative to 'find' | 44,431 | +74 |
+| [ast-grep](../r/ast-grep~ast-grep.md) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | 15,925 | +72 |
+| [eza](../r/eza-community~eza.md) | A modern alternative to ls | 23,288 | +70 |
+| [bat](../r/sharkdp~bat.md) | A cat(1) clone with wings. | 60,467 | +47 |
+| [dust](../r/bootandy~dust.md) | A more intuitive version of du in rust | 12,268 | +35 |
+| [dua-cli](../r/byron~dua-cli.md) | View disk space usage and delete unwanted data, fast. | 6,265 | +28 |
+| [television](../r/alexpasmantier~television.md) | A very fast, portable and hackable fuzzy finder. | 6,273 | +27 |
+| [scc](../r/boyter~scc.md) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written  | 8,754 | +24 |
 | [nnn](../r/jarun~nnn.md) | n³ The unorthodox terminal file manager | 21,880 | +22 |
-| [lsd](../r/peltoche~lsd.md) | The next gen ls command | 16,217 | +15 |
+| [lsd](../r/peltoche~lsd.md) | The next gen ls command | 16,222 | +15 |
 | [ranger](../r/ranger~ranger.md) | A VIM-inspired filemanager for the console | 17,403 | +15 |
-| [broot](../r/canop~broot.md) | A new way to see and navigate directory trees | 12,938 | +14 |
-| [duf](../r/muesli~duf.md) | Disk Usage/Free Utility - a better 'df' alternative | 15,294 | +11 |
-| [lf](../r/gokcehan~lf.md) | Terminal file manager | 9,506 | +10 |
-| [entr](../r/eradman~entr.md) | Run arbitrary commands when files change | 5,681 | +8 |
-| [midnight-commander](../r/midnightcommander~mc.md) | Midnight Commander's repository | 978 | +6 |
-| [skim](../r/lotabout~skim.md) | Fuzzy Finder in rust! | 6,952 | +6 |
-| [z](../r/rupa~z.md) | z - jump around | 17,045 | +6 |
+| [broot](../r/canop~broot.md) | A new way to see and navigate directory trees | 12,940 | +14 |
+| [duf](../r/muesli~duf.md) | Disk Usage/Free Utility - a better 'df' alternative | 15,301 | +11 |
+| [lf](../r/gokcehan~lf.md) | Terminal file manager | 9,511 | +10 |
+| [entr](../r/eradman~entr.md) | Run arbitrary commands when files change | 5,683 | +8 |
+| [midnight-commander](../r/midnightcommander~mc.md) | Midnight Commander's repository | 980 | +6 |
+| [skim](../r/lotabout~skim.md) | Fuzzy Finder in rust! | 6,958 | +6 |
+| [z](https://github.com/rupa/z) | z - jump around | 17,049 | +6 |
 | [trash-cli](../r/sindresorhus~trash-cli.md) | Move files and folders to the trash | 1,414 | +5 |
 | [xplr](../r/sayanarijit~xplr.md) | A hackable, minimal, fast TUI file explorer | 4,822 | +5 |
-| [far2l](../r/elfmz~far2l.md) | Linux port of FAR v2 | 2,210 | +4 |
-| [autojump](../r/wting~autojump.md) | A cd command that learns - easily navigate directories from the command line | 16,959 | +3 |
-| [clifm](../r/leo-arch~clifm.md) | 💾 The shell-like, command-line terminal file manager | 1,723 | +3 |
+| [far2l](../r/elfmz~far2l.md) | Linux port of FAR v2 | 2,214 | +4 |
+| [autojump](https://github.com/wting/autojump) | A cd command that learns - easily navigate directories from the command line | 16,959 | +3 |
+| [clifm](../r/leo-arch~clifm.md) | 💾 The shell-like, command-line terminal file manager | 1,725 | +3 |
 | [ffsend](../r/timvisee~ffsend.md) | 📬 Easily and securely share files from the command line. A fully featured Firefox Send client. | 7,414 | +3 |
 | [lla](../r/triyanox~lla.md) | blazing fast `ls` replacement with superpowers | 1,223 | +3 |
-| [portal](../r/zinokader~portal.md) | Portal is a quick and easy command-line file transfer utility from any computer to another 🌌 ✨ | 1,767 | +3 |
-| [diskonaut](../r/imsnif~diskonaut.md) | Terminal disk space navigator 🔭 | 3,126 | +2 |
-| [f2](../r/ayoisaiah~f2.md) | F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go! | 2,446 | +2 |
-| [tre](../r/dduan~tre.md) | Tree command, improved. | 1,223 | +2 |
-| [z.lua](../r/skywind3000~z.lua.md) | ⚡ A new cd command that helps you navigate faster by learning your habits. | 3,148 | +2 |
-| [fselect](../r/jhspetersson~fselect.md) | Find files with SQL-like queries | 4,457 | +1 |
+| [portal](https://github.com/ZinoKader/portal) | Portal is a quick and easy command-line file transfer utility from any computer to another 🌌 ✨ | 1,768 | +3 |
+| [diskonaut](https://github.com/imsnif/diskonaut) | Terminal disk space navigator 🔭 | 3,130 | +2 |
+| [f2](../r/ayoisaiah~f2.md) | F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go! | 2,447 | +2 |
+| [tre](https://github.com/dduan/tre) | Tree command, improved. | 1,223 | +2 |
+| [z.lua](../r/skywind3000~z.lua.md) | ⚡ A new cd command that helps you navigate faster by learning your habits. | 3,147 | +2 |
+| [fselect](../r/jhspetersson~fselect.md) | Find files with SQL-like queries | 4,460 | +1 |
 | [gdrive-downloader](../r/akianonymus~gdrive-downloader.md) | Download a gdrive folder or file easily, shell ftw. | 367 | +1 |
-| [ncp](../r/kha7iq~ncp.md) | Effortlessly transfer files and folders, to and from your NFS server. | 39 | +1 |
-| [organize-cli](../r/manrajgrover~organize-cli.md) | 📋 Organize your files, imagine cleaning up your downloads in an instant | 372 | +1 |
-| [shbin](../r/shiphero~shbin.md) | turns a Github repo into a pastebin | 69 | +1 |
+| [ncp](https://github.com/kha7iq/ncp) | Effortlessly transfer files and folders, to and from your NFS server. | 39 | +1 |
+| [organize-cli](https://github.com/ManrajGrover/organize-cli) | 📋 Organize your files, imagine cleaning up your downloads in an instant | 372 | +1 |
+| [shbin](https://github.com/Shiphero/shbin) | turns a Github repo into a pastebin | 69 | +1 |
 | [webtorrent-cli](../r/feross~webtorrent-cli.md) | WebTorrent, the streaming torrent client. For the command line. | 1,371 | +1 |
-| [alder](../r/aweary~alder.md) | A minimal implementation of the UNIX tree command with colors! | 249 | +0 |
+| [alder](https://github.com/aweary/alder) | A minimal implementation of the UNIX tree command with colors! | 249 | +0 |
 | [chokidar-cli](../r/open-cli-tools~chokidar-cli.md) | Fast cross-platform cli utility to watch file system changes | 872 | +0 |
 | [cpy-cli](../r/sindresorhus~cpy-cli.md) | Copy files | 359 | +0 |
 | [del-cli](../r/sindresorhus~del-cli.md) | Delete files and directories | 332 | +0 |
-| [dutree](../r/nachoparker~dutree.md) | a tool to analyze file system usage written in Rust | 877 | +0 |
-| [empty-trash-cli](../r/sindresorhus~empty-trash-cli.md) | Empty the trash | 138 | +0 |
-| [file-type-cli](../r/sindresorhus~file-type-cli.md) | Detect the file type of a file or stdin | 89 | +0 |
-| [find-up-cli](../r/sindresorhus~find-up-cli.md) | Find a file by walking up parent directories | 43 | +0 |
-| [fz](../r/changyuheng~fz.sh.md) | Cli shell plugin, the missing fuzzy tab completion feature for the z jump around command. | 572 | +0 |
-| [google-drive-upload](../r/labbots~google-drive-upload.md) | Bash scripts to upload files to google drive | 740 | +0 |
-| [goto](../r/iridakos~goto.md) | Alias and navigate to directories with tab completion in Linux | 904 | +0 |
-| [happyfinder](../r/hugows~hf.md) | (another) Fuzzy file finder for the command line | 335 | +0 |
-| [ll](../r/antonmedv~ll.md) | Opinionated ls rewrite in Go 🧦 | 53 | +0 |
-| [PathPicker](../r/facebook~pathpicker.md) | PathPicker accepts a wide range of input -- output from git commands, grep results, searches -- pretty much anything. Af | 5,222 | +0 |
-| [pm](../r/angelmmiguel~pm.md) | The easy way to switch between your projects on ZSH | 205 | +0 |
+| [dutree](https://github.com/nachoparker/dutree) | a tool to analyze file system usage written in Rust | 877 | +0 |
+| [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli) | Empty the trash | 138 | +0 |
+| [file-type-cli](https://github.com/sindresorhus/file-type-cli) | Detect the file type of a file or stdin | 89 | +0 |
+| [find-up-cli](https://github.com/sindresorhus/find-up-cli) | Find a file by walking up parent directories | 43 | +0 |
+| [fz](https://github.com/changyuheng/fz.sh) | Cli shell plugin, the missing fuzzy tab completion feature for the z jump around command. | 572 | +0 |
+| [google-drive-upload](https://github.com/labbots/google-drive-upload) | Bash scripts to upload files to google drive | 740 | +0 |
+| [goto](https://github.com/iridakos/goto) | Alias and navigate to directories with tab completion in Linux | 904 | +0 |
+| [happyfinder](https://github.com/hugows/hf) | (another) Fuzzy file finder for the command line | 335 | +0 |
+| [ll](https://github.com/antonmedv/ll) | Opinionated ls rewrite in Go 🧦 | 53 | +0 |
+| [PathPicker](https://github.com/facebook/pathpicker) | PathPicker accepts a wide range of input -- output from git commands, grep results, searches -- pretty much anything. Af | 5,229 | +0 |
+| [pm](https://github.com/Angelmmiguel/pm) | The easy way to switch between your projects on ZSH | 205 | +0 |
 | [rare](../r/zix99~rare.md) | Create terminal-based histograms, bar graphs, tables, heatmaps and more in realtime using regex and expressions. | 356 | +0 |
 | [RecoverPy](../r/pablolec~recoverpy.md) | Interactively find and recover deleted or 👉 overwritten 👈 files from your terminal | 1,788 | +0 |
-| [rename-cli](../r/jhotmann~node-rename-cli.md) | A tool for renaming files quickly, especially multiple files at once. | 172 | +0 |
-| [share](../r/beavailable~share.md) | Share and receive files effortlessly over HTTP | 50 | +0 |
-| [share-cli](../r/marionebl~share-cli.md) | 🌍  Quickly share files from your command line | 408 | +0 |
+| [rename-cli](https://github.com/jhotmann/node-rename-cli) | A tool for renaming files quickly, especially multiple files at once. | 172 | +0 |
+| [share](https://github.com/beavailable/share) | Share and receive files effortlessly over HTTP | 50 | +0 |
+| [share-cli](https://github.com/marionebl/share-cli) | 🌍  Quickly share files from your command line | 407 | +0 |
 | [sharing](../r/parvardegr~sharing.md) | Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need o | 1,837 | +0 |
 | [unix-permissions](../r/ehmicky~unix-permissions.md) | Swiss Army knife for Unix permissions | 144 | +0 |
-| [tere](../r/mgunyho~tere.md) | Terminal file explorer | 1,799 | -1 |
+| [tere](../r/mgunyho~tere.md) | Terminal file explorer | 1,800 | -1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -508,10 +508,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pastel](../r/sharkdp~pastel.md) | A command-line tool to generate, analyze, convert and manipulate colors | 6,490 | +8 |
+| [pastel](../r/sharkdp~pastel.md) | A command-line tool to generate, analyze, convert and manipulate colors | 6,492 | +8 |
 | [lowcharts](../r/juan-leon~lowcharts.md) | Tool to draw low-resolution graphs in terminal | 253 | +1 |
-| [sparkly-cli](../r/sindresorhus~sparkly-cli.md) | Generate sparklines ▁▂▃▅▂▇ | 155 | +1 |
-| [cli-mandelbrot](../r/danyshaanan~cli-mandelbrot.md) | 📦 View the Mandelbrot set from your terminal | 106 | +0 |
+| [sparkly-cli](https://github.com/sindresorhus/sparkly-cli) | Generate sparklines ▁▂▃▅▂▇ | 155 | +1 |
+| [cli-mandelbrot](https://github.com/danyshaanan/cli-mandelbrot) | 📦 View the Mandelbrot set from your terminal | 106 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -519,7 +519,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [httptap](../r/ozeranskii~httptap.md) | Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timeline | 809 | +9 |
+| [httptap](../r/ozeranskii~httptap.md) | Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timeline | 811 | +9 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -527,8 +527,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [gowall](../r/achno~gowall.md) | A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Traditional & Hybrid, Image Compression ,color pa | 2,312 | +2 |
-| [img2ascii](../r/josefvesely~image-to-ascii.md) | 🏞️ A command-line tool for converting images to ASCII art | 74 | +1 |
+| [gowall](../r/achno~gowall.md) | A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Traditional & Hybrid, Image Compression ,color pa | 2,309 | +2 |
+| [img2ascii](https://github.com/JosefVesely/Image-to-ASCII) | 🏞️ A command-line tool for converting images to ASCII art | 74 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -536,30 +536,30 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [freeze](../r/charmbracelet~freeze.md) | Generate images of code and terminal output 📸 | 4,834 | +10 |
-| [optimizt](../r/343dev~optimizt.md) | CLI image optimization tool | 183 | +3 |
-| [rclip](../r/yurijmikhalevich~rclip.md) | grep for images – local, offline image search for the terminal | 1,000 | +1 |
-
-[Back to top](#awesome-cli-apps)
-
-## Images
-
-| Repo | Description | Stars | 7d |
-|------|-------------|-------|----|
-| [asciinema](../r/asciinema~asciinema.md) | Terminal session recorder, streamer and player 📹 | 17,796 | +31 |
-| [SVGO](../r/svg~svgo.md) | SVG Optimizer for Node.js and CLI. ⚙️ | 22,669 | +16 |
+| [asciinema](../r/asciinema~asciinema.md) | Terminal session recorder, streamer and player 📹 | 17,806 | +31 |
+| [SVGO](../r/svg~svgo.md) | SVG Optimizer for Node.js and CLI. ⚙️ | 22,674 | +16 |
 | [gifsicle](../r/kohler~gifsicle.md) | Create, manipulate, and optimize GIF images and animations | 4,317 | +5 |
 | [imgp](../r/jarun~imgp.md) | 📸 Fast batch image resizer and rotator | 1,090 | +1 |
-| [pageres-cli](../r/sindresorhus~pageres-cli.md) | Capture website screenshots | 1,742 | +1 |
-| [pdfjuicer](../r/dmikhr~pdfjuicer.md) | 📕 Convert pages from PDF to images with custom sizing, scaling and thumbnail generation. CLI tool written in Go. | 43 | +1 |
+| [pageres-cli](https://github.com/sindresorhus/pageres-cli) | Capture website screenshots | 1,744 | +1 |
+| [pdfjuicer](https://github.com/dmikhr/pdfjuicer) | 📕 Convert pages from PDF to images with custom sizing, scaling and thumbnail generation. CLI tool written in Go. | 43 | +1 |
 | [carbon-now-cli](../r/mixn~carbon-now-cli.md) | 🎨 Beautiful images of your code — from right inside your terminal. | 6,033 | +0 |
-| [gifgen](../r/lukechilds~gifgen.md) | Simple high quality GIF encoding | 565 | +0 |
-| [givegif](../r/passy~givegif.md) | GIFs on the command line | 228 | +0 |
-| [imgur-uploader-cli](../r/kevva~imgur-uploader-cli.md) | Upload images to imgur | 61 | +0 |
-| [korkut](../r/oguzhaninan~korkut.md) | Quick and simple image processing at the command line. 🔨 | 385 | +0 |
-| [ttygif](../r/sugyan~ttygif.md) | ttyrec to gif | 274 | +0 |
-| [ttystudio](../r/chjj~ttystudio.md) | A terminal-to-gif recorder minus the headaches. | 3,232 | +0 |
-| [ttygif](../r/icholy~ttygif.md) | Convert terminal recordings to animated gifs | 4,012 | -1 |
+| [gifgen](https://github.com/lukechilds/gifgen) | Simple high quality GIF encoding | 565 | +0 |
+| [givegif](https://github.com/passy/givegif) | GIFs on the command line | 228 | +0 |
+| [imgur-uploader-cli](https://github.com/kevva/imgur-uploader-cli) | Upload images to imgur | 61 | +0 |
+| [korkut](https://github.com/oguzhaninan/korkut) | Quick and simple image processing at the command line. 🔨 | 385 | +0 |
+| [ttygif](https://github.com/sugyan/ttygif) | ttyrec to gif | 274 | +0 |
+| [ttystudio](https://github.com/chjj/ttystudio) | A terminal-to-gif recorder minus the headaches. | 3,232 | +0 |
+| [ttygif](https://github.com/icholy/ttygif) | Convert terminal recordings to animated gifs | 4,012 | -1 |
+
+[Back to top](#awesome-cli-apps)
+
+## Images
+
+| Repo | Description | Stars | 7d |
+|------|-------------|-------|----|
+| [freeze](../r/charmbracelet~freeze.md) | Generate images of code and terminal output 📸 | 4,837 | +10 |
+| [optimizt](../r/343dev~optimizt.md) | CLI image optimization tool | 183 | +3 |
+| [rclip](../r/yurijmikhalevich~rclip.md) | grep for images – local, offline image search for the terminal | 1,002 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -567,18 +567,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [terminaltexteffects](../r/chrisbuilds~terminaltexteffects.md) | TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library. | 4,242 | +14 |
-| [fortune](../r/shlomif~fortune-mod.md) | Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems. | 547 | +2 |
-| [ponysay](../r/erkin~ponysay.md) | Pony rewrite of cowsay. | 1,320 | +1 |
-| [dankcli](../r/sggts04~dankcli.md) | CLI Image Captioning Tool or Meme Generator which automatically adds whitespace and text to top | 63 | +0 |
+| [terminaltexteffects](../r/chrisbuilds~terminaltexteffects.md) | TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library. | 4,247 | +14 |
+| [fortune](../r/shlomif~fortune-mod.md) | Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems. | 546 | +2 |
+| [ponysay](https://github.com/erkin/ponysay) | Pony rewrite of cowsay. | 1,321 | +1 |
+| [dankcli](https://github.com/sggts04/dankcli) | CLI Image Captioning Tool or Meme Generator which automatically adds whitespace and text to top | 63 | +0 |
 | [emoj](../r/sindresorhus~emoj.md) | Find relevant emoji from text on the command-line 😮 ✨ 🙌 🐴 💥 🙈 | 2,427 | +0 |
-| [emoji-finder](../r/dematerializer~emoji-finder.md) | Quickly find and copy emoji to the clipboard via the command-line. | 0 |  |
+| [emoji-finder](https://github.com/dematerializer/emoji-finder) | Quickly find and copy emoji to the clipboard via the command-line. | 0 |  |
 | [oji](../r/xxczaki~oji.md) | (◕‿◕) Text Emoticons Maker | 733 | +0 |
-| [quote-cli](../r/riyadhalnur~quote-cli.md) | Get a random quote or the quote of the day in your CLI | 98 | +0 |
-| [ricksay](../r/roma-guru~ricksay.md) | Rick & Morty quotes of the day with ponies included! | 75 | +0 |
-| [text-meme](../r/beatfreaker~text-meme-cli.md) | Generate text meme | 102 | +0 |
-| [yosay](../r/yeoman~yosay.md) | Tell Yeoman what to say | 209 | +0 |
-| [lolcat](../r/busyloop~lolcat.md) | Rainbows and unicorns! | 6,576 | -1 |
+| [quote-cli](https://github.com/riyadhalnur/quote-cli) | Get a random quote or the quote of the day in your CLI | 98 | +0 |
+| [ricksay](https://github.com/roma-guru/ricksay) | Rick & Morty quotes of the day with ponies included! | 75 | +0 |
+| [text-meme](https://github.com/beatfreaker/text-meme-cli) | Generate text meme | 102 | +0 |
+| [yosay](https://github.com/yeoman/yosay) | Tell Yeoman what to say | 209 | +0 |
+| [lolcat](https://github.com/busyloop/lolcat) | Rainbows and unicorns! | 6,580 | -1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -586,9 +586,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [aye-chat](../r/acrotron~aye-chat.md) | Aye Chat: AI-powered terminal workspace | 62 | +0 |
-| [cmd-ai](../r/brodanoel~cmd-ai.md) | Natural language shell command generator and executor powered by AI | 51 | +0 |
-| [lilbee](../r/tobocop2~lilbee.md) | The whole local AI stack in one executable: it runs and manages local AI models across every GPU, and it's a search engi | 53 | +0 |
+| [aye-chat](https://github.com/acrotron/aye-chat) | Aye Chat: AI-powered terminal workspace | 62 | +0 |
+| [cmd-ai](https://github.com/BrodaNoel/cmd-ai) | Natural language shell command generator and executor powered by AI | 51 | +0 |
+| [lilbee](https://github.com/tobocop2/lilbee) | The whole local AI stack in one executable: it runs and manages local AI models across every GPU, and it's a search engi | 54 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -598,7 +598,7 @@
 |------|-------------|-------|----|
 | [mq](../r/harehare~mq.md) | A jq-like Markdown query language for command-line processing | 1,029 | +12 |
 | [Jimmy](../r/marph91~jimmy.md) | Convert your notes to Markdown | 529 | +1 |
-| [mcat](../r/skardyy~mcat.md) | Terminal image, video, PDF, and Markdown viewer | 1,409 |  |
+| [mcat](../r/skardyy~mcat.md) | Terminal image, video, PDF, and Markdown viewer | 1,415 |  |
 
 [Back to top](#awesome-cli-apps)
 
@@ -614,9 +614,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ytm-player](../r/peternaame-boop~ytm-player.md) | YouTube Music TUI client with vim keybindings, synced lyrics, and cross-platform media keys | 504 | +11 |
-| [termusic](../r/tramhao~termusic.md) | Music Player TUI written in Rust | 2,203 | +8 |
-| [cliamp](../r/bjarneo~cliamp.md) | cliamp - Terminal music player inspired by winamp  | 4,145 |  |
+| [ytm-player](../r/peternaame-boop~ytm-player.md) | YouTube Music TUI client with vim keybindings, synced lyrics, and cross-platform media keys | 508 | +11 |
+| [termusic](../r/tramhao~termusic.md) | Music Player TUI written in Rust | 2,207 | +8 |
+| [cliamp](../r/bjarneo~cliamp.md) | cliamp - Terminal music player inspired by winamp  | 4,201 |  |
 | [tunein-cli](../r/tsirysndr~tunein-cli.md) | Browse and listen to thousands of radio stations across the globe right from your terminal 🌎 📻 🎵✨ | 109 | +0 |
 
 [Back to top](#awesome-cli-apps)
@@ -625,7 +625,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [tldx](../r/brandonyoungdev~tldx.md) | Bulk domain availability checking via RDAP, DNS, and WHOIS, with prefix/suffix permutations, regex patterns, MCP, and mu | 1,919 | +1 |
+| [tldx](../r/brandonyoungdev~tldx.md) | Bulk domain availability checking via RDAP, DNS, and WHOIS, with prefix/suffix permutations, regex patterns, MCP, and mu | 1,921 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -636,7 +636,7 @@
 | [notesmd-cli](../r/yakitrak~notesmd-cli.md) | Obsidian CLI (Community) -  Interact with Obsidian in the terminal! | 1,583 | +8 |
 | [kanban](../r/fulsomenko~kanban.md) | Terminal based project management solution | 169 | +2 |
 | [kanban.bash](../r/coderofsalvation~kanban.bash.md) | commandline asciii kanban board for minimalist productivity hackers & managers (csv-based) #scriptable #nestable #statis | 958 | +1 |
-| [rucola](../r/linus-mussmaecher~rucola.md) | Terminal-based markdown note manager. | 536 | +1 |
+| [rucola](../r/linus-mussmaecher~rucola.md) | Terminal-based markdown note manager. | 537 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -644,9 +644,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [confluence-cli](../r/pchuri~confluence-cli.md) | A powerful command-line interface for Atlassian Confluence | 288 | +7 |
-| [epiq](../r/ljtn~epiq.md) | Distributed, code-native issue tracker - audit workflows via time-travel | 374 | +4 |
-| [feeling](../r/qiz-li~feeling.md) | 😆  A beautiful terminal mood tracker | 30 | +2 |
+| [confluence-cli](../r/pchuri~confluence-cli.md) | A powerful command-line interface for Atlassian Confluence | 289 | +7 |
+| [epiq](../r/ljtn~epiq.md) | Distributed, code-native issue tracker - audit workflows via time-travel | 381 | +4 |
+| [feeling](https://github.com/qiz-li/feeling) | 😆  A beautiful terminal mood tracker | 30 | +2 |
 | [gtasks](../r/bro3886~gtasks.md) | A CLI client for Google Tasks, written in Go | 171 | +2 |
 
 [Back to top](#awesome-cli-apps)
@@ -655,7 +655,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [npm-deprecated-check](../r/kid-joker~npm-deprecated-check.md) | 🐦 Check for deprecated packages | 41 | +0 |
+| [npm-deprecated-check](https://github.com/KID-joker/npm-deprecated-check) | 🐦 Check for deprecated packages | 41 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -663,9 +663,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [awesome-cli-apps-in-a-csv](../r/toolleeo~awesome-cli-apps-in-a-csv.md) | The largest Awesome Curated list of command line programs (CLI/TUI) with source data organized into CSV files | 2,614 | +10 |
-| [x-cmd](../r/x-cmd~x-cmd.md) | Shell Superpowers for AI Agents. | 4,649 | +7 |
-| [awesome-git-addons](../r/stevemao~awesome-git-addons.md) | 😎 A curated list of add-ons that extend/enhance the git CLI. | 2,197 | +5 |
+| [awesome-cli-apps-in-a-csv](../r/toolleeo~awesome-cli-apps-in-a-csv.md) | The largest Awesome Curated list of command line programs (CLI/TUI) with source data organized into CSV files | 2,618 | +10 |
+| [x-cmd](../r/x-cmd~x-cmd.md) | Shell Superpowers for AI Agents. | 4,659 | +7 |
+| [awesome-git-addons](https://github.com/stevemao/awesome-git-addons) | 😎 A curated list of add-ons that extend/enhance the git CLI. | 2,199 | +5 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -681,8 +681,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [jiratui](../r/whyisdifficult~jiratui.md) | A Textual User Interface for interacting with Atlassian Jira from your shell | 1,694 | +3 |
-| [linear-tui](../r/roeyazroel~linear-tui.md) | A terminal user interface (TUI) for Linear built with Go and tview. | 59 | +3 |
+| [jiratui](../r/whyisdifficult~jiratui.md) | A Textual User Interface for interacting with Atlassian Jira from your shell | 1,698 | +3 |
+| [linear-tui](https://github.com/roeyazroel/linear-tui) | A terminal user interface (TUI) for Linear built with Go and tview. | 59 | +3 |
 | [tiki](../r/boolean-maybe~tiki.md) | Terminal Markdown-based shapeless workflow builder | 210 | +1 |
 | [mynav](../r/gianlucap106~mynav.md) | Workspace and session management TUI | 251 | +0 |
 
@@ -693,44 +693,44 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [dnote](../r/dnote~dnote.md) | A simple command line notebook | 3,079 | +15 |
-| [ticker](../r/achannarasappa~ticker.md) | Track stocks, crypto, and derivatives prices and positions in real time from your terminal | 6,228 | +15 |
-| [marp](../r/marp-team~marp-cli.md) | A CLI interface for Marp and Marpit based converters | 3,817 | +14 |
-| [nb](../r/xwmx~nb.md) | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi | 8,404 | +13 |
+| [ticker](../r/achannarasappa~ticker.md) | Track stocks, crypto, and derivatives prices and positions in real time from your terminal | 6,232 | +15 |
+| [marp](../r/marp-team~marp-cli.md) | A CLI interface for Marp and Marpit based converters | 3,821 | +14 |
+| [nb](../r/xwmx~nb.md) | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi | 8,406 | +13 |
 | [slides](../r/maaslalani~slides.md) | Terminal based presentation tool | 11,658 | +10 |
-| [CookCLI](../r/cooklang~cookcli.md) | Recipe Management CLI + embedded web-server in one binary | 1,383 | +6 |
-| [Buku](../r/jarun~buku.md) | 🔖 Personal mini-web in text | 7,198 | +5 |
+| [CookCLI](../r/cooklang~cookcli.md) | Recipe Management CLI + embedded web-server in one binary | 1,384 | +6 |
+| [Buku](../r/jarun~buku.md) | 🔖 Personal mini-web in text | 7,200 | +5 |
 | [arttime](../r/reportaman~arttime.md) | arttime is a CLI application that blends beauty of ASCII / text art with functionality of clock / timer / pattern-based  | 1,385 | +3 |
-| [mdp](../r/visit1985~mdp.md) | A command-line based markdown presentation tool. | 5,278 | +3 |
+| [mdp](../r/visit1985~mdp.md) | A command-line based markdown presentation tool. | 5,279 | +3 |
 | [Bartib](../r/nikolassv~bartib.md) | A simple timetracker for the command line. It saves a log of all tracked activities as a plaintext file and allows you t | 847 | +2 |
-| [khal](../r/pimutils~khal.md) | 📆 CLI calendar application | 3,047 | +2 |
-| [vdirsyncer](../r/pimutils~vdirsyncer.md) | 📇 Synchronize calendars and contacts. | 1,872 | +2 |
+| [khal](../r/pimutils~khal.md) | 📆 CLI calendar application | 3,050 | +2 |
+| [vdirsyncer](../r/pimutils~vdirsyncer.md) | 📇 Synchronize calendars and contacts. | 1,875 | +2 |
 | [Watson](../r/tailordev~watson.md) | ⌚ A wonderful CLI to track your time! | 2,539 | +2 |
-| [cointop](../r/miguelmota~cointop.md) | A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies 🚀 by @miguelmota | 4,390 | +1 |
+| [cointop](https://github.com/miguelmota/cointop) | A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies 🚀 by @miguelmota | 4,388 | +1 |
 | [decktape](../r/astefanutti~decktape.md) | PDF exporter for HTML presentations | 2,425 | +1 |
-| [ffscreencast](../r/cytopia~ffscreencast.md) | ffscreencast - ffmpeg screencast/desktop-recording with video overlay and multi monitor support | 1,824 | +1 |
+| [ffscreencast](https://github.com/cytopia/ffscreencast) | ffscreencast - ffmpeg screencast/desktop-recording with video overlay and multi monitor support | 1,824 | +1 |
 | [fjira](../r/mk-5~fjira.md) | The golang fuzzy-find cli jira interface 🚀 | 274 | +1 |
-| [gcalcli](../r/insanum~gcalcli.md) | Google Calendar Command Line Interface | 3,762 | +1 |
+| [gcalcli](../r/insanum~gcalcli.md) | Google Calendar Command Line Interface | 3,763 | +1 |
 | [hns](../r/primaprashant~hns.md) | hns is a speech-to-text CLI tool to transcribe your voice from your microphone directly to clipboard. Integrate hns with | 116 | +1 |
-| [journalot](../r/jtaylortech~journalot.md) | Minimal journaling CLI for developers. Git-backed, terminal-native, zero friction. Just type `journal` and start writing | 98 | +1 |
-| [Timewarrior](../r/gothenburgbitfactory~timewarrior.md) | Timewarrior - Commandline Time Tracking and Reporting | 1,656 | +1 |
-| [birthday](../r/ionicabizau~birthday.md) | 🎂 Know when a friend's birthday is coming. | 94 | +0 |
+| [journalot](https://github.com/jtaylortech/journalot) | Minimal journaling CLI for developers. Git-backed, terminal-native, zero friction. Just type `journal` and start writing | 99 | +1 |
+| [Timewarrior](../r/gothenburgbitfactory~timewarrior.md) | Timewarrior - Commandline Time Tracking and Reporting | 1,658 | +1 |
+| [birthday](https://github.com/IonicaBizau/birthday) | 🎂 Know when a friend's birthday is coming. | 93 | +0 |
 | [cash-cli](../r/xxczaki~cash-cli.md) | 💰💰 Convert currency rates directly from your terminal! | 266 | +0 |
 | [doing](../r/ttscoff~doing.md) | Keep track of what you’re doing and track what you’ve done. | 1,291 | +0 |
 | [eureka](../r/simeg~eureka.md) | 💡 CLI tool to input and store your ideas without leaving the terminal | 879 | +0 |
-| [geeknote](../r/vitaly-zdanevich~geeknote.md) | Console client for Evernote. This is the current alive working fork (in 2026) | 14 | +0 |
-| [idea](../r/ionicabizau~idea.md) | 💡 A lightweight CLI tool and module for keeping ideas in a safe place quick and easy. | 280 | +0 |
-| [ipt](../r/drselump14~ipt.md) | interactive pivotal tracker command line interface | 14 | +0 |
-| [meetup-cli](../r/specious~meetup-cli.md) | 🍕 Track upcoming and past meetup events (needs to be updated) | 47 | +0 |
-| [moeda](../r/thompsonemerson~moeda.md) | 💰 📈 A foreign exchange rates and currency conversion using CLI | 149 | +0 |
-| [OverTime](../r/diit~overtime-cli.md) | Easy time-overlap tables for remote teams. | 416 | +0 |
-| [taskbook](../r/klaussinani~taskbook.md) | Tasks, boards & notes for the command-line habitat | 9,345 | +0 |
+| [geeknote](https://github.com/vitaly-zdanevich/geeknote) | Console client for Evernote. This is the current alive working fork (in 2026) | 14 | +0 |
+| [idea](https://github.com/IonicaBizau/idea) | 💡 A lightweight CLI tool and module for keeping ideas in a safe place quick and easy. | 280 | +0 |
+| [ipt](https://github.com/drselump14/ipt) | interactive pivotal tracker command line interface | 14 | +0 |
+| [meetup-cli](https://github.com/specious/meetup-cli) | 🍕 Track upcoming and past meetup events (needs to be updated) | 47 | +0 |
+| [moeda](https://github.com/thompsonemerson/moeda) | 💰 📈 A foreign exchange rates and currency conversion using CLI | 149 | +0 |
+| [OverTime](https://github.com/diit/overtime-cli) | Easy time-overlap tables for remote teams. | 416 | +0 |
+| [taskbook](../r/klaussinani~taskbook.md) | Tasks, boards & notes for the command-line habitat | 9,344 | +0 |
 | [td-cli](../r/darrikonn~td-cli.md) | A todo command line todo manager ✔️ | 215 | +0 |
-| [terjira](../r/keepcosmos~terjira.md) | Terjira is a very interactive and easy to use CLI tool for Jira. | 909 | +0 |
-| [Timetrap](../r/samg~timetrap.md) | Simple command line timetracker | 1,509 | +0 |
-| [uber-cli](../r/jaebradley~uber-cli.md) | 🚗Uber, at your fingertips | 1,185 | +0 |
+| [terjira](https://github.com/keepcosmos/terjira) | Terjira is a very interactive and easy to use CLI tool for Jira. | 909 | +0 |
+| [Timetrap](https://github.com/samg/timetrap) | Simple command line timetracker | 1,509 | +0 |
+| [uber-cli](https://github.com/jaebradley/uber-cli) | 🚗Uber, at your fingertips | 1,185 | +0 |
 | [utt](../r/larose~utt.md) | Ultimate Time Tracker - A simple command-line time tracker written in Python | 351 | +0 |
-| [WOPR](../r/yaronn~wopr.md) | A simple markup language for creating rich terminal reports, presentations and infographics | 3,085 | +0 |
-| [sncli](../r/insanum~sncli.md) | Simplenote CLI | 431 | -1 |
+| [WOPR](https://github.com/yaronn/wopr) | A simple markup language for creating rich terminal reports, presentations and infographics | 3,086 | +0 |
+| [sncli](https://github.com/insanum/sncli) | Simplenote CLI | 431 | -1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -738,7 +738,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [YAMLResume](../r/yamlresume~yamlresume.md) | Resumes as code in YAML, brought to you with ❤️ by PPResume. | 1,524 | +4 |
+| [YAMLResume](../r/yamlresume~yamlresume.md) | Resumes as code in YAML, brought to you with ❤️ by PPResume. | 1,523 | +4 |
 | [resumx](../r/resumx~resumx.md) | Resume renderer for Claude Code. | 171 | +1 |
 
 [Back to top](#awesome-cli-apps)
@@ -747,7 +747,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ytunnel](../r/yetidevworks~ytunnel.md) | A TUI-first CLI for managing Cloudflare Tunnels with custom domains | 52 | +1 |
+| [ytunnel](https://github.com/yetidevworks/ytunnel) | A TUI-first CLI for managing Cloudflare Tunnels with custom domains | 53 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -755,7 +755,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [vmn](../r/progovoy~vmn.md) | git checkout for releases that span many repos. Version tags that restore your whole product. No server, no database, an | 65 |  |
+| [vmn](https://github.com/progovoy/vmn) | git checkout for releases that span many repos. Version tags that restore your whole product. No server, no database, an | 65 |  |
 
 [Back to top](#awesome-cli-apps)
 
@@ -763,8 +763,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [astroterm](../r/da-luce~astroterm.md) | A planetarium for your terminal! Explore stars, planets, constellations, and more, all rendered right in the command lin | 2,042 | +9 |
-| [birda](../r/tphakala~birda.md) | Fast CLI tool for bird species detection using BirdNET and Perch AI models | 36 | +2 |
+| [astroterm](../r/da-luce~astroterm.md) | A planetarium for your terminal! Explore stars, planets, constellations, and more, all rendered right in the command lin | 2,044 | +9 |
+| [birda](https://github.com/tphakala/birda) | Fast CLI tool for bird species detection using BirdNET and Perch AI models | 36 | +2 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -772,12 +772,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [gitlogue](../r/unhappychoice~gitlogue.md) | A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story. | 4,974 | +10 |
-| [cmatrix](../r/treri~cmatrix.md) | Terminal based "The Matrix" like implementation | 5,243 | +5 |
-| [drift](../r/phlx0~drift.md) | Terminal screensaver that activates when you're idle, constellations, rain, particles & more. Press any key to resume. J | 738 | +1 |
-| [YuleLog](../r/duroktar~yulelog.md) | A terminal based Yule Log fireplace for all the kids in the corner with sweatpants. | 78 | +1 |
-| [cli-fireplace](../r/dolsup~cli-fireplace.md) | 🎉Enjoy your 🎁Christmas🎅 watching digital fireplace🔥 on your own terminal🖥 | 68 | +0 |
-| [pipes.sh](../r/pipeseroni~pipes.sh.md) | Animated pipes terminal screensaver | 3,022 | +0 |
+| [gitlogue](../r/unhappychoice~gitlogue.md) | A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story. | 4,980 | +10 |
+| [cmatrix](https://github.com/Treri/cmatrix) | Terminal based "The Matrix" like implementation | 5,245 | +5 |
+| [drift](../r/phlx0~drift.md) | Terminal screensaver that activates when you're idle, constellations, rain, particles & more. Press any key to resume. J | 737 | +1 |
+| [YuleLog](https://github.com/Duroktar/YuleLog) | A terminal based Yule Log fireplace for all the kids in the corner with sweatpants. | 78 | +1 |
+| [cli-fireplace](https://github.com/dolsup/cli-fireplace) | 🎉Enjoy your 🎁Christmas🎅 watching digital fireplace🔥 on your own terminal🖥 | 68 | +0 |
+| [pipes.sh](https://github.com/pipeseroni/pipes.sh) | Animated pipes terminal screensaver | 3,023 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -786,11 +786,11 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [Vexor](../r/scarletkc~vexor.md) | A semantic search engine for files and code. | 240 | +2 |
-| [ygrep](../r/yetidevworks~ygrep.md) | A fast, local, indexed code search tool optimized for AI coding assistants. Written in Rust using Tantivy for full-text  | 58 | +2 |
+| [ygrep](https://github.com/yetidevworks/ygrep) | A fast, local, indexed code search tool optimized for AI coding assistants. Written in Rust using Tantivy for full-text  | 58 | +2 |
 | [srgn](../r/alexpovel~srgn.md) | A grep-like tool which understands source code syntax and allows for manipulation in addition to search | 912 | +1 |
-| [rawhide](../r/raforg~rawhide.md) | find files using pretty C expressions | 60 | +0 |
-| [reflex](../r/reflex-search~reflex.md) | Reflex - The instant, code-aware local search engine. | 74 | +0 |
-| [semantic-grep](../r/arunsupe~semantic-grep.md) | grep for words with similar meaning to the query | 1,247 | +0 |
+| [rawhide](https://github.com/raforg/rawhide) | find files using pretty C expressions | 60 | +0 |
+| [reflex](https://github.com/reflex-search/reflex) | Reflex - The instant, code-aware local search engine. | 74 | +0 |
+| [semantic-grep](https://github.com/arunsupe/semantic-grep) | grep for words with similar meaning to the query | 1,247 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -806,7 +806,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [aha](../r/theziz~aha.md) | Ansi HTML Adapter | 1,085 | +4 |
+| [aha](https://github.com/theZiz/aha) | Ansi HTML Adapter | 1,085 | +4 |
 | [await](../r/slavaganzin~await.md) | 40K, small memory footprint, single binary that run list of commands in parallel and waits for their termination | 276 | +1 |
 | [envio](../r/envio-cli~envio.md) | A secure command-line tool for managing environment variables | 991 | +0 |
 
@@ -816,7 +816,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [upterm](../r/owenthereal~upterm.md) | Instant Terminal Sharing | 1,292 | +6 |
+| [upterm](../r/owenthereal~upterm.md) | Instant Terminal Sharing | 1,294 | +6 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -824,7 +824,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [cmdperf](../r/miklosn~cmdperf.md) | Command Performance Benchmarking | 40 | +1 |
+| [cmdperf](https://github.com/miklosn/cmdperf) | Command Performance Benchmarking | 40 | +1 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -832,8 +832,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Microsoft Edit](../r/microsoft~edit.md) | We all edit. | 14,573 | +26 |
-| [Prosaic](../r/dimwitlabs~prosaic.md) | A writer-first terminal writing app built with Python and Textual | 23 | +0 |
+| [Microsoft Edit](../r/microsoft~edit.md) | We all edit. | 14,568 | +26 |
+| [Prosaic](https://github.com/DimwitLabs/Prosaic) | A writer-first terminal writing app built with Python and Textual | 23 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -841,8 +841,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [cwal](../r/nitinbhat972~cwal.md) | Blazing-fast pywal-like color palette generator written in C. | 130 | +2 |
-| [gowall](../r/achno~gowall.md) | A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Traditional & Hybrid, Image Compression ,color pa | 2,312 | +2 |
+| [cwal](../r/nitinbhat972~cwal.md) | Blazing-fast pywal-like color palette generator written in C. | 129 | +2 |
+| [gowall](../r/achno~gowall.md) | A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Traditional & Hybrid, Image Compression ,color pa | 2,309 | +2 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -850,9 +850,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Tock](../r/kriuchkov~tock.md) | Tock is a powerful time tracking tool for the command line. It saves activity logs as plaintext files and provides an in | 477 | +6 |
+| [Tock](../r/kriuchkov~tock.md) | Tock is a powerful time tracking tool for the command line. It saves activity logs as plaintext files and provides an in | 480 | +6 |
 | [Helm](../r/0xjuanma~helm.md) | A minimalistic and customizable pomodoro-like timer for your terminal written in Go. Includes default pomodoro timer and | 147 | +1 |
-| [Focusd](../r/0xarchit~focusd.md) | Free, open-source screen time tracker for Windows. Monitors app usage, tracks browser tabs, sets daily limits. No cloud, | 41 | +0 |
+| [Focusd](https://github.com/0xarchit/Focusd) | Free, open-source screen time tracker for Windows. Monitors app usage, tracks browser tabs, sets daily limits. No cloud, | 42 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -860,81 +860,81 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [starship](../r/starship~starship.md) | ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 59,891 | +130 |
-| [fastfetch](../r/fastfetch-cli~fastfetch.md) | A maintained, feature-rich and performance oriented, neofetch like system information tool. | 24,609 | +110 |
-| [glow](../r/charmbracelet~glow.md) | Render markdown on the CLI, with pizzazz! 💅🏻 | 27,293 | +102 |
-| [aria2](../r/tatsuhiro-t~aria2.md) | aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It suppo | 42,206 | +76 |
-| [rustnet](../r/domcyrus~rustnet.md) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | 5,020 | +59 |
-| [wttr.in](../r/chubin~wttr.in.md) | ⛅ The right way to check the weather | 30,527 | +42 |
-| [bandwhich](../r/imsnif~bandwhich.md) | Terminal bandwidth utilization tool | 11,964 | +14 |
-| [Clipboard](../r/slackadays~clipboard.md) | 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager | 5,899 | +13 |
-| [gopass](../r/gopasspw~gopass.md) | The slightly more awesome standard unix password manager for teams | 7,146 | +11 |
-| [Qalculate](../r/qalculate~libqalculate.md) | Qalculate! library and CLI | 2,661 | +9 |
-| [sshuttle](../r/sshuttle~sshuttle.md) | Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux a | 13,555 | +8 |
-| [intelli-shell](../r/lasantosr~intelli-shell.md) | Like IntelliSense, but for shells | 1,287 | +6 |
-| [translate-shell](../r/soimort~translate-shell.md) | 💬 Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc. | 7,509 | +6 |
+| [starship](../r/starship~starship.md) | ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 59,913 | +130 |
+| [fastfetch](../r/fastfetch-cli~fastfetch.md) | A maintained, feature-rich and performance oriented, neofetch like system information tool. | 24,655 | +110 |
+| [glow](../r/charmbracelet~glow.md) | Render markdown on the CLI, with pizzazz! 💅🏻 | 27,331 | +102 |
+| [aria2](../r/tatsuhiro-t~aria2.md) | aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It suppo | 42,384 | +76 |
+| [rustnet](../r/domcyrus~rustnet.md) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | 5,027 | +59 |
+| [wttr.in](../r/chubin~wttr.in.md) | ⛅ The right way to check the weather | 30,544 | +42 |
+| [bandwhich](../r/imsnif~bandwhich.md) | Terminal bandwidth utilization tool | 11,971 | +14 |
+| [Clipboard](../r/slackadays~clipboard.md) | 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager | 5,902 | +13 |
+| [gopass](../r/gopasspw~gopass.md) | The slightly more awesome standard unix password manager for teams | 7,149 | +11 |
+| [Qalculate](../r/qalculate~libqalculate.md) | Qalculate! library and CLI | 2,664 | +9 |
+| [sshuttle](../r/sshuttle~sshuttle.md) | Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux a | 13,565 | +8 |
+| [intelli-shell](../r/lasantosr~intelli-shell.md) | Like IntelliSense, but for shells | 1,288 | +6 |
+| [translate-shell](https://github.com/soimort/translate-shell) | 💬 Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc. | 7,509 | +6 |
 | [wego](../r/schachmat~wego.md) | weather app for the terminal | 8,549 | +5 |
-| [gotty](../r/yudai~gotty.md) | Share your terminal as a web application | 19,550 | +4 |
-| [s](../r/zquestz~s.md) | Open a web search in your terminal. | 2,601 | +4 |
-| [xxh](../r/xxh~xxh.md) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | 6,089 | +4 |
-| [alex](../r/get-alex~alex.md) | Catch insensitive, inconsiderate writing | 5,099 | +2 |
-| [mapscii](../r/rastapasta~mapscii.md) | 🗺  MapSCII is a Braille & ASCII world map renderer for your console - enter => telnet mapscii.me <= on Mac (brew instal | 9,234 | +2 |
-| [papis](../r/papis~papis.md) | Powerful and highly extensible command-line based document and bibliography manager. | 1,780 | +2 |
-| [themer](../r/mjswensen~themer.md) | 🎨 themer takes a set of colors and outputs themes for your apps (editors, terminals, wallpapers, and more). | 5,853 | +2 |
-| [acmetool](../r/hlandau~acmetool.md) | 🔒 acmetool, an automatic certificate acquisition tool for ACME (Let's Encrypt) | 2,092 | +1 |
-| [google-font-installer](../r/lordgiotto~google-font-installer.md) | Download and install Google Web Fonts on your local machine. Both CLI and API available. | 200 | +1 |
-| [grip](../r/joeyespo~grip.md) | Preview GitHub README.md files locally before committing them. | 6,824 | +1 |
-| [has](../r/kdabir~has.md) | ✅ checks presence of various command line tools and their versions on the path  | 820 | +1 |
-| [OneCite](../r/hzacode~onecite.md) | 📚 Only Cite what you can verify | 66 | +1 |
-| [periodic-table-cli](../r/spirometaxas~periodic-table-cli.md) | An interactive Periodic Table of Elements app for the console! | 307 | +1 |
-| [tiptop](../r/nschloe~tiptop.md) | 🖥️ Command-line system monitoring | 2,125 | +1 |
-| [warp](../r/spolu~warp.md) | Secure and simple terminal sharing | 1,617 | +1 |
-| [xiringuito](../r/ivanilves~xiringuito.md) | SSH-based "VPN for poors" | 1,159 | +1 |
+| [gotty](https://github.com/yudai/gotty) | Share your terminal as a web application | 19,552 | +4 |
+| [s](../r/zquestz~s.md) | Open a web search in your terminal. | 2,602 | +4 |
+| [xxh](../r/xxh~xxh.md) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | 6,092 | +4 |
+| [alex](https://github.com/get-alex/alex) | Catch insensitive, inconsiderate writing | 5,101 | +2 |
+| [mapscii](https://github.com/rastapasta/mapscii) | 🗺  MapSCII is a Braille & ASCII world map renderer for your console - enter => telnet mapscii.me <= on Mac (brew instal | 9,235 | +2 |
+| [papis](../r/papis~papis.md) | Powerful and highly extensible command-line based document and bibliography manager. | 1,781 | +2 |
+| [themer](../r/mjswensen~themer.md) | 🎨 themer takes a set of colors and outputs themes for your apps (editors, terminals, wallpapers, and more). | 5,854 | +2 |
+| [acmetool](https://github.com/hlandau/acmetool) | 🔒 acmetool, an automatic certificate acquisition tool for ACME (Let's Encrypt) | 2,092 | +1 |
+| [google-font-installer](https://github.com/lordgiotto/google-font-installer) | Download and install Google Web Fonts on your local machine. Both CLI and API available. | 200 | +1 |
+| [grip](https://github.com/joeyespo/grip) | Preview GitHub README.md files locally before committing them. | 6,826 | +1 |
+| [has](../r/kdabir~has.md) | ✅ checks presence of various command line tools and their versions on the path  | 821 | +1 |
+| [OneCite](https://github.com/HzaCode/OneCite) | 📚 Only Cite what you can verify | 66 | +1 |
+| [periodic-table-cli](https://github.com/spirometaxas/periodic-table-cli) | An interactive Periodic Table of Elements app for the console! | 307 | +1 |
+| [tiptop](https://github.com/nschloe/tiptop) | 🖥️ Command-line system monitoring | 2,125 | +1 |
+| [warp](https://github.com/spolu/warp) | Secure and simple terminal sharing | 1,617 | +1 |
+| [xiringuito](https://github.com/ivanilves/xiringuito) | SSH-based "VPN for poors" | 1,159 | +1 |
 | [yank](../r/mptre~yank.md) | Yank terminal output to clipboard | 1,713 | +1 |
-| [active-win-cli](../r/sindresorhus~active-win-cli.md) | Get metadata about the active window (title, id, bounds, owner, URL, etc) | 69 | +0 |
+| [active-win-cli](https://github.com/sindresorhus/active-win-cli) | Get metadata about the active window (title, id, bounds, owner, URL, etc) | 69 | +0 |
 | [anvil](../r/0xjuanma~anvil.md) | CLI to streamline config management and tool installation. Install your full dev tool-chain in one command and sync conf | 116 | +0 |
-| [battery-level-cli](../r/gillstrom~battery-level-cli.md) | Get current battery level | 43 | +0 |
-| [bitly-client](../r/specious~bitly-client.md) | 🔗 Create and manage your Bitly shortlinks from the command line | 50 | +0 |
-| [brightness-cli](../r/kevva~brightness-cli.md) | Change the screen brightness | 207 | +0 |
-| [certificate-ripper](../r/hakky54~certificate-ripper.md) | 🔐 A CLI tool to extract server certificates | 925 | +0 |
-| [clevercli](../r/clevercli~clevercli.md) | ChatGPT powered CLI utilities. Easily add new prompt types in ~/.clevercli/ | 164 | +0 |
+| [battery-level-cli](https://github.com/gillstrom/battery-level-cli) | Get current battery level | 43 | +0 |
+| [bitly-client](https://github.com/specious/bitly-client) | 🔗 Create and manage your Bitly shortlinks from the command line | 50 | +0 |
+| [brightness-cli](https://github.com/kevva/brightness-cli) | Change the screen brightness | 207 | +0 |
+| [certificate-ripper](../r/hakky54~certificate-ripper.md) | 🔐 A CLI tool to extract server certificates | 926 | +0 |
+| [clevercli](../r/clevercli~clevercli.md) | ChatGPT powered CLI utilities. Easily add new prompt types in ~/.clevercli/ | 165 | +0 |
 | [clippy](../r/neilberkman~clippy.md) | Unified clipboard tool for macOS that intelligently handles both text and file copying | 246 | +0 |
 | [crawley](../r/s0rg~crawley.md) | The unix-way web crawler | 340 | +0 |
-| [dark-mode](../r/sindresorhus~dark-mode.md) | Control the macOS dark mode from the command-line | 686 | +0 |
+| [dark-mode](https://github.com/sindresorhus/dark-mode) | Control the macOS dark mode from the command-line | 686 | +0 |
 | [deadlink](../r/nschloe~deadlink.md) | 💀 Checks and fixes URLs in code and documentation. | 177 | +0 |
 | [fkill-cli](../r/sindresorhus~fkill-cli.md) | Fabulously kill processes. Cross-platform. | 7,005 | +0 |
-| [get-port-cli](../r/sindresorhus~get-port-cli.md) | Get an available port | 161 | +0 |
-| [getnews.tech](../r/omgimanerd~getnews.tech.md) | A web server that fetches data from the News API and formats it for display in the terminal. | 174 | +0 |
-| [gg](../r/mzz2017~gg.md) | 一个支持节点与订阅链接的 Linux 命令行代理工具 \| A command-line tool for one-click proxy in your research and development without installin | 1,933 | +0 |
+| [get-port-cli](https://github.com/sindresorhus/get-port-cli) | Get an available port | 161 | +0 |
+| [getnews.tech](https://github.com/omgimanerd/getnews.tech) | A web server that fetches data from the News API and formats it for display in the terminal. | 174 | +0 |
+| [gg](../r/mzz2017~gg.md) | 一个支持节点与订阅链接的 Linux 命令行代理工具 \| A command-line tool for one-click proxy in your research and development without installing | 1,934 | +0 |
 | [gtree](../r/ddddddo~gtree.md) | Easily output ASCII tree from Go program or Markdown unordered list . There's also CLI tool that can output tree from JS | 361 | +0 |
-| [gzip-size-cli](../r/sindresorhus~gzip-size-cli.md) | Get the gzipped size of a file or stdin | 193 | +0 |
-| [hasha-cli](../r/sindresorhus~hasha-cli.md) | Hashing made simple. Get the hash of text or stdin. | 80 | +0 |
-| [hget](../r/bevacqua~hget.md) | 👏 Render websites in plain text from your terminal | 389 | +0 |
-| [is-reachable-cli](../r/beatfreaker~is-reachable-cli.md) | Check if hostnames are reachable or not | 29 | +0 |
-| [JackPaper](../r/jackel27~jackpaper.md) | Set images from Unsplash as wallpaper. | 13 | +0 |
+| [gzip-size-cli](https://github.com/sindresorhus/gzip-size-cli) | Get the gzipped size of a file or stdin | 193 | +0 |
+| [hasha-cli](https://github.com/sindresorhus/hasha-cli) | Hashing made simple. Get the hash of text or stdin. | 80 | +0 |
+| [hget](https://github.com/bevacqua/hget) | 👏 Render websites in plain text from your terminal | 389 | +0 |
+| [is-reachable-cli](https://github.com/beatfreaker/is-reachable-cli) | Check if hostnames are reachable or not | 29 | +0 |
+| [JackPaper](https://github.com/jackel27/jackpaper) | Set images from Unsplash as wallpaper. | 13 | +0 |
 | [kill-tabs](../r/sindresorhus~kill-tabs.md) | Kill all Chrome tabs to improve performance, decrease battery usage, and save memory | 393 | +0 |
-| [mdlt](../r/metadelta~mdlt.md) | A command-line utility for quick math. | 197 | +0 |
-| [mdv](../r/axiros~terminal_markdown_viewer.md) | Styled Terminal Markdown Viewer | 1,884 | +0 |
+| [mdlt](https://github.com/metadelta/mdlt) | A command-line utility for quick math. | 197 | +0 |
+| [mdv](https://github.com/axiros/terminal_markdown_viewer) | Styled Terminal Markdown Viewer | 1,884 | +0 |
 | [nasa-cli](../r/xxczaki~nasa-cli.md) | 🚀 Download NASA Picture of the Day from your terminal! | 106 | +0 |
 | [neoss](../r/pablolec~neoss.md) | ✔️ User-friendly and detailed socket statistics with a Terminal UI. | 230 | +0 |
-| [open-pip-cli](../r/albinekb~open-pip-cli.md) | 📺 CLI for https://github.com/albinekb/open-pip - Open a movie url or path in macOS picture-in-picture | 215 | +0 |
-| [osx-wifi-cli](../r/danyshaanan~osx-wifi-cli.md) | 📦 A cli for managing wifi connections on OSX | 98 | +0 |
-| [ots](../r/sniptt-official~ots.md) | 🔐 Share end-to-end encrypted secrets with others via a one-time URL | 1,844 | +0 |
-| [pipe_exec](../r/koraa~pipe_exec.md) | Execute binaries from pipes, stdin and ttys | 83 | +0 |
-| [pubs](../r/pubs~pubs.md) | Your bibliography on the command line | 291 | +0 |
-| [QuickWall](../r/deepjyoti30~quickwall.md) | Set latest wallpapers from Unsplash from the commandline | 193 | +0 |
-| [screensaver](../r/gillstrom~screensaver.md) | Start the screensaver. | 44 | +0 |
-| [speedtest-net](../r/ddsol~speedtest.net.md) | node.js SpeedTest.net client module | 626 | +0 |
+| [open-pip-cli](https://github.com/albinekb/open-pip-cli) | 📺 CLI for https://github.com/albinekb/open-pip - Open a movie url or path in macOS picture-in-picture | 215 | +0 |
+| [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli) | 📦 A cli for managing wifi connections on OSX | 98 | +0 |
+| [ots](https://github.com/sniptt-official/ots) | 🔐 Share end-to-end encrypted secrets with others via a one-time URL | 1,845 | +0 |
+| [pipe_exec](https://github.com/koraa/pipe_exec) | Execute binaries from pipes, stdin and ttys | 83 | +0 |
+| [pubs](https://github.com/pubs/pubs) | Your bibliography on the command line | 291 | +0 |
+| [QuickWall](https://github.com/deepjyoti30/QuickWall) | Set latest wallpapers from Unsplash from the commandline | 193 | +0 |
+| [screensaver](https://github.com/gillstrom/screensaver) | Start the screensaver. | 44 | +0 |
+| [speedtest-net](https://github.com/ddsol/speedtest.net) | node.js SpeedTest.net client module | 626 | +0 |
 | [splash-cli](../r/splash-cli~splash-cli.md) | A simple, CLI to download Unsplash wallpapers. Nothing fancy — it just works. | 579 | +0 |
-| [stronghold](../r/alichtman~stronghold.md) | Easily configure macOS security settings from the terminal. | 1,191 | +0 |
-| [trino](../r/eneserdogan~trino.md) | Trino: Master your translations with command line! | 144 | +0 |
-| [undollar](../r/imfeelingducky~undollar.md) | undollar eats the dollar sign in the command you just pasted into your terminal | 207 | +0 |
-| [wallpaper-cli](../r/sindresorhus~wallpaper-cli.md) | Get or set the desktop wallpaper | 180 | +0 |
-| [weather-cli](../r/riyadhalnur~weather-cli.md) | Check the weather for your city from your terminal | 95 | +0 |
+| [stronghold](https://github.com/alichtman/stronghold) | Easily configure macOS security settings from the terminal. | 1,191 | +0 |
+| [trino](https://github.com/eneserdogan/trino) | Trino: Master your translations with command line! | 144 | +0 |
+| [undollar](https://github.com/ImFeelingDucky/undollar) | undollar eats the dollar sign in the command you just pasted into your terminal | 207 | +0 |
+| [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli) | Get or set the desktop wallpaper | 180 | +0 |
+| [weather-cli](https://github.com/riyadhalnur/weather-cli) | Check the weather for your city from your terminal | 95 | +0 |
 | [DocToc](../r/thlorenz~doctoc.md) | 📜 Generates table of contents for markdown files inside local git repository. Links are compatible with anchors generat | 4,464 | -1 |
-| [speed-test](../r/sindresorhus~speed-test.md) | Test your internet connection speed and ping using speedtest.net from the CLI | 3,949 | -1 |
-| [Ultimate Plumber](../r/akavel~up.md) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 8,844 | -1 |
-| [speedtest-cli](../r/sivel~speedtest-cli.md) | Command line interface for testing internet bandwidth using speedtest.net | 14,064 | -6 |
+| [speed-test](https://github.com/sindresorhus/speed-test) | Test your internet connection speed and ping using speedtest.net from the CLI | 3,949 | -1 |
+| [Ultimate Plumber](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 8,843 | -1 |
+| [speedtest-cli](https://github.com/sivel/speedtest-cli) | Command line interface for testing internet bandwidth using speedtest.net | 14,062 | -6 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -942,8 +942,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [gittype](../r/unhappychoice~gittype.md) | A CLI code-typing game that turns your source code into typing challenges | 1,598 | +12 |
-| [amazon-orders](../r/alexdlaird~amazon-orders.md) | A Python library (and CLI) for Amazon order history, line items, and transactions | 175 | +2 |
+| [gittype](../r/unhappychoice~gittype.md) | A CLI code-typing game that turns your source code into typing challenges | 1,600 | +12 |
+| [amazon-orders](../r/alexdlaird~amazon-orders.md) | A Python library (and CLI) for Amazon order history, line items, and transactions | 178 | +2 |
 | [OctoType](../r/mahlquistj~octotype.md) | A WIP TUI typing trainer inspired by monkeytype with a focus on customization | 102 | +0 |
 
 [Back to top](#awesome-cli-apps)
@@ -952,32 +952,32 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Lazygit](../r/jesseduffield~lazygit.md) | simple terminal UI for git commands | 82,300 | +195 |
-| [gitui](../r/extrawurst~gitui.md) | Blazing 💥 fast terminal-ui for git written in rust 🦀 | 22,482 | +26 |
-| [tig](../r/jonas~tig.md) | Text-mode interface for git | 13,333 | +12 |
-| [git-extras](../r/tj~git-extras.md) | GIT utilities -- repo summary, repl, changelog population, author commit percentages and more | 18,101 | +5 |
+| [Lazygit](../r/jesseduffield~lazygit.md) | simple terminal UI for git commands | 82,378 | +195 |
+| [gitui](../r/extrawurst~gitui.md) | Blazing 💥 fast terminal-ui for git written in rust 🦀 | 22,497 | +26 |
+| [tig](../r/jonas~tig.md) | Text-mode interface for git | 13,339 | +12 |
+| [git-extras](../r/tj~git-extras.md) | GIT utilities -- repo summary, repl, changelog population, author commit percentages and more | 18,105 | +5 |
 | [bash-git-prompt](../r/magicmonty~bash-git-prompt.md) | An informative and fancy bash prompt for Git users | 6,940 | +3 |
-| [git-standup](../r/kamranahmedse~git-standup.md) | Recall what you or your team did on the last working day | 7,851 | +3 |
-| [gita](../r/nosarthur~gita.md) | Manage many git repos with sanity 从容管理多个git库 | 1,937 | +3 |
+| [git-standup](https://github.com/kamranahmedse/git-standup) | Recall what you or your team did on the last working day | 7,851 | +3 |
+| [gita](../r/nosarthur~gita.md) | Manage many git repos with sanity 从容管理多个git库 | 1,938 | +3 |
 | [git-secret](../r/sobolevn~git-secret.md) | 👥 A bash-tool to store your private data inside a git repository. | 4,045 | +2 |
 | [git-stats](../r/ionicabizau~git-stats.md) | 🍀 Local git statistics including GitHub-like contributions calendars. | 6,599 | +2 |
 | [AI Git Narrator](../r/pmusolino~ai-git-narrator.md) | Command-line tool for generating Git commit messages and PR descriptions with AI. Supports staged/unstaged changes and c | 120 | +1 |
-| [readme-md-generator](../r/kefranabg~readme-md-generator.md) | 📄 CLI that generates beautiful README.md files | 11,134 | +1 |
+| [readme-md-generator](https://github.com/kefranabg/readme-md-generator) | 📄 CLI that generates beautiful README.md files | 11,135 | +1 |
 | [shallow-backup](../r/alichtman~shallow-backup.md) | Git-integrated backup tool for macOS and Linux devs. | 1,337 | +1 |
-| [CLI GitHub](../r/ionicabizau~cli-github.md) | 😸 A fancy GitHub client for command line. | 454 | +0 |
-| [dev-time](../r/samverschueren~dev-time-cli.md) | Get the current local time of a GitHub user. | 180 | +0 |
+| [CLI GitHub](https://github.com/IonicaBizau/cli-github) | 😸 A fancy GitHub client for command line. | 454 | +0 |
+| [dev-time](https://github.com/samverschueren/dev-time-cli) | Get the current local time of a GitHub user. | 180 | +0 |
 | [ggc](../r/bmf-san~ggc.md) | A modern Git CLI tool with both traditional command-line and interactive incremental-search UI. | 285 | +0 |
-| [git commander](../r/golbin~git-commander.md) | A git tool with an easy terminal interface. | 1,119 | +0 |
-| [git-all-branches](../r/zacanger~git-all-branches.md) | Better git branch -a | 10 | +0 |
-| [git-labelmaker](../r/himynameisdave~git-labelmaker.md) | 🎏 Manage your GitHub labels from the command line! | 576 | +0 |
-| [gitlab-cli](../r/vishwanatharondekar~gitlab-cli.md) | Create a merge request from command line in gitlab | 265 | +0 |
-| [gitmoji-changelog](../r/frinyvonnick~gitmoji-changelog.md) | A changelog generator for gitmoji 😜 | 394 | +0 |
-| [import-github-labels-cli](../r/abhijithvijayan~import-github-labels-cli.md) | CLI to sync labels between repositories on GitHub | 20 | +0 |
-| [semantic-git-commit-cli](../r/jpeer264~node-semantic-git-commit-cli.md) | A CLI for semantic git commits | 150 | +0 |
-| [SnowFS](../r/snowtrack~snowfs.md) | A fast, scalable version control system for binaries. | 0 |  |
+| [git commander](https://github.com/golbin/git-commander) | A git tool with an easy terminal interface. | 1,119 | +0 |
+| [git-all-branches](https://github.com/zacanger/git-all-branches) | Better git branch -a | 10 | +0 |
+| [git-labelmaker](https://github.com/himynameisdave/git-labelmaker) | 🎏 Manage your GitHub labels from the command line! | 576 | +0 |
+| [gitlab-cli](https://github.com/vishwanatharondekar/gitlab-cli) | Create a merge request from command line in gitlab | 265 | +0 |
+| [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) | A changelog generator for gitmoji 😜 | 394 | +0 |
+| [import-github-labels-cli](https://github.com/abhijithvijayan/import-github-labels-cli) | CLI to sync labels between repositories on GitHub | 20 | +0 |
+| [semantic-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli) | A CLI for semantic git commits | 150 | +0 |
+| [SnowFS](https://github.com/snowtrack/snowfs) | A fast, scalable version control system for binaries. | 0 |  |
 | [gitmoji-cli](../r/carloscuesta~gitmoji-cli.md) | A gitmoji interactive cli tool for using emojis on commits. 💻 | 4,829 | -1 |
-| [hub](../r/github~hub.md) | A command-line tool that makes git easier to use with GitHub. | 22,952 | -1 |
-| [grv](../r/rgburke~grv.md) | GRV is a terminal interface for viewing git repositories | 4,094 | -2 |
+| [hub](https://github.com/github/hub) | A command-line tool that makes git easier to use with GitHub. | 22,954 | -1 |
+| [grv](https://github.com/rgburke/grv) | GRV is a terminal interface for viewing git repositories | 4,094 | -2 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -985,8 +985,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [capcut-cli](../r/renezander030~capcut-cli.md) | Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut | 460 | +21 |
-| [cinema](../r/marm00~cinema.md) | 🎥 Command line multiviewer | 37 | +0 |
+| [capcut-cli](../r/renezander030~capcut-cli.md) | Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut | 476 | +21 |
+| [cinema](https://github.com/marm00/cinema) | 🎥 Command line multiviewer | 37 | +0 |
 
 [Back to top](#awesome-cli-apps)
 
@@ -994,8 +994,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [weathr](../r/veirt~weathr.md) | a terminal weather app with ascii animation | 3,046 | +10 |
-| [linecast](../r/ashuttl~linecast.md) | Weather, tides, the sun, the moon, and maps, in your terminal. The Old Farmer's Almanac meets Minitel. | 470 |  |
+| [weathr](../r/veirt~weathr.md) | a terminal weather app with ascii animation | 3,049 | +10 |
+| [linecast](../r/ashuttl~linecast.md) | Weather, tides, the sun, the moon, maps, and a planetarium, in your terminal. The Old Farmer's Almanac meets Minitel. | 481 |  |
 
 [Back to top](#awesome-cli-apps)
 
@@ -1003,10 +1003,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Mole](../r/tw93~mole.md) | 🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app. | 66,996 |  |
+| [Mole](../r/tw93~mole.md) | 🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app. | 67,480 |  |
 | [Raccoon](../r/thousandflowers~raccoon.md) | macOS companion toolkit for power users | 130 |  |
 
 [Back to top](#awesome-cli-apps)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/l/cli-apps/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/l/cli-apps/)*

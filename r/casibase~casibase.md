@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,616 | +35 | +98 | +374 | 2026-09-09 |
+| 5,626 | +35 | +104 | +355 | 2026-09-09 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/casibase~casibase/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/casibase~casibase/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,172 | +10 | +17 | +54 | 2026-06-04 |
+| 2,173 | +10 | +16 | +54 | 2026-06-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Testing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fityanos~awesome-quality-assurance-roadmap/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fityanos~awesome-quality-assurance-roadmap/)*

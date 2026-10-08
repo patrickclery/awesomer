@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,203 | +89 | +334 |  | 2026-09-12 |
+| 8,245 | +89 | +329 |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/withastro~flue/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/withastro~flue/)*

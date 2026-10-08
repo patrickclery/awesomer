@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,272 |  |  |  | 2026-09-14 |
+| 24,297 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Browser Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/browserbase~stagehand/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/browserbase~stagehand/)*

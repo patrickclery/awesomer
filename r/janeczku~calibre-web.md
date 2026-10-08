@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,175 | +163 | +326 | +681 | 2026-09-05 |
+| 18,184 | +163 | +307 | +669 | 2026-09-05 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Document Management - E-books
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/janeczku~calibre-web/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/janeczku~calibre-web/)*

@@ -15,4 +15,4 @@
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/patrickhoefler~dockerfilegraph/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/patrickhoefler~dockerfilegraph/)*

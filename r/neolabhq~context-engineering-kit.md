@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,693 | +32 | +359 | +589 | 2026-08-26 |
+| 1,701 | +32 | +363 | +570 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Memory & Context Persistence
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/neolabhq~context-engineering-kit/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neolabhq~context-engineering-kit/)*

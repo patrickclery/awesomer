@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,577 | +2 | +17 | +49 | 2026-09-13 |
+| 1,579 | +2 | +16 | +49 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/triplea-game~triplea/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/triplea-game~triplea/)*

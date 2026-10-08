@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 151 |  |  |  | 2026-09-13 |
+| 154 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/api7~aisix/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/api7~aisix/)*

@@ -15,4 +15,4 @@
 - [awesome](../l/awesome.md) / Theory
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/erwanlemerrer~awesome-audit-algorithms/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/erwanlemerrer~awesome-audit-algorithms/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,354 | +3 | +6 | +32 | 2026-07-15 |
+| 8,356 | +3 | +6 | +33 | 2026-07-15 |
 
 ## Found In
 
@@ -20,4 +20,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / ZSH on Windows
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~antigen/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~antigen/)*

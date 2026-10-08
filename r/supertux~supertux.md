@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,141 | +2 | +15 | +88 | 2026-09-12 |
+| 3,144 | +2 | +18 | +79 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/supertux~supertux/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/supertux~supertux/)*

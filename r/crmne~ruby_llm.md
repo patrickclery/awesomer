@@ -1,6 +1,6 @@
 # crmne/ruby_llm
 
-> One delightful Ruby framework for every major AI provider. Build AI agents, chatbots, RAG apps, and multimodal workflows
+> The Ruby-native AI framework. Chats, agents, tools, images, audio, and video through one consistent API, in plain Ruby o
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/crmne/ruby_llm) | [Live site ↗](https://patrickclery.com/awesomer/r/crmne~ruby_llm/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,359 | +19 | +61 | +337 | 2026-09-12 |
+| 4,373 | +19 | +71 | +345 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ruby](../l/ruby.md) / AI and LLMs
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/crmne~ruby_llm/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/crmne~ruby_llm/)*

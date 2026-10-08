@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,141 | +0 | +2 | +14 | 2026-09-01 |
+| 1,142 | +0 | +3 | +15 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/frogging-family~wine-tkg-git/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/frogging-family~wine-tkg-git/)*

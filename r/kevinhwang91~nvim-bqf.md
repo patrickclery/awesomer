@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,031 | -2 | +3 | +10 | 2026-04-02 |
+| 2,031 | -2 | +2 | +9 | 2026-04-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Quickfix
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~nvim-bqf/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~nvim-bqf/)*

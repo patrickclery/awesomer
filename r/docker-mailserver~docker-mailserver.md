@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,846 | +47 | +144 | +462 | 2026-09-07 |
+| 18,849 | +47 | +104 | +440 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Complete Email Server
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/docker-mailserver~docker-mailserver/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/docker-mailserver~docker-mailserver/)*

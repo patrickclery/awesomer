@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 959 | +5 | +43 |  | 2026-09-04 |
+| 963 | +5 | +45 |  | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Trading Execution
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/alpacahq~alpaca-mcp-server/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alpacahq~alpaca-mcp-server/)*

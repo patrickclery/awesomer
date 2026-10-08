@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,469 | +52 | +206 | +561 | 2026-09-11 |
+| 1,483 | +52 | +184 | +560 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / AI Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/atomicbot-ai~atomic-chat/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/atomicbot-ai~atomic-chat/)*

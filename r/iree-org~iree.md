@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,927 | +11 | +38 | +123 | 2026-09-13 |
+| 3,929 | +11 | +42 | +119 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-Performance Compute Libraries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/iree-org~iree/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/iree-org~iree/)*

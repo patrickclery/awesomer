@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 252 | +27 | +36 | +48 | 2026-09-13 |
+| 253 | +27 | +37 | +50 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Monitoring
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/codeswhat~drydock/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/codeswhat~drydock/)*

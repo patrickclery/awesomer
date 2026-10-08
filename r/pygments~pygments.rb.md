@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 583 | +0 | +0 |  | 2026-08-27 |
+| 583 | +0 | +0 |  | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Highlighting
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pygments~pygments.rb/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pygments~pygments.rb/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,792 | -1 | +0 | +4 | 2026-03-13 |
+| 7,794 | -1 | +1 | +4 | 2026-03-13 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Templating
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/foundation~foundation-emails/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/foundation~foundation-emails/)*

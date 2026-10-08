@@ -15,4 +15,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Content Management Systems (CMS)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/thomas4019~expressa/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thomas4019~expressa/)*

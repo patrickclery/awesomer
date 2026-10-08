@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,168 | +15 | +67 | +264 | 2026-07-11 |
+| 3,180 | +15 | +75 | +261 | 2026-07-11 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Productivity
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/supercmdlabs~supercmd/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/supercmdlabs~supercmd/)*

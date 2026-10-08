@@ -1,6 +1,6 @@
 # achiya-automation/safari-mcp
 
-> Native Safari browser automation for AI agents. 97 tools via AppleScript — zero overhead, keeps logins, runs silently in
+> Native Safari browser automation for AI agents. 98 tools via AppleScript — zero overhead, keeps logins, runs silently in
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/achiya-automation/safari-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/achiya-automation~safari-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 184 | +4 | +17 | +70 | 2026-09-11 |
+| 199 | +4 | +28 | +83 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/achiya-automation~safari-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/achiya-automation~safari-mcp/)*

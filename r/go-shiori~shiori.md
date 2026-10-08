@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,639 | +22 | +58 | +136 | 2026-07-10 |
+| 11,643 | +22 | +54 | +135 | 2026-07-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Bookmarks and Link Sharing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/go-shiori~shiori/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/go-shiori~shiori/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 48,934 | +169 | +740 | +2,703 | 2026-05-22 |
+| 48,991 | +169 | +711 | +2,577 | 2026-05-22 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/paul-gauthier~aider/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paul-gauthier~aider/)*

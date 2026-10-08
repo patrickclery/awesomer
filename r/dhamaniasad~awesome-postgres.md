@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,084 | +10 | +39 | +130 | 2026-08-31 |
+| 12,091 | +10 | +43 | +131 | 2026-08-31 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/dhamaniasad~awesome-postgres/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dhamaniasad~awesome-postgres/)*

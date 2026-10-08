@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 140 | +0 | +0 | +4 | 2026-04-15 |
+| 141 | +0 | +1 | +5 | 2026-04-15 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Game
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/seandewar~actually-doom.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/seandewar~actually-doom.nvim/)*

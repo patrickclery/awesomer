@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,478 | +21 | +67 | +209 | 2026-08-31 |
+| 5,489 | +21 | +78 | +212 | 2026-08-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Game AI & Simulations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/google-deepmind~open_spiel/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-deepmind~open_spiel/)*

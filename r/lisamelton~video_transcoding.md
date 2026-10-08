@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,517 | -2 | -1 |  | 2026-08-30 |
+| 2,517 | -2 | -2 |  | 2026-08-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Video
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lisamelton~video_transcoding/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lisamelton~video_transcoding/)*

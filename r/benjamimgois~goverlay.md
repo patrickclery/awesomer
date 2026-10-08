@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,481 | +19 | +54 | +137 | 2026-09-13 |
+| 1,484 | +19 | +50 | +138 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/benjamimgois~goverlay/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/benjamimgois~goverlay/)*

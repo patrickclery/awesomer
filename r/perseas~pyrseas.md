@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/perseas~pyrseas/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/perseas~pyrseas/)*

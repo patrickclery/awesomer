@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 918 | +2 | +4 | +5 | 2026-09-13 |
+| 918 | +2 | +4 | +9 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ruby](../l/ruby.md) / Machine Learning
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/yoshoku~rumale/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yoshoku~rumale/)*

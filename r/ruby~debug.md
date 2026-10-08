@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,272 | +0 | +1 |  | 2026-06-12 |
+| 1,273 | +0 | +2 |  | 2026-06-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Developer Tooling
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby~debug/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby~debug/)*

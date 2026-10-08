@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 351 | +1 | +3 | +2 | 2026-08-28 |
+| 351 | +1 | +3 | +3 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~oci-seccomp-bpf-hook/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~oci-seccomp-bpf-hook/)*

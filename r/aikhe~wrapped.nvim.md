@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 188 | +0 | +3 | +9 | 2026-06-28 |
+| 188 | +0 | +3 | +8 | 2026-06-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Stats Tracking
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/aikhe~wrapped.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aikhe~wrapped.nvim/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 133 | +2 | +12 | +32 | 2026-09-13 |
+| 133 | +2 | +12 | +31 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/juspay~neurolink/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/juspay~neurolink/)*

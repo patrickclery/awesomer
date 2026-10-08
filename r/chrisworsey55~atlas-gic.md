@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,184 | +4 | +104 | +230 | 2026-05-27 |
+| 2,186 | +4 | +104 | +227 | 2026-05-27 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisworsey55~atlas-gic/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisworsey55~atlas-gic/)*

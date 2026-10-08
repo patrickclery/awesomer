@@ -15,4 +15,4 @@
 - [awesome-actions](../l/actions.md) / Official Actions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/julia-actions~setup-julia/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/julia-actions~setup-julia/)*

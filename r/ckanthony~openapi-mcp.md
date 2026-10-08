@@ -15,4 +15,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Code Execution
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ckanthony~openapi-mcp/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ckanthony~openapi-mcp/)*

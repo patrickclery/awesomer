@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,717 | +2,292 | +4,949 | +16,967 | 2026-08-31 |
+| 32,848 | +2,292 | +4,790 | +16,520 | 2026-08-31 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mukul975~anthropic-cybersecurity-skills/)*

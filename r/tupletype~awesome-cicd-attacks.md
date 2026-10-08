@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 630 | +4 | +11 | +27 | 2026-06-02 |
+| 631 | +4 | +8 | +28 | 2026-06-02 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/tupletype~awesome-cicd-attacks/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tupletype~awesome-cicd-attacks/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,864 | +2 | +10 | +58 | 2026-06-02 |
+| 9,864 | +2 | +7 | +54 | 2026-06-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/evolus~pencil/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/evolus~pencil/)*

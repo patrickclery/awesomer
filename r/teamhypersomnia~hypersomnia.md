@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,641 | +7 | +25 | +74 | 2026-09-13 |
+| 1,645 | +7 | +28 | +78 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/teamhypersomnia~hypersomnia/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/teamhypersomnia~hypersomnia/)*

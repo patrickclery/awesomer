@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,553 | +3 | +5 | +10 | 2026-09-07 |
+| 1,553 | +3 | +4 | +10 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Applications
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/afc163~fanyi/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/afc163~fanyi/)*

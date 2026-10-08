@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,083 | +2 | +4 | +18 | 2026-02-27 |
+| 2,084 | +2 | +7 | +17 | 2026-02-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/fr0st-brutal~awesome-pascal/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fr0st-brutal~awesome-pascal/)*

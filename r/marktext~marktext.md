@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,368 | +328 | +1,329 | +3,976 | 2026-09-13 |
+| 61,486 | +328 | +1,324 | +3,971 | 2026-09-16 |
 
 ## Found In
 
-- [Awesome-Linux-Software](../l/linux-software.md) / Office
 - [awesome-mac](../l/mac.md) / Markdown Tools [![Awesome List][awesome-list Icon]](https://github.com/BubuAnabelas/awesome-markdown#tools)
+- [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/marktext~marktext/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marktext~marktext/)*

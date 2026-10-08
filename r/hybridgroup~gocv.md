@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,498 | +4 | +13 | +36 | 2026-05-28 |
+| 7,500 | +4 | +15 | +36 | 2026-05-28 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Go
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hybridgroup~gocv/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hybridgroup~gocv/)*

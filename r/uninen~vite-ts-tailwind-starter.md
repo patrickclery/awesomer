@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 474 | +0 | +0 | +1 | 2026-09-11 |
+| 474 | +0 | +1 | +1 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/uninen~vite-ts-tailwind-starter/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/uninen~vite-ts-tailwind-starter/)*

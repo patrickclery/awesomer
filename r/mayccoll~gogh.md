@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,313 | +5 | +25 | +71 | 2026-09-08 |
+| 10,314 | +5 | +22 | +69 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Customization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mayccoll~gogh/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mayccoll~gogh/)*

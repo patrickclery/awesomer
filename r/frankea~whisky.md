@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 708 | +24 | +307 | +551 | 2026-09-07 |
+| 729 | +24 | +310 | +556 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Gaming Software
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/frankea~whisky/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/frankea~whisky/)*

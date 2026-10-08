@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,342 |  |  |  | 2026-09-11 |
+| 10,345 |  |  |  | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Books
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/gibbok~typescript-book/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gibbok~typescript-book/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 184 | +4 | +27 | +75 | 2026-06-11 |
+| 192 | +4 | +34 | +81 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Creative & Media
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/uxkero~anydesign/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/uxkero~anydesign/)*

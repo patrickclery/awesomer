@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,436 | +1,076 | +8,512 | +21,656 | 2026-09-13 |
+| 50,552 | +1,076 | +9,216 | +21,954 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Video Generation
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/heygen-com~hyperframes/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/heygen-com~hyperframes/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,527 | +10 | +28 | +92 | 2026-09-04 |
+| 1,530 | +10 | +28 | +92 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/qdrant~mcp-server-qdrant/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/qdrant~mcp-server-qdrant/)*

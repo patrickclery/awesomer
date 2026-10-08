@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,452 | +67 | +270 | +1,033 | 2026-09-12 |
+| 26,486 | +67 | +268 | +1,034 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Dashboards
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lissy93~dashy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lissy93~dashy/)*

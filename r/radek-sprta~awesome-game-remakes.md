@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,457 | +6 | +27 | +80 | 2026-09-08 |
+| 1,462 | +6 | +30 | +80 | 2026-09-08 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/radek-sprta~awesome-game-remakes/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/radek-sprta~awesome-game-remakes/)*

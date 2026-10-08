@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,005 |  |  |  | 2026-09-13 |
+| 3,010 |  |  |  | 2026-09-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / UI Components & Chat Libraries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/simon-he95~markstream-vue/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/simon-he95~markstream-vue/)*

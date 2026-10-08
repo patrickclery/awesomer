@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,569 | +1 | +1 | +18 | 2026-04-24 |
+| 14,571 | +1 | +5 | +20 | 2026-04-24 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / [Prezto](https://github.com/sorin-ionescu/prezto)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sorin-ionescu~prezto/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sorin-ionescu~prezto/)*

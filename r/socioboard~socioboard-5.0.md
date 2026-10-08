@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,505 | +2 | +14 | +44 | 2026-09-10 |
+| 1,505 | +2 | +12 | +43 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Analytics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/socioboard~socioboard-5.0/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/socioboard~socioboard-5.0/)*

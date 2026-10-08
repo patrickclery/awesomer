@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,243 | +11 | +33 | +119 | 2026-09-12 |
+| 6,267 | +11 | +55 | +136 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / IDE
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/heidisql~heidisql/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/heidisql~heidisql/)*

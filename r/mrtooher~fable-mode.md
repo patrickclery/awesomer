@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 857 | +8 | +33 |  | 2026-09-02 |
+| 861 | +8 | +35 |  | 2026-09-02 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mrtooher~fable-mode/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mrtooher~fable-mode/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,479 | +0 | -4 | +15 | 2026-08-17 |
+| 4,479 | +0 | -4 | +16 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Analytics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~ahoy/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~ahoy/)*

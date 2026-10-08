@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,845 | +2 | +9 | +32 | 2026-08-10 |
+| 5,845 | +2 | +11 | +28 | 2026-09-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Hubs & Registries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/paddlepaddle~paddleclas/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paddlepaddle~paddleclas/)*

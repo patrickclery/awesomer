@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 43,717 | +171 | +808 | +2,382 | 2026-09-08 |
+| 43,800 | +171 | +815 | +2,379 | 2026-09-14 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mac](../l/mac.md) / Audio and Video Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/mifi~lossless-cut/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mifi~lossless-cut/)*

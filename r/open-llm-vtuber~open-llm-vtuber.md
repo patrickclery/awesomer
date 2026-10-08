@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,723 | +137 | +483 | +2,348 | 2026-05-15 |
+| 13,779 | +137 | +486 | +2,191 | 2026-05-15 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/open-llm-vtuber~open-llm-vtuber/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/open-llm-vtuber~open-llm-vtuber/)*

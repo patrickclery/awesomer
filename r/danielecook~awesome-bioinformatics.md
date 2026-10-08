@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,279 | +15 | +48 | +171 | 2026-04-07 |
+| 4,283 | +15 | +47 | +169 | 2026-04-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/danielecook~awesome-bioinformatics/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/danielecook~awesome-bioinformatics/)*

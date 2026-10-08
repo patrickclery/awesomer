@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,704 | +0 | +3 | +7 | 2026-04-08 |
+| 2,704 | +0 | +3 | +9 | 2026-04-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Notifications
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/excid3~noticed/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/excid3~noticed/)*

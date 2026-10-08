@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 463 | +0 | +0 | -1 | 2025-10-09 |
+| 463 | +0 | -1 | -1 | 2025-10-09 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Collection of Actions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/10up~actions-wordpress/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/10up~actions-wordpress/)*

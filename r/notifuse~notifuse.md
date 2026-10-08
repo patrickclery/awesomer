@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,191 | +28 | +145 | +208 | 2026-09-13 |
+| 2,201 | +28 | +155 | +217 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Newsletter Platform
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/notifuse~notifuse/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/notifuse~notifuse/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 752 | +0 | +2 | +10 | 2025-11-28 |
+| 752 | +0 | +2 | +8 | 2025-11-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Marks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/otavioschwanck~arrow.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/otavioschwanck~arrow.nvim/)*

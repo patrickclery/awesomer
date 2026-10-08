@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,758 | +0 | +0 | +14 | 2026-05-17 |
+| 3,758 | +0 | -1 | +14 | 2026-05-17 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/magicmark~composerize/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/magicmark~composerize/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,159 | +0 | -4 |  | 2026-04-23 |
+| 4,158 | +0 | -5 |  | 2026-04-23 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Analysis and Metrics
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flyerhzm~rails_best_practices/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flyerhzm~rails_best_practices/)*

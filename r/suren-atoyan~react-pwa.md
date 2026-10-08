@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 721 | +0 | +0 | +3 | 2026-01-22 |
+| 720 | +0 | -1 | +2 | 2026-01-22 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/suren-atoyan~react-pwa/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/suren-atoyan~react-pwa/)*

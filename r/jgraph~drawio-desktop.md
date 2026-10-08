@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 63,081 | +118 | +467 | +1,471 | 2026-09-08 |
+| 63,133 | +118 | +475 | +1,454 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Design Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jgraph~drawio-desktop/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jgraph~drawio-desktop/)*

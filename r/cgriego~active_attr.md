@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Core Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cgriego~active_attr/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cgriego~active_attr/)*

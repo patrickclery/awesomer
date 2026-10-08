@@ -12,8 +12,8 @@
 
 ## Found In
 
-- [awesome-shell](../l/shell.md) / Customization
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
+- [awesome-shell](../l/shell.md) / Customization
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zpm-zsh~mysql-colorize/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zpm-zsh~mysql-colorize/)*

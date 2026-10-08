@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 103 | +1 | +17 |  | 2026-09-11 |
+| 103 | +1 | +17 |  | 2026-09-14 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Plugins
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/petekp~tw-fade/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/petekp~tw-fade/)*

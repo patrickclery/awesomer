@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,752 | +48 | +257 |  | 2026-09-13 |
+| 4,788 | +48 | +274 |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/builderio~agent-native/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/builderio~agent-native/)*

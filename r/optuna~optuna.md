@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,787 | +36 | +127 | +434 | 2026-09-11 |
+| 14,803 | +36 | +135 | +437 | 2026-09-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/optuna~optuna/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/optuna~optuna/)*

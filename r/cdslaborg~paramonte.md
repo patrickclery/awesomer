@@ -17,4 +17,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Matlab
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cdslaborg~paramonte/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cdslaborg~paramonte/)*

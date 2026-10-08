@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,992 | +11 | +35 | +74 | 2026-09-13 |
+| 9,991 | +11 | +33 | +69 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Useful Resources
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cncf~landscape/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cncf~landscape/)*

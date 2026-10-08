@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,847 | +0 | +0 | +2 | 2026-06-20 |
+| 3,846 | +0 | -1 | +1 | 2026-06-20 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/creationix~js-git/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/creationix~js-git/)*

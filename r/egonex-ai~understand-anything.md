@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 82,473 | +733 | +3,180 | +22,666 | 2026-09-12 |
+| 83,025 | +733 | +3,449 | +19,791 | 2026-09-12 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/egonex-ai~understand-anything/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/egonex-ai~understand-anything/)*

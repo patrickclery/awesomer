@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,586 | +48 | +243 | +1,018 | 2026-09-11 |
+| 4,609 | +48 | +247 | +1,022 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/project-hami~hami/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/project-hami~hami/)*

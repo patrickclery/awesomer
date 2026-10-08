@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,435 | +0 | +26 | +124 | 2026-07-19 |
+| 1,436 | +0 | +27 | +117 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Providers, Runtime & Integration Infrastructure
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/skills-directory~skill-codex/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/skills-directory~skill-codex/)*

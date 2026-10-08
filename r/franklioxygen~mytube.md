@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,187 | +10 | +57 | +174 | 2026-09-13 |
+| 1,201 | +10 | +69 | +186 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/franklioxygen~mytube/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/franklioxygen~mytube/)*

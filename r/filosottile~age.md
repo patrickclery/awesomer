@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,565 | +63 | +354 | +965 | 2026-08-29 |
+| 23,597 | +63 | +357 | +966 | 2026-08-29 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/filosottile~age/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/filosottile~age/)*

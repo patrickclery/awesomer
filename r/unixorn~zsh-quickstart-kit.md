@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 910 | +1 | +2 | +14 | 2026-08-22 |
+| 911 | +1 | +3 | +15 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / zgenom
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~zsh-quickstart-kit/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unixorn~zsh-quickstart-kit/)*

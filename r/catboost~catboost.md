@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,100 | +7 | +34 | +122 | 2026-09-13 |
+| 9,101 | +7 | +33 | +119 | 2026-09-16 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/catboost~catboost/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/catboost~catboost/)*

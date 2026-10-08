@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,502 | +8 | +33 | +126 | 2026-09-09 |
+| 3,507 | +8 | +35 | +125 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Language Support
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/playwright-community~playwright-go/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/playwright-community~playwright-go/)*

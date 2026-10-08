@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 80,332 | +2,367 | +8,737 | +51,059 | 2026-09-01 |
+| 82,268 | +2,367 | +9,843 | +48,327 | 2026-09-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/panniantong~agent-reach/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/panniantong~agent-reach/)*

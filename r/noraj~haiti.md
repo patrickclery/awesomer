@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,003 | +0 | +2 | +19 | 2026-08-29 |
+| 1,004 | +0 | +3 | +18 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/noraj~haiti/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/noraj~haiti/)*

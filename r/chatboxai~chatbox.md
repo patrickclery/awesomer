@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,752 |  |  |  | 2026-09-10 |
+| 41,783 |  |  |  | 2026-09-10 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Inference platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/chatboxai~chatbox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chatboxai~chatbox/)*

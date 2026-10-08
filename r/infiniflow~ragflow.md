@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 90,610 | +469 | +2,343 | +7,809 | 2026-09-13 |
+| 90,804 | +469 | +2,145 | +7,701 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/infiniflow~ragflow/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/infiniflow~ragflow/)*

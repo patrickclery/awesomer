@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 104 | +0 | +18 | +22 | 2026-09-09 |
+| 105 | +0 | +19 | +23 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Input Methods
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/serpentiel~betterglobekey/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/serpentiel~betterglobekey/)*

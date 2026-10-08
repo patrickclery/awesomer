@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 38,953 | +39 | +145 | +469 | 2026-09-12 |
+| 38,968 | +39 | +152 | +455 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / RSS
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rssnext~folo/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rssnext~folo/)*

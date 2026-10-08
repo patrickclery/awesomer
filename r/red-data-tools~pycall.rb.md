@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/red-data-tools~pycall.rb/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/red-data-tools~pycall.rb/)*

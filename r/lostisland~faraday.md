@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,951 | +0 | +3 | +3 | 2026-09-03 |
+| 5,950 | +0 | +1 | +6 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / HTTP Clients and tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/lostisland~faraday/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lostisland~faraday/)*

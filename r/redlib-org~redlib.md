@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,745 | +25 | +112 | +350 | 2026-04-24 |
+| 3,751 | +25 | +111 | +346 | 2026-04-24 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - Social Networks and Forums
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/redlib-org~redlib/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/redlib-org~redlib/)*

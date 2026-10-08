@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,248 |  |  |  | 2026-09-11 |
+| 2,254 |  |  |  | 2026-09-11 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / AI & Agents
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/agentrhq~webcmd/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agentrhq~webcmd/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 74,580 | +78 | +302 | +942 | 2026-09-04 |
+| 74,611 | +78 | +304 | +937 | 2026-09-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/enaqx~awesome-react/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/enaqx~awesome-react/)*

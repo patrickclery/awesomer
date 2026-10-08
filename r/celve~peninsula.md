@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 457 | +0 | +0 | +1 | 2025-10-10 |
+| 457 | +0 | +1 | +1 | 2025-10-10 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Menu Bar Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/celve~peninsula/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/celve~peninsula/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,390 | +59 | +290 | +364 | 2026-09-13 |
+| 2,405 | +59 | +236 | +377 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Portfolio Management
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/skfolio~skfolio/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/skfolio~skfolio/)*

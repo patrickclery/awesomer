@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,420 | +3 | +9 | +28 | 2026-09-10 |
+| 2,426 | +3 | +15 | +35 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Tracker Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hdinnovations~unit3d/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hdinnovations~unit3d/)*

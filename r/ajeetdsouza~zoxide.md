@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,439 | +125 | +795 | +2,007 | 2026-09-08 |
+| 39,499 | +125 | +815 | +1,985 | 2026-09-14 |
 
 ## Found In
 
@@ -19,4 +19,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ajeetdsouza~zoxide/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ajeetdsouza~zoxide/)*

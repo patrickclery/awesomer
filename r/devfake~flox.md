@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,350 | +0 | -1 | +2 | 2026-07-05 |
+| 1,350 | +0 | +0 | +1 | 2026-07-05 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Content Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/devfake~flox/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/devfake~flox/)*

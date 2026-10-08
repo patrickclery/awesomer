@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,249 | -1 | +0 | +5 | 2026-09-05 |
+| 16,251 | -1 | +1 | +8 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/optimalbits~bull/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/optimalbits~bull/)*

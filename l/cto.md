@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [Build Your Own X](../r/danistefanovic~build-your-own-x.md) | 546,980 | +2,107 | +7,378 | +31,233 |
-| 2 | [Coding Interview University](../r/jwasham~coding-interview-university.md) | 360,830 | +590 | +2,125 | +8,794 |
-| 3 | [Developer Roadmaps](../r/kamranahmedse~developer-roadmap.md) | 367,054 | +555 | +2,646 | +9,759 |
-| 4 | [Awesome Scalability](../r/binhnguyennus~awesome-scalability.md) | 73,895 | +165 | +622 | +2,148 |
-| 5 | [Engineering blogs](../r/kilimchoi~engineering-blogs.md) | 38,629 | +33 | +132 | +333 |
-| 6 | [List of Post-mortems](../r/danluu~post-mortems.md) | 12,309 | +32 | +87 | +200 |
-| 7 | [Awesome Production Machine Learning](../r/ethicalml~awesome-production-machine-learning.md) | 20,907 | +16 | +64 | +278 |
-| 8 | [Awesome Awesomeness](../r/bayandin~awesome-awesomeness.md) | 33,666 | +13 | +57 | +178 |
-| 9 | [Awesome CEO](../r/kuchin~awesome-ceo.md) | 2,639 | +10 | +60 | +143 |
-| 10 | [Awesome Product Management](../r/dend~awesome-product-management.md) | 2,358 | +8 | +50 | +153 |
+| 1 | [Build Your Own X](../r/danistefanovic~build-your-own-x.md) | 547,595 | +2,107 | +7,240 | +30,718 |
+| 2 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | 361,002 | +590 | +1,999 | +8,249 |
+| 3 | [Developer Roadmaps](../r/kamranahmedse~developer-roadmap.md) | 367,377 | +555 | +2,699 | +9,771 |
+| 4 | [Awesome Scalability](../r/binhnguyennus~awesome-scalability.md) | 73,987 | +165 | +655 | +2,143 |
+| 5 | [Engineering blogs](https://github.com/kilimchoi/engineering-blogs) | 38,665 | +33 | +156 | +355 |
+| 6 | [List of Post-mortems](../r/danluu~post-mortems.md) | 12,315 | +32 | +83 | +200 |
+| 7 | [Awesome Production Machine Learning](../r/ethicalml~awesome-production-machine-learning.md) | 20,915 | +16 | +64 | +276 |
+| 8 | [Awesome Awesomeness](https://github.com/bayandin/awesome-awesomeness) | 33,676 | +13 | +67 | +182 |
+| 9 | [Awesome CEO](https://github.com/kuchin/awesome-ceo) | 2,642 | +10 | +62 | +145 |
+| 10 | [Awesome Product Management](../r/dend~awesome-product-management.md) | 2,365 | +8 | +54 | +159 |
 
 ## Table of Contents
 
@@ -39,9 +39,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Build Your Own X](../r/danistefanovic~build-your-own-x.md) | Master programming by recreating your favorite technologies from scratch. | 546,980 | +2,107 |
-| [Awesome Scalability](../r/binhnguyennus~awesome-scalability.md) | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems | 73,895 | +165 |
-| [An introduction to distributed systems](../r/aphyr~distsys-class.md) | Class materials for a distributed systems lecture series | 9,885 | +3 |
+| [Build Your Own X](../r/danistefanovic~build-your-own-x.md) | Master programming by recreating your favorite technologies from scratch. | 547,595 | +2,107 |
+| [Awesome Scalability](../r/binhnguyennus~awesome-scalability.md) | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems | 73,987 | +165 |
+| [An introduction to distributed systems](https://github.com/aphyr/distsys-class) | Class materials for a distributed systems lecture series | 9,885 | +3 |
 
 [Back to top](#awesome-cto)
 
@@ -49,7 +49,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Startup CTO's Handbook](../r/zachgoldberg~startup-cto-handbook.md) | The Startup CTO's Handbook, a book covering leadership, management and technical topics for leaders of software engineer | 14,202 | +6 |
+| [Startup CTO's Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook) | The Startup CTO's Handbook, a book covering leadership, management and technical topics for leaders of software engineer | 14,204 | +6 |
 
 [Back to top](#awesome-cto)
 
@@ -57,9 +57,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Reverse Interview Questions](../r/viraptor~reverse-interview.md) | Questions to ask the company during your interview | 28,592 | +4 |
-| [Software Engineering Ladders](../r/jorgef~engineeringladders.md) | A framework for Engineering Managers | 8,543 | +3 |
-| [Awesome Engineering Ladders](../r/posquit0~awesome-engineering-ladders.md) | 😎 A curated list of awesome resources for Engineering Ladder | 122 | +0 |
+| [Reverse Interview Questions](https://github.com/viraptor/reverse-interview) | Questions to ask the company during your interview | 28,592 | +4 |
+| [Software Engineering Ladders](https://github.com/jorgef/engineeringladders) | A framework for Engineering Managers | 8,543 | +3 |
+| [Awesome Engineering Ladders](https://github.com/posquit0/awesome-engineering-ladders) | 😎 A curated list of awesome resources for Engineering Ladder | 122 | +0 |
 
 [Back to top](#awesome-cto)
 
@@ -67,7 +67,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Awesome Production Machine Learning](../r/ethicalml~awesome-production-machine-learning.md) | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning | 20,907 | +16 |
+| [Awesome Production Machine Learning](../r/ethicalml~awesome-production-machine-learning.md) | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning | 20,915 | +16 |
 
 [Back to top](#awesome-cto)
 
@@ -75,7 +75,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [List of Post-mortems](../r/danluu~post-mortems.md) | A collection of postmortems. Sorry for the delay in merging PRs! | 12,309 | +32 |
+| [List of Post-mortems](../r/danluu~post-mortems.md) | A collection of postmortems. Sorry for the delay in merging PRs! | 12,315 | +32 |
 
 [Back to top](#awesome-cto)
 
@@ -83,7 +83,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Technical Due Diligence Questions](../r/altunyurt~technical_due_diligence.md) | Curated list of technical due diligence questions | 34 | +0 |
+| [Technical Due Diligence Questions](https://github.com/altunyurt/technical_due_diligence) | Curated list of technical due diligence questions | 34 | +0 |
 
 [Back to top](#awesome-cto)
 
@@ -99,10 +99,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Engineering blogs](../r/kilimchoi~engineering-blogs.md) | A curated list of engineering blogs | 38,629 | +33 |
-| [Awesome Awesomeness](../r/bayandin~awesome-awesomeness.md) | A curated list of awesome awesomeness | 33,666 | +13 |
-| [Awesome CTO Resources](../r/mateusz-brainhub~awesome-cto-resources.md) | 💡 A community-curated list of awesome resources to help you grow as a CTO | 933 | +1 |
-| [Chief Technology Officer vs Coder Thinker Organizer](../r/92bondstreet~cto.md) | 👩‍🚀 A curated list of CTO resources. | 175 | +0 |
+| [Engineering blogs](https://github.com/kilimchoi/engineering-blogs) | A curated list of engineering blogs | 38,665 | +33 |
+| [Awesome Awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness | 33,676 | +13 |
+| [Awesome CTO Resources](https://github.com/mateusz-brainhub/awesome-cto-resources) | 💡 A community-curated list of awesome resources to help you grow as a CTO | 933 | +1 |
+| [Chief Technology Officer vs Coder Thinker Organizer](https://github.com/92bondstreet/cto) | 👩‍🚀 A curated list of CTO resources. | 175 | +0 |
 
 [Back to top](#awesome-cto)
 
@@ -110,8 +110,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Awesome CEO](../r/kuchin~awesome-ceo.md) | A curated and opinionated list of resources for startup founders and leaders of high-growth companies | 2,639 | +10 |
-| [Awesome TPM](../r/kuchin~awesome-tpm.md) | A curated and opinionated list of resources for Technical Program Managers | 317 | +3 |
+| [Awesome CEO](https://github.com/kuchin/awesome-ceo) | A curated and opinionated list of resources for startup founders and leaders of high-growth companies | 2,642 | +10 |
+| [Awesome TPM](https://github.com/kuchin/awesome-tpm) | A curated and opinionated list of resources for Technical Program Managers | 317 | +3 |
 
 [Back to top](#awesome-cto)
 
@@ -119,8 +119,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Engineering Management](../r/charlax~engineering-management.md) | A collection of inspiring resources related to engineering management and tech leadership | 8,362 | +4 |
-| [Awesome Leading and Managing](../r/lappleapple~awesome-leading-and-managing.md) |  |  |  |
+| [Engineering Management](../r/charlax~engineering-management.md) | A collection of inspiring resources related to engineering management and tech leadership | 8,364 | +4 |
+| [Awesome Leading and Managing](https://github.com/LappleApple/awesome-leading-and-managing) |  |  |  |
 
 [Back to top](#awesome-cto)
 
@@ -128,7 +128,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Awesome Product Management](../r/dend~awesome-product-management.md) | 🚀 A curated list of awesome resources for product/program managers to learn and grow. | 2,358 | +8 |
+| [Awesome Product Management](../r/dend~awesome-product-management.md) | 🚀 A curated list of awesome resources for product/program managers to learn and grow. | 2,365 | +8 |
 | [Awesome Product Manager](../r/yuhenobi~awesome-product-manager.md) | A curated list of awesome resources for product managers to learn and grow. | 331 | +2 |
 
 [Back to top](#awesome-cto)
@@ -137,7 +137,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [List of startups that had successful pivots](../r/fikrikarim~companies-with-successful-pivot.md) | List of startups/companies that had successful pivots | 760 | +0 |
+| [List of startups that had successful pivots](https://github.com/fikrikarim/companies-with-successful-pivot) | List of startups/companies that had successful pivots | 760 | +0 |
 
 [Back to top](#awesome-cto)
 
@@ -145,13 +145,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Coding Interview University](../r/jwasham~coding-interview-university.md) | A complete computer science study plan to become a software engineer. | 360,830 | +590 |
-| [Developer Roadmaps](../r/kamranahmedse~developer-roadmap.md) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | 367,054 | +555 |
-| [Open Guide to Amazon Web Services](../r/open-guides~og-aws.md) | 📙 Amazon Web Services — a practical guide | 36,461 | +2 |
-| [Open Guide to Search Engineering](../r/open-guides~og-search-engineering.md) | Want to build or improve a search experience? Start here. | 600 | +1 |
-| [Awesome PriceOps](../r/priceops~awesome-priceops.md) | Links to articles, guides and resources related to software pricing and its implementation.   | 157 | +0 |
+| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | A complete computer science study plan to become a software engineer. | 361,002 | +590 |
+| [Developer Roadmaps](../r/kamranahmedse~developer-roadmap.md) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | 367,377 | +555 |
+| [Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) | 📙 Amazon Web Services — a practical guide | 36,465 | +2 |
+| [Open Guide to Search Engineering](https://github.com/open-guides/og-search-engineering) | Want to build or improve a search experience? Start here. | 600 | +1 |
+| [Awesome PriceOps](https://github.com/priceops/awesome-priceops) | Links to articles, guides and resources related to software pricing and its implementation.   | 157 | +0 |
 
 [Back to top](#awesome-cto)
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/l/cto/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/l/cto/)*

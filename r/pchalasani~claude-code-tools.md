@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,997 | +1 | +22 | +141 | 2026-09-07 |
+| 2,001 | +1 | +22 | +144 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Multi-Purpose
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/pchalasani~claude-code-tools/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pchalasani~claude-code-tools/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 72,500 | +370 | +1,550 |  | 2026-09-03 |
+| 73,702 | +370 | +2,602 |  | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/666ghj~mirofish/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/666ghj~mirofish/)*

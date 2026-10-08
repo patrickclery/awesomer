@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Country Data
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/grosser~i18n_data/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/grosser~i18n_data/)*

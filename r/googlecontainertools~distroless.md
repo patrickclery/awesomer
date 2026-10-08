@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,069 | +10 | +80 | +318 | 2026-09-10 |
+| 23,075 | +10 | +66 | +318 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Docker Images
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/googlecontainertools~distroless/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/googlecontainertools~distroless/)*

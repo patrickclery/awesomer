@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 25,756 | +96 | +410 | +1,464 | 2026-09-11 |
+| 25,795 | +96 | +423 | +1,450 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/a2aproject~a2a/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/a2aproject~a2a/)*

@@ -15,4 +15,4 @@
 - [awesome-vite](../l/vite.md) / Preact
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/preactjs~preset-vite/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/preactjs~preset-vite/)*

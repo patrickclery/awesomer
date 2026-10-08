@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,248 | +4 | +19 | +73 | 2026-09-04 |
+| 3,251 | +4 | +25 | +72 | 2026-09-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/virt-manager~virt-manager/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/virt-manager~virt-manager/)*

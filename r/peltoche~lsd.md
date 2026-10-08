@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,217 | +15 | +50 | +150 | 2026-08-17 |
+| 16,222 | +15 | +48 | +147 | 2026-08-17 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/peltoche~lsd/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/peltoche~lsd/)*

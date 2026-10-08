@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,707 | +0 | -1 | -3 | 2026-09-07 |
+| 2,707 | +0 | -1 | -4 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Feature Flippers and A/B Testing
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/splitrb~split/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/splitrb~split/)*

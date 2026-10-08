@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,198 | +8 | +18 | +70 | 2026-03-08 |
+| 2,199 | +8 | +20 | +69 | 2026-03-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Task Management & To-do Lists
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/baldissaramatheus~tasks.md/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/baldissaramatheus~tasks.md/)*

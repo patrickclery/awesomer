@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 151 | +2 | +6 | +25 | 2026-09-11 |
+| 152 | +2 | +7 | +26 | 2026-09-15 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/degausai~wonda/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/degausai~wonda/)*

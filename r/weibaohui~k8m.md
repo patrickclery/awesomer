@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 880 | +3 | +10 | +49 | 2026-09-12 |
+| 884 | +3 | +13 | +35 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Cloud Platforms
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/weibaohui~k8m/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/weibaohui~k8m/)*

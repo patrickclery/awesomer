@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 565 | +0 | +0 | +2 | 2026-06-02 |
+| 566 | +0 | +1 | +3 | 2026-06-02 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Backups
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/orgrim~pg_back/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/orgrim~pg_back/)*

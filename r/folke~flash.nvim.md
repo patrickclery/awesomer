@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,237 | +5 | +34 | +117 | 2026-08-22 |
+| 4,237 | +5 | +30 | +112 | 2026-08-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Motion
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~flash.nvim/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~flash.nvim/)*

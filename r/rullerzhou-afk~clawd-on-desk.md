@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,210 | +53 | +272 | +1,897 | 2026-09-13 |
+| 6,230 | +53 | +269 | +1,759 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Session Monitors
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rullerzhou-afk~clawd-on-desk/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rullerzhou-afk~clawd-on-desk/)*

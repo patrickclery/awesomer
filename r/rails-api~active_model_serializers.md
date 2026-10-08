@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,342 | -1 | +0 | -1 | 2025-12-08 |
+| 5,341 | -1 | -2 | -2 | 2025-12-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / API Builder and Discovery
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/rails-api~active_model_serializers/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rails-api~active_model_serializers/)*

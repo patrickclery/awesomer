@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,458 | +99 | +429 |  | 2026-09-06 |
+| 41,512 | +99 | +438 |  | 2026-09-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Educational Resources & Courses
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/luongnv89~claude-howto/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/luongnv89~claude-howto/)*

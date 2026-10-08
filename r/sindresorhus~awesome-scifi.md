@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,043 | +11 | +42 | +113 | 2025-12-22 |
+| 5,045 | +11 | +38 | +112 | 2025-12-22 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Entertainment
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~awesome-scifi/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~awesome-scifi/)*

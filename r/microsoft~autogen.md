@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 60,966 | +138 | +547 | +2,001 | 2026-04-15 |
+| 61,004 | +138 | +541 | +1,951 | 2026-04-15 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~autogen/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~autogen/)*

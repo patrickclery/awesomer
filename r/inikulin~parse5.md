@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,933 | +2 | +11 | +30 | 2026-09-11 |
+| 3,930 | +2 | +7 | +27 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/inikulin~parse5/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/inikulin~parse5/)*

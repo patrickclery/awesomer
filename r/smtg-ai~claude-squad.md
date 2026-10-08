@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,474 | +31 | +165 | +661 | 2026-08-20 |
+| 8,484 | +31 | +154 | +649 | 2026-08-20 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/smtg-ai~claude-squad/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/smtg-ai~claude-squad/)*

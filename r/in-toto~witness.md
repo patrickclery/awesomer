@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 544 | +0 | -1 | +10 | 2026-09-09 |
+| 545 | +0 | +0 | +11 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Supply Chain
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/in-toto~witness/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/in-toto~witness/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,914 | +0 | -1 | +16 | 2026-09-10 |
+| 7,915 | +0 | +1 | +16 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Servers
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/puma~puma/)*
+*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/puma~puma/)*
