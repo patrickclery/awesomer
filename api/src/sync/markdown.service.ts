@@ -43,27 +43,28 @@ export class MarkdownService {
     const lines: string[] = [];
     const pageable = await this.loadPageableRepos();
 
-    // Section 1: Title and tagline (fetched from GitHub repo description)
-    let tagline = 'What if every Awesome List had a trending page? Now they do.';
-    try {
-      const res = await fetch('https://api.github.com/repos/patrickclery/awesomer', {
-        headers: { Accept: 'application/vnd.github+json' },
-        signal: AbortSignal.timeout(10000),
-      });
-      if (res.ok) {
-        const repo = (await res.json()) as { description?: string };
-        if (typeof repo.description === 'string' && repo.description.length > 0) {
-          tagline = repo.description;
-        }
-      }
-    } catch {
-      this.logger.warn('Could not fetch repo description from GitHub — using fallback');
-    }
-    lines.push('# Awesomer');
+    // Section 1: Persistent hero block (Phase 28 D-07, D-11, D-13).
+    // README.md is overwritten on every sync, so the hero lives here rather than in the file.
+    // Image paths are repo-relative because github.com renders this README, not the Next.js site.
+    lines.push('<p align="center">');
+    lines.push('  <img src="docs/hero.png" alt="awesomer — Trending GitHub repos, organized by awesome-list" width="100%">');
+    lines.push('</p>');
     lines.push('');
-    lines.push(tagline);
+    lines.push('<h1 align="center">awesomer</h1>');
     lines.push('');
-    lines.push(`[Live site ↗](${LIVE_SITE_BASE}/) | [GitHub ↗](https://github.com/patrickclery/awesomer)`);
+    lines.push('<p align="center">');
+    lines.push('  <strong>Trending GitHub repos, organized by awesome-list.</strong><br>');
+    lines.push('  7d / 30d / 90d star deltas across curated awesome-lists.');
+    lines.push('</p>');
+    lines.push('');
+    lines.push('<p align="center">');
+    lines.push(`  <a href="${LIVE_SITE_BASE}/">Live ↗</a> ·`);
+    lines.push('  <a href="https://github.com/patrickclery/awesomer">GitHub ↗</a>');
+    lines.push('</p>');
+    lines.push('');
+    lines.push('<p align="center">');
+    lines.push('  <img src="docs/demo.gif" alt="Demo: browsing trending repos by awesome-list" width="720">');
+    lines.push('</p>');
     lines.push('');
 
     // Section 2: Hero trending list (D-01)

@@ -365,6 +365,36 @@ describe('D-01: README.md contains Hottest This Week hero section', () => {
 });
 
 // ---------------------------------------------------------------------------
+// Phase 28: persistent README hero block (survives every sync regeneration)
+// ---------------------------------------------------------------------------
+
+describe('Phase 28: README.md starts with the persistent hero block', () => {
+  let readme: string;
+
+  beforeEach(() => {
+    readme = readFileSync(join(tmpDir, 'README.md'), 'utf-8');
+  });
+
+  it('embeds docs/hero.png and docs/demo.gif with repo-relative paths', () => {
+    expect(readme).toContain('<img src="docs/hero.png"');
+    expect(readme).toContain('<img src="docs/demo.gif"');
+  });
+
+  it('places the hero block before the Hottest This Week section', () => {
+    expect(readme.startsWith('<p align="center">')).toBe(true);
+    expect(readme.indexOf('docs/demo.gif')).toBeLessThan(readme.indexOf('## Hottest This Week:'));
+  });
+
+  it('carries the master one-liner verbatim', () => {
+    expect(readme).toContain('Trending GitHub repos, organized by awesome-list');
+  });
+
+  it('contains no banned positioning phrases', () => {
+    expect(readme).not.toMatch(/hand-picked|star-history|meta-awesome-list/i);
+  });
+});
+
+// ---------------------------------------------------------------------------
 // D-02: README.md Top 10 Trending Repos table
 // ---------------------------------------------------------------------------
 
