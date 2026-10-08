@@ -1,8 +1,22 @@
-# Awesomer
+<p align="center">
+  <img src="docs/hero.png" alt="awesomer — Trending GitHub repos, organized by awesome-list" width="100%">
+</p>
 
-What if every Awesome List had a trending page? Now they do.
+<h1 align="center">awesomer</h1>
 
-[Live site ↗](https://patrickclery.com/awesomer/) | [GitHub ↗](https://github.com/patrickclery/awesomer)
+<p align="center">
+  <strong>Trending GitHub repos, organized by awesome-list.</strong><br>
+  7d / 30d / 90d star deltas across curated awesome-lists.
+</p>
+
+<p align="center">
+  <a href="https://patrickclery.com/awesomer/">Live ↗</a> ·
+  <a href="https://github.com/patrickclery/awesomer">GitHub ↗</a>
+</p>
+
+<p align="center">
+  <img src="docs/demo.gif" alt="Demo: browsing trending repos by awesome-list" width="720">
+</p>
 
 ## Hottest This Week: [awesome](l/awesome.md)
 
@@ -70,4 +84,4 @@ What if every Awesome List had a trending page? Now they do.
 | [awesome-nextjs](l/nextjs.md) | 📔 📚 A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for un | 11,102 | -4 |
 
 ---
-*Updated: 2026-10-07 | [View live site ↗](https://patrickclery.com/awesomer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/)*
