@@ -673,6 +673,18 @@ export class SyncService {
       // Clear .next/ cache to prevent stale data
       rmSync(path.join(webDir, '.next'), { recursive: true, force: true });
 
+      // Umami analytics (layout.tsx) is only emitted when both vars reach the build env.
+      // They pass through via `...process.env` below (ConfigModule loads api/.env into it);
+      // warn so a nightly rebuild that silently drops analytics shows up in the sync logs.
+      if (
+        !process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL ||
+        !process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID
+      ) {
+        this.logger.warn(
+          'NEXT_PUBLIC_UMAMI_SCRIPT_URL / NEXT_PUBLIC_UMAMI_WEBSITE_ID not set — static build will ship without analytics',
+        );
+      }
+
       // Use spawn instead of execSync so the API event loop stays free —
       // build pages call localhost:4000/api/* during SSG and need this process responsive.
       await new Promise<void>((resolve, reject) => {
