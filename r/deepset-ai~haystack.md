@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,521 | +74 | +290 | +922 | 2026-09-16 |
+| 26,695 | +60 | +295 | +943 | 2026-10-08 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepset-ai~haystack/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deepset-ai~haystack/)*

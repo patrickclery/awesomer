@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,931 | +44 | +106 | +266 | 2026-09-14 |
+| 22,971 | +7 | +87 | +271 | 2026-09-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/warner~magic-wormhole/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/warner~magic-wormhole/)*

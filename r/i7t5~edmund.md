@@ -1,6 +1,6 @@
 # I7T5/Edmund
 
-> A native, lightweight macOS markdown editor with Live Preview
+> A native, lightweight macOS markdown editor with inline live preview
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/I7T5/Edmund) | [Live site ↗](https://patrickclery.com/awesomer/r/i7t5~edmund/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 224 | +2 | +48 |  | 2026-09-15 |
+| 249 | +8 | +57 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Markdown Tools [![Awesome List][awesome-list Icon]](https://github.com/BubuAnabelas/awesome-markdown#tools)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/i7t5~edmund/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/i7t5~edmund/)*

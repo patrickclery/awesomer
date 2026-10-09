@@ -1,6 +1,6 @@
 # sbroenne/mcp-server-excel
 
-> Excel MCP Server & CLI - 23 tools, 214 operations for AI-powered Excel automation via COM API
+> Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX, VBA, PivotTables, charts, and 326 operat
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/sbroenne/mcp-server-excel) | [Live site ↗](https://patrickclery.com/awesomer/r/sbroenne~mcp-server-excel/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +4 | +39 | +127 | 2026-05-10 |
+| 807 | +12 | +221 | +562 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/sbroenne~mcp-server-excel/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sbroenne~mcp-server-excel/)*

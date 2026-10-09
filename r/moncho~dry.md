@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,276 | +0 | +10 | +12 | 2026-09-04 |
+| 3,284 | +4 | +14 | +12 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/moncho~dry/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/moncho~dry/)*

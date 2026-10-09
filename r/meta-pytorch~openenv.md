@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,585 |  |  |  | 2026-09-16 |
+| 2,680 | +47 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Training and Fine-tuning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/meta-pytorch~openenv/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/meta-pytorch~openenv/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 197 | +0 | +0 | +38 | 2026-09-16 |
+| 201 | +0 | +2 | +36 | 2026-09-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/barrettruth~diffs.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/barrettruth~diffs.nvim/)*

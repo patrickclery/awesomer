@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,981 | +109 | +440 | +1,384 | 2026-09-16 |
+| 28,311 | +102 | +471 | +1,421 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mlflow~mlflow/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mlflow~mlflow/)*

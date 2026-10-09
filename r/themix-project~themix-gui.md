@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,317 | +2 | +11 | +18 | 2026-09-08 |
+| 2,321 | +1 | +10 | +18 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/themix-project~themix-gui/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/themix-project~themix-gui/)*

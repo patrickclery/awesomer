@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,163 | +121 | +468 | +1,480 | 2026-09-16 |
+| 12,442 | +72 | +482 | +1,514 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧪 13. Developer Tools & Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/assistant-ui~assistant-ui/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/assistant-ui~assistant-ui/)*

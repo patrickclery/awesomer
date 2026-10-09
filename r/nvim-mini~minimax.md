@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 473 | +2 | +12 | +41 | 2026-09-12 |
+| 482 | +4 | +13 | +43 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-mini~minimax/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-mini~minimax/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,590 | +134 | +574 | +2,157 | 2026-09-16 |
+| 34,975 | +81 | +656 | +2,220 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/qdrant~qdrant/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/qdrant~qdrant/)*

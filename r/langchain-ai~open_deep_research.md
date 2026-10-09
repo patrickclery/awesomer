@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,681 | +42 | +55 |  | 2026-08-10 |
+| 12,683 | +0 | +6 |  | 2026-08-10 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~open_deep_research/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~open_deep_research/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 481 | +3 | +29 | +203 | 2026-09-13 |
+| 500 | +6 | +37 | +180 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Command Line
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bvisible~mcp-ssh-manager/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bvisible~mcp-ssh-manager/)*

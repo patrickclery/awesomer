@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,477 | +2 | +17 | +58 | 2026-09-16 |
+| 1,489 | +2 | +24 | +59 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unpackerr~unpackerr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/unpackerr~unpackerr/)*

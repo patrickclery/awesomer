@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 847 | +0 | +2 | +2 | 2026-01-11 |
+| 849 | +1 | +3 | +1 | 2026-01-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / File Explorer
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~rnvimr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kevinhwang91~rnvimr/)*

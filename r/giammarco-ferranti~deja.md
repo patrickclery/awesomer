@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 752 |  |  |  | 2026-09-07 |
+| 886 | +57 |  |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/giammarco-ferranti~deja/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/giammarco-ferranti~deja/)*

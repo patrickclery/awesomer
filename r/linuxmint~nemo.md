@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,559 | +2 | +12 | +37 | 2026-09-08 |
+| 1,561 | +0 | +10 | +37 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / File Manager
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~nemo/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~nemo/)*

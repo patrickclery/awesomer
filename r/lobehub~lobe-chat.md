@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 82,522 | +181 | +755 | +3,717 | 2026-09-16 |
+| 83,057 | +116 | +855 | +3,785 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / User Interfaces
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lobehub~lobe-chat/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lobehub~lobe-chat/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 638 | +0 | +2 | +1 | 2026-09-16 |
+| 637 | +0 | +1 | +1 | 2026-09-19 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/juliastats~glm.jl/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/juliastats~glm.jl/)*

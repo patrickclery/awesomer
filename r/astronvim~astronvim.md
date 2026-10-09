@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,437 | +11 | +23 | +86 | 2026-09-04 |
+| 14,456 | +12 | +18 | +83 | 2026-09-04 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/astronvim~astronvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/astronvim~astronvim/)*

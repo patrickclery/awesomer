@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,443 | +4 | +6 | +41 | 2026-08-10 |
+| 3,447 | -1 | +6 | +37 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gautamkrishnar~blog-post-workflow/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gautamkrishnar~blog-post-workflow/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 63,724 | +62 | +310 | +846 | 2026-09-16 |
+| 63,846 | +50 | +267 | +879 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tldr-pages~tldr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tldr-pages~tldr/)*

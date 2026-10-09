@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 120 | +7 | +15 | +37 | 2026-09-02 |
+| 126 | +1 | +10 | +38 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Proxy and VPN Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/geiserx~vpn-bypass/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/geiserx~vpn-bypass/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,242 | +4 | +12 | +34 | 2026-09-12 |
+| 1,250 | +3 | +10 | +33 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Others
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/polychromatic~polychromatic/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/polychromatic~polychromatic/)*

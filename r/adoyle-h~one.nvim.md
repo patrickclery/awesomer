@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 187 | +0 | +0 | +2 | 2026-04-24 |
+| 189 | +1 | +0 | +2 | 2026-04-24 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/adoyle-h~one.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/adoyle-h~one.nvim/)*

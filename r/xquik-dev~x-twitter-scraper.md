@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 199 | +5 | +17 | +86 | 2026-09-04 |
+| 209 | -1 | +18 | +89 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xquik-dev~x-twitter-scraper/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/xquik-dev~x-twitter-scraper/)*

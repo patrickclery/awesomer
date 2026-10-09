@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +0 | +5 | +32 | 2026-06-24 |
+| 154 | -1 | +8 | +33 | 2026-06-24 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Calendars
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bro3886~rem/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bro3886~rem/)*

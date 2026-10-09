@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,484 | +122 | +397 | +2,279 | 2026-09-03 |
+| 8,603 | +25 | +297 | +2,230 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thudm~slime/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thudm~slime/)*

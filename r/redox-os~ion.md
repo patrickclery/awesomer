@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,656 | +0 | +0 | +6 | 2026-09-09 |
+| 1,657 | +2 | -1 | +5 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shells
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/redox-os~ion/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/redox-os~ion/)*

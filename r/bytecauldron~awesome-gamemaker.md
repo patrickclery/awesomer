@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 505 | +5 | +11 | +27 | 2026-08-23 |
+| 509 | +2 | +7 | +28 | 2026-09-20 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Gaming
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bytecauldron~awesome-gamemaker/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bytecauldron~awesome-gamemaker/)*

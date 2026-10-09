@@ -1,6 +1,6 @@
 # onlook-dev/onlook
 
-> The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI
+> The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/onlook-dev/onlook) | [Live site ↗](https://patrickclery.com/awesomer/r/onlook-dev~onlook/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,744 | +50 | +235 | +793 | 2026-08-25 |
+| 26,889 | +44 | +253 | +804 | 2026-08-25 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI-Native IDEs & Development Environments
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/onlook-dev~onlook/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/onlook-dev~onlook/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 164 | -1 | +6 | +22 | 2026-06-08 |
+| 169 | +2 | +8 | +22 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zcaceres~gtasks-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zcaceres~gtasks-mcp/)*

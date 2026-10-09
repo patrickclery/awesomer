@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,998 | +2 | +14 | +34 | 2026-02-07 |
+| 9,002 | +2 | +12 | +37 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mozilla~nunjucks/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mozilla~nunjucks/)*

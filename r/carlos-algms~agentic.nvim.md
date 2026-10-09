@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 620 | +9 | +31 | +104 | 2026-08-23 |
+| 641 | +8 | +29 | +104 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / AI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/carlos-algms~agentic.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/carlos-algms~agentic.nvim/)*

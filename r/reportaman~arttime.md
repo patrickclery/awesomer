@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,385 | +3 | +10 | +33 | 2026-08-18 |
+| 1,389 | +2 | +8 | +34 | 2026-08-18 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/reportaman~arttime/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/reportaman~arttime/)*

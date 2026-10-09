@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,087 | +1 | +2 | +1 | 2026-04-10 |
+| 1,089 | +0 | +0 | +1 | 2026-04-10 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Other
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vue-email~vue-email/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vue-email~vue-email/)*

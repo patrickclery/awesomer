@@ -1,6 +1,6 @@
 # bytebase/dbhub
 
-> Token conscious database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.
+> Token conscious database MCP server for Postgres, MySQL, SQL Server, Oracle, MariaDB, SQLite.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/bytebase/dbhub) | [Live site ↗](https://patrickclery.com/awesomer/r/bytebase~dbhub/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,526 |  |  |  | 2026-09-16 |
+| 3,616 | +27 |  |  | 2026-10-02 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bytebase~dbhub/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bytebase~dbhub/)*

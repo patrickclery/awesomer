@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,955 | +38 | +154 | +468 | 2026-09-16 |
+| 50,029 | +11 | +146 | +480 | 2026-10-04 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huginn~huginn/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/huginn~huginn/)*

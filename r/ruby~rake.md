@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,458 | +0 | +2 | +5 | 2026-09-07 |
+| 2,464 | +3 | +4 | +6 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Builder
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby~rake/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby~rake/)*

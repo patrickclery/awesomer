@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,699 | +6 | +13 | +51 | 2026-09-16 |
+| 2,717 | +7 | +15 | +54 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/checkmarx~kics/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/checkmarx~kics/)*

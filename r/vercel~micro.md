@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,630 | -1 | +6 | +13 | 2026-05-21 |
+| 10,627 | -2 | +7 | +13 | 2026-05-21 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vercel~micro/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vercel~micro/)*

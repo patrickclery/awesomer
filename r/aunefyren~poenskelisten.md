@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 201 | +2 | +4 | +9 | 2026-07-13 |
+| 213 | +1 | +5 | +11 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aunefyren~poenskelisten/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/aunefyren~poenskelisten/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 508 | +1 | +15 | +40 | 2026-09-16 |
+| 513 | +0 | +18 | +41 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~ome/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~ome/)*

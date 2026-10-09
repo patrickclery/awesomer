@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 354 | +0 | +0 | +1 | 2026-09-11 |
+| 354 | +0 | +0 | +1 | 2026-10-08 |
 
 ## Found In
 
-- [awesome-nextjs](../l/nextjs.md) / Boilerplates
 - [awesome-nestjs](../l/nestjs.md) / Resources
+- [awesome-nextjs](../l/nextjs.md) / Boilerplates
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tudorconstantin~knests/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tudorconstantin~knests/)*

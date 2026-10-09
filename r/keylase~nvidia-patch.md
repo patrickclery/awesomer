@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,800 | +4 | +30 | +86 | 2026-09-15 |
+| 4,809 | +4 | +28 | +87 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Plex Transcoding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/keylase~nvidia-patch/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/keylase~nvidia-patch/)*

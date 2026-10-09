@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,449 | +33 | +139 | +473 | 2026-09-15 |
+| 9,515 | +12 | +135 | +482 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/spring-projects~spring-ai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/spring-projects~spring-ai/)*

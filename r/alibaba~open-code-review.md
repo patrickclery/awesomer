@@ -1,6 +1,6 @@
 # alibaba/open-code-review
 
-> Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM A
+> Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/alibaba/open-code-review) | [Live site ↗](https://patrickclery.com/awesomer/r/alibaba~open-code-review/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,184 | +668 | +9,534 |  | 2026-09-16 |
+| 44,460 | +1,415 | +20,108 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI Coding Assistants (open-source)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alibaba~open-code-review/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alibaba~open-code-review/)*

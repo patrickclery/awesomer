@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,956 | -7 | -3 | +11 | 2026-09-08 |
+| 1,957 | +0 | +5 | +11 | 2026-09-20 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/darold~pgformatter/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/darold~pgformatter/)*

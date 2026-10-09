@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189 | +0 | +1 | +1 | 2026-08-05 |
+| 189 | +0 | +1 | +2 | 2026-08-05 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/karolis-sh~tailwind-bootstrap-grid/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/karolis-sh~tailwind-bootstrap-grid/)*

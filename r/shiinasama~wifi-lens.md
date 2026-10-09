@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 108 | +4 | +17 |  | 2026-09-15 |
+| 118 | +3 | +18 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Network Analysis
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shiinasama~wifi-lens/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/shiinasama~wifi-lens/)*

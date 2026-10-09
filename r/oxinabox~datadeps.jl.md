@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 160 | +0 | +0 | +0 | 2026-07-30 |
+| 160 | +0 | +0 | +0 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Julia
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oxinabox~datadeps.jl/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/oxinabox~datadeps.jl/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 574 | +1 | +19 | +27 | 2026-08-14 |
+| 579 | +1 | +20 | +27 | 2026-08-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lutzh~awesome-event-driven-architecture/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lutzh~awesome-event-driven-architecture/)*

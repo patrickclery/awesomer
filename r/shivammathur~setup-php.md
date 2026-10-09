@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,257 | +5 | +8 | +24 | 2026-09-16 |
+| 3,262 | -1 | +6 | +22 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Collection of Actions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shivammathur~setup-php/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/shivammathur~setup-php/)*

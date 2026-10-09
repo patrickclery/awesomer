@@ -12,8 +12,8 @@
 
 ## Found In
 
-- [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 - [awesome-shell](../l/shell.md) / Customization
+- [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agkozak~polyglot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/agkozak~polyglot/)*

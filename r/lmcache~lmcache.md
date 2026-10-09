@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,822 | +158 | +642 | +2,514 | 2026-09-16 |
+| 11,977 | +26 | +552 | +2,495 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lmcache~lmcache/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lmcache~lmcache/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 231 | +13 | +30 | +115 | 2026-08-28 |
+| 254 | +9 | +24 | +118 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/talkstream~ru-text/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/talkstream~ru-text/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,104 | +1 | +12 | +40 | 2026-01-15 |
+| 3,112 | +1 | +16 | +41 | 2026-09-18 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~zsh-history-substring-search/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~zsh-history-substring-search/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 54,048 | +676 | +3,424 |  | 2026-08-09 |
+| 56,630 | +547 | +4,347 |  | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Audio / Music / Voice Generation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jamiepine~voicebox/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jamiepine~voicebox/)*

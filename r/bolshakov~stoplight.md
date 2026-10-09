@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 629 | -1 | +1 |  | 2026-09-09 |
+| 630 | +0 | +3 |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Business logic
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bolshakov~stoplight/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bolshakov~stoplight/)*

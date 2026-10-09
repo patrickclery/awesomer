@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,279 | +0 | -14 | +53 | 2026-09-11 |
+| 61,351 | +75 | -15 | +43 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lodash~lodash/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lodash~lodash/)*

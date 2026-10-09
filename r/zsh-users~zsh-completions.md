@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,885 | +5 | +24 | +73 | 2026-09-06 |
+| 7,897 | +3 | +25 | +76 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Completions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~zsh-completions/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zsh-users~zsh-completions/)*

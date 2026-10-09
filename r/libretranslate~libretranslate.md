@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,659 | +99 | +643 | +1,866 | 2026-09-03 |
+| 17,006 | +34 | +721 | +1,557 | 2026-09-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Self-hosted AI Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/libretranslate~libretranslate/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/libretranslate~libretranslate/)*

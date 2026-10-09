@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 200 | +0 | -1 | -1 | 2026-07-06 |
+| 201 | +0 | -1 | -1 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Plex Scripts and Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xiaodoudou~plexiptv/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/xiaodoudou~plexiptv/)*

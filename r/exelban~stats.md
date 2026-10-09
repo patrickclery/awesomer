@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,850 | +157 | +615 | +2,108 | 2026-09-15 |
+| 42,389 | +148 | +708 | +2,179 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/exelban~stats/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/exelban~stats/)*

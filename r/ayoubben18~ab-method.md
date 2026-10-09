@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189 | +1 | +4 | +13 | 2026-08-31 |
+| 192 | +0 | +5 | +12 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ayoubben18~ab-method/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ayoubben18~ab-method/)*

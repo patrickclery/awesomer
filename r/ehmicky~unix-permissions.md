@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 144 | +0 | +0 | +1 | 2026-08-28 |
+| 145 | +0 | +1 | +1 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ehmicky~unix-permissions/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ehmicky~unix-permissions/)*

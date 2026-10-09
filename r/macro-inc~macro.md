@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,333 | +414 | +858 |  | 2026-09-16 |
+| 4,591 | +86 | +374 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Self-hosted AI Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/macro-inc~macro/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/macro-inc~macro/)*

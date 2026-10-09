@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 973 | +1 | +4 |  | 2026-08-03 |
+| 972 | +0 | +2 |  | 2026-08-03 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Business logic
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rubysolo~dentaku/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rubysolo~dentaku/)*

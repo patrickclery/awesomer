@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,208 | +305 | +1,238 |  | 2026-07-08 |
+| 33,961 | +215 | +1,279 |  | 2026-07-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~codex-plugin-cc/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~codex-plugin-cc/)*

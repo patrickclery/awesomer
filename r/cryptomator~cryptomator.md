@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,144 | +101 | +246 | +795 | 2026-09-15 |
+| 16,265 | +39 | +197 | +779 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cryptomator~cryptomator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cryptomator~cryptomator/)*

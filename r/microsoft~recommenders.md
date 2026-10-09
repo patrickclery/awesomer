@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,894 | +4 | +35 | +120 | 2026-09-16 |
+| 21,931 | +5 | +55 | +125 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~recommenders/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~recommenders/)*

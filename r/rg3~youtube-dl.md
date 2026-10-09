@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 141,245 | +48 | +273 | +721 | 2026-02-19 |
+| 141,450 | +37 | +352 | +738 | 2026-02-19 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rg3~youtube-dl/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rg3~youtube-dl/)*

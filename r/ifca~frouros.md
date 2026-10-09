@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 261 | +1 | +2 | +6 | 2026-04-23 |
+| 259 | -2 | +1 | +6 | 2026-04-23 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ifca~frouros/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ifca~frouros/)*

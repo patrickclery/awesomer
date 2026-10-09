@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,668 | +222 | +982 | +3,135 | 2026-09-16 |
+| 62,301 | +162 | +1,073 | +3,216 | 2026-10-08 |
 
 ## Found In
 
-- [awesome-machine-learning](../l/machine-learning.md) / C
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
+- [awesome-machine-learning](../l/machine-learning.md) / C
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ultralytics~ultralytics/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ultralytics~ultralytics/)*

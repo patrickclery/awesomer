@@ -1,6 +1,6 @@
 # topoteretes/cognee
 
-> Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions
+> Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small mode
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/topoteretes/cognee) | [Live site ↗](https://patrickclery.com/awesomer/r/topoteretes~cognee/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,711 | +159 | +633 |  | 2026-09-16 |
+| 31,618 | +361 | +732 |  | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Memory Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/topoteretes~cognee/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/topoteretes~cognee/)*

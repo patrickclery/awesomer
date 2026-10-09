@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 235 | +1 | +14 | +66 | 2026-09-14 |
+| 253 | -1 | +30 | +68 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/qdrant~skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/qdrant~skills/)*

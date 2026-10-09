@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 750 | +0 | +6 | +17 | 2026-09-16 |
+| 755 | +1 | +8 | +18 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / High-Availability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pgedge~spock/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pgedge~spock/)*

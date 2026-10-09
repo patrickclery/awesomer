@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 508 |  |  |  | 2026-05-21 |
+| 508 | +0 |  |  | 2026-05-21 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sergey-telpuk~nestjs-rbac/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sergey-telpuk~nestjs-rbac/)*

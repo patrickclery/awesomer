@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 64,860 | +102 | +395 | +1,191 | 2026-09-15 |
+| 65,111 | +82 | +394 | +1,214 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/containous~traefik/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/containous~traefik/)*

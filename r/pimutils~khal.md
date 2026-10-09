@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,050 | +2 | +8 | +32 | 2026-09-14 |
+| 3,068 | +4 | +13 | +32 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pimutils~khal/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pimutils~khal/)*

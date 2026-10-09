@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 636 | +0 | -1 | +3 | 2026-08-19 |
+| 636 | +0 | -1 | +3 | 2026-09-29 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/forbeslindesay~atdatabases/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/forbeslindesay~atdatabases/)*

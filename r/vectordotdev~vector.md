@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,569 | +56 | +196 | +514 | 2026-09-15 |
+| 22,681 | +27 | +166 | +524 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vectordotdev~vector/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vectordotdev~vector/)*

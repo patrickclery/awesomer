@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,520 | +64 | +336 | +2,706 | 2026-09-15 |
+| 12,673 | +52 | +329 | +2,412 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/n0-computer~iroh/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/n0-computer~iroh/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 674 | +0 | -1 | +9 | 2026-07-16 |
+| 676 | +0 | -1 | +9 | 2026-09-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Color
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tadaa~vimade/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tadaa~vimade/)*

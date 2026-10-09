@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 554 | +1 | +3 | +14 | 2026-09-13 |
+| 559 | +0 | +5 | +15 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Feed Readers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lemon24~reader/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lemon24~reader/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 910 | +3 | +21 |  | 2026-09-15 |
+| 923 | +2 | +25 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / AI and LLMs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modelcontextprotocol~ruby-sdk/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/modelcontextprotocol~ruby-sdk/)*

@@ -1,6 +1,6 @@
 # pgalko/BambooAI
 
-> A Python library powered by Language Models (LLMs) for conversational data discovery and analysis.
+> An LLM-driven data analyst that works in a persistent Python kernel. Web app, Docker-isolated execution, your own model 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/pgalko/BambooAI) | [Live site ↗](https://patrickclery.com/awesomer/r/pgalko~bambooai/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 789 | +1 | +5 | +12 | 2026-06-03 |
+| 793 | +2 | +5 | +13 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pgalko~bambooai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pgalko~bambooai/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,125 | +29 | +129 | +463 | 2026-09-16 |
+| 46,228 | +25 | +149 | +470 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rocketchat~rocket.chat/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rocketchat~rocket.chat/)*

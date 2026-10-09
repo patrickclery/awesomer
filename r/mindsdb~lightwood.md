@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 510 | +2 | +2 | +4 | 2026-08-28 |
+| 511 | +0 | +1 | +4 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mindsdb~lightwood/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mindsdb~lightwood/)*

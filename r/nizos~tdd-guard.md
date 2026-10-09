@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,342 | +7 | +41 | +138 | 2026-09-14 |
+| 2,360 | +5 | +44 | +140 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nizos~tdd-guard/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nizos~tdd-guard/)*

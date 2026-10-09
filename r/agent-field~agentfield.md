@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,564 | +5 | +45 | +384 | 2026-09-15 |
+| 2,605 | +9 | +57 | +385 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/agent-field~agentfield/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/agent-field~agentfield/)*

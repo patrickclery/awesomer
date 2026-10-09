@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,039 | +2 | +11 | +30 | 2026-08-27 |
+| 1,050 | +3 | +12 | +32 | 2026-08-27 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Supply Chain
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/in-toto~in-toto/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/in-toto~in-toto/)*

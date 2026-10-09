@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,604 | +20 | +106 | +430 | 2026-09-16 |
+| 10,684 | +11 | +136 | +439 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/skypilot-org~skypilot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/skypilot-org~skypilot/)*

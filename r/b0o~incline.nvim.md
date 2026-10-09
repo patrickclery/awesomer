@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,051 | +2 | +5 | +16 | 2026-05-07 |
+| 1,052 | +0 | +4 | +16 | 2026-05-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Statusline
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/b0o~incline.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/b0o~incline.nvim/)*

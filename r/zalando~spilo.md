@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,864 | +5 | +10 | +25 | 2026-09-08 |
+| 1,874 | +5 | +4 | +25 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Kubernetes
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zalando~spilo/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zalando~spilo/)*

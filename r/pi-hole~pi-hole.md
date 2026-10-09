@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 60,937 | +161 | +527 | +1,583 | 2026-09-12 |
+| 61,200 | +73 | +487 | +1,618 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pi-hole~pi-hole/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pi-hole~pi-hole/)*

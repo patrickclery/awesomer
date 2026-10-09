@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,240 | +27 | +89 | +305 | 2026-09-16 |
+| 13,309 | +12 | +100 | +316 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/trinodb~trino/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/trinodb~trino/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 349 | +0 | +0 | +2 | 2026-03-29 |
+| 350 | +1 | +0 | +2 | 2026-03-29 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eendroroy~alien/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/eendroroy~alien/)*

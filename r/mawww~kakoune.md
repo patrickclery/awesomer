@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,053 | +5 | +28 | +114 | 2026-09-15 |
+| 11,091 | +11 | +39 | +115 | 2026-10-03 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mawww~kakoune/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mawww~kakoune/)*

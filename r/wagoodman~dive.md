@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 54,567 | +23 | +103 | +315 | 2025-12-15 |
+| 54,626 | -2 | +115 | +326 | 2025-12-15 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-linux-containers](../l/linux-containers.md) / Filesystem
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wagoodman~dive/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wagoodman~dive/)*

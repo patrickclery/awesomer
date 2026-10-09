@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 821 | +0 | +0 | -1 | 2026-08-02 |
+| 823 | +0 | +2 | -1 | 2026-08-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CLI Builder
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/commander-rb~commander/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/commander-rb~commander/)*

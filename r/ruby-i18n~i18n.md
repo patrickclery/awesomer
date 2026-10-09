@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,032 | +0 | +1 |  | 2026-09-01 |
+| 1,033 | +1 | +2 |  | 2026-09-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-i18n~i18n/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby-i18n~i18n/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 869 | +3 | +10 | +20 | 2026-01-28 |
+| 870 | +0 | +8 | +19 | 2026-01-28 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maoschanz~drawing/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/maoschanz~drawing/)*

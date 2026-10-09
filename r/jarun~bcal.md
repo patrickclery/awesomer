@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 700 | +1 | +2 | +6 | 2026-09-05 |
+| 704 | +1 | +3 | +5 | 2026-09-17 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jarun~bcal/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jarun~bcal/)*

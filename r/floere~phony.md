@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,094 | +0 | -1 | +1 | 2026-08-20 |
+| 1,093 | -1 | -1 | +1 | 2026-08-20 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Country Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/floere~phony/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/floere~phony/)*

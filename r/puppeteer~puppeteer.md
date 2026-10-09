@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 95,582 | +35 | +119 | +517 | 2026-09-16 |
+| 95,671 | +28 | +126 | +492 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Browser Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/puppeteer~puppeteer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/puppeteer~puppeteer/)*

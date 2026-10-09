@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,233 | -1 | +2 | +14 | 2026-07-05 |
+| 5,229 | -1 | +1 | +14 | 2026-07-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / State Machines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aasm~aasm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/aasm~aasm/)*

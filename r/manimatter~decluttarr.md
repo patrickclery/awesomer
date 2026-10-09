@@ -1,6 +1,6 @@
 # ManiMatter/decluttarr
 
-> Watches radarr, sonarr, lidarr, readarr and whisparr download queues and removes downloads if they become stalled or no 
+> Watches radarr, sonarr, lidarr, readarr, whisparr and sportarr download queues and removes downloads if they become stal
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ManiMatter/decluttarr) | [Live site ↗](https://patrickclery.com/awesomer/r/manimatter~decluttarr/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 878 | +5 | +15 | +28 | 2026-07-28 |
+| 886 | +1 | +16 | +29 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/manimatter~decluttarr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/manimatter~decluttarr/)*

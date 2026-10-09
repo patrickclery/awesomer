@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,203 | +9 | +34 | +80 | 2026-09-15 |
+| 1,210 | +4 | +26 | +78 | 2026-10-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jacobdjwilson~awesome-annual-security-reports/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jacobdjwilson~awesome-annual-security-reports/)*

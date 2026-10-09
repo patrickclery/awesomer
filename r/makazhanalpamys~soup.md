@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,652 | +766 | +4,592 |  | 2026-09-16 |
+| 8,344 | +439 | +4,247 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/makazhanalpamys~soup/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/makazhanalpamys~soup/)*

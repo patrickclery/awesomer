@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,998 | +6 | +56 | +213 | 2026-07-01 |
+| 11,024 | +2 | +64 | +218 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nicolaka~netshoot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nicolaka~netshoot/)*

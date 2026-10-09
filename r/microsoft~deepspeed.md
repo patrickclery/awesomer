@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 43,123 | +40 | +176 | +585 | 2026-09-16 |
+| 43,206 | +35 | +167 | +596 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~deepspeed/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~deepspeed/)*

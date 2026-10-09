@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,718 | +1 | +5 | +36 | 2026-08-30 |
+| 2,726 | +1 | +6 | +32 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Icon
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-tree~nvim-web-devicons/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-tree~nvim-web-devicons/)*

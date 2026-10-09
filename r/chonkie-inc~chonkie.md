@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,751 | +17 | +70 | +597 | 2026-09-02 |
+| 4,786 | +7 | +71 | +601 | 2026-10-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chonkie-inc~chonkie/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chonkie-inc~chonkie/)*

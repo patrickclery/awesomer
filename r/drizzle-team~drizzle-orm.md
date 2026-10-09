@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,787 | +84 | +287 | +924 | 2026-09-16 |
+| 35,982 | +60 | +316 | +935 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/drizzle-team~drizzle-orm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/drizzle-team~drizzle-orm/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 719 | +8 | +34 |  | 2026-08-07 |
+| 748 | +7 | +40 |  | 2026-08-07 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Trading Execution
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/krakenfx~kraken-cli/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/krakenfx~kraken-cli/)*

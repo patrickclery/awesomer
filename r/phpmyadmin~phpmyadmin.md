@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,939 | +4 | +29 | +53 | 2026-09-15 |
+| 7,950 | +4 | +25 | +54 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/phpmyadmin~phpmyadmin/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/phpmyadmin~phpmyadmin/)*

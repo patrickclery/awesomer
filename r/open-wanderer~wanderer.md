@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,879 | +15 | +56 | +200 | 2026-09-15 |
+| 3,955 | +23 | +61 | +205 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Maps and Global Positioning System (GPS)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/open-wanderer~wanderer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/open-wanderer~wanderer/)*

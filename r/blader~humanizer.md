@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 48,917 | +1,467 | +12,852 | +24,098 | 2026-09-06 |
+| 54,800 | +1,555 | +14,309 | +25,092 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/blader~humanizer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/blader~humanizer/)*

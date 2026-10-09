@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,684 | +9 | +24 | +64 | 2026-09-03 |
+| 2,697 | +2 | +18 | +66 | 2026-09-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jpd002~play-/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jpd002~play-/)*

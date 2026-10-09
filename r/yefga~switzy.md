@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 218 | +1 | +3 | +24 | 2026-09-07 |
+| 221 | +0 | +2 | +24 | 2026-09-27 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yefga~switzy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/yefga~switzy/)*

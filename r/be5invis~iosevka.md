@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,755 | +29 | +122 | +356 | 2026-09-13 |
+| 22,831 | +33 | +119 | +366 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Fonts
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/be5invis~iosevka/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/be5invis~iosevka/)*

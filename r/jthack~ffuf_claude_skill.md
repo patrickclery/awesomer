@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 211 | +3 | +5 | +22 | 2025-10-16 |
+| 213 | +1 | +3 | +20 | 2025-10-16 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jthack~ffuf_claude_skill/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jthack~ffuf_claude_skill/)*

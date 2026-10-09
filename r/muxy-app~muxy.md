@@ -1,6 +1,6 @@
 # muxy-app/muxy
 
-> Lightweight and Memory efficient terminal for Mac built with SwiftUI and libghostty
+> Lightweight and Memory efficient terminal multiplexer
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/muxy-app/muxy) | [Live site ↗](https://patrickclery.com/awesomer/r/muxy-app~muxy/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,245 | +22 | +60 | +445 | 2026-09-15 |
+| 2,260 | +4 | +39 | +447 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Developer Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/muxy-app~muxy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/muxy-app~muxy/)*

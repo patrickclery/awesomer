@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,009 | +2 | +12 | +47 | 2026-09-15 |
+| 3,016 | +2 | +12 | +48 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Language Support
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-dotnet/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-dotnet/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,773 | +7 | +16 | +42 | 2026-08-07 |
+| 1,785 | +5 | +11 | +42 | 2026-10-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vergoh~vnstat/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vergoh~vnstat/)*

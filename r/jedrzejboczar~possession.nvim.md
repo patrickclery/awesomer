@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 399 | +0 | +0 | +1 | 2025-10-21 |
+| 397 | +0 | -2 | +1 | 2025-10-21 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jedrzejboczar~possession.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jedrzejboczar~possession.nvim/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,320 | +103 | +310 | +842 | 2026-07-24 |
+| 34,464 | +33 | +278 | +848 | 2026-07-24 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
+- [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~chatdev/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~chatdev/)*

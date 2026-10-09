@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,096 | +10 | +40 | +138 | 2026-09-14 |
+| 4,120 | +11 | +37 | +139 | 2026-09-14 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Customization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vinceliuice~orchis-theme/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vinceliuice~orchis-theme/)*

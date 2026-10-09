@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 26,308 | +4 | +6 | +21 | 2026-09-15 |
+| 26,303 | -4 | +1 | +22 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rollup~rollup/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rollup~rollup/)*

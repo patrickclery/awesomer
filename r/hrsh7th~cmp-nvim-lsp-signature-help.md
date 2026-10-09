@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 679 | +0 | +0 | +1 | 2025-11-14 |
+| 681 | +0 | +2 | +2 | 2025-11-14 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Completion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hrsh7th~cmp-nvim-lsp-signature-help/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hrsh7th~cmp-nvim-lsp-signature-help/)*

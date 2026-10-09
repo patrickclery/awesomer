@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,157 | +5 | +10 | +35 | 2026-09-14 |
+| 12,164 | +2 | +8 | +35 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / JavaScript
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/spencermountain~compromise/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/spencermountain~compromise/)*

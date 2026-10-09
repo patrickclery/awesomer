@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 303 | +0 | +2 | +6 | 2026-05-01 |
+| 305 | +0 | +3 | +6 | 2026-05-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/coffebar~neovim-project/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/coffebar~neovim-project/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,490 | +305 | +1,090 |  | 2026-09-15 |
+| 31,973 | +90 | +988 |  | 2026-10-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tirth8205~code-review-graph/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tirth8205~code-review-graph/)*

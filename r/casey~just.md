@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,815 | +122 | +491 | +1,468 | 2026-09-01 |
+| 36,167 | +77 | +555 | +1,516 | 2026-10-02 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/casey~just/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/casey~just/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,981 | +11 | +40 | +159 | 2026-01-09 |
+| 9,017 | +15 | +47 | +160 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/morganamilo~paru/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/morganamilo~paru/)*

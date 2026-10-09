@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,382 | +2 | +17 | +74 | 2026-08-28 |
+| 3,391 | +3 | +19 | +73 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / GitHub
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pwntester~octo.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pwntester~octo.nvim/)*

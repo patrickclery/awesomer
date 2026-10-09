@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,546 | +0 | +16 | +37 | 2026-02-08 |
+| 2,551 | -1 | +20 | +39 | 2026-02-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/freerdp~remmina/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/freerdp~remmina/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 160 | +0 | +3 | +6 | 2026-02-11 |
+| 158 | -2 | +1 | +5 | 2026-02-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/delano~postman-mcp-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/delano~postman-mcp-server/)*

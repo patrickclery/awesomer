@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,513 | +0 | -1 |  | 2026-09-04 |
+| 2,514 | +0 | +0 |  | 2026-09-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authentication and OAuth
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wardencommunity~warden/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wardencommunity~warden/)*

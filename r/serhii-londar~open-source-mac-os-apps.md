@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 50,413 | +90 | +365 | +1,212 | 2026-09-10 |
+| 50,687 | +74 | +409 | +1,242 | 2026-09-10 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/serhii-londar~open-source-mac-os-apps/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/serhii-londar~open-source-mac-os-apps/)*

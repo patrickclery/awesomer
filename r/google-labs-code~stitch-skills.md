@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,322 | +87 | +245 |  | 2026-08-17 |
+| 8,441 | +32 | +195 |  | 2026-08-17 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-labs-code~stitch-skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google-labs-code~stitch-skills/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,320 | +47 | +188 | +571 | 2026-09-15 |
+| 10,480 | +48 | +192 | +580 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/orama-interactive~pixelorama/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/orama-interactive~pixelorama/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,483 | -4 | +43 | +209 | 2026-07-03 |
+| 28,513 | +8 | +58 | +209 | 2026-07-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Preconfigured Configuration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/siduck76~nvchad/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/siduck76~nvchad/)*

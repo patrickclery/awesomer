@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,304 | +0 | +1 | +3 | 2026-04-04 |
+| 1,302 | +0 | +0 | +2 | 2026-04-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Comment
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/joosepalviste~nvim-ts-context-commentstring/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/joosepalviste~nvim-ts-context-commentstring/)*

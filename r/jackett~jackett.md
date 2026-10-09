@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,042 | +57 | +153 | +441 | 2026-09-16 |
+| 16,174 | +57 | +124 | +444 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-arr](../l/arr.md) / Indexer Managers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jackett~jackett/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jackett~jackett/)*

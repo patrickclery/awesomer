@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,055 | +0 | +8 | +31 | 2025-12-28 |
+| 4,060 | -1 | +9 | +29 | 2025-12-28 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepchecks~deepchecks/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deepchecks~deepchecks/)*

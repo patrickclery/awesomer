@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,332 | +106 | +185 | +415 | 2026-09-03 |
+| 1,382 | +19 | +98 | +418 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Screen Recording
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lzhgus~capso/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lzhgus~capso/)*

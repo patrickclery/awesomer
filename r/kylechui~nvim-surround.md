@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,299 | +8 | +24 | +68 | 2026-06-08 |
+| 4,310 | +5 | +20 | +70 | 2026-06-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Syntax
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kylechui~nvim-surround/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kylechui~nvim-surround/)*

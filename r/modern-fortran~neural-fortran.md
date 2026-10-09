@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 474 | +1 | +1 | +7 | 2026-03-04 |
+| 476 | +1 | +1 | +7 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Fortran
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modern-fortran~neural-fortran/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/modern-fortran~neural-fortran/)*

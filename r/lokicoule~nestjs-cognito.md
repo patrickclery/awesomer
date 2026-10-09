@@ -1,6 +1,6 @@
 # Lokicoule/nestjs-cognito
 
-> AWS Cognito utilities module for NestJS.
+> AWS Cognito authentication for NestJS: JWT guards, groups and OAuth scopes, GraphQL, WebSockets and microservices.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Lokicoule/nestjs-cognito) | [Live site ↗](https://patrickclery.com/awesomer/r/lokicoule~nestjs-cognito/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 110 |  |  |  | 2026-09-15 |
+| 109 | +0 |  |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lokicoule~nestjs-cognito/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lokicoule~nestjs-cognito/)*

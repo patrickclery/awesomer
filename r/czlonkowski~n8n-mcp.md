@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,895 |  |  |  | 2026-09-14 |
+| 23,049 | +19 |  |  | 2026-10-06 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/czlonkowski~n8n-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/czlonkowski~n8n-mcp/)*

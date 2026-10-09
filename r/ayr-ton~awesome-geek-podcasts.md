@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 638 | -1 | -4 | +4 | 2026-03-22 |
+| 641 | +0 | -2 | +5 | 2026-03-22 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Entertainment
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ayr-ton~awesome-geek-podcasts/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ayr-ton~awesome-geek-podcasts/)*

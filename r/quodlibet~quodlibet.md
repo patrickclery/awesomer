@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,753 | -1 | +3 | +18 | 2026-09-14 |
+| 1,761 | +2 | +7 | +16 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/quodlibet~quodlibet/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/quodlibet~quodlibet/)*

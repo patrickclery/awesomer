@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,205 | +1 | +13 | +23 | 2026-09-08 |
+| 1,212 | +1 | +15 | +24 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Maps and Global Positioning System (GPS)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/owntracks~recorder/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/owntracks~recorder/)*

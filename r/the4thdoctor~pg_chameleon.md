@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 441 | +1 | +2 | +3 | 2026-08-31 |
+| 442 | +0 | +2 | +3 | 2026-08-31 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/the4thdoctor~pg_chameleon/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/the4thdoctor~pg_chameleon/)*

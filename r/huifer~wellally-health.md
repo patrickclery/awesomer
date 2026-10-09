@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 952 |  |  |  | 2026-07-16 |
+| 960 | +1 |  |  | 2026-07-16 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huifer~wellally-health/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/huifer~wellally-health/)*

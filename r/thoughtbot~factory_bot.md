@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,170 | +0 | +1 | -6 | 2026-08-21 |
+| 8,163 | -6 | +1 | -7 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~factory_bot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thoughtbot~factory_bot/)*

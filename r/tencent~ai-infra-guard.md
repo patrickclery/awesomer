@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,388 | +1,243 | +1,874 | +2,460 | 2026-09-16 |
+| 6,788 | +135 | +766 | +2,524 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tencent~ai-infra-guard/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tencent~ai-infra-guard/)*

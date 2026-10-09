@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 118 | +0 | +3 | +12 | 2026-06-04 |
+| 120 | +1 | +3 | +10 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) GitHub
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/snooppr~shotstars/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/snooppr~shotstars/)*

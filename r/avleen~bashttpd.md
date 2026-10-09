@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,552 | +0 | +0 | -2 | 2026-07-24 |
+| 1,552 | +1 | -1 | -2 | 2026-07-24 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Downloading and Serving
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/avleen~bashttpd/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/avleen~bashttpd/)*

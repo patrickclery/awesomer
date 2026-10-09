@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 64,628 | +106 | +349 | +1,224 | 2026-09-05 |
+| 64,849 | +72 | +350 | +1,250 | 2026-10-06 |
 
 ## Found In
 
-- [awesome-zsh-plugins](../l/zsh-plugins.md) / Prerequisites
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Fonts
+- [awesome-zsh-plugins](../l/zsh-plugins.md) / Prerequisites
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanoasis~nerd-fonts/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ryanoasis~nerd-fonts/)*

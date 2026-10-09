@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 609 | +1 | +6 | +21 | 2026-06-08 |
+| 613 | +2 | +4 | +22 | 2026-06-08 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Exchange API
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nooperpudd~ctpwrapper/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nooperpudd~ctpwrapper/)*

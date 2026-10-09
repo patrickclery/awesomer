@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 156 |  |  |  | 2026-09-13 |
+| 204 | +7 |  |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kayforkind~reimagine-it/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kayforkind~reimagine-it/)*

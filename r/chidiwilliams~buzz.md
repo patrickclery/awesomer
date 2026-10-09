@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,522 | +93 | +520 | +1,788 | 2026-09-12 |
+| 21,879 | +97 | +573 | +1,813 | 2026-10-02 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Voice-to-Text
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chidiwilliams~buzz/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chidiwilliams~buzz/)*

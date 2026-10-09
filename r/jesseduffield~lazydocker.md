@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 52,844 | +79 | +333 | +1,467 | 2026-04-19 |
+| 53,073 | +71 | +353 | +1,462 | 2026-04-19 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jesseduffield~lazydocker/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jesseduffield~lazydocker/)*

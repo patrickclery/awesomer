@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,721 | +12 | +9 | +67 | 2026-07-25 |
+| 1,733 | +3 | +4 | +69 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-tailwindcss](../l/tailwindcss.md) / UI libraries, components & templates
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chrismwilliams~astro-theme-cactus/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chrismwilliams~astro-theme-cactus/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,771 | +1 | +1 | +9 | 2026-08-17 |
+| 1,775 | +1 | +1 | +9 | 2026-09-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Benchmark Suites
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mlcommons~training/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mlcommons~training/)*

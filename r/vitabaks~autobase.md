@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,385 | +9 | +49 | +117 | 2026-09-14 |
+| 4,412 | +6 | +56 | +119 | 2026-10-07 |
 
 ## Found In
 
-- [awesome-postgres](../l/postgres.md) / High-Availability
 - [awesome-db-tools](../l/db-tools.md) / HA/Failover/Sharding
+- [awesome-postgres](../l/postgres.md) / High-Availability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vitabaks~autobase/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vitabaks~autobase/)*

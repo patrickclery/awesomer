@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,634 |  |  |  | 2026-09-10 |
+| 2,661 | +9 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia~nemo-agent-toolkit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nvidia~nemo-agent-toolkit/)*

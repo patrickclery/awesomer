@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,488 | +4 | +14 | +65 | 2026-08-23 |
+| 5,498 | +3 | +16 | +64 | 2026-08-23 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Rust
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/laurentmazare~tch-rs/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/laurentmazare~tch-rs/)*

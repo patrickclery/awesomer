@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 250 | +0 | +0 | +0 | 2026-05-22 |
+| 252 | +1 | +0 | +0 | 2026-05-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fildo7525~pretty_hover/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fildo7525~pretty_hover/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 268 | +0 | +0 | +0 | 2026-04-24 |
+| 270 | +1 | +1 | +0 | 2026-04-24 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Script Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudflare~semver_bash/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cloudflare~semver_bash/)*

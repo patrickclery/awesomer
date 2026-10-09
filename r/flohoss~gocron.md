@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 549 | -1 | +0 | +6 | 2026-08-28 |
+| 584 | +20 | +1 | +6 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flohoss~gocron/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/flohoss~gocron/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 65,133 | +572 | +2,027 |  | 2026-09-13 |
+| 66,038 | +214 | +1,850 |  | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Finance & Quantitative AI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zhulinsen~daily_stock_analysis/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zhulinsen~daily_stock_analysis/)*

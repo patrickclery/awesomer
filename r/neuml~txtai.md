@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,951 | +12 | +56 | +283 | 2026-09-15 |
+| 12,998 | +8 | +76 | +295 | 2026-10-08 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neuml~txtai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/neuml~txtai/)*

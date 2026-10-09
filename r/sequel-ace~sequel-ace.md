@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,534 | +11 | +34 | +94 | 2026-09-15 |
+| 7,551 | +6 | +25 | +98 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sequel-ace~sequel-ace/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sequel-ace~sequel-ace/)*

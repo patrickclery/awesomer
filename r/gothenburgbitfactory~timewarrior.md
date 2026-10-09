@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,658 | +1 | +18 | +41 | 2026-09-09 |
+| 1,669 | +3 | +23 | +44 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gothenburgbitfactory~timewarrior/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gothenburgbitfactory~timewarrior/)*

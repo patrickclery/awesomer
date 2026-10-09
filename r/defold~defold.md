@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,305 | +17 | +59 | +179 | 2026-09-16 |
+| 6,351 | +10 | +52 | +178 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/defold~defold/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/defold~defold/)*

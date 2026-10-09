@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,118 | +72 | +306 | +930 | 2026-09-16 |
+| 22,313 | +60 | +310 | +953 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/postgres~postgres/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/postgres~postgres/)*

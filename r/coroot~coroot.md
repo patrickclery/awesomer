@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,916 | +14 | +44 | +156 | 2026-09-15 |
+| 7,963 | +15 | +50 | +162 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Monitoring
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/coroot~coroot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/coroot~coroot/)*

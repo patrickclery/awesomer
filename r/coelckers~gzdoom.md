@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,102 | +4 | +1 | +24 | 2026-08-10 |
+| 3,110 | +3 | +0 | +28 | 2026-08-10 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/coelckers~gzdoom/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/coelckers~gzdoom/)*

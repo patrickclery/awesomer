@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,290 | +11 | +65 | +159 | 2026-09-16 |
+| 4,312 | +6 | +62 | +162 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modeltc~lightllm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/modeltc~lightllm/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 265 | +0 | +2 | +9 | 2026-08-30 |
+| 266 | +1 | +2 | +9 | 2026-08-30 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - Email - Mail Transfer Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/corecode~dma/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/corecode~dma/)*

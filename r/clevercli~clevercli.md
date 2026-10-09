@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 165 | +0 | +1 | +0 | 2026-03-05 |
+| 166 | +0 | +2 | +0 | 2026-03-05 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/clevercli~clevercli/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/clevercli~clevercli/)*

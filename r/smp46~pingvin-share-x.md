@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 432 | +18 | +84 | +244 | 2026-09-16 |
+| 484 | +15 | +90 | +247 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/smp46~pingvin-share-x/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/smp46~pingvin-share-x/)*

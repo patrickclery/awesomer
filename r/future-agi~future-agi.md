@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,019 | +106 | +330 | +834 | 2026-09-16 |
+| 2,124 | +22 | +271 | +849 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/future-agi~future-agi/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/future-agi~future-agi/)*

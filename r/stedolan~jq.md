@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,608 | +20 | +146 | +704 | 2026-09-15 |
+| 35,762 | +28 | +218 | +683 | 2026-10-07 |
 
 ## Found In
 
-- [awesome-shell](../l/shell.md) / Multimedia and File Formats
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
+- [awesome-shell](../l/shell.md) / Multimedia and File Formats
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stedolan~jq/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/stedolan~jq/)*

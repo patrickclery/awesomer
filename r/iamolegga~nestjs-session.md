@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 250 |  |  |  | 2026-09-12 |
+| 251 | +1 |  |  | 2026-10-03 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/iamolegga~nestjs-session/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/iamolegga~nestjs-session/)*

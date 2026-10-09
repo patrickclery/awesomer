@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 762 | +2 | +5 | +13 | 2026-09-04 |
+| 763 | +0 | +4 | +13 | 2026-10-02 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/techascent~tech.ml.dataset/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/techascent~tech.ml.dataset/)*

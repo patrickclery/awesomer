@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 479 | +1 | +4 | +13 | 2025-11-09 |
+| 481 | +0 | +3 | +13 | 2025-11-09 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/joshskidmore~zsh-fzf-history-search/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/joshskidmore~zsh-fzf-history-search/)*

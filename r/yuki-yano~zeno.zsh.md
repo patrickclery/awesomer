@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 308 | +0 | +1 | +6 | 2026-08-31 |
+| 308 | +0 | +1 | +7 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yuki-yano~zeno.zsh/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/yuki-yano~zeno.zsh/)*

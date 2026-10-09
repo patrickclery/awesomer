@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,119 | +109 | +487 | +1,716 | 2026-09-16 |
+| 32,354 | +51 | +503 | +1,739 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/onyx-dot-app~onyx/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/onyx-dot-app~onyx/)*

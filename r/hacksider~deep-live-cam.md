@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 96,670 | +115 | +691 | +2,722 | 2026-09-15 |
+| 96,940 | +34 | +722 | +2,753 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Face Swap & Deepfake
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hacksider~deep-live-cam/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hacksider~deep-live-cam/)*

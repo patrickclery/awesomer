@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,884 | +53 | +204 | +809 | 2026-09-16 |
+| 41,039 | +59 | +205 | +802 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Application platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/appsmithorg~appsmith/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/appsmithorg~appsmith/)*

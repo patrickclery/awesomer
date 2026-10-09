@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,200 | -2 | +0 | +25 | 2026-08-17 |
+| 1,208 | +0 | +7 | +18 | 2026-08-17 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/superlinear-ai~raglite/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/superlinear-ai~raglite/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,936 | +1 | +18 | +22 | 2026-08-30 |
+| 1,943 | +7 | +16 | +21 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Authentication and OAuth
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jeremyevans~rodauth/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jeremyevans~rodauth/)*

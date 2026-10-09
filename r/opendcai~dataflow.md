@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,184 | +225 | +689 |  | 2026-09-13 |
+| 8,199 | -20 | +461 |  | 2026-09-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/opendcai~dataflow/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/opendcai~dataflow/)*

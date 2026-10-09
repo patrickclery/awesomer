@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 259 | +8 | +61 | +150 | 2026-09-10 |
+| 278 | +5 | +64 | +152 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yigtwxx~awesome-rag-production/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/yigtwxx~awesome-rag-production/)*

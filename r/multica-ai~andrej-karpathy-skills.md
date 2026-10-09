@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 213,312 | +3,379 | +10,066 |  | 2026-04-20 |
+| 217,519 | +1,412 | +8,362 |  | 2026-04-20 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Start Here
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/multica-ai~andrej-karpathy-skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/multica-ai~andrej-karpathy-skills/)*

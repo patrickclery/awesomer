@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,536 | +498 | +2,469 | +21,005 | 2026-09-16 |
+| 34,988 | +583 | +2,390 | +21,057 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~vibe-trading/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~vibe-trading/)*

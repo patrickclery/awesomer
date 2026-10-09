@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,983 | +3 | +3 | +35 | 2026-06-28 |
+| 2,989 | -1 | +4 | +37 | 2026-06-28 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Open Source
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tajo~ladle/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tajo~ladle/)*

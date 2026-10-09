@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,837 | +10 | +51 | +154 | 2026-09-01 |
+| 4,872 | +8 | +59 | +162 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Images
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/charmbracelet~freeze/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/charmbracelet~freeze/)*

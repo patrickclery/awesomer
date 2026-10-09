@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,662 | +1 | -1 | +39 | 2026-04-07 |
+| 14,667 | +3 | -1 | +41 | 2026-04-07 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oliver-moran~jimp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/oliver-moran~jimp/)*

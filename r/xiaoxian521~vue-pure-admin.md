@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,629 | +16 | +96 | +281 | 2026-08-23 |
+| 20,665 | +4 | +91 | +289 | 2026-08-23 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xiaoxian521~vue-pure-admin/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/xiaoxian521~vue-pure-admin/)*

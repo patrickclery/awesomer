@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,095 | +10 | +26 | +314 | 2026-09-16 |
+| 10,117 | +8 | +21 | +316 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~cassandra/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~cassandra/)*

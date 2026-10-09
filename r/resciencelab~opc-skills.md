@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,815 | +55 | +239 | +882 | 2026-09-15 |
+| 1,843 | -3 | +179 | +885 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/resciencelab~opc-skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/resciencelab~opc-skills/)*

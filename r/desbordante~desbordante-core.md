@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 502 | +3 | +7 | +18 | 2026-09-15 |
+| 511 | +1 | +10 | +19 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/desbordante~desbordante-core/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/desbordante~desbordante-core/)*

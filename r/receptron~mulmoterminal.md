@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 216 |  |  |  | 2026-09-16 |
+| 236 | +5 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/receptron~mulmoterminal/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/receptron~mulmoterminal/)*

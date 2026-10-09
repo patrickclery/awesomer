@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,249 | +27 | +118 | +398 | 2026-08-28 |
+| 15,314 | +21 | +112 | +401 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Sharing Files
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/haiwen~seafile/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/haiwen~seafile/)*

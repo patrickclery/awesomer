@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,169 | +6 | +19 | +97 | 2026-09-02 |
+| 2,179 | +2 | +15 | +99 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/simonw~sqlite-utils/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/simonw~sqlite-utils/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,325 | +39 | +132 | +439 | 2026-09-13 |
+| 18,385 | +21 | +115 | +444 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Open Source
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vuejs~vitepress/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vuejs~vitepress/)*

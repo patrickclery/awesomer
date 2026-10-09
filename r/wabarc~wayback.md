@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,230 | +2 | +6 | +28 | 2026-09-07 |
+| 2,236 | -2 | +7 | +29 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Archiving and Digital Preservation (DP)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wabarc~wayback/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wabarc~wayback/)*

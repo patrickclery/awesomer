@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,707 | +8 | +34 | +135 | 2026-09-09 |
+| 4,734 | +2 | +41 | +138 | 2026-09-23 |
 
 ## Found In
 
-- [awesome-machine-learning](../l/machine-learning.md) / Tools
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
+- [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/infiniflow~infinity/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/infiniflow~infinity/)*

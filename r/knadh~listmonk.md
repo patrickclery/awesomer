@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,443 | +137 | +511 | +1,819 | 2026-09-13 |
+| 23,717 | +74 | +477 | +1,828 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Newsletter Platform
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/knadh~listmonk/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/knadh~listmonk/)*

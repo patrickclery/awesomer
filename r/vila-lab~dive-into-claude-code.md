@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,114 | +17 | +54 |  | 2026-09-15 |
+| 2,153 | +17 | +48 |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Documentation, Knowledge & Learning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vila-lab~dive-into-claude-code/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vila-lab~dive-into-claude-code/)*

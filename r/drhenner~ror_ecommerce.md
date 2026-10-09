@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / E-Commerce and Payments
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/drhenner~ror_ecommerce/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/drhenner~ror_ecommerce/)*

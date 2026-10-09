@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,712 |  |  |  | 2026-09-15 |
+| 9,214 | +130 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/backnotprop~plannotator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/backnotprop~plannotator/)*

@@ -1,6 +1,6 @@
 # cactus-compute/needle
 
-> 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
+> Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/cactus-compute/needle) | [Live site ↗](https://patrickclery.com/awesomer/r/cactus-compute~needle/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,052 | +1,762 | +4,084 |  | 2026-09-16 |
+| 13,416 | +505 | +3,588 |  | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cactus-compute~needle/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cactus-compute~needle/)*

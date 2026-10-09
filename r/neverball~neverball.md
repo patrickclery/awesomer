@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 442 | +1 | +10 | +18 | 2026-09-10 |
+| 443 | +0 | +8 | +18 | 2026-10-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neverball~neverball/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/neverball~neverball/)*

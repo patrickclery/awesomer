@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 565 | +0 | +0 | +1 | 2025-12-21 |
+| 564 | -1 | +0 | +1 | 2025-12-21 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/spotify~dockerfile-mode/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/spotify~dockerfile-mode/)*

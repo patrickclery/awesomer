@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 297 | +7 | +26 | +102 | 2026-09-16 |
+| 325 | +10 | +30 | +104 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Registry
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/getnora-io~nora/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/getnora-io~nora/)*

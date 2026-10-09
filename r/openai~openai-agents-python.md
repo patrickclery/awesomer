@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,485 | +201 | +774 | +2,249 | 2026-09-16 |
+| 29,907 | +111 | +761 | +2,303 | 2026-10-08 |
 
 ## Found In
 
-- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
+- [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~openai-agents-python/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openai~openai-agents-python/)*

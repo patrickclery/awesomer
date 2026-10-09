@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,771 | +22 | +70 | +201 | 2026-09-15 |
+| 12,802 | +6 | +61 | +208 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / HA/Failover/Sharding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/citusdata~citus/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/citusdata~citus/)*

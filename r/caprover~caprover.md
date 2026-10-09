@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,162 | +8 | +33 | +100 | 2026-09-16 |
+| 15,182 | +4 | +30 | +104 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/caprover~caprover/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/caprover~caprover/)*

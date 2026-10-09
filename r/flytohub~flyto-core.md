@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 480 | +1 | +1 | +206 | 2026-09-07 |
+| 484 | +1 | +1 | +206 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/flytohub~flyto-core/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/flytohub~flyto-core/)*

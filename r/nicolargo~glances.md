@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,583 | +51 | +218 | +731 | 2026-09-13 |
+| 33,746 | +26 | +257 | +739 | 2026-10-07 |
 
 ## Found In
 
-- [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 - [awesome-shell](../l/shell.md) / System Utilities
+- [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nicolargo~glances/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nicolargo~glances/)*

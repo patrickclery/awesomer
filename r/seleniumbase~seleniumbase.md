@@ -1,6 +1,6 @@
 # seleniumbase/SeleniumBase
 
-> Browser automation, web scraping, and testing. CDP Mode provides a Stealthy Chromium instance that bypasses bot-detectio
+> 📊 Browser automation framework for scraping, testing, and completing tasks with Python. Supports pytest. Stealth option
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/seleniumbase/SeleniumBase) | [Live site ↗](https://patrickclery.com/awesomer/r/seleniumbase~seleniumbase/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,018 |  |  |  | 2026-09-16 |
+| 13,053 | +5 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/seleniumbase~seleniumbase/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/seleniumbase~seleniumbase/)*

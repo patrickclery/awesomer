@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,525 | +2 | +13 | +48 | 2026-09-16 |
+| 2,543 | +8 | +21 | +47 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SPAM Filtering
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rspamd~rspamd/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rspamd~rspamd/)*

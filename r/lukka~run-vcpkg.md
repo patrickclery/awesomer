@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 236 | +0 | +2 | +6 | 2026-09-09 |
+| 237 | +0 | +3 | +6 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Build
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lukka~run-vcpkg/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lukka~run-vcpkg/)*

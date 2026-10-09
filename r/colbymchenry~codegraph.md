@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 71,109 | +1,159 | +4,397 | +19,672 | 2026-09-16 |
+| 73,458 | +737 | +4,072 | +19,644 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/colbymchenry~codegraph/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/colbymchenry~codegraph/)*

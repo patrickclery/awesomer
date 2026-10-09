@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 235 | +1 | +3 | +12 | 2026-07-18 |
+| 239 | +1 | +4 | +14 | 2026-07-18 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/donbarbos~awesome-standards/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/donbarbos~awesome-standards/)*

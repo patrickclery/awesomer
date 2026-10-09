@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,992 | +60 | +141 | +480 | 2026-09-12 |
+| 9,092 | +27 | +129 | +476 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/teslamate-org~teslamate/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/teslamate-org~teslamate/)*

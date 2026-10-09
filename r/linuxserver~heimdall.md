@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,325 | +0 | +24 | +108 | 2026-09-09 |
+| 9,343 | +2 | +31 | +112 | 2026-10-03 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-arr](../l/arr.md) / Dashboards
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxserver~heimdall/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxserver~heimdall/)*

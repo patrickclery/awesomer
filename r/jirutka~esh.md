@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 241 | +0 | +0 | +2 | 2026-03-31 |
+| 242 | +0 | +1 | +3 | 2026-03-31 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Script Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jirutka~esh/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jirutka~esh/)*

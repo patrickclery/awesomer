@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,640 | +11 | +108 | +188 | 2026-07-31 |
+| 14,669 | +11 | +110 | +196 | 2026-07-31 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / External Links
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/0xnr~awesome-bigdata/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/0xnr~awesome-bigdata/)*

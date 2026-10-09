@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,273 | +27 | +92 | +263 | 2026-09-11 |
+| 6,329 | +26 | +83 | +270 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexpasmantier~television/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alexpasmantier~television/)*

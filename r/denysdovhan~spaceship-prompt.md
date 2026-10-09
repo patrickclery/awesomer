@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,575 | +3 | +14 | +57 | 2026-09-02 |
+| 20,583 | +6 | +13 | +58 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/denysdovhan~spaceship-prompt/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/denysdovhan~spaceship-prompt/)*

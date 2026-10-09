@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,175 |  |  |  | 2026-09-16 |
+| 1,202 | +6 |  |  | 2026-10-07 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Training and Fine-tuning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~specforge/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~specforge/)*

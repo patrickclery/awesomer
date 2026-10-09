@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,737 | +16 | +48 | +136 | 2026-09-02 |
+| 4,770 | +2 | +55 | +141 | 2026-09-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/harmonoid~harmonoid/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/harmonoid~harmonoid/)*

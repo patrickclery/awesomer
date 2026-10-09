@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,689 | +92 | +475 | +1,470 | 2026-09-16 |
+| 14,983 | +84 | +493 | +1,496 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Complete Email Server
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stalwartlabs~mail-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/stalwartlabs~mail-server/)*

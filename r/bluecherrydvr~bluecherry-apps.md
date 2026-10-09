@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 275 | +0 | +1 | +3 | 2026-09-08 |
+| 275 | +0 | +1 | +3 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Video Surveillance
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bluecherrydvr~bluecherry-apps/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bluecherrydvr~bluecherry-apps/)*

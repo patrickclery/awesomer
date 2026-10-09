@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 577 | +0 | +0 | -1 | 2026-05-02 |
+| 577 | +0 | -1 | -1 | 2026-05-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/codegram~spinach/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/codegram~spinach/)*

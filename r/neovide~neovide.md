@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,213 | +9 | +40 | +142 | 2026-09-06 |
+| 15,257 | +11 | +37 | +142 | 2026-09-29 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Text Editors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neovide~neovide/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/neovide~neovide/)*

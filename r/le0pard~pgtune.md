@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,742 | +0 | +8 | +21 | 2026-09-02 |
+| 2,745 | +1 | +8 | +21 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Optimization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/le0pard~pgtune/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/le0pard~pgtune/)*

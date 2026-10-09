@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,217 | +30 | +205 | +434 | 2026-09-16 |
+| 6,357 | +46 | +226 | +458 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
+- [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kucherenko~jscpd/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kucherenko~jscpd/)*

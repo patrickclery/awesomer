@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,226 | +155 | +360 |  | 2026-02-11 |
+| 6,319 | +29 | +214 |  | 2026-02-11 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / From Anthropic
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~claude-code-security-review/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/anthropics~claude-code-security-review/)*

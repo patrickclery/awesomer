@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,815 | +5 | +18 | +74 | 2026-09-11 |
+| 1,824 | +0 | +22 | +74 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openscap~openscap/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openscap~openscap/)*

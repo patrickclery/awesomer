@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,257 | -1 | +12 | +22 | 2026-09-15 |
+| 14,268 | +4 | +20 | +24 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Java
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deeplearning4j~deeplearning4j/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deeplearning4j~deeplearning4j/)*

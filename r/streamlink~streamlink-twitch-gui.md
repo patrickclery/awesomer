@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,873 | +0 | +3 | +16 | 2026-09-14 |
+| 2,868 | -4 | +2 | +19 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/streamlink~streamlink-twitch-gui/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/streamlink~streamlink-twitch-gui/)*

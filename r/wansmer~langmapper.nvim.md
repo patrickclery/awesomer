@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 249 | +0 | +0 | -1 | 2026-03-24 |
+| 251 | +0 | +0 | -1 | 2026-03-24 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Keybinding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wansmer~langmapper.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wansmer~langmapper.nvim/)*

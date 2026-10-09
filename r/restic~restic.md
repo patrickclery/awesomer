@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,066 | +134 | +504 | +1,528 | 2026-09-01 |
+| 36,470 | +107 | +559 | +1,543 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Data Backup and Recovery
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/restic~restic/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/restic~restic/)*

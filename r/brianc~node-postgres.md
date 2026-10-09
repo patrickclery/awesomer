@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,209 | +6 | +19 | +51 | 2026-09-11 |
+| 13,219 | +1 | +17 | +49 | 2026-10-01 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brianc~node-postgres/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/brianc~node-postgres/)*

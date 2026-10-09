@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,909 | +4 | +7 | +5 | 2026-08-31 |
+| 5,904 | -1 | +0 | +5 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/matthewmueller~x-ray/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/matthewmueller~x-ray/)*

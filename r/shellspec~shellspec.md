@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,396 | +1 | +4 | +18 | 2025-11-24 |
+| 1,395 | -1 | +3 | +18 | 2025-11-24 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-shell](../l/shell.md) / Shell Script Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shellspec~shellspec/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/shellspec~shellspec/)*

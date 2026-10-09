@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,615 | +44 | +161 | +571 | 2026-09-16 |
+| 23,713 | +19 | +171 | +577 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / GUI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/beekeeper-studio~beekeeper-studio/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/beekeeper-studio~beekeeper-studio/)*

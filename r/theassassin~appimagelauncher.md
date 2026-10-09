@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,301 | +19 | +66 | +209 | 2026-03-09 |
+| 8,346 | +14 | +65 | +221 | 2026-10-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/theassassin~appimagelauncher/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/theassassin~appimagelauncher/)*

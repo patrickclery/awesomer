@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,828 | +185 | +401 |  | 2026-07-13 |
+| 12,979 | +13 | +300 |  | 2026-07-13 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Audio / Music / Voice Generation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/abus-aikorea~voice-pro/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/abus-aikorea~voice-pro/)*

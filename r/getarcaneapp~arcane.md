@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,412 | +85 | +390 | +1,627 | 2026-09-16 |
+| 7,775 | +108 | +495 | +1,642 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / User Interface
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/getarcaneapp~arcane/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/getarcaneapp~arcane/)*

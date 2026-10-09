@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 129 |  |  |  | 2026-09-09 |
+| 137 | +2 |  |  | 2026-09-21 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/matisiekpl~neond/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/matisiekpl~neond/)*

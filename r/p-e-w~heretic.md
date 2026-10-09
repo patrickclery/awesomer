@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,542 | +304 | +3,794 | +6,435 | 2026-09-05 |
+| 33,988 | +1,362 | +4,276 | +6,679 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/p-e-w~heretic/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/p-e-w~heretic/)*

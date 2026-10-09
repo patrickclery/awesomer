@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 949 | +0 | +2 | +0 | 2026-09-15 |
+| 947 | +0 | +1 | +0 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / External Services
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/w9jds~firebase-action/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/w9jds~firebase-action/)*

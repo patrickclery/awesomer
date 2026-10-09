@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,992 | +112 | +459 | +2,151 | 2026-09-14 |
+| 36,254 | +67 | +437 | +2,171 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~graphrag/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~graphrag/)*

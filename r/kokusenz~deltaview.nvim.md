@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / Git
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kokusenz~deltaview.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kokusenz~deltaview.nvim/)*

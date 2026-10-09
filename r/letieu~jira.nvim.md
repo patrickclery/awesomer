@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 270 | +0 | +4 | +15 | 2026-08-31 |
+| 272 | +1 | +5 | +15 | 2026-09-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Workflow
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/letieu~jira.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/letieu~jira.nvim/)*

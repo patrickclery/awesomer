@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 153 | +0 | +0 | +1 | 2026-09-16 |
+| 154 | +0 | +0 | +1 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Templates
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/laststance~vite-rtk-query/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/laststance~vite-rtk-query/)*

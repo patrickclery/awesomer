@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 81,291 | +1,500 | +6,601 | +16,559 | 2026-09-14 |
+| 86,303 | +1,422 | +7,421 | +17,372 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Web Data Ingestion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/d4vinci~scrapling/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/d4vinci~scrapling/)*

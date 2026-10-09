@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,372 | +6 | +23 | +64 | 2026-03-21 |
+| 5,380 | +3 | +16 | +65 | 2026-03-21 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Frameworks For Hybrid Applications
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~create-dmg/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~create-dmg/)*

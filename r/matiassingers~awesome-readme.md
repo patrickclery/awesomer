@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,445 | +41 | +115 | +378 | 2026-09-10 |
+| 21,548 | +29 | +116 | +375 | 2026-09-28 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/matiassingers~awesome-readme/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/matiassingers~awesome-readme/)*

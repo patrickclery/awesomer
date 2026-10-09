@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,314 | -1 | +0 | +14 | 2025-11-20 |
+| 3,320 | +1 | +3 | +11 | 2025-11-20 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Other Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/datasploit~datasploit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/datasploit~datasploit/)*

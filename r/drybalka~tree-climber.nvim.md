@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 159 | +0 | +0 | +1 | 2025-12-26 |
+| 158 | -1 | +0 | +1 | 2025-12-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Tree-sitter Based
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/drybalka~tree-climber.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/drybalka~tree-climber.nvim/)*

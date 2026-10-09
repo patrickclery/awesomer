@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 398 | +1 | +8 | +10 | 2026-09-04 |
+| 400 | +1 | +8 | +11 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Tools and Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/c-hive~gha-remove-artifacts/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/c-hive~gha-remove-artifacts/)*

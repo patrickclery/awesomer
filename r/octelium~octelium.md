@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,052 | +14 | +44 | +161 | 2026-09-16 |
+| 4,094 | +13 | +52 | +167 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/octelium~octelium/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/octelium~octelium/)*

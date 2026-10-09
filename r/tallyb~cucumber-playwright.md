@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 438 | +1 | +1 | +2 | 2026-09-16 |
+| 438 | +0 | +0 | +2 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tallyb~cucumber-playwright/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tallyb~cucumber-playwright/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 207,793 | +2,529 | +9,488 | +31,876 | 2026-09-16 |
+| 212,309 | +1,071 | +8,939 | +32,310 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/anomalyco~opencode/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/anomalyco~opencode/)*

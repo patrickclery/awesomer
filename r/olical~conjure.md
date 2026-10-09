@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,142 | +1 | +10 | +23 | 2026-09-11 |
+| 2,147 | +0 | +10 | +22 | 2026-09-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fennel
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/olical~conjure/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/olical~conjure/)*

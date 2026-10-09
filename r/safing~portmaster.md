@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,727 | +47 | +167 | +717 | 2026-09-10 |
+| 13,888 | +32 | +211 | +726 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/safing~portmaster/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/safing~portmaster/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,950 | +5 | +22 | +56 | 2026-09-13 |
+| 3,961 | +7 | +19 | +57 | 2026-09-19 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/giuspen~cherrytree/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/giuspen~cherrytree/)*

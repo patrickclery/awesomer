@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 765 | +48 | +237 |  | 2026-09-15 |
+| 987 | +42 | +313 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Architecture & Design
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/awdr74100~figwright/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/awdr74100~figwright/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 132 | +1 | +2 |  | 2026-09-07 |
+| 136 | +1 | +3 |  | 2026-09-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Session Monitors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sverrirsig~claude-control/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sverrirsig~claude-control/)*

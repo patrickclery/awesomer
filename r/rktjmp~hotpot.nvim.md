@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 400 | +0 | +0 | -1 | 2026-07-29 |
+| 402 | +0 | +2 | -1 | 2026-07-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fennel
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rktjmp~hotpot.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rktjmp~hotpot.nvim/)*

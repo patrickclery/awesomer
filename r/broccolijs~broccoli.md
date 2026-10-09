@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,322 | +0 | -1 | -1 | 2025-11-17 |
+| 3,323 | +1 | -1 | -1 | 2025-11-17 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/broccolijs~broccoli/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/broccolijs~broccoli/)*

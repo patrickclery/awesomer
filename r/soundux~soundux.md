@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,042 | +8 | +17 | +52 | 2026-01-01 |
+| 2,053 | +2 | +15 | +54 | 2026-01-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/soundux~soundux/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/soundux~soundux/)*

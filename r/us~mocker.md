@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 343 | +6 | +15 | +103 | 2026-08-25 |
+| 358 | +3 | +18 | +103 | 2026-09-30 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-docker](../l/docker.md) / Runtime
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/us~mocker/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/us~mocker/)*

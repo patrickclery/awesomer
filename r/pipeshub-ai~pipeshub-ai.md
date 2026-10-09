@@ -1,6 +1,6 @@
 # pipeshub-ai/pipeshub-ai
 
-> PipesHub is an open-source platform for securely connecting enterprise knowledge to AI. Give AI agents trusted context a
+> The open-source context layer for AI agents. PipesHub turns your company's knowledge (Slack, Drive, Jira, GitHub, Micros
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/pipeshub-ai/pipeshub-ai) | [Live site ↗](https://patrickclery.com/awesomer/r/pipeshub-ai~pipeshub-ai/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,749 |  |  |  | 2026-09-16 |
+| 3,818 | +27 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pipeshub-ai~pipeshub-ai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pipeshub-ai~pipeshub-ai/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 213 | +1 | +2 | +1 | 2025-10-15 |
+| 213 | +0 | +1 | +1 | 2025-10-15 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Tutorials
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/belak~zsh-utils/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/belak~zsh-utils/)*

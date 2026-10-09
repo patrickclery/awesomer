@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 933 | +0 | +0 | +5 | 2026-05-09 |
+| 934 | +0 | +1 | +5 | 2026-05-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Servers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ohler55~agoo/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ohler55~agoo/)*

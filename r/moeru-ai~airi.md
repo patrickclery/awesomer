@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 49,175 | +361 | +1,193 |  | 2026-09-16 |
+| 50,168 | +256 | +1,017 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/moeru-ai~airi/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/moeru-ai~airi/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,498 | +12 | +38 | +88 | 2026-09-08 |
+| 3,522 | +6 | +36 | +91 | 2026-09-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~toolbox/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~toolbox/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,713 | +5 | +13 | +27 | 2026-09-15 |
+| 1,714 | +4 | +8 | +25 | 2026-09-17 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/codecov~codecov-action/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/codecov~codecov-action/)*

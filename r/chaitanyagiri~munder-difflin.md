@@ -1,6 +1,6 @@
 # chaitanyagiri/munder-difflin
 
-> A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office 
+> an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on y
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/chaitanyagiri/munder-difflin) | [Live site ↗](https://patrickclery.com/awesomer/r/chaitanyagiri~munder-difflin/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,315 |  |  |  | 2026-09-16 |
+| 8,582 | +358 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chaitanyagiri~munder-difflin/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chaitanyagiri~munder-difflin/)*

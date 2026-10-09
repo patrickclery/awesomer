@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 976 | +16 | +63 | +190 | 2026-09-12 |
+| 1,025 | +20 | +65 | +195 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Communication
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/softeria~ms-365-mcp-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/softeria~ms-365-mcp-server/)*

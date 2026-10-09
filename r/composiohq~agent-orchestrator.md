@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,099 | +334 | +2,520 | +4,506 | 2026-09-16 |
+| 12,894 | +304 | +2,454 | +4,576 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/composiohq~agent-orchestrator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/composiohq~agent-orchestrator/)*

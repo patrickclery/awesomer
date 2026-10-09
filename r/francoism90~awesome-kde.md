@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 852 | +9 | +28 | +75 | 2026-09-01 |
+| 860 | +2 | +19 | +75 | 2026-10-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/francoism90~awesome-kde/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/francoism90~awesome-kde/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,389 | -1 | +9 | +20 | 2026-09-11 |
+| 1,387 | -1 | +8 | +19 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Motion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tris203~precognition.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tris203~precognition.nvim/)*

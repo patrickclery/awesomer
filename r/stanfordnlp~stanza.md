@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,876 | +3 | +14 | +65 | 2026-09-10 |
+| 7,894 | +4 | +17 | +67 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Probabilistic Programming & Bayesian ML
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stanfordnlp~stanza/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/stanfordnlp~stanza/)*

@@ -1,6 +1,6 @@
 # browserbase/stagehand
 
-> The SDK For Browser Agents
+> The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and mor
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/browserbase/stagehand) | [Live site ↗](https://patrickclery.com/awesomer/r/browserbase~stagehand/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,297 |  |  |  | 2026-09-16 |
+| 25,573 | +72 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Browser Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/browserbase~stagehand/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/browserbase~stagehand/)*

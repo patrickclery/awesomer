@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,459 | +3 | +6 | +15 | 2026-05-25 |
+| 3,462 | +1 | +3 | +15 | 2026-05-25 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / For Developers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paulirish~git-open/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/paulirish~git-open/)*

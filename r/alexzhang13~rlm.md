@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,629 | +28 | +137 |  | 2026-08-26 |
+| 5,676 | +25 | +115 |  | 2026-09-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexzhang13~rlm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alexzhang13~rlm/)*

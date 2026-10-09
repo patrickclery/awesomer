@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 228 |  |  |  | 2025-12-02 |
+| 227 | +0 |  |  | 2025-12-02 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/woowabros~nestjs-library-crud/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/woowabros~nestjs-library-crud/)*

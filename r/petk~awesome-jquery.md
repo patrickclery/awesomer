@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 978 | +0 | -3 | +1 | 2026-01-01 |
+| 980 | +1 | -2 | +1 | 2026-01-01 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/petk~awesome-jquery/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/petk~awesome-jquery/)*

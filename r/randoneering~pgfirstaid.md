@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 534 |  |  |  | 2026-09-10 |
+| 534 | +0 |  |  | 2026-10-04 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/randoneering~pgfirstaid/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/randoneering~pgfirstaid/)*

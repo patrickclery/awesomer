@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 146,434 | +487 | +2,064 | +6,812 | 2026-09-16 |
+| 147,572 | +225 | +2,132 | +6,961 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~langchain/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~langchain/)*

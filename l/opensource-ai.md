@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [Skills](../r/mattpocock~skills.md) | 263,239 | +15,145 | +43,396 | +128,615 |
-| 2 | [Codex CLI](../r/openai~codex.md) | 124,642 | +11,154 | +18,225 | +32,705 |
-| 3 | [MoneyPrinterTurbo](../r/harry0703~moneyprinterturbo.md) | 124,149 | +8,828 | +18,980 | +34,588 |
-| 4 | [Orca](../r/stablyai~orca.md) | 69,882 | +5,385 | +22,868 |  |
-| 5 | [OmniRoute](../r/diegosouzapw~omniroute.md) | 66,798 | +4,584 | +17,313 |  |
-| 6 | [Pi (earendil-works)](../r/earendil-works~pi.md) | 106,123 | +4,163 | +14,040 | +42,366 |
-| 7 | [Pi (badlogic)](../r/badlogic~pi-mono.md) | 106,123 | +4,163 | +14,039 | +42,366 |
-| 8 | [Superpowers](../r/obra~superpowers.md) | 287,413 | +3,884 | +14,409 | +55,614 |
-| 9 | [Hermes Agent (NousResearch)](../r/nousresearch~hermes-agent.md) | 246,023 | +3,868 | +14,257 | +49,444 |
-| 10 | [Free Claude Code](../r/alishahryar1~free-claude-code.md) | 55,137 | +3,760 | +9,483 |  |
+| 1 | [Skills](../r/mattpocock~skills.md) | 280,464 | +7,101 | +33,887 | +129,439 |
+| 2 | [Panniantong/Agent-Reach](../r/panniantong~agent-reach.md) | 93,805 | +6,777 | +10,470 | +48,530 |
+| 3 | [Impeccable](../r/pbakaus~impeccable.md) | 78,455 | +5,215 | +8,998 |  |
+| 4 | [Orca](../r/stablyai~orca.md) | 87,547 | +4,816 | +25,386 |  |
+| 5 | [ECC](../r/affaan-m~ecc.md) | 275,204 | +4,800 | +24,681 | +44,508 |
+| 6 | [Archify](../r/tt-a1i~archify.md) | 79,606 | +4,079 | +56,255 |  |
+| 7 | [VoiceStudio](../r/debpalash~voicestudio.md) | 54,932 | +3,933 |  |  |
+| 8 | [Hyperframes (HeyGen)](../r/heygen-com~hyperframes.md) | 58,879 | +3,884 | +10,622 | +22,734 |
+| 9 | [AI Engineering from Scratch (rohitg00)](../r/rohitg00~ai-engineering-from-scratch.md) | 65,724 | +3,474 | +9,298 | +20,451 |
+| 10 | [OpenMontage](../r/calesthio~openmontage.md) | 65,257 | +3,185 | +11,156 |  |
 
 ## Table of Contents
 
@@ -95,7 +95,6 @@
 - [Multimodal Models (Vision + Language)](#multimodal-models-vision-language)
 - [NLP & Transformers](#nlp-transformers)
 - [Notebooks & Interactive Computing](#notebooks-interactive-computing)
-- [Portrait Animation](#portrait-animation)
 - [Privacy-Preserving AI](#privacy-preserving-ai)
 - [Probabilistic Programming & Bayesian ML](#probabilistic-programming-bayesian-ml)
 - [Prompt Engineering & Management](#prompt-engineering-management)
@@ -139,10 +138,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Modly](../r/lightningpixel~modly.md) | Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU | 7,586 | +716 |
-| [TRELLIS.2](../r/microsoft~trellis.2.md) | Native and Compact Structured Latents for 3D Generation | 11,223 | +146 |
-| [LichtFeld-Studio](../r/mrnerf~lichtfeld-studio.md) | Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application. | 3,699 | +29 |
-| [OpenSplat](../r/pierotofy~opensplat.md) | Production-grade 3D gaussian splatting with CPU/GPU support for Windows, Mac and Linux 💦 | 2,185 | +13 |
+| [MCP for Blender](../r/ahujasid~mcp-for-blender.md) | Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation. | 30,226 | +433 |
+| [TRELLIS.2](../r/microsoft~trellis.2.md) | Native and Compact Structured Latents for 3D Generation | 11,501 | +72 |
+| [Modly](../r/lightningpixel~modly.md) | Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU | 7,962 | +51 |
+| [LichtFeld-Studio](../r/mrnerf~lichtfeld-studio.md) | Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application. | 3,825 | +29 |
+| [OpenSplat](../r/pierotofy~opensplat.md) | Production-grade 3D gaussian splatting with CPU/GPU support for Windows, Mac and Linux 💦 | 2,214 | +13 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -150,12 +150,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [LingBot-Map](../r/robbyant~lingbot-map.md) | (ECCV 2026 oral & best paper candidate) LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction | 17,060 | +134 |
-| [Open3D](../r/isl-org~open3d.md) | Open3D: A Modern Library for 3D Data Processing | 13,966 | +18 |
-| [MoveIt 2](../r/ros-planning~moveit2.md) | 🤖 MoveIt for ROS 2 | 2,009 | +14 |
-| [RTAB-Map](../r/introlab~rtabmap.md) | RTAB-Map library and standalone application | 3,996 | +12 |
-| [Point Cloud Library (PCL)](../r/pointcloudlibrary~pcl.md) | Point Cloud Library (PCL) | 11,119 | +6 |
-| [PyTorch3D](../r/facebookresearch~pytorch3d.md) | PyTorch3D is FAIR's library of reusable components for deep learning with 3D data | 9,968 | +4 |
+| [LingBot-Map](../r/robbyant~lingbot-map.md) | [ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction | 17,408 | +248 |
+| [Open3D](../r/isl-org~open3d.md) | Open3D: A Modern Library for 3D Data Processing | 14,047 | +30 |
+| [MoveIt 2](../r/ros-planning~moveit2.md) | 🤖 MoveIt for ROS 2 | 2,052 | +11 |
+| [Point Cloud Library (PCL)](../r/pointcloudlibrary~pcl.md) | Point Cloud Library (PCL) | 11,147 | +10 |
+| [PyTorch3D](../r/facebookresearch~pytorch3d.md) | PyTorch3D is FAIR's library of reusable components for deep learning with 3D data | 9,977 | +5 |
+| [RTAB-Map](../r/introlab~rtabmap.md) | RTAB-Map library and standalone application | 4,022 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -163,15 +163,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Spec Kit](../r/github~spec-kit.md) | 💫 Toolkit to help you get started with Spec-Driven Development | 137,210 | +1,288 |
-| [OpenSpec](../r/fission-ai~openspec.md) | Spec-driven development (SDD) for AI coding assistants. | 68,466 | +860 |
-| [Open Code Review](../r/alibaba~open-code-review.md) | Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM A | 30,184 | +668 |
-| [Qwen Code](../r/qwenlm~qwen-code.md) | An open-source AI coding agent that lives in your terminal. | 27,892 | +210 |
-| [Kimi Code CLI](../r/moonshotai~kimi-code.md) | Kimi Code CLI  —  The Starting Point for Next-Gen Agents | 7,407 | +177 |
-| [Aider](../r/aider-ai~aider.md) | aider is AI pair programming in your terminal | 48,991 | +169 |
-| [DeepCode](../r/hkuds~deepcode.md) | "DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)" | 16,545 | +60 |
+| [Open Code Review](../r/alibaba~open-code-review.md) | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines | 44,460 | +1,415 |
+| [Spec Kit](../r/github~spec-kit.md) | 💫 Toolkit to help you get started with SDD or any other process! | 140,619 | +961 |
+| [OpenSpec](../r/fission-ai~openspec.md) | Spec-driven development (SDD) for AI coding assistants. | 71,330 | +496 |
+| [Aider](../r/aider-ai~aider.md) | aider is AI pair programming in your terminal | 49,423 | +111 |
+| [Qwen Code](../r/qwenlm~qwen-code.md) | An open-source AI coding agent that lives in your terminal. | 28,359 | +97 |
+| [Kimi Code CLI](../r/moonshotai~kimi-code.md) | Kimi Code CLI  —  The Starting Point for Next-Gen Agents | 7,799 | +50 |
+| [DeepCode](../r/hkuds~deepcode.md) | "DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)" | 16,691 | +28 |
+| [SpecJudge](https://github.com/JoaquinRuiz/SpecJudge) | Local-first CLI that reads your Spec-Driven Development artifacts and recommends the best value-for-money AI model to im | 57 | +2 |
 | [Forge](https://github.com/NorviaLabs/forge) | Go from idea to verified code without leaving the terminal—Forge unifies an AI agent, code editor, and shell in one focu | 8 | +1 |
-| [SpecJudge](https://github.com/JoaquinRuiz/SpecJudge) | Local-first CLI that reads your Spec-Driven Development artifacts and recommends the best value-for-money AI model to im | 50 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -179,23 +179,24 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Orca](../r/stablyai~orca.md) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available  | 69,882 | +5,385 |
-| [Pi Web](../r/agegr~pi-web.md) | Web UI for the pi coding agent | 6,444 | +515 |
-| [Zed](../r/zed-industries~zed.md) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sit | 90,299 | +368 |
-| [Code Server](../r/coder~code-server.md) | VS Code in the browser | 79,311 | +134 |
-| [Terax](../r/crynta~terax-ai.md) | Lightweight (7MB) Terminal-first AI-native dev workspace | 9,205 | +66 |
-| [Nimbalyst](../r/nimbalyst~nimbalyst.md) | Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in paralle | 1,720 | +56 |
-| [Onlook](../r/onlook-dev~onlook.md) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | 26,744 | +50 |
-| [Aider Desk](../r/hotovo~aider-desk.md) | Platform for AI-powered software engineers | 1,428 | +6 |
-| [Nezha](../r/hanshuaikang~nezha.md) | Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine. | 1,902 | +6 |
-| [Gitpod](../r/gitpod-io~gitpod.md) | The developer platform for on-demand cloud development environments to create software faster and more securely. | 13,770 | +5 |
-| [AI Workdeck](../r/zeweihan~aiworkdeck.md) | AI-native IDE workspace for legal and document-heavy workflows: files, agents, plugins, built-in document editing with t | 148 | +3 |
-| [Claude Pet](https://github.com/nikhilagrima/claude-pet) | Meet Claude's Virtual Pet Companion for Coders | 14 |  |
-| [Garcon](https://github.com/cfal/garcon) | Self-hosted browser workspace to run coding agents in parallel, steer work as it runs, review diffs, and ship. | 84 |  |
-| [Ralph](../r/frankbria~ralph-claude-code.md) | Autonomous AI development loop for Claude Code with intelligent exit detection | 9,633 | +0 |
-| [screenshot-to-code](../r/abi~screenshot-to-code.md) | Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) | 78,996 |  |
-| [Yardlet](https://github.com/zzunkie/yardlet) | Local AI workbench: plan, queue, route, validate, and hand off long-running work using your already-installed Codex and  | 17 |  |
-| [Daytona](../r/daytonaio~daytona.md) | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | 71,712 | -89 |
+| [Orca](../r/stablyai~orca.md) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available  | 87,547 | +4,816 |
+| [Atlas](../r/pacifio~atlas.md) | Source control for agents. Use multiple coding agents, track their changes and query them in one place | 9,356 | +801 |
+| [Zed](../r/zed-industries~zed.md) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sit | 91,444 | +291 |
+| [screenshot-to-code](../r/abi~screenshot-to-code.md) | Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) | 80,080 | +182 |
+| [Pi Web](../r/agegr~pi-web.md) | Web UI for the pi coding agent | 7,158 | +166 |
+| [Onlook](../r/onlook-dev~onlook.md) | The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with  | 26,889 | +44 |
+| [Code Server](../r/coder~code-server.md) | VS Code in the browser | 79,562 | +43 |
+| [Nimbalyst](../r/nimbalyst~nimbalyst.md) | Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in paralle | 1,852 | +37 |
+| [Ralph](../r/frankbria~ralph-claude-code.md) | Autonomous AI development loop for Claude Code with intelligent exit detection | 9,669 | +28 |
+| [Terax](../r/crynta~terax-ai.md) | Lightweight (7MB) Terminal-first AI-native dev workspace | 9,300 | +22 |
+| [Aider Desk](../r/hotovo~aider-desk.md) | Platform for AI-powered software engineers | 1,456 | +10 |
+| [Gitpod](../r/gitpod-io~gitpod.md) | The developer platform for on-demand cloud development environments to create software faster and more securely. | 13,787 | +8 |
+| [Nezha](../r/hanshuaikang~nezha.md) | Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine. | 1,904 | +4 |
+| [AI Workdeck](../r/zeweihan~aiworkdeck.md) | Open-source workspace for professional document AI: reviewable agent edits, source-linked work, three-way document merge | 150 | +2 |
+| [Garcon](https://github.com/cfal/garcon) | Self-hosted browser workspace to run coding agents in parallel, steer work as it runs, review diffs, and ship. | 91 | +2 |
+| [Claude Pet](https://github.com/nikhilagrima/claude-pet) | Meet Claude's Virtual Pet Companion for Coders | 15 | +1 |
+| [Yardlet](https://github.com/zzunkie/yardlet) | Local AI workbench: plan, queue, route, validate, and hand off long-running work using your already-installed Codex and  | 17 | +0 |
+| [Daytona](../r/daytonaio~daytona.md) | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | 71,603 | -73 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -203,28 +204,28 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [AirLLM](../r/lyogavin~airllm.md) | AirLLM 70B inference with single 4GB GPU | 34,385 | +947 |
-| [mini-sglang](../r/sgl-project~mini-sglang.md) | A compact implementation of SGLang, designed to demystify the complexities of modern LLM serving systems. | 5,077 | +86 |
-| [Mooncake](../r/kvcache-ai~mooncake.md) | Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. | 6,584 | +71 |
-| [llama-swap](../r/mostlygeek~llama-swap.md) | Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc | 5,672 | +69 |
-| [FlashInfer](../r/flashinfer-ai~flashinfer.md) | FlashInfer: Kernel Library for LLM Serving | 6,419 | +55 |
-| [shimmy](../r/michael-a-kuykendall~shimmy.md) | ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Sing | 5,884 | +49 |
-| [DeepEP](../r/deepseek-ai~deepep.md) | DeepEP: an efficient expert-parallel communication library | 10,153 | +45 |
-| [vLLM-Ascend](../r/vllm-project~vllm-ascend.md) | Community maintained hardware plugin for vLLM on Ascend | 2,835 | +40 |
-| [DeepGEMM](../r/deepseek-ai~deepgemm.md) | DeepGEMM: clean and efficient BLAS kernel library on GPU | 7,840 | +35 |
-| [ik_llama.cpp](../r/ikawrakow~ik_llama.cpp.md) | llama.cpp fork with additional SOTA quants and improved performance | 3,229 | +29 |
-| [PowerInfer](../r/sjtu-ipads~powerinfer.md) | High-speed Large Language Model Serving for Local Deployment | 9,799 | +27 |
-| [ThunderKittens](../r/hazyresearch~thunderkittens.md) | Tile primitives for speedy kernels | 3,709 | +27 |
-| [Mirage Persistent Kernel](../r/mirage-project~mirage.md) | Mirage Persistent Kernel: Compiling LLMs into a MegaKernel | 2,493 | +17 |
-| [CTranslate2](../r/opennmt~ctranslate2.md) | Fast inference engine for Transformer models | 4,675 | +14 |
-| [tt-metal](../r/tenstorrent~tt-metal.md) | 🤘 TT-NN operator library, and TT-Metalium low level kernel programming model. | 1,675 | +12 |
-| [distributed-llama](../r/b4rtaz~distributed-llama.md) | Distributed LLM inference. Connect home devices into a powerful cluster to accelerate LLM inference. More devices means  | 3,059 | +9 |
-| [xLLM](../r/jd-opensource~xllm.md) | A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators. It is hoste | 1,573 | +9 |
-| [mllm](../r/ubiquitouslearning~mllm.md) | Fast Multimodal LLM on Mobile Devices | 1,612 | +7 |
-| [gemma.cpp](../r/google~gemma.cpp.md) | lightweight, standalone C++ inference engine for Google's Gemma models. | 7,036 | +6 |
-| [optillm](../r/algorithmicsuperintelligence~optillm.md) | Optimizing inference proxy for LLMs | 4,263 | +6 |
-| [Fugusashi](https://github.com/eulogik/fugusashi) | Fugusashi — Federated Learning of LLM Routing with Human-Interpretable Decisions. Open-source alternative to Sakana AI F | 16 | +0 |
-| [OpenRoutiQ](https://github.com/antat-ai/openroutiq) | The self-learning AI router that picks the best model, provider, and reasoning level for every request - beating   OpenR | 1 |  |
+| [DeepGEMM](../r/deepseek-ai~deepgemm.md) | DeepGEMM: clean and efficient BLAS kernel library on GPU | 8,871 | +964 |
+| [AirLLM](../r/lyogavin~airllm.md) | AirLLM 70B inference with single 4GB GPU | 35,502 | +231 |
+| [llama-swap](../r/mostlygeek~llama-swap.md) | Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc | 5,894 | +97 |
+| [Mooncake](../r/kvcache-ai~mooncake.md) | Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. | 6,735 | +36 |
+| [FlashInfer](../r/flashinfer-ai~flashinfer.md) | FlashInfer: Kernel Library for LLM Serving | 6,562 | +35 |
+| [shimmy](../r/michael-a-kuykendall~shimmy.md) | ⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Sing | 5,952 | +35 |
+| [mini-sglang](../r/sgl-project~mini-sglang.md) | A compact implementation of SGLang, designed to demystify the complexities of modern LLM serving systems. | 5,237 | +33 |
+| [DeepEP](../r/deepseek-ai~deepep.md) | DeepEP: an efficient expert-parallel communication library | 10,249 | +19 |
+| [Mirage Persistent Kernel](../r/mirage-project~mirage.md) | Mirage Persistent Kernel: Compiling LLMs into a MegaKernel | 2,541 | +15 |
+| [ik_llama.cpp](../r/ikawrakow~ik_llama.cpp.md) | llama.cpp fork with additional SOTA quants and improved performance | 3,284 | +13 |
+| [vLLM-Ascend](../r/vllm-project~vllm-ascend.md) | Community maintained hardware plugin for vLLM on Huawei Ascend | 2,930 | +13 |
+| [ThunderKittens](../r/hazyresearch~thunderkittens.md) | Tile primitives for speedy kernels | 3,746 | +12 |
+| [CTranslate2](../r/opennmt~ctranslate2.md) | Fast inference engine for Transformer models | 4,700 | +9 |
+| [xLLM](../r/jd-opensource~xllm.md) | A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators. It is hoste | 1,594 | +7 |
+| [gemma.cpp](../r/google~gemma.cpp.md) | lightweight, standalone C++ inference engine for Google's Gemma models. | 7,056 | +6 |
+| [PowerInfer](../r/sjtu-ipads~powerinfer.md) | High-speed Large Language Model Serving for Local Deployment | 9,820 | +6 |
+| [tt-metal](../r/tenstorrent~tt-metal.md) | 🤘 TT-NN operator library, and TT-Metalium low level kernel programming model. | 1,697 | +4 |
+| [distributed-llama](../r/b4rtaz~distributed-llama.md) | Distributed LLM inference. Connect home devices into a powerful cluster to accelerate LLM inference. More devices means  | 3,100 | +3 |
+| [mllm](../r/ubiquitouslearning~mllm.md) | Fast Multimodal LLM on Mobile Devices | 1,620 | +3 |
+| [optillm](../r/algorithmicsuperintelligence~optillm.md) | Optimizing inference proxy for LLMs | 4,308 | +3 |
+| [OpenRoutiQ](https://github.com/antat-ai/openroutiq) | The self-learning AI router that picks the best model, provider, and reasoning level for every request - beating   OpenR | 2 | +1 |
+| [Fugusashi](https://github.com/eulogik/fugusashi) | Fugusashi — Federated Learning of LLM Routing with Human-Interpretable Decisions. Open-source alternative to Sakana AI F | 21 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -232,21 +233,21 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Strix](../r/usestrix~strix.md) | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. | 62,906 | +3,174 |
-| [Anthropic Cybersecurity Skills](../r/mukul975~anthropic-cybersecurity-skills.md) | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3F | 32,848 | +2,292 |
-| [AI-Infra-Guard (Tencent)](../r/tencent~ai-infra-guard.md) | A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM | 6,388 | +1,243 |
-| [Heretic](../r/p-e-w~heretic.md) | Fully automatic censorship removal for language models | 31,542 | +304 |
-| [DeepTeam](../r/confident-ai~deepteam.md) | DeepTeam is a framework to red team LLMs and AI agents. | 2,821 | +145 |
-| [Anthropic Sandbox Runtime](../r/anthropic-experimental~sandbox-runtime.md) | A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level,  | 5,245 | +61 |
-| [CAI](../r/aliasrobotics~cai.md) | Cybersecurity AI (CAI), the framework for AI Security | 9,832 | +45 |
-| [NeMo Guardrails (NVIDIA)](../r/nvidia-nemo~guardrails.md) | NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems. | 7,138 | +45 |
-| [PyRIT (Microsoft)](../r/microsoft~pyrit.md) | The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security prof | 4,481 | +35 |
-| [PentestAgent (GH05TCREW)](../r/gh05tcrew~pentestagent.md) | PentestAgent is an AI agent framework for black-box security testing, supporting bug bounty, red-team, and penetration t | 3,078 | +32 |
-| [RedAmon](../r/samugit83~redamon.md) | An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitati | 2,455 | +30 |
-| [Agentic Security](../r/msoedov~agentic_security.md) | Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪 | 1,999 | +10 |
-| [Superagent](../r/superagent-ai~superagent.md) | Superagent protects your AI applications against prompt injections, data leaks, and harmful outputs. Embed safety direct | 6,748 | +4 |
-| [Detoxify](../r/unitaryai~detoxify.md) | Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using ⚡ Pytorch Lightnin | 1,300 | +1 |
-| [SchemaBrain](https://github.com/Arun-kc/schemabrain) | The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic knowledge grap | 9 | +0 |
+| [Heretic](../r/p-e-w~heretic.md) | Fully automatic censorship removal for language models | 33,988 | +1,362 |
+| [Strix](../r/usestrix~strix.md) | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. | 67,207 | +1,351 |
+| [Anthropic Cybersecurity Skills](../r/mukul975~anthropic-cybersecurity-skills.md) | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3F | 33,945 | +303 |
+| [AI-Infra-Guard (Tencent)](../r/tencent~ai-infra-guard.md) | A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM | 6,788 | +135 |
+| [RedAmon](../r/samugit83~redamon.md) | Open-source, self-hosted AI penetration testing framework: maps your attack surface into a graph, autonomously exploits  | 2,971 | +92 |
+| [Anthropic Sandbox Runtime](../r/anthropic-experimental~sandbox-runtime.md) | A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level,  | 5,469 | +60 |
+| [NeMo Guardrails (NVIDIA)](../r/nvidia-nemo~guardrails.md) | NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems. | 7,265 | +36 |
+| [PyRIT (Microsoft)](../r/microsoft~pyrit.md) | The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security prof | 4,592 | +28 |
+| [PentestAgent (GH05TCREW)](../r/gh05tcrew~pentestagent.md) | PentestAgent is an AI agent framework for black-box security testing, supporting bug bounty, red-team, and penetration t | 3,156 | +26 |
+| [DeepTeam](../r/confident-ai~deepteam.md) | DeepTeam is a framework to red team LLMs and AI agents. | 2,999 | +20 |
+| [CAI](../r/aliasrobotics~cai.md) | Cybersecurity AI (CAI), the framework for AI Security | 9,845 | +8 |
+| [Agentic Security](../r/msoedov~agentic_security.md) | Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪 | 2,019 | +4 |
+| [SchemaBrain](https://github.com/Arun-kc/schemabrain) | The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic knowledge grap | 11 | +2 |
+| [Detoxify](../r/unitaryai~detoxify.md) | Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using ⚡ Pytorch Lightnin | 1,305 | +1 |
+| [Superagent](../r/superagent-ai~superagent.md) | Superagent protects your AI applications against prompt injections, data leaks, and harmful outputs. Embed safety direct | 6,761 | -2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -254,10 +255,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Pipecat](../r/pipecat-ai~pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 15,580 | +437 |
-| [Speech to Speech](../r/huggingface~speech-to-speech.md) | Build voice agents with open-source models | 13,238 | +251 |
-| [LiveKit Agents](../r/livekit~agents.md) | A framework for building realtime voice AI agents 🤖🎙️📹  | 14,222 | +101 |
-| [Agent Chat UI](../r/langchain-ai~agent-chat-ui.md) | 🦜💬 Web app for interacting with any LangGraph agent (PY & TS) via a chat interface. | 3,161 | +23 |
+| [LiveKit Agents](../r/livekit~agents.md) | A framework for building realtime voice AI agents 🤖🎙️📹  | 14,643 | +206 |
+| [Pipecat](../r/pipecat-ai~pipecat.md) | Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community. | 16,262 | +148 |
+| [Speech to Speech](../r/huggingface~speech-to-speech.md) | Build voice agents with open-source models | 13,394 | +36 |
+| [Agent Chat UI](../r/langchain-ai~agent-chat-ui.md) | 🦜💬 Web app for interacting with any LangGraph agent (PY & TS) via a chat interface. | 3,203 | +13 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -265,28 +266,30 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [book-to-skill](../r/virgiliojr94~book-to-skill.md) | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. | 30,855 | +2,704 |
-| [Graphify](../r/safishamsi~graphify.md) | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo | 118,183 | +2,594 |
-| [claude-obsidian](../r/agricidaniel~claude-obsidian.md) | Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into o | 14,986 | +1,275 |
-| [codebase-memory-mcp](../r/deusdata~codebase-memory-mcp.md) | High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in mil | 43,489 | +1,174 |
-| [Codegraph](../r/colbymchenry~codegraph.md) | Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGrav | 71,109 | +1,159 |
-| [Headroom](../r/chopratejas~headroom.md) | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% | 72,393 | +768 |
-| [Cangjie Skill](../r/kangarooking~cangjie-skill.md) | 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into exe | 10,135 | +677 |
-| [Obsidian Agent Skills](../r/kepano~obsidian-skills.md) | Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. | 48,419 | +614 |
-| [Gortex](../r/zzet~gortex.md) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on gr | 1,579 | +290 |
-| [MemPalace](../r/mempalace~mempalace.md) | The best-benchmarked open-source AI memory system. And it's free. | 59,091 | +191 |
-| [Supermemory](../r/supermemoryai~supermemory.md) | Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the A | 29,686 | +110 |
-| [Hexis](https://github.com/Bevel-Software/Hexis) | Git-backed control plane for AI-agent skills, tools, context, permissions, and identity. Self-hosted and MCP-native. | 88 | +8 |
-| [llmtrim](../r/fkiene~llmtrim.md) | Local proxy that compresses your LLM API requests so you pay less, with no change to the answers. Trims wasted tokens fr | 231 | +3 |
-| [AI Memory](../r/akitaonrails~ai-memory.md) | Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors | 6,970 |  |
-| [Busabase](../r/busabase~busabase.md) | Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and | 206 |  |
-| [deja](../r/vshulcz~deja-vu.md) | One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session | 822 |  |
-| [LWC (Local Wiki CLI)](https://github.com/JanYork/llm-wiki-cli) | Agent-driven proactive memory CLI for AI agents — autonomously recall, maintain, and evolve persistent, source-grounded  | 54 |  |
-| [MailFathom](https://github.com/Krzysztof318/MailFathom) | A brain for your mail: MailFathom turns IMAP mailboxes into a self-hosted, AI-native service. Mail synchronizes into you | 14 |  |
-| [OpenViking](../r/volcengine~openviking.md) | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | 37,672 |  |
-| [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | Framework-agnostic, local-first memory lifecycle for AI agents: Rust CLI, SQLite/FTS recall, forgetting, audit, consolid | 17 | +0 |
-| [Wenlan](https://github.com/7xuanlu/wenlan) | Wenlan is a knowledge base for the AI-native age. Your AI agents capture what they learn, Wenlan keeps it current and di | 70 |  |
-| [Workspai](https://github.com/chistiq/workspai) | Give your AI agent the system, not just the repository. Evidence-backed workspace intelligence for AI agents, developer  | 8 | +0 |
+| [Claude Mem](../r/thedotmack~claude-mem.md) | Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it | 98,029 | +2,971 |
+| [Graphify](../r/safishamsi~graphify.md) | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo | 124,817 | +1,903 |
+| [book-to-skill](../r/virgiliojr94~book-to-skill.md) | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. | 34,160 | +949 |
+| [Codegraph](../r/colbymchenry~codegraph.md) | Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGrav | 73,458 | +737 |
+| [codebase-memory-mcp](../r/deusdata~codebase-memory-mcp.md) | High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in mil | 46,123 | +528 |
+| [Headroom](../r/chopratejas~headroom.md) | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% | 74,698 | +486 |
+| [OpenViking](../r/volcengine~openviking.md) | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. | 39,407 | +334 |
+| [AI Memory](../r/akitaonrails~ai-memory.md) | Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors | 9,017 | +333 |
+| [Cangjie Skill](../r/kangarooking~cangjie-skill.md) | 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into exe | 11,050 | +260 |
+| [Obsidian Agent Skills](../r/kepano~obsidian-skills.md) | Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. | 49,272 | +214 |
+| [Supermemory](../r/supermemoryai~supermemory.md) | Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the A | 31,159 | +110 |
+| [Busabase](../r/busabase~busabase.md) | Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and | 378 | +93 |
+| [MemPalace](../r/mempalace~mempalace.md) | The best-benchmarked open-source AI memory system. And it's free. | 59,462 | +85 |
+| [claude-obsidian](../r/agricidaniel~claude-obsidian.md) | Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into o | 15,406 | +83 |
+| [Gortex](../r/zzet~gortex.md) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on gr | 1,870 | +44 |
+| [deja](../r/vshulcz~deja-vu.md) | Memory for Claude Code, Codex, Cursor and 35 more coding agents, built from the session history already on your disk. Lo | 1,150 | +40 |
+| [LWC (Local Wiki CLI)](https://github.com/JanYork/llm-wiki-cli) | Agent-driven proactive memory CLI for AI agents — autonomously recall, maintain, and evolve persistent, source-grounded  | 64 | +8 |
+| [llmtrim](../r/fkiene~llmtrim.md) | Local proxy that compresses your LLM API requests so you pay less, with no change to the answers. Trims wasted tokens fr | 244 | +5 |
+| [Hexis](https://github.com/Bevel-Software/Hexis) | Centrally manage AI-agent skills, tools, context, permissions, and identity across your entire org. Self-hosted, Git-bac | 94 | +2 |
+| [MailFathom](https://github.com/Krzysztof318/MailFathom) | A brain for your mail: MailFathom turns IMAP mailboxes into a self-hosted, AI-native service. Mail synchronizes into you | 15 | +1 |
+| [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | Framework-agnostic, local-first memory lifecycle for AI agents: Rust CLI, SQLite/FTS recall, forgetting, audit, consolid | 18 | +1 |
+| [ThreadShelf](https://github.com/ChrystianSchutz/ThreadShelf) | Local-first archive, semantic search, and continuation for AI conversations across ChatGPT, Claude, Gemini, Grok, OpenRo | 12 | +0 |
+| [Wenlan](https://github.com/7xuanlu/wenlan) | A living personal wiki. Wenlan turns your documents, notes, and AI chats into pages with links to their sources, and upd | 79 | +0 |
+| [Workspai](https://github.com/chistiq/workspai) | Give your AI agent the system, not just the repository. Workspai gives AI agents the context they need to understand, ch | 8 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -294,16 +297,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [TencentDB Agent Memory](../r/tencentcloud~tencentdb-agent-memory.md) | TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusab | 26,814 | +1,523 |
-| [Rohitg (agentmemory)](../r/rohitg00~agentmemory.md) | #1 Persistent memory for AI coding agents based on real-world benchmarks | 28,495 | +267 |
-| [LoopX](../r/huangruiteng~loopx.md) | Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses. | 5,865 | +214 |
-| [Cognee](../r/topoteretes~cognee.md) | Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions | 30,711 | +159 |
-| [Supermemory](../r/supermemoryai~supermemory.md) | Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the A | 29,686 | +110 |
-| [Forgetful](../r/scottrbk~forgetful.md) | Opensource Memory for Agents | 299 | +4 |
-| [Caura](../r/caura-ai~caura.md) | Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tier | 516 |  |
-| [inspeximus](https://github.com/DanceNitra/inspeximus) | The self-correcting memory layer for AI agents. Zero-dependency Python memory and MCP server. Supersede, revert, or forg | 6 |  |
-| [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) | Hosted persistent memory for AI agents over MCP. Tell it a recalled memory helped or misled, and it re-ranks what comes  | 21 |  |
-| [Unlimited Context](https://github.com/AetherAI3/Unlimited-Context-LLM) | Give any local LLM a billion-token memory. Open-source, local-first context + memory engine for Ollama and AI agents — r | 33 |  |
+| [Cognee](../r/topoteretes~cognee.md) | Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small mode | 31,618 | +361 |
+| [TencentDB Agent Memory](../r/tencentcloud~tencentdb-agent-memory.md) | TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusab | 27,807 | +200 |
+| [Rohitg (agentmemory)](../r/rohitg00~agentmemory.md) | #1 Persistent memory for AI coding agents based on real-world benchmarks | 29,235 | +164 |
+| [Supermemory](../r/supermemoryai~supermemory.md) | Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the A | 31,159 | +110 |
+| [LoopX](../r/huangruiteng~loopx.md) | A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across ses | 6,201 | +78 |
+| [Unlimited Context](https://github.com/AetherAI3/Unlimited-Context-LLM) | Give any local LLM a billion-token memory. Open-source, local-first context + memory engine for Ollama and AI agents — r | 46 | +2 |
+| [Caura](../r/caura-ai~caura.md) | Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tier | 545 | +1 |
+| [inspeximus](https://github.com/DanceNitra/inspeximus) | The self-correcting memory layer for AI agents. Zero-dependency Python memory and MCP server. Supersede, revert, or forg | 8 | +1 |
+| [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) | Hosted persistent memory for AI agents over MCP. Tell it a recalled memory helped or misled, and it re-ranks what comes  | 26 | +1 |
+| [Forgetful](../r/scottrbk~forgetful.md) | Opensource Memory for Agents | 301 | +0 |
+| [Statewave](../r/smaramwbc~statewave.md) | Open-source memory runtime for AI agents — reproducible, provenance-tagged context bundles instead of query-time retriev | 374 |  |
+| [Vestige](../r/samvallad33~vestige.md) | Local deterministic memory and safety kernel for AI agents. Replaces vector RAG with STRATA, a cryptographically signed, | 648 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -311,13 +316,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Agent Skills](../r/agentskills~agentskills.md) | Specification and documentation for Agent Skills | 25,395 | +277 |
-| [DESIGN.md (Google)](../r/google-labs-code~design.md.md) | A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structure | 27,945 | +172 |
-| [Agent Governance Toolkit](../r/microsoft~agent-governance-toolkit.md) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering | 6,272 | +141 |
-| [Agent Gateway](../r/agentgateway~agentgateway.md) | Next Generation Agentic Proxy for AI Agents and MCP servers | 4,881 | +122 |
-| [FastMCP](../r/prefecthq~fastmcp.md) | 🚀 The fast, Pythonic way to build MCP servers and clients. | 27,691 | +108 |
-| [Agent File](../r/letta-ai~agent-file.md) | Agent File (.af): An open file format for serializing stateful AI agents with persistent memory and behavior. Share, che | 1,199 | +0 |
-| [Microsandbox](../r/superradcompany~microsandbox.md) | 🧱 Easy fast local-first microVM runtime and library | 8,270 |  |
+| [Agent Skills](../r/agentskills~agentskills.md) | Specification and documentation for Agent Skills | 25,964 | +135 |
+| [Microsandbox](../r/superradcompany~microsandbox.md) | 🧱 easy, fast, programmable and local-first microVM runtime and library | 8,607 | +112 |
+| [Agent Gateway](../r/agentgateway~agentgateway.md) | Next Generation Agentic Proxy for AI Agents and MCP servers | 5,225 | +111 |
+| [DESIGN.md (Google)](../r/google-labs-code~design.md.md) | A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structure | 28,288 | +86 |
+| [FastMCP](../r/prefecthq~fastmcp.md) | 🚀 The fast, Pythonic way to build MCP servers and clients. | 28,011 | +63 |
+| [Agent Governance Toolkit](../r/microsoft~agent-governance-toolkit.md) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering | 6,408 | +38 |
+| [Agent Substrate](../r/agent-substrate~substrate.md) | Agent Substrate: the core system | 4,562 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -325,13 +330,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Voicebox](../r/jamiepine~voicebox.md) | The open-source AI voice studio. Clone, dictate, create. | 54,048 | +676 |
-| [GPT-SoVITS](../r/rvc-boss~gpt-sovits.md) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | 61,801 | +198 |
-| [Voice-Pro](../r/abus-aikorea~voice-pro.md) | Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, | 12,828 | +185 |
-| [Supertonic](../r/supertone-inc~supertonic.md) | Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX. | 13,775 | +40 |
-| [Amphion](../r/open-mmlab~amphion.md) | Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible resear | 10,297 | +20 |
-| [Magenta RealTime 2](../r/magenta~magenta-realtime.md) | Magenta RealTime 2: An Open-Weights Live Music Model | 1,795 | +12 |
-| [Stable Audio Tools](../r/stability-ai~stable-audio-tools.md) | Generative models for conditional audio generation | 3,862 | +6 |
+| [VoiceStudio](../r/debpalash~voicestudio.md) | VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictati | 54,932 | +3,933 |
+| [Voicebox](../r/jamiepine~voicebox.md) | The open-source AI voice studio. Clone, dictate, create. | 56,630 | +547 |
+| [GPT-SoVITS](../r/rvc-boss~gpt-sovits.md) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | 62,518 | +311 |
+| [YuE](../r/multimodal-art-projection~yue.md) | YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. | 10,972 | +309 |
+| [Voice-Pro](../r/abus-aikorea~voice-pro.md) | Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, | 12,979 | +13 |
+| [Magenta RealTime 2](../r/magenta~magenta-realtime.md) | Magenta RealTime 2: An Open-Weights Live Music Model | 1,815 | +8 |
+| [Stable Audio Tools](../r/stability-ai~stable-audio-tools.md) | Generative models for conditional audio generation | 3,873 | +2 |
+| [Supertonic](../r/supertone-inc~supertonic.md) | Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX. | 13,773 | -17 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -339,7 +345,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Katib (Kubeflow)](../r/kubeflow~katib.md) | Automated Machine Learning on Kubernetes | 1,702 | +2 |
+| [Katib (Kubeflow)](../r/kubeflow~katib.md) | Automated Machine Learning on Kubernetes | 1,704 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -347,41 +353,45 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Pi (earendil-works)](../r/earendil-works~pi.md) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 106,123 | +4,163 |
-| [Superpowers](../r/obra~superpowers.md) | An agentic skills framework & software development methodology that works. | 287,413 | +3,884 |
-| [Free Claude Code](../r/alishahryar1~free-claude-code.md) | Use Claude Code, Codex, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, I | 55,137 | +3,760 |
-| [taste-skill](../r/leonxlnx~taste-skill.md) | Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop  | 87,557 | +2,719 |
-| [ECC](../r/affaan-m~ecc.md) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f | 259,684 | +2,208 |
-| [oh-my-pi](../r/can1357~oh-my-pi.md) | ⌥ Coding agent with the IDE wired in | 31,354 | +1,749 |
-| [Agent Skills](../r/addyosmani~agent-skills.md) | Production-grade engineering skills for AI coding agents. | 95,103 | +1,440 |
-| [Agent Skills (Anthropic)](../r/anthropics~skills.md) | Public repository for Agent Skills | 176,634 | +1,299 |
-| [Prime Agent](../r/primeintellect-ai~prime-agent.md) | A self-improving RLM agent for coding workflows and long-running autonomous tasks. | 20,884 | +1,225 |
-| [CodeGraph](../r/colbymchenry~codegraph.md) | Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGrav | 71,109 | +1,159 |
-| [gstack](../r/garrytan~gstack.md) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, | 133,288 | +1,066 |
-| [jcode](../r/1jehuang~jcode.md) | The most RAM efficient harness | 19,764 | +601 |
-| [Goose](../r/aaif-goose~goose.md) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | 54,342 | +476 |
-| [firstmate](../r/kunchenguid~firstmate.md) | Talk to one agent. Ship with a crew. | 6,107 | +409 |
-| [DeepSeek-Reasonix](../r/esengine~deepseek-reasonix.md) | DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running. | 35,572 | +396 |
-| [Claude Code Skills & Plugins](../r/alirezarezvani~claude-skills.md) | 380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references,  | 26,013 | +334 |
-| [Agent Skills (Google)](../r/google~skills.md) | Agent Skills for Google products and technologies | 20,021 | +232 |
-| [HEXStrike AI](../r/0x4m4~hexstrike-ai.md) | HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ | 11,908 | +182 |
-| [mini-SWE-agent](../r/swe-agent~mini-swe-agent.md) | The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no | 7,650 | +161 |
-| [Gemini CLI (Google)](../r/google-gemini~gemini-cli.md) | An open-source AI agent that brings the power of Gemini directly into your terminal. | 107,012 | +130 |
-| [OpenShell (NVIDIA)](../r/nvidia~openshell.md) | OpenShell is the safe, private runtime for autonomous AI agents. | 8,632 | +111 |
-| [VulnClaw](../r/unclecheng-li~vulnclaw.md) | 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。 | 3,348 | +110 |
-| [Kilo Code](../r/kilo-org~kilocode.md) | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source c | 27,323 | +100 |
-| [Letta Code](../r/letta-ai~letta-code.md) | Stateful agents that are like people, with memory, identity, and the ability to learn and adapt | 3,353 | +82 |
-| [Agents CLI (Google)](../r/google~agents-cli.md) | The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Goo | 5,941 | +55 |
-| [Harness](../r/revfactory~harness.md) | A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use. | 8,999 | +53 |
-| [Archon](../r/coleam00~archon.md) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | 23,480 | +47 |
-| [Open SWE](../r/langchain-ai~open-swe.md) | An Open-Source Asynchronous Coding Agent | 10,724 | +38 |
-| [BitFun](../r/gcwing~bitfun.md) | OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the d | 2,247 | +33 |
-| [Background Agents](../r/colemurray~background-agents.md) | An open-source background agents coding system | 3,223 | +14 |
-| [AG Kit](../r/vudovn~ag-kit.md) | Antigravity-first agent engineering kit featuring rules, skills, persistent memory, MCP guidance, and a native safety ho | 8,176 | +11 |
-| [LoopTroop](../r/looptroop-ai~looptroop.md) | Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recovery, isolated OpenCode worktree | 146 | +4 |
-| [gptme](../r/gptme~gptme.md) | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own p | 4,415 | +3 |
-| [Darkmoon](../r/ascit31~dark-moon.md) | Autonomous AI pentesting engine across web, cloud, identity, CI/CD, IaC, databases, Active Directory, Kubernetes, IoT fi | 940 |  |
-| [Superagent](https://github.com/pungme/superagent-desktop) | The desktop home for your coding agent — Claude Code or Codex. A persistent chat, a real browser it drives on your own l | 26 |  |
+| [ECC](../r/affaan-m~ecc.md) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f | 275,204 | +4,800 |
+| [Superpowers](../r/obra~superpowers.md) | An agentic skills framework & software development methodology that works. | 296,577 | +2,932 |
+| [Agent Skills](../r/addyosmani~agent-skills.md) | Production-grade engineering skills for AI coding agents. | 103,166 | +2,929 |
+| [Pi (earendil-works)](../r/earendil-works~pi.md) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 113,410 | +2,514 |
+| [taste-skill](../r/leonxlnx~taste-skill.md) | Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop  | 93,669 | +2,011 |
+| [OpenShell (NVIDIA)](../r/nvidia~openshell.md) | OpenShell is the safe, private runtime for autonomous AI agents. | 15,414 | +1,802 |
+| [gstack](../r/garrytan~gstack.md) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, | 135,764 | +1,124 |
+| [Agent Skills (Anthropic)](../r/anthropics~skills.md) | Public repository for Agent Skills | 180,126 | +894 |
+| [Claude Code Skills & Plugins](../r/alirezarezvani~claude-skills.md) | 380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references,  | 27,841 | +744 |
+| [CodeGraph](../r/colbymchenry~codegraph.md) | Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGrav | 73,458 | +737 |
+| [oh-my-pi](../r/can1357~oh-my-pi.md) | ⌥ Coding agent with the IDE wired in. Built by Stencil Labs. | 34,618 | +693 |
+| [Free Claude Code](../r/alishahryar1~free-claude-code.md) | Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal | 56,937 | +620 |
+| [Agent Skills (Google)](../r/google~skills.md) | Agent Skills for Google products and technologies | 21,039 | +487 |
+| [BrowserSkill (Tencent)](../r/tencent~browserskill.md) | Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation ac | 8,415 | +417 |
+| [firstmate](../r/kunchenguid~firstmate.md) | Talk to one agent. Ship with a crew. | 7,665 | +272 |
+| [HEXStrike AI](../r/0x4m4~hexstrike-ai.md) | HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ | 12,523 | +250 |
+| [Goose](../r/aaif-goose~goose.md) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | 55,059 | +226 |
+| [Prime Agent](../r/primeintellect-ai~prime-agent.md) | A self-improving RLM agent for coding workflows and long-running autonomous tasks. | 21,612 | +174 |
+| [mini-SWE-agent](../r/swe-agent~mini-swe-agent.md) | The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no | 8,298 | +166 |
+| [jcode](../r/1jehuang~jcode.md) | High performance coding agent harness written in rust | 20,350 | +99 |
+| [Kilo Code](../r/kilo-org~kilocode.md) | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source c | 27,532 | +72 |
+| [Letta Code](../r/letta-ai~letta-code.md) | Stateful agents that are like people, with memory, identity, and the ability to learn and adapt | 3,544 | +59 |
+| [Archon](../r/coleam00~archon.md) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | 23,643 | +53 |
+| [Background Agents](../r/colemurray~background-agents.md) | An open-source background agents coding system | 3,345 | +45 |
+| [Open SWE](../r/langchain-ai~open-swe.md) | An Open-Source Asynchronous Coding Agent | 10,821 | +42 |
+| [Gemini CLI (Google)](../r/google-gemini~gemini-cli.md) | An open-source AI agent that brings the power of Gemini directly into your terminal. | 107,252 | +36 |
+| [BitFun](../r/gcwing~bitfun.md) | OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the d | 2,401 | +34 |
+| [Harness](../r/revfactory~harness.md) | A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use. | 9,138 | +32 |
+| [VulnClaw](../r/unclecheng-li~vulnclaw.md) | 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。 | 3,503 | +29 |
+| [Darkmoon](../r/ascit31~dark-moon.md) | Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes | 1,010 | +27 |
+| [Agents CLI (Google)](../r/google~agents-cli.md) | The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Goo | 6,064 | +26 |
+| [DeepSeek-Reasonix](../r/esengine~deepseek-reasonix.md) | A reliable coding agent for complex software engineering tasks. | 35,750 | +25 |
+| [AG Kit](../r/vudovn~ag-kit.md) | Antigravity-first agent engineering kit featuring rules, skills, persistent memory, MCP guidance, and a native safety ho | 8,188 | +6 |
+| [gptme](../r/gptme~gptme.md) | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own p | 4,443 | +5 |
+| [LoopTroop](../r/looptroop-ai~looptroop.md) | Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recovery, isolated OpenCode worktree | 160 | +5 |
+| [Ordewell](../r/ordewell~ordewell.md) | Multi-agent task orchestration for coding agents. Turn one goal into an ordered plan of tasks (each with its own runner, | 187 | +4 |
+| [Orbi](../r/orbi-build~orbi.md) | Open-source (AGPL-3.0), self-hosted autonomous coding agent: label a GitHub Issue, get an independently reviewed, merged | 196 | +1 |
+| [Superagent](https://github.com/pungme/superagent-desktop) | The desktop home for your coding agent — Claude Code or Codex. A persistent chat, a real browser it drives on your own l | 29 | +1 |
+| [Threadlines](https://github.com/Threadlines/threadlines) | An open-source desktop workspace for Codex and Claude Code with a live browser, project files, and real source control. | 14 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -389,12 +399,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenPilot](../r/commaai~openpilot.md) | openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported car | 63,659 | +47 |
-| [Genesis World](../r/genesis-embodied-ai~genesis-world.md) | Simulation platform for general-purpose robotics & embodied AI learning. | 29,952 | +34 |
-| [CARLA](../r/carla-simulator~carla.md) | Open-source simulator for autonomous driving research. | 14,404 | +21 |
-| [Autoware](../r/autowarefoundation~autoware.md) | Autoware - the world's leading open-source software project for autonomous driving | 12,062 | +19 |
-| [Webots](../r/cyberbotics~webots.md) | Webots Robot Simulator | 4,634 | +13 |
-| [Habitat-Sim](../r/facebookresearch~habitat-sim.md) | A flexible, high-performance 3D simulator for Embodied AI research. | 3,821 | +5 |
+| [OpenPilot](../r/commaai~openpilot.md) | openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported car | 63,843 | +56 |
+| [CARLA](../r/carla-simulator~carla.md) | Open-source simulator for autonomous driving research. | 14,465 | +16 |
+| [Genesis World](../r/genesis-embodied-ai~genesis-world.md) | Simulation platform for general-purpose robotics & embodied AI learning. | 30,030 | +16 |
+| [Webots](../r/cyberbotics~webots.md) | Webots Robot Simulator | 4,695 | +12 |
+| [Autoware](../r/autowarefoundation~autoware.md) | Autoware - the world's leading open-source software project for autonomous driving | 12,141 | +6 |
+| [Habitat-Sim](../r/facebookresearch~habitat-sim.md) | A flexible, high-performance 3D simulator for Embodied AI research. | 3,833 | +5 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -402,15 +412,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SWE-bench](../r/swe-bench~swe-bench.md) | SWE-bench: Can Language Models Resolve Real-world Github Issues? | 5,855 | +45 |
-| [MLE-bench (OpenAI)](../r/openai~mle-bench.md) | MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering | 1,747 | +18 |
-| [VLMEvalKit](../r/open-compass~vlmevalkit.md) | Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks | 4,394 | +11 |
-| [LiveBench](../r/livebench~livebench.md) | LiveBench: A Challenging, Contamination-Free LLM Benchmark | 1,321 | +6 |
-| [MLPerf Inference](../r/mlcommons~inference.md) | Reference implementations of MLPerf® inference benchmarks | 1,627 | +6 |
-| [PinchBench](../r/pinchbench~skill.md) | PinchBench is a benchmarking system for evaluating LLM models as OpenClaw coding agents. Made with 🦀 by the humans at h | 1,347 | +5 |
-| [Vectara Hallucination Leaderboard](../r/vectara~hallucination-leaderboard.md) | Leaderboard Comparing LLM Performance at Producing Hallucinations when Summarizing Short Documents | 3,313 | +2 |
-| [MLPerf Training](../r/mlcommons~training.md) | Reference implementations of MLPerf® training benchmarks | 1,771 | +1 |
-| [MMLU-Pro / GPQA](../r/tiger-ai-lab~mmlu-pro.md) | The code and data for "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark" [NeurIPS 202 | 423 | +0 |
+| [SWE-bench](../r/swe-bench~swe-bench.md) | SWE-bench: Can Language Models Resolve Real-world Github Issues? | 5,988 | +45 |
+| [VLMEvalKit](../r/open-compass~vlmevalkit.md) | Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks | 4,433 | +12 |
+| [LiveBench](../r/livebench~livebench.md) | LiveBench: A Challenging, Contamination-Free LLM Benchmark | 1,340 | +6 |
+| [MLPerf Inference](../r/mlcommons~inference.md) | Reference implementations of MLPerf® inference benchmarks | 1,640 | +5 |
+| [MLE-bench (OpenAI)](../r/openai~mle-bench.md) | MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering | 1,767 | +4 |
+| [PinchBench](../r/pinchbench~skill.md) | PinchBench is a benchmarking system for evaluating LLM models as OpenClaw coding agents. Made with 🦀 by the humans at h | 1,359 | +3 |
+| [Vectara Hallucination Leaderboard](../r/vectara~hallucination-leaderboard.md) | Leaderboard Comparing LLM Performance at Producing Hallucinations when Summarizing Short Documents | 3,316 | +2 |
+| [MLPerf Training](../r/mlcommons~training.md) | Reference implementations of MLPerf® training benchmarks | 1,775 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -418,30 +427,37 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Codex CLI](../r/openai~codex.md) | Lightweight coding agent that runs in your terminal | 124,642 | +11,154 |
-| [Herdr](../r/ogulcancelik~herdr.md) | the runtime your coding agents live on | 38,878 | +2,002 |
-| [OfficeCLI](../r/iofficeai~officecli.md) | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and P | 30,692 | +511 |
-| [CLI-Anything](../r/hkuds~cli-anything.md) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | 49,478 | +410 |
-| [Context7](../r/upstash~context7.md) | Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors | 62,074 | +277 |
-| [agentsview](../r/kenn-io~agentsview.md) | Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Cod | 5,919 | +159 |
-| [Repomix](../r/yamadashy~repomix.md) | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you ne | 28,372 | +127 |
-| [PR-Agent (Qodo)](../r/qodo-ai~pr-agent.md) | 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier. | 13,017 | +103 |
-| [Claude Code Action](../r/anthropics~claude-code-action.md) | GitHub Action for running Claude Code in PR and issue workflows with approval-aware automation and coding assistance. ![ | 8,886 | +60 |
-| [DesktopCommander MCP](../r/wonderwhy-er~desktopcommandermcp.md) | This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities | 9,605 | +51 |
-| [Instructor](../r/jxnl~instructor.md) | structured outputs for llms  | 13,903 | +33 |
-| [Claude Squad](../r/smtg-ai~claude-squad.md) | Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp. | 8,484 | +31 |
-| [LLM (Simon Willison)](../r/simonw~llm.md) | Access large language models from the command-line | 12,512 | +28 |
-| [Ruler](../r/intellectronica~ruler.md) | Ruler — apply the same rules to all coding agents | 2,927 | +19 |
-| [GitIngest](../r/cyclotruc~gitingest.md) | Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase  | 15,468 | +18 |
-| [aicommits](../r/nutlope~aicommits.md) | A CLI that writes your git commit messages for you with AI | 9,103 | +6 |
-| [agenttrace](../r/luoyuctl~agenttrace.md) | Local-first Rust TUI/CLI for auditing AI coding-agent sessions: cost, tokens, latency, failures, and health｜本地优先 Rust TU | 134 | +2 |
-| [Mirascope](../r/mirascope~mirascope.md) | The LLM Anti-Framework | 1,526 | +1 |
-| [DevProjex](https://github.com/Avazbek22/DevProjex) | Build safe, token-efficient codebase context for LLMs, AI chats, and coding agents — local-first GUI, TUI, CLI, and a re | 24 |  |
-| [MulmoTerminal](../r/receptron~mulmoterminal.md) | Run multiple Claude Code and Codex sessions in parallel — a browser terminal grid that shows which agent needs you. Loca | 216 |  |
+| [Herdr](../r/ogulcancelik~herdr.md) | the runtime your coding agents live on | 42,891 | +1,150 |
+| [Codex CLI](../r/openai~codex.md) | Lightweight coding agent that runs in your terminal | 128,338 | +855 |
+| [CLI-Anything](../r/hkuds~cli-anything.md) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | 51,720 | +562 |
+| [Worktrunk](../r/max-sixty~worktrunk.md) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 8,993 | +413 |
+| [GitDiagram](../r/ahmedkhaleel2004~gitdiagram.md) | Visualize any GitHub codebase: free interactive architecture diagrams and one-minute explainer videos. Replace 'hub' wit | 17,977 | +324 |
+| [Mobile MCP](../r/mobile-next~mobile-mcp.md) | Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices) | 8,768 | +278 |
+| [OfficeCLI](../r/iofficeai~officecli.md) | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and P | 31,704 | +257 |
+| [Context7](../r/upstash~context7.md) | Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors | 62,795 | +224 |
+| [Claude Code Action](../r/anthropics~claude-code-action.md) | GitHub Action for running Claude Code in PR and issue workflows with approval-aware automation and coding assistance. ![ | 9,443 | +138 |
+| [Repomix](../r/yamadashy~repomix.md) | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you ne | 28,747 | +118 |
+| [DesktopCommander MCP](../r/wonderwhy-er~desktopcommandermcp.md) | This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities | 9,964 | +99 |
+| [PR-Agent (Qodo)](../r/qodo-ai~pr-agent.md) | 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier. | 13,305 | +88 |
+| [GitIngest](../r/cyclotruc~gitingest.md) | Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase  | 15,867 | +85 |
+| [agentsview](../r/kenn-io~agentsview.md) | Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Cod | 6,076 | +42 |
+| [agent-manager](../r/yoanwai~agent-manager.md) | The fastest developer workflow for every AI coding agent. Live status, quick prompts, worktrees, and diff review from on | 577 | +27 |
+| [Claude Squad](../r/smtg-ai~claude-squad.md) | Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp. | 8,580 | +25 |
+| [Instructor](../r/jxnl~instructor.md) | structured outputs for llms  | 13,987 | +23 |
+| [LLM (Simon Willison)](../r/simonw~llm.md) | Access large language models from the command-line | 12,593 | +18 |
+| [MulmoTerminal](../r/receptron~mulmoterminal.md) | Run multiple Claude Code and Codex sessions in parallel — a browser terminal grid that shows which agent needs you. Loca | 236 | +5 |
+| [agenttrace](../r/luoyuctl~agenttrace.md) | Local-first Rust TUI/CLI for auditing AI coding-agent sessions: cost, tokens, latency, failures, and health｜本地运行的 Rust T | 141 | +4 |
+| [Ruler](../r/intellectronica~ruler.md) | Ruler — apply the same rules to all coding agents | 2,943 | +4 |
+| [VibePod](../r/vibepod~vibepod-cli.md) | Unified CLI for running AI coding agents in isolated containers. Includes built-in local metrics collection, HTTP traffi | 176 | +4 |
+| [Uni-CLI](../r/olo-dot-io~uni-cli.md) | One command for every interface—search, run, and inspect real software across APIs, browsers, desktops, local tools, and | 274 | +3 |
+| [aicommits](../r/nutlope~aicommits.md) | A CLI that writes your git commit messages for you with AI | 9,104 | +2 |
+| [DevProjex](https://github.com/Avazbek22/DevProjex) | Build safe, token-efficient codebase context for LLMs, AI chats, and coding agents — local-first GUI, TUI, CLI, and a re | 28 | +2 |
+| [Mirascope](../r/mirascope~mirascope.md) | The LLM Anti-Framework | 1,531 | +2 |
+| [YYLO](https://github.com/yylo-dev/yylo) | YYLO (why-lo): AI coding-agent orchestration CLI with equivalent yylo and yy launchers. | 63 | +1 |
+| [KyttoMCP](https://github.com/heyitsjakub/KyttoMCP) | Open-source (MIT) desktop app for managing MCP servers across Claude Desktop, Claude Code, Cursor, VS Code and Codex — h | 8 |  |
 | [OpenChamber Mobile Bridge](https://github.com/Zaradacht/opencode-openchamber-mobile-bridge) | OpenCode/OpenChamber helper for exposing devcontainer-based coding sessions to private Tailscale mobile access through a | 0 | +0 |
-| [Uni-CLI](../r/olo-dot-io~uni-cli.md) | One command for every interface—search, run, and inspect real software across APIs, browsers, desktops, local tools, and | 271 | +0 |
-| [VibePod](../r/vibepod~vibepod-cli.md) | Unified CLI for running AI coding agents in isolated containers. Includes built-in local metrics collection, HTTP traffi | 163 |  |
-| [YYLO](https://github.com/yylo-dev/yylo) | YYLO (why-lo): AI coding-agent orchestration CLI with equivalent yylo and yy launchers. | 59 |  |
+| [REA](../r/morluto~rea.md) | Reverse engineer anything with agents, from app behavior down to native binaries. | 19,017 |  |
+| [TUIOS](../r/gaurav-gosain~tuios.md) | A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restart | 5,027 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -449,12 +465,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [sktime](../r/sktime~sktime.md) | A unified framework for machine learning with time series | 10,017 | +26 |
-| [StatsForecast](../r/nixtla~statsforecast.md) | Lightning ⚡️ fast forecasting with statistical and econometric models. | 4,907 | +13 |
-| [cuML](../r/rapidsai~cuml.md) | NVIDIA cuML: GPU-Accelerated Machine Learning | 5,279 | +8 |
-| [PyTorch Forecasting](../r/sktime~pytorch-forecasting.md) | Time series forecasting with PyTorch | 4,992 | +2 |
-| [SynapseML](../r/microsoft~synapseml.md) | Simple and Distributed Machine Learning Python Library porting ML algorithms for Spark | 5,247 | +2 |
-| [MLForecast](../r/nixtla~mlforecast.md) | Scalable machine 🤖 learning for time series forecasting. | 1,277 | +0 |
+| [sktime](../r/sktime~sktime.md) | A unified framework for machine learning with time series | 10,060 | +13 |
+| [cuML](../r/rapidsai~cuml.md) | NVIDIA cuML: GPU-Accelerated Machine Learning | 5,302 | +8 |
+| [StatsForecast](../r/nixtla~statsforecast.md) | Lightning ⚡️ fast forecasting with statistical and econometric models. | 4,922 | +4 |
+| [MLForecast](../r/nixtla~mlforecast.md) | Scalable machine 🤖 learning for time series forecasting. | 1,284 | +1 |
+| [SynapseML](../r/microsoft~synapseml.md) | Simple and Distributed Machine Learning Python Library porting ML algorithms for Spark | 5,246 | -2 |
+| [PyTorch Forecasting](../r/sktime~pytorch-forecasting.md) | Time series forecasting with PyTorch | 4,999 | -3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -462,11 +478,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Roboflow Supervision](../r/roboflow~supervision.md) | We write your reusable computer vision tools. 💜 | 50,405 | +225 |
-| [CVAT](../r/cvat-ai~cvat.md) | Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It | 16,724 | +51 |
-| [OpenEyes](../r/mandarwagh9~openeyes.md) | OpenEyes is an open-source robot vision framework for edge devices | 100 | +2 |
-| [torchaudio](../r/pytorch~audio.md) | Data manipulation and transformation for audio signal processing, powered by PyTorch | 2,939 | +2 |
-| [AI Segmentation by TerraLab](https://github.com/TerraLabAI/QGIS_AI-Segmentation) | Segment anything on your raster data using AI in QGIS | 41 |  |
+| [Roboflow Supervision](../r/roboflow~supervision.md) | We write your reusable computer vision tools. 💜 | 51,155 | +49 |
+| [CVAT](../r/cvat-ai~cvat.md) | CVAT is a leading data annotation platform for image, video, audio, and 3D datasets. It offers open-source, cloud, and e | 16,879 | +42 |
+| [torchaudio](../r/pytorch~audio.md) | Data manipulation and transformation for audio signal processing, powered by PyTorch | 2,956 | +4 |
+| [AI Segmentation by TerraLab](https://github.com/TerraLabAI/QGIS_AI-Segmentation) | Segment Anything in QGIS: click an object to get its outline, or name what you want (buildings, solar panels, trees) and | 41 | +0 |
+| [OpenEyes](../r/mandarwagh9~openeyes.md) | OpenEyes is an open-source robot vision framework for edge devices | 101 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -474,20 +490,19 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [AI For Beginners (Microsoft)](../r/microsoft~ai-for-beginners.md) | 12 Weeks, 24 Lessons, AI for All! | 68,561 | +1,574 |
-| [Generative AI for Beginners (Microsoft)](../r/microsoft~generative-ai-for-beginners.md) | 21 Lessons, Get Started Building with Generative AI  | 119,846 | +535 |
-| [ML For Beginners (Microsoft)](../r/microsoft~ml-for-beginners.md) | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all | 90,533 | +306 |
-| [AI Engineering Hub](../r/patchy631~ai-engineering-hub.md) | In-depth tutorials on LLMs, RAGs and real-world AI agent applications. | 37,561 | +139 |
-| [Data Science for Beginners (Microsoft)](../r/microsoft~data-science-for-beginners.md) | 10 Weeks, 20 Lessons, Data Science for All! | 37,008 | +78 |
-| [Complete Agentic AI Engineering Course](../r/ed-donner~agents.md) | Repo for the Complete Agentic AI Engineering Course | 6,177 | +60 |
-| [Fast.ai](../r/fastai~fastai.md) | The fastai deep learning library | 28,143 | +9 |
-| [Deep RL Class (Hugging Face)](../r/huggingface~deep-rl-class.md) | This repo contains the Hugging Face Deep Reinforcement Learning Course. | 5,015 | +8 |
-| [The Incredible PyTorch](../r/ritchieng~the-incredible-pytorch.md) | The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch.  | 12,644 | +8 |
-| [Practical RL (Yandex Data School)](../r/yandexdataschool~practical_rl.md) | A course in reinforcement learning in the wild | 6,575 | +6 |
-| [Transformers Tutorials (Niels Rogge)](../r/nielsrogge~transformers-tutorials.md) | This repository contains demos I made with the Transformers library by HuggingFace. | 11,752 | +3 |
-| [NLP Course (Yandex Data School)](../r/yandexdataschool~nlp_course.md) | YSDA course in Natural Language Processing | 10,681 | +2 |
-| [Large Language Model Notebooks Course](../r/peremartra~large-language-model-notebooks-course.md) | Practical course about Large Language Models.  | 1,823 | +0 |
-| [OpenMAIC](../r/thu-maic~openmaic.md) | Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click | 37,272 |  |
+| [OpenMAIC](../r/thu-maic~openmaic.md) | Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click | 40,158 | +443 |
+| [Generative AI for Beginners (Microsoft)](../r/microsoft~generative-ai-for-beginners.md) | 21 Lessons, Get Started Building with Generative AI  | 121,159 | +274 |
+| [AI For Beginners (Microsoft)](../r/microsoft~ai-for-beginners.md) | 12 Weeks, 24 Lessons, AI for All! | 69,558 | +224 |
+| [ML For Beginners (Microsoft)](../r/microsoft~ml-for-beginners.md) | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all | 91,341 | +159 |
+| [Data Science for Beginners (Microsoft)](../r/microsoft~data-science-for-beginners.md) | 10 Weeks, 20 Lessons, Data Science for All! | 37,532 | +91 |
+| [AI Engineering Hub](../r/patchy631~ai-engineering-hub.md) | In-depth tutorials on LLMs, RAGs and real-world AI agent applications. | 38,251 | +76 |
+| [Complete Agentic AI Engineering Course](../r/ed-donner~agents.md) | Repo for the Complete Agentic AI Engineering Course | 6,336 | +55 |
+| [Deep RL Class (Hugging Face)](../r/huggingface~deep-rl-class.md) | This repo contains the Hugging Face Deep Reinforcement Learning Course. | 5,044 | +12 |
+| [NLP Course (Yandex Data School)](../r/yandexdataschool~nlp_course.md) | YSDA course in Natural Language Processing | 10,714 | +5 |
+| [The Incredible PyTorch](../r/ritchieng~the-incredible-pytorch.md) | The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch.  | 12,655 | +5 |
+| [Fast.ai](../r/fastai~fastai.md) | The fastai deep learning library | 28,214 | +4 |
+| [Large Language Model Notebooks Course](../r/peremartra~large-language-model-notebooks-course.md) | Practical course about Large Language Models.  | 1,825 | +1 |
+| [Transformers Tutorials (Niels Rogge)](../r/nielsrogge~transformers-tutorials.md) | This repository contains demos I made with the Transformers library by HuggingFace. | 11,754 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -495,8 +510,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Alex](https://github.com/Alex663028/Alex-Novel-Platform) | Open-source desktop novel-writing engine and AI story scaffold with Tauri, FastAPI, SQLite, and plot-generation workflow | 46 | +2 |
-| [AI Novel Writer](../r/ethanyoq~ai-novel-writer.md) | AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspiratio | 910 |  |
+| [AI Novel Writer](../r/ethanyoq~ai-novel-writer.md) | AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspiratio | 1,355 | +126 |
+| [Alex](https://github.com/Alex663028/Alex-Novel-Platform) | Open-source desktop novel-writing engine and AI story scaffold with Tauri, FastAPI, SQLite, and plot-generation workflow | 43 | -3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -504,8 +519,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Andrej Karpathy Skills](../r/forrestchang~andrej-karpathy-skills.md) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfa | 213,315 | +3,380 |
-| [Awesome DESIGN.md](../r/voltagent~awesome-design-md.md) | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agen | 116,092 | +1,253 |
+| [Andrej Karpathy Skills](../r/forrestchang~andrej-karpathy-skills.md) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfa | 217,519 | +1,412 |
+| [Awesome DESIGN.md](../r/voltagent~awesome-design-md.md) | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agen | 120,026 | +973 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -513,9 +528,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenMetadata](../r/open-metadata~openmetadata.md) | The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and busine | 15,221 | +63 |
-| [DataHub](../r/datahub-project~datahub.md) | The Context Platform for your Data and AI Stack | 12,716 | +38 |
-| [Amundsen](../r/amundsen-io~amundsen.md) | Amundsen is a metadata driven application for improving the productivity of data analysts, data scientists and engineers | 4,783 | +2 |
+| [OpenMetadata](../r/open-metadata~openmetadata.md) | The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and busine | 15,412 | +49 |
+| [DataHub](../r/datahub-project~datahub.md) | The Context Platform for your Data and AI Stack | 12,797 | +10 |
+| [Amundsen](../r/amundsen-io~amundsen.md) | Amundsen is a metadata driven application for improving the productivity of data analysts, data scientists and engineers | 4,782 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -523,8 +538,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Doccano](../r/doccano~doccano.md) | Open source annotation tool for machine learning practitioners. | 10,769 | +15 |
-| [OpenRefine](../r/openrefine~openrefine.md) | OpenRefine is a free, open source power tool for working with messy data and improving it | 12,001 | +12 |
+| [OpenRefine](../r/openrefine~openrefine.md) | OpenRefine is a free, open source power tool for working with messy data and improving it | 12,024 | +7 |
+| [Doccano](../r/doccano~doccano.md) | Open source annotation tool for machine learning practitioners. | 10,792 | +6 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -532,42 +547,41 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [DuckDB](../r/duckdb~duckdb.md) | DuckDB is an analytical in-process SQL database management system | 41,306 | +235 |
-| [DataFlow](../r/opendcai~dataflow.md) | [SIGMOD'27] Easy Data Preparation with latest LLMs-based Operators and Pipelines. | 8,184 | +225 |
-| [uv](../r/astral-sh~uv.md) | An extremely fast Python package and project manager, written in Rust. | 89,863 | +222 |
-| [Temporal](../r/temporalio~temporal.md) | Temporal service | 23,084 | +135 |
-| [Scrapy](../r/scrapy~scrapy.md) | Scrapy, a fast high-level web crawling & scraping framework for Python. | 64,367 | +98 |
-| [Apache Airflow](../r/apache~airflow.md) | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows | 46,868 | +79 |
-| [Vector](../r/vectordotdev~vector.md) | A high-performance observability data pipeline. | 22,569 | +56 |
-| [Label Studio](../r/humansignal~label-studio.md) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | 28,275 | +53 |
-| [Apache Spark](../r/apache~spark.md) | Apache Spark - A unified analytics engine for large-scale data processing | 44,000 | +47 |
-| [Apache Iceberg](../r/apache~iceberg.md) | Apache Iceberg | 9,237 | +24 |
-| [Apache Flink](../r/apache~flink.md) | Apache Flink | 26,336 | +20 |
-| [CuPy](../r/cupy~cupy.md) | NumPy & SciPy for GPU | 12,327 | +17 |
-| [NetworkX](../r/networkx~networkx.md) | Network Analysis in Python | 17,260 | +17 |
-| [FiftyOne](../r/voxel51~fiftyone.md) | Refine high-quality datasets and visual AI models | 11,088 | +15 |
-| [Delta Lake](../r/delta-io~delta.md) | An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, Pr | 8,996 | +11 |
-| [Ibis](../r/ibis-project~ibis.md) | the portable Python dataframe library | 6,662 | +10 |
-| [cuGraph](../r/rapidsai~cugraph.md) | cuGraph - RAPIDS Graph Analytics Library | 2,233 | +8 |
-| [Mage.ai](../r/mage-ai~mage-ai.md) | 🧙 Build, run, and manage data pipelines for integrating and transforming data. | 8,823 | +8 |
-| [Narwhals](../r/narwhals-dev~narwhals.md) | Lightweight and extensible compatibility layer between dataframe libraries! | 1,721 | +8 |
-| [Pandera](../r/unionai-oss~pandera.md) | A light-weight, flexible, and expressive statistical data testing library | 4,456 | +8 |
-| [Hamilton](../r/apache~hamilton.md) | Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode li | 2,591 | +7 |
-| [lakeFS](../r/treeverse~lakefs.md) | lakeFS - Data version control for your data lake \| Git for data | 5,528 | +6 |
-| [Zarr](../r/zarr-developers~zarr-python.md) | An implementation of chunked, compressed, N-dimensional arrays for Python. | 2,054 | +4 |
-| [Apache Hudi](../r/apache~hudi.md) | Upserts, Deletes And Incremental Processing on Big Data. | 6,247 | +3 |
-| [cuDF](../r/rapidsai~cudf.md) | cuDF - GPU DataFrame Library  | 9,752 | +3 |
-| [Snorkel](../r/snorkel-team~snorkel.md) | A system for quickly generating training data with weak supervision | 6,008 | +3 |
-| [skrub](../r/skrub-data~skrub.md) | Machine learning with dataframes | 1,651 | +2 |
-| [Apache Beam](../r/apache~beam.md) | Apache Beam is a unified programming model for Batch and Streaming data processing. | 8,665 | +1 |
-| [Datashader](../r/holoviz~datashader.md) | Quickly and accurately render even the largest data. | 3,561 | +1 |
-| [Oxen](../r/oxen-ai~oxen.md) | Lightning fast data version control system for large repositories of data. Feels like git, pushes and pulls like oxen. | 1,185 | +1 |
-| [Sweetviz](../r/fbdesignpro~sweetviz.md) | Visualize and compare datasets, target values and associations, with one line of code. | 3,127 | +1 |
-| [TextAttack](../r/qdata~textattack.md) | TextAttack 🐙  is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://texta | 3,473 | +1 |
-| [Luigi](../r/spotify~luigi.md) | Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflo | 18,774 | +0 |
-| [D-Tale](../r/man-group~dtale.md) | Visualizer for pandas data structures | 5,223 | -1 |
-| [NVIDIA DALI](../r/nvidia~dali.md) | A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to acc | 5,759 | -1 |
-| [Vaex](../r/vaexio~vaex.md) | Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a b | 8,508 | -2 |
+| [uv](../r/astral-sh~uv.md) | An extremely fast Python package and project manager, written in Rust. | 90,497 | +160 |
+| [Temporal](../r/temporalio~temporal.md) | Temporal service | 23,536 | +139 |
+| [DuckDB](../r/duckdb~duckdb.md) | DuckDB is an analytical in-process SQL database management system | 41,979 | +130 |
+| [Scrapy](../r/scrapy~scrapy.md) | Scrapy, a fast high-level web crawling & scraping framework for Python. | 64,655 | +116 |
+| [Apache Airflow](../r/apache~airflow.md) | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows | 47,116 | +99 |
+| [Apache Spark](../r/apache~spark.md) | Apache Spark - A unified analytics engine for large-scale data processing | 44,145 | +46 |
+| [Label Studio](../r/humansignal~label-studio.md) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | 28,418 | +31 |
+| [Vector](../r/vectordotdev~vector.md) | A high-performance observability data pipeline. | 22,681 | +27 |
+| [FiftyOne](../r/voxel51~fiftyone.md) | Refine high-quality datasets and visual AI models | 11,159 | +23 |
+| [Apache Iceberg](../r/apache~iceberg.md) | Apache Iceberg | 9,309 | +21 |
+| [Apache Flink](../r/apache~flink.md) | Apache Flink | 26,389 | +13 |
+| [NetworkX](../r/networkx~networkx.md) | Network Analysis in Python | 17,312 | +10 |
+| [Apache Hudi](../r/apache~hudi.md) | Upserts, Deletes And Incremental Processing on Big Data. | 6,282 | +6 |
+| [Ibis](../r/ibis-project~ibis.md) | the portable Python dataframe library | 6,676 | +6 |
+| [lakeFS](../r/treeverse~lakefs.md) | lakeFS - Data version control for your data lake \| Git for data | 5,552 | +6 |
+| [Narwhals](../r/narwhals-dev~narwhals.md) | Lightweight and extensible compatibility layer between dataframe libraries! | 1,731 | +6 |
+| [CuPy](../r/cupy~cupy.md) | NumPy & SciPy for GPU | 12,356 | +5 |
+| [Delta Lake](../r/delta-io~delta.md) | An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, Pr | 9,040 | +5 |
+| [Datashader](../r/holoviz~datashader.md) | Quickly and accurately render even the largest data. | 3,566 | +4 |
+| [Pandera](../r/unionai-oss~pandera.md) | A light-weight, flexible, and expressive statistical data testing library | 4,475 | +4 |
+| [Zarr](../r/zarr-developers~zarr-python.md) | An implementation of chunked, compressed, N-dimensional arrays for Python. | 2,067 | +4 |
+| [cuGraph](../r/rapidsai~cugraph.md) | cuGraph - RAPIDS Graph Analytics Library | 2,243 | +3 |
+| [NVIDIA DALI](../r/nvidia~dali.md) | A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to acc | 5,772 | +3 |
+| [Snorkel](../r/snorkel-team~snorkel.md) | A system for quickly generating training data with weak supervision | 6,014 | +3 |
+| [Hamilton](../r/apache~hamilton.md) | Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode li | 2,605 | +2 |
+| [Luigi](../r/spotify~luigi.md) | Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflo | 18,783 | +2 |
+| [Oxen](../r/oxen-ai~oxen.md) | Lightning fast data version control system for large repositories of data. Feels like git, pushes and pulls like oxen. | 1,194 | +2 |
+| [cuDF](../r/rapidsai~cudf.md) | cuDF - GPU DataFrame Library  | 9,772 | +1 |
+| [D-Tale](../r/man-group~dtale.md) | Visualizer for pandas data structures | 5,228 | +1 |
+| [TextAttack](../r/qdata~textattack.md) | TextAttack 🐙  is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://texta | 3,477 | +1 |
+| [Apache Beam](../r/apache~beam.md) | Apache Beam is a unified programming model for Batch and Streaming data processing. | 8,679 | +0 |
+| [Mage.ai](../r/mage-ai~mage-ai.md) | 🧙 Build, run, and manage data pipelines for integrating and transforming data. | 8,829 | +0 |
+| [skrub](../r/skrub-data~skrub.md) | Machine learning with dataframes | 1,653 | +0 |
+| [Sweetviz](../r/fbdesignpro~sweetviz.md) | Visualize and compare datasets, target values and associations, with one line of code. | 3,128 | +0 |
+| [DataFlow](../r/opendcai~dataflow.md) | [SIGMOD'27] Easy Data Preparation with latest LLMs-based Operators and Pipelines. | 8,199 | -20 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -575,10 +589,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ydata-profiling](../r/ydataai~ydata-profiling.md) | 1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames.  | 13,695 | +11 |
-| [Soda Core](../r/sodadata~soda-core.md) | Data Contracts engine for the modern data stack. https://www.soda.io | 2,426 | +6 |
-| [Deequ](../r/awslabs~deequ.md) | Deequ is a library built on top of Apache Spark for defining "unit tests for data", which measure data quality in large  | 3,645 | +3 |
+| [Soda Core](../r/sodadata~soda-core.md) | Data Contracts engine for the modern data stack. https://www.soda.io | 2,434 | +3 |
+| [Deequ](../r/awslabs~deequ.md) | Deequ is a library built on top of Apache Spark for defining "unit tests for data", which measure data quality in large  | 3,648 | +0 |
 | [TFX (TensorFlow Extended)](../r/tensorflow~tfx.md) |  TFX is an end-to-end platform for deploying production ML pipelines | 2,192 | +0 |
+| [ydata-profiling](../r/ydataai~ydata-profiling.md) | 1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames.  | 13,717 | -2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -586,11 +600,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [WrenAI](../r/canner~wrenai.md) | GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natur | 17,659 | +90 |
-| [Apache Ossie](../r/apache~ossie.md) | Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI a | 2,139 | +60 |
-| [dbt-core](../r/dbt-labs~dbt-core.md) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to  | 13,835 | +31 |
-| [SQLMesh](../r/tobikodata~sqlmesh.md) | Scalable and efficient data transformation framework - backwards compatible with dbt. | 3,291 | +10 |
-| [SLayer](../r/motleyai~slayer.md) | An embeddable, expressive semantic layer for AI agents and humans | 170 | +2 |
+| [Apache Ossie](../r/apache~ossie.md) | Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI a | 2,391 | +117 |
+| [WrenAI](../r/canner~wrenai.md) | GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natur | 17,819 | +25 |
+| [dbt-core](../r/dbt-labs~dbt-core.md) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to  | 13,975 | +21 |
+| [SLayer](../r/motleyai~slayer.md) | An embeddable, expressive semantic layer for AI agents and humans | 238 | +6 |
+| [SQLMesh](../r/tobikodata~sqlmesh.md) | Scalable and efficient data transformation framework - backwards compatible with dbt. | 3,308 | +4 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -598,18 +612,19 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [tinygrad](../r/tinygrad~tinygrad.md) | You like pytorch? You like micrograd? You love tinygrad! ❤️  | 33,609 | +43 |
-| [GGML](../r/ggml-org~ggml.md) | Tensor library for machine learning | 15,359 | +39 |
-| [Triton](../r/triton-lang~triton.md) | Development repository for the Triton language and compiler | 20,173 | +32 |
-| [timm (PyTorch Image Models)](../r/huggingface~pytorch-image-models.md) | The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pret | 37,148 | +17 |
-| [PyTorch Geometric](../r/pyg-team~pytorch_geometric.md) | Graph Neural Network Library for PyTorch | 24,083 | +14 |
-| [NumPyro](../r/pyro-ppl~numpyro.md) | Probabilistic programming with NumPy powered by JAX for autograd and JIT compilation to GPU/TPU/CPU. | 2,754 | +9 |
-| [Equinox](../r/patrick-kidger~equinox.md) | Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/ | 2,970 | +6 |
-| [PaddlePaddle](../r/paddlepaddle~paddle.md) | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨 | 24,090 | +6 |
-| [Flax](../r/google~flax.md) | Flax is a neural network library for JAX that is designed for flexibility. | 7,319 | +5 |
-| [Diffrax](../r/patrick-kidger~diffrax.md) | Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/ | 2,102 | +4 |
-| [vit-pytorch](../r/lucidrains~vit-pytorch.md) | Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transform | 25,507 | +3 |
-| [dm-haiku](../r/google-deepmind~dm-haiku.md) | JAX-based neural network library | 3,283 | +2 |
+| [Triton](../r/triton-lang~triton.md) | Development repository for the Triton language and compiler | 20,320 | +40 |
+| [tinygrad](../r/tinygrad~tinygrad.md) | You like pytorch? You like micrograd? You love tinygrad! ❤️  | 33,718 | +33 |
+| [GGML](../r/ggml-org~ggml.md) | Tensor library for machine learning | 15,453 | +22 |
+| [timm (PyTorch Image Models)](../r/huggingface~pytorch-image-models.md) | The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pret | 37,200 | +17 |
+| [PyTorch Geometric](../r/pyg-team~pytorch_geometric.md) | Graph Neural Network Library for PyTorch | 24,110 | +10 |
+| [vit-pytorch](../r/lucidrains~vit-pytorch.md) | Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transform | 25,539 | +10 |
+| [PaddlePaddle](../r/paddlepaddle~paddle.md) | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨 | 24,121 | +8 |
+| [NumPyro](../r/pyro-ppl~numpyro.md) | Probabilistic programming with NumPy powered by JAX for autograd and JIT compilation to GPU/TPU/CPU. | 2,763 | +6 |
+| [dm-haiku](../r/google-deepmind~dm-haiku.md) | JAX-based neural network library | 3,287 | +2 |
+| [notorch](https://github.com/ariannamethod/notorch) | neural networks in pure C | 27 | +2 |
+| [Equinox](../r/patrick-kidger~equinox.md) | Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/ | 2,986 | +1 |
+| [Flax](../r/google~flax.md) | Flax is a neural network library for JAX that is designed for flexibility. | 7,335 | +1 |
+| [Diffrax](../r/patrick-kidger~diffrax.md) | Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/ | 2,108 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -617,25 +632,24 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Kestra](../r/kestra-io~kestra.md) | Event Driven Orchestration & Scheduling Platform for Mission Critical Applications | 28,135 | +71 |
-| [HAMi](../r/project-hami~hami.md) | Heterogeneous GPU Sharing on Kubernetes | 4,609 | +48 |
-| [Prefect](../r/prefecthq~prefect.md) | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. | 23,849 | +45 |
-| [Dagster](../r/dagster-io~dagster.md) | An orchestration platform for the development, production, and observation of data assets. | 16,159 | +44 |
-| [Kueue](../r/kubernetes-sigs~kueue.md) | Kubernetes-native Job Queueing | 2,974 | +33 |
-| [Flyte](../r/flyteorg~flyte.md) | Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows. | 7,502 | +31 |
-| [Volcano](../r/volcano-sh~volcano.md) | A Cloud Native Batch System (Project under CNCF) | 5,950 | +27 |
-| [Argo Workflows](../r/argoproj~argo-workflows.md) | Workflow Engine for Kubernetes | 16,980 | +26 |
-| [SkyPilot](../r/skypilot-org~skypilot.md) | The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier  | 10,604 | +20 |
-| [Metaflow](../r/netflix~metaflow.md) | Build, Manage and Deploy AI/ML Systems | 10,269 | +17 |
-| [NVIDIA KAI Scheduler](../r/nvidia~kai-scheduler.md) | KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale | 1,520 | +15 |
-| [KitOps](../r/jozu-ai~kitops.md) | An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration in | 1,414 | +7 |
-| [Kubeflow Pipelines](../r/kubeflow~pipelines.md) | Machine Learning Pipelines for Kubeflow | 4,213 | +6 |
-| [Seldon Core](../r/seldonio~seldon-core.md) | An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models | 4,780 | +6 |
-| [Polyaxon](../r/polyaxon~polyaxon.md) | AI Infra / AI Orchestration / AI Control Plane | 3,731 | +4 |
-| [Netflix Maestro](../r/netflix~maestro.md) | Maestro: Netflix’s Workflow Orchestrator | 3,836 | +3 |
-| [Apache YuniKorn](../r/apache~yunikorn-core.md) | Apache YuniKorn Core | 1,027 | +1 |
-| [MLRun](../r/mlrun~mlrun.md) | MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecyc | 1,695 | +1 |
-| [NVIDIA DeepOps](../r/nvidia~deepops.md) | Tools for building GPU clusters | 1,472 | +1 |
+| [Kestra](../r/kestra-io~kestra.md) | Event Driven Orchestration & Scheduling Platform for Mission Critical Applications | 29,393 | +808 |
+| [Flyte](../r/flyteorg~flyte.md) | Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on your k8s — in pure Python with  | 7,651 | +42 |
+| [Prefect](../r/prefecthq~prefect.md) | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. | 23,991 | +32 |
+| [Dagster](../r/dagster-io~dagster.md) | An orchestration platform for the development, production, and observation of data assets. | 16,254 | +25 |
+| [HAMi](../r/project-hami~hami.md) | Heterogeneous GPU Sharing on Kubernetes | 4,725 | +23 |
+| [Kueue](../r/kubernetes-sigs~kueue.md) | 🚦 Kubernetes-native Job Queueing and Scheduling | 3,043 | +19 |
+| [NVIDIA KAI Scheduler](../r/nvidia~kai-scheduler.md) | KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale | 1,558 | +13 |
+| [Argo Workflows](../r/argoproj~argo-workflows.md) | Workflow Engine for Kubernetes | 17,027 | +11 |
+| [SkyPilot](../r/skypilot-org~skypilot.md) | The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier  | 10,684 | +11 |
+| [Metaflow](../r/netflix~metaflow.md) | Build, Manage and Deploy AI/ML Systems | 10,296 | +10 |
+| [Polyaxon](../r/polyaxon~polyaxon.md) | AI Infra / AI Orchestration / AI Control Plane | 3,742 | +5 |
+| [Kubeflow Pipelines](../r/kubeflow~pipelines.md) | Machine Learning Pipelines for Kubeflow | 4,236 | +4 |
+| [Volcano](../r/volcano-sh~volcano.md) | A Cloud Native Batch System (Project under CNCF) | 5,995 | +4 |
+| [Apache YuniKorn](../r/apache~yunikorn-core.md) | Apache YuniKorn Core | 1,032 | +2 |
+| [KitOps](../r/jozu-ai~kitops.md) | An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration in | 1,426 | +2 |
+| [MLRun](../r/mlrun~mlrun.md) | MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecyc | 1,703 | +2 |
+| [Netflix Maestro](../r/netflix~maestro.md) | Maestro: Netflix’s Workflow Orchestrator | 3,843 | +1 |
+| [NVIDIA DeepOps](../r/nvidia~deepops.md) | Tools for building GPU clusters | 1,475 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -643,26 +657,31 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ego lite](../r/citrolabs~ego-lite.md) | The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI | 16,004 | +1,645 |
-| [T3 Code](../r/pingdotgg~t3code.md) | Minimal web GUI and desktop app for interacting with coding agents like Codex, Claude Code, Cursor, and OpenCode. MIT li | 22,839 | +1,180 |
-| [Meetily](../r/zackriya-solutions~meetily.md) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama  | 30,839 | +517 |
-| [OpenWork](../r/different-ai~openwork.md) | The open-source alternative to Claude Cowork (powered by opencode) | 23,577 | +416 |
-| [Cherry Studio](../r/cherryhq~cherry-studio.md) | AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs | 51,855 | +330 |
-| [Hermes Desktop](../r/fathah~hermes-desktop.md) | Desktop Companion for Hermes Agent | 14,231 | +98 |
-| [Chatbox](../r/chatboxai~chatbox.md) | Powerful AI Client | 41,783 | +94 |
-| [PocketPal AI](../r/a-ghorbani~pocketpal-ai.md) | An app that brings language models directly to your phone. | 8,316 | +81 |
-| [OpenSuperWhisper](../r/starmel~opensuperwhisper.md) | macOS dictation app | 2,888 | +67 |
-| [DeepChat](../r/thinkinaixyz~deepchat.md) | 🐬DeepChat - A smart assistant that connects powerful AI to your personal world | 6,326 | +52 |
-| [Craft Agents](../r/craft-ai-agents~craft-agents-oss.md) | Open-source desktop and web interface for agentic workflows, featuring built-in MCP support, customizable API connection | 7,181 | +45 |
-| [Maid](../r/mobile-artificial-intelligence~maid.md) | Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek,  | 2,690 | +10 |
-| [ChatALL](../r/ai-shifu~chatall.md) |  Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover t | 16,493 | +8 |
-| [Scowld](https://github.com/apoorvdarshan/scowld) | 🦫 Open-source iOS AI companion with a live VRM avatar that sees you — bring-your-own-key chat, vision, speech-to-text & | 22 | +2 |
-| [oats](https://github.com/ariso-ai/oats) | The free, open-source meeting-notes app for your Mac — offline transcription and AI notes, free in the cloud or 100% on- | 61 | +1 |
-| [AI Language Partner](https://github.com/duct-tape2/ai-language-partner) | Local-first Japanese speaking practice and public product-page proof for the fixed $99 GitHub Repo Launch service. World | 6 |  |
-| [Clips Kitty](https://github.com/ColinGPT9/clips-studio) | Free, open-source Opus Clip alternative that runs entirely on your own PC. Turn long streams and videos into ready-to-po | 41 |  |
-| [Dive](../r/openagentplatform~dive.md) | Dive is an open-source MCP Host Desktop Application that seamlessly integrates with any LLMs supporting function calling | 1,827 | +0 |
-| [DSH Studio](https://github.com/Moresyl/dsh-studio) | DeepSeek Harness 原生桌面端 · Linux / macOS / Windows · Rust + Tauri | 26 |  |
-| [Off Grid AI Desktop](../r/off-grid-ai~ogad.md) | Off Grid AI — private, on-device AI. Run open models (text, vision, image, voice) locally through one OpenAI-compatible  | 104 |  |
+| [T3 Code](../r/pingdotgg~t3code.md) | Minimal web GUI and desktop app for interacting with coding agents like Codex, Claude Code, Cursor, and OpenCode. MIT li | 26,282 | +2,221 |
+| [Meetily](../r/zackriya-solutions~meetily.md) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama  | 31,532 | +209 |
+| [ego lite](../r/citrolabs~ego-lite.md) | The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI | 16,933 | +190 |
+| [Cherry Studio](../r/cherryhq~cherry-studio.md) | AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs | 52,442 | +144 |
+| [OpenWork](../r/different-ai~openwork.md) | The open-source alternative to Claude Cowork (powered by opencode) | 23,946 | +140 |
+| [Codex-X](../r/yynxxxxx~codex-x.md) | OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。 | 4,103 | +97 |
+| [PocketPal AI](../r/a-ghorbani~pocketpal-ai.md) | An app that brings language models directly to your phone. | 8,544 | +75 |
+| [PersonalJarvis](../r/personaljarvis~personaljarvis.md) | Your AI assistant, built for the agentic era. Open source and local: talk to it, and it runs your agents, your coding CL | 144 | +66 |
+| [DSH Studio](../r/moresyl~dsh-studio.md) | DeepSeek Harness 原生桌面端 · Linux / macOS / Windows · Rust + Tauri | 117 | +65 |
+| [Chatbox](../r/chatboxai~chatbox.md) | Powerful AI Client | 41,975 | +59 |
+| [OpenSuperWhisper](../r/starmel~opensuperwhisper.md) | macOS dictation app | 3,020 | +43 |
+| [Hermes Desktop](../r/fathah~hermes-desktop.md) | Desktop Companion for Hermes Agent | 14,381 | +33 |
+| [InvoiceFlowAI](../r/ethanyoq~invoice-downloader.md) | 电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DSH 插件。 | 501 | +24 |
+| [Craft Agents](../r/craft-ai-agents~craft-agents-oss.md) | Open-source desktop and web interface for agentic workflows, featuring built-in MCP support, customizable API connection | 7,235 | +16 |
+| [Clips Kitty](https://github.com/ColinGPT9/clips-studio) | Clips Kitty: Free open-source AI video clipper. Local Opus Clip alternative (also Klap & Vizard) that turns Twitch, Kick | 92 | +15 |
+| [Off Grid AI Desktop](../r/off-grid-ai~ogad.md) | Your private, on-device personal AI assistant for macOS and Windows. Chat, create, search files, and connect tools with  | 122 | +6 |
+| [oats](https://github.com/ariso-ai/oats) | The free, open-source meeting-notes app for your Mac — offline transcription and AI notes, free in the cloud or 100% on- | 94 | +5 |
+| [ChatALL](../r/ai-shifu~chatall.md) |  Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover t | 16,507 | +4 |
+| [Maid](../r/mobile-artificial-intelligence~maid.md) | Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek,  | 2,714 | +4 |
+| [DeepChat](../r/thinkinaixyz~deepchat.md) | 🐬DeepChat - A smart assistant that connects powerful AI to your personal world | 6,360 | +3 |
+| [Scowld](https://github.com/apoorvdarshan/scowld) | 🦫 Open-source iOS AI companion with a live VRM avatar that sees you — bring-your-own-key chat, vision, speech-to-text & | 27 | +3 |
+| [AI Language Partner](https://github.com/duct-tape2/ai-language-partner) | Local-first Japanese speaking practice and public product-page proof for the fixed $99 GitHub Repo Launch service. World | 6 | +0 |
+| [aiFetchly](https://github.com/robertzengcn/aiFetchly) | aiFetchly is an Desktop AI Agent for Business Automation, include function of local knowledge, browser automation, insta | 1 | +0 |
+| [Voz](https://github.com/quietbin/voz-mac) | On-device dictation for macOS. Speech to text entirely on your own Mac — no account, no subscription, no audio leaving t | 0 | +0 |
+| [Dive](../r/openagentplatform~dive.md) | Dive is an open-source MCP Host Desktop Application that seamlessly integrates with any LLMs supporting function calling | 1,827 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -670,12 +689,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [RLinf](../r/rlinf~rlinf.md) | RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI | 5,257 | +67 |
-| [Nanotron (Hugging Face)](../r/huggingface~nanotron.md) | Minimalistic large language model 3D-parallelism training | 2,825 | +8 |
-| [dstack](../r/dstackai~dstack.md) | Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on  | 2,248 | +5 |
-| [GPT-NeoX (EleutherAI)](../r/eleutherai~gpt-neox.md) | An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries | 7,462 | +5 |
-| [Streaming (MosaicML)](../r/mosaicml~streaming.md) | A Data Streaming Library for Efficient Neural Network Training | 1,555 | +1 |
-| [Composer](../r/mosaicml~composer.md) | Supercharge Your Model Training | 5,495 | +0 |
+| [Higgsfield](../r/higgsfield-ai~higgsfield.md) | Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with bi | 5,899 | +67 |
+| [RLinf](../r/rlinf~rlinf.md) | RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI | 5,457 | +36 |
+| [Nanotron (Hugging Face)](../r/huggingface~nanotron.md) | Minimalistic large language model 3D-parallelism training | 2,834 | +7 |
+| [GPT-NeoX (EleutherAI)](../r/eleutherai~gpt-neox.md) | An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries | 7,468 | +6 |
+| [dstack](../r/dstackai~dstack.md) | A unified orchestration layer for heterogeneous AI compute. It standardizes how to manage compute and run training and i | 2,272 | +4 |
+| [Streaming (MosaicML)](../r/mosaicml~streaming.md) | A Data Streaming Library for Efficient Neural Network Training | 1,565 | +1 |
+| [Composer](../r/mosaicml~composer.md) | Supercharge Your Model Training | 5,504 | -2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -683,13 +703,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MarkItDown (Microsoft)](../r/microsoft~markitdown.md) | Python tool for converting files and office documents to Markdown. | 184,628 | +1,752 |
-| [pdf-inspector](../r/firecrawl~pdf-inspector.md) | Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based P | 19,144 | +602 |
-| [PaddleOCR](../r/paddlepaddle~paddleocr.md) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the ga | 89,640 | +389 |
-| [OpenDataLoader PDF](../r/opendataloader-project~opendataloader-pdf.md) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 29,281 | +229 |
-| [LiteParse](../r/run-llama~liteparse.md) | A fast, helpful, and open-source document parser | 12,315 | +51 |
-| [olmOCR (Allen Institute for AI)](../r/allenai~olmocr.md) | Toolkit for linearizing PDFs for LLM datasets/training | 19,609 | +33 |
-| [DocETL (UC Berkeley)](../r/ucbepic~docetl.md) | A system for agentic LLM-powered data processing and ETL | 4,095 | +15 |
+| [MarkItDown (Microsoft)](../r/microsoft~markitdown.md) | Python tool for converting files and office documents to Markdown. | 189,143 | +1,316 |
+| [PaddleOCR](../r/paddlepaddle~paddleocr.md) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the ga | 90,763 | +278 |
+| [pdf-inspector](../r/firecrawl~pdf-inspector.md) | Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based P | 19,536 | +94 |
+| [LiteParse](../r/run-llama~liteparse.md) | A fast, helpful, and open-source document parser | 12,807 | +60 |
+| [OpenDataLoader PDF](../r/opendataloader-project~opendataloader-pdf.md) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | 29,496 | +47 |
+| [DocETL (UC Berkeley)](../r/ucbepic~docetl.md) | A system for agentic LLM-powered data processing and ETL | 4,120 | +6 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -697,34 +716,40 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [The Agency](../r/msitarzewski~agency-agents.md) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to rea | 152,748 | +1,882 |
-| [PPT Master](../r/hugohe3~ppt-master.md) | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-bac | 54,724 | +1,542 |
-| [n8n](../r/n8n-io~n8n.md) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host  | 204,516 | +1,297 |
-| [DeepTutor](../r/hkuds~deeptutor.md) | DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/. | 39,786 | +1,232 |
-| [TradingAgents](../r/tauricresearch~tradingagents.md) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 106,872 | +1,052 |
-| [Browser Use](../r/browser-use~browser-use.md) | Agents that use the browser. | 114,779 | +866 |
-| [Headroom](../r/chopratejas~headroom.md) | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% | 72,393 | +768 |
-| [last30days-skill](../r/mvanhorn~last30days-skill.md) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro | 62,125 | +662 |
-| [Cua](../r/trycua~cua.md) | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data gene | 22,709 | +414 |
-| [claude-code-best-practice](../r/shanraisshan~claude-code-best-practice.md) | from vibe coding to agentic engineering - practice makes claude perfect | 65,953 | +349 |
-| [ToolJet](../r/tooljet~tooljet.md) | Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business a | 40,927 | +334 |
-| [pm-skills](../r/phuryn~pm-skills.md) | PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and g | 26,370 | +251 |
-| [Activepieces](../r/activepieces~activepieces.md) | AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI W | 24,476 | +163 |
-| [CubeSandbox (Tencent Cloud)](../r/tencentcloud~cubesandbox.md) | Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents. | 12,545 | +136 |
-| [PentAGI](../r/vxcontrol~pentagi.md) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 24,543 | +126 |
-| [gpt-researcher](../r/assafelovic~gpt-researcher.md) | An autonomous agent that conducts deep research on any data using any LLM providers | 29,479 | +121 |
-| [Composio](../r/composiohq~composio.md) | Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you b | 30,197 | +119 |
-| [UI-TARS Desktop (ByteDance)](../r/bytedance~ui-tars-desktop.md) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 39,002 | +84 |
-| [PraisonAI](../r/mervinpraison~praisonai.md) | PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents th | 9,058 | +40 |
-| [Steel Browser](../r/steel-dev~steel-browser.md) | 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you aut | 7,648 | +37 |
-| [MobileAgent (Alibaba/X-PLUG)](../r/x-plug~mobileagent.md) |  Mobile-Agent: The Powerful GUI Agent Family | 9,211 | +27 |
-| [Agent-S (Simular AI)](../r/simular-ai~agent-s.md) | Agent S: an open agentic framework that uses computers like a human | 12,309 | +22 |
-| [Parlant](../r/emcie-co~parlant.md) | Build reliable customer-facing AI agents with Parlant: an interaction control harness optimized for controlled, consiste | 18,289 | +18 |
-| [Webwright](../r/microsoft~webwright.md) | A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.  | 6,001 | +15 |
-| [Tracecat](../r/tracecathq~tracecat.md) | Open-source security automation platform for teams and AI agents | 3,803 | +7 |
-| [Corsair](../r/corsairdev~corsair.md) | Connect your users to their apps | 11,376 |  |
-| [uAgents (Fetch.ai)](../r/fetchai~uagents.md) | A fast and lightweight framework for creating decentralized agents with ease. | 1,636 | +0 |
-| [Julep](../r/julep-ai~julep.md) | Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step. | 6,585 | -1 |
+| [The Agency](../r/msitarzewski~agency-agents.md) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to rea | 158,431 | +2,861 |
+| [Cua](../r/trycua~cua.md) | Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data gene | 28,966 | +1,333 |
+| [PPT Master](../r/hugohe3~ppt-master.md) | AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-bac | 58,209 | +975 |
+| [TradingAgents](../r/tauricresearch~tradingagents.md) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 110,220 | +797 |
+| [Browser Use](../r/browser-use~browser-use.md) | Agents that use the browser. | 117,453 | +568 |
+| [Headroom](../r/chopratejas~headroom.md) | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% | 74,698 | +486 |
+| [n8n](../r/n8n-io~n8n.md) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host  | 206,878 | +459 |
+| [last30days-skill](../r/mvanhorn~last30days-skill.md) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro | 63,729 | +418 |
+| [OpenResearch](../r/alphaxiv~openresearch.md) | Turn your coding agents into research agents | 6,742 | +407 |
+| [claude-code-best-practice](../r/shanraisshan~claude-code-best-practice.md) | from vibe coding to agentic engineering - practice makes claude perfect | 67,261 | +348 |
+| [DeepTutor](../r/hkuds~deeptutor.md) | DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/. | 40,927 | +326 |
+| [DeskcommCRM](../r/melgarafael~deskcommcrm.md) | Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & | 4,484 | +166 |
+| [PentAGI](../r/vxcontrol~pentagi.md) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 25,330 | +162 |
+| [pm-skills](../r/phuryn~pm-skills.md) | PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and g | 26,834 | +120 |
+| [Activepieces](../r/activepieces~activepieces.md) | AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI W | 24,946 | +119 |
+| [gpt-researcher](../r/assafelovic~gpt-researcher.md) | An autonomous agent that conducts deep research on any data using any LLM providers | 29,949 | +91 |
+| [PraisonAI](../r/mervinpraison~praisonai.md) | PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents th | 9,201 | +86 |
+| [Composio](../r/composiohq~composio.md) | Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you b | 30,468 | +82 |
+| [Corsair](../r/corsairdev~corsair.md) | Connect your users to their apps | 13,438 | +81 |
+| [Agent-S (Simular AI)](../r/simular-ai~agent-s.md) | Agent S: an open agentic framework that uses computers like a human | 12,557 | +73 |
+| [CubeSandbox (Tencent Cloud)](../r/tencentcloud~cubesandbox.md) | Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents. | 12,838 | +57 |
+| [Steel Browser](../r/steel-dev~steel-browser.md) | 🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you aut | 7,754 | +38 |
+| [UI-TARS Desktop (ByteDance)](../r/bytedance~ui-tars-desktop.md) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 39,213 | +37 |
+| [ToolJet](../r/tooljet~tooljet.md) | Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business a | 41,049 | +30 |
+| [Jev Social](../r/socai-io~jev-social.md) | Open-source, local-first social media research agent for Instagram, TikTok, and LinkedIn. Jev routes read-only steps; so | 157 | +26 |
+| [Webwright](../r/microsoft~webwright.md) | A simple SWE style browser+desktop agent framework that achieves SOTA results on long horizon web tasks.  | 6,044 | +22 |
+| [MobileAgent (Alibaba/X-PLUG)](../r/x-plug~mobileagent.md) |  Mobile-Agent: The Powerful GUI Agent Family | 9,280 | +11 |
+| [Tracecat](../r/tracecathq~tracecat.md) | Open-source security automation platform for teams and AI agents | 3,826 | +4 |
+| [uAgents (Fetch.ai)](../r/fetchai~uagents.md) | A fast and lightweight framework for creating decentralized agents with ease. | 1,641 | +3 |
+| [Julep](../r/julep-ai~julep.md) | Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step. | 6,577 | +1 |
+| [AdsTurbo Creative MCP](https://github.com/AdsTurbo/adsturbo-creative-mcp) | Local-only MCP server and CLI for AI agents to create video ad briefs, hooks, UGC scripts, storyboards, and AdsTurbo-rea | 3 |  |
+| [call4me](https://github.com/skeptrunedev/call4me) | Your coding agent makes phone calls for you: an MCP tool on Telnyx + OpenAI GPT-Live | 7 |  |
+| [Parlant](../r/emcie-co~parlant.md) | Build reliable customer-facing AI agents with Parlant: an interaction control harness optimized for controlled, consiste | 18,301 | +0 |
+| [invisible_playwright_mcp](../r/feder-cr~invisible_playwright_mcp.md) | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Pyt | 2,651 | -29,081 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -732,9 +757,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [RuView](../r/ruvnet~ruview.md) | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection | 94,231 | +994 |
-| [MNN](../r/alibaba~mnn.md) | MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and | 16,094 | +64 |
-| [NCNN](../r/tencent~ncnn.md) | ncnn is a high-performance neural network inference framework optimized for the mobile platform | 23,825 | +29 |
+| [RuView](../r/ruvnet~ruview.md) | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection | 96,872 | +1,090 |
+| [MNN](../r/alibaba~mnn.md) | MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and | 16,192 | +30 |
+| [NCNN](../r/tencent~ncnn.md) | ncnn is a high-performance neural network inference framework optimized for the mobile platform | 23,920 | +13 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -742,11 +767,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [AI Agents in Depth](../r/bojieli~ai-agent-book.md) | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 47,917 | +3,219 |
-| [AI Engineering from Scratch (rohitg00)](../r/rohitg00~ai-engineering-from-scratch.md) | Learn it. Build it. Ship it for others. | 54,764 | +1,496 |
-| [Claude How To](../r/luongnv89~claude-howto.md) | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that b | 41,512 | +99 |
-| [Maths, CS & AI Compendium](../r/henryndubuaku~maths-cs-ai-compendium.md) | Become a cracked AI/ML researcher/engineer with this unconventional textbook covering maths, computing, and ML with intu | 7,514 | +33 |
-| [AMD Strix Halo Local LLM Guide](../r/hogeheer499-commits~strix-halo-guide.md) | Evidence-backed AMD Strix Halo local-AI setup and benchmarks: Qwen3.8, Ollama, llama.cpp, Vulkan/ROCm, large GGUFs, and  | 330 | +14 |
+| [AI Engineering from Scratch (rohitg00)](../r/rohitg00~ai-engineering-from-scratch.md) | Learn it. Build it. Ship it for others. | 65,724 | +3,474 |
+| [AI Agents in Depth](../r/bojieli~ai-agent-book.md) | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 52,913 | +931 |
+| [Claude How To](../r/luongnv89~claude-howto.md) | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that b | 41,773 | +48 |
+| [Maths, CS & AI Compendium](../r/henryndubuaku~maths-cs-ai-compendium.md) | Become a cracked AI/ML researcher/engineer with this unconventional textbook covering maths, computing, and ML with intu | 7,595 | +31 |
+| [AMD Strix Halo Local LLM Guide](../r/hogeheer499-commits~strix-halo-guide.md) | Evidence-backed AMD Strix Halo local-AI setup and benchmarks: Qwen3.8, Ollama, llama.cpp, Vulkan/ROCm, large GGUFs, and  | 353 | +2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -754,7 +779,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MTEB](../r/embeddings-benchmark~mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,424 | +9 |
+| [MTEB](../r/embeddings-benchmark~mteb.md) | MTEB: State-of-the-art evaluation of embeddings across languages and modalities | 3,451 | +10 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -762,9 +787,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Text Embeddings Inference (Hugging Face)](../r/huggingface~text-embeddings-inference.md) | A blazing fast inference solution for text embeddings models | 5,051 | +17 |
-| [FastEmbed (Qdrant)](../r/qdrant~fastembed.md) | Fast, Accurate, Lightweight Python library to make State of the Art Embedding | 3,203 | +13 |
-| [EmbedAnything](../r/starlightsearch~embedanything.md) | Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀 | 1,306 | +9 |
+| [Text Embeddings Inference (Hugging Face)](../r/huggingface~text-embeddings-inference.md) | A blazing fast inference solution for text embeddings models | 5,076 | +11 |
+| [FastEmbed (Qdrant)](../r/qdrant~fastembed.md) | Fast, Accurate, Lightweight Python library to make State of the Art Embedding | 3,236 | +7 |
+| [EmbedAnything](../r/starlightsearch~embedanything.md) | Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀 | 1,310 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -772,18 +797,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Harbor](../r/harbor-framework~harbor.md) | Framework for evaluating and improving agents  | 5,297 | +253 |
-| [Inspect AI](../r/ukgovernmentbeis~inspect_ai.md) | Inspect: A framework for large language model evaluations | 2,782 | +51 |
-| [OpenAI Evals](../r/openai~evals.md) | Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks. | 19,466 | +51 |
-| [EvalScope (ModelScope)](../r/modelscope~evalscope.md) | A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmark | 3,432 | +35 |
-| [AutoRAG](../r/marker-inc-korea~autorag.md) | AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently. | 5,073 | +8 |
-| [OpenEvals](../r/langchain-ai~openevals.md) | Readymade evaluators for your LLM apps | 1,198 | +8 |
-| [SimpleEvals (OpenAI)](../r/openai~simple-evals.md) | Lightweight library for evaluating language models with transparent accuracy numbers. Reference implementations for MMLU | 4,634 | +8 |
-| [TruLens](../r/truera~trulens.md) | Evaluation and Tracking for LLM Experiments and AI Agents | 3,559 | +7 |
-| [BrowserGym](../r/servicenow~browsergym.md) | 🌎💪 BrowserGym, a Gym environment for web task automation | 1,366 | +5 |
-| [LMMs-Eval](../r/evolvinglmms-lab~lmms-eval.md) | One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks | 4,407 | +5 |
-| [E2B Code Interpreter](../r/e2b-dev~code-interpreter.md) | Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app  | 2,408 | +2 |
-| [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) | YYLO Benchmark: longitudinal evaluation and immutable evidence for agent runs. | 1 |  |
+| [Harbor](../r/harbor-framework~harbor.md) | Framework for evaluating and improving agents  | 5,914 | +169 |
+| [Inspect AI](../r/ukgovernmentbeis~inspect_ai.md) | Inspect: A framework for large language model evaluations | 2,958 | +53 |
+| [OpenAI Evals](../r/openai~evals.md) | Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks. | 19,571 | +39 |
+| [BrowserGym](../r/servicenow~browsergym.md) | 🌎💪 BrowserGym, a Gym environment for web task automation | 1,393 | +15 |
+| [TruLens](../r/truera~trulens.md) | Evaluation and Tracking for LLM Experiments and AI Agents | 3,593 | +12 |
+| [EvalScope (ModelScope)](../r/modelscope~evalscope.md) | A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmark | 3,508 | +11 |
+| [LMMs-Eval](../r/evolvinglmms-lab~lmms-eval.md) | One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks | 4,448 | +10 |
+| [AutoRAG](../r/marker-inc-korea~autorag.md) | AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently. | 5,118 | +8 |
+| [OpenEvals](../r/langchain-ai~openevals.md) | Readymade evaluators for your LLM apps | 1,216 | +5 |
+| [SimpleEvals (OpenAI)](../r/openai~simple-evals.md) | Lightweight library for evaluating language models with transparent accuracy numbers. Reference implementations for MMLU | 4,651 | +2 |
+| [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) | YYLO Benchmark: longitudinal evaluation and immutable evidence for agent runs. | 1 | +0 |
+| [E2B Code Interpreter](../r/e2b-dev~code-interpreter.md) | Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app  | 2,418 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -791,10 +816,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenLineage](../r/openlineage~openlineage.md) | An Open Standard for lineage metadata collection | 2,659 | +18 |
-| [Feast](../r/feast-dev~feast.md) | The Open Source Feature Store for AI/ML | 7,273 | +16 |
-| [Marquez](../r/marquezproject~marquez.md) | Collect, aggregate, and visualize a data ecosystem's metadata | 2,277 | +8 |
-| [Aim](../r/aimhubio~aim.md) | Aim 💫 — An easy-to-use & supercharged open-source experiment tracker. | 6,253 | +7 |
+| [OpenLineage](../r/openlineage~openlineage.md) | An Open Standard for lineage metadata collection | 2,693 | +9 |
+| [Aim](../r/aimhubio~aim.md) | Aim 💫 — An easy-to-use & supercharged open-source experiment tracker. | 6,280 | +8 |
+| [Feast](../r/feast-dev~feast.md) | The Open Source Feature Store for AI/ML | 7,323 | +5 |
+| [Marquez](../r/marquezproject~marquez.md) | Collect, aggregate, and visualize a data ecosystem's metadata | 2,287 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -802,8 +827,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Deep-Live-Cam](../r/hacksider~deep-live-cam.md) | real time face swap and one-click video deepfake with only a single image | 96,670 | +115 |
-| [Faceswap](../r/deepfakes~faceswap.md) | Deepfakes Software For All | 57,554 | +28 |
+| [Deep-Live-Cam](../r/hacksider~deep-live-cam.md) | real time face swap and one-click video deepfake with only a single image | 96,940 | +34 |
+| [Faceswap](../r/deepfakes~faceswap.md) | Deepfakes Software For All | 57,567 | +5 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -811,8 +836,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Fairlearn](../r/fairlearn~fairlearn.md) | A Python package to assess and improve fairness of machine learning models. | 2,285 | +6 |
-| [AI Fairness 360](../r/trusted-ai~aif360.md) | A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and al | 2,865 | +5 |
+| [AI Fairness 360](../r/trusted-ai~aif360.md) | A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and al | 2,874 | +2 |
+| [Fairlearn](../r/fairlearn~fairlearn.md) | A Python package to assess and improve fairness of machine learning models. | 2,289 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -820,11 +845,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Kedro](../r/kedro-org~kedro.md) | Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create dat | 11,001 | +15 |
-| [Feature-engine](../r/feature-engine~feature_engine.md) | Feature engineering and selection open-source Python library compatible with sklearn. | 2,280 | +3 |
-| [Featuretools](../r/alteryx~featuretools.md) | An open source python library for automated feature engineering | 7,677 | +3 |
-| [OpenMLDB](../r/4paradigm~openmldb.md) | OpenMLDB is an open-source machine learning database that provides a feature platform computing consistent features for  | 1,712 | +3 |
+| [Feature-engine](../r/feature-engine~feature_engine.md) | Feature engineering and selection open-source Python library compatible with sklearn. | 2,288 | +4 |
+| [Kedro](../r/kedro-org~kedro.md) | Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create dat | 11,015 | +1 |
+| [Featuretools](../r/alteryx~featuretools.md) | An open source python library for automated feature engineering | 7,687 | -1 |
 | [NVTabular](../r/nvidia-merlin~nvtabular.md) | NVTabular is a feature engineering and preprocessing library for tabular data designed to quickly and easily manipulate  | 1,151 | -1 |
+| [OpenMLDB](../r/4paradigm~openmldb.md) | OpenMLDB is an open-source machine learning database that provides a feature platform computing consistent features for  | 1,715 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -832,17 +857,17 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Daily Stock Analysis](../r/zhulinsen~daily_stock_analysis.md) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source mark | 65,133 | +572 |
-| [Vibe-Trading](../r/hkuds~vibe-trading.md) | "Vibe-Trading: Your Personal Trading Agent" | 33,536 | +498 |
-| [Kronos](../r/shiyu-coder~kronos.md) | Kronos: A Foundation Model for the Language of Financial Markets | 38,856 | +399 |
-| [OpenBB](../r/openbb-finance~openbb.md) | Open Data Platform for analysts, quants and AI agents. | 73,060 | +269 |
-| [Qlib](../r/microsoft~qlib.md) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring idea | 48,601 | +234 |
-| [AI Hedge Fund](../r/virattt~ai-hedge-fund.md) | An AI Hedge Fund Team | 63,404 | +100 |
-| [FinRL](../r/ai4finance-foundation~finrl.md) | FinRL®:  Financial Reinforcement Learning. 🔥 | 16,292 | +59 |
-| [FinRobot](../r/ai4finance-foundation~finrobot.md) | FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models | 8,010 | +56 |
-| [FinGPT](../r/ai4finance-foundation~fingpt.md) | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. | 21,256 | +45 |
-| [stock-analysis](https://github.com/AdvancingTitans/stock-analysis) | Evidence-driven stock market analysis CLI for A/HK/US/JP/KR stocks, funds, and portfolios. | 31 | +1 |
-| [etf-pattern-match-pybind11](https://github.com/redamancy231-create/etf-pattern-match-pybind11) | 形态匹配ETF策略核心的pybind11/C++20加速重构——DTW 34x / 形态匹配 53x \| pybind11/C++20 acceleration of ETF pattern-matching core: DTW 34x / | 4 |  |
+| [Vibe-Trading](../r/hkuds~vibe-trading.md) | "Vibe-Trading: Your Personal Trading Agent" | 34,988 | +583 |
+| [Kronos](../r/shiyu-coder~kronos.md) | Kronos: A Foundation Model for the Language of Financial Markets | 40,281 | +546 |
+| [OpenBB](../r/openbb-finance~openbb.md) | Open Data Platform for analysts, quants and AI agents. | 73,969 | +254 |
+| [Daily Stock Analysis](../r/zhulinsen~daily_stock_analysis.md) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source mark | 66,038 | +214 |
+| [Qlib](../r/microsoft~qlib.md) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring idea | 49,217 | +124 |
+| [AI Hedge Fund](../r/virattt~ai-hedge-fund.md) | An AI Hedge Fund Team | 63,902 | +82 |
+| [FinGPT](../r/ai4finance-foundation~fingpt.md) | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. | 21,384 | +77 |
+| [FinRL](../r/ai4finance-foundation~finrl.md) | FinRL®:  Financial Reinforcement Learning. 🔥 | 16,590 | +66 |
+| [FinRobot](../r/ai4finance-foundation~finrobot.md) | FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models | 8,158 | +34 |
+| [etf-pattern-match-pybind11](https://github.com/redamancy231-create/etf-pattern-match-pybind11) | 形态匹配ETF策略核心的pybind11/C++20加速重构——DTW 34x / 形态匹配 53x \| pybind11/C++20 acceleration of ETF pattern-matching core: DTW 34x / | 4 | +0 |
+| [stock-analysis](https://github.com/AdvancingTitans/stock-analysis) | Evidence-driven stock market analysis CLI for A/HK/US/JP/KR stocks, funds, and portfolios. | 31 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -850,15 +875,20 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Buzz](../r/block~buzz.md) | A hive mind communication platform | 33,149 | +2,403 |
-| [Plane](../r/makeplane~plane.md) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manag | 59,470 | +2,109 |
-| [Macro](../r/macro-inc~macro.md) | Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared | 4,333 | +414 |
-| [LocalAI](../r/mudler~localai.md) | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU requir | 49,130 | +120 |
-| [Onyx](../r/onyx-dot-app~onyx.md) | Open Source AI Platform - AI Chat with advanced features that works with every LLM | 32,119 | +109 |
-| [LibreTranslate](../r/libretranslate~libretranslate.md) | Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup. | 16,659 | +99 |
-| [RAG Web UI](../r/rag-web-ui~rag-web-ui.md) | RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology. | 3,291 | +8 |
-| [biniou](../r/woolverine94~biniou.md) | a self-hosted webui for 30+ generative ai | 1,150 | +2 |
-| [ODS](../r/osmantic~ods.md) | Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image gen | 6,540 |  |
+| [Octop (Tencent Cloud)](../r/tencentcloud~octop.md) | A smarter, self-hosted AI assistant — multi-user, multi-agent. | 7,915 | +1,752 |
+| [Plane](../r/makeplane~plane.md) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manag | 60,533 | +321 |
+| [Buzz](../r/block~buzz.md) | A hive mind communication platform | 35,667 | +300 |
+| [ODS](../r/osmantic~ods.md) | ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into  | 7,145 | +206 |
+| [Macro](../r/macro-inc~macro.md) | Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared | 4,591 | +86 |
+| [LocalAI](../r/mudler~localai.md) | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU requir | 49,429 | +76 |
+| [Onyx](../r/onyx-dot-app~onyx.md) | Open Source AI Platform - AI Chat with advanced features that works with every LLM | 32,354 | +51 |
+| [LibreTranslate](../r/libretranslate~libretranslate.md) | Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup. | 17,006 | +34 |
+| [OpenBot](https://github.com/regnull/openbot) | Open-source, self-hosted platform for running a team of AI bots that use tools, keep long-term memory, and hand work to  | 29 | +4 |
+| [Self-Hosted AI Stack](../r/hwdsl2~self-hosted-ai-stack.md) | Deploy a complete self-hosted AI stack with Docker Compose: Ollama, LiteLLM, AnythingLLM, Whisper, WhisperLive, Kokoro,  | 162 | +3 |
+| [biniou](../r/woolverine94~biniou.md) | a self-hosted webui for 30+ generative ai | 1,153 | +2 |
+| [ENZO](../r/theguysudo~enzo.md) | Self-hosted AI workspace with agents, skills, and tools (Gmail, Calendar) that runs entirely on your own provider API ke | 111 | +1 |
+| [Cloudflare OS](../r/cloudflare~cloudflare-os.md) | Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’ | 11,267 |  |
+| [Tale](https://github.com/tale-project/tale) | Open-source project workspace for teams and AI agents. Assign tasks, coordinate agents in persistent sandboxes, and revi | 32 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -866,30 +896,29 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Soup](../r/makazhanalpamys~soup.md) | Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU. | 6,652 | +766 |
-| [Marin](../r/marin-community~marin.md) | Open-source framework for the research and development of foundation models. | 3,678 | +605 |
-| [MiniMind](../r/jingyaogong~minimind.md) | 🧠 Train a 64M-parameter LLM from scratch in just 2h! | 61,282 | +199 |
-| [slime](../r/thudm~slime.md) | slime is an LLM post-training framework for RL Scaling. | 8,484 | +122 |
-| [verl](../r/volcengine~verl.md) | verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework  | 23,453 | +110 |
-| [ms-swift](../r/modelscope~ms-swift.md) | Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300 | 15,645 | +82 |
-| [AI-Toolkit](../r/ostris~ai-toolkit.md) | The ultimate training toolkit for finetuning diffusion models | 12,017 | +78 |
-| [NeMo-RL](../r/nvidia-nemo~rl.md) | Scalable toolkit for efficient model reinforcement | 2,021 | +40 |
-| [TorchTitan (PyTorch)](../r/pytorch~torchtitan.md) | A PyTorch native platform for training generative AI models | 5,740 | +29 |
-| [PRIME-RL](../r/primeintellect-ai~prime-rl.md) | Agentic RL Training at Scale | 2,044 | +24 |
-| [OneTrainer](../r/nerogar~onetrainer.md) | OneTrainer is a one-stop solution for all your Diffusion training needs. | 3,206 | +13 |
-| [rLLM](../r/rllm-org~rllm.md) | Democratizing Reinforcement Learning for LLMs | 5,825 | +13 |
-| [VeOmni (ByteDance)](../r/bytedance-seed~veomni.md) | VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo | 2,211 | +13 |
-| [FastChat](../r/lm-sys~fastchat.md) | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | 39,530 | +12 |
-| [kohya_ss](../r/bmaltais~kohya_ss.md) | Gradio-based GUI and CLI for training Stable Diffusion models (LoRA, Dreambooth, fine-tuning, SDXL). Provides accessible | 12,582 | +8 |
-| [EasyR1](../r/hiyouga~easyr1.md) | EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL | 5,163 | +6 |
-| [PaddleNLP](../r/paddlepaddle~paddlenlp.md) | Easy-to-use and powerful LLM and SLM library with awesome model zoo. | 12,975 | +5 |
-| [H2O LLM Studio](../r/h2oai~h2o-llmstudio.md) | H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/ | 5,182 | +4 |
-| [XTuner](../r/internlm~xtuner.md) | A Next-Generation Training Engine Built for Ultra-Large MoE Models | 5,197 | +2 |
-| [FluxGym](../r/cocktailpeanut~fluxgym.md) | Dead simple FLUX LoRA training UI with LOW VRAM support | 3,258 | +1 |
-| [LLM Foundry](../r/mosaicml~llm-foundry.md) | LLM training code for Databricks foundation models | 4,445 | +0 |
-| [LMFlow](../r/optimalscale~lmflow.md) | An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All. | 8,487 | +0 |
-| [Ludwig](../r/ludwig-ai~ludwig.md) | Low-code framework for building custom LLMs, neural networks, and other AI models | 11,757 | -1 |
-| [Oumi](../r/oumi-ai~oumi.md) | Easily fine-tune, evaluate and deploy Qwen, Gemma, or any open weight LLM! | 9,387 | -4 |
+| [Soup](../r/makazhanalpamys~soup.md) | Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU. | 8,344 | +439 |
+| [MiniMind](../r/jingyaogong~minimind.md) | 🧠 Train a 64M-parameter LLM from scratch in just 2h! | 63,327 | +318 |
+| [verl](../r/volcengine~verl.md) | verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework  | 23,790 | +74 |
+| [Marin](../r/marin-community~marin.md) | Open-source framework for the research and development of foundation models. | 3,911 | +69 |
+| [AI-Toolkit](../r/ostris~ai-toolkit.md) | The ultimate training toolkit for finetuning diffusion models | 12,231 | +59 |
+| [PRIME-RL](../r/primeintellect-ai~prime-rl.md) | Agentic RL Training at Scale | 2,136 | +35 |
+| [ms-swift](../r/modelscope~ms-swift.md) | Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.8, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300 | 15,795 | +31 |
+| [slime](../r/thudm~slime.md) | slime is an LLM post-training framework for RL Scaling. | 8,603 | +25 |
+| [TorchTitan (PyTorch)](../r/pytorch~torchtitan.md) | A PyTorch native platform for training generative AI models | 5,788 | +15 |
+| [kohya_ss](../r/bmaltais~kohya_ss.md) | Gradio-based GUI and CLI for training Stable Diffusion models (LoRA, Dreambooth, fine-tuning, SDXL). Provides accessible | 12,617 | +9 |
+| [rLLM](../r/rllm-org~rllm.md) | Democratizing Reinforcement Learning for LLMs | 5,862 | +8 |
+| [NeMo-RL](../r/nvidia-nemo~rl.md) | Scalable toolkit for efficient model reinforcement | 2,051 | +7 |
+| [OneTrainer](../r/nerogar~onetrainer.md) | OneTrainer is a one-stop solution for all your Diffusion training needs. | 3,229 | +7 |
+| [EasyR1](../r/hiyouga~easyr1.md) | EasyR1: An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL | 5,183 | +5 |
+| [VeOmni (ByteDance)](../r/bytedance-seed~veomni.md) | VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo | 2,233 | +3 |
+| [FluxGym](../r/cocktailpeanut~fluxgym.md) | Dead simple FLUX LoRA training UI with LOW VRAM support | 3,256 | +2 |
+| [Ludwig](../r/ludwig-ai~ludwig.md) | Low-code framework for building custom LLMs, neural networks, and other AI models | 11,774 | +2 |
+| [H2O LLM Studio](../r/h2oai~h2o-llmstudio.md) | H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/ | 5,183 | +1 |
+| [PaddleNLP](../r/paddlepaddle~paddlenlp.md) | Easy-to-use and powerful LLM and SLM library with awesome model zoo. | 12,979 | -1 |
+| [XTuner](../r/internlm~xtuner.md) | A Next-Generation Training Engine Built for Ultra-Large MoE Models | 5,205 | -1 |
+| [Oumi](../r/oumi-ai~oumi.md) | Easily fine-tune (SFT/RL), evaluate, and deploy Qwen, Gemma, or any open agentic LLM/VLM! | 9,391 | -2 |
+| [LMFlow](../r/optimalscale~lmflow.md) | An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All. | 8,483 | -3 |
+| [FastChat](../r/lm-sys~fastchat.md) | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | 39,549 | -5 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -897,12 +926,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenSpiel](../r/google-deepmind~open_spiel.md) | OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/plann | 5,489 | +21 |
-| [Tianshou](../r/thu-ml~tianshou.md) | An elegant PyTorch deep reinforcement learning library. | 10,975 | +13 |
-| [Unity ML-Agents](../r/unity-technologies~ml-agents.md) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to se | 19,679 | +13 |
-| [RL Baselines3 Zoo](../r/dlr-rm~rl-baselines3-zoo.md) | A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-train | 2,880 | +1 |
-| [skrl](../r/toni-sm~skrl.md) | Modular Reinforcement Learning (RL) library (implemented in PyTorch, JAX, and NVIDIA Warp) with support for Gymnasium/Gy | 1,097 | +0 |
-| [Finetrainers](../r/huggingface~finetrainers.md) | Scalable and memory-optimized training of diffusion models | 1,359 | -1 |
+| [Unity ML-Agents](../r/unity-technologies~ml-agents.md) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to se | 19,725 | +10 |
+| [OpenSpiel](../r/google-deepmind~open_spiel.md) | OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/plann | 5,519 | +8 |
+| [RL Baselines3 Zoo](../r/dlr-rm~rl-baselines3-zoo.md) | A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-train | 2,888 | +2 |
+| [Finetrainers](../r/huggingface~finetrainers.md) | Scalable and memory-optimized training of diffusion models | 1,361 | +1 |
+| [skrl](../r/toni-sm~skrl.md) | Modular Reinforcement Learning (RL) library (implemented in PyTorch, JAX, and NVIDIA Warp) with support for Gymnasium/Gy | 1,098 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -910,8 +938,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SkillSpector (NVIDIA)](../r/nvidia~skillspector.md) | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data | 17,378 | +220 |
-| [ADR (Uber)](../r/uber~adr.md) | ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber. | 1,568 | +50 |
+| [SkillSpector (NVIDIA)](../r/nvidia~skillspector.md) | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data | 19,681 | +821 |
+| [ADR (Uber)](../r/uber~adr.md) | ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber. | 1,939 | +324 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -919,7 +947,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Aural](../r/1146345502~aural-oss.md) | Open-source AI interview platform for voice, chat & video | 204 |  |
+| [Aural](../r/1146345502~aural-oss.md) | Open-source AI interview platform for voice, chat & video | 210 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -927,10 +955,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ONNX](../r/onnx~onnx.md) | Open standard for machine learning interoperability | 21,492 | +31 |
-| [IREE](../r/iree-org~iree.md) | A retargetable MLIR-based machine learning compiler and runtime toolkit. | 3,929 | +11 |
-| [oneDNN](../r/uxlfoundation~onednn.md) | oneAPI Deep Neural Network Library (oneDNN) | 4,046 | +4 |
-| [Modular Platform](../r/modular~modular.md) | The Modular Platform (includes MAX & Mojo) | 29,777 |  |
+| [Modular Platform](../r/modular~modular.md) | The Modular Platform (includes MAX & Mojo) | 29,932 | +20 |
+| [ONNX](../r/onnx~onnx.md) | Open standard for machine learning interoperability | 21,565 | +14 |
+| [IREE](../r/iree-org~iree.md) | A retargetable MLIR-based machine learning compiler and runtime toolkit. | 3,964 | +9 |
+| [oneDNN](../r/uxlfoundation~onednn.md) | Open-source library of optimized deep learning operations (matmul, convolution, attention) for CPUs (x64, AArch64, RISC- | 4,057 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -938,33 +966,35 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OmniRoute](../r/diegosouzapw~omniroute.md) | Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, | 66,798 | +4,584 |
-| [FreeLLMAPI](../r/tashfeenahmed~freellmapi.md) | 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any cus | 26,541 | +1,326 |
-| [Switchyard](../r/nvidia-nemo~switchyard.md) | Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic  | 3,116 | +575 |
-| [vLLM-Omni](../r/vllm-project~vllm-omni.md) | A framework for efficient model inference with omni-modality models | 6,818 | +169 |
-| [LMCache](../r/lmcache~lmcache.md) | LMCache: Supercharge Your LLM with the Fastest KV Cache Layer | 11,822 | +158 |
-| [llm-d](../r/llm-d~llm-d.md) | Achieve state of the art inference performance with modern accelerators on Kubernetes | 4,555 | +99 |
-| [nano-vLLM](../r/geeeekexplorer~nano-vllm.md) | Nano vLLM | 15,462 | +91 |
-| [NVIDIA Dynamo](../r/ai-dynamo~dynamo.md) | A Datacenter Scale Distributed Inference Serving Framework | 8,089 | +64 |
-| [llamafile](../r/mozilla-ai~llamafile.md) | Distribute and run LLMs with a single file. | 25,971 | +63 |
-| [Higress (Alibaba)](../r/alibaba~higress.md) | 🤖 AI Gateway \| AI Native API Gateway | 9,394 | +51 |
-| [GPUStack](../r/gpustack~gpustack.md) | A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances. | 5,702 | +44 |
-| [KTransformers](../r/kvcache-ai~ktransformers.md) | A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations | 19,520 | +37 |
-| [Microsoft BitNet](../r/microsoft~bitnet.md) | Official inference framework for 1-bit LLMs | 40,265 | +34 |
-| [AIBrix](../r/vllm-project~aibrix.md) | Cost-efficient and pluggable Infrastructure components for GenAI inference | 5,092 | +21 |
-| [OpenLLM (BentoML)](../r/bentoml~openllm.md) | Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud. | 12,533 | +17 |
-| [mistral.rs](../r/ericlbuehler~mistral.rs.md) | Fast, flexible LLM inference | 7,683 | +16 |
-| [Xinference](../r/xorbitsai~inference.md) | Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal mode | 9,569 | +14 |
-| [TabbyAPI](../r/theroyallab~tabbyapi.md) | The official API server for Exllama. OAI compatible, lightweight, and fast. | 1,392 | +12 |
-| [Triton Inference Server](../r/triton-inference-server~server.md) | The Triton Inference Server provides an optimized cloud and edge inferencing solution.  | 10,991 | +12 |
-| [vLLM Production Stack](../r/vllm-project~production-stack.md) | vLLM’s reference system for K8S-native cluster-wide deployment with community-driven performance optimization | 2,574 | +12 |
-| [LightLLM](../r/modeltc~lightllm.md) | LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight desig | 4,290 | +11 |
-| [Aphrodite Engine](../r/aphrodite-engine~aphrodite-engine.md) | Large-scale LLM inference engine | 1,859 | +7 |
-| [LMDeploy](../r/internlm~lmdeploy.md) | LMDeploy is a toolkit for compressing, deploying, and serving LLMs. | 8,076 | +7 |
-| [RTP-LLM (Alibaba)](../r/alibaba~rtp-llm.md) | RTP-LLM: Alibaba's high-performance LLM inference engine for diverse applications. | 1,339 | +6 |
-| [Open Model Engine (OME)](../r/sgl-project~ome.md) | Open Model Engine (OME) — Kubernetes operator for LLM serving, GPU scheduling, and model lifecycle management. Works wit | 508 | +1 |
-| [Bifrost](../r/maximhq~bifrost.md) | Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ mod | 8,108 |  |
-| [LitServe (Lightning AI)](../r/lightning-ai~litserve.md) | A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling. | 3,941 | +0 |
+| [OmniRoute](../r/diegosouzapw~omniroute.md) | Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, | 74,100 | +2,198 |
+| [FreeLLMAPI](../r/tashfeenahmed~freellmapi.md) | 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any cus | 31,921 | +2,067 |
+| [Bifrost](../r/maximhq~bifrost.md) | Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ mod | 8,633 | +137 |
+| [llm-d](../r/llm-d~llm-d.md) | Achieve state of the art inference performance with modern accelerators on Kubernetes | 4,773 | +75 |
+| [Switchyard](../r/nvidia-nemo~switchyard.md) | Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic  | 3,331 | +74 |
+| [nano-vLLM](../r/geeeekexplorer~nano-vllm.md) | Nano vLLM | 15,739 | +64 |
+| [llamafile](../r/mozilla-ai~llamafile.md) | Distribute and run LLMs with a single file. | 26,200 | +63 |
+| [NVIDIA Dynamo](../r/ai-dynamo~dynamo.md) | A Datacenter Scale Distributed Inference Serving Framework | 8,247 | +49 |
+| [LMCache](../r/lmcache~lmcache.md) | LMCache: Supercharge Your LLM with the Fastest KV Cache Layer | 11,977 | +26 |
+| [Triton Inference Server](../r/triton-inference-server~server.md) | The Triton Inference Server provides an optimized cloud and edge inferencing solution.  | 11,054 | +23 |
+| [GPUStack](../r/gpustack~gpustack.md) | A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances. | 5,795 | +22 |
+| [KTransformers](../r/kvcache-ai~ktransformers.md) | A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations | 19,571 | +19 |
+| [Microsoft BitNet](../r/microsoft~bitnet.md) | Official inference framework for 1-bit LLMs | 40,373 | +19 |
+| [Higress (Alibaba)](../r/alibaba~higress.md) | 🤖 AI Gateway \| AI Native API Gateway | 9,498 | +13 |
+| [mistral.rs](../r/ericlbuehler~mistral.rs.md) | Fast, flexible LLM inference | 7,737 | +12 |
+| [vLLM Production Stack](../r/vllm-project~production-stack.md) | vLLM’s reference system for K8S-native cluster-wide deployment with community-driven performance optimization | 2,660 | +10 |
+| [AIBrix](../r/vllm-project~aibrix.md) | Cost-efficient and pluggable Infrastructure components for GenAI inference | 5,128 | +8 |
+| [AISIX](../r/api7~aisix.md) | Open-source AI gateway for LLMs & AI agents, built in Rust. One OpenAI-compatible API for OpenAI, Anthropic, Gemini, Bed | 181 | +8 |
+| [Xinference](../r/xorbitsai~inference.md) | Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal mode | 9,604 | +8 |
+| [LightLLM](../r/modeltc~lightllm.md) | LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight desig | 4,312 | +6 |
+| [TabbyAPI](../r/theroyallab~tabbyapi.md) | The official API server for Exllama. OAI compatible, lightweight, and fast. | 1,458 | +6 |
+| [LMDeploy](../r/internlm~lmdeploy.md) | LMDeploy is a toolkit for compressing, deploying, and serving LLMs. | 8,105 | +2 |
+| [OpenLLM (BentoML)](../r/bentoml~openllm.md) | Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud. | 12,552 | +2 |
+| [Aphrodite Engine](../r/aphrodite-engine~aphrodite-engine.md) | Large-scale LLM inference engine | 1,870 | +1 |
+| [RTP-LLM (Alibaba)](../r/alibaba~rtp-llm.md) | RTP-LLM: Alibaba's high-performance LLM inference engine for diverse applications. | 1,358 | +1 |
+| [fitcheck](https://github.com/SIDDARTHAREDDY8/fitcheck) | KV-cache-aware LLM deployment planner — will this model fit on your GPU(s) at this context length with this engine? | 0 |  |
+| [LitServe (Lightning AI)](../r/lightning-ai~litserve.md) | A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling. | 3,943 | +0 |
+| [Open Model Engine (OME)](../r/sgl-project~ome.md) | Open Model Engine (OME) — Kubernetes operator for LLM serving, GPU scheduling, and model lifecycle management. Works wit | 513 | +0 |
+| [vLLM-Omni](../r/vllm-project~vllm-omni.md) | A framework for efficient model inference with omni-modality models | 7,077 | -88 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -972,7 +1002,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Great Expectations](../r/great-expectations~great_expectations.md) | Always know what to expect from your data. | 11,796 | +18 |
+| [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) | The open archive of how AI agents actually work.  A versioned, verifiable archive of system prompts, developer instructi | 69 | +33 |
+| [Great Expectations](../r/great-expectations~great_expectations.md) | Always know what to expect from your data. | 11,866 | +15 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -980,36 +1011,35 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Skills](../r/mattpocock~skills.md) | Skills for Real Engineers. Straight from my .agents directory. | 263,239 | +15,145 |
-| [Graphify](../r/graphify-labs~graphify.md) | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo | 118,184 | +2,592 |
-| [Impeccable](../r/pbakaus~impeccable.md) | The design language that makes your AI harness better at design. | 68,377 | +2,354 |
-| [Cursor Plugins](../r/cursor~plugins.md) | Cursor plugin specification and official plugins | 7,969 | +1,984 |
-| [Caveman](../r/juliusbrussee~caveman.md) | 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking  | 105,885 | +1,939 |
-| [Archify](../r/tt-a1i~archify.md) | Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained | 64,271 | +1,653 |
-| [Hallmark](../r/nutlope~hallmark.md) | Anti-AI-slop design skill for Claude Code, Cursor, and Codex. | 28,711 | +1,295 |
-| [Understand Anything](../r/egonex-ai~understand-anything.md) | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and  | 83,025 | +733 |
-| [Stop Slop](../r/hardikpandya~stop-slop.md) | A skill file for removing AI tells from prose | 17,217 | +549 |
-| [Claude Video](../r/bradautomates~claude-video.md) | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. | 17,265 | +467 |
-| [Chrome DevTools MCP](../r/chromedevtools~chrome-devtools-mcp.md) | Chrome DevTools for coding agents | 52,110 | +348 |
-| [Serena](../r/oraios~serena.md) | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent | 29,451 | +308 |
-| [Code Review Graph](../r/tirth8205~code-review-graph.md) | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read on | 31,490 | +305 |
-| [Codex Plugin for Claude Code](../r/openai~codex-plugin-cc.md) | Use Codex from Claude Code to review code or delegate tasks. | 33,208 | +305 |
-| [ADHD](../r/uditakhourii~adhd.md) | ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel | 4,187 | +296 |
-| [Claude Plugins Marketplace](../r/anthropics~claude-plugins-official.md) | Official, Anthropic-managed directory of high quality Claude Code Plugins. | 36,397 | +290 |
-| [CAD Skills](../r/earthtojake~text-to-cad.md) | A library of agent skills for CAD, CAE and CAM | 15,950 | +289 |
-| [Compound Engineering](../r/everyinc~compound-engineering-plugin.md) | Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more | 25,100 | +176 |
-| [Unity MCP](../r/coplaydev~unity-mcp.md) | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control sc | 14,254 | +157 |
-| [planning-with-files](../r/othmanadi~planning-with-files.md) | Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery | 26,929 | +124 |
-| [Knowledge Work Plugins (Anthropic)](../r/anthropics~knowledge-work-plugins.md) | Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork | 24,129 | +119 |
-| [Stitch Design Skills](../r/google-labs-code~stitch-skills.md) | A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard | 8,322 | +87 |
-| [.NET Agent Skills](../r/dotnet~skills.md) | Repository for skills to assist AI coding agents with .NET and C# | 5,423 | +65 |
-| [Agent Toolkit for AWS](../r/aws~agent-toolkit-for-aws.md) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 2,640 | +49 |
-| [Peekaboo](../r/steipete~peekaboo.md) | Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the enti | 5,166 | +39 |
-| [avante.nvim](../r/yetone~avante.nvim.md) | Use your Neovim like using Cursor AI IDE! | 18,167 | +18 |
-| [Minuet AI](../r/milanglacier~minuet-ai.nvim.md) | 💃 Dance with Intelligence in Your Code. Minuet offers code completion as-you-type from popular LLMs including OpenAI, G | 1,403 | +8 |
-| [ProxyAI](../r/carlrobertoh~proxyai.md) | The leading open-source AI copilot for JetBrains. Connect to any model in any environment, and customize your coding exp | 1,934 | +1 |
-| [MCP Lens](https://github.com/labmimors/dsh-mcp-lens) | Search 1,000 MCP tools through two interfaces in DeepSeek Harness. Load exact schemas on demand and keep structured resu | 9 |  |
-| [windsurf.vim](../r/exafunction~windsurf.vim.md) | Free, ultrafast Copilot alternative for Vim and Neovim | 5,142 | -2 |
+| [Skills](../r/mattpocock~skills.md) | Skills for Real Engineers. Straight from my .agents directory. | 280,464 | +7,101 |
+| [Impeccable](../r/pbakaus~impeccable.md) | The design language that makes your AI harness better at design. | 78,455 | +5,215 |
+| [Archify](../r/tt-a1i~archify.md) | Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more. | 79,606 | +4,079 |
+| [Graphify](../r/graphify-labs~graphify.md) | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo | 124,813 | +1,899 |
+| [Caveman](../r/juliusbrussee~caveman.md) | 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking  | 110,493 | +1,842 |
+| [CAD Skills](../r/earthtojake~text-to-cad.md) | Give your agent CAD superpowers. | 18,351 | +1,834 |
+| [Knowledge Work Plugins (Anthropic)](../r/anthropics~knowledge-work-plugins.md) | Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork | 27,251 | +1,298 |
+| [Cursor Plugins](../r/cursor~plugins.md) | Cursor plugin specification and official plugins | 10,312 | +1,086 |
+| [Understand Anything](../r/egonex-ai~understand-anything.md) | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and  | 85,572 | +669 |
+| [Hallmark](../r/nutlope~hallmark.md) | Anti-AI-slop design skill for Claude Code, Cursor, and Codex. | 29,761 | +381 |
+| [Claude Video](../r/bradautomates~claude-video.md) | Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. | 18,221 | +336 |
+| [Chrome DevTools MCP](../r/chromedevtools~chrome-devtools-mcp.md) | Chrome DevTools for coding agents | 53,110 | +279 |
+| [Claude Plugins Marketplace](../r/anthropics~claude-plugins-official.md) | Official, Anthropic-managed directory of high quality Claude Code Plugins. | 37,529 | +263 |
+| [Codex Plugin for Claude Code](../r/openai~codex-plugin-cc.md) | Use Codex from Claude Code to review code or delegate tasks. | 33,961 | +215 |
+| [Serena](../r/oraios~serena.md) | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent | 30,096 | +167 |
+| [Unity MCP](../r/coplaydev~unity-mcp.md) | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control sc | 14,766 | +134 |
+| [planning-with-files](../r/othmanadi~planning-with-files.md) | Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery | 27,330 | +107 |
+| [Code Review Graph](../r/tirth8205~code-review-graph.md) | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read on | 31,973 | +90 |
+| [Compound Engineering](../r/everyinc~compound-engineering-plugin.md) | Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more | 25,429 | +72 |
+| [Agent Toolkit for AWS](../r/aws~agent-toolkit-for-aws.md) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 2,827 | +58 |
+| [ADHD](../r/uditakhourii~adhd.md) | ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel | 4,367 | +51 |
+| [.NET Agent Skills](../r/dotnet~skills.md) | Repository for skills to assist AI coding agents with .NET and C# | 5,577 | +47 |
+| [Stitch Design Skills](../r/google-labs-code~stitch-skills.md) | A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard | 8,441 | +32 |
+| [Peekaboo](../r/steipete~peekaboo.md) | Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the enti | 5,264 | +29 |
+| [jev-use](https://github.com/shitianfang/jev-use) | Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) — measu | 51 | +13 |
+| [Minuet AI](../r/milanglacier~minuet-ai.nvim.md) | 💃 Dance with Intelligence in Your Code. Minuet offers code completion as-you-type from popular LLMs including OpenAI, G | 1,421 | +10 |
+| [avante.nvim](../r/yetone~avante.nvim.md) | Use your Neovim like using Cursor AI IDE! | 18,175 | +3 |
+| [MCP Lens](https://github.com/labmimors/dsh-mcp-lens) | Search 1,000 MCP tools through two interfaces in DeepSeek Harness. Load exact schemas on demand and keep structured resu | 9 | +1 |
+| [ProxyAI](../r/carlrobertoh~proxyai.md) | The leading open-source AI copilot for JetBrains. Connect to any model in any environment, and customize your coding exp | 1,935 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1017,11 +1047,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Upscayl](../r/upscayl~upscayl.md) | 🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. | 49,286 | +232 |
-| [stable-diffusion.cpp](../r/leejet~stable-diffusion.cpp.md) | Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++ | 6,992 | +50 |
-| [Krita AI Diffusion](../r/acly~krita-ai-diffusion.md) | Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweakin | 10,592 | +23 |
-| [Stable Diffusion WebUI Forge - Neo](../r/haoming02~sd-webui-forge-classic.md) | The good ol' Forge WebUI, now updated with new features~ | 1,740 | +21 |
-| [SD.Next](../r/vladmandic~sdnext.md) | SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing | 7,341 | +6 |
+| [Upscayl](../r/upscayl~upscayl.md) | 🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. | 50,276 | +234 |
+| [stable-diffusion.cpp](../r/leejet~stable-diffusion.cpp.md) | Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++ | 7,561 | +78 |
+| [Stable Diffusion WebUI Forge - Neo](../r/haoming02~sd-webui-forge-classic.md) | The good ol' Forge WebUI, now updated with new features~ | 1,793 | +20 |
+| [Krita AI Diffusion](../r/acly~krita-ai-diffusion.md) | Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweakin | 10,676 | +19 |
+| [upres-cli](https://github.com/auroracapital/upres-cli) | Official CLI + SDK for upres.ai — image, video, and speech restoration. 14 public aliases, up to 8K. | 0 | +0 |
+| [SD.Next](../r/vladmandic~sdnext.md) | SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing | 7,349 | -5 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1029,12 +1060,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [DeepEP](../r/deepseek-ai~deepep.md) | DeepEP: an efficient expert-parallel communication library | 10,153 | +45 |
-| [DeepGEMM](../r/deepseek-ai~deepgemm.md) | DeepGEMM: clean and efficient BLAS kernel library on GPU | 7,840 | +35 |
-| [ThunderKittens](../r/hazyresearch~thunderkittens.md) | Tile primitives for speedy kernels | 3,709 | +27 |
-| [FlashKDA](../r/moonshotai~flashkda.md) | FlashKDA: high-performance Kimi Delta Attention kernels | 1,252 | +14 |
-| [tt-metal](../r/tenstorrent~tt-metal.md) | 🤘 TT-NN operator library, and TT-Metalium low level kernel programming model. | 1,675 | +12 |
-| [RAFT](../r/rapidsai~raft.md) | RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algo | 1,042 | +0 |
+| [DeepGEMM](../r/deepseek-ai~deepgemm.md) | DeepGEMM: clean and efficient BLAS kernel library on GPU | 8,871 | +964 |
+| [DeepEP](../r/deepseek-ai~deepep.md) | DeepEP: an efficient expert-parallel communication library | 10,249 | +19 |
+| [ThunderKittens](../r/hazyresearch~thunderkittens.md) | Tile primitives for speedy kernels | 3,746 | +12 |
+| [FlashKDA](../r/moonshotai~flashkda.md) | FlashKDA: high-performance Kimi Delta Attention kernels | 1,272 | +8 |
+| [tt-metal](../r/tenstorrent~tt-metal.md) | 🤘 TT-NN operator library, and TT-Metalium low level kernel programming model. | 1,697 | +4 |
+| [RAFT](../r/rapidsai~raft.md) | RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algo | 1,043 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1042,9 +1073,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Marimo](../r/marimo-team~marimo.md) | A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, an | 22,794 | +109 |
-| [Streamlit](../r/streamlit~streamlit.md) | Streamlit — A faster way to build and share data apps. | 45,765 | +45 |
-| [Gradio](../r/gradio-app~gradio.md) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | 43,546 | +40 |
+| [Marimo](../r/marimo-team~marimo.md) | A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, an | 23,060 | +94 |
+| [Streamlit](../r/streamlit~streamlit.md) | Streamlit — A faster way to build and share data apps. | 45,917 | +47 |
+| [Gradio](../r/gradio-app~gradio.md) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | 43,683 | +38 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1052,13 +1083,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [nnsight](../r/ndif-team~nnsight.md) | The nnsight package enables interpreting and manipulating the internals of deep learned models. | 1,101 | +35 |
-| [ELI5](../r/teamhg-memex~eli5.md) | A library for debugging/inspecting machine learning classifiers and explaining their predictions | 2,835 | +14 |
-| [interpret (Microsoft)](../r/interpretml~interpret.md) | Fit interpretable models. Explain blackbox machine learning.  | 6,942 | +11 |
-| [SHAP](../r/shap~shap.md) | A game theoretic approach to explain the output of any machine learning model. | 25,759 | +10 |
-| [EasyEdit](../r/zjunlp~easyedit.md) | [ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs. | 2,920 | +4 |
-| [AIX360](../r/trusted-ai~aix360.md) | Interpretability and explainability of data and machine learning models | 1,802 | +1 |
-| [Shapash](../r/maif~shapash.md) | 🔅 Shapash: User-friendly Explainability and Interpretability to Develop Reliable and Transparent Machine Learning Model | 3,256 | -2 |
+| [SHAP](../r/shap~shap.md) | A game theoretic approach to explain the output of any machine learning model. | 25,799 | +12 |
+| [interpret (Microsoft)](../r/interpretml~interpret.md) | Fit interpretable models. Explain blackbox machine learning.  | 6,956 | +7 |
+| [nnsight](../r/ndif-team~nnsight.md) | The nnsight package enables interpreting and manipulating the internals of deep learned models. | 1,121 | +5 |
+| [AIX360](../r/trusted-ai~aix360.md) | Interpretability and explainability of data and machine learning models | 1,808 | +2 |
+| [EasyEdit](../r/zjunlp~easyedit.md) | [ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs. | 2,928 | +2 |
+| [ELI5](../r/teamhg-memex~eli5.md) | A library for debugging/inspecting machine learning classifiers and explaining their predictions | 2,850 | +0 |
+| [Shapash](../r/maif~shapash.md) | 🔅 Shapash: User-friendly Explainability and Interpretability to Develop Reliable and Transparent Machine Learning Model | 3,260 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1066,9 +1097,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Flux.jl](../r/fluxml~flux.jl.md) | Relax! Flux is the ML library that doesn't make you tensor | 4,745 | +3 |
-| [ModelingToolkit.jl](../r/sciml~modelingtoolkit.jl.md) | An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer al | 1,680 | +3 |
-| [MLJ.jl](../r/juliaai~mlj.jl.md) | A Julia machine learning framework | 1,939 | +1 |
+| [ModelingToolkit.jl](../r/sciml~modelingtoolkit.jl.md) | An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer al | 1,693 | +5 |
+| [Flux.jl](../r/fluxml~flux.jl.md) | Relax! Flux is the ML library that doesn't make you tensor | 4,752 | +1 |
+| [MLJ.jl](../r/juliaai~mlj.jl.md) | A Julia machine learning framework | 1,941 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1076,9 +1107,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Semantica](../r/semantica-agi~semantica.md) | Graph-Native Infrastructure for Context and Accountable AI Systems | 12,961 | +1,944 |
-| [Graphiti](../r/getzep~graphiti.md) | Build Real-Time Knowledge Graphs for AI Agents | 30,923 | +247 |
-| [Code-Graph-RAG](../r/vitali87~code-graph-rag.md) | The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowle | 5,138 | +228 |
+| [Graphiti](../r/getzep~graphiti.md) | Build Real-Time Knowledge Graphs for AI Agents | 31,549 | +209 |
+| [Semantica](../r/semantica-agi~semantica.md) | Graph-Native Infrastructure for Context and Accountable AI Systems | 13,807 | +204 |
+| [Code-Graph-RAG](../r/vitali87~code-graph-rag.md) | The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowle | 5,239 | +49 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1086,15 +1117,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Rig](../r/0xplaygrounds~rig.md) | ⚙️🦀 Build modular and scalable LLM Applications in Rust | 8,646 | +86 |
-| [Eino](../r/cloudwego~eino.md) | The ultimate LLM/AI application development framework in Go. | 13,072 | +69 |
-| [Spring AI](../r/spring-projects~spring-ai.md) | An Application Framework for AI Engineering | 9,449 | +33 |
-| [Genkit](../r/genkit-ai~genkit.md) | Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production by Goo | 6,443 | +27 |
-| [aisuite](../r/andrewyng~aisuite.md) | Simple, unified interface to multiple Generative AI providers  | 16,275 | +21 |
-| [ruby_llm](../r/crmne~ruby_llm.md) | The Ruby-native AI framework. Chats, agents, tools, images, audio, and video through one consistent API, in plain Ruby o | 4,373 | +19 |
-| [Ax](../r/ax-llm~ax.md) | The pretty much "official" DSPy framework for Typescript | 2,924 | +11 |
-| [ContextGem](../r/shcherbak-ai~contextgem.md) | ContextGem: Effortless LLM extraction from documents | 2,003 | +3 |
-| [LangChain.rb](../r/patterns-ai-core~langchainrb.md) | Build LLM-powered applications in Ruby | 1,997 | +2 |
+| [Rig](../r/0xplaygrounds~rig.md) | ⚙️🦀 Build modular and scalable LLM Applications in Rust | 8,830 | +46 |
+| [Eino](../r/cloudwego~eino.md) | The ultimate LLM/AI application development framework in Go. | 13,257 | +37 |
+| [Genkit](../r/genkit-ai~genkit.md) | Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production by Goo | 6,482 | +19 |
+| [ruby_llm](../r/crmne~ruby_llm.md) | The Ruby-native AI framework. Chats, agents, tools, images, audio, and video through one consistent API, in plain Ruby o | 4,435 | +12 |
+| [Spring AI](../r/spring-projects~spring-ai.md) | An Application Framework for AI Engineering | 9,515 | +12 |
+| [Ax](../r/ax-llm~ax.md) | The pretty much "official" DSPy framework for Typescript | 2,962 | +6 |
+| [aisuite](../r/andrewyng~aisuite.md) | Simple, unified interface to multiple Generative AI providers  | 16,323 | +2 |
+| [ContextGem](../r/shcherbak-ai~contextgem.md) | ContextGem: Effortless LLM extraction from documents | 2,007 | +1 |
+| [LangChain.rb](../r/patterns-ai-core~langchainrb.md) | Build LLM-powered applications in Ruby | 1,999 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1102,8 +1133,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [GLM-5](../r/zai-org~glm-5.md) | GLM-5: From Vibe Coding to Agentic Engineering | 7,192 | +47 |
-| [MiniCPM](../r/openbmb~minicpm.md) | MiniCPM5: SOTA on-device LLMs, small yet powerful. | 11,021 | +40 |
+| [MiniCPM](../r/openbmb~minicpm.md) | MiniCPM5: SOTA on-device LLMs, small yet powerful. | 11,435 | +93 |
+| [Bonsai Demo](../r/prismml-eng~bonsai-demo.md) | Bonsai Demo | 3,296 | +46 |
+| [GLM-5](../r/zai-org~glm-5.md) | GLM-5: From Vibe Coding to Agentic Engineering | 7,298 | +35 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1111,9 +1143,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Mamba (State Space Models)](../r/state-spaces~mamba.md) | Mamba SSM architecture | 18,838 | +27 |
-| [GPT-OSS (OpenAI)](../r/openai~gpt-oss.md) | gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI | 20,402 | +24 |
-| [RWKV-7 "Goose" (BlinkDL)](../r/blinkdl~rwkv-lm.md) | RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer | 14,709 | +15 |
+| [GPT-OSS (OpenAI)](../r/openai~gpt-oss.md) | gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI | 20,456 | +14 |
+| [RWKV-7 "Goose" (BlinkDL)](../r/blinkdl~rwkv-lm.md) | RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer | 14,744 | +11 |
+| [Mamba (State Space Models)](../r/state-spaces~mamba.md) | Mamba SSM architecture | 18,888 | +7 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1121,8 +1153,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Harvey LAB](../r/harveyai~harvey-labs.md) | A benchmark built to evaluate and improve agent capabilities for supporting legal work. | 1,361 | +39 |
-| [OpenContracts](../r/open-source-legal~opencontracts.md) | The open document intelligence platform for builders and hackers - DMS for the agentic world | 1,479 | +8 |
+| [Harvey LAB](../r/harveyai~harvey-labs.md) | A benchmark built to evaluate and improve agent capabilities for supporting legal work. | 1,421 | +20 |
+| [OpenContracts](../r/open-source-legal~opencontracts.md) | The open document intelligence platform for builders and hackers - DMS for the agentic world | 1,502 | +9 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1130,19 +1162,25 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Needle](../r/cactus-compute~needle.md) | 14MB foundation model for tiny devices; phones, wearables, smart home, and robots. | 11,052 | +1,762 |
-| [omlx](../r/jundot~omlx.md) | LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar | 21,795 | +1,421 |
-| [llmfit](../r/alexsjones~llmfit.md) | Hundreds of models & providers. One command to find what runs on your hardware. | 36,652 | +1,370 |
-| [llama.cpp](../r/ggml-org~llama.cpp.md) | LLM inference in C/C++ | 128,403 | +1,069 |
-| [ds4](../r/antirez~ds4.md) | DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm | 22,445 | +216 |
-| [exo](../r/exo-explore~exo.md) | Run frontier AI locally. | 47,456 | +155 |
-| [LiteRT-LM](../r/google-ai-edge~litert-lm.md) | LiteRT-LM is Google's production-ready, high-performance, open-source inference framework for deploying Large Language M | 6,458 | +56 |
-| [LiteRT](../r/google-ai-edge~litert.md) | LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge | 3,407 | +22 |
-| [WebLLM](../r/mlc-ai~web-llm.md) | High-performance In-browser LLM Inference Engine  | 19,134 | +21 |
-| [RamaLama](../r/containers~ramalama.md) | RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates | 3,051 | +12 |
-| [Foundry Local](../r/microsoft~foundry-local.md) | Open-source on-device AI platform covering discovery, model running, sandboxed execution, and evaluation of open models. | 2,551 | +7 |
-| [Potato OS](../r/slomin~potato-os.md) | Local AI box on Raspberry Pi.  | 107 | +1 |
-| [qwen3.8-flash-next-in-c](https://github.com/shyringo/qwen3.8-flash-next-in-c) | The best model under 200B at near 10 token/s exact batch throughput on a single laptop CPU, with an automatic 8 GB RAM p | 12 |  |
+| [Colibri](../r/justvugg~colibri.md) | Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immens | 40,439 | +1,697 |
+| [ds4](../r/antirez~ds4.md) | DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm | 23,692 | +865 |
+| [llama.cpp](../r/ggml-org~llama.cpp.md) | LLM inference in C/C++ | 130,668 | +637 |
+| [Magnitude](../r/magnitudedev~magnitude.md) | Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on | 6,498 | +593 |
+| [Needle](../r/cactus-compute~needle.md) | Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones | 13,416 | +505 |
+| [llmfit](../r/alexsjones~llmfit.md) | Hundreds of models & providers. One command to find what runs on your hardware. | 37,706 | +296 |
+| [omlx](../r/jundot~omlx.md) | LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar | 22,630 | +214 |
+| [exo](../r/exo-explore~exo.md) | Run frontier AI locally. | 47,785 | +75 |
+| [LiteRT-LM](../r/google-ai-edge~litert-lm.md) | LiteRT-LM is Google's production-ready, high-performance, open-source inference framework for deploying Large Language M | 6,610 | +56 |
+| [WebLLM](../r/mlc-ai~web-llm.md) | High-performance In-browser LLM Inference Engine  | 19,244 | +33 |
+| [LiteRT](../r/google-ai-edge~litert.md) | LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge | 3,473 | +12 |
+| [Claude Code Local](../r/nicedreamzapp~claude-code-local.md) | Run Claude Code 100% on-device with local AI on Apple Silicon. MLX-native Anthropic-API server. 6 fighters incl. Muse-Gl | 3,346 | +10 |
+| [RamaLama](../r/containers~ramalama.md) | RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates | 3,074 | +8 |
+| [Foundry Local](../r/microsoft~foundry-local.md) | Open-source on-device AI platform covering discovery, model running, sandboxed execution, and evaluation of open models. | 2,577 | +5 |
+| [qwen3.8-flash-next-in-c](https://github.com/shyringo/qwen3.8-flash-next-in-c) | The best model under 200B at near 10 token/s exact batch throughput on a single laptop CPU, with an automatic 8 GB RAM p | 18 | +2 |
+| [llm-vram-calculator](https://github.com/159753a52/llm-vram-calculator) | Free LLM VRAM calculator core behind modelvram.com: GPU memory for weights, KV cache and overhead of any Hugging Face mo | 1 | +1 |
+| [llmash](https://github.com/omgitsbase/llmash) | Ollama-compatible LLM server on a tuned llama.cpp fork. Same commands, API and model store as Ollama, up to 4x Ollama's  | 14 |  |
+| [nemotron-omni-mlx](https://github.com/nicedreamzapp/nemotron-omni-mlx) | Run NVIDIA's tri-modal Nemotron Omni (text+vision+audio) entirely on Apple Silicon — pure MLX runtime, parity-verified a | 12 | +0 |
+| [Potato OS](../r/slomin~potato-os.md) | Local AI box on Raspberry Pi.  | 111 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1150,25 +1188,26 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenHuman](../r/tinyhumansai~openhuman.md) | OpenHuman is an open source agent harness with local-first memory, agent orchestration, and workflows | 39,816 | +1,165 |
-| [CoPaw](../r/agentscope-ai~copaw.md) | Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps wit | 35,016 | +488 |
-| [AIRI](../r/moeru-ai~airi.md) | 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds,  | 49,175 | +361 |
-| [AstrBot](../r/astrbotdevs~astrbot.md) | AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can b | 40,570 | +262 |
-| [Next AI Draw.io](../r/dayuanjiang~next-ai-draw-io.md) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify,  | 35,887 | +242 |
-| [nanobot](../r/hkuds~nanobot.md) | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi- | 48,210 | +237 |
-| [LobeHub](../r/lobehub~lobehub.md) | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reportin | 82,522 | +179 |
-| [LifeOS](../r/danielmiessler~lifeos.md) | ⛰️ The Life Operating System — an intent engineering platform that moves you from your current state to your ideal state | 19,030 | +145 |
-| [Open-LLM-VTuber](../r/open-llm-vtuber~open-llm-vtuber.md) | Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D avatar running locally across platform | 13,779 | +137 |
-| [Casibase](../r/casibase~casibase.md) | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and co | 5,626 | +35 |
-| [ThoughtDAG](../r/chenxiachan~thoughtdag.md) | Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph. Wires are  | 460 | +35 |
-| [NextChat](../r/chatgptnextweb~nextchat.md) | ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSe | 88,769 | +31 |
-| [Leon](../r/leon-ai~leon.md) | 🧠 Leon is your open-source personal assistant. | 17,515 | +15 |
-| [Morphic](../r/miurla~morphic.md) | An AI-powered search engine with a generative UI | 9,122 | +13 |
-| [big-AGI](../r/enricoros~big-agi.md) | AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions | 7,126 | +12 |
-| [BionicGPT](../r/bionic-gpt~bionic-gpt.md) | Bionic is sovereign AI for the enterprise — ChatGPT-like AI that runs on-premise and can securely work with your sensiti | 2,372 | +6 |
-| [Willow](../r/heywillow~willow.md) | Open source, local, and self-hosted Amazon Echo/Google Home competitive Voice Assistant alternative | 3,103 | +4 |
-| [Smart2Brain](../r/your-papa~obsidian-smart2brain.md) | A free, open-source Obsidian plugin that makes your vault smarter: better search, an interactive knowledge graph, and an | 1,261 | +1 |
-| [lucinate](https://github.com/lucinate-ai/lucinate) | Terminal-native chat client for OpenClaw, Hermes, Ollama and OpenAI-compatible providers. A pure, beautiful terminal cha | 11 |  |
+| [OpenHuman](../r/tinyhumansai~openhuman.md) | OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust | 41,657 | +1,306 |
+| [AstrBot](../r/astrbotdevs~astrbot.md) | AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can b | 41,549 | +273 |
+| [AIRI](../r/moeru-ai~airi.md) | 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds,  | 50,168 | +256 |
+| [nanobot](../r/hkuds~nanobot.md) | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi- | 48,859 | +147 |
+| [CoPaw](../r/agentscope-ai~copaw.md) | Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps wit | 35,501 | +104 |
+| [LifeOS](../r/danielmiessler~lifeos.md) | ⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work. | 19,354 | +94 |
+| [ThoughtDAG](../r/chenxiachan~thoughtdag.md) | Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph. Wires are  | 581 | +67 |
+| [Next AI Draw.io](../r/dayuanjiang~next-ai-draw-io.md) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify,  | 36,141 | +51 |
+| [Open-LLM-VTuber](../r/open-llm-vtuber~open-llm-vtuber.md) | Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D avatar running locally across platform | 14,010 | +46 |
+| [Casibase](../r/casibase~casibase.md) | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and co | 5,692 | +14 |
+| [Thursday](https://github.com/cgoinglove/thursday) | Talk, and a team of bots does the work in a real browser, a shell and your files while she keeps talking. Open source, r | 34 | +11 |
+| [Leon](../r/leon-ai~leon.md) | 🧠 Leon is your open-source personal assistant. | 17,561 | +10 |
+| [NextChat](../r/chatgptnextweb~nextchat.md) | ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSe | 88,836 | +6 |
+| [Willow](../r/heywillow~willow.md) | Open source, local, and self-hosted Amazon Echo/Google Home competitive Voice Assistant alternative | 3,125 | +6 |
+| [Morphic](../r/miurla~morphic.md) | An AI-powered search engine with a generative UI | 9,157 | +5 |
+| [Smart2Brain](../r/your-papa~obsidian-smart2brain.md) | A free, open-source Obsidian plugin that makes your vault smarter: better search, an interactive knowledge graph, and an | 1,309 | +5 |
+| [BionicGPT](../r/bionic-gpt~bionic-gpt.md) | Bionic is sovereign Agentic AI for the enterprise — Runs on-premise and can securely work with your sensitive data and s | 2,384 | +4 |
+| [big-AGI](../r/enricoros~big-agi.md) | AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions | 7,138 | +2 |
+| [lucinate](https://github.com/lucinate-ai/lucinate) | Terminal-native chat client for OpenClaw, Hermes, Ollama and OpenAI-compatible providers. A pure, beautiful terminal cha | 12 | +1 |
+| [Arelis](https://github.com/sAnct1x/Arelis) | Personal research assistant for your Windows PC. Local model through Ollama, no account, no chat API. She searches, driv | 4 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1176,9 +1215,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenMed](../r/maziyarpanahi~openmed.md) | Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 2,200+ medical models, 2 | 5,329 | +107 |
-| [nnU-Net](../r/mic-dkfz~nnunet.md) | Self-configuring deep learning method for medical image segmentation. Automatically adapts to any dataset without manual | 8,883 | +33 |
-| [MONAI](../r/project-monai~monai.md) | AI Toolkit for Healthcare Imaging | 8,687 | +25 |
+| [MONAI](../r/project-monai~monai.md) | AI Toolkit for Healthcare Imaging | 8,761 | +27 |
+| [nnU-Net](../r/mic-dkfz~nnunet.md) | Self-configuring deep learning method for medical image segmentation. Automatically adapts to any dataset without manual | 8,938 | +16 |
+| [OpenMed](../r/maziyarpanahi~openmed.md) | Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 2,200+ medical models, 2 | 5,457 | +13 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1186,18 +1225,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Hugging Face Hub](../r/huggingface~huggingface_hub.md) | The official CLI and Python client for the Hugging Face Hub. | 3,902 | +27 |
-| [ModelScope](../r/modelscope~modelscope.md) | ModelScope: bring the notion of Model-as-a-Service to life. | 9,138 | +14 |
-| [Civitai](../r/civitai~civitai.md) | A repository of models, textual inversions, and more | 7,249 | +10 |
-| [TorchVision Models](../r/pytorch~vision.md) | Datasets, Transforms and Models specific to Computer Vision | 17,913 | +9 |
-| [ONNX Model Zoo](../r/onnx~models.md) | A collection of pre-trained, state-of-the-art models in the ONNX format  | 9,798 | +8 |
-| [PINTO Model Zoo](../r/pinto0309~pinto_model_zoo.md) | A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are Tens | 4,604 | +6 |
-| [Cerebras Model Zoo](../r/cerebras~modelzoo.md) | Collection of deep learning models and utilities optimized for Cerebras hardware. Includes reference implementations for | 1,195 | +3 |
-| [Transformers.js](../r/huggingface~transformers.js.md) | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! | 16,295 | +3 |
-| [DJL (Deep Java Library)](../r/deepjavalibrary~djl.md) | An Engine-Agnostic Deep Learning Framework in Java | 4,856 | +2 |
-| [OpenVINO Open Model Zoo](../r/openvinotoolkit~open_model_zoo.md) | Pre-trained Deep Learning models and demos (high quality and extremely fast) | 4,431 | +2 |
-| [PaddleClas](../r/paddlepaddle~paddleclas.md) | A treasure chest for visual classification and recognition powered by PaddlePaddle | 5,845 | +2 |
-| [TensorFlow Model Garden](../r/tensorflow~models.md) | Models and examples built with TensorFlow | 77,658 | -1 |
+| [Hugging Face Hub](../r/huggingface~huggingface_hub.md) | The official CLI and Python client for the Hugging Face Hub. | 3,962 | +17 |
+| [Transformers.js](../r/huggingface~transformers.js.md) | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! | 16,342 | +7 |
+| [TorchVision Models](../r/pytorch~vision.md) | Datasets, Transforms and Models specific to Computer Vision | 17,945 | +6 |
+| [Civitai](../r/civitai~civitai.md) | A repository of models, textual inversions, and more | 7,271 | +5 |
+| [PINTO Model Zoo](../r/pinto0309~pinto_model_zoo.md) | A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are Tens | 4,623 | +5 |
+| [ONNX Model Zoo](../r/onnx~models.md) | A collection of pre-trained, state-of-the-art models in the ONNX format  | 9,816 | +3 |
+| [PaddleClas](../r/paddlepaddle~paddleclas.md) | A treasure chest for visual classification and recognition powered by PaddlePaddle | 5,849 | +3 |
+| [TensorFlow Model Garden](../r/tensorflow~models.md) | Models and examples built with TensorFlow | 77,655 | +3 |
+| [Cerebras Model Zoo](../r/cerebras~modelzoo.md) | Collection of deep learning models and utilities optimized for Cerebras hardware. Includes reference implementations for | 1,203 | +1 |
+| [DJL (Deep Java Library)](../r/deepjavalibrary~djl.md) | An Engine-Agnostic Deep Learning Framework in Java | 4,855 | +1 |
+| [ModelScope](../r/modelscope~modelscope.md) | ModelScope: bring the notion of Model-as-a-Service to life. | 9,164 | -1 |
+| [OpenVINO Open Model Zoo](../r/openvinotoolkit~open_model_zoo.md) | Pre-trained Deep Learning models and demos (high quality and extremely fast) | 4,431 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1205,7 +1244,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Cog (Replicate)](../r/replicate~cog.md) | Containers for machine learning | 9,479 | +2 |
+| [Cog (Replicate)](../r/replicate~cog.md) | Containers for machine learning | 9,486 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1213,8 +1252,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [LLM Compressor (vLLM)](../r/vllm-project~llm-compressor.md) | Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM | 3,788 | +31 |
-| [NVIDIA Model Optimizer](../r/nvidia~model-optimizer.md) | A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture se | 3,813 | +26 |
+| [NVIDIA Model Optimizer](../r/nvidia~model-optimizer.md) | A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture se | 5,241 | +118 |
+| [LLM Compressor (vLLM)](../r/vllm-project~llm-compressor.md) | State-of-the-art LLM compression, built for production inference with vLLM | 3,857 | +19 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1222,10 +1261,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SHAP](../r/shap~shap.md) | A game theoretic approach to explain the output of any machine learning model. | 25,759 | +10 |
-| [PyTorch Ignite](../r/pytorch~ignite.md) | High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently. | 4,786 | +3 |
-| [NVIDIA Apex](../r/nvidia~apex.md) | A PyTorch Extension:  Tools for easy mixed precision and distributed training in Pytorch | 8,999 | +2 |
-| [skorch](../r/skorch-dev~skorch.md) | A scikit-learn compatible neural network library that wraps PyTorch | 6,179 | +2 |
+| [SHAP](../r/shap~shap.md) | A game theoretic approach to explain the output of any machine learning model. | 25,799 | +12 |
+| [PyTorch Ignite](../r/pytorch~ignite.md) | High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently. | 4,792 | +3 |
+| [NVIDIA Apex](../r/nvidia~apex.md) | A PyTorch Extension:  Tools for easy mixed precision and distributed training in Pytorch | 9,004 | +2 |
+| [skorch](../r/skorch-dev~skorch.md) | A scikit-learn compatible neural network library that wraps PyTorch | 6,179 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1233,23 +1272,24 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [LiteLLM](../r/berriai~litellm.md) | The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra | 58,871 | +597 |
-| [Future AGI](../r/future-agi~future-agi.md) | Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals | 2,019 | +106 |
-| [Portkey Gateway](../r/portkey-ai~gateway.md) | A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardrails with 1 fast & friendly API | 13,009 | +65 |
-| [Agenta](../r/agenta-ai~agenta.md) | Agenta is a workspace where you and your team build agents and automations. | 4,758 | +40 |
-| [Envoy AI Gateway](../r/envoyproxy~ai-gateway.md) | Manages Unified Access to Generative AI Services built on Envoy Gateway | 2,104 | +21 |
-| [OpenLIT](../r/openlit~openlit.md) | Open-source observability & evaluation platform for AI agents and coding agents. Trace LLMs, tools, prompts, costs & age | 2,769 | +20 |
-| [Helicone](../r/helicone~helicone.md) | 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 | 6,159 | +17 |
-| [OpenLLMetry (Traceloop)](../r/traceloop~openllmetry.md) | Open-source observability for your GenAI or LLM application, based on OpenTelemetry | 7,433 | +17 |
-| [Giskard](../r/giskard-ai~giskard-oss.md) | 🐢 Open-Source Evaluation & Testing library for LLM Agents | 5,818 | +12 |
-| [Latitude](../r/latitude-dev~latitude-llm.md) | Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify t | 4,648 | +12 |
-| [Microsoft PromptFlow](../r/microsoft~promptflow.md) | Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring. | 11,241 | +6 |
-| [ChainForge](../r/ianarawjo~chainforge.md) | An open-source visual programming environment for battle-testing prompts to LLMs. | 3,029 | +1 |
-| [flameox](../r/morluto~flameox.md) | Runtime evidence that helps agents trace, profile, and burn down hotspots in application and native code, GPU kernels, a | 114 | +1 |
-| [Pezzo](../r/pezzolabs~pezzo.md) | 🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant deliv | 3,273 | +1 |
-| [Awesome Agentic Engineering](https://github.com/lindixu6-hash/awesome-agentic-engineering) | Executable AI agent readiness gate: GitHub Action, prompt injection evals, LangGraph traces, risk profiles, and bilingua | 2 |  |
-| [OrcaReplay](../r/continuum-ai-corp~orcareplay.md) | OrcaReplay — Time travel for AI agents. Record, replay, fork, and debug any agent run with any model. Built by the OrcaR | 248 |  |
-| [KubeStellar Console](../r/kubestellar~console.md) | World's first fully integrated and fully Automated Kubernetes management and orchestration solution | 136 | -1 |
+| [LiteLLM](../r/berriai~litellm.md) | The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra | 60,352 | +374 |
+| [Envoy AI Gateway](../r/envoyproxy~ai-gateway.md) | Manages Unified Access to Generative AI Services built on Envoy Gateway | 2,199 | +34 |
+| [Portkey Gateway](../r/portkey-ai~gateway.md) | A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardrails with 1 fast & friendly API | 13,149 | +29 |
+| [Giskard](../r/giskard-ai~giskard-oss.md) | 🐢 Open-Source Evaluation & Testing library for LLM Agents | 5,874 | +26 |
+| [OpenLIT](../r/openlit~openlit.md) | OpenLIT is the open-source agent harness engineering platform: trace, evaluate, guard, and improve everything around the | 2,832 | +23 |
+| [Future AGI](../r/future-agi~future-agi.md) | Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals | 2,124 | +22 |
+| [Agenta](../r/agenta-ai~agenta.md) | Agenta is a workspace where you and your team build agents and automations. | 4,818 | +19 |
+| [Latitude](../r/latitude-dev~latitude-llm.md) | Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify t | 4,715 | +19 |
+| [Helicone](../r/helicone~helicone.md) | 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 | 6,207 | +17 |
+| [OpenLLMetry (Traceloop)](../r/traceloop~openllmetry.md) | Open-source observability for your GenAI or LLM application, based on OpenTelemetry | 7,478 | +15 |
+| [OrcaReplay](../r/continuum-ai-corp~orcareplay.md) | OrcaReplay — Time travel for AI agents. Record, replay, fork, and debug any agent run with any model. Built by the OrcaR | 282 | +11 |
+| [KubeStellar Console](../r/kubestellar~console.md) | World's first fully integrated and fully Automated Kubernetes management and orchestration solution | 143 | +3 |
+| [Microsoft PromptFlow](../r/microsoft~promptflow.md) | Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring. | 11,243 | +3 |
+| [ChainForge](../r/ianarawjo~chainforge.md) | An open-source visual programming environment for battle-testing prompts to LLMs. | 3,034 | +2 |
+| [flameox](../r/morluto~flameox.md) | Runtime evidence that helps agents trace, profile, and burn down hotspots in application and native code, GPU kernels, a | 116 | +2 |
+| [Unified AI System](https://github.com/happy520ai/unified-ai-system) | Self-hosted model routing gateway and agent control plane for OpenAI, Anthropic, Gemini and A2A agents behind one OpenAI | 8 | +1 |
+| [Awesome Agentic Engineering](https://github.com/lindixu6-hash/awesome-agentic-engineering) | Executable AI agent readiness gate: GitHub Action, prompt injection evals, LangGraph traces, risk profiles, and bilingua | 2 | +0 |
+| [Pezzo](../r/pezzolabs~pezzo.md) | 🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant deliv | 3,277 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1257,43 +1297,51 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Panniantong/Agent-Reach](../r/panniantong~agent-reach.md) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongSh | 82,268 | +2,367 |
-| [Ruflo](../r/ruvnet~ruflo.md) | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conver | 72,588 | +1,200 |
-| [Paperclip](../r/paperclipai~paperclip.md) | The open-source app everyone uses to manage agents at work | 80,806 | +576 |
-| [DeepAgents](../r/langchain-ai~deepagents.md) | The batteries-included agent harness. | 29,472 | +535 |
-| [AgentScope](../r/agentscope-ai~agentscope.md) | Build and run agents you can see, understand and trust. | 31,795 | +520 |
-| [MiroFish](../r/666ghj~mirofish.md) | A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 | 73,702 | +370 |
-| [Composio Agent Orchestrator](../r/composiohq~agent-orchestrator.md) | Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, we | 12,099 | +334 |
-| [Microsoft Agent Framework](../r/microsoft~agent-framework.md) | A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .N | 13,547 | +237 |
-| [OpenAI Agents SDK](../r/openai~openai-agents-python.md) | A lightweight, powerful framework for multi-agent workflows | 29,485 | +201 |
-| [Council of High Intelligence](../r/0xnyk~council-of-high-intelligence.md) | Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across C | 4,240 | +174 |
-| [Gas Town](../r/gastownhall~gastown.md) | Gas Town - multi-agent workspace manager | 18,080 | +114 |
-| [Symphony](../r/openai~symphony.md) | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supe | 27,230 | +112 |
-| [ChatDev](../r/openbmb~chatdev.md) | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | 34,320 | +103 |
-| [A2A Protocol](../r/a2aproject~a2a.md) | Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications. | 25,795 | +96 |
-| [elizaOS](../r/elizaos~eliza.md) | Open source agentic operating system | 19,343 | +77 |
-| [xerrors/Yuxi](../r/xerrors~yuxi.md) | 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and  | 7,029 | +56 |
-| [Sim Studio](../r/simstudioai~sim.md) | Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders. | 29,648 | +47 |
-| [AI Town](../r/a16z-infra~ai-town.md) | A MIT-licensed, deployable starter kit for building and customizing your own version of AI town - a virtual town where A | 10,502 | +43 |
-| [Open Multi-Agent](../r/open-multi-agent~open-multi-agent.md) | Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it. | 6,931 | +43 |
-| [Open Deep Research](../r/langchain-ai~open_deep_research.md) | Open-source deep research assistant that orchestrates language models and search tools to run multi-step web research an | 12,681 | +42 |
-| [Hive (Aden)](../r/aden-hive~hive.md) | Multi-Agent Harness for Production AI | 11,046 | +40 |
-| [CAMEL](../r/camel-ai~camel.md) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | 17,726 | +37 |
-| [777genius/agent-teams-ai](../r/777genius~agent-teams-ai.md) | You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. | 2,126 | +34 |
-| [Conductor OSS](../r/conductor-oss~conductor.md) | Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applica | 32,199 | +22 |
-| [Agency Swarm](../r/vrsen~agency-swarm.md) | Reliable Multi-Agent Orchestration Framework | 4,563 | +11 |
-| [DeepResearchAgent](../r/skyworkai~deepresearchagent.md) | DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-pu | 3,541 | +11 |
-| [OpenAgents](../r/openagents-org~openagents.md) | OpenAgents - The collaboration OS for AI agents | 4,095 | +10 |
-| [SIA](../r/hexo-ai~sia.md) | SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a bench | 2,152 | +9 |
-| [2FastLabs Agent Squad](../r/2fastlabs~agent-squad.md) | Flexible and powerful framework for managing multiple AI agents and handling complex conversations | 7,765 | +7 |
-| [Agent Squad (AWS Labs)](../r/awslabs~agent-squad.md) | Flexible and powerful framework for managing multiple AI agents and handling complex conversations | 7,765 | +7 |
-| [BeeAI Framework (IBM)](../r/i-am-bee~beeai-framework.md) | Build production-ready AI agents in both Python and Typescript. | 3,401 | +3 |
-| [Agentlas OS Agent Operation Environment (AOE)](../r/agentlas-ai~agentlas-os.md) | Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model. | 1,112 |  |
-| [fractal](../r/plasma-ai~fractal.md) | Hierarchical agent loops with recursive self-organization. | 727 |  |
-| [Maka](../r/apache~maka.md) | Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did. | 5,489 |  |
-| [munder-difflin](../r/chaitanyagiri~munder-difflin.md) | A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office  | 7,315 |  |
-| [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus) | A framework for building nexuses of agents -- where intelligence emerges from interaction, not isolation. | 87 |  |
-| [Nika](https://github.com/supernovae-st/nika) | Intent as Code \| the workflow language for AI. One file, 4 verbs, one Rust binary. Local-first, any model, AGPL-3.0. 🦋 | 78 |  |
+| [Panniantong/Agent-Reach](../r/panniantong~agent-reach.md) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongSh | 93,805 | +6,777 |
+| [Paperclip](../r/paperclipai~paperclip.md) | The open-source app everyone uses to manage agents at work | 98,658 | +3,129 |
+| [OpenRig](../r/mvschwarz~openrig.md) | Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned w | 5,974 | +2,673 |
+| [MiroFish](../r/666ghj~mirofish.md) | A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 | 77,115 | +1,605 |
+| [AX (Google)](../r/google~ax.md) | Google's open agentic orchestration runtime | 13,308 | +570 |
+| [Ruflo](../r/ruvnet~ruflo.md) | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conver | 74,108 | +499 |
+| [StarNet](../r/androoagi~starnet.md) | A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, wa | 1,219 | +433 |
+| [munder-difflin](../r/chaitanyagiri~munder-difflin.md) | an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on y | 8,582 | +358 |
+| [Composio Agent Orchestrator](../r/composiohq~agent-orchestrator.md) | Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, we | 12,894 | +304 |
+| [Raven](../r/evermind-ai~raven.md) | The Harness of Harnesses • built for RSI: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain coll | 5,293 | +270 |
+| [AgentScope](../r/agentscope-ai~agentscope.md) | Build and run agents you can see, understand and trust. | 32,895 | +254 |
+| [Strands Agent Harness](../r/strands-agents~harness-sdk.md) | Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any  | 8,734 | +140 |
+| [DeepAgents](../r/langchain-ai~deepagents.md) | The batteries-included agent harness. | 30,021 | +133 |
+| [Microsoft Agent Framework](../r/microsoft~agent-framework.md) | A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .N | 14,003 | +113 |
+| [OpenAI Agents SDK](../r/openai~openai-agents-python.md) | A lightweight, powerful framework for multi-agent workflows | 29,907 | +111 |
+| [Symphony](../r/openai~symphony.md) | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supe | 27,600 | +99 |
+| [A2A Protocol](../r/a2aproject~a2a.md) | Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications. | 26,072 | +93 |
+| [Gas Town](../r/gastownhall~gastown.md) | Gas Town - multi-agent workspace manager | 18,302 | +73 |
+| [xerrors/Yuxi](../r/xerrors~yuxi.md) | 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG, Self-hosted knowledge agent pl | 7,313 | +62 |
+| [777genius/agent-teams-ai](../r/777genius~agent-teams-ai.md) | You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. | 2,237 | +39 |
+| [elizaOS](../r/elizaos~eliza.md) | Open source agentic operating system | 19,561 | +34 |
+| [ChatDev](../r/openbmb~chatdev.md) | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | 34,464 | +33 |
+| [Sim Studio](../r/simstudioai~sim.md) | Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders. | 29,793 | +32 |
+| [Council of High Intelligence](../r/0xnyk~council-of-high-intelligence.md) | Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across C | 4,566 | +31 |
+| [CAMEL](../r/camel-ai~camel.md) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | 17,825 | +26 |
+| [AI Town](../r/a16z-infra~ai-town.md) | A MIT-licensed, deployable starter kit for building and customizing your own version of AI town - a virtual town where A | 10,598 | +22 |
+| [Conductor OSS](../r/conductor-oss~conductor.md) | Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applica | 32,268 | +21 |
+| [Open Multi-Agent](../r/open-multi-agent~open-multi-agent.md) | Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it. | 6,990 | +18 |
+| [OpenAgents](../r/openagents-org~openagents.md) | OpenAgents - The collaboration OS for AI agents | 4,182 | +17 |
+| [2FastLabs Agent Squad](../r/2fastlabs~agent-squad.md) | Flexible and powerful framework for managing multiple AI agents and handling complex conversations | 7,790 | +11 |
+| [Agent Squad (AWS Labs)](../r/awslabs~agent-squad.md) | Flexible and powerful framework for managing multiple AI agents and handling complex conversations | 7,790 | +11 |
+| [Maka](../r/apache~maka.md) | Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did. | 5,694 | +7 |
+| [Agency Swarm](../r/vrsen~agency-swarm.md) | Reliable Multi-Agent Orchestration Framework | 4,593 | +6 |
+| [BeeAI Framework (IBM)](../r/i-am-bee~beeai-framework.md) | Build production-ready AI agents in both Python and Typescript. | 3,427 | +2 |
+| [DeepResearchAgent](../r/skyworkai~deepresearchagent.md) | DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-pu | 3,556 | +2 |
+| [fractal](../r/plasma-ai~fractal.md) | Hierarchical agent loops with recursive self-organization. | 782 | +2 |
+| [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus) | A framework for building nexuses of agents -- where intelligence emerges from interaction, not isolation. | 88 | +2 |
+| [Nika](https://github.com/supernovae-st/nika) | Intent as Code \| the workflow language for AI. One file, 4 verbs, one Rust binary. Local-first, any model, AGPL-3.0. 🦋 | 91 | +1 |
+| [5dive](https://github.com/5dive-ai/5dive) | Run a company of AI agents on a server you own. Spin up named agents (claude, codex, pi…), put them on an org chart with | 66 |  |
+| [Claudexor](../r/razzant~claudexor.md) | Multi-harness control plane for Claude Code, Codex, Cursor, and OpenCode: quota-aware rotation across multiple Claude/Co | 496 |  |
+| [EvoFlux](https://github.com/evoelsewhere/evoflux) | Evoflux is an open-source, local-first workspace where AI agents build software, conduct deep research, automate browser | 11 | +0 |
+| [Open Deep Research](../r/langchain-ai~open_deep_research.md) | Open-source deep research assistant that orchestrates language models and search tools to run multi-step web research an | 12,683 | +0 |
+| [SIA](../r/hexo-ai~sia.md) | SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a bench | 2,159 | -1 |
+| [Hive (Aden)](../r/aden-hive~hive.md) | Multi-Agent Harness for Production AI | 11,087 | -10 |
+| [Agentlas OS Agent Operation Environment (AOE)](../r/agentlas-ai~agentlas-os.md) | Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model. | 1,576 | -37 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1301,9 +1349,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [NVIDIA Cosmos](../r/nvidia~cosmos.md) | NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for  | 11,826 | +79 |
-| [Eagle](../r/nvlabs~eagle.md) | Eagle: Frontier Vision-Language Models with Data-Centric Strategies | 3,574 | +46 |
-| [openai/CLIP](../r/openai~clip.md) | CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image | 34,313 | +36 |
+| [NVIDIA Cosmos](../r/nvidia~cosmos.md) | NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for  | 11,990 | +30 |
+| [Eagle](../r/nvlabs~eagle.md) | Eagle: Frontier Vision-Language Models with Data-Centric Strategies | 3,688 | +22 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1311,10 +1358,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Depth Anything V2](../r/depthanything~depth-anything-v2.md) | [NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation | 8,817 | +34 |
-| [Moondream (m87-labs)](../r/m87-labs~moondream.md) | tiny vision language model | 10,048 | +32 |
-| [OmniParser (Microsoft)](../r/microsoft~omniparser.md) | A simple screen parsing tool towards pure vision based GUI agent | 25,389 | +27 |
-| [OpenCLIP](../r/mlfoundations~open_clip.md) | An open source implementation of CLIP. | 14,143 | +14 |
+| [Moondream (m87-labs)](../r/m87-labs~moondream.md) | tiny vision language model | 10,095 | +17 |
+| [OpenCLIP](../r/mlfoundations~open_clip.md) | An open source implementation of CLIP. | 14,187 | +12 |
+| [OmniParser (Microsoft)](../r/microsoft~omniparser.md) | A simple screen parsing tool towards pure vision based GUI agent | 25,493 | +10 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1322,9 +1368,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [LibreTranslate](../r/libretranslate~libretranslate.md) | Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup. | 16,659 | +99 |
-| [spaCy (Explosion AI)](../r/explosion~spacy.md) | 💫 Industrial-strength Natural Language Processing (NLP) in Python | 33,900 | +17 |
-| [fairseq2](../r/facebookresearch~fairseq2.md) | FAIR Sequence Modeling Toolkit 2 | 1,149 | -1 |
+| [LibreTranslate](../r/libretranslate~libretranslate.md) | Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup. | 17,006 | +34 |
+| [spaCy (Explosion AI)](../r/explosion~spacy.md) | 💫 Industrial-strength Natural Language Processing (NLP) in Python | 33,950 | +19 |
+| [fairseq2](../r/facebookresearch~fairseq2.md) | FAIR Sequence Modeling Toolkit 2 | 1,152 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1332,21 +1378,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Open Notebook](../r/lfnovo~open-notebook.md) | An Open Source implementation of Notebook LM with more flexibility and features | 38,973 | +569 |
-| [Quarto](../r/quarto-dev~quarto-cli.md) | Open-source scientific and technical publishing system built on Pandoc. | 6,000 | +23 |
-| [Deta Surf](../r/deta~surf.md) | Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open mode | 3,568 | +12 |
-| [Deepnote](../r/deepnote~deepnote.md) | Deepnote is a drop-in replacement for Jupyter with an AI-first design, sleek UI, new blocks, and native data integration | 3,009 | +1 |
-| [FilePilot AI](https://github.com/cuiheng511/filepilot-ai) | Local-first file intelligence: desktop app, CLI, and safe MCP server for AI agents. | 17 | +0 |
-| [Zasper](../r/zasper-io~zasper.md) | High Performace IDE for Jupyter Notebooks | 2,337 | +0 |
-| [Drawdata](../r/koaning~drawdata.md) | Draw datasets from within Python notebooks. | 1,672 | -2 |
-
-[Back to top](#awesome-open-source-ai)
-
-## Portrait Animation
-
-| Repo | Description | Stars | 7d |
-|------|-------------|-------|----|
-| [EchoMimic (Ant Group)](../r/antgroup~echomimic.md) | [AAAI 2025] EchoMimic: Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditioning | 4,298 | +1 |
+| [Open Notebook](../r/lfnovo~open-notebook.md) | An Open Source implementation of Notebook LM with more flexibility and features | 39,940 | +259 |
+| [Quarto](../r/quarto-dev~quarto-cli.md) | Open-source scientific and technical publishing system built on Pandoc. | 6,063 | +19 |
+| [Deta Surf](../r/deta~surf.md) | Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open mode | 3,597 | +13 |
+| [Deepnote](../r/deepnote~deepnote.md) | Deepnote is a drop-in replacement for Jupyter with an AI-first design, sleek UI, new blocks, and native data integration | 3,015 | +6 |
+| [Zasper](../r/zasper-io~zasper.md) | High Performace IDE for Jupyter Notebooks | 2,355 | +4 |
+| [Drawdata](../r/koaning~drawdata.md) | Draw datasets from within Python notebooks. | 1,674 | +1 |
+| [FilePilot AI](https://github.com/cuiheng511/filepilot-ai) | Local-first file intelligence: desktop app, CLI, and safe MCP server for AI agents. | 18 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1354,7 +1392,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Presidio (Microsoft)](../r/microsoft~presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, an | 10,886 | +87 |
+| [Presidio (Microsoft)](../r/microsoft~presidio.md) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, an | 11,224 | +100 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1362,9 +1400,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [PyMC](../r/pymc-devs~pymc.md) | Bayesian Modeling and Probabilistic Programming in Python | 9,753 | +12 |
-| [Stanza](../r/stanfordnlp~stanza.md) | Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages | 7,876 | +3 |
-| [ArviZ](../r/arviz-devs~arviz.md) | Exploratory analysis of Bayesian models with Python | 1,852 | +2 |
+| [PyMC](../r/pymc-devs~pymc.md) | Bayesian Modeling and Probabilistic Programming in Python | 9,796 | +10 |
+| [Stanza](../r/stanfordnlp~stanza.md) | Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages | 7,894 | +4 |
+| [ArviZ](../r/arviz-devs~arviz.md) | Exploratory analysis of Bayesian models with Python | 1,858 | +2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1372,10 +1410,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [GEPA](../r/gepa-ai~gepa.md) | Optimize prompts, code, and more with AI-powered Reflective Optimization | 6,600 | +85 |
-| [Helicone](../r/helicone~helicone.md) | 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 | 6,159 | +17 |
-| [Entroly](../r/juyterman1000~entroly.md) | Cut AI context cost without trusting the compressor. Every reduction is reversible, byte-exact recoverable, and carries  | 444 | +2 |
-| [Vibe-Coding Prompt Template](../r/khazp~vibe-coding-prompt-template.md) | Templates and workflow for generating PRDs, Tech Designs, and MVP and more using LLMs for AI IDEs | 3,081 |  |
+| [GEPA](../r/gepa-ai~gepa.md) | Optimize prompts, code, and more with AI-powered Reflective Optimization | 6,906 | +76 |
+| [Webcmd](../r/agentrhq~webcmd.md) | Self-learning agent browser | 2,661 | +36 |
+| [Helicone](../r/helicone~helicone.md) | 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 | 6,207 | +17 |
+| [Vibe-Coding Prompt Template](../r/khazp~vibe-coding-prompt-template.md) | Templates and workflow for generating PRDs, Tech Designs, and MVP and more using LLMs for AI IDEs | 3,131 | +11 |
+| [Entroly](../r/juyterman1000~entroly.md) | Cut AI context cost without trusting the compressor. Every reduction is reversible, byte-exact recoverable, and carries  | 474 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1383,14 +1422,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Prompt Optimizer](../r/linshenkx~prompt-optimizer.md) | An AI prompt optimizer for writing better prompts and getting better AI results. | 34,828 | +158 |
-| [Outlines](../r/dottxt-ai~outlines.md) | Structured Outputs | 15,810 | +49 |
-| [XGrammar](../r/mlc-ai~xgrammar.md) | Fast, Flexible and Portable Structured Generation | 1,889 | +17 |
-| [LangGPT](../r/langgptai~langgpt.md) | LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 | 12,528 | +16 |
-| [AdalFlow](../r/sylphai-inc~adalflow.md) | AdalFlow: The library to build & auto-optimize LLM applications. | 4,215 | +3 |
-| [Guidance](../r/guidance-ai~guidance.md) | A guidance language for controlling large language models. | 21,754 | +2 |
-| [LM Format Enforcer](../r/noamgat~lm-format-enforcer.md) | Enforce the output format (JSON Schema, Regex etc) of a language model | 2,037 | +1 |
-| [Promptify](../r/promptslab~promptify.md) | Prompt Engineering \| Prompt Versioning \| Use GPT or other prompt based models to get structured output. Join our discord | 4,638 | +1 |
+| [Prompt Optimizer](../r/linshenkx~prompt-optimizer.md) | An AI prompt optimizer for writing better prompts and getting better AI results. | 36,841 | +761 |
+| [Outlines](../r/dottxt-ai~outlines.md) | Structured Outputs | 15,908 | +14 |
+| [LangGPT](../r/langgptai~langgpt.md) | LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 | 12,581 | +13 |
+| [Guidance](../r/guidance-ai~guidance.md) | A guidance language for controlling large language models. | 21,787 | +3 |
+| [XGrammar](../r/mlc-ai~xgrammar.md) | Fast, Flexible and Portable Structured Generation | 1,945 | +3 |
+| [AdalFlow](../r/sylphai-inc~adalflow.md) | AdalFlow: The library to build & auto-optimize LLM applications. | 4,223 | +2 |
+| [guidelint](https://github.com/SIDDARTHAREDDY8/guidelint) | Preflight linter for structured-output / constrained-decoding configs — catch silently-ignored constraints before they h | 0 |  |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1398,7 +1436,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [GGUF](../r/ggml-org~llama.cpp.md) | LLM inference in C/C++ | 128,403 | +1,069 |
+| [GGUF](../r/ggml-org~llama.cpp.md) | LLM inference in C/C++ | 130,668 | +637 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1406,40 +1444,39 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MinerU](../r/opendatalab~mineru.md) | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | 80,027 | +548 |
-| [EmbedChain](../r/embedchain~embedchain.md) | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for  | 65,394 | +484 |
-| [Marker](../r/datalab-to~marker.md) | Convert PDF to markdown + JSON quickly with high accuracy | 39,773 | +369 |
-| [LightRAG](../r/hkuds~lightrag.md) | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation | 39,695 | +225 |
-| [PageIndex (VectifyAI)](../r/vectifyai~pageindex.md) | 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG | 35,655 | +93 |
-| [RAG-Anything](../r/hkuds~rag-anything.md) | "RAG-Anything: All-in-One RAG Framework" | 23,338 | +87 |
-| [MaxKB](../r/1panel-dev~maxkb.md) | 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。 | 22,806 | +64 |
-| [FastGPT](../r/labring~fastgpt.md) | FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities suc | 29,670 | +63 |
-| [Kernel Memory (Microsoft)](../r/microsoft~kernel-memory.md) | Research project. A Memory solution for users, teams, and applications. | 2,236 | +60 |
-| [SurfSense](../r/modsetter~surfsense.md) | Open-source NotebookLM alternative. Research the open web with live data(Reddit, YT, IG, TikTok, Indeed, Google Search,  | 16,157 | +56 |
-| [LangChain4j](../r/langchain4j~langchain4j.md) | LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unif | 13,109 | +51 |
-| [DB-GPT](../r/eosphoros-ai~db-gpt.md) | open-source agentic AI data assistant for the next generation of AI + Data products. | 19,974 | +50 |
-| [Reader (Jina AI)](../r/jina-ai~reader.md) | Convert any URL to an LLM-friendly input with a simple prefix https://r.jina.ai/ | 12,008 | +26 |
-| [PrivateGPT](../r/zylon-ai~private-gpt.md) | Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works wi | 57,515 | +19 |
-| [Chonkie](../r/chonkie-inc~chonkie.md) | 🦛 CHONK docs with Chonkie ✨ — The lightweight ingestion library for fast, efficient and robust RAG pipelines | 4,751 | +17 |
-| [Semantic Router](../r/aurelio-labs~semantic-router.md) | Superfast AI decision making and intelligent processing of multi-modal data. | 3,897 | +16 |
-| [Kotaemon (Cinnamon)](../r/cinnamon~kotaemon.md) | An open-source RAG-based tool for chatting with your documents. | 25,769 | +12 |
-| [txtai](../r/neuml~txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 12,951 | +12 |
-| [FlashRAG](../r/ruc-nlpir~flashrag.md) | ⚡FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource) | 3,573 | +11 |
-| [Infinity (AI Database)](../r/infiniflow~infinity.md) | The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vecto | 4,707 | +8 |
-| [DocsGPT](../r/arc53~docsgpt.md) | Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analys | 18,267 | +4 |
-| [Infinity](../r/michaelfeil~infinity.md) | Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali | 2,941 | +4 |
-| [localGPT](../r/promtengineer~localgpt.md) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.  | 22,198 | +3 |
-| [GPT-RAG (Azure)](../r/azure~gpt-rag.md) | Enterprise-grade accelerator for agentic RAG on Azure. Built on Microsoft Foundry with Foundry IQ as the default retriev | 1,177 | +2 |
-| [Neurite](../r/satellitecomponent~neurite.md) | Fractal Graph-of-Thought. Rhizomatic Mind-Mapping for Ai-Agents, Web-Links, Notes, and Code. | 2,132 | +2 |
-| [UltraRAG (OpenBMB)](../r/openbmb~ultrarag.md) | A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines | 5,694 | +2 |
-| [AutoFlow](../r/pingcap~autoflow.md) | pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage.  | 2,970 | +1 |
-| [Beever Atlas](../r/beever-ai~beever-atlas.md) | Your First LLM-Wiki Conversation Knowledge Base | 445 | +1 |
-| [Morphik](../r/morphik-org~morphik-core.md) | Open-source multimodal retrieval engine (Morphik Core). By Morphik — AI back office for skilled nursing & senior living  | 3,711 | +1 |
-| [VidXP](https://github.com/grayhatdevelopers/vidxp) | VidXP (Video eXPlain) - Video Indexing Engine. Search in videos in natural language. 👀 Connect your Hermes / Claude / O | 52 | +1 |
-| [PieKBS](https://github.com/pieteams/piekbs) | Agent-native LLM Wiki (Karpathy-style) RAG: distill raw docs → structured Markdown wiki → hybrid search via MCP | 5 |  |
-| [llmware](../r/llmware-ai~llmware.md) | Unified framework for building enterprise RAG pipelines with small, specialized models | 14,843 | -2 |
-| [RAGLite (Superlinear)](../r/superlinear-ai~raglite.md) | 🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL | 1,200 | -2 |
-| [Pathway](../r/pathwaycom~pathway.md) | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. | 62,284 | -40 |
+| [WeKnora](../r/tencent~weknora.md) | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-m | 32,563 | +977 |
+| [PageIndex (VectifyAI)](../r/vectifyai~pageindex.md) | 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG | 38,973 | +659 |
+| [EmbedChain](../r/embedchain~embedchain.md) | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for  | 66,809 | +400 |
+| [MinerU](../r/opendatalab~mineru.md) | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | 81,286 | +353 |
+| [Marker](../r/datalab-to~marker.md) | Convert PDF to markdown + JSON quickly with high accuracy | 40,259 | +117 |
+| [LightRAG](../r/hkuds~lightrag.md) | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation | 40,014 | +71 |
+| [Reader (Jina AI)](../r/jina-ai~reader.md) | Convert any URL to an LLM-friendly input with a simple prefix https://r.jina.ai/ | 12,127 | +45 |
+| [LangChain4j](../r/langchain4j~langchain4j.md) | LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unif | 13,215 | +29 |
+| [RAG-Anything](../r/hkuds~rag-anything.md) | "RAG-Anything: All-in-One RAG Framework" | 23,497 | +26 |
+| [DocsGPT](../r/arc53~docsgpt.md) | Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analys | 18,317 | +22 |
+| [SurfSense](../r/modsetter~surfsense.md) | Air gapped, privacy focused open source NotebookLM alternative. Join our Discord: https://discord.gg/ejRNvftDp9 | 16,334 | +22 |
+| [MaxKB](../r/1panel-dev~maxkb.md) | 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。 | 22,916 | +15 |
+| [DB-GPT](../r/eosphoros-ai~db-gpt.md) | open-source agentic AI data assistant for the next generation of AI + Data products. | 20,087 | +14 |
+| [FastGPT](../r/labring~fastgpt.md) | FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities suc | 29,788 | +9 |
+| [GPT-RAG (Azure)](../r/azure~gpt-rag.md) | Enterprise-grade landing zone for AI agent applications on Azure. Deploy the secure infrastructure, the agent app, or bo | 1,187 | +8 |
+| [txtai](../r/neuml~txtai.md) | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows | 12,998 | +8 |
+| [Chonkie](../r/chonkie-inc~chonkie.md) | 🦛 CHONK docs with Chonkie ✨ — The lightweight ingestion library for fast, efficient and robust RAG pipelines | 4,786 | +7 |
+| [Semantic Router](../r/aurelio-labs~semantic-router.md) | Superfast AI decision making and intelligent processing of multi-modal data. | 3,943 | +7 |
+| [UltraRAG (OpenBMB)](../r/openbmb~ultrarag.md) | A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines | 5,717 | +6 |
+| [Kotaemon (Cinnamon)](../r/cinnamon~kotaemon.md) | An open-source RAG-based tool for chatting with your documents. | 25,796 | +4 |
+| [AutoFlow](../r/pingcap~autoflow.md) | pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage.  | 2,978 | +3 |
+| [PrivateGPT](../r/zylon-ai~private-gpt.md) | Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works wi | 57,560 | +3 |
+| [Infinity (AI Database)](../r/infiniflow~infinity.md) | The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vecto | 4,734 | +2 |
+| [PieKBS](https://github.com/pieteams/piekbs) | Agent-native LLM Wiki (Karpathy-style) RAG: distill raw docs → structured Markdown wiki → hybrid search via MCP | 6 | +0 |
+| [RAGLite (Superlinear)](../r/superlinear-ai~raglite.md) | 🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL | 1,208 | +0 |
+| [VidXP](https://github.com/grayhatdevelopers/vidxp) | VidXP (Video eXPlain) - Video Indexing Engine. Search in videos in natural language. 👀 Connect your Hermes / Claude / O | 53 | +0 |
+| [Beever Atlas](../r/beever-ai~beever-atlas.md) | Your First LLM-Wiki Conversation Knowledge Base | 449 | -1 |
+| [Morphik](../r/morphik-org~morphik-core.md) | Open-source multimodal retrieval engine (Morphik Core) | 3,715 | -1 |
+| [Kernel Memory (Microsoft)](../r/microsoft~kernel-memory.md) | Research project. A Memory solution for users, teams, and applications. | 2,233 | -2 |
+| [FlashRAG](../r/ruc-nlpir~flashrag.md) | ⚡FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource) | 3,584 | -3 |
+| [llmware](../r/llmware-ai~llmware.md) | Unified framework for building enterprise RAG pipelines with small, specialized models | 14,819 | -7 |
+| [localGPT](../r/promtengineer~localgpt.md) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.  | 22,188 | -8 |
+| [Pathway](../r/pathwaycom~pathway.md) | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. | 62,157 | -46 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1447,11 +1484,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [LeRobot (Hugging Face)](../r/huggingface~lerobot.md) | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning | 27,531 | +174 |
-| [MuJoCo](../r/google-deepmind~mujoco.md) | Multi-Joint dynamics with Contact. A general purpose physics simulator. | 15,166 | +79 |
-| [OpenEnv](../r/huggingface~openenv.md) | An interface library for RL post training with environments.  | 2,585 | +9 |
-| [JaxMARL](../r/flairox~jaxmarl.md) | Multi-Agent Reinforcement Learning with JAX | 854 | +2 |
-| [MicroDuck RL](../r/pollen-robotics~microduck_rl.md) | RL training environments for Microduck (mjlab) | 2,146 |  |
+| [LeRobot (Hugging Face)](../r/huggingface~lerobot.md) | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning | 28,001 | +114 |
+| [MuJoCo](../r/google-deepmind~mujoco.md) | Multi-Joint dynamics with Contact. A general purpose physics simulator. | 15,519 | +98 |
+| [OpenEnv](../r/huggingface~openenv.md) | An interface library for RL post training with environments.  | 2,680 | +47 |
+| [MicroDuck RL](../r/pollen-robotics~microduck_rl.md) | RL training environments for Microduck (mjlab) | 2,379 | +30 |
+| [JaxMARL](../r/flairox~jaxmarl.md) | Multi-Agent Reinforcement Learning with JAX | 855 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1459,8 +1496,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Agent Governance Toolkit](../r/microsoft~agent-governance-toolkit.md) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering | 6,272 | +141 |
-| [Responsible AI Toolbox](../r/microsoft~responsible-ai-toolbox.md) | Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libra | 1,834 | +2 |
+| [Agent Governance Toolkit](../r/microsoft~agent-governance-toolkit.md) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering | 6,408 | +38 |
+| [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) | An open database of real-world AI agent incidents. | 14 | +6 |
+| [Responsible AI Toolbox](../r/microsoft~responsible-ai-toolbox.md) | Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libra | 1,845 | +5 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1468,7 +1506,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [linfa](../r/rust-ml~linfa.md) | A Rust machine learning framework. | 4,749 | +5 |
+| [linfa](../r/rust-ml~linfa.md) | A Rust machine learning framework. | 4,754 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1476,10 +1514,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Vercel AI SDK](../r/vercel~ai.md) | The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-po | 26,782 | +138 |
-| [IBM MCP Context Forge](../r/ibm~mcp-context-forge.md) | An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint wi | 4,479 | +33 |
-| [GitHub Copilot SDK](../r/github~copilot-sdk.md) | Multi-platform SDK for integrating GitHub Copilot Agent into apps and services | 10,479 | +20 |
-| [Fern](../r/fern-api~fern.md) | Input OpenAPI. Output SDKs and Docs. | 3,781 | +3 |
+| [Vercel AI SDK](../r/vercel~ai.md) | The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-po | 27,165 | +96 |
+| [IBM MCP Context Forge](../r/ibm~mcp-context-forge.md) | An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint wi | 4,584 | +28 |
+| [GitHub Copilot SDK](../r/github~copilot-sdk.md) | Multi-platform SDK for integrating GitHub Copilot Agent into apps and services | 10,545 | +13 |
+| [Fern](../r/fern-api~fern.md) | Input OpenAPI. Output SDKs and Docs. | 3,806 | +7 |
+| [Cortex](../r/cortex-docs~cortex.md) | Cortex - Generates interactive API documentation, typed SDKs, and MCP servers from OpenAPI, AsyncAPI, GraphQL, gRPC, Ope | 3,233 | -5 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1487,9 +1526,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Inspect AI](../r/ukgovernmentbeis~inspect_ai.md) | Inspect: A framework for large language model evaluations | 2,782 | +51 |
-| [AgentOps](../r/agentops-ai~agentops.md) | Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frame | 5,821 | +17 |
-| [Bloom](../r/safety-research~bloom.md) | bloom - evaluate any behavior immediately  🌸🌱 | 1,403 | +3 |
+| [Inspect AI](../r/ukgovernmentbeis~inspect_ai.md) | Inspect: A framework for large language model evaluations | 2,958 | +53 |
+| [AgentOps](../r/agentops-ai~agentops.md) | Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frame | 5,887 | +26 |
+| [Bloom](../r/safety-research~bloom.md) | bloom - evaluate any behavior immediately  🌸🌱 | 1,411 | +2 |
+| [AgentShield Benchmark](https://github.com/doronp/agentshield-benchmark) | Open benchmark for AI agent security tools — prompt injection, data exfiltration, tool abuse, provenance | 27 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1497,9 +1537,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [DeepChem](../r/deepchem~deepchem.md) | Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology | 6,999 | +14 |
-| [Protenix](../r/bytedance~protenix.md) | Toward High-Accuracy Open-Source Biomolecular Structure Prediction. | 2,055 | +12 |
-| [Boltz](../r/jwohlwend~boltz.md) | Official repository for the Boltz biomolecular interaction models | 4,210 | +10 |
+| [DeepChem](../r/deepchem~deepchem.md) | Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology | 7,042 | +17 |
+| [Boltz](../r/jwohlwend~boltz.md) | Official repository for the Boltz biomolecular interaction models | 4,236 | +9 |
+| [Protenix](../r/bytedance~protenix.md) | Toward High-Accuracy Open-Source Biomolecular Structure Prediction. | 2,069 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1507,9 +1547,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [NVIDIA Modulus](../r/nvidia~modulus.md) | Open-source deep-learning framework for building, training, and fine-tuning deep learning models using state-of-the-art  | 3,255 | +29 |
-| [Astropy](../r/astropy~astropy.md) | Astronomy and astrophysics core library | 5,305 | +10 |
-| [TorchGeo](../r/microsoft~torchgeo.md) | TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data | 4,182 | +9 |
+| [NVIDIA Modulus](../r/nvidia~modulus.md) | Open-source deep-learning framework for building, training, and fine-tuning deep learning models using state-of-the-art  | 3,326 | +18 |
+| [Astropy](../r/astropy~astropy.md) | Astronomy and astrophysics core library | 5,330 | +9 |
+| [TorchGeo](../r/microsoft~torchgeo.md) | TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data | 4,196 | +4 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1517,31 +1557,31 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Computer (Cloudflare)](../r/cloudflare~computer.md) | Give your agent a computer 👾 | 9,192 | +300 |
-| [AutoGPT](../r/significant-gravitas~autogpt.md) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha | 187,380 | +192 |
-| [OpenProgram](../r/fzkuji~openprogram.md) | Self-Programming AI Assistant. Capture, automate, and refine all your workflows. | 497 | +148 |
-| [Agno](../r/agno-agi~agno.md) | Build, run, and manage agent platforms. | 42,196 | +144 |
-| [PydanticAI](../r/pydantic~pydantic-ai.md) | How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end | 19,978 | +126 |
-| [Agent Development Kit (Google)](../r/google~adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibili | 21,550 | +106 |
-| [Page Agent](../r/alibaba~page-agent.md) | JavaScript in-page GUI agent. Control web interfaces with natural language. | 29,081 | +103 |
-| [Flue](../r/withastro~flue.md) | The sandbox agent framework. | 8,245 | +89 |
-| [Embabel](../r/embabel~embabel-agent.md) | Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/ | 4,450 | +69 |
-| [Strands Agents](../r/strands-agents~sdk-python.md) | Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any  | 7,262 | +64 |
-| [Agent-Native](../r/builderio~agent-native.md) | A framework for building agentic apps | 4,788 | +48 |
-| [Ouroboros](../r/razzant~ouroboros.md) | Ouroboros — self-creating AI agent. Born Feb 16, 2026. | 1,330 | +43 |
-| [VoltAgent](../r/voltagent~voltagent.md) | AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework | 10,629 | +40 |
-| [rlm](../r/alexzhang13~rlm.md) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | 5,629 | +28 |
-| [PocketFlow](../r/the-pocket~pocketflow.md) | Pocket Flow: 100-line LLM framework. Let Agents build Agents! | 11,173 | +19 |
-| [Burr](../r/apache~burr.md) | Build applications that make decisions (chatbots, agents, simulations, etc...). Monitor, trace, persist, and execute on  | 2,549 | +10 |
-| [Neuron AI](../r/neuron-core~neuron-ai.md) | The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, T | 2,096 | +7 |
-| [Octomind](../r/muvon~octomind.md) | Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon. | 138 | +5 |
-| [Jido](../r/agentjido~jido.md) | 🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows. | 1,860 | +4 |
-| [Upsonic](../r/upsonic~upsonic.md) | Build autonomous AI agents in Python. | 7,955 | +4 |
-| [II-Agent (Intelligent Internet)](../r/intelligent-internet~ii-agent.md) | II-Agent: a new open-source framework to build and deploy intelligent agents | 3,385 | +3 |
-| [KaibanJS](../r/kaiban-ai~kaibanjs.md) | KaibanJS is a JavaScript-native framework for building and managing multi-agent systems  with a Kanban-inspired approach | 1,477 | +2 |
-| [Langroid](../r/langroid~langroid.md) | Harness LLMs with Multi-Agent Programming | 4,104 | +1 |
-| [Marvin](../r/prefecthq~marvin.md) | an ambient intelligence library | 6,199 | +1 |
-| [Griptape](../r/griptape-ai~griptape.md) | Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory.  | 2,577 | +0 |
+| [PydanticAI](../r/pydantic~pydantic-ai.md) | How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end | 20,487 | +179 |
+| [Computer (Cloudflare)](../r/cloudflare~computer.md) | Give your agent a computer 👾 | 9,511 | +170 |
+| [Agno](../r/agno-agi~agno.md) | Build, run, and manage agent platforms. | 42,612 | +167 |
+| [Strands Agents](../r/strands-agents~sdk-python.md) | Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any  | 8,734 | +140 |
+| [Agent-Native](../r/builderio~agent-native.md) | A framework for building agentic apps | 7,093 | +86 |
+| [AutoGPT](../r/significant-gravitas~autogpt.md) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha | 187,698 | +66 |
+| [Page Agent](../r/alibaba~page-agent.md) | JavaScript in-page GUI agent. Control web interfaces with natural language. | 29,359 | +60 |
+| [Agent Development Kit (Google)](../r/google~adk-python.md) | An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibili | 21,743 | +56 |
+| [VoltAgent](../r/voltagent~voltagent.md) | AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework | 10,753 | +45 |
+| [Flue](../r/withastro~flue.md) | The sandbox agent framework. | 8,445 | +32 |
+| [rlm](../r/alexzhang13~rlm.md) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | 5,676 | +25 |
+| [Ouroboros](../r/razzant~ouroboros.md) | Ouroboros — self-creating AI agent. Born Feb 16, 2026. | 1,419 | +21 |
+| [Embabel](../r/embabel~embabel-agent.md) | Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/ | 4,495 | +15 |
+| [Neuron AI](../r/neuron-core~neuron-ai.md) | The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, T | 2,125 | +15 |
+| [PocketFlow](../r/the-pocket~pocketflow.md) | Pocket Flow: 100-line LLM framework. Let Agents build Agents! | 11,226 | +13 |
+| [Burr](../r/apache~burr.md) | Build applications that make decisions (chatbots, agents, simulations, etc...). Monitor, trace, persist, and execute on  | 2,567 | +5 |
+| [Jido](../r/agentjido~jido.md) | 🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows. | 1,877 | +4 |
+| [Marvin](../r/prefecthq~marvin.md) | an ambient intelligence library | 6,203 | +4 |
+| [Langroid](../r/langroid~langroid.md) | Harness LLMs with Multi-Agent Programming | 4,112 | +3 |
+| [Octomind](../r/muvon~octomind.md) | Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon. | 151 | +3 |
+| [II-Agent (Intelligent Internet)](../r/intelligent-internet~ii-agent.md) | II-Agent: a new open-source framework to build and deploy intelligent agents | 3,391 | +0 |
+| [KaibanJS](../r/kaiban-ai~kaibanjs.md) | KaibanJS is a JavaScript-native framework for building and managing multi-agent systems  with a Kanban-inspired approach | 1,480 | +0 |
+| [OpenAmer](https://github.com/openamer/openamer) | Open-source AI agent for Windows — background computer-use, 40+ security skills, self-improving. Bug-Triage Agent produc | 5 |  |
+| [Upsonic](../r/upsonic~upsonic.md) | Build autonomous AI agents in Python. | 7,956 | +0 |
+| [Griptape](../r/griptape-ai~griptape.md) | Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory.  | 2,578 | -3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1549,11 +1589,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Pocket TTS](../r/kyutai-labs~pocket-tts.md) | A TTS that fits in your CPU (and pocket) | 9,531 | +225 |
-| [Sherpa-ONNX](../r/k2-fsa~sherpa-onnx.md) | Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi | 14,797 | +139 |
-| [Moonshine](../r/moonshine-ai~moonshine.md) | Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces | 11,086 | +50 |
-| [transcribe.cpp](../r/handy-computer~transcribe.cpp.md) |  ggml speech-to-text inference for 16+ model families | 1,926 | +25 |
-| [MOSS-TTS](../r/openmoss~moss-tts.md) | An open-source model family for long-form speech, dialogue synthesis, voice design, sound effects, and real-time streami | 4,109 | +22 |
+| [Pocket TTS](../r/kyutai-labs~pocket-tts.md) | A TTS that fits in your CPU (and pocket) | 9,825 | +111 |
+| [Sherpa-ONNX](../r/k2-fsa~sherpa-onnx.md) | Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi | 15,165 | +98 |
+| [Moonshine](../r/moonshine-ai~moonshine.md) | Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces | 11,196 | +31 |
+| [MOSS-TTS](../r/openmoss~moss-tts.md) | An open-source model family for long-form speech, dialogue synthesis, voice design, sound effects, and real-time streami | 4,183 | +28 |
+| [transcribe.cpp](../r/handy-computer~transcribe.cpp.md) |  ggml speech-to-text inference for 16+ model families | 1,996 | +21 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1561,10 +1601,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [VoxCPM](../r/openbmb~voxcpm.md) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | 37,624 | +293 |
-| [NVIDIA NeMo Speech](../r/nvidia-nemo~nemo.md) | A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, an | 18,462 | +153 |
-| [FunASR](../r/modelscope~funasr.md) | Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pip | 20,365 | +107 |
-| [SpeechBrain](../r/speechbrain~speechbrain.md) | A PyTorch-based Speech Toolkit | 11,823 | +15 |
+| [VoxCPM](../r/openbmb~voxcpm.md) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | 38,405 | +153 |
+| [FunASR](../r/modelscope~funasr.md) | Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pip | 20,613 | +48 |
+| [NVIDIA NeMo Speech](../r/nvidia-nemo~nemo.md) | A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, an | 18,560 | +26 |
+| [SpeechBrain](../r/speechbrain~speechbrain.md) | A PyTorch-based Speech Toolkit | 11,852 | +2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1572,10 +1612,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Awesome LLM Apps](../r/shubhamsaboo~awesome-llm-apps.md) | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. | 138,430 | +928 |
-| [Claude Cookbooks](../r/anthropics~claude-cookbooks.md) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | 52,732 | +350 |
-| [Hugging Face Transformers Notebooks](../r/huggingface~notebooks.md) | Notebooks using the Hugging Face libraries 🤗 | 4,616 | +4 |
-| [TensorFlow Tutorials](../r/tensorflow~docs.md) | TensorFlow documentation | 6,333 | +3 |
+| [Awesome LLM Apps](../r/shubhamsaboo~awesome-llm-apps.md) | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. | 140,986 | +534 |
+| [Claude Cookbooks](../r/anthropics~claude-cookbooks.md) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | 53,266 | +151 |
+| [Hugging Face Transformers Notebooks](../r/huggingface~notebooks.md) | Notebooks using the Hugging Face libraries 🤗 | 4,639 | +8 |
+| [TensorFlow Tutorials](../r/tensorflow~docs.md) | TensorFlow documentation | 6,334 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1583,9 +1623,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [DataTrove (Hugging Face)](../r/huggingface~datatrove.md) | Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing  | 3,337 | +7 |
-| [SDG (Harbin Institute)](../r/hitsz-ids~synthetic-data-generator.md) | SDG is a specialized framework designed to generate high-quality structured tabular data. | 2,438 | +0 |
-| [Bespoke Curator](../r/bespokelabsai~curator.md) | Synthetic data curation for post-training and structured data extraction | 1,731 | -2 |
+| [DataTrove (Hugging Face)](../r/huggingface~datatrove.md) | Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing  | 3,374 | +8 |
+| [Bespoke Curator](../r/bespokelabsai~curator.md) | Synthetic data curation for post-training and structured data extraction | 1,742 | +5 |
+| [SDG (Harbin Institute)](../r/hitsz-ids~synthetic-data-generator.md) | SDG is a specialized framework designed to generate high-quality structured tabular data. | 2,439 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1593,7 +1633,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [no-mistakes](../r/kunchenguid~no-mistakes.md) | git push no-mistakes | 8,485 | +140 |
+| [no-mistakes](../r/kunchenguid~no-mistakes.md) | git push no-mistakes | 8,781 | +73 |
+| [e2e](../r/tester-army~e2e.md) | Next generation e2e testing framework for web and mobile apps. | 7,979 |  |
 | [oai-smoke](https://github.com/airouter-dev/openai-compatible-api-smoke-test) | Vendor-neutral Go CLI for validating OpenAI-compatible /models and opt-in /chat/completions behavior. | 0 | +0 |
 
 [Back to top](#awesome-open-source-ai)
@@ -1602,8 +1643,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [TimesFM (Google Research)](../r/google-research~timesfm.md) | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for tim | 32,677 | +237 |
-| [GluonTS (AWS Labs)](../r/awslabs~gluonts.md) | Probabilistic time series modeling in Python | 5,235 | +1 |
+| [TimesFM (Google Research)](../r/google-research~timesfm.md) | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for tim | 34,162 | +128 |
+| [GluonTS (AWS Labs)](../r/awslabs~gluonts.md) | Probabilistic time series modeling in Python | 5,246 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1611,9 +1652,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [CopilotKit](../r/copilotkit~copilotkit.md) | The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol | 37,380 | +211 |
-| [Deep Chat](../r/ovidijusparsiunas~deep-chat.md) | Fully customizable AI chatbot component for your website | 3,713 | +2 |
-| [Markstream](../r/simon-he95~markstream-vue.md) | Multi-framework streaming Markdown renderers for AI apps: Vue/Nuxt, React/Next.js, Svelte, and Angular, with Mermaid, Ka | 3,010 |  |
+| [CopilotKit](../r/copilotkit~copilotkit.md) | The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol | 37,835 | +197 |
+| [json-render](../r/vercel-labs~json-render.md) | The Generative UI framework | 18,564 | +109 |
+| [Markstream](../r/simon-he95~markstream-vue.md) | Multi-framework streaming Markdown renderers for AI apps: Vue/Nuxt, React/Next.js, Svelte, and Angular, with Mermaid, Ka | 3,024 | +1 |
+| [Deep Chat](../r/ovidijusparsiunas~deep-chat.md) | Fully customizable AI chatbot component for your website | 3,728 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1621,37 +1663,37 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [turbovec](../r/ryancodrai~turbovec.md) | A vector index built on TurboQuant, written in Rust with Python bindings | 17,192 | +1,546 |
-| [Tantivy](../r/quickwit-oss~tantivy.md) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | 16,087 | +198 |
-| [Meilisearch](../r/meilisearch~meilisearch.md) | A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. | 59,302 | +83 |
-| [HelixDB](../r/helixdb~helix-db.md) | HelixDB is an OLTP graph database with native vector and full-text search built in Rust on Object Storage. | 5,909 | +79 |
-| [zvec](../r/alibaba~zvec.md) | A lightweight, lightning-fast, in-process vector database | 15,944 | +56 |
-| [Elasticsearch](../r/elastic~elasticsearch.md) | Free and Open Source, Distributed, RESTful Search Engine | 77,919 | +46 |
-| [OpenSearch](../r/opensearch-project~opensearch.md) | 🔎 Open source distributed and RESTful search engine. | 13,721 | +41 |
-| [Quickwit](../r/quickwit-oss~quickwit.md) | Cloud-native OSS search engine for observability | 11,640 | +36 |
-| [Typesense](../r/typesense~typesense.md) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolera | 26,560 | +35 |
-| [sqlite-vec](../r/asg017~sqlite-vec.md) | A vector search SQLite extension that runs anywhere! | 8,112 | +23 |
-| [ParadeDB](../r/paradedb~paradedb.md) | One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search exte | 9,267 | +20 |
-| [Vespa](../r/vespa-engine~vespa.md) | The AI search platform | 7,088 | +12 |
-| [Orama](../r/oramasearch~orama.md) | 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector | 10,554 | +11 |
-| [Manticore Search](../r/manticoresoftware~manticoresearch.md) | Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL. | 12,001 | +8 |
-| [DiskANN (Microsoft)](../r/microsoft~diskann.md) | A vector indexing library to bring fast, fresh and filtered search to your database | 1,926 | +7 |
-| [VectorChord](../r/tensorchord~vectorchord.md) | Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs. | 1,794 | +7 |
-| [pgvectorscale](../r/timescale~pgvectorscale.md) | Postgres extension for vector search (DiskANN), complements pgvector for performance and scale. Postgres OSS licensed. | 3,127 | +6 |
-| [Apache Solr](../r/apache~solr.md) | Apache Solr open-source search software | 1,674 | +5 |
-| [RediSearch](../r/redisearch~redisearch.md) | A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggr | 6,238 | +5 |
-| [USearch](../r/unum-cloud~usearch.md) | Fast Open-Source Search & Clustering engine × for Vectors & Arbitrary Objects × in C++, C, Python, JavaScript, Rust, Jav | 4,303 | +5 |
-| [Marqo](../r/marqo-ai~marqo.md) | Ecommerce Search and Discovery - marqo.ai | 5,032 | +4 |
-| [NornicDB](../r/orneryd~nornicdb.md) | Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and wri | 876 | +4 |
-| [Deep Lake](../r/activeloopai~deeplake.md) | Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable re | 9,236 | +3 |
-| [VectorDBBench (Zilliz)](../r/zilliztech~vectordbbench.md) | Benchmark for vector databases. | 1,178 | +3 |
-| [hnswlib](../r/nmslib~hnswlib.md) | Header-only C++/python library for fast approximate nearest neighbors | 5,326 | +2 |
-| [nanoflann](../r/jlblancoc~nanoflann.md) | nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees | 2,685 | +2 |
-| [Vald](../r/vdaas~vald.md) | Vald.  A Highly Scalable Distributed Vector Search Engine | 1,727 | +2 |
-| [JVector (DataStax)](../r/datastax~jvector.md) | JVector: the most advanced embedded vector search engine | 1,749 | +0 |
-| [Vearch](../r/vearch~vearch.md) | Distributed vector search for AI-native applications | 2,326 | +0 |
-| [SPTAG (Microsoft)](../r/microsoft~sptag.md) | A distributed approximate nearest neighborhood search (ANN) library which provides a high quality vector index build, se | 5,016 | -1 |
+| [turbovec](../r/ryancodrai~turbovec.md) | A vector index built on TurboQuant, written in Rust with Python bindings | 17,359 | +90 |
+| [Meilisearch](../r/meilisearch~meilisearch.md) | A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. | 59,513 | +61 |
+| [ParadeDB](../r/paradedb~paradedb.md) | One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search exte | 9,375 | +58 |
+| [zvec](../r/alibaba~zvec.md) | A lightweight, lightning-fast, in-process vector database | 16,076 | +45 |
+| [Elasticsearch](../r/elastic~elasticsearch.md) | Free and Open Source, Distributed, RESTful Search Engine | 78,213 | +36 |
+| [Typesense](../r/typesense~typesense.md) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolera | 26,643 | +27 |
+| [Tantivy](../r/quickwit-oss~tantivy.md) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | 16,191 | +26 |
+| [OpenSearch](../r/opensearch-project~opensearch.md) | 🔎 Open source distributed and RESTful search engine. | 13,820 | +22 |
+| [sqlite-vec](../r/asg017~sqlite-vec.md) | A vector search SQLite extension that runs anywhere! | 8,170 | +15 |
+| [Quickwit](../r/quickwit-oss~quickwit.md) | Cloud-native OSS search engine for observability | 11,702 | +12 |
+| [Orama](../r/oramasearch~orama.md) | 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector | 10,575 | +9 |
+| [HelixDB](../r/helixdb~helix-db.md) | HelixDB is an OLTP graph database with native vector and full-text search built in Rust on Object Storage. | 6,116 | +8 |
+| [Manticore Search](../r/manticoresoftware~manticoresearch.md) | Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL. | 12,045 | +6 |
+| [Vespa](../r/vespa-engine~vespa.md) | The AI search platform | 7,121 | +6 |
+| [Apache Solr](../r/apache~solr.md) | Apache Solr open-source search software | 1,683 | +5 |
+| [Deep Lake](../r/activeloopai~deeplake.md) | Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable re | 9,250 | +5 |
+| [NornicDB](../r/orneryd~nornicdb.md) | Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and wri | 897 | +4 |
+| [hnswlib](../r/nmslib~hnswlib.md) | Header-only C++/python library for fast approximate nearest neighbors | 5,343 | +3 |
+| [USearch](../r/unum-cloud~usearch.md) | Fast Open-Source Search & Clustering engine × for Vectors & Arbitrary Objects × in C++, C, Python, JavaScript, Rust, Jav | 4,328 | +3 |
+| [RediSearch](../r/redisearch~redisearch.md) | A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggr | 6,244 | +2 |
+| [VectorChord](../r/tensorchord~vectorchord.md) | Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs. | 1,810 | +2 |
+| [DiskANN (Microsoft)](../r/microsoft~diskann.md) | A vector indexing library to bring fast, fresh and filtered search to your database | 1,938 | +1 |
+| [JVector (DataStax)](../r/datastax~jvector.md) | JVector: the most advanced embedded vector search engine | 1,752 | +1 |
+| [nanoflann](../r/jlblancoc~nanoflann.md) | nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees | 2,693 | +1 |
+| [pgvectorscale](../r/timescale~pgvectorscale.md) | Postgres extension for vector search (DiskANN), complements pgvector for performance and scale. Postgres OSS licensed. | 3,137 | +1 |
+| [SPTAG (Microsoft)](../r/microsoft~sptag.md) | A distributed approximate nearest neighborhood search (ANN) library which provides a high quality vector index build, se | 5,022 | +1 |
+| [Vald](../r/vdaas~vald.md) | Vald.  A Highly Scalable Distributed Vector Search Engine | 1,734 | +1 |
+| [Vearch](../r/vearch~vearch.md) | Distributed vector search for AI-native applications | 2,331 | +1 |
+| [VectorDBBench (Zilliz)](../r/zilliztech~vectordbbench.md) | Benchmark for vector databases. | 1,189 | +1 |
 | [NMSLIB](../r/nmslib~nmslib.md) | Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods f | 3,589 | -2 |
+| [Marqo](../r/marqo-ai~marqo.md) | Ecommerce Search and Discovery - marqo.ai | 5,030 | -4 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1659,14 +1701,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MoneyPrinterTurbo](../r/harry0703~moneyprinterturbo.md) | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. | 124,149 | +8,828 |
-| [OpenMontage](../r/calesthio~openmontage.md) | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and pr | 59,447 | +1,491 |
-| [Hyperframes (HeyGen)](../r/heygen-com~hyperframes.md) | Write HTML. Render video. Built for agents. | 50,552 | +1,076 |
-| [Pixelle-Video (AIDC-AI)](../r/aidc-ai~pixelle-video.md) | 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine | 28,148 | +415 |
-| [LTX-2 (Lightricks)](../r/lightricks~ltx-2.md) | Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model. | 9,434 | +141 |
-| [ViMax](../r/hkuds~vimax.md) | "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)" | 12,396 | +83 |
-| [Helios (PKU-YuanGroup)](../r/pku-yuangroup~helios.md) | Helios: Real Real-Time Long Video Generation Model | 2,147 | +16 |
-| [WhisperLive](../r/collabora~whisperlive.md) | A nearly-live implementation of OpenAI's Whisper. | 4,282 | +8 |
+| [Hyperframes (HeyGen)](../r/heygen-com~hyperframes.md) | Write HTML. Render video. Built for agents. | 58,879 | +3,884 |
+| [OpenMontage](../r/calesthio~openmontage.md) | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and pr | 65,257 | +3,185 |
+| [MoneyPrinterTurbo](../r/harry0703~moneyprinterturbo.md) | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. | 129,319 | +1,511 |
+| [OpenShorts](../r/mutonby~openshorts.md) | Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitl | 6,315 | +455 |
+| [Pixelle-Video (AIDC-AI)](../r/aidc-ai~pixelle-video.md) | 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine | 28,749 | +194 |
+| [LTX-2 (Lightricks)](../r/lightricks~ltx-2.md) | Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model. | 9,630 | +68 |
+| [ViMax](../r/hkuds~vimax.md) | "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)" | 12,573 | +31 |
+| [Helios (PKU-YuanGroup)](../r/pku-yuangroup~helios.md) | Helios: Real Real-Time Long Video Generation Model | 2,191 | +13 |
+| [WhisperLive](../r/collabora~whisperlive.md) | A nearly-live implementation of OpenAI's Whisper. | 4,308 | +4 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1674,7 +1717,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [WeatherNext](../r/google-deepmind~weathernext.md) | Global weather and tropical cyclone forecasting framework from Google DeepMind, including WeatherNext 2, GraphCast, and  | 7,670 | +46 |
+| [WeatherNext](../r/google-deepmind~weathernext.md) | Global weather and tropical cyclone forecasting framework from Google DeepMind, including WeatherNext 2, GraphCast, and  | 7,698 | +7 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1682,12 +1725,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Firecrawl](../r/firecrawl~firecrawl.md) | The context API to search, scrape, and interact with the web at scale. 🔥 | 181,091 | +3,228 |
-| [Scrapling](../r/d4vinci~scrapling.md) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy | 81,291 | +1,500 |
-| [wigolo](../r/knockoutez~wigolo.md) | The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0 | 5,270 | +64 |
-| [invisible-playwright](../r/feder-cr~invisible_playwright.md) | Free antidetect browser stealth for Playwright: undetected headless Firefox fingerprint. Python scraping, recaptcha and  | 2,032 | +30 |
-| [Paperless-AI](../r/clusterzx~paperless-ai.md) | An automated document analyzer for Paperless-ngx using OpenAI API, Ollama, Deepseek-r1, Azure and all OpenAI API compati | 5,943 | +17 |
-| [Zoom Search](https://github.com/goofrey/zoom-search) | MCP search and evidence tool for AI agents with query rewriting, source zoom-in, sourced answers, and runtime metrics. | 4 | +1 |
+| [Firecrawl](../r/firecrawl~firecrawl.md) | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 189,667 | +2,310 |
+| [Scrapling](../r/d4vinci~scrapling.md) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy | 86,303 | +1,422 |
+| [invisible-playwright](../r/feder-cr~invisible_playwright.md) | Playwright that anti-bots cannot see, so no captchas: same API, anti-detect stealth headless Firefox, undetected fingerp | 3,033 | +47 |
+| [wigolo](../r/knockoutez~wigolo.md) | The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0 | 5,448 | +13 |
+| [Paperless-AI](../r/clusterzx~paperless-ai.md) | An automated document analyzer for Paperless-ngx using OpenAI API, Ollama, Deepseek-r1, Azure and all OpenAI API compati | 5,968 | +9 |
+| [Zoom Search](https://github.com/goofrey/zoom-search) | MCP search and evidence tool for AI agents with query rewriting, source zoom-in, sourced answers, and runtime metrics. | 4 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1695,16 +1738,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [vLLM](../r/vllm-project~vllm.md) | A high-throughput and memory-efficient inference and serving engine for LLMs | 91,905 | +627 |
-| [Ollama](../r/ollama~ollama.md) | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | 181,113 | +541 |
-| [SGLang](../r/sgl-project~sglang.md) | SGLang is a high-performance serving framework for large language models and multimodal models. | 36,034 | +399 |
-| [MLX](../r/ml-explore~mlx.md) | MLX: An array framework for Apple silicon | 28,437 | +112 |
-| [KoboldCpp](../r/lostruins~koboldcpp.md) | Run GGUF models easily with a KoboldAI UI. One File. Zero Install. | 11,727 | +71 |
-| [TensorRT-LLM](../r/nvidia~tensorrt-llm.md) | TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of- | 14,630 | +69 |
-| [llama-cpp-python](../r/abetlen~llama-cpp-python.md) | Python bindings for llama.cpp | 10,621 | +23 |
-| [MLC-LLM](../r/mlc-ai~mlc-llm.md) | Universal LLM Deployment Engine with ML Compilation | 23,161 | +17 |
-| [bitsandbytes](../r/bitsandbytes-foundation~bitsandbytes.md) | Accessible large language models via k-bit quantization for PyTorch. | 8,481 | +12 |
-| [Optimum](../r/huggingface~optimum.md) | 🚀 Accelerate inference and training of 🤗 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hard | 3,490 | +4 |
+| [Ollama](../r/ollama~ollama.md) | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | 182,557 | +561 |
+| [vLLM](../r/vllm-project~vllm.md) | A high-throughput and memory-efficient inference and serving engine for LLMs | 93,383 | +373 |
+| [SGLang](../r/sgl-project~sglang.md) | SGLang is a high-performance serving framework for large language models and multimodal models. | 36,866 | +181 |
+| [MLX](../r/ml-explore~mlx.md) | MLX: An array framework for Apple silicon | 28,687 | +73 |
+| [KoboldCpp](../r/lostruins~koboldcpp.md) | KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install. | 11,970 | +54 |
+| [TensorRT-LLM](../r/nvidia~tensorrt-llm.md) | TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of- | 14,777 | +22 |
+| [MLC-LLM](../r/mlc-ai~mlc-llm.md) | Universal LLM Deployment Engine with ML Compilation | 23,213 | +12 |
+| [bitsandbytes](../r/bitsandbytes-foundation~bitsandbytes.md) | Accessible large language models via k-bit quantization for PyTorch. | 8,514 | +5 |
+| [llama-cpp-python](../r/abetlen~llama-cpp-python.md) | Python bindings for llama.cpp | 10,636 | -1 |
+| [Optimum](../r/huggingface~optimum.md) | 🚀 Accelerate inference and training of 🤗 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hard | 3,498 | -3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1712,11 +1755,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ComfyUI](../r/comfy-org~comfyui.md) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 133,481 | +1,645 |
-| [ACE-Step 1.5](../r/ace-step~ace-step-1.5.md) | The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, | 12,738 | +132 |
-| [InvokeAI](../r/invoke-ai~invokeai.md) | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to g | 28,225 | +79 |
-| [Diffusers](../r/huggingface~diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,532 | +41 |
-| [gsplat (3D Gaussian Splatting tools)](../r/nerfstudio-project~gsplat.md) | CUDA accelerated rasterization of gaussian splatting | 5,688 | +31 |
+| [ComfyUI](../r/comfy-org~comfyui.md) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local infer | 136,590 | +881 |
+| [ACE-Step 1.5](../r/ace-step~ace-step-1.5.md) | The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, | 13,259 | +287 |
+| [InvokeAI](../r/invoke-ai~invokeai.md) | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to g | 28,450 | +130 |
+| [Diffusers](../r/huggingface~diffusers.md) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 34,690 | +53 |
+| [gsplat (3D Gaussian Splatting tools)](../r/nerfstudio-project~gsplat.md) | CUDA accelerated rasterization of gaussian splatting | 5,761 | +19 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1724,14 +1767,14 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [DeepEval](../r/confident-ai~deepeval.md) | The LLM Evaluation Framework | 18,290 | +186 |
-| [lm-evaluation-harness (EleutherAI)](../r/eleutherai~lm-evaluation-harness.md) | A framework for few-shot evaluation of language models. | 13,998 | +88 |
-| [OpenCompass](../r/open-compass~opencompass.md) | OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Q | 7,445 | +29 |
-| [Hugging Face Datasets](../r/huggingface~datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 21,977 | +20 |
-| [OSWorld](../r/xlang-ai~osworld.md) | [NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments | 3,145 | +14 |
-| [HELM (Stanford)](../r/stanford-crfm~helm.md) | Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on F | 2,909 | +6 |
-| [Lighteval](../r/huggingface~lighteval.md) | Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends | 2,542 | +5 |
-| [Hugging Face Evaluate](../r/huggingface~evaluate.md) | 🤗 Evaluate: A library for easily evaluating machine learning models and datasets. | 2,481 | +1 |
+| [DeepEval](../r/confident-ai~deepeval.md) | The LLM Evaluation Framework | 18,700 | +166 |
+| [lm-evaluation-harness (EleutherAI)](../r/eleutherai~lm-evaluation-harness.md) | A framework for few-shot evaluation of language models. | 14,157 | +51 |
+| [Hugging Face Datasets](../r/huggingface~datasets.md) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | 22,040 | +19 |
+| [OSWorld](../r/xlang-ai~osworld.md) | [NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments | 3,182 | +15 |
+| [OpenCompass](../r/open-compass~opencompass.md) | OpenCompass is an LLM evaluation platform, supporting a wide range of models from OpenAI, Anthropic, Gemini, Qwen, GLM,  | 7,496 | +10 |
+| [HELM (Stanford)](../r/stanford-crfm~helm.md) | Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on F | 2,935 | +6 |
+| [Hugging Face Evaluate](../r/huggingface~evaluate.md) | 🤗 Evaluate: A library for easily evaluating machine learning models and datasets. | 2,490 | +4 |
+| [Lighteval](../r/huggingface~lighteval.md) | Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends | 2,554 | +4 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1739,22 +1782,22 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Langfuse](../r/langfuse~langfuse.md) | 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform. | 34,680 | +354 |
-| [Promptfoo](../r/promptfoo~promptfoo.md) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C | 25,171 | +225 |
-| [Opik (Comet)](../r/comet-ml~opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, autom | 22,058 | +149 |
-| [MLflow](../r/mlflow~mlflow.md) | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, eva | 27,981 | +109 |
-| [Phoenix (Arize)](../r/arize-ai~phoenix.md) | AI Observability & Evaluation | 11,481 | +89 |
-| [Ray Serve](../r/ray-project~ray.md) | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML wo | 43,826 | +66 |
-| [Evidently](../r/evidentlyai~evidently.md) | Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or d | 7,920 | +30 |
-| [KServe](../r/kserve~kserve.md) | Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kub | 5,940 | +26 |
-| [Guardrails AI](../r/guardrails-ai~guardrails.md) | Adding guardrails to large language models. | 7,419 | +23 |
-| [DVC (Data Version Control)](../r/iterative~dvc.md) | 🦉 Data Versioning and ML Experiments | 15,873 | +14 |
-| [BentoML](../r/bentoml~bentoml.md) | The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, a | 8,845 | +13 |
-| [ClearML](../r/clearml~clearml.md) | ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestra | 6,870 | +12 |
-| [Kubeflow](../r/kubeflow~kubeflow.md) | Machine Learning Toolkit for Kubernetes | 15,870 | +10 |
-| [ZenML](../r/zenml-io~zenml.md) | ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io. | 5,582 | +10 |
-| [LlamaGuard (Meta)](../r/meta-llama~purplellama.md) | Set of tools to assess and improve LLM security. | 4,397 | +7 |
-| [Weights & Biases Weave](../r/wandb~weave.md) | Weave is a toolkit for developing AI-powered applications, built by Weights & Biases. | 1,129 | +3 |
+| [Langfuse](../r/langfuse~langfuse.md) | 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform. | 35,515 | +255 |
+| [Promptfoo](../r/promptfoo~promptfoo.md) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C | 25,812 | +201 |
+| [Opik (Comet)](../r/comet-ml~opik.md) | Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, autom | 22,449 | +133 |
+| [MLflow](../r/mlflow~mlflow.md) | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, eva | 28,311 | +102 |
+| [Phoenix (Arize)](../r/arize-ai~phoenix.md) | AI Observability & Evaluation | 11,751 | +82 |
+| [KServe](../r/kserve~kserve.md) | Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kub | 6,089 | +36 |
+| [Ray Serve](../r/ray-project~ray.md) | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML wo | 43,988 | +30 |
+| [Evidently](../r/evidentlyai~evidently.md) | Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or d | 7,977 | +25 |
+| [Guardrails AI](../r/guardrails-ai~guardrails.md) | Adding guardrails to large language models. | 7,496 | +22 |
+| [BentoML](../r/bentoml~bentoml.md) | The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, a | 8,885 | +16 |
+| [DVC (Data Version Control)](../r/iterative~dvc.md) | 🦉 Data Versioning and ML Experiments | 15,909 | +14 |
+| [LlamaGuard (Meta)](../r/meta-llama~purplellama.md) | Set of tools to assess and improve LLM security. | 4,423 | +12 |
+| [ZenML](../r/zenml-io~zenml.md) | ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io. | 5,608 | +8 |
+| [Kubeflow](../r/kubeflow~kubeflow.md) | The Cloud Native AI Platform | 15,898 | +7 |
+| [ClearML](../r/clearml~clearml.md) | ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestra | 6,900 | +4 |
+| [Weights & Biases Weave](../r/wandb~weave.md) | Weave is a toolkit for developing AI-powered applications, built by Weights & Biases. | 1,137 | +2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1762,23 +1805,23 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Crawl4AI](../r/unclecode~crawl4ai.md) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN | 83,646 | +812 |
-| [Docling](../r/docling-project~docling.md) | Get your documents ready for gen AI | 66,486 | +513 |
-| [RAGFlow](../r/infiniflow~ragflow.md) | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capa | 90,804 | +469 |
-| [Lightpanda](../r/lightpanda-io~browser.md) | Lightpanda: the headless browser designed for AI and automation | 35,370 | +187 |
-| [LlamaIndex](../r/run-llama~llama_index.md) | LlamaIndex is the document processing platform for AI | 52,184 | +141 |
-| [Qdrant](../r/qdrant~qdrant.md) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also av | 34,590 | +134 |
-| [GraphRAG (Microsoft)](../r/microsoft~graphrag.md) | A modular graph-based Retrieval-Augmented Generation (RAG) system | 35,992 | +112 |
-| [Milvus](../r/milvus-io~milvus.md) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | 46,125 | +103 |
-| [LanceDB](../r/lancedb~lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,434 | +90 |
-| [Haystack](../r/deepset-ai~haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modula | 26,521 | +74 |
-| [pgvector](../r/pgvector~pgvector.md) | Open-source vector similarity search for Postgres | 23,029 | +72 |
-| [Chroma](../r/chroma-core~chroma.md) | Search infrastructure for AI | 29,316 | +65 |
-| [Faiss](../r/facebookresearch~faiss.md) | A library for efficient similarity search and clustering of dense vectors. | 40,914 | +49 |
-| [ColPali / ColQwen](../r/illuin-tech~colpali.md) | The code used to train and run inference with the ColVision models, e.g. ColPali, ColQwen2, and ColSmol. | 2,812 | +35 |
-| [BGE (FlagEmbedding)](../r/flagopen~flagembedding.md) | Retrieval and Retrieval-augmented LLMs | 12,168 | +25 |
-| [Unstructured](../r/unstructured-io~unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex doc | 15,436 | +18 |
-| [Weaviate](../r/weaviate~weaviate.md) | Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector  | 16,815 | +13 |
+| [Lightpanda](../r/lightpanda-io~browser.md) | Lightpanda: the headless browser designed for AI and automation | 36,118 | +444 |
+| [Crawl4AI](../r/unclecode~crawl4ai.md) | Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, | 84,972 | +379 |
+| [Docling](../r/docling-project~docling.md) | Get your documents ready for gen AI | 68,531 | +287 |
+| [RAGFlow](../r/infiniflow~ragflow.md) | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capa | 91,822 | +251 |
+| [Faiss](../r/facebookresearch~faiss.md) | A library for efficient similarity search and clustering of dense vectors. | 41,111 | +105 |
+| [Qdrant](../r/qdrant~qdrant.md) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also av | 34,975 | +81 |
+| [pgvector](../r/pgvector~pgvector.md) | Open-source vector similarity search for Postgres | 23,273 | +68 |
+| [GraphRAG (Microsoft)](../r/microsoft~graphrag.md) | A modular graph-based Retrieval-Augmented Generation (RAG) system | 36,254 | +67 |
+| [Haystack](../r/deepset-ai~haystack.md) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modula | 26,695 | +60 |
+| [LlamaIndex](../r/run-llama~llama_index.md) | LlamaIndex is the document processing platform for AI | 52,438 | +58 |
+| [LanceDB](../r/lancedb~lancedb.md) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | 11,615 | +47 |
+| [Milvus](../r/milvus-io~milvus.md) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | 46,340 | +45 |
+| [Chroma](../r/chroma-core~chroma.md) | Search infrastructure for AI | 29,463 | +41 |
+| [Unstructured](../r/unstructured-io~unstructured.md) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex doc | 15,548 | +27 |
+| [Weaviate](../r/weaviate~weaviate.md) | Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector  | 16,875 | +16 |
+| [BGE (FlagEmbedding)](../r/flagopen~flagembedding.md) | Retrieval and Retrieval-augmented LLMs | 12,222 | +12 |
+| [ColPali / ColQwen](../r/illuin-tech~colpali.md) | The code used to train and run inference with the ColVision models, e.g. ColPali, ColQwen2, and ColSmol. | 2,824 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1786,19 +1829,19 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenClaw](../r/openclaw~openclaw.md) | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  | 389,829 | +934 |
-| [Open WebUI](../r/open-webui~open-webui.md) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 152,260 | +732 |
-| [Dify](../r/langgenius~dify.md) | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cl | 155,928 | +678 |
-| [SillyTavern](../r/sillytavern~sillytavern.md) | LLM Frontend for Power Users. | 33,413 | +336 |
-| [AnythingLLM](../r/mintplex-labs~anything-llm.md) | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience | 66,091 | +309 |
-| [LibreChat](../r/danny-avila~librechat.md) | Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1,  | 44,057 | +255 |
-| [Langflow](../r/langflow-ai~langflow.md) | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 154,876 | +249 |
-| [Khoj](../r/khoj-ai~khoj.md) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, d | 37,355 | +171 |
-| [Jan](../r/janhq~jan.md) | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. | 44,491 | +112 |
-| [text-generation-webui](../r/oobabooga~text-generation-webui.md) | Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private. | 47,672 | +30 |
-| [HuggingChat (self-hosted)](../r/huggingface~chat-ui.md) | The open source codebase powering HuggingChat | 10,952 | +16 |
-| [Flowise](../r/flowiseai~flowise.md) | Build AI Agents, Visually | 55,464 | +12 |
-| [Newelle](../r/qwersyk~newelle.md) | Newelle - Your Ultimate Virtual Assistant | 1,469 | +7 |
+| [OpenClaw](../r/openclaw~openclaw.md) | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  | 391,636 | +523 |
+| [Open WebUI](../r/open-webui~open-webui.md) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 154,209 | +511 |
+| [Dify](../r/langgenius~dify.md) | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cl | 158,097 | +449 |
+| [LibreChat](../r/danny-avila~librechat.md) | Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1,  | 45,400 | +226 |
+| [SillyTavern](../r/sillytavern~sillytavern.md) | LLM Frontend for Power Users. | 34,214 | +222 |
+| [AnythingLLM](../r/mintplex-labs~anything-llm.md) | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience | 66,818 | +175 |
+| [Langflow](../r/langflow-ai~langflow.md) | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 155,585 | +164 |
+| [Jan](../r/janhq~jan.md) | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. | 44,850 | +113 |
+| [Khoj](../r/khoj-ai~khoj.md) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, d | 37,598 | +45 |
+| [text-generation-webui](../r/oobabooga~text-generation-webui.md) | Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private. | 47,727 | +7 |
+| [Flowise](../r/flowiseai~flowise.md) | Build AI Agents, Visually | 55,494 | +4 |
+| [HuggingChat (self-hosted)](../r/huggingface~chat-ui.md) | The open source codebase powering HuggingChat | 10,975 | +4 |
+| [Newelle](../r/qwersyk~newelle.md) | Newelle - Your Ultimate Virtual Assistant | 1,482 | +2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1806,23 +1849,23 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Unsloth](../r/unslothai~unsloth.md) | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX | 76,223 | +1,242 |
-| [LLaMA-Factory](../r/hiyouga~llama-factory.md) | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 74,809 | +152 |
-| [Megatron-LM](../r/nvidia~megatron-lm.md) | Ongoing research training transformer models at scale | 17,916 | +117 |
-| [Ray Train](../r/ray-project~ray.md) | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML wo | 43,826 | +66 |
-| [TRL (Transformers Reinforcement Learning)](../r/huggingface~trl.md) | Train transformer language models with reinforcement learning. | 19,324 | +57 |
-| [DeepSpeed](../r/deepspeedai~deepspeed.md) | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and eff | 43,123 | +40 |
-| [PEFT (Parameter-Efficient Fine-Tuning)](../r/huggingface~peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,686 | +37 |
-| [Axolotl](../r/axolotl-ai-cloud~axolotl.md) | Go ahead and axolotl questions | 12,478 | +33 |
-| [Data-Juicer](../r/alibaba~data-juicer.md) | Data processing for and with foundation models!  🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | 7,051 | +26 |
-| [Liger Kernel](../r/linkedin~liger-kernel.md) | Efficient Triton Kernels for LLM Training | 6,614 | +15 |
-| [MergeKit](../r/arcee-ai~mergekit.md) | Tools for merging pretrained large language models. | 7,353 | +12 |
-| [LitGPT](../r/lightning-ai~litgpt.md) | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. | 13,664 | +6 |
-| [Argilla](../r/argilla-io~argilla.md) | Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets | 5,109 | +4 |
-| [distilabel](../r/argilla-io~distilabel.md) | Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipeline | 3,394 | +4 |
-| [SDV (Synthetic Data Vault)](../r/sdv-dev~sdv.md) | Synthetic data generation for tabular data | 3,558 | +2 |
-| [torchtune](../r/pytorch~torchtune.md) | PyTorch native post-training library | 5,812 | +1 |
-| [Colossal-AI](../r/hpcaitech~colossalai.md) | Making large AI models cheaper, faster and more accessible | 41,441 | +0 |
+| [Unsloth](../r/unslothai~unsloth.md) | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX | 77,450 | +344 |
+| [LLaMA-Factory](../r/hiyouga~llama-factory.md) | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 75,359 | +111 |
+| [TRL (Transformers Reinforcement Learning)](../r/huggingface~trl.md) | Train transformer language models with reinforcement learning. | 19,469 | +42 |
+| [Megatron-LM](../r/nvidia~megatron-lm.md) | Ongoing research training transformer models at scale | 18,085 | +39 |
+| [DeepSpeed](../r/deepspeedai~deepspeed.md) | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and eff | 43,206 | +35 |
+| [Ray Train](../r/ray-project~ray.md) | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML wo | 43,988 | +30 |
+| [PEFT (Parameter-Efficient Fine-Tuning)](../r/huggingface~peft.md) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | 21,768 | +25 |
+| [Axolotl](../r/axolotl-ai-cloud~axolotl.md) | Go ahead and axolotl questions | 12,537 | +24 |
+| [Data-Juicer](../r/alibaba~data-juicer.md) | Data processing for and with foundation models!  🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | 7,123 | +13 |
+| [Argilla](../r/argilla-io~argilla.md) | Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets | 5,142 | +12 |
+| [distilabel](../r/argilla-io~distilabel.md) | Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipeline | 3,409 | +9 |
+| [MergeKit](../r/arcee-ai~mergekit.md) | Tools for merging pretrained large language models. | 7,390 | +8 |
+| [Liger Kernel](../r/linkedin~liger-kernel.md) | Efficient Triton Kernels for LLM Training | 6,650 | +7 |
+| [LitGPT](../r/lightning-ai~litgpt.md) | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. | 13,696 | +7 |
+| [SDV (Synthetic Data Vault)](../r/sdv-dev~sdv.md) | Synthetic data generation for tabular data | 3,570 | +2 |
+| [torchtune](../r/pytorch~torchtune.md) | PyTorch native post-training library | 5,809 | +0 |
+| [Colossal-AI](../r/hpcaitech~colossalai.md) | Making large AI models cheaper, faster and more accessible | 41,440 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1830,13 +1873,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Promptfoo](../r/promptfoo~promptfoo.md) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C | 25,171 | +225 |
-| [Garak](../r/nvidia~garak.md) | the LLM vulnerability scanner | 9,265 | +181 |
-| [OpenRLHF](../r/openrlhf~openrlhf.md) | An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & | 10,009 | +23 |
-| [TransformerLens](../r/transformerlensorg~transformerlens.md) | A library for mechanistic interpretability of GPT-style language models | 3,877 | +22 |
-| [Alignment Handbook](../r/huggingface~alignment-handbook.md) | Robust recipes to align language models with human and AI preferences | 5,680 | +8 |
-| [SAELens](../r/jbloomaus~saelens.md) | Training Sparse Autoencoders on Language Models | 1,534 | +6 |
-| [Captum](../r/pytorch~captum.md) | Model interpretability and understanding for PyTorch | 5,700 | +1 |
+| [Promptfoo](../r/promptfoo~promptfoo.md) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C | 25,812 | +201 |
+| [Garak](../r/nvidia~garak.md) | the LLM vulnerability scanner | 9,498 | +102 |
+| [TransformerLens](../r/transformerlensorg~transformerlens.md) | A library for mechanistic interpretability of GPT-style language models | 3,950 | +22 |
+| [OpenRLHF](../r/openrlhf~openrlhf.md) | An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & | 10,074 | +14 |
+| [SAELens](../r/jbloomaus~saelens.md) | Training Sparse Autoencoders on Language Models | 1,551 | +7 |
+| [Alignment Handbook](../r/huggingface~alignment-handbook.md) | Robust recipes to align language models with human and AI preferences | 5,690 | +5 |
+| [Captum](../r/pytorch~captum.md) | Model interpretability and understanding for PyTorch | 5,710 | +3 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1844,29 +1887,29 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Pi (badlogic)](../r/badlogic~pi-mono.md) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 106,123 | +4,163 |
-| [Hermes Agent (NousResearch)](../r/nousresearch~hermes-agent.md) | The agent that grows with you | 246,023 | +3,868 |
-| [OpenCode](../r/anomalyco~opencode.md) | The open source coding agent. | 207,793 | +2,529 |
-| [Hindsight](../r/vectorize-io~hindsight.md) | Hindsight: Agent Memory That Learns | 23,773 | +933 |
-| [Dify](../r/langgenius~dify.md) | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cl | 155,928 | +678 |
-| [OpenHands (ex-OpenDevin)](../r/all-hands-ai~openhands.md) | 🙌 OpenHands: AI-Driven Development | 88,109 | +661 |
-| [Deer-Flow (ByteDance)](../r/bytedance~deer-flow.md) | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories | 82,524 | +601 |
-| [LangGraph](../r/langchain-ai~langgraph.md) | Build resilient agents. | 41,755 | +491 |
-| [LangChain](../r/langchain-ai~langchain.md) | The agent engineering platform. | 146,434 | +487 |
-| [Mem0](../r/mem0ai~mem0.md) | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for  | 65,395 | +484 |
-| [CrewAI](../r/crewaiinc~crewai.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers | 58,648 | +350 |
-| [Langflow](../r/langflow-ai~langflow.md) | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 154,876 | +249 |
-| [DSPy](../r/stanfordnlp~dspy.md) | DSPy: The framework for programming—not prompting—language models | 38,063 | +209 |
-| [Mastra](../r/mastra-ai~mastra.md) | Mastra is the modern TypeScript framework for AI-powered applications and agents. | 28,096 | +186 |
-| [Aider](../r/paul-gauthier~aider.md) | aider is AI pair programming in your terminal | 48,991 | +169 |
-| [AutoGen (AG2)](../r/microsoft~autogen.md) | A programming framework for agentic AI | 61,004 | +138 |
-| [Letta (ex-MemGPT)](../r/letta-ai~letta.md) | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | 24,763 | +137 |
-| [smolagents](../r/huggingface~smolagents.md) | 🤗 smolagents: a barebones library for agents that think in code. | 29,345 | +130 |
-| [Semantic Kernel](../r/microsoft~semantic-kernel.md) | Integrate cutting-edge LLM technology quickly and easily into your apps | 28,563 | +36 |
-| [Mistral-Vibe (Mistral)](../r/mistralai~mistral-vibe.md) | Minimal CLI coding agent by Mistral | 4,956 | +28 |
-| [Swarms](../r/kyegomez~swarms.md) | The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai | 7,175 | +18 |
-| [OWL (camel-ai/owl)](../r/camel-ai~owl.md) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | 20,139 | +11 |
-| [Nanocoder (Nano-Collective)](../r/nano-collective~nanocoder.md) | An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, kee | 2,476 | +9 |
+| [Hindsight](../r/vectorize-io~hindsight.md) | Hindsight: Agent Memory That Learns | 47,082 | +2,986 |
+| [Pi (badlogic)](../r/badlogic~pi-mono.md) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 113,413 | +2,517 |
+| [Hermes Agent (NousResearch)](../r/nousresearch~hermes-agent.md) | The agent that grows with you | 252,099 | +1,643 |
+| [OpenCode](../r/anomalyco~opencode.md) | The open source coding agent. | 212,309 | +1,071 |
+| [OpenHands (ex-OpenDevin)](../r/all-hands-ai~openhands.md) | 🙌 OpenHands: AI-Driven Development | 90,261 | +565 |
+| [Dify](../r/langgenius~dify.md) | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cl | 158,097 | +449 |
+| [Mem0](../r/mem0ai~mem0.md) | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for  | 66,809 | +400 |
+| [LangGraph](../r/langchain-ai~langgraph.md) | Build resilient agents. | 42,884 | +334 |
+| [LangChain](../r/langchain-ai~langchain.md) | The agent engineering platform. | 147,572 | +225 |
+| [Deer-Flow (ByteDance)](../r/bytedance~deer-flow.md) | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories | 83,504 | +213 |
+| [CrewAI](../r/crewaiinc~crewai.md) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers | 59,453 | +198 |
+| [Mastra](../r/mastra-ai~mastra.md) | Mastra is the modern TypeScript framework for AI-powered applications and agents. | 28,640 | +173 |
+| [Langflow](../r/langflow-ai~langflow.md) | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 155,585 | +164 |
+| [smolagents](../r/huggingface~smolagents.md) | 🤗 smolagents: a barebones library for agents that think in code. | 29,732 | +115 |
+| [Aider](../r/paul-gauthier~aider.md) | aider is AI pair programming in your terminal | 49,422 | +110 |
+| [DSPy](../r/stanfordnlp~dspy.md) | DSPy: The framework for programming—not prompting—language models | 38,556 | +109 |
+| [Letta (ex-MemGPT)](../r/letta-ai~letta.md) | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | 25,075 | +83 |
+| [AutoGen (AG2)](../r/microsoft~autogen.md) | A programming framework for agentic AI | 61,296 | +49 |
+| [Mistral-Vibe (Mistral)](../r/mistralai~mistral-vibe.md) | Minimal CLI coding agent by Mistral | 5,075 | +48 |
+| [Semantic Kernel](../r/microsoft~semantic-kernel.md) | Integrate cutting-edge LLM technology quickly and easily into your apps | 28,634 | +14 |
+| [Nanocoder (Nano-Collective)](../r/nano-collective~nanocoder.md) | An open coding agent for your terminal, built by a community collective rather than a company. Bring your own model, kee | 2,502 | +9 |
+| [Swarms](../r/kyegomez~swarms.md) | The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai | 7,236 | +9 |
+| [OWL (camel-ai/owl)](../r/camel-ai~owl.md) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | 20,153 | +2 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1874,9 +1917,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Whisper (OpenAI → community forks)](../r/openai~whisper.md) | Robust Speech Recognition via Large-Scale Weak Supervision | 109,210 | +400 |
-| [VibeVoice (Microsoft)](../r/microsoft~vibevoice.md) | Open-Source Frontier Voice AI | 54,329 | +326 |
-| [MiniCPM-V 2.6](../r/openbmb~minicpm-v.md) | A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone | 26,392 | +47 |
+| [Whisper (OpenAI → community forks)](../r/openai~whisper.md) | Robust Speech Recognition via Large-Scale Weak Supervision | 110,137 | +309 |
+| [VibeVoice (Microsoft)](../r/microsoft~vibevoice.md) | Open-Source Frontier Voice AI | 54,672 | +97 |
+| [MiniCPM-V 2.6](../r/openbmb~minicpm-v.md) | A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone | 26,506 | +22 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1884,23 +1927,23 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ONNX Runtime](../r/microsoft~onnxruntime.md) | ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator | 21,863 | +235 |
-| [Ultralytics YOLO](../r/ultralytics~ultralytics.md) | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image class | 61,668 | +222 |
-| [OpenCV](../r/opencv~opencv.md) | Open Source Computer Vision Library | 90,852 | +111 |
-| [MediaPipe](../r/google-ai-edge~mediapipe.md) | Cross-platform, customizable ML solutions for live and streaming media. | 36,968 | +71 |
-| [Gymnasium (ex-OpenAI Gym)](../r/farama-foundation~gymnasium.md) | A standard API for single-agent reinforcement learning environments, with popular reference environments and related uti | 12,540 | +57 |
-| [OpenVINO](../r/openvinotoolkit~openvino.md) | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference | 10,862 | +47 |
-| [Isaac Lab](../r/isaac-sim~isaaclab.md) | Unified framework for robot learning with multi-physics/renderer support | 8,139 | +45 |
-| [SAM 2](../r/facebookresearch~sam2.md) | The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading | 19,874 | +42 |
-| [Chronos (Amazon)](../r/amazon-science~chronos-forecasting.md) | Chronos: Pretrained Models for Time Series Forecasting | 5,866 | +37 |
-| [Time Series Library (TSLib)](../r/thuml~time-series-library.md) | A Library for Advanced Deep Time Series Models for General Time Series Analysis. | 12,872 | +25 |
-| [ExecuTorch](../r/pytorch~executorch.md) | On-device AI across mobile, embedded and edge for PyTorch | 5,029 | +17 |
-| [MicroTVM (Apache TVM)](../r/apache~tvm.md) | Open Machine Learning Compiler Framework | 13,753 | +17 |
-| [Detectron2](../r/facebookresearch~detectron2.md) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | 34,709 | +16 |
-| [Stable-Baselines3](../r/dlr-rm~stable-baselines3.md) | PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms.  | 13,805 | +15 |
-| [Kornia](../r/kornia~kornia.md) | 🐍 Geometric Computer Vision Library for Spatial AI | 11,359 | +11 |
-| [Darts](../r/unit8co~darts.md) | A python library for user-friendly forecasting and anomaly detection on time series. | 9,521 | +9 |
-| [AutoTS](../r/winedarksea~autots.md) | Automated Time Series Forecasting | 1,428 | +3 |
+| [Ultralytics YOLO](../r/ultralytics~ultralytics.md) | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image class | 62,301 | +162 |
+| [OpenCV](../r/opencv~opencv.md) | Open Source Computer Vision Library | 91,111 | +86 |
+| [Chronos (Amazon)](../r/amazon-science~chronos-forecasting.md) | Chronos: Pretrained Models for Time Series Forecasting | 6,013 | +76 |
+| [ONNX Runtime](../r/microsoft~onnxruntime.md) | ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator | 22,037 | +66 |
+| [MediaPipe](../r/google-ai-edge~mediapipe.md) | Cross-platform, customizable ML solutions for live and streaming media. | 37,188 | +51 |
+| [Isaac Lab](../r/isaac-sim~isaaclab.md) | Unified framework for robot learning with multi-physics/renderer support | 8,296 | +33 |
+| [Gymnasium (ex-OpenAI Gym)](../r/farama-foundation~gymnasium.md) | A standard API for single-agent reinforcement learning environments, with popular reference environments and related uti | 12,635 | +31 |
+| [OpenVINO](../r/openvinotoolkit~openvino.md) | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference | 10,965 | +26 |
+| [SAM 2](../r/facebookresearch~sam2.md) | The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading | 19,967 | +26 |
+| [Detectron2](../r/facebookresearch~detectron2.md) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | 34,766 | +22 |
+| [MicroTVM (Apache TVM)](../r/apache~tvm.md) | Open Machine Learning Compiler Framework | 13,808 | +16 |
+| [Time Series Library (TSLib)](../r/thuml~time-series-library.md) | A Library for Advanced Deep Time Series Models for General Time Series Analysis. | 12,939 | +15 |
+| [Kornia](../r/kornia~kornia.md) | 🐍 Geometric Computer Vision Library for Spatial AI | 11,405 | +14 |
+| [ExecuTorch](../r/pytorch~executorch.md) | On-device AI across mobile, embedded and edge for PyTorch | 5,082 | +13 |
+| [Stable-Baselines3](../r/dlr-rm~stable-baselines3.md) | PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms.  | 13,875 | +13 |
+| [Darts](../r/unit8co~darts.md) | A python library for user-friendly forecasting and anomaly detection on time series. | 9,537 | +4 |
+| [AutoTS](../r/winedarksea~autots.md) | Automated Time Series Forecasting | 1,429 | +0 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1908,19 +1951,19 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Cline](../r/cline~cline.md) | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. | 68,166 | +412 |
-| [Promptfoo](../r/promptfoo~promptfoo.md) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C | 25,171 | +225 |
-| [DeepEval](../r/confident-ai~deepeval.md) | The LLM Evaluation Framework | 18,290 | +186 |
-| [Garak](../r/nvidia~garak.md) | the LLM vulnerability scanner | 9,265 | +181 |
-| [Aider](../r/paul-gauthier~aider.md) | aider is AI pair programming in your terminal | 48,991 | +169 |
-| [Assistant UI](../r/assistant-ui~assistant-ui.md) | Typescript/React Library for AI Chat 💬🚀 | 12,163 | +121 |
-| [Continue](../r/continuedev~continue.md) | open-source coding agent | 35,930 | +93 |
-| [Open Interpreter](../r/openinterpreter~open-interpreter.md) | A coding agent for open models like Kimi K3 and GLM 5.3 | 68,342 | +89 |
-| [Phoenix (Arize)](../r/arize-ai~phoenix.md) | AI Observability & Evaluation | 11,481 | +89 |
-| [CodeCompanion.nvim](../r/olimorris~codecompanion.nvim.md) | ✨ AI Coding, Vim Style | 6,863 | +13 |
-| [Jupyter AI](../r/jupyterlab~jupyter-ai.md) | An open source extension that connects AI agents to computational notebooks in JupyterLab. | 4,404 | +8 |
-| [Tabby](../r/tabbyml~tabby.md) | Self-hosted AI coding assistant | 33,881 | +5 |
-| [llama.vim](../r/ggml-org~llama.vim.md) | Vim plugin for LLM-assisted code/text completion | 2,174 | +2 |
+| [Cline](../r/cline~cline.md) | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. | 70,014 | +365 |
+| [Promptfoo](../r/promptfoo~promptfoo.md) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C | 25,812 | +201 |
+| [DeepEval](../r/confident-ai~deepeval.md) | The LLM Evaluation Framework | 18,700 | +166 |
+| [Aider](../r/paul-gauthier~aider.md) | aider is AI pair programming in your terminal | 49,422 | +110 |
+| [Garak](../r/nvidia~garak.md) | the LLM vulnerability scanner | 9,498 | +102 |
+| [Phoenix (Arize)](../r/arize-ai~phoenix.md) | AI Observability & Evaluation | 11,751 | +82 |
+| [Continue](../r/continuedev~continue.md) | open-source coding agent | 36,155 | +78 |
+| [Assistant UI](../r/assistant-ui~assistant-ui.md) | Typescript/React Library for AI Chat 💬🚀 | 12,442 | +72 |
+| [Open Interpreter](../r/openinterpreter~open-interpreter.md) | A coding agent for open models like Kimi K3 and GLM 5.3 | 68,521 | +38 |
+| [Tabby](../r/tabbyml~tabby.md) | Self-hosted AI coding assistant | 33,906 | +21 |
+| [llama.vim](../r/ggml-org~llama.vim.md) | Vim plugin for LLM-assisted code/text completion | 2,184 | +6 |
+| [Jupyter AI](../r/jupyterlab~jupyter-ai.md) | An open source extension that connects AI agents to computational notebooks in JupyterLab. | 4,413 | +2 |
+| [CodeCompanion.nvim](../r/olimorris~codecompanion.nvim.md) | ✨ AI Coding, Vim Style | 6,888 | +1 |
 
 [Back to top](#awesome-open-source-ai)
 
@@ -1928,39 +1971,39 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [TensorFlow](../r/tensorflow~tensorflow.md) | An Open Source Machine Learning Framework for Everyone | 200,126 | +584 |
-| [ONNX Runtime](../r/microsoft~onnxruntime.md) | ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator | 21,863 | +235 |
-| [Transformers (Hugging Face)](../r/huggingface~transformers.md) | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and | 166,239 | +210 |
-| [PyTorch](../r/pytorch~pytorch.md) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | 103,048 | +132 |
-| [Polars](../r/pola-rs~polars.md) | Extremely fast Query Engine for DataFrames, written in Rust | 39,743 | +105 |
-| [scikit-learn](../r/scikit-learn~scikit-learn.md) | scikit-learn: machine learning in Python | 67,270 | +92 |
-| [Burn](../r/tracel-ai~burn.md) | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency  | 15,927 | +50 |
-| [NumPy](../r/numpy~numpy.md) | The fundamental package for scientific computing with Python. | 32,750 | +50 |
-| [Pandas](../r/pandas-dev~pandas.md) | Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R da | 49,733 | +50 |
-| [FlashAttention](../r/dao-ailab~flash-attention.md) | Fast and memory-efficient exact attention | 24,927 | +45 |
-| [JAX](../r/jax-ml~jax.md) | Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more | 36,305 | +41 |
-| [DeepSpeed](../r/microsoft~deepspeed.md) | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and eff | 43,123 | +40 |
-| [Optuna](../r/optuna~optuna.md) | A hyperparameter optimization framework | 14,803 | +36 |
-| [Candle (Hugging Face)](../r/huggingface~candle.md) | Minimalist ML framework for Rust | 21,042 | +28 |
-| [XGBoost](../r/dmlc~xgboost.md) | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C and mor | 28,768 | +26 |
-| [sentence-transformers](../r/ukplab~sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,099 | +19 |
-| [LightGBM](../r/microsoft~lightgbm.md) | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree  | 18,770 | +16 |
-| [SciPy](../r/scipy~scipy.md) | SciPy library main repository | 15,017 | +16 |
-| [tokenizers (Hugging Face)](../r/huggingface~tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,039 | +16 |
-| [safetensors](../r/huggingface~safetensors.md) | Simple, safe way to store and distribute tensors | 3,895 | +15 |
-| [PyTorch Lightning](../r/lightning-ai~lightning.md) | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. | 31,345 | +14 |
-| [Hugging Face Accelerate](../r/huggingface~accelerate.md) | 🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic m | 9,868 | +13 |
-| [AutoGluon](../r/autogluon~autogluon.md) | Fast and Accurate ML in 3 Lines of Code | 10,660 | +11 |
-| [Keras](../r/keras-team~keras.md) | Deep Learning for humans | 64,316 | +11 |
-| [CatBoost](../r/catboost~catboost.md) | A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regres | 9,101 | +7 |
-| [torchao](../r/pytorch~ao.md) | PyTorch native quantization for training and inference | 2,977 | +7 |
-| [Dask](../r/dask~dask.md) | Parallel computing with task scheduling | 13,919 | +6 |
-| [einops](../r/arogozhnikov~einops.md) | Flexible and powerful tensor operations for readable and reliable code (for pytorch, jax, TF and others) | 9,601 | +5 |
-| [FLAML](../r/microsoft~flaml.md) | A fast library for AutoML and tuning. Join our Discord: https://discord.gg/Cppx2vSPVP. | 4,395 | +2 |
-| [torchmetrics](../r/lightning-ai~torchmetrics.md) | Machine learning metrics for distributed, scalable PyTorch applications. | 2,468 | +2 |
-| [xFormers](../r/facebookresearch~xformers.md) | Hackable and optimized Transformers building blocks, supporting a composable construction. | 10,548 | -1 |
+| [PyTorch](../r/pytorch~pytorch.md) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | 103,887 | +299 |
+| [Transformers (Hugging Face)](../r/huggingface~transformers.md) | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and | 167,055 | +171 |
+| [NumPy](../r/numpy~numpy.md) | The fundamental package for scientific computing with Python. | 33,047 | +157 |
+| [Polars](../r/pola-rs~polars.md) | Extremely fast Query Engine for DataFrames, written in Rust | 40,003 | +104 |
+| [TensorFlow](../r/tensorflow~tensorflow.md) | An Open Source Machine Learning Framework for Everyone | 200,746 | +101 |
+| [ONNX Runtime](../r/microsoft~onnxruntime.md) | ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator | 22,037 | +66 |
+| [scikit-learn](../r/scikit-learn~scikit-learn.md) | scikit-learn: machine learning in Python | 67,496 | +59 |
+| [FlashAttention](../r/dao-ailab~flash-attention.md) | Fast and memory-efficient exact attention | 25,104 | +55 |
+| [Pandas](../r/pandas-dev~pandas.md) | Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R da | 49,932 | +44 |
+| [DeepSpeed](../r/microsoft~deepspeed.md) | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and eff | 43,206 | +35 |
+| [Burn](../r/tracel-ai~burn.md) | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency  | 16,042 | +32 |
+| [Optuna](../r/optuna~optuna.md) | A hyperparameter optimization framework | 14,896 | +30 |
+| [SciPy](../r/scipy~scipy.md) | SciPy library main repository | 15,091 | +29 |
+| [XGBoost](../r/dmlc~xgboost.md) | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C and mor | 28,837 | +28 |
+| [Candle (Hugging Face)](../r/huggingface~candle.md) | Minimalist ML framework for Rust | 21,150 | +20 |
+| [LightGBM](../r/microsoft~lightgbm.md) | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree  | 18,842 | +18 |
+| [PyTorch Lightning](../r/lightning-ai~lightning.md) | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. | 31,390 | +18 |
+| [JAX](../r/jax-ml~jax.md) | Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more | 36,384 | +17 |
+| [tokenizers (Hugging Face)](../r/huggingface~tokenizers.md) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | 11,162 | +17 |
+| [sentence-transformers](../r/ukplab~sentence-transformers.md) | State-of-the-Art Embeddings, Retrieval, and Reranking | 19,157 | +16 |
+| [Hugging Face Accelerate](../r/huggingface~accelerate.md) | 🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic m | 9,911 | +12 |
+| [AutoGluon](../r/autogluon~autogluon.md) | Fast and Accurate ML in 3 Lines of Code | 10,767 | +10 |
+| [Keras](../r/keras-team~keras.md) | Deep Learning for humans | 64,353 | +10 |
+| [safetensors](../r/huggingface~safetensors.md) | Simple, safe way to store and distribute tensors | 3,912 | +7 |
+| [FLAML](../r/microsoft~flaml.md) | A fast library for AutoML and tuning. Join our Discord: https://discord.gg/Cppx2vSPVP. | 4,406 | +6 |
+| [torchao](../r/pytorch~ao.md) | PyTorch native quantization for training and inference | 2,994 | +6 |
+| [Dask](../r/dask~dask.md) | Parallel computing with task scheduling | 13,932 | +5 |
+| [einops](../r/arogozhnikov~einops.md) | Flexible and powerful tensor operations for readable and reliable code (for pytorch, jax, TF and others) | 9,615 | +5 |
+| [xFormers](../r/facebookresearch~xformers.md) | Hackable and optimized Transformers building blocks, supporting a composable construction. | 10,559 | +5 |
+| [CatBoost](../r/catboost~catboost.md) | A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regres | 9,133 | +4 |
+| [torchmetrics](../r/lightning-ai~torchmetrics.md) | Machine learning metrics for distributed, scalable PyTorch applications. | 2,474 | -1 |
 
 [Back to top](#awesome-open-source-ai)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/l/opensource-ai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/l/opensource-ai/)*

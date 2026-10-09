@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,348 | +110 | +513 |  | 2026-09-16 |
+| 3,503 | +29 | +484 |  | 2026-10-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unclecheng-li~vulnclaw/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/unclecheng-li~vulnclaw/)*

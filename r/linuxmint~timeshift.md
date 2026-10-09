@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,279 | +19 | +47 | +139 | 2026-09-05 |
+| 4,297 | +3 | +38 | +141 | 2026-09-21 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Data Backup and Recovery
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~timeshift/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~timeshift/)*

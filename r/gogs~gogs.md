@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 47,816 | +31 | +86 | +207 | 2026-09-12 |
+| 47,860 | +13 | +70 | +205 | 2026-09-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gogs~gogs/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gogs~gogs/)*

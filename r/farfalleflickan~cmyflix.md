@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 192 | +1 | -1 | -2 | 2025-12-18 |
+| 195 | +2 | -1 | -1 | 2025-12-18 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Multimedia Streaming
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/farfalleflickan~cmyflix/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/farfalleflickan~cmyflix/)*

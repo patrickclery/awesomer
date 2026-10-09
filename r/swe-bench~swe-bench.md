@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,855 | +45 | +204 | +652 | 2026-09-02 |
+| 5,988 | +45 | +208 | +661 | 2026-09-18 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Benchmark Suites
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/swe-bench~swe-bench/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/swe-bench~swe-bench/)*

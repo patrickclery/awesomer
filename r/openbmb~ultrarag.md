@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,694 | +2 | +25 | +95 | 2026-09-16 |
+| 5,717 | +6 | +34 | +100 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~ultrarag/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~ultrarag/)*

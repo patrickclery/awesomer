@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,227 | +2 | +1 | +0 | 2026-04-01 |
+| 8,230 | +2 | -1 | +0 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Form Builder
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/heartcombo~simple_form/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/heartcombo~simple_form/)*

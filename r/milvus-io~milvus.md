@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,125 | +103 | +465 | +1,293 | 2026-09-16 |
+| 46,340 | +45 | +475 | +1,313 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/milvus-io~milvus/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/milvus-io~milvus/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,154 | +3 | +3 | +37 | 2026-02-06 |
+| 1,158 | +0 | +3 | +39 | 2026-02-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Decentralized Systems
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/steven2358~awesome-blockchain-ai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/steven2358~awesome-blockchain-ai/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,763 | +1 | +8 | +31 | 2025-10-25 |
+| 3,774 | -1 | +15 | +34 | 2025-10-25 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/insanum~gcalcli/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/insanum~gcalcli/)*

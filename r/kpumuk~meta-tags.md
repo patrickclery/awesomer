@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,801 | +2 | +2 | +5 | 2026-09-16 |
+| 2,801 | +0 | +0 | +5 | 2026-10-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / SEO
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kpumuk~meta-tags/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kpumuk~meta-tags/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,079 | +1 | +25 | +83 | 2026-09-03 |
+| 16,111 | +4 | +39 | +85 | 2026-09-21 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Back-End Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ramitsurana~awesome-kubernetes/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ramitsurana~awesome-kubernetes/)*

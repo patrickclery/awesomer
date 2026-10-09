@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,105 | +0 | +1 | +4 | 2026-09-15 |
+| 1,104 | -1 | +1 | +4 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rakkasjs~rakkasjs/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rakkasjs~rakkasjs/)*

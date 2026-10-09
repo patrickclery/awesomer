@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,087 | +2 | +9 | +32 | 2026-07-23 |
+| 1,101 | +3 | +15 | +36 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marhkb~pods/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/marhkb~pods/)*

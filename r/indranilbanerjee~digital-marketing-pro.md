@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 819 | +23 | +75 | +672 | 2026-09-07 |
+| 855 | +12 | +67 | +676 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/indranilbanerjee~digital-marketing-pro/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/indranilbanerjee~digital-marketing-pro/)*

@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Search
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sunspot~sunspot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sunspot~sunspot/)*

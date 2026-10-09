@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 287 |  |  |  | 2026-09-16 |
+| 287 | +0 |  |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kpfromer~nestjs-typegoose/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kpfromer~nestjs-typegoose/)*

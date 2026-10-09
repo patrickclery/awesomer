@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,450 | +1 | +1 |  | 2026-08-28 |
+| 3,452 | +0 | +1 |  | 2026-09-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Highlighting
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rouge-ruby~rouge/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rouge-ruby~rouge/)*

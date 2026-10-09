@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,729 | +2 | +9 | +27 | 2026-09-15 |
+| 3,738 | +4 | +12 | +27 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Language bindings
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/npgsql~npgsql/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/npgsql~npgsql/)*

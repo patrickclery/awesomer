@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,629 | +2 | +3 | +0 | 2026-09-14 |
+| 3,633 | +0 | +5 | +0 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CRM
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fatfreecrm~fat_free_crm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fatfreecrm~fat_free_crm/)*

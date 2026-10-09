@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,824 | +9 | +17 | +72 | 2026-09-14 |
+| 5,833 | +1 | +16 | +75 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vikejs~vike/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vikejs~vike/)*

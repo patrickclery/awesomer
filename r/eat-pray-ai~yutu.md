@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 637 | +3 | +20 | +119 | 2026-09-14 |
+| 698 | +1 | +73 | +108 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eat-pray-ai~yutu/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/eat-pray-ai~yutu/)*

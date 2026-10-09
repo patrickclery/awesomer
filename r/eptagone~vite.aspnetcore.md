@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 384 | +0 | +1 | +11 | 2026-08-11 |
+| 387 | +0 | +2 | +12 | 2026-08-11 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / ASP.NET Core
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eptagone~vite.aspnetcore/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/eptagone~vite.aspnetcore/)*

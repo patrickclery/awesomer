@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,667 |  |  |  | 2026-05-18 |
+| 1,673 | +4 |  |  | 2026-05-18 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepsense-ai~ragbits/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deepsense-ai~ragbits/)*

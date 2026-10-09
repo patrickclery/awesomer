@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 868 | -1 | -1 | -2 | 2026-09-11 |
+| 872 | -1 | +0 | -2 | 2026-09-26 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / State Machines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/state-machines~state_machines/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/state-machines~state_machines/)*

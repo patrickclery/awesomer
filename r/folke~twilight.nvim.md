@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,548 | +4 | +4 | +13 | 2025-10-28 |
+| 1,548 | -1 | +0 | +13 | 2025-10-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Color
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~twilight.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~twilight.nvim/)*

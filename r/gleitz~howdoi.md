@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,845 | -3 | +4 | +4 | 2026-09-12 |
+| 10,841 | -1 | +7 | +3 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Command Line Learning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gleitz~howdoi/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gleitz~howdoi/)*

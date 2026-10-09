@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,939 | +1 | +11 | +41 | 2026-06-02 |
+| 1,959 | +6 | +24 | +46 | 2026-06-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/psi-4ward~psitransfer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/psi-4ward~psitransfer/)*

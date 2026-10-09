@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,754 | +3 | +9 | +20 | 2026-09-14 |
+| 1,758 | +0 | +7 | +20 | 2026-09-20 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sqlancer~sqlancer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sqlancer~sqlancer/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,249 | -1 | +24 | +132 | 2026-09-16 |
+| 4,296 | +31 | +33 | +127 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Backups
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wal-g~wal-g/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wal-g~wal-g/)*

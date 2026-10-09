@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,638 | +11 | +41 | +106 | 2026-09-14 |
+| 3,657 | +4 | +41 | +113 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/texstudio-org~texstudio/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/texstudio-org~texstudio/)*

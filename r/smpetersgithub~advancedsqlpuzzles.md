@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 923 | +1 | +7 | +29 | 2026-09-02 |
+| 928 | +0 | +8 | +30 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/smpetersgithub~advancedsqlpuzzles/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/smpetersgithub~advancedsqlpuzzles/)*

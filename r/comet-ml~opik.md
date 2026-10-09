@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,058 | +149 | +635 | +2,371 | 2026-09-16 |
+| 22,449 | +133 | +654 | +2,434 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
-- [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 - [Awesome local LLM](../l/local-llm.md) / Testing, Evaluation and Observability
+- [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/comet-ml~opik/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/comet-ml~opik/)*

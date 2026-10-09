@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,479 | +121 | +469 | +1,707 | 2026-08-27 |
+| 29,949 | +91 | +489 | +1,741 | 2026-10-01 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
+- [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 - [Awesome local LLM](../l/local-llm.md) / Research
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/assafelovic~gpt-researcher/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/assafelovic~gpt-researcher/)*

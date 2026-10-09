@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 778 | +9 | +21 | +73 | 2026-09-07 |
+| 797 | +3 | +26 | +76 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vitalets~playwright-bdd/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vitalets~playwright-bdd/)*

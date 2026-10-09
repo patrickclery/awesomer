@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,805 | +3 | -7 | +19 | 2026-09-16 |
+| 44,800 | -2 | -6 | +21 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/meteor~meteor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/meteor~meteor/)*

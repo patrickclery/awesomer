@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 279 | +2 | +3 | +17 | 2026-09-01 |
+| 287 | +3 | +4 | +18 | 2026-09-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Remote Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/azratul~live-share.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/azratul~live-share.nvim/)*

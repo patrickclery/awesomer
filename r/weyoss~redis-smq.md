@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 670 | +0 | +1 | +1 | 2026-09-05 |
+| 670 | +0 | +2 | +1 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/weyoss~redis-smq/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/weyoss~redis-smq/)*

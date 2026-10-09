@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,112 |  |  |  | 2026-03-20 |
+| 4,115 | +2 |  |  | 2026-03-20 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vectorspacelab~omnigen2/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vectorspacelab~omnigen2/)*

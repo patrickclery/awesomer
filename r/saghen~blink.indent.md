@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 233 | +1 | +1 | +11 | 2026-09-09 |
+| 234 | +0 | +1 | +12 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Indent
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/saghen~blink.indent/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/saghen~blink.indent/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 20,911 | +47 | +261 | +791 | 2026-09-09 |
+| 21,071 | +38 | +277 | +814 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/charmbracelet~vhs/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/charmbracelet~vhs/)*

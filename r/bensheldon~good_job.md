@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,995 | +3 | +5 | +22 | 2026-09-01 |
+| 3,000 | +3 | +3 | +23 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Queues and Messaging
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bensheldon~good_job/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bensheldon~good_job/)*

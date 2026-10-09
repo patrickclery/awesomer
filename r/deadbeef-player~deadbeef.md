@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,965 | +4 | +10 | +34 | 2026-08-12 |
+| 1,975 | +4 | +9 | +36 | 2026-10-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deadbeef-player~deadbeef/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deadbeef-player~deadbeef/)*

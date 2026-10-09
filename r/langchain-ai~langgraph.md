@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 41,755 | +491 | +1,908 | +6,640 | 2026-09-15 |
+| 42,884 | +334 | +1,889 | +6,729 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🤖 4. Agentic AI & Multi-Agent Systems
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~langgraph/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~langgraph/)*

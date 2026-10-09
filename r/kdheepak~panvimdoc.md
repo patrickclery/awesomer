@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 322 | +0 | -1 | +4 | 2026-09-13 |
+| 324 | +0 | +0 | +3 | 2026-09-17 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Markdown and LaTeX
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kdheepak~panvimdoc/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kdheepak~panvimdoc/)*

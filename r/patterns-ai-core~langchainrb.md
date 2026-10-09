@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,997 | +2 | +8 | +11 | 2026-09-09 |
+| 1,999 | +0 | +8 | +11 | 2026-09-09 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / LLM Application Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/patterns-ai-core~langchainrb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/patterns-ai-core~langchainrb/)*

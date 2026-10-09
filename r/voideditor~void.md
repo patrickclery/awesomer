@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,801 | -6 | -37 | -7 | 2026-06-02 |
+| 28,772 | -8 | -38 | -9 | 2026-06-02 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Coding Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/voideditor~void/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/voideditor~void/)*

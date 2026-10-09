@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,600 | +85 | +460 | +1,386 | 2026-09-11 |
+| 6,906 | +76 | +517 | +1,414 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gepa-ai~gepa/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gepa-ai~gepa/)*

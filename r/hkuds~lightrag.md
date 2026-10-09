@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,695 | +225 | +767 | +2,948 | 2026-09-16 |
+| 40,014 | +71 | +699 | +2,993 | 2026-10-03 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Retrieval-Augmented Generation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~lightrag/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~lightrag/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,591 | +9 | +36 | +124 | 2026-09-15 |
+| 5,607 | +7 | +29 | +120 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Desktop Environments
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~cinnamon/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/linuxmint~cinnamon/)*

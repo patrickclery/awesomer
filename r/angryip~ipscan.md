@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,118 | +7 | +40 | +109 | 2026-09-01 |
+| 5,143 | +11 | +38 | +112 | 2026-09-01 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/angryip~ipscan/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/angryip~ipscan/)*

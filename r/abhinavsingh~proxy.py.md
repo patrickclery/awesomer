@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,550 | +2 | +2 |  | 2026-08-31 |
+| 3,553 | +2 | +0 |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/abhinavsingh~proxy.py/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/abhinavsingh~proxy.py/)*

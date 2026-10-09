@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,537 | +15 | +275 | +462 | 2026-09-14 |
+| 3,622 | +30 | +291 | +466 | 2026-10-04 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brootware~awesome-cyber-security-university/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/brootware~awesome-cyber-security-university/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 980 | +6 | +31 | +86 | 2026-09-13 |
+| 1,011 | +12 | +38 | +88 | 2026-09-29 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / File Manager
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/midnightcommander~mc/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/midnightcommander~mc/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,796 | +0 | -2 | -4 | 2026-06-18 |
+| 5,797 | +0 | -1 | -3 | 2026-09-18 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/substack~tape/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/substack~tape/)*

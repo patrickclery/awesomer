@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,597 | +0 | -2 | -5 | 2026-06-22 |
+| 1,598 | +0 | -1 | -5 | 2026-06-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Social Networking
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thredded~thredded/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thredded~thredded/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,407 | +177 | +565 |  | 2026-09-16 |
+| 7,799 | +50 | +616 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI Coding Assistants (open-source)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/moonshotai~kimi-code/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/moonshotai~kimi-code/)*

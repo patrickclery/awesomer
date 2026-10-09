@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,134 | +21 | +568 | +918 | 2026-09-15 |
+| 19,244 | +33 | +603 | +924 | 2026-10-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mlc-ai~web-llm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mlc-ai~web-llm/)*

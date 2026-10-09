@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 138 | +5 | +30 | +61 | 2026-09-16 |
+| 151 | +3 | +30 | +61 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/muvon~octomind/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/muvon~octomind/)*

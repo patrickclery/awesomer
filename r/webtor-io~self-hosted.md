@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 680 | +3 | +10 | +38 | 2026-09-15 |
+| 696 | +6 | +14 | +39 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Peer-to-peer Filesharing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/webtor-io~self-hosted/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/webtor-io~self-hosted/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 602 | +0 | +0 | +3 | 2026-08-31 |
+| 601 | +0 | +0 | +3 | 2026-08-31 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aunaseef~protonup/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/aunaseef~protonup/)*

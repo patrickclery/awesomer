@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 399 | +1 | +0 | +3 | 2026-02-04 |
+| 402 | +1 | +1 | +3 | 2026-02-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Buffers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/j-morano~buffer_manager.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/j-morano~buffer_manager.nvim/)*

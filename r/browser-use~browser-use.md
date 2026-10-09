@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 114,779 | +866 | +5,297 | +15,367 | 2026-09-15 |
+| 117,453 | +568 | +5,897 | +15,702 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Browser Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/browser-use~browser-use/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/browser-use~browser-use/)*

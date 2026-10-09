@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 151 | +0 | +2 |  | 2026-07-19 |
+| 152 | +0 | +3 |  | 2026-07-19 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Disk Usage
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mrkatebzadeh~darya/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mrkatebzadeh~darya/)*

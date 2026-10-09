@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,664 | +17 | +46 | +150 | 2026-09-16 |
+| 1,697 | +10 | +45 | +148 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Deployment & Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kimdre~doco-cd/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kimdre~doco-cd/)*

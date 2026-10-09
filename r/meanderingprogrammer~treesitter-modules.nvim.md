@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 168 | +0 | -1 | -1 | 2026-05-12 |
+| 169 | +0 | +0 | +0 | 2026-05-12 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Syntax
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/meanderingprogrammer~treesitter-modules.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/meanderingprogrammer~treesitter-modules.nvim/)*

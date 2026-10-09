@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,251 | +5 | +13 | +34 | 2026-09-10 |
+| 1,264 | +6 | +12 | +35 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / IMAP/POP Server
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dovecot~core/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dovecot~core/)*

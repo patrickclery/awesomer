@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,650 | +22 | +28 | +67 | 2026-08-30 |
+| 36,649 | +1 | +0 | +60 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/date-fns~date-fns/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/date-fns~date-fns/)*

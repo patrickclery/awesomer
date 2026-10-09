@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 368 | +0 | +0 |  | 2026-06-30 |
+| 369 | +0 | +0 |  | 2026-06-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neovim~neovim-ruby/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/neovim~neovim-ruby/)*

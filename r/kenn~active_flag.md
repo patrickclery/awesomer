@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 259 | -1 | +0 | +2 | 2026-06-23 |
+| 259 | +0 | +1 | +2 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kenn~active_flag/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kenn~active_flag/)*

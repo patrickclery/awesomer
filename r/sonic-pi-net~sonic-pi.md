@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,142 | +10 | +71 |  | 2026-09-12 |
+| 12,184 | +19 | +74 |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Music and Sound
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sonic-pi-net~sonic-pi/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sonic-pi-net~sonic-pi/)*

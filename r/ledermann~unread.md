@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 739 | +0 | -1 | -3 | 2026-03-18 |
+| 738 | -1 | -1 | -3 | 2026-03-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ledermann~unread/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ledermann~unread/)*

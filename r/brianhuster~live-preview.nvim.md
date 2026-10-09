@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 428 | +3 | +10 | +22 | 2026-09-13 |
+| 440 | +4 | +12 | +24 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Live Preview
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brianhuster~live-preview.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/brianhuster~live-preview.nvim/)*

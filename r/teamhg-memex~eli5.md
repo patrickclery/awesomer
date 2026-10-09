@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,835 | +14 | +55 | +60 | 2026-04-08 |
+| 2,850 | +0 | +48 | +64 | 2026-04-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Interpretability & Explainability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/teamhg-memex~eli5/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/teamhg-memex~eli5/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,077 | +86 | +325 | +654 | 2026-05-17 |
+| 5,237 | +33 | +322 | +670 | 2026-05-17 |
 
 ## Found In
 
-- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / Additional Inference Engines
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~mini-sglang/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sgl-project~mini-sglang/)*

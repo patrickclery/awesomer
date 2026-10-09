@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,416 | +5 | +27 | +78 | 2026-09-01 |
+| 15,434 | +8 | +25 | +74 | 2026-09-26 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Complete Email Server
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mail-in-a-box~mailinabox/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mail-in-a-box~mailinabox/)*

@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 174 | +0 | +2 | +0 | 2025-08-04 |
+| 176 | +0 | -1 | -2 | 2026-09-30 |
 
 ## Found In
 
-- [awesome-shell](../l/shell.md) / Customization
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
+- [awesome-shell](../l/shell.md) / Customization
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/win0err~aphrodite-terminal-theme/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/win0err~aphrodite-terminal-theme/)*

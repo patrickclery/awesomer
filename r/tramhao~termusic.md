@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,207 | +8 | +34 | +116 | 2026-09-16 |
+| 2,225 | +4 | +37 | +117 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Music
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tramhao~termusic/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tramhao~termusic/)*

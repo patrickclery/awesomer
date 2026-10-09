@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,236 | +3 | +12 | +59 | 2026-05-21 |
+| 9,250 | +5 | +14 | +63 | 2026-05-21 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/activeloopai~deeplake/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/activeloopai~deeplake/)*

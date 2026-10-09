@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,407 | +5 | +40 | +174 | 2026-09-11 |
+| 4,448 | +10 | +54 | +175 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Evaluation Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/evolvinglmms-lab~lmms-eval/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/evolvinglmms-lab~lmms-eval/)*

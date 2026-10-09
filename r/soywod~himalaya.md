@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,250 | +62 | +217 | +801 | 2026-09-08 |
+| 7,407 | +34 | +228 | +812 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / CLI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/soywod~himalaya/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/soywod~himalaya/)*

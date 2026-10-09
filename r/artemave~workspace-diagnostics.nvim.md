@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 263 | +1 | +4 | +7 | 2026-05-04 |
+| 263 | +0 | +3 | +7 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Diagnostics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/artemave~workspace-diagnostics.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/artemave~workspace-diagnostics.nvim/)*

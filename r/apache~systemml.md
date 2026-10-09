@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,097 | -1 | -1 | +7 | 2026-09-14 |
+| 1,100 | +0 | +3 | +7 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Java
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~systemml/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~systemml/)*

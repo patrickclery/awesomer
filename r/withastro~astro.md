@@ -1,6 +1,6 @@
 # withastro/astro
 
-> The web framework for content-driven websites. ⭐️ Star to support our work!
+> The web framework for content-driven websites.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/withastro/astro) | [Live site ↗](https://patrickclery.com/awesomer/r/withastro~astro/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 62,614 | +188 | +795 | +2,344 | 2026-09-16 |
+| 63,115 | +141 | +801 | +2,388 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Open Source
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/withastro~astro/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/withastro~astro/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,999 | +10 | +33 | +93 | 2026-09-11 |
+| 2,019 | +4 | +30 | +98 | 2026-09-22 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/msoedov~agentic_security/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/msoedov~agentic_security/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,818 | +14 | +31 | +162 | 2026-09-16 |
+| 7,848 | +11 | +28 | +163 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stride3d~stride/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/stride3d~stride/)*

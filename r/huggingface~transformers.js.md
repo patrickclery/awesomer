@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,295 | +3 | +35 | +175 | 2026-09-16 |
+| 16,342 | +7 | +59 | +181 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Hubs & Registries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~transformers.js/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~transformers.js/)*

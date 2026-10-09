@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 698 | +3 | +7 | +18 | 2026-09-10 |
+| 700 | +0 | +5 | +18 | 2026-09-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Game Development and Graphics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby2d~ruby2d/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ruby2d~ruby2d/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,774 | -2 | -7 | -10 | 2026-09-15 |
+| 8,768 | +0 | -7 | -11 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / File Upload
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/carrierwaveuploader~carrierwave/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/carrierwaveuploader~carrierwave/)*

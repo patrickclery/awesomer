@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,036 | +5 | +25 | +73 | 2026-09-05 |
+| 6,053 | +8 | +26 | +73 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Applications
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ledger~ledger/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ledger~ledger/)*

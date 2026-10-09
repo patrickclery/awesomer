@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 61,486 | +328 | +1,324 | +3,971 | 2026-09-16 |
+| 62,249 | +226 | +1,292 | +4,031 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome-Linux-Software](../l/linux-software.md) / Office
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marktext~marktext/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/marktext~marktext/)*

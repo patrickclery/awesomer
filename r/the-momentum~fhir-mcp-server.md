@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 100 | +0 | +3 | +14 | 2025-10-23 |
+| 102 | +1 | +3 | +11 | 2025-10-23 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Biology, Medicine and Bioinformatics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/the-momentum~fhir-mcp-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/the-momentum~fhir-mcp-server/)*

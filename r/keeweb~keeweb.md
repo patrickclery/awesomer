@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,991 | +11 | +13 | +51 | 2026-05-08 |
+| 13,011 | +6 | +11 | +55 | 2026-05-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/keeweb~keeweb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/keeweb~keeweb/)*

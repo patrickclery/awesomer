@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,682 | -4 | -6 | -12 | 2025-11-24 |
+| 5,680 | +0 | -3 | -12 | 2025-11-24 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Pagination
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mislav~will_paginate/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mislav~will_paginate/)*

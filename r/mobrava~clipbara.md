@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 203 |  |  |  | 2026-09-11 |
+| 234 | +4 |  |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Clipboard Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mobrava~clipbara/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mobrava~clipbara/)*

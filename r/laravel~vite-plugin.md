@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 902 | +2 | +3 | +11 | 2026-09-16 |
+| 903 | +1 | +1 | +11 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Laravel
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/laravel~vite-plugin/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/laravel~vite-plugin/)*

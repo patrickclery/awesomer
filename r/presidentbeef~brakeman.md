@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,270 | +0 | +8 | +23 | 2026-08-13 |
+| 7,278 | +4 | +11 | +26 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Code Analysis and Metrics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/presidentbeef~brakeman/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/presidentbeef~brakeman/)*

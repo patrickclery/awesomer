@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 200 | -1 | -1 | -2 | 2026-08-16 |
+| 201 | +0 | +1 | -2 | 2026-08-16 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Statusline
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/muniftanjim~nougat.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/muniftanjim~nougat.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 978 | +0 | +1 | +9 | 2026-08-30 |
+| 978 | +1 | +0 | +9 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Server
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/albertito~chasquid/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/albertito~chasquid/)*

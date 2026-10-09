@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,821 | -1 | +1 | +7 | 2026-04-18 |
+| 4,824 | +0 | +2 | +8 | 2026-04-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / PDF
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prawnpdf~prawn/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/prawnpdf~prawn/)*

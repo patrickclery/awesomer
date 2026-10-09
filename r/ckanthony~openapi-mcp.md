@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 196 | +0 | +2 | +10 | 2026-03-21 |
+| 198 | +1 | +2 | +10 | 2026-03-21 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Code Execution
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ckanthony~openapi-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ckanthony~openapi-mcp/)*

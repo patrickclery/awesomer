@@ -1,6 +1,6 @@
 # firecrawl/firecrawl
 
-> The context API to search, scrape, and interact with the web at scale. 🔥
+> Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/firecrawl/firecrawl) | [Live site ↗](https://patrickclery.com/awesomer/r/firecrawl~firecrawl/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 181,091 | +3,228 | +12,716 | +46,664 | 2026-09-16 |
+| 189,667 | +2,310 | +12,822 | +47,146 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Web Data Ingestion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/firecrawl~firecrawl/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/firecrawl~firecrawl/)*

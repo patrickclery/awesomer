@@ -15,4 +15,4 @@
 - [awesome-piracy](../l/piracy.md) / DDL Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ston3o~rdcli/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ston3o~rdcli/)*

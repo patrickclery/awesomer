@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 879 | +0 | +6 | +11 | 2026-08-28 |
+| 886 | +1 | +11 | +10 | 2026-08-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-shell](../l/shell.md) / Command-Line Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/simeg~eureka/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/simeg~eureka/)*

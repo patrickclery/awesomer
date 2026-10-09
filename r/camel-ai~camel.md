@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 17,726 | +37 | +130 | +503 | 2026-09-14 |
+| 17,825 | +26 | +139 | +514 | 2026-10-05 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/camel-ai~camel/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/camel-ai~camel/)*

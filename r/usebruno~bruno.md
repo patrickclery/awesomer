@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 46,982 | +140 | +606 | +1,998 | 2026-09-16 |
+| 47,402 | +103 | +675 | +2,036 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/usebruno~bruno/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/usebruno~bruno/)*

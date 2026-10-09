@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,968 | +71 | +331 | +1,258 | 2026-09-16 |
+| 37,188 | +51 | +364 | +1,278 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧩 11. Specialized Domains
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~mediapipe/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~mediapipe/)*

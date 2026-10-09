@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 27,670 | +20 | +67 | +435 | 2026-09-15 |
+| 27,701 | +9 | +56 | +431 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-db-tools](../l/db-tools.md) / API
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrest~postgrest/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/postgrest~postgrest/)*

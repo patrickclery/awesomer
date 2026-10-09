@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 494 | +1 | +8 | +79 | 2026-01-28 |
+| 513 | +2 | +19 | +81 | 2026-01-28 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Design & UI/UX
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alonw0~web-asset-generator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alonw0~web-asset-generator/)*

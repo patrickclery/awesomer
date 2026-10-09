@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 751 | +0 | +2 | +4 | 2026-08-18 |
+| 752 | -1 | +3 | +4 | 2026-09-26 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Utility
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/uraimo~run-on-arch-action/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/uraimo~run-on-arch-action/)*

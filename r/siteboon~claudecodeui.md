@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,704 | +114 | +386 |  | 2026-09-16 |
+| 13,978 | +94 | +373 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Alternative Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/siteboon~claudecodeui/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/siteboon~claudecodeui/)*

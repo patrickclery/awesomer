@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,153 | +45 | +154 | +412 | 2026-09-16 |
+| 10,249 | +19 | +152 | +424 | 2026-09-30 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Additional Inference Engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / Inference Kernels & Runtime Primitives
+- [Awesome Open Source AI](../l/opensource-ai.md) / Additional Inference Engines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deepseek-ai~deepep/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deepseek-ai~deepep/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,028 | +3 | -1 |  | 2026-05-08 |
+| 7,030 | +1 | -3 |  | 2026-09-25 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paper-trail-gem~paper_trail/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/paper-trail-gem~paper_trail/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,761 | +8 | +24 | +94 | 2026-09-12 |
+| 5,769 | +1 | +22 | +92 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / GitHub Tools and Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/softprops~action-gh-release/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/softprops~action-gh-release/)*

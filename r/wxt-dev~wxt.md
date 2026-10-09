@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,511 | +33 | +149 | +493 | 2026-09-16 |
+| 10,582 | +24 | +145 | +499 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Open Source
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wxt-dev~wxt/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wxt-dev~wxt/)*

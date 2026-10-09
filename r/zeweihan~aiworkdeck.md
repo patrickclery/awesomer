@@ -1,6 +1,6 @@
 # zeweihan/aiworkdeck
 
-> AI-native IDE workspace for legal and document-heavy workflows: files, agents, plugins, built-in document editing with t
+> Open-source workspace for professional document AI: reviewable agent edits, source-linked work, three-way document merge
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/zeweihan/aiworkdeck) | [Live site ↗](https://patrickclery.com/awesomer/r/zeweihan~aiworkdeck/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 148 | +3 | +72 | +95 | 2026-09-16 |
+| 150 | +2 | +71 | +95 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI-Native IDEs & Development Environments
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zeweihan~aiworkdeck/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zeweihan~aiworkdeck/)*

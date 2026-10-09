@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 324 | +0 | -1 | +9 | 2026-08-21 |
+| 329 | +1 | +2 | +10 | 2026-08-21 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thewicklowwolf~channeltube/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thewicklowwolf~channeltube/)*

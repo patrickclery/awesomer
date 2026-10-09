@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,348 | +0 | -1 | +0 | 2026-07-26 |
+| 1,349 | +0 | -1 | +0 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Email
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mange~roadie/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mange~roadie/)*

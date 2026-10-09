@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 102 | +7 | +27 |  | 2026-04-19 |
+| 111 | +4 | +25 |  | 2026-04-19 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Writing & Prose Quality
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/glacierphonk~naming/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/glacierphonk~naming/)*

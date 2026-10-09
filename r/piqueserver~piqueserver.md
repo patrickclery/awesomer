@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 235 | +0 | -2 | +1 | 2026-09-02 |
+| 236 | +0 | -2 | +1 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/piqueserver~piqueserver/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/piqueserver~piqueserver/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 884 | +17 | +41 | +144 | 2026-08-24 |
+| 895 | +4 | +28 | +146 | 2026-08-24 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Video Surveillance
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eduard256~strix/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/eduard256~strix/)*

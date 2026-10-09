@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,161 | +23 | +95 | +224 | 2026-09-14 |
+| 3,203 | +13 | +91 | +231 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent & Voice Infrastructure
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~agent-chat-ui/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/langchain-ai~agent-chat-ui/)*

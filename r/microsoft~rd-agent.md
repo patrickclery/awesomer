@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,648 |  |  |  | 2026-09-15 |
+| 14,864 | +46 |  |  | 2026-10-06 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Research
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~rd-agent/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~rd-agent/)*

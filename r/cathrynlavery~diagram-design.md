@@ -1,6 +1,6 @@
 # cathrynlavery/diagram-design
 
-> 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+> Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/cathrynlavery/diagram-design) | [Live site ↗](https://patrickclery.com/awesomer/r/cathrynlavery~diagram-design/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 40,377 | +5,276 | +20,250 |  | 2026-09-15 |
+| 45,543 | +2,599 | +15,939 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Design & UI/UX
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cathrynlavery~diagram-design/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cathrynlavery~diagram-design/)*

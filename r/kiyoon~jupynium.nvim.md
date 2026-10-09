@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 775 | +2 | +2 | +4 | 2026-04-22 |
+| 779 | +0 | +2 | +4 | 2026-09-20 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Live Preview
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kiyoon~jupynium.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kiyoon~jupynium.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,437 | -2 | -2 | -7 | 2026-08-28 |
+| 6,438 | +1 | +0 | -7 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Lua
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~wav2letter/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/facebookresearch~wav2letter/)*

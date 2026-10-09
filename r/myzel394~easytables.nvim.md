@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 146 | +0 | +0 | +2 | 2025-11-02 |
+| 148 | +0 | +2 | +3 | 2025-11-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Markdown and LaTeX
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/myzel394~easytables.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/myzel394~easytables.nvim/)*

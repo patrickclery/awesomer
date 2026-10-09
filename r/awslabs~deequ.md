@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,645 | +3 | +5 | +22 | 2026-09-15 |
+| 3,648 | +0 | +5 | +24 | 2026-09-16 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Quality & Validation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~deequ/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~deequ/)*

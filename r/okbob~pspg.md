@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,732 | +1 | +3 | +17 | 2026-09-06 |
+| 2,739 | +1 | +7 | +17 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/okbob~pspg/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/okbob~pspg/)*

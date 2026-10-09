@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,676 | +4 | +16 | +64 | 2026-09-14 |
+| 4,701 | +8 | +21 | +70 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Video Surveillance
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/motioneye-project~motioneye/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/motioneye-project~motioneye/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,136 | +0 | +7 | +15 | 2026-09-14 |
+| 5,138 | +1 | +8 | +15 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Templating
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tedgoas~cerberus/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tedgoas~cerberus/)*

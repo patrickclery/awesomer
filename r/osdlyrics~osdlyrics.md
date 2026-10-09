@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 393 | +1 | +1 | +4 | 2026-05-04 |
+| 393 | +0 | +0 | +4 | 2026-05-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/osdlyrics~osdlyrics/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/osdlyrics~osdlyrics/)*

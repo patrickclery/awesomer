@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,638 | +6 | +6 | +9 | 2026-09-16 |
+| 2,639 | -2 | +1 | +10 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google~zetasql/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google~zetasql/)*

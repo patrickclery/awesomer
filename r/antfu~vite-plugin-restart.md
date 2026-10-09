@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 214 | +0 | +1 | +4 | 2025-10-31 |
+| 215 | +0 | +1 | +4 | 2025-10-31 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~vite-plugin-restart/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/antfu~vite-plugin-restart/)*

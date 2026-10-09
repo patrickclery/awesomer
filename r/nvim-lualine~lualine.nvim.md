@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,131 | +2 | +38 | +115 | 2026-05-31 |
+| 8,148 | +1 | +41 | +120 | 2026-05-31 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Statusline
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-lualine~lualine.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-lualine~lualine.nvim/)*

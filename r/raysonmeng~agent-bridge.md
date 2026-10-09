@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 344 |  |  |  | 2026-09-15 |
+| 374 | +6 |  |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/raysonmeng~agent-bridge/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/raysonmeng~agent-bridge/)*

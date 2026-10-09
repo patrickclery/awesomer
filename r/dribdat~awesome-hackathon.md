@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 296 | +0 | +8 | +34 | 2026-05-05 |
+| 306 | +2 | +13 | +36 | 2026-09-21 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dribdat~awesome-hackathon/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dribdat~awesome-hackathon/)*

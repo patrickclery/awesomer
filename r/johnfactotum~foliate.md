@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,734 | +18 | +96 | +331 | 2026-04-08 |
+| 8,782 | +11 | +103 | +341 | 2026-04-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / E-Book Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/johnfactotum~foliate/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/johnfactotum~foliate/)*

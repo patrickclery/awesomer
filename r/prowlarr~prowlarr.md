@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,214 | +45 | +173 | +517 | 2026-09-14 |
+| 7,341 | +33 | +178 | +538 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Indexer Managers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prowlarr~prowlarr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/prowlarr~prowlarr/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,450 | +36 | +113 | +304 | 2026-09-11 |
+| 8,516 | +20 | +100 | +308 | 2026-10-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/frenck~awesome-home-assistant/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/frenck~awesome-home-assistant/)*

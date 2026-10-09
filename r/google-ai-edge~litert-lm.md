@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,458 | +56 | +240 | +827 | 2026-09-16 |
+| 6,610 | +56 | +238 | +836 | 2026-10-08 |
 
 ## Found In
 
-- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert-lm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google-ai-edge~litert-lm/)*

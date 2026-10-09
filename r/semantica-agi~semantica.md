@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,961 | +1,944 | +4,576 |  | 2026-09-16 |
+| 13,807 | +204 | +2,724 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Knowledge Graphs for RAG
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/semantica-agi~semantica/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/semantica-agi~semantica/)*

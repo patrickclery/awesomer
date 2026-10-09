@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,967 | +3 | +6 |  | 2026-09-16 |
+| 3,972 | -1 | +6 |  | 2026-10-03 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Feature Flippers and A/B Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flippercloud~flipper/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/flippercloud~flipper/)*

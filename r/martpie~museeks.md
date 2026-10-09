@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,138 | +3 | +9 | +16 | 2026-07-03 |
+| 2,135 | -1 | +4 | +17 | 2026-07-03 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/martpie~museeks/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/martpie~museeks/)*

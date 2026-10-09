@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 67,480 |  |  |  | 2026-09-15 |
+| 69,621 | +726 | +3,604 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / macOS
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tw93~mole/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tw93~mole/)*

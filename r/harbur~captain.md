@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 777 | +0 | +1 | +1 | 2026-09-12 |
+| 776 | +0 | +1 | +1 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Development with Docker
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/harbur~captain/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/harbur~captain/)*

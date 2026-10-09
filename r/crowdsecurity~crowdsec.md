@@ -1,6 +1,6 @@
 # crowdsecurity/crowdsec
 
-> CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs an
+> Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of m
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/crowdsecurity/crowdsec) | [Live site ↗](https://patrickclery.com/awesomer/r/crowdsecurity~crowdsec/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,865 | +73 | +309 | +924 | 2026-09-16 |
+| 15,106 | +78 | +327 | +944 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Other Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/crowdsecurity~crowdsec/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/crowdsecurity~crowdsec/)*

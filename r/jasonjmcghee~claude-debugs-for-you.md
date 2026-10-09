@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 515 | +1 | +2 | +6 | 2025-12-20 |
+| 516 | +0 | +0 | +7 | 2025-12-20 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/jasonjmcghee~claude-debugs-for-you/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jasonjmcghee~claude-debugs-for-you/)*

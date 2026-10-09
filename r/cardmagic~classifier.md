@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 741 | +0 | +0 | +20 | 2026-09-05 |
+| 742 | +0 | +0 | +20 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Ruby
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cardmagic~classifier/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cardmagic~classifier/)*

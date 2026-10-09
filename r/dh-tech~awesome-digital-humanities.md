@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 412 | +3 | +10 | +25 | 2026-09-09 |
+| 416 | +1 | +6 | +25 | 2026-09-09 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Health and Social Science
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dh-tech~awesome-digital-humanities/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dh-tech~awesome-digital-humanities/)*

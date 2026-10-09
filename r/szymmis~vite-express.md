@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 816 | +0 | -3 | +0 | 2026-01-31 |
+| 815 | +1 | -3 | +0 | 2026-01-31 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Node.js
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/szymmis~vite-express/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/szymmis~vite-express/)*

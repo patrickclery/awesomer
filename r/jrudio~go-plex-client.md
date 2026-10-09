@@ -15,4 +15,4 @@
 - [awesome-piracy](../l/piracy.md) / Plex Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jrudio~go-plex-client/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jrudio~go-plex-client/)*

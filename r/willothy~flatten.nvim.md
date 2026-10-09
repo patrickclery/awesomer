@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 723 | -2 | -3 | +11 | 2026-06-19 |
+| 725 | +0 | +1 | +11 | 2026-06-19 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Terminal Integration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/willothy~flatten.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/willothy~flatten.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 444 | +2 | +7 |  | 2026-09-16 |
+| 474 | +3 | +30 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/juyterman1000~entroly/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/juyterman1000~entroly/)*

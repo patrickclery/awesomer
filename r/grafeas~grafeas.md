@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,569 | +1 | -2 | +6 | 2026-07-25 |
+| 1,569 | +0 | -3 | +5 | 2026-07-25 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/grafeas~grafeas/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/grafeas~grafeas/)*

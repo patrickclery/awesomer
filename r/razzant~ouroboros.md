@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,330 | +43 | +156 |  | 2026-09-16 |
+| 1,419 | +21 | +158 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Single-Agent Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/razzant~ouroboros/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/razzant~ouroboros/)*

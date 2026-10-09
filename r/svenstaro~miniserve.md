@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,859 | +22 | +65 | +192 | 2026-09-01 |
+| 7,895 | +13 | +60 | +195 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Web-based File Managers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/svenstaro~miniserve/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/svenstaro~miniserve/)*

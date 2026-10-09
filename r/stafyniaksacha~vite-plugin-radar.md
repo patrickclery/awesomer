@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 176 | +0 | +0 | +5 | 2026-06-20 |
+| 175 | +0 | -1 | +5 | 2026-06-20 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/stafyniaksacha~vite-plugin-radar/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/stafyniaksacha~vite-plugin-radar/)*

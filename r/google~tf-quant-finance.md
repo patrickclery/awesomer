@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,502 | +5 | +29 | +96 | 2026-08-06 |
+| 5,519 | +1 | +31 | +95 | 2026-08-06 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Framework
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google~tf-quant-finance/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google~tf-quant-finance/)*

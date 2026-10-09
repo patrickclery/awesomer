@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,036 | +4 | +13 | +39 | 2026-06-01 |
+| 2,051 | +7 | +14 | +43 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/serengil~retinaface/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/serengil~retinaface/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,813 | +82 | +245 | +934 | 2026-09-16 |
+| 33,009 | +53 | +235 | +945 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/valvesoftware~proton/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/valvesoftware~proton/)*

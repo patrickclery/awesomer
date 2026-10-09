@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,934 | +4 | +37 | +102 | 2026-09-14 |
+| 4,968 | +12 | +45 | +108 | 2026-09-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/karlhorky~learn-to-program/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/karlhorky~learn-to-program/)*

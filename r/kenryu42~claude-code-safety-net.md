@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,544 | +15 | +53 |  | 2026-09-16 |
+| 1,582 | +15 | +54 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kenryu42~claude-code-safety-net/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kenryu42~claude-code-safety-net/)*

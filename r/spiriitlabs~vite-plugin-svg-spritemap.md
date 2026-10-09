@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 121 | +0 | +0 | +3 | 2026-08-31 |
+| 123 | +0 | +2 | +4 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/spiriitlabs~vite-plugin-svg-spritemap/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/spiriitlabs~vite-plugin-svg-spritemap/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,912 | +42 | +213 | +435 | 2026-09-05 |
+| 13,009 | +11 | +215 | +460 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nofxaios~nofx/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nofxaios~nofx/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 80,027 | +548 | +2,216 | +12,060 | 2026-09-16 |
+| 81,286 | +353 | +2,208 | +12,198 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/opendatalab~mineru/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/opendatalab~mineru/)*

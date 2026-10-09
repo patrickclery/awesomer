@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 129 | +1 | +11 | +26 | 2026-09-12 |
+| 132 | +1 | +9 | +26 | 2026-09-12 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Decentralized Systems
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/polycarbohydrate~awesome-tor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/polycarbohydrate~awesome-tor/)*

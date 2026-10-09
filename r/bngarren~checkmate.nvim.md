@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 380 | +2 | +4 | +10 | 2026-05-18 |
+| 380 | +0 | +2 | +10 | 2026-05-18 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Note Taking
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bngarren~checkmate.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bngarren~checkmate.nvim/)*

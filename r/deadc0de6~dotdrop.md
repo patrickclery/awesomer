@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,949 | +0 | +9 | +20 | 2026-09-09 |
+| 1,955 | +3 | +9 | +21 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Package Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deadc0de6~dotdrop/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deadc0de6~dotdrop/)*

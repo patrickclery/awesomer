@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,053 | +4 | +17 | +72 | 2025-11-27 |
+| 1,056 | -2 | +11 | +72 | 2025-11-27 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/splx-ai~agentic-radar/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/splx-ai~agentic-radar/)*

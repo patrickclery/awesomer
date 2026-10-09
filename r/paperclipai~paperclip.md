@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 80,806 | +576 | +2,157 | +9,965 | 2026-09-16 |
+| 98,658 | +3,129 | +6,490 | +10,086 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Multi-Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paperclipai~paperclip/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/paperclipai~paperclip/)*

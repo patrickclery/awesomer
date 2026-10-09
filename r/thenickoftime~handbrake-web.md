@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 796 | +1 | +4 | +17 | 2026-03-27 |
+| 806 | +3 | +7 | +20 | 2026-03-27 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thenickoftime~handbrake-web/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thenickoftime~handbrake-web/)*

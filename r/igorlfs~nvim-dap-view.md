@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 995 | +0 | +9 | +50 | 2026-08-25 |
+| 1,010 | +11 | +11 | +51 | 2026-08-25 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Debugging
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/igorlfs~nvim-dap-view/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/igorlfs~nvim-dap-view/)*

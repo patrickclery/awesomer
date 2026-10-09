@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,795 | +1,421 | +2,963 | +5,008 | 2026-09-16 |
+| 22,630 | +214 | +1,667 | +5,074 | 2026-10-08 |
 
 ## Found In
 
-- [Awesome local LLM](../l/local-llm.md) / Inference engines
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jundot~omlx/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jundot~omlx/)*

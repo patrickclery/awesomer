@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,126 | +7 | +31 | +109 | 2026-09-16 |
+| 4,164 | +14 | +39 | +112 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flox~flox/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/flox~flox/)*

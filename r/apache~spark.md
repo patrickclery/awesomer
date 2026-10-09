@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,000 | +47 | +175 | +529 | 2026-09-16 |
+| 44,145 | +46 | +181 | +534 | 2026-10-08 |
 
 ## Found In
 
-- [awesome-machine-learning](../l/machine-learning.md) / Java
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
+- [awesome-machine-learning](../l/machine-learning.md) / Java
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~spark/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~spark/)*

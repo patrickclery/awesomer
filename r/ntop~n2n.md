@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,014 | +6 | +18 | +57 | 2026-08-05 |
+| 7,029 | +4 | +21 | +56 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Self-hosted VPNs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ntop~n2n/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ntop~n2n/)*

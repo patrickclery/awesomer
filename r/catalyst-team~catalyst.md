@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,384 | +1 | +3 | +8 | 2026-07-08 |
+| 3,386 | -1 | +4 | +9 | 2026-07-08 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/catalyst-team~catalyst/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/catalyst-team~catalyst/)*

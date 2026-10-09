@@ -15,4 +15,4 @@
 - [awesome-opensource-email](../l/opensource-email.md) / Email Builder & Visual Editing Component
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unlayer~vue-email-editor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/unlayer~vue-email-editor/)*

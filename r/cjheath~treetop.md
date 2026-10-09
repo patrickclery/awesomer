@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 314 | +0 | +0 | -1 | 2025-11-12 |
+| 316 | +0 | +2 | -1 | 2025-11-12 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Natural Language Processing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cjheath~treetop/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cjheath~treetop/)*

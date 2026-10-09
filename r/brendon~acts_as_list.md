@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,079 | -2 | -5 |  | 2026-06-22 |
+| 2,079 | +0 | -3 |  | 2026-06-22 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brendon~acts_as_list/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/brendon~acts_as_list/)*

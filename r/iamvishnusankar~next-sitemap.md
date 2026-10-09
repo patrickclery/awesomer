@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,747 | +0 | +3 | +10 | 2026-05-13 |
+| 3,745 | +1 | +0 | +10 | 2026-05-13 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/iamvishnusankar~next-sitemap/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/iamvishnusankar~next-sitemap/)*

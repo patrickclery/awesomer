@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,980 | +26 | +75 | +208 | 2026-09-15 |
+| 17,027 | +11 | +68 | +217 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/argoproj~argo-workflows/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/argoproj~argo-workflows/)*

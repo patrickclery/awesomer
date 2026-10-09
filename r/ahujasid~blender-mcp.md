@@ -1,6 +1,6 @@
 # ahujasid/blender-mcp
 
-> Community plugin to control Blender 3D with any LLM of your choice
+> Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ahujasid/blender-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/ahujasid~blender-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,738 | +287 | +2,798 | +5,835 | 2026-09-16 |
+| 30,227 | +434 | +3,108 | +6,056 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Art & Culture
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ahujasid~blender-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ahujasid~blender-mcp/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 33,488 | +36 | +126 | +396 | 2026-09-16 |
+| 33,550 | +14 | +125 | +400 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Visualizing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lutzroeder~netron/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lutzroeder~netron/)*

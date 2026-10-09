@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 226 | -1 | +0 | +2 | 2026-09-06 |
+| 226 | +0 | +1 | +2 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Library
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/staktrace~mailparse/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/staktrace~mailparse/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,378 | +1 | +5 | +13 | 2025-10-22 |
+| 4,381 | +0 | +6 | +14 | 2025-10-22 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/idsia~sacred/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/idsia~sacred/)*

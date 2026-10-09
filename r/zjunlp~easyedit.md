@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,920 | +4 | +21 | +71 | 2026-07-14 |
+| 2,928 | +2 | +25 | +73 | 2026-10-04 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Interpretability & Explainability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zjunlp~easyedit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zjunlp~easyedit/)*

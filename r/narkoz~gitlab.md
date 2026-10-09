@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,085 | -1 | +0 | +5 | 2026-09-05 |
+| 1,086 | +1 | +1 | +5 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/narkoz~gitlab/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/narkoz~gitlab/)*

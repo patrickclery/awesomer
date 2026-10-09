@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 549 |  |  |  | 2026-06-30 |
+| 552 | +2 |  |  | 2026-06-30 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oxbshw~llm-agents-ecosystem-handbook/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/oxbshw~llm-agents-ecosystem-handbook/)*

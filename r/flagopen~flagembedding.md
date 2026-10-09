@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,168 | +25 | +111 | +327 | 2026-08-24 |
+| 12,222 | +12 | +112 | +333 | 2026-08-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flagopen~flagembedding/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/flagopen~flagembedding/)*

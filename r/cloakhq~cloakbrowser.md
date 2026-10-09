@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 31,495 | +457 | +1,231 | +5,018 | 2026-09-13 |
+| 31,969 | +130 | +915 | +5,005 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cloakhq~cloakbrowser/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cloakhq~cloakbrowser/)*

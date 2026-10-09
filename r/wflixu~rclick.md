@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,007 | +8 | +50 | +217 | 2026-09-13 |
+| 1,061 | +12 | +72 | +223 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Finder Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wflixu~rclick/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wflixu~rclick/)*

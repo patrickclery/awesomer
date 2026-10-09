@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,928 | +190 | +593 |  | 2026-08-11 |
+| 2,170 | +64 | +487 |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Creative Media
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alisa0808~vox-director/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alisa0808~vox-director/)*

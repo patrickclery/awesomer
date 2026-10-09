@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 936 | +4 | +12 | +37 | 2026-09-15 |
+| 948 | +2 | +15 | +41 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games - Administrative Utilities & Control Panels
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gaseous-project~gaseous-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gaseous-project~gaseous-server/)*

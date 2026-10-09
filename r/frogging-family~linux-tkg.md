@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,603 | +1 | +7 | +24 | 2026-09-16 |
+| 1,604 | -3 | +8 | +23 | 2026-10-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Custom Linux Kernels
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/frogging-family~linux-tkg/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/frogging-family~linux-tkg/)*

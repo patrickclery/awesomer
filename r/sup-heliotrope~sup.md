@@ -1,6 +1,6 @@
 # sup-heliotrope/sup
 
-> A curses threads-with-tags style email client (mailing list: supmua@googlegroups.com)
+> A curses threads-with-tags style email client
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/sup-heliotrope/sup) | [Live site ↗](https://patrickclery.com/awesomer/r/sup-heliotrope~sup/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 971 | +0 | +1 | +4 | 2026-07-19 |
+| 972 | +0 | +1 | +4 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Email
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sup-heliotrope~sup/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sup-heliotrope~sup/)*

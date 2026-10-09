@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,021 | +40 | +836 | +1,551 | 2026-09-12 |
+| 11,435 | +93 | +1,048 | +1,621 | 2026-09-21 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Language Model Families
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~minicpm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openbmb~minicpm/)*

@@ -1,6 +1,6 @@
 # flyteorg/flyte
 
-> Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.
+> Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on your k8s — in pure Python with 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/flyteorg/flyte) | [Live site ↗](https://patrickclery.com/awesomer/r/flyteorg~flyte/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,502 | +31 | +295 | +405 | 2026-09-16 |
+| 7,651 | +42 | +336 | +433 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Deployment & Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/flyteorg~flyte/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/flyteorg~flyte/)*

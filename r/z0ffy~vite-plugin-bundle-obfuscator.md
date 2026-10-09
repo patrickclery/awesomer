@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 326 | +1 | +3 | +12 | 2026-08-24 |
+| 327 | -1 | +4 | +14 | 2026-09-20 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/z0ffy~vite-plugin-bundle-obfuscator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/z0ffy~vite-plugin-bundle-obfuscator/)*

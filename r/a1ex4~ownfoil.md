@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 913 | +5 | +17 | +70 | 2026-09-15 |
+| 925 | +3 | +18 | +74 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games - Administrative Utilities & Control Panels
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/a1ex4~ownfoil/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/a1ex4~ownfoil/)*

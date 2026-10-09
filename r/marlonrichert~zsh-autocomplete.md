@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,737 | +11 | +44 | +123 | 2026-09-13 |
+| 6,763 | +7 | +41 | +126 | 2026-09-13 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marlonrichert~zsh-autocomplete/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/marlonrichert~zsh-autocomplete/)*

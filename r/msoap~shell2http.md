@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,506 | +5 | +7 | +11 | 2026-08-08 |
+| 1,509 | +1 | +3 | +11 | 2026-08-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-cli-apps](../l/cli-apps.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/msoap~shell2http/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/msoap~shell2http/)*

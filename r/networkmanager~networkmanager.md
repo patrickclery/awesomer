@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 507 | +3 | +6 | +16 | 2026-09-13 |
+| 511 | +3 | +3 | +15 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / System Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/networkmanager~networkmanager/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/networkmanager~networkmanager/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,075 | +8 | +18 | +46 | 2026-09-15 |
+| 10,079 | +0 | +9 | +48 | 2026-10-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/patrickjs~awesome-angular/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/patrickjs~awesome-angular/)*

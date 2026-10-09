@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 45,455 | +7 | -12 | -1 | 2026-09-16 |
+| 45,556 | +97 | -9 | +2 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/facebook~jest/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/facebook~jest/)*

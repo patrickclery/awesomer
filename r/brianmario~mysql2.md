@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,276 | +1 | -2 | -3 | 2026-09-09 |
+| 2,273 | -3 | -3 | -3 | 2026-09-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Database Drivers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brianmario~mysql2/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/brianmario~mysql2/)*

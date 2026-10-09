@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,043 | +1 | +6 | +19 | 2026-09-16 |
+| 1,048 | +2 | +6 | +20 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Server
-- [awesome-opensource-email](../l/opensource-email.md) / IMAP/POP Server
 - [awesome-opensource-email](../l/opensource-email.md) / JMAP Server & others
+- [awesome-opensource-email](../l/opensource-email.md) / IMAP/POP Server
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~james-project/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/apache~james-project/)*

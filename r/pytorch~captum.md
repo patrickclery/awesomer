@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,700 | +1 | +15 | +48 | 2026-09-13 |
+| 5,710 | +3 | +18 | +49 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛡️ 10. AI Safety, Alignment & Interpretability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pytorch~captum/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pytorch~captum/)*

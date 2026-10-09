@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,672 | +9 | +41 | +119 | 2026-09-15 |
+| 1,711 | +4 | +56 | +121 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Immich](../l/immich.md) / Client apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/damongolding~immich-kiosk/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/damongolding~immich-kiosk/)*

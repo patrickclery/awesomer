@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 276 | +0 | +0 | +1 | 2026-07-20 |
+| 277 | +0 | +1 | +1 | 2026-07-20 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / React
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bhbs~viject/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bhbs~viject/)*

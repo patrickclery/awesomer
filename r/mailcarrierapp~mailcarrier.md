@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 165 | +0 | +0 | +2 | 2026-07-16 |
+| 164 | +0 | -1 | +1 | 2026-07-16 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Newsletter Platform
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mailcarrierapp~mailcarrier/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mailcarrierapp~mailcarrier/)*

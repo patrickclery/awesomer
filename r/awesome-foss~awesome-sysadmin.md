@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 35,169 | +63 | +253 | +802 | 2026-09-14 |
+| 35,355 | +48 | +274 | +820 | 2026-10-06 |
 
 ## Found In
 
@@ -23,4 +23,4 @@
 - [awesome-selfhosted](../l/selfhosted.md) / External Links
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/awesome-foss~awesome-sysadmin/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/awesome-foss~awesome-sysadmin/)*

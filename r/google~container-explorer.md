@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 107 | +0 | +1 | +10 | 2026-09-10 |
+| 109 | +1 | +1 | +8 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google~container-explorer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google~container-explorer/)*

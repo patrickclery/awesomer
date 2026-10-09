@@ -1,6 +1,6 @@
 # wesammustafa/Claude-Code-Everything-You-Need-to-Know
 
-> A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash comman
+> Claude Code guide in three levels. Beginner and Intermediate have hands-on lessons with checked exercises and cited fact
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know) | [Live site ↗](https://patrickclery.com/awesomer/r/wesammustafa~claude-code-everything-you-need-to-know/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,017 | +26 | +367 |  | 2026-07-28 |
+| 3,103 | +16 | +369 |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Start Here
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wesammustafa~claude-code-everything-you-need-to-know/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wesammustafa~claude-code-everything-you-need-to-know/)*

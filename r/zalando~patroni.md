@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,723 | +16 | +61 | +194 | 2026-09-08 |
+| 8,767 | +11 | +63 | +194 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-postgres](../l/postgres.md) / High-Availability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zalando~patroni/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zalando~patroni/)*

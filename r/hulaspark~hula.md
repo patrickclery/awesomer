@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,719 | +115 | +147 | +303 | 2026-09-11 |
+| 7,750 | +0 | +46 | +303 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Tauri
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hulaspark~hula/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hulaspark~hula/)*

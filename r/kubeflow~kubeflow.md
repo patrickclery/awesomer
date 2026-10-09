@@ -1,6 +1,6 @@
 # kubeflow/kubeflow
 
-> Machine Learning Toolkit for Kubernetes
+> The Cloud Native AI Platform
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/kubeflow/kubeflow) | [Live site ↗](https://patrickclery.com/awesomer/r/kubeflow~kubeflow/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,870 | +10 | +54 | +136 | 2026-08-21 |
+| 15,898 | +7 | +53 | +134 | 2026-09-30 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kubeflow~kubeflow/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kubeflow~kubeflow/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,677 | +237 | +4,750 |  | 2026-09-15 |
+| 34,162 | +128 | +5,498 |  | 2026-09-29 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Time Series & Scientific AI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/google-research~timesfm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/google-research~timesfm/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 59,447 | +1,491 | +10,932 |  | 2026-09-06 |
+| 65,257 | +3,185 | +11,156 |  | 2026-10-03 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Video Generation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/calesthio~openmontage/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/calesthio~openmontage/)*

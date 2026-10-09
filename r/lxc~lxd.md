@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,190 | +39 | +226 | +631 | 2026-09-16 |
+| 6,356 | +53 | +249 | +645 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Hypervisors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lxc~lxd/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lxc~lxd/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,545 | +60 | +181 | +708 | 2026-09-16 |
+| 16,691 | +28 | +222 | +735 | 2026-09-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI Coding Assistants (open-source)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~deepcode/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hkuds~deepcode/)*

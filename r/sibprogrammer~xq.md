@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,149 | +1 | +8 | +25 | 2026-09-14 |
+| 1,158 | +0 | +13 | +25 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Data Manipulation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sibprogrammer~xq/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sibprogrammer~xq/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 265 | +0 | +2 | +6 | 2026-09-14 |
+| 266 | +1 | +2 | +6 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/eratio08~vitest-mock-extended/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/eratio08~vitest-mock-extended/)*

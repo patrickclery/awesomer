@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,389 | +2 | +16 | +46 | 2026-09-09 |
+| 11,395 | +3 | +16 | +45 | 2026-09-30 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oh-my-fish~oh-my-fish/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/oh-my-fish~oh-my-fish/)*

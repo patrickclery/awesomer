@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,996 | +5 | +22 | +54 | 2026-09-13 |
+| 8,004 | +0 | +20 | +55 | 2026-09-27 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/albertlauncher~albert/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/albertlauncher~albert/)*

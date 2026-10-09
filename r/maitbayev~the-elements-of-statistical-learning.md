@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 431 | +0 | +1 | +5 | 2026-02-10 |
+| 430 | +0 | +0 | +4 | 2026-02-10 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maitbayev~the-elements-of-statistical-learning/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/maitbayev~the-elements-of-statistical-learning/)*

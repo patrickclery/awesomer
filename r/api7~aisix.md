@@ -8,11 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 154 |  |  |  | 2026-09-16 |
+| 181 | +8 |  |  | 2026-10-01 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/api7~aisix/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/api7~aisix/)*

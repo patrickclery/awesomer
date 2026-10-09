@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 123 | +1 | +5 | +7 | 2026-09-16 |
+| 124 | +1 | +4 | +7 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Completion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mikavilpas~blink-ripgrep.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mikavilpas~blink-ripgrep.nvim/)*

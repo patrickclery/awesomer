@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,304 | +18 | +88 | +259 | 2026-09-15 |
+| 6,355 | +14 | +94 | +268 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Supply Chain
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sigstore~cosign/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sigstore~cosign/)*

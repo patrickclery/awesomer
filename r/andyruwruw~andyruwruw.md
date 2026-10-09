@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 290 | +0 | +1 | +5 | 2026-08-08 |
+| 290 | +0 | +0 | +5 | 2026-08-08 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/andyruwruw~andyruwruw/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/andyruwruw~andyruwruw/)*

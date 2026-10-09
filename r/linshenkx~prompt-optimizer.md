@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 34,828 | +158 | +1,670 | +3,792 | 2026-09-11 |
+| 36,841 | +761 | +2,459 | +4,004 | 2026-09-24 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Structured Outputs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linshenkx~prompt-optimizer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/linshenkx~prompt-optimizer/)*

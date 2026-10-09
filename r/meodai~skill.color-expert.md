@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 578 | +9 | +26 | +87 | 2026-09-16 |
+| 606 | +7 | +33 | +87 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/meodai~skill.color-expert/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/meodai~skill.color-expert/)*

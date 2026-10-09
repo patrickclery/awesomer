@@ -1,6 +1,6 @@
 # screenpipe/screenpipe
 
-> YC (S26) \| Open Computer History \| Record your screen continuously locally and provide context to your agents (Claude, C
+> YC (S26) \| Open Computer History \| Continuously record your company computer work, map your workflows, help you find wor
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/screenpipe/screenpipe) | [Live site ↗](https://patrickclery.com/awesomer/r/screenpipe~screenpipe/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,589 | +170 | +609 |  | 2026-09-16 |
+| 21,865 | +79 | +502 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Screen Recording
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/screenpipe~screenpipe/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/screenpipe~screenpipe/)*

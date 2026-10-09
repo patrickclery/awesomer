@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,563 | +13 | +42 | +207 | 2026-06-01 |
+| 10,587 | +8 | +32 | +206 | 2026-06-01 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paralax~awesome-honeypots/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/paralax~awesome-honeypots/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,144 | +25 | +68 | +401 | 2026-09-16 |
+| 1,167 | +5 | +53 | +398 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Providers, Runtime & Integration Infrastructure
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fcakyon~claude-codex-settings/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fcakyon~claude-codex-settings/)*

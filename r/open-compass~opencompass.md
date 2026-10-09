@@ -1,6 +1,6 @@
 # open-compass/opencompass
 
-> OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Q
+> OpenCompass is an LLM evaluation platform, supporting a wide range of models from OpenAI, Anthropic, Gemini, Qwen, GLM, 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/open-compass/opencompass) | [Live site ↗](https://patrickclery.com/awesomer/r/open-compass~opencompass/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,445 | +29 | +136 | +341 | 2026-09-16 |
+| 7,496 | +10 | +132 | +349 | 2026-09-28 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📈 9. Evaluation, Benchmarks & Datasets
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/open-compass~opencompass/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/open-compass~opencompass/)*

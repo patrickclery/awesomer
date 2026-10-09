@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 918 | +16 | +54 |  | 2026-09-13 |
+| 956 | +4 | +55 |  | 2026-10-02 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Related Awesome Lists
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/frangelbarrera~osint-bible/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/frangelbarrera~osint-bible/)*

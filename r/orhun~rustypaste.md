@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,205 | +3 | +11 | +31 | 2026-09-10 |
+| 1,211 | +1 | +11 | +32 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Pastebins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/orhun~rustypaste/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/orhun~rustypaste/)*

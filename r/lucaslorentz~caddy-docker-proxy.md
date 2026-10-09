@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,647 | +7 | +31 | +112 | 2026-09-07 |
+| 4,721 | +8 | +83 | +112 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lucaslorentz~caddy-docker-proxy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lucaslorentz~caddy-docker-proxy/)*

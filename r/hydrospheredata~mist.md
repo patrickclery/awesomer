@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 326 | +0 | +0 | +2 | 2026-04-13 |
+| 325 | +0 | +0 | +2 | 2026-04-13 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Scala
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hydrospheredata~mist/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hydrospheredata~mist/)*

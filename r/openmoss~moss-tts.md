@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,109 | +22 | +109 | +737 | 2026-09-06 |
+| 4,183 | +28 | +116 | +702 | 2026-09-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Speech & Audio Model Codebases
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/openmoss~moss-tts/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/openmoss~moss-tts/)*

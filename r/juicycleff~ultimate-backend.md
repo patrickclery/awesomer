@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,903 | +4 | +4 | +2 | 2026-02-16 |
+| 2,905 | +1 | +2 | +5 | 2026-02-16 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/juicycleff~ultimate-backend/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/juicycleff~ultimate-backend/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,236 | +2 | +11 | +40 | 2026-09-16 |
+| 8,247 | -2 | +18 | +44 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / DevOps Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chef~chef/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chef~chef/)*

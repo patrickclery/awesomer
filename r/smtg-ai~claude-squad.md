@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,484 | +31 | +154 | +649 | 2026-08-20 |
+| 8,580 | +25 | +172 | +660 | 2026-08-20 |
 
 ## Found In
 
-- [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 - [Awesome Open Source AI](../l/opensource-ai.md) / CLI Tools & API Clients
+- [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/smtg-ai~claude-squad/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/smtg-ai~claude-squad/)*

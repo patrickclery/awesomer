@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 174 | -1 | -1 | +1 | 2026-08-01 |
+| 173 | -1 | +0 | +1 | 2026-08-01 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Golang
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fredrikaverpil~godoc.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fredrikaverpil~godoc.nvim/)*

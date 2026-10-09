@@ -1,6 +1,6 @@
 # modelscope/ms-swift
 
-> Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300
+> Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.8, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/modelscope/ms-swift) | [Live site ↗](https://patrickclery.com/awesomer/r/modelscope~ms-swift/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,645 | +82 | +399 | +1,088 | 2026-09-16 |
+| 15,795 | +31 | +374 | +1,116 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Full Training Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/modelscope~ms-swift/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/modelscope~ms-swift/)*

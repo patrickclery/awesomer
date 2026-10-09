@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,400 | +36 | +148 | +539 | 2026-09-16 |
+| 8,517 | +45 | +161 | +555 | 2026-10-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/libresprite~libresprite/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/libresprite~libresprite/)*

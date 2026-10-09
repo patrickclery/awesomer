@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 624 | +7 | +31 | +98 | 2026-09-11 |
+| 674 | +12 | +55 | +101 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fonduai~awesome-prompt-injection/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fonduai~awesome-prompt-injection/)*

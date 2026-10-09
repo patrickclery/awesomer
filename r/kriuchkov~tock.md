@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 480 | +6 | +14 | +48 | 2026-08-26 |
+| 491 | +1 | +14 | +48 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Time Tracking
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kriuchkov~tock/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kriuchkov~tock/)*

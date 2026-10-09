@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 30,836 | +92 | +449 | +1,491 | 2026-09-15 |
+| 31,127 | +69 | +495 | +1,517 | 2026-10-02 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Engine & Runtime
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/abiosoft~colima/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/abiosoft~colima/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,267 | +20 | +101 | +328 | 2026-09-16 |
+| 9,375 | +58 | +117 | +345 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Vector Databases & Search Engines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/paradedb~paradedb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/paradedb~paradedb/)*

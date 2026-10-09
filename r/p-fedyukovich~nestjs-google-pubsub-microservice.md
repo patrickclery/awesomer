@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 104 |  |  |  | 2026-03-03 |
+| 104 | +0 |  |  | 2026-03-03 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/p-fedyukovich~nestjs-google-pubsub-microservice/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/p-fedyukovich~nestjs-google-pubsub-microservice/)*

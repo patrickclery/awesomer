@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,601 | +14 | +56 | +147 | 2026-09-14 |
+| 7,625 | +13 | +48 | +154 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Engine & Runtime
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/youki-dev~youki/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/youki-dev~youki/)*

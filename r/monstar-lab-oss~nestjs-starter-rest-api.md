@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 638 | -1 | +1 | +7 | 2026-06-01 |
+| 638 | -1 | +3 | +8 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/monstar-lab-oss~nestjs-starter-rest-api/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/monstar-lab-oss~nestjs-starter-rest-api/)*

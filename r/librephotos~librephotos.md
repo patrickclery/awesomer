@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,074 | +6 | +32 | +75 | 2026-09-16 |
+| 8,094 | +6 | +35 | +74 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Photo Galleries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/librephotos~librephotos/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/librephotos~librephotos/)*

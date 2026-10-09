@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,493 | -1 | -2 | +0 | 2026-08-29 |
+| 2,492 | +0 | -1 | +0 | 2026-08-29 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / SEO
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kjvarga~sitemap_generator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kjvarga~sitemap_generator/)*

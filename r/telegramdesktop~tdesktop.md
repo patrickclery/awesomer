@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,935 | +91 | +305 | +823 | 2026-09-16 |
+| 33,133 | +65 | +294 | +836 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Chat Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/telegramdesktop~tdesktop/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/telegramdesktop~tdesktop/)*

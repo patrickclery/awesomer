@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,018 | +0 | +5 | +10 | 2026-08-13 |
+| 4,020 | -1 | +4 | +9 | 2026-08-13 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / SQL
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/andialbrecht~sqlparse/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/andialbrecht~sqlparse/)*

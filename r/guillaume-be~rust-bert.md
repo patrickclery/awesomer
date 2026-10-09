@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,078 | -1 | +1 | +13 | 2026-01-13 |
+| 3,078 | -1 | +2 | +13 | 2026-01-13 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Rust
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/guillaume-be~rust-bert/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/guillaume-be~rust-bert/)*

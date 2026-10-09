@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,567 | +328 | +629 | +1,119 | 2026-09-16 |
+| 8,773 | +57 | +383 | +1,139 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Backup
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/databasus~databasus/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/databasus~databasus/)*

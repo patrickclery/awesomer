@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 440 | -3 | -2 | +1 | 2026-07-27 |
+| 441 | +1 | +1 | +1 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/martinheinz~martinheinz/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/martinheinz~martinheinz/)*

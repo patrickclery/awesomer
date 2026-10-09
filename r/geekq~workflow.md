@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,800 | +0 | +2 | +2 | 2025-10-16 |
+| 1,802 | +0 | +3 | +3 | 2025-10-16 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / State Machines
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/geekq~workflow/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/geekq~workflow/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 996 | +4 | +7 | +16 | 2026-09-15 |
+| 998 | +1 | +4 | +16 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / SMTP Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tweedegolf~mailcrab/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tweedegolf~mailcrab/)*

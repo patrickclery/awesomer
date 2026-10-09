@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,599 | +41 | +170 | +438 | 2026-09-16 |
+| 14,732 | +24 | +174 | +444 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Productivity
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/streetwriters~notesnook/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/streetwriters~notesnook/)*

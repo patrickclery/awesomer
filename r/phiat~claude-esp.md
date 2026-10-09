@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 153 | +0 | +2 | +5 | 2026-09-07 |
+| 155 | +0 | +4 | +6 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Observability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/phiat~claude-esp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/phiat~claude-esp/)*

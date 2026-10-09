@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,117 | +0 | +1 |  | 2026-08-21 |
+| 1,122 | +2 | +1 |  | 2026-08-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Scientific
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/red-data-tools~pycall.rb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/red-data-tools~pycall.rb/)*

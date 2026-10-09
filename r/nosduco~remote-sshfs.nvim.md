@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 428 | +0 | +4 | +10 | 2026-04-05 |
+| 430 | +0 | +4 | +11 | 2026-04-05 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Remote Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nosduco~remote-sshfs.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nosduco~remote-sshfs.nvim/)*

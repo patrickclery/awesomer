@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 167 | +0 | +1 | +7 | 2026-05-25 |
+| 170 | +2 | +2 | +7 | 2026-05-25 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/janreges~ai-distiller/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/janreges~ai-distiller/)*

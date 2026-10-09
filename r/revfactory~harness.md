@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,999 | +53 | +223 | +1,933 | 2026-07-24 |
+| 9,138 | +32 | +234 | +1,937 | 2026-09-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/revfactory~harness/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/revfactory~harness/)*

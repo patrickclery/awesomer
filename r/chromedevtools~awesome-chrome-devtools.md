@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,145 | +8 | +34 | +108 | 2026-03-27 |
+| 7,159 | +8 | +28 | +108 | 2026-10-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chromedevtools~awesome-chrome-devtools/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chromedevtools~awesome-chrome-devtools/)*

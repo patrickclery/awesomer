@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,701 | +31 | +103 |  | 2026-09-16 |
+| 13,787 | +34 | +106 |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/browserless~browserless/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/browserless~browserless/)*

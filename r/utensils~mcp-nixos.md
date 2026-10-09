@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 633 | +7 | +81 | +125 | 2026-05-06 |
+| 851 | +3 | +37 | +130 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/utensils~mcp-nixos/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/utensils~mcp-nixos/)*

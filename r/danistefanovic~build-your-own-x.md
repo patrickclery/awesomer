@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 547,595 | +2,107 | +7,240 | +30,718 | 2026-07-14 |
+| 552,133 | +1,156 | +6,930 | +30,932 | 2026-07-14 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / Architecture
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/danistefanovic~build-your-own-x/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/danistefanovic~build-your-own-x/)*

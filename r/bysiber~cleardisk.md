@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 694 | +2 | +119 | +331 | 2026-09-10 |
+| 710 | +1 | +128 | +330 | 2026-09-10 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Cleanup and Uninstall
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bysiber~cleardisk/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bysiber~cleardisk/)*

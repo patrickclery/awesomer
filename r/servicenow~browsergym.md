@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,366 | +5 | +45 | +112 | 2026-07-17 |
+| 1,393 | +15 | +48 | +115 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Evaluation Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/servicenow~browsergym/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/servicenow~browsergym/)*

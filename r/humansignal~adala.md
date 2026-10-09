@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,636 | +2 | +16 | +32 | 2026-09-03 |
+| 1,637 | +0 | +15 | +31 | 2026-10-03 |
 
 ## Found In
 
 - [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/humansignal~adala/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/humansignal~adala/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 901 | +1 | +3 | +15 | 2026-08-03 |
+| 904 | +1 | +2 | +15 | 2026-08-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Motion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-spider/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chrisgrieser~nvim-spider/)*

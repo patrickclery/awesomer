@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 804 | +25 | +84 | +271 | 2026-03-28 |
+| 824 | +9 | +42 | +268 | 2026-03-28 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Trading Execution
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ariadng~metatrader-mcp-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ariadng~metatrader-mcp-server/)*

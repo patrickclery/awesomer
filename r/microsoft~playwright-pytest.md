@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 562 | +1 | +6 | +13 | 2026-09-09 |
+| 564 | +1 | +7 | +14 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-pytest/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~playwright-pytest/)*

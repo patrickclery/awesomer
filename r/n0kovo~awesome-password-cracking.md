@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,085 | +11 | +34 | +103 | 2026-09-06 |
+| 1,108 | +9 | +25 | +104 | 2026-09-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/n0kovo~awesome-password-cracking/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/n0kovo~awesome-password-cracking/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,955 | +30 | +93 | +305 | 2026-09-15 |
+| 4,022 | +12 | +103 | +308 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Work Queues
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/timgit~pg-boss/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/timgit~pg-boss/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 702 | +0 | +3 | +9 | 2026-08-10 |
+| 704 | +2 | +3 | +10 | 2026-08-10 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Scrollbar
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dstein64~nvim-scrollview/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dstein64~nvim-scrollview/)*

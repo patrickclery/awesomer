@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,112 | +36 | +123 | +374 | 2026-09-16 |
+| 15,205 | +41 | +114 | +375 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/musescore~musescore/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/musescore~musescore/)*

@@ -8,12 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,508 | -2 | -1 | +2 | 2026-04-01 |
+| 8,513 | +1 | +3 | +1 | 2026-04-01 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
-- [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vaexio~vaex/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vaexio~vaex/)*

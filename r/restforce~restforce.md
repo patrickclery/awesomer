@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 822 | -1 | -1 |  | 2026-07-27 |
+| 822 | +0 | +0 |  | 2026-07-27 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/restforce~restforce/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/restforce~restforce/)*

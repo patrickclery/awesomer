@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 264 | +0 | +2 | +5 | 2026-08-04 |
+| 265 | +0 | +3 | +5 | 2026-08-04 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Scala
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/linkedin~isolation-forest/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/linkedin~isolation-forest/)*

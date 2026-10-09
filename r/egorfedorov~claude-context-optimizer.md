@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 111 | +1 | +17 |  | 2026-09-15 |
+| 114 | +1 | +17 |  | 2026-09-30 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Memory & Context Persistence
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/egorfedorov~claude-context-optimizer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/egorfedorov~claude-context-optimizer/)*

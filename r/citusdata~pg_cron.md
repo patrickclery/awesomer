@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,890 | +1 | +21 | +80 | 2026-09-08 |
+| 3,907 | +6 | +28 | +80 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/citusdata~pg_cron/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/citusdata~pg_cron/)*

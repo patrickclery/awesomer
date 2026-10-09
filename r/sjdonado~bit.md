@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 107 | +0 | +2 | +13 | 2026-09-15 |
+| 108 | +1 | +2 | +13 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / URL Shorteners
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sjdonado~bit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sjdonado~bit/)*

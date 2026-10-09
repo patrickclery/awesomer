@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 949 | +0 | -1 | +6 | 2026-05-13 |
+| 948 | -2 | -1 | +6 | 2026-05-13 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Themes
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/reobin~typewritten/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/reobin~typewritten/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,420 | +89 | +402 | +1,222 | 2026-09-14 |
+| 14,827 | +96 | +550 | +1,246 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Instagram
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/datalux~osintgram/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/datalux~osintgram/)*

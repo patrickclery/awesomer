@@ -8,14 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,739 | +36 | +147 | +422 | 2026-09-11 |
+| 39,786 | +4 | +137 | +437 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 - [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 - [awesome-db-tools](../l/db-tools.md) / Machine Learning
-- [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mindsdb~mindsdb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mindsdb~mindsdb/)*

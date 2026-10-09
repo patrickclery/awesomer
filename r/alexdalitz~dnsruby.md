@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 208 | +0 | +0 | +2 | 2026-09-07 |
+| 209 | +0 | +0 | +2 | 2026-09-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Networking
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexdalitz~dnsruby/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alexdalitz~dnsruby/)*

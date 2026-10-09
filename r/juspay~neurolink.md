@@ -1,6 +1,6 @@
 # juspay/neurolink
 
-> One TypeScript interface for 24+ LLM providers — swap providers without rewriting. MCP-native (connect any MCP server), 
+> The pipe layer of an AI nervous system — one interface connecting provider neurons to your application, across three inf
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/juspay/neurolink) | [Live site ↗](https://patrickclery.com/awesomer/r/juspay~neurolink/)
 
@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 133 | +2 | +12 | +31 | 2026-09-15 |
+| 143 | +0 | +17 | +31 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/juspay~neurolink/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/juspay~neurolink/)*

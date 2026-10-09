@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 384 | +0 | +7 | +9 | 2026-09-03 |
+| 385 | +1 | +7 | +8 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/peter-evans~dockerhub-description/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/peter-evans~dockerhub-description/)*

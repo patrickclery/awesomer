@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 256 | +10 | +41 | +141 | 2026-09-14 |
+| 287 | +3 | +42 | +147 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Workflow
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/emrearmagan~atlas.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/emrearmagan~atlas.nvim/)*

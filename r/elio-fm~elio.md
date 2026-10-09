@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 863 | +5 | +34 |  | 2026-09-15 |
+| 888 | +10 | +33 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / File Managers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/elio-fm~elio/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/elio-fm~elio/)*

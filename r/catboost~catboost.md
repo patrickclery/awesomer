@@ -8,14 +8,14 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,101 | +7 | +33 | +119 | 2026-09-16 |
+| 9,133 | +4 | +43 | +126 | 2026-10-07 |
 
 ## Found In
 
-- [awesome-machine-learning](../l/machine-learning.md) / R
 - [awesome-machine-learning](../l/machine-learning.md) / C++
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧬 1. Core Frameworks & Libraries
+- [awesome-machine-learning](../l/machine-learning.md) / R
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/catboost~catboost/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/catboost~catboost/)*

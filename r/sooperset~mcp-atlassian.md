@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,908 | +32 | +158 | +491 | 2026-09-15 |
+| 5,977 | +19 | +151 | +495 | 2026-09-19 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Model Context Protocol
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sooperset~mcp-atlassian/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sooperset~mcp-atlassian/)*

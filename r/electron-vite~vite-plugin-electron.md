@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 918 | +3 | +7 | +26 | 2026-08-31 |
+| 922 | +2 | +5 | +26 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/electron-vite~vite-plugin-electron/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/electron-vite~vite-plugin-electron/)*

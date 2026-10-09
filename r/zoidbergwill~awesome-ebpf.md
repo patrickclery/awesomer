@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,166 | +8 | +26 | +72 | 2026-09-14 |
+| 5,180 | +3 | +22 | +73 | 2026-09-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zoidbergwill~awesome-ebpf/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zoidbergwill~awesome-ebpf/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 108 |  |  |  | 2026-06-17 |
+| 107 | +0 |  |  | 2026-06-17 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rayman1104~ra-data-nestjsx-crud/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rayman1104~ra-data-nestjsx-crud/)*

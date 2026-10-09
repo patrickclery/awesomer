@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 710 | +1 | +4 | +9 | 2026-04-26 |
+| 713 | +3 | +3 | +9 | 2026-04-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Split and Window
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-zh~colorful-winsep.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-zh~colorful-winsep.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,504 | +16 | +66 | +283 | 2026-09-15 |
+| 2,537 | +8 | +66 | +287 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Configuration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/piebald-ai~tweakcc/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/piebald-ai~tweakcc/)*

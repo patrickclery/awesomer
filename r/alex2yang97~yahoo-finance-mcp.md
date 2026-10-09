@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 351 | +2 | +11 |  | 2026-08-30 |
+| 357 | +0 | +13 |  | 2026-09-19 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Market Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alex2yang97~yahoo-finance-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alex2yang97~yahoo-finance-mcp/)*

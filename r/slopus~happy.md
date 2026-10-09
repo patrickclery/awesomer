@@ -1,6 +1,6 @@
 # slopus/happy
 
-> Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
+> Happy is the open-source desktop app for Claude Code, Codex, and Grok, with an iOS and Android app to control your codin
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/slopus/happy) | [Live site ↗](https://patrickclery.com/awesomer/r/slopus~happy/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,800 | +104 | +411 | +1,762 | 2026-09-16 |
+| 24,053 | +85 | +411 | +1,773 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Alternative Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/slopus~happy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/slopus~happy/)*

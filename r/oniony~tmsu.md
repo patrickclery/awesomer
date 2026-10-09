@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,243 | +0 | -3 | +9 | 2025-11-12 |
+| 2,248 | +2 | +0 | +10 | 2025-11-12 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/oniony~tmsu/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/oniony~tmsu/)*

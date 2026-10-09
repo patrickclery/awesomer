@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 164 | +0 | +2 | +1 | 2026-09-11 |
+| 165 | +0 | +1 | +1 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Remote Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/uhs-robert~sshfs.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/uhs-robert~sshfs.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,561 | +1 | +4 | +10 | 2026-08-19 |
+| 3,566 | +4 | +3 | +9 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Data Processing & Manipulation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/holoviz~datashader/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/holoviz~datashader/)*

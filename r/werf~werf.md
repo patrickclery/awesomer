@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,720 | +1 | +5 | +26 | 2026-09-15 |
+| 4,729 | +4 | +7 | +28 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/werf~werf/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/werf~werf/)*

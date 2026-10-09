@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,048 | -2 | +2 | +12 | 2025-10-23 |
+| 12,054 | +3 | +5 | +11 | 2025-10-23 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Builder
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/earthly~earthly/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/earthly~earthly/)*

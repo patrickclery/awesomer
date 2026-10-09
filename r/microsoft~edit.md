@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,568 | +26 | +111 |  | 2026-09-11 |
+| 14,683 | +24 | +137 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Text Editors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~edit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~edit/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 320 | +1 | +10 |  | 2026-07-13 |
+| 327 | +4 | +10 |  | 2026-10-03 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Version Control
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/maoyama~changes/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/maoyama~changes/)*

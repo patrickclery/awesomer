@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 100 | +2 | +2 | +2 | 2026-04-17 |
+| 101 | +0 | +1 | +2 | 2026-04-17 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Computer Vision
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mandarwagh9~openeyes/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mandarwagh9~openeyes/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 600 | +0 | +3 | +5 | 2026-09-02 |
+| 602 | +1 | +4 | +5 | 2026-09-02 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Dependency Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vuki656~package-info.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vuki656~package-info.nvim/)*

@@ -1,6 +1,6 @@
 # activeing123/mcptoon
 
-> MCP tool discovery burns 71,929 tokens. mcptoon drops it to 581 (−99.2%, measured). Zero dependencies.
+> One zero-dependency CLI for every MCP server and agent skill. Token optimization, tool discovery and context compression
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/activeing123/mcptoon) | [Live site ↗](https://patrickclery.com/awesomer/r/activeing123~mcptoon/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 198 |  |  |  | 2026-09-16 |
+| 216 | +10 |  |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Aggregators
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/activeing123~mcptoon/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/activeing123~mcptoon/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 210 | +1 | +1 | +5 | 2026-09-03 |
+| 211 | +0 | +1 | +5 | 2026-09-20 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Cloning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/denishpatel~pg-clone-schema/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/denishpatel~pg-clone-schema/)*

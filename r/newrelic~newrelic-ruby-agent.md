@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,209 | +0 | -1 |  | 2026-09-15 |
+| 1,209 | +0 | -2 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Performance Monitoring
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/newrelic~newrelic-ruby-agent/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/newrelic~newrelic-ruby-agent/)*

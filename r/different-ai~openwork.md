@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,577 | +416 | +1,070 |  | 2026-09-16 |
+| 23,946 | +140 | +718 |  | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Computer Use
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/different-ai~openwork/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/different-ai~openwork/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,648 | +6 | +49 | +174 | 2026-09-16 |
+| 7,692 | +10 | +64 | +174 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/netblue30~firejail/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/netblue30~firejail/)*

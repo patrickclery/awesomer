@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 697 | +1 | +7 | +21 | 2026-09-03 |
+| 700 | +0 | +8 | +22 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cybertec-postgresql~pg_squeeze/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cybertec-postgresql~pg_squeeze/)*

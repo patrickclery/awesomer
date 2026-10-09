@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,214 | +4 | +7 | +32 | 2026-09-08 |
+| 2,220 | +0 | +10 | +34 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/elfmz~far2l/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/elfmz~far2l/)*

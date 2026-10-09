@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 176 | +0 | +0 | +2 | 2026-08-12 |
+| 175 | -1 | +0 | +2 | 2026-08-12 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/comet-ml~comet-examples/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/comet-ml~comet-examples/)*

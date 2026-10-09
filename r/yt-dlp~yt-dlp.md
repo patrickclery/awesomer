@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 191,519 | +1,546 | +6,530 | +20,227 | 2026-09-16 |
+| 196,300 | +1,620 | +6,869 | +20,459 | 2026-09-27 |
 
 ## Found In
 
@@ -18,4 +18,4 @@
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Video Search and Other Video Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yt-dlp~yt-dlp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/yt-dlp~yt-dlp/)*

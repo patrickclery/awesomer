@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,506 | +2 | +8 | +26 | 2026-09-14 |
+| 11,512 | +1 | +11 | +27 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Package Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jordansissel~fpm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jordansissel~fpm/)*

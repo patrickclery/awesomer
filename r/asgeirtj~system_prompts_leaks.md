@@ -1,6 +1,6 @@
 # asgeirtj/system_prompts_leaks
 
-> Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-A
+> Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/asgeirtj/system_prompts_leaks) | [Live site ↗](https://patrickclery.com/awesomer/r/asgeirtj~system_prompts_leaks/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 67,300 |  |  |  | 2026-09-15 |
+| 69,115 | +412 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Prompt Engineering
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/asgeirtj~system_prompts_leaks/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/asgeirtj~system_prompts_leaks/)*

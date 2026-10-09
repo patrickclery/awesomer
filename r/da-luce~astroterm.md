@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,044 | +9 | +34 | +94 | 2026-09-11 |
+| 2,068 | +9 | +36 | +93 | 2026-09-11 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Science
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/da-luce~astroterm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/da-luce~astroterm/)*

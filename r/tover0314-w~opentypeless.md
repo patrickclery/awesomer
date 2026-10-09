@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 538 | +20 | +86 | +265 | 2026-09-09 |
+| 589 | +12 | +94 | +271 | 2026-09-29 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Voice-to-Text
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tover0314-w~opentypeless/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tover0314-w~opentypeless/)*

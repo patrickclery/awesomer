@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 78,996 |  |  |  | 2026-09-09 |
+| 80,080 | +182 |  |  | 2026-09-29 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / AI-Native IDEs & Development Environments
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/abi~screenshot-to-code/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/abi~screenshot-to-code/)*

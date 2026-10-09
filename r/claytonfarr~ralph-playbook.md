@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,033 | +2 | +10 | +41 | 2026-03-06 |
+| 1,035 | +1 | +7 | +42 | 2026-03-06 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Ralph Wiggum
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/claytonfarr~ralph-playbook/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/claytonfarr~ralph-playbook/)*

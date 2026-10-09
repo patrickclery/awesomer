@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,095 | +0 | +3 | +13 | 2026-08-15 |
+| 2,096 | +1 | +4 | +12 | 2026-08-15 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Monitoring
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~dexter/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~dexter/)*

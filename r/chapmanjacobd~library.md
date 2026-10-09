@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 483 | +0 | +3 | +5 | 2026-09-10 |
+| 484 | +0 | +3 | +5 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Multimedia and File Formats
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chapmanjacobd~library/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chapmanjacobd~library/)*

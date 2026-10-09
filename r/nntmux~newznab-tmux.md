@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 292 | +5 | +10 | +16 | 2026-09-15 |
+| 299 | +0 | +9 | +16 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Usenet Indexers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nntmux~newznab-tmux/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nntmux~newznab-tmux/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 458 | +1 | +9 | +17 | 2026-09-08 |
+| 458 | -2 | +10 | +18 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Userscripts
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/adguardteam~popupblocker/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/adguardteam~popupblocker/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,451 | +33 | +183 | +8,184 | 2026-09-16 |
+| 19,533 | +24 | +185 | +8,192 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Communication - Custom Communication Systems
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/simplex-chat~simplex-chat/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/simplex-chat~simplex-chat/)*

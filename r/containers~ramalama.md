@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,051 | +12 | +51 | +147 | 2026-09-14 |
+| 3,074 | +8 | +45 | +143 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~ramalama/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~ramalama/)*

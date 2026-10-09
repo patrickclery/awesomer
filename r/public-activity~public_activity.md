@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,989 | +0 | -1 |  | 2026-06-08 |
+| 2,991 | +1 | +0 |  | 2026-06-08 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/public-activity~public_activity/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/public-activity~public_activity/)*

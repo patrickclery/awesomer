@@ -1,6 +1,6 @@
 # mysql/mysql-workbench
 
-> MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data mo
+> This repository contains the now EOL version of MySQL Workbench 8. For the new Workbench, see https://github.com/mysql/m
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mysql/mysql-workbench) | [Live site ↗](https://patrickclery.com/awesomer/r/mysql~mysql-workbench/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 999 | +0 | +4 | +8 | 2026-04-23 |
+| 1,002 | +0 | +4 | +8 | 2026-04-23 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mysql~mysql-workbench/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mysql~mysql-workbench/)*

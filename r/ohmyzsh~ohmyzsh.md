@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 189,749 | +124 | +536 | +1,647 | 2026-09-16 |
+| 190,230 | +207 | +578 | +1,678 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / [zplug](https://github.com/zplug/zplug)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ohmyzsh~ohmyzsh/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ohmyzsh~ohmyzsh/)*

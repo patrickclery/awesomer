@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,282 | +17 | +36 | +130 | 2026-09-13 |
+| 4,311 | +11 | +26 | +132 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Compositors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/riverwm~river/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/riverwm~river/)*

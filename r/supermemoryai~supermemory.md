@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,686 | +110 | +755 | +2,508 | 2026-09-14 |
+| 31,159 | +110 | +1,852 | +3,273 | 2026-10-08 |
 
 ## Found In
 
+- [Awesome Open Source AI](../l/opensource-ai.md) / Agent Memory & State
 - [Awesome local LLM](../l/local-llm.md) / Memory Management
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
-- [Awesome Open Source AI](../l/opensource-ai.md) / Agent Memory & State
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/supermemoryai~supermemory/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/supermemoryai~supermemory/)*

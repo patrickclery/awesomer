@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [Teable](../r/teableio~teable.md) | 21,792 | +46 | +131 | +438 |
-| 2 | [CloudNativePG operator](../r/cloudnative-pg~cloudnative-pg.md) | 9,303 | +46 | +156 | +470 |
-| 3 | [pgBoss](../r/timgit~pg-boss.md) | 3,955 | +30 | +93 | +305 |
-| 4 | [river](../r/riverqueue~river.md) | 5,680 | +24 | +102 | +424 |
-| 5 | [AGE](../r/apache~age.md) | 4,826 | +23 | +75 | +221 |
-| 6 | [atlas](../r/ariga~atlas.md) | 8,727 | +22 | +75 | +229 |
-| 7 | [Citus](../r/citusdata~citus.md) | 12,771 | +22 | +70 | +201 |
-| 8 | [pg_search](../r/paradedb~paradedb.md) | 9,267 | +20 | +101 | +328 |
-| 9 | [PostgREST](../r/postgrest~postgrest.md) | 27,670 | +20 | +67 | +435 |
-| 10 | [pq](../r/lib~pq.md) | 9,956 | +18 | +35 | +51 |
+| 1 | [pg_search](../r/paradedb~paradedb.md) | 9,375 | +58 | +117 | +345 |
+| 2 | [CloudNativePG operator](../r/cloudnative-pg~cloudnative-pg.md) | 9,419 | +32 | +157 | +488 |
+| 3 | [wal-g](../r/wal-g~wal-g.md) | 4,296 | +31 | +33 | +127 |
+| 4 | [Pigsty](../r/vonng~pigsty.md) | 5,776 | +22 | +101 | +483 |
+| 5 | [river](../r/riverqueue~river.md) | 5,749 | +22 | +106 | +430 |
+| 6 | [pgmq](../r/pgmq~pgmq.md) | 5,324 | +19 | +187 | +320 |
+| 7 | [Teable](../r/teableio~teable.md) | 21,869 | +17 | +116 | +443 |
+| 8 | [coroot](../r/coroot~coroot.md) | 7,963 | +15 | +50 | +162 |
+| 9 | [pgBoss](../r/timgit~pg-boss.md) | 4,022 | +12 | +103 | +308 |
+| 10 | [Patroni](../r/zalando~patroni.md) | 8,767 | +11 | +63 | +194 |
 
 ## Table of Contents
 
@@ -43,16 +43,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pgbackweb](../r/eduardolat~pgbackweb.md) | 🐘 Effortless PostgreSQL backups with a user-friendly web interface! 🌐💾 | 2,631 | +1 |
-| [pghoard](../r/aiven~pghoard.md) | PostgreSQL® backup and restore service | 1,421 | +1 |
+| [wal-g](../r/wal-g~wal-g.md) | Archival and Restoration for databases in the Cloud | 4,296 | +31 |
+| [pgbackweb](../r/eduardolat~pgbackweb.md) | 🐘 Effortless PostgreSQL backups with a user-friendly web interface! 🌐💾 | 2,639 | +2 |
+| [pghoard](../r/aiven~pghoard.md) | PostgreSQL® backup and restore service | 1,424 | +1 |
 | [OmniPITR](https://github.com/omniti-labs/omnipitr) | Advanced WAL File Management Tools for PostgreSQL | 179 | +0 |
 | [pg-backups-to-s3](https://github.com/Saicheg/pg-backups-to-s3) | Small tool to create your postgresql backups on regular bases and upload them to S3   | 19 | +0 |
 | [pg\_back](../r/orgrim~pg_back.md) | Simple backup tool for PostgreSQL | 566 | +0 |
 | [pg\_probackup](../r/postgrespro~pg_probackup.md) | Backup and recovery manager for PostgreSQL | 799 | +0 |
 | [pgbackup-sidecar](https://github.com/Musab520/pgbackup-sidecar) | `pgbackup-sidecar` is a lightweight Docker sidecar container designed to automate regular backups of a PostgreSQL databa | 5 | +0 |
 | [postgres-backup-oss](https://github.com/isaced/postgres-backup-oss) | A handy Docker container to periodically backup PostgreSQL to Alibaba Cloud Object Storage Service (OSS) | 1 | +0 |
-| [wal-g](../r/wal-g~wal-g.md) | Archival and Restoration for databases in the Cloud | 4,249 | -1 |
-| [wal-e](https://github.com/wal-e/wal-e) | Continuous Archiving for Postgres | 3,464 | -3 |
+| [wal-e](https://github.com/wal-e/wal-e) | Continuous Archiving for Postgres | 3,464 | +0 |
 
 [Back to top](#awesome-postgres)
 
@@ -60,17 +60,17 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [atlas](../r/ariga~atlas.md) | Declarative schema migrations with schema-as-code workflows | 8,727 | +22 |
-| [pgcli](../r/dbcli~pgcli.md) | Postgres CLI with autocompletion and syntax highlighting | 13,388 | +12 |
-| [sabiql](../r/riii111~sabiql.md) | Fast, safe-by-design, Vim-first TUI for PostgreSQL, MySQL, and SQLite, built in Rust. | 306 | +6 |
-| [pg-schema-diff](../r/stripe~pg-schema-diff.md) | Go library for diffing Postgres schemas and generating SQL migrations | 881 | +2 |
-| [pgsh](https://github.com/sastraxi/pgsh) | Branch your PostgreSQL Database like Git | 649 | +2 |
-| [schemaspy](../r/schemaspy~schemaspy.md) | Database documentation built easy | 3,722 | +2 |
-| [MigrationPilot](https://github.com/mickelsamuel/migrationpilot) | PostgreSQL migration linter. Blocks unsafe migrations before merge: 112 rules, the real Postgres parser, lock analysis,  | 7 | +0 |
+| [atlas](../r/ariga~atlas.md) | Declarative schema migrations with schema-as-code workflows | 8,765 | +9 |
+| [pgcli](../r/dbcli~pgcli.md) | Postgres CLI with autocompletion and syntax highlighting | 13,415 | +5 |
+| [sabiql](../r/riii111~sabiql.md) | Fast, safe-by-design, Vim-first TUI for PostgreSQL, MySQL, and SQLite, built in Rust. | 317 | +5 |
+| [squix](../r/eduardofuncao~squix.md) | A CLI tool for managing and executing SQL queries across multiple databases. Written in Go, made beautiful with BubbleTe | 273 | +1 |
+| [MigrationPilot](https://github.com/mickelsamuel/migrationpilot) | PostgreSQL migration linter. Blocks unsafe migrations before merge: 112 rules, the real Postgres parser, lock analysis,  | 8 | +0 |
+| [pg-schema-diff](../r/stripe~pg-schema-diff.md) | Go library for diffing Postgres schemas and generating SQL migrations | 889 | +0 |
 | [pgplan](https://github.com/JacobArthurs/pgplan) | Compare and analyze PostgreSQL EXPLAIN plans from the CLI | 13 | +0 |
+| [pgsh](https://github.com/sastraxi/pgsh) | Branch your PostgreSQL Database like Git | 649 | +0 |
 | [pgxcli](https://github.com/Balaji01-4D/pgxcli) | Postgres CLI with autocompletion and syntax highlighting | 75 | +0 |
 | [psql2csv](https://github.com/fphilipe/psql2csv) | Run a query in psql and output the result as CSV. | 186 | +0 |
-| [squix](../r/eduardofuncao~squix.md) | A CLI tool for managing and executing SQL queries across multiple databases. Written in Go, made beautiful with BubbleTe | 268 | +0 |
+| [schemaspy](../r/schemaspy~schemaspy.md) | Database documentation built easy | 3,730 | -2 |
 
 [Back to top](#awesome-postgres)
 
@@ -78,7 +78,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Pigsty](../r/vonng~pigsty.md) | Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 575 PG extensions. Best-of | 5,633 | +15 |
+| [Pigsty](../r/vonng~pigsty.md) | Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 575 PG extensions. Best-of | 5,776 | +22 |
 
 [Back to top](#awesome-postgres)
 
@@ -86,7 +86,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pglayers](../r/pglayers~pglayers.md) | PostgreSQL Docker images with the extensions you actually need -- pre-built, composable, no compilation. | 161 | +1 |
+| [pglayers](../r/pglayers~pglayers.md) | PostgreSQL Docker images with the extensions you actually need -- pre-built, composable, no compilation. | 167 | +4 |
 
 [Back to top](#awesome-postgres)
 
@@ -94,25 +94,25 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [AGE](../r/apache~age.md) | Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL. | 4,826 | +23 |
-| [Citus](../r/citusdata~citus.md) | Distributed PostgreSQL as an extension | 12,771 | +22 |
-| [pg_search](../r/paradedb~paradedb.md) | One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search exte | 9,267 | +20 |
-| [pg\_partman](../r/pgpartman~pg_partman.md) | Partition management extension for PostgreSQL | 2,822 | +5 |
-| [pgRouting](../r/pgrouting~pgrouting.md) | Repository contains pgRouting library. Development branch is "develop", stable branch is "master" | 1,433 | +4 |
-| [HypoPG](../r/hypopg~hypopg.md) | Hypothetical Indexes for PostgreSQL | 1,714 | +2 |
-| [pglogical](../r/2ndquadrant~pglogical.md) | Logical Replication extension for PostgreSQL 17, 16, 15, 14, 13, 12, 11, 10, 9.6, 9.5, 9.4 (Postgres), providing much fa | 1,240 | +2 |
-| [cstore\_fdw](https://github.com/citusdata/cstore_fdw) | Columnar storage extension for Postgres built as a foreign data wrapper. Check out https://github.com/citusdata/citus fo | 1,782 | +1 |
-| [pg_cron](../r/citusdata~pg_cron.md) | Run periodic jobs in PostgreSQL | 3,890 | +1 |
-| [pg\_squeeze](../r/cybertec-postgresql~pg_squeeze.md) | A PostgreSQL extension for automatic bloat cleanup | 697 | +1 |
-| [pg\_stat\_monitor](../r/percona~pg_stat_monitor.md) | Query Performance Monitoring Tool for PostgreSQL | 591 | +1 |
-| [pgMemento](../r/pgmemento~pgmemento.md) | Audit trail with schema versioning for PostgreSQL using transaction-based logging | 411 | +1 |
-| [plpgsql\_check](../r/okbob~plpgsql_check.md) | plpgsql_check is a linter tool (does source code static analyze) for the PostgreSQL language plpgsql (the native languag | 779 | +1 |
+| [pg_search](../r/paradedb~paradedb.md) | One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search exte | 9,375 | +58 |
+| [AGE](../r/apache~age.md) | Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL. | 4,876 | +8 |
+| [Citus](../r/citusdata~citus.md) | Distributed PostgreSQL as an extension | 12,802 | +6 |
+| [pg_cron](../r/citusdata~pg_cron.md) | Run periodic jobs in PostgreSQL | 3,907 | +6 |
+| [pg\_partman](../r/pgpartman~pg_partman.md) | Partition management extension for PostgreSQL | 2,832 | +6 |
+| [HypoPG](../r/hypopg~hypopg.md) | Hypothetical Indexes for PostgreSQL | 1,726 | +5 |
+| [plpgsql\_check](../r/okbob~plpgsql_check.md) | plpgsql_check is a linter tool (does source code static analyze) for the PostgreSQL language plpgsql (the native languag | 782 | +2 |
+| [psql_bm25s](../r/intelligent-internet~psql_bm25s.md) | The fastest PostgreSQL BM25 engine, now support Sparse Semantic Retrieval in the same index. | 151 | +2 |
+| [pg\_paxos](https://github.com/citusdata/pg_paxos) | Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes | 310 | +1 |
+| [pglogical](../r/2ndquadrant~pglogical.md) | Logical Replication extension for PostgreSQL 17, 16, 15, 14, 13, 12, 11, 10, 9.6, 9.5, 9.4 (Postgres), providing much fa | 1,240 | +1 |
+| [pgRouting](../r/pgrouting~pgrouting.md) | Repository contains pgRouting library. Development branch is "develop", stable branch is "master" | 1,436 | +1 |
+| [cstore\_fdw](https://github.com/citusdata/cstore_fdw) | Columnar storage extension for Postgres built as a foreign data wrapper. Check out https://github.com/citusdata/citus fo | 1,783 | +0 |
 | [pg\_barcode](https://github.com/btouchard/pg_barcode) | PostgreSQL SVG QRcode & Datamatrix generator | 1 | +0 |
-| [pg\_paxos](https://github.com/citusdata/pg_paxos) | Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes | 309 | +0 |
 | [pg\_shard](https://github.com/citusdata/pg_shard) | ATTENTION: pg_shard is superseded by Citus, its more powerful replacement | 1,060 | +0 |
+| [pg\_squeeze](../r/cybertec-postgresql~pg_squeeze.md) | A PostgreSQL extension for automatic bloat cleanup | 700 | +0 |
+| [pg\_stat\_monitor](../r/percona~pg_stat_monitor.md) | Query Performance Monitoring Tool for PostgreSQL | 590 | +0 |
 | [PG\_Themis](https://github.com/cossacklabs/pg_themis) | Postgres Themis plugin | 33 | +0 |
 | [pgcat](https://github.com/kingluo/pgcat) | Enhanced PostgreSQL logical replication | 386 | +0 |
-| [psql_bm25s](../r/intelligent-internet~psql_bm25s.md) | The fastest PostgreSQL BM25 engine, now with SAE semantic postings in the same index. | 146 |  |
+| [pgMemento](../r/pgmemento~pgmemento.md) | Audit trail with schema versioning for PostgreSQL using transaction-based logging | 412 | +0 |
 | [zomboDB](https://github.com/zombodb/zombodb) | Making Postgres and Elasticsearch work together like it's 2023 | 4,719 | +0 |
 
 [Back to top](#awesome-postgres)
@@ -121,16 +121,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Teable](../r/teableio~teable.md) | ✨ AI Spreadsheet for Business | 21,792 | +46 |
-| [Redash](../r/getredash~redash.md) | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. | 28,796 | +12 |
-| [pgweb](../r/sosedoff~pgweb.md) | Cross-platform client for PostgreSQL databases | 9,502 | +9 |
-| [PgManage](../r/commandprompt~pgmanage.md) | Web tool for database management | 1,035 | +3 |
-| [temBoard](../r/dalibo~temboard.md) | PostgreSQL Remote Control | 770 | +2 |
-| [Postbird](https://github.com/Paxa/postbird) | Open source PostgreSQL GUI client for macOS, Linux and Windows | 1,637 | +1 |
-| [Dekart](../r/dekart-xyz~dekart.md) | Open-source backend for Kepler.gl. Self-hosted alternative to CARTO and Foursquare Studio. | 417 |  |
-| [OrcaQ](../r/cin12211~orca-q.md) | The open source \| Next Generation database editor | 221 |  |
-| [PgStudio](https://github.com/dev-asterix/PgStudio) | Intelligent PostgreSQL tooling for VS Code \| Build, explore, and query Postgres faster | 12 |  |
-| [phpPgAdmin](https://github.com/phppgadmin/phppgadmin) | the premier web-based administration tool for postgresql | 845 | -1 |
+| [Teable](../r/teableio~teable.md) | ✨ AI Spreadsheet for Business | 21,869 | +17 |
+| [Dekart](../r/dekart-xyz~dekart.md) | Open-source backend for Kepler.gl. Self-hosted alternative to CARTO and Foursquare Studio. | 428 | +6 |
+| [pgweb](../r/sosedoff~pgweb.md) | Cross-platform client for PostgreSQL databases | 9,524 | +4 |
+| [Redash](../r/getredash~redash.md) | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. | 28,833 | +4 |
+| [OrcaQ](../r/cin12211~orca-q.md) | The open source \| Next Generation database editor | 224 | +2 |
+| [PgManage](../r/commandprompt~pgmanage.md) | Web tool for database management | 1,036 | +1 |
+| [PgStudio](https://github.com/dev-asterix/PgStudio) | Intelligent PostgreSQL tooling for VS Code \| Build, explore, and query Postgres faster | 12 | +0 |
+| [phpPgAdmin](https://github.com/phppgadmin/phppgadmin) | the premier web-based administration tool for postgresql | 846 | +0 |
+| [temBoard](../r/dalibo~temboard.md) | PostgreSQL Remote Control | 771 | +0 |
+| [Postbird](https://github.com/Paxa/postbird) | Open source PostgreSQL GUI client for macOS, Linux and Windows | 1,634 | -3 |
 
 [Back to top](#awesome-postgres)
 
@@ -138,18 +138,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Patroni](../r/zalando~patroni.md) | A template for PostgreSQL High Availability with Etcd, Consul, ZooKeeper, or Kubernetes | 8,723 | +16 |
-| [autobase](../r/vitabaks~autobase.md) | Automated database platform for PostgreSQL® - Your own DBaaS. | 4,385 | +9 |
-| [pg_auto_failover](../r/citusdata~pg_auto_failover.md) | Postgres extension and service for automated failover and high-availability | 1,390 | +4 |
-| [pgrwl](../r/hashmap-kz~pgrwl.md) | Cloud-native continuous backup for PostgreSQL - WAL/base-backup streaming, compression, encryption, retention, and monit | 182 | +1 |
-| [Stolon](https://github.com/sorintlab/stolon) | PostgreSQL cloud native High Availability and more. | 4,829 | +1 |
+| [Patroni](../r/zalando~patroni.md) | A template for PostgreSQL High Availability with Etcd, Consul, ZooKeeper, or Kubernetes | 8,767 | +11 |
+| [autobase](../r/vitabaks~autobase.md) | Automated database platform for PostgreSQL® - Your own DBaaS. | 4,412 | +6 |
+| [repmgr](../r/2ndquadrant~repmgr.md) | A lightweight replication manager for PostgreSQL (Postgres) | 1,717 | +2 |
+| [pg_auto_failover](../r/citusdata~pg_auto_failover.md) | Postgres extension and service for automated failover and high-availability | 1,392 | +1 |
+| [pg-status](https://github.com/krylosov-aa/pg-status) | A microservice (sidecar) that helps instantly determine the status of your PostgreSQL hosts including whether they are a | 82 | +1 |
+| [Spock](../r/pgedge~spock.md) | Logical multi-master PostgreSQL replication | 755 | +1 |
 | [BDR](https://github.com/2ndQuadrant/bdr) | Bi-Directional Multi-Master Replication (BDR) for PostgreSQL, deprecated, please visit 2ndQuadrant website for latest BD | 359 | +0 |
-| [pg-status](https://github.com/krylosov-aa/pg-status) | A microservice (sidecar) that helps instantly determine the status of your PostgreSQL hosts including whether they are a | 81 | +0 |
+| [PAF](https://github.com/ClusterLabs/PAF) | PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync. | 350 | +0 |
 | [pglookout](../r/aiven~pglookout.md) | PostgreSQL replication monitoring and failover daemon | 192 | +0 |
-| [repmgr](../r/2ndquadrant~repmgr.md) | A lightweight replication manager for PostgreSQL (Postgres) | 1,712 | +0 |
+| [pgrwl](../r/hashmap-kz~pgrwl.md) | Cloud-native continuous backup for PostgreSQL - WAL/base-backup streaming, compression, encryption, retention, and monit | 182 | +0 |
 | [SkyTools](https://github.com/pgq/skytools-legacy) | Obsolete, see https://github.com/pgq/ for maintained code. | 249 | +0 |
-| [Spock](../r/pgedge~spock.md) | Logical multi-master PostgreSQL replication | 750 | +0 |
-| [PAF](https://github.com/ClusterLabs/PAF) | PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync. | 350 | -1 |
+| [Stolon](https://github.com/sorintlab/stolon) | PostgreSQL cloud native High Availability and more. | 4,828 | -1 |
 
 [Back to top](#awesome-postgres)
 
@@ -157,13 +157,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [CloudNativePG operator](../r/cloudnative-pg~cloudnative-pg.md) | The most popular Kubernetes Operator for PostgreSQL. | 9,303 | +46 |
-| [Crunchy Operator](../r/crunchydata~postgres-operator.md) | Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service. | 4,450 | +3 |
-| [StackGres Operator](../r/ongres~stackgres.md) | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgre | 1,427 | +2 |
-| [Zalando Operator](../r/zalando~postgres-operator.md) | Postgres operator creates and manages PostgreSQL clusters running in Kubernetes | 5,239 | +1 |
+| [CloudNativePG operator](../r/cloudnative-pg~cloudnative-pg.md) | The most popular Kubernetes Operator for PostgreSQL. | 9,419 | +32 |
+| [StackGres Operator](../r/ongres~stackgres.md) | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgre | 1,434 | +4 |
+| [Zalando Operator](../r/zalando~postgres-operator.md) | Postgres operator creates and manages PostgreSQL clusters running in Kubernetes | 5,255 | +2 |
 | [Kubegres Operator](https://github.com/reactive-tech/kubegres) | Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases r | 1,351 | +0 |
 | [Percona Everest Operator](https://github.com/percona/everest-operator) | OpenEverest Operator | 42 | +0 |
 | [Percona PostgreSQL Operator](../r/percona~percona-postgresql-operator.md) | Percona Operator for PostgreSQL | 385 | +0 |
+| [Crunchy Operator](../r/crunchydata~postgres-operator.md) | Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service. | 4,452 | -1 |
 
 [Back to top](#awesome-postgres)
 
@@ -171,18 +171,18 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pq](../r/lib~pq.md) | Go PostgreSQL driver for database/sql | 9,956 | +18 |
-| [node-postgres](../r/brianc~node-postgres.md) | PostgreSQL client for node.js. | 13,209 | +6 |
-| [rust-postgresql](../r/sfackler~rust-postgres.md) | Native PostgreSQL driver for the Rust programming language | 4,000 | +3 |
-| [Npgsql](../r/npgsql~npgsql.md) | Npgsql is the .NET data provider for PostgreSQL. | 3,729 | +2 |
-| [pg](../r/ged~ruby-pg.md) | A PostgreSQL client library for Ruby | 871 | +1 |
-| [postgrex](../r/elixir-ecto~postgrex.md) | PostgreSQL driver for Elixir | 1,217 | +1 |
+| [Npgsql](../r/npgsql~npgsql.md) | Npgsql is the .NET data provider for PostgreSQL. | 3,738 | +4 |
+| [Postmodern](https://github.com/marijnh/Postmodern) | A Common Lisp PostgreSQL programming interface | 434 | +2 |
+| [node-postgres](../r/brianc~node-postgres.md) | PostgreSQL client for node.js. | 13,219 | +1 |
+| [pg.zig](../r/karlseguin~pg.zig.md) | Native PostgreSQL driver / client for Zig | 602 | +1 |
+| [rust-postgresql](../r/sfackler~rust-postgres.md) | Native PostgreSQL driver for the Rust programming language | 4,006 | +1 |
 | [clj-postgresql](https://github.com/remodoy/clj-postgresql) | PostgreSQL helpers for Clojure projects | 162 | +0 |
 | [luapgsql](../r/arcapos~luapgsql.md) | Lua binding for PostgreSQL | 119 | +0 |
-| [pg.zig](../r/karlseguin~pg.zig.md) | Native PostgreSQL driver / client for Zig | 596 | +0 |
-| [RPostgres](../r/r-dbi~rpostgres.md) | A DBI-compliant interface to PostgreSQL | 343 | +0 |
-| [zapatos](../r/jawj~zapatos.md) | Zero-abstraction Postgres for TypeScript: a non-ORM database library | 1,403 | +0 |
-| [Postmodern](https://github.com/marijnh/Postmodern) | A Common Lisp PostgreSQL programming interface | 431 | -2 |
+| [pg](../r/ged~ruby-pg.md) | A PostgreSQL client library for Ruby | 869 | +0 |
+| [RPostgres](../r/r-dbi~rpostgres.md) | A DBI-compliant interface to PostgreSQL | 344 | +0 |
+| [zapatos](https://github.com/jawj/zapatos) | Zero-abstraction Postgres for TypeScript: a non-ORM database library | 1,402 | +0 |
+| [pq](../r/lib~pq.md) | Go PostgreSQL driver for database/sql | 9,964 | -1 |
+| [postgrex](../r/elixir-ecto~postgrex.md) | PostgreSQL driver for Elixir | 1,212 | -4 |
 
 [Back to top](#awesome-postgres)
 
@@ -190,21 +190,21 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [coroot](../r/coroot~coroot.md) | Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, trac | 7,916 | +14 |
-| [postgres_exporter](../r/wrouesnel~postgres_exporter.md) | A PostgreSQL metric exporter for Prometheus | 3,615 | +7 |
-| [PMM](../r/percona~pmm.md) | Percona Monitoring and Management: an open source database monitoring, observability and management tool | 1,107 | +6 |
-| [pg_ash](../r/nikolays~pg_ash.md) | Active Session History for PostgreSQL — wait event sampling with zero bloat (pg_cron + PGQ-style partition rotation) | 245 | +4 |
-| [check\_pgactivity](../r/opmdg~check_pgactivity.md) | Nagios remote agent | 188 | +1 |
-| [pg\_view](https://github.com/zalando/pg_view) | Get a detailed, real-time view of your PostgreSQL database and system metrics | 507 | +1 |
-| [Pome](https://github.com/rach/pome) | A Postgres Metrics Dashboard | 1,072 | +1 |
+| [coroot](../r/coroot~coroot.md) | Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, trac | 7,963 | +15 |
+| [postgres_exporter](../r/wrouesnel~postgres_exporter.md) | A PostgreSQL metric exporter for Prometheus | 3,629 | +3 |
+| [PMM](../r/percona~pmm.md) | Percona Monitoring and Management: an open source database monitoring, observability and management tool | 1,111 | +2 |
+| [dexter](../r/ankane~dexter.md) | The automatic indexer for Postgres | 2,096 | +1 |
+| [pg_ash](../r/nikolays~pg_ash.md) | Active Session History for PostgreSQL — wait event sampling with zero bloat (pg_cron + PGQ-style partition rotation) | 246 | +1 |
+| [pgwd](https://github.com/hrodrig/pgwd) | Go CLI that checks PostgreSQL connection counts and notifies via Slack and/or Loki when configured thresholds are exceed | 8 | +1 |
+| [check\_pgactivity](../r/opmdg~check_pgactivity.md) | Nagios remote agent | 188 | +0 |
 | [Check\_postgres](https://github.com/bucardo/check_postgres) | Nagios check_postgres plugin for checking status of PostgreSQL databases | 602 | +0 |
-| [dexter](../r/ankane~dexter.md) | The automatic indexer for Postgres | 2,095 | +0 |
 | [Instrumental](https://github.com/Instrumental/instrumentald) | Instrumental System and Service Daemon | 15 | +0 |
 | [libzbxpgsql](https://github.com/cavaliercoder/libzbxpgsql) | Monitor PostgreSQL with Zabbix | 156 | +0 |
-| [pg_exporter](../r/vonng~pg_exporter.md) | Advanced PostgreSQL & Pgbouncer Metrics Exporter for Prometheus | 363 | +0 |
-| [pgvitals](https://github.com/pgvitals/pgvitals) | 40 copy-paste PostgreSQL diagnostic queries — one for every performance bottleneck. No extensions. No installation. Just | 6 |  |
-| [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2) | PostgreSQL metrics monitor/dashboard | 1,838 | +0 |
-| [pgwd](https://github.com/hrodrig/pgwd) | Go CLI that checks PostgreSQL connection counts and notifies via Slack and/or Loki when configured thresholds are exceed | 7 |  |
+| [pg_exporter](../r/vonng~pg_exporter.md) | Advanced PostgreSQL & Pgbouncer Metrics Exporter for Prometheus | 365 | +0 |
+| [pg\_view](https://github.com/zalando/pg_view) | Get a detailed, real-time view of your PostgreSQL database and system metrics | 507 | +0 |
+| [pgvitals](https://github.com/pgvitals/pgvitals) | 40 copy-paste PostgreSQL diagnostic queries — one for every performance bottleneck. No extensions. No installation. Just | 6 | +0 |
+| [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2) | PostgreSQL metrics monitor/dashboard | 1,839 | +0 |
+| [Pome](https://github.com/rach/pome) | A Postgres Metrics Dashboard | 1,072 | +0 |
 
 [Back to top](#awesome-postgres)
 
@@ -212,16 +212,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [PEV2](../r/dalibo~pev2.md) | Postgres Explain Visualizer 2 | 3,594 | +5 |
-| [PgHero](../r/ankane~pghero.md) | A performance dashboard for Postgres | 8,927 | +4 |
-| [TimescaleDB Tune](../r/timescale~timescaledb-tune.md) | A tool for tuning TimescaleDB for better performance by adjusting settings to match your system's CPU and memory resourc | 505 | +1 |
-| [aqo](../r/postgrespro~aqo.md) | Adaptive query optimization for PostgreSQL | 500 | +0 |
-| [pg_flame](https://github.com/mgartner/pg_flame) | A flamegraph generator for Postgres EXPLAIN ANALYZE output. | 1,620 | +0 |
+| [PEV2](../r/dalibo~pev2.md) | Postgres Explain Visualizer 2 | 3,604 | +2 |
+| [aqo](../r/postgrespro~aqo.md) | Adaptive query optimization for PostgreSQL | 501 | +1 |
+| [pgassistant](https://github.com/beh74/pgassistant-community) | A PostgreSQL assistant for developers Understand, optimize, and improve your PostgreSQL database with ease. | 56 | +1 |
+| [pgtune](../r/le0pard~pgtune.md) | Pgtune - tuning PostgreSQL config by your hardware | 2,745 | +1 |
+| [pgtune](https://github.com/gregs1104/pgtune) | PostgreSQL configuration wizard | 1,090 | +1 |
+| [TimescaleDB Tune](../r/timescale~timescaledb-tune.md) | A tool for tuning TimescaleDB for better performance by adjusting settings to match your system's CPU and memory resourc | 507 | +1 |
+| [pg_flame](https://github.com/mgartner/pg_flame) | A flamegraph generator for Postgres EXPLAIN ANALYZE output. | 1,621 | +0 |
 | [pg_web_stats](https://github.com/kirs/pg_web_stats) | Web UI to view pg_stat_statements | 97 | +0 |
-| [pgassistant](https://github.com/beh74/pgassistant-community) | A PostgreSQL assistant for developers Understand, optimize, and improve your PostgreSQL database with ease. | 45 | +0 |
 | [pgconfig.org](https://github.com/sebastianwebber/pgconfig) | Web Based PostgreSQL configuration tool | 88 | +0 |
-| [pgtune](../r/le0pard~pgtune.md) | Pgtune - tuning PostgreSQL config by your hardware | 2,742 | +0 |
-| [pgtune](https://github.com/gregs1104/pgtune) | PostgreSQL configuration wizard | 1,090 | +0 |
+| [PgHero](../r/ankane~pghero.md) | A performance dashboard for Postgres | 8,933 | -2 |
 
 [Back to top](#awesome-postgres)
 
@@ -229,8 +229,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
+| [neond](../r/matisiekpl~neond.md) | DX-focused control plane for Postgres dedicated to non-critical workloads. Your postgres:latest replacement 🐘  | 137 | +2 |
 | [Atlas4D](https://github.com/crisbez/atlas4d-base) | Self-hosted 4D spatiotemporal AI platform built on PostgreSQL, PostGIS, TimescaleDB, H3 and pgvector, with anomaly & thr | 19 | +0 |
-| [neond](../r/matisiekpl~neond.md) | DX-focused control plane for Postgres dedicated to non-critical workloads. Your postgres:latest replacement 🐘  | 129 |  |
 
 [Back to top](#awesome-postgres)
 
@@ -238,7 +238,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pgrls](https://github.com/pgrls/pgrls) | Static analyzer for Postgres Row-Level Security — 67 lint rules covering tenant and per-user row-scoping bugs, performan | 26 |  |
+| [pgrls](https://github.com/pgrls/pgrls) | Static analyzer for Postgres Row-Level Security — 67 lint rules covering tenant and per-user row-scoping bugs, performan | 27 | +0 |
 | [Acra](../r/cossacklabs~acra.md) | Database security suite. Database proxy with field-level encryption, search through encrypted data, SQL injections preve | 1,492 | -1 |
 
 [Back to top](#awesome-postgres)
@@ -247,7 +247,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Apache Cloudberry](../r/apache~cloudberry.md) | One advanced and mature open-source MPP (Massively Parallel Processing) database. Open source alternative to Greenplum D | 1,405 | +14 |
+| [Apache Cloudberry](../r/apache~cloudberry.md) | One advanced and mature open-source MPP (Massively Parallel Processing) database. Open source alternative to Greenplum D | 1,423 | +4 |
 
 [Back to top](#awesome-postgres)
 
@@ -255,10 +255,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [SQL Syntax Cheat Sheet](https://github.com/mergisi/sql-syntax-cheat-sheet) | A comprehensive SQL syntax cheat sheet for quick reference, covering essential commands, functions, operators, and conce | 54 | +1 |
-| [pagila](https://github.com/xzilla/pagila) | The PostgreSQL Sample Database | 78 | +0 |
-| [pg-utils](../r/dataegret~pg-utils.md) | Useful PostgreSQL utilities | 1,218 | +0 |
-| [postgresDBSamples](https://github.com/morenoh149/postgresDBSamples) | Sample databases for postgres | 550 | +0 |
+| [pagila](https://github.com/xzilla/pagila) | The PostgreSQL Sample Database | 80 | +0 |
+| [pg-utils](../r/dataegret~pg-utils.md) | Useful PostgreSQL utilities | 1,219 | +0 |
+| [postgresDBSamples](https://github.com/morenoh149/postgresDBSamples) | Sample databases for postgres | 551 | +0 |
+| [SQL Syntax Cheat Sheet](https://github.com/mergisi/sql-syntax-cheat-sheet) | A comprehensive SQL syntax cheat sheet for quick reference, covering essential commands, functions, operators, and conce | 55 | +0 |
 
 [Back to top](#awesome-postgres)
 
@@ -266,52 +266,52 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [PostgREST](../r/postgrest~postgrest.md) | REST API for any Postgres database | 27,670 | +20 |
-| [Hasura GraphQL Engine](../r/hasura~graphql-engine.md) | Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on  | 32,115 | +8 |
-| [pgroll](../r/xataio~pgroll.md) | PostgreSQL zero-downtime migrations made easy | 6,579 | +6 |
-| [Greenmask](../r/greenmaskio~greenmask.md) | Database anonymization and test data management | 1,763 | +4 |
-| [pREST](../r/prest~prest.md) | PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres  | 4,618 | +3 |
-| [sqitch](../r/sqitchers~sqitch.md) | Sensible database change management | 3,160 | +3 |
-| [ERAlchemy](../r/alexis-benoist~eralchemy.md) | Entity Relation Diagrams generation tool | 1,432 | +2 |
-| [PostGraphile](../r/graphile~postgraphile.md) | 🔮 Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more! | 12,931 | +2 |
-| [GatewayD](../r/gatewayd-io~gatewayd.md) | database gateway for building data-driven applications | 288 | +1 |
-| [mysql-postgresql-converter](https://github.com/lanyrd/mysql-postgresql-converter) | Lanyrd's MySQL to PostgreSQL conversion script | 1,313 | +1 |
-| [pg_chameleon](../r/the4thdoctor~pg_chameleon.md) | MySQL to PostgreSQL replica system | 441 | +1 |
-| [pgbadger](../r/darold~pgbadger.md) | A fast PostgreSQL Log Analyzer | 4,060 | +1 |
-| [pgloader](../r/dimitri~pgloader.md) | Migrate to PostgreSQL in a single command! | 6,526 | +1 |
-| [pgMonitor](../r/crunchydata~pgmonitor.md) | PostgreSQL Monitoring, Metrics Collection and Alerting Resources from Crunchy Data | 715 | +1 |
-| [sqlcheck](https://github.com/jarulraj/sqlcheck) | Automatically identify anti-patterns in SQL queries | 2,522 | +1 |
+| [pg\_activity](../r/dalibo~pg_activity.md) | pg_activity is a top like application for PostgreSQL server activity monitoring. | 3,053 | +11 |
+| [PostgREST](../r/postgrest~postgrest.md) | REST API for any Postgres database | 27,701 | +9 |
+| [pREST](../r/prest~prest.md) | PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres  | 4,623 | +6 |
+| [Greenmask](../r/greenmaskio~greenmask.md) | Database anonymization and test data management | 1,778 | +5 |
+| [pgroll](../r/xataio~pgroll.md) | PostgreSQL zero-downtime migrations made easy | 6,597 | +3 |
+| [pgbadger](../r/darold~pgbadger.md) | A fast PostgreSQL Log Analyzer | 4,069 | +2 |
+| [diesel-guard](../r/ayarotsky~diesel-guard.md) | Linter for dangerous Postgres migration patterns in Diesel and SQLx. Prevents   downtime caused by unsafe schema changes | 121 | +1 |
+| [GatewayD](../r/gatewayd-io~gatewayd.md) | database gateway for building data-driven applications | 289 | +1 |
+| [pg_timetable](../r/cybertec-postgresql~pg_timetable.md) | pg_timetable: Advanced scheduling for PostgreSQL | 1,402 | +1 |
+| [pgCenter](../r/lesovsky~pgcenter.md) | Command-line admin tool for observing and troubleshooting Postgres. | 1,631 | +1 |
 | [bemi](../r/bemihq~bemi.md) | Automatic data change tracking for PostgreSQL | 401 | +0 |
-| [diesel-guard](../r/ayarotsky~diesel-guard.md) | Linter for dangerous Postgres migration patterns in Diesel and SQLx. Prevents   downtime caused by unsafe schema changes | 120 | +0 |
-| [ldap2pg](../r/dalibo~ldap2pg.md) | 🐘 👥 Manage PostgreSQL roles and privileges from YAML or LDAP | 236 | +0 |
+| [Hasura GraphQL Engine](../r/hasura~graphql-engine.md) | Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on  | 32,129 | +0 |
+| [ldap2pg](../r/dalibo~ldap2pg.md) | 🐘 👥 Manage PostgreSQL roles and privileges from YAML or LDAP | 237 | +0 |
+| [mysql-postgresql-converter](https://github.com/lanyrd/mysql-postgresql-converter) | Lanyrd's MySQL to PostgreSQL conversion script | 1,313 | +0 |
 | [NServiceBus.Transport.PostgreSql](https://github.com/Particular/NServiceBus.SqlServer) | SQL Server Transport for NServiceBus | 47 | +0 |
+| [pg_chameleon](../r/the4thdoctor~pg_chameleon.md) | MySQL to PostgreSQL replica system | 442 | +0 |
 | [pg_docs_bot](https://github.com/mchristofides/pg_docs_bot) | A browser extension (Chrome and Firefox) for getting to the current Postgres docs by default. | 18 | +0 |
 | [pg_insights](https://github.com/lob/pg_insights) | A collection of convenient SQL for monitoring Postgres database health. | 310 | +0 |
 | [pg_migrate](https://github.com/jwdeitch/pg_migrate) | Manage postgres schema, triggers, procedures, and views | 32 | +0 |
-| [pg_timetable](../r/cybertec-postgresql~pg_timetable.md) | pg_timetable: Advanced scheduling for PostgreSQL | 1,399 | +0 |
 | [pg-differ](https://github.com/multum/pg-differ) | Node.js migration tool for PostgreSQL | 40 | +0 |
-| [pg-formatter](https://github.com/gajus/pg-formatter) | A PostgreSQL SQL syntax beautifier. | 83 | +0 |
 | [pg-safe-migrate](https://github.com/defnotwig/pg-safe-migrate) | Safety-first PostgreSQL migration engine for Node.js — advisory locks, drift detection, checksum verification, 10 lint r | 1 | +0 |
 | [pg-spot-operator](https://github.com/pg-spot-ops/pg-spot-operator) | Stateful Postgres on cheap Spot VMs | 59 | +0 |
-| [pg\_activity](../r/dalibo~pg_activity.md) | pg_activity is a top like application for PostgreSQL server activity monitoring. | 3,039 | +0 |
-| [pgCenter](../r/lesovsky~pgcenter.md) | Command-line admin tool for observing and troubleshooting Postgres. | 1,626 | +0 |
 | [pgclimb](https://github.com/lukasmartinelli/pgclimb) | Export data from PostgreSQL into different data formats | 393 | +0 |
 | [pgcmp](https://github.com/cbbrowne/pgcmp) | Tool for comparing Postgres database schemas | 46 | +0 |
-| [pgFirstAid](../r/randoneering~pgfirstaid.md) | Easy to deploy, open source, postgresql function that provides a prioritized list of actions to take to improve stabilit | 534 |  |
+| [pgFirstAid](../r/randoneering~pgfirstaid.md) | Easy to deploy, open source, postgresql function that provides a prioritized list of actions to take to improve stabilit | 534 | +0 |
 | [pgfutter](https://github.com/lukasmartinelli/pgfutter) | Import CSV and JSON into PostgreSQL the easy way | 1,345 | +0 |
 | [pglistend](https://github.com/kabirbaidhya/pglistend) | pglistend - A lightweight PostgreSQL LISTEN Daemon using Node.js/Systemd | 30 | +0 |
 | [pgmigrate](../r/yandex~pgmigrate.md) | Simple tool to evolve PostgreSQL schema easily. | 671 | +0 |
-| [pgspot](../r/timescale~pgspot.md) | Spot vulnerabilities in postgres SQL scripts | 148 | +0 |
-| [pgsync](../r/ankane~pgsync.md) | Sync data from one Postgres database to another | 3,474 | +0 |
+| [pgMonitor](../r/crunchydata~pgmonitor.md) | PostgreSQL Monitoring, Metrics Collection and Alerting Resources from Crunchy Data | 714 | +0 |
+| [pgspot](../r/timescale~pgspot.md) | Spot vulnerabilities in postgres SQL scripts | 149 | +0 |
 | [PGXN client](https://github.com/pgxn/pgxnclient) | A command line client for the PostgreSQL Extension Network | 161 | +0 |
 | [planter](https://github.com/achiku/planter) | Generate PlantUML ER diagram textual description from PostgreSQL tables | 555 | +0 |
+| [PostGraphile](../r/graphile~postgraphile.md) | 🔮 Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more! | 12,933 | +0 |
 | [postgresql-metrics](https://github.com/spotify/postgresql-metrics) | Tool that extracts and provides metrics on your PostgreSQL database | 599 | +0 |
 | [Pyrseas](../r/perseas~pyrseas.md) | Provides utilities for Postgres database schema versioning. This is being superseded by work done at https://codeberg.or | 406 | +0 |
 | [Qail](https://github.com/qail-io/qail) | AST-native PostgreSQL toolkit: typed queries to wire protocol, with built-in RLS tenant isolation. | 35 | +0 |
 | [RegreSQL](../r/dimitri~regresql.md) | Regression Testing your SQL queries | 358 | +0 |
-| [yoke](https://github.com/nanopack/yoke) | Postgres high-availability cluster with auto-failover and automated cluster recovery. | 1,340 | +0 |
-| [ZSON](https://github.com/postgrespro/zson) | ZSON is a PostgreSQL extension for transparent JSONB compression | 569 | +0 |
-| [migra](https://github.com/djrobstep/migra) | DEPRECATED: Like diff but for PostgreSQL schemas | 3,048 | -1 |
+| [sqitch](../r/sqitchers~sqitch.md) | Sensible database change management | 3,169 | +0 |
+| [ZSON](https://github.com/postgrespro/zson) | ZSON is a PostgreSQL extension for transparent JSONB compression | 570 | +0 |
+| [ERAlchemy](../r/alexis-benoist~eralchemy.md) | Entity Relation Diagrams generation tool | 1,430 | -1 |
+| [migra](https://github.com/djrobstep/migra) | DEPRECATED: Like diff but for PostgreSQL schemas | 3,046 | -1 |
+| [pg-formatter](https://github.com/gajus/pg-formatter) | A PostgreSQL SQL syntax beautifier. | 82 | -1 |
+| [pgsync](../r/ankane~pgsync.md) | Sync data from one Postgres database to another | 3,475 | -1 |
+| [yoke](https://github.com/nanopack/yoke) | Postgres high-availability cluster with auto-failover and automated cluster recovery. | 1,338 | -1 |
+| [pgloader](../r/dimitri~pgloader.md) | Migrate to PostgreSQL in a single command! | 6,542 | -2 |
+| [sqlcheck](https://github.com/jarulraj/sqlcheck) | Automatically identify anti-patterns in SQL queries | 2,523 | -2 |
 
 [Back to top](#awesome-postgres)
 
@@ -319,12 +319,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [pgBoss](../r/timgit~pg-boss.md) | Queueing jobs in Postgres from Node.js like a boss | 3,955 | +30 |
-| [river](../r/riverqueue~river.md) | Fast and reliable background jobs in Go | 5,680 | +24 |
-| [pgmq](../r/pgmq~pgmq.md) | A lightweight message queue. Like AWS SQS and RSMQ but on Postgres. | 5,275 | +17 |
+| [river](../r/riverqueue~river.md) | Fast and reliable background jobs in Go | 5,749 | +22 |
+| [pgmq](../r/pgmq~pgmq.md) | A lightweight message queue. Like AWS SQS and RSMQ but on Postgres. | 5,324 | +19 |
+| [pgBoss](../r/timgit~pg-boss.md) | Queueing jobs in Postgres from Node.js like a boss | 4,022 | +12 |
 | [BeanQueue](https://github.com/LaunchPlatform/bq) | BeanQueue, a lightweight Python task queue framework based on SQLAlchemy, PostgreSQL SKIP LOCKED queries and NOTIFY / LI | 28 | +0 |
 
 [Back to top](#awesome-postgres)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/l/postgres/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/l/postgres/)*

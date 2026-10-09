@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,722 | +21 | +130 |  | 2026-09-16 |
+| 2,778 | +21 | +137 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Market Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dgunning~edgartools/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dgunning~edgartools/)*

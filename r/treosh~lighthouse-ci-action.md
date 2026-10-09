@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,289 | +0 | +1 | +9 | 2026-03-12 |
+| 1,291 | -1 | +1 | +9 | 2026-03-12 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Monitoring
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/treosh~lighthouse-ci-action/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/treosh~lighthouse-ci-action/)*

@@ -1,6 +1,6 @@
 # l0ng-ai/tty7
 
-> A terminal workbench in pure Rust: shells, persistent sessions, SSH, coding agents. GPU-rendered on Zed's gpui, VT core 
+> The terminal that outlives its window. Shells survive quitting the app, agents can drive other agents, and remote machin
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/l0ng-ai/tty7) | [Live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~tty7/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 895 | +37 | +165 |  | 2026-09-15 |
+| 1,229 | +44 | +342 |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Terminal Apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~tty7/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/l0ng-ai~tty7/)*

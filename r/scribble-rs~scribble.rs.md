@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 657 | +1 | +2 | +16 | 2026-09-06 |
+| 663 | +0 | +6 | +17 | 2026-09-06 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scribble-rs~scribble.rs/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/scribble-rs~scribble.rs/)*

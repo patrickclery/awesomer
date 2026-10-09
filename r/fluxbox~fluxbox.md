@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 438 | +2 | +6 | +21 | 2026-02-15 |
+| 445 | +4 | +3 | +20 | 2026-02-15 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Stacking Window Managers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fluxbox~fluxbox/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fluxbox~fluxbox/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 428 | +4 | +15 | +56 | 2026-06-01 |
+| 430 | +0 | +10 | +53 | 2026-06-01 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/obra~superpowers-lab/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/obra~superpowers-lab/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,843 | -2 | -10 | +8 | 2026-05-17 |
+| 14,819 | -7 | -20 | +9 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/llmware-ai~llmware/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/llmware-ai~llmware/)*

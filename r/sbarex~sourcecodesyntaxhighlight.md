@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,244 | +11 | +37 | +114 | 2026-09-15 |
+| 4,290 | +6 | +57 | +120 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / QuickLook Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sbarex~sourcecodesyntaxhighlight/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sbarex~sourcecodesyntaxhighlight/)*

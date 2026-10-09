@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 737 | +1 | +47 | +75 | 2026-09-10 |
+| 770 | +2 | +74 | +99 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Screensavers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/phlx0~drift/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/phlx0~drift/)*

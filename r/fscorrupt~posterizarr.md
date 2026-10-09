@@ -1,6 +1,6 @@
 # fscorrupt/Posterizarr
 
-> 🖼️ Automated asset maker for Plex/Jellyfin/Emby.
+> 🖼️ Automated asset maker for Plex, Jellyfin & Emby.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/fscorrupt/Posterizarr) | [Live site ↗](https://patrickclery.com/awesomer/r/fscorrupt~posterizarr/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 926 | -1 | +7 | +40 | 2026-09-15 |
+| 930 | -2 | +11 | +40 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Complimenting Apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/fscorrupt~posterizarr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/fscorrupt~posterizarr/)*

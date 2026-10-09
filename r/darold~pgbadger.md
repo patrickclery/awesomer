@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,060 | +1 | +9 | +30 | 2026-09-15 |
+| 4,069 | +2 | +14 | +30 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/darold~pgbadger/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/darold~pgbadger/)*

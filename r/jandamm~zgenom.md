@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 433 | +2 | +3 | +5 | 2026-01-01 |
+| 434 | +0 | +1 | +5 | 2026-01-01 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / [Zgen](https://github.com/tarjoilija/zgen)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jandamm~zgenom/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jandamm~zgenom/)*

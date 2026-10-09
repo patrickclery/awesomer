@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 197 | +1 | +2 | +2 | 2026-09-14 |
+| 197 | +0 | +1 | +2 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Build
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lukka~run-cmake/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lukka~run-cmake/)*

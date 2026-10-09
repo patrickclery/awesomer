@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,497 | +1 | +3 | +4 | 2025-11-18 |
+| 3,499 | +1 | +4 | +5 | 2025-11-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / ORM/ODM Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/collectiveidea~audited/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/collectiveidea~audited/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,612 | +5 | +23 | +84 | 2026-09-16 |
+| 5,621 | +3 | +18 | +83 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Schema
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/liquibase~liquibase/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/liquibase~liquibase/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,281 | +2 | +12 | +52 | 2026-05-26 |
+| 1,283 | +1 | +10 | +51 | 2026-05-26 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/merrit~nyrna/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/merrit~nyrna/)*

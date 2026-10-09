@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 411 | +1 | +0 | +2 | 2026-04-27 |
+| 412 | +0 | +0 | +2 | 2026-04-27 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pgmemento~pgmemento/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pgmemento~pgmemento/)*

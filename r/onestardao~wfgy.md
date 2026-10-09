@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,791 | +6 | +13 | +34 | 2026-09-16 |
+| 1,793 | +2 | +7 | +33 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Research Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/onestardao~wfgy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/onestardao~wfgy/)*

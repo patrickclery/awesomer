@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,394 | +0 | +5 | +22 | 2026-09-13 |
+| 1,395 | +0 | +4 | +22 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Media Centre Applications
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gerbera~gerbera/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gerbera~gerbera/)*

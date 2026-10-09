@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,820 | +0 | -5 | +4 | 2026-08-09 |
+| 9,819 | -1 | -7 | +3 | 2026-08-09 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Media Centre Applications
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/streamaserver~streama/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/streamaserver~streama/)*

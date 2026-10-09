@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,880 | +1 | +11 | +49 | 2026-09-09 |
+| 2,888 | +2 | +14 | +51 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Game AI & Simulations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dlr-rm~rl-baselines3-zoo/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dlr-rm~rl-baselines3-zoo/)*

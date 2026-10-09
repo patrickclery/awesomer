@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 270 | +8 | +38 | +136 | 2026-09-16 |
+| 306 | +5 | +52 | +144 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Customer Data Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/quackbackio~quackback/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/quackbackio~quackback/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,281 | +229 | +802 | +3,998 | 2026-09-16 |
+| 29,496 | +47 | +612 | +3,980 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Document Conversion & Preprocessing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/opendataloader-project~opendataloader-pdf/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/opendataloader-project~opendataloader-pdf/)*

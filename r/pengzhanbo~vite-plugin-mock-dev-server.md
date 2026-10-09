@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 256 | +0 | +0 | +2 | 2026-09-13 |
+| 260 | +3 | +1 | +2 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pengzhanbo~vite-plugin-mock-dev-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pengzhanbo~vite-plugin-mock-dev-server/)*

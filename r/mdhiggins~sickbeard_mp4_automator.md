@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,586 | +0 | -2 | -3 | 2026-08-15 |
+| 1,586 | +0 | -2 | -2 | 2026-08-15 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Ripping, Transcoding, Converting, Encoding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mdhiggins~sickbeard_mp4_automator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mdhiggins~sickbeard_mp4_automator/)*

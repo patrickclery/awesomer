@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 485 |  |  |  | 2026-09-16 |
+| 485 | +0 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Runtime
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jmcdo29~nest-commander/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jmcdo29~nest-commander/)*

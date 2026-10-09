@@ -8,14 +8,14 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,665 | +24 | +116 | +381 | 2026-09-16 |
+| 15,768 | +38 | +138 | +390 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Multimedia and File Formats
+- [Awesome-Linux-Software](../l/linux-software.md) / Audio
 - [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 - [awesome-piracy](../l/piracy.md) / File Renaming and Tagging
-- [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/beetbox~beets/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/beetbox~beets/)*

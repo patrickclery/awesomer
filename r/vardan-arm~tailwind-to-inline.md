@@ -15,4 +15,4 @@
 - [awesome-tailwindcss](../l/tailwindcss.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vardan-arm~tailwind-to-inline/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vardan-arm~tailwind-to-inline/)*

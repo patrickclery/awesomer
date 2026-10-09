@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,119 | +3 | +10 | +23 | 2026-04-15 |
+| 2,121 | +1 | +7 | +23 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Editing Support
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/windwp~nvim-ts-autotag/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/windwp~nvim-ts-autotag/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,268 | +21 | +135 | +401 | 2026-09-15 |
+| 7,330 | +21 | +140 | +404 | 2026-10-04 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/steamdeckhomebrew~decky-loader/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/steamdeckhomebrew~decky-loader/)*

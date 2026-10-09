@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 104 | +2 | +7 | +23 | 2026-08-31 |
+| 109 | +1 | +8 | +24 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-14 | [View live site ↗](https://patrickclery.com/awesomer/r/hechtcarmel~jetbrains-debugger-mcp-plugin/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hechtcarmel~jetbrains-debugger-mcp-plugin/)*

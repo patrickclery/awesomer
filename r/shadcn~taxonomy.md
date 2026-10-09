@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,285 | +3 | +2 | +37 | 2026-04-20 |
+| 19,283 | -9 | +5 | +43 | 2026-04-20 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/shadcn~taxonomy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/shadcn~taxonomy/)*

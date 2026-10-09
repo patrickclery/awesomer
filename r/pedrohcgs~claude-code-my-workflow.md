@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,585 | +18 | +84 |  | 2026-08-24 |
+| 1,648 | +43 | +71 |  | 2026-09-27 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Research & Scientific Inquiry
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pedrohcgs~claude-code-my-workflow/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pedrohcgs~claude-code-my-workflow/)*

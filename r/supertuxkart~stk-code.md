@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,351 | +4 | +49 | +112 | 2026-09-15 |
+| 5,409 | +29 | +65 | +121 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/supertuxkart~stk-code/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/supertuxkart~stk-code/)*

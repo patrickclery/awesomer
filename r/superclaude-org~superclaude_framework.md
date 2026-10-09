@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 23,898 | +8 | +64 | +569 | 2026-09-15 |
+| 23,908 | -2 | +63 | +567 | 2026-09-27 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/superclaude-org~superclaude_framework/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/superclaude-org~superclaude_framework/)*

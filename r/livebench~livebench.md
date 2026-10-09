@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,321 | +6 | +35 | +118 | 2026-09-10 |
+| 1,340 | +6 | +36 | +119 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Benchmark Suites
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/livebench~livebench/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/livebench~livebench/)*

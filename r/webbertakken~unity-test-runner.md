@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 265 | +1 | +4 | +10 | 2026-09-16 |
+| 267 | +1 | +4 | +10 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-actions](../l/actions.md) / Static Analysis
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/webbertakken~unity-test-runner/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/webbertakken~unity-test-runner/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,952 | +34 | +195 | +580 | 2026-09-15 |
+| 30,030 | +16 | +193 | +584 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Driving & Robotics Simulators
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/genesis-embodied-ai~genesis-world/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/genesis-embodied-ai~genesis-world/)*

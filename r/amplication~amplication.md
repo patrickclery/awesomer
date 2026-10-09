@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,014 | +2 | +3 | +2 | 2026-06-30 |
+| 16,011 | -5 | +4 | +4 | 2026-06-30 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-nodejs](../l/nodejs.md) / Resources
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/amplication~amplication/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/amplication~amplication/)*

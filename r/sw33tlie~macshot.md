@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,445 | +124 | +478 | +1,352 | 2026-09-04 |
+| 3,709 | +64 | +493 | +1,369 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Screenshot Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sw33tlie~macshot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sw33tlie~macshot/)*

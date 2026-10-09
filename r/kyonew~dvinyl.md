@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 218 | +11 | +35 |  | 2026-09-13 |
+| 239 | +4 | +31 |  | 2026-10-04 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Inventory Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kyonew~dvinyl/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kyonew~dvinyl/)*

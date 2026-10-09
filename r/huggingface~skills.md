@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,061 |  |  |  | 2026-09-15 |
+| 11,149 | +31 |  |  | 2026-10-01 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~skills/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 487 | +2 | +1 | +16 | 2026-06-23 |
+| 488 | +0 | +0 | +16 | 2026-06-23 |
 
 ## Found In
 
 - [awesome-arr](../l/arr.md) / Bots
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thomst08~requestrr/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thomst08~requestrr/)*

@@ -15,4 +15,4 @@
 - [awesome-actions](../l/actions.md) / Deployment
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/schrodinger-hat~youtube-to-anchorfm/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/schrodinger-hat~youtube-to-anchorfm/)*

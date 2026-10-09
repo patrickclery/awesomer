@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 127 | +4 | +38 | +59 | 2026-04-16 |
+| 143 | +7 | +38 | +61 | 2026-04-16 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Security Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dutkiewiczmaciej~maklock/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dutkiewiczmaciej~maklock/)*

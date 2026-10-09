@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 205 | +1 | +0 | +2 | 2026-07-27 |
+| 206 | +2 | -2 | +1 | 2026-10-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Third-party APIs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ignacio-chiazzo~ruby_whatsapp_sdk/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ignacio-chiazzo~ruby_whatsapp_sdk/)*

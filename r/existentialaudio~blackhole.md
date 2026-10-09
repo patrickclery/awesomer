@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 19,763 | +47 | +195 | +573 | 2026-08-11 |
+| 19,882 | +34 | +201 | +583 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Audio and Video Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/existentialaudio~blackhole/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/existentialaudio~blackhole/)*

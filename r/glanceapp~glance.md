@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 37,067 | +145 | +654 | +1,850 | 2026-09-05 |
+| 37,380 | +97 | +634 | +1,883 | 2026-09-05 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Personal Dashboards
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/glanceapp~glance/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/glanceapp~glance/)*

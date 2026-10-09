@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,497 | +26 | +97 | +371 | 2026-08-04 |
+| 22,551 | +11 | +94 | +371 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Version Control
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/extrawurst~gitui/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/extrawurst~gitui/)*

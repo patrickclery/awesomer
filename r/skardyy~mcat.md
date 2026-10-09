@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,415 |  |  |  | 2026-09-14 |
+| 1,429 | +4 |  |  | 2026-10-03 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Markdown
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/skardyy~mcat/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/skardyy~mcat/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 497 |  |  |  | 2026-09-14 |
+| 497 | +0 |  |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/necordjs~necord/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/necordjs~necord/)*

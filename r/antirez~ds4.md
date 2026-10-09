@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 22,445 | +216 | +969 |  | 2026-09-16 |
+| 23,692 | +865 | +976 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/antirez~ds4/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/antirez~ds4/)*

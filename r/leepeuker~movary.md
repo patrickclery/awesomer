@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 775 | +4 | +8 | +36 | 2026-09-08 |
+| 777 | +1 | +3 | +39 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/leepeuker~movary/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/leepeuker~movary/)*

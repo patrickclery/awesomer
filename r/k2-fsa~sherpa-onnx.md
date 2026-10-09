@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,797 | +139 | +583 | +1,749 | 2026-09-14 |
+| 15,165 | +98 | +596 | +1,789 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Speech & Audio Model Codebases
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/k2-fsa~sherpa-onnx/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/k2-fsa~sherpa-onnx/)*

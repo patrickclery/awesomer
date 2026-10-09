@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,233 | +19 | +64 | +246 | 2026-09-15 |
+| 11,291 | +13 | +71 | +247 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-linux-containers](../l/linux-containers.md) / Filesystem
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/projectatomic~skopeo/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/projectatomic~skopeo/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,651 | +2 | +2 | +4 | 2026-08-30 |
+| 3,651 | -3 | +0 | +5 | 2026-08-30 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / AI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/copilotc-nvim~copilotchat.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/copilotc-nvim~copilotchat.nvim/)*

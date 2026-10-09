@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,510 | +6 | +31 | +94 | 2026-09-07 |
+| 3,527 | +7 | +29 | +96 | 2026-10-02 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Graphics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/seadve~kooha/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/seadve~kooha/)*

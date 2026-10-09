@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,096 | +4 | +179 | +250 | 2026-09-14 |
+| 6,119 | +2 | +187 | +253 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/online-ml~river/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/online-ml~river/)*

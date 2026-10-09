@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 195 | +1 | +2 | +7 | 2026-07-23 |
+| 196 | +1 | +1 | +7 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Categories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/blackcater~blackcater/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/blackcater~blackcater/)*

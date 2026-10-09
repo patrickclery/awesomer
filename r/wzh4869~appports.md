@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,045 | +14 | +73 | +326 | 2026-09-05 |
+| 2,113 | +17 | +95 | +336 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / File Organization Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/wzh4869~appports/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/wzh4869~appports/)*

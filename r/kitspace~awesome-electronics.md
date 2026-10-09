@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,125 | +28 | +91 | +312 | 2026-09-14 |
+| 8,198 | +23 | +102 | +320 | 2026-09-14 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Hardware
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kitspace~awesome-electronics/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kitspace~awesome-electronics/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 326 | +9 | +67 |  | 2026-09-03 |
+| 351 | +10 | +68 |  | 2026-09-03 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/inhouseseo~superseo-skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/inhouseseo~superseo-skills/)*

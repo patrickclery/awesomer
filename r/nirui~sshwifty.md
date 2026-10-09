@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,126 | +0 | +11 | +20 | 2026-09-03 |
+| 3,130 | +3 | +13 | +20 | 2026-09-03 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Remote Access
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nirui~sshwifty/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nirui~sshwifty/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 688 | +2 | +7 | +18 | 2026-09-14 |
+| 691 | +0 | +8 | +19 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/listr2~listr2/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/listr2~listr2/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 13,805 |  |  |  | 2026-08-18 |
+| 14,005 | +151 |  |  | 2026-10-02 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Browser Automation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nanobrowser~nanobrowser/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nanobrowser~nanobrowser/)*

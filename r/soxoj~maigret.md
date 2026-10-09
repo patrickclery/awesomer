@@ -1,6 +1,6 @@
 # soxoj/maigret
 
-> 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites
+> 🕵️‍♂️ Collect a dossier on a person by username from 6K websites
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/soxoj/maigret) | [Live site ↗](https://patrickclery.com/awesomer/r/soxoj~maigret/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 37,623 | +167 | +797 | +4,398 | 2026-09-16 |
+| 38,390 | +206 | +963 | +4,505 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Username Check
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/soxoj~maigret/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/soxoj~maigret/)*

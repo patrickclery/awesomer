@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,246 | +0 | +2 | +6 | 2026-06-29 |
+| 1,247 | +0 | +3 | +6 | 2026-06-29 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / HA/Failover/Sharding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~pgslice/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~pgslice/)*

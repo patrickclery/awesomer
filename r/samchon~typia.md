@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,909 |  |  |  | 2026-09-09 |
+| 5,939 | +13 |  |  | 2026-10-06 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Components & Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/samchon~typia/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/samchon~typia/)*

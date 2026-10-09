@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 975 | +6 | +19 | +50 | 2026-09-16 |
+| 987 | +1 | +21 | +53 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Email
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/betterbird~thunderbird-patches/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/betterbird~thunderbird-patches/)*

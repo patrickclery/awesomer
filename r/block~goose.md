@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 54,343 | +475 | +1,448 | +4,598 | 2026-09-16 |
+| 55,060 | +227 | +1,246 | +4,653 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Coding Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/block~goose/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/block~goose/)*

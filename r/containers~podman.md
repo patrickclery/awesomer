@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,877 | +70 | +277 | +828 | 2026-09-16 |
+| 33,011 | +31 | +258 | +838 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~podman/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/containers~podman/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,232 |  |  |  | 2026-09-14 |
+| 10,997 | +111 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/presenton~presenton/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/presenton~presenton/)*

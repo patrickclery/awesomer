@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,082 | +1 | +5 | +7 | 2026-08-28 |
+| 1,081 | -1 | +3 | +8 | 2026-08-28 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Apps/Websites
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mutoe~vue3-realworld-example-app/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mutoe~vue3-realworld-example-app/)*

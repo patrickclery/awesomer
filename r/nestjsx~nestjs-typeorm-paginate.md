@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 876 |  |  |  | 2026-09-14 |
+| 877 | +1 |  |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjsx~nestjs-typeorm-paginate/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nestjsx~nestjs-typeorm-paginate/)*

@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,681 | +3 | +5 | +19 | 2026-09-15 |
+| 1,680 | +0 | -2 | +19 | 2026-09-29 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [awesome-mac](../l/mac.md) / Email Clients
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vladimiry~electronmail/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vladimiry~electronmail/)*

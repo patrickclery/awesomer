@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,285 | +28 | +79 | +256 | 2026-09-16 |
+| 28,329 | +1 | +74 | +257 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Application platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/budibase~budibase/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/budibase~budibase/)*

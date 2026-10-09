@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 12,480 | -8 | -36 | -89 | 2026-02-12 |
+| 12,444 | -16 | -38 | -93 | 2026-02-12 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Spotify
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mrpond~blockthespot/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mrpond~blockthespot/)*

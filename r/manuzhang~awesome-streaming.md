@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,017 | +4 | +12 | +30 | 2026-09-15 |
+| 3,020 | +1 | +10 | +30 | 2026-10-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Big Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/manuzhang~awesome-streaming/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/manuzhang~awesome-streaming/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,700 |  |  |  | 2026-09-14 |
+| 2,735 | +7 |  |  | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Immich](../l/immich.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/immich-power-tools~immich-power-tools/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/immich-power-tools~immich-power-tools/)*

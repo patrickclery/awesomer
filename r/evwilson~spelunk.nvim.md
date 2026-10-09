@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 150 | -1 | +0 | +0 | 2026-02-27 |
+| 150 | +0 | +1 | +0 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Marks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/evwilson~spelunk.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/evwilson~spelunk.nvim/)*

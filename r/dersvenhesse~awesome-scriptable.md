@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,625 | +2 | +12 | +46 | 2025-11-15 |
+| 1,634 | +3 | +14 | +45 | 2025-11-15 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dersvenhesse~awesome-scriptable/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dersvenhesse~awesome-scriptable/)*

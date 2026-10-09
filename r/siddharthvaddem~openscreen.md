@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 39,957 | +11 | +80 | +1,269 | 2026-06-17 |
+| 39,935 | -21 | +82 | +1,265 | 2026-06-17 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Screen Recording
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/siddharthvaddem~openscreen/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/siddharthvaddem~openscreen/)*

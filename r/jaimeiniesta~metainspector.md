@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,049 | +0 | +0 | +0 | 2026-05-14 |
+| 1,048 | +0 | -2 | +0 | 2026-09-21 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Web Crawling
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jaimeiniesta~metainspector/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jaimeiniesta~metainspector/)*

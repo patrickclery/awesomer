@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,272 | +141 | +310 | +1,877 | 2026-09-15 |
+| 6,408 | +38 | +232 | +1,879 | 2026-10-08 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Agent Protocols & Standards
 - [Awesome Open Source AI](../l/opensource-ai.md) / Responsible AI Development
+- [Awesome Open Source AI](../l/opensource-ai.md) / Agent Protocols & Standards
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~agent-governance-toolkit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~agent-governance-toolkit/)*

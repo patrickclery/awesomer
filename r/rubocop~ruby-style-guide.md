@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,548 | -2 | -3 |  | 2026-07-20 |
+| 16,546 | -1 | -2 |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Coding Style Guides
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rubocop~ruby-style-guide/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rubocop~ruby-style-guide/)*

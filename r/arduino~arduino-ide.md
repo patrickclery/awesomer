@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,254 | +14 | +44 | +99 | 2026-07-27 |
+| 3,286 | +10 | +46 | +106 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/arduino~arduino-ide/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/arduino~arduino-ide/)*

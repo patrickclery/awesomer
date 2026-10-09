@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 273 | +1 | +2 | +25 | 2026-08-17 |
+| 274 | +1 | +2 | +23 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Utility
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/owen-dechow~videre.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/owen-dechow~videre.nvim/)*

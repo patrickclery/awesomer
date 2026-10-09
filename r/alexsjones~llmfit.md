@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 36,652 | +1,370 | +4,685 |  | 2026-09-16 |
+| 37,706 | +296 | +3,219 |  | 2026-10-07 |
 
 ## Found In
 
-- [Awesome local LLM](../l/local-llm.md) / Models
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
+- [Awesome local LLM](../l/local-llm.md) / Models
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alexsjones~llmfit/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alexsjones~llmfit/)*

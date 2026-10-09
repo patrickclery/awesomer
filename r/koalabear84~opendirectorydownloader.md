@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,388 | +5 | +4 | +18 | 2026-09-14 |
+| 1,399 | +3 | +5 | +19 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Open Directories
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/koalabear84~opendirectorydownloader/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/koalabear84~opendirectorydownloader/)*

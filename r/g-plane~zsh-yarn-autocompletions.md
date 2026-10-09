@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 585 | +0 | +0 | -2 | 2026-01-30 |
+| 586 | +0 | +1 | -2 | 2026-01-30 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Completions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/g-plane~zsh-yarn-autocompletions/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/g-plane~zsh-yarn-autocompletions/)*

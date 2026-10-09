@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,211 | +5 | +13 | +63 | 2026-01-30 |
+| 1,217 | +0 | +12 | +64 | 2026-01-30 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Computer Science
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mostafatouny~awesome-theoretical-computer-science/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mostafatouny~awesome-theoretical-computer-science/)*

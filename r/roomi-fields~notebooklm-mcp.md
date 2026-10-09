@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 176 | +5 | +22 | +83 | 2026-09-04 |
+| 190 | +4 | +19 | +84 | 2026-09-04 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Documentation, Knowledge & Learning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/roomi-fields~notebooklm-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/roomi-fields~notebooklm-mcp/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 627 | +1 | +6 | +23 | 2026-09-16 |
+| 629 | +0 | +6 | +23 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Base Images
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/chainguard-dev~melange/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/chainguard-dev~melange/)*

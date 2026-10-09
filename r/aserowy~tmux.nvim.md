@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 810 | +0 | +0 | +8 | 2026-04-13 |
+| 810 | +1 | -1 | +7 | 2026-09-29 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Tmux
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aserowy~tmux.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/aserowy~tmux.nvim/)*

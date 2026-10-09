@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,023 | +17 | +36 | +79 | 2026-09-11 |
+| 3,041 | +7 | +25 | +79 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Terminal
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/contour-terminal~contour/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/contour-terminal~contour/)*

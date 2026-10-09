@@ -1,6 +1,6 @@
 # ooples/token-optimizer-mcp
 
-> Intelligent token optimization for Claude Code - achieving 95%+ token reduction through caching, compression, and smart 
+> Measure token savings per AI coding agent, optimize context, and share a live local knowledge graph across 16 CLI client
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ooples/token-optimizer-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/ooples~token-optimizer-mcp/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 363 | +9 | +319 | +343 | 2026-05-09 |
+| 540 | +1 | +40 | +120 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/ooples~token-optimizer-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ooples~token-optimizer-mcp/)*

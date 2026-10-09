@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,520 | +3 | +8 | +61 | 2026-09-14 |
+| 3,532 | +1 | +15 | +62 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / IPTV and DVR
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tvheadend~tvheadend/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tvheadend~tvheadend/)*

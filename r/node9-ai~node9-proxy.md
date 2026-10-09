@@ -1,6 +1,6 @@
 # node9-ai/node9-proxy
 
-> The Execution Security Layer for the Agentic Era. Providing deterministic "Sudo" governance and audit logs for autonomou
+> Access control for AI agents. Set what Claude Code, Codex, Gemini, Cursor and any MCP server are allowed to do, review r
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/node9-ai/node9-proxy) | [Live site ↗](https://patrickclery.com/awesomer/r/node9-ai~node9-proxy/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 213 | +0 | +4 |  | 2026-09-16 |
+| 218 | +2 | +7 |  | 2026-10-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/node9-ai~node9-proxy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/node9-ai~node9-proxy/)*

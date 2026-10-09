@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 59,369 | +90 | +505 | +1,452 | 2026-09-16 |
+| 59,713 | +87 | +594 | +1,501 | 2026-10-07 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Programming Languages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rust-unofficial~awesome-rust/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rust-unofficial~awesome-rust/)*

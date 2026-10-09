@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 505 | +1 | +4 | +4 | 2026-08-03 |
+| 507 | +1 | +4 | +4 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Optimization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/timescale~timescaledb-tune/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/timescale~timescaledb-tune/)*

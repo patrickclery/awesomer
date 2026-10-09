@@ -1,6 +1,6 @@
 # bionic-gpt/bionic-gpt
 
-> Bionic is sovereign AI for the enterprise — ChatGPT-like AI that runs on-premise and can securely work with your sensiti
+> Bionic is sovereign Agentic AI for the enterprise — Runs on-premise and can securely work with your sensitive data and s
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/bionic-gpt/bionic-gpt) | [Live site ↗](https://patrickclery.com/awesomer/r/bionic-gpt~bionic-gpt/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,372 | +6 | +21 | +40 | 2026-09-15 |
+| 2,384 | +4 | +23 | +38 | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bionic-gpt~bionic-gpt/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bionic-gpt~bionic-gpt/)*

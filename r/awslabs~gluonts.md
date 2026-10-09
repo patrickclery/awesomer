@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,235 | +1 | +8 | +35 | 2026-07-31 |
+| 5,246 | +1 | +16 | +37 | 2026-07-31 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Time Series & Scientific AI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~gluonts/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/awslabs~gluonts/)*

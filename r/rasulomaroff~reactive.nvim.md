@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 248 | +0 | +0 | +4 | 2025-12-30 |
+| 249 | +1 | +0 | +4 | 2025-12-30 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Color
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rasulomaroff~reactive.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rasulomaroff~reactive.nvim/)*

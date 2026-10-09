@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 28,899 | +170 | +682 | +2,273 | 2026-09-11 |
+| 29,169 | +76 | +601 | +2,313 | 2026-09-20 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Fonts
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/subframe7536~maple-font/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/subframe7536~maple-font/)*

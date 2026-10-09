@@ -1,6 +1,6 @@
 # Neeeophytee/finding-unknowns-skills
 
-> 13 installable skills for Claude Code, OpenAI Codex, and Hermes, for finding your unknowns before they get expensive: bl
+> 14 installable skills for Claude Code, OpenAI Codex, and Hermes: find unknowns, clarify requirements, manage context, te
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/Neeeophytee/finding-unknowns-skills) | [Live site ↗](https://patrickclery.com/awesomer/r/neeeophytee~finding-unknowns-skills/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 335 | +3 | +26 |  | 2026-09-09 |
+| 343 | +4 | +25 |  | 2026-09-28 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neeeophytee~finding-unknowns-skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/neeeophytee~finding-unknowns-skills/)*

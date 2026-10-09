@@ -1,6 +1,6 @@
 # earthtojake/text-to-cad
 
-> A library of agent skills for CAD, CAE and CAM
+> Give your agent CAD superpowers.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/earthtojake/text-to-cad) | [Live site ↗](https://patrickclery.com/awesomer/r/earthtojake~text-to-cad/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 15,950 | +289 | +2,415 |  | 2026-09-16 |
+| 18,351 | +1,834 | +2,509 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / IDE Plugins & Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/earthtojake~text-to-cad/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/earthtojake~text-to-cad/)*

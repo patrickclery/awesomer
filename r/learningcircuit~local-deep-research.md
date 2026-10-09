@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,097 | +48 | +167 | +600 | 2026-09-16 |
+| 9,164 | +15 | +147 | +589 | 2026-10-08 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Research
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/learningcircuit~local-deep-research/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/learningcircuit~local-deep-research/)*

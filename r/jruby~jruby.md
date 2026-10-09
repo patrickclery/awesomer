@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,918 | +1 | +5 | +12 | 2026-09-16 |
+| 3,923 | +2 | +7 | +13 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Implementations/Compilers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jruby~jruby/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jruby~jruby/)*

@@ -1,6 +1,6 @@
 # misiektoja/spotify_monitor
 
-> Track Spotify friends' music activity in real time with auto-playback, skipped tracks detection and instant notification
+> Track Spotify friends' music activity in real time with auto-playback, pause/resume/skipped tracks detection and instant
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/misiektoja/spotify_monitor) | [Live site ↗](https://patrickclery.com/awesomer/r/misiektoja~spotify_monitor/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 108 | +1 | +2 | +6 | 2026-09-14 |
+| 109 | +1 | +1 | +5 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Music Streaming Services
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/misiektoja~spotify_monitor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/misiektoja~spotify_monitor/)*

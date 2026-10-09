@@ -1,6 +1,6 @@
 # huangruiteng/loopx
 
-> Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.
+> A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across ses
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/huangruiteng/loopx) | [Live site ↗](https://patrickclery.com/awesomer/r/huangruiteng~loopx/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,865 | +214 | +1,022 |  | 2026-09-16 |
+| 6,201 | +78 | +901 |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Agent Memory & State
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huangruiteng~loopx/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/huangruiteng~loopx/)*

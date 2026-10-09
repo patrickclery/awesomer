@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 21,754 | +2 | +43 | +252 | 2026-05-21 |
+| 21,787 | +3 | +64 | +260 | 2026-05-21 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Prompt Engineering & Structured Outputs
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/guidance-ai~guidance/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/guidance-ai~guidance/)*

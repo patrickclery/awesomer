@@ -1,6 +1,6 @@
 # YichengYang-Ethan/oracle3
 
-> Prediction-market trading engine — Wang Transform pricing on 291K+ contracts; paper-traded across Kalshi · Polymarket · 
+> Oracle3: open-source trading engine and MCP server for prediction markets. Finds fee-adjusted no-arbitrage violations ac
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/YichengYang-Ethan/oracle3) | [Live site ↗](https://patrickclery.com/awesomer/r/yichengyang-ethan~oracle3/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 255 | +1 | +9 | +3 | 2026-05-08 |
+| 363 | +103 | +9 | +1 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yichengyang-ethan~oracle3/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/yichengyang-ethan~oracle3/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,094 | +5 | +13 | +35 | 2026-09-13 |
+| 6,105 | +5 | +12 | +40 | 2026-09-18 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Where to Start
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/prakhar1989~docker-curriculum/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/prakhar1989~docker-curriculum/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,524 | +0 | +2 | +3 | 2026-06-19 |
+| 1,522 | -3 | +3 | +4 | 2026-06-19 |
 
 ## Found In
 
 - [awesome-nestjs](../l/nestjs.md) / Resources
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/surmon-china~nodepress/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/surmon-china~nodepress/)*

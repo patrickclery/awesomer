@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,492 | -1 | +0 | +10 | 2026-04-23 |
+| 1,492 | -1 | +2 | +10 | 2026-04-23 |
 
 ## Found In
 
-- [awesome-db-tools](../l/db-tools.md) / Security
 - [awesome-postgres](../l/postgres.md) / Security
+- [awesome-db-tools](../l/db-tools.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cossacklabs~acra/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cossacklabs~acra/)*

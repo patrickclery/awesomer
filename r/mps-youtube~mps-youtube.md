@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,791 | +2 | +10 | +51 | 2026-03-04 |
+| 8,800 | +4 | +10 | +51 | 2026-03-04 |
 
 ## Found In
 
-- [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 - [Awesome-Linux-Software](../l/linux-software.md) / Internet
+- [awesome-cli-apps](../l/cli-apps.md) / Entertainment
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mps-youtube~mps-youtube/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mps-youtube~mps-youtube/)*

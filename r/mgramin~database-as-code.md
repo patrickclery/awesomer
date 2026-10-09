@@ -15,4 +15,4 @@
 - [awesome-db-tools](../l/db-tools.md) / Papers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mgramin~database-as-code/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mgramin~database-as-code/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,915 | +6 | +18 | +56 | 2026-09-14 |
+| 3,927 | +4 | +16 | +60 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Games
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/visualboyadvance-m~visualboyadvance-m/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/visualboyadvance-m~visualboyadvance-m/)*

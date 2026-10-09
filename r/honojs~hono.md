@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 32,206 | +242 | +515 | +1,194 | 2026-09-15 |
+| 32,456 | +63 | +394 | +1,251 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/honojs~hono/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/honojs~hono/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,982 | +3 | +10 | +39 | 2026-09-11 |
+| 1,992 | +2 | +14 | +43 | 2026-09-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Learn
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/matteofigus~awesome-speaking/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/matteofigus~awesome-speaking/)*

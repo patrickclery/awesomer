@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 11,602 | +13 | +45 | +196 | 2026-09-04 |
+| 11,645 | +10 | +46 | +197 | 2026-09-28 |
 
 ## Found In
 
-- [awesome-arr](../l/arr.md) / Dashboards
 - [awesome-selfhosted](../l/selfhosted.md) / Personal Dashboards
+- [awesome-arr](../l/arr.md) / Dashboards
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bastienwirtz~homer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bastienwirtz~homer/)*

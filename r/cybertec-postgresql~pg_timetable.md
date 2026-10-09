@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,399 | +0 | +4 | +29 | 2026-09-14 |
+| 1,402 | +1 | +7 | +30 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cybertec-postgresql~pg_timetable/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cybertec-postgresql~pg_timetable/)*

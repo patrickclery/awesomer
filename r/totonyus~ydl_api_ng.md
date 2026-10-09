@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 240 | -1 | +0 | +4 | 2026-09-14 |
+| 240 | +0 | +1 | +4 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/totonyus~ydl_api_ng/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/totonyus~ydl_api_ng/)*

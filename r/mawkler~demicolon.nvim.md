@@ -1,6 +1,6 @@
 # mawkler/demicolon.nvim
 
-> Overloaded ; and , keys in Neovim
+> Repeat more motions with ; and , keys in Neovim
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/mawkler/demicolon.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/mawkler~demicolon.nvim/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 132 | +0 | -1 | +1 | 2026-06-20 |
+| 132 | +0 | -1 | +1 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Keybinding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mawkler~demicolon.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mawkler~demicolon.nvim/)*

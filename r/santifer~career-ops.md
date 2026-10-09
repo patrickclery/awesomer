@@ -1,6 +1,6 @@
 # santifer/career-ops
 
-> Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tai
+> Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, ta
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/santifer/career-ops) | [Live site ↗](https://patrickclery.com/awesomer/r/santifer~career-ops/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 71,779 | +3,012 | +7,632 | +17,271 | 2026-09-16 |
+| 73,768 | +580 | +4,594 | +17,443 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-agent-skills](../l/agent-skills.md) / Community Skills
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/santifer~career-ops/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/santifer~career-ops/)*

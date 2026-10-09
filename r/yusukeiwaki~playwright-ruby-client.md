@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 513 | +1 | +7 | +26 | 2026-09-11 |
+| 515 | +0 | +7 | +26 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Language Support
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/yusukeiwaki~playwright-ruby-client/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/yusukeiwaki~playwright-ruby-client/)*

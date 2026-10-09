@@ -1,6 +1,6 @@
 # ASCIT31/Dark-Moon
 
-> Autonomous AI pentesting engine across web, cloud, identity, CI/CD, IaC, databases, Active Directory, Kubernetes, IoT fi
+> Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/ASCIT31/Dark-Moon) | [Live site ↗](https://patrickclery.com/awesomer/r/ascit31~dark-moon/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 940 |  |  |  | 2026-09-08 |
+| 1,010 | +27 | +100 |  | 2026-10-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Autonomous Coding Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ascit31~dark-moon/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ascit31~dark-moon/)*

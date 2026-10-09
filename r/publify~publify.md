@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,853 | -1 | -4 | -2 | 2026-09-14 |
+| 1,855 | +2 | -2 | -2 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / CMS
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/publify~publify/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/publify~publify/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,298 | +0 | +37 | +109 | 2025-10-28 |
+| 7,320 | +0 | +53 | +116 | 2025-10-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Keybinding
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~which-key.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~which-key.nvim/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,186 | +11 | +42 | +97 | 2026-04-28 |
+| 2,209 | +4 | +44 | +101 | 2026-04-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Competitive Programming
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/kawre~leetcode.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/kawre~leetcode.nvim/)*

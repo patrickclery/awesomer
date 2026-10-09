@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,258 |  |  |  | 2026-09-04 |
+| 2,321 | +27 |  |  | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Immich](../l/immich.md) / Client apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/alangrainger~immich-public-proxy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/alangrainger~immich-public-proxy/)*

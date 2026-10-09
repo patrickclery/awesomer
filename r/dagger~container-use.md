@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,044 | +3 | +31 | +171 | 2026-09-14 |
+| 4,061 | +9 | +29 | +172 | 2026-09-21 |
 
 ## Found In
 
-- [awesome-mcp-servers](../l/mcp-servers.md) / Code Execution
 - [awesome-claude-code](../l/claude-code.md) / Security
+- [awesome-mcp-servers](../l/mcp-servers.md) / Code Execution
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dagger~container-use/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dagger~container-use/)*

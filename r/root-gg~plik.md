@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,822 | +0 | +11 | +40 | 2026-09-09 |
+| 1,824 | +2 | +6 | +42 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/root-gg~plik/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/root-gg~plik/)*

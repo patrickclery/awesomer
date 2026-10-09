@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,963 | +9 | +24 | +77 | 2026-08-22 |
+| 1,974 | +3 | +24 | +79 | 2026-10-06 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/enzo1982~freac/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/enzo1982~freac/)*

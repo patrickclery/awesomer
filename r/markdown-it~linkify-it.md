@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 738 | +1 | +7 | +15 | 2026-09-13 |
+| 738 | -1 | +6 | +16 | 2026-10-03 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/markdown-it~linkify-it/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/markdown-it~linkify-it/)*

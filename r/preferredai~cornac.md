@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,055 | +1 | +4 | +10 | 2026-09-14 |
+| 1,057 | +0 | +3 | +9 | 2026-09-14 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/preferredai~cornac/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/preferredai~cornac/)*

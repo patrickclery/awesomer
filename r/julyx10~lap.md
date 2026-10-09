@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,421 | +85 | +514 | +1,231 | 2026-09-16 |
+| 3,720 | +158 | +1,115 | +1,261 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Other Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/julyx10~lap/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/julyx10~lap/)*

@@ -8,16 +8,16 @@
 
 | # | Repo | Stars | 7d | 30d | 90d |
 |---|------|-------|----|-----|-----|
-| 1 | [iptv-org/iptv](../r/iptv-org~iptv.md) | 138,751 | +593 | +2,738 | +13,421 |
-| 2 | [jellyfin](../r/jellyfin~jellyfin.md) | 57,196 | +258 | +1,329 | +3,790 |
-| 3 | [uBlock Origin](../r/gorhill~ublock.md) | 67,881 | +214 | +847 | +2,301 |
-| 4 | [Calibre-Web](../r/janeczku~calibre-web.md) | 18,184 | +163 | +307 | +669 |
-| 5 | [Sonarr](../r/sonarr~sonarr.md) | 16,224 | +118 | +1,091 | +2,231 |
-| 6 | [gallery-dl](../r/mikf~gallery-dl.md) | 19,698 | +67 | +455 | +1,120 |
-| 7 | [trackerslist](../r/ngosang~trackerslist.md) | 55,127 | +67 | +234 | +926 |
-| 8 | [Jackett](../r/jackett~jackett.md) | 16,042 | +57 | +153 | +441 |
-| 9 | [Nebula](../r/slackhq~nebula.md) | 18,345 | +30 | +726 | +934 |
-| 10 | [annie](../r/iawia002~annie.md) | 31,682 | +27 | +53 | +263 |
+| 1 | [iptv-org/iptv](../r/iptv-org~iptv.md) | 140,519 | +517 | +2,894 | +13,366 |
+| 2 | [jellyfin](../r/jellyfin~jellyfin.md) | 57,904 | +213 | +1,359 | +3,822 |
+| 3 | [Sonarr](../r/sonarr~sonarr.md) | 16,889 | +183 | +1,287 | +2,370 |
+| 4 | [uBlock Origin](../r/gorhill~ublock.md) | 68,412 | +161 | +867 | +2,359 |
+| 5 | [gallery-dl](../r/mikf~gallery-dl.md) | 19,980 | +76 | +527 | +1,167 |
+| 6 | [Calibre-Web](../r/janeczku~calibre-web.md) | 18,352 | +70 | +195 | +689 |
+| 7 | [Jackett](../r/jackett~jackett.md) | 16,174 | +57 | +124 | +444 |
+| 8 | [Bazarr](../r/morpheus65535~bazarr.md) | 4,354 | +41 | +69 | +211 |
+| 9 | [Beets](../r/beetbox~beets.md) | 15,768 | +38 | +138 | +390 |
+| 10 | [trackerslist](../r/ngosang~trackerslist.md) | 55,297 | +38 | +249 | +950 |
 
 ## Table of Contents
 
@@ -91,7 +91,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Yalp Store](https://github.com/yeriomin/YalpStore) | Download apks from Google Play Store | 2,545 | +3 |
+| [Yalp Store](https://github.com/yeriomin/YalpStore) | Download apks from Google Play Store | 2,547 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -99,7 +99,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [aceproxy](https://github.com/ValdikSS/aceproxy) | Ace Stream HTTP Proxy. ABANDONED! NO SUPPORT WHATSOEVER! | 196 | +0 |
+| [aceproxy](https://github.com/ValdikSS/aceproxy) | Ace Stream HTTP Proxy. ABANDONED! NO SUPPORT WHATSOEVER! | 195 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -115,11 +115,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [traktarr](https://github.com/l3uddz/traktarr) | Script to add new series & movies to Sonarr/Radarr based on Trakt lists. | 623 | +1 |
 | [Bonarr](https://github.com/klassicstudios/Bonarr) | A fork of Radarr to work with porn. | 157 | +0 |
+| [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian) | This project isn't finished yet. Goal is to create a SickBeard, CouchPotato, Headphones-like application for ebooks. Hea | 723 | +0 |
 | [Mylar](https://github.com/evilhero/mylar) | An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents | 961 | +0 |
 | [Pulsarr](https://github.com/roboticsound/Pulsarr) |  | 204 | +0 |
-| [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian) | This project isn't finished yet. Goal is to create a SickBeard, CouchPotato, Headphones-like application for ebooks. Hea | 723 | -1 |
+| [traktarr](https://github.com/l3uddz/traktarr) | Script to add new series & movies to Sonarr/Radarr based on Trakt lists. | 622 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -127,10 +127,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [uBlock Origin](../r/gorhill~ublock.md) | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | 67,881 | +214 |
-| [Google Unlocked](https://github.com/Ibit-to/google-unlocked) | Google Unlocked browser extension uncensor google search results | 2,395 | +3 |
-| [Anti-Paywall](https://github.com/nextgens/anti-paywall) | A browser extension that maximizes the chances of bypassing paywalls | 690 | +0 |
+| [uBlock Origin](../r/gorhill~ublock.md) | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | 68,412 | +161 |
 | [Universal Bypass](https://github.com/Sainan/Universal-Bypass) |  |  |  |
+| [Anti-Paywall](https://github.com/nextgens/anti-paywall) | A browser extension that maximizes the chances of bypassing paywalls | 688 | -2 |
+| [Google Unlocked](https://github.com/Ibit-to/google-unlocked) | Google Unlocked browser extension uncensor google search results | 2,389 | -2 |
 
 [Back to top](#awesome-piracy)
 
@@ -138,9 +138,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [plexdrive](https://github.com/dweidenfeld/plexdrive) | Plexdrive mounts your Google Drive FUSE filesystem (optimized for media playback) | 1,770 | -1 |
-| [google-drive-ocamlfuse](../r/astrada~google-drive-ocamlfuse.md) | FUSE filesystem over Google Drive | 5,961 | -2 |
-| [UDS](https://github.com/stewartmcgown/uds) | 📀 Unlimited Google Drive Storage by splitting binary files into base64 | 4,376 | -2 |
+| [plexdrive](https://github.com/dweidenfeld/plexdrive) | Plexdrive mounts your Google Drive FUSE filesystem (optimized for media playback) | 1,771 | +2 |
+| [UDS](https://github.com/stewartmcgown/uds) | 📀 Unlimited Google Drive Storage by splitting binary files into base64 | 4,379 | +2 |
+| [google-drive-ocamlfuse](../r/astrada~google-drive-ocamlfuse.md) | FUSE filesystem over Google Drive | 5,968 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -148,7 +148,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Omnibus](https://github.com/fireshaper/Omnibus) | Search for and download comics that are added to GetComics.info easily | 197 | +0 |
+| [Omnibus](https://github.com/fireshaper/Omnibus) | Search for and download comics that are added to GetComics.info easily | 198 | +1 |
 
 [Back to top](#awesome-piracy)
 
@@ -156,8 +156,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [popular-movies](../r/sjlu~popular-movies.md) | Tries to create a list of popular movies based on a series of heuristics | 430 | +1 |
-| [Flox](../r/devfake~flox.md) | Self Hosted Movie, Series and Anime Watch List | 1,350 | +0 |
+| [popular-movies](../r/sjlu~popular-movies.md) | Tries to create a list of popular movies based on a series of heuristics | 431 | +1 |
+| [Flox](../r/devfake~flox.md) | Self Hosted Movie, Series and Anime Watch List | 1,349 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -166,7 +166,7 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [tpget](https://github.com/0x6a73/tpget) |  |  |  |
-| [udemy-downloader-gui](https://github.com/FaisalUmair/udemy-downloader-gui) | A desktop application for downloading Udemy Courses | 6,318 | -1 |
+| [udemy-downloader-gui](https://github.com/FaisalUmair/udemy-downloader-gui) | A desktop application for downloading Udemy Courses | 6,319 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -174,7 +174,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [EiskaltDC++](../r/eiskaltdcpp~eiskaltdcpp.md) | File sharing program using DC and ADC protocols | 419 | +0 |
+| [EiskaltDC++](../r/eiskaltdcpp~eiskaltdcpp.md) | File sharing program using DC and ADC protocols | 421 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -182,15 +182,15 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [annie](../r/iawia002~annie.md) | 👾 Fast and simple video download library and CLI tool written in Go | 31,682 | +27 |
-| [ripme](../r/ripmeapp~ripme.md) | Downloads albums from the web in bulk for archive purposes | 4,119 | +6 |
-| [axel](../r/axel-download-accelerator~axel.md) | Lightweight CLI download accelerator | 3,401 | +3 |
-| [get_iplayer](https://github.com/get-iplayer/get_iplayer) | A utility for downloading TV and radio programmes from BBC iPlayer and BBC Sounds | 2,544 | +1 |
+| [annie](../r/iawia002~annie.md) | 👾 Fast and simple video download library and CLI tool written in Go | 31,750 | +18 |
+| [axel](../r/axel-download-accelerator~axel.md) | Lightweight CLI download accelerator | 3,418 | +7 |
+| [get_iplayer](https://github.com/get-iplayer/get_iplayer) | A utility for downloading TV and radio programmes from BBC iPlayer and BBC Sounds | 2,549 | +1 |
 | [MegaCrypt.js](https://github.com/JohnDeved/megacrypt.js) | just a concept for now | 101 | +0 |
 | [megatools](https://github.com/megous/megatools) | Open-source command-line tools and C library (libmega) for accessing Mega.co.nz cloud storage. | 0 |  |
 | [netclix](https://github.com/ston3o/netclix) | A simple cli tool to get movie streaming link. | 89 | +0 |
-| [RapidLeech](https://github.com/Th3-822/rapidleech) | a free server transfer script for use on various popular upload/download sites such as uploaded.net, Rapidgator.net, and | 598 | +0 |
+| [RapidLeech](https://github.com/Th3-822/rapidleech) | a free server transfer script for use on various popular upload/download sites such as uploaded.net, Rapidgator.net, and | 597 | +0 |
 | [rdcli](../r/ston3o~rdcli.md) | The simple way to download and unrestrict DDL files, torrents and magnets | 151 | +0 |
+| [ripme](../r/ripmeapp~ripme.md) | Downloads albums from the web in bulk for archive purposes | 4,128 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -198,13 +198,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Muximux](../r/mescon~muximux.md) | A self-hosted homelab dashboard with an optional built-in reverse proxy that makes stubborn apps work in iframes | 1,215 | +5 |
-| [Organizr](../r/causefx~organizr.md) | HTPC/Homelab Services Organizer - Written in PHP | 5,813 | +1 |
-| [Heimdall](../r/linuxserver~heimdall.md) | An Application dashboard and launcher | 9,325 | +0 |
+| [Heimdall](../r/linuxserver~heimdall.md) | An Application dashboard and launcher | 9,343 | +2 |
+| [Muximux](../r/mescon~muximux.md) | A self-hosted homelab dashboard with an optional built-in reverse proxy that makes stubborn apps work in iframes | 1,221 | +1 |
 | [HTPC-Manager](https://github.com/Hellowlol/HTPC-Manager) | A fully responsive interface to manage all your favorite software on your Htpc. | 343 | +0 |
 | [iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | 126 | +0 |
-| [Logarr](https://github.com/Monitorr/logarr) | “Logarr” is a self-hosted PHP web app that consolidates, formats, and displays log and text files for easy analysis and  | 281 | +0 |
-| [Monitorr](https://github.com/Monitorr/Monitorr) | "Monitorr” is a self-hosted PHP web app that monitors the status of local and remote network services, websites, and app | 677 | +0 |
+| [Logarr](https://github.com/Monitorr/logarr) | “Logarr” is a self-hosted PHP web app that consolidates, formats, and displays log and text files for easy analysis and  | 282 | +0 |
+| [Organizr](../r/causefx~organizr.md) | HTPC/Homelab Services Organizer - Written in PHP | 5,818 | +0 |
+| [Monitorr](https://github.com/Monitorr/Monitorr) | "Monitorr” is a self-hosted PHP web app that monitors the status of local and remote network services, websites, and app | 676 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -220,7 +220,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Loki](../r/loki-project~loki-network.md) | Lokinet is an anonymous, decentralized and IP based overlay network for the internet. | 2,091 | +2 |
+| [Loki](../r/loki-project~loki-network.md) | Lokinet is an anonymous, decentralized and IP based overlay network for the internet. | 2,092 | +1 |
 
 [Back to top](#awesome-piracy)
 
@@ -228,9 +228,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Persepolis](../r/persepolisdm~persepolis.md) | Persepolis is a download manager written in Python. | 7,449 | +3 |
-| [idm-trial-reset](https://github.com/J2TeaM/idm-trial-reset) | Use IDM forever without cracking | 4,146 | +2 |
-| [Plowshare](https://github.com/mcrapet/plowshare) | Command-line tool and engine for managing sharing websites | 858 | +0 |
+| [idm-trial-reset](https://github.com/J2TeaM/idm-trial-reset) | Use IDM forever without cracking | 4,171 | +13 |
+| [Persepolis](../r/persepolisdm~persepolis.md) | Persepolis is a download manager written in Python. | 7,471 | +7 |
+| [Plowshare](https://github.com/mcrapet/plowshare) | Command-line tool and engine for managing sharing websites | 859 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -238,8 +238,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Calibre-Web](../r/janeczku~calibre-web.md) | 📚 Web app for browsing, reading and downloading eBooks stored in a Calibre database | 18,184 | +163 |
-| [DeDRM_tools](https://github.com/apprenticeharper/DeDRM_tools) | DeDRM tools for ebooks | 15,336 | +8 |
+| [Calibre-Web](../r/janeczku~calibre-web.md) | 📚 Web app for browsing, reading and downloading eBooks stored in a Calibre database | 18,352 | +70 |
+| [DeDRM_tools](https://github.com/apprenticeharper/DeDRM_tools) | DeDRM tools for ebooks | 15,369 | +8 |
 | [COPS](https://github.com/seblucas/cops) | Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to serve ebook | 1,488 | +0 |
 
 [Back to top](#awesome-piracy)
@@ -248,7 +248,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Davos](https://github.com/linuxserver/davos) | Web-based FTP automation for Linux servers. | 182 | +0 |
+| [Davos](https://github.com/linuxserver/davos) | Web-based FTP automation for Linux servers. | 183 | +1 |
 
 [Back to top](#awesome-piracy)
 
@@ -256,8 +256,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Beets](../r/beetbox~beets.md) | music library manager and MusicBrainz tagger | 15,665 | +24 |
-| [docker-filebot](https://github.com/coppit/docker-filebot) | A docker container for FileBot | 36 | +0 |
+| [Beets](../r/beetbox~beets.md) | music library manager and MusicBrainz tagger | 15,768 | +38 |
+| [docker-filebot](https://github.com/coppit/docker-filebot) | A docker container for FileBot | 37 | +0 |
 | [filebot-node](https://github.com/filebot/filebot-node) | Run and monitor filebot commands remotely | 70 | +0 |
 
 [Back to top](#awesome-piracy)
@@ -266,7 +266,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [gallery-dl](../r/mikf~gallery-dl.md) | Command-line program to download image galleries and collections from several image hosting sites | 19,698 | +67 |
+| [gallery-dl](../r/mikf~gallery-dl.md) | Command-line program to download image galleries and collections from several image hosting sites | 19,980 | +76 |
 
 [Back to top](#awesome-piracy)
 
@@ -274,10 +274,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Steamless](https://github.com/atom0s/Steamless) | Steamless is a DRM remover of the SteamStub variants.  The goal of Steamless is to make a single solution for unpacking  | 5,041 | +13 |
-| [SmartSteamEmu](https://github.com/MAXBURAOT/SmartSteamEmu) | SSELauncher Comfy Edition 2018 By LoodBot/Syahmixp (Steam Emulator) | 430 | +1 |
+| [Steamless](https://github.com/atom0s/Steamless) | Steamless is a DRM remover of the SteamStub variants.  The goal of Steamless is to make a single solution for unpacking  | 5,074 | +15 |
 | [cream-api-autoinstaller](https://github.com/Douile/cream-api-autoinstaller) |  |  |  |
 | [MachineGunnur/GOG-Games](https://github.com/MachineGunnur/GOG-Games) | A fork of Good Old Downloads' "GOG Games" project. | 38 | +0 |
+| [SmartSteamEmu](https://github.com/MAXBURAOT/SmartSteamEmu) | SSELauncher Comfy Edition 2018 By LoodBot/Syahmixp (Steam Emulator) | 431 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -285,11 +285,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [iptv-org/iptv](../r/iptv-org~iptv.md) | Collection of publicly available IPTV channels from all over the world | 138,751 | +593 |
-| [tvheadend](../r/tvheadend~tvheadend.md) | Tvheadend is the leading TV streaming server for Linux with ATSC, DVB-C/C2, DVB-S/S2, DVB-T/T2, IPTV, SAT>IP and unix pi | 3,520 | +3 |
-| [antennas](https://github.com/TheJF/antennas) | 📡 DVR emulator for Plex DVR to connect to Tvheadend. | 375 | +0 |
+| [iptv-org/iptv](../r/iptv-org~iptv.md) | Collection of publicly available IPTV channels from all over the world | 140,519 | +517 |
+| [tvheadend](../r/tvheadend~tvheadend.md) | Tvheadend is the leading TV streaming server for Linux with ATSC, DVB-C/C2, DVB-S/S2, DVB-T/T2, IPTV, SAT>IP and unix pi | 3,532 | +1 |
 | [fastocloud](https://github.com/fastogt/fastocloud) | FastoCloud COMMUNITY version | 16 | +0 |
-| [telly](https://github.com/tellytv/telly) | An IPTV proxy | 827 | +0 |
+| [antennas](https://github.com/TheJF/antennas) | 📡 DVR emulator for Plex DVR to connect to Tvheadend. | 374 | -1 |
+| [telly](https://github.com/tellytv/telly) | An IPTV proxy | 826 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -297,7 +297,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [ZNC](../r/znc~znc.md) | Official repository for the ZNC IRC bouncer | 2,124 | +0 |
+| [ZNC](../r/znc~znc.md) | Official repository for the ZNC IRC bouncer | 2,127 | +1 |
 
 [Back to top](#awesome-piracy)
 
@@ -305,9 +305,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [weechat](../r/weechat~weechat.md) | The extensible chat client. | 3,387 | +4 |
-| [KVIrc](../r/kvirc~kvirc.md) | The KVIrc IRC Client | 304 | +1 |
-| [Shout](https://github.com/erming/shout) | Deprecated. See fork @ https://github.com/thelounge | 3,589 | +0 |
+| [weechat](../r/weechat~weechat.md) | The extensible chat client. | 3,399 | +3 |
+| [KVIrc](../r/kvirc~kvirc.md) | The KVIrc IRC Client | 306 | +1 |
+| [Shout](https://github.com/erming/shout) | Deprecated. See fork @ https://github.com/thelounge | 3,588 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -315,9 +315,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [PlexKodiConnect](../r/croneter~plexkodiconnect.md) | Plex integration in Kodi done right | 1,342 | +1 |
 | [Python-GoogleDrive-VideoStream](https://github.com/ddurdle/Python-GoogleDrive-VideoStream) |  |  |  |
 | [Sparkle](https://github.com/iwannabelikemike/plugin.video.sparkle) |  |  |  |
+| [PlexKodiConnect](../r/croneter~plexkodiconnect.md) | Plex integration in Kodi done right | 1,341 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -325,7 +325,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [HakuNeko](../r/manga-download~hakuneko.md) | Manga & Anime Downloader for Linux, Windows & MacOS | 6,337 | +9 |
+| [HakuNeko](../r/manga-download~hakuneko.md) | Manga & Anime Downloader for Linux, Windows & MacOS | 6,356 | +3 |
 | [Free Manga Downloader (FMD)](https://github.com/fmd-project-team/FMD) | The new FMD fork! Join our community on Discord! | 265 | +0 |
 
 [Back to top](#awesome-piracy)
@@ -334,12 +334,12 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [jellyfin](../r/jellyfin~jellyfin.md) | The Free Software Media System - Server Backend & API | 57,196 | +258 |
-| [Gerbera](../r/gerbera~gerbera.md) | UPnP Media Server for 2026: Stream your digital media through your home network and consume it on all kinds of UPnP supp | 1,394 | +0 |
+| [jellyfin](../r/jellyfin~jellyfin.md) | The Free Software Media System - Server Backend & API | 57,904 | +213 |
+| [Gerbera](../r/gerbera~gerbera.md) | UPnP Media Server for 2026: Stream your digital media through your home network and consume it on all kinds of UPnP supp | 1,395 | +0 |
 | [Myflix](https://github.com/pastapojken/Myflix) | Myflix, a Netflix clone! | 310 | +0 |
 | [OpenPHT](https://github.com/RasPlex/OpenPHT) | OpenPHT is a community driven fork of Plex Home Theater | 593 | +0 |
-| [Streama](../r/streamaserver~streama.md) | Self hosted streaming media server. https://docs.streama-project.com/ | 9,820 | +0 |
 | [Viewscreen](https://github.com/viewscreen/viewscreen) | Viewscreen - a personal video streaming server | 231 | +0 |
+| [Streama](../r/streamaserver~streama.md) | Self hosted streaming media server. https://docs.streama-project.com/ | 9,819 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -347,11 +347,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [castnow](https://github.com/xat/castnow) | commandline chromecast player | 3,814 | +0 |
 | [k8s-usenet](https://github.com/aldoborrero/k8s-usenet) | k8s-usenet is a collection of Helm charts related to Usenet services. | 78 | +0 |
-| [MacGuffin](https://github.com/hwkns/macguffin) | Automated tools for handling Scene and P2P film releases -- gather and verify metadata, take screenshots and upload them | 96 | +0 |
-| [netflix-proxy](https://github.com/ab77/netflix-proxy) | Smart DNS proxy to watch Netflix | 3,739 | +0 |
-| [PiracyArchive](https://github.com/nid666/PiracyArchive) | A complete backup of the Reddit r/Piracy sub | 463 | +0 |
+| [MacGuffin](https://github.com/hwkns/macguffin) | Automated tools for handling Scene and P2P film releases -- gather and verify metadata, take screenshots and upload them | 95 | +0 |
+| [netflix-proxy](https://github.com/ab77/netflix-proxy) | Smart DNS proxy to watch Netflix | 3,741 | +0 |
+| [PiracyArchive](https://github.com/nid666/PiracyArchive) | A complete backup of the Reddit r/Piracy sub | 464 | +0 |
+| [castnow](https://github.com/xat/castnow) | commandline chromecast player | 3,810 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -369,8 +369,8 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [RadarrSync](../r/sperryfreak01~radarrsync.md) |  | 122 | +0 |
-| [Watcher](https://github.com/nosmokingbandit/Watcher3) |  | 290 | -1 |
-| [CouchPotato](https://github.com/CouchPotato/CouchPotatoServer) | Automatic Movie Downloading via NZBs & Torrents | 3,869 | -2 |
+| [Watcher](https://github.com/nosmokingbandit/Watcher3) |  | 290 | +0 |
+| [CouchPotato](https://github.com/CouchPotato/CouchPotatoServer) | Automatic Movie Downloading via NZBs & Torrents | 3,867 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -378,7 +378,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [gonic](../r/sentriz~gonic.md) | music streaming server / free-software subsonic server API implementation | 2,544 | +2 |
+| [gonic](../r/sentriz~gonic.md) | music streaming server / free-software subsonic server API implementation | 2,565 | +8 |
 | [LibreSonic](https://github.com/Libresonic/libresonic) |  |  |  |
 
 [Back to top](#awesome-piracy)
@@ -387,9 +387,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Lidarr](../r/lidarr~lidarr.md) | Looks and smells like Sonarr but made for music. | 5,656 | +27 |
-| [betanin](../r/sentriz~betanin.md) | beets based mitm of your torrent client and music player | 459 | +1 |
-| [Headphones](https://github.com/rembo10/headphones) | Automatic music downloader for SABnzbd | 3,757 | +0 |
+| [Lidarr](../r/lidarr~lidarr.md) | Looks and smells like Sonarr but made for music. | 5,724 | +24 |
+| [betanin](../r/sentriz~betanin.md) | beets based mitm of your torrent client and music player | 460 | +1 |
+| [Headphones](https://github.com/rembo10/headphones) | Automatic music downloader for SABnzbd | 3,753 | -5 |
 
 [Back to top](#awesome-piracy)
 
@@ -397,8 +397,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [irs](https://github.com/kepoorhampond/irs) | 🎸 🎶 A music downloader that understands your metadata needs. | 409 | +0 |
 | [VGMLoader](https://github.com/TheLastZombie/VGMLoader) |  |  |  |
+| [irs](https://github.com/kepoorhampond/irs) | 🎸 🎶 A music downloader that understands your metadata needs. | 409 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -406,11 +406,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [OpenDirectoryDownloader](../r/koalabear84~opendirectorydownloader.md) | Indexes open directories | 1,388 | +5 |
+| [OpenDirectoryDownloader](../r/koalabear84~opendirectorydownloader.md) | Indexes open directories | 1,399 | +3 |
+| [httpdirfs](../r/fangfufu~httpdirfs.md) | HTTPDirFS is a filesystem that allows you to mount arbitrary websites using the FUSE framework. It comes with a cache sy | 890 | +1 |
 | [andesite](https://github.com/nektro/andesite) | 💾 Easily manage access to your open directory through OAuth2 | 78 | +0 |
-| [httpdirfs](../r/fangfufu~httpdirfs.md) | A filesystem which allows you to mount HTTP directory listings or a single file, with a permanent cache. Now with Airson | 885 | +0 |
+| [FileMasta](https://github.com/HerbL27/FileMasta) | A search application to explore, discover and share online files | 671 | +0 |
 | [opendirectories-bot](https://github.com/simon987/opendirectories-bot) |  | 37 | +0 |
-| [FileMasta](https://github.com/HerbL27/FileMasta) | A search application to explore, discover and share online files | 670 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -418,7 +418,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Keepass2Android](../r/philippc~keepass2android.md) | Password manager app for Android | 6,227 | +13 |
+| [Keepass2Android](../r/philippc~keepass2android.md) | Password manager app for Android | 6,279 | +12 |
 
 [Back to top](#awesome-piracy)
 
@@ -426,8 +426,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [linuxserver/docker-plex](../r/linuxserver~docker-plex.md) |  | 1,439 | +1 |
-| [plexinc/pms-docker](../r/plexinc~pms-docker.md) | Plex Media Server Docker repo, for all your PMS docker needs. | 4,027 | +1 |
+| [linuxserver/docker-plex](../r/linuxserver~docker-plex.md) |  | 1,441 | +1 |
+| [plexinc/pms-docker](../r/plexinc~pms-docker.md) | Plex Media Server Docker repo, for all your PMS docker needs. | 4,033 | +0 |
 | [timhaak/plex](https://github.com/timhaak/docker-plex) |  |  |  |
 
 [Back to top](#awesome-piracy)
@@ -436,9 +436,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
+| [PlexConnect](../r/ibaa~plexconnect.md) | Plex @ aTV - think different... | 1,909 | +1 |
 | [go-plex-client](../r/jrudio~go-plex-client.md) | A Plex.tv and Plex Media Server Go client | 138 | +0 |
-| [PlexConnect](../r/ibaa~plexconnect.md) | Plex @ aTV - think different... | 1,908 | +0 |
-| [RasPlex](https://github.com/RasPlex/RasPlex) | Rasplex is a community driven port of Plex Home Theater for the Raspberry Pi | 658 | +0 |
+| [RasPlex](https://github.com/RasPlex/RasPlex) | Rasplex is a community driven port of Plex Home Theater for the Raspberry Pi | 656 | -2 |
 
 [Back to top](#awesome-piracy)
 
@@ -446,8 +446,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Plex-Data-Collector-For-InfluxDB](https://github.com/barrycarey/Plex-Data-Collector-For-InfluxDB) | Collects data about your Plex server and sends it to InfluxDB | 165 | +0 |
-| [plexWatch](https://github.com/ljunkie/plexWatch) | Notify and Log watched content on a Plex Media Server | 431 | +0 |
+| [Plex-Data-Collector-For-InfluxDB](https://github.com/barrycarey/Plex-Data-Collector-For-InfluxDB) | Collects data about your Plex server and sends it to InfluxDB | 164 | -1 |
+| [plexWatch](https://github.com/ljunkie/plexWatch) | Notify and Log watched content on a Plex Media Server | 430 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -455,20 +455,20 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [WebTools.bundle](https://github.com/ukdtom/WebTools.bundle) | WebTools is a collection of tools for Plex Media Server. Like the Unsupported AppStore (UAS) | 1,309 | +1 |
-| [Audiobooks.bundle](https://github.com/macr0dev/Audiobooks.bundle) | Plex metadata scraper for Audiobooks | 615 | +0 |
-| [ExportTools.bundle](https://github.com/ukdtom/ExportTools.bundle) | Export tools for Plex | 325 | +0 |
+| [Plex-Trakt-Scrobbler](https://github.com/trakt/Plex-Trakt-Scrobbler) | Add what you are watching on Plex to trakt.tv | 1,460 | +2 |
+| [ExportTools.bundle](https://github.com/ukdtom/ExportTools.bundle) | Export tools for Plex | 324 | +0 |
 | [FMoviesPlus.bundle](https://github.com/coder-alpha/FMoviesPlus.bundle) | Plex Media Server plug-in designed for FMovies, G2G, Primewire and more. | 72 | +0 |
 | [HDGrandSlam.bundle](https://github.com/jumpmanjay/HDGrandSlam.bundle) | A Plex plug-in that interfaces with HDHomeRun tuners and DVRs | 74 | +0 |
 | [HDHRViewerV2.bundle](https://github.com/zynine-/HDHRViewerV2.bundle) | HDHomeRun + Plex | 92 | +0 |
 | [lmwt-kiss.bundle](https://github.com/Twoure/lmwt-kiss.bundle) | PrimeWire (formerly LetMeWatchThis), "Keep It Simple, Stupid"-version | 16 | +0 |
-| [Plex-Trakt-Scrobbler](https://github.com/trakt/Plex-Trakt-Scrobbler) | Add what you are watching on Plex to trakt.tv | 1,459 | +0 |
 | [PlexTools.bundle](https://github.com/jwdempsey/PlexTools.bundle) | Downloads subtitles for any videos in your library from OpenSubtitles and modifies them to work with Roku clients, and c | 0 |  |
 | [RequestChannel.bundle](https://github.com/ngovil21/RequestChannel.bundle) | Request Channel - A Plex Channel to create requests | 160 | +0 |
 | [SRT2UTF-8.bundle](https://github.com/ukdtom/SRT2UTF-8.bundle) | Plex Agent, that'll convert sidecar subtitle files into UTF-8, if not | 126 | +0 |
-| [Sub-Zero.bundle](https://github.com/pannal/Sub-Zero.bundle) | Subtitles for Plex, as good you would expect them to be. | 1,752 | +0 |
-| [TvplexendChannel.bundle](https://github.com/pgaubatz/TvplexendChannel.bundle) | A Tvheadend Channel Plugin for PLEX Media Server | 65 | +0 |
-| [IPTV.bundle](https://github.com/Cigaras/IPTV.bundle) | Plex plug-in that plays live streams (like IPTV) from a M3U playlist | 1,048 | -1 |
+| [Sub-Zero.bundle](https://github.com/pannal/Sub-Zero.bundle) | Subtitles for Plex, as good you would expect them to be. | 1,749 | +0 |
+| [TvplexendChannel.bundle](https://github.com/pgaubatz/TvplexendChannel.bundle) | A Tvheadend Channel Plugin for PLEX Media Server | 64 | +0 |
+| [Audiobooks.bundle](https://github.com/macr0dev/Audiobooks.bundle) | Plex metadata scraper for Audiobooks | 614 | -1 |
+| [WebTools.bundle](https://github.com/ukdtom/WebTools.bundle) | WebTools is a collection of tools for Plex Media Server. Like the Unsupported AppStore (UAS) | 1,307 | -1 |
+| [IPTV.bundle](https://github.com/Cigaras/IPTV.bundle) | Plex plug-in that plays live streams (like IPTV) from a M3U playlist | 1,046 | -2 |
 
 [Back to top](#awesome-piracy)
 
@@ -477,7 +477,7 @@
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
 | [MediaButler](https://github.com/physk/MediaButler) |  | 3 | +0 |
-| [Mellow](https://github.com/v0idp/Mellow) | Mellow can communicate with several APIs like Ombi, Sonarr, Radarr and Tautulli which are related to home streaming to u | 205 | +0 |
+| [Mellow](https://github.com/v0idp/Mellow) | Mellow can communicate with several APIs like Ombi, Sonarr, Radarr and Tautulli which are related to home streaming to u | 203 | +0 |
 | [plexrequests-meteor](https://github.com/lokenx/plexrequests-meteor) | Meteor version of the original Plex Requests | 521 | +0 |
 
 [Back to top](#awesome-piracy)
@@ -486,29 +486,29 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [JBOPS](../r/blacktwin~jbops.md) | Just a Bunch Of Plex Scripts | 1,924 | +1 |
-| [Gaps](../r/jasonhhouse~gaps.md) | Find the missing movies in your Plex Server | 578 | +0 |
-| [goplaxt](https://github.com/XanderStrike/goplaxt) | Scrobble Plex plays to Trakt with ease! | 300 | +0 |
-| [Kitana](https://github.com/pannal/Kitana) | A responsive Plex plugin web frontend | 532 | +0 |
+| [JBOPS](../r/blacktwin~jbops.md) | Just a Bunch Of Plex Scripts | 1,926 | +1 |
+| [PlexEmail](https://github.com/jakewaldron/PlexEmail) | This script aggregates all new TV, movie and music releases for the past configured time then optionally writes to your  | 209 | +1 |
+| [goplaxt](https://github.com/XanderStrike/goplaxt) | Scrobble Plex plays to Trakt with ease! | 299 | +0 |
 | [NowShowing](https://github.com/ninthwalker/NowShowing) | Generates an email and web page of Plex recently added content | 75 | +0 |
+| [Phlex](https://github.com/d8ahazard/Phlex) | A super-sexy voice interface for the Plex HTPC | 601 | +0 |
 | [Plex Media Tagger](https://github.com/ccjensen/PlexMediaTagger) | Uses the metadata held in the PlexMediaServer to tag media files | 145 | +0 |
 | [Plex Redirect](https://github.com/ITRav4/PlexRedirect) | a Plex landing page that redirects you to various sites. | 233 | +0 |
-| [plex_autoscan](https://github.com/l3uddz/plex_autoscan) | Script to assist sonarr/radarr with plex imports. Will only scan the folder that has been imported, instead of the whole | 408 | +0 |
+| [plex_autoscan](https://github.com/l3uddz/plex_autoscan) | Script to assist sonarr/radarr with plex imports. Will only scan the folder that has been imported, instead of the whole | 409 | +0 |
 | [plex_top_playlists](https://github.com/pbrink231/plex_top_playlists) | A python script for creating playlists and collections for all server users from sources like IMDB and Trakt | 111 | +0 |
 | [plex-subtitles-normalizer](https://github.com/caridy/plex-subtitles-normalizer) | CLI tool to fix subtitles needed by Plex Media Center | 14 | +0 |
 | [plex-sync](https://github.com/jacobwgillespie/plex-sync) | 🎬 Command line utility for synchronizing Plex Media Server watched / seen status between multiple servers | 308 | +0 |
 | [plex2netflix](https://github.com/SpaceK33z/plex2netflix) | See how much of your media from Plex is available on Netflix. | 275 | +0 |
 | [PlexAuth](https://github.com/hjone72/PlexAuth) | Plex based authentication using PHP | 100 | +0 |
-| [PlexEmail](https://github.com/jakewaldron/PlexEmail) | This script aggregates all new TV, movie and music releases for the past configured time then optionally writes to your  | 208 | +0 |
-| [PlexIPTV](../r/xiaodoudou~plexiptv.md) | This app simulate a DVR device for Plex by providing a layer to any IPTV provider (that provide a m3u8 playlist) | 200 | +0 |
+| [PlexIPTV](../r/xiaodoudou~plexiptv.md) | This app simulate a DVR device for Plex by providing a layer to any IPTV provider (that provide a m3u8 playlist) | 201 | +0 |
 | [PlexMissingEpisodes](https://github.com/MysticRyuujin/PlexMissingEpisodes) | Scan Plex Library for Missing Episodes using TheTVDB | 57 | +0 |
 | [PlexRecs](https://github.com/nwithan8/PlexRecs) | A Discord bot that provides movie, TV show and music recommendations from your Plex library | 40 | +0 |
 | [plexReport](https://github.com/bstascavage/plexReport) | Scripts to generate a weekly email of new additions to Plex | 66 | +0 |
-| [plexupdate](https://github.com/mrworf/plexupdate) | Plex Update script to simplify the life of Linux Plex Media Server users. | 1,875 | +0 |
+| [plexupdate](https://github.com/mrworf/plexupdate) | Plex Update script to simplify the life of Linux Plex Media Server users. | 1,874 | +0 |
 | [Python-PlexLibrary](https://github.com/adamgot/python-plexlibrary) | Create and maintain dynamic Plex libraries based on recipes. | 206 | +0 |
 | [Transmogrify](https://github.com/Transmogrify-for-Plex/Transmogrify-for-Plex-chrome) | A Chrome extension that adds several features to the Plex/Web 2.0 client for Plex | 73 | +0 |
-| [Varken](https://github.com/Boerderij/Varken) | Standalone application to aggregate data from the Plex ecosystem into InfluxDB using Grafana as a frontend | 1,175 | +0 |
-| [Phlex](https://github.com/d8ahazard/Phlex) | A super-sexy voice interface for the Plex HTPC | 601 | -1 |
+| [Varken](https://github.com/Boerderij/Varken) | Standalone application to aggregate data from the Plex ecosystem into InfluxDB using Grafana as a frontend | 1,174 | +0 |
+| [Gaps](../r/jasonhhouse~gaps.md) | Find the missing movies in your Plex Server | 577 | -1 |
+| [Kitana](https://github.com/pannal/Kitana) | A responsive Plex plugin web frontend | 531 | -2 |
 
 [Back to top](#awesome-piracy)
 
@@ -516,10 +516,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [nvidia-patch](../r/keylase~nvidia-patch.md) |  This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to con | 4,800 | +4 |
-| [kube-plex](https://github.com/munnerz/kube-plex) | Scalable Plex Media Server on Kubernetes -- dispatch transcode jobs as pods on your cluster! | 1,244 | +1 |
-| [Plex-Remote-Transcoder](https://github.com/wnielson/Plex-Remote-Transcoder) | A distributed transcoding backend for Plex | 652 | +1 |
-| [UnicornTranscoder](https://github.com/UnicornTranscoder/UnicornTranscoder) | Remote transcoder for Plex | 728 | +1 |
+| [nvidia-patch](../r/keylase~nvidia-patch.md) |  This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to con | 4,809 | +4 |
+| [Plex-Remote-Transcoder](https://github.com/wnielson/Plex-Remote-Transcoder) | A distributed transcoding backend for Plex | 652 | +0 |
+| [UnicornTranscoder](https://github.com/UnicornTranscoder/UnicornTranscoder) | Remote transcoder for Plex | 728 | +0 |
+| [kube-plex](https://github.com/munnerz/kube-plex) | Scalable Plex Media Server on Kubernetes -- dispatch transcode jobs as pods on your cluster! | 1,243 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -536,7 +536,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Premiumizer](https://github.com/piejanssens/premiumizer) | Download manager for premiumize.me cloud downloads | 178 | +0 |
+| [Premiumizer](https://github.com/piejanssens/premiumizer) | Download manager for premiumize.me cloud downloads | 177 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -544,7 +544,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Any Soft Keyboard](../r/anysoftkeyboard~anysoftkeyboard.md) | Android on screen keyboard for multiple languages and NO internet access | 3,375 | +6 |
+| [Any Soft Keyboard](../r/anysoftkeyboard~anysoftkeyboard.md) | Android on screen keyboard for multiple languages and NO internet access | 3,382 | -3 |
 
 [Back to top](#awesome-piracy)
 
@@ -560,13 +560,13 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [MediaServer-DockerComposeFiles](https://github.com/vaeyo/MediaServer-DockerComposeFiles) | Docker-Compose Files for Media Server Related Apps [Radarr, Sonarr, Plex, rTorrent, NZBGet, Ombi, Emby, etc] | 144 | +0 |
+| [DockSTARTer](../r/ghostwriters~dockstarter.md) | DockSTARTer helps you get started with running apps in Docker. | 2,572 | +1 |
+| [MediaServer-DockerComposeFiles](https://github.com/vaeyo/MediaServer-DockerComposeFiles) | Docker-Compose Files for Media Server Related Apps [Radarr, Sonarr, Plex, rTorrent, NZBGet, Ombi, Emby, etc] | 143 | +0 |
 | [Put.io automator](https://github.com/datashaman/putio-automator) | A suite of commands for managing torrents, transfers and files on put.io. Works well with SickRage, Sonarr, etc. | 75 | +0 |
-| [rtinst](https://github.com/arakasi72/rtinst) | seedbox installation script for Ubuntu and Debian systems | 1,216 | +0 |
+| [rtinst](https://github.com/arakasi72/rtinst) | seedbox installation script for Ubuntu and Debian systems | 1,215 | +0 |
 | [sboxsetup](https://github.com/dannyti/sboxsetup) | Another seedbox setup script | 124 | +0 |
 | [SeedSync](https://github.com/ipsingh06/seedsync) | Sync your seedbox. Fast. And more. | 334 | +0 |
-| [usenet-docker](https://github.com/justinhamlett/usenet-docker) | Docker-compose configuration for Sabnzbd, CouchPotato, Plex, Sonarr, Plexpy, Nzbhydra, Muximux, Radarr, NZBGet and Ombi  | 182 | -1 |
-| [DockSTARTer](../r/ghostwriters~dockstarter.md) | DockSTARTer helps you get started with running apps in Docker. | 2,570 | -2 |
+| [usenet-docker](https://github.com/justinhamlett/usenet-docker) | Docker-compose configuration for Sabnzbd, CouchPotato, Plex, Sonarr, Plexpy, Nzbhydra, Muximux, Radarr, NZBGet and Ombi  | 182 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -574,9 +574,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Nebula](../r/slackhq~nebula.md) | A scalable overlay networking tool with a focus on performance, simplicity and security | 18,345 | +30 |
-| [sshuttle](../r/sshuttle~sshuttle.md) | Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux a | 13,565 | +8 |
-| [n2n](../r/ntop~n2n.md) | Peer-to-peer VPN | 7,014 | +6 |
+| [sshuttle](../r/sshuttle~sshuttle.md) | Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux a | 13,600 | +13 |
+| [Nebula](../r/slackhq~nebula.md) | A scalable overlay networking tool with a focus on performance, simplicity and security | 18,420 | +12 |
+| [n2n](../r/ntop~n2n.md) | Peer-to-peer VPN | 7,029 | +4 |
 
 [Back to top](#awesome-piracy)
 
@@ -584,9 +584,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Downtify](https://github.com/eviabs/downtify-premium) | Downtify is an open source Spofity downloader which makes it possible to download all your favourite songs and/or playli | 405 | +0 |
-| [EZBlocker](https://github.com/Xeroday/Spotify-Ad-Blocker) | EZBlocker - A Spotify Ad Blocker for Windows | 1,846 | +0 |
-| [BlockTheSpot](../r/mrpond~blockthespot.md) | Video, audio & banner adblock/skip for Spotify | 12,480 | -8 |
+| [Downtify](https://github.com/eviabs/downtify-premium) | Downtify is an open source Spofity downloader which makes it possible to download all your favourite songs and/or playli | 407 | +0 |
+| [EZBlocker](https://github.com/Xeroday/Spotify-Ad-Blocker) | EZBlocker - A Spotify Ad Blocker for Windows | 1,840 | -5 |
+| [BlockTheSpot](../r/mrpond~blockthespot.md) | Video, audio & banner adblock/skip for Spotify | 12,444 | -16 |
 
 [Back to top](#awesome-piracy)
 
@@ -594,7 +594,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [sync](../r/calzoneman~sync.md) | Node.JS Server and JavaScript/HTML Client for synchronizing online media | 1,589 | +1 |
+| [sync](../r/calzoneman~sync.md) | Node.JS Server and JavaScript/HTML Client for synchronizing online media | 1,585 | -2 |
 
 [Back to top](#awesome-piracy)
 
@@ -602,8 +602,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Stremio Downloader](https://github.com/BurningSands70/stremio-downloader) | An application that allows downloading streams from Stremio. | 425 | +3 |
-| [PimpMyStremio](https://github.com/sungshon/PimpMyStremio) | Local add-on manager for Stremio | 501 | +0 |
+| [Stremio Downloader](https://github.com/BurningSands70/stremio-downloader) | An application that allows downloading streams from Stremio. | 429 | +2 |
+| [PimpMyStremio](https://github.com/sungshon/PimpMyStremio) | Local add-on manager for Stremio | 503 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -611,11 +611,11 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Bazarr](../r/morpheus65535~bazarr.md) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. Y | 4,272 | +13 |
-| [subsync](../r/smacke~subsync.md) | Automagically synchronize subtitles with video. | 7,870 | +7 |
-| [autosub](https://github.com/agermanidis/autosub) | [NO LONGER MAINTAINED] Command-line utility for auto-generating subtitles for any video file | 4,189 | +0 |
-| [nzb-subliminal](https://github.com/caronc/nzb-subliminal) | Fetches subtitles for the videos it's provided. It can be easily integrated into NZBGet and SABnzbd too. | 113 | +0 |
-| [vlsub](https://github.com/exebetche/vlsub) | VLC extension to download subtitles from opensubtitles.org | 1,401 | +0 |
+| [Bazarr](../r/morpheus65535~bazarr.md) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. Y | 4,354 | +41 |
+| [subsync](../r/smacke~subsync.md) | Automagically synchronize subtitles with video. | 7,897 | +8 |
+| [nzb-subliminal](https://github.com/caronc/nzb-subliminal) | Fetches subtitles for the videos it's provided. It can be easily integrated into NZBGet and SABnzbd too. | 114 | +0 |
+| [autosub](https://github.com/agermanidis/autosub) | [NO LONGER MAINTAINED] Command-line utility for auto-generating subtitles for any video file | 4,190 | -1 |
+| [vlsub](https://github.com/exebetche/vlsub) | VLC extension to download subtitles from opensubtitles.org | 1,401 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -623,8 +623,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Sonarr](../r/sonarr~sonarr.md) | Smart PVR for newsgroup and bittorrent users. | 16,224 | +118 |
-| [SickGear](../r/sickgear~sickgear.md) | SickGear has proven the most reliable stable TV fork of the great Sick-Beard to fully automate TV enjoyment with innovat | 793 | +1 |
+| [Sonarr](../r/sonarr~sonarr.md) | Smart PVR for newsgroup and bittorrent users. | 16,889 | +183 |
+| [SickGear](../r/sickgear~sickgear.md) | SickGear has proven the most reliable stable TV fork of the great Sick-Beard to fully automate TV enjoyment with innovat | 796 | +0 |
 | [SickRage](https://github.com/SiCKRAGE/SiCKRAGE) | Mirror of OFFICIAL SiCKRAGE | 1,528 | +0 |
 
 [Back to top](#awesome-piracy)
@@ -633,7 +633,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [aria-telegram-mirror-bot](https://github.com/out386/aria-telegram-mirror-bot) | A Telegram bot to download files via HTTP(S)/BitTorrent and upload them to Google Drive | 521 | -1 |
+| [aria-telegram-mirror-bot](https://github.com/out386/aria-telegram-mirror-bot) | A Telegram bot to download files via HTTP(S)/BitTorrent and upload them to Google Drive | 523 | +1 |
 
 [Back to top](#awesome-piracy)
 
@@ -641,16 +641,16 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Popcorn Time](../r/popcorn-official~popcorn-desktop.md) | Popcorn Time™ puts everything in one place. Your favorite platforms, your shows, your movies-ready when you are. | 10,688 | +15 |
-| [RapidBay](../r/hauxir~rapidbay.md) | Self-hosted torrent video streaming service compatible with Chromecast, AppleTV & Kodi deployable in the cloud | 892 | +2 |
+| [ruTorrent](../r/novik~rutorrent.md) | Yet another web front-end for rTorrent | 2,183 | +3 |
+| [Popcorn Time](../r/popcorn-official~popcorn-desktop.md) | Popcorn Time™ puts everything in one place. Your favorite platforms, your shows, your movies-ready when you are. | 10,691 | +2 |
+| [peerflix](https://github.com/mafintosh/peerflix) | Streaming torrent client for node.js | 6,269 | +1 |
+| [RapidBay](../r/hauxir~rapidbay.md) | Self-hosted torrent video streaming service compatible with Chromecast, AppleTV & Kodi deployable in the cloud | 896 | +1 |
 | [AutoRemovePlus](https://github.com/omaralvarez/deluge-autoremoveplus) | Auto removing of deluge torrents | 156 | +0 |
 | [pyrocore](https://github.com/pyroscope/pyrocore) | 🔧 A collection of tools for the BitTorrent protocol and especially the rTorrent client | 306 | +0 |
 | [rtorrent-ps](https://github.com/pyroscope/rtorrent-ps) | 🎨 Extended rTorrent distribution with a fully customizable canvas and colors, other feature additions, and complete doc | 473 | +0 |
 | [rutorrent-all-seeders](https://github.com/AkdM/rutorrent-all-seeders) | This ruTorrent plugin adds the columns 'All Seeders' the torrents list. | 2 | +0 |
 | [rutorrent-themes](https://github.com/InAnimaTe/rutorrent-themes) | A collection of default and new, original themes I've found for rutorrent. More will be added as I find them. | 12 | +0 |
-| [flood](https://github.com/jfurrow/flood) | A web UI for rTorrent, qBittorrent and Transmission with a Node.js backend and React frontend. Migrate to v4: https://gi | 1,788 | -1 |
-| [ruTorrent](../r/novik~rutorrent.md) | Yet another web front-end for rTorrent | 2,180 | -2 |
-| [peerflix](https://github.com/mafintosh/peerflix) | Streaming torrent client for node.js | 6,271 | -4 |
+| [flood](https://github.com/jfurrow/flood) | A web UI for rTorrent, qBittorrent and Transmission with a Node.js backend and React frontend. Migrate to v4: https://gi | 1,785 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -658,8 +658,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [magnetico](https://github.com/boramalper/magnetico) | Autonomous (self-hosted) BitTorrent DHT search engine suite. | 3,131 | +1 |
-| [mktorrent](https://github.com/Rudde/mktorrent) | A simple command line utility to create BitTorrent metainfo files | 553 | +1 |
+| [mktorrent](https://github.com/Rudde/mktorrent) | A simple command line utility to create BitTorrent metainfo files | 556 | +1 |
+| [magnetico](https://github.com/boramalper/magnetico) | Autonomous (self-hosted) BitTorrent DHT search engine suite. | 3,131 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -667,7 +667,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [rats-search](../r/degitx~rats-search.md) | rats-search: BitTorrent P2P multi-platform search engine for Desktop and Web servers with integrated torrent client | 1,981 | +11 |
+| [rats-search](../r/degitx~rats-search.md) | rats-search: BitTorrent P2P multi-platform search engine for Desktop and Web servers with integrated torrent client | 2,016 | +11 |
 
 [Back to top](#awesome-piracy)
 
@@ -675,10 +675,10 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [UNIT3D](../r/hdinnovations~unit3d.md) | UNIT3D is a private torrent tracker built using Laravel, Livewire and AlpineJS. | 2,426 | +3 |
-| [meanTorrent](https://github.com/taobataoma/meanTorrent) | meanTorrent - MEAN.JS BitTorrent Private Tracker - Full-Stack JavaScript Using MongoDB, Express, AngularJS, and Node.js, | 496 | +0 |
+| [UNIT3D](../r/hdinnovations~unit3d.md) | UNIT3D is a private torrent tracker built using Laravel, Livewire and AlpineJS. | 2,435 | +3 |
+| [meanTorrent](https://github.com/taobataoma/meanTorrent) | meanTorrent - MEAN.JS BitTorrent Private Tracker - Full-Stack JavaScript Using MongoDB, Express, AngularJS, and Node.js, | 495 | +0 |
 | [NexusPHP](https://github.com/ZJUT/NexusPHP) | BitTorrent private tracker scripts written in PHP. | 410 | +0 |
-| [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms) | A Curated List Of Torrent Tracker Platforms/Codebases Written In Multiple Coding Languages | 638 | +0 |
+| [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms) | A Curated List Of Torrent Tracker Platforms/Codebases Written In Multiple Coding Languages | 636 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -686,9 +686,9 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Jackett](../r/jackett~jackett.md) | API Support for your favorite torrent trackers | 16,042 | +57 |
-| [nzbhydra2](../r/theotherp~nzbhydra2.md) | Usenet meta search | 1,722 | +8 |
-| [Cardigann](https://github.com/cardigann/cardigann) | A proxy server for adding new indexers to Sonarr, SickRage and other media managers | 474 | +0 |
+| [Jackett](../r/jackett~jackett.md) | API Support for your favorite torrent trackers | 16,174 | +57 |
+| [nzbhydra2](../r/theotherp~nzbhydra2.md) | Usenet meta search | 1,732 | +1 |
+| [Cardigann](https://github.com/cardigann/cardigann) | A proxy server for adding new indexers to Sonarr, SickRage and other media managers | 475 | +0 |
 
 [Back to top](#awesome-piracy)
 
@@ -696,7 +696,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [trackerslist](../r/ngosang~trackerslist.md) | Updated list of public BitTorrent trackers | 55,127 | +67 |
+| [trackerslist](../r/ngosang~trackerslist.md) | Updated list of public BitTorrent trackers | 55,297 | +38 |
 
 [Back to top](#awesome-piracy)
 
@@ -712,7 +712,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [spotweb](../r/spotweb~spotweb.md) | Decentralized community | 674 | +0 |
+| [spotweb](../r/spotweb~spotweb.md) | Decentralized community | 681 | +2 |
 
 [Back to top](#awesome-piracy)
 
@@ -720,8 +720,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [newznab-tmux](../r/nntmux~newznab-tmux.md) | Laravel based usenet indexer | 292 | +5 |
-| [nZEDb](https://github.com/nZEDb/nZEDb) | nZEDb - a fork of nnplus(2011) \| NNTP / Usenet / Newsgroup indexer. | 647 | +1 |
+| [newznab-tmux](../r/nntmux~newznab-tmux.md) | Laravel based usenet indexer | 299 | +0 |
+| [nZEDb](https://github.com/nZEDb/nZEDb) | nZEDb - a fork of nnplus(2011) \| NNTP / Usenet / Newsgroup indexer. | 647 | +0 |
 | [nZEDb-deploy](https://github.com/PREngineer/nZEDb-deploy) | A collection of scripts to automate and simplify the deployment of a nZEDb Usenet Indexer using the new format of their  | 25 | +0 |
 
 [Back to top](#awesome-piracy)
@@ -730,7 +730,7 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [AdGuard Popup Blocker](../r/adguardteam~popupblocker.md) | Popup blocking userscript | 458 | +1 |
+| [AdGuard Popup Blocker](../r/adguardteam~popupblocker.md) | Popup blocking userscript | 458 | -2 |
 
 [Back to top](#awesome-piracy)
 
@@ -738,8 +738,8 @@
 
 | Repo | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [Tallow](https://github.com/basil00/TorWall) | Tallow - Transparent Tor for Windows | 563 | +0 |
-| [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) | Windows 10 Privacy Guide | 1,407 | -1 |
+| [Tallow](https://github.com/basil00/TorWall) | Tallow - Transparent Tor for Windows | 560 | -1 |
+| [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) | Windows 10 Privacy Guide | 1,406 | -1 |
 
 [Back to top](#awesome-piracy)
 
@@ -753,4 +753,4 @@
 [Back to top](#awesome-piracy)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/l/piracy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/l/piracy/)*

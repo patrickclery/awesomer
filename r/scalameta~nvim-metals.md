@@ -15,4 +15,4 @@
 - [awesome-neovim](../l/neovim.md) / LSP
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scalameta~nvim-metals/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/scalameta~nvim-metals/)*

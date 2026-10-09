@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 341 | -1 | +0 | +2 | 2026-06-26 |
+| 341 | +0 | +1 | +2 | 2026-06-26 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Snippet
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dcampos~nvim-snippy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dcampos~nvim-snippy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,673 | +7 | +15 | +66 | 2026-09-14 |
+| 1,684 | +2 | +14 | +70 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Media Streaming - Audio Streaming
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/epoupon~lms/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/epoupon~lms/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,816 | -1 | +0 | +3 | 2026-09-14 |
+| 3,809 | -3 | -3 | +2 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Completion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ms-jpq~coq_nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ms-jpq~coq_nvim/)*

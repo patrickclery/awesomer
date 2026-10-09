@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 572 | +1 | +2 | +8 | 2026-04-02 |
+| 572 | +1 | +0 | +8 | 2026-04-02 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scholtzm~awesome-steam/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/scholtzm~awesome-steam/)*

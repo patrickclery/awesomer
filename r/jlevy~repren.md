@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 374 | +1 | +1 | +2 | 2026-08-26 |
+| 374 | +0 | +0 | +2 | 2026-08-26 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / For Developers
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jlevy~repren/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jlevy~repren/)*

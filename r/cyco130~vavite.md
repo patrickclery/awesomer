@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 567 | +1 | +3 | +4 | 2026-09-16 |
+| 568 | +0 | +3 | +4 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Libraries
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cyco130~vavite/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cyco130~vavite/)*

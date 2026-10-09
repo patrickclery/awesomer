@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 543 | -1 | +0 | +2 | 2026-08-31 |
+| 544 | +0 | +2 | +2 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Session
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/olimorris~persisted.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/olimorris~persisted.nvim/)*

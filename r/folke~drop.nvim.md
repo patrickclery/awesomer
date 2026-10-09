@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 352 | +1 | +2 | +8 | 2025-10-28 |
+| 351 | +0 | +0 | +8 | 2025-10-28 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Toys
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~drop.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~drop.nvim/)*

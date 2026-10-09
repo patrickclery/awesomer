@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 598 | +0 | -1 |  | 2025-05-06 |
+| 593 | +0 | -4 | -6 | 2026-09-18 |
 
 ## Found In
 
 - [awesome-nodejs](../l/nodejs.md) / Packages
 
 ---
-*Updated: 2026-04-29 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~escape-string-regexp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~escape-string-regexp/)*

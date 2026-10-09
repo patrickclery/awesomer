@@ -1,6 +1,6 @@
 # bassamsdata/namu.nvim
 
-> Flexible and sleek fuzzy picker, LSP symbol navigator, and more. inspired by Zed.
+> Navigate your code with context, fuzzy picker, LSP symbol navigator, and much more. 
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/bassamsdata/namu.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/bassamsdata~namu.nvim/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 432 | +1 | +2 | +5 | 2026-02-17 |
+| 433 | +0 | +2 | +5 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Fuzzy Finder
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bassamsdata~namu.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bassamsdata~namu.nvim/)*

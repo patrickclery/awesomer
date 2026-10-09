@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 16,292 | +59 | +264 | +839 | 2026-07-13 |
+| 16,590 | +66 | +310 | +855 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Time Series Data
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ai4finance-llc~finrl-library/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ai4finance-llc~finrl-library/)*

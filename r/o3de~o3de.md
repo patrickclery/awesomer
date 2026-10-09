@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,687 | +26 | +87 | +290 | 2026-09-16 |
+| 9,731 | +9 | +85 | +288 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/o3de~o3de/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/o3de~o3de/)*

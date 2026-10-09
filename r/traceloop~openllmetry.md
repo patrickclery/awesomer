@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,433 | +17 | +53 | +229 | 2026-08-10 |
+| 7,478 | +15 | +52 | +235 | 2026-10-06 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome local LLM](../l/local-llm.md) / Testing, Evaluation and Observability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/traceloop~openllmetry/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/traceloop~openllmetry/)*

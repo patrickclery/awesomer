@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 165 | +2 | +6 | +27 | 2025-12-18 |
+| 169 | +2 | +4 | +27 | 2026-09-27 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Health and Social Science
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/iamcoder~awesome-lucid-dreams/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/iamcoder~awesome-lucid-dreams/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 655 | +0 | +1 | +7 | 2025-11-11 |
+| 654 | -1 | +1 | +7 | 2025-11-11 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Testing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~awesome-tap/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sindresorhus~awesome-tap/)*

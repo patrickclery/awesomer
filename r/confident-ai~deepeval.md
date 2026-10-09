@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 18,290 | +186 | +656 | +2,032 | 2026-09-16 |
+| 18,700 | +166 | +599 | +2,024 | 2026-10-07 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🧪 13. Developer Tools & Integrations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/confident-ai~deepeval/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/confident-ai~deepeval/)*

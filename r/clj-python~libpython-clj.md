@@ -15,4 +15,4 @@
 - [awesome-machine-learning](../l/machine-learning.md) / Clojure
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/clj-python~libpython-clj/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/clj-python~libpython-clj/)*

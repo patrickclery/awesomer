@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 832 | +6 | +22 |  | 2026-08-29 |
+| 844 | +5 | +18 |  | 2026-09-18 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Creative Media
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/es617~claude-replay/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/es617~claude-replay/)*

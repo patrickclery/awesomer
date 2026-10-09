@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,680 | +8 | +20 | +67 | 2026-05-26 |
+| 5,690 | +5 | +12 | +67 | 2026-09-23 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🛡️ 10. AI Safety, Alignment & Interpretability
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~alignment-handbook/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/huggingface~alignment-handbook/)*

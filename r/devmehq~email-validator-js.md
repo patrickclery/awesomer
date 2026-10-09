@@ -15,4 +15,4 @@
 - [awesome-opensource-email](../l/opensource-email.md) / Email Verification
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/devmehq~email-validator-js/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/devmehq~email-validator-js/)*

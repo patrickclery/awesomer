@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 310 | +3 | +5 | +19 | 2026-08-17 |
+| 313 | +2 | +2 | +19 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Stats Tracking
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/gisketch~triforce.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/gisketch~triforce.nvim/)*

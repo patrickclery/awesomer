@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 143 |  |  |  | 2026-09-15 |
+| 150 | +2 |  |  | 2026-10-01 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Writing & Prose Quality
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/andrewroxby~claude-style-patch/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/andrewroxby~claude-style-patch/)*

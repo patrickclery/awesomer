@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 240 | +2 | +5 | +22 | 2026-09-12 |
+| 243 | +2 | +1 | +23 | 2026-10-02 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/scarletkc~vexor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/scarletkc~vexor/)*

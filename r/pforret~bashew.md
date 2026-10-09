@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 297 | +2 | +3 | +3 | 2026-08-24 |
+| 297 | +0 | +1 | +3 | 2026-09-19 |
 
 ## Found In
 
 - [awesome-shell](../l/shell.md) / Shell Script Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/pforret~bashew/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/pforret~bashew/)*

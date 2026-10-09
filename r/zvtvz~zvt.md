@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,304 | +19 | +41 | +125 | 2026-07-01 |
+| 4,312 | -6 | +31 | +128 | 2026-07-01 |
 
 ## Found In
 
 - [awesome-ai-in-finance](../l/ai-in-finance.md) / Research Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zvtvz~zvt/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zvtvz~zvt/)*

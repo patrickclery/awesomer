@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,961 | -2 | +2 | +18 | 2026-08-23 |
+| 5,968 | -1 | +7 | +17 | 2026-08-23 |
 
 ## Found In
 
 - [awesome-piracy](../l/piracy.md) / Cloud Storage
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/astrada~google-drive-ocamlfuse/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/astrada~google-drive-ocamlfuse/)*

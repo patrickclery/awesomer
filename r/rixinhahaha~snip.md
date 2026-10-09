@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 325 | +40 | +44 |  | 2026-05-07 |
+| 332 | +6 | +6 |  | 2026-05-07 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Design & UI/UX
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rixinhahaha~snip/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rixinhahaha~snip/)*

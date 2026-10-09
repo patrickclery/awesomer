@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,580 | +2 | +16 | +51 | 2026-09-12 |
+| 3,592 | +3 | +18 | +50 | 2026-10-05 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Front-End Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/web-padawan~awesome-web-components/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/web-padawan~awesome-web-components/)*

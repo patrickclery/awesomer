@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 268 | +4 | +18 | +55 | 2026-07-09 |
+| 273 | +3 | +14 | +54 | 2026-07-09 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Biology, Medicine and Bioinformatics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/the-momentum~apple-health-mcp-server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/the-momentum~apple-health-mcp-server/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,921 | +1 | +7 | +45 | 2026-09-14 |
+| 1,929 | +1 | +14 | +47 | 2026-09-28 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Network Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/brandonyoungdev~tldx/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/brandonyoungdev~tldx/)*

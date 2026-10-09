@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,421 | +1 | +3 | +8 | 2026-09-10 |
+| 1,424 | +1 | +4 | +8 | 2026-10-01 |
 
 ## Found In
 
 - [awesome-postgres](../l/postgres.md) / Backups
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/aiven~pghoard/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/aiven~pghoard/)*

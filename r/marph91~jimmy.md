@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 529 | +1 | +2 | +75 | 2026-09-13 |
+| 534 | +1 | +5 | +75 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Markdown
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/marph91~jimmy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/marph91~jimmy/)*

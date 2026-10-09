@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 159 | +2 | +2 | +3 | 2026-09-08 |
+| 160 | +0 | +1 | +4 | 2026-09-08 |
 
 ## Found In
 
 - [awesome-vite](../l/vite.md) / Framework-agnostic Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dschungelabenteuer~vite-plugin-entry-shaking/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dschungelabenteuer~vite-plugin-entry-shaking/)*

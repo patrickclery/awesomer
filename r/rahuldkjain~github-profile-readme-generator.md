@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 24,441 | +12 | +43 | +153 | 2025-10-28 |
+| 24,447 | -3 | +34 | +149 | 2025-10-28 |
 
 ## Found In
 
 - [awesome-github-profile-readme](../l/github-profile-readme.md) / Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rahuldkjain~github-profile-readme-generator/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rahuldkjain~github-profile-readme-generator/)*

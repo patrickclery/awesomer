@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,906 | +18 | +71 | +243 | 2026-08-15 |
+| 6,965 | +14 | +82 | +248 | 2026-08-15 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / System Related Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/newmarcel~keepingyouawake/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/newmarcel~keepingyouawake/)*

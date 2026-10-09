@@ -1,6 +1,6 @@
 # dstackai/dstack
 
-> Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on 
+> A unified orchestration layer for heterogeneous AI compute. It standardizes how to manage compute and run training and i
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/dstackai/dstack) | [Live site ↗](https://patrickclery.com/awesomer/r/dstackai~dstack/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,248 | +5 | +35 | +86 | 2026-09-16 |
+| 2,272 | +4 | +40 | +90 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Distributed Training
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dstackai~dstack/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dstackai~dstack/)*

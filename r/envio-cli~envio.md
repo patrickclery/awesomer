@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 991 | +0 | +2 | +48 | 2026-06-23 |
+| 994 | +2 | +4 | +48 | 2026-06-23 |
 
 ## Found In
 
 - [awesome-cli-apps](../l/cli-apps.md) / Shell Utilities
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/envio-cli~envio/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/envio-cli~envio/)*

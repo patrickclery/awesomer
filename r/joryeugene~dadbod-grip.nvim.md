@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 170 | +1 | +6 | +17 | 2026-09-02 |
+| 176 | +1 | +9 | +18 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Database
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/joryeugene~dadbod-grip.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/joryeugene~dadbod-grip.nvim/)*

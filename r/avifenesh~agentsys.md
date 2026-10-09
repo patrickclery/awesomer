@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 985 | +4 | +17 | +113 | 2026-09-13 |
+| 994 | +2 | +18 | +113 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Agent Orchestration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/avifenesh~agentsys/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/avifenesh~agentsys/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 386 | +1 | +7 | +12 | 2026-09-10 |
+| 386 | +1 | +6 | +13 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Container Operations
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/slonopotamus~stevedore/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/slonopotamus~stevedore/)*

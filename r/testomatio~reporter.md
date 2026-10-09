@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152 | +0 | +1 | +4 | 2026-09-11 |
+| 154 | +2 | +1 | +4 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Reporters
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/testomatio~reporter/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/testomatio~reporter/)*

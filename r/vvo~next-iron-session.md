@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,142 | -1 | +4 | +17 | 2026-08-31 |
+| 4,143 | +0 | +7 | +18 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-nextjs](../l/nextjs.md) / Extensions
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vvo~next-iron-session/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vvo~next-iron-session/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,319 |  |  |  | 2026-09-14 |
+| 2,367 | +17 |  |  | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Immich](../l/immich.md) / Client apps
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/immichframe~immichframe/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/immichframe~immichframe/)*

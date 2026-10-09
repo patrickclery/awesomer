@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 240 | +1 | -1 | +4 | 2026-02-11 |
+| 239 | +0 | -3 | +4 | 2026-02-11 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Databases
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xgenerationlab~xiyan_mcp_server/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/xgenerationlab~xiyan_mcp_server/)*

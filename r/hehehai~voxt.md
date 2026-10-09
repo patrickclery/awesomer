@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 824 | +22 | +50 | +164 | 2026-09-08 |
+| 855 | +2 | +50 | +177 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Voice-to-Text
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hehehai~voxt/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hehehai~voxt/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 940 | +0 | -1 | +8 | 2026-09-16 |
+| 938 | +1 | -4 | +6 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Audio
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/libretime~libretime/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/libretime~libretime/)*

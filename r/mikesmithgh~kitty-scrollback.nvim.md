@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 914 | +2 | +8 | +27 | 2026-08-13 |
+| 919 | +3 | +8 | +28 | 2026-09-23 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Terminal Integration
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mikesmithgh~kitty-scrollback.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mikesmithgh~kitty-scrollback.nvim/)*

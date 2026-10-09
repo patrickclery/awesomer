@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 247 | +0 | +2 | +4 | 2026-08-09 |
+| 246 | +0 | +1 | +4 | 2026-08-09 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Registry
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/imjasonh~kontain.me/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/imjasonh~kontain.me/)*

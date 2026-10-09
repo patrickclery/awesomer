@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,590 | +0 | +0 |  | 2025-11-06 |
+| 2,589 | +0 | +0 |  | 2025-11-06 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Serverless
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rubyonjets~jets/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rubyonjets~jets/)*

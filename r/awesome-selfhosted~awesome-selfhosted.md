@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 319,587 | +1,531 | +6,408 | +19,757 | 2026-09-15 |
+| 324,786 | +1,712 | +6,940 | +20,275 | 2026-10-06 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/awesome-selfhosted~awesome-selfhosted/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/awesome-selfhosted~awesome-selfhosted/)*

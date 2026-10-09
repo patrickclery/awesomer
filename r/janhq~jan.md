@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 44,491 | +112 | +462 | +1,425 | 2026-09-16 |
+| 44,850 | +113 | +505 | +1,483 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🖥️ 12. User Interfaces & Self-hosted Platforms
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/janhq~jan/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/janhq~jan/)*

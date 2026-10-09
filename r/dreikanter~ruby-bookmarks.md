@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,305 | +2 | +4 | +12 | 2026-04-09 |
+| 2,307 | +0 | +3 | +12 | 2026-04-09 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Discover
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/dreikanter~ruby-bookmarks/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/dreikanter~ruby-bookmarks/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 313 | +5 | +9 |  | 2026-08-12 |
+| 316 | +1 | +6 |  | 2026-10-05 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Start Here
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/lukerenton~explore-claude-code/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/lukerenton~explore-claude-code/)*

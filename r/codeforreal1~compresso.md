@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,583 | +41 | +218 | +710 | 2026-08-17 |
+| 4,700 | +18 | +245 | +730 | 2026-08-17 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Other Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/codeforreal1~compresso/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/codeforreal1~compresso/)*

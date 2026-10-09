@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 265 | +3 | +13 | +34 | 2026-09-16 |
+| 271 | +0 | +15 | +37 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Usage & Cost
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tombii~better-ccflare/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tombii~better-ccflare/)*

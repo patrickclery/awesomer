@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,295 | +3 | +15 | +28 | 2025-06-05 |
+| 3,387 | +0 | +42 | +58 | 2026-09-19 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Miscellaneous
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/achoarnold~discount-for-student-dev/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/achoarnold~discount-for-student-dev/)*

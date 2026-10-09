@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,870 | +12 | +46 | +134 | 2026-09-14 |
+| 6,900 | +4 | +51 | +139 | 2026-09-28 |
 
 ## Found In
 
@@ -16,4 +16,4 @@
 - [Awesome Open Source AI](../l/opensource-ai.md) / 📊 8. MLOps / LLMOps & Production
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/clearml~clearml/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/clearml~clearml/)*

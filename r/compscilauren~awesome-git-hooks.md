@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,187 | +1 | +5 | +18 | 2026-03-25 |
+| 1,189 | +0 | +6 | +17 | 2026-03-25 |
 
 ## Found In
 
 - [awesome](../l/awesome.md) / Development Environment
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/compscilauren~awesome-git-hooks/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/compscilauren~awesome-git-hooks/)*

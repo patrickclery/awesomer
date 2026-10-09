@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 14,408 |  |  |  | 2026-09-14 |
+| 14,515 | +19 |  |  | 2026-10-01 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Memory Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nevamind-ai~memu/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nevamind-ai~memu/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,508 | +13 | +52 | +188 | 2026-09-16 |
+| 7,538 | +9 | +53 | +196 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Complete Email Server
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/mailu~mailu/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/mailu~mailu/)*

@@ -1,6 +1,6 @@
 # unclecode/crawl4ai
 
-> 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
+> Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself,
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/unclecode/crawl4ai) | [Live site ↗](https://patrickclery.com/awesomer/r/unclecode~crawl4ai/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 83,646 | +812 | +5,189 | +14,816 | 2026-09-16 |
+| 84,972 | +379 | +4,900 | +14,942 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / 🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/unclecode~crawl4ai/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/unclecode~crawl4ai/)*

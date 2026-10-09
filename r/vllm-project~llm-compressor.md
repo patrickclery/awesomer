@@ -1,6 +1,6 @@
 # vllm-project/llm-compressor
 
-> Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM
+> State-of-the-art LLM compression, built for production inference with vLLM
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/vllm-project/llm-compressor) | [Live site ↗](https://patrickclery.com/awesomer/r/vllm-project~llm-compressor/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,788 | +31 | +99 | +370 | 2026-09-16 |
+| 3,857 | +19 | +98 | +376 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Model Quantization & Optimization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/vllm-project~llm-compressor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/vllm-project~llm-compressor/)*

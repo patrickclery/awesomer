@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 9,478 | +2 | +3 | +14 | 2026-09-14 |
+| 9,480 | -1 | +3 | +14 | 2026-10-05 |
 
 ## Found In
 
 - [awesome-db-tools](../l/db-tools.md) / Configuration Tuning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/major~mysqltuner-perl/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/major~mysqltuner-perl/)*

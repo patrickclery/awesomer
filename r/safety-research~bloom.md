@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,403 | +3 | +15 | +47 | 2026-05-07 |
+| 1,411 | +2 | +18 | +49 | 2026-05-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Safety Evaluation Frameworks
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/safety-research~bloom/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/safety-research~bloom/)*

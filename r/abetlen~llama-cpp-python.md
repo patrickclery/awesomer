@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,621 | +23 | +63 | +210 | 2026-09-13 |
+| 10,636 | -1 | +50 | +210 | 2026-10-01 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / ⚡ 3. Inference Engines & Serving
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/abetlen~llama-cpp-python/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/abetlen~llama-cpp-python/)*

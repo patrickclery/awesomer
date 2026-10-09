@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,773 | +21 | +74 | +199 | 2026-08-31 |
+| 2,818 | +11 | +74 | +206 | 2026-08-31 |
 
 ## Found In
 
 - [awesome-docker](../l/docker.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tecnativa~docker-socket-proxy/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tecnativa~docker-socket-proxy/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 961 | +9 | +24 | +63 | 2026-09-15 |
+| 970 | +3 | +20 | +64 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Recipe Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/julianpoy~recipesage/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/julianpoy~recipesage/)*

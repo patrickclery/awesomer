@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 452 | +0 | +0 | +4 | 2026-09-05 |
+| 452 | +0 | +0 | +4 | 2026-09-22 |
 
 ## Found In
 
 - [awesome-selfhosted](../l/selfhosted.md) / Content Management Systems (CMS)
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/thomas4019~expressa/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/thomas4019~expressa/)*

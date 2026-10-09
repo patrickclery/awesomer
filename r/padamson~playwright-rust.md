@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 148 | +1 | +9 | +37 | 2026-09-15 |
+| 154 | +4 | +9 | +37 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-playwright](../l/playwright.md) / Language Support
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/padamson~playwright-rust/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/padamson~playwright-rust/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 8,364 | +4 | +23 | +59 | 2026-07-19 |
+| 8,378 | +1 | +26 | +61 | 2026-07-19 |
 
 ## Found In
 
 - [awesome-cto](../l/cto.md) / People Management
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/charlax~engineering-management/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/charlax~engineering-management/)*

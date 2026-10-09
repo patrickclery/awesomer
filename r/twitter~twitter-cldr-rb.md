@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 692 | -1 | -2 | +1 | 2025-12-18 |
+| 692 | +0 | -2 | +1 | 2025-12-18 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Internationalization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~twitter-cldr-rb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/twitter~twitter-cldr-rb/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 6,891 | +2 | +13 | +64 | 2025-10-31 |
+| 6,898 | +1 | +12 | +64 | 2025-10-31 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Diagnostics
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~trouble.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/folke~trouble.nvim/)*

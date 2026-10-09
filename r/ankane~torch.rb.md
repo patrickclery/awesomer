@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 840 | +1 | +3 | +5 | 2026-09-06 |
+| 840 | +1 | +1 | +5 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Machine Learning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~torch.rb/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~torch.rb/)*

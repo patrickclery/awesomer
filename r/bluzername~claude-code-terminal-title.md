@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 141 | +2 | +4 | +16 | 2026-01-31 |
+| 142 | +0 | +2 | +16 | 2026-09-17 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Development & Code Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/bluzername~claude-code-terminal-title/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/bluzername~claude-code-terminal-title/)*

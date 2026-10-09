@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 43,489 | +1,174 | +4,281 | +37,107 | 2026-09-16 |
+| 46,123 | +528 | +4,433 | +36,331 | 2026-10-07 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
+- [Awesome Open Source AI](../l/opensource-ai.md) / Agent Context, Memory & Knowledge
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/deusdata~codebase-memory-mcp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/deusdata~codebase-memory-mcp/)*

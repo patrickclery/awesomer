@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 7,228 | +12 | +39 | +130 | 2026-09-14 |
+| 7,274 | +16 | +50 | +139 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Development
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/turanszkij~wickedengine/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/turanszkij~wickedengine/)*

@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 868 | +186 | +316 | +510 | 2026-09-15 |
+| 940 | +20 | +165 | +520 | 2026-10-07 |
 
 ## Found In
 
 - [awesome-claude-skills](../l/claude-skills.md) / Business & Marketing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rampstackco~claude-skills/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rampstackco~claude-skills/)*

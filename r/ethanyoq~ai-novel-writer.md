@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 910 |  |  |  | 2026-09-14 |
+| 1,355 | +126 |  |  | 2026-10-08 |
 
 ## Found In
 
-- [awesome-mac](../l/mac.md) / Writing
 - [Awesome Open Source AI](../l/opensource-ai.md) / Creative Writing & Narrative AI
+- [awesome-mac](../l/mac.md) / Writing
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ethanyoq~ai-novel-writer/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ethanyoq~ai-novel-writer/)*

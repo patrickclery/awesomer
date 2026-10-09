@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 504 | +9 | +30 | +156 | 2026-09-11 |
+| 517 | +3 | +23 | +157 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-zsh-plugins](../l/zsh-plugins.md) / Plugins
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/michel-kraemer~zsh-patina/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/michel-kraemer~zsh-patina/)*

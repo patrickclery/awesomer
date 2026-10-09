@@ -1,6 +1,6 @@
 # nvim-orgmode/orgmode
 
-> Orgmode clone written in Lua for Neovim 0.11.0+.
+> Orgmode clone written in Lua for Neovim 0.12.0+.
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/nvim-orgmode/orgmode) | [Live site ↗](https://patrickclery.com/awesomer/r/nvim-orgmode~orgmode/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,880 | +5 | +18 | +95 | 2026-09-16 |
+| 3,913 | +13 | +18 | +93 | 2026-10-06 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Note Taking
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-orgmode~orgmode/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/nvim-orgmode~orgmode/)*

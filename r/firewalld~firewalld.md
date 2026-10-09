@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 1,041 | +3 | +6 | +8 | 2026-09-14 |
+| 1,049 | +1 | +9 | +8 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Security
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/firewalld~firewalld/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/firewalld~firewalld/)*

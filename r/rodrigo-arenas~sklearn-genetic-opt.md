@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 389 | +0 | +1 | +28 | 2026-08-05 |
+| 390 | +0 | +1 | +28 | 2026-09-30 |
 
 ## Found In
 
 - [awesome-machine-learning](../l/machine-learning.md) / Python
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/rodrigo-arenas~sklearn-genetic-opt/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/rodrigo-arenas~sklearn-genetic-opt/)*

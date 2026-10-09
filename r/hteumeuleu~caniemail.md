@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 943 | +0 | +7 | +16 | 2026-09-16 |
+| 945 | +0 | +9 | +16 | 2026-09-16 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Other
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/hteumeuleu~caniemail/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/hteumeuleu~caniemail/)*

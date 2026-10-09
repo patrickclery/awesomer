@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 4,718 | +7 | +19 | +80 | 2026-09-16 |
+| 4,726 | +0 | +15 | +82 | 2026-09-29 |
 
 ## Found In
 
 - [Awesome-Linux-Software](../l/linux-software.md) / Wiki Software
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/splitbrain~dokuwiki/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/splitbrain~dokuwiki/)*

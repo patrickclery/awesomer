@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 665 | +1 | +77 | +90 | 2026-09-16 |
+| 791 | +31 | +167 | +172 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-mac](../l/mac.md) / Design Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/cartesiancs~nugget-app/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/cartesiancs~nugget-app/)*

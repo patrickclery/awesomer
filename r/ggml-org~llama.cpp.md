@@ -8,13 +8,13 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 128,403 | +1,069 | +4,110 | +11,277 | 2026-09-16 |
+| 130,668 | +637 | +4,020 | +11,518 | 2026-10-08 |
 
 ## Found In
 
 - [Awesome local LLM](../l/local-llm.md) / Inference engines
-- [Awesome Open Source AI](../l/opensource-ai.md) / Quantization, Distillation & Optimization
 - [Awesome Open Source AI](../l/opensource-ai.md) / Local / On-device Inference
+- [Awesome Open Source AI](../l/opensource-ai.md) / Quantization, Distillation & Optimization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ggml-org~llama.cpp/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/ggml-org~llama.cpp/)*

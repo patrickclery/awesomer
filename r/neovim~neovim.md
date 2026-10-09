@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 102,365 | +108 | +563 | +1,886 | 2026-09-16 |
+| 102,910 | +215 | +631 | +1,876 | 2026-10-08 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-mac](../l/mac.md) / Text Editors
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/neovim~neovim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/neovim~neovim/)*

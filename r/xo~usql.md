@@ -8,7 +8,7 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 10,115 | +8 | +39 | +111 | 2026-09-13 |
+| 10,136 | +3 | +40 | +112 | 2026-09-29 |
 
 ## Found In
 
@@ -17,4 +17,4 @@
 - [awesome-db-tools](../l/db-tools.md) / CLI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/xo~usql/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/xo~usql/)*

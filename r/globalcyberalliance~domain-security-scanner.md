@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 180 | +1 | +3 | +4 | 2026-07-15 |
+| 182 | +1 | +2 | +4 | 2026-07-15 |
 
 ## Found In
 
 - [awesome-opensource-email](../l/opensource-email.md) / Security Check
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/globalcyberalliance~domain-security-scanner/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/globalcyberalliance~domain-security-scanner/)*

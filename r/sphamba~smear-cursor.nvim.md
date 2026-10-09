@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,031 | +9 | +45 | +130 | 2026-04-15 |
+| 2,057 | +8 | +49 | +133 | 2026-10-04 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / Animation
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/sphamba~smear-cursor.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/sphamba~smear-cursor.nvim/)*

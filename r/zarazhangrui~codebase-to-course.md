@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 5,556 | +40 | +151 | +745 | 2026-03-30 |
+| 5,657 | +48 | +141 | +733 | 2026-03-30 |
 
 ## Found In
 
 - [awesome-claude-code](../l/claude-code.md) / Documentation, Knowledge & Learning
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/zarazhangrui~codebase-to-course/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/zarazhangrui~codebase-to-course/)*

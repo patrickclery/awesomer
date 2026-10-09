@@ -1,6 +1,6 @@
 # feder-cr/invisible_playwright
 
-> Free antidetect browser stealth for Playwright: undetected headless Firefox fingerprint. Python scraping, recaptcha and 
+> Playwright that anti-bots cannot see, so no captchas: same API, anti-detect stealth headless Firefox, undetected fingerp
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/feder-cr/invisible_playwright) | [Live site ↗](https://patrickclery.com/awesomer/r/feder-cr~invisible_playwright/)
 
@@ -8,12 +8,12 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 2,032 | +30 | +135 | +604 | 2026-09-16 |
+| 3,033 | +47 | +1,041 | +616 | 2026-10-08 |
 
 ## Found In
 
-- [Awesome Open Source AI](../l/opensource-ai.md) / Web Data Ingestion
 - [awesome-playwright](../l/playwright.md) / Scraping & Automation
+- [Awesome Open Source AI](../l/opensource-ai.md) / Web Data Ingestion
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/feder-cr~invisible_playwright/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/feder-cr~invisible_playwright/)*

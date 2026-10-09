@@ -1,6 +1,6 @@
 # netbirdio/netbird
 
-> Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
+> Connect your devices, users, and agents into a secure WireGuard®-based overlay network with SSO, MFA and granular access
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/netbirdio/netbird) | [Live site ↗](https://patrickclery.com/awesomer/r/netbirdio~netbird/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 29,272 | +175 | +824 | +3,230 | 2026-09-16 |
+| 29,804 | +142 | +888 | +3,308 | 2026-10-08 |
 
 ## Found In
 
 - [awesome-tunneling](../l/tunneling.md) / Overlay networks and other advanced tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/netbirdio~netbird/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/netbirdio~netbird/)*

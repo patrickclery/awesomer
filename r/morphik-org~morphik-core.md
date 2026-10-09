@@ -1,6 +1,6 @@
 # morphik-org/morphik-core
 
-> Open-source multimodal retrieval engine (Morphik Core). By Morphik — AI back office for skilled nursing & senior living 
+> Open-source multimodal retrieval engine (Morphik Core)
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/morphik-org/morphik-core) | [Live site ↗](https://patrickclery.com/awesomer/r/morphik-org~morphik-core/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 3,711 | +1 | +5 | +97 | 2026-09-08 |
+| 3,715 | -1 | +6 | +96 | 2026-10-05 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / RAG Frameworks & Advanced Retrieval Tools
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/morphik-org~morphik-core/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/morphik-org~morphik-core/)*

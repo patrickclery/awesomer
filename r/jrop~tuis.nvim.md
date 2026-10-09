@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 149 | +0 | +1 | +7 | 2026-01-15 |
+| 151 | +1 | +1 | +7 | 2026-01-15 |
 
 ## Found In
 
 - [awesome-neovim](../l/neovim.md) / UI
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/jrop~tuis.nvim/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/jrop~tuis.nvim/)*

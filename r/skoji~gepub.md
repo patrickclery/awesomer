@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 255 | +0 | +0 | +0 | 2026-08-11 |
+| 255 | +0 | +0 | +0 | 2026-10-02 |
 
 ## Found In
 
 - [awesome-ruby](../l/ruby.md) / Ebook
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/skoji~gepub/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/skoji~gepub/)*

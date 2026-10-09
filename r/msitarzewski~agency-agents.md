@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 152,748 | +1,882 | +6,835 |  | 2026-09-12 |
+| 158,431 | +2,861 | +6,755 |  | 2026-10-07 |
 
 ## Found In
 
 - [Awesome Open Source AI](../l/opensource-ai.md) / Domain-Specific Agents
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/msitarzewski~agency-agents/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/msitarzewski~agency-agents/)*

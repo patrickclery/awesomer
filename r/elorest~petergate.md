@@ -15,4 +15,4 @@
 - [awesome-ruby](../l/ruby.md) / Authorization
 
 ---
-*Updated: 2026-09-17 | [View live site ↗](https://patrickclery.com/awesomer/r/elorest~petergate/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/elorest~petergate/)*

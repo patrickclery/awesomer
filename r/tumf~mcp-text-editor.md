@@ -1,6 +1,6 @@
 # tumf/mcp-text-editor
 
-> No description available.
+> A token-efficient MCP server for safe, line-oriented text file editing with partial reads, hash-based conflict detection
 
 [Home](../README.md) | [View on GitHub ↗](https://github.com/tumf/mcp-text-editor) | [Live site ↗](https://patrickclery.com/awesomer/r/tumf~mcp-text-editor/)
 
@@ -8,11 +8,11 @@
 
 | Stars | 7d | 30d | 90d | Last Commit |
 |-------|----|-----|-----|-------------|
-| 188 | +0 | +3 | +5 | 2026-03-17 |
+| 201 | +1 | +1 | +8 | 2026-09-12 |
 
 ## Found In
 
 - [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
 
 ---
-*Updated: 2026-05-11 | [View live site ↗](https://patrickclery.com/awesomer/r/tumf~mcp-text-editor/)*
+*Updated: 2026-10-08 | [View live site ↗](https://patrickclery.com/awesomer/r/tumf~mcp-text-editor/)*
