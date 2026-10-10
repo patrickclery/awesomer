@@ -1,0 +1,18 @@
+# astefanutti/decktape
+
+> PDF exporter for HTML presentations
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/astefanutti/decktape) | [Live site ↗](https://patrickclery.com/awesomer/r/astefanutti~decktape/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 2,431 | +0 | +8 | +24 | 2026-10-10 |
+
+## Found In
+
+- [awesome-cli-apps](../l/cli-apps.md) / Productivity
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/astefanutti~decktape/)*

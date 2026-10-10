@@ -1,0 +1,18 @@
+# rlworkgroup/metaworld
+
+> Collections of robotics environments geared towards benchmarking multi-task and meta reinforcement learning
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/rlworkgroup/metaworld) | [Live site ↗](https://patrickclery.com/awesomer/r/rlworkgroup~metaworld/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,890 | +1 | +16 | +43 | 2026-10-09 |
+
+## Found In
+
+- [awesome-machine-learning](../l/machine-learning.md) / Python
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/rlworkgroup~metaworld/)*

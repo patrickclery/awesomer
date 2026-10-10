@@ -1,0 +1,18 @@
+# haris-musa/excel-mcp-server
+
+> A Model Context Protocol server for Excel file manipulation
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/haris-musa/excel-mcp-server) | [Live site ↗](https://patrickclery.com/awesomer/r/haris-musa~excel-mcp-server/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,224 | +12 | +64 | +251 | 2026-10-10 |
+
+## Found In
+
+- [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/haris-musa~excel-mcp-server/)*

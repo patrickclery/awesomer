@@ -1,0 +1,18 @@
+# LMMS/lmms
+
+> Cross-platform music production software
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/LMMS/lmms) | [Live site ↗](https://patrickclery.com/awesomer/r/lmms~lmms/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 10,455 | +30 | +105 | +360 | 2026-09-27 |
+
+## Found In
+
+- [Awesome-Linux-Software](../l/linux-software.md) / Audio
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/lmms~lmms/)*

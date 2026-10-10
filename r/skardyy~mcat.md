@@ -1,0 +1,18 @@
+# Skardyy/mcat
+
+> Terminal image, video, PDF, and Markdown viewer
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Skardyy/mcat) | [Live site ↗](https://patrickclery.com/awesomer/r/skardyy~mcat/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,430 | +3 |  |  | 2026-10-03 |
+
+## Found In
+
+- [awesome-cli-apps](../l/cli-apps.md) / Markdown
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/skardyy~mcat/)*

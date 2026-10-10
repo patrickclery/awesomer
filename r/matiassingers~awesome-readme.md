@@ -1,0 +1,18 @@
+# matiassingers/awesome-readme
+
+> A curated list of awesome READMEs
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/matiassingers/awesome-readme) | [Live site ↗](https://patrickclery.com/awesomer/r/matiassingers~awesome-readme/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 21,551 | +19 | +116 | +375 | 2026-09-28 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Miscellaneous
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/matiassingers~awesome-readme/)*

@@ -1,0 +1,19 @@
+# alexfernandez/loadtest
+
+> Runs a load test on the selected URL. Fast and easy to use. Can be integrated in your own workflow using the API.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/alexfernandez/loadtest) | [Live site ↗](https://patrickclery.com/awesomer/r/alexfernandez~loadtest/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 2,629 | -3 | +2 | -3 | 2026-01-13 |
+
+## Found In
+
+- [awesome-nodejs](../l/nodejs.md) / Packages
+- [awesome-cli-apps](../l/cli-apps.md) / Development
+
+---
+*Updated: 2026-10-10 | [View live site ↗](https://patrickclery.com/awesomer/r/alexfernandez~loadtest/)*
