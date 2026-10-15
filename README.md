@@ -24,64 +24,64 @@
 
 | Stars | 7d | 30d | 90d |
 |-------|----|-----|-----|
-| 518,864 | +3,018 | +12,880 | +30,692 |
+| 519,251 | +2,924 | +13,039 | +30,692 |
 
 ## Top 10 Trending Repos
 
 | # | Repo | List | Stars | 7d |
 |---|------|------|-------|----|
-| 1 | [skills](r/mattpocock~skills.md) | [awesome-agent-skills](l/agent-skills.md) | 290,443 | +11,692 |
-| 2 | [diagram-design](r/cathrynlavery~diagram-design.md) | [awesome-claude-code](l/claude-code.md) | 54,956 | +10,561 |
-| 3 | [VoiceStudio](r/debpalash~voicestudio.md) | [Awesome Open Source AI](l/opensource-ai.md) | 64,795 | +10,342 |
-| 4 | [ghidra](https://github.com/NationalSecurityAgency/ghidra) | [awesome-incident-response](l/incident-response.md) | 86,753 | +5,513 |
-| 5 | [orca](r/stablyai~orca.md) | [Awesome Open Source AI](l/opensource-ai.md) | 92,039 | +5,251 |
-| 6 | [hyperframes](r/heygen-com~hyperframes.md) | [Awesome Open Source AI](l/opensource-ai.md) | 63,215 | +5,004 |
-| 7 | [archify](r/tt-a1i~archify.md) | [Awesome Open Source AI](l/opensource-ai.md) | 83,323 | +4,379 |
-| 8 | [ECC](r/affaan-m~ecc.md) | [Awesome Open Source AI](l/opensource-ai.md) | 278,887 | +4,351 |
-| 9 | [Agent-Reach](r/panniantong~agent-reach.md) | [Awesome Open Source AI](l/opensource-ai.md) | 97,172 | +4,253 |
-| 10 | [agent-skills](r/addyosmani~agent-skills.md) | [Awesome Open Source AI](l/opensource-ai.md) | 106,436 | +4,126 |
+| 1 | [rea](r/morluto~rea.md) | [Awesome Open Source AI](l/opensource-ai.md) | 256,969 | +237,952 |
+| 2 | [VoiceStudio](r/debpalash~voicestudio.md) | [Awesome Open Source AI](l/opensource-ai.md) | 67,775 | +12,843 |
+| 3 | [skills](r/mattpocock~skills.md) | [awesome-agent-skills](l/agent-skills.md) | 292,024 | +11,560 |
+| 4 | [diagram-design](r/cathrynlavery~diagram-design.md) | [awesome-claude-code](l/claude-code.md) | 55,633 | +10,090 |
+| 5 | [ghidra](https://github.com/NationalSecurityAgency/ghidra) | [awesome-incident-response](l/incident-response.md) | 88,089 | +6,482 |
+| 6 | [orca](r/stablyai~orca.md) | [Awesome Open Source AI](l/opensource-ai.md) | 92,957 | +5,410 |
+| 7 | [hyperframes](r/heygen-com~hyperframes.md) | [Awesome Open Source AI](l/opensource-ai.md) | 64,069 | +5,190 |
+| 8 | [pentagi](r/vxcontrol~pentagi.md) | [Awesome Open Source AI](l/opensource-ai.md) | 30,228 | +4,898 |
+| 9 | [ECC](r/affaan-m~ecc.md) | [Awesome Open Source AI](l/opensource-ai.md) | 279,832 | +4,628 |
+| 10 | [archify](r/tt-a1i~archify.md) | [Awesome Open Source AI](l/opensource-ai.md) | 83,849 | +4,243 |
 
 ## All Awesome Lists
 
 | List | Description | Stars | 7d |
 |------|-------------|-------|----|
-| [awesome](l/awesome.md) | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chan | 518,864 | +3,018 |
-| [awesome-selfhosted](l/selfhosted.md) | A list of Free Software network services and web applications which can be hosted on your own servers | 326,405 | +1,889 |
-| [awesome-mac](l/mac.md) |  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different ca | 116,090 | +515 |
-| [awesome-claude-code](l/claude-code.md) | A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion | 55,655 | +466 |
-| [awesome-claude-skills](l/claude-skills.md) | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | 77,065 | +426 |
-| [awesome-mcp-servers](l/mcp-servers.md) | A collection of MCP servers. | 96,316 | +419 |
-| [awesome-agent-skills](l/agent-skills.md) | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex | 35,686 | +380 |
-| [awesome-osint](l/osint.md) | 😱 A curated list of amazingly awesome OSINT | 30,215 | +203 |
-| [Awesome AI Agents](l/ai-agents.md) | A list of AI autonomous agents | 30,436 | +147 |
-| [awesome-nodejs](l/nodejs.md) | ⚡ Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSE | 67,112 | +86 |
-| [awesome-github-profile-readme](l/github-profile-readme.md) | 😎 A curated list of awesome GitHub Profile which updates in real time  | 31,334 | +60 |
-| [awesome-docker](l/docker.md) | 🐳 A curated list of Docker resources and projects | 37,032 | +55 |
-| [awesome-machine-learning](l/machine-learning.md) | A curated list of awesome Machine Learning frameworks, libraries and software. | 74,581 | +50 |
-| [awesome-shell](l/shell.md) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | 37,783 | +47 |
-| [Awesome Open Source AI](l/opensource-ai.md) | Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated. | 4,884 | +41 |
-| [awesome-cli-apps](l/cli-apps.md) | 🖥 📊 🕹 🛠 A curated list of command line apps | 20,543 | +38 |
-| [Awesome local LLM](l/local-llm.md) | A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally | 2,967 | +30 |
-| [awesome-cto](l/cto.md) | A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups | 35,585 | +26 |
-| [awesome-tunneling](l/tunneling.md) | List of ngrok, Cloudflare Tunnel, Tailscale, and ZeroTier alternatives and other tunneling software and services. Focus  | 21,943 | +22 |
-| [awesome-neovim](l/neovim.md) | Collections of awesome neovim plugins. | 21,483 | +22 |
-| [awesome-actions](l/actions.md) | A curated list of awesome actions to use on GitHub | 28,311 | +20 |
-| [awesome-arr](l/arr.md) | A collection of *arrs and related stuff. | 4,410 | +19 |
-| [awesome-ai-in-finance](l/ai-in-finance.md) | 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market. | 6,660 | +16 |
-| [awesome-db-tools](l/db-tools.md) | Everything that makes working with databases easier | 5,334 | +12 |
-| [Awesome-Linux-Software](l/linux-software.md) | 🐧 A list of awesome Linux softwares  | 25,633 | +11 |
-| [awesome-nestjs](l/nestjs.md) | A curated list of awesome things related to NestJS 😎 | 13,173 | +8 |
-| [awesome-postgres](l/postgres.md) | A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql | 12,114 | +7 |
-| [awesome-zsh-plugins](l/zsh-plugins.md) | A collection of ZSH frameworks, plugins, themes and tutorials. | 18,056 | +7 |
+| [awesome](l/awesome.md) | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chan | 519,251 | +2,924 |
+| [awesome-selfhosted](l/selfhosted.md) | A list of Free Software network services and web applications which can be hosted on your own servers | 326,807 | +2,021 |
+| [awesome-mac](l/mac.md) |  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different ca | 116,190 | +539 |
+| [awesome-claude-code](l/claude-code.md) | A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion | 55,735 | +499 |
+| [awesome-claude-skills](l/claude-skills.md) | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | 77,149 | +455 |
+| [awesome-mcp-servers](l/mcp-servers.md) | A collection of MCP servers. | 96,367 | +446 |
+| [awesome-agent-skills](l/agent-skills.md) | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex | 35,753 | +390 |
+| [awesome-osint](l/osint.md) | 😱 A curated list of amazingly awesome OSINT | 30,249 | +216 |
+| [Awesome AI Agents](l/ai-agents.md) | A list of AI autonomous agents | 30,447 | +149 |
+| [awesome-nodejs](l/nodejs.md) | ⚡ Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSE | 67,124 | +94 |
+| [awesome-docker](l/docker.md) | 🐳 A curated list of Docker resources and projects | 37,040 | +56 |
+| [awesome-github-profile-readme](l/github-profile-readme.md) | 😎 A curated list of awesome GitHub Profile which updates in real time  | 31,343 | +56 |
+| [awesome-shell](l/shell.md) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | 37,786 | +45 |
+| [awesome-machine-learning](l/machine-learning.md) | A curated list of awesome Machine Learning frameworks, libraries and software. | 74,587 | +43 |
+| [Awesome Open Source AI](l/opensource-ai.md) | Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated. | 4,889 | +42 |
+| [awesome-cli-apps](l/cli-apps.md) | 🖥 📊 🕹 🛠 A curated list of command line apps | 20,546 | +39 |
+| [awesome-cto](l/cto.md) | A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups | 35,591 | +28 |
+| [Awesome local LLM](l/local-llm.md) | A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally | 2,968 | +27 |
+| [awesome-actions](l/actions.md) | A curated list of awesome actions to use on GitHub | 28,317 | +23 |
+| [awesome-arr](l/arr.md) | A collection of *arrs and related stuff. | 4,416 | +23 |
+| [awesome-neovim](l/neovim.md) | Collections of awesome neovim plugins. | 21,489 | +21 |
+| [awesome-ai-in-finance](l/ai-in-finance.md) | 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market. | 6,663 | +18 |
+| [awesome-tunneling](l/tunneling.md) | List of ngrok, Cloudflare Tunnel, Tailscale, and ZeroTier alternatives and other tunneling software and services. Focus  | 21,942 | +16 |
+| [awesome-db-tools](l/db-tools.md) | Everything that makes working with databases easier | 5,335 | +13 |
 | [awesome-playwright](l/playwright.md) | A curated list of awesome tools, utils and projects using Playwright | 1,596 | +7 |
-| [awesome-opensource-email](l/opensource-email.md) | Awesome Opensource Email Resources | 1,228 | +4 |
-| [awesome-tailwindcss](l/tailwindcss.md) | 😎 Awesome things related to Tailwind CSS | 15,199 | +3 |
-| [awesome-nextjs](l/nextjs.md) | 📔 📚 A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for un | 11,105 | +3 |
-| [awesome-vite](l/vite.md) | ⚡️ A curated list of awesome things related to Vite.js | 17,267 | +3 |
-| [awesome-linux-containers](l/linux-containers.md) | A curated list of awesome Linux Containers frameworks, libraries and software | 2,106 | +2 |
+| [Awesome-Linux-Software](l/linux-software.md) | 🐧 A list of awesome Linux softwares  | 25,631 | +6 |
+| [awesome-tailwindcss](l/tailwindcss.md) | 😎 Awesome things related to Tailwind CSS | 15,200 | +6 |
+| [awesome-zsh-plugins](l/zsh-plugins.md) | A collection of ZSH frameworks, plugins, themes and tutorials. | 18,057 | +5 |
+| [awesome-postgres](l/postgres.md) | A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql | 12,113 | +5 |
+| [awesome-nestjs](l/nestjs.md) | A curated list of awesome things related to NestJS 😎 | 13,172 | +5 |
+| [awesome-opensource-email](l/opensource-email.md) | Awesome Opensource Email Resources | 1,228 | +3 |
+| [awesome-nextjs](l/nextjs.md) | 📔 📚 A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for un | 11,104 | +3 |
+| [awesome-linux-containers](l/linux-containers.md) | A curated list of awesome Linux Containers frameworks, libraries and software | 2,107 | +3 |
 | [awesome-ruby](l/ruby.md) | 💎 A collection of awesome Ruby libraries, tools, frameworks and software | 14,169 | +2 |
+| [awesome-vite](l/vite.md) | ⚡️ A curated list of awesome things related to Vite.js | 17,267 | +1 |
 | [Awesome Immich](l/immich.md) | Sites and packages for Immich | 18 | +0 |
-| [awesome-piracy](l/piracy.md) | A curated list of awesome warez and piracy links | 26,914 | +0 |
+| [awesome-piracy](l/piracy.md) | A curated list of awesome warez and piracy links | 26,913 | -2 |
 
 ---
-*Updated: 2026-10-14 | [View live site ↗](https://patrickclery.com/awesomer/)*
+*Updated: 2026-10-15 | [View live site ↗](https://patrickclery.com/awesomer/)*
