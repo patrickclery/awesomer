@@ -1,0 +1,18 @@
+# blacktwin/JBOPS
+
+> Just a Bunch Of Plex Scripts
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/blacktwin/JBOPS) | [Live site ↗](https://patrickclery.com/awesomer/r/blacktwin~jbops/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,925 | -1 | +0 | +11 | 2025-11-05 |
+
+## Found In
+
+- [awesome-piracy](../l/piracy.md) / Plex Scripts and Tools
+
+---
+*Updated: 2026-10-17 | [View live site ↗](https://patrickclery.com/awesomer/r/blacktwin~jbops/)*

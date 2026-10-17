@@ -1,0 +1,18 @@
+# denolib/awesome-deno
+
+> Curated list of awesome things related to Deno
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/denolib/awesome-deno) | [Live site ↗](https://patrickclery.com/awesomer/r/denolib~awesome-deno/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,412 | +2 | +3 | +0 | 2026-10-13 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Platforms
+
+---
+*Updated: 2026-10-17 | [View live site ↗](https://patrickclery.com/awesomer/r/denolib~awesome-deno/)*

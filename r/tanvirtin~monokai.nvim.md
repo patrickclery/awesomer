@@ -1,0 +1,18 @@
+# tanvirtin/monokai.nvim
+
+> Monokai theme for Neovim written in Lua.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/tanvirtin/monokai.nvim) | [Live site ↗](https://patrickclery.com/awesomer/r/tanvirtin~monokai.nvim/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 388 | +0 | -5 | +1 | 2026-10-11 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / Colorscheme
+
+---
+*Updated: 2026-10-17 | [View live site ↗](https://patrickclery.com/awesomer/r/tanvirtin~monokai.nvim/)*

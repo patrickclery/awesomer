@@ -1,0 +1,18 @@
+# RipMeApp/ripme
+
+> Downloads albums from the web in bulk for archive purposes
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/RipMeApp/ripme) | [Live site ↗](https://patrickclery.com/awesomer/r/ripmeapp~ripme/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,136 | +6 | +17 | +34 | 2026-08-16 |
+
+## Found In
+
+- [awesome-piracy](../l/piracy.md) / DDL Tools
+
+---
+*Updated: 2026-10-17 | [View live site ↗](https://patrickclery.com/awesomer/r/ripmeapp~ripme/)*
