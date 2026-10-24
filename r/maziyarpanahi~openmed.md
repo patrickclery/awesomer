@@ -1,0 +1,18 @@
+# maziyarpanahi/openmed
+
+> Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. 2,200+ medical models, 
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/maziyarpanahi/openmed) | [Live site ↗](https://patrickclery.com/awesomer/r/maziyarpanahi~openmed/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 5,704 | +10 | +326 | +1,734 | 2026-10-23 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Medical Imaging & Healthcare AI
+
+---
+*Updated: 2026-10-24 | [View live site ↗](https://patrickclery.com/awesomer/r/maziyarpanahi~openmed/)*

@@ -1,0 +1,18 @@
+# wyattjoh/jmap-mcp
+
+> A Model Context Protocol (MCP) server that provides tools for interacting with JMAP (JSON Meta Application Protocol) ema
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/wyattjoh/jmap-mcp) | [Live site ↗](https://patrickclery.com/awesomer/r/wyattjoh~jmap-mcp/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 178 | +2 | +2 | +4 | 2026-10-22 |
+
+## Found In
+
+- [awesome-mcp-servers](../l/mcp-servers.md) / Communication
+
+---
+*Updated: 2026-10-24 | [View live site ↗](https://patrickclery.com/awesomer/r/wyattjoh~jmap-mcp/)*

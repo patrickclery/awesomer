@@ -1,0 +1,18 @@
+# XargonWan/RetroDECK
+
+> RetroDECK is a powerful all-in-one retro gaming platform designed for handheld gaming PCs like the Steam Deck, full Linu
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/XargonWan/RetroDECK) | [Live site ↗](https://patrickclery.com/awesomer/r/xargonwan~retrodeck/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,295 | +7 | +29 | +55 | 2026-10-16 |
+
+## Found In
+
+- [Awesome-Linux-Software](../l/linux-software.md) / Games
+
+---
+*Updated: 2026-10-24 | [View live site ↗](https://patrickclery.com/awesomer/r/xargonwan~retrodeck/)*

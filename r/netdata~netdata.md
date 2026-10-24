@@ -1,0 +1,18 @@
+# netdata/netdata
+
+> The fastest path to AI-powered full stack observability, even for lean teams.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/netdata/netdata) | [Live site ↗](https://patrickclery.com/awesomer/r/netdata~netdata/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 81,113 | +129 | +473 | +1,273 | 2026-10-24 |
+
+## Found In
+
+- [Awesome-Linux-Software](../l/linux-software.md) / Utilities
+
+---
+*Updated: 2026-10-24 | [View live site ↗](https://patrickclery.com/awesomer/r/netdata~netdata/)*
