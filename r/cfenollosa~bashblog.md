@@ -1,0 +1,18 @@
+# cfenollosa/bashblog
+
+> A single Bash script to create blogs. Download, run, write, done!
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/cfenollosa/bashblog) | [Live site ↗](https://patrickclery.com/awesomer/r/cfenollosa~bashblog/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,933 | +1 | +0 | +6 | 2026-10-24 |
+
+## Found In
+
+- [awesome-shell](../l/shell.md) / Applications
+
+---
+*Updated: 2026-10-31 | [View live site ↗](https://patrickclery.com/awesomer/r/cfenollosa~bashblog/)*

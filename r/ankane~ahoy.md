@@ -1,0 +1,18 @@
+# ankane/ahoy
+
+> Simple, powerful, first-party analytics for Rails
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/ankane/ahoy) | [Live site ↗](https://patrickclery.com/awesomer/r/ankane~ahoy/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,485 | +0 | +3 | +15 | 2026-10-22 |
+
+## Found In
+
+- [awesome-ruby](../l/ruby.md) / Analytics
+
+---
+*Updated: 2026-10-31 | [View live site ↗](https://patrickclery.com/awesomer/r/ankane~ahoy/)*

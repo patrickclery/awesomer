@@ -1,0 +1,18 @@
+# gesellix/docker-client
+
+> A Docker client for Java written in Kotlin and Groovy
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/gesellix/docker-client) | [Live site ↗](https://patrickclery.com/awesomer/r/gesellix~docker-client/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 123 | +0 | +0 | +0 | 2026-10-28 |
+
+## Found In
+
+- [awesome-docker](../l/docker.md) / Development with Docker
+
+---
+*Updated: 2026-10-31 | [View live site ↗](https://patrickclery.com/awesomer/r/gesellix~docker-client/)*

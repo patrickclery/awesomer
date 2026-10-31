@@ -1,0 +1,18 @@
+# liquibase/liquibase
+
+> Main Liquibase Source
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/liquibase/liquibase) | [Live site ↗](https://patrickclery.com/awesomer/r/liquibase~liquibase/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 5,638 | +5 | +20 | +67 | 2026-10-31 |
+
+## Found In
+
+- [awesome-db-tools](../l/db-tools.md) / Schema
+
+---
+*Updated: 2026-10-31 | [View live site ↗](https://patrickclery.com/awesomer/r/liquibase~liquibase/)*
