@@ -89,9 +89,16 @@
     ],
     "rootDir": "src",
     "testRegex": ".*\\.spec\\.ts$",
-    "extensionsToTreatAsEsm": [".ts"],
+    "extensionsToTreatAsEsm": [
+      ".ts"
+    ],
     "transform": {
-      "^.+\\.ts$": ["ts-jest", { "useESM": true }]
+      "^.+\\.ts$": [
+        "ts-jest",
+        {
+          "useESM": true
+        }
+      ]
     },
     "moduleNameMapper": {
       "^(\\.\\.?/.*)\\.js$": "$1"
@@ -101,5 +108,14 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "allowScripts": {
+    "@prisma/engines@7.4.0": true,
+    "prisma@7.4.0": true,
+    "@swc/core@1.15.11": true,
+    "esbuild@0.27.3": true,
+    "unrs-resolver@1.11.1": true,
+    "@nestjs/core@11.1.13": true,
+    "@scarf/scarf@1.4.0": true
   }
 }
