@@ -44,8 +44,11 @@ type SyncServiceInstance = InstanceType<typeof SyncService>;
 
 jest.setTimeout(60_000);
 
+const API_ROOT = process.cwd();
+
 const SEED_FILES = ['README.md', 'docs/hero.png', 'l/claude.md', 'r/keep~me.md', 'r/gone~page.md'];
 const ENV_SENTINEL = 'ENV_SENTINEL_MUST_NOT_PUBLISH';
+const LIVE = 'https://patrickclery.com/awesomer';
 
 interface Fixture {
   origin: string;
@@ -152,9 +155,9 @@ function wirePipeline(fx: Fixture): void {
 
 function generatorPages(token: string): Map<string, string> {
   return new Map([
-    ['README.md', `# Home ${token}\n`],
-    ['l/claude.md', `# Claude ${token}\n`],
-    ['r/owner~repo.md', `# Owner/Repo ${token}\n`],
+    ['README.md', `# Home ${token}\n[Claude](l/claude.md) [Repo](r/owner~repo.md)\n`],
+    ['l/claude.md', `# Claude ${token}\n[Home](../README.md) [Repo](../r/owner~repo.md)\n${LIVE}/l/claude/\n`],
+    ['r/owner~repo.md', `# Owner/Repo ${token}\n[Claude](../l/claude.md) [Live](${LIVE}/r/Owner~Repo/)\n`],
     ['r/keep~me.md', `# Keep ${token}\n`],
   ]);
 }
@@ -308,6 +311,7 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
 
       expect(mainSha()).toBe(before);
       expect(fx.warn).toHaveBeenCalledTimes(1);
+      expect(fx.warn.mock.calls[0][0]).toMatch(/Markdown mirror skipped/);
     });
 
     it('proceeds on a first mirror, with no trees on main yet', async () => {
@@ -376,6 +380,79 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
       expect(mainTree(fx)).not.toContain('r/half-written.md');
       expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
+    });
+  });
+
+  describe('verify-markdown-mirror.mjs', () => {
+    function runChecker(): { status: number | null; report: Record<string, number> } {
+      git(fx.clone, 'fetch', 'origin', 'main', 'gh-pages');
+      const result = realChildProcess.spawnSync(
+        process.execPath,
+        [join(API_ROOT, 'scripts/verify-markdown-mirror.mjs')],
+        { cwd: fx.clone, env: process.env, encoding: 'utf-8' },
+      );
+      return { status: result.status, report: JSON.parse(result.stdout) as Record<string, number> };
+    }
+
+    beforeEach(() => {
+      fx.pages = generatorPages(`run-${randomUUID()}`);
+      wirePipeline(fx);
+    });
+
+    it('exits 0 with no violations after a pipeline run', async () => {
+      const refsBefore = git(fx.clone, 'for-each-ref');
+      await fx.service.runDailyPipeline();
+      git(fx.clone, 'fetch', 'origin', 'main', 'gh-pages');
+      const refsAfterFetch = git(fx.clone, 'for-each-ref');
+      expect(refsAfterFetch).not.toBe(refsBefore);
+
+      const { status, report } = runChecker();
+
+      expect(report.violations).toBe(0);
+      expect(status).toBe(0);
+      // The checker itself moved no ref and left nothing in the clone.
+      expect(git(fx.clone, 'for-each-ref')).toBe(refsAfterFetch);
+      expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
+    });
+
+    it('exits 1 when main was left unsynced', async () => {
+      await fx.service.deployStaticSite(fx.deployDir);
+
+      const { status, report } = runChecker();
+
+      expect(status).toBe(1);
+      expect(report.violations).toBeGreaterThan(0);
+      expect(report.r_stale_on_main).toBe(1);
+      expect(report.r_missing_on_main).toBe(1);
+      expect(report.r_content_differs).toBe(1);
+      expect(report.l_content_differs).toBe(1);
+      expect(report.readme_differs).toBe(1);
+    });
+
+    it('reports dead links and non-markdown paths on an otherwise exact mirror', async () => {
+      fx.pages.set('r/owner~repo.md', `[Gone](../l/missing.md) [Live](${LIVE}/r/owner~repo/) [Up](${LIVE}/l/claude/)\n`);
+      await fx.service.runDailyPipeline();
+      git(fx.clone, 'fetch', 'origin', 'main');
+      git(fx.clone, 'switch', '--detach', 'origin/main');
+      write(join(fx.clone, 'r/notes.txt'), 'not a page\n');
+      git(fx.clone, 'add', 'r/notes.txt');
+      git(fx.clone, 'commit', '-m', 'stray file');
+      git(fx.clone, 'push', 'origin', 'HEAD:main');
+
+      const { status, report } = runChecker();
+
+      expect(status).toBe(1);
+      expect(report).toMatchObject({
+        dead_relative_links: 1,
+        dead_live_links: 1,
+        pages_with_dead_live_links: 1,
+        non_md_on_main: 1,
+        r_stale_on_main: 0,
+        r_missing_on_main: 0,
+        r_content_differs: 0,
+        readme_differs: 0,
+        violations: 3,
+      });
     });
   });
 });
