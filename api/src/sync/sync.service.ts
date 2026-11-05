@@ -17,6 +17,8 @@ const TRENDING_PERIODS = [
   { column: 'stars90d' as const, days: 90 },
 ];
 const TOLERANCE_DAYS = 3;
+const DEPLOY_DIR = '/tmp/gh-pages-deploy';
+const MIRROR_WORKTREE_DIR = '/tmp/awesomer-readme-worktree';
 
 export type SyncStep = 'diff' | 'stats' | 'snapshots' | 'trending' | 'markdown' | 'rebuild' | 'deploy';
 
@@ -68,10 +70,10 @@ export class SyncService {
       await this.rebuildStaticSite();
 
       // Step 5: Deploy to GitHub Pages (markdown is generated inside, after rsync)
-      await this.deployStaticSite();
+      const markdownDir = await this.deployStaticSite();
 
-      // Step 6: Auto-commit README.md to main so GitHub homepage stays fresh
-      await this.commitReadmeToMain();
+      // Step 6: Mirror the markdown generated in step 5 to main
+      await this.commitReadmeToMain(markdownDir);
 
       this.logger.log('Daily pipeline completed successfully');
     } catch (error) {
@@ -727,14 +729,13 @@ export class SyncService {
     }
   }
 
-  async deployStaticSite() {
+  async deployStaticSite(deployDir: string = DEPLOY_DIR): Promise<string> {
     this.logger.log('Step 7: Deploying static site to GitHub Pages...');
     const { execSync } = await import('child_process');
     const { writeFileSync, mkdirSync, rmSync } = await import('fs');
     const path = await import('path');
     const projectRoot = path.resolve(process.cwd(), '..');
     const outDir = path.join(projectRoot, 'web', 'out');
-    const deployDir = '/tmp/gh-pages-deploy';
 
     try {
       // Clean and prepare deploy directory
@@ -773,6 +774,7 @@ export class SyncService {
       });
 
       this.logger.log('Static site deployed to gh-pages branch');
+      return deployDir;
     } catch (error) {
       this.logger.error('Static site deployment failed', error);
       throw error;
@@ -787,7 +789,7 @@ export class SyncService {
    * Non-fatal: a failure here doesn't fail the pipeline (deploy already
    * succeeded; the live site is fresh — only the GitHub repo homepage lags).
    */
-  async commitReadmeToMain() {
+  async commitReadmeToMain(markdownDir: string, worktreeDir: string = MIRROR_WORKTREE_DIR): Promise<void> {
     this.logger.log('Step 7: Committing markdown to main...');
     const { execSync } = await import('child_process');
     const fs = await import('fs');
@@ -795,7 +797,6 @@ export class SyncService {
     const projectRoot = path.resolve(process.cwd(), '..');
     const sourceReadme = path.join(projectRoot, 'README.md');
     const sourceMarkdownDir = path.join(projectRoot, 'static', 'awesomer');
-    const worktreeDir = '/tmp/awesomer-readme-worktree';
 
     try {
       // Clean any prior worktree
