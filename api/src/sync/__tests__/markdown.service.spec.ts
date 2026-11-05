@@ -16,6 +16,7 @@ import { tmpdir } from 'os';
 import { join } from 'path';
 import { jest } from '@jest/globals';
 import { MarkdownService } from '../markdown.service.js';
+import { StaticDataService } from '../static-data.service.js';
 import { PrismaService } from '../../prisma/prisma.service.js';
 
 // ---------------------------------------------------------------------------
@@ -295,10 +296,21 @@ let tmpDir: string;
 let service: MarkdownService;
 let mockPrisma: ReturnType<typeof buildMockPrisma>;
 
+/** Every repo route a page links to on the live site. */
+function liveRoutes(page: string): string[] {
+  return [...page.matchAll(/https:\/\/patrickclery\.com\/awesomer\/r\/([^/)\s]+)\//g)].map((m) => m[1]);
+}
+
 beforeEach(async () => {
   tmpDir = mkdtempSync(join(tmpdir(), 'markdown-service-test-'));
   mockPrisma = buildMockPrisma();
   service = new MarkdownService(mockPrisma as unknown as PrismaService);
+
+  // generateHomepage() also writes README.md to the parent of process.cwd().
+  // Stub cwd so that second write lands in tmpDir, never the real repo root.
+  const stubCwd = join(tmpDir, 'cwd');
+  mkdirSync(stubCwd, { recursive: true });
+  jest.spyOn(process, 'cwd').mockReturnValue(stubCwd);
 
   await service.generateAll(tmpDir);
 });
@@ -758,7 +770,23 @@ describe('D-15: repo page header uses original-case githubRepo, filename uses lo
     const repoPage = readFileSync(join(tmpDir, 'r', 'cursor-ai~cursor.md'), 'utf-8');
     // The "View on GitHub" link must point to the original-case repo URL
     expect(repoPage).toContain('https://github.com/Cursor-AI/Cursor');
-    // And the live site link uses the lowercased slug
-    expect(repoPage).toContain('https://patrickclery.com/awesomer/r/cursor-ai~cursor/');
+  });
+
+  it('both Live site links use the route the site builds, as exportRepoSlugs() returns it', async () => {
+    const repoPage = readFileSync(join(tmpDir, 'r', 'cursor-ai~cursor.md'), 'utf-8');
+    const prismaStub = {
+      categoryItem: {
+        findMany: jest.fn(() => Promise.resolve([{ githubRepo: 'Cursor-AI/Cursor' }])),
+      },
+      awesomeList: { findMany: jest.fn(() => Promise.resolve([])) },
+    };
+    const [built] = await new StaticDataService(
+      prismaStub as unknown as PrismaService,
+    ).exportRepoSlugs();
+
+    const routes = liveRoutes(repoPage);
+    expect(routes).toHaveLength(2);
+    expect(routes).toEqual([built.repoSlug, built.repoSlug]);
+    expect(routes[0]).toBe('Cursor-AI~Cursor');
   });
 });
