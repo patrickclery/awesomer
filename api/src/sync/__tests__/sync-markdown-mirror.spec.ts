@@ -13,7 +13,7 @@
  */
 
 import { randomUUID } from 'crypto';
-import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'fs';
+import { chmodSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'fs';
 import { tmpdir } from 'os';
 import { dirname, join } from 'path';
 import { jest } from '@jest/globals';
@@ -234,6 +234,148 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       expect(readFileSync(join(fx.clone, 'README.md'), 'utf-8')).toBe(cloneReadme);
       expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
       expect(existsSync(fx.worktreeDir)).toBe(false);
+    });
+  });
+
+  describe('commitReadmeToMain() safety rules', () => {
+    let generatedDir: string;
+
+    /** Replace the generated directory with a README, l/ pages and r/ pages. */
+    function generate(lPages: string[], rPages: string[], options: { readme?: boolean } = {}): void {
+      rmSync(generatedDir, { recursive: true, force: true });
+      mkdirSync(join(generatedDir, 'l'), { recursive: true });
+      mkdirSync(join(generatedDir, 'r'), { recursive: true });
+      if (options.readme !== false) write(join(generatedDir, 'README.md'), `# Home ${randomUUID()}\n`);
+      for (const page of lPages) write(join(generatedDir, 'l', page), `# ${page}\n`);
+      for (const page of rPages) write(join(generatedDir, 'r', page), `# ${page}\n`);
+    }
+
+    function pushToMain(change: () => void): void {
+      change();
+      git(fx.clone, 'add', '-A', 'README.md', 'l', 'r', 'docs');
+      git(fx.clone, 'commit', '-m', 'seed change');
+      git(fx.clone, 'push', 'origin', 'HEAD:main');
+    }
+
+    function mainSha(): string {
+      return git(fx.origin, 'rev-parse', 'main');
+    }
+
+    function mirror(): Promise<void> {
+      return fx.service.commitReadmeToMain(generatedDir, fx.worktreeDir);
+    }
+
+    beforeEach(() => {
+      generatedDir = join(root, 'generated');
+      // Four pages in r/ on main, so exactly half is two.
+      pushToMain(() => {
+        write(join(fx.clone, 'r/third~page.md'), 'seed\n');
+        write(join(fx.clone, 'r/fourth~page.md'), 'seed\n');
+      });
+    });
+
+    it('commits when exactly half of the pages in a tree are retained', async () => {
+      const before = mainSha();
+      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+
+      await mirror();
+
+      expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
+      expect(mainTree(fx)).toEqual(['README.md', 'docs/hero.png', 'l/claude.md', 'r/keep~me.md', 'r/third~page.md']);
+    });
+
+    it('stops when one fewer than half is retained, and names the tree and both counts', async () => {
+      const before = mainSha();
+      generate(['claude.md'], ['keep~me.md']);
+
+      await mirror();
+
+      expect(mainSha()).toBe(before);
+      expect(fx.warn).toHaveBeenCalledTimes(1);
+      expect(fx.warn.mock.calls[0][0]).toMatch(/r\/ generated 1 pages, main has 4/);
+      expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
+    });
+
+    it.each([
+      ['no pages in r/', ['claude.md'], [], {}],
+      ['no pages in l/', [], ['keep~me.md', 'third~page.md'], {}],
+      ['no README.md', ['claude.md'], ['keep~me.md', 'third~page.md'], { readme: false }],
+    ])('stops when the generated directory has %s', async (_label, lPages, rPages, options) => {
+      const before = mainSha();
+      generate(lPages as string[], rPages as string[], options as { readme?: boolean });
+
+      await mirror();
+
+      expect(mainSha()).toBe(before);
+      expect(fx.warn).toHaveBeenCalledTimes(1);
+    });
+
+    it('proceeds on a first mirror, with no trees on main yet', async () => {
+      pushToMain(() => {
+        rmSync(join(fx.clone, 'l'), { recursive: true });
+        rmSync(join(fx.clone, 'r'), { recursive: true });
+      });
+      generate(['claude.md'], ['owner~repo.md']);
+
+      await mirror();
+
+      expect(mainTree(fx)).toEqual(['README.md', 'docs/hero.png', 'l/claude.md', 'r/owner~repo.md']);
+      expect(fx.warn).not.toHaveBeenCalled();
+    });
+
+    it('creates no new commit when re-run with identical content', async () => {
+      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+      await mirror();
+      const after = mainSha();
+
+      await mirror();
+
+      expect(mainSha()).toBe(after);
+      expect(fx.warn).not.toHaveBeenCalled();
+    });
+
+    it('does not publish a symlink, even one named like a page', async () => {
+      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+      symlinkSync(join(fx.clone, '.env'), join(generatedDir, 'r', 'leak~env.md'));
+
+      await mirror();
+
+      expect(mainTree(fx)).not.toContain('r/leak~env.md');
+      expect(mainTree(fx)).toContain('r/keep~me.md');
+    });
+
+    it('survives a rejected push and retries from a fresh fetch on the next run', async () => {
+      const hook = join(fx.origin, 'hooks', 'pre-receive');
+      write(hook, '#!/bin/sh\nexit 1\n');
+      chmodSync(hook, 0o755);
+      const before = mainSha();
+      const cloneHead = git(fx.clone, 'rev-parse', 'HEAD');
+      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+
+      await expect(mirror()).resolves.toBeUndefined();
+
+      expect(mainSha()).toBe(before);
+      expect(git(fx.clone, 'rev-parse', 'HEAD')).toBe(cloneHead);
+      expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
+      expect(fx.warn.mock.calls[0][0]).toMatch(/non-fatal/);
+
+      rmSync(hook);
+      await mirror();
+
+      expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
+    });
+
+    it('recovers from an interrupted run that left its worktree registered', async () => {
+      git(fx.clone, 'worktree', 'add', '--detach', fx.worktreeDir, 'origin/main');
+      write(join(fx.worktreeDir, 'r/half-written.md'), 'interrupted\n');
+      const before = mainSha();
+      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+
+      await mirror();
+
+      expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
+      expect(mainTree(fx)).not.toContain('r/half-written.md');
+      expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
     });
   });
 });

@@ -127,3 +127,42 @@ describe('MH-C: runDailyPipeline() does not call generateMarkdown() standalone',
     expect(pipelineBody).not.toMatch(/await\s+this\.generateMarkdown\s*\(/);
   });
 });
+
+// ---------------------------------------------------------------------------
+// D-13: the mirror publishes the directory the same run generated
+// ---------------------------------------------------------------------------
+
+describe('D-13: commitReadmeToMain() reads the generated directory', () => {
+  let deployBody: string;
+  let pipelineBody: string;
+  let mirrorBody: string;
+
+  beforeAll(() => {
+    deployBody = extractMethodBody(src, 'deployStaticSite');
+    pipelineBody = extractMethodBody(src, 'runDailyPipeline');
+    mirrorBody = extractMethodBody(src, 'commitReadmeToMain');
+  });
+
+  it('deployStaticSite() generates into deployDir and returns it', () => {
+    expect(deployBody).toContain('this.generateMarkdown(deployDir)');
+    expect(deployBody).toContain('return deployDir');
+  });
+
+  it('runDailyPipeline() passes the deploy result to commitReadmeToMain()', () => {
+    expect(pipelineBody).toMatch(/const markdownDir = await this\.deployStaticSite\(\)/);
+    expect(pipelineBody).toContain('this.commitReadmeToMain(markdownDir)');
+  });
+
+  it('the mirror has no project-root README or staging source', () => {
+    expect(mirrorBody).not.toMatch(/static|sourceReadme|sourceMarkdownDir/);
+    expect(mirrorBody).not.toMatch(/projectRoot,\s*'README\.md'/);
+  });
+
+  it('the mirror keeps the exact pathspec', () => {
+    expect(mirrorBody).toContain("'git add -A README.md l r'");
+  });
+
+  it('the only push in the mirror is a plain push to main, with no force flag', () => {
+    expect(mirrorBody.match(/git push[^'"`]*/g)).toEqual(['git push origin HEAD:main']);
+  });
+});
