@@ -11,7 +11,7 @@
  *   3. Call service.generateAll(tmpDir) once and assert on file contents.
  */
 
-import { mkdtempSync, rmSync, readFileSync, existsSync, writeFileSync, mkdirSync } from 'fs';
+import { mkdtempSync, rmSync, readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync } from 'fs';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import { jest } from '@jest/globals';
@@ -296,9 +296,33 @@ let tmpDir: string;
 let service: MarkdownService;
 let mockPrisma: ReturnType<typeof buildMockPrisma>;
 
+// Captured at load time: beforeEach stubs process.cwd() for every test.
+const API_ROOT = process.cwd();
+
 /** Every repo route a page links to on the live site. */
 function liveRoutes(page: string): string[] {
   return [...page.matchAll(/https:\/\/patrickclery\.com\/awesomer\/r\/([^/)\s]+)\//g)].map((m) => m[1]);
+}
+
+/** Runs a fresh generation over the given Repo rows, in its own directory under tmpDir. */
+async function generateForRepos(rows: Array<typeof REPO_HOT>): Promise<string> {
+  const dir = join(tmpDir, 'repos-under-test');
+  mkdirSync(dir, { recursive: true });
+  const prisma = { ...buildMockPrisma(), repo: { findMany: jest.fn(() => Promise.resolve(rows)) } };
+  await new MarkdownService(prisma as unknown as PrismaService).generateAll(dir);
+  return dir;
+}
+
+/** The routes the site builds for the given githubRepo values. */
+async function builtRoutes(githubRepos: string[]): Promise<string[]> {
+  const prismaStub = {
+    categoryItem: {
+      findMany: jest.fn(() => Promise.resolve(githubRepos.map((githubRepo) => ({ githubRepo })))),
+    },
+    awesomeList: { findMany: jest.fn(() => Promise.resolve([])) },
+  };
+  const built = await new StaticDataService(prismaStub as unknown as PrismaService).exportRepoSlugs();
+  return built.map((b) => b.repoSlug);
 }
 
 beforeEach(async () => {
@@ -788,5 +812,67 @@ describe('D-15: repo page header uses original-case githubRepo, filename uses lo
     expect(routes).toHaveLength(2);
     expect(routes).toEqual([built.repoSlug, built.repoSlug]);
     expect(routes[0]).toBe('Cursor-AI~Cursor');
+  });
+});
+
+// ---------------------------------------------------------------------------
+// D-14: repo page Live site links follow the route the site builds
+// ---------------------------------------------------------------------------
+
+describe('D-14: repo page Live site links follow the route the site builds', () => {
+  it.each([
+    ['Foo/Bar', 'foo/bar'],
+    ['foo/bar', 'Foo/Bar'],
+  ])('rows %s then %s collapse into one file that links to a built route', async (first, second) => {
+    const dir = await generateForRepos([
+      { ...REPO_HOT, id: 20, githubRepo: first },
+      { ...REPO_HOT, id: 21, githubRepo: second },
+    ]);
+
+    expect(readdirSync(join(dir, 'r'))).toEqual(['foo~bar.md']);
+
+    const routes = liveRoutes(readFileSync(join(dir, 'r', 'foo~bar.md'), 'utf-8'));
+    const built = await builtRoutes([first, second]);
+    expect(routes).toHaveLength(2);
+    expect(routes[0]).toBe(routes[1]);
+    expect(built).toContain(routes[0]);
+  });
+
+  it('an all-lowercase repo keeps its route', () => {
+    const repoPage = readFileSync(join(tmpDir, 'r', 'owner2~tool-two.md'), 'utf-8');
+    expect(liveRoutes(repoPage)).toEqual(['owner2~tool-two', 'owner2~tool-two']);
+  });
+
+  it('a list page links to the lowercase file, and that file exists', () => {
+    const listPage = readFileSync(join(tmpDir, 'l', 'claude-code-tools.md'), 'utf-8');
+    expect(listPage).toContain('](../r/cursor-ai~cursor.md)');
+    expect(listPage).not.toContain('](../r/Cursor-AI~Cursor.md)');
+    expect(existsSync(join(tmpDir, 'l', '../r/cursor-ai~cursor.md'))).toBe(true);
+  });
+
+  it('strips markdown-breaking characters from the route', async () => {
+    const dir = await generateForRepos([{ ...REPO_HOT, githubRepo: 'Evil/repo)[x](bad' }]);
+    const routes = liveRoutes(readFileSync(join(dir, 'r', 'evil~repoxbad.md'), 'utf-8'));
+    expect(routes).toEqual(['Evil~repoxbad', 'Evil~repoxbad']);
+  });
+
+  it('rejects a githubRepo containing ..', async () => {
+    await expect(generateForRepos([{ ...REPO_HOT, githubRepo: '../../etc/passwd' }])).rejects.toThrow(
+      'Invalid githubRepo for slug',
+    );
+  });
+
+  // A cross-package import fails under this Jest ESM config, so the web route is
+  // guarded at source level: if it changes, the markdown link has to follow.
+  it('the web route and the static export still build routes by slash-to-tilde replace, keeping case', () => {
+    const routes = readFileSync(join(API_ROOT, '..', 'web', 'src', 'lib', 'routes.ts'), 'utf-8');
+    const staticData = readFileSync(join(API_ROOT, 'src', 'sync', 'static-data.service.ts'), 'utf-8');
+
+    expect(routes).toContain("`/r/${githubRepo.replace('/', '~')}`");
+    expect(routes).not.toContain('toLowerCase');
+    expect(staticData).toContain("slugs.add(i.githubRepo!.replace('/', '~'))");
+    expect(staticData).toContain("slugs.add(l.githubRepo.replace('/', '~'))");
+    expect(staticData).toContain("repoSlug: repo.githubRepo.replace('/', '~')");
+    expect(staticData).not.toContain('toLowerCase');
   });
 });
