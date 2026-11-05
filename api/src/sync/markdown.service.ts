@@ -430,6 +430,7 @@ export class MarkdownService {
     for (let i = 0; i < repos.length; i++) {
       const repo = repos[i];
       const slug = this.repoSlug(repo.githubRepo);
+      const routeSlug = this.repoRouteSlug(repo.githubRepo);
       const lines: string[] = [];
 
       // Section 1: Header (D-08, D-15)
@@ -438,7 +439,7 @@ export class MarkdownService {
       lines.push(`> ${this.escapeTableCell(repo.description || 'No description available.')}`);
       lines.push('');
       lines.push(
-        `[Home](../README.md) | [View on GitHub ↗](https://github.com/${repo.githubRepo}) | [Live site ↗](${LIVE_SITE_BASE}/r/${slug}/)`,
+        `[Home](../README.md) | [View on GitHub ↗](https://github.com/${repo.githubRepo}) | [Live site ↗](${LIVE_SITE_BASE}/r/${routeSlug}/)`,
       );
       lines.push('');
 
@@ -485,7 +486,7 @@ export class MarkdownService {
 
       // Section 4: Footer
       lines.push('---');
-      lines.push(`*Updated: ${today} | [View live site ↗](${LIVE_SITE_BASE}/r/${slug}/)*`);
+      lines.push(`*Updated: ${today} | [View live site ↗](${LIVE_SITE_BASE}/r/${routeSlug}/)*`);
       lines.push('');
 
       const content = lines.join('\n');
@@ -553,14 +554,24 @@ export class MarkdownService {
     return (delta >= 0 ? '+' : '') + delta.toLocaleString();
   }
 
-  private repoSlug(githubRepo: string): string {
+  /**
+   * Route segment of the repo's page on the live site. Keeps GitHub casing,
+   * matching repoPath() in web/src/lib/routes.ts: GitHub Pages is case-sensitive,
+   * so a lowercased route is a 404 for a mixed-case repo.
+   */
+  private repoRouteSlug(githubRepo: string): string {
     // Defense-in-depth: sanitize to prevent path traversal from malformed DB entries
-    const slug = githubRepo.toLowerCase().replace('/', '~');
-    const sanitized = slug.replace(/[^a-z0-9._~-]/g, '');
+    const slug = githubRepo.replace('/', '~');
+    const sanitized = slug.replace(/[^A-Za-z0-9._~-]/g, '');
     if (sanitized.includes('..')) {
       throw new Error(`Invalid githubRepo for slug: ${githubRepo}`);
     }
     return sanitized;
+  }
+
+  /** Filename of the repo's r/*.md page, and the target of relative links to it. */
+  private repoSlug(githubRepo: string): string {
+    return this.repoRouteSlug(githubRepo).toLowerCase();
   }
 
   /**
