@@ -111,6 +111,8 @@ function buildFixture(root: string): Fixture {
   write(join(clone, 'web/out/r/Owner~Repo/index.html'), '<html></html>\n');
   write(join(clone, 'web/out/r/foo~bar.md/index.html'), '<html></html>\n');
   write(join(clone, 'web/out/l/claude/index.html'), '<html></html>\n');
+  write(join(clone, 'web/out/r/stray.html'), '<html></html>\n');
+  write(join(clone, 'web/out/l/stray.txt'), 'built\n');
   mkdirSync(join(clone, 'api'), { recursive: true });
 
   jest.spyOn(process, 'cwd').mockReturnValue(join(clone, 'api'));
@@ -224,6 +226,8 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       expect(tree).not.toContain('.env');
       expect(tree.filter((path) => path.endsWith('index.html'))).toEqual([]);
       expect(tree.filter((path) => path.startsWith('r/foo~bar.md'))).toEqual([]);
+      expect(tree).not.toContain('r/stray.html');
+      expect(tree).not.toContain('l/stray.txt');
       for (const path of tree) expect(git(fx.origin, 'show', `main:${path}`)).not.toContain(ENV_SENTINEL);
     });
 
@@ -297,6 +301,22 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       expect(fx.warn).toHaveBeenCalledTimes(1);
       expect(fx.warn.mock.calls[0][0]).toMatch(/r\/ generated 1 pages, main has 4/);
       expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
+    });
+
+    it('stops at 2 of 5 and commits at 3 of 5, with no rounding of an odd count', async () => {
+      pushToMain(() => write(join(fx.clone, 'r/fifth~page.md'), 'seed\n'));
+      const before = mainSha();
+      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+
+      await mirror();
+
+      expect(mainSha()).toBe(before);
+      expect(fx.warn.mock.calls[0][0]).toMatch(/r\/ generated 2 pages, main has 5/);
+
+      generate(['claude.md'], ['keep~me.md', 'third~page.md', 'fourth~page.md']);
+      await mirror();
+
+      expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
     });
 
     it.each([
