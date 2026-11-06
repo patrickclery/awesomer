@@ -6,6 +6,15 @@ import { PrismaService } from '../prisma/prisma.service.js';
 import { MIN_STARS, STALE_DAYS } from '../common/constants.js';
 
 const LIVE_SITE_BASE = 'https://patrickclery.com/awesomer';
+const GH_PAGES_BLOB_BASE = 'https://github.com/patrickclery/awesomer/blob/gh-pages';
+
+/**
+ * The README for main, where the l/ and r/ pages are not published: list and
+ * repo page links target gh-pages, and every other link stays as generated.
+ */
+export function readmeForMain(content: string): string {
+  return content.replace(/\]\(([lr]\/[^)\n]+\.md)\)/g, `](${GH_PAGES_BLOB_BASE}/$1)`);
+}
 
 @Injectable()
 export class MarkdownService {

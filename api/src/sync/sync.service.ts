@@ -5,7 +5,7 @@ import { PrismaService } from '../prisma/prisma.service.js';
 import { GithubService } from './github.service.js';
 import { BackfillService } from './backfill.service.js';
 import { StaticDataService } from './static-data.service.js';
-import { MarkdownService } from './markdown.service.js';
+import { MarkdownService, readmeForMain } from './markdown.service.js';
 import { replaceEmojiShortcodes } from '../common/emoji.js';
 import { META_AWESOME_LIST_SLUG } from '../common/constants.js';
 import { getParser } from './parsers/parser-factory.js';
@@ -19,7 +19,10 @@ const TRENDING_PERIODS = [
 ];
 const TOLERANCE_DAYS = 3;
 const DEPLOY_DIR = '/tmp/gh-pages-deploy';
-const MIRROR_WORKTREE_DIR = '/tmp/awesomer-readme-worktree';
+// The Next.js payload names in a static export. Never widen this to a bare wildcard
+// on the extension: real files such as robots.txt must publish.
+const RSC_PAYLOAD_EXCLUDES = ['__next.*.txt', 'index.txt'];
+const README_WORKTREE_DIR = '/tmp/awesomer-readme-worktree';
 
 export type SyncStep = 'diff' | 'stats' | 'snapshots' | 'trending' | 'markdown' | 'rebuild' | 'deploy';
 
@@ -73,7 +76,7 @@ export class SyncService {
       // Step 5: Deploy to GitHub Pages (markdown is generated inside, after rsync)
       const markdownDir = await this.deployStaticSite();
 
-      // Step 6: Mirror the markdown generated in step 5 to main
+      // Step 6: Commit the README generated in step 5 to main. The l/ and r/ pages stay on gh-pages.
       await this.commitReadmeToMain(markdownDir);
 
       this.logger.log('Daily pipeline completed successfully');
@@ -743,8 +746,10 @@ export class SyncService {
       rmSync(deployDir, { recursive: true, force: true });
       mkdirSync(deployDir, { recursive: true });
 
-      // Copy static site build output
-      execSync(`rsync -a ${outDir}/ ${deployDir}/`, { stdio: 'inherit', timeout: 120_000 });
+      // Copy static site build output without its payload files. The removal above
+      // is what guarantees no stale payload survives from an earlier run.
+      const excludes = RSC_PAYLOAD_EXCLUDES.map((pattern) => `--exclude='${pattern}'`).join(' ');
+      execSync(`rsync -a ${excludes} "${outDir}/" "${deployDir}/"`, { stdio: 'inherit', timeout: 120_000 });
 
       // Generate markdown files AFTER rsync (preserves existing ordering per Phase 24 decision)
       await this.generateMarkdown(deployDir);
@@ -783,16 +788,16 @@ export class SyncService {
   }
 
   /**
-   * Commit the README.md and the per-list (l/) and per-repo (r/) markdown that
-   * this run generated into markdownDir to main, so the GitHub repo homepage
-   * stays in sync and every link in the README resolves. Uses an isolated
-   * worktree based on origin/main to avoid touching the user's working tree or
-   * local main.
+   * Commit the README.md that this run generated into markdownDir to main, so
+   * the GitHub repo homepage stays in sync. Its list and repo page links target
+   * gh-pages, because the l/ and r/ pages are published only there. Uses an
+   * isolated worktree based on origin/main to avoid touching the user's working
+   * tree or local main.
    * Non-fatal: a failure here doesn't fail the pipeline (deploy already
    * succeeded; the live site is fresh — only the GitHub repo homepage lags).
    */
-  async commitReadmeToMain(markdownDir: string, worktreeDir: string = MIRROR_WORKTREE_DIR): Promise<void> {
-    this.logger.log('Step 7: Committing markdown to main...');
+  async commitReadmeToMain(markdownDir: string, worktreeDir: string = README_WORKTREE_DIR): Promise<void> {
+    this.logger.log('Step 7: Committing README.md to main...');
     const { execSync } = await import('child_process');
     const fs = await import('fs');
     const path = await import('path');
@@ -807,47 +812,25 @@ export class SyncService {
       execSync('git fetch origin main', { cwd: projectRoot, timeout: 60_000 });
       execSync(`git worktree add --detach "${worktreeDir}" origin/main`, { cwd: projectRoot, timeout: 30_000 });
 
-      // Refuse a partial generation before anything is written. Replacing the
-      // trees deletes pages on public main, so a generator that lost most of its
-      // output must not take those pages with it.
+      // A symlink is not a regular file, so it counts as absent.
       if (!this.listMarkdownFiles(markdownDir).includes('README.md')) {
-        this.logger.warn(`Markdown mirror skipped: no README.md in ${markdownDir}`);
+        this.logger.warn(`README commit skipped: no README.md in ${markdownDir}`);
         return;
       }
-      for (const tree of ['l', 'r']) {
-        const generated = this.listMarkdownFiles(path.join(markdownDir, tree)).length;
-        const current = this.listMarkdownFiles(path.join(worktreeDir, tree)).length;
-        if (generated === 0 || generated * 2 < current) {
-          this.logger.warn(`Markdown mirror skipped: ${tree}/ generated ${generated} pages, main has ${current}`);
-          return;
-        }
-      }
 
-      // Copy the README generated by this run into the worktree
-      fs.copyFileSync(path.join(markdownDir, 'README.md'), path.join(worktreeDir, 'README.md'));
+      // Write the README generated by this run into the worktree
+      const generated = fs.readFileSync(path.join(markdownDir, 'README.md'), 'utf-8');
+      fs.writeFileSync(path.join(worktreeDir, 'README.md'), readmeForMain(generated));
 
-      // Replace l/ and r/ with exactly the pages this run generated, so pages
-      // that no longer qualify leave main. markdownDir also holds the built
-      // site, so only regular *.md files are copied.
-      for (const tree of ['l', 'r']) {
-        const source = path.join(markdownDir, tree);
-        const target = path.join(worktreeDir, tree);
-        fs.rmSync(target, { recursive: true, force: true });
-        fs.mkdirSync(target, { recursive: true });
-        for (const page of this.listMarkdownFiles(source)) {
-          fs.copyFileSync(path.join(source, page), path.join(target, page));
-        }
-      }
-
-      // Stage everything we manage. README + l/ + r/ only — never anything else.
-      execSync('git add -A README.md l r', { cwd: worktreeDir, stdio: 'pipe' });
+      // README.md is the only generated file main receives.
+      execSync('git add README.md', { cwd: worktreeDir, stdio: 'pipe' });
 
       // Skip if nothing changed
       const staged = execSync('git status --porcelain', { cwd: worktreeDir })
         .toString()
         .trim();
       if (!staged) {
-        this.logger.log('Markdown unchanged from origin/main; skipping auto-commit');
+        this.logger.log('README unchanged from origin/main; skipping auto-commit');
         return;
       }
 
@@ -862,9 +845,9 @@ export class SyncService {
         stdio: 'inherit',
         timeout: 300_000,
       });
-      this.logger.log(`Markdown auto-committed and pushed to main (${fileCount} files)`);
+      this.logger.log(`README auto-committed and pushed to main (${fileCount} files)`);
     } catch (error) {
-      this.logger.warn(`Markdown auto-commit failed (non-fatal): ${error}`);
+      this.logger.warn(`README auto-commit failed (non-fatal): ${error}`);
     } finally {
       try { execSync(`git worktree remove --force "${worktreeDir}"`, { cwd: projectRoot, stdio: 'pipe' }); } catch { /* ignore */ }
     }

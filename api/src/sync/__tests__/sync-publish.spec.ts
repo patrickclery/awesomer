@@ -51,9 +51,7 @@ jest.unstable_mockModule('child_process', () => ({
 }));
 
 const { SyncService } = await import('../sync.service.js');
-const { readmeForMain } = (await import('../markdown.service.js')) as unknown as {
-  readmeForMain: (content: string) => string;
-};
+const { readmeForMain } = await import('../markdown.service.js');
 type SyncServiceInstance = InstanceType<typeof SyncService>;
 
 jest.setTimeout(60_000);
