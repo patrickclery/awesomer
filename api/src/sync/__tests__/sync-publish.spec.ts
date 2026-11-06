@@ -1,5 +1,6 @@
 /**
- * D-13: the nightly mirror publishes the directory the same run generated.
+ * What the nightly run publishes: a gh-pages tree without Next.js payload files,
+ * and a commit to main that changes README.md and nothing else.
  *
  * Drives the real runDailyPipeline(), deployStaticSite() and commitReadmeToMain()
  * with real git against a bare fixture origin. Only the generator and the earlier
@@ -13,9 +14,19 @@
  */
 
 import { randomUUID } from 'crypto';
-import { chmodSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'fs';
+import {
+  chmodSync,
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readdirSync,
+  readFileSync,
+  rmSync,
+  symlinkSync,
+  writeFileSync,
+} from 'fs';
 import { tmpdir } from 'os';
-import { dirname, join } from 'path';
+import { basename, dirname, join } from 'path';
 import { jest } from '@jest/globals';
 import type { ExecSyncOptions } from 'child_process';
 
@@ -40,15 +51,22 @@ jest.unstable_mockModule('child_process', () => ({
 }));
 
 const { SyncService } = await import('../sync.service.js');
+const { readmeForMain } = (await import('../markdown.service.js')) as unknown as {
+  readmeForMain: (content: string) => string;
+};
 type SyncServiceInstance = InstanceType<typeof SyncService>;
 
 jest.setTimeout(60_000);
 
 const API_ROOT = process.cwd();
 
-const SEED_FILES = ['README.md', 'docs/hero.png', 'l/claude.md', 'r/keep~me.md', 'r/gone~page.md'];
+const SEED_FILES = ['README.md', 'docs/hero.png', 'l/claude.md', 'r/gone~page.md', 'r/keep~me.md'];
 const ENV_SENTINEL = 'ENV_SENTINEL_MUST_NOT_PUBLISH';
 const LIVE = 'https://patrickclery.com/awesomer';
+const GH_PAGES_BLOB = 'https://github.com/patrickclery/awesomer/blob/gh-pages';
+const RSC_PAYLOAD = /^(__next\..*\.txt|index\.txt)$/;
+// The directory name ends in a byte-order mark, which git quotes unless core.quotePath is off.
+const BOM_DIR = 'r/karpathy~neuraltalk﻿';
 
 interface Fixture {
   origin: string;
@@ -111,8 +129,20 @@ function buildFixture(root: string): Fixture {
   write(join(clone, 'web/out/r/Owner~Repo/index.html'), '<html></html>\n');
   write(join(clone, 'web/out/r/foo~bar.md/index.html'), '<html></html>\n');
   write(join(clone, 'web/out/l/claude/index.html'), '<html></html>\n');
+  write(join(clone, `web/out/${BOM_DIR}/index.html`), '<html></html>\n');
   write(join(clone, 'web/out/r/stray.html'), '<html></html>\n');
+  write(join(clone, 'web/out/_next/static/chunks/a.js'), 'built\n');
+  // Real text files that must publish.
   write(join(clone, 'web/out/l/stray.txt'), 'built\n');
+  write(join(clone, 'web/out/robots.txt'), 'built\n');
+  write(join(clone, 'web/out/llms.txt'), 'built\n');
+  // Next.js payload files that must not.
+  write(join(clone, 'web/out/index.txt'), 'payload\n');
+  write(join(clone, 'web/out/__next._full.txt'), 'payload\n');
+  write(join(clone, 'web/out/l/claude/index.txt'), 'payload\n');
+  write(join(clone, 'web/out/l/claude/__next.l.$d$slug.__PAGE__.txt'), 'payload\n');
+  write(join(clone, 'web/out/r/Owner~Repo/__next._tree.txt'), 'payload\n');
+  write(join(clone, `web/out/${BOM_DIR}/__next._full.txt`), 'payload\n');
   mkdirSync(join(clone, 'api'), { recursive: true });
 
   jest.spyOn(process, 'cwd').mockReturnValue(join(clone, 'api'));
@@ -133,7 +163,7 @@ function buildFixture(root: string): Fixture {
     origin,
     clone,
     deployDir: join(root, 'deploy'),
-    worktreeDir: join(root, 'mirror-worktree'),
+    worktreeDir: join(root, 'readme-worktree'),
     service,
     warn,
     pages: new Map(),
@@ -145,19 +175,19 @@ function buildFixture(root: string): Fixture {
 function wirePipeline(fx: Fixture): void {
   const service = fx.service;
   const realDeploy = service.deployStaticSite.bind(service);
-  const realMirror = service.commitReadmeToMain.bind(service);
+  const realCommit = service.commitReadmeToMain.bind(service);
   jest.spyOn(service, 'takeStarSnapshots').mockResolvedValue(undefined as never);
   jest.spyOn(service, 'computeTrending').mockResolvedValue(undefined as never);
   jest.spyOn(service, 'rebuildStaticSite').mockResolvedValue(undefined as never);
   jest.spyOn(service, 'deployStaticSite').mockImplementation(() => realDeploy(fx.deployDir));
   jest
     .spyOn(service, 'commitReadmeToMain')
-    .mockImplementation((markdownDir: string) => realMirror(markdownDir, fx.worktreeDir));
+    .mockImplementation((markdownDir: string) => realCommit(markdownDir, fx.worktreeDir));
 }
 
 function generatorPages(token: string): Map<string, string> {
   return new Map([
-    ['README.md', `# Home ${token}\n[Claude](l/claude.md) [Repo](r/owner~repo.md)\n`],
+    ['README.md', `# Home ${token}\n![Hero](docs/hero.png)\n[Claude](l/claude.md) [Repo](r/owner~repo.md)\n`],
     ['l/claude.md', `# Claude ${token}\n[Home](../README.md) [Repo](../r/owner~repo.md)\n${LIVE}/l/claude/\n`],
     ['r/owner~repo.md', `# Owner/Repo ${token}\n[Claude](../l/claude.md) [Live](${LIVE}/r/Owner~Repo/)\n`],
     ['r/keep~me.md', `# Keep ${token}\n`],
@@ -168,13 +198,47 @@ function mainTree(fx: Fixture): string[] {
   return git(fx.origin, 'ls-tree', '-r', '--name-only', 'main').split('\n').sort();
 }
 
-describe('D-13: the daily pipeline mirrors the directory it just generated', () => {
+/** The gh-pages tree with real file names: quotePath off, so a non-ASCII path is not quoted. */
+function pagesTree(fx: Fixture): string[] {
+  return git(fx.origin, '-c', 'core.quotePath=false', 'ls-tree', '-r', '--name-only', 'gh-pages').split('\n');
+}
+
+describe('readmeForMain()', () => {
+  it('points list and repo page links at the gh-pages blob URLs', () => {
+    expect(readmeForMain('[A](l/a.md) and [B](r/owner~b.md)\n')).toBe(
+      `[A](${GH_PAGES_BLOB}/l/a.md) and [B](${GH_PAGES_BLOB}/r/owner~b.md)\n`,
+    );
+  });
+
+  it('rewrites a page name that holds a byte-order mark', () => {
+    expect(readmeForMain('[N](r/karpathy~neuraltalk﻿.md)')).toBe(
+      `[N](${GH_PAGES_BLOB}/r/karpathy~neuraltalk﻿.md)`,
+    );
+  });
+
+  it('leaves everything that is not a list or repo page link alone', () => {
+    const untouched = [
+      '<img src="docs/hero.png" />',
+      '![Hero](docs/hero.png)',
+      '[Docs](docs/l/a.md)',
+      '[Up](../l/a.md)',
+      '[Text](l/a.txt)',
+      `[Live](${LIVE}/l/a/)`,
+      `[Done](${GH_PAGES_BLOB}/l/a.md)`,
+      'plain text about l/a.md and r/b.md',
+    ].join('\n');
+
+    expect(readmeForMain(untouched)).toBe(untouched);
+  });
+});
+
+describe('the daily pipeline publishes a stripped gh-pages tree and a README-only commit to main', () => {
   let root: string;
   let restoreGit: () => void;
   let fx: Fixture;
 
   beforeEach(() => {
-    root = mkdtempSync(join(tmpdir(), 'markdown-mirror-'));
+    root = mkdtempSync(join(tmpdir(), 'sync-publish-'));
     fixtureRoot = root;
     restoreGit = isolateGit(root);
     fx = buildFixture(root);
@@ -203,36 +267,92 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       cloneStatus = git(fx.clone, 'status', '--short');
       cloneHead = git(fx.clone, 'rev-parse', 'HEAD');
       cloneReadme = readFileSync(join(fx.clone, 'README.md'), 'utf-8');
+      // A payload left in the staging directory by an earlier run.
+      write(join(fx.deployDir, '__next._full.txt'), 'stale payload\n');
 
       wirePipeline(fx);
       await fx.service.runDailyPipeline();
     });
 
-    it('publishes the same per-run token to origin main and origin gh-pages', () => {
-      for (const page of ['README.md', 'l/claude.md', 'r/owner~repo.md', 'r/keep~me.md']) {
-        expect(git(fx.origin, 'show', `main:${page}`)).toContain(token);
-        expect(git(fx.origin, 'rev-parse', `main:${page}`)).toBe(git(fx.origin, 'rev-parse', `gh-pages:${page}`));
-      }
+    describe('gh-pages', () => {
+      it('holds no Next.js payload file at any depth, including under a non-ASCII directory', () => {
+        const tree = pagesTree(fx);
+
+        expect(tree.filter((path) => RSC_PAYLOAD.test(basename(path)))).toEqual([]);
+        expect(tree).toContain(`${BOM_DIR}/index.html`);
+      });
+
+      it('keeps real text files, every page, and the framework assets', () => {
+        const tree = pagesTree(fx);
+
+        for (const path of ['robots.txt', 'llms.txt', 'l/stray.txt', '_next/static/chunks/a.js']) {
+          expect(tree).toContain(path);
+        }
+        expect(tree.filter((path) => path.endsWith('index.html')).sort()).toEqual(
+          [
+            'index.html',
+            'l/claude/index.html',
+            'r/Owner~Repo/index.html',
+            'r/foo~bar.md/index.html',
+            `${BOM_DIR}/index.html`,
+          ].sort(),
+        );
+      });
+
+      it('keeps the generated list and repo pages', () => {
+        const tree = pagesTree(fx);
+
+        for (const page of ['l/claude.md', 'r/owner~repo.md', 'r/keep~me.md']) {
+          expect(tree).toContain(page);
+          expect(git(fx.origin, 'show', `gh-pages:${page}`)).toContain(token);
+        }
+      });
+
+      it('does not carry over a stale payload from the staging directory', () => {
+        expect(existsSync(join(fx.deployDir, '__next._full.txt'))).toBe(false);
+        expect(pagesTree(fx)).not.toContain('__next._full.txt');
+      });
+
+      it('gets the generated README byte for byte, with relative links', () => {
+        const published = realChildProcess
+          .execFileSync('git', ['show', 'gh-pages:README.md'], { cwd: fx.origin, env: process.env, stdio: 'pipe' })
+          .toString();
+
+        expect(published).toBe(fx.pages.get('README.md'));
+      });
     });
 
-    it('leaves main with exactly the generated pages and the untouched seed path', () => {
-      expect(mainTree(fx)).toEqual(['README.md', 'docs/hero.png', 'l/claude.md', 'r/keep~me.md', 'r/owner~repo.md']);
-    });
+    describe('main', () => {
+      it('gets a commit that changes README.md and nothing else', () => {
+        expect(git(fx.origin, 'diff', '--name-only', 'main~1', 'main')).toBe('README.md');
+      });
 
-    it('keeps the secret, the staging decoy and all built output off main', () => {
-      const tree = mainTree(fx);
-      expect(tree).not.toContain('r/gone~page.md');
-      expect(tree).not.toContain('r/decoy~stale.md');
-      expect(tree).not.toContain('.env');
-      expect(tree.filter((path) => path.endsWith('index.html'))).toEqual([]);
-      expect(tree.filter((path) => path.startsWith('r/foo~bar.md'))).toEqual([]);
-      expect(tree).not.toContain('r/stray.html');
-      expect(tree).not.toContain('l/stray.txt');
-      for (const path of tree) expect(git(fx.origin, 'show', `main:${path}`)).not.toContain(ENV_SENTINEL);
-    });
+      it('adds one commit on top of main instead of rewriting it', () => {
+        expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(seedSha);
+      });
 
-    it('adds one commit on top of main instead of rewriting it', () => {
-      expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(seedSha);
+      it('leaves the seeded pages on their seed blobs', () => {
+        for (const page of ['l/claude.md', 'r/keep~me.md', 'r/gone~page.md']) {
+          expect(git(fx.origin, 'rev-parse', `main:${page}`)).toBe(git(fx.origin, 'rev-parse', `${seedSha}:${page}`));
+        }
+      });
+
+      it('receives no generated page, secret, staging decoy or built output', () => {
+        const tree = mainTree(fx);
+
+        expect(tree).toEqual([...SEED_FILES].sort());
+        for (const path of tree) expect(git(fx.origin, 'show', `main:${path}`)).not.toContain(ENV_SENTINEL);
+      });
+
+      it('carries this run in a README whose page links target gh-pages', () => {
+        const readme = git(fx.origin, 'show', 'main:README.md');
+
+        expect(readme).toContain(token);
+        expect(readme).toContain(`[Claude](${GH_PAGES_BLOB}/l/claude.md)`);
+        expect(readme).toContain(`[Repo](${GH_PAGES_BLOB}/r/owner~repo.md)`);
+        expect(readme).not.toMatch(/\]\((?:l|r)\//);
+        expect(readme).toContain('![Hero](docs/hero.png)');
+      });
     });
 
     it('leaves the working tree of the clone unchanged', () => {
@@ -244,128 +364,77 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
     });
   });
 
+  it('no file in web/public collides with the payload names', () => {
+    const publicDir = join(API_ROOT, '..', 'web', 'public');
+    const names = (readdirSync(publicDir, { recursive: true }) as string[]).map((path) => basename(path));
+
+    expect(names.length).toBeGreaterThan(0);
+    expect(names.filter((name) => RSC_PAYLOAD.test(name))).toEqual([]);
+  });
+
   describe('commitReadmeToMain() safety rules', () => {
     let generatedDir: string;
 
-    /** Replace the generated directory with a README, l/ pages and r/ pages. */
-    function generate(lPages: string[], rPages: string[], options: { readme?: boolean } = {}): void {
-      rmSync(generatedDir, { recursive: true, force: true });
-      mkdirSync(join(generatedDir, 'l'), { recursive: true });
-      mkdirSync(join(generatedDir, 'r'), { recursive: true });
-      if (options.readme !== false) write(join(generatedDir, 'README.md'), `# Home ${randomUUID()}\n`);
-      for (const page of lPages) write(join(generatedDir, 'l', page), `# ${page}\n`);
-      for (const page of rPages) write(join(generatedDir, 'r', page), `# ${page}\n`);
-    }
-
-    function pushToMain(change: () => void): void {
-      change();
-      git(fx.clone, 'add', '-A', 'README.md', 'l', 'r', 'docs');
-      git(fx.clone, 'commit', '-m', 'seed change');
-      git(fx.clone, 'push', 'origin', 'HEAD:main');
+    function generateReadme(): void {
+      write(join(generatedDir, 'README.md'), `# Home ${randomUUID()}\n[Claude](l/claude.md)\n`);
     }
 
     function mainSha(): string {
       return git(fx.origin, 'rev-parse', 'main');
     }
 
-    function mirror(): Promise<void> {
+    function commitReadme(): Promise<void> {
       return fx.service.commitReadmeToMain(generatedDir, fx.worktreeDir);
     }
 
     beforeEach(() => {
       generatedDir = join(root, 'generated');
-      // Four pages in r/ on main, so exactly half is two.
-      pushToMain(() => {
-        write(join(fx.clone, 'r/third~page.md'), 'seed\n');
-        write(join(fx.clone, 'r/fourth~page.md'), 'seed\n');
-      });
+      mkdirSync(generatedDir, { recursive: true });
     });
 
-    it('commits when exactly half of the pages in a tree are retained', async () => {
+    it('commits the README even when the directory holds no pages', async () => {
       const before = mainSha();
-      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+      generateReadme();
 
-      await mirror();
+      await commitReadme();
 
       expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
-      expect(mainTree(fx)).toEqual(['README.md', 'docs/hero.png', 'l/claude.md', 'r/keep~me.md', 'r/third~page.md']);
+      expect(mainTree(fx)).toEqual([...SEED_FILES].sort());
+      expect(fx.warn).not.toHaveBeenCalled();
     });
 
-    it('stops when one fewer than half is retained, and names the tree and both counts', async () => {
+    it('makes no commit and warns when the directory has no README.md', async () => {
       const before = mainSha();
-      generate(['claude.md'], ['keep~me.md']);
+      write(join(generatedDir, 'l/claude.md'), '# Page\n');
 
-      await mirror();
+      await commitReadme();
 
       expect(mainSha()).toBe(before);
       expect(fx.warn).toHaveBeenCalledTimes(1);
-      expect(fx.warn.mock.calls[0][0]).toMatch(/r\/ generated 1 pages, main has 4/);
+      expect(fx.warn.mock.calls[0][0]).toMatch(/no README\.md/);
       expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
     });
 
-    it('stops at 2 of 5 and commits at 3 of 5, with no rounding of an odd count', async () => {
-      pushToMain(() => write(join(fx.clone, 'r/fifth~page.md'), 'seed\n'));
+    it('treats a symlinked README.md as absent', async () => {
       const before = mainSha();
-      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+      symlinkSync(join(fx.clone, '.env'), join(generatedDir, 'README.md'));
 
-      await mirror();
-
-      expect(mainSha()).toBe(before);
-      expect(fx.warn.mock.calls[0][0]).toMatch(/r\/ generated 2 pages, main has 5/);
-
-      generate(['claude.md'], ['keep~me.md', 'third~page.md', 'fourth~page.md']);
-      await mirror();
-
-      expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
-    });
-
-    it.each([
-      ['no pages in r/', ['claude.md'], [], {}],
-      ['no pages in l/', [], ['keep~me.md', 'third~page.md'], {}],
-      ['no README.md', ['claude.md'], ['keep~me.md', 'third~page.md'], { readme: false }],
-    ])('stops when the generated directory has %s', async (_label, lPages, rPages, options) => {
-      const before = mainSha();
-      generate(lPages as string[], rPages as string[], options as { readme?: boolean });
-
-      await mirror();
+      await commitReadme();
 
       expect(mainSha()).toBe(before);
       expect(fx.warn).toHaveBeenCalledTimes(1);
-      expect(fx.warn.mock.calls[0][0]).toMatch(/Markdown mirror skipped/);
-    });
-
-    it('proceeds on a first mirror, with no trees on main yet', async () => {
-      pushToMain(() => {
-        rmSync(join(fx.clone, 'l'), { recursive: true });
-        rmSync(join(fx.clone, 'r'), { recursive: true });
-      });
-      generate(['claude.md'], ['owner~repo.md']);
-
-      await mirror();
-
-      expect(mainTree(fx)).toEqual(['README.md', 'docs/hero.png', 'l/claude.md', 'r/owner~repo.md']);
-      expect(fx.warn).not.toHaveBeenCalled();
+      expect(fx.warn.mock.calls[0][0]).toMatch(/no README\.md/);
     });
 
     it('creates no new commit when re-run with identical content', async () => {
-      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
-      await mirror();
+      generateReadme();
+      await commitReadme();
       const after = mainSha();
 
-      await mirror();
+      await commitReadme();
 
       expect(mainSha()).toBe(after);
       expect(fx.warn).not.toHaveBeenCalled();
-    });
-
-    it('does not publish a symlink, even one named like a page', async () => {
-      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
-      symlinkSync(join(fx.clone, '.env'), join(generatedDir, 'r', 'leak~env.md'));
-
-      await mirror();
-
-      expect(mainTree(fx)).not.toContain('r/leak~env.md');
-      expect(mainTree(fx)).toContain('r/keep~me.md');
     });
 
     it('survives a rejected push and retries from a fresh fetch on the next run', async () => {
@@ -374,9 +443,9 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       chmodSync(hook, 0o755);
       const before = mainSha();
       const cloneHead = git(fx.clone, 'rev-parse', 'HEAD');
-      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+      generateReadme();
 
-      await expect(mirror()).resolves.toBeUndefined();
+      await expect(commitReadme()).resolves.toBeUndefined();
 
       expect(mainSha()).toBe(before);
       expect(git(fx.clone, 'rev-parse', 'HEAD')).toBe(cloneHead);
@@ -384,7 +453,7 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       expect(fx.warn.mock.calls[0][0]).toMatch(/non-fatal/);
 
       rmSync(hook);
-      await mirror();
+      await commitReadme();
 
       expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
     });
@@ -393,86 +462,13 @@ describe('D-13: the daily pipeline mirrors the directory it just generated', () 
       git(fx.clone, 'worktree', 'add', '--detach', fx.worktreeDir, 'origin/main');
       write(join(fx.worktreeDir, 'r/half-written.md'), 'interrupted\n');
       const before = mainSha();
-      generate(['claude.md'], ['keep~me.md', 'third~page.md']);
+      generateReadme();
 
-      await mirror();
+      await commitReadme();
 
       expect(git(fx.origin, 'rev-parse', 'main~1')).toBe(before);
       expect(mainTree(fx)).not.toContain('r/half-written.md');
       expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
-    });
-  });
-
-  describe('verify-markdown-mirror.mjs', () => {
-    function runChecker(): { status: number | null; report: Record<string, number> } {
-      git(fx.clone, 'fetch', 'origin', 'main', 'gh-pages');
-      const result = realChildProcess.spawnSync(
-        process.execPath,
-        [join(API_ROOT, 'scripts/verify-markdown-mirror.mjs')],
-        { cwd: fx.clone, env: process.env, encoding: 'utf-8' },
-      );
-      return { status: result.status, report: JSON.parse(result.stdout) as Record<string, number> };
-    }
-
-    beforeEach(() => {
-      fx.pages = generatorPages(`run-${randomUUID()}`);
-      wirePipeline(fx);
-    });
-
-    it('exits 0 with no violations after a pipeline run', async () => {
-      const refsBefore = git(fx.clone, 'for-each-ref');
-      await fx.service.runDailyPipeline();
-      git(fx.clone, 'fetch', 'origin', 'main', 'gh-pages');
-      const refsAfterFetch = git(fx.clone, 'for-each-ref');
-      expect(refsAfterFetch).not.toBe(refsBefore);
-
-      const { status, report } = runChecker();
-
-      expect(report.violations).toBe(0);
-      expect(status).toBe(0);
-      // The checker itself moved no ref and left nothing in the clone.
-      expect(git(fx.clone, 'for-each-ref')).toBe(refsAfterFetch);
-      expect(git(fx.clone, 'worktree', 'list').split('\n')).toHaveLength(1);
-    });
-
-    it('exits 1 when main was left unsynced', async () => {
-      await fx.service.deployStaticSite(fx.deployDir);
-
-      const { status, report } = runChecker();
-
-      expect(status).toBe(1);
-      expect(report.violations).toBeGreaterThan(0);
-      expect(report.r_stale_on_main).toBe(1);
-      expect(report.r_missing_on_main).toBe(1);
-      expect(report.r_content_differs).toBe(1);
-      expect(report.l_content_differs).toBe(1);
-      expect(report.readme_differs).toBe(1);
-    });
-
-    it('reports dead links and non-markdown paths on an otherwise exact mirror', async () => {
-      fx.pages.set('r/owner~repo.md', `[Gone](../l/missing.md) [Live](${LIVE}/r/owner~repo/) [Up](${LIVE}/l/claude/)\n`);
-      await fx.service.runDailyPipeline();
-      git(fx.clone, 'fetch', 'origin', 'main');
-      git(fx.clone, 'switch', '--detach', 'origin/main');
-      write(join(fx.clone, 'r/notes.txt'), 'not a page\n');
-      git(fx.clone, 'add', 'r/notes.txt');
-      git(fx.clone, 'commit', '-m', 'stray file');
-      git(fx.clone, 'push', 'origin', 'HEAD:main');
-
-      const { status, report } = runChecker();
-
-      expect(status).toBe(1);
-      expect(report).toMatchObject({
-        dead_relative_links: 1,
-        dead_live_links: 1,
-        pages_with_dead_live_links: 1,
-        non_md_on_main: 1,
-        r_stale_on_main: 0,
-        r_missing_on_main: 0,
-        r_content_differs: 0,
-        readme_differs: 0,
-        violations: 3,
-      });
     });
   });
 });

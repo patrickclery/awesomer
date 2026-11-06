@@ -129,18 +129,18 @@ describe('MH-C: runDailyPipeline() does not call generateMarkdown() standalone',
 });
 
 // ---------------------------------------------------------------------------
-// D-13: the mirror publishes the directory the same run generated
+// D-13: the commit to main is the README the same run generated
 // ---------------------------------------------------------------------------
 
-describe('D-13: commitReadmeToMain() reads the generated directory', () => {
+describe('D-13: commitReadmeToMain() commits the generated README alone', () => {
   let deployBody: string;
   let pipelineBody: string;
-  let mirrorBody: string;
+  let commitBody: string;
 
   beforeAll(() => {
     deployBody = extractMethodBody(src, 'deployStaticSite');
     pipelineBody = extractMethodBody(src, 'runDailyPipeline');
-    mirrorBody = extractMethodBody(src, 'commitReadmeToMain');
+    commitBody = extractMethodBody(src, 'commitReadmeToMain');
   });
 
   it('deployStaticSite() generates into deployDir and returns it', () => {
@@ -153,16 +153,16 @@ describe('D-13: commitReadmeToMain() reads the generated directory', () => {
     expect(pipelineBody).toContain('this.commitReadmeToMain(markdownDir)');
   });
 
-  it('the mirror has no project-root README or staging source', () => {
-    expect(mirrorBody).not.toMatch(/static|sourceReadme|sourceMarkdownDir/);
-    expect(mirrorBody).not.toMatch(/projectRoot,\s*'README\.md'/);
+  it('the commit has no project-root README or staging source', () => {
+    expect(commitBody).not.toMatch(/static|sourceReadme|sourceMarkdownDir/);
+    expect(commitBody).not.toMatch(/projectRoot,\s*'README\.md'/);
   });
 
-  it('the mirror keeps the exact pathspec', () => {
-    expect(mirrorBody).toContain("'git add -A README.md l r'");
+  it('the commit stages README.md by its exact pathspec', () => {
+    expect(commitBody).toContain("'git add README.md'");
   });
 
-  it('the only push in the mirror is a plain push to main, with no force flag', () => {
-    expect(mirrorBody.match(/git push[^'"`]*/g)).toEqual(['git push origin HEAD:main']);
+  it('the only push in the commit is a plain push to main, with no force flag', () => {
+    expect(commitBody.match(/git push[^'"`]*/g)).toEqual(['git push origin HEAD:main']);
   });
 });
