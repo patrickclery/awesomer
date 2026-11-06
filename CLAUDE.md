@@ -215,7 +215,7 @@ See `api/.env.example` for all options. Key ones:
 
 ### Key Patterns
 
-The deployment chain is: `web/out/` -> rsync -> `/tmp/gh-pages-deploy/` -> markdown generation -> git init + commit -> force-push to `gh-pages` branch.
+The deployment chain is: `web/out/` -> rsync (excluding `__next.*.txt` and `index.txt`) -> `/tmp/gh-pages-deploy/` -> markdown generation -> git init + commit -> force-push to `gh-pages` branch.
 
 **Deploy runs as the final step of the daily sync pipeline:**
 ```bash
@@ -242,18 +242,22 @@ GitHub Pages CDN uses `max-age=600` (10 min). After pushing, wait ~2 min before 
 - **Always clear `.next/` before rebuilding** after any DB changes. Stale cache causes the build to silently serve old data.
 - **Never checkout `gh-pages` locally** -- the deploy process uses a temp directory (`/tmp/gh-pages-deploy`), not the working tree.
 - **Confirm the deployed hash matches** by checking the live HTML before declaring success.
+- **`README.md` is the only generated file pushed to main.** The `l/` and `r/` pages live on gh-pages, and the README on main links to them there.
 
 ### Anti-patterns
 
 - **Running `npm run build` without `BASE_PATH=/awesomer`** -> CSS and JS 404, site renders unstyled
 - **Not clearing `.next/` after DB cleanup** -> built HTML still contains deleted items
 - **Checking out the `gh-pages` branch locally** -> confusing mix of built assets and source code in working tree
+- **Importing Next's Link component or router navigation in `web/src`** -> the deploy omits payload files, so those issue failing fetches. Use `@/components/site-link`
 
 ### Related Files
 
 - `web/next.config.ts` -- `basePath: process.env.BASE_PATH || ''` and `output: 'export'`
 - `api/src/sync/sync.service.ts` -- `deployStaticSite()` method (temp-dir git init + force-push to gh-pages)
 - `api/src/sync/sync.service.ts` -- `rebuildStaticSite()` method (sets `BASE_PATH` automatically)
+- `api/src/sync/sync.service.ts` -- `RSC_PAYLOAD_EXCLUDES` constant (payload names the deploy leaves out)
+- `web/src/components/site-link.tsx` -- `SiteLink` and `siteHref()` (plain-anchor internal links)
 
 ---
 
