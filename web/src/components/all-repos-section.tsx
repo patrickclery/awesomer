@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import Link from 'next/link';
+import Link from '@/components/site-link';
 import type { CategoryItem } from '@/lib/api';
 import { repoPath } from '@/lib/routes';
 

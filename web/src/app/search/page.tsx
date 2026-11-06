@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation';
 import { useState, useEffect, Suspense } from 'react';
-import Link from 'next/link';
+import Link from '@/components/site-link';
 import { searchGlobal } from '@/lib/api';
 import { listPath, repoPath } from '@/lib/routes';
 

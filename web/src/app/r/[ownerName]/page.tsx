@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import Link from 'next/link';
+import Link from '@/components/site-link';
 import { notFound } from 'next/navigation';
 import StarChart from './star-chart';
 import { getStaticRepoSlugs } from '@/lib/static-data';

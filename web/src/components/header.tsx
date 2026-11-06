@@ -1,19 +1,17 @@
 'use client';
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { LineChart } from 'lucide-react';
 import { GitHubIcon } from '@/components/github-icon';
+import Link, { siteHref } from '@/components/site-link';
 
 export function Header() {
-  const router = useRouter();
   const [query, setQuery] = useState('');
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
-      router.push(`/search?q=${encodeURIComponent(query.trim())}`);
+      window.location.assign(siteHref(`/search?q=${encodeURIComponent(query.trim())}`));
     }
   };
 

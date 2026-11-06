@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/site-link';
 import { getTrendingLists } from '@/lib/api';
 import type { TrendingList } from '@/lib/api';
 import { listPath } from '@/lib/routes';

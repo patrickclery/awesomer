@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/site-link';
 import { repoPath } from '@/lib/routes';
 import { Star } from 'lucide-react';
 import { ExternalGitHubLink } from '@/components/external-github-link';
