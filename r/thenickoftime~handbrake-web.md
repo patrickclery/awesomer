@@ -1,0 +1,18 @@
+# TheNickOfTime/handbrake-web
+
+> A self-hosted platform to use HandBrake on your headless devices via a bespoke web interface. Harness the processing pow
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/TheNickOfTime/handbrake-web) | [Live site ↗](https://patrickclery.com/awesomer/r/TheNickOfTime~handbrake-web/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 806 | +0 | +0 | +16 | 2026-03-27 |
+
+## Found In
+
+- [awesome-selfhosted](../l/selfhosted.md) / Automation
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/TheNickOfTime~handbrake-web/)*

@@ -1,0 +1,18 @@
+# Kav-K/GPTDiscord
+
+> A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom ind
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Kav-K/GPTDiscord) | [Live site ↗](https://patrickclery.com/awesomer/r/Kav-K~GPTDiscord/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,851 | +1 | -2 | -4 | 2026-11-01 |
+
+## Found In
+
+- [Awesome AI Agents](../l/ai-agents.md) / Open Source AI Agents
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/Kav-K~GPTDiscord/)*

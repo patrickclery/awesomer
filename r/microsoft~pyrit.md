@@ -1,0 +1,18 @@
+# microsoft/PyRIT
+
+> Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn 
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/microsoft/PyRIT) | [Live site ↗](https://patrickclery.com/awesomer/r/microsoft~PyRIT/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,763 | +45 | +171 | +500 | 2026-11-07 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Adversarial & Red-teaming Tools
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/microsoft~PyRIT/)*

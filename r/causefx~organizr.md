@@ -1,0 +1,19 @@
+# causefx/Organizr
+
+> HTPC/Homelab Services Organizer - Written in PHP
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/causefx/Organizr) | [Live site ↗](https://patrickclery.com/awesomer/r/causefx~Organizr/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 5,825 | +5 | +7 | +20 | 2026-05-19 |
+
+## Found In
+
+- [awesome-piracy](../l/piracy.md) / Dashboards and Homepages
+- [awesome-arr](../l/arr.md) / Dashboards
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/causefx~Organizr/)*

@@ -1,0 +1,18 @@
+# StarlightSearch/EmbedAnything
+
+> Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/StarlightSearch/EmbedAnything) | [Live site ↗](https://patrickclery.com/awesomer/r/StarlightSearch~EmbedAnything/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,323 | +1 | +13 | +30 | 2026-10-26 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Embedding Models
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/StarlightSearch~EmbedAnything/)*

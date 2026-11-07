@@ -1,0 +1,18 @@
+# JulianKahnert/PDF-Archiver
+
+> A tool for tagging files and archiving tasks.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/JulianKahnert/PDF-Archiver) | [Live site ↗](https://patrickclery.com/awesomer/r/JulianKahnert~PDF-Archiver/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 346 | +1 | +4 | +7 | 2026-11-07 |
+
+## Found In
+
+- [awesome-mac](../l/mac.md) / File Organization Tools
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/JulianKahnert~PDF-Archiver/)*

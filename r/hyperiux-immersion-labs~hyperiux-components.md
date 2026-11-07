@@ -1,0 +1,18 @@
+# Hyperiux-Immersion-Labs/hyperiux-components
+
+> Animation effects and interactive UI components for Next.js - CLI-installable, 75+ free MPL 2.0 effects and 100+ Pro
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Hyperiux-Immersion-Labs/hyperiux-components) | [Live site ↗](https://patrickclery.com/awesomer/r/Hyperiux-Immersion-Labs~hyperiux-components/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 108 | +3 | +64 |  | 2026-11-03 |
+
+## Found In
+
+- [awesome-mcp-servers](../l/mcp-servers.md) / Developer Tools
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/Hyperiux-Immersion-Labs~hyperiux-components/)*

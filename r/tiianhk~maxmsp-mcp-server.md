@@ -1,0 +1,18 @@
+# tiianhk/MaxMSP-MCP-Server
+
+> MCP (Model Context Protocol) Server for Max (Max/MSP/Jitter)
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/tiianhk/MaxMSP-MCP-Server) | [Live site ↗](https://patrickclery.com/awesomer/r/tiianhk~MaxMSP-MCP-Server/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 286 | +1 | +8 | +29 | 2026-05-12 |
+
+## Found In
+
+- [awesome-mcp-servers](../l/mcp-servers.md) / Coding Agents
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/tiianhk~MaxMSP-MCP-Server/)*

@@ -1,0 +1,18 @@
+# IAmCoder/awesome-lucid-dreams
+
+> A hand-picked collection of the best lucid dreaming devices, apps, research papers, books, forums, discord servers, podc
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/IAmCoder/awesome-lucid-dreams) | [Live site ↗](https://patrickclery.com/awesomer/r/IAmCoder~awesome-lucid-dreams/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 178 | +5 | +9 | +18 | 2026-10-24 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Health and Social Science
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/IAmCoder~awesome-lucid-dreams/)*

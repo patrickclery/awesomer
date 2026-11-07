@@ -1,0 +1,18 @@
+# giacomelli/GeneticSharp
+
+> GeneticSharp is a fast, extensible, multi-platform and multithreading C# Genetic Algorithm library that simplifies the d
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/giacomelli/GeneticSharp) | [Live site ↗](https://patrickclery.com/awesomer/r/giacomelli~GeneticSharp/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,376 | +0 | +2 | +6 | 2025-11-13 |
+
+## Found In
+
+- [awesome-machine-learning](../l/machine-learning.md) / .NET
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/giacomelli~GeneticSharp/)*

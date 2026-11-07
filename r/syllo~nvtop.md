@@ -1,0 +1,18 @@
+# Syllo/nvtop
+
+> GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Syllo/nvtop) | [Live site ↗](https://patrickclery.com/awesomer/r/Syllo~nvtop/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 11,127 | +15 | +71 | +231 | 2026-10-04 |
+
+## Found In
+
+- [Awesome-Linux-Software](../l/linux-software.md) / System Info / Monitoring
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/Syllo~nvtop/)*

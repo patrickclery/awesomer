@@ -1,0 +1,18 @@
+# fim-ai/fim-agent
+
+> Source-available agent platform for Global × China enterprises — wire every system through one agent core. Self-hosted, 
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/fim-ai/fim-agent) | [Live site ↗](https://patrickclery.com/awesomer/r/fim-ai~fim-agent/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,587 | +1 | +15 | +184 | 2026-11-06 |
+
+## Found In
+
+- [awesome-nextjs](../l/nextjs.md) / Apps
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/fim-ai~fim-agent/)*

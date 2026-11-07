@@ -1,0 +1,18 @@
+# MordechaiHadad/bob
+
+> A version manager for neovim
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/MordechaiHadad/bob) | [Live site ↗](https://patrickclery.com/awesomer/r/MordechaiHadad~bob/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 2,151 | +0 | +3 | +18 | 2026-10-30 |
+
+## Found In
+
+- [awesome-neovim](../l/neovim.md) / Version Manager
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/MordechaiHadad~bob/)*

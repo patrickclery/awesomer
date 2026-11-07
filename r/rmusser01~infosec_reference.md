@@ -1,0 +1,18 @@
+# rmusser01/Infosec_Reference
+
+> An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git ho
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/rmusser01/Infosec_Reference) | [Live site ↗](https://patrickclery.com/awesomer/r/rmusser01~Infosec_Reference/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 6,033 | +5 | +32 | +47 | 2026-10-26 |
+
+## Found In
+
+- [awesome-osint](../l/osint.md) / [↑](#-table-of-contents) Related Awesome Lists
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/rmusser01~Infosec_Reference/)*

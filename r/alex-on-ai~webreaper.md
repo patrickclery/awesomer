@@ -1,0 +1,18 @@
+# alex-on-ai/WebReaper
+
+> AI-native web scraper. Single binary with a bundled Claude Code skill. MIT-licensed alternative to Firecrawl.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/alex-on-ai/WebReaper) | [Live site ↗](https://patrickclery.com/awesomer/r/alex-on-ai~WebReaper/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 152 | -1 | +3 | +9 | 2026-10-04 |
+
+## Found In
+
+- [awesome-mcp-servers](../l/mcp-servers.md) / Browser Automation
+
+---
+*Updated: 2026-11-07 | [View live site ↗](https://patrickclery.com/awesomer/r/alex-on-ai~WebReaper/)*
