@@ -179,7 +179,7 @@ Prerequisites:
 - `api/.env` is filled in per [Environment Variables](#environment-variables), with `DATABASE_URL` pointing at `127.0.0.1:5432`.
 - Run `npm run build` in `api/` first. The runner imports the compiled `dist/` output, so rerun the build after pulling API changes, or the timer keeps running the old build.
 - `node` and `npm` are installed in `/usr/bin`. The unit pins `PATH` to `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin` so that version-manager shims are not used (the mise Node 22.22.1 ships a broken npm).
-- Docker with the compose plugin, and `rsync`, are installed.
+- Docker with the compose plugin is installed.
 - The pipeline pushes as `User=` with no terminal. That user needs a git identity and push access to `origin` without a prompt, for example an HTTPS remote with a stored credential (`git config --global credential.helper store`).
 
 Create the secret file from the template, then set `POSTGRES_PASSWORD` in it to the superuser password:
@@ -196,7 +196,7 @@ deploy/deploy.sh
 sudo systemctl enable --now awesomer-postgres.service awesomer-sync-snapshots.timer
 ```
 
-The helper makes the same copies as the manual commands below, never touches `/opt/awesomer/.env`, and warns when that file is missing. The manual equivalent:
+The helper runs the same `install` commands as the manual steps below: it installs `docker-compose.yml` and the three units owned by `root:root` with mode `0644`, and makes `/opt/awesomer` `root:root` `0755`. It copies nothing else, deletes nothing, never touches `/opt/awesomer/.env`, and warns when that file is missing. The manual equivalent:
 
 ```bash
 sudo install -m 0644 deploy/host/awesomer-postgres.service deploy/host/awesomer-sync-snapshots.service deploy/host/awesomer-sync-snapshots.timer /etc/systemd/system/

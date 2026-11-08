@@ -32,4 +32,4 @@ An identical copy of these files lives in the private homelab repo at `docker/aw
 
 ## Caution
 
-`deploy.sh` rsyncs this whole directory into `/opt/awesomer` with `--delete`. It excludes the secret file, `host/`, `deploy.sh`, `README.md` and `.env.example`, but any other file added here lands on the host, and anything in `/opt/awesomer` not present here is deleted. Keep the directory to these files, and never commit a real secret file.
+`deploy.sh` installs only `docker-compose.yml` into `/opt/awesomer` and the three units into `/etc/systemd/system`, all owned by `root:root` with mode `0644`. It also makes `/opt/awesomer` itself `root:root` `0755`, so a host set up by an older copy of the helper, which left these owned by the checkout user, is corrected on the next run. Other files in this directory are not copied, and nothing on the host is deleted. Never commit a real secret file here.
