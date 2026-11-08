@@ -1,0 +1,47 @@
+# Backing Postgres for the awesomer daily sync worker.
+#
+# Live copy is /opt/awesomer (deployed by ./deploy.sh); this repo dir is the
+# source of truth for everything EXCEPT .env, which exists only in /opt.
+#
+# The worker itself is NOT a container -- it is the systemd oneshot
+# awesomer-sync-snapshots.service in host/, which runs the Node pipeline out of
+# /home/patrick/github.com/patrickclery/awesomer/api against this DB.
+#
+# Postgres 18 (not 16): the restore source
+# /tank/backups/tower-rebuild-20260826-0158/tier1-service-state/dbdumps/host-pg_dumpall.sql.gz
+# was produced by PG 18's pg_dumpall and contains \restrict / \unrestrict
+# meta-commands that PG 16's psql cannot parse. 18 also matches the cluster the
+# dump came from (the pre-rebuild host PG 18).
+services:
+  awesomer-postgres:
+    image: postgres:18-alpine
+    container_name: awesomer-postgres
+    restart: "no"
+    user: "1000:1000"
+    labels:
+      # Exclude from What's Up Docker (wud) auto-updates: a stateful DB must
+      # never be auto-bumped to a new major. Pin/update this manually only.
+      - wud.watch=false
+    ports:
+      # 5432 is free on tower (arr-postgres is on 5434, immich's is unpublished).
+      # Keeping it here means awesomer/api/.env DATABASE_URL needs no change.
+      - "127.0.0.1:5432:5432"
+    environment:
+      # NOT awesomer/awesomer_platform: the pg_dumpall restore creates the
+      # awesomer role itself, carrying its original SCRAM password hash, plus
+      # the database with its original SQL_ASCII / LOCALE=C settings. Letting
+      # the image pre-create either one would collide with the dump.
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      TZ: America/Toronto
+    volumes:
+      # PG 18 images set PGDATA=/var/lib/postgresql/18/docker and declare the
+      # VOLUME one level up, so the real cluster lands in
+      # /var/lib/docker-data/awesomer/data/18/docker (NOT .../data directly,
+      # which is where PG 16 put it).
+      - /var/lib/docker-data/awesomer/data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

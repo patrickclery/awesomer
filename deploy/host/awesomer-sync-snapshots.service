@@ -1,0 +1,42 @@
+# /etc/systemd/system/awesomer-sync-snapshots.service
+#
+# The awesomer daily pipeline: diff-sync lists -> star snapshots -> trending ->
+# rebuild the Next.js static site -> force-push gh-pages -> commit regenerated
+# markdown back to main. Restored from the pre-rebuild unit captured at
+# /tank/backups/tower-rebuild-20260826-0158/tier0-critical/systemd/.
+[Unit]
+Description=awesomer daily sync pipeline (snapshots -> static site -> gh-pages)
+After=network-online.target awesomer-postgres.service
+Wants=network-online.target
+Requires=awesomer-postgres.service
+
+[Service]
+Type=oneshot
+User=patrick
+
+# MUST be the `awesomer` checkout, not `awesomer-engine`: deployStaticSite()
+# resolves its push remote with `git remote get-url origin` from
+# process.cwd()/.. , and awesomer-engine points at an archived repo (403).
+WorkingDirectory=/home/patrick/github.com/patrickclery/awesomer/api
+EnvironmentFile=/home/patrick/github.com/patrickclery/awesomer/api/.env
+
+# Pin PATH away from the mise shims: mise's node 22.22.1 ships a broken npm
+# (missing npm-cli.js), and the pipeline shells out to `npm run build` for the
+# web workspace. /usr/bin/node is 22.23.2 and works with /usr/bin/npm.
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+
+# Imports from compiled dist/ -- `npm run build` (nest build) is a hard
+# prerequisite, since tsx/SWC drops emitDecoratorMetadata and breaks Nest DI.
+ExecStart=/usr/bin/node scripts/run-daily-pipeline.js
+
+# A full run is ~26 min wall and peaks around 10 GB RSS.
+TimeoutStartSec=3600
+
+# Output goes to the journal (journalctl -u awesomer-sync-snapshots). The old
+# unit appended to /home/patrick/logs/sync-snapshots.log, which reached 772 MB
+# unrotated before the rebuild.
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

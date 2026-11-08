@@ -155,6 +155,43 @@ curl -X POST http://localhost:4000/api/sync/daily -H "Authorization: Bearer $ADM
 
 Both calls return immediately and run in the background, so follow progress in the API logs.
 
+### Running on a host (systemd)
+
+In production the nightly run is the systemd timer `awesomer-sync-snapshots.timer`, which starts the oneshot `awesomer-sync-snapshots.service` daily at 11:00 UTC. Because of `Persistent=true`, a run missed while the host was off fires at the next boot. The service runs `node scripts/run-daily-pipeline.js` from `api/`, the same runner as `npm run sync:pipeline`, against Postgres in the `awesomer-postgres` container. The files in `deploy/` are copies of what a running host uses.
+
+#### Files
+
+| File | Installed to | Purpose |
+|------|--------------|---------|
+| `deploy/host/awesomer-sync-snapshots.service` | `/etc/systemd/system/` | Oneshot with `User=`, `WorkingDirectory=` at `api/`, and `EnvironmentFile=` loading `api/.env`. It pins `PATH` to system directories, has a 1-hour timeout, and logs to the journal. |
+| `deploy/host/awesomer-sync-snapshots.timer` | `/etc/systemd/system/` | Runs the service at 11:00 UTC with `Persistent=true`. |
+| `deploy/host/awesomer-postgres.service` | `/etc/systemd/system/` | Runs `docker compose up -d` in `/opt/awesomer` after Docker is up. It refuses to start unless the data directory holds an initialized cluster (it checks for `PG_VERSION`). |
+| `deploy/docker-compose.yml` | `/opt/awesomer/` | Runs `postgres:18-alpine` on `127.0.0.1:5432` with data in `/var/lib/docker-data/awesomer/data`, and reads the superuser password from `POSTGRES_PASSWORD` in `/opt/awesomer/.env`. The app does not use that password: it connects with `DATABASE_URL` from `api/.env`. |
+
+#### Install
+
+Prerequisites:
+
+- The service unit hardcodes the checkout path and the user. For a different user or path, edit `User=`, `WorkingDirectory=` and `EnvironmentFile=` in `deploy/host/awesomer-sync-snapshots.service` before installing.
+- `api/.env` is filled in per [Environment Variables](#environment-variables), with `DATABASE_URL` pointing at `127.0.0.1:5432`.
+- Run `npm run build` in `api/` first. The runner imports the compiled `dist/` output, so rerun the build after pulling API changes, or the timer keeps running the old build.
+- `node` and `npm` are installed in `/usr/bin`. The unit pins `PATH` to `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin` so that version-manager shims are not used (the mise Node 22.22.1 ships a broken npm).
+- Docker with the compose plugin, and `rsync`, are installed.
+- The pipeline pushes as `User=` with no terminal. That user needs a git identity and push access to `origin` without a prompt, for example an HTTPS remote with a stored credential (`git config --global credential.helper store`).
+
+Create `/opt/awesomer/.env`, root-owned with mode 0600, holding `POSTGRES_PASSWORD=<superuser password>`. Then, from the repository root:
+
+```bash
+sudo install -m 0644 deploy/host/awesomer-postgres.service deploy/host/awesomer-sync-snapshots.service deploy/host/awesomer-sync-snapshots.timer /etc/systemd/system/
+sudo install -D -m 0644 deploy/docker-compose.yml /opt/awesomer/docker-compose.yml
+sudo systemctl daemon-reload
+sudo systemctl enable --now awesomer-postgres.service awesomer-sync-snapshots.timer
+```
+
+Optional first run: `sudo systemctl start --no-block awesomer-sync-snapshots.service`. Without `--no-block`, `start` waits for the whole run, about 26 minutes.
+
+New host with no database: `awesomer-postgres.service` will not start on an empty data directory, because there is no `PG_VERSION`. Create `/var/lib/docker-data/awesomer/data` owned by UID 1000, since the compose file runs Postgres as `1000:1000`. Run `sudo docker compose up -d` once in `/opt/awesomer` so the image initializes the cluster. Restore a `pg_dumpall` of the database by piping it into `psql -U postgres` inside the `awesomer-postgres` container: the dump creates the `awesomer` role and the `awesomer_platform` database, which is why the compose file does not let the image pre-create them. Then enable the units as above.
+
 ## Environment Variables
 
 See `api/.env.example` for all options. Key variables:
