@@ -22,33 +22,75 @@ Awesomer tracks GitHub stars across repositories listed in curated Awesome Lists
 ### Prerequisites
 
 - Node.js 22+
-- PostgreSQL 14+
+- npm
+- PostgreSQL 14+, running locally
+- [`just`](https://github.com/casey/just) (only needed for `just dev`)
 
 ### Setup
+
+Run from the repo root:
 
 ```bash
 # API
 cd api
-cp .env.example .env        # Configure DATABASE_URL, GITHUB_API_KEY
+cp .env.example .env        # Fill in DATABASE_URL, GITHUB_API_KEY and ADMIN_API_KEY
 npm install
 npx prisma generate
 npx prisma migrate dev
-npm run start:dev            # Runs on port 4000
 
 # Frontend
-cd web
+cd ../web
 npm install
-npm run dev                  # Runs on port 3000
+```
+
+### Run
+
+With PostgreSQL already running, start both dev servers from the repo root:
+
+```bash
+just dev
+```
+
+This starts the API (`npm run start:dev` in `api/`) on port 4000, with routes under `/api`. About 10 seconds later it starts the frontend (`npm run dev` in `web/`) on port 3000. Ctrl+C stops both.
+
+Without `just`, use two terminals:
+
+```bash
+cd api && npm run start:dev   # http://localhost:4000/api
+cd web && npm run dev         # http://localhost:3000
 ```
 
 ### Build Static Site
 
+The static build has two prerequisites:
+
+1. **The API must be running on port 4000.** Pages fetch data at build time from `NEXT_PUBLIC_API_URL`, which defaults to `http://localhost:4000/api`.
+2. **`web/data/lists.json` and `web/data/repo-slugs.json` must exist.** The list and repo pages read these files, and the build throws without them. Generate them in `api/` with `npm run build` followed by `npm run export:static` (the export script imports the compiled `dist/` code).
+
+After any database change, delete `web/.next` before rebuilding. Otherwise Next.js reuses cached page data and the output silently keeps old content. The pipeline's `rebuild` step does this on its own.
+
+#### Local build
+
+Run from `web/`:
+
 ```bash
-cd web
-BASE_PATH=/awesomer npm run build    # Outputs to web/out/
+rm -rf .next
+npm run build
+python3 -m http.server 3000 --directory out
 ```
 
-The API must be running on port 4000 during build -- Next.js fetches data at build time.
+Local builds leave `BASE_PATH` unset, so every URL is root-relative (`web/next.config.ts` falls back to an empty base path). Do not set it for local serving. Output goes to `web/out/`.
+
+#### Production build (GitHub Pages)
+
+Run from `web/`:
+
+```bash
+rm -rf .next
+BASE_PATH=/awesomer npm run build
+```
+
+Without the `BASE_PATH` prefix, every `/_next/` asset URL lacks `/awesomer` and the deployed site renders without CSS or JS. The pipeline's `rebuild` step sets it automatically, defaulting to `/awesomer`.
 
 ## Daily Sync Pipeline
 
