@@ -215,7 +215,10 @@ New host with no database: `awesomer-postgres.service` will not start on an empt
 - Logs: `journalctl -u awesomer-sync-snapshots`, with `-f` to follow or `--since today`. Reading the system journal needs sudo or membership in the `systemd-journal` group.
 - The success signal is the push. A good run force-pushes one `deploy: daily sync YYYY-MM-DD` commit (UTC date) to `gh-pages`. Check it without checking out the branch: `git fetch origin gh-pages && git log -1 --format='%ci %s' FETCH_HEAD`. `main` also gets `chore: auto-update markdown (daily sync YYYY-MM-DD, N files)`, but only when the generated README changed, so only the `gh-pages` commit proves a run happened. If that day's `gh-pages` commit is missing after the run window, read the journal.
 
-Do not keep a long-lived API process running on a host that uses the timer: its in-process cron (`0 11 * * *`, in that process's time zone) starts a second daily pipeline.
+The API's in-process cron (`@Cron('0 11 * * *')` on `runDailyPipeline()`, with no time zone set, so it uses the process's local time) is armed in every process that boots `AppModule`. That includes the runner itself. Two cases start a second pipeline alongside the timer's:
+
+- A long-lived API process on the same host. Do not keep one running on a host that uses the timer.
+- A runner still in progress at 11:00 in its own time zone. The service sets no `TZ`, so this is the host's local time, not the timer's 11:00 UTC. The scheduled 11:00 UTC run does not reach that time, but a `Persistent=true` catch-up after boot or a manual `systemctl start` can. The second pipeline runs in the same process and races the first on snapshots, the `web/` build and the `gh-pages` push. Avoid manual starts in the hour before 11:00 local time.
 
 ## Environment Variables
 
