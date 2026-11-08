@@ -167,7 +167,7 @@ In production the nightly run is the systemd timer `awesomer-sync-snapshots.time
 | `deploy/host/awesomer-sync-snapshots.service` | `/etc/systemd/system/` | Oneshot with `User=`, `WorkingDirectory=` at `api/`, and `EnvironmentFile=` loading `api/.env`. It pins `PATH` to system directories, has a 1-hour timeout, and logs to the journal. |
 | `deploy/host/awesomer-sync-snapshots.timer` | `/etc/systemd/system/` | Runs the service at 11:00 UTC with `Persistent=true`. |
 | `deploy/host/awesomer-postgres.service` | `/etc/systemd/system/` | Runs `docker compose up -d` in `/opt/awesomer` after Docker is up. It refuses to start unless the data directory holds an initialized cluster (it checks for `PG_VERSION`). |
-| `deploy/docker-compose.yml` | `/opt/awesomer/` | Runs `postgres:18-alpine` on `127.0.0.1:5432` with data in `/var/lib/docker-data/awesomer/data`, and reads the superuser password from `POSTGRES_PASSWORD` in `/opt/awesomer/.env`. The app does not use that password: it connects with `DATABASE_URL` from `api/.env`. |
+| `deploy/docker-compose.yml` | `/opt/awesomer/` | Runs `postgres:18-alpine` on `127.0.0.1:5432` with data in `/var/lib/docker-data/awesomer/data`, and passes `POSTGRES_PASSWORD` from `/opt/awesomer/.env` to the image, which uses it only to seed the superuser password when it initializes an empty data directory. A restored `pg_dumpall` sets the real password, so later edits to `.env` change nothing. The app does not use that password: it connects with `DATABASE_URL` from `api/.env`. |
 | `deploy/.env.example` | Template for `/opt/awesomer/.env` | Holds only a placeholder `POSTGRES_PASSWORD`. |
 | `deploy/deploy.sh` | Not installed | Run from the checkout. Installs the other files and runs `daemon-reload`. |
 
