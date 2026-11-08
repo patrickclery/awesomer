@@ -19,3 +19,4 @@ done
 sudo systemctl daemon-reload
 [ -f "$DEPLOY_DIR/.env" ] || echo "NOTE: $DEPLOY_DIR/.env missing -- copy .env.example and fill POSTGRES_PASSWORD"
 echo "deployed. start with: sudo systemctl enable --now awesomer-postgres awesomer-sync-snapshots.timer"
+echo "if docker-compose.yml changed on a running host, apply it with: sudo systemctl restart awesomer-postgres"
