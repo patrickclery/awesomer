@@ -124,11 +124,12 @@ Run every script from `api/`: the `rebuild` and `deploy` steps resolve `web/` re
 
 ## Deployment
 
-The nightly pipeline is `runDailyPipeline()`. Three entry points run it:
+The nightly pipeline is `runDailyPipeline()`. Four entry points run it:
 
 - `npm run sync:pipeline` with no arguments, which runs `scripts/run-daily-pipeline.js` (after `npm run build` in `api/`). The script starts its own HTTP listener on `PORT` (default 4000), because the static build fetches from the API. If an API is already listening on that port, it uses that one instead. It closes its own listener when the run finishes.
 - The in-process cron (`0 11 * * *`), while the API is running.
 - `POST /api/sync/daily`.
+- The `awesomer-sync-snapshots.timer` systemd timer, which runs `scripts/run-daily-pipeline.js` daily at 11:00 UTC. See [Running on a host (systemd)](#running-on-a-host-systemd).
 
 It runs `diff`, `snapshots`, `trending`, `rebuild`, `deploy`, then the README commit. It skips `stats`, because snapshots already refresh stats, and it generates the markdown inside `deploy`.
 
@@ -167,6 +168,8 @@ In production the nightly run is the systemd timer `awesomer-sync-snapshots.time
 | `deploy/host/awesomer-sync-snapshots.timer` | `/etc/systemd/system/` | Runs the service at 11:00 UTC with `Persistent=true`. |
 | `deploy/host/awesomer-postgres.service` | `/etc/systemd/system/` | Runs `docker compose up -d` in `/opt/awesomer` after Docker is up. It refuses to start unless the data directory holds an initialized cluster (it checks for `PG_VERSION`). |
 | `deploy/docker-compose.yml` | `/opt/awesomer/` | Runs `postgres:18-alpine` on `127.0.0.1:5432` with data in `/var/lib/docker-data/awesomer/data`, and reads the superuser password from `POSTGRES_PASSWORD` in `/opt/awesomer/.env`. The app does not use that password: it connects with `DATABASE_URL` from `api/.env`. |
+| `deploy/.env.example` | Template for `/opt/awesomer/.env` | Holds only a placeholder `POSTGRES_PASSWORD`. |
+| `deploy/deploy.sh` | Not installed | Run from the checkout. Installs the other files and runs `daemon-reload`. |
 
 #### Install
 
@@ -179,7 +182,21 @@ Prerequisites:
 - Docker with the compose plugin, and `rsync`, are installed.
 - The pipeline pushes as `User=` with no terminal. That user needs a git identity and push access to `origin` without a prompt, for example an HTTPS remote with a stored credential (`git config --global credential.helper store`).
 
-Create `/opt/awesomer/.env`, root-owned with mode 0600, holding `POSTGRES_PASSWORD=<superuser password>`. Then, from the repository root:
+Create the secret file from the template, then set `POSTGRES_PASSWORD` in it to the superuser password:
+
+```bash
+sudo mkdir -p /opt/awesomer
+sudo install -m 0600 deploy/.env.example /opt/awesomer/.env
+```
+
+Then, from the repository root, run the helper and enable the units:
+
+```bash
+deploy/deploy.sh
+sudo systemctl enable --now awesomer-postgres.service awesomer-sync-snapshots.timer
+```
+
+The helper makes the same copies as the manual commands below, never touches `/opt/awesomer/.env`, and warns when that file is missing. The manual equivalent:
 
 ```bash
 sudo install -m 0644 deploy/host/awesomer-postgres.service deploy/host/awesomer-sync-snapshots.service deploy/host/awesomer-sync-snapshots.timer /etc/systemd/system/
@@ -191,6 +208,14 @@ sudo systemctl enable --now awesomer-postgres.service awesomer-sync-snapshots.ti
 Optional first run: `sudo systemctl start --no-block awesomer-sync-snapshots.service`. Without `--no-block`, `start` waits for the whole run, about 26 minutes.
 
 New host with no database: `awesomer-postgres.service` will not start on an empty data directory, because there is no `PG_VERSION`. Create `/var/lib/docker-data/awesomer/data` owned by UID 1000, since the compose file runs Postgres as `1000:1000`. Run `sudo docker compose up -d` once in `/opt/awesomer` so the image initializes the cluster. Restore a `pg_dumpall` of the database by piping it into `psql -U postgres` inside the `awesomer-postgres` container: the dump creates the `awesomer` role and the `awesomer_platform` database, which is why the compose file does not let the image pre-create them. Then enable the units as above.
+
+#### Check runs
+
+- `systemctl status awesomer-sync-snapshots.timer` and `systemctl list-timers awesomer-sync-snapshots.timer` show the last and next trigger. `systemctl status awesomer-sync-snapshots.service` shows the last run's result: inactive with `status=0/SUCCESS` after a good run.
+- Logs: `journalctl -u awesomer-sync-snapshots`, with `-f` to follow or `--since today`. Reading the system journal needs sudo or membership in the `systemd-journal` group.
+- The success signal is the push. A good run force-pushes one `deploy: daily sync YYYY-MM-DD` commit (UTC date) to `gh-pages`. Check it without checking out the branch: `git fetch origin gh-pages && git log -1 --format='%ci %s' FETCH_HEAD`. `main` also gets `chore: auto-update markdown (daily sync YYYY-MM-DD, N files)`, but only when the generated README changed, so only the `gh-pages` commit proves a run happened. If that day's `gh-pages` commit is missing after the run window, read the journal.
+
+Do not keep a long-lived API process running on a host that uses the timer: its in-process cron (`0 11 * * *`, in that process's time zone) starts a second daily pipeline.
 
 ## Environment Variables
 
