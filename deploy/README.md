@@ -26,6 +26,10 @@ cmp deploy/docker-compose.yml /opt/awesomer/docker-compose.yml
 
 An identical copy of these files lives in the private homelab repo at `docker/awesomer/`. Update both together, or a reinstall from the stale copy silently reverts a fix.
 
+## Known issue: Postgres readiness
+
+`awesomer-postgres.service` runs `docker compose up -d`, which returns once the container is created, not once Postgres accepts connections. `After=` therefore lets the sync service start against a database that is still starting, most likely on the `Persistent=true` catch-up at boot. The oneshot has no `Restart=`, so a failed connect loses that day's run. The fix is deferred so the checked-in units stay identical to the live ones. At the next live change, switch to `ExecStart=/usr/bin/docker compose up -d --wait --wait-timeout 240`, which blocks until the compose healthcheck passes, and update the homelab copy in the same change.
+
 ## Caution
 
 `deploy.sh` rsyncs this whole directory into `/opt/awesomer` with `--delete`. It excludes the secret file, `host/`, `deploy.sh`, `README.md` and `.env.example`, but any other file added here lands on the host, and anything in `/opt/awesomer` not present here is deleted. Keep the directory to these files, and never commit a real secret file.
