@@ -124,7 +124,7 @@ Prerequisites:
 | 0 | Success; `web/out/` replaced |
 | 1 | Build failed; `web/out/` left as it was |
 | 64 | The `DATABASE_URL` host is not `localhost` or `127.0.0.1` |
-| 69 | Network `awesomer_default` missing or `awesomer-postgres` not healthy |
+| 69 | Network `awesomer_default` missing, `awesomer-postgres` not healthy, or `docker compose ps` failed |
 | 73 | `.awesomer-build/staging/` not writable by the container |
 | 74 | Build succeeded but the swap into `web/out/` failed; `web/out/` left as it was |
 | 75 | Refused: another build is running, the nightly unit is running (checked before the build and again before the swap), it is 10:30-11:45 UTC, or a previous build container remains |

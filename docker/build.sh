@@ -15,7 +15,8 @@
 # Exit codes:
 #   0   build succeeded, web/out replaced
 #   64  DATABASE_URL host is not localhost/127.0.0.1 (from the entrypoint)
-#   69  network awesomer_default missing or awesomer-postgres not healthy
+#   69  network awesomer_default missing, awesomer-postgres not healthy, or
+#       docker compose could not list the build project's containers
 #   73  staging not writable inside the container (from the entrypoint)
 #   74  build succeeded but the swap into web/out failed; web/out kept
 #   75  refused: another build holds the lock, the nightly unit is running
@@ -101,8 +102,12 @@ if [ "$health" != "healthy" ]; then
   refuse 69 "awesomer-postgres is not healthy"
 fi
 
-# 7. No leftover container from an earlier interrupted run.
-if [ -n "$(docker compose -f "$COMPOSE_FILE" ps -a -q 2>/dev/null)" ]; then
+# 7. No leftover container from an earlier interrupted run. A failed query
+#    (daemon down, api/.env missing) refuses rather than reading as "none".
+if ! leftover=$(docker compose -f "$COMPOSE_FILE" ps -a -q); then
+  refuse 69 "could not list awesomer-build containers (docker compose ps failed; is api/.env present?)"
+fi
+if [ -n "$leftover" ]; then
   refuse 75 "a previous awesomer-build container still exists; inspect it with docker compose -f $COMPOSE_FILE ps -a"
 fi
 

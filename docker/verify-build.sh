@@ -47,7 +47,19 @@ log_file() { echo "${TMPDIR:-/tmp}/awesomer-verify-$1.log"; }
 # Redacts anything that looks like a connection URL before printing.
 show_log_tail() { [ -f "$1" ] && tail -n 20 "$1" | sed -E 's#postgres(ql)?://[^[:space:]]*#<redacted-url>#g'; }
 
-no_build_container() { test -z "$(docker ps -aq --filter "label=com.docker.compose.project=$PROJECT")"; }
+# Empty-output checks must fail closed: a probe that errors (daemon down,
+# env file missing, permission denied) prints nothing, which must not count
+# as "nothing found". Each one captures output and status separately.
+no_build_container() {
+  local out
+  out=$(docker ps -aq --filter "label=com.docker.compose.project=$PROJECT") || return 1
+  [ -z "$out" ]
+}
+no_project_container() {
+  local out
+  out=$(dc ps -a -q) || return 1
+  [ -z "$out" ]
+}
 
 nightly_guard() {
   # Type=oneshot: "activating" while running, which is-active reports as
@@ -113,7 +125,7 @@ mode_static() {
           | ascii_downcase | test("caddy|redis|postgres")] | any | not)'
 
   # S5 (D-01 safety) the build project owns no container
-  check S5 "build project owns no container (ps -a empty)" test -z "$(dc ps -a -q 2>/dev/null)"
+  check S5 "build project owns no container (ps -a empty)" no_project_container
 
   # S6 (D-08) build script only rebuilds, and its API listens on loopback only
   if grep -q 'rebuildStaticSite()' "$BUILD_SCRIPT" &&
@@ -181,6 +193,11 @@ mode_static() {
 # image
 # ---------------------------------------------------------------------------
 img() { docker run --rm --entrypoint sh awesomer-build:local -c "$1"; }
+no_env_in_image() {
+  local out
+  out=$(img "find /app -path '*/node_modules' -prune -o -name '.env*' -print") || return 1
+  [ -z "$out" ]
+}
 
 mode_image() {
   local log
@@ -198,7 +215,7 @@ mode_image() {
     test -f /app/api/dist/src/sync/sync.service.js &&
     test -f /app/api/dist/src/generated/prisma/client.js &&
     test -f /app/api/scripts/build-static-site.js'
-  check I3 "no env file baked into /app" test -z "$(img "find /app -path '*/node_modules' -prune -o -name '.env*' -print" 2>/dev/null)"
+  check I3 "no env file baked into /app" no_env_in_image
   check I4 "no host build output (web/.next, web/out, web/data) in the image" img \
     '! test -e /app/web/.next && ! test -e /app/web/out && ! test -e /app/web/data'
   check I5 "no git binary in the image (D-08)" img '! command -v git'
@@ -233,13 +250,20 @@ mode_infra() {
 # ---------------------------------------------------------------------------
 # output
 # ---------------------------------------------------------------------------
+all_owned_by_me() {
+  local out
+  [ -d "$1" ] || return 1
+  out=$(find "$1" ! -user "$(id -u)" -print -quit) || return 1
+  [ -z "$out" ]
+}
+
 mode_output() {
   local since=${1:-} idx=web/out/index.html
   check O1 "index.html >= 50000 bytes" test "$(stat -c %s "$idx" 2>/dev/null || echo 0)" -ge 50000
   check O2 "web/out/r has >= 5000 entries" test "$(ls web/out/r 2>/dev/null | wc -l)" -ge 5000
   check O3 "web/out/l has >= 25 entries" test "$(ls web/out/l 2>/dev/null | wc -l)" -ge 25
   check O4 "index.html references /awesomer/_next/" grep -q '/awesomer/_next/' "$idx"
-  check O5 "every file under web/out is owned by uid $(id -u)" test -d web/out -a -z "$(find web/out ! -user "$(id -u)" -print -quit)"
+  check O5 "every file under web/out is owned by uid $(id -u)" all_owned_by_me web/out
   check O6 "no awesomer-build container remains" no_build_container
   if [ -n "$since" ]; then
     check O7 "index.html is newer than $since" test "$(stat -c %Y "$idx" 2>/dev/null || echo 0)" -gt "$since"
