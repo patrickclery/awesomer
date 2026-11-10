@@ -273,13 +273,36 @@ mode_output() {
 # ---------------------------------------------------------------------------
 # failure
 # ---------------------------------------------------------------------------
+# The guards docker/build.sh enforces, so this mode never runs as root, beside
+# a real build, or over a leftover container.
+failure_guards() {
+  local lock="${XDG_RUNTIME_DIR:-/tmp}/awesomer-build.lock"
+  if [ "$(id -u)" -eq 0 ]; then
+    echo "verify-build: refusing to run the failure mode as root"
+    exit 75
+  fi
+  # Same lock path as docker/build.sh; fd 9 stays open for the rest of the run.
+  exec 9>"$lock"
+  if ! flock -n 9; then
+    echo "verify-build: another build holds $lock; refusing"
+    exit 75
+  fi
+  if ! no_build_container; then
+    echo "verify-build: an awesomer-build container exists (or docker ps failed); refusing"
+    exit 75
+  fi
+}
+
 mode_failure() {
   nightly_guard
+  failure_guards
   local log idx=web/out/index.html before after rc
   log=$(log_file failure)
   before=$(stat -c %Y "$idx" 2>/dev/null || echo missing)
   mkdir -p .awesomer-build/staging
-  dc run --rm -e DATABASE_HOST_OVERRIDE=nonexistent-host.invalid builder >"$log" 2>&1
+  # --build: X1-X4 must exercise the current entrypoint and build script, not a
+  # stale awesomer-build:local.
+  dc run --rm --build -e DATABASE_HOST_OVERRIDE=nonexistent-host.invalid builder >"$log" 2>&1
   rc=$?
   after=$(stat -c %Y "$idx" 2>/dev/null || echo missing)
   local before_failed=$FAILED
