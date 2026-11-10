@@ -92,6 +92,64 @@ BASE_PATH=/awesomer npm run build
 
 Without the `BASE_PATH` prefix, every `/_next/` asset URL lacks `/awesomer` and the deployed site renders without CSS or JS. The pipeline's `rebuild` step sets it automatically, defaulting to `/awesomer`.
 
+#### Containerized build (Docker)
+
+This builds the API and the `/awesomer` static export inside one image, with no API process on the host. The container joins the `awesomer_default` network and reads the live database as host `awesomer-postgres`, then copies the result into `web/out/`. It never deploys: the nightly timer remains the deploy path.
+
+Run from the repo root:
+
+```bash
+bash docker/build.sh
+
+# Equivalent, if just is installed
+just docker-build
+
+# Raw command, without the preflight guards
+mkdir -p web/out
+docker compose -f docker-compose.build.yml run --rm --build builder
+```
+
+Prerequisites:
+
+- Docker with Compose v2.
+- `awesomer-postgres` running and healthy (`sudo systemctl start awesomer-postgres`).
+- `api/.env` present, with `DATABASE_URL` pointing at `localhost`. The container rewrites only the host.
+- Run it as your normal user, never with sudo.
+
+`docker/build.sh` exit codes:
+
+| Code | Meaning |
+|------|---------|
+| 0 | Success; `web/out/` replaced |
+| 1 | Build failed; `web/out/` left as it was |
+| 64 | The `DATABASE_URL` host is not `localhost` or `127.0.0.1` |
+| 69 | Network `awesomer_default` missing or `awesomer-postgres` not healthy |
+| 73 | `web/out/` not writable by the container |
+| 75 | Refused: another build is running, the nightly unit is active, it is 10:30-11:45 UTC, or a previous build container remains |
+| 77 | Run as root |
+
+Cautions:
+
+- Do not start it near 11:00 UTC. The image's API carries the same in-process cron, and the build script stops it, but the nightly and the build would still both write `web/out/`. `docker/build.sh` refuses inside 10:30-11:45 UTC.
+- `docker compose -f docker-compose.build.yml config` prints the env file's secrets unless you pass `--no-env-resolution`.
+- The top-level `name: awesomer-build` keeps compose away from the live Postgres project, which is also named `awesomer`. Never remove it, and never add a root `docker-compose.yml` or `compose.yaml`.
+
+Verify:
+
+```bash
+bash docker/verify-build.sh all       # static shape, image contents, live infra untouched
+bash docker/verify-build.sh output    # web/out looks like a good /awesomer export
+bash docker/verify-build.sh failure   # a failed build exits non-zero and leaves web/out alone
+```
+
+Preview the output under `/awesomer`, then open `http://localhost:3001/awesomer/`:
+
+```bash
+mkdir -p /tmp/srv && ln -sfn "$PWD/web/out" /tmp/srv/awesomer && python3 -m http.server 3001 --directory /tmp/srv
+```
+
+Remove the image when done: `docker image rm awesomer-build:local`.
+
 ## Daily Sync Pipeline
 
 The nightly pipeline is scheduled by the `@Cron('0 11 * * *')` decorator on `runDailyPipeline()`: `0 11 * * *`, evaluated in the API process's time zone (11:00 UTC on a UTC host). It fires only while the API process is running. See [Deployment](#deployment) for what the nightly run does.
