@@ -108,13 +108,14 @@ mode_static() {
   # S5 (D-01 safety) the build project owns no container
   check S5 "build project owns no container (ps -a empty)" test -z "$(dc ps -a -q 2>/dev/null)"
 
-  # S6 (D-08) build script only rebuilds
+  # S6 (D-08) build script only rebuilds, and its API listens on loopback only
   if grep -q 'rebuildStaticSite()' "$BUILD_SCRIPT" &&
+    grep -qF "app.listen(port, '127.0.0.1')" "$BUILD_SCRIPT" &&
     [ "$(grep -Ec '\.(run|deploy|commit)[A-Za-z]*\(' "$BUILD_SCRIPT")" = 0 ] &&
     node --check "$BUILD_SCRIPT" >/dev/null 2>&1; then
-    pass S6 "build script calls rebuildStaticSite() only and parses"
+    pass S6 "build script calls rebuildStaticSite() only, listens on 127.0.0.1, parses"
   else
-    fail S6 "build script calls rebuildStaticSite() only and parses"
+    fail S6 "build script calls rebuildStaticSite() only, listens on 127.0.0.1, parses"
   fi
 
   # S7 (D-09/D-10) Dockerfile shape

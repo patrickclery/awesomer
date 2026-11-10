@@ -11,6 +11,8 @@
  * its sanity check fails. This script calls rebuildStaticSite() directly
  * (which rethrows) and exits 0 on success or 1 on failure.
  *
+ * The listener binds 127.0.0.1 only, never every interface.
+ *
  * Unlike run-daily-pipeline.js there is no fallback when PORT is already in
  * use: borrowing another API process would build against the wrong data, so
  * a bind failure is fatal.
@@ -68,8 +70,11 @@ async function main() {
   }
   console.log(`Stopped ${stopped} in-process cron job(s); this process never runs the scheduled pipeline`);
 
-  await app.listen(port);
-  console.log(`API listening on port ${port} for SSG build`);
+  // Loopback only: the build reaches the API at http://localhost:${PORT}/api,
+  // and in the container this keeps the admin routes off the shared
+  // awesomer_default network.
+  await app.listen(port, '127.0.0.1');
+  console.log(`API listening on 127.0.0.1:${port} for SSG build`);
 
   let code = 0;
   try {

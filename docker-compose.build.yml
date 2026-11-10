@@ -17,7 +17,8 @@
 #
 # Never run `config` on this file without --no-env-resolution: plain `config`
 # prints the env file's secrets. No ports are published; the in-container API
-# on port 4000 is reachable only inside the container.
+# listens on 127.0.0.1:4000 only, so it is reachable only inside the container,
+# not from other containers on awesomer_default.
 name: awesomer-build
 
 services:
