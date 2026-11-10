@@ -1,14 +1,24 @@
 import { GithubService } from '../github.service.js';
 import { SKIP_URL } from './default-readme-parser.js';
-import type { ReadmeParser, ParseResult, ParsedCategory, ParsedItem } from './readme-parser.interface.js';
+import type {
+  ReadmeParser,
+  ParseResult,
+  ParsedCategory,
+  ParsedItem,
+} from './readme-parser.interface.js';
 
-const SKIP_HEADERS = /^(Contents?|Table of Contents?|Contributing|License|Acknowledgments?|Credits?)$/i;
+const SKIP_HEADERS =
+  /^(Contents?|Table of Contents?|Contributing|License|Acknowledgments?|Credits?)$/i;
 
 // Matches h1 through h4 headings
 const HEADER_RE = /^(#{1,4})\s+(.+)$/;
 
-// Matches bold-wrapped link items with optional badges and description:
-//   - **[Name](url)** ![badge](img) - Description text
+// Matches link items, bold-wrapped or plain, with an optional description.
+// Star badges appear in two positions upstream:
+//   - **[Name](url)** ![badge](img) - Description text   (leading, 2026-04 format;
+//                                                          skipped by this regex)
+//   - [Name](url) - Description text ![badge](img)       (trailing, current format;
+//                                                          stripped by cleanDescription)
 //   - **[Name](url)** - Description text
 //   - **[Name](url)**
 const ITEM_RE =
@@ -16,6 +26,31 @@ const ITEM_RE =
 
 // Strip leading number prefix from h3 category names: "1. Core Frameworks" -> "Core Frameworks"
 const NUMBER_PREFIX_RE = /^\d+\.\s+/;
+
+// Badge and image markup. Negated character classes only, no nested
+// quantifiers, so untrusted lines cannot trigger catastrophic backtracking.
+const LINKED_IMAGE_RE = /\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g;
+const IMAGE_RE = /!\[[^\]]*\]\([^)]*\)/g;
+const WHITESPACE_RUN_RE = /\s+/g;
+const DANGLING_SEPARATOR_RE = /(?:^|\s+)[-\u2013\u2014|]$/;
+
+/**
+ * Cleans a captured description: removes linked badges (`[![alt](img)](href)`)
+ * and then any bare image (`![alt](src)`) anywhere in the text, collapses
+ * whitespace, drops one trailing dangling separator, and returns null when
+ * nothing remains.
+ */
+export function cleanDescription(raw: string | undefined): string | null {
+  if (!raw) return null;
+  const cleaned = raw
+    .replace(LINKED_IMAGE_RE, ' ')
+    .replace(IMAGE_RE, ' ')
+    .replace(WHITESPACE_RUN_RE, ' ')
+    .trim()
+    .replace(DANGLING_SEPARATOR_RE, '')
+    .trim();
+  return cleaned || null;
+}
 
 export class OpensourceAiReadmeParser implements ReadmeParser {
   parse(content: string): ParseResult {
@@ -67,7 +102,7 @@ export class OpensourceAiReadmeParser implements ReadmeParser {
           name: itemMatch.groups.name,
           primaryUrl: `https://github.com/${parsed.owner}/${parsed.name}`,
           githubRepo: `${parsed.owner}/${parsed.name}`,
-          description: itemMatch.groups.description?.trim() || null,
+          description: cleanDescription(itemMatch.groups.description),
           categoryIndex: currentCategoryIndex,
         });
       }

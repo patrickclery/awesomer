@@ -99,7 +99,9 @@ describe('current upstream format (51a67d5)', () => {
   });
 
   it('strips an inline badge and keeps the text around it', () => {
-    expect(byName('InlineBadge')!.description).toBe('Before badge after badge.');
+    expect(byName('InlineBadge')!.description).toBe(
+      'Before badge after badge.',
+    );
   });
 
   it('sets description to null when the description is only badge markup', () => {
@@ -139,7 +141,9 @@ describe('OpensourceAiReadmeParser', () => {
     expect(pytorch).toBeDefined();
     expect(pytorch!.primaryUrl).toBe('https://github.com/pytorch/pytorch');
     expect(pytorch!.githubRepo).toBe('pytorch/pytorch');
-    expect(pytorch!.description).toBe('An open source machine learning framework.');
+    expect(pytorch!.description).toBe(
+      'An open source machine learning framework.',
+    );
   });
 
   it('sets description to null when no description after badge', () => {
@@ -193,13 +197,17 @@ describe('OpensourceAiReadmeParser', () => {
   });
 
   it('assigns items to their nearest h4 subcategory, not the parent h3', () => {
-    const deepLearningIdx = result.categories.findIndex((c) => c.name === 'Deep Learning Frameworks');
+    const deepLearningIdx = result.categories.findIndex(
+      (c) => c.name === 'Deep Learning Frameworks',
+    );
     const pytorch = result.items.find((i) => i.name === 'PyTorch');
     const tensorflow = result.items.find((i) => i.name === 'TensorFlow');
     expect(pytorch!.categoryIndex).toBe(deepLearningIdx);
     expect(tensorflow!.categoryIndex).toBe(deepLearningIdx);
 
-    const rustIdx = result.categories.findIndex((c) => c.name === 'Rust ML Frameworks');
+    const rustIdx = result.categories.findIndex(
+      (c) => c.name === 'Rust ML Frameworks',
+    );
     const candle = result.items.find((i) => i.name === 'Candle');
     expect(candle!.categoryIndex).toBe(rustIdx);
   });
