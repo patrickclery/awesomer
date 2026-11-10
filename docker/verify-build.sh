@@ -273,12 +273,13 @@ mode_output() {
 # ---------------------------------------------------------------------------
 # failure
 # ---------------------------------------------------------------------------
-# The guards docker/build.sh enforces, so this mode never runs as root, beside
+# The guards docker/build.sh enforces, so this mode never runs as root or a
+# non-1000 user (the compose file fixes the container to 1000:1000), beside
 # a real build, or over a leftover container.
 failure_guards() {
   local lock="${XDG_RUNTIME_DIR:-/tmp}/awesomer-build.lock"
-  if [ "$(id -u)" -eq 0 ]; then
-    echo "verify-build: refusing to run the failure mode as root"
+  if [ "$(id -u):$(id -g)" != "1000:1000" ]; then
+    echo "verify-build: the build container runs as 1000:1000 but you are $(id -u):$(id -g); refusing"
     exit 75
   fi
   # Same lock path as docker/build.sh; fd 9 stays open for the rest of the run.

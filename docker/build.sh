@@ -22,7 +22,7 @@
 #   75  refused: another build holds the lock, the nightly unit is running
 #       (checked before the build and again right before the swap), UTC time
 #       is inside 10:30-11:45, or a previous build container remains
-#   77  run as root
+#   77  run as root, or as a user other than 1000:1000 (the container's uid)
 #   *   any other code is the compose run's own (1 = build failed, web/out kept)
 #
 # Test seams: AWESOMER_BUILD_NOW_UTC_HHMM overrides the clock (HHMM, UTC),
@@ -75,6 +75,11 @@ swap_in() {
 # 1. Never as root: web/out must stay owned by the nightly's user.
 if [ "$(id -u)" -eq 0 ]; then
   refuse 77 "refusing to run as root: web/out must stay owned by the nightly's user"
+fi
+# The container runs as the fixed user: "1000:1000" in the compose file, so
+# the export is only owned by the invoking (nightly) user when that is 1000:1000.
+if [ "$(id -u):$(id -g)" != "1000:1000" ]; then
+  refuse 77 "the build container runs as 1000:1000 but you are $(id -u):$(id -g); web/out would end up owned by another user"
 fi
 
 # 2. One build at a time. fd 9 stays open, so the lock is held through the run.

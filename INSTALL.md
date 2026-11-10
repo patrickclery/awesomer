@@ -115,7 +115,7 @@ Prerequisites:
 - Docker with Compose v2.
 - `awesomer-postgres` running and healthy (`sudo systemctl start awesomer-postgres`).
 - `api/.env` present, with `DATABASE_URL` pointing at `localhost`. The container rewrites only the host.
-- Run it as your normal user, never with sudo.
+- Run it as your normal user, never with sudo. The container runs as `1000:1000`, so `docker/build.sh` refuses any other uid/gid: the export must stay owned by the nightly's user.
 
 `docker/build.sh` exit codes:
 
@@ -128,7 +128,7 @@ Prerequisites:
 | 73 | `.awesomer-build/staging/` not writable by the container |
 | 74 | Build succeeded but the swap into `web/out/` failed; `web/out/` left as it was |
 | 75 | Refused: another build is running, the nightly unit is running (checked before the build and again before the swap), it is 10:30-11:45 UTC, or a previous build container remains |
-| 77 | Run as root |
+| 77 | Run as root, or as a user other than `1000:1000` (the container's fixed uid) |
 
 Cautions:
 
