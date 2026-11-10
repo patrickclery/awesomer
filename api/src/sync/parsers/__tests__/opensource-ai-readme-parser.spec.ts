@@ -1,16 +1,20 @@
 import { OpensourceAiReadmeParser } from '../opensource-ai-readme-parser.js';
+import { NUMBERED_NAME_RE, summarizeParseResult } from '../parse-summary.js';
 
+// April-format upstream README (alvinreal/awesome-opensource-ai @ 20b6631, CC0-1.0):
+// emoji-prefixed numbered h3 sections, leading star badges. Headings, the
+// section-12 anchor and the OpenClaw line are copied verbatim from upstream.
 const MOCK_README = `# Awesome Open Source AI
 
 A comprehensive list of open-source AI tools, frameworks, and models.
 
-## Contents
+## 📋 Contents
 
 - [Core Frameworks & Libraries](#1-core-frameworks--libraries)
 - [NLP & Language](#2-nlp--language)
 - [Contributing](#contributing)
 
-### 1. Core Frameworks & Libraries
+### 🧬 1. Core Frameworks & Libraries
 
 #### Deep Learning Frameworks
 
@@ -24,7 +28,11 @@ A comprehensive list of open-source AI tools, frameworks, and models.
 
 - **[Candle](https://github.com/huggingface/candle)** ![GitHub stars](https://img.shields.io/github/stars/huggingface/candle?style=social) - Minimalist ML framework for Rust.
 
-### 2. NLP & Language
+<a id="section-12"></a>
+
+### 🖥️ 12. User Interfaces & Self-hosted Platforms
+
+- **[OpenClaw](https://github.com/openclaw/openclaw)** ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social) - Local-first personal AI assistant with multi-channel integrations and full agentic task execution.
 
 #### Transformers
 
@@ -34,9 +42,15 @@ A comprehensive list of open-source AI tools, frameworks, and models.
 
 - **[vLLM](https://github.com/vllm-project/vllm)** ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social) - A high-throughput and memory-efficient inference engine.
 
+#### Empty Subcategory
+
+- **[HFOnly](https://huggingface.co/some-org/some-model)** ![badge](https://img.shields.io/badge/foo) - Not on GitHub, so this subcategory stays empty.
+
 ### Contributing
 
 Please read the contributing guidelines.
+
+- **[Contrib Bot](https://github.com/owner/contrib-bot)** - Should never be imported.
 
 ### License
 
@@ -181,11 +195,9 @@ describe('OpensourceAiReadmeParser', () => {
 
   it('creates categories from h3 headings with number prefix stripped', () => {
     const categoryNames = result.categories.map((c) => c.name);
-    expect(categoryNames).toContain('Core Frameworks & Libraries');
-    expect(categoryNames).toContain('NLP & Language');
-    // Should NOT contain the number prefix version
-    expect(categoryNames).not.toContain('1. Core Frameworks & Libraries');
-    expect(categoryNames).not.toContain('2. NLP & Language');
+    expect(categoryNames).toContain('User Interfaces & Self-hosted Platforms');
+    // No emoji- or number-prefixed name survives
+    expect(categoryNames.filter((n) => NUMBERED_NAME_RE.test(n))).toEqual([]);
   });
 
   it('creates categories from h4 headings', () => {
@@ -213,9 +225,10 @@ describe('OpensourceAiReadmeParser', () => {
   });
 
   it('parses the correct total number of valid GitHub items', () => {
-    // PyTorch, TensorFlow, SomeRepo, Candle, Transformers, vLLM = 6
-    // Excluded: NonGitHub (non-GitHub URL), TreeLink (deep link)
-    expect(result.items).toHaveLength(6);
+    // PyTorch, TensorFlow, SomeRepo, Candle, OpenClaw, Transformers, vLLM = 7
+    // Excluded: NonGitHub (non-GitHub URL), TreeLink (deep link), HFOnly
+    // (non-GitHub URL), Contrib Bot (after the skipped Contributing heading)
+    expect(result.items).toHaveLength(7);
   });
 
   it('assigns sequential order to categories', () => {
@@ -225,9 +238,97 @@ describe('OpensourceAiReadmeParser', () => {
   });
 
   it('creates the correct total number of categories', () => {
-    // h3: Core Frameworks & Libraries, NLP & Language
-    // h4: Deep Learning Frameworks, Rust ML Frameworks, Transformers, Text Generation
-    // Excluded: h1 title, h2 Contents, h3 Contributing, h3 License
-    expect(result.categories).toHaveLength(6);
+    // Only headings that receive an item emit a category: the numbered
+    // Core Frameworks h3 (items all under h4s) and Empty Subcategory do not.
+    expect(result.categories).toHaveLength(5);
+  });
+
+  it('emits categories lazily, in document order', () => {
+    expect(result.categories.map((c) => c.name)).toEqual([
+      'Deep Learning Frameworks',
+      'Rust ML Frameworks',
+      'User Interfaces & Self-hosted Platforms',
+      'Transformers',
+      'Text Generation',
+    ]);
+  });
+
+  it('files an item directly under an emoji-numbered h3 into that section', () => {
+    const uiIdx = result.categories.findIndex(
+      (c) => c.name === 'User Interfaces & Self-hosted Platforms',
+    );
+    expect(uiIdx).toBeGreaterThanOrEqual(0);
+    expect(result.items.find((i) => i.name === 'OpenClaw')!.categoryIndex).toBe(
+      uiIdx,
+    );
+  });
+
+  it('never imports an item after a skipped heading', () => {
+    expect(result.items.find((i) => i.name === 'Contrib Bot')).toBeUndefined();
+  });
+
+  it('emits no parent, skipped or item-less heading as a category', () => {
+    const categoryNames = result.categories.map((c) => c.name);
+    for (const name of [
+      'Core Frameworks & Libraries',
+      'Contents',
+      '📋 Contents',
+      'Empty Subcategory',
+      'Contributing',
+      'License',
+    ]) {
+      expect(categoryNames).not.toContain(name);
+    }
+  });
+});
+
+describe('current upstream format (51a67d5) headings', () => {
+  const result = new OpensourceAiReadmeParser().parse(CURRENT_FORMAT_README);
+
+  it('emits only the h4 categories that hold items', () => {
+    expect(result.categories.map((c) => c.name)).toEqual([
+      'Deep Learning Frameworks',
+      'Language Model Families',
+    ]);
+  });
+
+  it('keeps every valid item and drops the one after Contributing', () => {
+    expect(result.items.map((i) => i.name)).toEqual([
+      'PyTorch',
+      'TensorFlow',
+      'InlineBadge',
+      'BadgeOnly',
+      'NoDesc',
+      'Linked',
+      'RWKV',
+    ]);
+  });
+});
+
+describe('parse summary is clean on both fixtures', () => {
+  it.each([
+    ['MOCK_README', MOCK_README],
+    ['CURRENT_FORMAT_README', CURRENT_FORMAT_README],
+  ])('%s has no empty or numbered categories', (_label, readme) => {
+    const summary = summarizeParseResult(
+      new OpensourceAiReadmeParser().parse(readme),
+    );
+    expect(summary.emptyCategories).toBe(0);
+    expect(summary.numberedCategories).toBe(0);
+  });
+});
+
+describe('hostile input', () => {
+  it('skips an oversized line quickly and still parses the items around it', () => {
+    const readme = [
+      '#### Section',
+      '!['.repeat(100_000),
+      '- [Valid](https://github.com/owner/valid) - A valid item.',
+    ].join('\n');
+    const started = Date.now();
+    const result = new OpensourceAiReadmeParser().parse(readme);
+    expect(Date.now() - started).toBeLessThan(500);
+    expect(result.items.map((i) => i.name)).toEqual(['Valid']);
+    expect(result.categories.map((c) => c.name)).toEqual(['Section']);
   });
 });
