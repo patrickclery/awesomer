@@ -50,10 +50,17 @@ show_log_tail() { [ -f "$1" ] && tail -n 20 "$1" | sed -E 's#postgres(ql)?://[^[
 no_build_container() { test -z "$(docker ps -aq --filter "label=com.docker.compose.project=$PROJECT")"; }
 
 nightly_guard() {
-  if systemctl is-active --quiet "$NIGHTLY_UNIT"; then
-    echo "verify-build: $NIGHTLY_UNIT is active; refusing to start a build container"
-    exit 75
-  fi
+  # Type=oneshot: "activating" while running, which is-active reports as
+  # not active. A failed query refuses too.
+  local state
+  state=$(systemctl show -p ActiveState --value "$NIGHTLY_UNIT") || state=unknown
+  case "$state" in
+    inactive | failed) ;;
+    *)
+      echo "verify-build: $NIGHTLY_UNIT is $state; refusing to start a build container"
+      exit 75
+      ;;
+  esac
   local hhmm
   hhmm=$(date -u +%H%M)
   if [ $((10#$hhmm)) -ge 1030 ] && [ $((10#$hhmm)) -lt 1145 ]; then

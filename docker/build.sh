@@ -18,8 +18,9 @@
 #   69  network awesomer_default missing or awesomer-postgres not healthy
 #   73  staging not writable inside the container (from the entrypoint)
 #   74  build succeeded but the swap into web/out failed; web/out kept
-#   75  refused: another build holds the lock, the nightly unit is active,
-#       UTC time is inside 10:30-11:45, or a previous build container remains
+#   75  refused: another build holds the lock, the nightly unit is running
+#       (checked before the build and again right before the swap), UTC time
+#       is inside 10:30-11:45, or a previous build container remains
 #   77  run as root
 #   *   any other code is the compose run's own (1 = build failed, web/out kept)
 #
@@ -38,6 +39,18 @@ LOCK="${XDG_RUNTIME_DIR:-/tmp}/awesomer-build.lock"
 refuse() {
   echo "docker/build.sh: $2" >&2
   exit "$1"
+}
+
+# The nightly is Type=oneshot, so it sits in "activating" for its whole run and
+# `systemctl is-active` exits non-zero then. Check ActiveState instead, and
+# treat a failed query as busy (fail closed).
+nightly_busy() {
+  local state
+  state=$(systemctl show -p ActiveState --value "$NIGHTLY_UNIT") || return 0
+  case "$state" in
+    inactive | failed) return 1 ;;
+    *) return 0 ;;
+  esac
 }
 
 # Replaces web/out with the staged export. Both renames stay on one
@@ -70,8 +83,8 @@ if ! flock -n 9; then
 fi
 
 # 3. Not while the nightly is running (it also writes web/out).
-if systemctl is-active --quiet "$NIGHTLY_UNIT"; then
-  refuse 75 "$NIGHTLY_UNIT is active; wait for it to finish"
+if nightly_busy; then
+  refuse 75 "$NIGHTLY_UNIT is running (or its state could not be read); wait for it to finish"
 fi
 
 # 4. Not inside the window around the 11:00 UTC timer (Persistent=true, ~26 min run).
@@ -105,6 +118,13 @@ docker compose -f "$COMPOSE_FILE" run --rm --build builder || rc=$?
 if [ "$rc" -ne 0 ]; then
   echo "docker/build.sh: build failed (exit $rc); web/out left as it was" >&2
   exit "$rc"
+fi
+
+# Re-check right before the swap: the nightly may have started during the
+# build (a manual start or a Persistent=true catch-up). It rebuilds web/out,
+# sanity-checks it and publishes it, so never swap under it.
+if nightly_busy; then
+  refuse 75 "$NIGHTLY_UNIT started during the build; web/out left to it, export kept in $STAGING"
 fi
 
 if ! swap_in; then

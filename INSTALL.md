@@ -127,7 +127,7 @@ Prerequisites:
 | 69 | Network `awesomer_default` missing or `awesomer-postgres` not healthy |
 | 73 | `.awesomer-build/staging/` not writable by the container |
 | 74 | Build succeeded but the swap into `web/out/` failed; `web/out/` left as it was |
-| 75 | Refused: another build is running, the nightly unit is active, it is 10:30-11:45 UTC, or a previous build container remains |
+| 75 | Refused: another build is running, the nightly unit is running (checked before the build and again before the swap), it is 10:30-11:45 UTC, or a previous build container remains |
 | 77 | Run as root |
 
 Cautions:
