@@ -43,6 +43,93 @@ Please read the contributing guidelines.
 MIT License
 `;
 
+// Today's upstream format (alvinreal/awesome-opensource-ai @ 51a67d5, CC0-1.0).
+// Real lines are copied verbatim; the four lines after TensorFlow and the
+// Contrib Bot line are synthetic edge cases.
+const CURRENT_FORMAT_README = `# Awesome Open Source AI
+
+## Contents
+
+- [1. Core Frameworks & Libraries](#1-core-frameworks--libraries)
+
+## About this list
+
+Awesome Open Source AI is a curated list of open-source projects for people building with AI.
+
+## 1. Core Frameworks & Libraries
+
+> Core libraries and frameworks used to build, train, and run AI and machine learning systems.
+
+#### Deep Learning Frameworks
+
+- [PyTorch](https://github.com/pytorch/pytorch) - Dynamic computation graphs, Pythonic API, dominant in research and production. The current standard for most frontier AI work. ![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social)
+- [TensorFlow](https://github.com/tensorflow/tensorflow) - End-to-end platform with excellent production deployment, TPU support, and large-scale serving tools. ![GitHub stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social)
+- [InlineBadge](https://github.com/owner/inline-badge) - Before badge ![GitHub stars](https://img.shields.io/github/stars/owner/inline-badge?style=social) after badge.
+- [BadgeOnly](https://github.com/owner/badge-only) - ![GitHub stars](https://img.shields.io/github/stars/owner/badge-only?style=social)
+- [NoDesc](https://github.com/owner/no-desc) ![GitHub stars](https://img.shields.io/github/stars/owner/no-desc?style=social)
+- [Linked](https://github.com/owner/linked) - Linked badge text [![CI](https://img.shields.io/badge/ci-passing-green)](https://github.com/owner/linked/actions)
+
+## 2. Model Codebases & Model Families
+
+> Canonical model-family repositories with useful code, recipes, evaluation tools, or engineering context. This is not a complete model leaderboard; use Hugging Face and model hubs for up-to-date weight discovery.
+
+#### Language Model Families
+
+- [RWKV](https://github.com/BlinkDL/RWKV-LM) - Attention-free language model architecture with linear-time inference, training code, inference examples, and an active open-source ecosystem. ![GitHub stars](https://img.shields.io/github/stars/BlinkDL/RWKV-LM?style=social)
+
+## Contributing
+
+- [Contrib Bot](https://github.com/owner/contrib-bot) - Should never be imported.
+`;
+
+describe('current upstream format (51a67d5)', () => {
+  const result = new OpensourceAiReadmeParser().parse(CURRENT_FORMAT_README);
+  const byName = (name: string) => result.items.find((i) => i.name === name);
+
+  it('strips the trailing star badge from the PyTorch description', () => {
+    expect(byName('PyTorch')!.description).toBe(
+      'Dynamic computation graphs, Pythonic API, dominant in research and production. The current standard for most frontier AI work.',
+    );
+  });
+
+  it('strips the trailing star badge from the TensorFlow description', () => {
+    expect(byName('TensorFlow')!.description).toBe(
+      'End-to-end platform with excellent production deployment, TPU support, and large-scale serving tools.',
+    );
+  });
+
+  it('strips an inline badge and keeps the text around it', () => {
+    expect(byName('InlineBadge')!.description).toBe('Before badge after badge.');
+  });
+
+  it('sets description to null when the description is only badge markup', () => {
+    expect(byName('BadgeOnly')!.description).toBeNull();
+  });
+
+  it('sets description to null when a badge follows the link with no separator', () => {
+    expect(byName('NoDesc')).toBeDefined();
+    expect(byName('NoDesc')!.description).toBeNull();
+  });
+
+  it('strips a linked badge', () => {
+    expect(byName('Linked')!.description).toBe('Linked badge text');
+  });
+});
+
+describe('badge markup never survives in a description', () => {
+  it.each([
+    ['MOCK_README', MOCK_README],
+    ['CURRENT_FORMAT_README', CURRENT_FORMAT_README],
+  ])('%s', (_label, readme) => {
+    const { items } = new OpensourceAiReadmeParser().parse(readme);
+    expect(items.length).toBeGreaterThan(0);
+    for (const item of items) {
+      expect(item.description ?? '').not.toContain('![');
+      expect(item.description ?? '').not.toContain('img.shields.io');
+    }
+  });
+});
+
 describe('OpensourceAiReadmeParser', () => {
   const parser = new OpensourceAiReadmeParser();
   const result = parser.parse(MOCK_README);
