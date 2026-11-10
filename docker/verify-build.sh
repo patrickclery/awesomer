@@ -63,8 +63,14 @@ no_project_container() {
 
 nightly_guard() {
   # Type=oneshot: "activating" while running, which is-active reports as
-  # not active. A failed query refuses too.
-  local state
+  # not active. A failed query refuses too, and so does a unit that is not
+  # loaded (systemctl reports a missing unit as "inactive" with rc 0).
+  local load state
+  load=$(systemctl show -p LoadState --value "$NIGHTLY_UNIT") || load=unknown
+  if [ "$load" != loaded ]; then
+    echo "verify-build: $NIGHTLY_UNIT: unit not found (LoadState=${load:-empty}); refusing to start a build container"
+    exit 75
+  fi
   state=$(systemctl show -p ActiveState --value "$NIGHTLY_UNIT") || state=unknown
   case "$state" in
     inactive | failed) ;;

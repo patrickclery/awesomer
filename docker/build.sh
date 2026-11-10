@@ -44,13 +44,25 @@ refuse() {
 
 # The nightly is Type=oneshot, so it sits in "activating" for its whole run and
 # `systemctl is-active` exits non-zero then. Check ActiveState instead, and
-# treat a failed query as busy (fail closed).
+# treat a failed query as busy (fail closed). A unit that is not loaded also
+# counts as busy: systemctl reports a missing unit as "inactive" with rc 0, so
+# a renamed unit or a typo in AWESOMER_BUILD_NIGHTLY_UNIT would otherwise pass.
+# Sets NIGHTLY_WHY to the reason when it returns 0.
 nightly_busy() {
-  local state
+  local load state
+  NIGHTLY_WHY="its state could not be read"
+  load=$(systemctl show -p LoadState --value "$NIGHTLY_UNIT") || return 0
+  if [ "$load" != loaded ]; then
+    NIGHTLY_WHY="unit not found (LoadState=${load:-empty})"
+    return 0
+  fi
   state=$(systemctl show -p ActiveState --value "$NIGHTLY_UNIT") || return 0
   case "$state" in
     inactive | failed) return 1 ;;
-    *) return 0 ;;
+    *)
+      NIGHTLY_WHY="it is running (ActiveState=$state)"
+      return 0
+      ;;
   esac
 }
 
@@ -90,7 +102,7 @@ fi
 
 # 3. Not while the nightly is running (it also writes web/out).
 if nightly_busy; then
-  refuse 75 "$NIGHTLY_UNIT is running (or its state could not be read); wait for it to finish"
+  refuse 75 "$NIGHTLY_UNIT: $NIGHTLY_WHY; refusing (wait for it to finish, or fix the unit name)"
 fi
 
 # 4. Not inside the window around the 11:00 UTC timer (Persistent=true, ~26 min run).
@@ -134,7 +146,7 @@ fi
 # build (a manual start or a Persistent=true catch-up). It rebuilds web/out,
 # sanity-checks it and publishes it, so never swap under it.
 if nightly_busy; then
-  refuse 75 "$NIGHTLY_UNIT started during the build; web/out left to it, export kept in $STAGING"
+  refuse 75 "$NIGHTLY_UNIT: $NIGHTLY_WHY at the pre-swap re-check; web/out left as it was, export kept in $STAGING"
 fi
 
 if ! swap_in; then
