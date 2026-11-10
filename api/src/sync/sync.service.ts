@@ -1,6 +1,7 @@
 import { existsSync, readdirSync } from 'fs';
 import { Injectable, Logger } from '@nestjs/common';
 import { Cron } from '@nestjs/schedule';
+import type { Prisma } from '../generated/prisma/client.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { GithubService } from './github.service.js';
 import { BackfillService } from './backfill.service.js';
@@ -9,6 +10,8 @@ import { MarkdownService, readmeForMain } from './markdown.service.js';
 import { replaceEmojiShortcodes } from '../common/emoji.js';
 import { META_AWESOME_LIST_SLUG } from '../common/constants.js';
 import { getParser } from './parsers/parser-factory.js';
+import { NUMBERED_NAME_RE, summarizeParseResult } from './parsers/parse-summary.js';
+import type { ParseSummary } from './parsers/parse-summary.js';
 
 const GRAPHQL_BATCH_SIZE = 100;
 
@@ -23,6 +26,37 @@ const DEPLOY_DIR = '/tmp/gh-pages-deploy';
 // on the extension: real files such as robots.txt must publish.
 const RSC_PAYLOAD_EXCLUDES = ['__next.*.txt', 'index.txt'];
 const README_WORKTREE_DIR = '/tmp/awesomer-readme-worktree';
+// Re-import refuses when the parse holds fewer than half the stored items, so a gutted
+// upstream README cannot wipe a list.
+const REIMPORT_MIN_RATIO = 0.5;
+
+/** Quality counts of the rows one awesome list currently stores. */
+export interface ListDataCounts {
+  categories: number;
+  emptyCategories: number;
+  numberedCategories: number;
+  items: number;
+  nullDescriptions: number;
+  badgeDescriptions: number;
+}
+
+/** Category and item totals, used to prove a re-import left other lists alone. */
+export interface ListScopeCounts {
+  categories: number;
+  items: number;
+}
+
+/** What reimportAwesomeList() found, parsed and (when applied) wrote. */
+export interface ReimportReport {
+  awesomeListId: number;
+  slug: string;
+  applied: boolean;
+  before: ListDataCounts;
+  parsed: ParseSummary;
+  after: ListDataCounts | null;
+  otherListsBefore: ListScopeCounts;
+  otherListsAfter: ListScopeCounts | null;
+}
 
 export type SyncStep = 'diff' | 'stats' | 'snapshots' | 'trending' | 'markdown' | 'rebuild' | 'deploy';
 
@@ -330,6 +364,152 @@ export class SyncService {
       removed: staleIds.length,
       unchanged: existingItems.length - staleIds.length,
     };
+  }
+
+  /**
+   * Clean re-import of one awesome list: replaces every category and category item of the
+   * list with what the current parser reads from today's upstream source.
+   *
+   * Contract:
+   * - Refuses (throws before any network call) when the list's slug is not `expectedSlug`.
+   * - Refuses (throws before any write) when the parse holds zero items, or fewer than
+   *   REIMPORT_MIN_RATIO of the stored item count.
+   * - `apply = false` is a dry run: it reads and reports, and writes nothing at all.
+   * - `apply = true` deletes and re-creates the list's rows inside one transaction, so a
+   *   failure leaves the stored data as it was. Only categories that at least one item
+   *   (after the awesome-list filter) uses are persisted. Other lists are never touched.
+   */
+  async reimportAwesomeList(awesomeListId: number, expectedSlug: string, apply: boolean): Promise<ReimportReport> {
+    const list = await this.prisma.awesomeList.findUnique({
+      where: { id: awesomeListId },
+    });
+    if (!list) throw new Error(`Awesome list ${awesomeListId} not found`);
+    if (list.slug !== expectedSlug) {
+      throw new Error(
+        `Refusing to re-import list ${awesomeListId}: slug is '${list.slug}', expected '${expectedSlug}'`,
+      );
+    }
+
+    const repoRef = GithubService.parseGithubRepo(`https://github.com/${list.githubRepo}`);
+    if (!repoRef) throw new Error(`Invalid GitHub repo: ${list.githubRepo}`);
+
+    const parser = getParser(list.parserType);
+    const sourcePath = parser.sourcePath;
+    const source = sourcePath
+      ? await this.github.fetchFileContent(repoRef.owner, repoRef.name, sourcePath)
+      : await this.github.fetchReadme(repoRef.owner, repoRef.name);
+    if (!source) throw new Error(`Source content not found for ${list.githubRepo}`);
+
+    const { categories, items } = parser.parse(source);
+    const filtered = await this.filterAwesomeListRepos(list.slug, items);
+    const usedOrders = new Set(filtered.map((item) => item.categoryIndex));
+    const usedCategories = categories.filter((cat) => usedOrders.has(cat.order));
+    const parsed = summarizeParseResult({ categories: usedCategories, items: filtered });
+
+    const before = await this.countListData(awesomeListId);
+    const otherListsBefore = await this.countOtherLists(awesomeListId);
+
+    if (filtered.length === 0) {
+      throw new Error(`Refusing to re-import list ${awesomeListId}: the source parsed to 0 items`);
+    }
+    const minItems = Math.ceil(before.items * REIMPORT_MIN_RATIO);
+    if (before.items > 0 && filtered.length < minItems) {
+      throw new Error(
+        `Refusing to re-import list ${awesomeListId}: parsed ${filtered.length} items, ` +
+          `fewer than ${minItems} (REIMPORT_MIN_RATIO ${REIMPORT_MIN_RATIO} of ${before.items} stored)`,
+      );
+    }
+
+    if (!apply) {
+      return {
+        awesomeListId,
+        slug: list.slug,
+        applied: false,
+        before,
+        parsed,
+        after: null,
+        otherListsBefore,
+        otherListsAfter: null,
+      };
+    }
+
+    const newRepoIds = await this.prisma.$transaction(
+      async (tx) => {
+        await tx.categoryItem.deleteMany({ where: { category: { awesomeListId } } });
+        await tx.category.deleteMany({ where: { awesomeListId } });
+        const created = await this.persistParsedData(awesomeListId, usedCategories, filtered, tx);
+        await tx.awesomeList.update({
+          where: { id: awesomeListId },
+          data: { readmeContent: source, lastSyncedAt: new Date(), state: 'completed' },
+        });
+        return created;
+      },
+      { maxWait: 10_000, timeout: 600_000 },
+    );
+
+    // Non-fatal, like importAwesomeList: the re-imported rows are committed either way.
+    try {
+      await this.hydrateNewRepos(newRepoIds);
+    } catch (error) {
+      this.logger.error(`Re-import hydration failed (re-imported data preserved): ${error}`);
+    }
+
+    const after = await this.countListData(awesomeListId);
+    const otherListsAfter = await this.countOtherLists(awesomeListId);
+    this.logger.log(
+      `Re-import complete for ${list.githubRepo}: ${before.items} -> ${after.items} items, ` +
+        `${before.categories} -> ${after.categories} categories, ${newRepoIds.length} new repos`,
+    );
+
+    return {
+      awesomeListId,
+      slug: list.slug,
+      applied: true,
+      before,
+      parsed,
+      after,
+      otherListsBefore,
+      otherListsAfter,
+    };
+  }
+
+  /** Quality counts of the categories and items list `awesomeListId` stores. */
+  private async countListData(awesomeListId: number): Promise<ListDataCounts> {
+    const categories = await this.prisma.category.findMany({
+      where: { awesomeListId },
+      select: { name: true, _count: { select: { categoryItems: true } } },
+    });
+    const items = await this.prisma.categoryItem.count({
+      where: { category: { awesomeListId } },
+    });
+    const nullDescriptions = await this.prisma.categoryItem.count({
+      where: { category: { awesomeListId }, description: null },
+    });
+    const badgeDescriptions = await this.prisma.categoryItem.count({
+      where: {
+        category: { awesomeListId },
+        OR: [{ description: { contains: '![' } }, { description: { contains: 'img.shields.io' } }],
+      },
+    });
+    return {
+      categories: categories.length,
+      emptyCategories: categories.filter((cat) => cat._count.categoryItems === 0).length,
+      numberedCategories: categories.filter((cat) => NUMBERED_NAME_RE.test(cat.name)).length,
+      items,
+      nullDescriptions,
+      badgeDescriptions,
+    };
+  }
+
+  /** Category and item totals of every list except `awesomeListId`. */
+  private async countOtherLists(awesomeListId: number): Promise<ListScopeCounts> {
+    const categories = await this.prisma.category.count({
+      where: { awesomeListId: { not: awesomeListId } },
+    });
+    const items = await this.prisma.categoryItem.count({
+      where: { category: { awesomeListId: { not: awesomeListId } } },
+    });
+    return { categories, items };
   }
 
   // =========================================================================
@@ -918,13 +1098,14 @@ export class SyncService {
       description: string | null;
       categoryIndex: number;
     }>,
+    db: Prisma.TransactionClient = this.prisma,
   ): Promise<number[]> {
     // Create categories
     const categoryMap = new Map<number, number>(); // index → DB id
 
     for (const cat of categories) {
       const slug = this.slugify(`${awesomeListId}-${cat.name}`);
-      const created = await this.prisma.category.upsert({
+      const created = await db.category.upsert({
         where: { slug },
         update: { name: cat.name },
         create: {
@@ -947,12 +1128,12 @@ export class SyncService {
 
       if (item.githubRepo) {
         // Check if repo already exists to detect new creations
-        const existingRepo = await this.prisma.repo.findUnique({
+        const existingRepo = await db.repo.findUnique({
           where: { githubRepo: item.githubRepo },
           select: { id: true },
         });
 
-        const repo = await this.prisma.repo.upsert({
+        const repo = await db.repo.upsert({
           where: { githubRepo: item.githubRepo },
           update: {},
           create: { githubRepo: item.githubRepo },
@@ -965,7 +1146,7 @@ export class SyncService {
       }
 
       // Check if item already exists (by name + category)
-      const existing = await this.prisma.categoryItem.findFirst({
+      const existing = await db.categoryItem.findFirst({
         where: {
           categoryId,
           OR: [
@@ -976,7 +1157,7 @@ export class SyncService {
       });
 
       if (!existing) {
-        await this.prisma.categoryItem.create({
+        await db.categoryItem.create({
           data: {
             name: item.name,
             primaryUrl: item.primaryUrl,

@@ -54,47 +54,78 @@ interface Db {
 }
 
 function makeDb(storedItems = 3): Db {
-  const list = { id: LIST_ID, slug: LIST_SLUG, githubRepo: LIST_REPO, parserType: 'opensource-ai' };
+  const list = {
+    id: LIST_ID,
+    slug: LIST_SLUG,
+    githubRepo: LIST_REPO,
+    parserType: 'opensource-ai',
+  };
   let nextId = 1000;
   const db: Db = {
     awesomeList: {
-      findUnique: jest.fn(async () => list),
-      findFirst: jest.fn(async () => ({ githubRepo: LIST_REPO })),
-      findMany: jest.fn(async () => [{ githubRepo: LIST_REPO }, { githubRepo: 'josephmisiti/awesome-machine-learning' }]),
-      update: jest.fn(async () => list),
+      findUnique: jest.fn(() => Promise.resolve(list)),
+      findFirst: jest.fn(() => Promise.resolve({ githubRepo: LIST_REPO })),
+      findMany: jest.fn(() =>
+        Promise.resolve([
+          { githubRepo: LIST_REPO },
+          { githubRepo: 'josephmisiti/awesome-machine-learning' },
+        ]),
+      ),
+      update: jest.fn(() => Promise.resolve(list)),
     },
     category: {
-      findMany: jest.fn(async () => [{ name: 'Deep Learning Frameworks', _count: { categoryItems: storedItems } }]),
-      count: jest.fn(async () => 10),
-      upsert: jest.fn(async () => ({ id: nextId++ })),
-      deleteMany: jest.fn(async () => ({ count: 1 })),
+      findMany: jest.fn(() =>
+        Promise.resolve([
+          {
+            name: 'Deep Learning Frameworks',
+            _count: { categoryItems: storedItems },
+          },
+        ]),
+      ),
+      count: jest.fn(() => Promise.resolve(10)),
+      upsert: jest.fn(() => Promise.resolve({ id: nextId++ })),
+      deleteMany: jest.fn(() => Promise.resolve({ count: 1 })),
     },
     categoryItem: {
-      count: jest.fn(async (args: { where: { description?: unknown; OR?: unknown } }) => {
-        if (args.where.description === null || args.where.OR) return 0;
-        return storedItems;
-      }),
-      findFirst: jest.fn(async () => null),
-      create: jest.fn(async () => ({})),
-      deleteMany: jest.fn(async () => ({ count: storedItems })),
+      count: jest.fn(
+        (args: { where: { description?: unknown; OR?: unknown } }) =>
+          Promise.resolve(
+            args.where.description === null || args.where.OR ? 0 : storedItems,
+          ),
+      ),
+      findFirst: jest.fn(() => Promise.resolve(null)),
+      create: jest.fn(() => Promise.resolve({})),
+      deleteMany: jest.fn(() => Promise.resolve({ count: storedItems })),
     },
     repo: {
-      findUnique: jest.fn(async () => null),
-      upsert: jest.fn(async () => ({ id: nextId++ })),
+      findUnique: jest.fn(() => Promise.resolve(null)),
+      upsert: jest.fn(() => Promise.resolve({ id: nextId++ })),
     },
-    $transaction: jest.fn(async (fn: (tx: unknown) => Promise<unknown>) => fn(db)),
+    $transaction: jest.fn(async (fn: (tx: unknown) => Promise<unknown>) =>
+      fn(db),
+    ),
   };
   return db;
 }
 
 function makeService(db: Db, readme: string | null = README) {
   const github = {
-    fetchReadme: jest.fn(async () => readme),
-    fetchFileContent: jest.fn(async () => readme),
+    fetchReadme: jest.fn(() => Promise.resolve(readme)),
+    fetchFileContent: jest.fn(() => Promise.resolve(readme)),
   };
-  const service = new SyncService(db as never, github as never, {} as never, {} as never, {} as never);
-  Object.assign(service, { logger: { log: jest.fn(), warn: jest.fn(), error: jest.fn() } });
-  const hydrate = jest.spyOn(service, 'hydrateNewRepos').mockResolvedValue(undefined);
+  const service = new SyncService(
+    db as never,
+    github as never,
+    {} as never,
+    {} as never,
+    {} as never,
+  );
+  Object.assign(service, {
+    logger: { log: jest.fn(), warn: jest.fn(), error: jest.fn() },
+  });
+  const hydrate = jest
+    .spyOn(service, 'hydrateNewRepos')
+    .mockResolvedValue(undefined);
   return { service, github, hydrate };
 }
 
@@ -112,9 +143,9 @@ describe('SyncService.reimportAwesomeList guards', () => {
   it('refuses a slug mismatch before any network call or write', async () => {
     const db = makeDb();
     const { service, github } = makeService(db);
-    await expect(service.reimportAwesomeList(LIST_ID, 'not-this-list', false)).rejects.toThrow(
-      /Refusing.*slug is 'opensource-ai'/,
-    );
+    await expect(
+      service.reimportAwesomeList(LIST_ID, 'not-this-list', false),
+    ).rejects.toThrow(/Refusing.*slug is 'opensource-ai'/);
     expect(github.fetchReadme).not.toHaveBeenCalled();
     expect(github.fetchFileContent).not.toHaveBeenCalled();
     expectNoWrites(db);
@@ -123,21 +154,27 @@ describe('SyncService.reimportAwesomeList guards', () => {
   it('refuses when the README parses to zero items', async () => {
     const db = makeDb();
     const { service } = makeService(db, HEADINGS_ONLY_README);
-    await expect(service.reimportAwesomeList(LIST_ID, LIST_SLUG, true)).rejects.toThrow(/Refusing/);
+    await expect(
+      service.reimportAwesomeList(LIST_ID, LIST_SLUG, true),
+    ).rejects.toThrow(/Refusing/);
     expectNoWrites(db);
   });
 
   it('refuses when the parse holds fewer items than REIMPORT_MIN_RATIO of the stored count', async () => {
     const db = makeDb(100);
     const { service } = makeService(db);
-    await expect(service.reimportAwesomeList(LIST_ID, LIST_SLUG, true)).rejects.toThrow(/Refusing/);
+    await expect(
+      service.reimportAwesomeList(LIST_ID, LIST_SLUG, true),
+    ).rejects.toThrow(/Refusing/);
     expectNoWrites(db);
   });
 
   it('refuses when the source cannot be fetched', async () => {
     const db = makeDb();
     const { service } = makeService(db, null);
-    await expect(service.reimportAwesomeList(LIST_ID, LIST_SLUG, true)).rejects.toThrow(/not found/);
+    await expect(
+      service.reimportAwesomeList(LIST_ID, LIST_SLUG, true),
+    ).rejects.toThrow(/not found/);
     expectNoWrites(db);
   });
 });
@@ -170,13 +207,21 @@ describe('SyncService.reimportAwesomeList apply', () => {
 
     expect(db.$transaction).toHaveBeenCalledTimes(1);
     expect(db.categoryItem.deleteMany).toHaveBeenCalledTimes(1);
-    expect(db.categoryItem.deleteMany).toHaveBeenCalledWith({ where: { category: { awesomeListId: LIST_ID } } });
+    expect(db.categoryItem.deleteMany).toHaveBeenCalledWith({
+      where: { category: { awesomeListId: LIST_ID } },
+    });
     expect(db.category.deleteMany).toHaveBeenCalledTimes(1);
-    expect(db.category.deleteMany).toHaveBeenCalledWith({ where: { awesomeListId: LIST_ID } });
+    expect(db.category.deleteMany).toHaveBeenCalledWith({
+      where: { awesomeListId: LIST_ID },
+    });
 
     const firstUpsert = db.category.upsert.mock.invocationCallOrder[0];
-    expect(db.categoryItem.deleteMany.mock.invocationCallOrder[0]).toBeLessThan(firstUpsert);
-    expect(db.category.deleteMany.mock.invocationCallOrder[0]).toBeLessThan(firstUpsert);
+    expect(db.categoryItem.deleteMany.mock.invocationCallOrder[0]).toBeLessThan(
+      firstUpsert,
+    );
+    expect(db.category.deleteMany.mock.invocationCallOrder[0]).toBeLessThan(
+      firstUpsert,
+    );
   });
 
   it('persists only categories that a filtered item uses', async () => {
@@ -184,7 +229,9 @@ describe('SyncService.reimportAwesomeList apply', () => {
     const { service } = makeService(db);
     await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
 
-    const names = db.category.upsert.mock.calls.map((call) => (call[0] as { create: { name: string } }).create.name);
+    const names = db.category.upsert.mock.calls.map(
+      (call) => (call[0] as { create: { name: string } }).create.name,
+    );
     expect(names).toContain('Deep Learning Frameworks');
     expect(names).not.toContain('Curated Resource Lists');
   });
@@ -195,19 +242,32 @@ describe('SyncService.reimportAwesomeList apply', () => {
     await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
 
     const created = db.categoryItem.create.mock.calls.map(
-      (call) => (call[0] as { data: { githubRepo: string; description: string | null } }).data,
+      (call) =>
+        (
+          call[0] as {
+            data: { githubRepo: string; description: string | null };
+          }
+        ).data,
     );
-    expect(created.map((d) => d.githubRepo)).toEqual(['pytorch/pytorch', 'keras-team/keras']);
+    expect(created.map((d) => d.githubRepo)).toEqual([
+      'pytorch/pytorch',
+      'keras-team/keras',
+    ]);
     for (const data of created) {
       expect(data.description ?? '').not.toContain('![');
     }
 
     expect(db.awesomeList.update).toHaveBeenCalledTimes(1);
-    const update = db.awesomeList.update.mock.calls[0][0] as { where: { id: number }; data: { state: string } };
+    const update = db.awesomeList.update.mock.calls[0][0] as {
+      where: { id: number };
+      data: { state: string };
+    };
     expect(update.where).toEqual({ id: LIST_ID });
     expect(update.data.state).toBe('completed');
     const txStart = db.$transaction.mock.invocationCallOrder[0];
-    expect(db.awesomeList.update.mock.invocationCallOrder[0]).toBeGreaterThan(txStart);
+    expect(db.awesomeList.update.mock.invocationCallOrder[0]).toBeGreaterThan(
+      txStart,
+    );
   });
 
   it('hydrates new repos after the transaction and returns the after counts', async () => {
@@ -216,9 +276,13 @@ describe('SyncService.reimportAwesomeList apply', () => {
     const report = await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
 
     expect(hydrate).toHaveBeenCalledTimes(1);
-    expect((hydrate.mock.calls[0][0] as number[]).length).toBe(2);
-    expect(hydrate.mock.invocationCallOrder[0]).toBeGreaterThan(db.$transaction.mock.invocationCallOrder[0]);
-    expect(db.awesomeList.update.mock.invocationCallOrder[0]).toBeLessThan(hydrate.mock.invocationCallOrder[0]);
+    expect(hydrate.mock.calls[0][0].length).toBe(2);
+    expect(hydrate.mock.invocationCallOrder[0]).toBeGreaterThan(
+      db.$transaction.mock.invocationCallOrder[0],
+    );
+    expect(db.awesomeList.update.mock.invocationCallOrder[0]).toBeLessThan(
+      hydrate.mock.invocationCallOrder[0],
+    );
     expect(report.applied).toBe(true);
     expect(report.after).not.toBeNull();
     expect(report.otherListsAfter).not.toBeNull();
