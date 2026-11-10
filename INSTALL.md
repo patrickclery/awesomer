@@ -115,6 +115,7 @@ Prerequisites:
 - Docker with Compose v2.
 - `awesomer-postgres` running and healthy (`sudo systemctl start awesomer-postgres`).
 - `api/.env` present, with `DATABASE_URL` pointing at `localhost`. The container rewrites only the host.
+  Only `DATABASE_URL`, `BUILD_SLUG` and the two `NEXT_PUBLIC_UMAMI_*` values from it reach the build. The entrypoint drops every other variable, and the compose file blanks `ADMIN_API_KEY` and `GITHUB_API_KEY`.
 - Run it as your normal user, never with sudo. The container runs as `1000:1000`, so `docker/build.sh` refuses any other uid/gid: the export must stay owned by the nightly's user.
 
 `docker/build.sh` exit codes:

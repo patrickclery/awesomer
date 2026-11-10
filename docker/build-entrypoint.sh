@@ -4,7 +4,8 @@
 #
 # 1. Rewrites only the host part of DATABASE_URL to DATABASE_HOST_OVERRIDE
 #    (the live Postgres container on the awesomer_default network).
-# 2. Runs the strict static build (api/scripts/build-static-site.js).
+# 2. Drops every environment variable the build does not read, then runs the
+#    strict static build (api/scripts/build-static-site.js).
 # 3. Only after that exits 0, copies the fresh export into /output, which is
 #    the host staging directory .awesomer-build/staging, not web/out.
 #    docker/build.sh swaps staging into web/out with two renames after this
@@ -40,6 +41,18 @@ if ! touch /output/.awesomer-build-write-test 2>/dev/null; then
   exit 73
 fi
 rm -f /output/.awesomer-build-write-test
+
+# env_file passes the whole of api/.env. Keep only what the build reads, so
+# the API process, the `next build` child and every npm lifecycle script it
+# runs never see the GitHub token, the admin key or any other secret in that
+# file. With no admin key set the admin sync routes refuse every request.
+for name in $(env | sed -n 's/^\([A-Za-z_][A-Za-z0-9_]*\)=.*/\1/p'); do
+  case "$name" in
+    PATH | HOME | DATABASE_URL | PORT | BASE_PATH | BUILD_SLUG | NEXT_TELEMETRY_DISABLED | \
+      NEXT_PUBLIC_UMAMI_SCRIPT_URL | NEXT_PUBLIC_UMAMI_WEBSITE_ID) ;;
+    *) unset "$name" ;;
+  esac
+done
 
 cd /app/api
 # A non-zero exit stops here (set -e), leaving /output untouched.

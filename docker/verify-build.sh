@@ -116,7 +116,9 @@ mode_static() {
     and ($b.env_file[0].path | endswith("/api/.env"))
     and $b.environment.BASE_PATH == "/awesomer"
     and $b.environment.PORT == "4000"
-    and $b.environment.DATABASE_HOST_OVERRIDE == "awesomer-postgres"'
+    and $b.environment.DATABASE_HOST_OVERRIDE == "awesomer-postgres"
+    and $b.environment.ADMIN_API_KEY == ""
+    and $b.environment.GITHUB_API_KEY == ""'
 
   # S4 (D-03/D-04) one service, no proxy/cache/db service
   check S4 "one service; none named or imaged caddy/redis/postgres" jq_cfg '
@@ -169,14 +171,16 @@ mode_static() {
   if [ $s9 = 1 ]; then pass S9 ".dockerignore allowlist (*, !api !web !docker, secret/cache exclusions)"; else
     fail S9 ".dockerignore allowlist (*, !api !web !docker, secret/cache exclusions)"; fi
 
-  # S10 entrypoint: sh, strict, no tracing, copies only the export
+  # S10 entrypoint: sh, strict, no tracing, env allowlist, copies only the export
   if [ "$(head -1 "$ENTRYPOINT_SH")" = '#!/bin/sh' ] &&
     grep -qx 'set -eu' "$ENTRYPOINT_SH" &&
+    grep -qF '*) unset "$name" ;;' "$ENTRYPOINT_SH" &&
+    ! grep -qE 'ADMIN_API_KEY|GITHUB_API_KEY' "$ENTRYPOINT_SH" &&
     ! grep -qE 'set -[a-z]*x|set -o xtrace' "$ENTRYPOINT_SH" &&
     grep -qF 'cp -a /app/web/out/. /output/' "$ENTRYPOINT_SH"; then
-    pass S10 "entrypoint: #!/bin/sh, set -eu, no xtrace, copies /app/web/out"
+    pass S10 "entrypoint: #!/bin/sh, set -eu, no xtrace, env allowlist, copies /app/web/out"
   else
-    fail S10 "entrypoint: #!/bin/sh, set -eu, no xtrace, copies /app/web/out"
+    fail S10 "entrypoint: #!/bin/sh, set -eu, no xtrace, env allowlist, copies /app/web/out"
   fi
 
   # S11 (D-07) build.sh swaps staging into web/out by rename, never by copy

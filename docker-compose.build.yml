@@ -31,9 +31,14 @@ services:
     init: true
     env_file:
       # Same file the nightly's EnvironmentFile loads (DATABASE_URL, Umami vars).
+      # The entrypoint drops every variable the build does not read; the two
+      # known write-capable secrets are also blanked below so they never
+      # enter the container at all.
       - path: api/.env
         required: true
     environment:
+      ADMIN_API_KEY: ""
+      GITHUB_API_KEY: ""
       BASE_PATH: /awesomer
       PORT: "4000"
       DATABASE_HOST_OVERRIDE: awesomer-postgres
