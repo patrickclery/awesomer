@@ -8,6 +8,7 @@
 #   infra               read-only: deploy/ and the live Postgres are untouched
 #   output [since-epoch] read-only: host web/out looks like a good export
 #   failure             one run against an unresolvable DB host; web/out must stay
+#                       (the container only ever writes .awesomer-build/staging)
 #   all                 static + image + infra (no build container is started)
 #
 # Exit codes: 0 all gates passed, 1 a gate failed, 2 usage, 75 failure mode refused.
@@ -89,7 +90,7 @@ mode_static() {
     and .networks["awesomer-db"].name == "awesomer_default"
     and ($b.volumes | length) == 1
     and $b.volumes[0].type == "bind"
-    and ($b.volumes[0].source | endswith("/web/out"))
+    and ($b.volumes[0].source | endswith("/.awesomer-build/staging"))
     and $b.volumes[0].target == "/output"
     and $b.volumes[0].bind.create_host_path == false
     and ($b.env_file | length) == 1
@@ -156,6 +157,15 @@ mode_static() {
     pass S10 "entrypoint: #!/bin/sh, set -eu, no xtrace, copies /app/web/out"
   else
     fail S10 "entrypoint: #!/bin/sh, set -eu, no xtrace, copies /app/web/out"
+  fi
+
+  # S11 (D-07) build.sh swaps staging into web/out by rename, never by copy
+  if grep -qF 'mv -T "$STAGING" web/out' docker/build.sh &&
+    grep -qx 'STAGING=.awesomer-build/staging' docker/build.sh &&
+    bash -n docker/build.sh 2>/dev/null; then
+    pass S11 "build.sh renames .awesomer-build/staging into web/out and parses"
+  else
+    fail S11 "build.sh renames .awesomer-build/staging into web/out and parses"
   fi
 }
 
@@ -236,13 +246,14 @@ mode_failure() {
   local log idx=web/out/index.html before after rc
   log=$(log_file failure)
   before=$(stat -c %Y "$idx" 2>/dev/null || echo missing)
+  mkdir -p .awesomer-build/staging
   dc run --rm -e DATABASE_HOST_OVERRIDE=nonexistent-host.invalid builder >"$log" 2>&1
   rc=$?
   after=$(stat -c %Y "$idx" 2>/dev/null || echo missing)
   local before_failed=$FAILED
   check X1 "build against an unresolvable DB host exits non-zero (rc=$rc)" test "$rc" -ne 0
   check X2 "web/out/index.html mtime unchanged" test "$before" = "$after"
-  check X3 "log lacks 'web/out updated:'" bash -c '! grep -q "web/out updated:" "$1"' _ "$log"
+  check X3 "log lacks 'export staged:'/'web/out updated:'" bash -c '! grep -Eq "export staged:|web/out updated:" "$1"' _ "$log"
   check X4 "log contains no connection URL" bash -c '! grep -Eq "postgres(ql)?://" "$1"' _ "$log"
   check X5 "no awesomer-build container remains" no_build_container
   [ "$FAILED" -gt "$before_failed" ] && show_log_tail "$log"

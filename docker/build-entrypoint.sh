@@ -5,8 +5,11 @@
 # 1. Rewrites only the host part of DATABASE_URL to DATABASE_HOST_OVERRIDE
 #    (the live Postgres container on the awesomer_default network).
 # 2. Runs the strict static build (api/scripts/build-static-site.js).
-# 3. Only after that exits 0, replaces the contents of /output (host web/out)
-#    with the fresh export (D-07). On any failure /output is left untouched.
+# 3. Only after that exits 0, copies the fresh export into /output, which is
+#    the host staging directory .awesomer-build/staging, not web/out.
+#    docker/build.sh swaps staging into web/out with two renames after this
+#    container exits 0 (D-07), so a failure here, even half-way through the
+#    copy, never touches web/out.
 #
 # It never deploys or pushes anything (D-08) and never prints the connection
 # string; only the target host is logged.
@@ -33,7 +36,7 @@ fi
 
 # Fail fast before a multi-minute build if the output mount is not writable.
 if ! touch /output/.awesomer-build-write-test 2>/dev/null; then
-  echo "build-entrypoint: /output (host web/out) is not writable by uid $(id -u)" >&2
+  echo "build-entrypoint: /output (host .awesomer-build/staging) is not writable by uid $(id -u)" >&2
   exit 73
 fi
 rm -f /output/.awesomer-build-write-test
@@ -42,6 +45,8 @@ cd /app/api
 # A non-zero exit stops here (set -e), leaving /output untouched.
 node scripts/build-static-site.js
 
+# /output is staging only: clearing it and copying into it cannot damage
+# web/out. A partial copy exits non-zero and build.sh never swaps it in.
 find /output -mindepth 1 -delete
 cp -a /app/web/out/. /output/
-echo "web/out updated: $(ls /output/r | wc -l) repo pages, $(ls /output/l | wc -l) list pages"
+echo "export staged: $(ls /output/r | wc -l) repo pages, $(ls /output/l | wc -l) list pages"

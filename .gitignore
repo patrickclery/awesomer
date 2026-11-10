@@ -25,6 +25,8 @@ api/src/generated/
 # Next.js Frontend
 web/.next/
 web/out/
+# docker/build.sh staging and swap directories
+/.awesomer-build/
 
 # Generated markdown output (written by sync pipeline Step 4)
 /static/

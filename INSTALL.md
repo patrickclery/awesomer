@@ -94,7 +94,7 @@ Without the `BASE_PATH` prefix, every `/_next/` asset URL lacks `/awesomer` and 
 
 #### Containerized build (Docker)
 
-This builds the API and the `/awesomer` static export inside one image, with no API process on the host. The container joins the `awesomer_default` network and reads the live database as host `awesomer-postgres`, then copies the result into `web/out/`. It never deploys: the nightly timer remains the deploy path.
+This builds the API and the `/awesomer` static export inside one image, with no API process on the host. The container joins the `awesomer_default` network and reads the live database as host `awesomer-postgres`, then copies the result into the staging directory `.awesomer-build/staging/`. Only after the container exits 0 does `docker/build.sh` swap staging into `web/out/` with two renames, so a failed or interrupted build never leaves `web/out/` empty or partial. It never deploys: the nightly timer remains the deploy path.
 
 Run from the repo root:
 
@@ -104,8 +104,9 @@ bash docker/build.sh
 # Equivalent, if just is installed
 just docker-build
 
-# Raw command, without the preflight guards
-mkdir -p web/out
+# Raw command, without the preflight guards. It only fills
+# .awesomer-build/staging/; web/out/ is not updated.
+mkdir -p .awesomer-build/staging
 docker compose -f docker-compose.build.yml run --rm --build builder
 ```
 
@@ -124,7 +125,8 @@ Prerequisites:
 | 1 | Build failed; `web/out/` left as it was |
 | 64 | The `DATABASE_URL` host is not `localhost` or `127.0.0.1` |
 | 69 | Network `awesomer_default` missing or `awesomer-postgres` not healthy |
-| 73 | `web/out/` not writable by the container |
+| 73 | `.awesomer-build/staging/` not writable by the container |
+| 74 | Build succeeded but the swap into `web/out/` failed; `web/out/` left as it was |
 | 75 | Refused: another build is running, the nightly unit is active, it is 10:30-11:45 UTC, or a previous build container remains |
 | 77 | Run as root |
 

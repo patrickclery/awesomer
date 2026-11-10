@@ -1,10 +1,15 @@
 # One-shot containerized build of web/out (no deploy, D-08).
 #
-#   mkdir -p web/out
+#   mkdir -p .awesomer-build/staging
 #   docker compose -f docker-compose.build.yml run --rm --build builder
 #
-# Host web/out must exist before the run: the bind uses create_host_path: false
-# so Docker never creates it as root.
+# The container writes the export to the host staging directory
+# .awesomer-build/staging, never to web/out. docker/build.sh renames staging
+# into web/out after the run exits 0, so a failed or interrupted copy leaves
+# web/out as it was (D-07). A raw `compose run` only fills staging.
+#
+# The staging directory must exist before the run: the bind uses
+# create_host_path: false so Docker never creates it as root.
 #
 # `name:` is load-bearing: this directory is named awesomer, the same as the
 # live Postgres compose project in /opt/awesomer. Without it compose would adopt
@@ -34,7 +39,7 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
     volumes:
       - type: bind
-        source: ./web/out
+        source: ./.awesomer-build/staging
         target: /output
         bind:
           create_host_path: false

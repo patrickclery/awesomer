@@ -8,11 +8,16 @@
 # the deploy path. Every check below only inspects live infra: no container,
 # network or unit is started, stopped or removed by the preflight.
 #
+# The container writes into .awesomer-build/staging. Only after it exits 0 is
+# staging swapped into web/out, with two renames on the same filesystem, so
+# web/out is always either the old tree or the complete new one (D-07).
+#
 # Exit codes:
 #   0   build succeeded, web/out replaced
 #   64  DATABASE_URL host is not localhost/127.0.0.1 (from the entrypoint)
 #   69  network awesomer_default missing or awesomer-postgres not healthy
-#   73  web/out not writable inside the container (from the entrypoint)
+#   73  staging not writable inside the container (from the entrypoint)
+#   74  build succeeded but the swap into web/out failed; web/out kept
 #   75  refused: another build holds the lock, the nightly unit is active,
 #       UTC time is inside 10:30-11:45, or a previous build container remains
 #   77  run as root
@@ -24,6 +29,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 COMPOSE_FILE=docker-compose.build.yml
+STAGING=.awesomer-build/staging
+PREVIOUS=.awesomer-build/previous
 NIGHTLY_UNIT="${AWESOMER_BUILD_NIGHTLY_UNIT:-awesomer-sync-snapshots.service}"
 NOW="${AWESOMER_BUILD_NOW_UTC_HHMM:-$(date -u +%H%M)}"
 LOCK="${XDG_RUNTIME_DIR:-/tmp}/awesomer-build.lock"
@@ -31,6 +38,24 @@ LOCK="${XDG_RUNTIME_DIR:-/tmp}/awesomer-build.lock"
 refuse() {
   echo "docker/build.sh: $2" >&2
   exit "$1"
+}
+
+# Replaces web/out with the staged export. Both renames stay on one
+# filesystem; mv -T refuses to nest into an existing directory. On any
+# failure web/out is restored or never moved.
+swap_in() {
+  if [ ! -f "$STAGING/index.html" ]; then
+    echo "docker/build.sh: $STAGING/index.html missing; not swapping" >&2
+    return 1
+  fi
+  rm -rf "$PREVIOUS" || return 1
+  mv -T web/out "$PREVIOUS" || return 1
+  if ! mv -T "$STAGING" web/out; then
+    mv -T "$PREVIOUS" web/out
+    return 1
+  fi
+  mkdir -p "$STAGING"
+  rm -rf "$PREVIOUS" || echo "docker/build.sh: warning: could not remove $PREVIOUS" >&2
 }
 
 # 1. Never as root: web/out must stay owned by the nightly's user.
@@ -68,17 +93,21 @@ if [ -n "$(docker compose -f "$COMPOSE_FILE" ps -a -q 2>/dev/null)" ]; then
   refuse 75 "a previous awesomer-build container still exists; inspect it with docker compose -f $COMPOSE_FILE ps -a"
 fi
 
-# Create the bind source as the invoking user (compose uses create_host_path: false).
-mkdir -p web/out
+# Create the bind source and swap target as the invoking user
+# (compose uses create_host_path: false).
+mkdir -p web/out "$STAGING"
 before=$(stat -c %Y web/out)
 echo "docker/build.sh: preflight passed; web/out mtime before run: $before"
 
 rc=0
 docker compose -f "$COMPOSE_FILE" run --rm --build builder || rc=$?
 
-if [ "$rc" -eq 0 ]; then
-  echo "docker/build.sh: web/out ready (not deployed)"
-else
+if [ "$rc" -ne 0 ]; then
   echo "docker/build.sh: build failed (exit $rc); web/out left as it was" >&2
+  exit "$rc"
 fi
-exit "$rc"
+
+if ! swap_in; then
+  refuse 74 "build succeeded but swapping $STAGING into web/out failed; web/out left as it was"
+fi
+echo "docker/build.sh: web/out updated: $(ls web/out/r | wc -l) repo pages, $(ls web/out/l | wc -l) list pages (not deployed)"
