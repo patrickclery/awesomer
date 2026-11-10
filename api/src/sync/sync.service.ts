@@ -38,6 +38,8 @@ export interface ListDataCounts {
   items: number;
   nullDescriptions: number;
   badgeDescriptions: number;
+  /** Items linked to a repo whose denormalized star count is missing (hidden from the site). */
+  itemsWithoutStars: number;
 }
 
 /** Category and item totals, used to prove a re-import left other lists alone. */
@@ -438,6 +440,15 @@ export class SyncService {
         await tx.categoryItem.deleteMany({ where: { category: { awesomeListId } } });
         await tx.category.deleteMany({ where: { awesomeListId } });
         const created = await this.persistParsedData(awesomeListId, usedCategories, filtered, tx);
+        // The re-created rows start without the repo-derived columns the nightly snapshot
+        // step keeps on category_items. The public pages filter on category_items.stars, so
+        // copy them from the linked repos now instead of publishing an empty list until the
+        // next nightly.
+        await tx.$executeRaw`
+          UPDATE category_items AS ci
+          SET stars = r.stars, github_description = r.description, last_commit_at = r.last_commit_at
+          FROM repos AS r, categories AS c
+          WHERE ci.repo_id = r.id AND ci.category_id = c.id AND c.awesome_list_id = ${awesomeListId}`;
         await tx.awesomeList.update({
           where: { id: awesomeListId },
           data: { readmeContent: source, lastSyncedAt: new Date(), state: 'completed' },
@@ -491,6 +502,9 @@ export class SyncService {
         OR: [{ description: { contains: '![' } }, { description: { contains: 'img.shields.io' } }],
       },
     });
+    const itemsWithoutStars = await this.prisma.categoryItem.count({
+      where: { category: { awesomeListId }, repoId: { not: null }, stars: null },
+    });
     return {
       categories: categories.length,
       emptyCategories: categories.filter((cat) => cat._count.categoryItems === 0).length,
@@ -498,6 +512,7 @@ export class SyncService {
       items,
       nullDescriptions,
       badgeDescriptions,
+      itemsWithoutStars,
     };
   }
 

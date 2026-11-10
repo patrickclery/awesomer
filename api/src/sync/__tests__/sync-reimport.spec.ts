@@ -51,6 +51,7 @@ interface Db {
   categoryItem: { count: Fn; findFirst: Fn; create: Fn; deleteMany: Fn };
   repo: { findUnique: Fn; upsert: Fn };
   $transaction: Fn;
+  $executeRaw: Fn;
 }
 
 function makeDb(storedItems = 3): Db {
@@ -88,9 +89,15 @@ function makeDb(storedItems = 3): Db {
     },
     categoryItem: {
       count: jest.fn(
-        (args: { where: { description?: unknown; OR?: unknown } }) =>
+        (args: {
+          where: { description?: unknown; OR?: unknown; stars?: unknown };
+        }) =>
           Promise.resolve(
-            args.where.description === null || args.where.OR ? 0 : storedItems,
+            args.where.description === null ||
+              args.where.OR ||
+              'stars' in args.where
+              ? 0
+              : storedItems,
           ),
       ),
       findFirst: jest.fn(() => Promise.resolve(null)),
@@ -101,6 +108,7 @@ function makeDb(storedItems = 3): Db {
       findUnique: jest.fn(() => Promise.resolve(null)),
       upsert: jest.fn(() => Promise.resolve({ id: nextId++ })),
     },
+    $executeRaw: jest.fn(() => Promise.resolve(2)),
     $transaction: jest.fn(async (fn: (tx: unknown) => Promise<unknown>) =>
       fn(db),
     ),
@@ -137,6 +145,7 @@ function expectNoWrites(db: Db) {
   expect(db.category.upsert).not.toHaveBeenCalled();
   expect(db.categoryItem.create).not.toHaveBeenCalled();
   expect(db.repo.upsert).not.toHaveBeenCalled();
+  expect(db.$executeRaw).not.toHaveBeenCalled();
 }
 
 describe('SyncService.reimportAwesomeList guards', () => {
@@ -267,6 +276,30 @@ describe('SyncService.reimportAwesomeList apply', () => {
     const txStart = db.$transaction.mock.invocationCallOrder[0];
     expect(db.awesomeList.update.mock.invocationCallOrder[0]).toBeGreaterThan(
       txStart,
+    );
+  });
+
+  it('copies repo-derived star data onto the re-created items of this list only, inside the transaction', async () => {
+    const db = makeDb();
+    const { service } = makeService(db);
+    await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
+
+    expect(db.$executeRaw).toHaveBeenCalledTimes(1);
+    const [strings, ...values] = db.$executeRaw.mock.calls[0] as [
+      TemplateStringsArray,
+      ...unknown[],
+    ];
+    const sql = strings.join('?');
+    expect(sql).toMatch(/UPDATE category_items/);
+    expect(sql).toMatch(/SET stars = r\.stars/);
+    expect(sql).toMatch(/c\.awesome_list_id = \?/);
+    expect(values).toEqual([LIST_ID]);
+    const rawAt = db.$executeRaw.mock.invocationCallOrder[0];
+    expect(rawAt).toBeGreaterThan(
+      db.categoryItem.create.mock.invocationCallOrder.at(-1)!,
+    );
+    expect(rawAt).toBeLessThan(
+      db.awesomeList.update.mock.invocationCallOrder[0],
     );
   });
 
