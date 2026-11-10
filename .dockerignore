@@ -1,0 +1,17 @@
+# Allowlist build context for docker/build.Dockerfile: only api, web and docker sources; no env files, caches or node_modules.
+*
+!api
+!web
+!docker
+api/node_modules
+api/dist
+api/src/generated
+api/coverage
+web/node_modules
+web/.next
+web/out
+web/data
+web/next-env.d.ts
+**/.env*
+**/*.pem
+**/*.tsbuildinfo
