@@ -19,6 +19,10 @@ dev:
     trap "kill $API_PID $WEB_PID 2>/dev/null; echo 'Stopped.'" EXIT INT TERM
     wait
 
+# Build the static site in Docker into web/out/ (preflight guards; never deploys)
+docker-build:
+    bash docker/build.sh
+
 # Format YAML files with Prettier
 format-yaml:
     @echo "🔧 Formatting YAML files with Prettier..."
