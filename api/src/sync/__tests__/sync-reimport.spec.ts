@@ -370,3 +370,47 @@ describe('SyncService.reimportAwesomeList sync write lock', () => {
     expect(db.releaseLock).toHaveBeenCalledTimes(1);
   });
 });
+
+describe('SyncService.persistParsedData', () => {
+  it('upserts only categories an item uses, for every caller', async () => {
+    const db = makeDb();
+    const { service } = makeService(db);
+    const persist = (
+      service as unknown as {
+        persistParsedData: (
+          id: number,
+          categories: Array<{ name: string; order: number }>,
+          items: Array<{
+            name: string;
+            primaryUrl: string;
+            githubRepo: string | null;
+            description: string | null;
+            categoryIndex: number;
+          }>,
+        ) => Promise<number[]>;
+      }
+    ).persistParsedData.bind(service);
+
+    await persist(
+      LIST_ID,
+      [
+        { name: 'Deep Learning Frameworks', order: 0 },
+        { name: 'Curated Resource Lists', order: 1 },
+      ],
+      [
+        {
+          name: 'PyTorch',
+          primaryUrl: 'https://github.com/pytorch/pytorch',
+          githubRepo: 'pytorch/pytorch',
+          description: null,
+          categoryIndex: 0,
+        },
+      ],
+    );
+
+    const names = db.category.upsert.mock.calls.map(
+      (call) => (call[0] as { create: { name: string } }).create.name,
+    );
+    expect(names).toEqual(['Deep Learning Frameworks']);
+  });
+});

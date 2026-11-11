@@ -451,6 +451,8 @@ export class SyncService {
 
     const { categories, items } = parser.parse(source);
     const filtered = await this.filterAwesomeListRepos(list.slug, items);
+    // persistParsedData() writes only the categories an item uses; summarize the same set
+    // so `parsed.categories` matches what an apply stores.
     const usedOrders = new Set(filtered.map((item) => item.categoryIndex));
     const usedCategories = categories.filter((cat) => usedOrders.has(cat.order));
     const parsed = summarizeParseResult({ categories: usedCategories, items: filtered });
@@ -486,7 +488,7 @@ export class SyncService {
       async (tx) => {
         await tx.categoryItem.deleteMany({ where: { category: { awesomeListId } } });
         await tx.category.deleteMany({ where: { awesomeListId } });
-        const created = await this.persistParsedData(awesomeListId, usedCategories, filtered, tx);
+        const created = await this.persistParsedData(awesomeListId, categories, filtered, tx);
         // The re-created rows start without the repo-derived columns the nightly snapshot
         // step keeps on category_items. The public pages filter on category_items.stars, so
         // copy them from the linked repos now instead of publishing an empty list until the
@@ -1162,10 +1164,14 @@ export class SyncService {
     }>,
     db: Prisma.TransactionClient = this.prisma,
   ): Promise<number[]> {
-    // Create categories
+    // Create only the categories an item uses. Every caller (full import, diff-sync,
+    // re-import) shares this, so none of them can re-create a category whose items were
+    // all filtered out (e.g. awesome-list cross-references) as an empty row.
+    const usedOrders = new Set(items.map((item) => item.categoryIndex));
     const categoryMap = new Map<number, number>(); // index → DB id
 
     for (const cat of categories) {
+      if (!usedOrders.has(cat.order)) continue;
       const slug = this.slugify(`${awesomeListId}-${cat.name}`);
       const created = await db.category.upsert({
         where: { slug },
