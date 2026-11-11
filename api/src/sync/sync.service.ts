@@ -1,3 +1,4 @@
+import { AsyncLocalStorage } from 'node:async_hooks';
 import { existsSync, readdirSync } from 'fs';
 import { Injectable, Logger } from '@nestjs/common';
 import { Cron } from '@nestjs/schedule';
@@ -8,7 +9,7 @@ import { BackfillService } from './backfill.service.js';
 import { StaticDataService } from './static-data.service.js';
 import { MarkdownService, readmeForMain } from './markdown.service.js';
 import { replaceEmojiShortcodes } from '../common/emoji.js';
-import { META_AWESOME_LIST_SLUG } from '../common/constants.js';
+import { META_AWESOME_LIST_SLUG, SYNC_WRITE_LOCK_KEY } from '../common/constants.js';
 import { getParser } from './parsers/parser-factory.js';
 import { NUMBERED_NAME_RE, summarizeParseResult } from './parsers/parse-summary.js';
 import type { ParseSummary } from './parsers/parse-summary.js';
@@ -67,6 +68,9 @@ const ALL_STEPS: SyncStep[] = ['diff', 'stats', 'snapshots', 'trending', 'markdo
 @Injectable()
 export class SyncService {
   private readonly logger = new Logger(SyncService.name);
+  // Marks the async call chain that already holds the sync write lock, so nested calls
+  // (the daily pipeline's diff-syncs, the re-import CLI's dry run then apply) re-enter it.
+  private readonly syncLockHeld = new AsyncLocalStorage<true>();
 
   constructor(
     private readonly prisma: PrismaService,
@@ -76,6 +80,25 @@ export class SyncService {
     private readonly markdown: MarkdownService,
   ) {}
 
+  /**
+   * Runs `fn` while holding the cross-process sync write lock (SYNC_WRITE_LOCK_KEY), so
+   * the nightly pipeline, a manual sync or import, and a re-import never overlap. Throws
+   * without running `fn` when another session holds the lock. Re-entrant within one
+   * async call chain.
+   */
+  async runExclusive<T>(label: string, fn: () => Promise<T>): Promise<T> {
+    if (this.syncLockHeld.getStore()) return fn();
+    const release = await this.prisma.tryAdvisoryLock(SYNC_WRITE_LOCK_KEY);
+    if (!release) {
+      throw new Error(`Refusing to ${label}: another sync, import or re-import holds the sync write lock`);
+    }
+    try {
+      return await this.syncLockHeld.run(true, fn);
+    } finally {
+      await release();
+    }
+  }
+
   // =========================================================================
   // Daily pipeline — runs at 6 AM EST (11 AM UTC)
   // =========================================================================
@@ -83,43 +106,45 @@ export class SyncService {
   // 6 AM EST = 11 AM UTC (EST is UTC-5)
   @Cron('0 11 * * *')
   async runDailyPipeline() {
-    this.logger.log('Starting daily pipeline (6 AM EST)...');
+    return this.runExclusive('run the daily pipeline', async () => {
+      this.logger.log('Starting daily pipeline (6 AM EST)...');
 
-    try {
-      // Step 1: Diff-sync all awesome lists — picks up new entries
-      const lists = await this.prisma.awesomeList.findMany({
-        where: { archived: false },
-      });
-      for (const list of lists) {
-        try {
-          await this.diffSyncAwesomeList(list.id);
-        } catch (err) {
-          this.logger.error(`Failed to diff-sync ${list.githubRepo}: ${err}`);
+      try {
+        // Step 1: Diff-sync all awesome lists — picks up new entries
+        const lists = await this.prisma.awesomeList.findMany({
+          where: { archived: false },
+        });
+        for (const list of lists) {
+          try {
+            await this.diffSyncAwesomeList(list.id);
+          } catch (err) {
+            this.logger.error(`Failed to diff-sync ${list.githubRepo}: ${err}`);
+          }
         }
+
+        // Step 2: Fetch GitHub stats via GraphQL (stars, description, lastCommitAt)
+        // This is the authoritative source for today's star count — GitHub
+        // GraphQL API returns exact current values.
+        await this.takeStarSnapshots();
+
+        // Step 3: Compute trending deltas (7d/30d/90d)
+        await this.computeTrending();
+
+        // Step 4: Rebuild static site
+        await this.rebuildStaticSite();
+
+        // Step 5: Deploy to GitHub Pages (markdown is generated inside, after rsync)
+        const markdownDir = await this.deployStaticSite();
+
+        // Step 6: Commit the README generated in step 5 to main. The l/ and r/ pages stay on gh-pages.
+        await this.commitReadmeToMain(markdownDir);
+
+        this.logger.log('Daily pipeline completed successfully');
+      } catch (error) {
+        this.logger.error('Daily pipeline failed', error);
+        throw error;
       }
-
-      // Step 2: Fetch GitHub stats via GraphQL (stars, description, lastCommitAt)
-      // This is the authoritative source for today's star count — GitHub
-      // GraphQL API returns exact current values.
-      await this.takeStarSnapshots();
-
-      // Step 3: Compute trending deltas (7d/30d/90d)
-      await this.computeTrending();
-
-      // Step 4: Rebuild static site
-      await this.rebuildStaticSite();
-
-      // Step 5: Deploy to GitHub Pages (markdown is generated inside, after rsync)
-      const markdownDir = await this.deployStaticSite();
-
-      // Step 6: Commit the README generated in step 5 to main. The l/ and r/ pages stay on gh-pages.
-      await this.commitReadmeToMain(markdownDir);
-
-      this.logger.log('Daily pipeline completed successfully');
-    } catch (error) {
-      this.logger.error('Daily pipeline failed', error);
-      throw error;
-    }
+    });
   }
 
   // =========================================================================
@@ -131,21 +156,23 @@ export class SyncService {
     this.logger.log(`Starting sync pipeline (steps: ${[...run].join(', ')})...`);
 
     try {
-      if (run.has('diff')) {
-        const lists = await this.prisma.awesomeList.findMany({
-          where: { archived: false },
-        });
-        for (const list of lists) {
-          await this.diffSyncAwesomeList(list.id);
+      await this.runExclusive('run the sync pipeline', async () => {
+        if (run.has('diff')) {
+          const lists = await this.prisma.awesomeList.findMany({
+            where: { archived: false },
+          });
+          for (const list of lists) {
+            await this.diffSyncAwesomeList(list.id);
+          }
         }
-      }
-      if (run.has('stats'))     await this.syncGithubStats();
-      if (run.has('snapshots')) await this.takeStarSnapshots();
-      if (run.has('trending'))  await this.computeTrending();
-      if (run.has('markdown'))  await this.generateMarkdown();
-      if (run.has('rebuild'))   await this.rebuildStaticSite();
-      if (run.has('deploy'))    await this.deployStaticSite();
-      this.logger.log('Sync pipeline completed');
+        if (run.has('stats'))     await this.syncGithubStats();
+        if (run.has('snapshots')) await this.takeStarSnapshots();
+        if (run.has('trending'))  await this.computeTrending();
+        if (run.has('markdown'))  await this.generateMarkdown();
+        if (run.has('rebuild'))   await this.rebuildStaticSite();
+        if (run.has('deploy'))    await this.deployStaticSite();
+        this.logger.log('Sync pipeline completed');
+      });
     } catch (error) {
       this.logger.error('Sync pipeline failed', error);
     }
@@ -156,6 +183,10 @@ export class SyncService {
   // =========================================================================
 
   async importAwesomeList(awesomeListId: number) {
+    return this.runExclusive(`import list ${awesomeListId}`, () => this.importAwesomeListLocked(awesomeListId));
+  }
+
+  private async importAwesomeListLocked(awesomeListId: number) {
     const list = await this.prisma.awesomeList.findUnique({
       where: { id: awesomeListId },
     });
@@ -247,6 +278,10 @@ export class SyncService {
   }
 
   async diffSyncAwesomeList(awesomeListId: number) {
+    return this.runExclusive(`diff-sync list ${awesomeListId}`, () => this.diffSyncAwesomeListLocked(awesomeListId));
+  }
+
+  private async diffSyncAwesomeListLocked(awesomeListId: number) {
     const list = await this.prisma.awesomeList.findUnique({
       where: { id: awesomeListId },
     });
@@ -373,6 +408,8 @@ export class SyncService {
    * list with what the current parser reads from today's upstream source.
    *
    * Contract:
+   * - Runs under the sync write lock (see runExclusive), and refuses when another sync,
+   *   import or re-import holds it.
    * - Refuses (throws before any network call) when the list's slug is not `expectedSlug`.
    * - Refuses (throws before any write) when the parse holds zero items, or fewer than
    *   REIMPORT_MIN_RATIO of the stored item count.
@@ -382,6 +419,16 @@ export class SyncService {
    *   (after the awesome-list filter) uses are persisted. Other lists are never touched.
    */
   async reimportAwesomeList(awesomeListId: number, expectedSlug: string, apply: boolean): Promise<ReimportReport> {
+    return this.runExclusive(`re-import list ${awesomeListId}`, () =>
+      this.reimportAwesomeListLocked(awesomeListId, expectedSlug, apply),
+    );
+  }
+
+  private async reimportAwesomeListLocked(
+    awesomeListId: number,
+    expectedSlug: string,
+    apply: boolean,
+  ): Promise<ReimportReport> {
     const list = await this.prisma.awesomeList.findUnique({
       where: { id: awesomeListId },
     });

@@ -151,7 +151,10 @@ function buildFixture(root: string): Fixture {
       return [...fixture.pages.keys()];
     },
   };
-  const prismaStub = { awesomeList: { findMany: async () => [] } };
+  const prismaStub = {
+    awesomeList: { findMany: async () => [] },
+    tryAdvisoryLock: async () => async () => {},
+  };
   const service = new SyncService(prismaStub as never, {} as never, {} as never, {} as never, markdownStub as never);
 
   const warn = jest.fn();

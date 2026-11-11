@@ -6,6 +6,7 @@ import {
   Param,
   ParseIntPipe,
   Headers,
+  Logger,
   UnauthorizedException,
   NotFoundException,
 } from '@nestjs/common';
@@ -18,6 +19,8 @@ import { SyncService, SyncStep } from './sync.service.js';
 @ApiTags('Sync')
 @Controller('sync')
 export class SyncController {
+  private readonly logger = new Logger(SyncController.name);
+
   constructor(
     private readonly syncService: SyncService,
     private readonly staticData: StaticDataService,
@@ -49,7 +52,8 @@ export class SyncController {
   @ApiOperation({ summary: 'Trigger the full daily pipeline (diff-sync + stats + backfill + trending + markdown + rebuild)' })
   async triggerDailyPipeline(@Headers('authorization') auth?: string) {
     this.checkAdminKey(auth);
-    void this.syncService.runDailyPipeline();
+    // Fire and forget, but never leave a rejection unhandled (a held sync lock, for one).
+    void this.syncService.runDailyPipeline().catch((err) => this.logger.error(`Daily pipeline failed: ${err}`));
     return { message: 'Daily pipeline started' };
   }
 
@@ -60,7 +64,7 @@ export class SyncController {
     @Headers('authorization') auth?: string,
   ) {
     this.checkAdminKey(auth);
-    void this.syncService.importAwesomeList(id);
+    void this.syncService.importAwesomeList(id).catch((err) => this.logger.error(`Import of list ${id} failed: ${err}`));
     return { message: 'Import started (stats → snapshots → backfill → trending will follow)' };
   }
 

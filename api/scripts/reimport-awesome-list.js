@@ -19,8 +19,15 @@
  * - Backup: `--apply` first writes the list's categories and items as JSON
  *   (dir mode 0700, file mode 0600) to `--backup-dir`, default
  *   ~/backups/awesomer. The backup holds only public category and item rows.
- * - Nightly guard: `--apply` refuses unless awesomer-sync-snapshots.service is
- *   loaded and inactive or failed (fail closed, like docker/build.sh).
+ * - Sync write lock: the dry run and the apply run under one Postgres advisory
+ *   lock (SyncService.runExclusive) that the daily pipeline, the legacy sync, a
+ *   full import and a diff-sync also take. The script refuses when another
+ *   process holds it, and while it holds the lock those refuse in turn, whether
+ *   they come from the systemd unit, a running API server's in-process cron, or
+ *   an admin endpoint.
+ * - Nightly fast-fail: `--apply` also refuses up front unless
+ *   awesomer-sync-snapshots.service is loaded and inactive or failed (fail
+ *   closed, like docker/build.sh), before Nest boots.
  * - In-process crons are disarmed right after boot, so this process never
  *   runs the scheduled pipeline.
  *
@@ -168,13 +175,17 @@ async function main() {
     for (const name of scheduler.getTimeouts()) scheduler.deleteTimeout(name);
 
     const sync = app.get(SyncService);
-    report(await sync.reimportAwesomeList(listId, slug, false));
+    // Hold the sync write lock across the dry run, the backup and the apply, so no
+    // other writer can change the list between what is reported and what is applied.
+    await sync.runExclusive(`re-import list ${listId}`, async () => {
+      report(await sync.reimportAwesomeList(listId, slug, false));
 
-    if (apply) {
-      const file = await writeBackup(app.get(PrismaService), listId, slug, backupDir);
-      console.log(`REIMPORT_BACKUP ${file}`);
-      report(await sync.reimportAwesomeList(listId, slug, true));
-    }
+      if (apply) {
+        const file = await writeBackup(app.get(PrismaService), listId, slug, backupDir);
+        console.log(`REIMPORT_BACKUP ${file}`);
+        report(await sync.reimportAwesomeList(listId, slug, true));
+      }
+    });
   } catch (err) {
     console.error(err instanceof Error ? err.message : String(err));
     code = 1;

@@ -24,3 +24,10 @@ export const STARGAZER_BACKFILL_DAYS = 100;
 
 /** Repos whose last commit is older than this many days are excluded from individual repo pages. */
 export const STALE_DAYS = 365;
+
+/**
+ * Postgres advisory-lock key shared by every writer of list rows: the daily pipeline,
+ * the legacy sync, a full import, a diff-sync and the guarded re-import. Holding it
+ * keeps those from overlapping across processes (cron, systemd unit, API, CLI).
+ */
+export const SYNC_WRITE_LOCK_KEY = 0x61776d72;

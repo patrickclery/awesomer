@@ -52,6 +52,8 @@ interface Db {
   repo: { findUnique: Fn; upsert: Fn };
   $transaction: Fn;
   $executeRaw: Fn;
+  tryAdvisoryLock: Fn;
+  releaseLock: Fn;
 }
 
 function makeDb(storedItems = 3): Db {
@@ -62,6 +64,7 @@ function makeDb(storedItems = 3): Db {
     parserType: 'opensource-ai',
   };
   let nextId = 1000;
+  const releaseLock = jest.fn(() => Promise.resolve());
   const db: Db = {
     awesomeList: {
       findUnique: jest.fn(() => Promise.resolve(list)),
@@ -112,6 +115,8 @@ function makeDb(storedItems = 3): Db {
     $transaction: jest.fn(async (fn: (tx: unknown) => Promise<unknown>) =>
       fn(db),
     ),
+    tryAdvisoryLock: jest.fn(() => Promise.resolve(releaseLock)),
+    releaseLock,
   };
   return db;
 }
@@ -327,5 +332,41 @@ describe('SyncService.reimportAwesomeList apply', () => {
     hydrate.mockRejectedValue(new Error('graphql down'));
     const report = await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
     expect(report.applied).toBe(true);
+  });
+});
+
+describe('SyncService.reimportAwesomeList sync write lock', () => {
+  it('refuses before any network call or write when another session holds the lock', async () => {
+    const db = makeDb();
+    db.tryAdvisoryLock.mockResolvedValue(null);
+    const { service, github } = makeService(db);
+    await expect(
+      service.reimportAwesomeList(LIST_ID, LIST_SLUG, true),
+    ).rejects.toThrow(/Refusing.*sync write lock/);
+    expect(db.awesomeList.findUnique).not.toHaveBeenCalled();
+    expect(github.fetchReadme).not.toHaveBeenCalled();
+    expectNoWrites(db);
+  });
+
+  it('releases the lock after an apply and after a refusal', async () => {
+    const db = makeDb();
+    const { service } = makeService(db);
+    await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
+    expect(db.releaseLock).toHaveBeenCalledTimes(1);
+    await expect(
+      service.reimportAwesomeList(LIST_ID, 'not-this-list', false),
+    ).rejects.toThrow(/Refusing/);
+    expect(db.releaseLock).toHaveBeenCalledTimes(2);
+  });
+
+  it('re-enters the lock it already holds, so the CLI can wrap the dry run and the apply', async () => {
+    const db = makeDb();
+    const { service } = makeService(db);
+    await service.runExclusive('re-import list', async () => {
+      await service.reimportAwesomeList(LIST_ID, LIST_SLUG, false);
+      await service.reimportAwesomeList(LIST_ID, LIST_SLUG, true);
+    });
+    expect(db.tryAdvisoryLock).toHaveBeenCalledTimes(1);
+    expect(db.releaseLock).toHaveBeenCalledTimes(1);
   });
 });
