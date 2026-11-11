@@ -16,9 +16,15 @@
  *   REIMPORT_MIN_RATIO of the stored item count.
  * - Atomic: the delete and the re-insert run in one transaction; any error
  *   rolls back and leaves the list as it was.
- * - Backup: `--apply` first writes the list's categories and items as JSON
- *   (dir mode 0700, file mode 0600) to `--backup-dir`, default
- *   ~/backups/awesomer. The backup holds only public category and item rows.
+ * - Backup (forensic, not a restore point): `--apply` first writes JSON (dir
+ *   mode 0700, file mode 0600) to `--backup-dir`, default ~/backups/awesomer.
+ *   It holds the list row fields the apply overwrites (readmeContent,
+ *   lastSyncedAt, state) and every category and item row. After commit, a
+ *   second `-applied.json` file records the repo ids the apply created. All of
+ *   it is public data. There is no restore mode: a hand restore must re-insert
+ *   the rows with explicit ids, delete the re-created rows and the new repos,
+ *   and fix the sequences, in one transaction. Re-running the re-import against
+ *   a pinned README is usually the simpler way back.
  * - Sync write lock: the dry run and the apply run under one Postgres advisory
  *   lock (SyncService.runExclusive) that the daily pipeline, the legacy sync, a
  *   full import and a diff-sync also take. The script refuses when another
@@ -35,8 +41,9 @@
  * shell and the DB credentials the operator already holds, so it adds no
  * network-reachable surface.
  *
- * Output: one `REIMPORT_REPORT <json>` line per report, and `REIMPORT_BACKUP
- * <path>` before an apply. Environment values are never printed.
+ * Output: one `REIMPORT_REPORT <json>` line per report, `REIMPORT_BACKUP
+ * <path>` before an apply and `REIMPORT_APPLIED <path>` after it. Environment
+ * values are never printed.
  *
  * Exit codes: 0 ok, 1 refused or failed, 2 usage.
  *
@@ -127,7 +134,17 @@ function report(r) {
   console.log(`REIMPORT_REPORT ${JSON.stringify(r)}`);
 }
 
+function writePrivateJson(file, data) {
+  writeFileSync(file, JSON.stringify(data, null, 2), { mode: 0o600, flag: 'wx' });
+  chmodSync(file, 0o600);
+}
+
 async function writeBackup(prisma, listId, slug, backupDir) {
+  // The list row fields the apply overwrites, so a forensic diff can see them.
+  const awesomeList = await prisma.awesomeList.findUnique({
+    where: { id: listId },
+    select: { id: true, slug: true, githubRepo: true, readmeContent: true, lastSyncedAt: true, state: true },
+  });
   const categories = await prisma.category.findMany({
     where: { awesomeListId: listId },
     include: { categoryItems: true },
@@ -137,11 +154,20 @@ async function writeBackup(prisma, listId, slug, backupDir) {
   mkdirSync(backupDir, { recursive: true, mode: 0o700 });
   chmodSync(backupDir, 0o700);
   const file = join(backupDir, `reimport-list-${listId}-${takenAt.replace(/:/g, '-')}.json`);
-  writeFileSync(file, JSON.stringify({ awesomeListId: listId, slug, takenAt, categories }, null, 2), {
-    mode: 0o600,
-    flag: 'wx',
+  writePrivateJson(file, { awesomeListId: listId, slug, takenAt, awesomeList, categories });
+  return file;
+}
+
+/** Records what the committed apply created next to the backup it pairs with. */
+function writeApplied(backupFile, r) {
+  const file = backupFile.replace(/\.json$/, '-applied.json');
+  writePrivateJson(file, {
+    awesomeListId: r.awesomeListId,
+    slug: r.slug,
+    appliedAt: new Date().toISOString(),
+    newRepoIds: r.newRepoIds,
+    after: r.after,
   });
-  chmodSync(file, 0o600);
   return file;
 }
 
@@ -183,7 +209,9 @@ async function main() {
       if (apply) {
         const file = await writeBackup(app.get(PrismaService), listId, slug, backupDir);
         console.log(`REIMPORT_BACKUP ${file}`);
-        report(await sync.reimportAwesomeList(listId, slug, true));
+        const applied = await sync.reimportAwesomeList(listId, slug, true);
+        report(applied);
+        console.log(`REIMPORT_APPLIED ${writeApplied(file, applied)}`);
       }
     });
   } catch (err) {

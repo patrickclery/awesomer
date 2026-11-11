@@ -201,6 +201,7 @@ describe('SyncService.reimportAwesomeList dry run', () => {
     expect(report.applied).toBe(false);
     expect(report.after).toBeNull();
     expect(report.otherListsAfter).toBeNull();
+    expect(report.newRepoIds).toBeNull();
     expect(report.parsed.items).toBe(2);
     expect(report.parsed.categories).toBe(1);
     expect(report.parsed.badgeDescriptions).toBe(0);
@@ -324,6 +325,7 @@ describe('SyncService.reimportAwesomeList apply', () => {
     expect(report.applied).toBe(true);
     expect(report.after).not.toBeNull();
     expect(report.otherListsAfter).not.toBeNull();
+    expect(report.newRepoIds).toEqual(hydrate.mock.calls[0][0]);
   });
 
   it('does not rethrow a hydration failure', async () => {

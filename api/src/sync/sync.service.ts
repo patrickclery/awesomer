@@ -59,6 +59,8 @@ export interface ReimportReport {
   after: ListDataCounts | null;
   otherListsBefore: ListScopeCounts;
   otherListsAfter: ListScopeCounts | null;
+  /** Repo rows the apply created (null on a dry run). Undoing an apply must delete these. */
+  newRepoIds: number[] | null;
 }
 
 export type SyncStep = 'diff' | 'stats' | 'snapshots' | 'trending' | 'markdown' | 'rebuild' | 'deploy';
@@ -481,6 +483,7 @@ export class SyncService {
         after: null,
         otherListsBefore,
         otherListsAfter: null,
+        newRepoIds: null,
       };
     }
 
@@ -530,6 +533,7 @@ export class SyncService {
       after,
       otherListsBefore,
       otherListsAfter,
+      newRepoIds,
     };
   }
 
