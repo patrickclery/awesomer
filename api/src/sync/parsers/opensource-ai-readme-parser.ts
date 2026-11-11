@@ -19,6 +19,10 @@ const MAX_LINE_LENGTH = 10_000;
 // Matches h1 through h4 headings
 const HEADER_RE = /^(#{1,4})\s+(.+)$/;
 
+// Opening or closing code fence (CommonMark: up to 3 spaces of indent, then 3+
+// backticks or tildes). Anchored with one bounded run, so it is linear on any line.
+const FENCE_RE = /^ {0,3}(`{3,}|~{3,})/;
+
 // Matches link items, bold-wrapped or plain, with an optional description.
 // Star badges appear in two positions upstream:
 //   - **[Name](url)** ![badge](img) - Description text   (leading, 2026-04 format;
@@ -79,6 +83,8 @@ export function cleanHeading(text: string): string {
  * sections with trailing badges (current).
  *
  * Heading rules:
+ * - Lines inside a fenced code block are ignored, so a `# comment` in a shell
+ *   snippet neither ends the section nor reads as an item.
  * - An h1 (the title) resets the current category; nothing under it is imported.
  * - Heading text is cleaned (leading emoji, then section number) at every
  *   level before the skip test. A heading that cleans to empty or matches
@@ -99,10 +105,22 @@ export class OpensourceAiReadmeParser implements ReadmeParser {
 
     let pendingName: string | null = null;
     let currentCategoryIndex = -1;
+    // The fence character ('`' or '~') of the open code block, or null outside one.
+    let fenceChar: string | null = null;
     const lines = content.split('\n');
 
     for (let lineIdx = 0; lineIdx < lines.length; lineIdx++) {
       const line = lines[lineIdx];
+
+      // Code fences: a block closes only on a fence of the character that opened it
+      const fenceMatch = line.match(FENCE_RE);
+      if (fenceMatch) {
+        const char = fenceMatch[1][0];
+        if (fenceChar === null) fenceChar = char;
+        else if (char === fenceChar) fenceChar = null;
+        continue;
+      }
+      if (fenceChar !== null) continue;
 
       // Hostile-input guard: never run a regex over an oversized line
       if (line.length > MAX_LINE_LENGTH) continue;

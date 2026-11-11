@@ -332,3 +332,41 @@ describe('hostile input', () => {
     expect(result.categories.map((c) => c.name)).toEqual(['Section']);
   });
 });
+
+describe('fenced code blocks', () => {
+  const parser = new OpensourceAiReadmeParser();
+  const FENCED = [
+    '# Awesome Open Source AI',
+    '',
+    '## 1. Core Frameworks',
+    '',
+    '#### Deep Learning Frameworks',
+    '',
+    '- [PyTorch](https://github.com/pytorch/pytorch) - Dynamic graphs.',
+    '',
+    '```bash',
+    '# install the CLI',
+    '- [Not An Item](https://github.com/fake/inside-fence) - inside the fence',
+    '~~~',
+    '```',
+    '',
+    '- [TensorFlow](https://github.com/tensorflow/tensorflow) - Static graphs.',
+    '',
+    '~~~',
+    '## Contributing',
+    '~~~',
+    '',
+    '- [JAX](https://github.com/jax-ml/jax) - Composable transforms.',
+  ].join('\n');
+
+  it('keeps the section across a # comment inside a fence and ignores fenced items', () => {
+    const result = parser.parse(FENCED);
+    expect(result.categories).toEqual([{ name: 'Deep Learning Frameworks', order: 0 }]);
+    expect(result.items.map((i) => i.githubRepo)).toEqual([
+      'pytorch/pytorch',
+      'tensorflow/tensorflow',
+      'jax-ml/jax',
+    ]);
+    expect(result.items.every((i) => i.categoryIndex === 0)).toBe(true);
+  });
+});
