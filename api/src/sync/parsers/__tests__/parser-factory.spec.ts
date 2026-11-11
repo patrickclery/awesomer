@@ -1,4 +1,4 @@
-import { getParser } from '../parser-factory.js';
+import { getParser, PARSER_TYPES } from '../parser-factory.js';
 import { DefaultReadmeParser } from '../default-readme-parser.js';
 import { AiAgentsReadmeParser } from '../ai-agents-readme-parser.js';
 import { OpensourceAiReadmeParser } from '../opensource-ai-readme-parser.js';
@@ -28,6 +28,13 @@ describe('getParser', () => {
 
   it('returns McpServersReadmeParser for "mcp-servers"', () => {
     expect(getParser('mcp-servers')).toBeInstanceOf(McpServersReadmeParser);
+  });
+
+  it('maps every non-default PARSER_TYPES entry to its own parser', () => {
+    for (const type of PARSER_TYPES) {
+      if (type === 'default') continue;
+      expect(getParser(type)).not.toBeInstanceOf(DefaultReadmeParser);
+    }
   });
 
   it('returns ImmichItemsJsonParser for "immich"', () => {

@@ -22,16 +22,17 @@
  *                    empty, or no items were parsed
  *   --min-items N    fail when fewer than N items were parsed
  *
+ *   <parserType> must be one of PARSER_TYPES (parser-factory.ts); 'default' is
+ *   the fallback parser. Any other value is a usage error, never a silent fallback.
+ *
  * Exit codes:
  *   0  summary printed, all requested assertions held
  *   1  an assertion failed (the summary line is still printed)
- *   2  usage error or unreadable file
+ *   2  usage error, unknown parserType, unreadable file, or missing build
  */
 
 import { readFileSync } from 'node:fs';
 import { parseArgs } from 'node:util';
-import { getParser } from '../dist/src/sync/parsers/parser-factory.js';
-import { summarizeParseResult } from '../dist/src/sync/parsers/parse-summary.js';
 
 const USAGE = 'Usage: node scripts/probe-readme-parser.js <parserType> <file> [--assert-clean] [--min-items N]';
 
@@ -56,6 +57,21 @@ try {
 
 const [parserType, file] = args.positionals;
 if (!parserType || !file || args.positionals.length > 2) usage();
+
+// Loaded dynamically so a missing or stale build exits 2, not 1 (an assertion failure).
+let getParser;
+let PARSER_TYPES;
+let summarizeParseResult;
+try {
+  ({ getParser, PARSER_TYPES } = await import('../dist/src/sync/parsers/parser-factory.js'));
+  ({ summarizeParseResult } = await import('../dist/src/sync/parsers/parse-summary.js'));
+} catch (err) {
+  usage(`Cannot load the compiled parsers (run npx nest build): ${err.message}`);
+}
+if (!Array.isArray(PARSER_TYPES)) usage('The compiled build has no PARSER_TYPES (run npx nest build)');
+if (!PARSER_TYPES.includes(parserType)) {
+  usage(`Unknown parserType: ${parserType} (expected one of ${PARSER_TYPES.join(', ')})`);
+}
 
 let minItems;
 if (args.values['min-items'] !== undefined) {
