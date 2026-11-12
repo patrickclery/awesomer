@@ -47,7 +47,13 @@ type Fn = ReturnType<typeof jest.fn<(...args: any[]) => any>>;
 
 interface Db {
   awesomeList: { findUnique: Fn; findFirst: Fn; findMany: Fn; update: Fn };
-  category: { findMany: Fn; count: Fn; upsert: Fn; deleteMany: Fn };
+  category: {
+    findMany: Fn;
+    findUnique: Fn;
+    count: Fn;
+    upsert: Fn;
+    deleteMany: Fn;
+  };
   categoryItem: { count: Fn; findFirst: Fn; create: Fn; deleteMany: Fn };
   repo: { findUnique: Fn; upsert: Fn };
   $transaction: Fn;
@@ -86,6 +92,7 @@ function makeDb(storedItems = 3): Db {
           },
         ]),
       ),
+      findUnique: jest.fn(() => Promise.resolve(null)),
       count: jest.fn(() => Promise.resolve(10)),
       upsert: jest.fn(() => Promise.resolve({ id: nextId++ })),
       deleteMany: jest.fn(() => Promise.resolve({ count: 1 })),
@@ -373,25 +380,43 @@ describe('SyncService.reimportAwesomeList sync write lock', () => {
   });
 });
 
+type PersistFn = (
+  id: number,
+  categories: Array<{ name: string; order: number }>,
+  items: Array<{
+    name: string;
+    primaryUrl: string;
+    githubRepo: string | null;
+    description: string | null;
+    categoryIndex: number;
+  }>,
+) => Promise<number[]>;
+
+function persistOf(service: SyncService): PersistFn {
+  return (
+    service as unknown as { persistParsedData: PersistFn }
+  ).persistParsedData.bind(service);
+}
+
+const PYTORCH_ITEM = {
+  name: 'PyTorch',
+  primaryUrl: 'https://github.com/pytorch/pytorch',
+  githubRepo: 'pytorch/pytorch',
+  description: null,
+  categoryIndex: 0,
+};
+
+type UpsertArgs = {
+  where: { awesomeListId_name?: { awesomeListId: number; name: string } };
+  update: Record<string, unknown>;
+  create: { name: string; slug: string; awesomeListId: number };
+};
+
 describe('SyncService.persistParsedData', () => {
   it('upserts only categories an item uses, for every caller', async () => {
     const db = makeDb();
     const { service } = makeService(db);
-    const persist = (
-      service as unknown as {
-        persistParsedData: (
-          id: number,
-          categories: Array<{ name: string; order: number }>,
-          items: Array<{
-            name: string;
-            primaryUrl: string;
-            githubRepo: string | null;
-            description: string | null;
-            categoryIndex: number;
-          }>,
-        ) => Promise<number[]>;
-      }
-    ).persistParsedData.bind(service);
+    const persist = persistOf(service);
 
     await persist(
       LIST_ID,
@@ -414,5 +439,125 @@ describe('SyncService.persistParsedData', () => {
       (call) => (call[0] as { create: { name: string } }).create.name,
     );
     expect(names).toEqual(['Deep Learning Frameworks']);
+  });
+
+  it('reuses a legacy category row by (awesomeListId, name) without rewriting its slug', async () => {
+    const db = makeDb();
+    db.category.upsert.mockResolvedValue({
+      id: 7,
+      slug: 'deep-learning-frameworks',
+    });
+    const { service } = makeService(db);
+    await persistOf(service)(
+      LIST_ID,
+      [{ name: 'Deep Learning Frameworks', order: 0 }],
+      [
+        PYTORCH_ITEM,
+        {
+          ...PYTORCH_ITEM,
+          name: 'Keras',
+          primaryUrl: 'https://github.com/keras-team/keras',
+          githubRepo: 'keras-team/keras',
+        },
+      ],
+    );
+
+    expect(db.category.upsert).toHaveBeenCalledTimes(1);
+    const args = db.category.upsert.mock.calls[0][0] as UpsertArgs;
+    expect(args.where).toEqual({
+      awesomeListId_name: {
+        awesomeListId: LIST_ID,
+        name: 'Deep Learning Frameworks',
+      },
+    });
+    expect(args.update).toEqual({});
+    const categoryIds = db.categoryItem.create.mock.calls.map(
+      (call) => (call[0] as { data: { categoryId: number } }).data.categoryId,
+    );
+    expect(categoryIds).toEqual([7, 7]);
+  });
+
+  it('gives a brand-new category the list-prefixed slug when it is free', async () => {
+    const db = makeDb();
+    const { service } = makeService(db);
+    await persistOf(service)(
+      LIST_ID,
+      [{ name: 'Deep Learning Frameworks', order: 0 }],
+      [PYTORCH_ITEM],
+    );
+    const args = db.category.upsert.mock.calls[0][0] as UpsertArgs;
+    expect(args.create.slug).toBe('262-deep-learning-frameworks');
+  });
+
+  it('suffixes the slug when a different (list, name) row already holds it (slug collision)', async () => {
+    const db = makeDb();
+    db.category.findUnique.mockResolvedValueOnce({
+      awesomeListId: LIST_ID,
+      name: 'C++',
+    });
+    const { service } = makeService(db);
+    await persistOf(service)(
+      LIST_ID,
+      [{ name: 'C', order: 0 }],
+      [PYTORCH_ITEM],
+    );
+
+    const args = db.category.upsert.mock.calls[0][0] as UpsertArgs;
+    expect(args.create.slug).toBe('262-c-2');
+    const probed = db.category.findUnique.mock.calls.map(
+      (call) => (call[0] as { where: { slug: string } }).where.slug,
+    );
+    expect(probed).toEqual(['262-c', '262-c-2']);
+  });
+
+  it('trims the category name before lookup and create (trimmed name)', async () => {
+    const db = makeDb();
+    const { service } = makeService(db);
+    await persistOf(service)(
+      LIST_ID,
+      [{ name: '  Deep Learning Frameworks ', order: 0 }],
+      [PYTORCH_ITEM],
+    );
+    const args = db.category.upsert.mock.calls[0][0] as UpsertArgs;
+    expect(args.where.awesomeListId_name?.name).toBe(
+      'Deep Learning Frameworks',
+    );
+    expect(args.create.name).toBe('Deep Learning Frameworks');
+  });
+
+  it('warns once per near-duplicate category name group (near-duplicate warning)', async () => {
+    const db = makeDb();
+    db.category.findMany.mockResolvedValueOnce([
+      { id: 1, name: 'Data Manipulation' },
+      { id: 2, name: 'data  manipulation ' },
+    ]);
+    const { service } = makeService(db);
+    await persistOf(service)(
+      LIST_ID,
+      [{ name: 'Deep Learning Frameworks', order: 0 }],
+      [PYTORCH_ITEM],
+    );
+    const warn = (service as unknown as { logger: { warn: Fn } }).logger.warn;
+    expect(warn).toHaveBeenCalledTimes(1);
+    const message = String(warn.mock.calls[0][0]);
+    expect(message).toContain('262');
+    expect(message).toContain('"Data Manipulation"');
+    expect(message).toContain('"data  manipulation "');
+  });
+
+  it('does not warn when no category names collide (near-duplicate warning)', async () => {
+    const db = makeDb();
+    db.category.findMany.mockResolvedValueOnce([
+      { id: 1, name: 'A' },
+      { id: 2, name: 'B' },
+    ]);
+    const { service } = makeService(db);
+    await persistOf(service)(
+      LIST_ID,
+      [{ name: 'Deep Learning Frameworks', order: 0 }],
+      [PYTORCH_ITEM],
+    );
+    const warn = (service as unknown as { logger: { warn: Fn } }).logger.warn;
+    expect(warn).not.toHaveBeenCalled();
   });
 });

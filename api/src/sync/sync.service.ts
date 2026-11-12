@@ -1174,14 +1174,19 @@ export class SyncService {
     const usedOrders = new Set(items.map((item) => item.categoryIndex));
     const categoryMap = new Map<number, number>(); // index → DB id
 
+    // Categories are matched by (awesomeListId, name), never by slug, and the DB unique
+    // index categories_awesome_list_id_name_key enforces one row per heading. Legacy rows
+    // carry un-prefixed slugs (`containers`); the empty update keeps their slug and name,
+    // so existing `#category-<slug>` anchors keep working. The slug is only the create value.
     for (const cat of categories) {
       if (!usedOrders.has(cat.order)) continue;
-      const slug = this.slugify(`${awesomeListId}-${cat.name}`);
+      const name = cat.name.trim();
+      const slug = await this.availableCategorySlug(awesomeListId, name, db);
       const created = await db.category.upsert({
-        where: { slug },
-        update: { name: cat.name },
+        where: { awesomeListId_name: { awesomeListId, name } },
+        update: {},
         create: {
-          name: cat.name,
+          name,
           slug,
           awesomeListId,
         },
@@ -1242,7 +1247,76 @@ export class SyncService {
       }
     }
 
+    await this.warnNearDuplicateCategories(awesomeListId, db);
     return newRepoIds;
+  }
+
+  /**
+   * Pick the slug a new category of this list would be created with.
+   *
+   * slug is globally unique, and slugify() folds different headings into one value
+   * ("C" and "C++" in list 187 both give `187-c`), so a bare create would throw P2002
+   * and abort the import, or roll back the whole re-import transaction. Candidates are
+   * the base slug, then `<base>-2`, `<base>-3` and so on, each kept within 100
+   * characters. A candidate is free when no row holds it, or the row holding it is
+   * this same (list, name) category.
+   */
+  private async availableCategorySlug(
+    awesomeListId: number,
+    name: string,
+    db: Prisma.TransactionClient,
+  ): Promise<string> {
+    const MAX_CANDIDATES = 50;
+    const base = this.slugify(`${awesomeListId}-${name}`);
+    for (let n = 1; n <= MAX_CANDIDATES; n++) {
+      const suffix = n === 1 ? '' : `-${n}`;
+      const candidate = `${base.substring(0, 100 - suffix.length)}${suffix}`;
+      const holder = await db.category.findUnique({
+        where: { slug: candidate },
+        select: { awesomeListId: true, name: true },
+      });
+      if (
+        !holder ||
+        (holder.awesomeListId === awesomeListId && holder.name === name)
+      ) {
+        return candidate;
+      }
+    }
+    throw new Error(
+      `No free category slug for list ${awesomeListId} name ${JSON.stringify(name)} ` +
+        `after ${MAX_CANDIDATES} candidates`,
+    );
+  }
+
+  /**
+   * Log one warning per group of this list's category names that are equal after
+   * lowercasing and whitespace collapse. The unique index only blocks exact duplicates;
+   * this surfaces the near ones. Names are JSON.stringify'd because they are untrusted
+   * upstream heading text, so control characters cannot forge log lines.
+   */
+  private async warnNearDuplicateCategories(
+    awesomeListId: number,
+    db: Prisma.TransactionClient = this.prisma,
+  ): Promise<void> {
+    const rows = await db.category.findMany({
+      where: { awesomeListId },
+      select: { id: true, name: true },
+    });
+    const groups = new Map<string, Array<{ id: number; name: string }>>();
+    for (const row of rows) {
+      const key = row.name.toLowerCase().replace(/\s+/g, ' ').trim();
+      const group = groups.get(key) ?? [];
+      group.push(row);
+      groups.set(key, group);
+    }
+    for (const group of groups.values()) {
+      if (group.length < 2) continue;
+      const names = group.map((r) => JSON.stringify(r.name)).join(', ');
+      const ids = group.map((r) => r.id).join(', ');
+      this.logger.warn(
+        `Near-duplicate category names in list ${awesomeListId}: ${names} (ids ${ids})`,
+      );
+    }
   }
 
   // =========================================================================
