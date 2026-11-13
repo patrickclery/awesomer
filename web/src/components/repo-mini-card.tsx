@@ -22,6 +22,8 @@ interface RepoMiniCardProps {
   rank: number;
   /** Trending window that picks the delta; defaults to 7d. */
   period?: Period;
+  /** Opt-in: names the rank for screen readers and hides the watermark from them; off keeps /l/ output unchanged. */
+  labelRank?: boolean;
 }
 
 function formatStars(value: number): string {
@@ -35,13 +37,14 @@ function formatDelta(value: number): string {
   return value >= 0 ? `+${value.toLocaleString()}` : value.toLocaleString();
 }
 
-export function RepoMiniCard({ repo, rank, period = '7d' }: RepoMiniCardProps) {
+export function RepoMiniCard({ repo, rank, period = '7d', labelRank }: RepoMiniCardProps) {
   const description = cleanDescription(repo.description);
   const delta = periodDelta(repo, period);
   return (
     <div className="card-mini p-3 sm:p-4 h-full group relative overflow-hidden flex-1">
+      {labelRank && <span className="sr-only">{`Rank ${rank}`}</span>}
       {/* Watermark rank number */}
-      <span className="absolute -right-1 -bottom-3 text-7xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
+      <span aria-hidden={labelRank || undefined} className="absolute -right-1 -bottom-3 text-7xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
         {rank}
       </span>
       <div className="relative">

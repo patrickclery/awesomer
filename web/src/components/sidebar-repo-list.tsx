@@ -26,6 +26,8 @@ interface SidebarRepoListProps {
   period?: Period;
   /** Watermark rank of the first row; defaults to 6. */
   startRank?: number;
+  /** Opt-in: names the rank for screen readers and hides the watermark from them; off keeps /l/ output unchanged. */
+  labelRank?: boolean;
 }
 
 function formatStars(value: number): string {
@@ -40,7 +42,7 @@ function FirstTrophyIcon({ trophies }: { trophies?: Trophy[] }) {
   return first ? <TrophyIcon trophy={first} /> : null;
 }
 
-export function SidebarRepoList({ repos, period = '7d', startRank = 6 }: SidebarRepoListProps) {
+export function SidebarRepoList({ repos, period = '7d', startRank = 6, labelRank }: SidebarRepoListProps) {
   const rows = repos.map((repo) => ({ repo, delta: periodDelta(repo, period) }));
   return (
     <div>
@@ -50,8 +52,9 @@ export function SidebarRepoList({ repos, period = '7d', startRank = 6 }: Sidebar
             key={repo.id}
             className="card-tiny px-2.5 py-2 group relative overflow-hidden"
           >
+            {labelRank && <span className="sr-only">{`Rank ${i + startRank}`}</span>}
             {/* Rank watermark */}
-            <span className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
+            <span aria-hidden={labelRank || undefined} className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
               {i + startRank}
             </span>
             {/* Line 1: avatar + (title + description) */}

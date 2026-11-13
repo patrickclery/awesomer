@@ -23,6 +23,8 @@ interface RepoHeroCardProps {
   period?: Period;
   /** Forces the starburst when the payload has no list context (/trending). */
   showStarburst?: boolean;
+  /** Opt-in: names the rank for screen readers and hides the watermark from them; off keeps /l/ output unchanged. */
+  labelRank?: boolean;
 }
 
 function formatStars(value: number): string {
@@ -31,15 +33,16 @@ function formatStars(value: number): string {
   return value.toLocaleString();
 }
 
-export function RepoHeroCard({ repo, period = '7d', showStarburst }: RepoHeroCardProps) {
+export function RepoHeroCard({ repo, period = '7d', showStarburst, labelRank }: RepoHeroCardProps) {
   const description = cleanDescription(repo.description);
   const delta = periodDelta(repo, period);
   // The single starburst gate (D-09). /trending ORs in showStarburst (Phase 21).
   const hasHottestTrophy = showStarburst || (repo.trophies?.some((t) => t.id === 'hottest-in-list') ?? false);
   return (
     <div className="card-featured card-pulse p-4 sm:p-5 h-full group relative flex flex-col">
+      {labelRank && <span className="sr-only">Rank 1</span>}
       {/* Watermark rank */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <div aria-hidden={labelRank || undefined} className="absolute inset-0 overflow-hidden pointer-events-none">
         <span className="absolute -right-2 -bottom-6 text-[10rem] font-black font-mono text-accent/[0.07] select-none leading-none">
           1
         </span>

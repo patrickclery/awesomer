@@ -57,20 +57,20 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
               <div className="lg:col-span-2">
                 {heroRepo && (
                   <div className="mb-4">
-                    <RepoHeroCard repo={heroRepo} period={period} showStarburst />
+                    <RepoHeroCard repo={heroRepo} period={period} showStarburst labelRank />
                   </div>
                 )}
                 {gridRepos.length > 0 && (
                   <div className="flex flex-col gap-2 stagger">
                     {gridRepos.map((repo, i) => (
-                      <RepoMiniCard key={repo.id} repo={repo} rank={i + 2} period={period} />
+                      <RepoMiniCard key={repo.id} repo={repo} rank={i + 2} period={period} labelRank />
                     ))}
                   </div>
                 )}
               </div>
               {sidebarRepos.length > 0 && (
                 <div className="lg:col-span-1">
-                  <SidebarRepoList repos={sidebarRepos} period={period} />
+                  <SidebarRepoList repos={sidebarRepos} period={period} labelRank />
                 </div>
               )}
             </div>
@@ -85,9 +85,9 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
                 <span className="text-muted text-xs">{`#15–${14 + tailRepos.length}`}</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0.5">
-                <SidebarRepoList repos={tailLeft} period={period} startRank={15} />
+                <SidebarRepoList repos={tailLeft} period={period} startRank={15} labelRank />
                 {tailRight.length > 0 && (
-                  <SidebarRepoList repos={tailRight} period={period} startRank={15 + tailLeft.length} />
+                  <SidebarRepoList repos={tailRight} period={period} startRank={15 + tailLeft.length} labelRank />
                 )}
               </div>
             </section>
