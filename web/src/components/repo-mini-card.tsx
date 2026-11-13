@@ -4,6 +4,8 @@ import { Star } from 'lucide-react';
 import { ExternalGitHubLink } from '@/components/external-github-link';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
+import type { Trophy } from '@/lib/api';
+import { TrophyChips } from '@/components/trophy-chips';
 
 interface RepoMiniCardProps {
   repo: {
@@ -12,6 +14,7 @@ interface RepoMiniCardProps {
     description: string | null;
     stars: number | null;
     stars7d: number | null;
+    trophies?: Trophy[];
   };
   rank: number;
 }
@@ -50,8 +53,8 @@ export function RepoMiniCard({ repo, rank }: RepoMiniCardProps) {
         {description && (
           <p className="description text-muted text-xs mt-0.5">{description}</p>
         )}
-        {/* Bottom metric row: delta · stars · github */}
-        <div className="flex items-center gap-3 mt-2 text-xs">
+        {/* Bottom metric row: delta · stars · github · trophies */}
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 pr-12 mt-2 text-xs">
           {repo.stars7d != null && repo.stars7d > 0 && (
             <span className="font-bold text-success">
               +{repo.stars7d.toLocaleString()}
@@ -68,6 +71,7 @@ export function RepoMiniCard({ repo, rank }: RepoMiniCardProps) {
             size={12}
             label={`${repo.githubRepo.split('/')[1]} on GitHub`}
           />
+          <TrophyChips trophies={repo.trophies} size="sm" max={2} />
         </div>
       </div>
     </div>

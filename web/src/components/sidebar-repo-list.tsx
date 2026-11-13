@@ -4,6 +4,8 @@ import { repoPath } from '@/lib/routes';
 import { ExternalGitHubLink } from '@/components/external-github-link';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
+import type { Trophy } from '@/lib/api';
+import { TrophyIcon } from '@/components/trophy-chips';
 
 interface SidebarRepo {
   id: number;
@@ -11,6 +13,7 @@ interface SidebarRepo {
   description?: string | null;
   stars?: number | null;
   stars7d: number | null;
+  trophies?: Trophy[];
 }
 
 interface SidebarRepoListProps {
@@ -55,7 +58,7 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
                 )}
               </div>
             </div>
-            {/* Line 2: metrics + github icon */}
+            {/* Line 2: metrics + github icon + trophy icon */}
             <div className="flex items-center gap-3 mt-1 text-[11px] relative">
               {repo.stars7d != null && repo.stars7d > 0 && (
                 <span className="font-bold text-success">
@@ -73,6 +76,7 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
                 size={11}
                 label={`${repo.githubRepo.split('/')[1]} on GitHub`}
               />
+              {repo.trophies && repo.trophies.length > 0 && <TrophyIcon trophy={repo.trophies[0]} />}
             </div>
           </div>
         ))}
