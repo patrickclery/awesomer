@@ -8,7 +8,7 @@ import { Star } from 'lucide-react';
 import { ExternalGitHubLink } from '@/components/external-github-link';
 import { HomeInfoCard } from '@/components/home-info-card';
 import { OwnerAvatar } from '@/components/owner-avatar';
-import { cleanDescription } from '@/lib/text';
+import { cleanDescription, formatStars } from '@/lib/text';
 import type { Metadata } from 'next';
 import { pageMetadata, SITE_NAME, SITE_TAGLINE } from '@/lib/metadata';
 
@@ -27,12 +27,6 @@ function staticRepoSlugSet(): Set<string> | null {
   } catch {
     return null;
   }
-}
-
-function formatStars(value: number): string {
-  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
-  if (value >= 1_000) return `${(value / 1_000).toFixed(1)}k`;
-  return value.toLocaleString();
 }
 
 function formatDelta(value: number): string {
