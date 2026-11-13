@@ -215,7 +215,8 @@ export default async function HomePage() {
         lastCommitAt={awesomerLastCommitAt}
       />
 
-      {lists.length > 0 ? (
+      {/* The repo panel has its own fetch, so render the grid when either source has data. */}
+      {lists.length > 0 || topRepos.length > 0 ? (
         <div className="stagger">
           {/* Main content: 2/3 left (hero + #2-5) | 1/3 right (#6-20 sidebar) */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
