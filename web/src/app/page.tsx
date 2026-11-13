@@ -3,7 +3,7 @@ import { getTrending, getTrendingLists } from '@/lib/api';
 import type { Repo, TrendingList } from '@/lib/api';
 import { getStaticRepoSlugs } from '@/lib/static-data';
 import { TrendingReposChart } from '@/components/trending-repos-chart';
-import { listPath } from '@/lib/routes';
+import { listPath, repoSlug } from '@/lib/routes';
 import { Star } from 'lucide-react';
 import { ExternalGitHubLink } from '@/components/external-github-link';
 import { HomeInfoCard } from '@/components/home-info-card';
@@ -163,7 +163,7 @@ export default async function HomePage() {
       const slugs = staticRepoSlugSet();
       return r.data
         .filter((repo) => (repo.stars7d ?? 0) > 0)
-        .filter((repo) => !slugs || slugs.has(repo.githubRepo.replace('/', '~')))
+        .filter((repo) => !slugs || slugs.has(repoSlug(repo.githubRepo)))
         .slice(0, 10);
     })
     .catch((): Repo[] => []);
