@@ -24,7 +24,8 @@ export const metadata: Metadata = pageMetadata({
 function staticRepoSlugSet(): Set<string> | null {
   try {
     return new Set(getStaticRepoSlugs().data.map((r) => r.repoSlug));
-  } catch {
+  } catch (err) {
+    console.warn('[home] repo-slugs.json unreadable; top-repos 404 guard disabled:', err);
     return null;
   }
 }
