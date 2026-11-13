@@ -23,3 +23,10 @@ export function cleanDescription(desc: string | null | undefined): string | null
   if (!stripped) return null;
   return stripped.charAt(0).toUpperCase() + stripped.slice(1);
 }
+
+/** Compact star count: 1.2M, 98.1k, 850 */
+export function formatStars(value: number): string {
+  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
+  if (value >= 1_000) return `${(value / 1_000).toFixed(1)}k`;
+  return value.toLocaleString();
+}
