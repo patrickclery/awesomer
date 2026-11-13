@@ -6,6 +6,7 @@ import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
 import type { Trophy } from '@/lib/api';
 import { TrophyChips } from '@/components/trophy-chips';
+import { PERIOD_SUB_LABEL, periodDelta, type Period } from '@/lib/period';
 
 interface RepoHeroCardProps {
   repo: {
@@ -14,8 +15,14 @@ interface RepoHeroCardProps {
     description: string | null;
     stars: number | null;
     stars7d: number | null;
+    stars30d?: number | null;
+    stars90d?: number | null;
     trophies?: Trophy[];
   };
+  /** Trending window that picks the delta and the starburst label; defaults to 7d. */
+  period?: Period;
+  /** Forces the starburst when the payload has no list context (/trending). */
+  showStarburst?: boolean;
 }
 
 function formatStars(value: number): string {
@@ -24,10 +31,11 @@ function formatStars(value: number): string {
   return value.toLocaleString();
 }
 
-export function RepoHeroCard({ repo }: RepoHeroCardProps) {
+export function RepoHeroCard({ repo, period = '7d', showStarburst }: RepoHeroCardProps) {
   const description = cleanDescription(repo.description);
-  // The single starburst gate (D-09). Phase 21 can OR an override prop into it.
-  const hasHottestTrophy = repo.trophies?.some((t) => t.id === 'hottest-in-list') ?? false;
+  const delta = periodDelta(repo, period);
+  // The single starburst gate (D-09). /trending ORs in showStarburst (Phase 21).
+  const hasHottestTrophy = showStarburst || (repo.trophies?.some((t) => t.id === 'hottest-in-list') ?? false);
   return (
     <div className="card-featured card-pulse p-4 sm:p-5 h-full group relative flex flex-col">
       {/* Watermark rank */}
@@ -41,7 +49,7 @@ export function RepoHeroCard({ repo }: RepoHeroCardProps) {
         <div className="starburst">
           <span className="starburst-text">
             HOTTEST
-            <span className="starburst-sub">this week</span>
+            <span className="starburst-sub">{PERIOD_SUB_LABEL[period]}</span>
           </span>
         </div>
       )}
@@ -63,9 +71,9 @@ export function RepoHeroCard({ repo }: RepoHeroCardProps) {
       )}
       {/* Metric row: delta · stars · github · trophies */}
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 pr-24 text-sm">
-        {repo.stars7d != null && repo.stars7d > 0 && (
+        {delta != null && delta > 0 && (
           <span className="font-bold text-success">
-            +{repo.stars7d.toLocaleString()}
+            +{delta.toLocaleString()}
           </span>
         )}
         <span className="inline-flex items-center gap-1.5 text-muted">
