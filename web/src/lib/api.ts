@@ -58,6 +58,15 @@ export interface Category {
   };
 }
 
+/** Mirrors api/src/trophies/trophies.ts. */
+export type TrophyId = 'surge-10k' | 'hottest-in-list' | 'fast-growing' | 'surge-1k';
+
+export interface Trophy {
+  id: TrophyId;
+  listSlug?: string;
+  listName?: string;
+}
+
 export interface Repo {
   id: number;
   githubRepo: string;
@@ -67,6 +76,8 @@ export interface Repo {
   stars30d: number | null;
   stars90d: number | null;
   lastCommitAt: string | null;
+  /** Optional so payloads from an API without trophies still type-check. */
+  trophies?: Trophy[];
 }
 
 export interface CategoryItem {

@@ -31,3 +31,18 @@ export const STALE_DAYS = 365;
  * keeps those from overlapping across processes (cron, systemd unit, API, CLI).
  */
 export const SYNC_WRITE_LOCK_KEY = 0x61776d72;
+
+// Trophy thresholds (Phase 19). The web copy in web/src/lib/trophies.ts ("10k+", "1,000+", "25%+")
+// mirrors these numbers and must change with them.
+
+/** Stars gained in 7 days to earn the "10k+ this week" trophy. */
+export const TROPHY_SURGE_HIGH = 10_000;
+
+/** Stars gained in 7 days to earn the "1k+ this week" trophy (below TROPHY_SURGE_HIGH). */
+export const TROPHY_SURGE_LOW = 1_000;
+
+/** 7d gain divided by the star count a week ago needed for the "Fast-growing" trophy. */
+export const TROPHY_FAST_GROWTH_RATIO = 0.25;
+
+/** Minimum current stars for the "Fast-growing" trophy. */
+export const TROPHY_FAST_GROWTH_MIN_STARS = 1_000;

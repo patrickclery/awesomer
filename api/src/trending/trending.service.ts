@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { MIN_STARS } from '../common/constants.js';
+import { computeTrophies, type ListRef } from '../trophies/trophies.js';
 
 type TrendingPeriod = '7d' | '30d' | '90d';
 
@@ -37,6 +38,8 @@ export class TrendingService {
     return repos.map((r) => ({
       ...r,
       description: r.description ?? r.categoryItems[0]?.githubDescription ?? null,
+      // Absolute trophies only: the global payload never carries hottest-in-list (D-07).
+      trophies: computeTrophies(r),
     }));
   }
 
@@ -59,7 +62,8 @@ export class TrendingService {
           },
         },
       },
-      orderBy: { [orderByField]: 'desc' },
+      // id asc tiebreak keeps the list hero and the repo detail page on the same #1 (D-07).
+      orderBy: [{ [orderByField]: 'desc' }, { id: 'asc' }],
       take: limit,
       include: {
         categoryItems: {
@@ -76,9 +80,22 @@ export class TrendingService {
       },
     });
 
-    return repos.map((r) => ({
+    // hottest-in-list goes to index 0 of the 7d payload only, and only for a live (non-archived) list.
+    let hottest: ListRef[] = [];
+    if (period === '7d' && repos.length > 0) {
+      const list = await this.prisma.awesomeList.findUnique({
+        where: { slug },
+        select: { slug: true, name: true, archived: true },
+      });
+      if (list && !list.archived) {
+        hottest = [{ listSlug: list.slug, listName: list.name }];
+      }
+    }
+
+    return repos.map((r, i) => ({
       ...r,
       description: r.description ?? r.categoryItems[0]?.githubDescription ?? null,
+      trophies: computeTrophies(r, { hottestInLists: i === 0 ? hottest : [] }),
     }));
   }
 

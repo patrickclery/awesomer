@@ -4,6 +4,7 @@ import { Star } from 'lucide-react';
 import { ExternalGitHubLink } from '@/components/external-github-link';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
+import type { Trophy } from '@/lib/api';
 
 interface RepoHeroCardProps {
   repo: {
@@ -12,6 +13,7 @@ interface RepoHeroCardProps {
     description: string | null;
     stars: number | null;
     stars7d: number | null;
+    trophies?: Trophy[];
   };
 }
 
@@ -23,6 +25,8 @@ function formatStars(value: number): string {
 
 export function RepoHeroCard({ repo }: RepoHeroCardProps) {
   const description = cleanDescription(repo.description);
+  // The single starburst gate (D-09). Phase 21 can OR an override prop into it.
+  const hasHottestTrophy = repo.trophies?.some((t) => t.id === 'hottest-in-list') ?? false;
   return (
     <div className="card-featured card-pulse p-4 sm:p-5 h-full group relative flex flex-col">
       {/* Watermark rank */}
@@ -32,12 +36,14 @@ export function RepoHeroCard({ repo }: RepoHeroCardProps) {
         </span>
       </div>
       {/* Hottest repo starburst badge */}
-      <div className="starburst">
-        <span className="starburst-text">
-          HOTTEST
-          <span className="starburst-sub">this week</span>
-        </span>
-      </div>
+      {hasHottestTrophy && (
+        <div className="starburst">
+          <span className="starburst-text">
+            HOTTEST
+            <span className="starburst-sub">this week</span>
+          </span>
+        </div>
+      )}
       <div className="flex items-center gap-3 mb-2">
         <OwnerAvatar owner={repo.githubRepo.split('/')[0]} size={40} />
         <Link
