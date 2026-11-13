@@ -64,7 +64,8 @@ export class TrendingService {
       },
       // id asc tiebreak keeps the list hero and the repo detail page on the same #1 (D-07).
       orderBy: [{ [orderByField]: 'desc' }, { id: 'asc' }],
-      take: limit,
+      // Never a negative take: that reads from the end and index 0 would not be the #1 (WR-01).
+      take: Math.max(1, Math.trunc(limit) || 1),
       include: {
         categoryItems: {
           where: {

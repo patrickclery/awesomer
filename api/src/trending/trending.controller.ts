@@ -2,6 +2,19 @@ import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ApiOperation, ApiQuery, ApiTags } from '@nestjs/swagger';
 import { TrendingService } from './trending.service.js';
 
+const DEFAULT_LIMIT = 10;
+const MAX_LIMIT = 50;
+
+/**
+ * Turn a raw `?limit=` value into an integer in [1, MAX_LIMIT]. A negative Prisma `take` reads
+ * from the end of the ordering, which would put the list's lowest repo at index 0 and hand it
+ * hottest-in-list (WR-01). Missing, non-numeric, zero or negative input falls back to the default.
+ */
+export function clampLimit(limit: unknown): number {
+  const n = Math.trunc(Number(limit));
+  return Math.min(Number.isFinite(n) && n > 0 ? n : DEFAULT_LIMIT, MAX_LIMIT);
+}
+
 @ApiTags('Trending')
 @Controller('trending')
 export class TrendingController {
@@ -17,7 +30,7 @@ export class TrendingController {
   ) {
     const repos = await this.trendingService.getGlobalTrending(
       period,
-      Math.min(Number(limit) || 10, 50),
+      clampLimit(limit),
     );
     return { data: repos };
   }
@@ -41,7 +54,7 @@ export class TrendingController {
     const repos = await this.trendingService.getTrendingByAwesomeList(
       slug,
       period,
-      Math.min(Number(limit) || 10, 50),
+      clampLimit(limit),
     );
     return { data: repos };
   }

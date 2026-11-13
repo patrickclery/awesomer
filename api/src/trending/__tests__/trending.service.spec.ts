@@ -107,6 +107,17 @@ describe('TrendingService trophies', () => {
     expect(findUnique).not.toHaveBeenCalled();
   });
 
+  it.each([-3, 0, Number.NaN])(
+    'WR-01: list query never sends a non-positive take (limit %p)',
+    async (limit) => {
+      const { service, findMany } = build(ROWS, GO);
+      await service.getTrendingByAwesomeList('go', '7d', limit);
+
+      const args = findMany.mock.calls[0][0] as { take: number };
+      expect(args.take).toBe(1);
+    },
+  );
+
   it('D-07: global payload attaches absolute trophies and never hottest-in-list', async () => {
     const { service, findUnique } = build(ROWS, GO);
     const out = await service.getGlobalTrending('7d', 10);
