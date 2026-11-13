@@ -1,6 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service.js';
-import { computeTrophies, findHottestRepoPerList, type Trophy } from '../trophies/trophies.js';
+import {
+  computeTrophies,
+  findHottestRepoPerList,
+  type Trophy,
+} from '../trophies/trophies.js';
 
 export interface StaticListData {
   slug: string;
@@ -189,7 +193,9 @@ export class StaticDataService {
             listName: ci.category.awesomeList.name,
             listSlug: ci.category.awesomeList.slug,
           })),
-        trophies: computeTrophies(repo, { hottestInLists: hottest.get(repo.id) ?? [] }),
+        trophies: computeTrophies(repo, {
+          hottestInLists: hottest.get(repo.id) ?? [],
+        }),
       },
     }));
   }
@@ -240,7 +246,9 @@ export class StaticDataService {
           listName: ci.category.awesomeList.name,
           listSlug: ci.category.awesomeList.slug,
         })),
-      trophies: computeTrophies(repo, { hottestInLists: hottest.get(repo.id) ?? [] }),
+      trophies: computeTrophies(repo, {
+        hottestInLists: hottest.get(repo.id) ?? [],
+      }),
     };
   }
 
