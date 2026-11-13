@@ -36,7 +36,8 @@ export function TrendingReposChart({ repos }: TrendingReposChartProps): ReactEle
         className="rounded-lg rounded-tl-none p-2"
         style={{ background: 'color-mix(in srgb, var(--surface) 40%, transparent)' }}
       >
-        <ol className="flex flex-col gap-1 list-none">
+        {/* role="list" restores list semantics that WebKit drops under list-style: none. */}
+        <ol role="list" className="flex flex-col gap-1 list-none">
           {repos.map((repo, i) => {
             const [owner, repoName] = repo.githubRepo.split('/');
             const delta = repo.stars7d ?? 0;
