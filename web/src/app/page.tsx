@@ -1,6 +1,8 @@
 import Link from '@/components/site-link';
-import { getTrendingLists } from '@/lib/api';
-import type { TrendingList } from '@/lib/api';
+import { getTrending, getTrendingLists } from '@/lib/api';
+import type { Repo, TrendingList } from '@/lib/api';
+import { getStaticRepoSlugs } from '@/lib/static-data';
+import { TrendingReposChart } from '@/components/trending-repos-chart';
 import { listPath } from '@/lib/routes';
 import { Star } from 'lucide-react';
 import { ExternalGitHubLink } from '@/components/external-github-link';
@@ -17,6 +19,15 @@ export const metadata: Metadata = pageMetadata({
   path: '/',
   absoluteTitle: true,
 });
+
+/** Slugs of repos with a generated /r/ page; null when the data file is absent (no filter). */
+function staticRepoSlugSet(): Set<string> | null {
+  try {
+    return new Set(getStaticRepoSlugs().data.map((r) => r.repoSlug));
+  } catch {
+    return null;
+  }
+}
 
 function formatStars(value: number): string {
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
@@ -151,6 +162,18 @@ export default async function HomePage() {
     // API not available yet
   }
 
+  // Top 10 repos by 7d gain for the right-column panel. Independent of the lists fetch and
+  // non-fatal. limit 20 backfills repos without a generated /r/ page so no panel link 404s.
+  const topRepos: Repo[] = await getTrending({ period: '7d', limit: 20 })
+    .then((r) => {
+      const slugs = staticRepoSlugSet();
+      return r.data
+        .filter((repo) => (repo.stars7d ?? 0) > 0)
+        .filter((repo) => !slugs || slugs.has(repo.githubRepo.replace('/', '~')))
+        .slice(0, 10);
+    })
+    .catch((): Repo[] => []);
+
   // Fetch stats for the awesomer repo itself (not aggregates) — stars + last push
   // from GitHub's public REST API. Runs at build time (SSG); unauthenticated 60/hr
   // is plenty for a single call per build. Non-fatal on failure.
@@ -219,68 +242,76 @@ export default async function HomePage() {
               )}
             </div>
 
-            {/* Right 1/3: Sidebar list #6-20 */}
-            {sidebarLists.length > 0 && (
+            {/* Right 1/3: top repos panel + lists #6+ */}
+            {(topRepos.length > 0 || sidebarLists.length > 0) && (
               <div className="lg:col-span-1">
-                <div className="flex flex-col gap-0.5">
-                  {sidebarLists.map((list, i) => (
-                    <div
-                      key={list.id}
-                      className="card-tiny px-2.5 py-2 group relative overflow-hidden"
-                    >
-                      {/* Rank watermark */}
-                      <span className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
-                        {i + 6}
-                      </span>
-                      {/* Line 1: avatar + title + description */}
-                      <div className="flex items-center gap-2 min-w-0 relative">
-                        <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={20} />
-                        <div className="flex items-baseline gap-1.5 min-w-0 flex-1">
-                          <Link
-                            href={listPath(list.slug)}
-                            className="truncate shrink-0 cursor-pointer rounded focus-visible:outline-2 focus-visible:outline-accent"
-                          >
-                            <span className="text-xs font-bold group-hover:text-accent transition-colors">
-                              {stripAwesomePrefix(list.name)}
-                            </span>
-                          </Link>
-                          {cleanDescription(list.description) && (
-                            <span className="description text-[11px] text-muted truncate min-w-0">
-                              {cleanDescription(list.description)}
+                {topRepos.length > 0 && <TrendingReposChart repos={topRepos} />}
+                {topRepos.length > 0 && sidebarLists.length > 0 && (
+                  <p className="mb-2 text-[11px] font-mono font-bold text-muted">
+                    <span aria-hidden="true">{'// '}</span>more trending lists
+                  </p>
+                )}
+                {sidebarLists.length > 0 && (
+                  <div className="flex flex-col gap-0.5">
+                    {sidebarLists.map((list, i) => (
+                      <div
+                        key={list.id}
+                        className="card-tiny px-2.5 py-2 group relative overflow-hidden"
+                      >
+                        {/* Rank watermark */}
+                        <span className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
+                          {i + 6}
+                        </span>
+                        {/* Line 1: avatar + title + description */}
+                        <div className="flex items-center gap-2 min-w-0 relative">
+                          <OwnerAvatar owner={list.githubRepo.split('/')[0]} size={20} />
+                          <div className="flex items-baseline gap-1.5 min-w-0 flex-1">
+                            <Link
+                              href={listPath(list.slug)}
+                              className="truncate shrink-0 cursor-pointer rounded focus-visible:outline-2 focus-visible:outline-accent"
+                            >
+                              <span className="text-xs font-bold group-hover:text-accent transition-colors">
+                                {stripAwesomePrefix(list.name)}
+                              </span>
+                            </Link>
+                            {cleanDescription(list.description) && (
+                              <span className="description text-[11px] text-muted truncate min-w-0">
+                                {cleanDescription(list.description)}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                        {/* Line 2: metrics + github icon */}
+                        <div className="flex items-center gap-3 mt-1 text-[11px] relative">
+                          {list.stars7d > 0 && (
+                            <span className="font-bold text-success">
+                              +{list.stars7d.toLocaleString()}
                             </span>
                           )}
+                          {list.totalStars > 0 && (
+                            <span className="inline-flex items-center gap-1 text-muted">
+                              <Star className="w-3 h-3 text-accent" aria-hidden="true" />
+                              <span className="font-bold text-foreground">{formatStars(list.totalStars)}</span>
+                            </span>
+                          )}
+                          <ExternalGitHubLink
+                            githubRepo={list.githubRepo}
+                            size={11}
+                            label={`${list.name} on GitHub`}
+                          />
                         </div>
                       </div>
-                      {/* Line 2: metrics + github icon */}
-                      <div className="flex items-center gap-3 mt-1 text-[11px] relative">
-                        {list.stars7d > 0 && (
-                          <span className="font-bold text-success">
-                            +{list.stars7d.toLocaleString()}
-                          </span>
-                        )}
-                        {list.totalStars > 0 && (
-                          <span className="inline-flex items-center gap-1 text-muted">
-                            <Star className="w-3 h-3 text-accent" aria-hidden="true" />
-                            <span className="font-bold text-foreground">{formatStars(list.totalStars)}</span>
-                          </span>
-                        )}
-                        <ExternalGitHubLink
-                          githubRepo={list.githubRepo}
-                          size={11}
-                          label={`${list.name} on GitHub`}
-                        />
-                      </div>
-                    </div>
-                  ))}
-                  {hasMore && (
-                    <Link
-                      href="/trending"
-                      className="text-xs text-muted hover:text-accent transition-colors text-center py-2 mt-1"
-                    >
-                      view all &rarr;
-                    </Link>
-                  )}
-                </div>
+                    ))}
+                    {hasMore && (
+                      <Link
+                        href="/trending"
+                        className="text-xs text-muted hover:text-accent transition-colors text-center py-2 mt-1"
+                      >
+                        view all &rarr;
+                      </Link>
+                    )}
+                  </div>
+                )}
               </div>
             )}
           </div>

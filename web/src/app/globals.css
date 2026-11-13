@@ -464,3 +464,22 @@ body::before {
 }
 
 
+
+/* Trending repos chart bar (Phase 10) — grows from the left on load */
+@keyframes bar-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.trend-bar {
+  background: var(--accent);
+  opacity: 0.7;
+  transform-origin: left center;
+  animation: bar-grow 500ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trend-bar {
+    animation: none !important;
+  }
+}
