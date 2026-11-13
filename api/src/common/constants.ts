@@ -33,7 +33,7 @@ export const STALE_DAYS = 365;
 export const SYNC_WRITE_LOCK_KEY = 0x61776d72;
 
 // Trophy thresholds (Phase 19). The web copy in web/src/lib/trophies.ts ("10k+", "1,000+", "25%+")
-// mirrors these numbers and must change with them.
+// mirrors these numbers and must change with them. src/trophies/__tests__/web-mirror.spec.ts fails if not.
 
 /** Stars gained in 7 days to earn the "10k+ this week" trophy. */
 export const TROPHY_SURGE_HIGH = 10_000;
