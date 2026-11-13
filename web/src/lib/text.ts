@@ -26,7 +26,8 @@ export function cleanDescription(desc: string | null | undefined): string | null
 
 /** Compact star count: 1.2M, 98.1k, 850 */
 export function formatStars(value: number): string {
-  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
+  // 999_950+ rounds to "1000.0k" with toFixed(1), so switch to M from there.
+  if (value >= 999_950) return `${(value / 1_000_000).toFixed(1)}M`;
   if (value >= 1_000) return `${(value / 1_000).toFixed(1)}k`;
   return value.toLocaleString();
 }
