@@ -6,6 +6,7 @@ import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
 import type { Trophy } from '@/lib/api';
 import { TrophyChips } from '@/components/trophy-chips';
+import { periodDelta, type Period } from '@/lib/period';
 
 interface RepoMiniCardProps {
   repo: {
@@ -14,9 +15,13 @@ interface RepoMiniCardProps {
     description: string | null;
     stars: number | null;
     stars7d: number | null;
+    stars30d?: number | null;
+    stars90d?: number | null;
     trophies?: Trophy[];
   };
   rank: number;
+  /** Trending window that picks the delta; defaults to 7d. */
+  period?: Period;
 }
 
 function formatStars(value: number): string {
@@ -30,8 +35,9 @@ function formatDelta(value: number): string {
   return value >= 0 ? `+${value.toLocaleString()}` : value.toLocaleString();
 }
 
-export function RepoMiniCard({ repo, rank }: RepoMiniCardProps) {
+export function RepoMiniCard({ repo, rank, period = '7d' }: RepoMiniCardProps) {
   const description = cleanDescription(repo.description);
+  const delta = periodDelta(repo, period);
   return (
     <div className="card-mini p-3 sm:p-4 h-full group relative overflow-hidden flex-1">
       {/* Watermark rank number */}
@@ -55,9 +61,9 @@ export function RepoMiniCard({ repo, rank }: RepoMiniCardProps) {
         )}
         {/* Bottom metric row: delta · stars · github · trophies */}
         <div className="flex flex-wrap items-center gap-x-3 gap-y-2 pr-12 mt-2 text-xs">
-          {repo.stars7d != null && repo.stars7d > 0 && (
+          {delta != null && delta > 0 && (
             <span className="font-bold text-success">
-              +{repo.stars7d.toLocaleString()}
+              +{delta.toLocaleString()}
             </span>
           )}
           <span className="inline-flex items-center gap-1 text-muted">

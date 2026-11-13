@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { RepoHeroCard } from '@/components/repo-hero-card';
-import { TrendingTable } from '@/components/trending-table';
+import { RepoMiniCard } from '@/components/repo-mini-card';
+import { SidebarRepoList } from '@/components/sidebar-repo-list';
 import { PERIODS, type Period } from '@/lib/period';
 import type { Repo } from '@/lib/api';
 
@@ -18,6 +19,12 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
   const data: Record<Period, Repo[]> = { '7d': data7d, '30d': data30d, '90d': data90d };
   const repos = data[period];
   const heroRepo = repos[0];
+  const gridRepos = repos.slice(1, 5);
+  const sidebarRepos = repos.slice(5, 14);
+  const tailRepos = repos.slice(14, 25);
+  const half = Math.ceil(tailRepos.length / 2);
+  const tailLeft = tailRepos.slice(0, half);
+  const tailRight = tailRepos.slice(half);
 
   return (
     <div>
@@ -52,18 +59,37 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
                     <RepoHeroCard repo={heroRepo} period={period} showStarburst />
                   </div>
                 )}
+                {gridRepos.length > 0 && (
+                  <div className="flex flex-col gap-2 stagger">
+                    {gridRepos.map((repo, i) => (
+                      <RepoMiniCard key={repo.id} repo={repo} rank={i + 2} period={period} />
+                    ))}
+                  </div>
+                )}
               </div>
+              {sidebarRepos.length > 0 && (
+                <div className="lg:col-span-1">
+                  <SidebarRepoList repos={sidebarRepos} period={period} />
+                </div>
+              )}
             </div>
           </div>
-          {repos.length > 1 && (
-            <div className="mt-8">
-              <TrendingTable
-                title={`#2–${repos.length} — ${period} trending`}
-                repos={repos.slice(1)}
-                period={period}
-                startRank={2}
-              />
-            </div>
+          {tailRepos.length > 0 && (
+            <section aria-labelledby="trending-tail-heading" className="mt-8">
+              <div className="flex items-center gap-3 mb-4">
+                <h2 id="trending-tail-heading" className="text-accent text-xs font-mono tracking-widest">
+                  MORE TRENDING
+                </h2>
+                <span className="flex-1 h-px bg-border" aria-hidden="true" />
+                <span className="text-muted text-xs">{`#15–${14 + tailRepos.length}`}</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0.5">
+                <SidebarRepoList repos={tailLeft} period={period} startRank={15} />
+                {tailRight.length > 0 && (
+                  <SidebarRepoList repos={tailRight} period={period} startRank={15 + tailLeft.length} />
+                )}
+              </div>
+            </section>
           )}
         </>
       ) : (

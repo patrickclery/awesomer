@@ -7,6 +7,7 @@ import { cleanDescription } from '@/lib/text';
 import type { Trophy } from '@/lib/api';
 import { TrophyIcon } from '@/components/trophy-chips';
 import { TROPHY_META } from '@/lib/trophies';
+import { periodDelta, type Period } from '@/lib/period';
 
 interface SidebarRepo {
   id: number;
@@ -14,11 +15,17 @@ interface SidebarRepo {
   description?: string | null;
   stars?: number | null;
   stars7d: number | null;
+  stars30d?: number | null;
+  stars90d?: number | null;
   trophies?: Trophy[];
 }
 
 interface SidebarRepoListProps {
   repos: SidebarRepo[];
+  /** Trending window that picks the delta; defaults to 7d. */
+  period?: Period;
+  /** Watermark rank of the first row; defaults to 6. */
+  startRank?: number;
 }
 
 function formatStars(value: number): string {
@@ -33,18 +40,19 @@ function FirstTrophyIcon({ trophies }: { trophies?: Trophy[] }) {
   return first ? <TrophyIcon trophy={first} /> : null;
 }
 
-export function SidebarRepoList({ repos }: SidebarRepoListProps) {
+export function SidebarRepoList({ repos, period = '7d', startRank = 6 }: SidebarRepoListProps) {
+  const rows = repos.map((repo) => ({ repo, delta: periodDelta(repo, period) }));
   return (
     <div>
       <div className="flex flex-col gap-0.5">
-        {repos.map((repo, i) => (
+        {rows.map(({ repo, delta }, i) => (
           <div
             key={repo.id}
             className="card-tiny px-2.5 py-2 group relative overflow-hidden"
           >
             {/* Rank watermark */}
             <span className="absolute -right-1 -bottom-2 text-4xl font-black font-mono text-accent/[0.07] select-none pointer-events-none leading-none">
-              {i + 6}
+              {i + startRank}
             </span>
             {/* Line 1: avatar + (title + description) */}
             <div className="flex items-center gap-2 min-w-0 relative">
@@ -67,9 +75,9 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
             </div>
             {/* Line 2: metrics + github icon + trophy icon */}
             <div className="flex items-center gap-3 mt-1 text-[11px] relative">
-              {repo.stars7d != null && repo.stars7d > 0 && (
+              {delta != null && delta > 0 && (
                 <span className="font-bold text-success">
-                  +{repo.stars7d.toLocaleString()}
+                  +{delta.toLocaleString()}
                 </span>
               )}
               {repo.stars != null && (
