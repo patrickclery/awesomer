@@ -2,7 +2,7 @@
 export type Period = '7d' | '30d' | '90d';
 
 /** The trending windows in toggle order. */
-export const PERIODS: Period[] = ['7d', '30d', '90d'];
+export const PERIODS = ['7d', '30d', '90d'] as const satisfies readonly Period[];
 
 /** Starburst sub-label for each trending window. */
 export const PERIOD_SUB_LABEL: Record<Period, string> = {
