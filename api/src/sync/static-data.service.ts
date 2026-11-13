@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service.js';
+import { computeTrophies, findHottestRepoPerList, type Trophy } from '../trophies/trophies.js';
 
 export interface StaticListData {
   slug: string;
@@ -45,6 +46,7 @@ export interface StaticRepoPage {
     listName: string;
     listSlug: string;
   }>;
+  trophies: Trophy[];
 }
 
 @Injectable()
@@ -162,6 +164,9 @@ export class StaticDataService {
       },
     });
 
+    // One query per export, not per repo (T-19-09)
+    const hottest = await findHottestRepoPerList(this.prisma);
+
     return repos.map((repo) => ({
       repoSlug: repo.githubRepo.replace('/', '~'),
       data: {
@@ -184,6 +189,7 @@ export class StaticDataService {
             listName: ci.category.awesomeList.name,
             listSlug: ci.category.awesomeList.slug,
           })),
+        trophies: computeTrophies(repo, { hottestInLists: hottest.get(repo.id) ?? [] }),
       },
     }));
   }
@@ -211,6 +217,8 @@ export class StaticDataService {
 
     if (!repo) return null;
 
+    const hottest = await findHottestRepoPerList(this.prisma);
+
     return {
       githubRepo: repo.githubRepo,
       description: repo.description,
@@ -231,6 +239,7 @@ export class StaticDataService {
           listName: ci.category.awesomeList.name,
           listSlug: ci.category.awesomeList.slug,
         })),
+      trophies: computeTrophies(repo, { hottestInLists: hottest.get(repo.id) ?? [] }),
     };
   }
 
