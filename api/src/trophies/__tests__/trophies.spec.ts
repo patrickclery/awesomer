@@ -155,6 +155,24 @@ describe('findHottestRepoPerList', () => {
     expect(sql).toMatch(/r\.stars_7d > 0/);
     expect(sql).toMatch(/r\.stars_7d DESC,\s*r\.id ASC/);
     expect(sql).not.toContain(String(MIN_STARS));
-    expect(values).toEqual([MIN_STARS]);
+    expect(values).toEqual([MIN_STARS, null, null]);
+  });
+
+  it("WR-02: a repoId scopes the ranking to that repo's lists, bound as a parameter", async () => {
+    const { prisma, $queryRaw } = stub([]);
+    await findHottestRepoPerList(prisma, 42);
+    expect($queryRaw).toHaveBeenCalledTimes(1);
+    const [strings, ...values] = $queryRaw.mock.calls[0] as unknown as [
+      TemplateStringsArray,
+      ...unknown[],
+    ];
+    const sql = strings.join('?');
+    // Same DISTINCT ON ranking; the scope only filters which lists come back.
+    expect(sql).toMatch(/DISTINCT ON \(al\.id\)/);
+    expect(sql).toMatch(/r\.stars_7d DESC,\s*r\.id ASC/);
+    expect(sql).toMatch(/\?::integer IS NULL OR al\.id IN \(/);
+    expect(sql).toMatch(/WHERE ci2\.repo_id = \?::integer/);
+    expect(sql).not.toContain('42');
+    expect(values).toEqual([MIN_STARS, 42, 42]);
   });
 });

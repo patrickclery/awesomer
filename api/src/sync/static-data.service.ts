@@ -217,7 +217,8 @@ export class StaticDataService {
 
     if (!repo) return null;
 
-    const hottest = await findHottestRepoPerList(this.prisma);
+    // Scoped to this repo's lists: the endpoint is public, so it must not rank every list (WR-02).
+    const hottest = await findHottestRepoPerList(this.prisma, repo.id);
 
     return {
       githubRepo: repo.githubRepo,

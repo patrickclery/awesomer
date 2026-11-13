@@ -67,6 +67,20 @@ describe('StaticDataService.exportRepoDetail trophies', () => {
     expect(db.$queryRaw).toHaveBeenCalledTimes(1);
   });
 
+  it('WR-02: the single-repo export scopes the hottest query to that repo', async () => {
+    const { db, service } = makeStub(HOT);
+    await service.exportRepoDetail('a', 'hot');
+    const values = (db.$queryRaw.mock.calls[0] as unknown[]).slice(1);
+    expect(values).toContain(HOT.id);
+  });
+
+  it('WR-02: the bulk export ranks every list (no repo scope)', async () => {
+    const { db, service } = makeStub();
+    await service.exportAllRepoDetails();
+    const values = (db.$queryRaw.mock.calls[0] as unknown[]).slice(1);
+    expect(values.slice(1)).toEqual([null, null]);
+  });
+
   it('D-08, D-16: a repo with no 7d gain exports an empty trophies array', async () => {
     const { service } = makeStub(COLD);
     const d = await service.exportRepoDetail('b', 'cold');

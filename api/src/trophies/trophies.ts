@@ -72,10 +72,17 @@ export function computeTrophies(
  * (stars7d desc, then id asc) so the list-page hero starburst and the detail page's
  * "Hottest in" chip always name the same repo (D-07). Archived lists are excluded because
  * they have no page. One query for every list, never one per repo.
+ *
+ * Pass `repoId` to scope the result to the lists that contain that repo (the single-repo detail
+ * export). The per-list ranking is unchanged; only lists the repo is not in are dropped, so the
+ * query cost follows the repo, not the whole dataset (WR-02). Without it, every list is ranked.
  */
 export async function findHottestRepoPerList(
   prisma: PrismaService,
+  repoId?: number,
 ): Promise<Map<number, ListRef[]>> {
+  // Bound as a parameter either way; NULL disables the scope (no SQL is ever string-built).
+  const scope = repoId == null ? null : Number(repoId);
   const rows = await prisma.$queryRaw<
     Array<{ repo_id: number; list_slug: string; list_name: string }>
   >`
@@ -85,6 +92,10 @@ export async function findHottestRepoPerList(
     JOIN category_items ci ON ci.category_id = c.id
     JOIN repos r           ON r.id = ci.repo_id
     WHERE al.archived = false AND r.stars >= ${MIN_STARS} AND r.stars_7d > 0
+      AND (${scope}::integer IS NULL OR al.id IN (
+        SELECT c2.awesome_list_id FROM categories c2
+        JOIN category_items ci2 ON ci2.category_id = c2.id
+        WHERE ci2.repo_id = ${scope}::integer))
     ORDER BY al.id, r.stars_7d DESC, r.id ASC`;
 
   const map = new Map<number, ListRef[]>();
