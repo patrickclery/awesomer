@@ -17,7 +17,8 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
   const [period, setPeriod] = useState<Period>('7d');
 
   const data: Record<Period, Repo[]> = { '7d': data7d, '30d': data30d, '90d': data90d };
-  const repos = data[period];
+  // Every absolute trophy is a 7d signal, so the 30d/90d tabs drop them rather than mix windows (WR-01).
+  const repos = period === '7d' ? data[period] : data[period].map((r) => ({ ...r, trophies: [] }));
   const heroRepo = repos[0];
   const gridRepos = repos.slice(1, 5);
   const sidebarRepos = repos.slice(5, 14);
