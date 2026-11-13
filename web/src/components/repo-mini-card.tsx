@@ -32,11 +32,6 @@ function formatStars(value: number): string {
   return value.toLocaleString();
 }
 
-function formatDelta(value: number): string {
-  if (value === 0) return '0';
-  return value >= 0 ? `+${value.toLocaleString()}` : value.toLocaleString();
-}
-
 export function RepoMiniCard({ repo, rank, period = '7d', labelRank }: RepoMiniCardProps) {
   const description = cleanDescription(repo.description);
   const delta = periodDelta(repo, period);
