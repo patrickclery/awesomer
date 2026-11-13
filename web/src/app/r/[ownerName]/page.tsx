@@ -8,6 +8,8 @@ import { listPath } from '@/lib/routes';
 import type { Metadata } from 'next';
 import { pageMetadata } from '@/lib/metadata';
 import { cleanDescription } from '@/lib/text';
+import type { Trophy } from '@/lib/api';
+import { TrophyChips } from '@/components/trophy-chips';
 
 export async function generateStaticParams() {
   const { data } = getStaticRepoSlugs();
@@ -57,6 +59,9 @@ export default async function RepoDetailPage({
 
   if (!repo) return notFound();
 
+  // A stale data/r/*.json written before trophies existed has no field; treat it as [] (D-16).
+  const trophies: Trophy[] = Array.isArray(repo.trophies) ? repo.trophies : [];
+
   return (
     <div>
       {/* Breadcrumb */}
@@ -95,6 +100,13 @@ export default async function RepoDetailPage({
           )}
         </div>
       </div>
+
+      {/* Trophies (D-12): own row directly above the stats grid, all of them */}
+      {trophies.length > 0 && (
+        <div className="mb-4">
+          <TrophyChips trophies={trophies} size="md" />
+        </div>
+      )}
 
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
