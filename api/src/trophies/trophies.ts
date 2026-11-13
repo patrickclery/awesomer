@@ -106,6 +106,6 @@ export async function findHottestRepoPerList(
     map.set(id, refs);
   }
   for (const refs of map.values())
-    refs.sort((a, b) => a.listName.localeCompare(b.listName));
+    refs.sort((a, b) => a.listName.localeCompare(b.listName, 'en'));
   return map;
 }
