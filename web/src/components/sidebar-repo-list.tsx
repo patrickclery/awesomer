@@ -6,6 +6,7 @@ import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
 import type { Trophy } from '@/lib/api';
 import { TrophyIcon } from '@/components/trophy-chips';
+import { TROPHY_META } from '@/lib/trophies';
 
 interface SidebarRepo {
   id: number;
@@ -24,6 +25,12 @@ function formatStars(value: number): string {
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
   if (value >= 1_000) return `${(value / 1_000).toFixed(1)}k`;
   return value.toLocaleString();
+}
+
+/** First trophy this build knows, so an id newer than the web never hides a known one after it. */
+function FirstTrophyIcon({ trophies }: { trophies?: Trophy[] }) {
+  const first = trophies?.find((t) => TROPHY_META[t.id] !== undefined);
+  return first ? <TrophyIcon trophy={first} /> : null;
 }
 
 export function SidebarRepoList({ repos }: SidebarRepoListProps) {
@@ -76,7 +83,7 @@ export function SidebarRepoList({ repos }: SidebarRepoListProps) {
                 size={11}
                 label={`${repo.githubRepo.split('/')[1]} on GitHub`}
               />
-              {repo.trophies && repo.trophies.length > 0 && <TrophyIcon trophy={repo.trophies[0]} />}
+              <FirstTrophyIcon trophies={repo.trophies} />
             </div>
           </div>
         ))}
