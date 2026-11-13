@@ -5,6 +5,7 @@ import { ExternalGitHubLink } from '@/components/external-github-link';
 import { OwnerAvatar } from '@/components/owner-avatar';
 import { cleanDescription } from '@/lib/text';
 import type { Trophy } from '@/lib/api';
+import { TrophyChips } from '@/components/trophy-chips';
 
 interface RepoHeroCardProps {
   repo: {
@@ -60,8 +61,8 @@ export function RepoHeroCard({ repo }: RepoHeroCardProps) {
           {description}
         </p>
       )}
-      {/* Metric row: delta · stars · github */}
-      <div className="flex items-center gap-4 text-sm">
+      {/* Metric row: delta · stars · github · trophies */}
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 pr-24 text-sm">
         {repo.stars7d != null && repo.stars7d > 0 && (
           <span className="font-bold text-success">
             +{repo.stars7d.toLocaleString()}
@@ -78,6 +79,7 @@ export function RepoHeroCard({ repo }: RepoHeroCardProps) {
           size={16}
           label={`${repo.githubRepo.split('/')[1]} on GitHub`}
         />
+        <TrophyChips trophies={repo.trophies} size="md" max={2} exclude={['hottest-in-list']} />
       </div>
     </div>
   );

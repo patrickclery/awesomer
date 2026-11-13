@@ -12,6 +12,7 @@
   --success: #a6e3a1;
   --danger: #f38ba8;
   --warning: #f9e2af;
+  --peach: #fab387;
   --cyan: #89dcfe;
   --glow-color: rgba(203, 166, 247, 0.4);
   --selection-bg: rgba(203, 166, 247, 0.15);
@@ -29,6 +30,7 @@
   --color-success: var(--success);
   --color-danger: var(--danger);
   --color-warning: var(--warning);
+  --color-peach: var(--peach);
   --color-cyan: var(--cyan);
   --font-sans: var(--font-geist-mono);
   --font-mono: var(--font-geist-mono);
@@ -448,6 +450,57 @@ body::before {
   text-transform: uppercase;
   margin-top: 1px;
 }
+
+/* ===== Trophies (Phase 19) — non-interactive, no motion ===== */
+.trophy-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trophy-chip {
+  --trophy-color: var(--warning);
+  --trophy-fill: 10%;
+  --trophy-edge: 30%;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 8px;
+  max-width: 100%;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in srgb, var(--trophy-color) var(--trophy-edge), transparent);
+  background: color-mix(in srgb, var(--trophy-color) var(--trophy-fill), transparent);
+  color: var(--trophy-color);
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: default;
+}
+.trophy-chip--sm { height: 20px; font-size: 11px; }
+.trophy-chip--md { height: 24px; font-size: 12px; }
+.trophy-chip--sm svg { width: 12px; height: 12px; flex-shrink: 0; }
+.trophy-chip--md svg { width: 14px; height: 14px; flex-shrink: 0; }
+.trophy-label { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+
+.trophy-icon {
+  --trophy-color: var(--warning);
+  display: inline-flex;
+  align-items: center;
+  color: var(--trophy-color);
+  cursor: default;
+}
+.trophy-icon svg { width: 12px; height: 12px; }
+
+.trophy--surge-10k      { --trophy-color: var(--warning); --trophy-fill: 16%; --trophy-edge: 50%; }
+.trophy--hottest-in-list { --trophy-color: var(--peach); }
+.trophy--fast-growing   { --trophy-color: var(--success); }
+.trophy--surge-1k       { --trophy-color: var(--warning); }
 
 @media (prefers-reduced-motion: reduce) {
   .cursor-blink,
