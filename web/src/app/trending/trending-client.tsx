@@ -49,6 +49,8 @@ export default function TrendingClient({ data7d, data30d, data90d }: Props) {
           ))}
         </div>
       </div>
+      {/* Announces the card-set swap that a period click causes (IN-02). */}
+      <p className="sr-only" aria-live="polite">{`Showing ${period} trending repos`}</p>
 
       {repos.length > 0 ? (
         <>
