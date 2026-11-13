@@ -1,4 +1,11 @@
-import { computeTrophies, type ListRef } from '../trophies.js';
+import { jest } from '@jest/globals';
+import { MIN_STARS } from '../../common/constants.js';
+import type { PrismaService } from '../../prisma/prisma.service.js';
+import {
+  computeTrophies,
+  findHottestRepoPerList,
+  type ListRef,
+} from '../trophies.js';
 
 const ALPHA: ListRef = { listSlug: 'alpha', listName: 'Awesome Alpha' };
 const ZETA: ListRef = { listSlug: 'zeta', listName: 'Awesome Zeta' };
@@ -97,5 +104,57 @@ describe('computeTrophies', () => {
       ).not.toThrow();
       expect(ids(1_500, 2_000)).toEqual(['surge-1k']);
     });
+  });
+});
+
+describe('findHottestRepoPerList', () => {
+  const stub = (rows: unknown[]) => {
+    const $queryRaw = jest.fn(() => Promise.resolve(rows));
+    return { $queryRaw, prisma: { $queryRaw } as unknown as PrismaService };
+  };
+
+  it('D-07: groups rows by Number(repo_id) and sorts each repo\'s lists by listName', async () => {
+    const { prisma } = stub([
+      { repo_id: 5, list_slug: 'zeta', list_name: 'Zeta list' },
+      { repo_id: 5, list_slug: 'alpha', list_name: 'Alpha list' },
+      { repo_id: '7', list_slug: 'go', list_name: 'awesome-go' },
+    ]);
+    const map = await findHottestRepoPerList(prisma);
+    expect(map.get(5)).toEqual([
+      { listSlug: 'alpha', listName: 'Alpha list' },
+      { listSlug: 'zeta', listName: 'Zeta list' },
+    ]);
+    expect(map.get(7)).toEqual([{ listSlug: 'go', listName: 'awesome-go' }]);
+    expect((map as Map<unknown, unknown>).has('7')).toBe(false);
+    expect(map.size).toBe(2);
+  });
+
+  it('D-07: an empty result gives an empty Map', async () => {
+    const { prisma } = stub([]);
+    const map = await findHottestRepoPerList(prisma);
+    expect(map.size).toBe(0);
+  });
+
+  it('D-07: runs exactly one query', async () => {
+    const { prisma, $queryRaw } = stub([]);
+    await findHottestRepoPerList(prisma);
+    expect($queryRaw).toHaveBeenCalledTimes(1);
+  });
+
+  it('T-19-07: binds MIN_STARS as a parameter and mirrors the list-page filter and tiebreak', async () => {
+    const { prisma, $queryRaw } = stub([]);
+    await findHottestRepoPerList(prisma);
+    const [strings, ...values] = $queryRaw.mock.calls[0] as unknown as [
+      TemplateStringsArray,
+      ...unknown[],
+    ];
+    const sql = strings.join('?');
+    expect(sql).toMatch(/DISTINCT ON \(al\.id\)/);
+    expect(sql).toMatch(/al\.archived = false/);
+    expect(sql).toMatch(/r\.stars >= \?/);
+    expect(sql).toMatch(/r\.stars_7d > 0/);
+    expect(sql).toMatch(/r\.stars_7d DESC,\s*r\.id ASC/);
+    expect(sql).not.toContain(String(MIN_STARS));
+    expect(values).toEqual([MIN_STARS]);
   });
 });
