@@ -129,4 +129,18 @@ describe('TrendingService trophies', () => {
     expect(out.some((r) => hottest(r).length > 0)).toBe(false);
     expect(findUnique).not.toHaveBeenCalled();
   });
+
+  it.each(['7d', '30d', '90d'] as const)(
+    'IN-01: global %s query orders by the period column desc, then id asc (tiebreak)',
+    async (period) => {
+      const { service, findMany } = build(ROWS, null);
+      await service.getGlobalTrending(period, 25);
+
+      const args = findMany.mock.calls[0][0] as { orderBy: unknown };
+      expect(args.orderBy).toEqual([
+        { [`stars${period}`]: 'desc' },
+        { id: 'asc' },
+      ]);
+    },
+  );
 });

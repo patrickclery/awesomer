@@ -17,7 +17,8 @@ export class TrendingService {
         [orderByField]: { not: null, gt: 0 },
         stars: { gte: MIN_STARS },
       },
-      orderBy: { [orderByField]: 'desc' },
+      // id asc tiebreak keeps the /trending hero (always repos[0]) stable across builds (IN-01).
+      orderBy: [{ [orderByField]: 'desc' }, { id: 'asc' }],
       take: limit,
       include: {
         categoryItems: {
