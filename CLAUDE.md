@@ -223,6 +223,8 @@ The deployment chain is: `web/out/` -> rsync (excluding `__next.*.txt` and `inde
 curl -X POST http://localhost:4000/api/sync/run -H "Authorization: Bearer $KEY"
 ```
 
+**Global search is client-side over `search-index.json`.** `rebuildStaticSite()` writes it to `web/data/` and copies it to `web/public/` (so it lands in `web/out/` and on gh-pages); the search page fetches it once via `siteAsset()`. No page may call the API at runtime — GitHub Pages has no API.
+
 **Next.js cache must be cleared before rebuilds when DB data changes:**
 ```bash
 rm -rf web/.next
@@ -257,7 +259,9 @@ GitHub Pages CDN uses `max-age=600` (10 min). After pushing, wait ~2 min before 
 - `api/src/sync/sync.service.ts` -- `deployStaticSite()` method (temp-dir git init + force-push to gh-pages)
 - `api/src/sync/sync.service.ts` -- `rebuildStaticSite()` method (sets `BASE_PATH` automatically)
 - `api/src/sync/sync.service.ts` -- `RSC_PAYLOAD_EXCLUDES` constant (payload names the deploy leaves out)
-- `web/src/components/site-link.tsx` -- `SiteLink` and `siteHref()` (plain-anchor internal links)
+- `web/src/components/site-link.tsx` -- `SiteLink` and `siteHref()` (plain-anchor internal links), `siteAsset()` (base-path file URLs)
+- `web/src/lib/search.ts` -- `SearchIndex` types and `searchRepos()` (client-side filter and rank)
+- `api/src/sync/static-data.service.ts` -- `exportSearchIndex()` (builds the public search-index.json)
 
 ---
 

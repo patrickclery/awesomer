@@ -93,3 +93,94 @@ describe('StaticDataService.exportRepoDetail trophies', () => {
     expect(db.$queryRaw).not.toHaveBeenCalled();
   });
 });
+
+describe('StaticDataService.exportSearchIndex', () => {
+  const LISTS = [
+    { id: '10', name: 'awesome-go', slug: 'go' },
+    { id: '20', name: 'awesome-mail', slug: 'mail' }
+  ];
+  const CATEGORIES = [
+    { id: '100', name: 'Servers', slug: 'servers', awesomeListId: 20 },
+    { id: '101', name: 'Clients', slug: null, awesomeListId: 20 },
+    { id: '200', name: 'Web', slug: 'web', awesomeListId: 10 }
+  ];
+  const repo = (description: string | null, stars: number | null, stars7d: number | null, stars30d: number | null) => ({
+    description,
+    stars,
+    stars7d,
+    stars30d
+  });
+  const ITEMS = [
+    { githubRepo: 'x/mailcow', name: 'mailcow', description: 'item desc', stars: 9, categoryId: 100, repo: repo('Mail server suite', 1000, 5, 30) },
+    { githubRepo: 'x/mailcow', name: 'mailcow', description: null, stars: 9, categoryId: 101, repo: repo('Mail server suite', 1000, 5, 30) },
+    { githubRepo: 'x/mailcow', name: 'mailcow', description: null, stars: 9, categoryId: 100, repo: repo('Mail server suite', 1000, 5, 30) },
+    { githubRepo: 'a/archived', name: 'Archived Thing', description: '  ' + 'd'.repeat(300), stars: null, categoryId: 999, repo: null },
+    { githubRepo: 'b/gin', name: 'Gin Web', description: 'fallback', stars: 7, categoryId: 200, repo: repo('', null, null, null) }
+  ];
+
+  const makeIndexStub = () => {
+    const db = {
+      awesomeList: { findMany: jest.fn(() => Promise.resolve(LISTS)) },
+      category: { findMany: jest.fn(() => Promise.resolve(CATEGORIES)) },
+      categoryItem: { findMany: jest.fn(() => Promise.resolve(ITEMS)) }
+    };
+    return { db, service: new StaticDataService(db as unknown as PrismaService) };
+  };
+
+  it('emits the tuple shape: lists, categories with null slugs as empty strings, repos sorted by githubRepo', async () => {
+    const { service } = makeIndexStub();
+    const index = await service.exportSearchIndex();
+
+    expect(index.v).toBe(1);
+    expect(index.lists).toEqual([
+      ['go', 'awesome-go'],
+      ['mail', 'awesome-mail']
+    ]);
+    expect(index.cats).toEqual([
+      [1, 'Servers', 'servers'],
+      [1, 'Clients', ''],
+      [0, 'Web', 'web']
+    ]);
+    expect(index.repos.map((r) => r[0])).toEqual(['a/archived', 'b/gin', 'x/mailcow']);
+  });
+
+  it('collapses items of one repo into a single entry whose cats lists each category once', async () => {
+    const { service } = makeIndexStub();
+    const index = await service.exportSearchIndex();
+    const mailcow = index.repos.find((r) => r[0] === 'x/mailcow')!;
+
+    expect(index.repos.filter((r) => r[0] === 'x/mailcow')).toHaveLength(1);
+    expect(mailcow).toEqual(['x/mailcow', null, 'Mail server suite', 1000, 5, 30, [0, 1]]);
+  });
+
+  it('keeps a repo whose categories are all outside the non-archived set, with cats []', async () => {
+    const { service } = makeIndexStub();
+    const index = await service.exportSearchIndex();
+    const archived = index.repos.find((r) => r[0] === 'a/archived')!;
+
+    expect(archived[6]).toEqual([]);
+    expect(archived[1]).toBe('Archived Thing');
+    expect(archived[2]).toBe('d'.repeat(200));
+    expect(archived[3]).toBeNull();
+    expect(archived[4]).toBeNull();
+    expect(archived[5]).toBeNull();
+  });
+
+  it('falls back to the item description and item stars when the repo has none', async () => {
+    const { service } = makeIndexStub();
+    const index = await service.exportSearchIndex();
+
+    expect(index.repos.find((r) => r[0] === 'b/gin')).toEqual(['b/gin', 'Gin Web', 'fallback', 7, null, null, [2]]);
+  });
+
+  it('selects explicit fields only and runs exactly three queries', async () => {
+    const { db, service } = makeIndexStub();
+    await service.exportSearchIndex();
+
+    expect(db.awesomeList.findMany).toHaveBeenCalledTimes(1);
+    expect(db.category.findMany).toHaveBeenCalledTimes(1);
+    expect(db.categoryItem.findMany).toHaveBeenCalledTimes(1);
+    const [itemArgs] = db.categoryItem.findMany.mock.calls[0] as unknown as [{ select: Record<string, unknown> }];
+    expect(Object.keys(itemArgs.select).sort()).toEqual(['categoryId', 'description', 'githubRepo', 'name', 'repo', 'stars']);
+  });
+});

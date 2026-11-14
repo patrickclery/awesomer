@@ -134,6 +134,7 @@ function buildFixture(root: string): Fixture {
   write(join(clone, 'web/out/l/stray.txt'), 'built\n');
   write(join(clone, 'web/out/robots.txt'), 'built\n');
   write(join(clone, 'web/out/llms.txt'), 'built\n');
+  write(join(clone, 'web/out/search-index.json'), '{"v":1}\n');
   // Next.js payload files that must not.
   write(join(clone, 'web/out/index.txt'), 'payload\n');
   write(join(clone, 'web/out/__next._full.txt'), 'payload\n');
@@ -286,7 +287,7 @@ describe('the daily pipeline publishes a stripped gh-pages tree and a README-onl
       it('keeps real text files, every page, and the framework assets', () => {
         const tree = pagesTree(fx);
 
-        for (const path of ['robots.txt', 'llms.txt', 'l/stray.txt', '_next/static/chunks/a.js']) {
+        for (const path of ['robots.txt', 'llms.txt', 'l/stray.txt', 'search-index.json', '_next/static/chunks/a.js']) {
           expect(tree).toContain(path);
         }
         expect(tree.filter((path) => path.endsWith('index.html')).sort()).toEqual(
