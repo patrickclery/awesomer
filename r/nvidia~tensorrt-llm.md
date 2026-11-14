@@ -1,0 +1,19 @@
+# NVIDIA/TensorRT-LLM
+
+> TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/NVIDIA/TensorRT-LLM) | [Live site ↗](https://patrickclery.com/awesomer/r/NVIDIA~TensorRT-LLM/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 15,076 | +44 | +257 | +684 | 2026-11-14 |
+
+## Found In
+
+- [Awesome local LLM](../l/local-llm.md) / Inference engines
+- [Awesome Open Source AI](../l/opensource-ai.md) / High-performance Serving & API Servers
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/NVIDIA~TensorRT-LLM/)*

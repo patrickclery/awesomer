@@ -1,0 +1,18 @@
+# Yelp/docker-custodian
+
+> Keep docker hosts tidy
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Yelp/docker-custodian) | [Live site ↗](https://patrickclery.com/awesomer/r/Yelp~docker-custodian/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 372 | +0 | -1 | -2 | 2026-11-10 |
+
+## Found In
+
+- [awesome-docker](../l/docker.md) / Development with Docker
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/Yelp~docker-custodian/)*

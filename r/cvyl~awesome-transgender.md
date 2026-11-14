@@ -1,0 +1,18 @@
+# cvyl/awesome-transgender
+
+> A list of LGBTQ+ resources focussed on transgender individuals
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/cvyl/awesome-transgender) | [Live site ↗](https://patrickclery.com/awesomer/r/cvyl~awesome-transgender/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 104 | +0 | +2 | +9 | 2026-09-02 |
+
+## Found In
+
+- [awesome](../l/awesome.md) / Health and Social Science
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/cvyl~awesome-transgender/)*

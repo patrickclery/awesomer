@@ -1,0 +1,18 @@
+# ChatGPTNextWeb/NextChat
+
+> ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSe
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/ChatGPTNextWeb/NextChat) | [Live site ↗](https://patrickclery.com/awesomer/r/ChatGPTNextWeb~NextChat/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 88,960 | +16 | +111 | +345 | 2026-10-20 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Local AI Chat UIs & Personal Assistants
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/ChatGPTNextWeb~NextChat/)*

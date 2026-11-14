@@ -1,0 +1,18 @@
+# elixir-ecto/postgrex
+
+> PostgreSQL driver for Elixir
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/elixir-ecto/postgrex) | [Live site ↗](https://patrickclery.com/awesomer/r/elixir-ecto~postgrex/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 1,215 | +0 | +3 | +2 | 2026-10-31 |
+
+## Found In
+
+- [awesome-postgres](../l/postgres.md) / Language bindings
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/elixir-ecto~postgrex/)*

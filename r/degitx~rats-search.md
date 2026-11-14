@@ -1,0 +1,18 @@
+# DEgITx/rats-search
+
+> rats-search: BitTorrent P2P multi-platform search engine for Desktop and Web servers with integrated torrent client
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/DEgITx/rats-search) | [Live site ↗](https://patrickclery.com/awesomer/r/DEgITx~rats-search/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 2,043 | +9 | +22 | +100 | 2026-11-02 |
+
+## Found In
+
+- [awesome-piracy](../l/piracy.md) / Tracker Aggregators
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/DEgITx~rats-search/)*

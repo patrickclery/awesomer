@@ -1,0 +1,18 @@
+# zarazhangrui/frontend-slides
+
+> Create beautiful slides on the web using a coding agent's frontend skills
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/zarazhangrui/frontend-slides) | [Live site ↗](https://patrickclery.com/awesomer/r/zarazhangrui~frontend-slides/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 32,314 | +301 | +1,623 | +4,715 | 2026-06-23 |
+
+## Found In
+
+- [awesome-agent-skills](../l/agent-skills.md) / Community Skills
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/zarazhangrui~frontend-slides/)*

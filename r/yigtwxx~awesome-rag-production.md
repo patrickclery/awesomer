@@ -1,0 +1,18 @@
+# Yigtwxx/Awesome-RAG-Production
+
+> A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Yigtwxx/Awesome-RAG-Production) | [Live site ↗](https://patrickclery.com/awesomer/r/Yigtwxx~Awesome-RAG-Production/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 294 | +2 | +13 | +97 | 2026-11-07 |
+
+## Found In
+
+- [awesome-machine-learning](../l/machine-learning.md) / Tools
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/Yigtwxx~Awesome-RAG-Production/)*

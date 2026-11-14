@@ -1,0 +1,19 @@
+# Slackadays/Clipboard
+
+> 😎🏖️🐬 Your new, 𝙧𝙞𝙙𝙤𝙣𝙠𝙪𝙡𝙞𝙘𝙞𝙤𝙪𝙨𝙡𝙮 smart clipboard manager
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Slackadays/Clipboard) | [Live site ↗](https://patrickclery.com/awesomer/r/Slackadays~Clipboard/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 5,944 | +2 | +16 | +70 | 2026-05-06 |
+
+## Found In
+
+- [Awesome-Linux-Software](../l/linux-software.md) / Tools
+- [awesome-cli-apps](../l/cli-apps.md) / Utilities
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/Slackadays~Clipboard/)*

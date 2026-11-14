@@ -1,0 +1,18 @@
+# Orchestra-Research/AI-Research-SKILLs
+
+> Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your cl
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/Orchestra-Research/AI-Research-SKILLs) | [Live site ↗](https://patrickclery.com/awesomer/r/Orchestra-Research~AI-Research-SKILLs/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 14,535 | +209 | +950 |  | 2026-10-11 |
+
+## Found In
+
+- [awesome-agent-skills](../l/agent-skills.md) / Community Skills
+
+---
+*Updated: 2026-11-14 | [View live site ↗](https://patrickclery.com/awesomer/r/Orchestra-Research~AI-Research-SKILLs/)*
