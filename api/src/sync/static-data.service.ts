@@ -53,6 +53,33 @@ export interface StaticRepoPage {
   trophies: Trophy[];
 }
 
+/** Longest description kept per repo in the public search index. */
+export const SEARCH_DESCRIPTION_MAX = 200;
+
+/**
+ * Compact client-side search index, published as search-index.json.
+ * Twin: web/src/lib/search.ts (SearchIndex) — change both together.
+ */
+export interface StaticSearchIndex {
+  v: 1;
+  /** Non-archived lists, ordered by name: [slug, name]. */
+  lists: Array<[slug: string, name: string]>;
+  /** Categories of non-archived lists: [index into lists, name, slug ('' when null)]. */
+  cats: Array<[listIdx: number, name: string, slug: string]>;
+  /** One row per distinct githubRepo, sorted by githubRepo; cats are indices into cats. */
+  repos: Array<
+    [
+      githubRepo: string,
+      name: string | null,
+      description: string | null,
+      stars: number | null,
+      stars7d: number | null,
+      stars30d: number | null,
+      cats: number[],
+    ]
+  >;
+}
+
 @Injectable()
 export class StaticDataService {
   constructor(private readonly prisma: PrismaService) {}
@@ -131,6 +158,83 @@ export class StaticDataService {
     for (const l of lists) slugs.add(l.githubRepo.replace('/', '~'));
 
     return Array.from(slugs).map((repoSlug) => ({ repoSlug }));
+  }
+
+  /** Builds the public search index from three queries (no per-repo queries). */
+  async exportSearchIndex(): Promise<StaticSearchIndex> {
+    const lists = await this.prisma.awesomeList.findMany({
+      where: { archived: false },
+      orderBy: { name: 'asc' },
+      select: { id: true, name: true, slug: true },
+    });
+    const categories = await this.prisma.category.findMany({
+      where: { awesomeList: { archived: false } },
+      orderBy: [{ awesomeListId: 'asc' }, { name: 'asc' }],
+      select: { id: true, name: true, slug: true, awesomeListId: true },
+    });
+    const items = await this.prisma.categoryItem.findMany({
+      where: { githubRepo: { not: null } },
+      orderBy: { id: 'asc' },
+      select: {
+        githubRepo: true,
+        name: true,
+        description: true,
+        stars: true,
+        categoryId: true,
+        repo: { select: { description: true, stars: true, stars7d: true, stars30d: true } },
+      },
+    });
+
+    // pg returns PKs as strings and FKs as numbers, so key every map by Number(id).
+    const listIdx = new Map<number, number>();
+    const outLists: StaticSearchIndex['lists'] = [];
+    for (const l of lists) {
+      listIdx.set(Number(l.id), outLists.length);
+      outLists.push([l.slug, l.name]);
+    }
+
+    const catIdx = new Map<number, number>();
+    const outCats: StaticSearchIndex['cats'] = [];
+    for (const c of categories) {
+      const li = listIdx.get(Number(c.awesomeListId));
+      if (li === undefined) continue;
+      catIdx.set(Number(c.id), outCats.length);
+      outCats.push([li, c.name, c.slug ?? '']);
+    }
+
+    const groups = new Map<string, typeof items>();
+    for (const item of items) {
+      const key = item.githubRepo!;
+      const group = groups.get(key);
+      if (group) group.push(item);
+      else groups.set(key, [item]);
+    }
+
+    const nonEmpty = (v: string | null | undefined): string | null => {
+      const t = v?.trim();
+      return t ? t : null;
+    };
+
+    const repos: StaticSearchIndex['repos'] = [];
+    for (const [githubRepo, group] of groups) {
+      const segment = githubRepo.split('/')[1] ?? githubRepo;
+      const rawName = group.map((i) => nonEmpty(i.name)).find((n) => n !== null) ?? null;
+      const name = rawName === null || rawName === segment ? null : rawName;
+      const repo = group.find((i) => i.repo)?.repo ?? null;
+      const desc =
+        nonEmpty(repo?.description) ?? group.map((i) => nonEmpty(i.description)).find((d) => d !== null) ?? null;
+      const description = desc === null ? null : desc.slice(0, SEARCH_DESCRIPTION_MAX).trim();
+      const stars = repo?.stars ?? group.find((i) => i.stars !== null)?.stars ?? null;
+      const cats: number[] = [];
+      for (const i of group) {
+        const ci = catIdx.get(Number(i.categoryId));
+        if (ci !== undefined && !cats.includes(ci)) cats.push(ci);
+      }
+      repos.push([githubRepo, name, description, stars, repo?.stars7d ?? null, repo?.stars30d ?? null, cats]);
+    }
+    repos.sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
+
+    return { v: 1, lists: outLists, cats: outCats, repos };
   }
 
   async exportAllRepoDetails(): Promise<Array<{ repoSlug: string; data: StaticRepoPage }>> {

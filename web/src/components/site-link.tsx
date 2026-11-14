@@ -13,6 +13,15 @@ export function siteHref(href: string): string {
   return `${BASE_PATH}${path.endsWith('/') ? path : `${path}/`}${suffix}`;
 }
 
+/**
+ * Turns a root-relative file path (e.g. /search-index.json) into its deployed URL, with no trailing slash.
+ * Use this for files; siteHref() is for pages, and its trailing slash would break a file URL.
+ */
+export function siteAsset(path: string): string {
+  if (!path.startsWith('/') || path.startsWith('//')) return path;
+  return `${BASE_PATH}${path}`;
+}
+
 type SiteLinkProps = Omit<ComponentPropsWithoutRef<'a'>, 'href'> & { href: string };
 
 // The deploy omits the framework's payload files, so a plain anchor is the only navigation that does not issue a failing fetch.

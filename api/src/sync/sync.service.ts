@@ -892,7 +892,7 @@ export class SyncService {
   async rebuildStaticSite() {
     this.logger.log('Step 6: Rebuilding static site...');
     const { spawn } = await import('child_process');
-    const { writeFileSync, mkdirSync, rmSync, statSync, readdirSync, existsSync } = await import('fs');
+    const { writeFileSync, mkdirSync, rmSync, statSync, readdirSync, existsSync, copyFileSync } = await import('fs');
     const path = await import('path');
     const webDir = path.resolve(process.cwd(), '..', 'web');
     const dataDir = path.join(webDir, 'data');
@@ -913,6 +913,17 @@ export class SyncService {
       const repoSlugs = await this.staticData.exportRepoSlugs();
       writeFileSync(path.join(dataDir, 'repo-slugs.json'), JSON.stringify({ data: repoSlugs }));
       this.logger.log(`Exported repo-slugs.json: ${repoSlugs.length} slugs`);
+
+      // Client-side search index: the static site has no API, so /search filters this file in the browser.
+      const searchIndex = await this.staticData.exportSearchIndex();
+      const searchIndexJson = JSON.stringify(searchIndex);
+      const searchIndexFile = path.join(dataDir, 'search-index.json');
+      writeFileSync(searchIndexFile, searchIndexJson);
+      mkdirSync(path.join(webDir, 'public'), { recursive: true });
+      copyFileSync(searchIndexFile, path.join(webDir, 'public', 'search-index.json'));
+      this.logger.log(
+        `Exported search-index.json: ${searchIndex.repos.length} repos, ${Buffer.byteLength(searchIndexJson)} bytes`,
+      );
 
       // Pre-dump per-repo detail JSON so build pages read from disk instead of HTTP
       const repoDir = path.join(dataDir, 'r');
@@ -974,7 +985,11 @@ export class SyncService {
       if (listDirs < 25) {
         throw new Error(`Build sanity check failed: web/out/l/ has only ${listDirs} entries (expected >= 25)`);
       }
-      this.logger.log(`Static site rebuilt successfully (homepage ${(statSync(homepage).size / 1024).toFixed(0)}KB, ${repoDirs} repo pages, ${listDirs} list pages)`);
+      const outSearchIndex = path.join(outDir, 'search-index.json');
+      if (!existsSync(outSearchIndex) || statSync(outSearchIndex).size < 500_000) {
+        throw new Error(`Build sanity check failed: ${outSearchIndex} missing or too small (< 500KB)`);
+      }
+      this.logger.log(`Static site rebuilt successfully (homepage ${(statSync(homepage).size / 1024).toFixed(0)}KB, ${repoDirs} repo pages, ${listDirs} list pages, search index ${(statSync(outSearchIndex).size / 1024).toFixed(0)}KB)`);
     } catch (error) {
       this.logger.error('Static site build failed', error);
       throw error;
