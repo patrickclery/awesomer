@@ -1,0 +1,18 @@
+# kubestellar/console
+
+> World's first fully integrated and fully Automated Kubernetes management and orchestration solution
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/kubestellar/console) | [Live site ↗](https://patrickclery.com/awesomer/r/kubestellar~console/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 155 | +3 | +7 | +28 | 2026-11-21 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Monitoring, Evaluation & Observability
+
+---
+*Updated: 2026-11-21 | [View live site ↗](https://patrickclery.com/awesomer/r/kubestellar~console/)*

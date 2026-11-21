@@ -1,0 +1,19 @@
+# LearningCircuit/local-deep-research
+
+>  ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ 
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/LearningCircuit/local-deep-research) | [Live site ↗](https://patrickclery.com/awesomer/r/LearningCircuit~local-deep-research/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 9,618 | +37 | +235 | +648 | 2026-11-21 |
+
+## Found In
+
+- [awesome-selfhosted](../l/selfhosted.md) / Generative Artificial Intelligence (GenAI)
+- [Awesome local LLM](../l/local-llm.md) / Research
+
+---
+*Updated: 2026-11-21 | [View live site ↗](https://patrickclery.com/awesomer/r/LearningCircuit~local-deep-research/)*

@@ -1,0 +1,18 @@
+# FlintSH/Flare
+
+> A modern, lightning-fast file sharing platform built for self-hosting. Created with support for ShareX, KDE Spectacle, F
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/FlintSH/Flare) | [Live site ↗](https://patrickclery.com/awesomer/r/FlintSH~Flare/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 139 | +1 | +1 | +11 | 2026-11-17 |
+
+## Found In
+
+- [awesome-selfhosted](../l/selfhosted.md) / File Transfer - Single-click & Drag-n-drop Upload
+
+---
+*Updated: 2026-11-21 | [View live site ↗](https://patrickclery.com/awesomer/r/FlintSH~Flare/)*
