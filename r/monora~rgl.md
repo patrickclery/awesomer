@@ -1,0 +1,18 @@
+# monora/rgl
+
+> RGL is a framework for graph data structures and algorithms in Ruby.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/monora/rgl) | [Live site ↗](https://patrickclery.com/awesomer/r/monora~rgl/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 423 | -4 | -3 | +1 | 2026-08-21 |
+
+## Found In
+
+- [awesome-ruby](../l/ruby.md) / Scientific
+
+---
+*Updated: 2026-11-25 | [View live site ↗](https://patrickclery.com/awesomer/r/monora~rgl/)*

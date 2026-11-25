@@ -1,0 +1,19 @@
+# sayanarijit/xplr
+
+> A hackable, minimal, fast TUI file explorer
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/sayanarijit/xplr) | [Live site ↗](https://patrickclery.com/awesomer/r/sayanarijit~xplr/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 4,852 | +0 | +6 | +43 | 2026-11-17 |
+
+## Found In
+
+- [awesome-shell](../l/shell.md) / Command-Line Productivity
+- [awesome-cli-apps](../l/cli-apps.md) / Files and Directories
+
+---
+*Updated: 2026-11-25 | [View live site ↗](https://patrickclery.com/awesomer/r/sayanarijit~xplr/)*

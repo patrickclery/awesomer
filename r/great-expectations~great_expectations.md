@@ -1,0 +1,18 @@
+# great-expectations/great_expectations
+
+> Always know what to expect from your data.
+
+[Home](../README.md) | [View on GitHub ↗](https://github.com/great-expectations/great_expectations) | [Live site ↗](https://patrickclery.com/awesomer/r/great-expectations~great_expectations/)
+
+## Stats
+
+| Stars | 7d | 30d | 90d | Last Commit |
+|-------|----|-----|-----|-------------|
+| 11,948 | +6 | +46 | +215 | 2026-11-17 |
+
+## Found In
+
+- [Awesome Open Source AI](../l/opensource-ai.md) / Data Quality & Validation
+
+---
+*Updated: 2026-11-25 | [View live site ↗](https://patrickclery.com/awesomer/r/great-expectations~great_expectations/)*
